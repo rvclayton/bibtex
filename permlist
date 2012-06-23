@@ -1,0 +1,3485 @@
+#!/bin/ksh
+
+cat <<eof! |
+.profile : howard
+17 mistakes microsoft made in the xbox security system : steil
+23 things i know about modules for scheme : queinnec
+56kbps data transmission across the pstn : henderson
+64 bit programming in a 32 bit world : nicholson
+802.11b access point mapping : byers
+a better api for first class continuations : feeley
+a bibliography of garbage collection and related topics : sankaran
+a bibliography of programming style : thomas
+a bibliography on syntax error handling in context free languages : van den bosch
+a binding protocol for distributed shared objects : shapiro
+a block sorting lossless data compression algorithm : burrows
+a brief guide to linear logic : scedrov
+a brief history of algebra and computing an eclectic oxonian view : bowen
+a brief history of the internet and related networks : cerf
+a brief survey of systems providing process or object migration : nuttall
+a busy developers guide to soap : winer
+a calculus of durations : chaochen
+a case for direct mapped caches : hill
+a case study in applied algorithm design : bentley
+a case study of a netizens guide to elections : dutton
+a case tool platform using an xml representation of java source code : maruyama
+a centaur tutorial : anon
+a classification of case technology : fuggetta
+a cmos risc processor with integrated system functions : moussouris
+a code generator interface for ansi c : fraser
+a cognitive perspective on teaching object oriented analysis and design : ryan
+a collection of declarative ada example programs : thornley
+a comparative analysis of functional correctness : dunlop
+a comparative evaluation of generic programming in java and c++ : saiedian
+a comparative study of language support for generic programming : garcia
+a comparison of four reverse engineering tools : bellay
+a comparison of microsofts c# programming language to sun microsystems java programming language : obasanjo
+a comparison of object modelling notations alloy uml and z : jackson
+a comparison of queueing cluster and distributed computing systems : kaplan
+a comparative study of language support for generic programming : garcia
+a compiler based approach to protocol optimization : castelluccia
+a compiler definition facility based on the syntatic macro : campbell
+a compiler writers guide to c# : shields
+a computer music system that follows a human conductor : morita
+a configurable visual programming environment : karsai
+a constructive development environment for parallel and distributed programs : magee
+a controlled experiment to assess the benefits of procedure argument type checking : prechelt
+a cool and practical alternative to traditional hash tables : erlingsson
+a cooperative program understanding environment : aquilici
+a correspondence between algol 60 and churchs lambda notation part i : landin
+a correspondence between algol 60 and churchs lambda notation part ii : landin
+a critique of c++ : joyner
+a critique of the gnu hurd multi server operating system : walfield
+a critique of the windows application programming interface : spinellis
+a data labelling technique for high performance protocol processing and its consequences : feldmeier
+a declarative approach to visualizaing concurrent components : gruia-catalin
+a descent into limbo : kernighan
+a description of the dos file system : erdelsky
+a design approach for ultrareliable real time systems : lala
+a design rationale for a language based editor : welsh
+a discipline for constructing multiphase communication protocols : chow
+a discipline of multiprogramming : misra
+a distributed alternative to finite state machine specifications : zave
+a distributed heterogeneous supercomputing management system : ghafoor
+a distributed local area network packet protocol for combined voice and data transmission : limb
+a distributed object model for the java system : wollrath
+a distributed protocol for channel based communication with choice : knabe
+a distributed single address space operating system supporting persistence : heiser
+a distributed system : rushby
+a domain specific language for video device drivers from design to implementation : thibault
+a dual ui constraint equation solver in c++ : medwin
+a dynamic network architecture : omalley
+a fast algorithm for color image quantization using only 256 colors : watanabe
+a fast and general implementation of mach ipc in a network : orman
+a fast division technique for constant divisors : artzy
+a fast file system for unix : mckusick
+a faster udp : partridge
+a fifteen puzzle in fran : elliott
+a first course in computer science mathematical principles for software engineering : mills
+a first look at novice compilation behaviorusing bluej : jadud
+a flexible message service specification : calvert
+a formal description of behavioral verilog based on axiomatic semantics : fiskio-lasseter
+a formal proof of a protocol for communications over faulty channels using the larch prover : chetali
+a formal specification maturity model : fraser
+a framework for controlling coopeerative agents : lee
+a framework for defining the quality of communications services : richters
+a framework for evaluating specification methods for reactive systems : ardis
+a framework for network protocol software : huni
+a framework for protocol composition in horus : van renesse
+a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
+a framework for specifying and visualizing architectural designs : holt
+a framework for the nonmonolithic implementation of protocols in the x kernel : jain
+a functional correctness model of program verification : zelkowitz
+a functional io system : felleisen
+a general purpose macrogenerator : strachey
+a generalization of exceptions and control in ml like languages : gunter
+a generic iterator for tree traversal : ananiev
+a genetic algorithm for the assembly line balancing problem : anderson
+a gentle introduction to ted nelsons zigzag structure : lukka
+a global authentication service without global trust : birrell
+a graph model for unsupervised lexical acquisition : widdows
+a graphical interface for chip : alvisi
+a graphical logic for specifying concurrent systems : dillon
+a guide for new referees in theoretical computer science : parberry
+a guide to starting a javaspace : pritchard
+a guided tour of mercurial : eide
+a guided tour of program design methodologies : bergland
+a high level language for specifying pictures : van wyk
+a high performance software implementation of the data encryption standard dea : glawitsch
+a high school program in computer science : gal-ezer
+a highly restricted temporal logic with a tractable decision procedure : pratt
+a historical overview of computer architecture : smith
+a history of clu : liskov
+a hybrid state machine notation for component specification : sakharov
+a laboratory environment for experimenting with xinu : comer
+a laboratory for teaching object-oriented thinking : beck
+a lambda calculus of objects and method specialization : mitchell
+a language based approach to protocol construction : basu thesis
+a language-based approach to protocol construction : basu 
+a language based approach to protocol implementation : abbott
+a language for writing code generators : fraser
+a larch specification of copying garbage collection : nettles
+a larch specification of the miro editor : zaremski
+a learning guide to design patterns : kerievsky
+a library implementation of posix threads under unix : mueller
+a lift simulation prototype : galpin
+a linear logic quicksort : baker
+a linguistic approach to failure handling in distributed systems : schlichting
+a linguistic framework for dynamic composition of dependability protocols : agha
+a little knowledge can go a long way towards program understanding : sayyad-shirabad
+a logic based approach to system modelling : rich
+a logical calculus of the ideas immanent in nervous activity : mculloch
+a machine independent debugger revisited : hanson
+a master of software engineering curriculum : ford
+a mathematical theory of communication : shannon
+a measurement base performance analyzer for real time program : kenny
+a method for analyzing loop programs : waters
+a methodology for building application specific visualizations of parallel programs : stasko
+a methodology for implementing highly concurrent data objects : herlihy
+a methodology for procedure cloning : cooper
+a micro manual for lisp not the whole truth : mccarthy
+a micromodularity mechanism : jackson
+a microprocessor based implantable telemetry system : fernald
+a microprogrammed p code interpreter for the data general eclipse s 130 minicomputer : hall
+a model and compilation strategy for out of core data parallel programs : bordawekar
+a model for flexible high performance communication subsystems : zitterbart
+a modest stl tutorial : k
+a modular architecture for providing carrier grade sip telephony services : khlifi
+a modular geometric constraint solver for user interface applications : hosobe
+a modular module system : leroy
+a modular proof of correctness for a network synchronizer : fekete
+a module system for scheme : curtis 
+a multi user virtual machine : czajkowski
+a multiparadigm approach to compiler construction : justice
+a multiparty coordination aspect language : corchuelo
+a nation of strangers : katz
+a network file system over http remote access and modification of files and files : kiselyov
+a neural network approach to set up the benes switch : hakim
+a neural network expert system for diagnosing and treating hypertension : poli
+a new admission control method for real time communication in an internetwork : ferrari
+a new approach to abstract data types i informal development : feferman
+a new approach to economic development an analysis of innovativeness in the states : berman
+a new approach to forth native code generation : ertl
+a new approach to object oriented middleware : henning
+a new architecture for the implementation of scripting languages : sah
+a new arq scheme for multicast satellite communication : quernheim 
+a new c compiler : thompson
+a new color naming system for graphics languages : berk
+a new implementation of the icon language : proebsting
+a new page table for 64 bit address spaces : talluri
+a new parsing method for non lr 1 grammars : harford
+a new solution of dijkstras concurrent programming problem : lamport
+a node positioning algorithm for general trees : walker
+a noninvasive architecture to monitor real time distrubted systems : tsai
+a note on distributed computing : waldo
+a note on reliable full duplex transmission over half duplex links : bartlett
+a note on searching in a binary search tree : andersson
+a novel algorithm for discrete event simulation : debenedictis
+a novel program representation for interprocedural analysis : agrawal
+a paradigm shift in the distribution of multimedia : parr
+a paradigm shift to oop has occurred implementation to follow : mitchell
+a parallel approach to high speed protocol processing : `chan
+a parametric object system : skibinski
+a partial evaluator and its use as a programming tool : beckman
+a pattern language for tool construction and integration based on the tools and materials metaphor : riehle
+a plea for lean software : wirth
+a pointless derivation of radix sort : gibbons
+a portable multiprocessor interface for standard ml of new jersey : morrisett
+a pratical context sensitive interprocedural analysis framework for c compilers : hendren
+a practical data flow computer : watson
+a practical suffix tree implementation for string searches : dorohonceanu
+a prettier compiler compiler generating higher order parsers in c : breuer
+a primer on python metaclass programming : mertz
+a principled approach to operating system construction in haskell : hallgren
+a procedural interface for program directing : sosic
+a procedure for designing abstract interfaces for device interface modules : heninger
+a program transformation technique to support aop within c++ templates : roychoudhury
+a programmable interface language for heterogeneous distributed systems : falcone
+a programmer oriented approach to safe concurrency : greenhouse
+a programmers introduction to predicate logic : cunningham
+a programming language perspective to compositional software architectures : sabry
+a project for operating systems simulation : shay
+a proof technique for communicating sequential processes : levin
+a proposed standard for binary floating point arithmetic : stevenson
+a quantitative comparison of architectures for atm switching systems : witte
+a readable tcp in the prolac protocol language : kohler
+a reflective model of inheritance : jagannathan
+a relational notation for state transition systems : lam
+a report on object oriented extensions to pascal : bergin
+a research c# compiler : hanson
+a retargetable compiler for ansi c : fraser
+a retargetable debugger : ramsey
+a retargetable instruction reorganizer : davidson
+a retrospective on paradigms of ai programming : norvig
+a reusable architecture for simulations : dahmann
+a road map through nachos : narten
+a scala tutorial for java programmers : schinz
+a scalable content addressable network : ratnasamy
+a schedulability analyzer for real time euclid : stoyenko
+a scheme api for test suites : bothner
+a scheme for little languages in interactive graphics : beckman
+a scheme for real time channel establishment in wide area networks : ferrari
+a scheme shell : shivers 
+a second opinion on data flow machines and languages : gajski
+a secure os based firewall : bonilla
+a security kernel for a multiprocessor microcomputer : schell
+a short history of the internet : sterling
+a simple and extensible graphical debugger : hanson
+a simple and powerful type system for programming lanauges : ayres
+a simple and unifying approach to subjective objects : smith
+a simple cmos camera for itsy : bartlett
+a simple equation solver and its application to financial modelling : derman
+a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
+a simple reflexive interpreter : jefferson
+a simplified account of polymorphic references : harper
+a sip based conference control framework : koskelainen
+a small hybrid jit for embedded systems : manjunath
+a social compromise a contract with limits : stannard
+a sociological history of the neural network controversy : olazaran
+a software engineering perspective on algorithmics : weihe
+a software reengineering method using domain models : debaud
+a specification driven architectural design environment : tanir
+a specification of modula 2 process coroutine management : nicholl
+a specification of the soar cognitive architecture in z : milnes
+a specifiers introduction to formal methods : wing
+a spiral model of software development and enhancement : boehm
+a sruvey of cache coherence schemes for multiprocessors : stenstrom
+a stackable file system interface for linux : zadok
+a statistical approach to the spam problem : robinson
+a stepwise refinement based approach for synthesizing protocol specifications in an interpreted petri net model : kahlouche
+a stop and go queueing framework for congestion management : golestani
+a straightforward denotational semantics for nondeterministic data flow programs : kosinski
+a study of common pitfalls in simple multi threaded programs : choi
+a study of design characterization in evolving software using stability as a criterion : kelly
+a study of the fragile base class problem : makhajlov
+a suite of unix filters for fragment assembly : myers
+a survey and classification of some program transformation approaches and techniques : feather
+a survey of adaptable grammars : christiansen
+a survey of attack and defense techniques for reputation systems : hoffman
+a survey of cache coherence schemes for multiprocessors : stenstrom
+a survey of high level langague machines in japan : yamamoto
+a survey of interconnection networks : feng
+a survey of light weight transport protocols for high speed networks : doeringer
+a survey of linguistic structures for application level fault tolerance : de florio
+a survey of object oriented concepts : nierstrasz
+a survey of parallel computer architectures : duncan
+a survey of peer to peer content distribution technologies : androutsellis-theotokis
+a survey of structured and object oriented software specification methods and techniques : wieringa
+a survey of techniques for achieving metadata interoperability : haslhofer
+a survey of web cache replacement strategies : podlipnig
+a survey of wormhole routing techniques in direct networks : ni
+a syntactic theory of software architecture : dean
+a syntax directed integrated programming environment for developing simd supercomputer software : perrott
+a system architecture for fault tolerance in concurrent software : ancona
+a system for constructing configurable high level protocols : bhatti
+a systematic approach to host interface design for high speed networks : steenkiste
+a systematic approach to multiple inheritance implementation : templ
+a taste of category theory for computer scientists : pierce
+a taxonomy based comparison of several distributed shared memory systems : tam
+a taxonomy of broadband integrated switching architectures : daddis
+a taxonomy of computer program security flaws with examples : landwehr
+a taxonomy of datatypes : meek
+a taxonomy of program visualization systems : roman
+a taxonomy of race conditions : helmbold
+a taxonomy of race detection algorithms : hembold
+a taxonomy of reconfiguration techniques for fault tolerant porcessor arrays : chean
+a theory of programming modifications : ramalingam
+a tool for visualizing the execution of interactions on a loosely coupled distributed system : ashton
+a tour of the squeak object engine : rowledge
+a trying c++ experience why compare dropped c++ : dinesh
+a tutorial for the sam command language : pike
+a type system for preventing data races and deadlocks in java programs : boyapati
+a uniform approach for compile time and run time specialization : consel
+a universal scripting framework : shivers
+a unix based local computer network with load balancing : hawang
+a unix tool for managing reusable software components : plaice
+a users guide to planet : miyata
+a users manual for metapost : hobby
+a vcode tutorial : engler
+a verified connection management protocol for the transport layer : murphy
+a very high speed architecture for simulated annealing : abramson
+a video storage system for on demand playback : yen-jen oyang
+a vision of visualization in teaching object oriented programming : ben-ari
+a vlsi geometry processor for graphics : clark
+a voice over ip service architecture for integrated communications : rizzetto
+a weakness in the 4.2 bsd unix tcp ip software : morris
+a whirlwind tutorial on creating really teensy elf executables for linux : raiter
+aaree a recipe for analyzing object oriented programming : khurshid
+ablego a function outlining and partial inlining framework : zhao
+abortion on the air broadcasters and indecent political advertising : reviera-sanchez
+about charity : cockett
+about synchronous programming and abstract interpretation : halbwachs
+abstaction descant part 2 : gabriel
+abstract data types and software validation : guttag
+abstract data types and the development of data structures : guttag
+abstraction and verification in alphard a symbol table example : london
+abstraction and verification in alphard design and verification of a tree handler : shaw
+abstraction and verification in alphard introduction to language and methodology : wulf
+abstraction and verification in alphard iteration and generators : shaw
+abstraction and visualization in graphical debuggers : korn
+abstraction descant part 1 : gabriel
+abstraction techniques in modern programming languages : shaw
+abstractions for recursive pointer data structures improving the analysis and transofrmation of imperative programs : hendren
+access control in collaborative systems : tolone
+ace a syntax driven c preprocessor : gosling
+ace building interactive graphical applications : johnson
+achieving efficiency and portability in systems software a case study on posix} compliant multithreaded programs : shinjo
+achieving software quality with testing coverage measures : horgan
+acid manual : winterbottom
+acm programming contest problems : anon
+acme a user interface for programmers : pike
+action semantics : solnneger
+action semantics a tool for developing programming languages : doh
+active messages a mechanism for integrated communication and computation : von eicken
+ad hoc self supervising peer to peer search networks : cooper
+ada 95 a guide for c and c++ programmers : johnston
+ada and software defelopment support a new concept in language design : leblanc
+ada system dependency analyzer tool : baratta-perez
+adaptable architectures for supersystems : vick
+adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
+adapting correcting and perfecting software estimates a maintenance metaphor : abdel-hamid
+adaptive an object oriented framework for flexible and adaptive communication protocols : box
+adaptive automata for context dependent languages : neto
+adaptive block coding : deel
+adaptive delta modulation : knott
+adaptive parallelism and piranha : carriero
+adaptive routing protocols for hypercube interconnection networks : gaughan
+adaptive service composition in flexible processes : ardagna
+adaptive star grammars and their languages : drewes
+adaptive unsharp masking : kientzle
+adding dynamic interfaces to smalltalk : sadeh
+adding equations to pccts : hamel
+adding generic functions to scheme : tessman
+adding performance aspects to specification languages : bochmann
+Adding Wildcards to the Java Programming Language : torgersen
+admissible state semantics for representational systems : doyle
+admission control for real time packet sessions : farrandiz
+adslgen reference manual : wang
+advanced bash scripting guide : cooper
+advanced embedded x86 programming paging : gareau
+advanced javascript debugging tutorial : goodman
+advanced javascript tutorial : thau
+advanced module systems a guide for the perplexed : pierce
+advanced programming lanauge features for executable design patterns better patterns through reflection : sullivan
+advanced programming techniques using scheme : morequ
+advanced real time languages for distributed industrial process control : steusloff
+advanced thread synchronization in java using interaction expressions : heinlein
+advances and remaining challenges to adoption of public key infrastructure technology : mcclure
+advances in computer mass storage technology : chi
+advances in dataflow programming languages : johnston
+advancing candidate link generation for requirements tracing: the study of methods : hayes
+aesthetic layout of generalized trees : bloesch
+agentsheets a medium for creating domain oriented visual languages : repenning
+agile parsing in txl : dean
+aglets 2.0.2 users manual : ferrari
+agora message passing as a foundation for exploring oo language concepts : codenie
+ai and search exhaustive search methods : schmidt
+aitpm a strategy for integrating ip with atm : parulkar
+aladin a scanner generator for incremental programming environments : fischer
+alchemy transmuting base alloy specifications into implementations : krishnamurthi
+alef language reference manual : winterbottom
+algebraic identities for program calculation : bird
+algol 68 as a metalanguage for denotational semantics : pagan
+algol w reference manual : eve
+algorithm form dynamic software cache coherence : sandhu
+algorithms and data structures for flash memories : gal
+algorithms and issues in server software design : anon
+algorithms for directed graphs : mangano
+algorithms for scalable synchronization on shared-memory multiprocessors : mellior-crummey
+algorithms for stereoscopic imaging : duvanenko
+algorithms implementing distributed shared memory : stumm
+alien text file compresion : swan
+all i really need to know about pair programming i learned in kindergarten : williams
+all optical networks : chatterjee
+all optical packet switching for metropolitan area networks opportunities and challenges : yao
+all the needles in the haystack can exhaustive search overcome combinatorial chaos : nievergelt
+alma0 an imperative language that supports declarative programming : apt
+almost free text aft reverence manual : coram
+alpha a family of structured intermediate representations for a parallelizing c compiler : hendren
+alphonse wait here for my signal : hartley
+also the language : myers
+alternate distribution strategies for digital music : premkumar
+alternate realities : casti
+alternating skip lists : marrie
+alternatives in efficient protocol implementations for high speed networks : gunningberg
+alternatives to two classic data structures : okasaki
+american business public policy case studies and political theory : lowi
+amoeba a distributed operating systems for the 1990s : mullender
+amorphous computing : abelson
+amroute adhoc multicast routing protocol : xie
+an abstract model of rollback recovery control in distributed systems : cao
+an access control facility for programming languages : jones
+an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
+an ada interface to diana for intertool communication : howell
+an adaptive transport service suitable for high speed networks : richards
+an advanced 4.3 bsd interprocess communication tutorial : leffler
+an agent based approach for building complex software systems : jennings
+an algorithm for filling regions on graphics display devices : lane
+an analysis of process and memory models to support high speed networking in a unix environment : murphy
+an analysis of tcp processing overhead : clark
+an annotated bibliography of interactive program steering : gu
+an apl machine : abrams
+an applicative control flow graph based on huets zipper : ramsey
+an appraisal of program specifications : liskov
+an approach to executable specifications based on formal source to source conversion : xinger
+an approach to genuine dynamic linking : ho
+an architecture for secure voip and collaboration applications : zisiadis
+an architectural framework for supporting heterogeneous instruction set architectures : silberman
+an architectural trail to threaded code systems : kogge
+an aristocracy of everyone : barber
+an attribute grammar evaluator in haskell : rushall
+an awk to c++ translator : kernighan
+an axiomatic basis for computer programming : hoare
+an efficient context-free parsing algorithm : earley
+efficient implementation of trie structures : aoe
+efficient interpretation using quickening : brunthaler
+an efficient reliable broadcast protocol : kaashoek
+an empiricaly driven mathematical modeling analysis for play calling strategy in american football : boronico
+an empirical analysis of c preprocessor use : ernst
+an empirical comparison and characterization of high defect and high complexity modules : koru
+an end to end approach to host mobility : snoeren
+an ethnographic study of copy and paste programming practices in oopl : kim
+an evaluation of self adjusting binary search tree techniques : bell
+an exercise in dependent types a well typed interpreter : augustsson
+an experiment in table driven code generation : graham
+an experiment with inline substitution : cooper
+an experimental evaluation of continuous testing during development : saff
+an experimental evaluation of the assumption of independence in multi-version programming : knight
+an experimental user level interface of tcp : braun
+an exploration of novice programming errors in an object oriented environment : barr
+an expressive language of signatures : ramsey
+an extensible program representation for object oriented software : malloy
+an extensible programming environment for modula 3 : jordan
+an illustration of the domain analysis process : leach
+an implementation of an applicative file system : heck
+an implementation of precompiled headers : litman
+an implementation of rtp version 1 for the x kernel : laio
+an improved algorithm for detecting objects in code : canfora
+an improved context free recognizer : graham
+an informal operational semantics of c linda : narem
+an informal tour on denotational semantics : de meuter
+an inheritance model for supporting flexible displays of data structures : dewan
+an integer method for the graphical output of conic sections : prosser
+an introduction to dependability : patterson
+an introduction to disk drive modeling : granger
+an introduction to haskell with applications to digital signal processing : goblirsch
+an introduction to morphic : maloney
+an introduction to process algebra : bergstra
+an introduction to quantum computation and quantum communication : pike
+an introduction to software architecture : gralan
+an introduction to speech and speaker recognition : peacocke
+an introduction to the bird meertens formalism : gibbons
+an introduction to the wsl program transformer : bull
+an introduction to tkgofer : vullinghs
+an investigation into concurrent semantic analysis : seshadri
+an investigation of requirement specification languages theory and practice : levene
+an ms dos file system for unix : forin
+an n log n adaptive sorting algorithm : gong
+an object based taxonomy for distributed computing systems : martin
+an object oriented approach to constructing recursive descent parsers : davis
+an object oriented architecture for text retrieval : cutting
+an object oriented ll1 parser generator : kuhl
+an old fashioned recipe for real time : abadi
+an open source tool for systemc to verilog automatic translation : castillo
+an operating system approach to securing e services : dalton
+an operating systems vade mecum : finkel
+an operational approach to requirements specification for embedded systems : zave
+an operational semantics for csp : plotkin
+an operational semantics of first class synchronization operations : reppy
+an optimal algorithm for mutual exclusion in computer networks : ricart
+an optimized matrix library in c++ : barad
+an optimizing compiler for an spap architecture uisng ai tools : azaria
+an optimizing compiler for the icon programming language : walker
+an optimum parallel architecture for high speed real time digital signal processing : lang
+an overview of data compression techniques : reghbati
+an overview of query optimization in relational systems : chaudhury
+an overview of temproal and modal logic programming : orgun
+an overview of the production quality compiler compiler project : leverett
+an overview of the scala programming language : odersky
+an oz primer : smolka
+an xml based framework for language neutral program representation and generic analysis : al-ekram
+analysis and detection of computer viruses and worms an annotated bibliography : singh
+analysis as model thomas kuhns paradigm shift in the structure of scientific revolution : anon
+analysis of proposals for the floating point standard : cody
+analysis of visual motion by biological computer systems : ullman
+analyzing and compressing assembly code : fraser
+analyzing differences between internet information systems software architectures : abowd
+analyzing distributed algorithms with first order logic : shlyakhter
+and efficient parallel garbage collection system and its correctness proof : kung
+angel resource unification in a 64 bit micro kernel : murray
+animating fracture : o'brian
+animating z specifications in haskell using a monad : goodman
+annotating objects for transport to other worlds : ungar
+ant tutorial : mills
+anti vamming trust enforcement in peer to peer voip networks : banerjee
+antlr translator generator faq : jguru
+aop and the antinomy of the liar : forster
+application graphics modeling support through object orientation : egbert
+application performance and flexibility on exokernel systems : kaashoek
+applications of continuations : friedman
+applications of the proposed ieee 754 standard for floating point arithmetic : hough
+applicative programming with effects : mcbride
+applying and interpeting object oriented metrics : rosenberg
+applying data flow techniques to data base machines : boral
+applying design by contract : meyer
+applying pi towards a basis for concurrent imperative programming : odersky
+applying software complexity metrics to program maintenance : harrison
+applying user level measurements to rti 1.3 release 2 : cohen
+architectural and software issues in the design and application of peripheral array processors : karplus
+architectural considerations for a new generation of protocols : clark
+architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
+architectural styles and the design of network-based software architectures : fielding
+architectural support for cooperative multiuser interfaces : bentley
+architectural support for designing fault tolerant open distributed systems : hariri
+architectural thinking and modeling with the architects workbench : nelson
+architecture independent parallel computation : skillicorn
+architecture of an open object oriented database management system : wells
+architecure and design of adaptive object models : yoder
+are operating systems obsoloete? : denning
+area codes country codes penal codes and toll free numbers : keevers
+arguments and results : noble
+arithmetic equality constraints as c++ statements : van wyk
+arithmetic shifting considered harmful : steele
+artifical neural networks a tutorial : jain
+as for abstract syntax manual : despeyroux
+as we may think : bush
+asap a protocol for symbolic computation systems : dalmas
+asc an associative computing paradigm : potter
+asdlgen reference manual : wang
+aspect oriented programming : highley
+aspect oriented programming : kiczales
+aspect oriented programming for distributed systems its use its effect on language design and its limits : van roy
+aspectcool an experiment in design and implementation of aspect oriented language : avdicausevic
+assessing the relationship between software assertions and code quality:an empirical investigation : kudjravets
+assessing voice quality in packet based telephony : janssen
+assignment as the sole means of updating objects : buhr
+associations in c++ : ford
+ast a generator for abstract syntax trees : grosch
+astlog a language for examining abstract syntax trees : crew
+asts for optimizing compilers : clark
+asymptote : asymptote
+asynchronous signals in standard ml : reppy
+atanasoff and the abc : atanasoff
+aterm library user manual : de jong
+atm communications network control by neural networks : hiramatsu
+atm concepts architectures and protocols : vetter
+atom a system for building customized program analysis tools : srivastava
+atomic heap transactions and fine grain interrupts : shivers
+attacks on copyright marking systems : petitcolas
+Attributed Linear Intermediate Representations for Retargetable Code Generators : ganapathi
+auction allocation of computing resources : gagliano
+auditing throughout the software life cycle a primer : bryan
+augmenting pattern based architectural recovery with flow analysis mosaic a case study : tonella
+augural image zooming : withers
+authentication for distributed systems : woo
+authentication in distributed systems: theory and practice : lampson
+autocollage : rother
+automate your build processing using java and ant : cymerman
+automated bargaining agents : sun
+automatic array inlining in java virtual machines : wimmer
+automatic construction of parse trees for lexemes : dube
+automatic derivation of code generators from machine descriptions : cattell
+automatic formal synthesis of hardware from higher order logic : gordon
+automatic generation of peephole optimizations : davidson
+automatic generation of visual programming environments : costagliola
+automatic implementation of formal descriptions of communication protocols : hansson 
+automatic indexing and content based retrieval of captioned images : srihari
+automatic mining of source code repositories to improve bug finding techniques : williams
+automatic synthesis of state machines from trace diagrams : koskimies
+automated testing of object oriented software : meyer
+automatically proving the correctness of compiler optimizations : lerner
+automatically restructuring programs for the web : matthews
+automating first order relational logic : jackson
+automating header prediction : castelluccia
+automating process discovery through event data analysys : cook
+autonomous decentralized computer control systems : ihara
+autonomous robotic inspection and manipulation using multisensor feedback : abidi
+avl trees tutorial and c++ implementation : appleton
+avoiding buffer overflows and related problems : alexander
+axiomatic semantics : solnneger
+balanced binary search trees : andersson
+balloon help for tk : flynt
+bare metal recovery : curley
+bash features : fox
+basic polymorphic typechecking : cardelli
+basic xml : anon
+bayesian span filtering techniques : haskins
+beepcore tcl : rose
+behavioral consistency of c and verilog programs using bounded model checking : clarke
+being popular : grahm
+benchmark characterization : conte
+better extensibility through modular syntax" : grimm
+beyond layering modularity considerations for protocol architectures : calvert
+beyond voip protocols : hersent
+beware of a new and ready made army of legal bots : sengar
+bias on the web : mowshowitz
+bidirectional data flow analysis: myths and reality : khedker
+bif a behavioral intermediate format for high level synthesis : dutt
+big ball of mud : foote
+biglook a widget library for the scheme programming language : gallesio
+binary search algorithm code and caching : bentley
+bioinformatics an introduction for computer scientists : cohen
+biologic computational building blocks : capstick
+biting the silver bullet : harel
+bliss a language for systems programming : wulf
+block structure and object oriented languages : madsen
+block truncation compression : kruger
+blocks and procedures : kiessling
+blooms taxonomy : bloom
+bluebottle a thread safe multimedia and gui framework for active oberon : frey
+blush and zebrackets large and small scale typographical representation of nested associativity : michael cohen
+blush and zebrackets two schemes for typographic representation of nested associativity : michael cohen
+bnf converter multilingual front end generation from labelled bnf grammars : pellauer
+bonsai a compact representation of trees : darragh
+books of note liberty's programming c# : meyer
+boolean automata for implementing pure esterel : poigne
+boost threads : kempf
+boosting system performance with optimistic distributed protocols : pedone
+braids and fibers language constructs with architectural support for adaptive responses to memory latencies : bacon
+bras another kind of make : kirsch
+braunls law : braunl
+breaking the spell : dennett
+breakpoints and halting in distributed programs : miller
+bridges tools to extend the vesta configuration management system : brown
+bridging the gap between network and relational databases management systems : larson
+brief postscript tutorial for 15 462 : heckbert
+bringing up scientists in the art of critiquing research : kuyper
+bubbles gullibility and other challenges for economics psychology sociology and information sciences : odlyzko
+bug analysis of pascal programs : anjaneyulu
+build a tree save a parse : clark
+build level components : de jonge
+building and securing a linux based wireless network : jupiterweb
+building and using shared libraries : cheif
+building communication paradigms with the cm 5 active message layer cmam : von eicken
+building flexible real time systems using the flex language : kenny
+building interpreters by transforming stratified monads : espinosa
+building robust systems : sussman
+building the perfect executable : cheif
+building trustworthy systems lessons from the ptn and internet : schneider
+building your own basic cgi program : palmer
+building your research program : leveson
+built in self testing of random access memories : franklin
+business model issues in the development of digital cultural content : wall
+c a language for high level efficient and machine independent dynamic code generation : engler
+c# introduction : hejlsberg
+c# programming language future features : sridharan
+c++ aplicators and manipulators : charney
+c++ namespaces : pennello
+c++ type traits : maddock
+c-- a portable assembly language that supports garbage collection : peyton jones
+c based interactive rtl design methodology : shin
+cache profiling and the spec benchmarks a case study : lebeck
+caching in the sprite network file system : michael n nelson
+caching strategies to improve disk system performance : karedla
+caching substitutions : krishnamurthi
+calculating encoding and decoding functions for prefix codes : pareja-flores
+calculating the maximum mean data rate in local area networks : stuck
+call by value is dual to call by name : wadler
+call with current continuation patterns : ferguson
+caml trading experiences with functional programming on wall street : minsky
+can software development be elevated from the microsoft style : kiselyov
+capability based protection in a persistent global virtual memory system : vochteloo
+capnet an approach to ultra high speed network : tam
+capriccio scalable threads for internet services : von behren
+capturing design rationale in concurrent engineering teams : klein
+carbonkernel real time operating system simulator : carbon
+cascading style sheets level 1 : lie
+case studies in symbolic model checking : gopalakrishnan
+case studies of software process improvement measurement : paulish
+caterpillars fate a pattern language for transformations from analysis to design : kerth
+causal controversy at le mont st michel : van renesse
+cave or community an emperical examination of 100 mature open source projects : krishnamurthy
+ccmalloc : biere
+cd writing howto : trumper
+cdt a container data type library : vo
+celestes tutorial on sunos 41x modems and terminals : stokely
+cellular automata for solving mazes : nayfeh
+census collecting host information on a wide area network : ganatra
+certificate revocation : hope
+cget cput and stage safe file transport tools for the internet : cheswick
+cgi programming : hamilton
+cgi tcl reference manual : libes
+cgi tutorial : chen
+chain reactions in networks : manber
+challenges in software development : fleckenstein
+challenges in the analysis of the role of institutions in economic development : stiglitz
+change distilling tree differencing for fine grained source code change extraction : fluri
+channels : gupta
+channels a run time system for multimedia protocols : bocking
+characterizing people as nonlinear first order components in software development : cockburn
+charming python inside python's implementations : mertz
+chart parsing of flowgraphs : rudi lutz
+checking for search robot crawling and indexing : rappoport
+checking inside the black box regression testing bo comparing value spectra : xie
+chinese lotto as an exhaustive code breaking machine : quisquater
+chord a scalable peer to peer lookup service for internet applications : stoica
+christopher alexander an introduction for object oriented designers : lea
+cipherczar a simple substitution deciphering environment : cipherczar
+clanger an interpreted systems programming language : roscoe
+clarifying the fundamentals of http : mogul
+class and object extraction from imperative code : ong
+class is type is inadequate for object reuse : yu
+class specification design by contract : anon
+Classes and inheritance in actor-oriented design : lee
+cleanroom practice a theme and variations : deck
+cleanroom process model : linger
+cleanroom software engineering : anon
+clearing memory and partial register stalls in your code : barad
+client requirements for real time communication services : ferrari
+client server caching revisited : franklin
+clocks in dataflow languages : caspi
+clostrophobia its etiology and treatment : baker
+cml a higher order concurrent language : reppy
+coases penguin or linux and the nature of the firm : benkler
+code generation for ansi c : fraser
+code opimization across procedures : richardson
+codebugger a software tool for cooperative debugging : xie
+codesign from cospecification : woo
+codesign of communications protocols : wenban
+coding with the dns protocol : jones
+cognitive models of program comprehension : tiemens
+cojoining specifications : abadi
+collaborative information retrieval gropher from moo : masinter
+collaborative networked communication muds as system tools : evard
+collaborative systems solving the vocabulary problem : chen
+color and sound in algorithm animation : brown
+color models : schneier
+coloured petri nets and the invariant method : jensen
+combining generics precompilation and sharing between software based processes : kennedy
+combining monads : king
+commander s the shell as a browser : gasbichler
+comments on cathedrals and bazaars : winer
+comments on the dod languges : dijkstra
+common concurrent programming errors : gabb
+common dns implementation errors and suggested fixes : kumar
+common gateway interface : cgi 
+common language runtime memory model : brumme
+common nntp extensions : barber
+commonsense knowledge representation based on fuzzy logic : zadeh
+communicating reusable designs via design patterns : lalonde
+communication by messengers : tschudin
+communication complexity : kushilevitz
+communication facilities for distributed transaction processing systems : mafla
+communication mechanisms for programming distributed systems : shatz
+communication network class library : junius
+Communication Styles for Parallel Systems : gross
+communications satellite softare a tutorial : dusio
+community without propinquity revisited communication technology and the transformation of the urban public sphere : calhoun
+commutativity based concurrency control for abstract data types : weihl
+comparing two garbage collectors for c++ : edelson
+comparing high change modules and modules with the highest measurement values in two large scale open source projects : koru
+comparison of rate based service disciplines : zhang
+comparison of specc and systemc languages for system design : cai
+comparison of two bridge routing approaches : zhang
+comparison of two lan bridge approaches : soha
+compilation and delayed evaluation in apl : guibas
+compilation of stack based languages : ertl
+compile time copy elimination : schnorf
+compiler construction : wirth
+compiler directed cache management in multiprocessors : cheong
+compilers and computer architecture : wulf
+compiling a high level introduction using scheme : haynes
+compiling for a 64 bit single address space architecture : wilkinson
+compiling for shared memory and message passing computer : larus
+compiling little languages in python : aycock
+compiling scheme to jvm bytecode a performance study : serpette
+complexity and expressive power of logic programming : dantsin
+composable memory transactions : harris
+composing dataflow analyses and transformations : lerner
+composing first class transactions : haines
+composition a way to make proofs harder : lamport
+compositional refinement of interactive systems : broy
+compositionality in dataflow synchronous languages specification and code generation : benveniste
+comprehending monads : wadler
+computational geometry finding the convex hull : gettys
+computational lambda calculus and monads : moggi
+computational thinking : wing
+computer aided specification of process control systems : ludewig
+computer architecture in the 1990s : stone
+computer architectures for pictorial information systems : danielsson
+computer experiments with fractional gaussian noises part 1 averages and variances : benoit b mandelbrot
+computer graphics the need for graphics design part 1 : myers
+computer graphics the need for graphics design part 2 : myers
+computer memory systems : pohm
+computer networks and distributed systems : witte
+computer programming as an art : knuth
+computer science for the many : biermann
+computer technology and architecture an evolving interaction : hennessy
+computing beyond turing machines : wegner
+computing in molecular biology mapping and interpreting biological information : lander
+computing the hough transform : queisser
+concepts design choices for template argument checking : stroustrup
+conceptual entropy and its effect on class hierarchies : dvorak
+concert c a language for distributed computing : joshua s auerbach
+concert c supporting distributed programming with language extensions and a protable multiprotocol runtime : auerbach
+concurrency control in groupware systems : ellis
+concurrent object oriented language cool : maruyama
+concurrent reading and writing : lamport
+concurrent runtime monitoring of formally specified programs : sankar
+condition handling in the lisp language family : pitman
+configuration dependent performance of a prioritized csma broadcast network : watson
+conflicts : clark
+conformational automata in the cytoskeleton : hameroff
+congestion avoidance and control : jacobson
+congestion control and traffic management in atm networks recent advances and a survey : jain
+conjunction as composition : zave
+considerations in choosing a concurrent distributed object oriented programming language : nelson
+considerations for an effective telecommunications use policy : whitman
+considering recursion : robison
+consistency based diagnosis : palshikar
+consistency in dataflow graphs : lee
+constrained latency storage access : staehli
+constraint logic programming : hentenryck
+constraint logic programming an informal introduction : thom fruhwirth
+constructing distributed systems in conic : magee
+constructing program dependency graphs using a parser : harrold
+constructing reusable specifications through analogy : chiang
+constructive logics part 1 a tutorial on proof systems and typed lambda calculus : gallier
+continuations and advanced flow control : bartlett
+continuations and stackless python : tismer
+contouring data fields : giles
+control and communication in programming systems : reid
+convergence of iteration systems : arora
+conversations the bind that ties : hyslop
+conversations virtually yours : hyslop
+converting python virtual machine code to c : aycock
+cool an object based language for parallel programming : chandra
+cooperative software : rettig
+copying and comparing problems and solutions : grogono
+copyrights and author responsibilities : stone
+core javascript guide : javascript
+coroutines and networks of parallel processes : kahn
+correct architecture refinement : moriconi
+correctness and composition of software architectures : moriconi
+cost effective parallel computing : wood
+covert channels in the tcp ip protocol suite : rowland
+cp miner finding copy paste and related bugs in large scale software code : li
+cracking the oyster : bentley
+crazy clocks counterintuitive consequences of inteligent automation : vicente
+creating encoded name and value pairs : webb
+creating fractals : mcworter
+credible compilation : rinard
+critical vpn security analysis and new approach for securing voip communications over vpn networks : diab
+croquet a collaboration system architecture : smith
+cross correlation and matched filters : qureshi
+cryptography as an operating system service a case study : keromytis
+cscw tools concepts and architects : reinhard
+csp and timewise refinement : reed
+csp methods for identifying atomic actions in the design of fault tolerant concurrent systems : tyrrell
+cst c state transformers : ramsdell
+cup lalr parser generator for java : hudson
+curious yellow the first coordinated worm design : wiley
+curl a gentle slope language for the web : houstetter
+customizable middleware for modular distributed software : astley
+customizing linux from the bottom building your own linux base system : zhu
+cwc crossword compiler : jensen
+cybernetics and the mangle ashby beer and pask : pickering
+cyclone a safe dialect of c : jim
+d a language framework for distributed programming : lopes
+darwins world simulation in c# an interpreter : wiener
+data abstraction in the box structures approach : deck
+data clustering a review : jain
+data communication using the telecommunications network : slana
+data flow analysis in software reliability : fosdick
+data flow languages : ackerman
+data flow program graphs : davis
+data flow supercomputers : dennis
+data flow synchronous languages : benveniste
+data level parallel programming in c++ : thomas m breuel
+data mining static code attributes to learn defect predictors : menzies
+data parallel algorithms : hillis
+data prefetch mechanisms : vanderweil
+data sharing in group work : greif
+data structures and algorithms annotated reference with examples : barnett
+data structures as objects : soukup
+data structuring facilities for interactive videotext systems : tompa
+data structures in jdsl : goodrich
+data transport in a byte stream network : fraser
+data types as values : donahue
+datakit packet switch generic 1 system description : calvert
+dcom and corba side by side step by step and layer and layer : chung
+ddm a cache only memory architecture : hagersten
+deadlock detection in distributed systems : singhal
+deadlock free completely connected networks towards a pi calculus approach : crowe
+deanonymizing users of the safeweb anonymizing service : martin
+debug malloc library : watson
+debugging backwards in time : lewis
+debugging memory on linux : sorfa
+debunking the expensive procedure call myth : steele
+decentralized user authentication in a global file system : kaminsky
+decentralizing sip : bryan
+decision making vs policy making towards an antidote for technocracy : lowi
+decode a cooperative environment for reverse engineering legacy software : quilici
+decode a cooperative program understanding environment : chin
+decompilation the enumeration of types and grammars : breuer
+decomposition of distributed programs into communication closed layers : elrad
+defensive programming using an annotation toolkit to build dos resistant software : qie
+deficiencies in ldap when used to support pki : chadwick
+defining file systems for digital video and audio : rangan
+definite clause grammars for language analysis a survey of the formalism and a comparison with augmented transition networks : pereira
+definition and analysis of hardware and software fault tolerant architectures : laprie
+definition groups making sources into first class objects : bobrow
+definition of mmixal : knuth
+definition of open language : sunik
+deforestation transforming programs to eliminate trees : wadler 
+delivering interactive multimedia documents over networks : loeb
+demystifying bgp : papen
+democracy and the problem of free speech : sunstein
+demonstrational interfaces a step beyond direct manipulation : myers
+demultiplexing on the atm adapter experiments with internet protocols in user space : biersack
+denial of service via algorithmic complexity attacks : crosby
+denotational semantics : solnneger
+denotational semantics for languages with modules : ganzinger
+deplate convert wiki like markup to latex docbook html or html slides : link
+deriving an object model from legacy fortran code : subramaniam
+deriving graphical representations of process networks from algebraic expressions : bolognesi
+deriving tidy drawings of trees : gibbons
+description languages exploration : graham
+description of a machine architecture for use with block structured languages : tanenbaum
+description of fastnet a unidirectional local area communications network : limb
+design and implementation of a configurable mixed media file system : maffeis
+design and implementation of a distributed parallel programming system : lin
+design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
+design and architecture of the brazil web application framework : uhler
+design and implementation of an object oriented 64 bit single address space microkernel : murray
+design and implementation of flexible user protocol interface : metzler
+design and validation of protocols a tutorial : holzmann
+Design by Contract to Improve Software Vigilance : le traon
+design choices for weak consistency group communication : golding
+design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
+design fragments make using frameworks easier : fairbanks
+design models for computer human interfaces : gentner
+design of a broadcast packet switching network : turner
+design of cooperative process oriented environments using reactive components : geppert
+design of reliable software in distributed systems using the conversation scheme : tyrrell
+design of the bank of america california data network : al-chalabi
+design of the programming lanauge forsythe : reynolds
+design of the x kernel : hutchinson 
+design pattern detection using similarity scoring : tsantalis
+design patterns abstraction and reuse of object oriented design : gamma
+design patterns in object oriented frameworks : srinivasan
+design principles and design patterns : martin
+design principles behind smalltalk : ingles
+design recovery by automated search for structural design patterns in object oriented software : kramer
+design trade offs in vax 11 translation buffer organization : satyanarayanan
+designing a process migration facility the charlotte experience : artsy
+designing a reusable symbol table library : wu
+designing an application framework : booch
+designing circuits by calculation : jones
+designing component based frameworks using patterns in the uml : larsen
+designing components with the c++ stl : breymann
+designing cryptography for the new century : landau
+designing distributed algorithms by means of formal sequentially phased reasoning : stomp
+designing for thread safety : venners
+designing for ultrahigh availability the unix rtr operating system : wallace
+designing logic systems using state machines : clare
+designing object initialization : venners
+designing reusable classes : johnson
+designing software for ease of extension and contraction : parnas
+designing software with modula 3 : klein
+designing the internet for a networked society : wellman
+designing the legos multitasking operating system : noga
+designing the mccat compiler based on a family of structured intermediate representations : hendren
+desktop conferencing system mermaid : watabe
+detectinguplicat code with pmds cpd : copland
+detectingmutual consistency of shared objects : ahamad
+determinacy testing for nondeterminate logic programming languages : tick
+developing an interprocedural optimizing compiler : loeliger
+developing and using snd editing sound under linux parts 1 and 2 : phillips
+developing distributed object computing applications with corba : schmidt
+developing dynamic reconfigurable communication protocol stacks using java : lee
+developing your own 32 bit operating system : burgess
+development of communication software by stepwise refinement : freudenmann
+development support systems : lauber
+dfp fast flexible message demultiplexing using dynamic code generation : engler
+diagnosing java code designing extensible applications : allen
+differentiating parsers : kiselyov
+difftree inferring phylogenies for evolving software : fraser
+digital signatures a tutorial survey : akl
+digital telephony : bellamy
+digital telephony over cable : evans
+dimensions of object oriented modeling : wegner
+directions and issues in architecture and language : flynn
+directory based cache coherence in large scale multiprocessors : chaiken
+dis virtual machine specification : dis
+disciplined c : noyelle
+Discovering Architectures from Running Systems : schmerl
+discovering documentation for java container classes : henkel
+discovering machine specific code improvements : kessler
+discovering properties about arrays in simple programs : halbwachs
+discriminated unions i : alexandrescu
+disk arrays high performance high reliability storage subsystems : granger
+dispelling java programming language myths : haggar
+display techniques for octree encoded objects : doctor
+displaying 3d images algorithms for single image random dot sterograms : thimbleby
+distel distributed emacs lisp for erlang : gorrie
+distributed artificial intelligence for runtime feature interaction resolution : velthuijsen
+distributed computer systems for industrial control : schoeffler
+distributed computing economics : gray
+distributed coordination models for client server computing : adler
+distributed database systems where are we now : ozsu
+distributed ez : campos
+distributed file systems concepts and examples : levy
+distributed firewalls : bellovin
+distributed hierarchical control for parallel processing : feitelson
+distributed mobile computation in obliq : cardelli
+distributed operating systems : tanenbaum
+distributed shared memory a survey of issues and algorithms : nitzberg
+distribution and abstract types in emerald : black
+distribution and persistence in the ik platform : sousa
+dive into greasemonkey : pilgrim
+dive into html 5 : pilgrim
+divide and conquer algorithms : divide
+divde and conquer http response splitting web cache poisoning attacks and related topics : klein
+dmt a demonstration tool : zheng
+do parallel languages respond to the needs of scientific programmers : pancake
+doclet overview : doclet
+document comments : gosling
+document object model dom level 1 specification : dom 
+documentation comments : gosling
+documentation for the chip computer system version 1.1 : babaoglu
+documenting programs in a web style the progltx style option : schrod
+does java guarantee thread safety : haggar
+does your workstation computation belong on a supercomputer : thomborson
+doing requirements right the first time : hammer
+domain analysis and reverse engineering : debaud
+domain models are aspect free : steinmann
+domain name system security extensions : eastlake
+domain names concepts and facilities : mockapetris
+domain names implementation and specification : mockapetris
+domain specific languages an annotated bibliography : deursen
+donational semantics for occam : roscoe
+dont fidget with widgets draw : bartlett
+dotted and dashed lines in metafont : gibbons
+dparser manual : dparser
+draft ansi smalltalk standard : smalltalk
+drawing trees nicely with tex : bruggemann-klein
+drawing graphs with dot : koutsoflos
+drawing graphs with metapost : hobby
+dsl implementation in metaocaml template haskell and c++ : czarnecki
+duel a very high level debugging language : golan
+dvd rom drive scsi command set : pioneer
+dynamic adaptive character generation and spatial expressiveness : cohen
+dynamic attention : nisley
+dynamic control and prototyping of parallel algorithms for intermediate and high level vision : wallace
+dynamic graphs : demetrescu
+dynamic hashing schemes : enbody
+dynamic linking of software components : franz
+dynamic optimization through the use of automatic runtime specialization : whaley
+dynamic program monitoring and transformation using the omos object server : orr
+dynamic program slicing : agrawal
+dynamic protocol configuration for multimedia networks : stainov
+dynamic reconfiguration basic building blocks for autonomic computing on ibm pseries servers : jann
+dynamic regeneration of software documentation : johnson
+dynamic scene analysis using pixel based processes : jain
+dynamic semantic specification by two level grammars for a block structured language with subroutine parameters : badii
+dynamic sharing and backwards compatability on 64 bit machines : garrett
+dynamic variables : hanson
+dynamically loaded classes as shared libraries an approach to improving virtual machine scalability : wong
+dynamically replaced content : falla
+e prime : low
+e prime as a revision strategy : zimmerman
+e prime the spirit and the letter : kenyon
+early experience with adsl in lcc : hanson
+early experiments with asynchronous time division networks : fraser
+early storage reclamation in a tracing garbage collector : harris
+easy to use object oriented parallel processing with mentat : grimshaw
+eclipse a platform for integrating development tools : riveres
+ecological development and policy change : hofferbert
+economical fault tolerant networks : butt
+editing images of text : bagley
+education for computing professionals : parnas
+effective standard c++ library curiously recurring manipulators : kreft
+effects of the change from rate of return to price cap regulation : breautigam
+efficiency of vulnerability disclosure mechanisms to disseminate vulnerability knowledge : cavusoglu
+efficient binary transfer of pointer structures : toyn
+efficient annotated terms : van den brand
+efficient compile time garbage collection for arbitrary data structures : mohnen
+efficient concise deterministic patterm matching automata for ambiguous patterns : nedjah
+efficient demultiplexing of network packets by automatic parsing : jayaram
+efficient implementation of sequential loops in dataflow computation : ang
+efficient implementation of suffix trees : andersson
+efficient implementation of the smalltalk 80 system : deutsch
+efficient instruction scheduling for delayed load architectures : kurlander
+efficient message dispatch in object oriented systems : naik
+efficient parallel recursion : brinch hansen
+efficient program tracing : larus
+efficient relational calculation for software analysis : lewerentz
+electronics technology and computer science 1940 1975 a coevolution : ceruzzi
+elegant lisp programs : chaitin
+elements of category theory : martini
+Elements of Interaction : milner
+eliminating array bound checking through non-dependent types : oleg
+eliminating disjunctions of leads to properties : calvert
+eliminating spurious error messages using exceptions polymorphism and higher order functions : ramsey
+email winners and losers : wilson
+embedding built in test in hot spots of an object oriented framework : jeon
+embracing windows : taylor
+emerald a general purpose programming language : raj
+emeralds a small memory real time microkernel : zuberi
+emerging patterns in the use of xml for information modeling in vertical industries : hinkelman
+empirical analysis of software fault content and fault proneness using bayesian methods : pai
+emulating an operating system on top of another : franz
+enabling autonomic behavior in systems software with hot swapping : appavoo
+enabling computational nanotechnolgy through javagenes in a cycle scavenging environment : globus
+enabling sip based sessions in ad hoc networks : banerjee
+encapsulated postscript files : eps
+encapsulation inheritance and the platypus effect : talin
+encoding of management information the use of abstract syntax notation one asn1 outline : anon
+end to end echo response time analysis on large mainframe unix systems : merges
+end to end routing behavior in the internet : paxon
+endian neutral software part 1 : gillig
+endian neutral software part 2 : gillig
+engineering and education for the future : lee
+engineering notebook an extreme programming episode : martin
+engineering notebook template method and strategy inheritance vs delegatin : martin
+enhancing code for readability and comprehension using sgml : cowan
+enriched languages : baumann
+enumerating the rationals : gibbons
+equational reasoning about nondeterministic processes : misra
+error control coding in computers : fujiwara
+error correction of a large architectural model the henderson county courthouse : erikson
+es extensible shell : es
+escape from zurg an exercise in logic programming : erwig
+escaping the event loop an alternative control structure for multi threaded guis : fuchs
+escaping the evils of centralized control with self certifying pathnames : mazieres
+euler a generalization of algol and its formal definition part 1 : wirth
+euler an experiment in language definition : christopher
+evaluating pair programming with respect to system complexity and programmer expertise : arisholm
+evaluating software engineering standards : pfleeger
+event reconstruction in high energy physics : rinaldo
+evolution of metropolitan area networks to broadband isdn : byrne
+evolution of test and code via test first design : langr
+evolution of the ethernet local computer network : shoch
+examination of the applicability of router and bridging techniques : salwen
+example based graphical database query languages : ozsoyoglu
+exceptional java : griffiths
+executable specifications with data-flow diagrams : fuggetta
+executing continuation semantics a comparison : slonneger
+exene : gansner
+exokernel an operating system architectue for application level resource management : engler
+experience compiling fortran to program dependence graphs : ottenstein
+experience in translating z designs to haskell implementation : sherrell
+experience with an extensible language : irons
+experience with fagans inspection method : doolan
+experience with some principles for building an internet scale reliable system : afergan
+experience with tcltk for scientific and engineering visualization : kernighan
+experiences with ada code generation : zorn
+experiences with software specification and verification using lp the larch proof assistant : broy
+experimental models for validating technology : zeklowitz
+experimental prototyping in smalltalk : diedrich
+experiments in sr with different upcall program structures : atkins
+experiments with a fast object swapper : peck
+experiments with a program timing tool based on source level timing schema : park
+experiments with automatic file migration : lawrie
+expierences with the orca programming language : wilson
+exploring security vulnerabilities by exploiting  buffer overflow using the mips isa : phillips
+exploring the deisgn of an intentional naming scheme with an automatic constraint analyzer : khurshid
+exploiting style in architectural design environments : garlan
+exploring group communication for reliable high volume data distribution : cooperstock
+expressional loops : waters
+expressions that talk about themselves : fokkinga
+expressnet a hight performance integrated services area network : tobagi
+extended state diagrams and reactive systems : drusinsky
+extending imake : husain
+extending powerepsilon with algebraic rewriting : li-xin
+extending regular expressions with context operators and parse extraction : kearns
+extending standards for cd rom : jolitz
+extending the notion of a window system to audio : ludwig
+extending unix for scalable computing : debenedictis
+extensibility in the oberon system : mossenbock
+extensibility safety and performance in the spin operating system : bershad
+extensible programming for the 21st century : wilson
+extensible records with scoped labels : leijen
+extensible syntax with lexical scoping : cardelli
+extensions to standard ml to support transactions : wing
+external data representation : xdr
+extracting geometric information from architectural drawings : kernighan
+extracting guarantees from chaos : kubiatowicz
+extracting task level parallelism : girkar
+extreme programming : english
+eye monitor microcomputer based instrument uses and internal model to track the eye : myers
+ez processes : hanson
+facts of software engineering management : glass
+failure resilient transaction management in multidatabases : soparkar
+fast algorithms for sorting and searching strings : bentley
+fast and scalable layer four switching : srinivasan
+fast and small resizable arrays : demaine
+fast antialiasing : abrash
+fast approximate string matching : owolabi 
+fast cheap and out of control a robot invasion of the solar system : brooks
+fast hashing of variable length text strings : pearson
+fast optimized sun rpc using automatic program specialization : muller
+fast packet switch architectures for broadband integrated services digital networks : tobagi
+fast string maching using an n gram algorithm : kim
+faster calculation of superquadric shapes : franklin
+faster dynamic linking for sparc v8 and system v4 : keppel
+faster generalized lr parsing : aycock
+fault injection a method for validating computer-system dependability : clark
+fault tolerance by design diversity concepts and experiments : avizienis
+fault tolerance in commercial computers : siewiorek
+fault tolerant clock synchronization in distributed systems : ramanathan
+fault tolerant computing fundamental concepts : nelson
+fault tolerant semiconductor memories : sarrazin
+fault tolerant systems in commercial applications : serlin
+fc++ founctional tools for object oriented tasks : smaragdakis
+feature interactions and formal specifications in telecommunications : zave
+feeding frenzy selectively materalizing users event feeds : silberstein
+ferite documentation : ross
+fiddling around with files part 1 : mauro
+fields in physics are like curried functions or physics for functional programmers : leavens
+figures doors and passages : evans
+file verification using crc : nelson
+filet o fish practical and dependable domain specific languages for os development : dagland
+filter objects for java : joshi
+finding components in a hierarchy of modules a step towards architectural understanding : girard
+finding faults in multi threaded programs : artho
+finding response times in a real time system : joseph
+finding significance in noisy data : kimbrel
+finding string distances : vlades
+fine grained object protection in unix : low
+finger trees a simple general purpose data structure : hinze
+finite state code generation : fraser
+firestarter users manual : firestarter
+firewalls at home : sinteur
+first class functions : krishnamurthi
+first things first prioritizing requirements : wiegers
+flapjax a programming language for ajax applications : meyerovich
+flapjax tutorial : flapjax
+flash an efficient and portable web server : pei
+flavors a finite state verification technique for software systems : cobleigh
+fletchers checksum : kodis
+flexible design a summary of computing curricula 1991 : tucker
+flexible protocol stacks : tschudin
+flexible task graphs a unified restricted thread programming model for java : aurbach
+flexible text display with lector : raymond
+flick a flexible optimizing idl compiler : eide
+flow control a comparative survey : gerla
+form based file upload in html : nebel
+form formula a visual programming paradigm for user definable user interfaces : kimura
+form tricks : webb
+formal description and interpretation of coordination protocols for teamwork : frick
+formal logic via functional programming : leifer
+formal methods for actor systems a progress report : agha
+formal methods for protocol conversion : calvert
+formal methods selected historical methods : jones
+formal methods selected historical references : jones
+formal models of communication services a case study : fekete
+formal specification and analysis of software architectures using the chemical abstract machine model : inverardi
+formal specification methods for reactive systems : furbach
+formal specification of large scale software : moller
+formal specifications a key to service interaction analysis : lee
+formal specifications and proofs of inheritance protocols for real time scheduling : pilling
+formal system design based on the synchrony hypothesis functional models and skeletons : sander
+formal verification of the aamp5 microprocessor : miller
+formalization in programming environments : goguen
+formalizing a specification for analysis the hla ownership properties : damon
+formalizing architectural connections : allen
+forming grammars for structured documents an application of grammitcal inference : ahonen
+formula a programming language for expressive computer music : anderson
+forward acknowledgement refining tcp congestion control  : mathis
+foundations for object oriented programming : mitchell
+foundations for the study of software architecture : perry
+four systems of policy politics and choice : lowi
+fractal rulers : swan
+frame relay protocols architecture operation and performance : hunt
+frame relaying and the fast packet switching concepts and issues : rahnema
+framework for implementing the next generation of communication protocols : fry
+framework for implementing the next generation of computing protocols : fry
+frameworks for intra and interprocedural dataflow analysis : chambers
+free riding on gnutella : adar
+freenets next generation routing protocol : clarke
+from constructivism to computer science : troelstra
+from formal protocol specification towards automated performance prediction : rudin
+from live sequence charts to state machines and back a guided tour : bontemps
+from mechanism to method data abstraction and heterarchy : henney
+from mechanism to method the safe stacking of cats : henney
+from modular to distributed architectures centaur and semci experiments : dery
+from regular expressions to deterministic automata : berry
+from xml to anything : walsh
+fugue a functional language for sound synthesis : dannenberg
+full text searching the burrows wheeler transform : wilets
+function overloading based on arbitrary properties of types : hinnant
+functional data structures : okasaki
+functional languages and graphical user interfaces a review and a case study : noble
+functional metapost tutorial : korittky
+functional pearl meertens number : bird
+functional programming in python becomes lazy : mertz
+functional programming is not self modifying code : mody
+functional programming with overloading and higher order polymorphism : jones
+functional representation as design rationale : chandrasekaran
+functional specification documents : smith
+functional specification of imperative programs an alternative point of view of functional languages : mohnen
+functions as processes : milner
+fundamental design issues for the future internet : shenker
+fundamentals of bar code information theory : pavlidis
+fusion of loops for parallelism and locality : manjikian
+fuzzy logic : zadeh
+fuzzy logic in c : viot
+gaining efficiency in transport services by appropriate design and implementation choices : watson
+garbage collection altermatives for icon : fernandez
+garnet comprehensive support for graphical highly interactive user interfaces : myers
+gaussian random number generators : thomas
+generating efficient code from data flow programs : halbwachs
+generating efficient protocol code from an abstract specification : castelluccia
+generating efficient stack code for java : shpeisman
+generating fast code from concurrent program dependence graphs : zeng
+generating lr syntax error messages from examples : jeffery
+generating testing and analysis tools with aria : devanbu
+generation of efficient parsers through direct compilation of xml schema grammars : perkins
+generation of lr parsers by partial evaluation : sperber
+generating perfect hash functions : gettys
+generative representations for evolving familes of designs : hornby
+generalized algebraic data types and object oriented programming : kennedy
+generic programming typed buffers i : alexandrescu
+generic programming typelists and applications : alexandrescu
+genetic algorithms : spillman
+genetic algorithms a survey : srinivas
+genetic algorithms and database indexing : celko
+genetic annealing : price
+generics : bloch
+generics : java
+generics for the masses : hinze
+genoa a customizable front end retargetable source code analysis framework : devanbu
+geometric algorithms : orwant
+geometric logic in computer science : vickers
+getting acquainted with the c-- language : iglesias
+getting grabby offline web browsing : beiser
+getting started using use cases to capture requirements : rumbaugh
+getting started with aspectj : aspectj
+getting started with erlang : erlang
+getting started with netscape javascript debugger : javascript
+getting started with ups : ups
+ghosts of unix past part 2 conflated designs : brown
+gibis a hypertext tool for exploratory policy discussion : conklin
+gj extending the java programming language with type parameters : bracha
+glimpse documentation : glimpse
+gnu mix development kit mdk : ruiz
+gnu smalltalk users guide : gnu
+go directly to jail : friedl
+go to statement considered harmful : dijkstra
+goal directed reasoning for specification based data structure repair : demsky
+godiva a very high level dialect of java : jeffery
+going wireless  behavior & practice of new mobile phone users : palen
+goo reference manual v 38 : bachrach
+good design principles in a compiler university course : acebal
+good regulatory regimes : schmalensee
+good word attacks on statistical spam filters : lowd
+gpartd manual : gedak
+grail a zeroth programming language : mciver
+grammar based compression of interpreted code : evans
+grap manual : grap
+grapevine an exercise in distributed computing : birrell
+graphs : deo
+graph crossover : globus
+graph data management for molecular and cell biology : eckman
+graph drawing by force directed placement : fruchterman
+graph traversals : rolfe
+graphical configuration programming : kramer
+graphical fisheye views : sarkar
+great principles in computing curricula : denning
+greedy algorithms : greedy
+gridnet an alternative large distributed network : moore
+gridrpc a remote procedure call api for grid computing : nakada
+groupware some issues and experiences : ellis
+growing languages with metamorphic syntax macros : barbrand
+guarded attribute grammars : frost
+guile tutorial : galassi
+h.261 software codec for videoconferencing over the internet : turletti
+habits of effective analysists : wiegers
+hackers introduction to partial evaluation : bacon
+handles and exception safety part 4 tracking references without counters : koenig
+handling control : sitaram
+hard coding bottom up code generation tables to save time and space : fraser
+hardware compilation: translating programs into circuits : wirth
+hardware synthesis from term rewriting systems : hoe
+hardwarec a language for hardware design : ku
+harts a distributed real time architecture : shin
+hash tables : pat morin
+hash tables for the standard library : austern
+hashed and hierarchical timing wheels data structures for the efficient implementation of a timer facility : varghese
+hashing for dynamic and static internal tables : lewis
+hashing revisited : hamer
+haskell typeclass replacement : kiselyov
+haskell vs ada vs c++ vs awk vs an experiment in software prototyping productivity : hudak
+haystack a platform for authoring end user semantic web applications : quan
+heap or stack which should you use : paugh
+heap profiling of lazy functional programs : runciman
+hector a hierarchically structured shared memory multiprocessor : vranesic
+here be dragons : griffiths
+hermes language experiences : korfhage
+heterogeneous and autonomous transaction processing : pu
+heterogeneous computing:  challenges and opportunities : khokhar
+heuristic compression of an english word list : cook
+heuristic models of task assignment scheduling in distributed systems : efe
+hey you got your compiler in my operating system : howell
+high latency low bandwidth windowing in the jupiter collaboration system : michols
+high level data flow programming for digital signal processing : ho
+high level modeling and fpga prototyping of microprocessors : ray
+high speed cryptography with the rsa algorithm : wiener
+high performance logic programming with the aquarius prolog compiler : van roy
+high pressure steam engines and computer software : leveson
+higher order functions for parsing : hutton
+higher order messaging : welher
+hints on programming language design : hoare
+history of lisp : mccarthy
+hobbes intenet timeline : zakon
+hoisting branch conditions improving superscalar processor performance : applebe
+holistic voip intrusion detection and prevention system : nassar
+homogeneous coordinates and projective planes in computer graphics : riesenfeld
+hood and z for the development of complex software systems : di giovanni
+hop a language for programming the web 2.0 : serrano
+horus a flexible group communication system : van renesse
+host extensions for ip multicast : deering
+how and how not to write a good systems paper : levin
+how aspectj is used an analysis of eleven aspectj programs : apel
+how best to provide the services is programmers need : glass
+how can i measure java code performance? : moss
+how complete are knowledge representation systems : elcock
+how do you plug java memory leaks : henry
+how many subscribers should share a modem : missaghi
+how many trivial getter methods does java have? : hughes
+how not to write commercial standards : berlack
+how not to write fortran in any language : seeley
+how pgp works : network
+how puppy works : kauler
+how the intenet came to be : cerf
+how to be a good graduate student advisor : desjardins
+how to be a programmer a short comprehensive and personal summary : reed
+how to break out of a chroot jail : simes
+how to do things with words : austin
+how to give a good research talk : jones
+how to identify new high payoff information systems for the organization : peffers
+how to make a multiprocessor computer that correctly executes multiprocess programs : lamport
+how to make lisp go faster than c : verna
+how to organize your thesis : chinnek
+how to program in self 1.4 : ungar
+how to prove observational theorems with lp : bidoit
+how to read mathematics : simonson
+how to regulate science : fukuyama
+how to solve the {s}anta {c}laus problem : ben-ari
+how to use a 64 bit virtual address space : chase
+how to write a spelling corrector : norvig
+how to write doc comments for the javadoc tool : javadoc
+html parsing with tokens : burke
+htmlprag : van dyke
+htmlprag pragmatic parsing of html to shtml and sxml : van dyke
+http made really easy : marshall
+human inference : nesbitt
+hygienic macro expansion : kohlbecker
+hyperchannel network links : thornton
+hypernets good gnews for gnutella : gunther
+hyperprogramming a formal approach to software enviornments : goguen
+hypertext transfer protocol http 1.0 : berners-lee
+hypertext transfer protocol http : berners-lee
+ibal a probabilistic rational programming language : pfeffer
+ibm powernp network processor  hardware software and applications : allen
+iconic control graph representation : robillard
+ideas or interests privacy in electronic communications : regan
+identification and measuring quality in a software requirements specification : davis
+identifying and qualifying reusable software components : caldiera
+identifying syntactic differences between two programs : yang
+identifying the difficulties of object oriented development : sheetz
+ieee 802.17 resilient packet ring tutorial : davik
+ieee project 802 standards efforts : gibson
+ilu : janssen
+ilu reference manual : janssen
+im sorry dave im afraid i cant do that linguistics statistics and natural language processing circa 2001 : lee
+image processing using quadtrees : dash
+image retrieval from the world wide web issues techniques and systems : kherfi
+image transfer an end to end design : turner
+imperative functional programming : peyton jones
+implementation issues in the development of the parsec parser : harper
+implementations and performance of two rpc based lan gateway applications : yasrebi
+implementing a fortran 77 to cm fortran translator using the sorcerer source to source translator generator : sawdey
+implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
+implementing an interpreter : sugalski
+implementing atomic actions on decentralized data : reed
+implementing communication protocols using object oriented techniques : lavender
+implementing concurrent c : gahani
+implementing constraint imperative programming languages the kaleidoscope 93 virtual machine : lopez
+implementing dynamic minimal prefix tries : dundas
+implementing equals for mixed type comparison : langer
+implementing linux system calls : manjarrez-sanchez
+implementing network protocols at user level : thekkath
+implementing object equivalence in java using the template method design pattern : stevenson
+implementing operator for smart pointers : meyers
+implementing smart spiders : konchady
+implementing tcp ip on a cray computer : borman
+implementing the pi calculus in java : li
+implementing visicalc : visicalc
+implications of classical scheduling results for real time systems : stankovic
+implicit java array bounds checking on 64 bit architecture : bentley
+imposing the law of demeter and its variations : pal
+imprecision in computer vision : jain
+improved left corner chart parsing for large context free grammars : moore
+improvements to tcp performance in high speed networks : perloff
+improving application performance on the hp convex exemplar : sterling
+improving c++ performance using temporaries : dingle
+improving c++ program performance : lippman
+improving evolvability of operating systems with aspectc : coady
+improving module reuse by interface adaptation : purtilo
+improving scalability of multithreaded dynamic memory allocation : nakhimovsky
+improving tcp performance over mobile networks : elaarag
+improving the performance of distributed applications using active networks : legedza
+improving the reliability of commodity operating systems : swift
+improving the world's most popular functional language user defined functions in excel : peyton jones
+improving wcet by applying worst case path optimizations : zhao
+in memoriam j c r licklider : licklider
+increasing mom flexibility with portable rule bases : curry
+increasing network throughput by integrating protocol layers : abbott
+increasing the observability of internet behavior : chen
+incremental analysis of real programming languages : wagner
+incremental attribute evaluation a flexible algorithm for lazy update : hudson
+incremental development of an hdlc protocol in esterel : berry
+incremental semantic evaluation in language based editors : kiong
+incremental zone transfer in dns : ohta
+industrial and academic protocol testing the gap and the means of convergence : lai
+infant mortality and generational garbage collection : baker
+inference controls for statistical databases : denning
+infinite order logic and the church-turing thesis : vyzovitis
+influence of visual technology on the evolution of language environments : ambler
+information encoding with two dimensional bar codes : pavlidis
+information presentation cascading style sheets : lilley
+information theory complexity and neural networks : abu-mostafa
+inheritance : shasha
+inheritance is not subtyping : cook
+ingest a simple program for performing distributed relational database operations : silberberg
+inlining semantics for subroutines which are recursive : baker
+inside bluetooth part i : wilson
+inside bluetooth part ii : wilson
+inside hector the systems view : reid
+inside the iso 9660 filesystem format : jolitz
+installing lcc : fraser
+installing python modules : ward
+instructions for the use of gzigzag : ervasti
+instrumenting programs for symbolic trace generation : huang
+inteconnection free biomolecular computing : aoki
+integrated voice data communication over high speed fiber optic networks : mukherjee
+integrating code generation and optimization : fraser
+integrating diverse information repositories a distributed hypertext approach : noll
+integrating formal methods into the development process : kemmerer
+integrating internet telephony services : jiang
+integrating model checking and theorem proving for relational reasoning : arkoudas
+integrating status and event phenomena in formal specifications of interactive systems : abowd
+integration or separation : gelernter
+intel microprocessors 8008 to 8086 : morse
+intensional equality for continuations : appel
+intentional programming : de moor
+inter an inexpensive inter procedural register allocator : mulder
+interactive explanation of software systems : johnson
+interactive foundations of object oriented programming : wegner
+interactive steering using the application executive : bliss
+interactive systems bridging the gaps between developers and users : grudin
+interbase an execution environment for heterogeneous software systems : bukhres
+interconnecting electronic mail systems : redell
+interconnecting local networks to long distance networks : schneidewind
+interconnection networks using shuffles : chen
+interest groups and the regulation of pesticides congress coalitions and closure : nownes
+internet address space management in digital : reid
+internet group management protocol version 2 : fenner
+internet mobility 4 times 4 : cheshire
+internet protocol storage area networks : sarkar
+internet resource discovery services : obraczka
+internet scavenger hunt : internet
+internet telephony : mcknight
+internet tv implications for the long distance network : odlyzko
+interoperability of peer to peer file sharing : lui
+interpretation techniques : klint
+interrupt processing in concurrent processors : walker
+interrupt protocol processing in the x kernel : bjorkman
+introducing undergraduates to object orientation using the turing language : holt
+introducing xns and xnsorg : engst
+introduction to abstract syntax notation one asn1 lagnguage and syntax outline : anon
+introduction to distributive categories : cockett
+introduction to logic programming : apt
+introduction to markov chains : dawson
+introduction to mmix : knuth
+introduction to neural networks for intelligent control : bavarian
+introduction to probability : grinstead
+introduction to simulated annealing : tovy
+introduction to the border gateway protocol bgp : hankins
+introduction to the configurable highly parallel computer : snyder
+introduction to the formal treatment of testing : gourlay
+introduction to the literature on semantics : leavens
+introduction to the special issue on price cap regulation : acton
+introduction to tla : lamport
+introduction to web services architecture : gottschalk
+intrusion detection for the masses : bauer
+inverting the burrows wheeler transform : bird
+investigating java concurrency using abstract state machines : gurevich
+investigating the influence of formal methods : pfleeger
+io an estelle simulator for performance evaluation : fernandez
+io considered harmful at least for the first few weeks : rosenberg
+io issues in a multimedia system : reddy
+ip anycast point to any point communication : metz
+ip next generation overview : hinden
+ip switching and gigabit routers : newman
+ipp routing architecture : bolla
+irit version 6.0 user's manual : elber
+is finding security holes a good idea : rescoria
+is free software inevitable : vepstas
+is ip going to take over the world of communications : molinero-fernandez
+is layering harmful : crowcroft
+is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
+is turing a better language for teaching programming than pascal : martin
+iterative user interface design : nielson
+iterators a sign of weakness in object oriented languages : baker
+iterators signs of weakness in object oriented languages : baker
+j2ee 1.4 premiers javas assertion capabilities : rogers
+j2ee new io : zukowski
+java 2d graphics : adair
+java anti patterns : java
+javagenes and condor cycle scavenging genetic algorithms : globus
+jabber server v1.2 technical white paper : jabber
+jade a high level machine independent language for parallel programming : rinard
+java 2 distributed object middleware performance analysis and optimization : juric
+java as a first programming language a critical evaluation : hadjerroult
+java as an intermediate language : hardwick
+java bytecode compression for low end embedded systems : clausen
+java code conventions : anon
+java in the computing curricula : chalk
+java is not type safe : saraswat 
+java programming style guide : anon
+java programming style guidlines : geosoft
+java puzzlers : bloch
+java references : amsterdam
+java remote method invocation distributed computing for java : sun
+java rmi tutorial : baclawski
+java rmi tutorial : clausen
+java security : vanderburg
+java sucks : zawinski
+java theory and practice generics gotchas : goetz
+java theory and practice going wild with generics : goetz
+java theory and practice instrumenting applications with jmx : goetz
+java theory and practice the pseudo-typedef pattern : goetz
+java theory and practice to mutate or not to mutate : goetz
+java under the hood inside the virtual machine : ingram
+java virtual machine : lindholm
+javaml a markup language for java source code : badros
+javas insecure parallelism : brinch hansen
+javas new math part 1 real numbers : harold
+javas new math part 2 floating point numbers : harold
+java2d an introduction and tutorial : hall
+javascript essentials : goodman
+jello a retargetable just in time compiler for llvm bytecode : lattner
+jingle bells solving the santa claus problem in polyhponic c# : benton
+jini connection technology architecture overview : day
+jist an efficient approach to simulation using virtual machines : barr
+jit vs offline compilation limits and benefits of bytecode compilation : muller
+joeq: a virtual machine and compiler infrastructure : whaley
+journaling file systems : best
+jpp a java preprocessor : kiniry
+just what is it that makes martin lofs type theory so different so appealing : leslie
+k means the advantages of careful seeding : arthur
+k tree container data structures : bates
+k user manual : kx 
+kaleidoscope a constraint imperative programming language : lopez
+karl wiegers describes 10 requirements traps to avoid : wiegers
+kawa compiling scheme to java : bothner
+keep it clean a unique approach to functional programming  : plasmeijer
+keeping the web in web services : prescod
+keeping your site comfortably secure an introduction to internet firewalls : wack
+kerberos an authentication service for open network systems : steiner
+kerberos network design manual : backman
+kerberos versus the leighton micali protocol : rubin
+kernel synchronization primitives : mauro
+key to the success of asynchronous transfer mode an application programming interface : lin
+keywords scanners and screeners : clark
+keywords special identifier idioms : clark
+knaves and knights : backhouse
+knowledge oriented consideration of communication protocols : gotzhein
+korbit a kernel space corba orb : lattner
+krypton a functional approach to knowledge representation : brachman
+lambda the ultimate imperitive : steele
+lambdamoo programmers manual : curtis
+lan and io convergence a survey of the issues : sachs
+lan protocol modeling and performance evaluation : yuang
+language bindings for xml : simeon
+language processing in program editors : reps
+language support for lightweight transactions : harris
+larch frequently asked questions : leavens
+larchant rdoss a distributed shared persistent memory and its garbage collector : shapiro
+latency lags bandwidth : patterson
+latex2e font selection : anon
+latex2e for authors : anon
+latex2e for class and package writers : anon
+lattice based access control models : sandhu
+law governed peer to peer auctions : fontoura
+laws of occam programming : roscoe
+layered multiplexing considered harmful : tannenhouse
+lazy depth first search and linear graph algorithms in haskell : king
+lazy functional components for graphical user interfaces : noble
+lazy functional parser combinators in java : dijkstra
+lazy vs strict : wadler
+lclint a tool for using specifications to check code : evans
+learning in theory and practice : brown
+learning linear grammars from structural information : sempere
+learning operating systems structure and implementation through the mps computer system simulator : morsiani
+learning spam simple techniques for freely available software : massey
+learning to love som : alfke
+less software engineering : dahlin
+lessons from open source intellectual property and courseware : newmarch
+lessons learned through six years of component based development : sparling
+letos a lightweight execution tool for operational semantics : hartel
+lexical closures for c++ : breuel
+librep : harper
+life cycle software validation : howden
+ligntweight instrumentation from relational queries over program traces : goldsmith
+lightweight extraction of object models from bytecode : johnson
+lightweight lexical source model extraction : murphy
+lightweight remote procedure call : bershad
+lilac a two view document editor : brooks
+linda in context : carriero
+linda in context letters : shapiro
+linda meets unix : leler
+line drawing leap years and euclid : harris
+line polygon classification a study of the complexity of geometric computation : tilove
+linear logic : lincoln
+linear logic and computation a survey : scedrov
+linear logic and permutation stacks the forth shall be first : baker
+linear types can change the world : wadler
+linkage analysis of processes : yaung
+linkage in the nemesis single address space operating system : roscoe
+linux : winer
+linux for s390 technical notes on a large scale implementation : sine
+linux scheduler latency : williams
+liquid software a new paradigm for networked systems : hartman
+lisp as an alternative to java : gat
+lisp good news bad news how to win big : gabriel
+literary machines : nelson
+literate programming on a team project : ramsey
+literate programming tools need not be complex : ramsey
+literate smalltalk programming using hypertext : osterbye
+little languages for pictures in awk : bently
+lively linear lisp look ma no garbage : baker
+living the dynamic life of plug ins : schnoebelen
+ll and lr translators need k 1 lookahead : parr
+llgen an extended ll1 parser generator : jacobs
+llnextgen user manual : halkes
+llvm a compilation framework for lifelong program analysis transformation : lattner
+load distributing for locally distributed systems : shivaratri
+locally least cost error recovery in earlys algorithm : anderson
+logic and natural language : webber
+logic programming and compiler writing : warren
+logic programming as a representation of knowledge : dahl
+logical time capturing causality in distributed systems : raynal
+logical time in distributed computing systems : fidge
+loops : loops
+lottery scheduling flexible proportional share resource management : waldspurger
+low fat computing : fox
+lowering the barriers to programming a taxonomy of programming environments and languages for novice programmers : kelleher
+lpd for run and mp3 playing : lpd
+lsi vlsi building blocks : tobias
+lua an extensible extension language : ierusalimschy
+luc public key encryption : smith
+macfs a portable macintosh file system library : dinda
+machine learning and agent based computing : ding
+macro instruction extensions of compiler languages : mcilroy
+macro processing in high level languages : sakharov
+magneto optical data storage : mcdaniel
+making a bootable floppy disk : frank
+making c++ pratical for business applications 3 essential classes : wiesert
+making extensibility of system software practical with the c4 toolkit : yuen
+making lambda calculus smaller faster : appel
+making pointer based data structures cache conscious : chilimbi
+making slides in latex with prosper : goualard
+making the future safe for the past adding genericity to the java programming language : baracha
+maintenance and service guide hp compaq nc4400 notebook pc : hp
+managing code inspection information : barnard
+managing conflict in system diagnosis : sheppard
+managing replicated remote procedure call transactions : zhou
+managing stored voice in the etherphone system : terry
+mango a parser generator for self : ole agesen
+manual for the prosper class : goualard
+mapping objects to files a unix file system interface to an object management system : florijn
+mapping software architectures to efficient implementation via partial evaluation : marlet
+mapping the beep core into tcp : rose
+maptool supporting modular syntax development : kadhim
+margination and project gutenberg : fishbourne
+masking the overhead of protocol layering : van renesse
+massive parallelism with workstation clusters challenge or nonsense : cap
+massively parallel model matching : rigoutsos
+mastering recursive programming : bartlett
+mathematical theory of claude shannon : chiu
+mathematics the loss of certainty : kline
+matrix computations on systolic type meshes : moreno
+measurement analysis and improvement of udp ip throughput for the decstation 5000 : kay
+measurement and evaluation of the mips architecture and processor : gross
+measuring software quality a case study : drake
+mechanical verification of concurrent systems with tla : engberg
+mechanisms in political processes : tilly
+median cut color quantization : kruger
+median filtering : blysmo
+mediators in the architecture of future information systems : wiederhold
+memory allocation costs in large c and c++ programs : detlefs
+memory barriers a hardware view for software hackers : mckenney
+memory management for real time java an efficient solution using hardware support : higuera
+mems based integrated circuit mass storage systems : carley
+mercurial tutorial : mercurial
+message driven programming system for fine grain multicomputers : maskit
+message passing between sequential processes the reply primitive and the administrator concept : gentelman
+messaging technologies compared : olson
+meta ii a syntax oriented compiler writing language : schorre
+meta programming a software production method : simonyi
+meta programming tools for ml : sheard
+metadata the mac and you : siracusa
+metakit for tcl : wippler
+methods for routing performance management and service problem relief in datakit networks : fendick
+microcontrollers cordic methods : pashea
+microeconomic theory applied to distributed systems : clarke
+metropolitan area optical networks : tomkos
+microsoft a case study in international competitiveness high technology and the future of antitrust law : page
+middleware an architecture for distributed system services : bernstein
+migrating c code to unicode : nestved
+migrating sockets for networking with quality of service guarantees : yau
+millicode in an ibm zseries processor : heller
+mime tutorial : borenstein
+mimic a fast system 370 simulator : may 
+min and max redivivus : alexandrescu
+mini statecharts a lean version of statecharts : nazareth
+minimal perfect hash functions made simple : cichelli
+missed connections one failed attempt to ease restrictions on bell operating companies : walker
+mixin layers  an object oriented implementation technique for refinements and collaboration-based designs : smaragdakis
+mixin modules : duggan
+mixin modules in a call by value setting : hirschowitz
+ml at a glance : anon
+ml module mania a type safe separately compiled extensible interpreter : ramsey
+mmix : knuth
+mmix sim : knuth
+mmpc an algorithm for encrypting multiple messages : shipiro
+modal functions for concise definition of state machines and products : yodaiken
+model driven development the good the bad and the ugly : hailpern
+modeling railway control systems using graph grammars a case study : holzbacher
+modeling the relationship between source code complexity and maintenance difficulty : lanning
+modeling time in computing a taxonomy and a comparative survey : furia
+modern concurrency abstractions for c# : benton
+modula 2 projects for an operating systems course racing sorts and multiple windows : feldman
+modula 3 language definition : cardelli
+modular communication subsystem implementation using a synchronous approach : castelluccia
+modular denotational semantics for compiler construction : Liang
+modular design of real time systems : haase
+modular extensions to z : sampaio
+modular scheduling of atomic actions : rosenband
+modular verification of computer communication protocols : hailpern
+modularity and efficiency in protocol implementation : clark
+module algebra : bergstra
+module composition and refinement with applications to protocol conversion : calvert
+module imbedding : radenski
+module types module variables and their use as a universal encapsulation mechanism : radenski
+mojo nation how it works : anon
+molecular computing the lock key paradigm : conrad
+mom vs rpc communication models for distributed applications" : menasce
+monadic parser combinators : hutton
+monads for functional programming : wadler
+monads indexes and transformations : bellegarde
+monitoring program execution a survey : plattner
+monitors an operating system structuring concept : hoare
+moores law and communications : hellman
+more programming puzzlers : bloch
+more than a gigabuck examining gnu linux's size : wheeler
+moscow ml language overview : romanenko
+moscow ml owners manual : romanenko
+mpatrol : roy
+mpegtool an x window based mpeg encoder and statistics tool : urabe
+much ado about patterns : zubek
+mud faq : anon
+multi valued constant propagation for the reengineering of interfaces : merlo
+multi traversal tree decoration in a functional setting monads versus bindings : pennings
+multicast routing in datagram internetworks and extended lans : deering
+multicomputer programming with modula 3d : leino
+multilevel internetworking gateways architecture and applications : benhamou
+multilevel models in model driven engineering, product lines, and metaprogramming : batory
+multilink ppp: one big virtual wan pipe : ammann
+multimedia conferencing on local area networks : ziegler
+multimedia storage servers a tutorial : gemmell
+multiple bus architectures : mudge
+multiple valued logic a tutorial and appreciation : smithm
+ultiplication by integer constants : briggs
+multiprocessor algorithms for relational database operators on hypercube systems : frieder
+multiprocessor performance measurement instrumentation : mink
+multipurpose intenet mail extensions mime part one format of internet message bodies : freed
+multipurpose web publishing using html xml and css : lie
+multithreaded java program test generation : edelstein
+multix an xml based formalism to encode multi structured documents : chatti
+musical equational programs a functional approach : van den broek
+muskox a system for object oriented design and programming : burshteyn
+mutliplexing issues in communication system design : feldmeier
+mvp model view presenter the taligent programming model for c++ and java : potel
+my enemys enemy : shasha
+myths about congestion management in high speed networks : jain
+naked objects a technique for designing more expressive systems : pawson
+napster messages : napster
+national security as an ambiguous symbol : wolfers
+ncurses old school interfaces : hammel
+nebula a new architecture and its relationship to computer hardware : szewerenko
+nesl a data parallel language : blelloch
+netblt a bulk data transfer protocol : clark
+netblt a high throughput transport protocol : clark
+netheads versus bellheads : denton
+netlogo : netlogo
+netscape plug ins : netscape
+network news transfer protocol : kantor
+network objects : birrell
+network programming for the rest of us : lefkowitz
+network routing : kelly
+network security via reverse engineering of tcp code vulnerability analysis and proposed solutions : guha
+network services in an uncooperative internet : jannotti
+network specification for ucsbs simple minded file system : white
+network subsystem design a case for an integrated data path : druschel
+network support for multimedia : ferrari
+networking the network : agre
+networks and algorithms for very large scale parallel computation : gottleib
+networks for the future to .net or not : netaction
+neural adaptive congestion control for broadband atm networks : chen
+neural network architecture for crossbar switch control : troudet
+neural network design of a banyan network controller : brown
+neural networks for control : cembrano
+neural networks for pattern recognition : kothari
+neural networks for routing communication traffic : rauch
+neural networks for switching : brown
+neuronet a distributed real time system for monitoring neurophysiologic function in the medical environment : krieger
+new advances in filesystem space : miner
+new copyright law for distance education the meaning and importance of the teach act : crews
+new directions in communications or which way to the information age : turner
+new directions in cryptography : diffie
+new heap data structures : kaplan
+new techniques for ray tracing procedurally defined objects : kajiya
+newlines and lexer states : clark
+next permutation when c++ gets it right : word aligned
+nix a safe and policy free system for software deployment : dolstra
+nloops from natural language to object oriented requirements using the natural language processing system lolita : mich
+nonblocking connections : cadenhead
+nondeterministic algorithms : cohen
+notes on algebra of programming : strong
+notes on an approach to category theory for computer scientists : hoare
+notes on concurrent programming with pcn : cunningham
+notes on dialog : barr
+notes on functional programming with gofer : cunningham
+notes on structured programming : dijkstra
+notes on the design of euclid : popek
+notes on thread models in mach 3 : ford
+np completeness : scheier
+nt 5 still no match for unix : mcgarvey
+number representations and dragon curves : davis
+oberon script a lightweight compiler and runtime system for the web : sommerer
+oberon technical notes : pfister
+object centered design for java teaching ood in cs 1 : adams
+object message and performance how they coexist in self : ungar
+object orientation in heterogeneous distributed computing systems : nicol
+object oriented abstractions for distributed programming : guerraoui
+object oriented and conventional analysis and design methodologies : fichman
+object oriented database management systems concepts and issues : bertino
+object oriented patterns : coad
+object oriented programming enhancements in ada 200y : tuft
+object oriented programming for structured procedural programmers : khan
+object oriented programming is oversold : jacobs
+object oriented real time systems concepts and examples : bihari
+object oriented style : friedman
+object oriented symbol management in syntax directed compiler systems : naik
+object oriented techniques in hardware design : kumar
+objecting to objects : johnson
+objects have failed : gabriel
+obliq 3d tutorial and reference manual : najork
+obliq a language with distributed scope : cardelli
+observations on the evolution of a software system : allman
+occams razor the cutting edge for parser technology : bowen
+off and on tokens : clark
+old dogs and new tricks : nelson
+omniscient debugger user manual : lewis
+on computable numbers with an application to the entscheidungsproblem : turing
+on distributed fault simulation : brooks
+on group comunication in large scale distributed systems : babaoglu
+on holy wars and a plea for peace : cohen
+on line monitoring a tutorial : schroeder
+on metaphore and the difficulty of computer discorse : johnson
+on research into the individual and computing systems : jarvinen
+on resource management and qos guarantees for long range dependent traffic : adas
+on scalable state based specifications for real time systems : shaw
+on shifting grounds earthquake retrofit and engineering culture in california : sims
+on systematic generation of scientific papers : tredennick
+on testing the netblt protocol over divers networks : lambert
+on the axiomatic treatment of concurrency : brookes
+on the conversion of indirect to direct recursion : kaser
+on the criteria to be used in composing tools into systems : garlan
+on the criteria to be used in decomposing systems into modules : parnas
+on the cruelty of teaching computer science : dijkstra
+on the development of reactive systems : harel
+on the effectiveness of the test-first approach to programming : erdogmus
+on the expressive power of z : baumann
+on the linearization of graphs and writing symbol files : griesemer
+on the optimality of cyclic transmission in teletext systems : ammar
+on the relative efficiencies of context free grammar recognizers : griffiths
+on the robustness of herlihy's hierarchy : jayanti
+on the usability of {oo} representations : agarwal
+on the use of destination set grouping to improve fairness in multicast video distribution : cheung
+on the use of http as a substrate for other protocols : moore
+on the value of static analysis for fault detection in software : zheng
+on theory and practice of assertion based software development : toth
+on type systems for object oriented database programming languages : leontiev
+on understanding data abstraction revisited : cook
+on understanding types data abstraction and polymorphism : cardelli
+one runtime to bind them : doederlein
+one time passwords in everything opie experiences with building and using stronger authentication : mcdonald
+one way hash functions : schneier
+ontologies and the semantic web : horrocks
+ontology visualization methods a survey : katifori
+opal a single address space system for 64 bit architectures : chase
+open programming services for virtual machines the design of mozart and seam : brunklaus
+openbsd : openbsd
+openc++ tutorial : chiba
+operating systems : anderson
+operating systems and middleware : hailperin
+operation centric hardware description and synthesis : hoe
+operation of hdlc abm in harsh error environments a robust extension : fairhurst
+operational and compositional semantics of synchronous automaton compositions : maraninchi
+operational machine specification in a functional programming language : koopman
+operational versus definitional a perspective on programming paradigms : ambler
+optical packet switching : rouskas
+optimal price cap regulations : clemenz
+optimistic register coalescing : park
+optimization of dynamic languages using hierarchical layering of virtual machines : yermolovich
+optimization of object oriented programs using static class hierarchy analysis : dean
+optimizing an ansi c interpreter with superoperators : proebsting
+optimizing ipc performance for shared memory mutliprocessors : gamsa
+optimizing programs with partial specifications : vandervoorde
+optimizing stack fram access for processors with restricted addressing modes : bartley
+optional scope contracts : beck
+organization of object oriented programs using static class hierarchy analysis : dean
+organizations and public policy : 
+organized pruning of file sets : spinellis
+orphan problems and remedies in distributed systems : abawajy
+orthogonal sequences : stallings
+os portal an economic approach for making an embedded kernel extensible : chang
+os6 an experimental operating system for a small computer part 2 input output and filing system : stoy
+overriding the C++ operator == : stevenson
+overview of common benchmarks : weicker
+overview of metropolitan area networks : klessig
+overview of the ibm java just in time compiler : suganuma
+oxford oberon 2 compiler users manual : spivey
+p2p and the promise of internet equality : agre
+packet switching interconnection networks for modular systems : dias
+packetized video options for interaction between the user the network and the codec : wakeman
+packrat parsing simple powerful lazy linear time : ford
+pad a zoomable graphical sketchpad for exploring alternate interface physics : bederson
+painless parsing in haskell : hevan
+palm os programmers companion : bey
+paradigm a highly scalable shared memory multicomputer architecture : cheriton
+parallel crawlers : cho
+parallel implementations of probabilistic inference : kozlov
+parallel operators : jezequel
+parallel processing a smart compiler and a dumb machine : fisher
+parallel processing for biomedical signal processing : manolakos
+parallel programming using shared objects and broadcasting : tanenbaum
+parallel programming with control abstraction : crowl
+parallel slather language design and application expierence : feldman
+parallel visualization algorithms performance and architectural implications : singh
+parametrically polymorphic datatype definition : skibinski
+parametric polymorphism for java a reflective solution : solorzano
+parametric polymorphism for xml : hosoya
+paramodel a visual modeling and code skeleton generation system for programming parallel applications : ce
+parital revelation and modula 3 : freeman
+parsing english with a link grammar : sleator
+parsing non lr k grammars with yacc : merrill
+parsing with c++ classes : conway
+parsing with c++ deferred expressions : conway
+partial evaluation principles and perspectives : consel
+partial redundancy elimination is not bidirectional : wolfe
+partitions: celko
+passing data from one form to another : webb
+password generation by bloom filters : stallings
+patch free user level link time intercepting of system calls and interposing on library functions : kiselyov
+path based production rules : crawford
+path testing of computer programs with loops using a tool for simple loop patterns : white
+paths trees and flowers : edmonds
+pattern languages : gabriel
+pattern matching with regular expression notation in unix : gill
+pattern recognition in software engineering : dupree
+patterns and software development : beck
+patterns and software essential concepts and terminology : appleton
+patterns for piccolo : piccolo
+patterns plop plop fizz fizz : martin
+patterns the top ten misconceptions : vlissides
+pc hardware for source code unix : gray
+pc software performance tuning : atkins
+pdh broadband isdn atm and all that a guide to modern wan networking and how it evolved : reilly
+peep an architectural description driven peephole optimizer : kessler
+peer to peer internet telephony using sip : singh
+pentium 4 in depth : mihocka
+people do read large ads the law of advertising from outer space : tomlinson
+perfect spatial hashing : lefebre
+performance analysis of five interprocess communication mechanisms across unix operating systems : immach
+performance analysis ratholes : jain
+performance and environment monitoring for continuous program optimization : casaval
+performance and functional prototyping from software descriptions : wohlin
+performance description and analysis for distributed systems using a variant of lotos : rico
+performance issues in parallelized network protocols : erich m nahum
+performance of a broadcast packet switch : bubenik
+performance of a software mpeg video decoder : patel
+performance of checksums and crcs over real data : partridge
+performance visualization of a distributed system a case study : jakiela
+perils of porting applications from unix to nt : linthicum
+perly unix with buttons : hesketh
+persistence in e revisited implementation experiences : schuh
+persistent objects in cpp : stevens
+personalization and privacy : volokh
+perspectives manifesto 1991 : alexander
+perspectives on dedicated and control processing : house
+pervasive computing with inferno and limbo : stanley-marbell
+pete the portable expression template engine : haney
+phantom a language overview : courtney
+phantom an interpreted language for distributed computing : courtney
+phase change recording : leibbrandt
+philosophies for enginerring computer based systems : lawson
+pi a Pattern Language : kudrjavets
+pi rpc a platform independent remote procedure call architecture : ray
+piccolo : piccolo
+pictorial data base systems : chang
+pictorial information processing of landstat data for geographic analysis : zobrist
+picture query languages for pictorial data base systems : chang
+pictures that play design notations for real time and distribued systems : buhr
+pilot an operating system for a personal computer : redell
+pk a posix threads kernel : miller
+pl360 a programming language for the 360 computer : wirth
+pl360 textbook : guertin
+plan 9 from bell labs : pike
+plan a programming language for active networks : hicks
+planet reference : miyata
+plasticfs : miller
+play calling strategy in american football a game theoretic stochastic dynamic programming approach : boronico
+plm 386 programmers guide : plm
+plt mzc mzscheme compiler manual : mzc
+pluggable type systems : bracha
+plumbing and other utilities : pike
+plwm the pointless window manager : liljenberg
+political incentives in u s water policy relationships between distributive and regulatory politics : mann
+polka animation designers package lite version : stasko
+polymorphic c : voss
+portprep a portable repeated string finder : jones
+postscript tutorial : bourke
+pouring liquids a study in commonsense physical reasoning : davis
+power laws pareto distributions and zipfs law : newman
+powerpc 601 and alpha 21064 a tale of two risks : smith
+ppmexe program compression : drinic
+practical aspects of multi stage programming : eckhardt
+pratical earley parsing : aycock
+pratical experience with os 2 installable file systems : ogle
+pragmatic parsing in common lisp : baker
+pratical applications of path pascal in systems programming : campbell
+precise concrete type inference for object oriented languages : plevyak
+precompiling c++ for garbage collection : edelson
+predicate abstraction and refinement techniques for verifying verilog : clarke
+predicate dispatching a unified theory of dispatch : ernst
+predicate path expressions : andler
+predicting client-server availablility : wood
+preliminary analysis of a breadth first parsing algorithm theoretical and experimental results : martin
+preliminary design for the programming language forsythe : reynolds
+pretty printing context free grammars : osborne
+prettyprinting : oppen
+price cap regulation can we learn from the british telecom experience : sushil k bhattacharyya
+pricing and architecture of the internet historical perspecgtives from telecommunications and transportation: odlyzko
+prime numbers : smith
+primitive types considered harmful : alpert
+principles of good software specification and their implications for specification languages : robert balzer
+principles versus patterns : pescio
+priority queues for motorists : guttman
+privacy economics and price discrimination on the internet : odlyzko
+probabilistic model for quality of service modeling in packet switched data networks : popescu
+probability statistics and stochastic processes : shalizi
+probability theory : probability
+problems with determining package cohesion and coupling : rising
+procedural programming laboratory manual : spivey
+procedures and parameters an axiomatic approach : hoare
+process assessment considered wasteful : fayad
+process groups and group communication : liang
+process scheduling and unix semaphores : dunstan
+process semantics global axioms compositional rules and applications : nguyen
+processes are in the eye of the beholder : lamport
+processor reconfiguration through instruction set metamorphosis : athanas
+producing an accurate call stack trace in the occasional absence of frame pointers : copperman
+productivity incentive clauses and rate adjustment for inflation : william j baumol
+profile guided automatic inline expansion for c programs : chang
+profiling for performance : newcomer
+program comprehension : rugaber
+program comprehension workshop notes : rajlich
+program development under inferno : peppe
+program fragments linking and modularization : cardelli
+program optimization via locality : sankaran
+program optimizations via locality : sankaran
+program profiling problems and a solution via machine language rewriting : reiser
+program transformation with stratego xt rules stratgies toos and systems : visser
+programmable syntax macros : weise
+programming graphical user interfaces with scheme : gallesio
+programming in c++ rules and recommendations : henricson
+programming in oberon : reiser
+programming in oberon : writh
+programming in the pi calculus : pierce
+programming in timed cuncurrent constraint languages : saraswat
+programming internet telephony services : rosenberg
+programming language concepts the lambda calculus approach : fokkinga
+programming languages : hunt
+programming languages and direct execution computer architecture : chu
+programming languages and systems for prototyping concurrent applications : hasselbring
+programming languages as operating systems or revenge of the son of the lisp machine : flatt
+programming mobile robots in scheme : rees
+programming persistence in xi : sajeev
+programming problems 1 : problems
+programming problems 2 : problems
+programming real time applications with signal : le guernic
+programming semantics for multiprogrammed computations : dennis
+programming shorhands : proebsting
+programming with asn1 using polymorphic types and type specialization : lavender
+programming with behaviors the syntax and semantics : be
+programming with communication protocol stacks : free
+programming with fudgets : hallgren
+programming with streams : nakata
+programming with streams in a pascal like language : nakata
+programming with the http protocol : davidson
+programming world wide web pages in scheme : normark
+programming xml in java part 1 : johnson
+project athena as a distributed computer system : champine
+prolac language reference manual : kohler
+promela a language for constructing correct and efficient protocols : basu
+prometheus or pandora the influence of automation on society : simon
+proofs and refutations : lakatos
+proofs of correctness of cache coherence protocols : stoy
+properties of concurrent programs : chandi
+prosper tutorial : guha
+protecting free expression online with freenet : clarke
+protecting public keys and signature keys : denning
+protection : lampson
+protein based optical computing and memories : birge
+protocol analysis using a timed version of sdl : bause
+protocol conversion : green
+protocol design and implementation using formal methods : van sinderen
+protocol engineering a critical assessment : rudin
+protocol implementation using integrated layer processing : braun
+protocol latency mips and reality : mosberger
+protocol programming in erlang using binaries : wikstrom
+protocol specification and verification using z : duke
+protocol verification made simple a tutorial : gouda
+protocol verification via projections : lam
+protocols for data security : demillo
+prototype based application construction using self 4.0 : wolczko
+prototype based programming in javascript : techhead
+prototyping synchronous group applications : tou
+providing emergency services in internet telephony : schulzrinne
+providing reliable nt desktop services by avoiding nt server : limoncelli
+proving liveness properties of concurrent programs : owicki
+proving the correctness of the static link technique using evolving algebras : mohnen
+provision of teleaction teleservices by an isdn using frame relaying multiplexing on the d channel : katz
+proxies design principles for robust object oriented intercession apis : cutsem
+pseudo incremental linking for c c++ : hoffman
+pseudorandom bit generators in stream cipher cryptography : zeng
+pthreads library interface : mueller
+ptom a pascal translator for mobile code : tschudin
+purely functional data structures : moss
+putting oo distributed programming to work : felber
+px supporting voice in workstations : kamel
+qbe obe a language for office and business automation : zloof
+quality of service negotiation in a real time communication network : ramaekers
+quality of service requirements in packet switching public data networks : park
+quick compilation using peephole optimization : davidson
+quickcheck a lightweight tool for random testing of haskell programs : claessen
+quickfit an efficient algorithm for heap storage allocation : weinstock
+quinault an office modeling system : nutt
+r++ adding path base rules to c++ : crawford
+r++ using rules in object oriented designs : mishra
+rafts for basic blocks a progress report on forth native code compilation : ertl
+ram guide part 1 dram and sram basics : stokes
+random early detection gateways for congestion avoidance : floyd
+random event simulation for c programs : scolnick
+randomized shuffling : rolfe
+rapid case dispatch in scheme : clinger
+rate control in standard transport layer protocols : eldridge
+rationale for the design of the ada programming lanaugae : ichbiah
+ratpoison man page : ratpoison
+rbac schema verification using lightweight formal model and constraint analysis : zao
+rc reference manual : boussinot
+rc semantics using rewrite rules : boussinot
+rdf weaving the web of discovery : swick
+re2c a more versatile scanner generator : bumbulis
+reachability testing of concurrent programs : lei
+reactive c an extension of c to program reactive systems : boussinot
+reactive programming in eiffel : caromel
+reactive scripts : boussinot
+reactive shared variables based systems : boussinot
+real time behavior of programs : haase
+real time data fusion in the intensive care unit : factor
+real time further misconceptions or half truths : kurki-suonio
+real time scheduling theory and ada : sha
+real time voice communication over the internet using packet path diversity : liang
+real92 a combined specification language for real time concurrent systems and properties : nepomniaschy
+real92 a combined specification language for real time concurrent systems and properties : shilov
+realization of verilog hdl domputation model : hyde
+realizing 3d visualization using crossed beam volumetric displays : ebert
+really truly trackerless bittorrent : fry
+reasonable rules for rate regulation plausible policies for an imperfect world : baumol
+reasoning about time in higher level language software : shaw
+recognizers for extracting architectural features from source code : harris
+reconciling environment integration and component independence : sullivan
+reconstructing io : fraser
+record structures for advanced information systems : smura
+recources for early object design education : biddle
+recursive ascent descent parsing : hornspool
+recursive functions of symbolic expressions and their computation by machine part 1 : mccarthy
+reducing and manipulating complex trace data : touati
+reducing compilation time by a compilation server : onodera
+reducing host load network load and latency in a distributed shared memory : minnich
+reengineering with reflection models a case study : murphy
+reexamining b trees : johnson
+refactorings in large software projects : lippert
+refinement calculus part i sequential nondeterministic programs : back
+refinement calculus part ii parallel and reactive programs : back
+reflection and semantics in lisp : smith
+reflections on an operating system design : lampson
+reflection on notecards seven issues for the next generation of hypermedia systems : halasz
+reflections on the high level language symbol computer system : ditzel
+reflections on trusting trust : thompson
+reflective facilities in smalltalk 80 : foote
+register allocation by puzzle solving : fernando
+register allocation via usage counts : frieburghouse
+regular expressions : java
+reiserfs : reiser
+relacs a communications infrastructue for constructing reliable applications in large scale distributed systems : babaoglu
+relations and refinement in circuit design : jones
+reliability and scaling issues in multicast communication : rajagopalan
+reliability modeling an overview for system designers : reibman
+reliable and efficient hop by hop flow control : ozveren
+reliable broadcast protocols : chang
+reliable full duplex file transmission over half duplex telephone lines : lynch
+reliable udp protocol : bova
+remarks on a methodology for implementing highly concurrent data objects : skudlarek
+remote method calling and object group communication : maffeis
+remote procedure call programming guide : rpc
+repeal braunls law : kaelbling
+replacing a dictionary with a square root : cargill
+replacing complexity with generality the programming language forsythe : reynolds
+replicated abstract data types building blocks for collaborative applications : roh
+report of a workshop on future directions in programming languages and compilers : anonymous
+report on the experimental language x10 : saraswat
+report on the programming language euclid : lampson
+representation of moving rigid objects based on visual observations : nagel
+representations and meta interpreters : krishnamurthi
+representational issues in learning systems : langley
+representing change by aspect : dolog
+representing structure and behavior of digital hardware : davis
+requirements validation via automated natural language parsing : nanduri
+residue arithmetic a tutorial with examples : taylor
+resistance is futile formal linguistic observations of design patterns : van emde boas
+resource allocation for broadband networks : hui
+resource integration using a large knowledge base in carnot : collet
+resource management in networked multimedia systems : nahrstedt
+response time in a teletext system an individual users perspective : ammar
+responsible web caching : berghel
+restaurant tipping and service quality : lynn
+resume writing a hiring managers perspective : russo
+retargetable cross compilation techniques comparison and analysis of gcc and zephyr : dai
+rethinking memory management : applegate
+reusable application dependent machine descriptions : bailey
+reusing and interconnecting software components : goguen
+reusing object oriented designs : johnson
+reverse engineering through formal transformations knuths polynomial addition algorithm : ward
+reverse execution of programs : biswas
+reviewing a manuscript for publication : lee
+revised report on the algorithmic language scheme : clinger
+rewriting executable files to measure program behavior : laurs
+rex xml shallow parsing with regular expressions : cameron
+rie a comipler generator based on a one pass type attribute grammar : sassa
+right triangulated irregular networks : evans
+rigor and proof in mathematics a historical perspective : kleiner
+rijndael the advanced encryption standard : daemen
+risk management : simmons
+robust distributed computing and sensing algorithm : brooks
+role based access control models : sandhu
+role based access control with x.509 attribute certificates : chadwick
+rolling your own input iterators : van horn
+routing algorithms for internetworking : stallings
+routing strategies in computer networks : hsieh
+rpc in the x kernel evaluating new design techniques : hutchinson
+rpc under fire : vinoski
+rpcgen programming guide : rpcgen
+rss tutorial : nottingham
+rti 2.0 architecture : bachinsky
+rtl modeling in c++ : zhao
+rtp library api specification : lucent
+ruby users guide : ruby
+rules for referees : forscher
+rust : hoare
+saam a method for analyzing the properties of software architectures : kazman
+safe and efficient active network programming : thibault
+safe stl : horstmann
+safety critical software status report and annotated bibliography : place
+sage an object oriented toolkit and class library for building fortran and c restructuring tools : bodin
+salto system for assembly language transformation and optimization : rohou
+satellite link communication protocols : pujolle
+sawfish programmers reference : sawfish
+scala by example : odersky
+scalability three tiered architectures and application servers : greenspun
+scalable extensibility via nested inheritance : nystrom
+scalable feedback control for multicast video distribution in the internet : bolot
+scalable high speed ip routing lookups : waldvogel
+scalable multicast file distribution : gemmell
+scalable, robust visualization of very large trees : beerman
+scalable secure nad highly available distributed file access : satayanarayanan
+scalable shared memory multiprocessor architectures : thakkar
+scale free geometry in oo programs : potanin
+scaling parallel programs for multiprocessors methodology and examples : singh
+scaling up visual programming languages : burnnett
+scarcely variabled programming and pascal runciman
+scenario based assessment of nonfunctional requirements : gregoriades
+scheduling support for concurrency and parallelism in the mach operating system : black
+scheduling vector straight line code on vector processors : keller
+scheme 79 lisp on a chip : sussman
+schemes a high level data structuring concept : mitchell
+schemeunit and schemeql two little languages : welsh
+scomp a solution to the multilevel security problem : fraim
+scope conserving expression evaluation a class of storage optimal evaluation strategies for arithmetic expressions : chroust
+scout a communications oriented operating system : montz
+scrap more boilerplate : lammel
+scraping the acm digital library : bergmark
+scripted documents : wippler
+scripting higher level programming for the 21th century : ousterhout
+scripts a communication abstraction mechanism and its verification : francez
+scsh reference manual : shivers
+sctp a proposed standard for robust internet data transport : caro
+sdsi a simple distributed security infrastructure : rivest
+search algorithms for regression test case prioritization : li
+search engine optimization free : boutin
+searching with quantum computers : grove
+secheduling in rtl design methodology : shin
+second generation of vector supercomputers : kozdrowicki
+second step algorithms in the burrows wheeler compression algorithm : deorowicz
+securing dns and bind : bauer
+security in plan 9 : cox
+security kernel design and implementation an introduction : ames
+security mechanisms in high level network protocols : voydock
+security models for web based applications : joshi
+security patterns for voice over ip networks : fernandez
+security practicum essential home wireless security practices : fisher
+security problems in the tcp ip protocol suite : bellovin
+seda an architecture for well conditioned scalable internet services : welsh
+seeds for random number generators : marsaglia
+seis++ a pattern language for seismic tools construction and integration : yingjun
+selecting a programming language compiler and support environment method and example : anderson
+selective open recursion a solution to the fragile base class problem : aldrich
+selecting the median and two quantiles in a set of numbers : cunto
+self adaptive software for signal processing : sztipanovits
+self assesment procedure xxiii programming languages : clifton
+self acertifying file system : mazieres
+self healing in modern operating systems : shapiro
+selling objects : ivor
+semantic : berners-lee
+semantic : ludlam
+semantic issues in the design of languages for debugging : crawford
+semantic lego : espinosa
+semantic networks : sowa
+semantics and types : krishnamurthi
+semantics of multithreaded java : manson
+semantics of programming languages a tool oriented approach : heering
+seminar safe concurrent programming in java with csp : nevison
+send receive considered harmful myths and realities of message passing : gorlatch
+sending unix to the fat farm : forsyth
+sendmail meets erlang experiences using erlang for email applications : fritchie
+separate compilation and module extension : crelier
+seperating key management from file system security : mazieres
+separating operational and control behaviors a new approach to web services modeling : sheng
+seque a programming language for manipulating sequences : griswold
+sequoia a fault tolerant tightly coupled multiprocessor for transaction processing : bernstein
+serial isogons of 90 degrees : sallows
+service specification and protocol construction for the transport layer : murphy
+servlets faq : jguru
+set based analysis of ml programs : heintze 
+set up a simple syndication feed using rss : angelius
+seti home an experiment in public resource computing : anderson
+setuid demystified : chen
+seven habits of successful pattern writers : vlissides
+sfs 0.5 manual : mazieres
+sha the secure hash algorithm : stallings
+shade a fast instruction set simulator for execution profiling : cmelik
+shadow guarding run time checking you can afford : patil
+shallow binding in lisp 1.5 : baker
+shared memory consistency models a tutorial : adve
+shared memory vs message passing in asynchronous distributed environment : bar-noy
+sharing and protection in a single address space operating system : chase
+sharlit a tool for building optimizers : tjiang
+sheep fleecing with walter funkenbusch : anon
+shoplifting in reverse : duntermann
+shortcomings of lcl 2.4 : chalin
+should computer scientists experiment more? : tichy
+signature matching a key to reuse : zaremski
+signatures a language extension for improving type abstraction and subtype polymorphism in c++ : baumgartner
+signatures for a network protocol stack a systems application of standard ml : biagioni
+silver an extensible attribute grammar system : van wyk
+sim a utility for detecting similarity in computer programs : gitchell 
+similar shape retrieval in shape data management : mehrotra
+simple register spilling in a retargetable compiler : fraser
+simplified ip addressing : hector
+simply typed lambda calculus : anonymous
+simulated annealing a heuristic optimization algorithm : plashikar
+simulating hypercubes in unix part i : hamilton
+simulating hypercubes in unix part ii : hamilton
+simulating plant growth : grubert
+simulating software development processes : hansen
+simulating student programmers : spohrer
+simulation lecture notes: nakayama
+single pass generation of static single assignment form for structured languages : brandis
+six rather unusual propositions about terrorism : mueller
+ska supporting algorithm and data structure discussion : hamilton-taylor
+skip lists : schneier
+skip lists a probabilistic alternative to balanced trees : pugh
+skribilo user manual : gallesio
+slim binaries : franz
+slinky static linking reloaded : collberg
+slk a capability system based on save language technology : hawblitzel
+small forwarding tables for fast routing lookups : degermark
+small programming exercises : rem
+smart and stupid networks why the internet is like microsoft : odlyzko
+smart pointers they're smart but they're not pointers : edelson
+smarter memory improving bandwidth for streamed references : mckee
+smarttutor an intelligent tutoring system in web based adult education : cheung
+smashing c++ vptrs : rix
+smgn rapid prototyping of small domain specific languages : kienle
+sml tk functional programming for graphical user interfaces : luth
+soap simple object access protocol : box
+sockets programming in java a tutorial : mahmoud
+soft typing : cartwright
+software abstractions : jackson
+software architecture patterns : garlan
+software assurance by bounded exhaustive testing : yang
+software based replication for fault tolerance : guerraoui
+software communication mechanisms procedure calls versus messages : stankovic
+software complexity and maintenance costs : banker
+software considerations in mass storage systems : o'lear
+software defect reduction top 10 list : boehm
+software design : enos
+software development based on executable specifications and transformations : fromherz
+software development environments : dart
+software development two approaches to animation of z specifications using prolog : west
+software environment reasearch directions for the next five years : osterweil
+software estimating rules of thumb : jones
+software evolution through rapid prototyping : luqi
+software ics : findlay
+software is discrete mathematics : page
+software maintainability a pratical concern for life cycle costs : munson
+software measurement for dod systems recommendations for initial core measures : carleton
+software tools for microanalysis of programs : cohen
+soot a java bytecode optimization framework : vallee-rai
+sorting and searching algorithms : niemann
+sovoip middleware for universal voip connectivity : arif
+ubiquitous computing using sip : berger
+ule a modern scheduler for freebsd : roberson
+using and customizing knoppix : bernier
+using jails in freebsd for fun and profit : hope
+using javascript as a real programming language : mikkonen
+using metrics in management decision making : stark
+using metrics to evaluate software system maintainability : coleman
+using metrics to manage software projects : weller
+using multicast fec to solve the midnight madness problem : schooler
+using procedural parameters and continuations in combinatorial searches : hwang
+using sfs for a secure network file system : fu
+using term rewriting systems to design and verify processors : arvind
+using tournament trees to sort : stepanov
+software design patterns for tinyos : gay
+software performance engineering : smith
+software project verification and validation : deutsch
+software psychology requirements for software maintenance activities : rugaber
+software quality improvement : mizuno
+software reliability modern challenges : spinellis
+software requirements a tutorial : faulk
+software safety in computer controlled systems : leveson
+software visualization in the large : ball
+software vs hardware errors : glass
+solaris sockets past and present : mauro
+solving triangular peg solitaire : bell
+some economics of the internet : mackie-mason
+some issues for single address space systems : chase
+some issues in the semantics of facile distributed programming : thomsen
+some results on the impossibility universality and decidability of consensus : jayanti
+some shortcomings of ocl the object constraint language of uml : viziri
+some topics in parser generators : jacobs
+sos simple operating system simulator : crowley
+source code : weisner
+spacecraft computers state of the art survey : theis
+spambayes effective open source basesian based email classification : meyer
+sparc assembly language reference manual : sparc
+spatial data and the voronoi tessellation : lukatela
+specification and analysis of a data transfer protocol using systems of communicating machines : lundy
+specification and analysis of intercomponent communication : heimdahl
+specification and verification of time dependent communication protocols : shankar
+specification meta systems : demetrovics
+specification of basic encoding rules for abstract syntax notation one asn 1 : itu
+specification styles in distributed systems design and verification : vissers
+specifying a real time kernel : spivey
+specifying and verifying conditional progress : calvert
+specifying representations of machine instructions : ramsey
+speech interfaces from an evolutionary perspective : nass
+splay trees : clark
+splay trees : karger
+spoken dialogue technology: enabling the conversational user interface : mctear
+sqlite : sqlite
+squeak by example : black
+squinting at power series : mcilroy
+ssa is functional programming : appel
+stack based typed assembly language : morrisett
+stack inspections theory and variants : fournet
+stacker an example of using llvm
+stacking them up a comparison of virtual machines : gough
+standard for the format of arpa internet text messages : crocker
+standardized protocol interfaces : holzman
+standards for open document processing current state and future developments : bormann
+star encoding : nelson
+stardust an environment for parallel programming on networks of heterogeneous workstations : cabillic
+stars and starlets : shasha
+state machines and assertions an integrated approach to modeling and verification of distributed systems : joseph
+state patterns and c++ : marci
+static analysis for detecting taint style vulnerabilities in web applications : jovanovich
+static debugging of c programs detection of pointer errors in recursive data structures : gaugne
+static detection of dynamic memory errors : evans
+static mapping of functional programs an example in signal processing : dennis
+static scheduling of synchronous data flow programs for digital signal processing : lee
+statistical debugging a hypothesis testing based approach : liu
+statistical testing of software based on a usage model : walton
+steganography of voip streams : mazurczyk
+steps toward architecture independent image processing : webb
+stepwise refinement and verification in box structured systems : mills
+stepwise refinement of parallel algorithms : back
+sticks : shasha
+stls red black trees : shankel
+stolen from stardust and air idea theft in the entertainment industry and a proposal for a concept initiator credit: winteringham
+storage and retrieval of structured documents : macleod
+storage systems not just a bunch of disks anymore : riedel
+stow : glickstein
+strategies for supporting application portability : mooney
+stream data analysis in prolog : parker
+stream data types for signal processing : dennis
+stream processing functions : burge
+streamit a language for streaming applications : thies
+strema specifying application processes using streams : clark
+strengthening passwords : abadi
+stress testing of compilers for modula 2 : pronk
+stride the music of fats waller : machlin
+strongtalk typechecking smalltalk in a production environment : bracha
+structure and chance melding logic and probability for software debugging : burnell
+structure the use notes on a method for designing computing system environments : schorer
+structured interrupts : hills
+structured programming : jensen
+structured programming in java : gibbons
+structured programming with go to statements : knuth
+structured streams a new transport abstraction : ford
+structuring : hehner
+structuring specifications in z : woodcock
+studying the policy process : 
+style control in the quill document editing system : wolfsthal
+subclassing errors oop and pratically checkable rules to prevent them : kiselyov
+subgraph multicasting a scalable and low delay routing scheme for multipoint messages : cheung
+substitution : krishnamurthi
+substitution a formal methods case study using monads and transformations : bellegarde
+subtext uncovering the simplicity of programming : edwards
+subsuming packages and other stories : bracha
+successfully applying software metrics : grady
+sudoku and graph theory : suchard
+sudoku in coq : thery
+suif an infrastructure for research on parallelizing and optimizing compilers : wilson
+summary cache a scalable wide area web cache sharing protocol : fan
+summary of ml syntax : ullman
+sunit : burkert
+supercomputers colossal computations enormous expectations renowned risk : lincoln
+superquadrics and angle preserving transformations : barr
+supporting dynamic data structures on distributed memory machines : rogers
+supporting real time applications in an integrated services packet network architecture and machanism : clark
+supporting software reusbility with polymorphic types : laverman
+supporting the negotiation life cycle : robinson
+supporting thousands of threads using a hybrid stack sharing scheme : dageville
+suppression of partial redundancies : hailperin
+supra rpc subprogram parameters to remote procedure calls : stoyenko
+survey and taxonomy of packet classification techniques : taylor
+survey of highly parallel computing : haynes
+survey of scope issues in programming languages : schwanke
+survey of switching techniques in high speed networks and their performance : oie
+survey of traffic control schemes and protocols in atm networks : bae
+survival of the fittest : baker
+surviving network partitioning : melliar-smith
+svp a model capturing sets streams and parallelism : parker
+swap space implementation : mauro
+swarm 0.44 documents : dales
+sxml specification : kiselyov
+sxslt manipulation language for xml : kiselyov
+symbolic model checking using sat proceudres instead of bdds : biere
+synchronization algorithms for shared memory multiprocessors : graunke
+synchronization coherence and event ordering in multiprocessors : dubois
+synchronous automata for reactive real time or embedded systems : maffeis
+synchronous c++ a language for interactive applications : petitpierre
+synchronous extensions to operation centric hardware description languages : nordin
+synchronous kahn networks : caspi
+synchronous programming with events and relations the signal language and its semantics : benveniste
+syntatic abstractions in scheme : hieb
+syntax directed least errors analysis for context free languages a practical approach : lyon
+syntax macros and continuations : dybvig
+syntax macros and extended translation : leavenworth
+synthesis of communication protocols survey and assessment : probert
+synthesis of operation centric hardware descriptions : hoe
+synthesis of synchronous assertions with guarded atomic actions : pellauer
+synthetic perturbation techniques for screening shared-memory programs : snelick
+system modelling with high level petri nets : genrich
+system support for efficient dynamically configurable multi party interactive multimedia applications : moran
+systematic program development : dromey
+systems software research is irrelevant : pike
+tabu search part ii : glover
+tahuti a geometrical sketch recognition system for uml class diagrams : hammond
+take pity on the user the red customization package : prunet
+tango a framework and system for algorithm animation : stasko
+tangrams : mathew
+tartan language design for the ironman requirement reference manual : shaw
+tartan language design for the ironman requirement notes and examples : shaw
+task allocation in distributed data processing : chu
+tcl and swing as a c c++ development tool : beazley
+tcldot graph manipulations in tcl : tcldot
+tcll1 an ll1 parser generator and parser : christopher
+tcp vegas new techniques for congestion detection and avoidance : brakmo
+teaching design : coplien
+teaching graphics using ada : brown
+teaching object oriented programming is more than teaching object oriented programming languages : lindskov 
+teaching objects first in introductory computer science : cooper
+teaching oo putting the object back into ood : coplien
+teaching programming broadly and deeply the kernel language approach : van roy
+teaching programming in the oop era : burton
+technical context and cultural consequences of xml : adler
+techniques for aligning objects in drawing programs : raisamo
+techniques for reducing pen plotting time : anderson
+techniques for requirments elicitation : goguen
+telecommunications regulation the continuing dilemma : trebing
+teledemocracy in local government : watson
+temporal logic case study : wood
+ten commandments of formal methods : bowen
+ten myths of multimodal interaction : oviatt
+tenex a paged time sharing system for the pdp 10 : bobrow
+terminal emulation for automation and testing character graphic programs a code walkthough : libes
+ternary search trees : bentley
+territory game : shasta
+testing ics: getting to the core of the problem : murray
+testing protocol implementations based on a formal specification : miller
+model testing strategies for oo software : binder
+model variables clearly supporting abstraction in design by contract : cheon
+tetris is hard even to approximate : demaine
+text editors algorithms and architectures : vlades
+text to speech conversion technology : o'mally
+textual specification tabular languages and pccts : craymer
+the abcs of specification amsl behavior and components : barnett
+the absolute minimum every software developer absolutely positively must know about unicode and character sets no excuses : spolsky
+the accent compiler compiler : accent
+the affordances of media spaces : gaver
+the allegory of the humidifier roi for systems engineering : sampson
+the alloc stream facility a redsign of application level stream io : krieger
+the alonzo functional programming language : ramsdell
+the alpha language : wilde
+the amdhal 470v 8 and the ibm 3033 a comparison of processor designs : doran
+the analysis and interpretation of small house plans some contemporary examples : brown
+the analysis of political systems : easton
+the anatomy of a loop : shivers
+the architecture of complexity : simon
+the argos language graphical representation of automata and description of reactive systems : maraninchi
+the art of problem posing : brown 
+the art of writing use cases tutorial notes : wirfs-brock
+the asn1 erlang compiler : wikstrom
+the aspectj language : aspectj
+the aspirin migranes neural network software users manual : leighton
+the automated dictionary : fox
+the battle over the institutional ecosystem in the digital environment : benkler
+the bead game rugs and beauty : gabriel
+the bead game rugs and beauty part 1 : gabriel
+the beamer class : tantau
+the behavior of behavior : smith
+the best available technology for computer security : landwehr
+the bigwig project : barbrand
+the bliss programming language a history : brender
+the blocks extensible exchange protocol core : rose
+the blowfish encryption algorithm : schneier
+the bsd packet filter a new architecture for user level packet capture : mccanne
+the c information abstraction system : chen
+the c-- language reference manual : peyton jones
+the case against micropayments : odlyzko
+the case for persistent connection http : mogul
+the cassowary linear arithmetic constraint solving algorithm : badros
+the cathedral and the bazaar : raymond
+the challenge for incentive regulation : barnich
+the chief architects reflection on symbol iir : rice
+the clouds distributed operating system : dasgupta
+the composition of semantics in algol 68 : branquart
+the concert signature representation idl as an intermediate language : auerbauch
+the conservative nanny state : baker
+the construction of software systems using domain specific reuse infrastructures : debaud
+the conversational classroom : waite
+the crisis wide area security architecture : belani
+the cweb class : schrod
+the cweb system of structured documentation : knuth
+the dark side of the web an open proxys view : pai
+the darpa internet interconnecting hetergeneous computer networks with gateways : hinden
+the dawn of the stupid network : isenberg
+the dawning of the autonomic computing era : ganek
+the dcode intermediate program representation reference manual and report : gough
+the deadlock problem an overview : isloor
+the death of computer languages the birth of intentional programming : simonyi
+the decay and failures of web references : spinellis
+the decsystem 20 at columbia university 1977 1988 : da Cruz
+the dejagnu testing framwork : savoye
+the delay friendliness of tcp : brosh
+the denotational semantics of booster : dechering
+the denotational semantics of programming languages : tennent
+the derivative of a regular type is its type of one-hole contexts : mcbride
+the design and application of a retargetable peephole optimizer : davidson
+the design and construction of deadlock free concurrent systems : martin
+the design and implementation of arjuna : parrington
+the design and implementation of dynamic hashing for sets and tables in icon : griswold
+the design and implementation of a high level language converter : moynihan
+the design and implementation of a grammar based data generator : maurer
+the design and implementation of a secure auction netowrk : franklin
+the design and implementation of the lout document formatting language : kingston
+the design of a family of application oriented requirements languages : davis
+the design of the inferno virtual machine : winterbottom
+the development process generative pattern language : coplien
+the diagnosis of mistakes in programmes on the edsac : gill
+the diffusion of innovation among the american states : walker
+the digital dilemma : davis
+the dijkstra zonneveld algol 60 compiler for the electrologica x1 : aretz
+the disco language and translator : jarvinen
+the distances of education : agre
+the document object model : anon
+the document object model : kamthan
+the dream of a perfect language : eco
+the drunkards walk : mlodinow
+the economics of the internet utility utilization pricing and quality of service : odlyzko
+the effect of packet dispersion on voice applications in ip networks : levy
+the effect of unrolling and inlining for python bytecode optimizations : asher
+the effects of pair programming on performance in an introductory programming course : mcdowell
+the effects of virtually addressed caches on virtual memory design and performance : inouye
+the elaboration order problem of ada : lander
+the electra approach to object oriented distributed programming an overview : maffeis
+the elements of single chip microcomputer architecture : cragon
+the elusive software refinery : wood
+the emperors old clothes : hoare
+the ephemeral history register flexible scheduling for rule based designs : rosenband
+the essence of algol : reynolds
+the essence of functional programming : wadler
+the essence of strategic programming : lammel
+the essence of the visitor pattern : palsberg
+the essence of xml : simeon
+the esterel synchronous programming language design semantics implementation : berry
+the ethics of free software : meyer
+the ethics of safety critical systems : bowen
+the evolution of abstraction in programming languages : guarino
+the evolution of an object oriented compiler framework : graver
+the evolution of instruction sequencing : krick
+the evolution of ntfs : anderson
+the evolution of ntfs ntfs 5.0 : anderson
+the evolution of storage systems : morris
+the factory method creational design pattern : raj
+the failure of pattern languages : gabriel
+the fairness doctrine a solution in search of a problem : cronauer
+the fast wavelet transform : cody
+the fastest sorting algorithm : nilsson
+the first 10 prolog programming contests : demoen
+the five levels of raid : wiebel
+the flex software design system designers need languages too : sutton
+the flux oskit a substrate for kernel and langauge research : ford
+the formal execution semantics of specc : mueller
+the tftp protocol : sollins
+the function of function in lisp : moses
+the future engineering of software a management perspective : basili
+the future of ideas : lessig
+the future of internet addresses : bieringer
+the future of internet worms : nazario
+the future of operational research is past : ackoff
+the future of peer to peer computing : loo
+the future of programming languages evidence to support a midwest university information systems curriculum : wenger
+the future of software engineering : humphrey
+the galaxy distributed operating system : sinha
+the generic graph component library : lee
+the generic graph component library : siek
+the gnu 64 bit pl8 compiler toward an open standard environment for firmware development : gellerich
+the gnutella protocol : gnutella
+the go programming language : go
+the good the bad and the run sliced : abrash
+the google file system : ghemawat
+the grid protocol a high performance scheme for maintaining replicated data : cheung
+the hardware software cost ratio is it a myth : boehm
+the hawala alternative remittance system and its role in money laundering : jost
+the hermes language in outline form : alowry
+the hetnos network operating system a tool for writing distributed applications : barcellos
+the history of posix a study in the standards process : issack
+the history of the algol effort : de beer
+the hoca operating system specifications : babaoglu
+the horus uniform group interface : van renesse
+the hssm macro architecture virtual machine and h languages : wells
+the ia 64 architecture at work : dulong
+the idea encryption algorithm : schneier
+the impact of architectural trends on operating system performance : rosenblum
+the impact of wide band local area communication systems on distributed computing : wilkes
+the implementation of newsqueak : pike
+the importance of non data touching processing overheads in tcp ip : kay
+the incomplete scheme 48 reference manual : kelsey
+the inferno operating system : dorward
+the inferno shell : peppe
+the influence of browsers on evaluators: queinnec
+the insignificance of statistical significance testing : johnson
+the intel 432 a vlsi architecture for fault tolerant computer systems : johnson
+the interaction of the formal and the practical in parallel programming environment development code : werth
+the interlisp programming environment : teitelman
+the internet gopher protocol : anklesaria
+the introduction of definitional facilities into higher level programming languages : cheatham
+the itsy pocket computer version 1.5 users manual : viredaz
+the java native code api : yellin
+the java virtual machine a passing fad : frantz
+the joyce language report : brinch hansen
+the juno 2 constraint based drawing editor : heydon
+the jupiter audio video architecture secure multimedia in network places : curtis
+The kaffeos java runtime system : back
+the kiwinet nicola approach response generation in a user friendly interface : efe
+the knockout packet switch principles and performance : karol
+the knockout switch a simple modular architecture for high performance packet switching : yeh
+the labelled bnf grammar formalism : frosberg
+the lambda calculus : balheta
+the lambda library unnamed functions in c++ : jarvi
+the larch smalltalk interface specification language : cheon
+the latex2html translator : drakos
+the learning psychology of visual programming for object orientation : ireland
+the leden character recognizer : newman
+the lessons of lucasfilms habitat : morningstar
+the life of a carpet an application of the alexander rules : salingaros
+the limbo programming language : anon
+the limbo programming language : ritchie
+the limits of quantum computers : aaronson
+the linear search revisited : dijkstra
+the liskov substitution principle : liskov
+the literate programming paradigm : cordes
+the lives and deaths of moores law : tuomi
+the locality principle : denning
+the locus distributed operating system : walker
+the logic of real arguments : fisher
+the logical disk a new approach to improving file systems : de jonge
+the many faces of consensus in distributed systems : turek
+the many faces of inheritance a taxonomy of taxonomy : meyer
+the many paradoxes of broadband : odlyzko
+the marasmus of the icc : huntington
+the masstor mass storage product at brookhaven national laboratory : ewing
+the mathematics of halftoning : adler
+the mathematics of the ideal villa : fowl
+the maximal rectangle problem : vandevoorde
+the md4 message digest algorithm : rivest
+the md5 message digest algorithm : rivest
+the measured performance of computer operating systems : chen
+the mechanical evaluation of expressions : landin
+the messyware advantage : gansan
+the metafront system safe and extensible parsing and transformation : brabrand
+the minature guide to critical thinking : paul
+the modula 2 environment for parallel programming : hanssgen
+the modula 3 type system : cardelli
+the modular structure of complex systems : parnas
+the monarch parallel processor hardware design : rettberg
+the multimedia multicasting problem : pasquale
+the multistage cube a versitile interconnection network : siegel
+the mystery of the tower revealed a nonreflective description of the reflective tower : wand
+the nachos instructional operating system : wchristopher
+the nesc language a holistic approach to networked embedded systems : gay
+the new font family selection user interface to standard latex : mittelbach
+the new jersey machine code toolkit : ramsey
+the new public philosophy interest group liberalism : lowi
+the next 700 programming languages : landin
+the noweb hackers guide : ramsey
+the ns16000 family advances in architecture and hardware : bal
+the oberon 2 reflection model and its applications : mossenbock
+the oberon system family : brandis
+the object z specification language : duke
+the odin system reference manual : clemm
+the opal tutorial : exner
+the openphone project internet telephony for everyone : herlien
+the pagerank citation ranking bringing order to the web : page
+the pegasus heterogeneous multidatabase system : ahmed
+the peregrine high performance rpc system : johnson
+the performance of weak consistency replication protocols : golding
+the politics of agenda building an alternative perspective for modern democratic theory : cobb
+the polyadic pi calculus a tutorial : milner
+the portland experience a report on a distributed research group : olson
+the power elite : mills
+the power of /proc : galvin
+the powerdot class : adriaens
+the precc compiler compiler : breuer
+the pretzelbook : gartner
+the principles of large scale computing machines : von neumann
+the problem of teaching object oriented programming : kolling
+the program dependence graph and its use in optimization : ferrante
+the programming language concurrent pascal : brinch hansen
+the programming language declarative ada reference manual : thornley
+the programming language oberon 2 : mossenbock
+the programming language oberon : wirth
+the pros and cons of teaching purely functional programming in first year : chakravarty
+the public and its problems : dewey
+the public philosophy interest group liberalism : lowi
+the quality of open source production zealots and good samaritans in the case of wikipedia : anthony
+the quality without a name : gabriel
+the r6rs module system : simionato
+the radial sweep algorithm for constructing triangulated irregular networks : mirante
+the reactive keyboard a predictive typing aid : darragh
+the real meaning of architecture : fisher
+the reflective practitioner perspective in software engineering education : hazzan
+the relevance of education : bruner
+the representation problem in reverse engineering : rugaber
+the resuability challenge : meyer
+the rightpages image based electronic library for alerting and browsing : story
+the rise of pseudo fascism : neiwert
+the risks of key recovery key escrow and trusted third party encryption : abelson
+the rochester checkers player : marsh
+the role of dynamic programming and control structures in performance : bernecky
+the role of logic in knowledge representation : israel
+the role of object oriented metrics : meyer
+the role of the study of programming languages in the education of a programmer : friedman
+the rome programmers guide : french
+the rtl system : mcconnell
+the rtl system a framework for code optimization : johnson
+the rudiments of algorithm refinement : woodcock
+the safe bool idiom : karlsson
+the sawmill multisever approach : gefflaut
+the scala language specification : odersky
+the security problem of nested classes : yu
+the self 4.1 programmers reference manual : agesen
+the semantics of a simple language for parallel programming : kahn
+the semantics of the c++ programming language : wallace
+the semantics of verilog using transition system combinators : pace
+the session initiation protocol internet centric signaling : schulzrinne
+the session initiation protocol providing advanced telephony services across the internet : schulzrinne
+the sextant software exploration tool : schafer
+the sharpe ratio : sharpe
+the signal data flow methodology applied to a production cell : amagbegnon
+the sl synchronous language : boussinot
+the slather 1.0 specification : omohumdro
+the software architecture of a san storage control system : glider
+the solaris process model : mauro
+the source of authority for commercial access control : moffett
+the spec# programming system an overview : barnett
+the specification and modeling of computer security : mclean
+the sprite network operating system : osterhout
+the standard librarian a debugging allocator : austern
+the standard librarian sorting and the standard library : austern
+the standard template library : stepanov
+the structural complexity of software an experimantal test : darcy
+the structure and interpretation of the computer science cirriculum: felleisen
+the structure and performance of interpreters : romer
+the structure of scientific revolutions : pajares
+the structure of systems using upcalls : clark
+the structure of the the multiprogramming system : dikjstra
+the styx architecture for distributed systems : pike
+the swift java compiler design and implementation : scales
+the synchronous approach to designing reactive systems : maffeis
+the synchronous approach to reactive and real time systems : benveniste
+the synchronous data flow programming language lustre : halbwachs
+the task of the referee : smith
+the tattletale technique : reyelts
+the teach act finally becomes law : harper
+the term processor generator kimwitu : van ejik
+the term processor kimwitu manual and cookbook : van eijk
+the text editor sam : pike
+the thaiti programming language events as first class objects : hearne
+the theory of ccitt recommendation h.261 video codec for audiovisual services at p x 64 kbit/sec and review of such a codec : moore
+the theory of classification part 1 perspectives on type compatibility : simons
+the theory of classification part 2 the scratch built typechecker : simons
+the theory of classification part 3 object encodings and recursion : simons
+the theory of classification part 4 object types and subtyping : simons
+the theory of classification part 5 axioms assertions and subtyping : simons
+the theory of classification part 6 the subtyping inquisition : simons
+the theory of classification part 7 a class is a type family : simons
+the theory of classification part 8 classification and inheritance : simons
+the theory of classification part 9 inheritance and self reference : simons
+the theory of classification part 10 method combination and super reference : simons
+the theory of classification part 11 adding class types to object implementations : simons
+the theory of classification part 12 buliding the class hierarchy : simons
+the theory of economic regulation : stigler
+the threeballot voting system : rivest
+the transformation of the american state the new era new deal test : lewis-beck
+the transformational calculus : garrigue
+the transport layer tutorial and survey : iren
+the transterpeter a transputer interpreter : jacobsen
+the treadmill real time garbage collection without motion sickness : baker
+the treatment of data types in el1 : wegbreit
+the u interpreter : arvind
+the ubiquitous b tree : comer
+the ultimate risc a zero instruction computer : frenger
+the under appreciated unfold : gibbons
+the undergraduate language course what to do : bergin
+the universal transport system an adaptive end to end protocol analysis and design : richards
+the unix connection : smith
+the unix programming environment : kernighan
+the unix tree rethough an introduction to globo linux : loderunner
+the unreasonable effectiveness of mathematics in the natural sciences : wigner
+the unrevised osi reference model : day
+the us west advanced technologies prototype multimedia communication system : bulick
+the usability engineering life cycle : nielson
+the usability of open source software : nichols
+the use of multilegged arguments to increase confidence in safety claims for software based systems:  a study based on a bbn analysis of an idealized example : littlewood
+the user interface as document sgml and distributed applications : fuchs
+the utility of file names : ellard
+the vanishing hand the modular revolution in american business : langlois
+the varieties of refinement : jacob
+the verification of modules : antoniou
+the visitor pattern : cartwright
+the viva file system : herrin
+the wall street performer protocol using software completion bonds to fund open source software development : rasch
+the wavelet packet transform : cody
+the webs hidden order : adamic
+the x kernel a platform for accessing internet resources : peterson
+the x kernel an architecture for impelmenting network protocols : hutchinson
+the xerox star a retrospective : johnson
+the xx kernel parallel protocol execution environment : bjorkman
+the y programming language : hanson
+the yalnix kernel : beazley
+the yapps parser generator system : patel
+theory of modules : gannon
+thermodynamics and garbage collection : baker
+thinking about binary trees in an object oriented world : berman
+thinking recursively : roberts
+thirty years is long enough getting beyond c : brewer
+thirty years later lessons from the multics security evaluation : karger
+this is not a pipe : foucault
+thomas s kuhn the structure of scientific revolutions : moloney
+thoughts on larch ml and a new application for lp : wing
+threads and locks : java
+three approaches to type structure : reynolds
+three ethical moments in debian : coleman
+three monads for continuations : kieburtz
+thunks and the lambda calculus : hatcliff
+time constrained sorting a comparison of different algorithms : puschner
+time synchronization for voip quality of service : melvin
+timed callbacks in c++ : stapfer
+tkgecko a frill necked lizard : ball
+tla+ : lamport
+tm a code generator for recursive data structures : van reeuwijk
+to decode short cryptograms : hart
+to iterate is human to recurse divine : coplien
+to whom am i speaking : lomas
+toba java for applications a way ahead of time wat compiler : proebsting
+tom manual : ballard
+tools and techniques for building fast portable threads packages : keppel
+tools for distributed application management : marzullo
+tools for implementing network protocols : hutchinson
+top down non correcting error recovery in llgen : van Deudekom
+top down operator precedence parsing : bendersky
+topics in code generation and register allocation : leverett
+topsy a teachable operating system : frankhauser
+total functional programming : turner
+touring machines autonomous agents with attitudes : ferguson
+toward a basis for protocol specification and process decomposition : rath
+toward a theory of test data selection : goodenough
+toward an expert system for expressive musical performance : johnson
+toward formalizing domain modeling semantics in language syntax : evermann
+towards a basis for protocol specification and process decomposition : rath
+towards a derivational style of distributed system design an example : feather
+towards a first course based on object oriented patterns : wallingford
+towards a model of mind as a laissez faire economy of idiots : ebaum
+towards a new security architecture for telephony : bassil
+towards a semantics for object z : duke
+towards a universal data transport system : fraser
+towards action refinement in process algebras : aceto
+towards leakage containment : lawall
+towards more effective testing for high assurance systems : hecht
+towards principles of inheritance and subtyping in programming languages : moss
+towards relaxing assumptions in languages and their implementation : shaw
+towards the best collection api : kiselyov
+towards the development of a cognitive model of programming a software engineering approach : traynor
+towards the elimination of documentation : johnson
+towards understanding e prime : wilson
+tracing the meta level pypys tracing jit compiler : bolz
+tracking hackers on irc : brumley
+trading packet headers for packet processing : chandranmenon
+traditional operational semantics : solnneger
+trail jar files : sommerer
+traits classes : becker
+traits composable units of behavior : sharli
+trampolines for embedded systems : link
+trans fatty acids and cardiovascular disease : mozaffarian
+transform methods and impage compression : hankerson
+transformational approach to program concretization : kasyanov
+transition to a legacy and reuse based software life cycle : ahrens
+translating concurrent programs into vlsi chips : martin
+translating forth to efficient c : ertl
+translation lookaside buffer consistency : teller
+transmission control protocol : postel
+transport service and protocols for high speed networks : zitterbart
+transporting voice traffic over packet networks : greenstein
+traversing an html table with javascript and dom interfaces : galli
+treating statement sequences as block objects : mossenbock
+tree automata techniques and applications : comon
+trees : mehta
+triangle intersection tests : haines
+trickles a stateless stack for improved scalability resilience and flexibility : shieh
+tries : sahni
+truffles a secure service for widespread file sharing : reiher
+truly random numbers : plumb
+ttp a protocol for fault tolerant real time systems : kopetz
+tussle in cyberspace defining tomorrows internet : clark
+tutorial compiling concurrent languages for sequential processors : edwards
+tutorial introduction to guile : drysdale
+tutorial notes on partial evaluation : concel
+tutorial on ats anairiats : ats
+twelve random access strategies for fiber optic networks : maxemchuk
+twelve ways to make sure your parallel programming system doesnt make others look bad : wilson
+twiki documentation : twiki
+two faces of power : bachrach
+two handed image navigation in fran : elliott
+two issues in parallel language design : bohm
+two notes on notation : knuth
+two stacks for tail calls : cheng
+type based publish subscribe concepts and experiences : eugster
+type checking type classes : nipkow
+type feedback vs concrete type inference a comparison of optimization techniques for object oriented languages : agesen
+type inference of self analysis of objects with dynamic and multiple inheritance : agesen
+type inference with simple selftypes is np complete : palsberg
+type laundering : vlissides
+type systems : cardelli
+typechecking with ad hoc polymorphism : thatte
+typeful programming : cardelli
+typelists and applications : alexandrescu
+unary predicates in the stl : kreft
+unbiasing random bits : mitzenmacher
+unraveling the web services web an introduction to soap wsdl and uddi : curbera
+underflow and denormalized numbers : coonen
+understanding and applying operational transformation : spiewak
+understanding and verifying distributed algorithms using stratified decomposition : chou
+understanding computers and cognition : winograd
+understanding binary searches : koenig
+understanding bittorrent an experimental perspective : legout
+understanding interfaces : lam
+understanding nt multithreaded programming : tomlinson
+understanding osi network management : stallings
+understanding procedures as objects : eisenberg
+understanding symmetry in object oriented languages : zhao
+understanding unix workstation performance : muller
+unified communications with sip : steinmann
+uniform abstract syntax trees : clark
+unifying genericity combining the benefits of virtual types and parameterized classes : thorup
+unifying tables objects and documents : meijer
+unison file synchronizer : unison
+univers an attribute based name server : bowman
+unix shell patterns : coplien
+untangling public key cryptography : schneier
+untangling the balancing and searching of balanced binary search trees : austern
+up and down the temporal way : barringer
+up and down with ecology the issue attention cycle : downs
+ups frequently asked questions : ups
+usc a universal stub compiler : omalley
+use of the concept of transparency in the design of hierarchically structured systems : parnas
+use of prolog for developing a new programming language : armstrong
+use your singletons wisely : rainsberger
+usenetfs a stackable file system for large article directories : zadok
+user interface application communication in the chimera user interface management system : wood
+user level management of persistent data in the grasshopper operating system : dearle
+user level protocol servers with kernel level performance : brustoloni
+users are not the enemy : adams
+users guide to the gnu c++ library : lea
+users guide to the m5 macro language 2nd edition : samples
+using a relational query language as a software maintainance tool : glagowski
+using a zyxtel u1496 series modem with a sun sparc station : hosain
+using abc to prototype vdm specifications : kans
+using an abstracted interpreter to understand abstract interpretation : friedman
+using an object oriented framework to construct wide area group communications mechanisms : golding
+using as : elsner
+using as the gnu assembler : delsner
+using clustering graphs in legacy systems remodularization : wiggerts
+using course long programming projects in cs2 : turner
+using encryption for authentication in large computer networks : needham
+using executable domain models to implement legacy software reengineering : debaud
+using fuzzy sets to diagnose coronary artery stenosis : cios
+using induction to design algorithms : manber
+using inheritance to implement concurrency : ben-ari
+using inspections to investigate program correctness : britcher
+using machine learning to improve automatic vectorization : stock
+using mathematical induction to design computer algorithms : manber
+using memoization to acheive polynomial complexity of purely functional executable specifications of non deterministic top down parsers : frost
+using multicast to solve the midnight madness problem : schooler
+using objects for system analysis : parsons
+using objects for systems analysis : parsons
+using paeno curves for bilevel display of continuous tone images : witten
+using path expressions as concurrency guards : rees
+using postfix for secure smtp gateways : bauer
+using protocol validation techniques to solve protocol conversion problems : chang
+using redundancies to find errors : xie
+using smgn for rapid prototyping of small domain specific languages : kienle
+using standard ml in software maintenance a promising approach : baumann
+using statecharts in the design of occam 2 program : gee
+using static single assignment form in a code optimizer : mcconnell
+using style to understand descriptions of software architecture : abowd
+using templates in practice : vandervoorde
+using the asf sdf meta environment for teaching computer science : dinesh
+using tool abstraction to compose systems : garlan
+using types and inheritance in object oriented programming : halbert
+using virtual addresses as object references : chase
+uu for programming languages : ferreira
+validating metrics for ensuring space shuttle flight software quality : schneidewind
+validating solutions to major problems in software engineering project management : thayer
+validation verification and testing for the individual programmer : branstad
+valloy virtual functions meet a relational language : marinov
+venti a new approach to archival storage : quinlan
+verification of a class of link level protocols : krogdahl
+verification of a reliable net protocol : yodaiken
+verification of link level protocols : knuth
+version management with cvs : cederqvist
+very fast yacc compatible parsers for very little effort : bhamidipaty
+vga palette mapping using bsp trees : betz
+vic a flexible framework for packet video : mccanne
+video abstracting : lienhart
+video data conversion and real time tracking : gilbert
+videotex networks : ball
+views a way for pattern matching to coexist with data abstraction : wadler
+virtual clocks a new traffic control algorithm for packet switching networks : lixia zhang
+virtual gain for audio windows : cohen
+vitrual memory issues of implementation : jacob
+virtual memory management in the vax vms operating system : levy
+virtual xml a toolbox and use cases for the xml world view : rose
+visual information retrieval from large distributed online repositories : chang
+visual representations for recursive algorithms : stern
+visualization and debugging in a heterogeneous environment : beguelin
+visualization and performance analysis of formally specified communication protocols : walch
+visualizing design patterns in their applications and compositions : dong
+visualizing packet traces : zinky
+visualizing performance debugging : lehr
+visually interpreting the motion of objects in space : webb
+vlsi a new frontier for systems designers : fairbairn
+voice in computing an overview of available technologies : strathmeyer
+voice over ip : varshney
+voip security and privacy threat taxonomy : voipsa
+voip security not an afterthought : sicker
+volume models for volumetric data : ranjan
+voodoos introduction to javascript : koch
+vops a portable protocol development and implementation environment : karila
+vortex rtl textual description grammar : cecil
+vrml primer and tutorial : schneider
+w effect considered harmful : khare
+walkabout revisited the runabout : grothoff
+wap is a trap reject wap : banan
+wavelets an elementary introduction and examples : ueda
+wearing the hair shirt : peyton jones
+weaving aspects in a persistent environment : rashid
+web based animation of data structures using jawaa : pierson
+web based tex visualization : eick
+web page classification features and algorithms : qi
+web pages that reproduce themselves by javascript : kanada
+web services soap and corba : de jong
+webit embedding xml html and css in scheme : webit
+webl a programming language for the web : kistler
+webos operating system services for wide area applications : vahdat
+webrelay  a multithreaded http relay server : zhang
+welcome to the wireless world problems using & understanding mobile telephony : palen
+westel versalink gateway model 327w user guide : westel
+what are mactimes : farmer
+what are principal typings and what are they good for : jim
+what are race conditions : netzer
+what can software engineering learn from artifical intelligence : tichy
+what has influenced computing innovation : hughes
+what if mass storage were free : copeland
+what is a is and isn't an analysis of taxonomic links in semantic networks : brachman
+what is a library anymore anyway : keller
+what is a monoid : kmett
+what is a thesis defense : riesbeck
+what is ada : brender
+what is all the fuss about neural networks : barth
+what is conservatism : agree
+what is dhtml : gardner
+what is interactive scripting : travers
+what is new in http 1.1 : wong
+what is software design : reeves
+what is the bios : schmidt
+what is vnc : mascio
+what its like to be a popl referee : wegman
+what netscape learned from cross platform software development : cusumano
+what should we plan given the dilemma of the network : cook
+what storytelling can do for information visualization : gershon
+whatever happened to the next generation internet : weiser
+whats important about knowledge representation : woods
+when and how to develop domain specific languages : mernik
+when caches arent enough data prefetching techniques : vander wiel
+when is one thing equal to some other thing : mazur
+when one billion does not equal one billion : wiebe
+when telepathy won't do requirements engineering key practices : wiegers
+where do i begin a problem solving approach in teaching functional programming : thompson
+whither software : gabriel
+why a bazaar may fizzle or fail : lindal
+why a ring : saltzer
+why c++ is not very fit for gui programming : kiselyov
+why events are a bad idea for high concurrency servers : von behren 
+why gnutella can't scale : ritter
+why pascal is not my favorite programming language : kernighan
+why people do and dont wear active badges a case study : harper
+why procedural is the wrong first paragidm if oop is the goal : bergin
+why politics needs religion : sweetman
+why software jewels are rare : parnas
+why systolic architectures : kung
+why threads are a bad idea for most purposes : osterhout
+why we dont need qos trains cars and internet quality of service : bricklin
+window based error recovery and flow control with a slow acknowledgment channel a study of tcp ip performance : lakshman
+window flow control in computer communication networks : ilyas
+wireless data communications : pahlavan
+wit an infrastructure for wireless palmtop computing : watson
+word sense disambiguation a survey : navigli
+workings of a virtual private network in linux part 1 : morgan
+workings of a virtual private network in linux part 2 : morgan
+world wide web the informaion universe : berners-lee
+wrappers to the rescue : brant
+writing a jit parts 1 through 4 : sourcemod
+writing a scsi device driver for linux : faith
+writing a tcl extension in only 7 years : libes
+writing cgi scripts in tcl : libes
+writing macros in continuation passing style : hilsdale
+xen and the art of virtualization : barham
+xfm an incremental methodology for developing formal models : suhaib
+xl a language structure : nelson
+xml mapping technology making connections in an xml centric world : roth
+xml programming with sql xml and xquery : funderburk
+xml reflective pattern matching and java : dwelly
+xml rpc in python : warner
+xml rpc it works both ways : warner 
+xml rpc specification : xml-rpc
+xml schema languages : walsh
+xml with scheme : martinovsky
+xp an experiment in modular specification : veltink
+xquery an xml query language : chamberlin
+xsieve extending xslt with the roots of xslt : 
+xsl : ibm
+y in practical programs : mcadam
+y y works : felleisen
+yacc is dead : might
+yodl 2 : brokken
+you dont know jack about voip : scherburne
+your own handprinting recognition engine : avitzur
+your own tiny object oriented language : betz
+ytracc a parse browser for yacc grammars : furuta
+z usage and abusage : macdonald
+eof!
+gawk 'function assembl(i, c, w,  j) {
+	str = ""
+	sep = ""
+	for (j = 1; j <= c; j++) {
+	  str = str sep (j == i ? "*" : w[j])
+	  sep = " "
+	  }
+	return str
+	}
+
+      BEGIN {
+	FS = ":"
+	}
+      
+       {if (NF != 2) {
+	  printf "Bad input line (NF = %d):\"%s\".\n", NF, $0 > "/dev/stderr"
+	  next
+	  }
+       }
+
+       {wdcnt = split($1, words, " ")
+	for (i = 1; i <= wdcnt; i++)
+	  if (!match(" on or over about as at the a of with and by for using an some into to in between based be system from all ", " " words[i] " "))
+ 	    print words[i] ": " assembl(i, wdcnt, words) " : " $2
+	}
+     ' |
+sort
+
+# Local Variables:
+# eval: (auto-fill-mode -1)
+# End:
