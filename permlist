@@ -1,4 +1,6 @@
-#!/bin/ksh
+#! /bin/bash
+#
+# permlist - write to std-out a kwik index of titles.
 
 cat <<eof! |
 .profile : howard
@@ -112,10 +114,10 @@ a historical overview of computer architecture : smith
 a history of clu : liskov
 a hybrid state machine notation for component specification : sakharov
 a laboratory environment for experimenting with xinu : comer
-a laboratory for teaching object-oriented thinking : beck
+a laboratory for teaching object oriented thinking : beck
 a lambda calculus of objects and method specialization : mitchell
 a language based approach to protocol construction : basu thesis
-a language-based approach to protocol construction : basu 
+a language based approach to protocol construction : basu 
 a language based approach to protocol implementation : abbott
 a language for writing code generators : fraser
 a larch specification of copying garbage collection : nettles
@@ -178,7 +180,7 @@ a novel algorithm for discrete event simulation : debenedictis
 a novel program representation for interprocedural analysis : agrawal
 a paradigm shift in the distribution of multimedia : parr
 a paradigm shift to oop has occurred implementation to follow : mitchell
-a parallel approach to high speed protocol processing : `chan
+a parallel approach to high speed protocol processing : chan
 a parametric object system : skibinski
 a partial evaluator and its use as a programming tool : beckman
 a pattern language for tool construction and integration based on the tools and materials metaphor : riehle
@@ -351,7 +353,7 @@ adding dynamic interfaces to smalltalk : sadeh
 adding equations to pccts : hamel
 adding generic functions to scheme : tessman
 adding performance aspects to specification languages : bochmann
-Adding Wildcards to the Java Programming Language : torgersen
+adding wildcards to the java programming language : torgersen
 admissible state semantics for representational systems : doyle
 admission control for real time packet sessions : farrandiz
 adslgen reference manual : wang
@@ -367,7 +369,7 @@ advanced thread synchronization in java using interaction expressions : heinlein
 advances and remaining challenges to adoption of public key infrastructure technology : mcclure
 advances in computer mass storage technology : chi
 advances in dataflow programming languages : johnston
-advancing candidate link generation for requirements tracing: the study of methods : hayes
+advancing candidate link generation for requirements tracing the study of methods : hayes
 aesthetic layout of generalized trees : bloesch
 agentsheets a medium for creating domain oriented visual languages : repenning
 agile parsing in txl : dean
@@ -385,7 +387,7 @@ algorithm form dynamic software cache coherence : sandhu
 algorithms and data structures for flash memories : gal
 algorithms and issues in server software design : anon
 algorithms for directed graphs : mangano
-algorithms for scalable synchronization on shared-memory multiprocessors : mellior-crummey
+algorithms for scalable synchronization on shared memory multiprocessors : mellior-crummey
 algorithms for stereoscopic imaging : duvanenko
 algorithms implementing distributed shared memory : stumm
 alien text file compresion : swan
@@ -430,7 +432,7 @@ an aristocracy of everyone : barber
 an attribute grammar evaluator in haskell : rushall
 an awk to c++ translator : kernighan
 an axiomatic basis for computer programming : hoare
-an efficient context-free parsing algorithm : earley
+an efficient context free parsing algorithm : earley
 efficient implementation of trie structures : aoe
 efficient interpretation using quickening : brunthaler
 an efficient reliable broadcast protocol : kaashoek
@@ -444,7 +446,7 @@ an exercise in dependent types a well typed interpreter : augustsson
 an experiment in table driven code generation : graham
 an experiment with inline substitution : cooper
 an experimental evaluation of continuous testing during development : saff
-an experimental evaluation of the assumption of independence in multi-version programming : knight
+an experimental evaluation of the assumption of independence in multiversion programming : knight
 an experimental user level interface of tcp : braun
 an exploration of novice programming errors in an object oriented environment : barr
 an expressive language of signatures : ramsey
@@ -528,14 +530,14 @@ applying user level measurements to rti 1.3 release 2 : cohen
 architectural and software issues in the design and application of peripheral array processors : karplus
 architectural considerations for a new generation of protocols : clark
 architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
-architectural styles and the design of network-based software architectures : fielding
+architectural styles and the design of network based software architectures : fielding
 architectural support for cooperative multiuser interfaces : bentley
 architectural support for designing fault tolerant open distributed systems : hariri
 architectural thinking and modeling with the architects workbench : nelson
 architecture independent parallel computation : skillicorn
 architecture of an open object oriented database management system : wells
 architecure and design of adaptive object models : yoder
-are operating systems obsoloete? : denning
+are operating systems obsoloete : denning
 area codes country codes penal codes and toll free numbers : keevers
 arguments and results : noble
 arithmetic equality constraints as c++ statements : van wyk
@@ -550,7 +552,7 @@ aspect oriented programming : highley
 aspect oriented programming : kiczales
 aspect oriented programming for distributed systems its use its effect on language design and its limits : van roy
 aspectcool an experiment in design and implementation of aspect oriented language : avdicausevic
-assessing the relationship between software assertions and code quality:an empirical investigation : kudjravets
+assessing the relationship between software assertions and code quality an empirical investigation : kudjravets
 assessing voice quality in packet based telephony : janssen
 assignment as the sole means of updating objects : buhr
 associations in c++ : ford
@@ -566,13 +568,13 @@ atm concepts architectures and protocols : vetter
 atom a system for building customized program analysis tools : srivastava
 atomic heap transactions and fine grain interrupts : shivers
 attacks on copyright marking systems : petitcolas
-Attributed Linear Intermediate Representations for Retargetable Code Generators : ganapathi
+attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
 augmenting pattern based architectural recovery with flow analysis mosaic a case study : tonella
 augural image zooming : withers
 authentication for distributed systems : woo
-authentication in distributed systems: theory and practice : lampson
+authentication in distributed systems theory and practice : lampson
 autocollage : rother
 automate your build processing using java and ant : cymerman
 automated bargaining agents : sun
@@ -613,7 +615,7 @@ beyond layering modularity considerations for protocol architectures : calvert
 beyond voip protocols : hersent
 beware of a new and ready made army of legal bots : sengar
 bias on the web : mowshowitz
-bidirectional data flow analysis: myths and reality : khedker
+bidirectional data flow analysis myths and reality : khedker
 bif a behavioral intermediate format for high level synthesis : dutt
 big ball of mud : foote
 biglook a widget library for the scheme programming language : gallesio
@@ -720,7 +722,7 @@ clarifying the fundamentals of http : mogul
 class and object extraction from imperative code : ong
 class is type is inadequate for object reuse : yu
 class specification design by contract : anon
-Classes and inheritance in actor-oriented design : lee
+classes and inheritance in actor oriented design : lee
 cleanroom practice a theme and variations : deck
 cleanroom process model : linger
 cleanroom software engineering : anon
@@ -762,7 +764,7 @@ communication complexity : kushilevitz
 communication facilities for distributed transaction processing systems : mafla
 communication mechanisms for programming distributed systems : shatz
 communication network class library : junius
-Communication Styles for Parallel Systems : gross
+communication styles for parallel systems : gross
 communications satellite softare a tutorial : dusio
 community without propinquity revisited communication technology and the transformation of the urban public sphere : calhoun
 commutativity based concurrency control for abstract data types : weihl
@@ -944,8 +946,8 @@ design and architecture of the brazil web application framework : uhler
 design and implementation of an object oriented 64 bit single address space microkernel : murray
 design and implementation of flexible user protocol interface : metzler
 design and validation of protocols a tutorial : holzmann
-Design by Contract to Improve Software Vigilance : le traon
-design choices for weak consistency group communication : golding
+design by contract to improve software vigilance : le traon
+esign choices for weak consistency group communication : golding
 design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
 design fragments make using frameworks easier : fairbanks
 design models for computer human interfaces : gentner
@@ -1003,7 +1005,7 @@ directions and issues in architecture and language : flynn
 directory based cache coherence in large scale multiprocessors : chaiken
 dis virtual machine specification : dis
 disciplined c : noyelle
-Discovering Architectures from Running Systems : schmerl
+discovering architectures from running systems : schmerl
 discovering documentation for java container classes : henkel
 discovering machine specific code improvements : kessler
 discovering properties about arrays in simple programs : halbwachs
@@ -1108,8 +1110,8 @@ efficient relational calculation for software analysis : lewerentz
 electronics technology and computer science 1940 1975 a coevolution : ceruzzi
 elegant lisp programs : chaitin
 elements of category theory : martini
-Elements of Interaction : milner
-eliminating array bound checking through non-dependent types : oleg
+elements of interaction : milner
+eliminating array bound checking through nondependent types : oleg
 eliminating disjunctions of leads to properties : calvert
 eliminating spurious error messages using exceptions polymorphism and higher order functions : ramsey
 email winners and losers : wilson
@@ -1391,7 +1393,7 @@ hackers introduction to partial evaluation : bacon
 handles and exception safety part 4 tracking references without counters : koenig
 handling control : sitaram
 hard coding bottom up code generation tables to save time and space : fraser
-hardware compilation: translating programs into circuits : wirth
+hardware compilation translating programs into circuits : wirth
 hardware synthesis from term rewriting systems : hoe
 hardwarec a language for hardware design : ku
 harts a distributed real time architecture : shin
@@ -1409,7 +1411,7 @@ hector a hierarchically structured shared memory multiprocessor : vranesic
 here be dragons : griffiths
 hermes language experiences : korfhage
 heterogeneous and autonomous transaction processing : pu
-heterogeneous computing:  challenges and opportunities : khokhar
+heterogeneous computing  challenges and opportunities : khokhar
 heuristic compression of an english word list : cook
 heuristic models of task assignment scheduling in distributed systems : efe
 hey you got your compiler in my operating system : howell
@@ -1434,11 +1436,11 @@ host extensions for ip multicast : deering
 how and how not to write a good systems paper : levin
 how aspectj is used an analysis of eleven aspectj programs : apel
 how best to provide the services is programmers need : glass
-how can i measure java code performance? : moss
+how can i measure java code performance : moss
 how complete are knowledge representation systems : elcock
 how do you plug java memory leaks : henry
 how many subscribers should share a modem : missaghi
-how many trivial getter methods does java have? : hughes
+how many trivial getter methods does java have : hughes
 how not to write commercial standards : berlack
 how not to write fortran in any language : seeley
 how pgp works : network
@@ -1667,7 +1669,7 @@ jingle bells solving the santa claus problem in polyhponic c# : benton
 jini connection technology architecture overview : day
 jist an efficient approach to simulation using virtual machines : barr
 jit vs offline compilation limits and benefits of bytecode compilation : muller
-joeq: a virtual machine and compiler infrastructure : whaley
+joeq a virtual machine and compiler infrastructure : whaley
 journaling file systems : best
 jpp a java preprocessor : kiniry
 just what is it that makes martin lofs type theory so different so appealing : leslie
@@ -1857,7 +1859,7 @@ modern concurrency abstractions for c# : benton
 modula 2 projects for an operating systems course racing sorts and multiple windows : feldman
 modula 3 language definition : cardelli
 modular communication subsystem implementation using a synchronous approach : castelluccia
-modular denotational semantics for compiler construction : Liang
+modular denotational semantics for compiler construction : liang
 modular design of real time systems : haase
 modular extensions to z : sampaio
 modular scheduling of atomic actions : rosenband
@@ -1890,7 +1892,7 @@ multicast routing in datagram internetworks and extended lans : deering
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
 multilevel models in model driven engineering, product lines, and metaprogramming : batory
-multilink ppp: one big virtual wan pipe : ammann
+multilink ppp one big virtual wan pipe : ammann
 multimedia conferencing on local area networks : ziegler
 multimedia storage servers a tutorial : gemmell
 multiple bus architectures : mudge
@@ -2052,7 +2054,7 @@ orphan problems and remedies in distributed systems : abawajy
 orthogonal sequences : stallings
 os portal an economic approach for making an embedded kernel extensible : chang
 os6 an experimental operating system for a small computer part 2 input output and filing system : stoy
-overriding the C++ operator == : stevenson
+overriding the c++ operator == : stevenson
 overview of common benchmarks : weicker
 overview of metropolitan area networks : klessig
 overview of the ibm java just in time compiler : suganuma
@@ -2085,7 +2087,7 @@ parsing with c++ classes : conway
 parsing with c++ deferred expressions : conway
 partial evaluation principles and perspectives : consel
 partial redundancy elimination is not bidirectional : wolfe
-partitions: celko
+partitions : celko
 passing data from one form to another : webb
 password generation by bloom filters : stallings
 patch free user level link time intercepting of system calls and interposing on library functions : kiselyov
@@ -2131,7 +2133,7 @@ phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
 phase change recording : leibbrandt
 philosophies for enginerring computer based systems : lawson
-pi a Pattern Language : kudrjavets
+pi a pattern language : kudrjavets
 pi rpc a platform independent remote procedure call architecture : ray
 piccolo : piccolo
 pictorial data base systems : chang
@@ -2177,7 +2179,7 @@ preliminary design for the programming language forsythe : reynolds
 pretty printing context free grammars : osborne
 prettyprinting : oppen
 price cap regulation can we learn from the british telecom experience : sushil k bhattacharyya
-pricing and architecture of the internet historical perspecgtives from telecommunications and transportation: odlyzko
+pricing and architecture of the internet historical perspecgtives from telecommunications and transportation : odlyzko
 prime numbers : smith
 primitive types considered harmful : alpert
 principles of good software specification and their implications for specification languages : robert balzer
@@ -2426,7 +2428,7 @@ scalable shared memory multiprocessor architectures : thakkar
 scale free geometry in oo programs : potanin
 scaling parallel programs for multiprocessors methodology and examples : singh
 scaling up visual programming languages : burnnett
-scarcely variabled programming and pascal runciman
+scarcely variabled programming and pascal : runciman
 scenario based assessment of nonfunctional requirements : gregoriades
 scheduling support for concurrency and parallelism in the mach operating system : black
 scheduling vector straight line code on vector processors : keller
@@ -2506,7 +2508,7 @@ sharlit a tool for building optimizers : tjiang
 sheep fleecing with walter funkenbusch : anon
 shoplifting in reverse : duntermann
 shortcomings of lcl 2.4 : chalin
-should computer scientists experiment more? : tichy
+should computer scientists experiment more : tichy
 signature matching a key to reuse : zaremski
 signatures a language extension for improving type abstraction and subtype polymorphism in c++ : baumgartner
 signatures for a network protocol stack a systems application of standard ml : biagioni
@@ -2522,7 +2524,7 @@ simulating hypercubes in unix part ii : hamilton
 simulating plant growth : grubert
 simulating software development processes : hansen
 simulating student programmers : spohrer
-simulation lecture notes: nakayama
+simulation lecture notes : nakayama
 single pass generation of static single assignment form for structured languages : brandis
 six rather unusual propositions about terrorism : mueller
 ska supporting algorithm and data structure discussion : hamilton-taylor
@@ -2616,14 +2618,13 @@ specifying representations of machine instructions : ramsey
 speech interfaces from an evolutionary perspective : nass
 splay trees : clark
 splay trees : karger
-spoken dialogue technology: enabling the conversational user interface : mctear
+spoken dialogue technology enabling the conversational user interface : mctear
 sqlite : sqlite
 squeak by example : black
 squinting at power series : mcilroy
 ssa is functional programming : appel
 stack based typed assembly language : morrisett
 stack inspections theory and variants : fournet
-stacker an example of using llvm
 stacking them up a comparison of virtual machines : gough
 standard for the format of arpa internet text messages : crocker
 standardized protocol interfaces : holzman
@@ -2757,7 +2758,7 @@ tenex a paged time sharing system for the pdp 10 : bobrow
 terminal emulation for automation and testing character graphic programs a code walkthough : libes
 ternary search trees : bentley
 territory game : shasta
-testing ics: getting to the core of the problem : murray
+testing ics getting to the core of the problem : murray
 testing protocol implementations based on a formal specification : miller
 model testing strategies for oo software : binder
 model variables clearly supporting abstraction in design by contract : cheon
@@ -2821,12 +2822,12 @@ the dcode intermediate program representation reference manual and report : goug
 the deadlock problem an overview : isloor
 the death of computer languages the birth of intentional programming : simonyi
 the decay and failures of web references : spinellis
-the decsystem 20 at columbia university 1977 1988 : da Cruz
+the decsystem 20 at columbia university 1977 1988 : da cruz
 the dejagnu testing framwork : savoye
 the delay friendliness of tcp : brosh
 the denotational semantics of booster : dechering
 the denotational semantics of programming languages : tennent
-the derivative of a regular type is its type of one-hole contexts : mcbride
+the derivative of a regular type is its type of one hole contexts : mcbride
 the design and application of a retargetable peephole optimizer : davidson
 the design and construction of deadlock free concurrent systems : martin
 the design and implementation of arjuna : parrington
@@ -2920,7 +2921,7 @@ the importance of non data touching processing overheads in tcp ip : kay
 the incomplete scheme 48 reference manual : kelsey
 the inferno operating system : dorward
 the inferno shell : peppe
-the influence of browsers on evaluators: queinnec
+the influence of browsers on evaluators : queinnec
 the insignificance of statistical significance testing : johnson
 the intel 432 a vlsi architecture for fault tolerant computer systems : johnson
 the interaction of the formal and the practical in parallel programming environment development code : werth
@@ -2933,7 +2934,7 @@ the java virtual machine a passing fad : frantz
 the joyce language report : brinch hansen
 the juno 2 constraint based drawing editor : heydon
 the jupiter audio video architecture secure multimedia in network places : curtis
-The kaffeos java runtime system : back
+the kaffeos java runtime system : back
 the kiwinet nicola approach response generation in a user friendly interface : efe
 the knockout packet switch principles and performance : karol
 the knockout switch a simple modular architecture for high performance packet switching : yeh
@@ -3114,7 +3115,7 @@ the unrevised osi reference model : day
 the us west advanced technologies prototype multimedia communication system : bulick
 the usability engineering life cycle : nielson
 the usability of open source software : nichols
-the use of multilegged arguments to increase confidence in safety claims for software based systems:  a study based on a bbn analysis of an idealized example : littlewood
+the use of multilegged arguments to increase confidence in safety claims for software based systems  a study based on a bbn analysis of an idealized example : littlewood
 the user interface as document sgml and distributed applications : fuchs
 the utility of file names : ellard
 the vanishing hand the modular revolution in american business : langlois
@@ -3160,7 +3161,7 @@ tom manual : ballard
 tools and techniques for building fast portable threads packages : keppel
 tools for distributed application management : marzullo
 tools for implementing network protocols : hutchinson
-top down non correcting error recovery in llgen : van Deudekom
+top down non correcting error recovery in llgen : van deudekom
 top down operator precedence parsing : bendersky
 topics in code generation and register allocation : leverett
 topsy a teachable operating system : frankhauser
@@ -3464,6 +3465,9 @@ gawk 'function assembl(i, c, w,  j) {
 
       BEGIN {
 	FS = ":"
+	stop = " on or over about as at the a of with and by for using an"
+	stop = stop " some into to in between based be system from all "
+	line_count = 0
 	}
       
        {if (NF != 2) {
@@ -3474,9 +3478,31 @@ gawk 'function assembl(i, c, w,  j) {
 
        {wdcnt = split($1, words, " ")
 	for (i = 1; i <= wdcnt; i++)
-	  if (!match(" on or over about as at the a of with and by for using an some into to in between based be system from all ", " " words[i] " "))
- 	    print words[i] ": " assembl(i, wdcnt, words) " : " $2
+	  if (!match(stop, " " words[i] " ")) {
+	    titles[line_count] = assembl(i, wdcnt, words)
+	    authors[line_count] = $2
+	    keywords[words[i]] = line_count++ " " keywords[words[i]]
+	    }
 	}
+
+       END {
+	 max_keyword_width = 0
+	 for (k in keywords)
+	   if (length(k) > max_keyword_width)
+	     max_keyword_width = length(k)
+
+	 max_title_width = 0
+	 for (i = 0; i < line_count; i++)
+	   if (length(titles[i]) > max_title_width)
+	     max_title_width = length(titles[i])
+
+	 fmt = "%-" max_keyword_width "s %-" max_title_width "s %s\n"
+
+	 for (k in keywords)
+	   for (i = split(keywords[k], lines, " "); i > 0; i--)
+	     printf fmt, k, titles[lines[i]], authors[lines[i]]
+	   
+         }
      ' |
 sort
 
