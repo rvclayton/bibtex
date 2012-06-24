@@ -54,7 +54,7 @@ a critique of c++ : joyner
 a critique of the gnu hurd multi server operating system : walfield
 a critique of the windows application programming interface : spinellis
 a data labelling technique for high performance protocol processing and its consequences : feldmeier
-a declarative approach to visualizaing concurrent components : gruia-catalin
+a declarative approach to visualizaing concurrent components : gruia
 a descent into limbo : kernighan
 a description of the dos file system : erdelsky
 a design approach for ultrareliable real time systems : lala
@@ -80,7 +80,7 @@ a fifteen puzzle in fran : elliott
 a first course in computer science mathematical principles for software engineering : mills
 a first look at novice compilation behaviorusing bluej : jadud
 a flexible message service specification : calvert
-a formal description of behavioral verilog based on axiomatic semantics : fiskio-lasseter
+a formal description of behavioral verilog based on axiomatic semantics : fiskio
 a formal proof of a protocol for communications over faulty channels using the larch prover : chetali
 a formal specification maturity model : fraser
 a framework for controlling coopeerative agents : lee
@@ -108,7 +108,7 @@ a guided tour of mercurial : eide
 a guided tour of program design methodologies : bergland
 a high level language for specifying pictures : van wyk
 a high performance software implementation of the data encryption standard dea : glawitsch
-a high school program in computer science : gal-ezer
+a high school program in computer science : gal
 a highly restricted temporal logic with a tractable decision procedure : pratt
 a historical overview of computer architecture : smith
 a history of clu : liskov
@@ -128,7 +128,7 @@ a lift simulation prototype : galpin
 a linear logic quicksort : baker
 a linguistic approach to failure handling in distributed systems : schlichting
 a linguistic framework for dynamic composition of dependability protocols : agha
-a little knowledge can go a long way towards program understanding : sayyad-shirabad
+a little knowledge can go a long way towards program understanding : sayyad
 a logic based approach to system modelling : rich
 a logical calculus of the ideas immanent in nervous activity : mculloch
 a machine independent debugger revisited : hanson
@@ -265,7 +265,7 @@ a survey of light weight transport protocols for high speed networks : doeringer
 a survey of linguistic structures for application level fault tolerance : de florio
 a survey of object oriented concepts : nierstrasz
 a survey of parallel computer architectures : duncan
-a survey of peer to peer content distribution technologies : androutsellis-theotokis
+a survey of peer to peer content distribution technologies : androutsellis
 a survey of structured and object oriented software specification methods and techniques : wieringa
 a survey of techniques for achieving metadata interoperability : haslhofer
 a survey of web cache replacement strategies : podlipnig
@@ -300,15 +300,15 @@ a users manual for metapost : hobby
 a vcode tutorial : engler
 a verified connection management protocol for the transport layer : murphy
 a very high speed architecture for simulated annealing : abramson
-a video storage system for on demand playback : yen-jen oyang
-a vision of visualization in teaching object oriented programming : ben-ari
+a video storage system for on demand playback : oyang
+a vision of visualization in teaching object oriented programming : ben
 a vlsi geometry processor for graphics : clark
 a voice over ip service architecture for integrated communications : rizzetto
 a weakness in the 4.2 bsd unix tcp ip software : morris
 a whirlwind tutorial on creating really teensy elf executables for linux : raiter
 aaree a recipe for analyzing object oriented programming : khurshid
 ablego a function outlining and partial inlining framework : zhao
-abortion on the air broadcasters and indecent political advertising : reviera-sanchez
+abortion on the air broadcasters and indecent political advertising : reviera
 about charity : cockett
 about synchronous programming and abstract interpretation : halbwachs
 abstaction descant part 2 : gabriel
@@ -336,10 +336,10 @@ active messages a mechanism for integrated communication and computation : von e
 ad hoc self supervising peer to peer search networks : cooper
 ada 95 a guide for c and c++ programmers : johnston
 ada and software defelopment support a new concept in language design : leblanc
-ada system dependency analyzer tool : baratta-perez
+ada system dependency analyzer tool : baratta
 adaptable architectures for supersystems : vick
 adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
-adapting correcting and perfecting software estimates a maintenance metaphor : abdel-hamid
+adapting correcting and perfecting software estimates a maintenance metaphor : abdel
 adaptive an object oriented framework for flexible and adaptive communication protocols : box
 adaptive automata for context dependent languages : neto
 adaptive block coding : deel
@@ -387,7 +387,7 @@ algorithm form dynamic software cache coherence : sandhu
 algorithms and data structures for flash memories : gal
 algorithms and issues in server software design : anon
 algorithms for directed graphs : mangano
-algorithms for scalable synchronization on shared memory multiprocessors : mellior-crummey
+algorithms for scalable synchronization on shared memory multiprocessors : mellior
 algorithms for stereoscopic imaging : duvanenko
 algorithms implementing distributed shared memory : stumm
 alien text file compresion : swan
@@ -629,8 +629,8 @@ block truncation compression : kruger
 blocks and procedures : kiessling
 blooms taxonomy : bloom
 bluebottle a thread safe multimedia and gui framework for active oberon : frey
-blush and zebrackets large and small scale typographical representation of nested associativity : michael cohen
-blush and zebrackets two schemes for typographic representation of nested associativity : michael cohen
+blush and zebrackets large and small scale typographical representation of nested associativity : cohen
+blush and zebrackets two schemes for typographic representation of nested associativity : cohen
 bnf converter multilingual front end generation from labelled bnf grammars : pellauer
 bonsai a compact representation of trees : darragh
 books of note liberty's programming c# : meyer
@@ -671,10 +671,10 @@ c++ type traits : maddock
 c-- a portable assembly language that supports garbage collection : peyton jones
 c based interactive rtl design methodology : shin
 cache profiling and the spec benchmarks a case study : lebeck
-caching in the sprite network file system : michael n nelson
+caching in the sprite network file system : nelson
 caching strategies to improve disk system performance : karedla
 caching substitutions : krishnamurthi
-calculating encoding and decoding functions for prefix codes : pareja-flores
+calculating encoding and decoding functions for prefix codes : pareja
 calculating the maximum mean data rate in local area networks : stuck
 call by value is dual to call by name : wadler
 call with current continuation patterns : ferguson
@@ -710,7 +710,7 @@ channels : gupta
 channels a run time system for multimedia protocols : bocking
 characterizing people as nonlinear first order components in software development : cockburn
 charming python inside python's implementations : mertz
-chart parsing of flowgraphs : rudi lutz
+chart parsing of flowgraphs : lutz
 checking for search robot crawling and indexing : rappoport
 checking inside the black box regression testing bo comparing value spectra : xie
 chinese lotto as an exhaustive code breaking machine : quisquater
@@ -799,7 +799,7 @@ computational thinking : wing
 computer aided specification of process control systems : ludewig
 computer architecture in the 1990s : stone
 computer architectures for pictorial information systems : danielsson
-computer experiments with fractional gaussian noises part 1 averages and variances : benoit b mandelbrot
+computer experiments with fractional gaussian noises part 1 averages and variances : mandelbrot
 computer graphics the need for graphics design part 1 : myers
 computer graphics the need for graphics design part 2 : myers
 computer memory systems : pohm
@@ -812,7 +812,7 @@ computing in molecular biology mapping and interpreting biological information :
 computing the hough transform : queisser
 concepts design choices for template argument checking : stroustrup
 conceptual entropy and its effect on class hierarchies : dvorak
-concert c a language for distributed computing : joshua s auerbach
+concert c a language for distributed computing : auerbach
 concert c supporting distributed programming with language extensions and a protable multiprotocol runtime : auerbach
 concurrency control in groupware systems : ellis
 concurrent object oriented language cool : maruyama
@@ -832,7 +832,7 @@ consistency based diagnosis : palshikar
 consistency in dataflow graphs : lee
 constrained latency storage access : staehli
 constraint logic programming : hentenryck
-constraint logic programming an informal introduction : thom fruhwirth
+constraint logic programming an informal introduction : fruhwirth
 constructing distributed systems in conic : magee
 constructing program dependency graphs using a parser : harrold
 constructing reusable specifications through analogy : chiang
@@ -887,7 +887,7 @@ data flow languages : ackerman
 data flow program graphs : davis
 data flow supercomputers : dennis
 data flow synchronous languages : benveniste
-data level parallel programming in c++ : thomas m breuel
+data level parallel programming in c++ : breuel
 data mining static code attributes to learn defect predictors : menzies
 data parallel algorithms : hillis
 data prefetch mechanisms : vanderweil
@@ -1055,7 +1055,7 @@ dont fidget with widgets draw : bartlett
 dotted and dashed lines in metafont : gibbons
 dparser manual : dparser
 draft ansi smalltalk standard : smalltalk
-drawing trees nicely with tex : bruggemann-klein
+drawing trees nicely with tex : bruggemann
 drawing graphs with dot : koutsoflos
 drawing graphs with metapost : hobby
 dsl implementation in metaocaml template haskell and c++ : czarnecki
@@ -1397,7 +1397,7 @@ hardware compilation translating programs into circuits : wirth
 hardware synthesis from term rewriting systems : hoe
 hardwarec a language for hardware design : ku
 harts a distributed real time architecture : shin
-hash tables : pat morin
+hash tables : morin
 hash tables for the standard library : austern
 hashed and hierarchical timing wheels data structures for the efficient implementation of a timer facility : varghese
 hashing for dynamic and static internal tables : lewis
@@ -1502,7 +1502,7 @@ implementing concurrent c : gahani
 implementing constraint imperative programming languages the kaleidoscope 93 virtual machine : lopez
 implementing dynamic minimal prefix tries : dundas
 implementing equals for mixed type comparison : langer
-implementing linux system calls : manjarrez-sanchez
+implementing linux system calls : manjarrez
 implementing network protocols at user level : thekkath
 implementing object equivalence in java using the template method design pattern : stevenson
 implementing operator for smart pointers : meyers
@@ -1621,7 +1621,7 @@ ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
 is finding security holes a good idea : rescoria
 is free software inevitable : vepstas
-is ip going to take over the world of communications : molinero-fernandez
+is ip going to take over the world of communications : molinero
 is layering harmful : crowcroft
 is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
 is turing a better language for teaching programming than pascal : martin
@@ -1792,7 +1792,7 @@ managing code inspection information : barnard
 managing conflict in system diagnosis : sheppard
 managing replicated remote procedure call transactions : zhou
 managing stored voice in the etherphone system : terry
-mango a parser generator for self : ole agesen
+mango a parser generator for self : agesen
 manual for the prosper class : goualard
 mapping objects to files a unix file system interface to an object management system : florijn
 mapping software architectures to efficient implementation via partial evaluation : marlet
@@ -2115,7 +2115,7 @@ performance analysis ratholes : jain
 performance and environment monitoring for continuous program optimization : casaval
 performance and functional prototyping from software descriptions : wohlin
 performance description and analysis for distributed systems using a variant of lotos : rico
-performance issues in parallelized network protocols : erich m nahum
+performance issues in parallelized network protocols : nahum
 performance of a broadcast packet switch : bubenik
 performance of a software mpeg video decoder : patel
 performance of checksums and crcs over real data : partridge
@@ -2127,7 +2127,7 @@ persistent objects in cpp : stevens
 personalization and privacy : volokh
 perspectives manifesto 1991 : alexander
 perspectives on dedicated and control processing : house
-pervasive computing with inferno and limbo : stanley-marbell
+pervasive computing with inferno and limbo : stanley
 pete the portable expression template engine : haney
 phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
@@ -2178,11 +2178,11 @@ preliminary analysis of a breadth first parsing algorithm theoretical and experi
 preliminary design for the programming language forsythe : reynolds
 pretty printing context free grammars : osborne
 prettyprinting : oppen
-price cap regulation can we learn from the british telecom experience : sushil k bhattacharyya
+price cap regulation can we learn from the british telecom experience : bhattacharyya
 pricing and architecture of the internet historical perspecgtives from telecommunications and transportation : odlyzko
 prime numbers : smith
 primitive types considered harmful : alpert
-principles of good software specification and their implications for specification languages : robert balzer
+principles of good software specification and their implications for specification languages : balzer
 principles versus patterns : pescio
 priority queues for motorists : guttman
 privacy economics and price discrimination on the internet : odlyzko
@@ -2199,7 +2199,7 @@ process semantics global axioms compositional rules and applications : nguyen
 processes are in the eye of the beholder : lamport
 processor reconfiguration through instruction set metamorphosis : athanas
 producing an accurate call stack trace in the occasional absence of frame pointers : copperman
-productivity incentive clauses and rate adjustment for inflation : william j baumol
+productivity incentive clauses and rate adjustment for inflation : baumol
 profile guided automatic inline expansion for c programs : chang
 profiling for performance : newcomer
 program comprehension : rugaber
@@ -2308,7 +2308,7 @@ reactive scripts : boussinot
 reactive shared variables based systems : boussinot
 real time behavior of programs : haase
 real time data fusion in the intensive care unit : factor
-real time further misconceptions or half truths : kurki-suonio
+real time further misconceptions or half truths : kurki
 real time scheduling theory and ada : sha
 real time voice communication over the internet using packet path diversity : liang
 real92 a combined specification language for real time concurrent systems and properties : nepomniaschy
@@ -2527,7 +2527,7 @@ simulating student programmers : spohrer
 simulation lecture notes : nakayama
 single pass generation of static single assignment form for structured languages : brandis
 six rather unusual propositions about terrorism : mueller
-ska supporting algorithm and data structure discussion : hamilton-taylor
+ska supporting algorithm and data structure discussion : hamilton
 skip lists : schneier
 skip lists a probabilistic alternative to balanced trees : pugh
 skribilo user manual : gallesio
@@ -2566,7 +2566,7 @@ software is discrete mathematics : page
 software maintainability a pratical concern for life cycle costs : munson
 software measurement for dod systems recommendations for initial core measures : carleton
 software tools for microanalysis of programs : cohen
-soot a java bytecode optimization framework : vallee-rai
+soot a java bytecode optimization framework : vallee
 sorting and searching algorithms : niemann
 sovoip middleware for universal voip connectivity : arif
 ubiquitous computing using sip : berger
@@ -2594,7 +2594,7 @@ software visualization in the large : ball
 software vs hardware errors : glass
 solaris sockets past and present : mauro
 solving triangular peg solitaire : bell
-some economics of the internet : mackie-mason
+some economics of the internet : mackie
 some issues for single address space systems : chase
 some issues in the semantics of facile distributed programming : thomsen
 some results on the impossibility universality and decidability of consensus : jayanti
@@ -2700,7 +2700,7 @@ survey of scope issues in programming languages : schwanke
 survey of switching techniques in high speed networks and their performance : oie
 survey of traffic control schemes and protocols in atm networks : bae
 survival of the fittest : baker
-surviving network partitioning : melliar-smith
+surviving network partitioning : melliar
 svp a model capturing sets streams and parallelism : parker
 swap space implementation : mauro
 swarm 0.44 documents : dales
@@ -3329,7 +3329,7 @@ video abstracting : lienhart
 video data conversion and real time tracking : gilbert
 videotex networks : ball
 views a way for pattern matching to coexist with data abstraction : wadler
-virtual clocks a new traffic control algorithm for packet switching networks : lixia zhang
+virtual clocks a new traffic control algorithm for packet switching networks : zhang
 virtual gain for audio windows : cohen
 vitrual memory issues of implementation : jacob
 virtual memory management in the vax vms operating system : levy
@@ -3467,6 +3467,7 @@ gawk 'function assembl(i, c, w,  j) {
 	FS = ":"
 	stop = " on or over about as at the a of with and by for using an"
 	stop = stop " some into to in between based be system from all "
+	stop = stop " you your yours "
 	line_count = 0
 	}
       
@@ -3492,15 +3493,20 @@ gawk 'function assembl(i, c, w,  j) {
 	     max_keyword_width = length(k)
 
 	 max_title_width = 0
+	 m = -1
 	 for (i = 0; i < line_count; i++)
-	   if (length(titles[i]) > max_title_width)
-	     max_title_width = length(titles[i])
-
+	   if (length(authors[i]) > max_title_width) {
+	     max_title_width = length(authors[i])
+	     m = i
+	     }
+	 if ((m > -1) && 0)
+	   print "max author is " authors[m] > "/dev/stderr"
+	       
 	 fmt = "%-" max_keyword_width "s %-" max_title_width "s %s\n"
 
 	 for (k in keywords)
 	   for (i = split(keywords[k], lines, " "); i > 0; i--)
-	     printf fmt, k, titles[lines[i]], authors[lines[i]]
+	     printf fmt, k, authors[lines[i]], titles[lines[i]]
 	   
          }
      ' |
