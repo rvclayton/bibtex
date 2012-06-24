@@ -6525,6 +6525,73 @@ so bibtex.header
   location     = "http://www.aaii.com/journal/article/newsletters-vs-funds-which-are-the-better-performers-"
 }
 
+@Article{esfsyma,
+  author       = "John Markese",
+  title        = "European Stock Funds:  Sending Your Money Abroad",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "3--5",
+  month        = aug,
+  keywords     = "correlation, diversity, currency risk",
+  abstract     = " With the economic union near and restructuring and
+    privatizations in progress, Europe seems alluring. But European stock funds
+    differ, and the actively managed funds have placed both stock and country
+    bets.", 
+  location     = "http://www.aaii.com/journal/article/european-stock-funds-sending-your-money-abroad"
+}
+
+@Article{cotdotds,
+  author       = "John Bajkowski",
+  title        = "Characteristics of the {D}ogs of the {D}ow Stocks",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "6--9",
+  month        = aug,
+  keywords     = "dividend valuations, djia, earnings strength",
+  abstract     = "The Dogs of the Dow approach takes advantage of the long-term
+    positive returns associated with the market, and adds a contrarian bonus by
+    focusing on only the highest-yielding stocks.",
+  location     = "http://www.aaii.com/journal/article/characteristics-of-the-dogs-of-the-dow-stocks"
+}
+
+@Article{hmddypn,
+  author       = "Maria Crawford Scott",
+  title        = "How Much Diversification Does Your Portfolio Need?",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "10--13",
+  month        = aug,
+  keywords     = "gold, precious metals, real estate, commodities, hedging,
+    asset allocations, diversity",
+  abstract     = "Precious metals, real estate and commodities are sometimes
+    suggested as useful additions to your portfolio. Do they bring more
+    diversification? And how practical is investment in them?", 
+  location     = "http://www.aaii.com/journal/article/how-much-diversification-does-your-portfolio-need-"
+}
+
+@Article{dvapavfs,
+  author       = "Stanley Block",
+  title        = "Do Value-Added Programs Add Value for Shareholders?",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "18--23",
+  month        = aug,
+  keywords     = "management shamanism, economic value added, accounting data,
+    compensation, analysis",
+  abstract     = "One method firms use to focus on shareholder interests is
+    through EVA programs--measuring economic value added. What these programs
+    are and how much they actually impact shareholder value.", 
+  location     = "http://www.aaii.com/journal/article/do-value-added-programs-add-value-for-shareholders-"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
