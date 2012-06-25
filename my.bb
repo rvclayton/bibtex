@@ -1,4 +1,4 @@
-so bibtex.header
+.so bibtex.header
 
 @Book{aiial,
   author       = "Richard Hofstadter",
@@ -1703,9 +1703,15 @@ so bibtex.header
   number       = 7,
   pages        = "836--852",
   month        = jul,
-  keywords     = "",
-  abstract     = "",
-  location     = ""
+  keywords     = "human factors, hypertext, document management",
+  abstract     = "NoteCards, developed by a team at Xerox PARC, was designed 
+    to support the task of transforming a chaotic collection of unrelated
+    thoughts into an integrated, orderly interpretation of ideas and their
+    interconnections.  This article presents NoteCards as a foil against which
+    to explore some of the major limitations of the current generation of
+    hypermedia systems, and characterizes the issues that must be addressed in
+    designing the next generation systems.",
+  location     = "http://dx.doi.org/10.1145/48511.48514"
 }
 
 @Article{grtiahrte,
@@ -6590,6 +6596,72 @@ so bibtex.header
     through EVA programs--measuring economic value added. What these programs
     are and how much they actually impact shareholder value.", 
   location     = "http://www.aaii.com/journal/article/do-value-added-programs-add-value-for-shareholders-"
+}
+
+@Article{bcvitdootdo,
+  author       = "Maria Crawford Scott",
+  title        = "Blue-Chip Value Investing: The {D}ogs of the {D}ow",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 6,
+  pages        = "3--6",
+  month        = jul,
+  keywords     = "value investing, portfolio turnover, djia",
+  abstract     = "The purely mechanical nature of the Dow Dogs approach forces
+    strict investor discipline and requires no investment decision-making
+    expertise.", 
+  location     = "http://www.aaii.com/journal/article/blue-chip-value-investing-the-dogs-of-the-dow"
+}
+
+@Article{oacecf,
+  author       = "Albert~J. Fredman",
+  title        = "Open- and Closed-End Convertible Funds",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 6,
+  pages        = "7--12",
+  month        = jul,
+  keywords     = "convertibles bond, preferred stock, price supports, 
+    discounts", 
+  abstract     = "Mutual funds that invest in convertibles are similar to
+    balanced funds, but they tend to hold securities of smaller firms.",
+  location     = "http://www.aaii.com/journal/article/open-and-closed-end-convertible-funds"
+}
+
+@Article{uialavs,
+  author       = "James~H. Gilkeson",
+  title        = "Unusual Investments: {A} Look at Viatical Settlements",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "17--21",
+  month        = jul,
+  keywords     = "aids, insurance",
+  abstract     = "Viatical settlements--investments in the life insurance
+    policies of the terminally ill--have received considerable publicity
+    because of high potential returns, but they are complex and difficult to
+    analyze.", 
+  location     = "http://www.aaii.com/journal/article/unusual-investments-a-look-at-viatical-settlements"
+}
+
+@Article{swocfiihtss,
+  author       = "James~B. Cloonan",
+  title        = "Some Words of Caution for Investors in High-Tech Speculative Stocks",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 7,
+  pages        = "26--27",
+  month        = jul,
+  keywords     = "variable convertible preferred stock, shorting, venture
+    capitalists",
+  abstract     = "A lack of funding prompts some developmental-stage companies
+    to turn to variable convertible preferred stock issues, with a negative
+    impact beyond what many investors would normally expect.",
+  location     = "http://www.aaii.com/journal/article/some-words-of-caution-for-investors-in-high-tech-speculative-stocks"
 }
 
 @Manual{tsotje,
