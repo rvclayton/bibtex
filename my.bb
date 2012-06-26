@@ -373,6 +373,16 @@
   location     = "F3429.3 D79 N3713"
 }
 
+@Book{tspth,
+  author       = "Tony Hillerman",
+  title        = "The Sinister Pig",
+  publisher    = "HarperCollins",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "murrdaar, drugs",
+  location     = "PS 3558.I45 S46"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -6662,6 +6672,84 @@
     to turn to variable convertible preferred stock issues, with a negative
     impact beyond what many investors would normally expect.",
   location     = "http://www.aaii.com/journal/article/some-words-of-caution-for-investors-in-high-tech-speculative-stocks"
+}
+
+@Article{wtlfitnmfp,
+  author       = "John Markese",
+  title        = "What to Look for in the New Mutual Fund Profile",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "2--5",
+  month        = jun,
+  keywords     = "investment objectives, investment strategy, investment risk,
+  fees, share purchase, selling shares, fund distirbution, services.",
+  abstract     = "Starting June 1998, mutual funds will be allowed to offer
+    prospective investors a new source of information--the fund profile. A look
+    at the points covered and what the profile can and can´t tell you.", 
+  location     = "http://www.aaii.com/journal/article/what-to-look-for-in-the-new-mutual-fund-profile"
+}
+
+@Article{cofwdrp,
+  author       = "John Bajkowski",
+  title        = "Characteristics of Firms with Dividend Reinvestment Plans",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "6--8",
+  month        = jun,
+  keywords     = "dividends, dividend reinvestment",
+  abstract     = "Common traits of firms in the 1998 dividend reinvestment
+    guide, and how to build a screen based on DRPs.", 
+  location     = "http://www.aaii.com/journal/article/characteristics-of-firms-with-dividend-reinvestment-plans"
+}
+
+@Article{rldyiiaboab,
+  author       = "H.~Bradlee Perry",
+  title        = "Record Low Dividend Yields: Is It a Bane or a Blessing?",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "23--26",
+  month        = jun,
+  keywords     = "stock valuations, dividend yields, payout ratios, ",
+  abstract     = "Skyrocketing stock valuations and declining payout ratios
+    have resulted in the lowest dividend yields in decades. The news for
+    investors--mostly good.", 
+  location     = "http://www.aaii.com/journal/article/record-low-dividend-yields-is-it-a-bane-or-a-blessing-"
+}
+
+@Article{wyrhyrhoayn,
+  author       = "Mark Hulbert",
+  title        = "When You're Hot, Your're Hot! Or Are You Not?",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "32--34",
+  month        = jun,
+  keywords     = "hot hands, correlation",
+  abstract     = "track records, momentum",
+  location     = "http://www.aaii.com/journal/article/when-you-re-hot-your-re-hot-or-are-you-not-"
+}
+
+@Article{sscysam,
+  author       = "Maria Crawford Scott",
+  title        = "Scary Scenarios: Can You Survive a Meltdown?",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "10--12",
+  month        = jun,
+  keywords     = "disaster, preparation",
+  abstract     = "No matter what the environment, someone is always predicting
+    disaster. The question to address is: What´s the real risk I´m  facing, and
+    what´s the best way to reduce it?", 
+  location     = "http://www.aaii.com/journal/article/scary-scenarios-can-you-survive-a-meltdown-"
 }
 
 @Manual{tsotje,
