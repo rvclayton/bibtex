@@ -6752,6 +6752,18 @@
   location     = "http://www.aaii.com/journal/article/scary-scenarios-can-you-survive-a-meltdown-"
 }
 
+@Article{chjhlj,
+  author       = "Joey Hess",
+  title        = "{CVS} homedir",
+  journal      = lj,
+  year         = 2002,
+  number       = 101,
+  pages        = "78--81",
+  month        = sep,
+  keywords     = "source code control, version control, cvs",
+  location     = "http://www.linuxjournal.com/article/5976"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
