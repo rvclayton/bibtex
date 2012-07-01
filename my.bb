@@ -383,6 +383,16 @@
   location     = "PS 3558.I45 S46"
 }
 
+@Book{csbatts,
+  author       = "Wiliam Kennedy",
+  title        = "Chang{\' o}'s Beads and Two-Tone Shoes",
+  publisher    = "Viking",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "revolution, reactionaries",
+  location     = "PS 3561.E428 C47"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -6762,6 +6772,74 @@
   month        = sep,
   keywords     = "source code control, version control, cvs",
   location     = "http://www.linuxjournal.com/article/5976"
+}
+
+@Article{aclaftfotdo,
+  author       = "Albert~J. Fredman",
+  title        = "{A} Closer Look at Funds That Focus on the {{D}}ow",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 4,
+  pages        = "3--7",
+  month        = may,
+  keywords     = "dow 30, indexes, diamonds, pricing, trading, dogs, mutual
+    funds",
+  abstract     = "The Dow Jones industrial average is the most widely followed
+    market indicator, and now investement products that feature Dow stocks are
+    starting to attract attention.",
+  location     = "http://www.aaii.com/journal/article/a-closer-look-at-funds-that-focus-on-the-dow"
+}
+
+@Article{rertuwcs,
+  author       = "Maria Crawford Scott",
+  title        = "Re-Examining Risk Tolerance Using Worst-Case Scenarios",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 4,
+  pages        = "10--12",
+  month        = may,
+  keywords     = "scenarios, worst-case analysis",
+  abstract     = "Major bull markets can cause asset allocation strategies to
+    stray and investors to become overly complacent. Seeing how your portfolio
+    would fare in the worst bear market.",
+  location     = "http://www.aaii.com/journal/article/re-examining-risk-tolerance-using-worst-case-scenarios"
+}
+
+@Article{iittmma,
+  author       = "Maria Crawford Scott",
+  title        = "Investing in Technology: The {M}ichael {M}urphy Approach",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 4,
+  pages        = "13--16",
+  month        = may,
+  keywords     = "technology sector, growth-flow model, risk, portfolio
+    analysis, sell signals",
+  abstract     = "Regarding technology as the growth driver of the
+    U.S. economy, Murphy seeks to identify firms that are most likely to be the
+    future leaders and buys when they are undervalued relative to their growth
+    potential.",
+  location     = "http://www.aaii.com/journal/article/investing-in-technology-the-michael-murphy-approach"
+}
+
+@Article{wtlfiasrp,
+  author       = "David~R. Fried",
+  title        = "What to Look for in a Stock Repurchase Program",
+  journal      = aaiij,
+  year         = 1998,
+  volume       = 20,
+  number       = 4,
+  pages        = "21--24",
+  month        = may,
+  keywords     = "buybacks",
+  abstract     = "Stock buybacks can be extremely beneficial to shareholders,
+    but they have their subtleties: Companies don´t always follow through on
+    announcements, and firms have different motivations for repurchasing
+    shares.",
+  location     = "http://www.aaii.com/journal/article/what-to-look-for-in-a-stock-repurchase-program"
 }
 
 @Manual{tsotje,
