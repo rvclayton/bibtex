@@ -393,6 +393,17 @@
   location     = "PS 3561.E428 C47"
 }
 
+@Book{btsrp,
+  author       = "Rick Perlstein",
+  title        = "Before the Storm",
+  publisher    = "Hill and Wang",
+  year         = 2001,
+  address      = nyny,
+  keywords     = "american politics, 1964 presidential elections, barry
+    goldwater, lyndon johnson", 
+  location     = "E 748 G64 P37"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -6840,6 +6851,85 @@
     announcements, and firms have different motivations for repurchasing
     shares.",
   location     = "http://www.aaii.com/journal/article/what-to-look-for-in-a-stock-repurchase-program"
+}
+
+@Article{wdstms,
+  author       = "Michael Swaine",
+  title        = "Web Developer Survival Tips",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 9,
+  pages        = "16--20",
+  month        = sep,
+  keywords     = "power management, google",
+  location     = "http://www.drdobbs.com/web-development/191601618"
+}
+
+@Article{snebt,
+  author       = "Eric Bergman-Terrell",
+  title        = "Synchronize Now!",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 9,
+  pages        = "22--29",
+  month        = sep,
+  keywords     = ".net, amazon s3, ftp, data transfer",
+  location     = "http://www.drdobbs.com/database/synchronize-now/191601621"
+}
+
+@Article{mijo,
+  author       = "Oliver Goldman",
+  title        = "Multithreading in {Java} \& {OSGi}",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 9,
+  pages        = "30--37",
+  month        = sep,
+  keywords     = "multi-process programming, threads, interrupts,
+    coordination",
+  location     = "http://www.drdobbs.com/jvm/multithreading-java-osgi/191601642"
+}
+
+@Article{teup,
+  author       = "Ivar Jacobson and Pan Wei Ng and Ian Spence",
+  title        = "The Essential {Unified Process}",
+  journal      = ddj,
+  year         = 206,
+  volume       = 31,
+  number       = 9,
+  pages        = "40--45",
+  month        = sep,
+  keywords     = "unified process, use cases, software development",
+  location     = "http://www.drdobbs.com/architecture-and-design/191601687"
+}
+
+@Article{acaac,
+  author       = "Andrew Colin",
+  title        = "Ant Colony Algorithms",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 9,
+  pages        = "46--51",
+  month        = sep,
+  keywords     = "emergent behavior, tsp, optimization problems",
+  location     = "http://www.drdobbs.com/parallel/191800178"
+}
+
+@Article{mecr,
+  author       = "Guy Peleg",
+  title        = "Mandatory Error Codes Revisited",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 9,
+  pages        = "53--56",
+  month        = sep,
+  keywords     = "c++, frameworks",
+  location     = "http://www.drdobbs.com/cpp/191601612"
 }
 
 @Manual{tsotje,
