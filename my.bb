@@ -6932,6 +6932,235 @@
   location     = "http://www.drdobbs.com/cpp/191601612"
 }
 
+@Article{jtsatp,
+  author       = "Neville Holmes",
+  title        = "Jobs, Trades, Skills, and the Profession",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "102--104",
+  month        = sep,
+  keywords     = "professional responsibility, professions",
+  abstract     = "Is the reputed shortage of IT skills a political scam or is 
+    the computing profession itself at fault? The author considers IT
+    professional responsibility and training issues.",
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033038"
+}
+
+@Article{wsach,
+  author       = "Clay Shirky",
+  title        = "Web Services and Context Horizons",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "98--100",
+  month        = sep,
+  keywords     = "networks, computer, context horizons, trust horizons,
+  semantic horizons, coordination horizons",
+  abstract     = "Considers how Web services require defining a new meaning
+    for local, in which different kinds of applications operate within
+    different network horizons.  Understanding these context horizons, and
+    creating the tools and techniques for managing them, are essential to
+    achieving an Internet-scale operating system.  The paper discusses three of
+    the most important: trust horizons, semantic horizons, and coordination
+    horizons.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033037"
+}
+
+@Article{wwsl ,
+  author       = "Wayne Wolf",
+  title        = "Whither {W}arhol's Law?",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "96--97",
+  month        = sep,
+  keywords     = "networks effects, tools, i/o",
+  abstract     = "The article discusses a law concocted by the author:
+    Warhol's Law of Computer Systems Architecture. This law stated that every
+    computer architecture would be the price-performance leader for 15 minutes.
+    The author was thinking mainly of workstation CPUs, but he believed the
+    embedded CPU market would follow suit.  Embedded systems provide an ideal
+    forum for CPU competition.  A lot of people seemed to want to design CPUs,
+    so the author reasoned that no end of new competitors would appear to
+    introduce new features and drive down prices.  It hasn't worked out that
+    way, however.  The high-end market has several players, but not the
+    profusion expected a few years go.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033036"
+}
+
+@Article{aesi ,
+  author       = "Abdelsalam ``Solom'' Heddaya",
+  title        = "An Economically Scalable {I}nternet",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "93--95",
+  month        = sep,
+  keywords     = "quality of experience, quality of service, supercomputer",
+  abstract     = "Over the past decade, many observers have claimed that the 
+    Internet brings the information revolution's components together in a way
+    that will rival the industrial revolution's effects on human productivity
+    and quality of life.  The paper discusses an economically scalable
+    Internet, including bandwidth resources, quality of service, users' quality
+    of experience, scalability and multicast-enabled distribution.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033035"
+}
+
+@Article{mbsfdmacp ,
+  author       = "Jiannong Cao and Xinyu Feng and Jian Lu and Sajal~K. Das",
+  title        = "Mailbox-Based Scheme for Designing Mobile Agent Communication Protocols",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "54--60",
+  month        = sep,
+  keywords     = "location transparency, mailbox, home server protocols",
+  abstract     = "In various situations, mobile agents at different hosts must
+    cooperate with one another by sharing information and making decisions
+    collectively.  To ensure effective interagent communication, communication
+    protocols must track target agent locations and deliver messages
+    reliably.Researchers have proposed a wide range of schemes for agent
+    tracking and reliable message delivery.  However, each scheme has its own
+    assumptions, design goals, and methodology.  As a result, no uniform or
+    structured methods exist for characterizing current protocols, making it
+    difficult to evaluate their relative effectiveness and performance.The
+    authors propose a mailbox-based scheme for designing mobile agent
+    communication protocols.  This scheme assigns each agent a mailbox to
+    buffer messages, but decouples the agent and mailbox to let them reside at
+    different hosts and migrate separately.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033028"
+}
+
+@Article{scaes ,
+  author       = "Wayne Wolf and Burak Ozer and Tiehan Lv",
+  title        = "Smart Cameras as Embedded Systems",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "48--53",
+  month        = sep,
+  keywords     = "image processing, motion detection, gesture recognition",
+  abstract     = "Recent technological advances are enabling a new generation
+    of smart cameras that represent a quantum leap in sophistication.  While
+    today's digital cameras capture images, smart cameras capture high-level
+    descriptions of the scene and analyze what they see.  These devices could
+    support a wide variety of applications including human and animal
+    detection, surveillance, motion analysis, and facial identification.  Video
+    processing has an insatiable demand for real-time performance.  Smart
+    cameras leverage very large-scale integration to meet this need in a
+    low-cost, low-power system with substantial memory.  Moving well beyond
+    pixel processing and compression, these VLSI systems run a wide range of
+    algorithms to extract meaning from streaming video.  Recently, Princeton
+    University researchers developed a first-generation smart camera system
+    that can detect people and analyze their movement in real time.  Because
+    they push the design space in so many dimensions, these smart cameras are a
+    leading-edge application for embedded system research.Mailbox-Based Scheme
+    for Designing Mobile Agent Communication Protocols", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033027"
+}
+
+@Article{padcc ,
+  author       = "Vinod Kathail and Shail Aditya and Robert Schreiber and
+    B.~Ramakrishna Rau and Darren~C. Cronquist and Mukund Sivaraman",
+  title        = "{PICO}: Automatically Designing Custom Computers",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "39--47",
+  month        = sep,
+  keywords     = "hierarchical design, system composition, vliw compiler
+    design",
+  abstract     = "The PICO (program in, chip out) project is a long-range HP
+    Labs research effort that aims to automate the design of optimized,
+    application-specific computing systemsýthus enabling the rapid and
+    cost-effective design of custom chips when no adequately specialized,
+    off-the-shelf design is available.  PICO research takes a systematic
+    approach to the hierarchical design of complex systems and advances
+    technologies for automatically designing custom nonprogrammable
+    accelerators and VLIW processors.  While skeptics often assume that
+    automated design must emulate human designers who invent newsolutions to
+    problems, PICO's approach is to automatically pick the most suitable
+    designs from a well-engineered space of designs.  Such automation of
+    embedded computer design promises an era of yetmore growth in the number
+    and variety of innovative smart products by lowering the barriers of design
+    time, designer availability, and design cost.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033026"
+}
+
+@Article{tiobmis ,
+  author       = "Chuck Walrad and Darrel Strom",
+  title        = "The Importance of Branching Models in {SCM}",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "31--38",
+  month        = sep,
+  keywords     = "software control method, branching model, branch by release,
+    slipstream development, parallel development",
+  abstract     = "To improve software quality, you must first understand your
+    software.  If you do not understand your code base, your odds of updating
+    it without breaking something are poor.  Often, a fundamental
+    misunderstanding of software configuration management (SCM) as it applies
+    to real-world application development is at fault.  Branching is integral
+    to version management, software build correctness, and release management.
+    Good decisions about when and why to branch can make it much easier for
+    developers and release engineers to coordinate software product changes.
+    The right branching strategy makes it easier to deliver the right code,
+    re-create past releases, and--if necessary--roll back to a previous
+    release.  Adopting the right SCM branching model facilitates rapid
+    development, increases overall product quality and process efficiency,
+    reduces the incidence of software failures, and improves organizational
+    performance.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033025"
+}
+
+@Article{mfswcgi ,
+  author       = "Oliver Bimber and Stephen~M. Gatesy and Lawrence~M. Witmer
+    and Ramesh Raskar and L.~Miguel Encarna\c{c}{\~ a}o",
+  title        = "Merging Fossil Specimens with Computer-Generated Information",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 9,
+  pages        = "35--30",
+  month        = sep,
+  keywords     = "augmented paleontology, soft-tissue reconstruction, motion
+    tracking",
+  abstract     = "While dinosaur fossils reveal much, they keep us guessing
+    about the original organisms' color, sound, and behavior.  For several
+    years, modern paleontologists have used 3D computer graphics to help
+    reconstruct these pieces of the past.  Augmented reality leverages this
+    technology to provide an interface that enhances the real world with
+    synthetic supplements.  Paleontologists can use AR to present virtual data
+    directly within a real, 3D environment rather than on a flat monitor.  This
+    technology's immersiveness can give paleontologists new insights into their
+    research and communicate the results to museum visitors in an exciting and
+    effective way.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1033024"
+}
+
+@Article{tesoc,
+  author       = "Charles Anthony Richard Hoare",
+  title        = "The Emperor's Old Clothes",
+  journal      = cacm,
+  year         = 1981,
+  volume       = 24,
+  number       = 2,
+  pages        = "75--83",
+  month        = feb,
+  keywords     = "language design, complexity",
+  location     = "http://dx.doi.org/10.1145/358549.358561"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
