@@ -7161,6 +7161,124 @@
   location     = "http://dx.doi.org/10.1145/358549.358561"
 }
 
+@Article{hmayrpfymf,
+  author       = "John Markese",
+  title        = "How Much Are You Really Paying For Your Mutual Funds?",
+  journal      = aaiij,
+  year         = 1999,
+  volume       = 21,
+  number       = 2,
+  pages        = "2--5",
+  month        = feb,
+  keywords     = "fund operating expenses, expense ratios, loads",
+  abstract     = "Fund loads and expenses decrease your investment return
+    dollar-for-dollar. Looking forward, the costs are predictable, while
+    returns are not. It pays to pay attention to how much you pay.",
+  location     = "http://www.aaii.com/journal/article/how-much-are-you-really-paying-for-your-mutual-funds-"
+}
+
+@Article{asitcorv,
+  author       = "Marcus~W. Robins",
+  title        = "Analyzing Stock Investments: The Concept of Relative Value",
+  journal      = aaiij,
+  year         = 1999,
+  volume       = 21,
+  number       = 2,
+  pages        = "6--11",
+  month        = feb,
+  keywords     = "value curve, analysis",
+  abstract     = "All the valuation yardsticks on the relative value curve
+    represent valid investment approaches. However, each technique as you
+    progress along the curve tends to pose a greater degree of risk, as
+    measured by price volatility.",
+  location     = "http://www.aaii.com/journal/article/analyzing-stock-investments-the-concept-of-relative-value"
+}
+
+@Article{ifiialire,
+  author       = "Robert~D. Siefert",
+  title        = "Investing for Income in a Low Interest Rate Environment",
+  journal      = aaiij,
+  year         = 1999,
+  volume       = 21,
+  number       = 2,
+  pages        = "26--30",
+  month        = feb,
+  keywords     = "income investing, interest rate, risk assessment, portfolio
+    allocations,", 
+  abstract     = "The dilemma for retirees: How do you invest for a desired
+    rate of return in excess of that which is attainable from interest and
+    dividends?", 
+  location     = "http://www.aaii.com/journal/article/investing-for-income-in-a-low-interest-rate-environment"
+}
+
+@Article{kapoesfer,
+  author       = "John Bajkowski",
+  title        = "Keeping a Pulse on Expectations: Screening for Earnings Revisions",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 10,
+  pages        = "10--12",
+  month        = nov,
+  keywords     = "screens, performance, portfolios",
+  abstract     = "Slight changes in expectations for future earnings or the
+    earnings growth rate can strongly impact a stock's price. Tracking these
+    expectations and their changes can be a rewarding stock strategy.", 
+  location     = "http://www.aaii.com/journal/article/keeping-a-pulse-on-expectations-screening-for-earnings-revisions"
+}
+
+@Article{sfdyfysmf,
+  author       = "John Markese",
+  title        = "Searching for Dividend Yield From Your Stock Mutual Funds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 10,
+  pages        = "15--17",
+  month        = nov,
+  keywords     = "yield, growth, reits, benchmarks, risk, expenses",
+  abstract     = "Searching for more yield? One place to look is among stock
+    funds with high dividend yields. Not only do dividend-paying stock funds
+    have a growth component, qualified dividends receive advantageous tax rates
+    under the new laws.",
+  location     = "http://www.aaii.com/journal/article/searching-for-dividend-yield-from-your-stock-mutual-funds"
+}
+
+@Article{fotiisssp,
+  author       = "James~B. Cloonan",
+  title        = "Focus on the Individual Investor's Shadow Stock Portfolio",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 10,
+  pages        = "23--26",
+  month        = nov,
+  keywords     = "portfolio, screens, microcaps",
+  abstract     = "Presenting a model stock portfolio that can be the beginning
+    of the selection process, but not all of it. There are many ways the
+    strategy can be implemented without everyone buying the exact same
+    stocks.", 
+  location     = "http://www.aaii.com/journal/article/focus-on-the-individual-investor-s-shadow-stock-portfolio"
+}
+
+@Article{aisgtcita,
+  author       = "John Deysher",
+  title        = "An Investor's Guide to Corporate Insider Trading Activity",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 10,
+  pages        = "27--29",
+  month        = nov,
+  keywords     = "sec forms, insider trading, analysis",
+  abstract     = "Insider buying is much more significant than insider
+    selling. Insiders may sell their shares for a variety of reasons. But
+    typically insiders buy their shares on the open market for one reason--the
+    stock is cheap!
+",
+  location     = "http://www.aaii.com/journal/article/an-investor-s-guide-to-corporate-insider-trading-activity"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
