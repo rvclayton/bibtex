@@ -7279,6 +7279,59 @@
   location     = "http://www.aaii.com/journal/article/an-investor-s-guide-to-corporate-insider-trading-activity"
 }
 
+@Article{nhietbf,
+  author       = "Albert J. Fredman",
+  title        = "New Horizons: Introducing Exchange-Traded Bond Funds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 1,
+  pages        = "5--10",
+  month        = jan,
+  keywords     = "bond etfs, decoupling, treasury fitrs, expenses, risks",
+  abstract     = "Bond ETFs offer benefits similar to those of stock ETFs, such
+    as low cost, diversification, the ability to trade shares throughout the
+    day, and the ability to short a portfolio.",
+  location     = "http://www.aaii.com/journal/article/new-horizons-introducing-exchange-traded-bond-funds"
+}
+
+@Article{mypwiib,
+  author       = "Hildy Richelson",
+  title        = "Maximizing Your Profits When Investing in Bonds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 1,
+  pages        = "24--29",
+  month        = jan,
+  keywords     = "timing, buy and hold, yield curve, overvaluations, rates,
+    default risk",
+  abstract     = "The experts can agree neither on which way interest rates
+    will go next nor on what the shape of the yield curve means for interest
+    rates in the future. However, you can still get significant information
+    from studying the yield curve.", 
+  location     = "http://www.aaii.com/journal/article/maximizing-your-profits-when-investing-in-bonds"
+}
+
+@Article{alatbpmomb,
+  author       = "Wayne~A. Thorp",
+  title        = "{A} Look at the Big Picture: Measures of Market Breadth",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 1,
+  pages        = "30--34",
+  month        = jan,
+  keywords     = "issues traded, advancing/declining issues, advance/decline
+    ratio, advance/decline line, absolute breadth index, volume, tick, traders
+    index, block trades",
+  abstract     = "The movement of many stocks is not effectively captured by
+    most major market indexes, so many investors turn to market breadth
+    indicators to gain a feel for the full range of stocks participating in the
+    movement of the market.", 
+  location     = "http://www.aaii.com/journal/article/a-look-at-the-big-picture-measures-of-market-breadth"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
