@@ -7332,6 +7332,68 @@
   location     = "http://www.aaii.com/journal/article/a-look-at-the-big-picture-measures-of-market-breadth"
 }
 
+@Article{fbstgafstfp,
+  author       = "Jay Taparia",
+  title        = "Four Basic Steps to Gauging a Firm's True Financial Position",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 9,
+  pages        = "8--11",
+  month        = oct,
+  keywords     = "cash flow, growth rates, financial analysis",
+  abstract     = {A basic understanding of a company's "true" financial
+    position can be gleaned by starting with a company's cash flow
+    statement. Four initial steps you can use to analyze a firm's financial
+    statements.},
+  location     = "http://www.aaii.com/journal/article/four-basic-steps-to-gauging-a-firms-true-financial-position"
+}
+
+@Article{wyntkasbetf,
+  author       = "AAII Staff",
+  title        = "What You Need to Know About Stock-Based Exchange-Traded Funds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 9,
+  pages        = "12--24",
+  month        = oct,
+  keywords     = "indices, risks, trading, holders",
+  abstract     = "",
+  location     = "http://www.aaii.com/journal/article/what-you-need-to-know-about-fixed-income-exchange-traded-funds"
+}
+
+@Article{wyntkafietf,
+  author       = "AAII Staff",
+  title        = "What You Need to Know About Fixed-Income Exchange-Traded Funds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 9,
+  pages        = 25,
+  month        = oct,
+  keywords     = "bond etfs, tax efficiency",
+  abstract     = "A look at the four newcomers to the exchange-traded fund
+  universe--what bond indexes they track and how they work.",
+  location     = "http://www.aaii.com/journal/article/what-you-need-to-know-about-fixed-income-exchange-traded-funds"
+}
+
+@Article{ajbfyalahyb,
+  author       = "Annette Thau",
+  title        = "Are Junk Bonds for You? {A} Look at High-Yield Bonds",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 9,
+  pages        = "32--36",
+  month        = oct,
+  keywords     = "bond ratings, junk bond funds",
+  abstract     = "One-year returns of junk bond funds averaged 20% in 2003
+    after a two-year slump, tracking the stock market rebound. Is now a good
+    time for indviduals to invest in this sector?",
+  location     = "http://www.aaii.com/journal/article/are-junk-bonds-for-you-a-look-at-high-yield-bonds"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
