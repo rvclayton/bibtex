@@ -7462,6 +7462,58 @@
   location     = "http://www.aaii.com/journal/article/putting-together-a-portfolio-of-municipal-bond-investments"
 }
 
+@Article{mcmfsftfg,
+  author       = "John Markese",
+  title        = "Micro-Cap Mutual Funds: Searching for the Future Giants",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "3--5",
+  month        = apr,
+  keywords     = "market cap, performance, micro-caps",
+  abstract     = "Micro-cap stocks are not as well covered as larger-cap
+    stocks, and as a result a fund manager has a greater chance of adding
+    significant value. They also do not track the overall market perfectly,
+    adding to portfolio diversification.",
+  location     = "http://www.aaii.com/journal/article/micro-cap-mutual-funds-searching-for-the-future-giants"
+}
+
+@Article{htsfbpmoti,
+  author       = "Annette Thau",
+  title        = "How to Shop for Bonds: Pricing Munis on the {I}nternet",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "22--28",
+  month        = apr,
+  keywords     = "accrued interest, dated date, call provisions, bond pricing,
+    bond markups, ",
+  abstract     = "Buying municipal bonds is a little like buying a
+    car--shopping around and doing some comparison. The frustrating aspect of
+    munis is pricing and markups. The situation is improving, with pricing
+    information slowly becoming available on the Internet.",
+  location     = "http://www.aaii.com/journal/article/how-to-shop-for-bonds-pricing-munis-on-the-internet"
+}
+
+@Article{tabspaapr,
+  author       = "James~B. Cloonan",
+  title        = "The {AAII} {B}eginner's {P}ortfolio: An Annual Performance Review",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 3,
+  pages        = "33--34",
+  month        = apr,
+  keywords     = "small cap, value stocks, portfolio management, performance",
+  abstract     = "Over the last 10-year period, the Beginner's Portfolio has
+    beaten the S&P 500, the Russell 2000, and the micro-cap index. This
+    confirms what historical research has shown: Over the long run, small-cap
+    stocks, on average, have higher returns.",
+  location     = "http://www.aaii.com/journal/article/the-aaii-beginner-s-portfolio-an-annual-performance-review"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
