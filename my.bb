@@ -404,6 +404,26 @@
   location     = "E 748 G64 P37"
 }
 
+@Book{sslb,
+  author       = "Leslie Brunetta and Catherine~L. Craig",
+  title        = "Spider Silk",
+  publisher    = "Yale University Press",
+  year         = 2010,
+  address      = "New Haven, Connecticut",
+  keywords     = "spiders, evolution, webs, fossil",
+  location     = "QL 459.B78"
+}
+
+@Book{tpoprac,
+  author       = "Robert~A. Caro",
+  title        = "The Passage of Power",
+  publisher    = "Knopf",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "politics, vice presidency, assassination",
+  location     = "E 846.C37"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -7468,7 +7488,7 @@
   journal      = aaiij,
   year         = 2003,
   volume       = 25,
-  number       = 4,
+  number       = 3,
   pages        = "3--5",
   month        = apr,
   keywords     = "market cap, performance, micro-caps",
@@ -7485,7 +7505,7 @@
   journal      = aaiij,
   year         = 2003,
   volume       = 25,
-  number       = 4,
+  number       = 3,
   pages        = "22--28",
   month        = apr,
   keywords     = "accrued interest, dated date, call provisions, bond pricing,
@@ -7512,6 +7532,74 @@
     confirms what historical research has shown: Over the long run, small-cap
     stocks, on average, have higher returns.",
   location     = "http://www.aaii.com/journal/article/the-aaii-beginner-s-portfolio-an-annual-performance-review"
+}
+
+@Article{bmswtshts,
+  author       = "T.~Rowe Price Associates",
+  title        = "Bear Market Strategies: Watch the Spending, Hold the Stocks",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "3--7",
+  month        = may,
+  keywords     = "portfolio, withdrawal rates, cash, equities, retirement",
+  abstract     = "The asset allocation decision in retirement can be critical
+    depending on your withdrawal rate and time horizon. Recent analysis shows
+    that retirees should keep at least 30% to 40% in equities.",
+  location     = "http://www.aaii.com/journal/article/bear-market-strategies-watch-the-spending-hold-the-stocks"
+}
+
+@Article{tcwbyratm,
+  author       = "Wayne~A. Thorp",
+  title        = "Telling Curves: What Bond Yields Reveal About the Markets",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "14--17",
+  month        = may,
+  keywords     = "yield, yield curve, predictors",
+  abstract     = "Studies have shown that the overall pattern of interest rate
+    movements can provide an indication of the direction of future economic
+    activity, as well as the markets themselves.",
+  location     = "http://www.aaii.com/journal/article/telling-curves-what-bond-yields-reveal-about-the-markets"
+}
+
+@Article{t1faferi,
+  author       = "William~P. Dukes",
+  title        = "The 10 Fundamental Axioms for Effective Retirement Investing",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "23--",
+  month        = may,
+  keywords     = "now, goals, historical expectations, risk management,
+    diversify, long-term perspective, no timing, buy results, buy light,
+    taxes",
+  abstract     = "These principles provide the critical cornerstone for making
+    decisions. When any of the axioms are violated, you risk being derailed
+    from the ultimate objective of accumulating a more-than-adequate fund for
+    retirement.", 
+  location     = "http://www.aaii.com/journal/article/the-10-fundamental-axioms-for-effective-retirement-investing"
+}
+
+@Article{tpvrdygwypf,
+  author       = "Mark Hulbert",
+  title        = "The Price-Value Relationship: Do You Get What You Pay For?",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 4,
+  pages        = "30--31",
+  month        = may,
+  keywords     = "cost, performance",
+  abstract     = "Direct mail marketers say that in head-to-head tests of two
+    investment newsletters that differ only in price, the higher-priced one
+    often   receives more responses. Do more expensive newsletters provide
+    better returns?", 
+  location     = "http://www.aaii.com/journal/article/the-price-value-relationship-do-you-get-what-you-pay-for-"
 }
 
 @Manual{tsotje,
