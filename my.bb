@@ -7602,6 +7602,23 @@
   location     = "http://www.aaii.com/journal/article/the-price-value-relationship-do-you-get-what-you-pay-for-"
 }
 
+@Article{tbphtdtsmsd,
+  author       = "William~J. O'Neil",
+  title        = "The Big Picture: How to Determine the Stock Market's Direction",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 5,
+  pages        = "3--7",
+  month        = jun,
+  keywords     = "markets, cycles, bottoms, turns, tops",
+  abstract     = "The CAN SLIM strategy has been a superior performer among the
+    AAII stock screens. But our approach misses one aspect--market
+    direction. William O'Neil himself describes how to gauge the market's
+    direction.",
+  location     = "http://www.aaii.com/journal/article/the-big-picture-how-to-determine-the-stock-market-s-direction"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
