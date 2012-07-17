@@ -7619,6 +7619,37 @@
   location     = "http://www.aaii.com/journal/article/the-big-picture-how-to-determine-the-stock-market-s-direction"
 }
 
+@Article{tfofyahtgt,
+  author       = "John Markese",
+  title        = "Top Funds Over Five Years: Analyzing How They Got There",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 6,
+  pages        = "3--6",
+  month        = jul,
+  keywords     = "fund evaluation, tax efficiency, category risk, total risk",
+  abstract     = "Lists of top-performing funds can be dangerous to
+    investors--the temptation to invest in the top funds without understanding
+    how they got there is great.", 
+  location     = "http://www.aaii.com/journal/article/top-funds-over-five-years-analyzing-how-they-got-there"
+}
+
+@Article{jhdiitttbm,
+  author       = "Mark Hulbert",
+  title        = "Just How Difficult Is It to Time the Bond Market?",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 6,
+  pages        = "29--30",
+  month        = jul,
+  keywords     = "market timing, ",
+  abstract     = "Bond market timers have faced tough challenges in recent
+    years. Have they risen to the occasion?",
+  location     = "http://www.aaii.com/journal/article/just-how-difficult-is-it-to-time-the-bond-market-"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
