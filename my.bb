@@ -7650,6 +7650,136 @@
   location     = "http://www.aaii.com/journal/article/just-how-difficult-is-it-to-time-the-bond-market-"
 }
 
+@Article{saolwp,
+  author       = "Savio Fernandes and Klm Reddy",
+  title        = "Securing Applications on {L}inux with {PAM}",
+  journal      = lj,
+  year         = 2002,
+  number       = 102,
+  pages        = "70--81",
+  month        = oct,
+  keywords     = "security, user credentials",
+  abstract     = "The basic concepts of PAM (Pluggable Authentication Module),
+    developing a PAM-enabled application and writing the PAM configuration
+    file.",
+  location     = "http://www.linuxjournal.com/article/5940"
+}
+
+@Article{ttlpi,
+  author       = "Greg Kroah-Hartman",
+  title        = "The tty Layer, Part {II}",
+  journal      = lj,
+  year         = 2002,
+  number       = 102,
+  pages        = "50--58",
+  month        = oct,
+  keywords     = "ioctls, device drivers",
+  abstract     = "In the first part of this column (LJ, August 2002) we covered
+    the basics of the tty layer and how to create a minimal tty driver. Now we
+    move on and cover more of the tty layer, trying to explain some of the
+    advanced portions.", 
+  location     = "http://www.linuxjournal.com/article/6226"
+}
+
+@Article{wdyhiyw,
+  author       = "Alex Perry",
+  title        = "What Do You Have in Your Walls?",
+  journal      = lj,
+  year         = 2002,
+  number       = 102,
+  pages        = "42--49",
+  month        = oct,
+  keywords     = "magnetic probes, signal processing, graph plotting",
+  abstract     = "The physics, hardware and softwware behind an easy-to-build
+    probe you can run with your sound card.",
+  location     = "http://www.linuxjournal.com/article/6201"
+}
+
+@Article{psitjs,
+  author       = "Roger Riggs and Jim Waldo and Ann Wollrath and Krishna Bharat",
+  title        = "Pickling State in the {J}ava System",
+  journal      = cs,
+  year         = 1996,
+  volume       = 9,
+  number       = 4,
+  pages        = "291--312",
+  month        = "Fall",
+  keywords     = "object model, object streams, object state",
+  abstract     = "The Java system (hereafter referred to simply as Java)
+    inherently supports the transmission of stateless computation in the form
+    of object classes.In this paper we address the related task of capturing
+    the state of a Java object in a serialized form for the purposes of
+    transmission or storage, to be used later in reconstituting an equivalent
+    object.  This is accomplished by a mechanism known as pickling [Binel et
+    al. 1987; Binell et al. 1994; Herlihy & Liskov 19821.  Pickling is the
+    process of creating a serialized representation of objects.  Pickling
+    defines the serialized form to include meta information that identifies the
+    type of each object and the relationships between objects within a stream.
+    Values and types are serialized with enough information to insure that the
+    equivalent typed object and the objects to which it refers can be
+    recreated.  Unpickling is the complementary process of recreating objects
+    from the serialized representation.  Pickling and unpickling extract from
+    the Java Virtual machine, at runtime, any meta information needed to pickle
+    the fields of objects.  Class specific methods are only required to
+    customize the pickling process.", 
+  location     = "http://www.usenix.org/publications/compsystems/1996/fall_riggs.pdf"
+}
+
+@Article{ssidal ,
+  author       = "Mick Bauer",
+  title        = "Stealthful Sniffing, Intrusion Detection and Logging",
+  journal      = lj,
+  year         = 2002,
+  number       = 102,
+  pages        = "34--40",
+  month        = oct,
+  keywords     = "stealth logging, snort, intrusion detection",
+  location     = "http://www.linuxjournal.com/article/6222"
+}
+
+@Article{ldsm,
+  author       = "Miroslaw Zakrezewski and Ibrahim Haddad",
+  title        = "Linux Distributed Security Module",
+  journal      = lj,
+  year         = 2002,
+  number       = 102,
+  pages        = "20--28",
+  month        = oct,
+  keywords     = "mandatory access control, linux security module, distributed
+    security, access control",
+  abstract     = "Traditionally, the telecom industry has used clusters to 
+    meet its carrier-grade requirements of high availability, reliability and
+    scalability, while relying on cost-effective hardware and software.
+    Efficient cluster security is now an essential requirement that has not yet
+    been addressed in a coherent fashion.",
+  location     = "http://www.linuxjournal.com/article/6215"
+}
+
+@Article{aetpladslacs,
+  author       = "Don Batory and Clay Johnson and Bob MacDonald and Dale {von Heeder}",
+  title        = "Achieving Extensibility Through Product-Lines and Domain-Specific Languages: {A} Case Study",
+  journal      = tosem,
+  year         = 2002,
+  volume       = 11,
+  number       = 2,
+  pages        = "191--214",
+  month        = apr,
+  keywords     = "genvoca, domain-specific languages, simulation, aspects,
+    refinements, software development, software design",
+  abstract     = "This is a case study in the use of product-line architectures
+    (PLAs) and domain-specific languages (DSLs) to design an extensible
+    command-and-control simulator for Army fire support.  The reusable
+    components of our PLA are layers or aspects whose addition or removal
+    simultaneously impacts the source code of multiple objects in multiple,
+    distributed programs.  The complexity of our component specifications is
+    substantially reduced by using a DSL for defining and refining state
+    machines, abstractions that are fundamental to simulators.  We present
+    preliminary results that show how our PLA and DSL synergistically produce a
+    more flexible way of implementing state-machine-based simulators than is
+    possible with a pure Java implementation.", 
+  location     = "http://dx.doi.org/10.1145/505145.505147"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
