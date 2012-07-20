@@ -7780,6 +7780,37 @@
   location     = "http://dx.doi.org/10.1145/505145.505147"
 }
 
+@Article{satecwpwaw,
+  author       = "Wayne~A. Thorp",
+  title        = "Stocks and the Economic Cycle: What Performs Well---and When",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 7,
+  pages        = "8--13",
+  month        = aug,
+  keywords     = "business cycle, recessions, expansions, sector rotation",
+  abstract     = "While stocks as a whole move in advance of the economy,
+    specific sectors have different relative performance throughout the
+    economic cycle.",
+  location     = "http://www.aaii.com/journal/article/stocks-and-the-economic-cycle-what-performs-well-and-when"
+}
+
+@Article{tt1eiwtwaw,
+  author       = "AAII Staff",
+  title        = "The Top 10 Economic Indicators: What to Watch and Why",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 7,
+  pages        = "14--17",
+  month        = aug,
+  keywords     = "gdb, money supply, cpi, ppi, ces, housing starts,
+    inventories, stock indices",
+  abstract     = "",
+  location     = "http://www.aaii.com/journal/article/the-top-10-economic-indicators-what-to-watch-and-why"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
