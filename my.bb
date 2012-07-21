@@ -7811,6 +7811,57 @@
   location     = "http://www.aaii.com/journal/article/the-top-10-economic-indicators-what-to-watch-and-why"
 }
 
+@Article{aslptssspimm,
+  author       = "John Bajkowski",
+  title        = "{AAII}'s Low Price-to-Sales Screen: Strong Performer in Mixed Market",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 8,
+  pages        = "3--5",
+  month        = sep,
+  keywords     = "stock analysis, screens",
+  abstract     = "Screening provides a disciplined aproach to selecting stocks
+    that match up with one's investment philosophy. However, it's a first step
+    in the stock selection process and should be followed up with in-dpeth
+    company analysis.",
+  location     = "http://www.aaii.com/journal/article/aaii-s-low-price-to-sales-screen-strong-performer-in-mixed-market"
+}
+
+@Article{awiabmboabmc,
+  author       = "Mark Hulbert",
+  title        = "Are We in a Bull Market Beginning or a Bear Market Correction?",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 8,
+  pages        = "6--7",
+  month        = sep,
+  keywords     = "market status, ",
+  abstract     = "Since March 2003, small-cap growth stocks have outperformed
+    small-cap value stocks. This is more reminiscent of the speculative
+    behavior prior to major market tops than the beginning of a new bull
+    market.", 
+  location     = "http://www.aaii.com/journal/article/are-we-in-a-bull-market-beginning-or-a-bear-market-correction-"
+}
+
+@Article{nfasgosafs,
+  author       = "James~B. Cloonan",
+  title        = "New From {AAII}: Specific Guidance on Stock and Fund Selection",
+  journal      = aaiij,
+  year         = 2003,
+  volume       = 25,
+  number       = 8,
+  pages        = "54--56",
+  month        = sep,
+  keywords     = "shadow stocks, portfolios, stock selection",
+  abstract     = "AAII Chairman Jim Cloonan expands coverage of the model stock
+    portfolio and constructs a model mutual fund portfolio. Both share the same
+    philosophy:  consistency, risk control and selections that are best for
+    individuals rather than institutions.",
+  location     = "http://www.aaii.com/journal/article/new-from-aaii-specific-guidance-on-stock-and-fund-selection"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
