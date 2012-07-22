@@ -7862,6 +7862,84 @@
   location     = "http://www.aaii.com/journal/article/new-from-aaii-specific-guidance-on-stock-and-fund-selection"
 }
 
+@Article{pfws,
+  author       = "Jeremy Garcia",
+  title        = "Port Forwarding with {SSH}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = 12,
+  month        = nov,
+  keywords     = "ssh, port forwarding, security",
+  abstract     = "If you've administered any remote Linux machines then you are
+    already familiar with SSH, but you might not know that you can use SSH for
+    much more than just connecting to a shell on a remote system.  By using
+    SSH's port forwarding features, you can set up encrypted tunnels for many
+    services, or connect to systems behind a firewall from home.", 
+  location     = "http://www.linux-mag.com/id/5104/"
+}
+
+@Article{bcfwpt,
+  author       = "Jerry Peek",
+  title        = "Boot Camp For Wizards, Part Three",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "16--18",
+  month        = nov,
+  keywords     = "file descriptors, file redirection, filenames, named pipes",
+  abstract     = "This month, more about using open files from a shell:
+    manipulating file descriptors, using named pipes (FIFOs), as well as why
+    you would (and wouldn't) want a file without a name.",
+  location     = "http://www.linux-mag.com/id/5103"
+}
+
+@Article{gitk,
+  author       = "Arjan {van de Ven}",
+  title        = "Graphics Into the Kernel?",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "20, 52",
+  month        = nov,
+  keywords     = "x, graphics drivers, os design",
+  abstract     = "Whether or not the graphics subsystem is part of the 
+    operating system's kernel or not is highly controversial, and popular
+    opinion seems to change over time.  For example, a certain other major OS
+    has had graphics in, and then out of, the kernel several times now.", 
+  location     = "http://www.linux-mag.com/id/4825/"
+}
+
+@Article{itdah,
+  author       = "Alan Holt",
+  title        = "Introduction to {DCCP}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "34--37, 53",
+  month        = nov,
+  keywords     = "tcp, udp, congestion control, dccp "
+}
+
+@Article{itpd,
+  author       = "Matthew Wilson",
+  title        = "Introduction to {P}ython Decorators",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "46--52",
+  month        = nov,
+  keywords     = "python, metaprogramming, decorators, wrappers",
+  abstract     = "Have a web app that occasionally hangs? Use signals to add a
+    timeout to function requests with Python decorators.",
+  location     = "http://www.linux-mag.com/id/5377/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
