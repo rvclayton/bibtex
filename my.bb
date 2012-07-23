@@ -7940,6 +7940,111 @@
   location     = "http://www.linux-mag.com/id/5377/"
 }
 
+@Article{v1br,
+  author       = "Benjamin Rudolph",
+  title        = "Virtualization 101",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "10--11",
+  month        = dec,
+  keywords     = "paravirtualization, emulation, hardware",
+  abstract     = "Being technical, you're probably eager to jump into the how
+    of virt.  But let's take a step back for a minute and look at just what
+    this technology is.",
+  location     = "http://www.linux-mag.com/id/5508/"
+}
+
+@Article{bcfwpf,
+  author       = "Jerry Peek",
+  title        = "Boot Camp for Wizards, Part Four",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "18--19, 52",
+  month        = dec,
+  keywords     = "process management, ps, terminals, ",
+  location     = "http://www.jpeek.com/articles/linuxmag/0712.pdf"
+}
+
+@Article{eolw,
+  author       = "Arjan {van de Ven}",
+  title        = "Evolution of {L}inux Wireless",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "20--21",
+  month        = nov,
+  keywords     = "hardmac, softmac, wireless"
+}
+
+@Article{eswpk,
+  author       = "Khurram Shiraz",
+  title        = "Enhance Security with Port Knocking",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "30--32",
+  month        = dec,
+  keywords     = "security, port knocking, firewalls, ",
+  abstract     = "The author of All I Really Need to Know I Learned in 
+    Kindergarten left out (at least) one important lesson: Secret knocks are
+    really, really useful.  As kids, we'd use secret knocks to keep
+    undesirables (the kids we didn't like) out of our clubs or rooms.  As
+    system administrators, we can use secret knocks to protect our systems from
+    crackers.",
+  location     = "http://www.linux-mag.com/id/5445/"
+}
+
+@Article{oflrws,
+  author       = "Roderick W. Smith",
+  title        = "{OCR} for {L}inux",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "38--40",
+  month        = dec,
+  keywords     = "ocr software, ocr scanners",
+  abstract     = "Rod Smith covers the optical character recognition (OCR)
+    options for Linux, their limitations, and how to install and use Tesseract
+    for your OCR needs on Linux.",
+  location     = "http://www.linux-mag.com/id/5320/"
+}
+
+@Article{stfynkyh,
+  author       = "Jeffrey~B. Layton",
+  title        = "strace --- The Friend You Never Knew You Had",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "42--43, 52",
+  month        = dec,
+  keywords     = "output analysis, timing analysis",
+  abstract     = "While strace is often used for troubleshooting and debugging,
+    you can also use strace to get started on examining the I/O pattern of your
+    serial codes.",
+  location     = "http://www.linux-mag.com/id/5509/"
+}
+
+@Article{ttpoow20dwgwt,
+  author       = "Sumit Chandel",
+  title        = "Taking the Pain Out of {W}eb 2.0 Development with {G}oogle {W}eb {T}oolkit",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 11,
+  pages        = "44--51",
+  month        = dec,
+  keywords     = "gwt, web development, ajax, java, cross compilation, ui
+    layout" 
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
