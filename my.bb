@@ -8045,6 +8045,52 @@
     layout" 
 }
 
+@Article{wbcps,
+  author       = "Jerry Peek",
+  title        = "Wizard  Boot Camp, Part Seven",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 3,
+  pages        = "18--21",
+  month        = mar,
+  keywords     = "/proc, psuedo file systems",
+  abstract     = "Digging into the dark corners of /proc pseudo-filesystem to 
+    wrap up our discussion of Linux processes.",
+  location     = "http://www.linux-mag.com/id/6458/"
+}
+
+@Article{cisoodd,
+  author       = "Alan Holt",
+  title        = "Controlling Input\slash Output of Device Drivers",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 3,
+  pages        = "22--25",
+  month        = mar,
+  keywords     = "ioctl, system calls, network interfaces, wireless
+    interfaces", 
+  abstract     = "Hands-on tutorial for monitoring and configuring I/O for
+    network device drivers at the Kernel level.",
+  location     = "http://www.linux-mag.com/id/6206/"
+}
+
+@Article{tccpt,
+  author       = "Roderick~W. Smith",
+  title        = "Thin Client Computing, Part Two",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 3,
+  pages        = "44--45, 53",
+  month        = mar,
+  keywords     = "thin clients, tftp",
+  abstract     = "Now that our servers are in place, we walk through
+    configuring an x86 PC as a thin client workstation.",
+  location     = "http://www.linux-mag.com/id/6255/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
