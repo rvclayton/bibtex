@@ -424,6 +424,27 @@
   location     = "E 846.C37"
 }
 
+@Book{tgth1989,
+  author       = "Tony Hillerman",
+  title        = "Talking God",
+  publisher    = "Harper \& Row",
+  year         = 1989,
+  address      = nyny,
+  keywords     = "murrdaar, patsies",
+  location     = "PS 3558.I45 T35"
+}
+
+@Book{tcocs,
+  author       = "Joseph~A. Tainter",
+  title        = "The Collapse of Complex Socities",
+  publisher      = cup,
+  year         = 1988,
+  month        = cen,
+  keywords     = "complex societies, collapse theory, archaeology, economics,
+    roman empire, mayan civilization, chacoan civilization",
+  location     = "CB 311 T245"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
