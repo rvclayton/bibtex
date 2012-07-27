@@ -9331,7 +9331,6 @@
   volume       = 18,
   number       = 1,
   pages        = "1-16",
-  OPTmonth     = "",
   keywords     = "",
   location     = "http://csr.uvic.ca/~nigelh/Publications/rad.ps.gz"
 }
@@ -9340,12 +9339,16 @@
   author       = "Kruseman Aretz, F. E. J.",
   title        = "On a Recursive Ascent Parser",
   journal      = ipl,
-  year         = 1998,
+  year         = 1988,
   volume       = 29,
-  number       = "",
+  number       = 4,
   pages        = "201--206",
   month        = "",
-  keywords     = "",
+  keywords     = "recursive parsing, bottom-up parsing",
+  abstract     = "A recursive parsing algorithm is presented which is the
+    analogue to a bottom-up parsing strategy of what is the recursive descent
+    parsing algorithm to a top-down parsing strategy.",
+  location     = "http://dx.doi.org/10.1016/0020-0190(88)90061-0",
   location     = "QA 76.I47"
 }
 
