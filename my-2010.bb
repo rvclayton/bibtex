@@ -1461,14 +1461,14 @@
   location     = "TK 5101.A1.I35"
 }
 
-@Article{pc,
+@Article{pcpeg,
   author       = "P. E. {Green, Jr.}",
   title        = "Protocol Conversion",
-  journal      = tocomm,
+  journal      = ieeetoc,
   year         = 1986,
   volume       = 34,
   number       = 4,
-  pages        = "",
+  pages        = "257--268",
   month        = mar,
   keywords     = ""
 }
