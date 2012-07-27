@@ -8112,6 +8112,133 @@
   location     = "http://www.linux-mag.com/id/6255/"
 }
 
+@Article{pcphm,
+  author       = "Per Harald Myrvang",
+  title        = "Parameterized Communication",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "22--26",
+  month        = oct,
+  keywords     = "secruity, reflection, introspection",
+  abstract     = "Obol is a Lisp-like, domain-specific language for testing and
+    experimenting with when constructing and using security protocols in real
+    systems.", 
+  location     = "http://www.drdobbs.com/security/192503712"
+}
+
+@Article{jcacm,
+  author       = "Snezana Sucurovic and Zoran Jovanovic",
+  title        = "Java Cryptography \& Attribute Certificate Management",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "28--34",
+  month        = oct,
+  keywords     = "cryptography, x.509, ",
+  abstract     = "Since Java doesn't support attribute certificate generation
+    and management, our authors built a provider called IMPCS that does.",
+  location     = "http://www.drdobbs.com/jvm/java-cryptography-attribute-certificate/192600528"
+}
+
+@Article{tsaf,
+  author       = "Arnon Rotem-Gal-Oz",
+  title        = "The {SPAMMED} Architecture Framework",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "39--44",
+  month        = oct,
+  keywords     = "quality attributes, technology maps, evaluation",
+  abstract     = "The SPAMMED Architecture Framework Arnon presents here helps
+    you identify the steps and activities you need to design, model, and build
+    successful architectures.",
+  location     = "http://www.drdobbs.com/architecture-and-design/the-spammed-architecture-framework/192600570"
+}
+
+@Article{arldph,
+  author       = "David Perelman-Hall",
+  title        = "{AJAX} \& Record Locking",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "45--51",
+  month        = oct,
+  keywords     = "server-side components, client-side components",
+  abstract     = "David Perelman-Hall presents a client-based technique for
+    record locking of multiuser data-driven web applications--and it all hinges
+    on AJAX.", 
+  location     = "http://www.drdobbs.com/web-development/ajax-record-locking/192700218"
+}
+
+@Article{bedf,
+  author       = "Mark Ramsay",
+  title        = "Building Extensible Development Frameworks",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "53--57",
+  month        = oct,
+  keywords     = "user-interface service, ",
+  abstract     = "When development teams work independently, third-party
+    components like CodeJock's User Interface controls provide one way of
+    encouraging code reuse.",
+  location     = "http://www.drdobbs.com/article/print?articleId=192700231&dept_url=/cpp/"
+}
+
+@Article{arjd,
+  author       = "Joe Duffy",
+  title        = "Application Responsiveness",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "59--62",
+  month        = oct,
+  keywords     = "gui events, platform mitigations",
+  abstract     = "A responsive UI is a happy UI. It’s snappy, responds to input
+    promptly, and doesn't leave users hanging. But that's easier said than
+    done.",
+  location     = "http://www.drdobbs.com/windows/application-responsiveness/192700235"
+}
+
+@Article{itva,
+  author       = "Mark Mitchell",
+  title        = "Inside the {VSIPL}++ {API}",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "63--69",
+  month        = oct,
+  keywords     = "computation, performance, parallel computation",
+  abstract     = "VSIPL++ is a C++ API for high-performance computing. One
+    unique feature of it is that it includes direct support for parallel
+    applications.",
+  location     = "http://www.drdobbs.com/cpp/inside-the-vsipl-api/192501827"
+}
+
+@Article{iospb,
+  author       = "Pete Becker",
+  title        = "Illusions of Safety",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 10,
+  pages        = "71--75",
+  month        = oct,
+  keywords     = "buffer overruns",
+  abstract     = "Buffer overruns—just maybe C's biggest bugaboo. Luckily, TR
+    24731 addresses the problem so that you can write fast, robust, and correct
+    applications.",
+  location     = "http://www.drdobbs.com/cpp/illusions-of-safety/192700250"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
