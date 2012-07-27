@@ -326,6 +326,7 @@ access control in collaborative systems : tolone
 ace a syntax driven c preprocessor : gosling
 ace building interactive graphical applications : johnson
 achieving efficiency and portability in systems software a case study on posix} compliant multithreaded programs : shinjo
+achieving extensibility through product-lines and domain-specific languages a case study : batory
 achieving software quality with testing coverage measures : horgan
 acid manual : winterbottom
 acm programming contest problems : anon
@@ -2136,6 +2137,7 @@ philosophies for enginerring computer based systems : lawson
 pi a pattern language : kudrjavets
 pi rpc a platform independent remote procedure call architecture : ray
 piccolo : piccolo
+pickling state in the java system : riggs
 pictorial data base systems : chang
 pictorial information processing of landstat data for geographic analysis : zobrist
 picture query languages for pictorial data base systems : chang
