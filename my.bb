@@ -445,6 +445,16 @@
   location     = "CB 311 T245"
 }
 
+@Book{wlmtw,
+  author       = "Tim Wise",
+  title        = "White Like Me",
+  publisher    = "Soft Skull Press",
+  year         = 2008,
+  address      = nyny,
+  keywords     = "racism, white privilege, american culture, race relations",
+  location     = "E 185.615.W565"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -8239,6 +8249,86 @@
   location     = "http://www.drdobbs.com/cpp/illusions-of-safety/192700250"
 }
 
+@Article{wbcpsix,
+  author       = "Jerry Peek",
+  title        = "Wizard Boot Camp, Part Six",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 2,
+  pages        = "12--13, 52--53",
+  month        = feb,
+  keywords     = "daemons, shell scripts, subshell suspension",
+  abstract     = "More about processes and signals: writing daemons, suspending
+    subshells.", 
+  location     = "http://www.linux-mag.com/id/5981/"
+}
+
+@Article{mtikusab,
+  author       = "Anas Sharif",
+  title        = "Manageability Technologies In Kernel, User Space, and Beyond",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 2,
+  pages        = "14--15, 53",
+  month        = feb,
+  keywords     = "out-of-band management, in-band access, common data model",
+  abstract     = "Managing a Linux system can be as easy as connecting to a 
+    remote system and run some of the system tool available with most Linux
+    distributions.  It gets difficult when you have to manage multiple remote
+    systems, and many Linux admins do work in environments with hundreds or
+    even thousands of systems.",
+  location     = "http://www.linux-mag.com/id/4671"
+}
+
+@Article{tccpo,
+  author       = "Roderick~W. Smith",
+  title        = "Thin Client Computing, Part One",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 2,
+  pages        = "34--37",
+  month        = feb,
+  keywords     = "dhcp, servers, tftp, x, xdmcp, vnc",
+  abstract     = "Thin clients offer an approach to computing with a number of 
+    advantages over the more common desktop computer approach.  Learn how to
+    enable it.",
+  location     = "http://www.linux-mag.com/id/6207/"
+}
+
+@Article{usffap,
+  author       = "Jeffrey~B. Layton",
+  title        = "Using {strace} for Fun and Profit",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 2,
+  pages        = "38--39, 55",
+  month        = feb,
+  keywords     = "strace, system calls",
+  abstract     = "New tool for taking the output from strace_analyzer and
+    creating a simulation of the I/O pattern of your code on different storage
+    hardware and file systems.",
+  location     = "http://www.linux-mag.com/id/6711/"
+}
+
+@Article{ttpoow20dwgwti,
+  author       = "Sumit Chandel",
+  title        = "Taking the Pain Out of {Web} 2.0 Development with {Google Web Toolkit {II}}",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 2,
+  pages        = "40--50",
+  month        = feb,
+  keywords     = "gwt, client-server, web development, rpc, struts, spring
+   mvc", 
+  abstract     = "",
+  location     = ""
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
@@ -8419,5 +8509,23 @@
     set of useful implementation techniques.  Distribution of this memo is
     unlimited.",
   location     = "http://www.ietf.org/rfc/rfc1071.txt"
+}
+
+@TechReport{tpal,
+  author       = "Leslie Lamport",
+  title        = "The {PlusCal} Algorithm Language",
+  institution  = "Microsoft Research",
+  year         = 2009,
+  month        = jan,
+  keywords     = "tla+, model checking, algorithm description language",
+  abstract     = "Algorithms are different from programs and should not be 
+    described with programming languages.  The only simple alternative to
+    programming languages has been pseudo-code.  PlusCal is an algorithm
+    language that can be used right now to replace pseudo-code, for both
+    sequential and concurrent algorithms.  It is based on the TLA+
+    specification language, and a PlusCal algorithm is automatically translated
+    to a TLA+ specification that can be checked with the TLC model checker and
+    reasoned about formally.", 
+  location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/pluscal.pdf"
 }
 
