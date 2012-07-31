@@ -8324,9 +8324,355 @@
   pages        = "40--50",
   month        = feb,
   keywords     = "gwt, client-server, web development, rpc, struts, spring
-   mvc", 
-  abstract     = "",
-  location     = ""
+   mvc" 
+}
+
+@Article{talaoacfs,
+  author       = "Jeremy Garcia",
+  title        = "Taking a Look at {OCFS2}, a Clustering File System",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 4,
+  pages        = "16--17",
+  month        = apr,
+  keywords     = "file system"
+}
+
+@Article{wbcpe,
+  author       = "Jerry Peek",
+  title        = "Wizard Boot Camp, Part Eight",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 4,
+  pages        = "22--24",
+  month        = apr,
+  keywords     = "cat, echo, date, touch, grep, gzip, bzip2",
+  abstract     = "Before you reach for that scripting language, make sure
+    you're making the most of the shell utilities that you have at your
+    fingertips!",
+  location     = "http://www.linux-mag.com/id/6657/"
+}
+
+@Article{uzcs,
+  author       = "Cindy Swearingen",
+  title        = "Using {ZFS}",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 4,
+  pages        = "34--36",
+  month        = apr,
+  keywords     = "storage pools, mirroring, hot spares"
+}
+
+@Article{rtesb,
+  author       = "Paul Fremantle",
+  title        = "Ride the Enterprise Service Bus",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 8,
+  pages        = "38--40",
+  month        = apr,
+  keywords     = "request logging, "
+}
+
+@Article{mtpc,
+  author       = "Jeffrey~B. Layton",
+  title        = "Meeting the Petabyte Challange",
+  journal      = lmag,
+  year         = 2008,
+  volume       = 10,
+  number       = 4,
+  pages        = "42--47, 52--53",
+  month        = apr,
+  keywords     = "storage technology, massive storage"
+}
+
+@Article{rtdd,
+  author       = "Linda Briggs and Kari Boyd McBride",
+  title        = "Rethinking the Digital Divide",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "108,106--107",
+  month        = oct,
+  keywords     = "teaching, netizens, brazil",
+  abstract     = "In our search for transgressive models of distance 
+    education, we found inspiration in the Web-back performance pieces of
+    Guillermo Gomez-Penia (1997), the production of virtual favelas in Brazil,
+    and rural education models from the Philippines and Malaysia.  As we
+    thought in particular about our desire to reach Native American
+    reservations and Mexican-American border towns in the US Southwest, we
+    asked how these various Third World projects profile and recruit their
+    students and what models of virtual education and empowerment they
+    create.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039527"
+}
+
+@Article{ttpsds ,
+  author       = "Andrew ``bunnie'' Huang",
+  title        = "The Trusted {PC}: Skin-Deep Security",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "103--105",
+  month        = oct,
+  keywords     = "sealed storage, security, spam, spios, interoperability,
+    guarded tags, data tags",
+  abstract     = "Current efforts to secure the PCs traditionally open
+    architecture will give consumers two unattractive choices: They will either
+    have to pay a huge premium for an unwieldy system that employs impenetrable
+    membranes, encrypted buses, and tamper-resistant memory, or they will have
+    to settle for an inferior solution that fails to thwart dishonest users and
+    limits the ability to backup data and interoperate with third-party
+    software.  Investing in proven architectural improvements such as guarded
+    pointers and data tags is a more cost-effective and long-overdue
+    alternative.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039525"
+}
+
+@Article{ttmi ,
+  author       = "Josef~F. Huber",
+  title        = "Toward the Mobile Internet",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "100--102",
+  month        = oct,
+  keywords     = "infrastructure evolution, future services",
+  abstract     = "The promise of ubiquitous computing is a future in which
+    highly specialized, embedded computing devices operate seamlessly within
+    the everyday environment and are transparent to users.  Realizing this
+    vision will require next-generation networks to support mobile multimedia
+    devices with capabilities well beyond those of today's handsets.  These
+    networks will exploit wideband radio access technologies and IP-based
+    protocols to provide IP transparency-all network elements support IP;
+    mobility management for a globally networked environment; unique addressing
+    for every user; personalization of information; positioning to enable
+    location-dependent services; and end-to-end security.  Such functionality
+    requires more than providing wireless Internet access and e-mail.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039524"
+}
+
+@Article{tcgwhu ,
+  author       = "Michael Macedonia",
+  title        = "The Computer Graphics Wars Heat Up",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "97--99",
+  month        = oct,
+  keywords     = "console games, graphics cards, nvidia",
+  abstract     = "The author describes the present status of computer graphics
+    hardware.  While console games flourished, PC game sales have plummeted.
+    The plans of Nvidia and ATI, the 3D graphics world's two dominant players
+    are described.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039523"
+}
+
+@Article{dsddtcot ,
+  author       = "Samitha Samaranayake and Nodari Sitchinava and Rohit Kapur
+    and Minesh~B. Amin and Thomas~W. Williams",
+  title        = "Dynamic Scan: Driving Down the Cost of Test",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "63--68",
+  month        = oct,
+  keywords     = "current scan tests, scan segments",
+  abstract     = "Two factors primarily drive the soaring cost of semiconductor
+    test: the number of test patterns applied to each chip and the time it
+    takes to run each pattern.  Typical semiconductor testing for each chip
+    involves a set of1,000 to 5,000 test patterns.  These tests are applied
+    through scan chains that operate at about 25 MHz.  Depending in the size of
+    the scan chains on the chip, a set of test patterns can take a few seconds
+    to execute per chip.  It's easy to see that even a small decrease in either
+    the number of patterns or the time to execute them can quickly add up to
+    big savings across millions of fabricated chips.  This potential savings
+    forms the basis for dynamic scan, a new approach to the well-established
+    scan test methodology.  The authors' initial studies indicate that dynamic
+    scan could easily reduce the time spent applying test patterns by 40
+    percent.  A more theoretical analysis shows a potential savings of as much
+    as 80 percent.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039519"
+}
+
+@Article{dosisn ,
+  author       = "Anthony~D. Wood and John~A. Stankovic",
+  title        = "Denial of Service in Sensor Networks",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "54--62",
+  month        = oct,
+  keywords     = "dos, jamming, tampering, collision, exhaustion, unfairness,
+    homing, misdirection, black holes, authorization, monitoring, probing,
+    redundancy, flooding, desynchronization, adaptive rate control, ",
+  abstract     = "Sensor networks hold the promise of facilitating large-scale,
+    real-time data processing in complex environments, environments, helping to
+    protect and monitor military, environmental, safety-critical, or domestic
+    infrastructures and resources.  Denial-of-service attacks against such
+    networks, however, may permit real world damage to public health and
+    safety.  Without proper security mechanisms, networks will be confined to
+    limited, controlled environments, negating much of the promise they hold.
+    The limited ability of individual sensor nodes to thwart failure or attack
+    makes ensuring network availability more difficult.  To identify
+    denial-of-service vulnerabilities, the authors analyzed two effective
+    sensor network protocols that did not initially consider security.  These
+    examples demonstrate that consideration of security at design time is the
+    best way to ensure successful network deployment.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039518"
+}
+
+@Article{rslac ,
+  author       = "Suman Banerjee and Sulabh Agarwal and Kevin Kamel and Andrzej
+    Kochut and Christopher Kommareddy and Tamer Nadeem and Pankaj Thakkar and
+    Bao Trinh and Adel Youssef and Moustafa Youssef and Ronald~L. Larsen and
+    A.~Udaya Shankar and Ashok Agrawala", 
+  title        = "Rover: Scalable Location-Aware Computing",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "46--53",
+  month        = oct,
+  keywords     = "scalability, action model, communication interfaces, initial
+    implementation", 
+  abstract     = "All the components necessary for realizing location-aware
+    computing are available in the marketplace today.  What has hindered the
+    widespread deployment of location-based systems is the lack of an
+    integration architecture that scales with user populations.  The authors
+    have completed the initial implementation of Rover, a system designed to
+    achieve this sort of integration and to automatically tailor information
+    and services to a mobile user's location.  Their studies have validated
+    Rover's underlying software architecture, which achieves system scalability
+    through high resolution,application-specific resource scheduling at the
+    servers and network.  The authors believe that this technology will greatly
+    enhance the user experience in many places, including museums, amusement
+    and theme parks, shopping malls,game fields, offices, and business centers.
+    They designed the system specifically to scale to large user populations
+    and expect its benefits to increase with them.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039517"
+}
+
+@Article{wiuvsid ,
+  author       = "Bill~N. Schilit and Jonathan Trevor and David~M. Hilbert and
+    Tzu Khiau Koh", 
+  title        = "Web Interaction Using Very Small Internet Devices",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "37--45",
+  month        = oct,
+  keywords     = "m-links, mobile services",
+  abstract     = "Internet-enabled cell phones typically accommodate only three
+    to 12 text lines, and their design emphasizes portability.  Web interaction
+    has, so far, been a secondary concern.  For the most part, automated
+    techniques to address the feature gap between the desktop and these phone
+    tops rely on the notion of transducing--translating HTML and images into
+    formats compatible with small devices, which typically cannot handle HTML
+    content.  The authors have developed a Web browsing model that supports
+    navigation and action in separate interfaces.  To demonstrate the model,
+    they created m-Links, a middleware proxy system that retrieves Web
+    documents using HTTP,lets users navigate and apply services to Web content,
+    and delivers a suitable user interface to a variety of small Web-capable
+    wireless devices.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039516"
+}
+
+@Article{teodr ,
+  author       = "Ravi Kalakota and Pavan Gundepudi and Jonathan Wareham and
+    Arun Rai and Richard Welke",
+  title        = "The Economics of {DSL} Regulation",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 10,
+  pages        = "29--36",
+  month        = oct,
+  keywords     = "telecommunications act of 1996, dsl market, last mile, market
+    behavior",
+  abstract     = "Despite a growing demand for high-speed Internet and network
+    access in the US broadband market, many digital-subscriber-line companies
+    are downsizing, scaling back service, or closing their doors altogether.
+    More importantly,upstart independent DSL provider shave gone to war with
+    the Baby Bells,alleging that they have purposely accelerated the shakeout
+    of start-up companies by exploiting all DSL providers' dependence on the
+    last-mile network infrastructure that the Baby Bells provide.  Separating
+    the economic interests of incumbent exchange carriers and their affiliates
+    will ultimately serve consumers best.  An open market for DSL access run
+    exclusively by the Baby Bells would avoid existing distortions and let
+    regulation focus on encouraging the regional Bell operating companies to
+    provide access to underrepresented areas where investment would otherwise
+    be unjustified.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1039515"
+}
+
+@Article{acotpfdsm,
+  author       = "Willem~G. Levelt and M.~Frans Kaashoek and Henri~E. Bal and
+    Andrew~S. Tannenbaum",
+  title        = "{A} Comparison of two Paradigms for Distributed Shared Memory",
+  journal      = spe,
+  year         = 1992,
+  volume       = 22,
+  number       = 11,
+  pages        = "985--1010",
+  month        = nov,
+  keywords     = "amoeba, distributed shared memory, distributed programming,
+    orca, shared-data objects, shared virtual memory",
+  abstract     = "This paper compares two paradigms for Distributed Shared
+    Memory on loosely coupled computing systems: the shared data-object model
+    as used in Orca, a programming language specially designed for loosely
+    coupled computing systems and the Shared Virtual Memory model.  For both
+    paradigms two systems are described, one using only point-to-point
+    messages, the other using broadcasting as well.  The two paradigms and
+    their implementations are described briefly.  Their performances on four
+    applications are compared: the traveling-salesman problem, alpha-beta
+    search, matrix multiplication and the all-pairs shortest paths problem.
+    The relevant measurements were obtained on a system consisting of 10
+    MC68020 processors connected by an Ethernet.  For comparison purposes, the
+    applications have also been run on a system with physical shared memory.
+    In addition, the paper gives measurements for the first two applications
+    above when Remote Procedure Call is used as the communication mechanism.
+    The measurements show that both paradigms can be used efficiently for
+    programming large-grain parallel applications, with significant speed-ups.
+    The structured shared data-object model achieves the highest speed-ups and
+    is easiest to program and to debug.", 
+  location     = "http://dx.doi.org/10.1002/spe.4380221105"
+}
+
+@Article{otfgcaeic,
+  author       = "Edsger~W. Dijkstra and Leslie Lamport and A.~J. Martin and
+    C.~S. Scholten and E.~F.~M. Steffens",
+  title        = "On-the-Fly Garbage Collection: An Exercise in Cooperation",
+  journal      = cacm,
+  year         = 1978,
+  volume       = 21,
+  number       = 11,
+  pages        = "966--975",
+  month        = nov,
+  keywords     = "concurrent garbage collection, white-grey-black,
+    multiprocessing, fine-grained interleaving, cooperation, sequential
+    processes, mutual exclusion, program correctness",
+  abstract     = "As an example of cooperation between sequential processes
+    with very little mutual interference despite frequent manipulations of a
+    large shared data space, a technique is developed which allows nearly all
+    of the activity needed for garbage detection and collection to be performed
+    by an additional processor operating concurrently with the processor
+    devoted to the computation proper.  Exclusion and synchronization
+    constraints have been kept as weak as could be achieved; the severe
+    complexities engendered by doing so are illustrated.", 
+  location     = "http://dx.doi.org/10.1145/359642.359655"
 }
 
 @Manual{tsotje,
