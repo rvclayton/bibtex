@@ -38,6 +38,7 @@ a comparison of four reverse engineering tools : bellay
 a comparison of microsofts c# programming language to sun microsystems java programming language : obasanjo
 a comparison of object modelling notations alloy uml and z : jackson
 a comparison of queueing cluster and distributed computing systems : kaplan
+a comparison of two paradigms for distributed shared memory : levelt
 a comparative study of language support for generic programming : garcia
 a compiler based approach to protocol optimization : castelluccia
 a compiler definition facility based on the syntatic macro : campbell
@@ -2010,6 +2011,7 @@ on the cruelty of teaching computer science : dijkstra
 on the development of reactive systems : harel
 on the effectiveness of the test-first approach to programming : erdogmus
 on the expressive power of z : baumann
+on the fly garbage collection an exercise in cooperation : dijkstra
 on the linearization of graphs and writing symbol files : griesemer
 on the optimality of cyclic transmission in teletext systems : ammar
 on the relative efficiencies of context free grammar recognizers : griffiths
