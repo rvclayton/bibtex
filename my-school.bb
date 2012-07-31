@@ -26139,8 +26139,31 @@
   number       = "95/7",
   address      = paca,
   month        = sep,
-  keywords     = "",
-  location     = "mail wrl-techreports@wrl.dec.com -s 'send postscript 95/7'"
+  keywords     = "memory semantics, sequential consistency, caches, relaxed
+    memory consistency, compilers, release consistency",
+  abstract     = "Parallel systems that support the shared memory abstraction
+    are becoming widely accepted in many areas of computing.  Writing correct
+    and efficient programs for such systems requires a formal specification of
+    memory semantics,called a memory consistency model.  The most intuitive
+    model---sequential consistency---greatly restricts the use of many
+    performance optimizations commonly used by uniprocessor hardware and
+    compiler designers, thereby reducing the benefit of using a multiprocessor.
+    To alleviate this problem, many current multiprocessors support more
+    relaxed consistency models.  Unfortunately, the models supported by various
+    systems differ from each other in subtle yet important ways.  Furthermore,
+    precisely defining the semantics of each model often leads to complex
+    specifications that are difficult to understand for typical users and
+    builders of computer systems.  The purpose of this tutorial paper is to
+    describe issues related to memory consistency models in a way that would be
+    understandable to most computer professionals.  We focus on consistency
+    models proposed for hardware-based shared-memory systems.  Many of these
+    models are originally specified with an emphasis on the system
+    optimizations they allow.  We retain the system-centric emphasis,but use
+    uniform and simple terminology to describe the different models.  We also
+    briefly discuss an alternate programmer-centric view that describes the
+    models in terms of program behavior rather than specific system
+    optimizations.", 
+  location     = "http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf"
 }
 
 @TechReport{pitpc,
