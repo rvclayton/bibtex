@@ -8778,6 +8778,89 @@
   location     = "http://www.linux-mag.com/id/7345/"
 }
 
+@Article{wsgp7,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Seven",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 4,
+  pages        = "12--17",
+  month        = apr,
+  keywords     = "unix commands, wc, diff, du, date, sed, touch",
+  abstract     = "Here’s the last in a series about new features of perennial
+    utilities.  This time: date, wc, du, and more.", 
+  location     = "http://www.jpeek.com/articles/linuxmag/2006-04/"
+}
+
+@Article{msf,
+  author       = "Sreekrishnan Venkateswaran",
+  title        = "Manipulating ``Seq'' files",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 4,
+  pages        = "26--32",
+  month        = apr,
+  keywords     = "procfs, seq files, nvram drivers, ",
+  abstract     = "The process file system is a window into the mystical
+    innards of the kernel.  The seq file interface simplifies the job of
+    process file creators.",
+  location     = "http://www.linux-mag.com/id/2739/"
+}
+
+@Article{gv3sfsgnw,
+  author       = "Pamela Jones",
+  title        = "{GPL} Version 3: So Far, So Good.  Now What?",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 4,
+  pages        = "34--38",
+  month        = apr,
+  keywords     = "licenses, termination, patent clauses, drafting, gpl v2",
+  abstract     = "For more than ten years, the GNU General Public License has
+    provided the legal foundation for much of what’s been accomplished with
+    free and open source software.  Now the license’s steward, the Free
+    Software Foundation, is revising the venerable document to comprehend the
+    complexities of developing and distributing open source software in the
+    modern day.  In this exclusive article, Groklaw founder and editor Pamela
+    Jones analyzes many of the proposed changes found in GPL Version 3 and
+    explains what’s in store for you if your name is Joe Coder.", 
+  location     = "http://www.linux-mag.com/id/2498/"
+}
+
+@Article{cynwo,
+  author       = "Paul Duncan",
+  title        = "Cast Your Net with {OpenVPN}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 4,
+  pages        = "40--49",
+  month        = apr,
+  keywords     = "authentication, public keys, certification, pki, security,
+    man in the middle, routing",
+  abstract     = "A virtual private network (VPN) extends the resources of your
+    local area network to telecommuter’s home, satellite offices, and far-flung
+    sales warriors.  OpenVPN is a fast, scalable, secure, and free VPN solution
+    for Linux.  And best of all, it’s easy to configure and deploy.  Here’s a
+    hands-on primer.",
+  location     = "http://www.linux-mag.com/id/2502/"
+}
+
+@Article{lmnw,
+  author       = "Conor Svensson",
+  title        = "Look, {Ma}, No Wires!",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 4,
+  pages        = "50--53",
+  month        = apr,
+  keywords     = "ndiswrapper, wireless networking"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
