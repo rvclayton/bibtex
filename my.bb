@@ -455,6 +455,26 @@
   location     = "E 185.615.W565"
 }
 
+@Book{ipornec,
+  author       = "Noble~E. {Cunningham, Jr.}",
+  title        = "In Pursuit of Reason",
+  publisher    = "Louisiana State University Press",
+  year         = 1987,
+  address      = "Baton Rouge, Louisiana",
+  keywords     = "jefferson, american revolution, republican politics",
+  location     = "E 332 C95"
+}
+
+@Book{1q84,
+  author       = "Haruki Murakami",
+  title        = "1Q84",
+  publisher    = "Knopf",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "twin worlds",
+  location     = "PL 856.U673 A61213"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -8673,6 +8693,89 @@
     constraints have been kept as weak as could be achieved; the severe
     complexities engendered by doing so are illustrated.", 
   location     = "http://dx.doi.org/10.1145/359642.359655"
+}
+
+@Article{fpravdv,
+  author       = "Arjan {van de Ven}",
+  title        = "Fighting Performance Regression",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 10,
+  pages        = "16--17",
+  month        = oct,
+  keywords     = "benchmarks, performance testing, kernel performance",
+  abstract     = "Arjan Van De Ven shines some light on the issues, projects,
+    and techniques that characterize kernel performance.",
+  location     = "http://www.linux-mag.com/id/4674/"
+}
+
+@Article{svkh,
+  author       = "Ken Hess",
+  title        = "{\tt sudo} Voodoo",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 10,
+  pages        = "18--19, 52",
+  month        = oct,
+  keywords     = "sudo, system management, security",
+  abstract     = "Using the root account for day-to-day work is a bad idea.
+    It's better to use sudo to act like root when you need to do a little
+    system administration.",
+  location     = "http://www.linux-mag.com/id/4824/"
+}
+
+@Article{prpclm,
+  author       = "Chromatic",
+  title        = "Programming Reusable {PIR}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 10,
+  pages        = "20--28, 55",
+  month        = oct,
+  keywords     = "subroutines, multi-dispatch, namespaces, code management",
+  abstract     = "PIR is Parrot's native programming language.  In this
+    conclusion of his series, chromatic presents a variety of techniques to
+    program and validate subroutines.  Learn how to create libraries and test
+    your code in this hands-on primer.", 
+  location     = "http://www.linux-mag.com/id/4561/"
+}
+
+@Article{lloo,
+  author       = "Martin Streicher",
+  title        = "Lua, {Lua}, Oh, Oh",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 10,
+  pages        = "36--40, 52",
+  month        = oct,
+  keywords     = "scripting, embedded languages, metatables",
+  abstract     = "Compiled programming languages and scripting languages each
+    have unique advantages, but what if you could use both to create rich
+    applications? Lua is an embeddable scripting language that is small, fast,
+    and very powerful.  Before you create yet another configuration file or
+    resource format (and yet another parser to accompany it), try Lua.", 
+  location     = "http://www.linux-mag.com/id/4678/"
+}
+
+@Article{njbllm,
+  author       = "Jeffrey B. Layton",
+  title        = "{NILFS}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 10,
+  pages        = "42--45",
+  month        = oct,
+  keywords     = "file systems, journaling file systems, checkpointing,
+    snapshots, garbage collection, ",
+  abstract     = "The 2.6.30 kernel is chock full of next-gen file systems.
+    One such example is NILFS, a new log-structured file system that
+    dramatically improves write performance.", 
+  location     = "http://www.linux-mag.com/id/7345/"
 }
 
 @Manual{tsotje,
