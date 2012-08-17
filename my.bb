@@ -9060,6 +9060,120 @@
   location     = "www.linux-mag.com/id/4404/"
 }
 
+@Article{rawd,
+  author       = "Jeremy Garcia",
+  title        = "Remote Administration with {\tt dsh}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "12",
+  month        = jul,
+  keywords     = "remote administration, dsh",
+  abstract     = "Discover dsh, a utility to run arbitrary commands on any 
+    number of remote machines.",
+  location     = "http://www.linux-mag.com/id/3926/"
+}
+
+@Article{dmwlpo,
+  author       = "Jerry Peek",
+  title        = "Doimg More with {\tt less}, Part One",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "16--18",
+  month        = jul,
+  keywords     = "text processing, text viewing",
+  abstract     = "Developer Mark Nudelman has been working on less since
+    version less-1, released in 1985.  This month, let's cover the Linux
+    version less-394 (yes, it's the 394th version), but you can also get less
+    for other operating systems, including Mac OS X and Microsoft Windows —
+    which makes it a great cross-platform choice for exploring files and
+    viewing data from pipes.", 
+  location     = "http://www.linux-mag.com/id/4145/"
+}
+
+@Article{rywwv,
+  author       = "Jason Perlow",
+  title        = "Run Your {Windows} with {VMWare}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "20--23",
+  month        = jul,
+  keywords     = "hardware profiles, virtual machines, ",
+  abstract     = "If you already have a Windows PC, you can install Linux and
+    run your existing Windows configuration as a virtual machine.  Jason Perlow
+    explains how to do it.", 
+  location     = "http://www.linux-mag.com/id/4150/"
+}
+
+@Article{moplk,
+  author       = "Luke Kanies",
+  title        = "Master of Puppet",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "24--28, 52",
+  month        = jul,
+  keywords     = "resources, customization, naming, templates, types, ",
+  abstract     = "Want to build a better network? Start by building better
+    administration tools.  Puppet aims to spark a new generation of monitoring
+    software.", 
+  location     = "http://www.linux-mag.com/id/4141/"
+}
+
+@Article{dhgayrn,
+  author       = "Reboert~G. Brown",
+  title        = "{DieHarder}: How Good are your Random Numbers?",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "30--34",
+  month        = jul,
+  keywords     = "nist, randomness tests, random number generators",
+  abstract     = "Simulations, games, encryption, and statistical analyses all
+    need random numbers.  But just how random is your random number generator?
+    DieHarder can help.", 
+  location     = "http://www.linux-mag.com/id/4125/"
+}
+
+@Article{kawetb,
+  author       = "Tarus Balog",
+  title        = "Keep a Watchful Eye",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "36--39, 51",
+  month        = jul,
+  keywords     = "events, notifications, opennms, xmpp, data collection
+    performance, ",
+  abstract     = "",
+  location     = ""
+}
+
+@Article{rmwarws,
+  author       = "Roderick~W. Smith",
+  title        = "Routine Maintenance with {\tt anacron}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "42--44",
+  month        = jul,
+  keywords     = "anacron, job scheduling, system admin",
+  abstract     = "While cron is the classic standby to run routine tasks on a 
+    regular basis, it's not quite as useful on systems (like laptops and
+    desktops) that may not be powered on when the task is scheduled to run.
+    Fortunately, Linux users have anacron to fill the gap left by cron.", 
+  location     = "http://www.linux-mag.com/id/4173/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
