@@ -475,6 +475,37 @@
   location     = "PL 856.U673 A61213"
 }
 
+@Book{gtmb,
+  author       = "Mark Blyth",
+  title        = "Great Transformations",
+  publisher    = cup,
+  year         = 2002,
+  address      = cen,
+  keywords     = "polanyi, institutional change, liberalism, united states,
+    sweden", 
+  location     = "JC 574.2 U6 B59"
+}
+
+@Book{twwth,
+  author       = "Tony Hillerman",
+  title        = "The Wailing Wind",
+  publisher    = "HarperCollins",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "murrdaar, the ol' double-cross",
+  location     = "PS 3558.I45 W34"
+}
+
+@Book{tote,
+  author       = "Christopher Hayes",
+  title        = "Twilight of the Elites",
+  publisher    = "Crown",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "meritocracy, moral hazards, classes, economic development",
+  location     = "HN 90.E4 H39"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -8859,6 +8890,174 @@
   pages        = "50--53",
   month        = apr,
   keywords     = "ndiswrapper, wireless networking"
+}
+
+@Article{motcl,
+  author       = "Scott Granneman",
+  title        = "Music on the Command Line",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 9,
+  pages        = 10,
+  month        = sep,
+  keywords     = "mp3 players, audio",
+  abstract     = "Remotely control your tunes with MPD and ncmpc.",
+  location     = "http://www.linux-mag.com/id/3855/"
+}
+
+@Article{wbcpo,
+  author       = "Jerry Peek",
+  title        = "Wizard Boot Camp: Part One",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 9,
+  pages        = "16--19",
+  month        = sep,
+  keywords     = "shell, command interpretation, shell expansion, quoting",
+  abstract     = "Here's the start of a series on little-known topics that
+    wizards should know.  Knowledge of the Harry Potter series not required.",
+  location     = "http://www.linux-mag.com/id/4038/"
+}
+
+@Article{srakh,
+  author       = "Kenneth Hess",
+  title        = "Secure Remote Access",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 9,
+  pages        = "24--26",
+  month        = sep,
+  keywords     = "ssh, x11 forwarding, vnc tunneling, remote connections",
+  abstract     = "Connecting to your home computer from work, a friend's house,
+    or while on vacation in another country is very simple — if you know how to
+    use a small handful of tools.  Ken Hess shows you how to connect securely
+    and tunnel traffic using SSH.",
+  location     = "http://www.linux-mag.com/id/4523/"
+}
+
+@Article{ppclmag,
+  author       = "chromatic",
+  title        = "Programming {PIR}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 9,
+  pages        = "32--37, 55",
+  month        = sep,
+  keywords     = "opcodes, registers, syntax, parrot, compilation units, mpcs,
+    subroutines",
+  abstract     = "Parrot is not just a virtual machine for running dynamic
+    languages; it also includes several tools for building dynamic languages,
+    including a grammars engine and a tree transformation system.  Currently,
+    all of these tools are available through PIR, Parrot's native programming
+    language.", 
+  location     = "http://www.linux-mag.com/id/4562/"
+}
+
+@Article{pfeadc,
+  author       = "Eric Allen and David Chase and Christine Flood and Victor
+    Luchangco and Jan-Willem Maessen and Sukyoung Ryu and Guy~L. {Steele Jr.}",
+  title        = "Project {F}ortress",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 9,
+  pages        = "38--43",
+  month        = sep,
+  keywords     = "high-performance computing, fortran, language design,
+    mathematical notation, type systems, ",
+  abstract     = "The world of multicore processing is coming soon, requiring
+    new languages and programming techniques to leverage it smoothly.  Fortress
+    could be our best hope for doing just that.",
+  location     = "http://www.linux-mag.com/id/4730/"
+}
+
+@Article{cdbsg,
+  author       = "Scott Granneman",
+  title        = "Comprehensive Desktop Backup",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 8,
+  pages        = "14",
+  month        = aug,
+  keywords     = "hard drives, mount points",
+  abstract     = "A few hard drives and rsync make a simple and effective
+    onsite backup system.  Scott Granneman shows you how to keep your desktop
+    data safe.",
+  location     = "http://www.linux-mag.com/id/4489/"
+}
+
+@Article{atopc,
+  author       = "chromatic",
+  title        = "{A} Tour of {P}arrot",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 8,
+  pages        = "26--30, 52",
+  month        = aug,
+  keywords     = "registers, magic cookies, compiler tools",
+  abstract     = "Besides serving as what is hoped to be an appropriate and 
+    effective platform for Perl 6 and other languages, Parrot is a grand
+    experiment.  Is there a better way to write a compiler than using the lex
+    and yacc model? Can languages interoperate at a deeper level than sharing a
+    set of calling conventions? Here are some answers.", 
+  location     = "http://www.linux-mag.com/id/4197/"
+}
+
+@Article{fptpjbl,
+  author       = "Jeffrey~B. Layton",
+  title        = "From Pixels to Peta{FLOPS}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 8,
+  pages        = "32--36",
+  month        = aug,
+  keywords     = "gups, performance, clusters",
+  abstract     = "Learn how graphics processing units are pushing the HPC
+    envelope.",
+  location     = "http://www.linux-mag.com/id/4543/"
+}
+
+@Article{fap,
+  author       = "Martin Streicher",
+  title        = "Flex and {PHP}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 8,
+  pages        = "38--41",
+  month        = aug,
+  keywords     = "web aplications, flex, ",
+  abstract     = "Flex and PHP builds highly-interactive, media-rich and
+    Internet-connected applications that can run in every Web browser. ",  
+  location     = "http://www.linux-mag.com/id/4062/"
+}
+
+@Article{tod,
+  author       = "Roderick~W. Smith",
+  title        = "The Other Desktop",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 8,
+  pages        = "42--45",
+  month        = aug,
+  keywords     = "xfce, desktops, x11, configuration, applets",
+  abstract     = "One of Linux's greatest strengths is that it's easily
+    customized.  Although most distributions ship with a variety of standard
+    tools for specific purposes (such as sendmail as a mail server or Vixie
+    Cron to handle repeated jobs), alternative tools are readily available.
+    You can rip out just about any component, either removing it entirely or
+    replacing it with something else.  Linux lets you remove or replace more
+    components than most operating systems, allowing the savvy administrator to
+    customize a Linux installation for specific purposes.", 
+  location     = "www.linux-mag.com/id/4404/"
 }
 
 @Manual{tsotje,
