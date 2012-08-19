@@ -58638,7 +58638,9 @@
   year         = 1979,
   number       = "CMU-CS-79-105",
   address      = ppa,
-  keywords     = "compiler compilers, parsing, compiling"
+  keywords     = "compiler-writing systems, code optimization, phase ordering,
+    intermediate representation, constant folding, constant propagation, flow
+    analysis, register allocation, code generation"
 }
 
 @TechReport{soberfasnotr,
@@ -61791,6 +61793,7 @@
   publisher    = ph,
   year         = 1984,
   address      = ecnj,
+  volume       = 1,
   keywords     = "xinu, operating systems, design, implementation"
 
 }
