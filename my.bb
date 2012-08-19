@@ -9152,9 +9152,7 @@
   pages        = "36--39, 51",
   month        = jul,
   keywords     = "events, notifications, opennms, xmpp, data collection
-    performance, ",
-  abstract     = "",
-  location     = ""
+    performance, "
 }
 
 @Article{rmwarws,
@@ -9172,6 +9170,180 @@
     desktops) that may not be powered on when the task is scheduled to run.
     Fortunately, Linux users have anacron to fill the gap left by cron.", 
   location     = "http://www.linux-mag.com/id/4173/"
+}
+
+@Article{qpinatunozu,
+  author       = "Soren Aalto",
+  title        = "{QUORUM}: Prepaid {{I}}nternet at the {{U}}niversity of {{Z}}ululand",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "91--94",
+  month        = nov,
+  keywords     = "internet access, quotas, squid",
+  abstract     = "Using Squid's URL redirection to implement WWW usage
+    quotas.", 
+  location     = "http://www.linuxjournal.com/article/6214"
+}
+
+@Article{utksmi,
+  author       = "Greg Kroah-Hartman",
+  title        = "Using the kernel security module interface",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "86--90",
+  month        = nov,
+  keywords     = "root plug, hooks, usb devices, kernel modules",
+  abstract     = "Some of today's hottest security projects are using the 2.5
+    kernel's LSM technology.  Kernel hacker Greg Kroah-Hartman explains the new
+    security framework that will give you an extra layer of protection in the
+    future.",
+  location     = "http://www.linuxjournal.com/article/6279"
+}
+
+@Article{pwppi,
+  author       = "Pradeep Padala",
+  title        = "Playing with {\tt ptrace}, Part {I}",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "78--85",
+  month        = nov,
+  keywords     = "ptrace, sys calls, strace, register io, single stepping",
+  abstract     = "You might have used strace to see whatsystem calls a program
+    makes. strace strace and you'll see it uses the ptrace call. What's that?
+    Here's what.",
+  location     = "http://www.linuxjournal.com/article/6100"
+}
+
+@Article{btddisa,
+  author       = "Linda Martindale",
+  title        = "Bridging the digital divide in {S}outh {A}frica",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "62--64",
+  month        = nov,
+  keywords     = "translation, internationalization, openoffice",
+  abstract     = "When you have to localize both Mozilla and OpenOffice, do you
+    have to teach your translators two sets of tools? No--just use KDE's
+    KBabel.",
+  location     = "http://www.linuxjournal.com/article/5966"
+}
+
+@Article{itip,
+  author       = "Olexiy Ye Tykhomyrov",
+  title        = "Introduction to internationalization programming",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "52--59",
+  month        = nov,
+  keywords     = "localization, internationalization, language, coding,
+    charsets, ",
+  abstract     = "When your software gets new users who prefer a different
+    language, what are you going to do? Learn the fundamentals of POSIX locales
+    and GNU gettext now, so that you can make your program multilingual
+    later.",
+  location     = "http://www.linuxjournal.com/article/6176"
+}
+
+@Article{ilsfgl,
+  author       = "Frederick Noronha",
+  title        = "Indian language solutions for {GNU}/{L}inux",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "46--51",
+  month        = nov,
+  keywords     = "internationalization, text-to-speech",
+  abstract     = "Some of the hardest languages to support are also some of 
+    the most widely spoken.  Here's an overview of the projects to make Linux
+    work with the two languages on our cover and more.", 
+  location     = "http://www.linuxjournal.com/article/6282"
+}
+
+@Article{remiwa,
+  author       = "Wayne Marshall",
+  title        = "Radio e-mail in {W}est {A}frica",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "38--44",
+  month        = nov,
+  keywords     = "radio networks, topology, mgetty, ppp, qmail",
+  abstract     = "To the users, it looks like regular e-mail.  But behind the 
+    scenes, a Linux-based project is using HF radio to move it hundreds of
+    kilometers without a wire or even a repeater.", 
+  location     = "http://www.linuxjournal.com/article/6299"
+}
+
+@Article{ccwl,
+  author       = "Steve Rosenbluth and Michael Babcock and David Barrington
+    Holt", 
+  title        = "Controlling creatures with {L}inux",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "28--35",
+  month        = nov,
+  keywords     = "motion engine, gui, viewers, puppet clients, sequencing,
+    animatronic hardware, ",
+  abstract     = "Is that movie character animatronic orcomputer-generated?
+    Find out how the same Linux-based system can let oneperson control either
+    one.", 
+  location     = "http://www.linuxjournal.com/article/6216"
+}
+
+@Article{kkmrcitlk,
+  author       = "Matteo Pelati",
+  title        = "Multicast routing code in the {L}inux kernel",
+  journal      = lj,
+  year         = 2002,
+  number       = 103,
+  pages        = "16--21",
+  month        = nov,
+  keywords     = "multicast, routing",
+  location     = "http://www.linuxjournal.com/article/6070"
+}
+
+@Article{itcoj,
+  author       = "Scott Granneman",
+  title        = "In the {C}ockpit of {JetS3t}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "10",
+  month        = jun,
+  keywords     = "backups, cloud storage"
+}
+
+@Article{mamwd,
+  author       = "Jerry Peek",
+  title        = "Merging and More with {\tt diff3}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  OPTnumber    = 7,
+  pages        = "16--18",
+  month        = jun,
+  keywords     = "diff, unix tools",
+  abstract     = "Learn how to use diff3 to compare and merge files.",
+  location     = "http://www.linux-mag.com/id/4133/"
+}
+
+@Article{tawkc,
+  author       = "Ken Coar",
+  title        = "The {A}pache Way",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 7,
+  pages        = "36--39",
+  month        = jun,
+  keywords     = "software management, project management, scalability"
 }
 
 @Manual{tsotje,
@@ -9296,7 +9468,7 @@
   title        = "Abstraction and Verification in {A}lphard:  Design and Verification of a Tree Handler",
   institution  = dcs # cmu,
   year         = 1976,
-  address      = pipa,
+  address      = ppa,
   month        = jun,
   keywords     = "abstraction, representation, abstract data types, assertions,
     correctness, information hiding, program specifications, program
@@ -9373,4 +9545,5 @@
     reasoned about formally.", 
   location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/pluscal.pdf"
 }
+
 
