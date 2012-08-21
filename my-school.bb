@@ -3019,16 +3019,6 @@
 }
 
 
-@book{xinu1,
-  author = 	"Douglas Comer",
-  title = 	"Operating System Design, The {XINU} approach",
-  publisher = 	ph,
-  year = 	1984,
-  volume = 	1,
-  series = 	"Software Series",
-  address = 	"Englewood Cliffs, N.J."
-}
-
 @book{unixnetworking,
   author = 	"W.~Richard Stevens",
   title = 	unix # " Network Programming",
