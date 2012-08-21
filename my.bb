@@ -9334,7 +9334,7 @@
   location     = "http://www.linux-mag.com/id/4133/"
 }
 
-@Article{tawkc,
+@Article{tawkcsep,
   author       = "Ken Coar",
   title        = "The {A}pache Way",
   journal      = lmag,
@@ -9344,6 +9344,187 @@
   pages        = "36--39",
   month        = jun,
   keywords     = "software management, project management, scalability"
+}
+
+@Article{cxjg,
+  author       = "Jeremy Garcia",
+  title        = "Controlling {X}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "12",
+  month        = apr,
+  keywords     = "xsel, clipboard, command-line, xwit, xte, automation",
+  abstract     = "This article introduces you to a few lesser known X
+    utilities.", 
+  location     = "http://www.linux-mag.com/id/3721/"
+}
+
+@Article{wstd,
+  author       = "Jerry Peek",
+  title        = "What's the Diff?",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "18--19, 51",
+  month        = apr,
+  keywords     = "diff, command-line",
+  abstract     = "Get more control over how file differences are found and 
+    displayed with some lesser-known options, and other techniques for getting
+    the output you need. ",
+  location     = "http://www.linux-mag.com/id/7161/"
+}
+
+@Article{dtrh,
+  author       = "Colin McGregor",
+  title        = "Don the {R}ed {H}at",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "24--27",
+  month        = apr,
+  keywords     = "distros, linux, virtual machines, ",
+  abstract     = "Two years in the making, RHEL 5 is finally ready.  The 
+    result? With Xen, SELinux, the Red Hat Global File System, and more, Red
+    Hat Enterprise Linux 5 raises the bar for commercial Linux.  We break down
+    the new features and walk you through creating your first virtual
+    machine.",
+  location     = "http://www.linux-mag.com/id/2989/"
+}
+
+@Article{pwvs,
+  author       = "Jason Perlow",
+  title        = "Prototyping with {VMware} Server",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "36--40",
+  month        = aug,
+  keywords     = "virtualization, virtual machines",
+  abstract     = "Need a system or two to validate a new architecture? When
+    combined with Linux, VMware Server provides a sophisticated and highly
+    adaptable infrastructure that allows you to test complex customer
+    client-server software configurations on a single machine.", 
+  location     = "http://www.linux-mag.com/id/3672/"
+}
+
+@Article{lapo,
+  author       = "Roderick~W. Smith",
+  title        = "{LDAP} Authentication, Part One",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "44--46",
+  month        = apr,
+  keywords     = "ldap, configuration, keys, certificates",
+  abstract     = "LDAP allows you manage users on a network.",
+  location     = "http://www.linux-mag.com/id/3722/"
+}
+
+@Article{hswx,
+  author       = "Randal Schwartz",
+  title        = "{HTML} Scraping with {XPath}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 4,
+  pages        = "48--51",
+  month        = apr,
+  keywords     = "perl, html, xpath",
+  location     = "http://www.stonehenge.com/merlyn/LinuxMag/col92.html"
+}
+
+@Article{bbwj,
+  author       = "Scott Granneman",
+  title        = "Better Backups with JetS3t",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "10",
+  month        = may,
+  keywords     = "cloud storage, s3, backup services",
+  abstract     = "JetS3t is a better way to do online backups via Amazon.com's
+    S3 service -- providing cheap online storage on Amazonâ€™s redundant
+    servers.",
+  location     = "http://www.linux-mag.com/id/3724/"
+}
+
+@Article{bwrjg,
+  author       = "Jeremy Garcia",
+  title        = "Backups with rsnapshot",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "12",
+  month        = may,
+  keywords     = "backups, cron",
+  abstract     = "Even a rudimentary repository system is better than none. 
+    Learn how to create local and remote filesystem snapshots with rsnapshot.",
+  location     = "http://www.linux-mag.com/id/3725/"
+}
+
+@Article{samjp,
+  author       = "Jerry Peek",
+  title        = "{\tt sdiff} and More",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "16--17, 52",
+  month        = may,
+  keywords     = "file differences, gnu",
+  abstract     = "More on GNU diffutils.  A look into sdiff, which shows file
+    comparisons side-by-side and lets you merge two files interactively.",
+  location     = "http://www.linux-mag.com/id/3723/"
+}
+
+@Article{batsrc,
+  author       = "Jason Perlow",
+  title        = "Backups and the System Rescue {CD}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "18--21, 53",
+  month        = may,
+  keywords     = "system rescue, system management, partitions",
+  abstract     = "Use the bootable System Rescue CD two or four times per month
+    to save your data and protect your sanity.",
+  location     = "http://www.linux-mag.com/id/3357/"
+}
+
+@Article{tawkcmay,
+  author       = "Ken Coar",
+  title        = "The Apache Way",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "36--39",
+  month        = may,
+  keywords     = "software management, project management, project incubation"
+}
+
+@Article{lapt,
+  author       = "Roderick~W. Smith",
+  title        = "LDAp Authentication, Part Two",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 5,
+  pages        = "44--46",
+  month        = may,
+  keywords     = "ldif, account management",
+  abstract     = "Managing users on a network is a whole lot simpler with LDAP.
+    Part Two: loading your server with account information.",
+  location     = "http://www.linux-mag.com/id/4124/"
 }
 
 @Manual{tsotje,
