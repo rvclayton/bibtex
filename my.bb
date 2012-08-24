@@ -9527,6 +9527,86 @@
   location     = "http://www.linux-mag.com/id/4124/"
 }
 
+@Article{tujp,
+  author       = "Jason Perlow",
+  title        = "Tweaking {U}buntu",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 12,
+  pages        = "18--19, 52",
+  month        = dec,
+  keywords     = "software repositories, ubuntu, customization",
+  abstract     = "Ubuntu is the best Linux distro out there. Here’s how to make
+    it even better.",
+  location     = "http://www.linux-mag.com/id/2782/"
+}
+
+@Article{lisv,
+  author       = "Sreekrishnan Venkateswaran",
+  title        = "Linux Infrared",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 12,
+  pages        = "20--23, 53",
+  month        = dec,
+  keywords     = "infrared interfaces, device drivers, "
+}
+
+@Article{tbobw,
+  author       = "Philippe Cohen and Miguel {de Icaza}",
+  title        = "The Best of Both Worlds",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 12,
+  pages        = "30--33",
+  month        = dec,
+  keywords     = "mono"
+}
+
+@Article{pprws,
+  author       = "Roderick~W.Smith",
+  title        = "Powerful {P}ortage",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 12,
+  pages        = "46--47, 54",
+  month        = dec,
+  keywords     = "portage, package management, gentoo",
+  abstract     = "Discover how to use Gentoo’s package management tools.",
+  location     = "http://www.linux-mag.com/id/3130/"
+}
+
+@Article{usdpo,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "User Space Drivers, Part One",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 2,
+  pages        = "22--25",
+  month        = feb,
+  keywords     = "response times, drivers, io regions, memory registers"
+}
+
+@Article{uirws,
+  author       = "Roderick~W. Smith",
+  title        = "Using {\tt initrd}",
+  journal      = lmag,
+  year         = 2007,
+  volume       = 9,
+  number       = 2,
+  pages        = "46--48",
+  month        = feb,
+  keywords     = "system boot",
+  abstract     = "Learn how to add boot options and gain flexibility via an
+    initial RAM disk.", 
+  location     = "http://www.linux-mag.com/id/3303/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
