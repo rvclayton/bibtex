@@ -506,6 +506,16 @@
   location     = "HN 90.E4 H39"
 }
 
+@Book{butb,
+  author       = "Hilary Mantel",
+  title        = "Bring Up the Bodies",
+  publisher    = "Henry Holt",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "henry viii, thomas cromwell, anne boleyn",
+  location     = "PR 6063.A438 B75"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -9605,6 +9615,100 @@
   abstract     = "Learn how to add boot options and gain flexibility via an
     initial RAM disk.", 
   location     = "http://www.linux-mag.com/id/3303/"
+}
+
+@Article{ukak,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Using {\tt kexec} and {\tt kdump}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 10,
+  pages        = "22--26",
+  month        = oct,
+  keywords     = "system hacking",
+  abstract     = "Kexec can spawn a kernel-over-a-kernel without the overhead
+    of boot firmware, while kdump can reliably collect a crash-dump using the
+    services of kexec.",
+  location     = "http://www.linux-mag.com/id/2998/"
+}
+
+@Article{msosp,
+  author       = "Ken Hess",
+  title        = "Making Sense of System Performance",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 10,
+  pages        = "40--43, 53",
+  month        = oct,
+  keywords     = "i/o, system reports, sysstat, system management",
+  abstract     = "Old-fashioned tools can prevent modern problems.", 
+  location     = "http://www.linux-mag.com/id/2953/"
+}
+
+@Article{fcrws,
+  author       = "Roderick~W. Smith",
+  title        = "Fall Cleaning",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 10,
+  pages        = "50--53",
+  month        = oct,
+  keywords     = "system maintenance, disk space"
+}
+
+@Article{bwxaw,
+  author       = "Jason Perlow",
+  title        = "Blog With {XAMPP} and {WordPress}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 11,
+  pages        = "18--20",
+  month        = nov,
+  keywords     = "blogging, instant messaging",
+  abstract     = "Want to blog? Grab XAMPP and WordPress and just add prose!",
+  location     = "http://www.linux-mag.com/id/2598/"
+}
+
+@Article{lbsv,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Linux  {Bluetooth}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 11,
+  pages        = "22--25, 60",
+  month        = nov,
+  keywords     = "bluetooth, device drivers, network protocols"
+}
+
+@Article{pttlsb,
+  author       = "Martin Streicher",
+  title        = "Porting to the {L}inux {S}tandard {B}ase",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 11,
+  pages        = "32--43",
+  month        = nov,
+  keywords     = "consistency, interoperability, virtual machines"
+}
+
+@Article{murws,
+  author       = "Roderick~W. Smith",
+  title        = "Mastering {\tt udev}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 11,
+  pages        = "50--53",
+  month        = nov,
+  keywords     = "udev, device management",
+  abstract     = "Learn how to use dynamic device files in Linux.",
+  location     = "http://www.linux-mag.com/id/3015/"
 }
 
 @Manual{tsotje,
