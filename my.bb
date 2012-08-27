@@ -9711,6 +9711,201 @@
   location     = "http://www.linux-mag.com/id/3015/"
 }
 
+@Article{aaital,
+  author       = "Michale Swaine",
+  title        = "Apple and {I}ntel: Together At Last",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "16--19",
+  month        = nov,
+  keywords     = "machinations, osx, portability",
+  abstract     = "A year after announcing the move to Intel processors, Apple
+    has completed the transition—there's not a non-Intel Mac in the lineup.  So
+    what does this shift mean for developers?",
+  location     = "http://www.drdobbs.com/architecture-and-design/apple-and-intel-together-at-last/193104363"
+}
+
+@Article{sswdc,
+  author       = "Robert~W. Anderson and Daniel Ciruli",
+  title        = "Scaling {SOA} with Distributed Computing",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "22--26",
+  month        = nov,
+  keywords     = "soa, scalability, grid computations",
+  abstract     = "Scalability is critical when designing Service-Oriented
+    Architectures", 
+  location     = "http://www.drdobbs.com/article/print?articleId=193104809&siteSectionName="
+}
+
+@Article{dutps,
+  author       = "Pablo Santos and Francisco~J. Garcia",
+  title        = "Distributed Unit Testing",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "28--32",
+  month        = nov,
+  keywords     = "automated tests, synchronization",
+  abstract     = "There's only one way to accurately and efficiently support
+    multiple platform combinations—testing, and lots of it.",
+  location     = "http://www.drdobbs.com/tools/distributed-unit-testing/193104810"
+}
+
+@Article{fdtmjc,
+  author       = "Jeff Cahoon",
+  title        = "Faster Development Through Modeling",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "34--41",
+  month        = nov,
+  keywords     = "software development, code reuse, modeling",
+  abstract     = "Jeff describes a modeling technique that uses free tools and
+    Model-Driven Architecture processes to speed up development.",
+  location     = "http://www.drdobbs.com/architecture-and-design/faster-development-through-modeling/193104822"
+}
+
+@Article{i3mimjd,
+  author       = "Tom Thompson",
+  title        = "Importing {3D} models into Mobile {J}ava Devices",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "42--50",
+  month        = nov,
+  keywords     = "key classes, rendering models",
+  abstract     = "Here's a step-by-step guide for importing 3D models from PCs
+    into cell phones.", 
+  location     = "http://www.drdobbs.com/mobile/importing-3d-models-into-mobile-java-dev/193104855"
+}
+
+@Article{aaotf,
+  author       = "Drew Wildner",
+  title        = "Automating Applications On-The-Fly",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "52--57",
+  month        = nov,
+  keywords     = "pdf generation, web services",
+  abstract     = "Third-party tools, C#, and Visual Studio 2005 can take the
+    pain out of generating PDF content in ASP.NET.",
+  location     = "http://www.drdobbs.com/windows/automating-applications-on-the-fly/193104870"
+}
+
+@Article{cfds,
+  author       = "Diomidis Spinellis",
+  title        = "Code Finessing",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "58--63",
+  month        = nov,
+  keywords     = "c preprocessor, functional coding, software development",
+  abstract     = "When it comes down to it, what counts is quality code that is
+    correct, readable, and efficient.",
+  location     = "http://www.drdobbs.com/open-source/code-finessing/193104882"
+}
+
+@Article{antrp,
+  author       = "Ethan~Q. McCallum",
+  title        = "{APR} Networking \& the {R}eactor {P}attern",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "64--70",
+  month        = nov,
+  keywords     = "socket programming, time service, polling, ",
+  abstract     = "The Apache Portable Runtime is a C-based API that provides
+    abstractions ranging from memory management to telling time.",
+  location     = "http://www.drdobbs.com/cpp/apr-networking-the-reactor-pattern/193101548"
+}
+
+@Article{wdm,
+  author       = "Scott~W. Ambler",
+  title        = "Whence Data Management?",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 11,
+  pages        = "79--83",
+  month        = nov,
+  keywords     = "data quality, agile database techniques",
+  abstract     = "Scott reports on his recent Data Management survey.  You'll
+    be surprised by the results.  Lots of companies have a data group, but much
+    of the time, they aren't being used effectively.", 
+  location     = "http://www.drdobbs.com/architecture-and-design/whence-data-management/193104893"
+}
+
+@Article{kpsk,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Kernel Probes",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 9,
+  pages        = "20--23, 52",
+  month        = sep,
+  keywords     = "kprobes, jprobes, return probes"
+}
+
+@Article{tjfs,
+  author       = "Steve Best",
+  title        = "Tuning Journaling File Systems",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 9,
+  pages        = "28--33",
+  month        = sep,
+  keywords     = "access times, io performance, system tuning, file systems",
+  abstract     = "You can improve the performance of journaling file systems by
+    taking the time to tune them.  There has been considerable effort placed in
+    the designs to make the file systems scalable and fast without significant
+    expertise.  Just twisting a few knobs — mount options and placing the
+    journal on an external device — can make the journaling file systems run
+    significantly faster.", 
+  location     = "http://www.linux-mag.com/id/2927/"
+}
+
+@Article{c,
+  author       = "Tanner Lovelace",
+  title        = "{CA Cert}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 9,
+  pages        = "34--",
+  month        = sep,
+  keywords     = "certificate authority, security, ssl, client certificates",
+  abstract     = "Learn how to create server and client SSL certificates using
+    the free CACert certificate authority. ", 
+  location     = "http://www.linux-mag.com/id/2926/"
+}
+
+@Article{ylrws,
+  author       = "Roderick~W. Smith",
+  title        = "Yummy {L}inux",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 9,
+  pages        = "44--46",
+  month        = sep,
+  keywords     = "yum, package management, system administration"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
