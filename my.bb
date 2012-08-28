@@ -516,6 +516,16 @@
   location     = "PR 6063.A438 B75"
 }
 
+@Book{twalg,
+  author       = "Ed McBain",
+  title        = "There Was a Little Girl",
+  publisher    = "Warner Books",
+  year         = 1994,
+  address      = nyny,
+  keywords     = "murrdaar",
+  location     = "PS 3515.U585 T44"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -9904,6 +9914,182 @@
   pages        = "44--46",
   month        = sep,
   keywords     = "yum, package management, system administration"
+}
+
+@Article{smaoocmfps,
+  author       = "Eshrat Arjomandi and William~G. O'Farrell and Gregory V. Wilson",
+  title        = "Smart Messages: An Object-Oriented Communication Mechanism for Parallel Systems",
+  journal      = cs,
+  year         = 1996,
+  volume       = 9,
+  number       = 4,
+  pages        = "313--329",
+  month        = "Fall",
+  keywords     = "smart messages, marshaling data, active objects, remote
+    invocation, futures, synchronization",
+  abstract     = "ABC++ is a portable object-oriented type-safe class library
+    for parallel programming in C++.  It supports active objects, synchronous
+    and asynchronous object interactions, and object-based shared regions on
+    both shared- and distributed-memory parallel computers.  ABC++ is written
+    in, and compatible with, standard C++ : no language extensions or
+    pre-processors are used.  This paper focuses on its use of an
+    object-oriented technique called smart messages to support object
+    interactions.  Smart messages demonstrate the effectiveness of
+    object-oriented programming in encapsulating low-level details of
+    concurrency and in improving software portability.", 
+  location     = "http://www.usenix.org/publications/compsystems/1996/fall_arjomandi.pdf"
+}
+
+@Article{iptjp,
+  author       = "Jerry Peek",
+  title        = "{ImageMagick}, Part Two",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "16--17, 53",
+  month        = jul,
+  keywords     = "image data, file formats, image resizing"
+}
+
+@Article{ptivs,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Pardon the Interruption",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "24--",
+  month        = jul,
+  keywords     = "interrupt context, irqs, interrupt handlers, softirqs,
+    tasklets",
+  abstract     = "Interrupt handlers are an integral part of most device
+    drivers. Learn to implement interrupt handlers and bottom halves.",
+  location     = "http://www.linux-mag.com/id/2639/"
+}
+
+@Article{rssde,
+  author       = "Scott~D. Epter",
+  title        = "Redundant Schmedundant",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "28--29, 54",
+  month        = jul,
+  keywords     = "availability, frequency, duration"
+}
+
+@Article{ctcpbs,
+  author       = "Tanner Lovelace",
+  title        = "{\tt cmake}: The Cross Platform Build System",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "30--33",
+  month        = jul,
+  keywords     = "cmake, projects, build systems, macros",
+  abstract     = "cmake is a portable build system: Create a single source
+    definition and build your code on one or many platforms.  Learn how to use
+    cmake and see how KDE uses the tool for the project’s next generation build
+    system.", 
+  location     = "http://www.linux-mag.com/id/2667/"
+}
+
+@Article{tldm,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "The {L}inux Device Model",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "24--27, 60",
+  month        = jul,
+  keywords     = "kobjects, sysfs, device classes, udev, device management,
+  device bus, hot pluging, microcode",
+  abstract     = "Many Linux subsystems, such as the /dev filesystem, hotplug,
+    module autoload, and microcode download have undergone significant changes
+    with the introduction of the new device model.  Learn about udev, sysfs,
+    kobjects, classes, and more.", 
+  location     = "http://www.linux-mag.com/id/2617/"
+}
+
+@Article{mpal,
+  author       = "David Rivas",
+  title        = "Mobile Phones and {L}inux",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 7,
+  pages        = "28--31, 61",
+  month        = jul,
+  keywords     = "symbian, mobile systems, palm",
+  abstract     = "Yes, Linux is now powering a number of brand name mobile
+    phones, but there’s a great deal yet to do to transform Linux into a
+    credible alternative to proprietary mobile operating systems.  Here’s a
+    look at the challenges ahead-- and a dark horse entering the mobile race
+    this month.", 
+  location     = "http://www.linux-mag.com/id/2575/"
+}
+
+@Article{tupots,
+  author       = "Ben Chelf",
+  title        = "The Undeniable Power of the Source",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 8,
+  pages        = "32--35",
+  month        = aug,
+  keywords     = "security, secure programming, security audits",
+  abstract     = "People generally consider the code that powers the Linux
+    kernel and other open source packages to be both superlative and secure
+    because “many eyes make all bugs shallow.” But even the most reliable open
+    source packages are still burdened with security flaws.  Why? To find the
+    answer, you have to look at the source.", 
+  location     = "http://www.linux-mag.com/id/2615/"
+}
+
+@Article{banids,
+  author       = "Ronald McCarty",
+  title        = "Bro:  {A} Network Intrusion Detection System",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 8,
+  pages        = "36--39",
+  month        = aug,
+  keywords     = "termcap, intrusion detection",
+  abstract     = "Intrusion detection is critical for network security.  Use
+    Bro to catch miscreants red-handed.",
+  location     = "http://www.linux-mag.com/id/2611/"
+}
+
+@Article{oslms,
+  author       = "Martin Streicher",
+  title        = "Open Source Licensing",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 8,
+  pages        = "40--44",
+  month        = aug,
+  keywords     = "software licensing, software development, law"
+}
+
+@Article{ltfrws,
+  author       = "Roderick~W. Smith",
+  title        = "Lighting the {FUSE}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 8,
+  pages        = "52--54",
+  month        = aug,
+  keywords     = "user-space file systems",
+  abstract     = "Explore unusual filesystems support in Linux.",
+  location     = "http://www.linux-mag.com/id/2566/"
 }
 
 @Manual{tsotje,
