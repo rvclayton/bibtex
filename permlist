@@ -419,6 +419,7 @@ an adaptive transport service suitable for high speed networks : richards
 an advanced 4.3 bsd interprocess communication tutorial : leffler
 an agent based approach for building complex software systems : jennings
 an algorithm for filling regions on graphics display devices : lane
+an alphard specification of a correct and efficient transformation on data structures : bentley
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
 an analysis of tcp processing overhead : clark
 an annotated bibliography of interactive program steering : gu
@@ -2399,6 +2400,7 @@ risk management : simmons
 robust distributed computing and sensing algorithm : brooks
 role based access control models : sandhu
 role based access control with x.509 attribute certificates : chadwick
+ron was wrong whit was right : lenstra
 rolling your own input iterators : van horn
 routing algorithms for internetworking : stallings
 routing strategies in computer networks : hsieh
@@ -2541,6 +2543,7 @@ slk a capability system based on save language technology : hawblitzel
 small forwarding tables for fast routing lookups : degermark
 small programming exercises : rem
 smart and stupid networks why the internet is like microsoft : odlyzko
+smart messages an object oriented communication mechanism for parallel systems : arjomandi 
 smart pointers they're smart but they're not pointers : edelson
 smarter memory improving bandwidth for streamed references : mckee
 smarttutor an intelligent tutoring system in web based adult education : cheung
@@ -2782,6 +2785,7 @@ the amdhal 470v 8 and the ibm 3033 a comparison of processor designs : doran
 the analysis and interpretation of small house plans some contemporary examples : brown
 the analysis of political systems : easton
 the anatomy of a loop : shivers
+the apa newsletter on philosophy and computers : abramson
 the architecture of complexity : simon
 the argos language graphical representation of automata and description of reactive systems : maraninchi
 the art of problem posing : brown 
@@ -3452,6 +3456,7 @@ y in practical programs : mcadam
 y y works : felleisen
 yacc is dead : might
 yodl 2 : brokken
+you could have invented monads (and maybe already have) : domus
 you dont know jack about voip : scherburne
 your own handprinting recognition engine : avitzur
 your own tiny object oriented language : betz
