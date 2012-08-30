@@ -952,35 +952,6 @@
   location     = "http://hbr.org/2009/07/restoring-american-competitiveness/ar/1"
 }
 
-@Article{wfskceafm,
-  author       = "Darren Abramson and Lee Pike",
-  title        = "When Formal Systems Kill: Computer Ethics and Formal Methods",
-  journal      = "{APA} Newsletter on Philosophy and Computers",
-  year         = 2011,
-  volume       = 11,
-  number       = 1,
-  pages        = "",
-  month        = "",
-  keywords     = "",
-  abstract     = "Computer ethics is usually motivated by and deals with
-    problematic decision-making cases arising from the ubiquity and
-    unprecedented power of computer and information technologies.  In this
-    paper, we address a distinct topic that is germane to computer ethics but
-    has thus far been neglected in the computer ethics literature.  Formal
-    methods is the science of mathematically proving computer systems correct.
-    Formal methods are motivated by the need for safety-critical systems (e.g.,
-    autopilot systems) that must be bug-free.  We begin by describing the
-    automatic formal system property of computers.  This property has been
-    studied by cognitive scientists, but it has yet to be addressed by computer
-    ethicists, despite it having significant ethical ramifications,
-    particularly with respect to formal methods.  After introducing the history
-    and purview of formal methods, we argue that normative questions about
-    formal methods are the purview of computer ethics.  Nevertheless, we take
-    the position in this paper that these questions are open questions and do
-    not attempt to solve these problems here.", 
-  location     = "https://www.cs.indiana.edu/~lepike/pub_pages/fmethics.html"
-}
-
 @Article{trofbrir,
   author       = "Richard Fikes and Tom Kehler",
   title        = "The Role of Frame-Based Representation in Reasoning",
@@ -9959,7 +9930,7 @@
   year         = 2006,
   volume       = 8,
   number       = 7,
-  pages        = "24--",
+  pages        = "24--27",
   month        = jul,
   keywords     = "interrupt context, irqs, interrupt handlers, softirqs,
     tasklets",
@@ -10090,6 +10061,433 @@
   keywords     = "user-space file systems",
   abstract     = "Explore unusual filesystems support in Linux.",
   location     = "http://www.linux-mag.com/id/2566/"
+}
+
+@Article{aasoacaetods,
+  author       = "Jon Louis Bentley and Mary Shaw",
+  title        = "An {A}lphard Specification of a Correct and Efficient Transformation on Data Structures", 
+  journal      = tse,
+  year         = 1980,
+  volume       = 6,
+  number       = 6,
+  pages        = "572--584",
+  month        = nov,
+  keywords     = "searching, data structures transformations, representations",
+  abstract     = "In this paper we study the problem of designing and 
+    specifying standard program components applicable to a wide variety of
+    tasks; we choose for this study the specific problem domain of data
+    structures for general searching problems.  Within this domain Bentley and
+    Saxe [1] have developed transformations for converting solutions of simple
+    searching problems to solutions of more complex problems.  We discuss one
+    of those transformations, specify precisely the transformation and its
+    conditions of applicability, and prove its correctness; we accomplish this
+    by casting it in terms of abstract data types-specifically by using the
+    Alphard form mechanism.  The costs of the structures derived by this
+    transformation are only slightly greater than the costs of the original
+    structures, and the correctness of the transformation definition together
+    with the correctness of the original structure assure the correctness of
+    the derived structure.  The transformation we describe has already been
+    used to develop a number of new algorithms, and it represents a new level
+    of generality in software engineering tools.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1980.234506"
+}
+
+@Article{dmfwi,
+  author       = "Jiawei Han and Kevin Chang",
+  title        = "Data Mining for {W}eb Intelligence",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "64--70",
+  month        = nov,
+  keywords     = "data mining, web mining",
+  abstract     = "Searching, comprehending, and using the semi-structured HTML,
+    XML, and database-service-engine information stored on the Web poses a
+    significant challenge: This data is more sophisticated and dynamic than the
+    information commercial database systems store.  To supplement keyword based
+    indexing, researchers have applied data mining to Web page ranking.  In
+    this context, data mining helps Web search engines find high-quality Web
+    pages and enhances Web click stream analysis.  For the Web to reach its
+    full potential, however, we must improve its services, make it more
+    comprehensible, and increase its usability.  As researchers continue to
+    develop data mining techniques, the authors believe this technology will
+    play an increasingly important role in meeting the challenges of developing
+    the intelligent Web.Ultimately, data mining for Web intelligence will make
+    the Web a richer, friendlier, and more intelligent resource that we can all
+    share and explore.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046977"
+}
+
+@Article{iatwolae,
+  author       = "Michele Missikof and Roberto Navigli and Paola Velardi",
+  title        = "Integrated Approach to {W}eb Ontology Learning and Engineering",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "60--63",
+  month        = nov,
+  keywords     = "ontology engineering, semantic interpretation",
+  abstract     = "Developing the semantic Web-seeking to improve the semantic
+    awareness of computers connected via the Internet-requires a systematic,
+    computer-oriented world representation.  Researchers often refer to such a
+    model as an ontology.Despite the work done on them in recent years,
+    ontologies have yet to be widely applied and used.  Research has devoted
+    only limited attention to such practical issues as techniques and tools
+    aimed at an ontology's actual construction and content.A software
+    environment, centered around the OntoLearn tool, can build and assess a
+    domain ontology for intelligent information integration within a virtual
+    user community.  OntoLearn has already been tested in two European
+    projects, where it functioned as the basis for a semantic interoperability
+    platform used by small and medium-sized tourism enterprises.  Further,
+    developers can easily adapt OntoLearn to work with other general-purpose
+    ontologies.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046977"
+}
+
+@Article{obkm,
+  author       = "Dieter Fensel",
+  title        = "Ontology-Based Knowledge Management",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "56--59",
+  month        = nov,
+  keywords     = "architecture, extraction, representation",
+  abstract     = "The Web's very popularity is making it more difficult to 
+    find, present, and maintain the data that users with a wide range of tasks
+    and computer skills need.  Existing document management systems use keyword
+    matching as a search method, combined with information retrieval rather
+    than query answering.  In addition, these systems offer limited
+    information-sharing facilities, and they don't support different views on
+    documents or information maintenance.To address these weaknesses, a
+    European consortium formed the On-to-Knowledge Project to build an ontology
+    based tool suite that efficiently processes the many heterogeneous,
+    distributed, and semi-structured documents typically found in intranets and
+    on the Web.  The consortium's approach integrates semantic Web search
+    technology, document exchange via transformation operators,automated
+    information extraction, and systematic support for information maintenance
+    and user specific views.  On-to-Knowledge's tools exploit the power of
+    ontologies to provide automated support for acquiring, maintaining, and
+    accessing weakly structured information sources.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046975"
+}
+
+@Article{tbiitsw,
+  author       = "Joanna Bryson and David Martin and Sheila McIlraith and Lynn
+    Stein", 
+  title        = "Toward Behavioral Intelligence in the {S}emantic {W}eb",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "48--54",
+  month        = nov,
+  keywords     = "distributed intelligence, web agents, module coordination,
+    reactive plans, service descriptions",
+  abstract     = "Realizing the Web's full potential will require the
+    development and support of agents that function as schedulers, planners,
+    and searchers who, with minimal direction, can serve as an omnipresent
+    staff of advisers, secretaries, brokers, and research assistants.
+    Electronic commerce has brought this capability tantalizingly near.
+    Organizations and individuals have connected an enormous variety of
+    products and services to the Internet, making them accessible to other
+    programs through simple communication protocols.Now the AI community must
+    determine how it can build intelligent agents to exploit these services.
+    One strategy would change the Web itself, making it accessible to existing
+    AI modeling and reasoning techniques.  In this semantic Web, service and
+    content providers would mark pages in accordance with standardized
+    conventions designed to reduce ambiguity and make automated reasoning
+    easier.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046974"
+}
+
+@Article{qasdlfia,
+  author       = "Toru Ishida",
+  title        = "{Q}: {A} Scenario Description Language for Interactive Agents",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "42--47",
+  month        = nov,
+  keywords     = "scenarios, guarded commands, agants, avatars, design
+    process", 
+  abstract     = "Agent internal mechanisms form the basis for many of the 
+    languages proposed for describing agent behavior and inter-agent protocols.
+    For the Web, however, we should also consider the needs of application
+    designers such as sales managers, travel agents, and schoolteachers.To this
+    end, the author is developing Q, a language for describing interaction
+    scenarios between agents and users based on agent external roles.  Q also
+    provides an interface between computing professionals and scenario writers.
+    Rather than depending on agent internal mechanisms, Q seeks to describe how
+    scenario writers should request that agents behave.  Scenarios help
+    establish a bridge between the computing professionals who design agents
+    and the scenario writers who design applications.  Thus, we can expect an
+    effective dialog to emerge from the interplay between the two different
+    perspectives during the process of formalizing interaction patterns.",
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046973"
+}
+
+@Article{sidftw,
+  author       = "Toyoaki Nishida",
+  title        = "Social Intelligence Design for the {W}eb",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "37--41",
+  month        = nov,
+  keywords     = "social context, embodied conversational agents, collaboration
+    design, public discourse, social intelligence",
+  abstract     = "Web intelligence reflects the view that eventually we will
+    build a totally new kind of collective intelligence on the Web computing
+    infrastructure.  To reach this goal we must solve several major problems.
+    For example, embedding Web computing into our everyday lives and society
+    poses a more difficult problem than engineers might think.  Because new
+    technologies often consume financial resources without providing a
+    comparable benefit, we must pay close attention to the social aspects of
+    intelligence and how Web computing can augment knowledge processes, an
+    attitude that underlies social intelligence design.Computer-supported
+    collaborative work takes a similar approach, focusing on well-structured,
+    goal-oriented groups.  Social intelligence design, on the other hand,
+    highlights collective knowledge processes in informal, loosely coupled
+    groups.  It thus focuses not only on technological development for Web
+    intelligence but also on the design and analysis of a social framework for
+    embedding Web intelligence into everyday life.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046972"
+}
+
+@Article{twasn,
+  author       = "Ravi Kumar and Prabhakar Raghavan and Sridhar Rajagopalan and
+    Andrew Tomkins", 
+  title        = "The {W}eb and Social Networks",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "32--36",
+  month        = nov,
+  keywords     = "hits algorithm, link analysis, page ranking, community
+  patterns, web diameter, fractal structures",
+  abstract     = "The sheer volume of Web data, together with its low 
+    signal-to-noise ratio, make it difficult for text-based search engines to
+    locate high-quality pages.  Analyzing the links between Web sites has
+    dramatically improved the Web search experience and spawned research into
+    the Web's link structure.  This research includes graph-theoretic studies
+    of connectivity, which have shown the Web to have strong similarities with
+    social networks.Self-similarity is pervasive in social networks.  While
+    researchers have observed Web self-similarity in other contexts, finding a
+    fractal structure in a graph-theoretic setting adds further evidence to the
+    Web's small-world social nature.  Thus, researchers seek to explain and
+    exploit the human behavior implicit in the Web's evolving structure.How can
+    we combine the power of Web networks with networks resulting from other
+    human activity? Accomplishing this goal represents knowledge management's
+    key challenge and opportunity.", 
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046971"
+}
+
+@Article{fcitwi,
+  author       = "Nick Cercone and Lijun Hou and Vlado Keselj and Aijun An and
+    Kanlaya Naruedomkul and Xiaohua  Hu",
+  title        = "From Computational Intelligence to {W}eb Intelligence",
+  journal      = ieeec,
+  year         = 2002,
+  volume       = 35,
+  number       = 11,
+  pages        = "72--76",
+  month        = nov,
+  keywords     = "natural language interfaces, metasearch extensions, machine
+    translations, machine learning, agent systems", 
+  abstract     = "Systems that can communicate naturally and learn from
+    interactions will power Web intelligence's long term success.  The large
+    number of problems requiring Web specific solutions demand a sustained and
+    complementary effort to advance fundamental machine learning research and
+    incorporate a learning component into every Internet
+    interaction.Traditional forms of machine translation either translate
+    poorly, require resources that grow exponentially with the number of
+    languages translated, or simplify language excessively.  Recent success in
+    statistical, non-linguistic, and hybrid machine translation suggests that
+    systems based on these technologies can achieve better results with a large
+    annotated language corpus.Adapting existing computational intelligence
+    solutions, when appropriate for Web intelligence applications, must
+    incorporate a robust notion of learning that will scale to the Web, adapt
+    to individual user requirements, and personalize interfaces.",
+  location     = "http://dx.doi.org/10.1109/MC.2002.1046979"
+}
+
+@Article{wfskceafm,
+  author       = "Darren Abramson and Lee Pike",
+  title        = "When Formal Systems Kill:  Computer Ethics and Formal Methods",
+  journal      = "The APA Newsletter on Philosophy and Computers",
+  year         = 2011,
+  volume       = 11,
+  number       = 1,
+  month        = "Fall",
+  keywords     = "ethics, formal methods, requirement specifications,
+    intellectual property",
+  abstract     = "Computer ethics is usually motivated by and deals with
+    problematic decision-making cases arising from the ubiquity and
+    unprecedented power of computer and information technologies.  In this
+    paper, we address a distinct topic that is germane to computer ethics but
+    has thus far been neglected in the computer ethics literature.  Formal
+    methods is the science of mathematically proving computer systems correct.
+    Formal methods are motivated by the need for safety-critical systems (e.g.,
+    autopilot systems) that must be bug-free.  We begin by describing the
+    automatic formal system property of computers.  This property has been
+    studied by cognitive scientists, but it has yet to be addressed by computer
+    ethicists, despite it having significant ethical ramifications,
+    particularly with respect to formal methods.  After introducing the history
+    and purview of formal methods, we argue that normative questions about
+    formal methods are the purview of computer ethics.  Nevertheless, we take
+    the position in this paper that these questions are open questions and do
+    not attempt to solve these problems here.", 
+  location     = "http://www.cs.indiana.edu/~lepike/pubs/fm-ethics.pdf"
+}
+
+@Article{aewtsa,
+  author       = "Scott Granneman",
+  title        = "An Easier Way to Set {ACL}s",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "10",
+  month        = jun,
+  keywords     = "acls, file systems, shell commands",
+  abstract     = "Facilitate fine-grained file permissions with ACL editor
+    Eiciel.", 
+  location     = "http://www.linux-mag.com/id/2735/"
+}
+
+@Article{ipojp,
+  author       = "Jerry Peek",
+  title        = "{ImageMagick}, Part One",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "14--16",
+  month        = jun,
+  keywords     = "image processing, format conversion, image composites, ",
+  abstract     = "ImageMagick is a package of tools for creating and editing
+    images that’s not easy to get started with, but is well worth the effort.
+    Here’s an introduction, just in time for processing those summer photos.",
+  location     = "http://www.linux-mag.com/id/2561/"
+}
+
+@Article{kbsv,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Kernel Boot",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "26--29",
+  month        = jun,
+  keywords     = "bios, memory management, bogomips",
+  abstract     = "Look at messages generated during kernel boot and explore the
+    internals of the more interesting ones. ",
+  location     = "http://www.linux-mag.com/id/2671/"
+}
+
+@Article{pilsb,
+  author       = "Steve Best",
+  title        = "Peering into {L}inux",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "30--33",
+  month        = jun,
+  keywords     = "system tracing, systemtap, probes, ",
+  abstract     = "How to find Linux performance problems using SystemTAP.",
+  location     = "http://www.linux-mag.com/id/2555/"
+}
+
+@Article{cwg,
+  author       = "Jon Loeliger",
+  title        = "Collaborating With {G}it",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "34--37, 57",
+  month        = jun,
+  keywords     = "branches, cloning, repositories, "
+}
+
+@Article{bpop,
+  author       = "Roderick~W. Smith",
+  title        = "Backup, Part One: Preparation",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 6,
+  pages        = "52--53, 58",
+  month        = jun,
+  keywords     = "back up, tape, optical media, network backup",
+  abstract     = "Don’t put off backups. Here’s how to plan a Linux backup
+    strategy.", 
+  location     = "http://www.linux-mag.com/id/2685/"
+}
+
+@Article{mymwf,
+  author       = "Scott Granneman",
+  title        = "Map Your Mind With {FreeMind}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 2,
+  pages        = "12",
+  month        = feb,
+  keywords     = "mind maps, conceptual mapping",
+  abstract     = "Map your ideas and thoughts with FreeMind.",
+  location     = "http://www.linux-mag.com/id/2435/"
+}
+
+@Article{wsgpfs,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Five: {\tt sort}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 2,
+  pages        = "16--19",
+  month        = feb,
+  keywords     = "fields, sorting, command-line numeric sorting",
+  abstract     = "For decades, sort has been extended over and over again to 
+    make it more and more useful.  Here’s the fifth in an ongoing series about
+    new features in familiar utilities.", 
+  location     = "http://www.jpeek.com/articles/linuxmag/2006-02/"
+}
+
+@Article{dmlpt,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Down Memory Lane, Part Two",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 2,
+  pages        = "26--30",
+  month        = feb,
+  keywords     = "physical memory, page management, ecc memory, cmos",
+  abstract     = "Learn how the kernel views physical memory.",
+  location     = "http://www.linux-mag.com/id/2451/"
+}
+
+@Article{sbcd,
+  author       = "Christopher Diggins",
+  title        = "Something Borrowed",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 2,
+  pages        = "44--47",
+  month        = feb,
+  keywords     = "code search, search engines"
 }
 
 @Manual{tsotje,
@@ -10291,5 +10689,3 @@
     reasoned about formally.", 
   location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/pluscal.pdf"
 }
-
-
