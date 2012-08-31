@@ -526,6 +526,16 @@
   location     = "PS 3515.U585 T44"
 }
 
+@Book{popcdb,
+  author       = "Christopher {de Bellaigue}",
+  title        = "Patriot of Persia",
+  publisher    = "Harpers",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "iran, international politics, government, iran",
+  location     = "DS 318.6.D42"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -10488,6 +10498,148 @@
   pages        = "44--47",
   month        = feb,
   keywords     = "code search, search engines"
+}
+
+@Article{citk,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Concurrency in the Kernel",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 11,
+  pages        = "20--26",
+  month        = nov,
+  keywords     = "spinlocks, semaphores, atomicity, reader-writer locks",
+  abstract     = "Multiple threads of execution need to be synchronized to
+    avoid data corruption and even system freezes.",
+  location     = "http://www.linux-mag.com/id/2316/"
+}
+
+@Article{lwsnpo,
+  author       = "Forrest Hoffman",
+  title        = "Logging with syslog-ng, Part One",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 11,
+  pages        = "50--54, 63",
+  month        = nov,
+  keywords     = "syslogd, logging, log collections, log servers",
+  abstract     = "If you need to monitor and manage such a configuration, try
+    syslog-ng (syslog, next generation), a drop-in replacement for syslogd.
+    syslog-ng provides more sophisticated log management capabilities and
+    enables log transfers over the Internet.", 
+  location     = "http://www.linux-mag.com/id/2308/"
+}
+
+@Article{idprws,
+  author       = "Roderick~W. Smith",
+  title        = "Improving Disk Performance",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 11,
+  pages        = "56--58",
+  month        = nov,
+  keywords     = "disk performance, disk access modes, filesystems, filesystem
+    layout", 
+  abstract     = "How to get the most out of your hard disks.",
+  location     = "http://www.linux-mag.com/id/2318/"
+}
+
+@Article{sofjg,
+  author       = "Jeremy Garcia",
+  title        = "See Open Files",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "16",
+  month        = jan,
+  keywords     = "lsof, system administration",
+  abstract     = "Learn how to use lsof to see what files are open on your
+    system. ", 
+  location     = "http://www.linux-mag.com/id/2412/"
+}
+
+@Article{wsgpf,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Four",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "18--21, 62",
+  month        = jan,
+  keywords     = "filename matching, matching timestamps, directory control,
+    text output, find",
+  abstract     = "Since find(1) came into being decades ago, programmers have
+    been adding new features.  Here's the fourth of a series about some of
+    those.",
+  location     = "http://www.linux-mag.com/id/6981/"
+}
+
+@Article{dmlpo,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Down Memory Lane, Part One",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "28--31",
+  month        = jan,
+  keywords     = "memory subsystem, traps, chip drivers, flash filesystems",
+  abstract     = "Most embedded devices boot from flash memory and have data
+    resident on flash-based storage.  Here’s how to use flash devices while
+    embedding Linux.",
+  location     = "http://www.linux-mag.com/id/2400/"
+}
+
+@Article{g40mm,
+  author       = "Mark Mitchell",
+  title        = "{GCC} 4.0",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "32--37",
+  month        = jan,
+  keywords     = "optimization, compilers, rtl, gcc, ssa form",
+  abstract     = "GCC 4.0 has a new optimization infrastructure, and future
+    versions of GCC will realize even more performance improvements.  Here’s an
+    overview of what’s new and what’s to come.", 
+  location     = "http://www.linux-mag.com/id/2394/"
+}
+
+@Article{ebfwg,
+  author       = "William Nagel",
+  title        = "Exterminate Bugs Faster with {GDB}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "38--42",
+  month        = jan,
+  keywords     = "debugging, automation",
+  abstract     = "You’ve used GDB, but are you really getting the most from it?
+    These advanced GDB tips will help you debug to your full potential.", 
+  location     = "http://www.linux-mag.com/id/2396/"
+}
+
+@Article{xact,
+  author       = "Roderick~W. Smith",
+  title        = "{\tt xinetd} Access Control Tools",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 1,
+  pages        = "54--56",
+  month        = jan,
+  keywords     = "xinetd, ip-based controls, network interface controls,
+  temporal controls, client number controls, cpu load controls",
+  abstract     = "Here are some helpful tips to enhance xinetd security and
+    performance.",
+  location     = "http://www.linux-mag.com/id/2402/"
 }
 
 @Manual{tsotje,
