@@ -10642,6 +10642,117 @@
   location     = "http://www.linux-mag.com/id/2402/"
 }
 
+@Article{ffsbwb,
+  author       = "Scott Granneman",
+  title        = "Fight File System Bloat with {B}aobab",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 3,
+  pages        = "12",
+  month        = mar,
+  keywords     = "visualization, system management, file maintenance",
+  abstract     = "Find the files that are hogging your hard drive with with
+    Baobab.", 
+  location     = "http://www.linux-mag.com/id/2468/"
+}
+
+@Article{epol,
+  author       = "Jeremy Garcia",
+  title        = "Enjoying Podcasts on {L}inux",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 3,
+  pages        = "14",
+  month        = mar,
+  keywords     = "podcasting, multimedia",
+  abstract     = "Discover how to use bashpodder as a podcatching client.",
+  location     = "http://www.linux-mag.com/id/2477/"
+}
+
+@Article{wsgpst,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Six: {\tt tar}",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 3,
+  pages        = "16--18",
+  month        = mar,
+  keywords     = "compressed archives, command-line tools, pathnames, file
+    choosing, archiving, file management",
+  abstract     = "What’s new with tar since it was written eons ago? A lot. 
+    Here’s the sixth of a series about new features of old utilities.",
+  location     = "http://www.jpeek.com/articles/linuxmag/2006-03/"
+}
+
+@Article{llawq,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Linked Lists and Work Queues",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 3,
+  pages        = "26--30",
+  month        = mar,
+  keywords     = "linked lists, hash links, work queues, ",
+  abstract     = "The use of standard kernel helper facilities simplifies your
+    code, weeds out redundancies from the kernel, and helps long-term
+    maintenance.  And since the helpers are bug-free and optimized, you inherit
+    those benefits for free.", 
+  location     = "http://www.linux-mag.com/id/2518/"
+}
+
+@Article{htgi,
+  author       = "Jon Loeliger",
+  title        = "How to {G}it It",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 8,
+  number       = 3,
+  pages        = "36--41",
+  month        = mar,
+  keywords     = "source-code management, distributed version control,
+    plumbing, porcelain",
+  abstract     = "You've heard about it.  You've read about it.  But maybe you
+    just don't *cough* git it yet.  Linus converted to git, now you can too
+    with this overview.", 
+  location     = "http://www.linux-mag.com/id/2489/"
+}
+
+@Article{ulicfsmm,
+  author       = "Brian~N. Bershad and Thomas~E. Anderson and
+    Edward~D. Lazowska and Henry~M. Levy",
+  title        = "User-level interprocess communication for shared memory multiprocessors",
+  journal      = tocs,
+  year         = 1991,
+  volume       = 9,
+  number       = 2,
+  pages        = "175--198",
+  month        = may,
+  keywords     = "thread, multiprocessor, operating system, parallel
+    programming, performance, communication",
+  abstract     = "In large, dynamic, real-time computer systems, it is 
+    frequently most cost effective to employ different software performance and
+    reliability techniques at different levels of granularity, at different
+    times, or within different subsystems.  These techniques may include
+    regulation of redundancy and resource allocation, multiversion and
+    multipath execution, adjustments of program attributes such as time-out
+    periods and others.  The management of software in such systems is a
+    difficult task.  Software that may be adapted to meet varying performance
+    and reliability requirements offers a solution.  A REal-time Software
+    Adaptation System (RESAS) includes a uniform model of adaptable software
+    and provides the tool necessary for programmers to implement algorithms
+    that choose and enact adaptations in real time.  RESAS has been implemented
+    on a testbed consisting of a multiprocessor and an attached workstation,
+    and adaptation algorithms have been developed that address the problem of
+    adapting software to achieve two goals: software execution within specified
+    time constraints and software resiliency with respect to computer hardware
+    failures.", 
+  location     = "http://dx.doi.org/10.1145/103720.114701"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
