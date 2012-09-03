@@ -10753,6 +10753,115 @@
   location     = "http://dx.doi.org/10.1145/103720.114701"
 }
 
+@Article{trhjg,
+  author       = "Jeremy Garcia",
+  title        = "The Rootkit Hunter",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 9,
+  pages        = 18,
+  month        = sep,
+  keywords     = "security, rootkits",
+  abstract     = "Learn how to install and set up Rootkit Hunter, a utility to
+    stalk rootkits.",
+  location     = "http://www.linux-mag.com/id/2212/"
+}
+
+@Article{ktsv,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Kernel Threads",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 9,
+  pages        = "28--32",
+  month        = sep,
+  keywords     = "threading, kernels, user mode",
+  abstract     = "Kernel threads are used to implement background tasks inside
+    the kernel.  They are similar to user processes, but live in kernel address
+    space.  Here’s how to use them.", 
+  location     = "http://www.linux-mag.com/id/2195/"
+}
+
+@Article{eprws,
+  author       = "Roderick~W. Smith",
+  title        = "Ethereal Power",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 9,
+  pages        = "58--60, 67",
+  month        = sep,
+  keywords     = "packet sniffing, networks, traffic monitoring, data
+    analysis, ", 
+  abstract     = "See how to use Ethereal to monitor your network’s traffic.",
+  location     = "http://www.linux-mag.com/id/2197/"
+}
+
+@Article{nsptf,
+  author       = "Jerry Peek",
+  title        = "New Shells, Part Three: fish",
+  journal      = lmag,
+  year         = 2006,
+  volume       = 7,
+  number       = 12,
+  pages        = "14--19",
+  month        = dec,
+  keywords     = "shells, syntax highlighting, tab completion, shell
+    programming",
+  abstract     = {The Friendly Interactive Shell, or fish, is “friendly”
+    because it’s easier to use, not because it’s “dumbed down.”},
+  location     = "http://www.jpeek.com/articles/linuxmag/2005-12/"
+}
+
+@Article{latb,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Linux and the {BIOS}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 12,
+  pages        = "26--30",
+  month        = dec,
+  keywords     = "assembly code, real mode, bios calls, system management,
+    protected mode",
+  abstract     = "The x86 kernel has direct and indirect dependencies on the
+    system BIOS.  Here’s a look at some of the guts.",
+  location     = "http://www.linux-mag.com/id/2357/"
+}
+
+@Article{mwfwu,
+  author       = "Joab Jackson",
+  title        = "Make Way for Wireless {USB}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 12,
+  pages        = "50--52",
+  month        = dec,
+  keywords     = "usb, wireless devices, ultra wideband",
+  abstract     = "USB did away with specialized cables and magic incantations
+    to attach peripherals to computers.  Now, Wireless USB plans on doing away
+    with cables completely.  Here’s a look at how it works and when you can
+    expect it to show up in Linux.", 
+  location     = "http://www.linux-mag.com/id/2355/"
+}
+
+@Article{ctrws,
+  author       = "Roderick~W. Smith",
+  title        = "Controlling Time",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 12,
+  pages        = "56--58",
+  month        = dec,
+  keywords     = "ntp, ntp servers, network configuration",
+  abstract     = "Keep time synchronized with the Network Time Protocol.",
+  location     = "http://www.linux-mag.com/id/2359/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
