@@ -1286,6 +1286,7 @@ forward acknowledgement refining tcp congestion control  : mathis
 foundations for object oriented programming : mitchell
 foundations for the study of software architecture : perry
 four systems of policy politics and choice : lowi
+fp oop haskell : berger
 fractal rulers : swan
 frame relay protocols architecture operation and performance : hunt
 frame relaying and the fast packet switching concepts and issues : rahnema
@@ -3280,6 +3281,7 @@ use of prolog for developing a new programming language : armstrong
 use your singletons wisely : rainsberger
 usenetfs a stackable file system for large article directories : zadok
 user interface application communication in the chimera user interface management system : wood
+user level interprocess communication for shared memory multiprocessors : bershad
 user level management of persistent data in the grasshopper operating system : dearle
 user level protocol servers with kernel level performance : brustoloni
 users are not the enemy : adams
