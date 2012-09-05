@@ -25968,7 +25968,13 @@
   year         = 1995,
   number       = 21,
   address      = zusw,
-  keywords     = "",
+  keywords     = "tla, z machines, refinement, data refinement, operation
+    refinement, fairness", 
+  abstract     = "The formal specification language Z is successfully used to 
+    specify transformational programs.  Complex systems can only be adequately
+    modeled by infinite sequences of states.  In this paper we develop a
+    systematic approach to use standard Z to specify complex systems by
+    adapting central ideas of TLA to Z.", 
   location     = "/ftp.ifi.unizh.ch:/pub/techreports/TR-95/ifi-95.21.ps.gz"
 }
 
