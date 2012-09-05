@@ -3098,19 +3098,6 @@
   keywords     = "inlining"
 }
 
-@article{fcult,
-  author	= "George Varghese and Tony Lauck", 
-  title		= "Hashed and Hierarchical Timing Wheels:  Data Structures for
-		   the Efficient Implementation of a Timer Facility",
-  journal	= osr # " (" # pot # "Ninth" # sosp # ")", 
-  year		= 1983,
-  volume        = 17,
-  number        = 5,
-  pages		= "25--38",
-  month         = dec,
-  keywords	= "timers, interrupts"
-}
-
 @Article{tldos,
   author       = "Bruce Walker and Gerald Popek and Robert English and Charles
 		  Kline and Greg Thiel",
