@@ -10862,6 +10862,208 @@
   location     = "http://www.linux-mag.com/id/2359/"
 }
 
+@Article{bujg,
+  author       = "Jeremy Garcia",
+  title        = "Becoming Unplugged",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = 14,
+  month        = aug,
+  keywords     = "ifplugd, network management",
+  abstract     = "Learn how to install and setup ifplugd, a utility that
+    configures and reconfigures your network as an Ethernet cable is connected
+    and disconnected.",
+  location     = "http://www.linux-mag.com/id/2169/"
+}
+
+@Article{wsgpt,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Three",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = "16--18",
+  month        = aug,
+  keywords     = "backups, cp",
+  abstract     = "Utility programs like cp have new features you may not have
+    seen. Here’s our third of a series about some of the handiest.",
+  location     = "http://www.jpeek.com/articles/linuxmag/2005-08/"
+}
+
+@Article{patsv,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Profiling and Tracing",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = "28--32",
+  month        = aug,
+  keywords     = "kernel profiling, oprofile, trace toolkit",
+  abstract     = "Profiling helps find code bottlenecks.  Trace tools provide
+    the ability to extract and interpret details about code execution.",
+  location     = "http://www.linux-mag.com/id/2151/"
+}
+
+@Article{ttnfs,
+  author       = "Mark~F. Komarinski",
+  title        = "Tuning the {N}etwork {F}ile {S}ystem",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = "34--39",
+  month        = aug,
+  keywords     = "performance tuning, nfs",
+  abstract     = "The Network File System is still commonly used to connect
+    desktops to file shares and to interconnect compute nodes in
+    high-performance clusters.  By tuning NFS — using just a handful of
+    parameters and measurements — you can help clients and servers run at peak
+    performance.  Here’s how.", 
+  location     = "http://www.linux-mag.com/id/2149/"
+}
+
+@Article{gwisw,
+  author       = "Sam Williams",
+  title        = "Git with It!",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = "40--43",
+  month        = aug,
+  keywords     = "distributed source management",
+  abstract     = "Just weeks ago, the kernel development team received a clear
+    edict from its benevolent dictator Linus Torvalds: Stop using BitKeeper,
+    start using (Torvalds's own) Git.  Some foretold of calamity, but what
+    impact has Git really had on kernel development? Here's an assessment from
+    Torvalds and others.", 
+  location     = "http://www.linux-mag.com/id/2089/"
+}
+
+@Article{cppt,
+  author       = "Roderick~W. Smith",
+  title        = "Configuring {PAM}, Part Two",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 8,
+  pages        = "58--62",
+  month        = aug,
+  keywords     = "pam configurations, modules, network authentication, password
+    stacks",
+  abstract     = "Configuring PAM can be tricky.  Look at some examples and
+    learn what rationales work for customizing your own.",
+  location     = "http://www.linux-mag.com/id/2153/"
+}
+
+@Article{hahtwdsfteioatf,
+  author       = "Geroge Varghese and Tony Lauck",
+  title        = "Hashed and hierarchical timing wheels: data structures for the efficient implementation of a timer facility",
+  journal      = osr # "(" # pot # "Eleventh " # sosp # ")",
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "25--38",
+  month        = nov,
+  keywords     = "timer queues, timer management, performance, discrete event
+    simulations, hashing", 
+  abstract     = "Conventional algorithms to implement an Operating System
+    timer module take O(n) time to start or maintain a timer, where n is
+    the number of outstanding timers: this is expensive for large n.  This
+    paper begins by exploring the relationship between timer algorithms, time
+    flow mechanisms used in discrete event simulations, and sorting techniques.
+    Next a timer algorithm for small timer intervals is presented that is
+    similar to the timing wheel technique used in logic simulators.  By using a
+    circular buffer or timing wheel, it takes O(1) time to start, stop, and
+    maintain timers within the range of the wheel.Two extensions for larger
+    values of the interval are described.  In the first, the timer interval is
+    hashed into a slot on the timing wheel.  In the second, a hierarchy of
+    timing wheels with different granularities is used to span a greater range
+    of intervals.  The performance of these two schemes and various
+    implementation trade-offs are discussed.", 
+  location     = "http://www.cs.columbia.edu/~nahum/w6998/papers/sosp87-timing-wheels.pdf"
+}
+
+@Article{dstjg,
+  author       = "Jeremy Garcia",
+  title        = "Downloading Source Trees",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 10,
+  pages        = "14",
+  month        = oct,
+  keywords     = "cvs, svn",
+  abstract     = "Discover how to check out the latest development tree of your
+    favorite projects using CVS or Subversion.",
+  location     = "http://www.linux-mag.com/id/2218/"
+}
+
+@Article{minis,
+  author       = "Michael Bordash",
+  title        = "Moodle is Now in Session",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 10,
+  pages        = "24--27",
+  month        = oct,
+  keywords     = "class management systems, web services",
+  abstract     = "Teach your staff and students new tricks with the best online
+    course management system on the planet.",
+  location     = "http://www.linux-mag.com/id/2155/"
+}
+
+@Article{tpotsv,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "The Passage of Time",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 10,
+  pages        = "28--34",
+  month        = oct,
+  keywords     = "jiffies, delay, precision, timer management, real-time
+    clock",
+  abstract     = "The kernel keeps track of the flow of time.  It PROVIDES
+    services to sleep wait for long periods and busy wait for short periods,
+    can schedule events to run at a future time, and can do periodic work with
+    microsecond precision.  Here’s a look at kernel time.", 
+  location     = "http://www.linux-mag.com/id/2272/"
+}
+
+@Article{xguaw,
+  author       = "Andrew Warfield and Kier Fraser",
+  title        = "Xen Grows Up",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 10,
+  pages        = "36--41",
+  month        = oct,
+  keywords     = "paravirtualization, device drivers, operating systems",
+  abstract     = "",
+  location     = ""
+}
+
+@Article{hpurws,
+  author       = "Roderick~W. Smith",
+  title        = "Hot Plugging {USB}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 10,
+  pages        = "58--61",
+  month        = oct,
+  keywords     = "usb drivers, usb filesystem, libusb",
+  abstract     = "Learn how to get the most out of USB hardware in Linux.",
+  location     = "http://www.linux-mag.com/id/2223/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
