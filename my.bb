@@ -10878,7 +10878,7 @@
   location     = "http://www.linux-mag.com/id/2169/"
 }
 
-@Article{wsgpt,
+@Article{wsgp3,
   author       = "Jerry Peek",
   title        = "What's {GNU}, Part Three",
   journal      = lmag,
@@ -11062,6 +11062,282 @@
   keywords     = "usb drivers, usb filesystem, libusb",
   abstract     = "Learn how to get the most out of USB hardware in Linux.",
   location     = "http://www.linux-mag.com/id/2223/"
+}
+
+@Article{vcacfsas,
+  author       = "Robert~C. Seacord",
+  title        = "Validating {C} and " # cpp # " For Safety and Security",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "6--10",
+  month        = feb,
+  keywords     = "source-code audits, code analysis, security",
+  abstract     = "Sometimes the only way to track down security flaws such as 
+    buffer overflows is to roll up your sleeves and manually review the code.
+    Robert outlines a process for manual review that's based on Safe-Secure
+    C/C++.", 
+  location     = "http://www.drdobbs.com/validating-c-and-c-for-safety-and-securi/184402075"
+}
+
+@Article{skaugas,
+  author       = "Glen Matthews",
+  title        = "{SSH} {K}erberos Authentication Using {GSSAPI} and {SSPI}",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "11--16",
+  month        = feb,
+  keywords     = "ssh, kerberos authentication, security contexts",
+  abstract     = "Kerberos authentication can be an effective safeguard against
+    man-in-the-middle attacks.  Glen implements Kerberos by way of two popular
+    APIs.", 
+  location     = "http://www.drdobbs.com/ssh-kerberos-authentication-using-gssapi/184402071"
+}
+
+@Article{afbmppfc,
+  author       = "Robert Kiesling",
+  title        = "{A} Frame-Based Message-Passing Parser for {C}",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "18--24",
+  month        = feb,
+  keywords     = "lexical analysis, stack frames, interpreting c, subexpression
+    analysis, ",
+  abstract     = "Ctalk, an object-oriented preprocessor for ANSI C, contains a
+    novel parser design that's well suited to interpreting object-oriented
+    languages.",
+  location     = "http://www.drdobbs.com/a-frame-based-message-passing-parser-for/184402070"
+}
+
+@Article{saroo,
+  author       = "Sander Stoks",
+  title        = "Syntactic {A}spartame:  Recreational Operator Overloading",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "25--27",
+  month        = feb,
+  keywords     = "operator overloading"
+}
+
+@Article{acic,
+  author       = "Phillip Bruce",
+  title        = "Associative Chains in " # cpp,
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "28--33",
+  month        = feb,
+  keywords     = "pointer-to-member, associative chains, clanks, tangential
+    reference",
+  abstract     = "Phillip gets around some of the limitations of the
+    pointer-to-member with a model of class associations that he calls
+    Associative Chains.",
+  location     = "http://www.drdobbs.com/associative-chains-in-c/184402067"
+}
+
+@Article{micu,
+  author       = "Jack Reeves",
+  title        = "Multiple Inheritance Considered Useful",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "34--40",
+  month        = feb,
+  keywords     = "vtables, class layout",
+  abstract     = "Arguments against multiple inheritance range from the
+    philosophical to the practical, but in the end only one question matters:
+    Is it useful?",
+  location     = "http://www.drdobbs.com/multiple-inheritance-considered-useful/184402074"
+}
+
+@Article{ccsrj,
+  author       = "Rex Jaeschke",
+  title        = cpp # "/{CLI} Sockets",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "41--44",
+  month        = feb,
+  keywords     = "server-side sockets, client-side sockets, serialization",
+  abstract     = "If you want interprocess or interapplication communication,
+    you want to know how to use sockets.",
+  location     = "http://www.drdobbs.com/ccli-sockets/184402069"
+}
+
+@Article{mwek,
+  author       = "Andrei Alexandrescu",
+  title        = "Maps with Expensive Keys",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "46--49",
+  month        = feb,
+  keywords     = "maps, keys"
+}
+
+@Article{iaait,
+  author       = "Andrew Koenig and Barbara~E. Moo",
+  title        = "Invariants as an Intellectual Tool",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "50--54",
+  month        = feb,
+  keywords     = "invariants, program understanding, program design, linear
+    search, class invariants", 
+  abstract     = "Invariants are a great way to make sure your loops are doing
+    what you expect.", 
+  location     = "http://www.drdobbs.com/invariants-as-an-intellectual-tool/184402072"
+}
+
+@Article{satpi,
+  author       = "Pete Becker",
+  title        = "{STL} and {TR1}: Part {III}",
+  journal      = ccppuj,
+  year         = 2006,
+  volume       = 24,
+  number       = 2,
+  pages        = "55--59",
+  month        = feb,
+  keywords     = "hash tables",
+  abstract     = "With TR1, C++ gets hash tables in the form of the template
+    classes unordered_map, unordered_multimap, unordered_set, and
+    unordered_multiset.",
+  location     = "http://www.drdobbs.com/stl-and-tr1-part-iii/184402066"
+}
+
+@Article{hips,
+  author       = "Scott Granneman",
+  title        = "Hide in Plain Sight",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "10",
+  month        = jul,
+  keywords     = "steganography, image processing",
+  abstract     = "Hide messages in images with simple steganography tools.",
+  location     = "http://www.linux-mag.com/id/2097/"
+}
+
+@Article{tuwht,
+  author       = "Jeremy Garcia",
+  title        = "Tidy Up With {HTML} {\tt tidy}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "12",
+  month        = jul,
+  keywords     = "text processing, pretty printers, html",
+  abstract     = "HTML Tidy cleans and pretty prints your HTML.",
+  location     = "http://www.linux-mag.com/id/2124/"
+}
+
+@Article{wsgp2,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part Two",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "14--18",
+  month        = jul,
+  keywords     = "grep, color text, non-text search",
+  abstract     = "Utility programs like grep have new features that you may not
+    have seen.  Here’s the second of a series of articles about some of the
+    handiest.",
+  location     = "http://www.jpeek.com/articles/linuxmag/2005-07/"
+}
+
+@Article{kakb,
+  author       = "Michael Bordash",
+  title        = "Keeping a Knowledge Base",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "22--24",
+  month        = jul,
+  keywords     = "knowledge tree, ",
+  abstract     = "Work smarter by storing your vital brain tools in an 
+    open-source knowledge base.",
+  location     = "http://www.linux-mag.com/id/2107/"
+}
+
+@Article{kdsvlm,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Kernel Debuggers",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "26--28, 60",
+  month        = jul,
+  keywords     = "debugging, kdb, kgdb, jtag, ",
+  abstract     = "Debuggers make kernel internals more transparent.  On Linux,
+    they come in different flavors: The Kernel debugger, kdb, the Kernel GNU
+    debugger, kgdb, the GNU debugger, gdb, and JTAG- based debuggers.  Learn
+    how to use the former three in this month’s column.",
+  location     = "http://www.linux-mag.com/id/2103/"
+}
+
+@Article{rmrjgc,
+  author       = "John Graham-Cumming",
+  title        = "Recursive {\tt make} Reloaded",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "30--35",
+  month        = jul,
+  keywords     = "recursion, make",
+  abstract     = "It’s been eight years since recursive make was called
+    harmful, but developers still use it.  Here’s how to break the habit.",
+  location     = "http://www.linux-mag.com/id/2101/"
+}
+
+@Article{isook,
+  author       = "Oliver Kiddle",
+  title        = "In Search of\ldots",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "36--40",
+  month        = jul,
+  keywords     = "extended attributes, zsh, variable expansion",
+  abstract     = "Extended attributes are a fairly new addition to Linux.
+    Learn how to manage files more effectively with extended attributes and the
+    Z Shell.", 
+  location     = "http://www.linux-mag.com/id/2127/"
+}
+
+@Article{cppo,
+  author       = "Roderick~W. Smith",
+  title        = "Configuring {PAM}, Part One",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 7,
+  pages        = "52--55",
+  month        = jul,
+  keywords     = "pam, configuration files, module stacks",
+  abstract     = "Start using the Pluggable Authentication Modules(PAM) system
+    to manage login authentication.",
+  location     = "http://www.linux-mag.com/id/2105/"
 }
 
 @Manual{tsotje,
