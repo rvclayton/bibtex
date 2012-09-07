@@ -551,7 +551,7 @@
 
 @Article{ioafo,
   author       = "Matt Austern",
-  title        = "{I}/{O} and Function Objects",
+  title        = "{I}\slash {O} and Function Objects",
   journal      = ccppuj,
   year         = 2001,
   volume       = 19,
@@ -2789,7 +2789,7 @@
 
 @Article{cmmamp4tsniowu,
   author       = "Mark Burgess",
-  title        = "Configuration Management: Models and Myths. Part 4: There's No {I}/{O} Without {U}",
+  title        = "Configuration Management: Models and Myths. Part 4: There's No {I}\slash{O} Without {U}",
   journal      = login,
   year         = 2006,
   volume       = 32,
@@ -3783,7 +3783,7 @@
 
 @Article{scicc,
   author       = "Robert~C. Seacord",
-  title        = "Secure Coding In " # cpp # "/{CLI}",
+  title        = "Secure Coding In " # cpp # "\slash {CLI}",
   journal      = ddj,
   year         = 2006,
   number       = 385,
@@ -9252,7 +9252,7 @@
 
 @Article{ilsfgl,
   author       = "Frederick Noronha",
-  title        = "Indian language solutions for {GNU}/{L}inux",
+  title        = "Indian language solutions for {GNU}\slash {L}inux",
   journal      = lj,
   year         = 2002,
   number       = 103,
@@ -9877,7 +9877,7 @@
   year         = 2006,
   volume       = 8,
   number       = 9,
-  pages        = "34--",
+  pages        = "34--37",
   month        = sep,
   keywords     = "certificate authority, security, ssl, client certificates",
   abstract     = "Learn how to create server and client SSL certificates using
@@ -11161,7 +11161,7 @@
 
 @Article{ccsrj,
   author       = "Rex Jaeschke",
-  title        = cpp # "/{CLI} Sockets",
+  title        = cpp # "\slash {CLI} Sockets",
   journal      = ccppuj,
   year         = 2006,
   volume       = 24,
@@ -11338,6 +11338,157 @@
   abstract     = "Start using the Pluggable Authentication Modules(PAM) system
     to manage login authentication.",
   location     = "http://www.linux-mag.com/id/2105/"
+}
+
+@Article{hiobwi,
+  author       = "Jeremy Garcia",
+  title        = "Hunting {I}\slash {O} Bottlenecks with {\tt iostat}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 5,
+  pages        = "20",
+  month        = may,
+  keywords     = "performance, io",
+  abstract     = "The October 2004 “Tech Support” column showed you how to 
+    track down performance bottlenecks using vmstat.  This month, let’s take a
+    closer look at input/output (I/O) issues that you may have identified using
+    vmstat.",
+  location     = "http://www.linuxquestions.org/linux/articles/Jeremys_Magazine_Articles/Hunting_I_O_Bottlenecks_with_iostat"
+}
+
+@Article{ftjp,
+  author       = "Jerry Peek",
+  title        = "Filename Trouble",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 5,
+  pages        = "22--26",
+  month        = may,
+  keywords     = "parsing, shell, quoting, variable substitution, symbolic
+    links", 
+  abstract     = "Spaces in filenames can cause some pesky problems. But there
+    are workarounds.", 
+  location     = "http://www.jpeek.com/articles/linuxmag/2005-05/"
+}
+
+@Article{wpcdd,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Writing {PCMCIA}\slash {CF} Device Drivers",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 5,
+  pages        = "32--35, 56",
+  month        = may,
+  keywords     = "device drivers, pcmcia, card services, host controllers, ",
+  abstract     = "Technologies like Wi-Fi, GPRS, and miniature storage devices
+    are ubiquitous today as PCMCIA or CF cards.  The Linux kernel supports
+    PCMCIA devices on a variety of architectures.",
+  location     = "http://www.linux-mag.com/id/1981/"
+}
+
+@Article{cprws,
+  author       = "Roderick~W. Smith",
+  title        = "Creating {PDF}s",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 5,
+  pages        = "48--51",
+  month        = may,
+  keywords     = "postscript, pdf, document management, ghostscript",
+  abstract     = "Sharing documents such as papers, reports, and specifications
+    is made easy with Adobe’s Portable Document Format (PDF).  Here’s a primer
+    on how to create PDFs on Linux.",
+  location     = "http://www.linux-mag.com/id/1983/"
+}
+
+@Article{ktcars,
+  author       = "Scott Granneman",
+  title        = "{\tt klik}: True Click-and-Run Software",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 6,
+  pages        = 12,
+  month        = jun,
+  keywords     = "software management, package management",
+  abstract     = "Install software safely and easily... with just one klik!",
+  location     = "http://www.linux-mag.com/id/2034/"
+}
+
+@Article{tdjg,
+  author       = "Jeremy Garcia",
+  title        = "Tunneling Data",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 5,
+  pages        = "26--27",
+  month        = may,
+  keywords     = "tunneling, networking",
+  abstract     = "Network tunneling can be helpful and even necessary, but it 
+    can also be used to circumvent security policies.  Here’s a survey of the
+    best tunneling tools available and a list of techniques that may help you
+    detect active tunnels.", 
+  location     = "http://www.linux-mag.com/id/2062/"
+}
+
+@Article{wsgpo,
+  author       = "Jerry Peek",
+  title        = "What's {GNU}, Part One",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 6,
+  pages        = "30--32",
+  month        = jun,
+  keywords     = "ls, shell commands",
+  abstract     = "Utility programs like ls have new features that you may not
+    have seen. This is the first in a series about some of the handiest
+    enhancements.",
+  location     = "http://www.jpeek.com/articles/linuxmag/2005-06/"
+}
+
+@Article{nswpc,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Networking, Storage with {PC} Cards",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 6,
+  pages        = "38--41",
+  month        = jun,
+  keywords     = "pcmcia storage, cardbus, 802 wlan cards"
+}
+
+@Article{taoep,
+  author       = "Sam Hopkins",
+  title        = "The {ATA} over {E}thernet Protocol",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 6,
+  pages        = "48--51",
+  month        = jun,
+  keywords     = "ata, ethernet"
+}
+
+@Article{tsotpt,
+  author       = "Sam Williams",
+  title        = "The State of the Penguin: Telecom",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 6,
+  pages        = "54--57",
+  month        = jun,
+  keywords     = "cost, unix",
+  abstract     = "From data centers to hand held receivers, Linux is changing
+    how manufacturers and carriers do business — for the better.",
+  location     = "http://www.linux-mag.com/id/2030/"
 }
 
 @Manual{tsotje,
@@ -11539,3 +11690,24 @@
     reasoned about formally.", 
   location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/pluscal.pdf"
 }
+
+@TechReport{anstftmorsidi,
+  author       = "Guido Hogen and Rita Loogen",
+  title        = "{A} New Stack Technique for the Management of Runtime Structures in Distribued Implementations",
+  institution  = "Lehstuhl f{\" u}r Informatik, RWTH Aachen",
+  year         = 1993,
+  number       = "93--3",
+  address      = "Aachen, Germany",
+  keywords     = "functional languages, reduction semantics, meshed stacks,
+    parallelism, process management, message handling",
+  abstract     = "A new technique for the management of runtime structures in 
+    distributed implementations is presented.  Instead of storing the runtime
+    stacks of parallel processes as linked lists of function blocks in a heap
+    structure, the local stacks of several parallel processes, which are
+    executed on the same processor element, are stored in an interleaved manner
+    on a single physical stack, called the meshed stack.  The technique
+    originated from the stack organisation in the well known Warren Abstract
+    Machine (WAM) for logic languages, where the runtime information of several
+    alternative computation branches is stored on a single stack." 
+}
+
