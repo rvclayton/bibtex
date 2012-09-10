@@ -11491,6 +11491,204 @@
   location     = "http://www.linux-mag.com/id/2030/"
 }
 
+@Article{tuptpt,
+  author       = "Jerry Peek",
+  title        = "The Unknown Power Tool, Part Two",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "20--22, 62",
+  month        = mar,
+  keywords     = "included files, diversions, m4, macro processors",
+  abstract     = "Dig deeper into m4, and look at included files, diversions,
+    frozen files, and debugging and tracing.",
+  location     = "http://www.linux-mag.com/id/1903/"
+}
+
+@Article{syep2,
+  author       = "Michael Bordash",
+  title        = "Securing Your Environment, Part 2",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "24--26",
+  month        = mar,
+  keywords     = "snort, acid, intrusion detection, security",
+  abstract     = "SNORT looks for intrusions, while ACID can help you make
+    sense of what’s happened after an intrusion.",
+  location     = "http://www.linux-mag.com/id/1895/"
+}
+
+@Article{wakld,
+  author       = "Sreekishnan Venkateswaran",
+  title        = "Writing a Kernel Line Discipline",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "28--32",
+  month        = mar,
+  keywords     = "line disciplines, i-o processing, operating systems",
+  abstract     = "Look at the internals of a line discipline and implement a 
+    simple line discipline for a serial touch screen controller.",
+  location     = "http://www.linux-mag.com/id/1891/"
+}
+
+@Article{tlerws,
+  author       = "Roderick~W. Smith",
+  title        = "The {L}inux {ER}",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "34--38",
+  month        = mar,
+  keywords     = "system recovery, recovery disks, file systems, system
+    management, hardware failures", 
+  abstract     = "A variety of causes — a forgotten root password, corrupted
+     partition tables, or a corrupt filesystem — can lead to serious problems,
+     up to and including an inability to boot the computer.  When such problems
+     occur, it’s time to reach for your first aid kit.  Not prepared? Scrub in
+     and learn how to handle the worst.  Welcome to the Linux ER.", 
+  location     = "http://www.linux-mag.com/id/2242/"
+}
+
+@Article{twkmr,
+  author       = "Mark Ramm",
+  title        = "The Watcher Knows",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "40--44",
+  month        = mar,
+  keywords     = "zabbix servers, system management, monitoring",
+  abstract     = "It’s 3 a.m.  Do you know what your servers are doing? Is your
+    web server struggling to handle its load? Is one of your application
+    servers running out of hard disk space or memory? Is that legacy Windows
+    server infected with the worm of the week? ZABBIX knows.", 
+  location     = "http://www.linux-mag.com/id/1890/"
+}
+
+@Article{tcst,
+  author       = "Matt Frye",
+  title        = "The Coroner's Toolkit",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "46--49, 62",
+  month        = mar,
+  keywords     = "file system recovery, system management",
+  abstract     = "When a malcontent breaks into, or cracks, your computer, your
+    reactions are likely to be very much the same.  What was taken? What was
+    left behind? Is the computer safe to use? How can I keep my computer safer
+    in the future? To find answers, reach for The Coroner’s Toolkit.", 
+  location     = "http://www.linux-mag.com/id/1889/"
+}
+
+@Article{tdus,
+  author       = "Roderick~W. Smith",
+  title        = "Tracking Down Unnecessary Servers",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 3,
+  pages        = "50--52",
+  month        = mar,
+  keywords     = "netstat, system management, security",
+  abstract     = "To keep your system running securely and efficiently, you 
+    should periodically audit your system, looking for servers that need not be
+    running.  Here’s how to do it.", 
+  location     = "http://www.linux-mag.com/id/1893/"
+}
+
+@Article{fafc,
+  author       = "Jeremy garcia",
+  title        = "Faster and Faster Compilation",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 4,
+  pages        = "18",
+  month        = apr,
+  keywords     = "distcc, ccache, optimizations, compilation",
+  abstract     = "Learn how to use ccache and distcc to speed up compilation.",
+  location     = "http://www.linux-mag.com/id/1940/"
+}
+
+@Article{mdsjp,
+  author       = "Jerry Peek",
+  title        = "More Data Surgery",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 4,
+  pages        = "20--24",
+  month        = apr,
+  keywords     = "fmt, argument groups, join, text processing, column, printf",
+  abstract     = "Got text data? Linux has a variety of tools to format,
+    process, and print it.", 
+  location     = "http://www.linux-mag.com/id/1921/"
+}
+
+@Article{wtw,
+  author       = "Steve Friedl",
+  title        = "Watching the {W}eb",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 4,
+  pages        = "30--34, 56",
+  month        = apr,
+  keywords     = "referrers, traffic analysis, statistics",
+  abstract     = {Everyone that runs a web site wants to know “How am I doing?”
+    The total number of hits, the number of unique visitors, and what pages are
+    the most popular are just a few of the metrics that gauge a site’s traffic.
+    All of that important data exists in the web server’s log — if only you can
+    tease it out.  While several commercial applications provide such analysis,
+    The Webalizer is a free and fast log analyzer that may just be superior,
+    too.  Here’s a hands-on guide.}, 
+  location     = "http://www.linux-mag.com/id/1942/"
+}
+
+@Article{tpws,
+  author       = "Jeremy Garcia",
+  title        = "Transparent Proxying with {S}quid",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 4,
+  pages        = "36--38, 58",
+  abstract     = "caching, squid, proxying",
+  month        = apr,
+  keywords     = "Squid is often used as a reverse proxy to spare web servers
+    from repeated requests for the same content.  But Squid can also be used to
+    spare you from interminable delays when requesting content.  Deployed as a
+    local caching proxy, Squid can reduce your site’s bandwidth consumption and
+    make browsing more responsive.  Learn how it works, and start saving time
+    and money today.", 
+  location     = "http://www.linux-mag.com/id/1928/"
+}
+
+@Article{pbrws,
+  author       = "Roderick~W. Smith",
+  title        = "Partimage Backups",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 4,
+  pages        = "46--48",
+  month        = apr,
+  keywords     = "disk imaging, disk back-ups, file systems",
+  abstract     = "Whatever you’re doing, stop! Have you backed up your systems
+    today? If so, great! If not, try Partimage to make copies of entire
+    partitions.", 
+  location     = "http://www.linux-mag.com/id/1929/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
