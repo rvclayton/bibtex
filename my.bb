@@ -11689,6 +11689,159 @@
   location     = "http://www.linux-mag.com/id/1929/"
 }
 
+@Article{rclts,
+  author       = "Scott Granneman",
+  title        = "Rip, Convert, Listen: The Sequel",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "16",
+  month        = dec,
+  keywords     = "audio",
+  abstract     = "If you listen to Ogg Vorbis files, KRename and EasyTAG makes
+    organizing those files a snap.", 
+  location     = "http://www.linux-mag.com/id/2070/"
+}
+
+@Article{qtadb,
+  author       = "Jeremy Garcia",
+  title        = "Quick Tricks and Dirty Backups",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "18",
+  month        = dec,
+  keywords     = "backups, rsync",
+  abstract     = "Let's face it, even rsync and tar is better than nothing.",
+  location     = "http://www.linux-mag.com/id/1816/"
+}
+
+@Article{ottraoof,
+  author       = "Jerry Peek",
+  title        = "On the {T}(r)ail of Open Files",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "20--22",
+  month        = dec,
+  keywords     = "open files, file systems, ",
+  abstract     = "Learn how Linux manages open files and explore a number of
+    utilities to watch files as they grow.",
+  location     = "http://www.jpeek.com/articles/linuxmag/2004-12/"
+}
+
+@Article{smmb,
+  author       = "Michael Bordash",
+  title        = "Streaming {MP3}s",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "26--28",
+  month        = dec,
+  keywords     = "zina, music server, mp3",
+  location     = "http://www.linux-mag.com/id/1819/"
+}
+
+@Article{silrws,
+  author       = "Roderick~W. Smith",
+  title        = "Sound in {L}inux",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "34--41",
+  month        = dec,
+  keywords     = "sound managers, sound drivers, alsa, oss, sound libraries"
+}
+
+@Article{pmgnmf,
+  author       = "Nigel McFarlane",
+  title        = "Power {M}ozilla {GUI}s",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "42--49",
+  month        = dec,
+  keywords     = "xul, platform guis, interface building",
+  location     = "http://www.linux-mag.com/cgi-bin/r?m=r60&u=60/mozilla_01.html"
+}
+
+@Article{tfwf,
+  author       = "Roderick~W. Smith",
+  title        = "Tweaking Fonts with {FontForge}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 12,
+  pages        = "58--59, 71",
+  month        = dec,
+  keywords     = "fonts, characters",
+  location     = "http://www.linux-mag.com/id/1820/"
+}
+
+@Article{mmmpo,
+  author       = "Jerry Peek",
+  title        = "Magnificent Macro Magic, Part One",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 2,
+  pages        = "16--19, 71",
+  month        = feb,
+  keywords     = "m4, macro processing, text processing, quoting, ",
+  abstract     = "m4 is a powerful macro processor that's been around for more
+    than thirty years.  Here's the first of two parts, introducing its many
+    magnificent talents.",
+  location     = "http://www.linux-mag.com/id/163/"
+}
+
+@Article{tapr,
+  author       = "Ryan Bloom",
+  title        = "The {A}pache {P}ortable {R}untime",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 2,
+  pages        = "32--36",
+  month        = feb,
+  keywords     = "system portability, portability layer",
+  abstract     = "If you’ve ever had to write a portable application in C,
+    you’ve likely run into the same problem faced by countless other
+    programmers: no matter how much you try to stick to a well-defined
+    application programming interface (API), the program just doesn’t work the
+    same on every platform.  While POSIX does a passable job of providing a
+    portable API for most Unix and Unix-like platforms, POSIX either doesn’t
+    exist on other operating systems or is so full of bugs as to be unusable.
+    Moreover, POSIX isn’t always the best choice.  Non-Unix platforms, such as
+    Microsoft Windows, have their own APIs that are better mantained and
+    perform better on that platform.  So, to make something portable, you could
+    write, rewrite, and tweak your code several times — at least so the code
+    compiles on several platforms.  Or, you can use the Apache Portable Runtime
+    (http://apr.apache.org/) the same library that makes the ubiquitous Apache
+    HTTP server portable.  If it’s good enough for Apache, well, enough said.", 
+  location     = "http://www.linux-mag.com/id/154/"
+}
+
+@Article{totitb,
+  author       = "Jon Erickson",
+  title        = "The Oldest Trick in the Book",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 7,
+  number       = 2,
+  pages        = "38--46",
+  month        = feb,
+  keywords     = "security, secure programming, hacking, buffer overflow, shell
+    code, exploits",
+  abstract     = "Learn about buffer overflow exploits and how to avoid them.",
+  location     = "http://www.linux-mag.com/id/155/"
+}
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
