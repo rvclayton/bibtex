@@ -536,6 +536,16 @@
   location     = "DS 318.6.D42"
 }
 
+@Book{tmpje,
+  author       = "Jeffrey Eguenides",
+  title        = "The Marriage Plot",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "young life",
+  location     = "PS 3555.U4 M37"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -4636,7 +4646,7 @@
 
 @Article{scctsh,
   author       = "Stephen Hutton",
-  title        = "Supporting Custom {C}++ Types",
+  title        = "Supporting Custom " # cpp # " Types",
   journal      = ddj,
   year         = 2006,
   number       = 386,
@@ -11202,7 +11212,7 @@
   location     = "http://www.drdobbs.com/invariants-as-an-intellectual-tool/184402072"
 }
 
-@Article{satpi,
+@Article{satp3,
   author       = "Pete Becker",
   title        = "{STL} and {TR1}: Part {III}",
   journal      = ccppuj,
@@ -11842,6 +11852,263 @@
   location     = "http://www.linux-mag.com/id/155/"
 }
 
+@Article{kfss,
+  author       = "Janson Perlow",
+  title        = "Keeping {F}edora Ship-Shape",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "18--20",
+  month        = oct,
+  keywords     = "system management, fedora",
+  abstract     = "I've started to have a sort of love-hate relationship with
+    Fedora.  On the one hand, I like the fact that the Fedora Project keeps
+    their distribution constantly up-to-date, making all of the latest and
+    greatest advancements in KDE, GNOME, OpenOffice.org, and so on available to
+    me.  On the other hand, Fedora can sometimes be as stable as Anne Heche
+    strung out on peyote.", 
+  location     = "http://www.linux-mag.com/id/1772/"
+}
+
+@Article{pial,
+  author       = "Jeremy Garcia",
+  title        = "Peeking In, At {L}inux",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "24",
+  month        = oct,
+  keywords     = "font management, true type fonts",
+  location     = "http://www.linuxquestions.org/linux/articles/Jeremys_Magazine_Articles/Peeking_In_At_Linux"
+}
+
+@Article{pdsjp,
+  author       = "Jerry Peek",
+  title        = "Performing Data Surgery",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "26--28",
+  month        = oct,
+  keywords     = "data management, dd, ",
+  abstract     = "A year ago, the November 2003 Power Tools column (available
+    online at http://www.linux-mag.com/2003-11/power_01.html) looked into some
+    lesser-known tools for editing text: the line editors ex and ed, and the
+    stream editor sed.",
+  location     = "http://www.linux-mag.com/id/1775/"
+}
+
+@Article{egcca,
+  author       = "Clay Andres",
+  title        = "Enterprise Grid Computing",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "38--42",
+  month        = oct,
+  keywords     = "grid computing, enterprise computing",
+  abstract     = "Imagine all of the processing power within your enterprise -
+    from every large and small server and cluster in every datacenter, to every
+    networked personal computer - all available to work on solving the day's
+    business problems.  That's the notion of an enterprise grid, and if the
+    Enterprise Grid Alliance (EGA) fulfills its mission, a company-wide
+    computing farm will be a reality.", 
+  location     = "http://www.linux-mag.com/id/1768/"
+}
+
+@Article{naxaw,
+  author       = "Andrew Warfield and Keir Fraser",
+  title        = "Now and {X}en",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "44--50",
+  month        = oct,
+  keywords     = "paravirtualization, virtual machines",
+  abstract     = "How would you like to run several operating systems at once
+    on the same physical hardware with virtually no performance overhead - and
+    for free? That's the promise and the purpose of Xen, a relatively new open
+    source project that turns one piece of hardware into many, virtually.  If
+    you're looking to cut costs or maximize usage or both, follow the path to
+    Xen.", 
+  location     = "http://www.linux-mag.com/id/1769/"
+}
+
+@Article{uaorbs,
+  author       = "Roderick~W. Smith",
+  title        = "Using {A}pt on {RPM}-Based Systems",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "56--58",
+  month        = oct,
+  keywords     = "package management, software managment",
+  abstract     = "Managing packages can be a tricky undertaking, even with
+    package tools like the RPM Package Manager (RPM), the package management
+    tool used by Conectiva, Fedora, Mandrake, Red Hat, SuSE, Yellow Dog, and
+    many other distributions.  With RPM, you may try to install a package, only
+    to find that it depends on others you don't have.  Or, you might discover
+    that your packages are several versions out of date and then have to track
+    down and install potentially dozens of updates to fix security and other
+    problems with the old packages.", 
+  location     = "http://www.linux-mag.com/id/1779/"
+}
+
+@Article{pwj,
+  author       = "Jason Perlow",
+  title        = "{P2P} with {J}ava",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 11,
+  pages        = "18--20",
+  month        = nov,
+  keywords     = "p2p networking, java, bittorrent",
+  abstract     = "In this installment, I'd like to touch on an oft-forgotten
+    but increasingly important component of the Linux desktop: Java
+    applications.  Since Java is largely distribution neutral, what Java code
+    works on Fedora Core works for Debian, Red Hat, SuSE, Mandrake, and any
+    number of other distributions.  And, yes, Java applications really do
+    exist, and some are actually good.", 
+  OPTlocation  = "http://www.linux-mag.com/id/1795/"
+}
+
+@Article{rclsg,
+  author       = "Scott Granneman",
+  title        = "Rip Convert Listen",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 10,
+  pages        = "22",
+  month        = nov,
+  keywords     = "music files, ripping, conversion",
+  abstract     = "Linux offers several excellent music players, including (but
+    not limited to) XMMS, Zinf, noatun, amaroK, Juk, Rhythmbox, and Kaffeine.
+    Most of these can play streaming Internet audio, compact discs, and best of
+    all, digital audio files.  With music stored as digital audio files, you
+    can enjoy your music wherever and whenever you want to.", 
+  location     = "http://www.linux-mag.com/id/1796/"
+}
+
+@Article{apalm,
+  author       = "Jeremy garcia",
+  title        = "Alien Packages and {L}inux Mirrors",
+  journal      = lmag,
+  year         = 2005,
+  volume       = 6,
+  number       = 11,
+  pages        = "24",
+  month        = nov,
+  keywords     = "package management, rpms"
+}
+
+@Article{gam,
+  author       = "Jerry Peek",
+  title        = "{gFTP} and More",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 11,
+  pages        = "26--29",
+  month        = nov,
+  keywords     = "ftp, file transfer, protocols, ",
+  abstract     = "Linux often gives you lots of ways to do the same thing and
+    file transfer is no exception.  We covered file transfer in three columns
+    from March to May 2003 (available online at
+    http://www.linux-mag.com/depts/power.html).  This month let's look at yet
+    another variation using gFTP and some not-so-obvious details that can help
+    you navigate all of the file transfer protocols.", 
+  location     = "http://www.linux-mag.com/id/1798/"
+}
+
+@Article{aclrws,
+  author       = "Roderick~W. Smith",
+  title        = "Access Control Lists",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 11,
+  pages        = "64--66",
+  month        = nov,
+  keywords     = "acl, file systems, file permissions",
+  abstract     = "If you've used Linux for a long time, you're probably quite
+    familiar with file permissions.  Indeed, managing permissions is a critical
+    part of managing a Linux system.", 
+  location     = "http://www.linux-mag.com/id/1802/"
+}
+
+@Article{utceg,
+  author       = "Eric Gufford",
+  title        = "Unit Testing \& {CxxTest}",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "6--10",
+  month        = dec,
+  keywords     = "unit testing, logging, test fixtures",
+  abstract     = "Unit testing can save you time and catch bugs early in the
+    development cycle, but it can be tedious to set up.  CxxTest is a framework
+    that uses Perl to automate the creation of test classes for your
+    application.", 
+  location     = "http://www.drdobbs.com/unit-testing-cxxtest/184402043"
+}
+
+@Article{ctad,
+  author       = "Klaus Wittlich",
+  title        = "Compile-Time Assertions \& Debugging",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "11--12",
+  month        = dec,
+  keywords     = "compile-time assertions, debugging",
+  abstract     = "It's common practice to use assertions to check invariants at
+    runtime, but assertions can be equally useful at compile time for doing
+    things like checking arrays for proper size and order.", 
+  location     = "http://www.drdobbs.com/compile-time-assertions-debugging/184402051"
+}
+
+@Article{afffer,
+  author       = "Terence Parker",
+  title        = "{A} Flexible Framework For Error Reporting",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "14--18",
+  month        = dec,
+  keywords     = "singletons, logging",
+  abstract     = "Errors can often occur deep in a class or subroutine, but the
+    way you present that error should ideally be dependent on context.  The
+    solution is to separate error generation from error reporting.", 
+  location     = "http://www.drdobbs.com/a-flexible-framework-for-error-reporting/184402048"
+}
+
+@Article{mlpel,
+  author       = "Giri Mandalika",
+  title        = "Mixed-Language Programming \& Extended Linkage",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "20--22",
+  month        = dec,
+  keywords     = "external linkage, c++, name mangling",
+  abstract     = "Calling C code from C++ should be relatively straightforward,
+    but understanding the concept of linkage is key to ensuring a smooth
+    compile.",
+  location     = "http://www.drdobbs.com/mixed-language-programming-external-lin/184402045"
+} 
+
 @Manual{tsotje,
   title        = "The {\sc Opal} Tutorial",
   author       = "J{\" u}rgen Exner",
@@ -11857,6 +12124,156 @@
     of ambiguity, you should consult the reference manual The Programming
     Language Opal",
   location     = "http://projects.uebb.tu-berlin.de/opal/trac/raw-attachment/wiki/Documentation/tutorial.pdf"
+}
+
+@Article{aiitact,
+  author       = "Matthew Wilson",
+  title        = "Adapting Interface-Incomplete Types At Compile Time",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "21--28",
+  month        = dec,
+  keywords     = "interface incomplete types, immutable collections, inferred
+    interface adaptation, type selection, type detection, type fixing, sfinae",
+  abstract     = "When an adapter template makes demands that a potential under
+    lying type cannot fulfill, Interred Interface Adaptation can expand the
+    number of adaptable types.",
+  location     = "http://www.drdobbs.com/adapting-interface-incomplete-types-at-c/184402050"
+}
+
+@Article{hsmdic,
+  author       = "Dmitry Babitsky",
+  title        = "Hierarchical State Machine Design in " # cpp,
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "30--35",
+  month        = dec,
+  keywords     = "statecharts, finite state machines, ",
+  abstract     = "In a Hierarchical Finite State Machine, any state can be a 
+    substate of some larger state.  Dmitry presents a class that implements
+    this pattern.",
+  location     = "http://www.drdobbs.com/hierarchical-state-machine-design-in-c/184402040"
+}
+
+@Article{gacnpmt,
+  author       = "Nikos Platis and Mihalis Tsoukalos",
+  title        = "GraphViz and " # cpp,
+  journal      = ccpuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "38--42",
+  month        = dec,
+  keywords     = "graphviz, visualizations, graphs",
+  abstract     = "The Boost Graph Library (BGL) is a great way to use GraphViz
+    to draw directed and undirected graphs of your data structures.",
+  location     = "http://www.drdobbs.com/cpp/graphviz-and-c/184402049"
+}
+
+@Article{ccio,
+  author       = "Rex Jaeschke",
+  title        = cpp # "\slash{CLI} Input\slash Output",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "44--49",
+  month        = dec,
+  keywords     = "i/o classes, file i/o, string i/o, type unformatted i/o,
+    random access i/o, directory operations, ",
+  abstract     = "Rex covers the ABCs of reading and writing in the .NET/CLI
+    realm, including screen and keyboard I/O, file and string I/O, and
+    operations on files and directories.", 
+  location     = "http://www.drdobbs.com/ccli-inputoutput/184402044"
+}
+
+@Article{pbma,
+  author       = "Andrei Alexandrescu and Emery Berger",
+  title        = "Policy-Based Memory Allocation",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "50--54",
+  month        = dec,
+  keywords     = "mailcontainer, memory allocation, heap, resizing, ",
+  abstract     = "The way your application allocates memory can have a dramatic
+    effect on its performance.  Modern general-purpose memory allocators are
+    pretty efficient, but there's always room for improvement.", 
+  location     = "http://www.drdobbs.com/policy-based-memory-allocation/184402039"
+}
+
+@Article{tpova,
+  author       = "Andrew Koenig and Barbara~E. Moo",
+  title        = "The Perils of Violating Abstractions",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "55--57",
+  month        = dec,
+  keywords     = "abstractions, concrete data structures, ",
+  abstract     = "Some programming abstractions seem like they can safely be 
+    violated.  There are reasons, however, why you should think twice before
+    doing so--a little self-discipline can have big payoffs.", 
+  location     = "http://www.drdobbs.com/the-perils-of-violating-abstractions/184402046"
+}
+
+@Article{satp1,
+  author       = "Pete Becker",
+  title        = "{STL} and {TR1}: Part {I}",
+  journal      = ccppuj,
+  year         = 2005,
+  volume       = 23,
+  number       = 12,
+  pages        = "58--61",
+  month        = dec,
+  keywords     = "sequences, iterators, function objects, containers",
+  abstract     = "The TR1 implementation of the Standard Template Library
+    contains new data collections and callable types.  To understand these,
+    it's important to grasp some fundamentals of the design of the STL.", 
+  location     = "http://www.drdobbs.com/stl-and-tr1-part-i/184402041"
+}
+
+@Article{tljp,
+  author       = "Jerry Peek",
+  title        = "Think Links",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 9,
+  pages        = "26--28, 63",
+  month        = sep,
+  keywords     = "links, command-line, file systems",
+  abstract     = "Why would you want to give a program more than one name? How
+    can you move quickly through the filesystem like Star Trek's Enterprise
+    jumping through a worm hole? What good are multiple views of the files in a
+    directory? You'll see these things and more, as we look into Linux
+    filesystem links.", 
+  location     = "http://www.linux-mag.com/id/1751/"
+}
+
+@Article{ccrpt,
+  author       = "Roderick~W. Smith",
+  title        = "Creating Custom {RPM}s, Part Two",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 9,
+  pages        = "50--52",
+  month        = sep,
+  keywords     = "package management, software management, custom packages",
+  abstract     = "Last month's column looked at the basics of generating RPMs,
+    including the format of the all-important .spec file.  In theory, those
+    principles should be enough to let you create .spec files and RPMs for a
+    number of purposes.  In practice, however, RPM generation is complex enough
+    that some examples are sure to help.  So, this month's column presents two
+    examples: creating a non-program RPM and creating a program RPM.", 
+  location     = "http://www.linux-mag.com/id/1754/"
 }
 
 @Manual{masghcnnp,
@@ -12060,5 +12477,59 @@
     originated from the stack organisation in the well known Warren Abstract
     Machine (WAM) for logic languages, where the runtime information of several
     alternative computation branches is stored on a single stack." 
+}
+
+@PhDThesis{aaeitiopl,
+  author       = "Michael Lee Horowitz",
+  title        = "Automatically Achieving Elasticity in the Implementation of Programming Languages",
+  school       = dcs # cmu,
+  year         = 1988,
+  address      = ppa,
+  month        = jan,
+  keywords     = "language design, binding time, event-driven compilation,
+    elasticity",
+  abstract     = "Several developments in programming language design and 
+    software engineering lead to a reexamination of the role of binding times
+    in programming language implementation.  We can alleviate problems
+    associated with these developments by using event-driven processing to
+    determine translation binding times.  Our ultimate goal is to clarify the
+    effects of different designs on binding times and to reduce binding time
+    concerns in the language design process.  Determining the binding time of a
+    translation action involves two concerns: the ordering of the action's
+    execution relative to other actions and the translation phase in which the
+    execution occurs (e.g.  compile time, link-time, or run-time).  Some issues
+    that affect these concerns include: how to handle forward references,
+    language designs that require dynamic interpretation, the role of link-time
+    in languages that allow separate compilation, and how to achieve
+    elasticity.  Elasticity occurs when similar translation actions may be
+    executed at very different binding times, typically in different
+    translation phases.  In particular, the binding time of each translation
+    action is determined individually.  Elastic translation, therefore, incurs
+    the costs of late bindings only when language flexibility is used by the
+    programmer.  Otherwise, the programmer receives the benefits associated
+    with static binding times (e.g.  early error notification and efficient
+    program execution).  We can model language translation as an event-driven
+    process.  Each semantic action needed to translate a program may be viewed
+    as an event.  Each event becomes enabled when its required data becomes
+    available.  Event-driven translation progresses by executing those events
+    initially enabled and continuing with those enabled as a result.  Since
+    each action is handled individually, event-driven translation naturally
+    determines the proper ordering and phase for executing events and achieves
+    elasticity.  We can also generate event-driven translation systems
+    automatically.  Automatic generation removes from the language implementor
+    the need to understand the event-driven translation model.  In particular,
+    event-driven systems can be generated from a known specification formalism
+    (i.e.  attribute grammars).  An automatic generator of event-driven
+    translators can also provide useful information about binding times during
+    the language design process.  Finally, event-driven systems may have
+    potential in practical language implementations.  This thesis describes
+    translation problems, the event-driven translation model, a generator of
+    event-driven translators, a language design based on elasticity, and an
+    evaluation of the model for practical language translation.  Elastic
+    translation has particular promise in the design and implementation of
+    programming environments and command languages.  Event-driven translation
+    may also provide the means to quantify well-known design principles such as
+    avoiding pre-emptive decisions.", 
+  location     = "http://reports-archive.adm.cs.cmu.edu/anon/scan/CMU-CS-88-120.pdf"
 }
 
