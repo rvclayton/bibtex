@@ -12276,6 +12276,172 @@
   location     = "http://www.linux-mag.com/id/1754/"
 }
 
+@Article{wzirfy,
+  author       = "anonymous",
+  title        = "Which Zip is Right for You?",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = 8,
+  month        = jun,
+  keywords     = "compression",
+  abstract     = "In the old days, disk space cost a pretty penny, so saving
+    space was essential.  But now that disk space costs about $0.50 per
+    gigabyte, a lot of folks never worry about deleting files, let alone
+    compressing them.  However, if you're administering a large, shared server
+    (such as for email), it seems that you can never have too much space.", 
+  location     = "http://www.linux-mag.com/id/1679/"
+}
+
+@Article{j15jbng,
+  author       = "Joshua Bloch and Neal Gafter",
+  title        = "Java 1.5",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "18--25",
+  month        = jun,
+  keywords     = "java, language design, generics, autoboxing, iterations,
+    enums, varargs, static import"
+}
+
+@Article{mfj,
+  author       = "Cedric Beust",
+  title        = "Metadata for {J}ava",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "26--30",
+  month        = jun,
+  keywords     = "metadata, annotations, javadoc",
+  abstract     = "Metadata is information that cannot be expressed in Java, but
+    is nevertheless important for your Java application to work properly.
+    Currently, metadata is expressed in separate text, Java properties, and XML
+    files, but that poses a serious problem: code is disconnected from
+    configuration, making development, deployment, and maintenance that much
+    more difficult.  JDK 1.5 addresses this disparity, capturing critical
+    information where it belongs: right in your code.", 
+  location     = "http://www.linux-mag.com/id/1676/"
+}
+
+@Article{akafa,
+  author       = "Bull Burke and Marc Fleury",
+  title        = "{A} Killer App for {AOP}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "32--35, 59",
+  month        = jun,
+  keywords     = "aspects-oriented programming, software development,
+    crosscutting concerns, jboss, java, middleware",
+  abstract     = "Aspect-oriented programming has been gaining a wider audience
+    of late, as enterprise application developers discover that AOP provides
+    for more intuitive, extensible, and flexible middleware.  With JBoss AOP,
+    provided in JBoss 4, developers can write plain old Java objects (POJOS)
+    and request complex services like transactions, security, and caching with
+    just a few simple annotations.", 
+  location     = "http://www.linux-mag.com/id/1677/"
+}
+
+@Article{earjp,
+  author       = "Jerry Peek",
+  title        = "Execution and Redirection",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "36--38",
+  month        = jun,
+  keywords     = "shell commands, redirection, file descriptors",
+  abstract     = "While the title of this month’s “Power Tools” is “Execution
+    and Redirection,” it’s not about about dying and going to heaven.  Instead,
+    controlling execution and redirecting input and output is an important part
+    of managing Linux processes.  Let’s dig into these two topics, learn the
+    basics, and then see some shell features for managing processes that are
+    little-known, but indispensable nonetheless.", 
+  location     = "http://www.jpeek.com/articles/linuxmag/2004-06/"
+}
+
+@Article{pl26em,
+  author       = "Ethan McCallum",
+  title        = "Programming {L}inux 2.6",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "44--46, 63",
+  month        = jun,
+  keywords     = "asynchronous io, access control lists, extended attributes,
+    epoll(), cpu affinity, oprofile, threading, seqlocks, futexes",
+  abstract     = "sKernel 2.6 is finally here, and it touts several
+    enhancements over the 2.4 series.  The press has highlighted changes
+    relevant to systems architects and managers, but there's plenty in 2.6 for
+    application developers, too.", 
+  location     = "http://www.linux-mag.com/id/1684/"
+}
+
+@Article{fifwn,
+  author       = "Jerry Peek",
+  title        = "Fix Images Fast with {N}etpbm",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 8,
+  pages        = "16--21",
+  month        = aug,
+  keywords     = "image processing, shell programming, netpbm",
+  location     = "http://www.linux-mag.com/id/1728/"
+}
+
+@Article{elims,
+  author       = "Inder~M. Singh",
+  title        = "Embedded {L}inux",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 8,
+  pages        = "32--37",
+  month        = aug,
+  keywords     = "real-time, embedded systems, scheduling, pre-emption,
+    synchronization, standards"
+}
+
+@Article{ktkam,
+  author       = "Andrew Morton",
+  title        = "Keeping the Kernel",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 6,
+  pages        = "38--42",
+  month        = aug,
+  keywords     = "scaling, patches submission, scheduling"
+}
+
+@Article{ccrpo,
+  author       = "Roderick~W. Smith",
+  title        = "Creating Custom {RPM}s, Part One",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 8,
+  pages        = "50--52",
+  month        = aug,
+  keywords     = "rpms, package management, software management",
+  abstract     = "RPMs can be a great way to manage the packages you install on
+    your system.  Unfortunately, not everything you might want to install is
+    available in RPM form.  Perhaps you need a more recent version of a program
+    than the one that ships with your distribution; or maybe it's a program you
+    wrote yourself; or perhaps it's just something that's very obscure.
+    Similar dilemmas can occur with non-program packages, such as font or clip
+    art collections.", 
+  location     = "http://www.linux-mag.com/id/1731/"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 2006,
