@@ -12442,9 +12442,212 @@
   location     = "http://www.linux-mag.com/id/1731/"
 }
 
+@Article{hntbalp,
+  author       = "Jason Perlow",
+  title        = "How Not To Build a {L}inux {PDA}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "12--14",
+  month        = may,
+  keywords     = "developers, product roll-outs, sdks",
+  abstract     = "Last month, I touched a little bit on HP's screwed up Linux
+    PDA initiative, but perhaps I was a bit too harsh.  Sure, they have a
+    research arm that's completely underutilized and they have absolutely no
+    clue as how to turn those efforts into a product, but HP is in no way
+    unique in their absence from the PDA and Linux device cluetrain.  For the
+    most part, the entire industry needs a swift kick in the head to see how to
+    build and market a successful Linux handheld and to learn how to properly
+    support open source PDA developers.  I learned how the hard way, and here's
+    my painful perspective on the whole shebang.", 
+  location     = "http://www.linux-mag.com/id/1654/"
+}
+
+@Article{toldb,
+  author       = "Dan Burcaw",
+  title        = "The Other {L}inux",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "18--20, 58",
+  month        = may,
+  keywords     = "powerpc, macs, apple",
+  abstract     = "Linux on Intel is driving the commoditization of computing.
+    But it's not the only game in town, nor is it the only combination of
+    software and hardware with influence.  Linux also runs on PowerPC
+    processors - including IBM's POWER series, Apple's G5, and other embeddable
+    cores - and runs well.  Here's a look at the other Linux, the one that runs
+    on PPC.", 
+  location     = "http://www.linux-mag.com/id/1648/"
+}
+
+@Article{s1wn,
+  author       = "William Nagel",
+  title        = "Subversion 101",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "22--26",
+  month        = may,
+  keywords     = "revision control, cvs, software tools, software development",
+  abstract     = "The new open source version control promises to obsolete
+    CVS.",
+  location     = "http://www.linux-mag.com/id/1649/"
+}
+
+@Article{bnwhw,
+  author       = "Howard Wen",
+  title        = "Brave New Worlds",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "28--30, 60--61",
+  month        = may,
+  keywords     = "virtual worlds, acorn, worldforge, mmorpgs",
+  abstract     = "A number of open source projects, including WorldForge and
+    NeL, are redefining the frontiers of massively-multiplayer gaming.  Take a
+    peek at the games, the gearheads, and the gizmos that make play work", 
+  location     = "http://www.linux-mag.com/id/1650/"
+}
+
+@Article{gclc,
+  author       = "Jerry Peek",
+  title        = "Great Command-Line Combinations",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "32--34",
+  month        = may,
+  keywords     = "command lines, shell command language, looping",
+  abstract     = "Tools with graphical user interfaces (GUIs) can be easy to
+    learn.  All of their commands and options are typically laid out on menus
+    and dialog boxes, making it easy to discover what the tool can do.  If easy
+    and intuitive are your main criteria for programs, then a GUI tool may
+    always be the right choice.", 
+  location     = "http://www.linux-mag.com/id/1655/"
+}
+
+@Article{aflatncd,
+  author       = "Roderick~W. Smith",
+  title        = "{A} First Look at the New {CIFS} Driver",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = "36--38",
+  month        = may,
+  keywords     = "smb, cifs, samba",
+  abstract     = "Samba is a file and print server that runs under Linux and
+     other Unix-like operating systems.  Samba is an implementation of the
+     Server Message Block (SMB) protocol, also known as the Common Internet
+     File System (CIFS), which is a popular file- and printer-sharing protocol
+     on Windows.", 
+  location     = "http://www.linux-mag.com/id/1656/"
+}
+
+@Article{ulawd,
+  author       = "Jeremy Garcia",
+  title        = "Using {L}ogwatch and Watching {DVD}s",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 5,
+  pages        = 48,
+  month        = may,
+  keywords     = "logs, media players"
+}
+
+@Article{ukws,
+  author       = "Jeremy Garcia",
+  title        = "Using Keys with {SSH}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 7,
+  pages        = 18,
+  month        = jul,
+  keywords     = "ssh, key management, security"
+}
+
+@Article{gefyvnho,
+  author       = "Jerry Peek",
+  title        = "Great Email Features (You've Never Heard Of)",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 7,
+  pages        = "30--34",
+  month        = jul,
+  keywords     = "plain text, delayed reading, redirection, sharing,
+    priorities, scoring, saving, filtering",
+  abstract     = "Some of the handiest features of email programs may be the
+    ones that you don't realize they have.  Read on to discover what you're
+    missing.", 
+  location     = "http://www.linux-mag.com/id/1698/"
+}
+
+@Article{lotl,
+  author       = "Jonathan~A. Zdziarski",
+  title        = "Linux on the Laptop",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 7,
+  pages        = "36--41",
+  month        = jul,
+  keywords     = "power management, frequency scaling, disk spin-down, swap
+    management, minipci cards, windows drivers, war driving, mobile phone data
+    calls",
+  abstract     = "Linux is an extremely flexible operating system.  With just a
+    little bit of creativity, Linux can be tailored to your laptop, making your
+    mobile computer just as useful as your desktop or server.  Try these ten
+    tips and keep yourself and Linux on-the-go.", 
+  location     = "http://www.linux-mag.com/id/1700/"
+}
+
+@Article{lata,
+  author       = "Roderick~W. Smith",
+  title        = "Linux and the {AMD64}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 7,
+  pages        = "42--44, 66--67",
+  month        = jul,
+  keywords     = "64-bit architectures, performance",
+  abstract     = "Linux was created on the first 32-bit CPU in the x86 CPU
+    family, the 80386.  But the days of 32-bit computing are coming to an end.
+    Luckily, the AMD64 provides compatibility features that ease the
+    transition.  Here's a hands-on guide to building and benchmarking a 64-bit
+    Linux desktop based on AMD64.", 
+  location     = "http://www.linux-mag.com/id/1699/"
+}
+
+@Article{strws,
+  author       = "Roderick~W. Smith",
+  title        = "{SSH} Tunneling",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 7,
+  pages        = "50--53",
+  month        = jul,
+  keywords     = "tunneling, ssh, client configuration, server configuration,
+    passwords, x tunneling",
+  abstract     = "Security has long been an important computer issue, but it's
+    become increasingly relevant as the number and severity of threats has
+    risen.",
+  location     = "http://www.linux-mag.com/id/1705/"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
-  year         = 2006,
+  year         = 200,
   month        = may,
   keywords     = "notebook, tablet pc"
 }
