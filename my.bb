@@ -546,6 +546,16 @@
   location     = "PS 3555.U4 M37"
 }
 
+@Book{ofat,
+  author       = "Anthony Trollope",
+  title        = "Orley Farm",
+  publisher    = oup,
+  year         = 1985,
+  address      = oxuk,
+  keywords     = "scandal, best-laid plans",
+  location     = "PR 5684.O7"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -12643,6 +12653,316 @@
     become increasingly relevant as the number and severity of threats has
     risen.",
   location     = "http://www.linux-mag.com/id/1705/"
+}
+
+@Article{dimdon,
+  author       = "Shoshana Loeb",
+  title        = "Delivering Interactive Multimedia Documents Over Networks",
+  journal      = ieeecom,
+  year         = 1992,
+  volume       = 30,
+  number       = 5,
+  pages        = "52--59",
+  month        = may,
+  keywords     = "network edge, protocols, application semantics, document
+    classes, p-objects, viewing strategies",
+  abstract     = "A family of applications that consists of interactive
+    multimedia documents, such as electronic magazines and interactive TV
+    shows, is examined and the links between application architecture, user
+    behavior, and network performance are investigated.  The kinds of
+    application-specific information that influence the end-to-end quality of
+    service are discussed.  The architecture and dynamics of the interactive
+    document in terms of presentation objects (P-Objects), which are the
+    segments of information accessed by the application and which are described
+    according to their size, media composition, and access links, are
+    described.  The same structural characteristics that may make an
+    interactive multimedia document appealing to the end user are the
+    characteristics that are helpful during dynamic network performance
+    optimization.  This observation is based on the hypothesis that the
+    P-Objects' access graph, together with viewing time statistics, is the
+    information most useful to the network delivery control mechanism for
+    optimizing network performance.  Preliminary guidelines for both network
+    and application designers to address each other's concerns are presented.",
+  location     = "http://dx.doi.org/10.1109/35.137479"
+}
+
+@Article{widwmh,
+  author       = "Jason Perlow",
+  title        = "What {I} Did With My Hiatus",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "12--13",
+  month        = mar,
+  keywords     = "community service, software, xandros",
+  abstract     = "Every time you go on a long trip, it's always great to come
+    back home.  That's how it is with my return to Linux Magazine.  After two
+    long years, I'm back in the business of writing a column, and I'm as happy
+    as a clam.  I'm clearing off my old dusty desk, restocking its drawers with
+    Penguin Mints and Instant Ramen, and firing up every piece of computer
+    hardware that can run Linux that I can get my hands on.", 
+  location     = "http://www.linux-mag.com/id/1605/"
+}
+
+@Article{sfmgn,
+  author       = "Rex Young and Dominique Cinafranca",
+  title        = "Strategies for Managing Growing Networks",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "22--25, 49",
+  month        = mar,
+  keywords     = "dynamic routing, networking, border gateway protocols",
+  abstract     = "Building an extensible enterprise-class network requires the
+    right tools and forethought.  This article, the first of two parts,
+    introduces the possibilities and issues of large-scale network design.", 
+  location     = "http://www.linux-mag.com/id/1600/"
+}
+
+@Article{cidllc,
+  author       = "Trevor Harmon",
+  title        = "{CORBA} is dead!  {L}ong Live {CORBA}!",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "26--30, 62",
+  month        = mar,
+  keywords     = "corba, distributed computing, idl, name broker",
+  abstract     = "Though it's no longer trendy, CORBA is alive and well in
+    Linux.  The rumors of CORBA's demise have been greatly exaggerated.  In
+    fact, the Common Object Request Broker Architecture is alive and well, and
+    provides valuable services.", 
+  location     = "http://www.linux-mag.com/id/1601/"
+}
+
+@Article{wdarhlugn,
+  author       = "Doug Fort and Joe Griffin",
+  title        = "Where Does a {R}ed {H}at {L}inux User Go Now?",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "32--34",
+  month        = mar,
+  keywords     = "red hat, linux distributions, fedora, system management",
+  abstract     = "At the end of April 2004, Red Hat will discontinue its
+    support and maintenance of Red Hat Linux, leaving a good number of users in
+    a lurch.  While some users will likely switch to SUSE or Debian or others,
+    the Fedora Project promises to take up where Red Hat's left off.  But is
+    Fedora a viable option? Here's a hands-on trial of Fedora Core 1.", 
+  location     = "http://www.linux-mag.com/id/1602/"
+}
+
+@Article{ewwjp,
+  author       = "Jerry Peek",
+  title        = "Even Wilder Wildcards",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "36--38",
+  month        = mar,
+  keywords     = "shell metacharacters, globbing, zsh",
+  abstract     = {In last December’s column, “Wildcards Gone Wild,” we looked
+    at ways to match groups of files in a hurry, with a minimum of typing, by
+    using shell wildcards .  Last month, we saw some of the wilder things that
+    the Z shell, zsh, can do to make computing easier.  This month we’ll mix
+    those two topics and look at some of the most powerful zsh wildcards and
+    similar, related features in other shells.}, 
+  location     = "http://www.jpeek.com/articles/linuxmag/2004-03/"
+}
+
+@Article{pwcrws,
+  author       = "Roderick~W. Smith",
+  title        = "Printing with {CUPS}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "40--42",
+  month        = mar,
+  keywords     = "cups, printing, network services",
+  abstract     = "Printing via Linux has always been a bit tricky, but the
+    situation is improving in many ways.  At the forefront of this change is
+    the shift from the old Line Printer Daemon (LPD) printing system, as
+    implemented in the BSD LPD or LPRng servers, to the newer Common Unix
+    Printing System (CUPS).  CUPS is now the default printing system of most
+    Linux distributions, as well as with some non-Linux systems, such as Mac OS
+    X.", 
+  location     = "http://www.linux-mag.com/id/1607/"
+}
+
+@Article{wats,
+  author       = "Ethan McCallum",
+  title        = "Writing a Trace System",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = "50--53",
+  month        = mar,
+  keywords     = "logging, log server, debugging, syslog",
+  abstract     = "Unix is traditionally very text-oriented: configuration files
+    are plain ASCII, commands are issued via the shell, tools provide feedback
+    via stdout, and daemons and other system services record status in logs.", 
+  location     = "http://www.linux-mag.com/id/1609/"
+}
+
+@Article{miwt,
+  author       = "Jeremy Garcia",
+  title        = "Maintaining Integrity with {T}ripwire",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 3,
+  pages        = 58,
+  month        = mar,
+  keywords     = "security, intrusion detection"
+}
+
+@Article{sbats,
+  author       = "Benjamin Chelf",
+  title        = "Squashing Bugs at the Source",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "16--20, 55",
+  month        = apr,
+  keywords     = "basic blocks, static analysis, debugging",
+  abstract     = "Based on new research, source code analysis has been used to
+    find thousands of bugs in the Linux 2.6.x kernel.  Here's how the
+    technology works, what it can find, and why coding may never be the same
+    again.",
+  location     = "http://www.linux-mag.com/id/1623/"
+}
+
+@Article{zataoaop,
+  author       = "Ron Bodkin and Ramnivas Laddad",
+  title        = "Zen and the Art of Aspect Oriented Programming",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "22--28",
+  month        = apr,
+  keywords     = "aspect-oriented programming, object-oriented programming,
+    join points, advice, point cuts, refactoring, software development",
+  abstract     = "As enterprise systems evolve from concept to code, AN 
+    otherwise clean design can become downright, well, messy, as the practical
+    plumbing of logging, caching, transactions, and more infiltrates modules.
+    Wouldn't it be better if, say, logging were just another module? Enter
+    aspect-oriented programming.", 
+  location     = "http://www.linux-mag.com/id/1624/"
+}
+
+@Article{gzdcry,
+  author       = "Dominique Cimafranca and Rex Young",
+  title        = "Gnu {Z}ebra",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "30--33, 59",
+  month        = apr,
+  keywords     = "routing, network management, ospf",
+  abstract     = "As your networks grow, you'll want ways to segregate AND
+    manage them.  Cisco routers are staples for this purpose, but Linux,
+    together with GNU Zebra, can make a good substitute.  Here's how to get up
+    and running with Zebra.", 
+  location     = "http://www.linux-mag.com/id/1625/"
+}
+
+@Article{pvcjp,
+  author       = "Jerry Peek",
+  title        = "Personal Version Control",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "34--36",
+  month        = apr,
+  keywords     = "version control, sccs, rcs, cvs, software management",
+  abstract     = "If you've worked with a group of programmers, you've
+    probably used version control software like CVS.  However, version control
+    is also useful for non-programmers -- for instance, for a group of
+    technical writers producing product documentation.", 
+  location     = "http://www.linux-mag.com/id/1629/"
+}
+
+@Article{snsrws,
+  author       = "Roderick~W. Smith",
+  title        = "{SANE} Network Scanning",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "38--",
+  month        = apr,
+  keywords     = "scanners, network services",
+  abstract     = "Document and image scanners have become an integral part of
+    many offices.  With a scanner, you can quickly digitize photos, diagrams,
+    and even textual documents for electronic alteration and distribution.", 
+  location     = "http://www.linux-mag.com/id/1630/"
+}
+
+@Article{capsi,
+  author       = "Ethan McCallum",
+  title        = "Changing {A} Program's Identity",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "46--49, 61",
+  month        = apr,
+  keywords     = "setid, unix, security, ids",
+  abstract     = "If you've worked with Linux for some time, you've PROBABLY
+    used a set-user ID (or setuid) program to temporarily gain permissions
+    different from your normal access rights.  Unlike typical programs that run
+    with your permissions, a setuid program runs with the permissions of that
+    program's owner.  For example, if you launch a program that's setuid and
+    owned by root, that program runs as though root had executed it,
+    temporarily granting you the same (full) access privileges as the
+    superuser.", 
+  location     = "http://www.linux-mag.com/id/1632/"
+}
+
+@Article{friaf,
+  author       = "Jeremy Garcia",
+  title        = "Finding Rootkits, Infections, and Files",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "54",
+  month        = apr,
+  keywords     = "security, find, rootkits",
+  abstract     = "Last month's Tech Support showed you how to monitor
+    filesystem changes with Tripwire, a handy system utility that alerts you to
+    all filesystem changes.  Like SNORT and others, Tripwire's just one of many
+    practical security measures that minds your system 24/7.", 
+  location     = "http://www.linux-mag.com/id/1635/"
+}
+
+@Article{epica,
+  author       = "Michael Pelletier",
+  title        = "Embedding {P}ython in {C} Applications",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 4,
+  pages        = "56--60",
+  month        = apr,
+  keywords     = "extension languages, scripting languages, embedding
+    languages", 
+  abstract     = "Many applications, including most of those shipped with
+    Windows, Linux, KDE, Gnome, and Apache are written in C.  C is perhaps the
+    most universal of all programming languages -- its expressive power,
+    portability, minimalism, and speed make it a popular choice.", 
+  location     = "http://www.linux-mag.com/id/1633/"
 }
 
 @Manual{masghcnnp,
