@@ -12965,6 +12965,104 @@
   location     = "http://www.linux-mag.com/id/1633/"
 }
 
+@Article{bifef,
+  author       = "http://bitconjurer.org/BitTorrent",
+  title        = "{BitTorrent}: {ISO}s for Everyone---Fast!",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = 10,
+  month        = feb,
+  keywords     = "peer-to-peer, content distribution, distributed systems",
+  abstract     = "Have you ever tried to download the latest ISO images for
+    your favorite Linux distribution during the first week that it's available?
+    If so, you've probably even had trouble finding an up-to-date mirror that'd
+    let you in, and after finding one, you were probably disappointed to see a
+    20 KB/sec download speed (or worse) on your cable modem or DSL line that
+    normally downloads at 10 times that speed.  And as Linux becomes more
+    popular, the problem's only getting worse.", 
+  location     = "http://www.linux-mag.com/id/1577/"
+}
+
+@Article{stdotsp,
+  author       = "Bryan Henderson",
+  title        = "{Storage Tank}:  Delivering on the {SAN} Promise",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = "28--32",
+  month        = feb,
+  keywords     = "file systems, sans, caching, lock management, redundancy"
+}
+
+@Article{csz,
+  author       = "Jerry Peek",
+  title        = "Catching Some {ZZZ}s",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = "34--36",
+  month        = feb,
+  keywords     = "globing, shell metacharacters, redirection, process
+    substitution, file i-o",
+  abstract     = "Linux systems have several shells available -- some more
+    powerful than others.  Perhaps the most powerful shell is zsh, the Z shell.
+    To give you an idea of the shell's size and complexity, the zshall man page
+    in plain-text format weighs in at more than 16,000 lines.", 
+  location     = "http://www.linux-mag.com/id/1579/"
+}
+
+@Article{mxfrfs,
+  author       = "Roderick~F. Smith",
+  title        = "Managing {Xft} Fonts",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = "38--40",
+  month        = feb,
+  keywords     = "x, font management, font servers, true-type fonts, type 1
+    fonts", 
+  abstract     = "Linux's font handling is undergoing a major change.  In the
+    past, Linux relied on X's native font-handling systems (known as X core
+    fonts), but over time, these systems have become rather ragged.  The
+    solution is an entirely different font system, known as Xft.", 
+  location     = "http://www.linux-mag.com/id/1580/"
+}
+
+@Article{spwr,
+  author       = "Ethan McCallum",
+  title        = "Software Packaging with {RPM}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = "48--51",
+  month        = feb,
+  keywords     = "software distribution, package management, rpms, red hat",
+  abstract     = "If you're running RedHat or a Linux distribution based on 
+    RedHat, chances are you've had occasion to use RPMs.  RPMs and Red Hat's
+    accompanying package management system (and other systems like it) greatly
+    simplify the task of maintaining the software on a system.  With RPMs,
+    installs, upgrades, and even downgrades are quick and easy.", 
+  location     = "http://www.linux-mag.com/id/1582/"
+}
+
+@Article{hhaaig,
+  author       = "Jeremy Garcia",
+  title        = "Helpful Hints and an {\tt iptables} {GUI}",
+  journal      = lmag,
+  year         = 2004,
+  volume       = 6,
+  number       = 2,
+  pages        = 58,
+  month        = feb,
+  keywords     = "pkill, slocate, dos2linux, iptables"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
