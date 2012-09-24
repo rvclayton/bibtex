@@ -556,6 +556,16 @@
   location     = "PR 5684.O7"
 }
 
+@Book{tdmc,
+  author       = "S.~S. {Van Dine}",
+  title        = "The Dragon Murder Case",
+  publisher    = "Bantam",
+  year         = 1949,
+  address      = nyny,
+  keywords     = "family planning, murrdaar",
+  location     = "PS 3545 R846 D7"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
