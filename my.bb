@@ -13073,6 +13073,96 @@
   keywords     = "pkill, slocate, dos2linux, iptables"
 }
 
+@Article{aiafldo,
+  author       = "Chandan Kumar Behera and Pawan Kumar",
+  title        = "An Improved Algorithm for Loop Dead Optimization",
+  journal      = sigplan,
+  year         = 2005,
+  volume       = 40,
+  number       = 11,
+  pages        = "18--28",
+  month        = nov,
+  keywords     = "compiler improvements, code motion",
+  abstract     = "Loop dead variables are the variables, which are defined in a
+    loop, but not used in that loop.  On successive execution of loop, these
+    get different value, however all values (except last value) are not used.
+    Hence in optimized program, the definition of a loop dead variable can be
+    moved outside the loop (after the loop), rather than computing every time,
+    inside the loop.  In our discussion, we have assumed only simple loop.
+    Every loop has one entry and one exit point.", 
+  location     = "http://dx.doi.org/10.1145/1149982.1149984"
+}
+
+@Article{mbcdraiaisqa,
+  author       = "Bixin Li and Ying Zhou and Yancheng Wang and Junhui Mo",
+  title        = "Matrix-based component dependence representation and its applications in
+ software quality assurance ",
+  journal      = sigplan,
+  year         = 2005,
+  volume       = 40,
+  number       = 11,
+  pages        = "39--36",
+  month        = nov,
+  keywords     = "dependence analysis, direct dependence graph, dependence
+    matrix, software quantity assurance",
+  abstract     = "Component dependence analysis is a useful technique that has
+    many applications in software engineering activities including software
+    understanding, testing, debugging, maintenance, and evolution.  In this
+    paper, we propose a matrix-based representation to analyze dependences in
+    component-based system (CBSs).  By further investigating the application of
+    matrix in analyzing dependences of component-based system, we find that it
+    has many applications in software quality assurance.  To make it possible,
+    we first identify all types of dependences in a CBS, and then present a
+    dependence-based representation called the component dependence graph (CDG)
+    and the dependence matrix (DM) to explicitly represent these dependences in
+    a CBS.  Based on the CDG and DM, we build a mathematical basis for managing
+    and analyzing dependences in a CBS.  Finally, we discuss some important
+    applications of the dependence analysis technique in component-based
+    software quality assurance, such as understanding, testing, maintenance,
+    and evolution etc.", 
+  location     = "http://dx.doi.org/10.1145/1107541.1107546"
+}
+
+@Article{easlfvbf,
+  author       = "Robert~M. Siegfried and Denis Diakoniarakis and
+    Kenneth~G. Franqueiro and Amol Jain", 
+  title        = "Extending a scripting language for {V}isual {B}asic forms",
+  journal      = sigplan,
+  year         = 2005,
+  volume       = 40,
+  number       = 11,
+  pages        = "37--40",
+  month        = nov,
+  keywords     = "visual basic, visual programming, graphical user interfaces,
+    blind programmers",
+  abstract     = "A prototype scripting language was introduced in 2002 to 
+    assist the blind in creating forms for Visual Basic programs in a much
+    simpler fashion; currently, creating these forms are particularly difficult
+    for the blind and visually impaired.  The language is expanded to include
+    the Visual Basic objects that were omitted from the original grammar for
+    the scripting language.  A second prototype of the compiler for the
+    scripting language is now available online.  An example and a formal
+    grammar are included.", 
+  location     = "http://dx.doi.org/10.1145/1107541.1107547"
+}
+
+@Article{tyofiasnp1,
+  author       = "Paul Frenger",
+  title        = "Ten years of {F}orth in {ACM} {S}igplan {N}otices: part 1",
+  journal      = sigplan,
+  year         = 2005,
+  volume       = 40,
+  number       = 11,
+  pages        = "4--16",
+  month        = nov,
+  keywords     = "forth",
+  abstract     = "So here we are: ten years of the ACM Sigplan Notices Forth 
+    Report is behind us.  How amazing it is that we have reached this
+    milestone! I hope that this column's longevity is a reflection of its
+    popularity and perceived value to our readers.", 
+  location     = "http://dx.doi.org/10.1145/1107541.1107543"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
