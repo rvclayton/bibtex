@@ -172,6 +172,7 @@ a new implementation of the icon language : proebsting
 a new page table for 64 bit address spaces : talluri
 a new parsing method for non lr 1 grammars : harford
 a new solution of dijkstras concurrent programming problem : lamport
+a new stack technique for the management of runtime structures in distribued implementations : hogen
 a node positioning algorithm for general trees : walker
 a noninvasive architecture to monitor real time distrubted systems : tsai
 a note on distributed computing : waldo
@@ -592,6 +593,7 @@ automatic indexing and content based retrieval of captioned images : srihari
 automatic mining of source code repositories to improve bug finding techniques : williams
 automatic synthesis of state machines from trace diagrams : koskimies
 automated testing of object oriented software : meyer
+automatically achieving elasticity in the implementation of programming languages : horowitz
 automatically proving the correctness of compiler optimizations : lerner
 automatically restructuring programs for the web : matthews
 automating first order relational logic : jackson
@@ -609,6 +611,7 @@ bash features : fox
 basic polymorphic typechecking : cardelli
 basic xml : anon
 bayesian span filtering techniques : haskins
+beanshell simple java scripting : beanshell
 beepcore tcl : rose
 behavioral consistency of c and verilog programs using bounded model checking : clarke
 being popular : grahm
@@ -927,7 +930,6 @@ definition groups making sources into first class objects : bobrow
 definition of mmixal : knuth
 definition of open language : sunik
 deforestation transforming programs to eliminate trees : wadler 
-delivering interactive multimedia documents over networks : loeb
 demystifying bgp : papen
 democracy and the problem of free speech : sunstein
 demonstrational interfaces a step beyond direct manipulation : myers
@@ -2602,6 +2604,7 @@ software visualization in the large : ball
 software vs hardware errors : glass
 solaris sockets past and present : mauro
 solving triangular peg solitaire : bell
+some deadlock properties of computer systems : hole
 some economics of the internet : mackie
 some issues for single address space systems : chase
 some issues in the semantics of facile distributed programming : thomsen
@@ -2724,6 +2727,7 @@ synchronous kahn networks : caspi
 synchronous programming with events and relations the signal language and its semantics : benveniste
 syntatic abstractions in scheme : hieb
 syntax directed least errors analysis for context free languages a practical approach : lyon
+syntax directed editing of general data structures : fraser
 syntax macros and continuations : dybvig
 syntax macros and extended translation : leavenworth
 synthesis of communication protocols survey and assessment : probert
