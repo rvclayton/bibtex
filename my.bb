@@ -13163,6 +13163,28 @@
   location     = "http://dx.doi.org/10.1145/1107541.1107543"
 }
 
+@Article{sdeogds,
+  author       = "Christopher~W. Fraser",
+  title        = "Syntax-directed editing of general data structures",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "17--21",
+  month        = jun,
+  keywords     = "syntax-directed editors, diagram editors, data structures,
+    tree editors",
+  abstract     = "Program editors help users create syntactically correct
+    programs.  Though such editors normally edit parse trees, applying similar
+    techniques to other tree structures that need editing helps both users and
+    implementors.  This paper describes an editor that accepts a grammar
+    describing a hierarchical data structure and allows the user to enter and
+    edit arbitrary trees having this structure.  It displays the pros and cons
+    of this approach using instances of this editor that edit formatted
+    documents, simple line drawings, and stick figures for trees.", 
+  location     = "http://dx.doi.org/10.1145/872730.806449"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
