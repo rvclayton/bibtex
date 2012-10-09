@@ -566,6 +566,27 @@
   location     = "PS 3545 R846 D7"
 }
 
+@Book{dtf50y,
+  author       = "David Graeber",
+  title        = "Debt, The First 5,000 Years",
+  publisher    = "Melville House",
+  year         = 2011,
+  address      = "Brooklyn, New York",
+  keywords     = "debt, finance, economics, history",
+  location     = "HG 3701.G73"
+}
+
+@Book{ptpcqhv,
+  author       = "Quang Hieu Vu and Mihai Lupu and Beng Chin Ooi",
+  title        = "Peer-to-Peer Computing",
+  publisher    = "Springer",
+  year         = 2010,
+  address      = "Heidelberg, Germany",
+  keywords     = "networking, routing, applications, load balancing,
+    replication, security, trust, programming tools",
+  location     = "TK 5105.525.V83"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -13165,7 +13186,7 @@
 
 @Article{sdeogds,
   author       = "Christopher~W. Fraser",
-  title        = "Syntax-directed editing of general data structures",
+  title        = "Syntax-Directed Editing of General Data Structures",
   journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
   year         = 1981,
   volume       = 16,
