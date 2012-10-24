@@ -352,7 +352,7 @@
   volume	= 4,
   number	= 3,
   pages		= "179--196",
-  month		= "September",
+  month		= sep,
   keywords	= "deadlock, deadly embrace, knot, interlock
 		   pre-emption, resource allocation, operating system,
 		   graph reduction"
