@@ -587,6 +587,28 @@
   location     = "TK 5105.525.V83"
 }
 
+@Book{pms2003,
+  author       = "Marjane Satrapi",
+  title        = "Persepolis",
+  publisher    = "Pantheon",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "iranian revolution, coming of age",
+  location     = "PN 6747 S245 P4713"
+}
+
+@Book{aidlpakm,
+  author       = "David~L. Poole and Alan~K. Mackworth",
+  title        = "Artificial Intelligence",
+  publisher    = cup,
+  year         = 2010,
+  address      = cen,
+  keywords     = "agents, states, searching, constraints, propositions,
+    inference, uncertain reasoning, learning, planning, multiagent systems,
+    ontologies, knowledge-based systems",
+  location     = "Q 342.P66"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
