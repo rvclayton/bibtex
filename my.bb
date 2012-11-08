@@ -609,6 +609,16 @@
   location     = "Q 342.P66"
 }
 
+@Book{tgmc,
+  author       = "S.~S. {Van Dine}",
+  title        = "The Garden Murder Case",
+  publisher    = "Scribner's",
+  year         = 1935,
+  address      = nyny,
+  keywords     = "murrdaar, the hidden snake",
+  location     = "PZ3.W9384 Ga"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -13326,6 +13336,30 @@
     objects.  This paper describes the precompiler and the garbage collector.
     The paper includes a brief (1500 word) survey of related techniques.", 
   location     = "http://www.soe.ucsc.edu/research/technical-reports/ucsc-crl-92-28/download"
+}
+
+@InProceedings{crccpsfen,
+  author       = "P. Koopman and T. Chakravarty",
+  title        = "Cyclic Redundancy Code ({CRC}) Polynomial Selection For Embedded Networks",
+  booktitle    = "International Conference on Dependable Systems and Networks",
+  year         = 2004,
+  pages        = "145--154",
+  address      = "Florence, Italy ",
+  month        = "28 " # jun # "- 1 " # jul,
+  keywords     = "crc, networking",
+  abstract     = "Cyclic redundancy codes (CRCs) provide a first line of 
+    defense against data corruption in many networks.  Unfortunately, many
+    commonly used CRC polynomials provide significantly less error detection
+    capability than they might.  An exhaustive exploration reveals that most
+    previously published CRC polynomials are either inferior to alternatives or
+    are only good choices for particular message lengths.  Unfortunately these
+    shortcomings and limitations often seem to be overlooked.  This paper
+    describes a polynomial selection process for embedded network applications
+    and proposes a set of good general-purpose polynomials.  A set of 35 new
+    polynomials in addition to 13 previously published polynomials provides
+    good performance for 3- to 16-bit CRCs for data word lengths up to 2048
+    bits.",
+  location     = "http://www.ece.cmu.edu/~koopman/crc/index.html"
 }
 
 @TechReport{aaviadavoath,
