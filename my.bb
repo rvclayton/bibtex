@@ -619,6 +619,17 @@
   location     = "PZ3.W9384 Ga"
 }
 
+@Book{rdtml,
+  author       = "Thomas~M. Lessl",
+  title        = "Rhetorical Darwinism",
+  publisher    = "Baylor University Press",
+  year         = 2010,
+  address      = "Waco, Texas",
+  keywords     = "evolutionary theory, evolutionism, religious history, science
+    philosophy, science and religion",
+  location     = "Q 172.5 P82 L47"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
