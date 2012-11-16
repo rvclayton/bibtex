@@ -13249,6 +13249,134 @@
   location     = "http://dx.doi.org/10.1145/872730.806449"
 }
 
+@Article{asoptpcdt,
+  author       = "Stephanos Androutsellis-Theotokis and Diomidis Spinellis",
+  title        = "{A} Survey of Peer-to-Peer Content Distribution Technologies",
+  journal      = surveys,
+  year         = 2004,
+  volume       = 36,
+  number       = 4,
+  pages        = "335--371",
+  month        = dec,
+  keywords     = "algorithms, design, performance, reliability, security,
+    content distribution, distributed hash tables, grid computing,
+    peer-to-peer",
+  abstract     = "Distributed computer architectures labeled peer-to-peer are 
+    designed for the sharing of computer resources (content, storage, CPU
+    cycles) by direct exchange, rather than requiring the intermediation or
+    support of a centralized server or authority.  Peer-to-peer architectures
+    are characterized by their ability to adapt to failures and accommodate
+    transient populations of nodes while maintaining acceptable connectivity
+    and performance.Content distribution is an important peer-to-peer
+    application on the Internet that has received considerable research
+    attention.  Content distribution applications typically allow personal
+    computers to function in a coordinated manner as a distributed storage
+    medium by contributing, searching, and obtaining digital content.In this
+    survey, we propose a framework for analyzing peer-to-peer content
+    distribution technologies.  Our approach focuses on nonfunctional
+    characteristics such as security, scalability, performance, fairness, and
+    resource management potential, and examines the way in which these
+    characteristics are reflected in---and affected by---the architectural
+    design decisions adopted by current peer-to-peer systems.We study current
+    peer-to-peer systems and infrastructure technologies in terms of their
+    distributed object location and routing mechanisms, their approach to
+    content replication, caching and migration, their support for encryption,
+    access control, authentication and identity, anonymity, deniability,
+    accountability and reputation, and their use of resource trading and
+    management schemes.", 
+  location     = "http://www.dmst.aueb.gr/dds/pubs/jrnl/2004-ACMCS-p2p/html/AS04.pdf",
+  location     = "http://dx.doi.org/10.1145/1041680.1041681"
+}
+
+@Article{asotdaaeoalon,
+  author       = "Jinu Kurian and Kamil Sarac",
+  title        = "{A} Survey on the Design, Applications, and Enhancements of Application-Layer Overlay Networks",
+  journal      = surveys,
+  year         = 2010,
+  volume       = 43,
+  number       = 1,
+  pages        = "5:0--5:34",
+  month        = nov,
+  keywords     = "design, economics, performance, reliability, security,
+    overlay networks, service overlay networks, performance, enhancements,
+    deployment model",
+  abstract     = "This article presents a survey of recent advancements in 
+    application-layer overlay networks.  Some of the most important
+    applications that have been proposed for overlays include multicast, QoS
+    support, denial-of-service (DoS) defense, and resilient routing.  We look
+    at some of the important approaches proposed for these applications and
+    compare the advantages and disadvantages of these approaches.  We also
+    examine some of the enhancements that have been proposed in overlay
+    topology design, enhanced routing performance, failure resistance, and the
+    issues related to coexistence of overlay and native layers in the Internet.
+    We conclude the article with a comment on the purist vs pluralist argument
+    of overlay networks that has received much debate recently.  Finally, we
+    propose a new deployment model for service overlays that seeks to interpose
+    between these two approaches.", 
+  location     = "http://dx.doi.org/10.1145/1824795.1824800"
+}
+
+@Article{tciwahasn,
+  author       = "Paolo Santi",
+  title        = "Topology Control in Wireless Ad Hoc and Sensor Networks",
+  journal      = surveys,
+  year         = 2005,
+  volume       = 37,
+  number       = 2,
+  pages        = "164--194",
+  month        = jun,
+  keywords     = "algorithms, design, connectivity, energy consumption,
+    topology control, sensor networks, wireless ad hoc networks, stationary
+    networks, energy cost, mobile networks",
+  abstract     = "Topology Control (TC) is one of the most important techniques
+    used in wireless ad hoc and sensor networks to reduce energy consumption
+    (which is essential to extend the network operational time) and radio
+    interference (with a positive effect on the network traffic carrying
+    capacity).  The goal of this technique is to control the topology of the
+    graph representing the communication links between network nodes with the
+    purpose of maintaining some global graph property (e.g., connectivity),
+    while reducing energy consumption and/or interference that are strictly
+    related to the nodes' transmitting range.  In this article, we state
+    several problems related to topology control in wireless ad hoc and sensor
+    networks, and we survey state-of-the-art solutions which have been proposed
+    to tackle them.  We also outline several directions for further research
+    which we hope will motivate researchers to undertake additional studies in
+    this field.", 
+  location     = "http://dx.doi.org/10.1145/1089733.1089736"
+}
+
+@Article{asoastcwdiwson,
+  author       = "Cigdem Sengul and Aline Carneiro Viana and Artur Ziviani",
+  title        = "{A} Survey of Adaptive Services to Cope with Dynamics in Wireless Self-Organizing Networks",
+  journal      = surveys,
+  year         = 2012,
+  volume       = 44,
+  number       = 4,
+  pages        = "23:0--23:35",
+  month        = Aug,
+  keywords     = "algorithms, design, adaptive networking services, store and
+    forward networks, distributed networks, wireless sensor networks,
+    delay-tolerant networks, self-organizing networks, location management,
+    resource management, topology management, routing, forwarding, data
+    managment, ",
+  abstract     = "In this article, we consider different types of wireless
+    networks that benefit from and, in certain cases, require
+    self-organization.  Taking mobile ad hoc, wireless sensor, wireless mesh,
+    and delay-tolerant networks as examples of wireless self-organizing
+    networks (WSONs), we identify that the common challenges these networks
+    face are mainly due to lack of centralized management, device
+    heterogeneity, unreliable wireless communication, mobility, resource
+    constraints, or the need to support different traffic types.  In this
+    context, we survey several adaptive services proposed to handle these
+    challenges.  In particular, we group the adaptive services as core services
+    and network-level services.  By categorizing different types of services
+    that handle adaptation and the types of adaptations, we intend to provide
+    useful design guidelines for achieving self-organizing behavior in network
+    protocols.  Finally, we discuss open research problems to encourage the
+    design of novel protocols for WSONs.", 
+  location     = "http://dx.doi.org/10.1145/2333112.2333118"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
