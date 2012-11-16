@@ -22562,48 +22562,6 @@
   location     = "http://doi.acm.org/10.1145/299917.299919"
 }
 
-@Article{asoptpcdt,
-  author       = "Stephanos Androutsellis-Theotokis and Diomidis Spinellis",
-  title        = "A survey of peer-to-peer content distribution technologies",
-  journal      = surveys,
-  year         = 2004,
-  volume       = 36,
-  number       = 4,
-  pages        = "372--421",
-  month        = dec,
-  keywords     = "algorithms, design, performance, reliability, security,
-		  content distribution, DHT, DOLR, grid computing, p2p,
-		  peer-to-peer",
-  abstract     = {Distributed computer architectures labeled "peer-to-peer" are
-		  designed for the sharing of computer resources (content,
-		  storage, CPU cycles) by direct exchange, rather than
-		  requiring the intermediation or support of a centralized
-		  server or authority.  Peer-to-peer architectures are
-		  characterized by their ability to adapt to failures and
-		  accommodate transient populations of nodes while maintaining
-		  acceptable connectivity and performance.Content distribution
-		  is an important peer-to-peer application on the Internet that
-		  has received considerable research attention.  Content
-		  distribution applications typically allow personal computers
-		  to function in a coordinated manner as a distributed storage
-		  medium by contributing, searching, and obtaining digital
-		  content.In this survey, we propose a framework for analyzing
-		  peer-to-peer content distribution technologies.  Our approach
-		  focuses on nonfunctional characteristics such as security,
-		  scalability, performance, fairness, and resource management
-		  potential, and examines the way in which these
-		  characteristics are reflected in---and affected by---the
-		  architectural design decisions adopted by current
-		  peer-to-peer systems.We study current peer-to-peer systems
-		  and infrastructure technologies in terms of their distributed
-		  object location and routing mechanisms, their approach to
-		  content replication, caching and migration, their support for
-		  encryption, access control, authentication and identity,
-		  anonymity, deniability, accountability and reputation, and
-		  their use of resource trading and management schemes.},
-  location     = "http://www.dmst.aueb.gr/dds/pubs/jrnl/2004-ACMCS-p2p/html/AS04.pdf"
-}
-
 @Article{epft2c,
   author       = "Gregory~V. Wilson",
   title        = "Extensible programming for the 21st century",
