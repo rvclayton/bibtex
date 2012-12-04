@@ -630,6 +630,17 @@
   location     = "Q 172.5 P82 L47"
 }
 
+@Book{efsrk,
+  author       = "Robert Kuttner",
+  title        = "Everything for Sail",
+  publisher    = "Knopf",
+  year         = 1997,
+  address      = nyny,
+  keywords     = "economic policy, industrial policy, capitalism, markets,
+    labor, medicine, money markets, regulation, competition, politics",
+  location     = "HC 106.82 K87"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
@@ -13377,6 +13388,38 @@
   location     = "http://dx.doi.org/10.1145/2333112.2333118"
 }
 
+@Article{asacoptpons,
+  author       = "Eng Keong Lua and Jon Crowcroft and Marcelo Pias and Ravi
+    Sharma and Steven Lim", 
+  title        = "{A} survey and comparison of peer-to-peer overlay network schemes",
+  journal      = "IEEE Communications Surveys and Tutorials",
+  year         = 2005,
+  volume       = 7,
+  number       = 2,
+  pages        = "72--93",
+  OPTmonth     = "",
+  keywords     = "",
+  abstract     = "Over the Internet today, computing and communications
+    environments are significantly more complex and chaotic than classical
+    distributed systems, lacking any centralized organization or hierarchical
+    control.  There has been much interest in emerging Peer-to-Peer (P2P)
+    network overlays because they provide a good substrate for creating
+    large-scale data sharing, content distribution and application-level
+    multicast applications.  These P2P networks try to provide a long list of
+    features such as: selection of nearby peers, redundant storage, efficient
+    search/location of data items, data permanence or guarantees, hierarchical
+    naming, trust and authentication, and, anonymity.  P2P networks potentially
+    offer an efficient routing architecture that is self-organizing, massively
+    scalable, and robust in the wide-area, combining fault tolerance, load
+    balancing and explicit notion of locality.  In this paper, we present a
+    survey and comparison of various Structured and Unstructured P2P networks.
+    We categorize the various schemes into these two groups in the design
+    spectrum and discuss the application-level network performance of each
+    group.", 
+  location     = "http://www.cl.cam.ac.uk/teaching/2005/AdvSysTop/survey.pdf", 
+  location     = "http://dx.doi.org/10.1109/COMST.2005.1610546"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
@@ -13602,6 +13645,30 @@
     originated from the stack organisation in the well known Warren Abstract
     Machine (WAM) for logic languages, where the runtime information of several
     alternative computation branches is stored on a single stack." 
+}
+
+@TechReport{armtna,
+  author       = "Thomas Narten",
+  title        = "{A} Road Map Through {N}achos",
+  institution  = dcs # "Duke University",
+  year         = 1995,
+  address      = "Durham, N.C.",
+  month        = 4 # " " # jan,
+  keywords     = "threads, user-level processes, file systems, operating
+    systems, simulators",
+  abstract     = "Nachos is instructional software that allows students to 
+    examine, modify and execute operating system software.  Nachos provides a
+    skeletal operating system that supports threads, user-level processes,
+    virtual memory and interrupt-driven input output devices.  Nachos is a
+    complex piece of software and it is difficult for beginning students (and
+    instructors) to easily gain on overall understanding of the various system
+    pieces and how they fit together.  This document provides a road map to
+    understanding the Nachos system.  It gives a high-level overview of the
+    source code, focusing on the big picture rather than on the details.  It is
+    not intended as a replacement for reading the source code.  Rather, it is a
+    companion that is intended to help students (and instructors) overcome the
+    initial learning curve encountered when learning and using the system.", 
+  location     = "http://www.cs.duke.edu/~narten/110/nachos/main.ps"
 }
 
 @PhDThesis{aaeitiopl,
