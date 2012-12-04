@@ -216,7 +216,6 @@ a retargetable debugger : ramsey
 a retargetable instruction reorganizer : davidson
 a retrospective on paradigms of ai programming : norvig
 a reusable architecture for simulations : dahmann
-a road map through nachos : narten
 a scala tutorial for java programmers : schinz
 a scalable content addressable network : ratnasamy
 a schedulability analyzer for real time euclid : stoyenko
@@ -831,7 +830,6 @@ conformational automata in the cytoskeleton : hameroff
 congestion avoidance and control : jacobson
 congestion control and traffic management in atm networks recent advances and a survey : jain
 conjunction as composition : zave
-considerations in choosing a concurrent distributed object oriented programming language : nelson
 considerations for an effective telecommunications use policy : whitman
 considering recursion : robison
 consistency based diagnosis : palshikar
@@ -1433,7 +1431,6 @@ hints on programming language design : hoare
 history of lisp : mccarthy
 hobbes intenet timeline : zakon
 hoisting branch conditions improving superscalar processor performance : applebe
-holistic voip intrusion detection and prevention system : nassar
 homogeneous coordinates and projective planes in computer graphics : riesenfeld
 hood and z for the development of complex software systems : di giovanni
 hop a language for programming the web 2.0 : serrano
@@ -1631,7 +1628,6 @@ is ip going to take over the world of communications : molinero
 is layering harmful : crowcroft
 is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
 is turing a better language for teaching programming than pascal : martin
-iterative user interface design : nielson
 iterators a sign of weakness in object oriented languages : baker
 iterators signs of weakness in object oriented languages : baker
 j2ee 1.4 premiers javas assertion capabilities : rogers
@@ -2625,7 +2621,6 @@ specification styles in distributed systems design and verification : vissers
 specifying a real time kernel : spivey
 specifying and verifying conditional progress : calvert
 specifying representations of machine instructions : ramsey
-speech interfaces from an evolutionary perspective : nass
 splay trees : clark
 splay trees : karger
 spoken dialogue technology enabling the conversational user interface : mctear
