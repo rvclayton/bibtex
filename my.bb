@@ -641,6 +641,16 @@
   location     = "HC 106.82 K87"
 }
 
+@Book{bbgb,
+  author       = "Bruno~G. Breitmeyer",
+  title        = "Blindspots",
+  publisher    = oup,
+  year         = 2010,
+  address      = nyny,
+  keywords     = "vision, blindness",
+  location     = "BF 241 B728"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
