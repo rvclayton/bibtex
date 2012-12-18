@@ -409,7 +409,7 @@
   title        = "Spider Silk",
   publisher    = "Yale University Press",
   year         = 2010,
-  address      = "New Haven, Connecticut",
+  address      = nhco,
   keywords     = "spiders, evolution, webs, fossil",
   location     = "QL 459.B78"
 }
@@ -649,6 +649,17 @@
   address      = nyny,
   keywords     = "vision, blindness",
   location     = "BF 241 B728"
+}
+
+@Book{twonyb,
+  author       = "Yochai Benkler",
+  title        = "The Wealth of Networks",
+  publisher    = "Yale University Press",
+  year         = 2006,
+  address      = nhco,
+  keywords     = "networks, information economy, social production, mass media,
+    culture, public policy",
+  location     = "HM 851 B457"
 }
 
 @Article{mapapmlic,
