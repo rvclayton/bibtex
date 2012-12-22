@@ -13448,6 +13448,26 @@
   keywords     = "notebook, tablet pc"
 }
 
+@Manual{tjfas,
+  title        = "Trail: {JAR} Files",
+  author       = "Alan Sommerer",
+  organization = "Sun Microsystems",
+  keywords     = "java, jar, archiving, file management",
+  location     = "http://docs.oracle.com/javase/tutorial/deployment/jar/index.html"
+}
+
+@Manual{pbeapb,
+  title        = "Pharo by Example",
+  author       = "Andrew~P. Black and St{\' e}phane Ducasse and Oscar
+    Nierstrasz and Damien Pollet",
+  organization = "Square Bracket Associates",
+  address      = "Switzerland",
+  year         = 2009,
+  month        = oct,
+  keywords     = "pharo, smalltalk, software development",
+  location     = "http://pharobyexample.org/"
+}
+
 @InProceedings{acapattht,
   author       = "{\" U}lfar Erlingsson and Mark Manasse and Frank McSherry",
   title        = "{A} Cool and Practical Alternative to Traditional Hash Tables",
