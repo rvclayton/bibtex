@@ -8376,7 +8376,7 @@
   location     = "QA 76.6.I17"
 }
 
-@Article{spf,
+@Article{spfwhb,
   author       = "W. H. Burge",
   title        = "Stream Processing Functions",
   journal      = ibmjrd,
