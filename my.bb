@@ -662,6 +662,17 @@
   location     = "HM 851 B457"
 }
 
+@Book{spf,
+  author       = "Paula Fredriksen",
+  title        = "Sin",
+  publisher    = pup,
+  year         = 2012,
+  address      = prnj,
+  keywords     = "sin, christian theology, jesus, paul, valintinus, marcion,
+    justin, origen, augustine", 
+  location     = "BT 715 F74"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
