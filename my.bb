@@ -673,6 +673,16 @@
   location     = "BT 715 F74"
 }
 
+@Book{tsmcssvd,
+  author       = "S.~S. Van~Dine",
+  title        = "The Scarab Murder Case",
+  publisher    = "Grosset \& Dunlap",
+  year         = 1930,
+  address      = nyny,
+  keywords     = "murrdaar, two-way misdirection",
+  location     = "PZ 3.W9384"
+}
+
 @Article{mapapmlic,
   author       = "Michael~C. Ring",
   title        = "{MAPM}, {A} Portable Arbitrary Precision Math Library in {C}",
