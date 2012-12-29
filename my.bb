@@ -13462,6 +13462,181 @@
   location     = "http://dx.doi.org/10.1109/COMST.2005.1610546"
 }
 
+@Article{trotb,
+  author       = "Tom Pittman",
+  title        = "The Return of {T}iny {B}asic",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "24--30",
+  month        = jan,
+  keywords     = "visual programming languages, grammars, pseudocode,
+    interpreters",
+  location     = "http://www.drdobbs.com/web-development/the-return-of-tiny-basic/184406381"
+}
+
+@Article{told,
+  author       = "Guy~L. {Steel, Jr.}",
+  title        = "Thoughts on Language Design",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "31--32",
+  month        = jan,
+  keywords     = "language design, human factors",
+  location     = "http://www.drdobbs.com/thoughts-on-language-design/184406382"
+}
+
+@Article{rdtrtddd,
+  author       = "Truck Smith",
+  title        = "Recursive Descent, Tail Recursion, \& the Dreaded Double Divide",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "36--39",
+  month        = jan,
+  keywords     = "parsing, tail recursion, operator precidence",
+  location     = "http://www.drdobbs.com/architecture-and-design/recursive-descent-tail-recursion-the-dr/184406384"
+}
+
+@Article{txtrpp,
+  author       = "James Britt",
+  title        = "Transforming {XML} \& the {REXML} Pull Parser",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "40--45",
+  month        = jan,
+  keywords     = "dom parsers, xslt, structure transformations, ruby",
+  location     = "http://www.drdobbs.com/web-development/transforming-xml-the-rexml-pull-parser/184406385"
+}
+
+@Article{ppwpbg,
+  author       = "Betsy Gamrat",
+  title        = "{PHP} \& Preprocesed Web Pages",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "46--48",
+  month        = jan,
+  keywords     = "client content, seo",
+  abstract     = "Preprocessing lets you deliver complex web pages lightning
+    fast, and in a cost-effective manner.",
+  location     = "http://www.drdobbs.com/web-development/php-preprocessed-web-pages/184406386"
+}
+
+@Article{sijc,
+  author       = "David Perelman-Hall",
+  title        = "Sorting in {J}ava \& {C}\#",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "49--52",
+  month        = jan,
+  keywords     = "reflection, sorting",
+  abstract     = "David uses reflection to sort a list of complex types using
+    both Java and C#.", 
+  location     = "http://www.drdobbs.com/jvm/sorting-in-java-c/184406387"
+}
+
+@Article{tjla,
+  author       = "David Parsons",
+  title        = "The {J}ava Location {API}",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "53--58",
+  month        = jan,
+  keywords     = "location api, proximity listeners, landmarks, j2me,
+    references",
+  abstract     = "When it comes to real estate and mobile phones, the three
+    most important words are location, location, location.", 
+  location     = "http://www.drdobbs.com/jvm/the-java-location-api/184406388"
+}
+
+@Article{swx,
+  author       = "Dionysios~G. Synodinos",
+  title        = "Sessioning with {XMLHttpRequest}",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "59--61",
+  month        = jan,
+  keywords     = "html, javascript, presentation layer, xml data",
+  abstract     = "Here's an XMLHttpRequest object that lets you use HTML and
+    JavaScript to connect the presentation layer directly to XML data.", 
+  location     = "http://www.drdobbs.com/web-development/sessioning-with-xmlhttprequest/184406389"
+}
+
+@Article{cmmjrcc,
+  author       = "Jose R.~C. Cruz",
+  title        = "Cocoa Memory Management",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "62--65",
+  month        = jan,
+  keywords     = "ui programming, storage management, object management,
+    accessors, modifiers, autorelease pool, storage zones",
+  abstract     = "Cocoa, a Mac application development framework, has a
+    memory-management scheme that differs from Java or C++.",
+  location     = "http://www.drdobbs.com/cpp/cocoa-memory-management/184406391"
+}
+
+@Article{sicic,
+  author       = "Ron Kreymborg",
+  title        = "Single Inheritance Classes in {C}",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "68--72",
+  month        = jan,
+  keywords     = "class structures, vtables, data hiding, inheritance",
+  abstract     = "When C++ compilers don't exist for some processors,
+    inheritable classes in C may be the best solution.",
+  location     = "http://www.drdobbs.com/cpp/single-inheritance-classes-in-c/184406396"
+}
+
+@Article{teve,
+  author       = "David Orme and Joe Winchester and Gili Mendel",
+  title        = "The {E}clipse Visual Editor",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "73--75",
+  month        = jan,
+  keywords     = "gui builder, extensibility",
+  abstract     = "The Eclipse Visual Editor is a subproject that provides a
+    framework for creating Eclipse-based GUI builders.",
+  location     = "http://www.drdobbs.com/the-eclipse-visual-editor/184406394"
+}
+
+@Article{dpd,
+  author       = "Tomer Abramson",
+  title        = "Detecting Potential Deadlocks",
+  journal      = ddj,
+  year         = 2006,
+  volume       = 31,
+  number       = 1,
+  pages        = "76--78",
+  month        = jan,
+  keywords     = "deadlock detection, static analysis",
+  abstract     = "To avoid deadlocks, Tomer explains how to use tools that
+    detect potential deadlocks each time code is executed.",
+  location     = "http://www.drdobbs.com/tools/detecting-potential-deadlocks/184406395"
+}
+
 @Manual{masghcnnp,
   title        = "Maintenance and Service Guide: {HP} Compaq nc4400 Notebook {PC}",
   year         = 200,
