@@ -51663,9 +51663,9 @@
 }
 
 @InProceedings{racslfrtcsap,
-  author       = "V.~A. Nepomniaschy and N.~V. Shilov",
+  author       = "Valery~A. Nepomniaschy and Nikolay~V. Shilov",
   title        = "{REAL92}:  A Combined Specification Language for Real-Time
-		  Concurent Systems and Properties",
+		  Concurrent Systems and Properties",
   booktitle    = pot # "International Conference on Formal Methods in
 		  Programming and Their Applications",
   year         = 1993,
@@ -51675,8 +51675,15 @@
   series       = lncs,
   volume       = 735,
   address      = "Academgorodok, Novosibirsk, Russia",
-  month        = "28 June-2 July",
-  keywords     = ""
+  month        = "28 " # jun # "--2 " # jul,
+  keywords     = "executable specification, specification language",
+  abstract     = "Real 92 is a new combined specification language for
+    concurrent processes based on nondeterministic dialect of Specification and
+    Design Language (SDL) and on dynamic version of Computation Tree Logic
+    (CTL), both SDL and CTL with a real time.  The paper includes a survey
+    of syntax and sketch of operational semantics of Real 92, specification
+    examples of systems and properties of concurrent communicating real-time
+    processes."
 }
 
 @InProceedings{mdorts,
