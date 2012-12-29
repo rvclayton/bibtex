@@ -588,7 +588,6 @@ automatic formal synthesis of hardware from higher order logic : gordon
 automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
 automatic implementation of formal descriptions of communication protocols : hansson 
-automatic indexing and content based retrieval of captioned images : srihari
 automatic mining of source code repositories to improve bug finding techniques : williams
 automatic synthesis of state machines from trace diagrams : koskimies
 automated testing of object oriented software : meyer
@@ -2303,7 +2302,6 @@ ratpoison man page : ratpoison
 rbac schema verification using lightweight formal model and constraint analysis : zao
 rc reference manual : boussinot
 rc semantics using rewrite rules : boussinot
-rdf weaving the web of discovery : swick
 re2c a more versatile scanner generator : bumbulis
 reachability testing of concurrent programs : lei
 reactive c an extension of c to program reactive systems : boussinot
@@ -2315,8 +2313,6 @@ real time data fusion in the intensive care unit : factor
 real time further misconceptions or half truths : kurki
 real time scheduling theory and ada : sha
 real time voice communication over the internet using packet path diversity : liang
-real92 a combined specification language for real time concurrent systems and properties : nepomniaschy
-real92 a combined specification language for real time concurrent systems and properties : shilov
 realization of verilog hdl domputation model : hyde
 realizing 3d visualization using crossed beam volumetric displays : ebert
 really truly trackerless bittorrent : fry
