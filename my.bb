@@ -42,6 +42,48 @@
   location     = "BF 321 C43"
 }
 
+@Book{stch,
+  author       = "Carl Hiaasen",
+  title        = "Strip Tease",
+  publisher    = "Knopf",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "the will and the flesh",
+  location     = "PS 3558.I217 S77"
+}
+
+@Book{tgamc,
+  author       = "S.~S. {Van Dine}",
+  title        = "The Gracie Allen Murder Case",
+  publisher    = "Scribner's",
+  year         = 1938,
+  address      = nyny,
+  keywords     = "murrdaar, the ol' switcheroo",
+  location     = "PZ 3.W9384 Gq"
+}
+
+@Book{jmatmoa,
+  author       = "Kevin~R. Gutzman",
+  title        = "James Madison and the Making of America",
+  publisher    = "St. Martin's Press",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "american constitutional government, revolutionary america",
+  location     = "E 342.G88"
+}
+
+@Book{cafmf,
+  author       = "Milton Freedman",
+  title        = "Capitalism and Freedom",
+  publisher    = ucp,
+  year         = 1962,
+  address      = chil,
+  keywords     = "economics, politics, government, money, fiscal policy, trade,
+    education, discrimination, monopoly, licensure, income distribution, social
+    welfare, poverty",
+  location     = "HB 501 F7"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
@@ -147,5 +189,40 @@ Security Capabilities",
   month        = oct,
   keywords     = "sensor networks, vehicle tracking, networking",
   location     = "https://www.usenix.org/publications/login/october-2005-volume-30-number-5/distributed-adaptive-resource-allocation-sensor"
+}
+
+@Article{cfats,
+  author       = "Henry Nyquist",
+  title        = "Certain factors affecting telegraph speed",
+  journal      = bstj,
+  year         = 1924,
+  volume       = 3,
+  number       = 2,
+  pages        = "324–-346",
+  month        = apr,
+  keywords     = "",
+  abstract     = "This paper considers two fundamental factors entering into
+    the maximum speed of transmission of intelligence by telegraph.  These
+    factors are signal shaping and choice of codes.  The first is concerned
+    with the best wave shape to be impressed on the transmitting medium so as
+    to permit of greater speed without undue interference either in the circuit
+    under consideration or in those adjacent, while the latter deals with the
+    choice of codes which will permit of transmitting a maxi-mum amount of
+    intelligence with a given number of signal elements.  It is shown that the
+    wave shape depends somewhat on the type of circuit over which intelligence
+    is to be transmitted and that for most cases the optimum wave is neither
+    rectangular nor a half cycle sine wave as is frequently used but a wave of
+    special form produced by sending a simple rectangular wave through a
+    suitable network.  The impedances usually associated with telegraph
+    circuits are such as to produce a fair degree of signal shaping when a
+    rectangular voltage wave is impressed.  Consideration of the choice of
+    codes show that while it is desirable to use those involving more than two
+    current values, there are limitations which prevent a large number of
+    current values being used.  A table of comparisons shows the relative speed
+    efficiencies of various codes proposed.  It is shown that no advantages
+    result from the use of a sine wave for telegraph transmission as proposed
+    by Squier and others and that their arguments are based on erroneous
+    assumptions.", 
+  location     = "http://archive.org/stream/bstj3-2-324#page/n0/mode/2up"
 }
 
