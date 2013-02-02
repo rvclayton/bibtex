@@ -84,6 +84,16 @@
   location     = "HB 501 F7"
 }
 
+@Book{tkmc,
+  author       = "S.~S. {Van Dine}",
+  title        = "The Kennel Murder Case",
+  publisher    = "C. Scribner's Sons",
+  year         = 1933,
+  address      = nyny,
+  keywords     = "murrdaar, the walking dead",
+  location     = "PZ 3.W9384 Ke"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
