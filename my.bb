@@ -94,6 +94,16 @@
   location     = "PZ 3.W9384 Ke"
 }
 
+@Book{tottgmj,
+  author       = "Graham~M. Jones",
+  title        = "Trade of the Tricks",
+  publisher    = ucalp,
+  year         = 2011,
+  address      = bca,
+  keywords     = "magic, culture, performance, secret knowledge",
+  location     = "GV 1547 J66"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
