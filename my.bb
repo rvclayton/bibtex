@@ -104,6 +104,16 @@
   location     = "GV 1547 J66"
 }
 
+@Book{ahftk,
+  author       = "Dave Eggers",
+  title        = "{A} Hologram for the King",
+  publisher    = "McSweeny's",
+  year         = 2012,
+  address      = sfca,
+  keywords     = "hope, despair, saudi arabia ",
+  location     = ""
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
