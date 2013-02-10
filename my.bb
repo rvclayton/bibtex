@@ -114,6 +114,16 @@
   location     = ""
 }
 
+@Book{tsgrd,
+  author       = "Richard Dawkins",
+  title        = "The Selfish Gene",
+  publisher    = oup,
+  year         = 1976,
+  address      = nyny,
+  keywords     = "genetics, evolution, development, memes, aggression",
+  location     = "QH 437 D38"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
