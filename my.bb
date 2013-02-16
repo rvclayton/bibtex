@@ -265,4 +265,34 @@ Security Capabilities",
     assumptions.", 
   location     = "http://archive.org/stream/bstj3-2-324#page/n0/mode/2up"
 }
+		  
+@InProceedings{sart,
+  author       = "Stephen Ponzio and H.~Raymond Strong",
+  title        = "Semisynchrony and Real Time",
+  booktitle    = pot # "6th International Workshop on Distributed Algorithms (WDAG '92)",
+  year         = 1992,
+  editor       = "Adrian Segall and Shmuel Zaks",
+  pages        = "120--135",
+  series       = lncs,
+  volume       = 647,
+  publisher    = "Springer",
+  address      = "Haifa, Israel",
+  month        = "2--4 " # nov,
+  keywords     = "approximately synchronized clocks, consensus, atomic
+    broadcast, latency", 
+  abstract     = "This paper represents the confluence of several streams of 
+    resarch on the real time complexity of distributed algorithms.  The primary
+    focus of our study is on two models and two problems: the timed automata
+    model of Attiya and Lynch and the (latency) model of approximately
+    synchronized clocks studied by Strong et. al., and the problems of
+    consensus and atomic broadcast.  We compare these models and problems, 
+    producing new results and significant improvements of previously known
+    bounds.  In particular, we are able to significantly improve the upper
+    bound of Strong, Dolev, and Cristian on latency for Byzantine failures,
+    giving an algorithm that is much simpler with vastly easier analysis.  For
+    this problem, we also improve the best known lower bound on latency.  We
+    also provide certain reductions between problems and models and provide
+    preliminary answers to some new questions in the timed automata model.", 
+  location     = ""
+}
 
