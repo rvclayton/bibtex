@@ -124,6 +124,16 @@
   location     = "QH 437 D38"
 }
 
+@Book{tkmcssvd,
+  author       = "S.~S. {Van Dine}",
+  title        = "The Kidnap Murder Case",
+  publisher    = "Scribner",
+  year         = 1936,
+  address      = nyny,
+  keywords     = "murrdaar, extortion",
+  location     = "PZ 3.W9384"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
