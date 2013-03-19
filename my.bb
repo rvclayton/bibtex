@@ -145,6 +145,17 @@
   location     = "QA 76.12 D97"
 }
 
+@Book{teprd,
+  author       = "Richard Dawkins",
+  title        = "The Extended Phenotype",
+  publisher    = "W.~H. Freeman",
+  year         = 1982,
+  address      = oxuk,
+  keywords     = "natural selection, gene expression, genetics, evolution,
+    replicators", 
+  location     = "QH 375.D38"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
