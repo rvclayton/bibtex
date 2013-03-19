@@ -134,6 +134,17 @@
   location     = "PZ 3.W9384"
 }
 
+@Book{tscgd,
+  author       = "George Dyson",
+  title        = "Turing's Cathedral",
+  publisher    = "Pantheon Books",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "computers, ias, von neumann, weather forecasting, monte carlo
+    method, computational biology",
+  location     = "QA 76.12 D97"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
@@ -304,5 +315,28 @@ Security Capabilities",
     also provide certain reductions between problems and models and provide
     preliminary answers to some new questions in the timed automata model.", 
   location     = ""
+}
+
+@Article{adteeosfuitcmca,
+  author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
+  title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
+  journal      = toce,
+  year         = 2013,
+  volume       = 13,
+  number       = 1,
+  pages        = "4:1--4:12",
+  month        = jan,
+  keywords     = "message passing, intel scc, embedded xinu, parallel
+    programming, many-core programming, cache coherence",
+  abstract     = "We present Xipx, the first port of a major educational
+    operating system to a processor in the emerging class of many-core
+    architectures.  Through extensions to the proven Embedded Xinu operating
+    system, Xipx gives students hands-on experience with system programming in
+    a distributed message-passing environment.  We expose the software
+    primitives needed to maintain coherency between many cores in a system
+    lacking specialized caching hardware.  Our proposed series of laboratory
+    assignments adds parallel thread execution and intercore message passing
+    communication to a well-established OS curriculum.",
+  location     = "http://dx.doi.org/10.1145/2414446.2414450"
 }
 
