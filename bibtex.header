@@ -234,6 +234,7 @@
 @string{tkja    = "Tokyo, Japan"}
 @string{tm	= "Technical Memorandum"}
 @string{tnsg    = "Telecommunications\slash Networking Systems Group, "}
+@string{toce	= acmt # "Computing Education"}
 @string{todaes	= acmt # "Design Automation of Electronic Systems"}
 @string{tois	= acmt # "Office Information Systems"}
 @string{toja    = "Tokyo, Japan"}
