@@ -13435,12 +13435,13 @@
     Sharma and Steven Lim", 
   title        = "{A} survey and comparison of peer-to-peer overlay network schemes",
   journal      = "IEEE Communications Surveys and Tutorials",
-  year         = 2005,
+  year         = 2004,
   volume       = 7,
   number       = 2,
   pages        = "72--93",
-  OPTmonth     = "",
-  keywords     = "",
+  month        = mar,
+  keywords     = "peer-to-peer, distributed scalable algorithms, lookup
+    protocols, overlay routing, overlay networks",
   abstract     = "Over the Internet today, computing and communications
     environments are significantly more complex and chaotic than classical
     distributed systems, lacking any centralized organization or hierarchical

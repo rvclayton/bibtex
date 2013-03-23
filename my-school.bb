@@ -21783,6 +21783,13 @@
   pages        = "35--49",
   month        = dec,
   keywords     = "data-parallel computation, templates, c++",
+  abstract     = "Taco (Topologies and Collections) is a template based object
+    platform for cluster architectures, that provides the flavour of
+    distributed data-parallel programming based on distributed object groups.
+    This paper introduces Taco's basic concepts and discusses template based
+    programming techniques to control the behaviour of (collective) method
+    invocations.  In particular, the problem of polymorphism and concurrency
+    control in the context of distributed, parallel computing is addressed.", 
   location     = "QA 76.A772"
 }
 
@@ -27843,13 +27850,26 @@
 
 @TechReport{msalvos,
   author       = "Dieter Nazareth and Franz Regensburger and Peter Scholz",
-  title        = "Mini-Statecharts: A lean Version of Statecharts",
+  title        = "Mini-Statecharts: A lean Version of {S}tatecharts",
   institution  = "Institute f{\"u}r Informatik, Technische Universait{\"a}t M{\"u}nchen",
   year         = 1996,
   number       = "TUM-I9610",
   address      = "Munich, Germany",
   month        = feb,
   keywords     = "statecharts, stream semantics",
+  abstract     = "Statecharts are well accepted in industrial applications for
+    specifying reactive, embedded systems.  Unfortunately, a reference
+    semantics has not been developed until now.  Therefore, the semantics of
+    Statecharts is still of interest in the science community.  This paper
+    presents a compositional, denotational semantics for a special subclass of
+    Statecharts based on stream processing functions.  The basic component of
+    Mini-Statecharts is a deterministic, reactive, signal-triggered sequential
+    automaton which can be composed in multiple ways.  The composition
+    operators are: parallel composition, local signal-scoping, semantic
+    feedback of signals, and decomposition of states.  The main issues are the
+    compositionality of the semantics, the definition of the semantic behavior
+    for a kind of history mechanism, and the different views of the feedback
+    operator.", 
   location     = "http://www4.informatik.tu-muenchen.de/reports/TUM-I9610.ps.gz"
 }
 
@@ -29549,8 +29569,35 @@
   address      = ppa,
   month        = "14--17 " # nov,
   keywords     = "concurrency control, groupware, multi-access systems,
-		  multimedia communication, multimedia computing, user
-		  interface management systems, virtual reality",
+    multimedia communication, multimedia computing, user interface management
+    systems, virtual reality, window  toolkits,  CSCW, groupware  toolkits,
+    opti-mistic concurrency control",
+  abstract     = "Jupiter is a multi-user, multimedia virtual world intended
+    to support long-term remote collaboration.  In particular, it supports
+    shared documents, shared tools, and, optionally, live audio/video
+    communication.  Users who program can, with only moderate effort, create
+    new kinds of shared tools usinga high-level windowing toolkit; the toolkit
+    provides transparent support for fully-shared widgets by default.  This
+    paper describes the low-level communications facilities used by the
+    implementation of the toolkit to enable that support.  The state of the
+    Jupiter virtual world, including applicationcode written by users, is
+    stored and (for code) executed in acentral server shared by all of the
+    users.  This architecture,along with our desire to support multiple client
+    platforms and high-latency networks, led us to a design in which the server
+    and clients communicate in terms of high-level wid-gets and user events.
+    As in other groupware toolkits, we need a concurrency-control algorithm to
+    maintain common values for all instancesof the shared widgets.  Our
+    algorithm is derived from a fullydistributed, optimistic algorithm
+    developed by Ellis and Gibbs [12].  Jupiter's centralized architecture
+    allows us to substantially simplify their algorithm.  This combination of
+    acentralized architecture and optimistic concurrency controlgives us both
+    easy serializability of concurrent update streams and fast response to user
+    actions.  The algorithm relies on operation transformations to fix up
+    conflicting messages.  The best transformations are not always obvious,
+    though, and several conflicting concernsare involved in choosing them.  We
+    present our experiencewith choosing transformations for our widget set,
+    which includes a text editor, a graphical drawing widget, and anumber of
+    simpler widgets such as buttons and sliders.", 
   location     = "QA 76.9.U83 A27 1995"
 }
 

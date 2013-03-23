@@ -1500,7 +1500,7 @@
 @Article{asompcm,
   author       = "Robin~A. Nicholl",
   title        = "A Specification of {Modula}-2 Process (Coroutine)
-		  Management",
+    Management",
   journal      = "Journal of Pascal, Ada, \& Modula-2",
   year         = 1988,
   volume       = 7,

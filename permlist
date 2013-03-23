@@ -257,6 +257,7 @@ a study of design characterization in evolving software using stability as a cri
 a study of the fragile base class problem : makhajlov
 a suite of unix filters for fragment assembly : myers
 a survey and classification of some program transformation approaches and techniques : feather
+a survey and comparison of peer to peer overlay network schemes : lua
 a survey of adaptable grammars : christiansen
 a survey of attack and defense techniques for reputation systems : hoffman
 a survey of cache coherence schemes for multiprocessors : stenstrom
@@ -700,6 +701,7 @@ cdt a container data type library : vo
 celestes tutorial on sunos 41x modems and terminals : stokely
 cellular automata for solving mazes : nayfeh
 census collecting host information on a wide area network : ganatra
+certain factors affecting telegraph speed : nyquist
 certificate revocation : hope
 cget cput and stage safe file transport tools for the internet : cheswick
 cgi programming : hamilton
@@ -856,6 +858,7 @@ coroutines and networks of parallel processes : kahn
 correct architecture refinement : moriconi
 correctness and composition of software architectures : moriconi
 cost effective parallel computing : wood
+coverage problems in sensor networks a survey : wang
 covert channels in the tcp ip protocol suite : rowland
 cp miner finding copy paste and related bugs in large scale software code : li
 cracking the oyster : bentley
@@ -2526,6 +2529,7 @@ simulation lecture notes : nakayama
 single pass generation of static single assignment form for structured languages : brandis
 six rather unusual propositions about terrorism : mueller
 ska supporting algorithm and data structure discussion : hamilton
+sketchpad a man machine graphical communication system : sutherland
 skip lists : schneier
 skip lists a probabilistic alternative to balanced trees : pugh
 skribilo user manual : gallesio
@@ -2727,6 +2731,7 @@ system support for efficient dynamically configurable multi party interactive mu
 systematic program development : dromey
 systems software research is irrelevant : pike
 tabu search part ii : glover
+taco protyping high level object oriented programming constructs by means of template based programming techniques : nolte
 tahuti a geometrical sketch recognition system for uml class diagrams : hammond
 take pity on the user the red customization package : prunet
 tango a framework and system for algorithm animation : stasko
