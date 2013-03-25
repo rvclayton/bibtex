@@ -156,6 +156,16 @@
   location     = "QH 375.D38"
 }
 
+@Book{tsotqa,
+  author       = "Ingrid Mattson",
+  title        = "The Story of the Qur'an",
+  publisher    = "Blackwell",
+  year         = 2008,
+  address      = "Maldin, " # MA,
+  keywords     = "koran, islam, theology, history, interpretation",
+  location     = "BP 132.M39"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
