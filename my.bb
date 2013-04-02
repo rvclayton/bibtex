@@ -391,6 +391,32 @@ Security Capabilities",
   location     = "ftp://ftp.inf.ethz.ch/doc/tech-reports/6xx/618.pdf"
 }
 
+@InProceedings{calatfstcosefcad,
+  author       = "Andrew~J. Ko and Brad~A. Myers",
+  title        = "Citrus:  {A} Language and Toolkit for Simplifying the Creation of Structured Editors for Code and Data",
+  booktitle    = pot # "18th annual ACM symposium on User Interface Software
+    and Technology", 
+  year         = 2005,
+  pages        = "2--12",
+  address      = swa,
+  month        = "23--26 " # oct,
+  keywords     = "human factors, languages, structured editing, interface
+    builder, toolkit",
+  abstract     = "Direct-manipulation editors for structured data are
+    increasingly common.  While such editors can greatly simplify the creation
+    of structured data, there are few tools to simplify the creation of the
+    editors themselves.  This paper presents Citrus, a new programming language
+    and user interface toolkit designed for this purpose.  Citrus offers
+    language-level support for constraints, restrictions and change
+    notifications on primitive and aggregate data, mechanisms for automatically
+    creating, removing, and reusing views as data changes, a library of
+    widgets, layouts and behaviors for defining interactive views, and two
+    comprehensive interactive editors as an interface to the language and
+    toolkit itself.  Together, these features support the creation of editors
+    for a large class of data and code.", 
+  location     = "http://repository.cmu.edu/cgi/viewcontent.cgi?article=1177&context=hcii"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
