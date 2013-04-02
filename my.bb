@@ -366,6 +366,31 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/1124772.1124831"
 }
 
+@InProceedings{apbsmfast,
+  author       = "Gian-Marco Baschera and Markus Gross",
+  title        = "{A} Phoneme-Based Student Model for Adaptive Spelling Training",
+  booktitle    = pot # "2009 Conference on Artificial Intelligence in Education",
+  year         = 2009,
+  editor       = "Vania Dimitrova and Riichiro Mizoguchi and Benedict {du
+    Boulay} and Arthur~C. Graesser",
+  pages        = "614--616",
+  publisher    = "IOS Press",
+  address      = "Brighton, UK",
+  month        = "6--10 " # jul,
+  keywords     = "spelling, student model, phoneme, adaptivity, error
+    classification", 
+  abstract     = "We present a novel phoneme-based student model for spelling
+    training.  Our model is data driven, adapts to the user and provides
+    information for, e.g., optimal word selection.  We describe spelling errors
+    using a set of features accounting for phonemic, capitalization, typo, and
+    other error categories.  We compute the influence of individual features on
+    the error expectation values based on previous input data using Poisson
+    regression.  This enables us to predict error expectation values and to
+    classify errors probabilistically.  Our model is generic and can be
+    utilized within any intelligent language learning environment.", 
+  location     = "ftp://ftp.inf.ethz.ch/doc/tech-reports/6xx/618.pdf"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
