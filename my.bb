@@ -537,6 +537,43 @@ Security Capabilities",
   location     = "http://ahvaz.ist.unomaha.edu/azad/temp/ali/11-wang-area-coverage-sensor-wireless-networks-survey-good.pdf"
 }
 
+@Article{scoml,
+  author       = "Saul~A. Kripke",
+  title        = "Semantical Consderations on Modal Logic",
+  journal      = "Acta Philosophica Fennica",
+  year         = 1963,
+  volume       = 16,
+  pages        = "83--94",
+  keywords     = "modal logic, semantics"
+}
+
+@Article{cocaeeo1mosp,
+  author       = "Sandeep Krishnamurthy",
+  title        = "Cave or Community?: An Empirical Examination of 100 Mature Open Source Projects",
+  journal      = "First Monday",
+  year         = 2005,
+  month        = "3 " # oct,
+  keywords     = "open software, software development, project management",
+  abstract     = "Starting with Eric Raymond's groundbreaking work, The 
+    Cathedral and the Bazaar, open-source software (OSS) has commonly been
+    regarded as work produced by a community of developers.  Yet, given the
+    nature of software programs, one also hears of developers with no lives
+    that work very hard to achieve great product results.  In this paper, I
+    sought empirical evidence that would help us understand which is more
+    common - the cave (i.e., lone producer) or the community.  Based on a study
+    of the top 100 mature products on Sourceforge, I find a few surprising
+    things.  First, most OSS programs are developed by individuals, rather than
+    communities.  The median number of developers in the 100 projects I looked
+    at was 4 and the mode was 1 - numbers much lower than previous numbers
+    reported for highly successful projects! Second, most OSS programs do not
+    generate a lot of discussion.  Third, products with more developers tend to
+    be viewed and downloaded more often.  Fourth, the number of developers
+    associated with a project was positively correlated to the age of the
+    project.  Fifth, the larger the project, the smaller the percent of project
+    administrators.",
+  location     = "http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/viewArticle/1477/1392"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
