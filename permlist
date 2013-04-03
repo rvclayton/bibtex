@@ -235,7 +235,6 @@ a simple equation solver and its application to financial modelling : derman
 a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
 a simple reflexive interpreter : jefferson
 a simplified account of polymorphic references : harper
-a sip based conference control framework : koskelainen
 a small hybrid jit for embedded systems : manjunath
 a social compromise a contract with limits : stannard
 a sociological history of the neural network controversy : olazaran
@@ -694,7 +693,6 @@ case studies in symbolic model checking : gopalakrishnan
 case studies of software process improvement measurement : paulish
 caterpillars fate a pattern language for transformations from analysis to design : kerth
 causal controversy at le mont st michel : van renesse
-cave or community an emperical examination of 100 mature open source projects : krishnamurthy
 ccmalloc : biere
 cd writing howto : trumper
 cdt a container data type library : vo
