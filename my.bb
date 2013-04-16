@@ -574,6 +574,63 @@ Security Capabilities",
   location     = "http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/viewArticle/1477/1392"
 }
 
+@Article{pgmsaca,
+  author       = "Timo Koskela and Otso Kassinen and Erkki Harjula and Mika
+    Ylianttila", 
+  title        = "{{P2P}} Group Management Systems: {A} Conceptual Analysis",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 2,
+  pages        = "20:1--20:25",
+  month        = feb,
+  keywords     = "design, management, performance, peer-to-peer, distributed
+    hash table, overlay network, user community",
+  abstract     = "Peer-to-Peer (P2P) networks are becoming eminent platforms
+    for both distributed computing and interpersonal communication.  Their role
+    in contemporary multimedia content delivery and communication systems is
+    strong, as witnessed by many popular applications and services.  Groups in
+    P2P systems can originate from the relations between humans, or they can be
+    defined with purely technical criteria such as proximity.  In this article,
+    we present a conceptual analysis of P2P group management systems.  We
+    illustrate how groups are formed using different P2P system architectures,
+    and analyze the advantages and disadvantages of using each P2P system
+    architecture for implementing P2P group management.  The evaluation
+    criteria in the analysis are performance, robustness, fairness, suitability
+    for battery-powered devices, scalability, and security.  The outcome of the
+    analysis facilitates the selection of an appropriate P2P system
+    architecture for implementing P2P group management in both further research
+    and prototype development.", 
+  location     = "http://dx.doi.org/10.1145/2431211.2431219"
+}
+
+@Article{opliowd,
+  author       = "Boris Danev and Davide Zanetti and Srdjan Capkun",
+  title        = "On Physical-Layer Identification of Wireless Devices",
+  journal      = surveys,
+  year         = 2012,
+  volume       = 45,
+  number       = 1,
+  pages        = "6:1--6:29",
+  month        = nov,
+  keywords     = "security, design, identification, fingerprinting physical
+    layer, wireless device, security, privacy",
+  abstract     = "Physical-layer device identification aims at identifying
+    wireless devices during radio communication by exploiting unique
+    characteristics of their analog (radio) circuitry.  This work systematizes
+    the existing knowledge on this topic in order to enable a better
+    understanding of device identification, its implications on the analysis
+    and design of security solutions in wireless networks and possible
+    applications.  We therefore present a systematic review of physical-layer
+    identification systems and provide a summary of current state-of-the-art
+    techniques.  We further present a classification of attacks and discuss the
+    feasibility, limitations, and implications in selected applications.  We
+    also highlight issues that are still open and need to be addressed in
+    future work.", 
+  location     = "http://www.syssec.ethz.ch/research/OnPhysId.pdf",
+  location     = "http://dx.doi.org/10.1145/2379776.2379782"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
