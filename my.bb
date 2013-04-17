@@ -417,6 +417,38 @@ Security Capabilities",
   location     = "http://repository.cmu.edu/cgi/viewcontent.cgi?article=1177&context=hcii"
 }
 
+@InProceedings{asremudm,
+  author       = "Jean-Marc DeBaud and Spencer Rugaber",
+  title        = "{A} Software Re-Engineering Method using Domain Models",
+  booktitle    = pot # "International Conference on Software Maintenance",
+  year         = "1995",
+  pages        = "204--213",
+  address      = "Nice, France",
+  month        = "17--20 " # oct,
+  keywords     = "abstract domain driven representation, artifact evolution,
+    domain analysis, domain models, executable domain model, future work,
+    object oriented framework, program comprehension, program evolution,
+    reverse engineering, software re-engineering method, software reengineering
+    technology, target artifact", 
+  abstract     = "Current software reengineering technology is typically based
+    on program analysis methods such as parsing and data flow analysis.  This
+    is inadequate for two reasons.  First, such methods inherently fail to
+    capture the context or purpose of the program.  Second, the results of the
+    program comprehension are not directly usable in program evolution.  We
+    introduce a method that addresses both of these problems.  We use a domain
+    model to understand the context of a program and an object oriented
+    framework to record that understanding.  The main step of this method
+    consists of the construction of an executable domain model whose scope
+    covers a family of target programs.  A program is then reverse engineered
+    using the domain model both as a guide and as a recording medium.  In the
+    last step, developers reengineer the target artifact using its abstract
+    domain driven representation.  We present a thorough example to illustrate
+    this approach.  Issues raised by the confluence of domain analysis and
+    representation, reverse engineering, and artifact evolution are discussed.
+    Implications on future work in the area are suggested", 
+  location     = ""
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
