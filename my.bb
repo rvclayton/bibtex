@@ -166,6 +166,27 @@
   location     = "BP 132.M39"
 }
 
+@Book{asau,
+  author       = "Robert Nozick",
+  title        = "Anarchy, State, and Utopia",
+  publisher    = "Basic Books",
+  year         = 1974,
+  address      = nyny,
+  keywords     = "state of nature, moral constraints, the state, prohibition,
+    compensation, risk, distributive justice, equality",
+  location     = "JC 571 N68"
+}
+
+@Book{fsggt,
+  author       = "Gillian Tett",
+  title        = "Fool's Gold",
+  publisher    = "Free Press",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "finance, jp morgan, derivatives, credit crisis",
+  location     = "HG 6024 U6 T48"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
