@@ -187,6 +187,16 @@
   location     = "HG 6024 U6 T48"
 }
 
+@Book{tefr,
+  title        = "The Essential Feminist Reader",
+  publisher    = "The Modern Library",
+  year         = 2007,
+  editor       = "Estelle~B. Freedman",
+  address      = nyny,
+  keywords     = "feminism, politics",
+  location     = "HQ 1154 E77"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
