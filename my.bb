@@ -207,6 +207,16 @@
   location     = "PZ 3.A93 Pr72"
 }
 
+@Book{pciar,
+  author       = "I.~A. Richards",
+  title        = "Practical Criticism",
+  publisher    = "Harcourt, Brace \& World",
+  year         = 1929,
+  address      = nyny,
+  keywords     = "literary criticism, poetry, analysis",
+  location     = "PN 1031 R48"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
