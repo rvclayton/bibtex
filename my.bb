@@ -197,6 +197,16 @@
   location     = "HQ 1154 E77"
 }
 
+@Book{papja,
+  author       = "Jane Austen",
+  title        = "Pride and Prejudice",
+  publisher    = "Harper \& Row",
+  year         = 1965,
+  address      = nyny,
+  keywords     = "love and marriage",
+  location     = "PZ 3.A93 Pr72"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
