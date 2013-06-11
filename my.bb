@@ -217,6 +217,27 @@
   location     = "PN 1031 R48"
 }
 
+@Book{itfs,
+  author       = "Guanrong Chen and Trung Tat Pham",
+  title        = "Introduction to Fuzzy Systems",
+  publisher    = "Chapman \& Hall/CRC",
+  year         = 2006,
+  address      = brfl,
+  keywords     = "fuzzy sets, fuzzy logic, fuzzy modeling, fuzzy control
+    systems",
+  location     = "QA 76.9.S63.C49"
+}
+
+@Book{iiecc,
+  author       = "Elaine~C. Castles",
+  title        = "Inventing Intelligence",
+  publisher    = "Praeger",
+  year         = 2012,
+  address      = "Santa Barbara, " # CA,
+  keywords     = "iq, intelligence, intelligence testing, human measurement",
+  location     = "BF 431 C343"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
