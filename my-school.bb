@@ -8779,6 +8779,20 @@
   keywords     = "broadcast, datagram, distance-vector routing, hierarchical
 		  routing, internetwork, link-state routing, local area
 		  network, multicast, reverse path forwarding, routing",
+  abstract     = "Multicasting, the transmission of a packet to a group of 
+    hosts, is an important service for improving the efficiency and robustness
+    of distributed systems and applications.  Although multicast capability is
+    available and widely used in local area networks, when those LANs are
+    interconnected by store-and-forward routers, the multicast service is
+    usually not offered across the resulting internetwork.  To address this
+    limitation, we specify extensions to two common internetwork routing
+    algorithms—distance-vector routing and link-state routing—to support
+    low-delay datagram multicasting beyond a single LAN.  We also describe
+    modifications to the single-spanning-tree routing algorithm commonly used
+    by link-layer bridges, to reduce the costs of multicasting in large
+    extended LANs.  Finally, we discuss how the use of multicast scope control
+    and hierarchical multicast routing allows the multicast service to scale up
+    to large internetworks.", 
   location     = "QA 76.A25X"
 }
 
