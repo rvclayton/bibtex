@@ -238,6 +238,16 @@
   location     = "BF 431 C343"
 }
 
+@Book{shop,
+  author       = "Orhan Pamuk",
+  title        = "Silent House",
+  publisher    = "Alfred~A. Knopf",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "conflict",
+  location     = "PL 248.P34 S4813"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
