@@ -248,6 +248,17 @@
   location     = "PL 248.P34 S4813"
 }
 
+@Book{ipaotft,
+  author       = "Daniel~C. Dennett",
+  title        = "Intuition Pumps and Other Tools for Thinking",
+  publisher    = "W.~W. Norton",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "critical thinking, philosophy, meaning, evolution,
+    consciousness, free will",
+  location     = "BD 31 D46"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
