@@ -259,6 +259,16 @@
   location     = "BD 31 D46"
 }
 
+@Book{ayrpd,
+  author       = "Roger-Pol Droit",
+  title        = "Astonish Yourself!",
+  publisher    = "Penguin",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "philosophy, inquiry",
+  location     = "B 52.5 D76"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
