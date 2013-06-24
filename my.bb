@@ -552,6 +552,15 @@ Security Capabilities",
   location     = ""
 }
 
+@InProceedings{aepgcsaicp,
+  author       = "H.~T. Kung and S.~W. Song",
+  title        = "An Efficient Parallel Garbage Collection System and its Correctness Proof",
+  booktitle    = pot # "18th Annual Symposium on Foundations of Computer Science (SFCS '77)",
+  year         = 1977,
+  pages        = "120--131",
+  keywords     = "parallel garbage collection, formal proofs"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -766,6 +775,139 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/2379776.2379782"
 }
 
+@Article{asapomacpfwsn,
+  author       = "Yi Zhi Zhao and Chunyan Miao and Maode Ma and Jing Bing Zhang
+    and Cyril Leung",
+  title        = "{A} Survey and Projection on Medium Access Control Protocols for Wireless Sensor Networks",
+  journal      = surveys,
+  year         = 2012,
+  volume       = 45,
+  number       = 1,
+  pages        = "7:1--7:36",
+  month        = nov,
+  keywords     = "network protocols, network architecture and design, wireless
+    communication, local and wide-area networks, access schemes, system
+    performance, performance attributes, mac protocols",
+  abstract     = "Recent advances in wireless communications and sensor
+    technologies have enabled the development of low-cost wireless sensor
+    networks (WSNs) for a wide range of applications.  Medium access control
+    (MAC) protocols play a crucial role in WSNs by enabling the sharing of
+    scarce wireless bandwidth efficiently and fairly.  This article provides a
+    survey of the literature on MAC protocols for WSNs.  We first briefly
+    describe the unique features of WSNs.  We then review representative MAC
+    protocols from the following four categories: contention-based protocols,
+    contention-free (scheduled-based) protocols, hybrid protocols, and preamble
+    sampling protocols.  Our discussions focus on the background, main
+    features, operation procedures, major design issues, and the advantages and
+    disadvantages of these protocols.  We also present an analysis of the
+    inherent and desirable features of the protocols, and the key challenges of
+    MAC technology for WSNs.  Finally, we present our view on future research
+    directions for WSN MAC protocols in a reader-friendly way using
+    illustrative diagrams.",
+  location     = "http://dx.doi.org/10.1145/2379776.2379783"
+}
+
+@Article{tlotpfrlwsph,
+  author       = "H.~Koning and J.~Eizenberg",
+  title        = "The Language of the Prairie: {F}rank {L}loyd {W}right's Prairie Houses",
+  journal      = "Environment and Planning B: Planning and Design",
+  year         = 1981,
+  volume       = 8,
+  number       = 3,
+  pages        = "295--323",
+  keywords     = "architecture, design, shape grammars, frank lloyd wright,
+    prairie houses",
+  abstract     = "The following parametric shape grammar generates the 
+    compositional forms and specifies the function zones of Frank Lloyd
+    Wright's prairie-style houses.  The establishment of a fireplace is the key
+    to the definition of the prairie-style house.  Around this fireplace,
+    functionally distinguished Froebelean-type blocks are recursively added and
+    interpenetrated to form the basic compositions from which elaborated
+    prairie-style houses are derived.  The grammar is based on a corpus of
+    eleven houses from the Winslow house, the evolutionary precursor of the
+    style, to the Robie house, considered by many as the culmination of the
+    style.  Much has been written about prairie-style houses -- their balance,
+    their debt to Beaux Arts and Japanese design traditions, and their organic
+    qualities.  However, such descriptions do not explicitly inform us as to
+    how prairie-style houses are constructed, and consequently provide little
+    help in designing new members of this style.  The power of a grammar, such
+    as the one given here, is that it establishes a recursive structure from
+    which new designs can be constructed.  Three new prairie houses generated
+    by the grammar as well as a step-by-step generation of one of these designs
+    are shown.", 
+  location     = "http://dcom.arch.gatech.edu/ellen/secured/flw-sg.pdf"
+}
+
+@Article{turorm,
+  author       = "John Day",
+  title        = "The (Un)Revised {OSI} Reference Model",
+  journal      = sigcomm,
+  year         = 1995,
+  volume       = 25,
+  number       = 5,
+  pages        = "39--55",
+  month        = oct,
+  keywords     = "standards bodies, networking standards, osi standards",
+  abstract     = "In 1988, SC21, the ISO committee responsible for the Open
+    Systems Interconnection (OSI) Reference Model, determined that it was time
+    to undertake revising ISO 7498-1, The Basic OSI Reference Model.  Since the
+    model had been published in 1984, this was in accordance with ISO practice
+    of reviewing and revising standards every five years, and there was good
+    reason for considering the task.  Over the intervening five years, the
+    groups developing the OSI protocols had raised many questions about the
+    architecture and these had been answered and documented in the Approved
+    Commentaries [1994].  Many of these commentaries contained information that
+    could be usefully incorporated into the Reference Model itself.  In
+    addition, the addendum describing connectionless mode, i.e.  datagrams, had
+    been completed several years before and needed to be incorporated.  There
+    was also considerable demand for interworking connection-mode and
+    connectionless mode communication, something not supported by the Reference
+    Model or any architecture.  Also, when the original version of the
+    Reference Model was frozen about 1983 some aspects of OSI such as the upper
+    layers were not well understood and were only described in the most cursory
+    manner.  And while connection-mode and connectionless mode had been brought
+    within OSI, there was no indication as to how broadcast and multicast were
+    to be handled.  Thus, the revision might be able to provide a more
+    comprehensive description of these areas.This paper describes how the
+    revision was carried out, describes the changes and additions that were
+    made, considers the effect and contribution this revision has made to our
+    understanding, and describes the outstanding issues that were not addressed
+    by this revision.",
+  location     = "http://dx.doi.org/10.1145/216701.216704"
+}
+
+@Article{tmossjgvsgmosab,
+  author       = "Jason~E. Lewis and David DeGusta and Marc~R. Meyer and
+    Janet~M. Monge and Alan~E. Mann and Ralph~L. Holloway",
+  title        = "The Mismeasure of Science: Stephen Jay Gould versus Samuel George Morton on Skulls and Bias",
+  journal      = "PLoS Biol",
+  year         = 2011,
+  volume       = 9,
+  number       = 6,
+  month        = "7 " # jun,
+  keywords     = "bias, scientific process, anthropology",
+  abstract     = "Stephen Jay Gould, the prominent evolutionary biologist and
+    science historian, argued that “unconscious manipulation of data may be a
+    scientific norm” because “scientists are human beings rooted in cultural
+    contexts, not automatons directed toward external truth” [1], a view now
+    popular in social studies of science [2]–[4].  In support of his argument
+    Gould presented the case of Samuel George Morton, a 19th-century physician
+    and physical anthropologist famous for his measurements of human skulls.
+    Morton was considered the objectivist of his era, but Gould reanalyzed
+    Morton's data and in his prize-winning book The Mismeasure of Man [5]
+    argued that Morton skewed his data to fit his preconceptions about human
+    variation.  Morton is now viewed as a canonical example of scientific
+    misconduct.  But did Morton really fudge his data? Are studies of human
+    variation inevitably biased, as per Gould, or are objective accounts
+    attainable, as Morton attempted? We investigated these questions by
+    remeasuring Morton's skulls and reexamining both Morton's and Gould's
+    analyses.  Our results resolve this historical controversy, demonstrating
+    that Morton did not manipulate data to support his preconceptions, contra
+    Gould.  In fact, the Morton case provides an example of how the scientific
+    method can shield results from cultural biases.", 
+  location     = "www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1001071"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
@@ -814,6 +956,18 @@ Security Capabilities",
     and finally large central directories.}, 
   month        = "30 " # sep,
   keywords     = "unix, electronic mail, address resolution"
+}
+
+@TechReport{stotuhsss,
+  author       = "Beno{\^\i}t Dageville and Kam-Fai Wong",
+  title        = "Supporting Thousands of Threads Using  Hybrid Stack Sharing Scheme",
+  institution  = ecrc,
+  year         = 1993,
+  number       = "ECRC-93-1",
+  address      = "Munich, Germany",
+  month        = mar,
+  keywords     = "threads, operating systems, performance",
+  location     = "http://dx.doi.org/doi:10.1145/326619.326822"
 }
 
 @Manual{asymptote,
