@@ -2659,7 +2659,7 @@
 
 @Article{astosa,
   author       = "Thomas~R. Dean and James~R. Cordy",
-  title        = "A Syntatic Theory of Software Architectures",
+  title        = "A Syntactic Theory of Software Architectures",
   journal      = tse,
   year         = 1995,
   volume       = 21,
