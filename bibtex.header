@@ -63,6 +63,7 @@
 @string{dsrc	= "Digital Systems Research Center"}
 @string{ecnj	= "Englewood Cliffs, New Jersey"}
 @string{ecoop   = "European Conference on Object Oriented Programming"}
+@string{ecrc    = "European Computer-Industry Research Center"}
 @string{epfl    = "{\'E}cole Polytechnique F{\'e}d{\'e}rale de Lausanne"}
 @string{faoc	= "Formal Aspects of Computing"}
 @string{fclj    = "Federal Communications Law Journal"}
