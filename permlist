@@ -256,6 +256,7 @@ a study of the fragile base class problem : makhajlov
 a suite of unix filters for fragment assembly : myers
 a survey and classification of some program transformation approaches and techniques : feather
 a survey and comparison of peer to peer overlay network schemes : lua
+a survey and projection on medium access control protocols for wireless sensor networks : zhao
 a survey of adaptable grammars : christiansen
 a survey of attack and defense techniques for reputation systems : hoffman
 a survey of cache coherence schemes for multiprocessors : stenstrom
@@ -1537,6 +1538,7 @@ increasing the observability of internet behavior : chen
 incremental analysis of real programming languages : wagner
 incremental attribute evaluation a flexible algorithm for lazy update : hudson
 incremental development of an hdlc protocol in esterel : berry
+incremantal parser construction with metaobjects : joskimies
 incremental semantic evaluation in language based editors : kiong
 incremental zone transfer in dns : ohta
 industrial and academic protocol testing the gap and the means of convergence : lai
@@ -2946,6 +2948,7 @@ the knockout switch a simple modular architecture for high performance packet sw
 the labelled bnf grammar formalism : frosberg
 the lambda calculus : balheta
 the lambda library unnamed functions in c++ : jarvi
+the language of the prairie frank lloyd wrights prairie houses : konig
 the larch smalltalk interface specification language : cheon
 the latex2html translator : drakos
 the learning psychology of visual programming for object orientation : ireland
