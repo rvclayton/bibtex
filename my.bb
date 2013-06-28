@@ -269,6 +269,26 @@
   location     = "B 52.5 D76"
 }
 
+@Book{bcch,
+  author       = "Carl Hiaasen",
+  title        = "Basket Case",
+  publisher    = "Knopf",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "murrdaar, journalism, obits",
+  location     = "PS 3558.1217 B37"
+}
+
+@Book{aocrgk,
+  author       = "Robert~G. Kaiser",
+  title        = "Act of Congress",
+  publisher    = "Knopf",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "congress, dodd-frank, legislation",
+  location     = "HG 181.K35"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
