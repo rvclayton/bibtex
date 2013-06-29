@@ -928,6 +928,19 @@ Security Capabilities",
   location     = "www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1001071"
 }
 
+@Article{jaatmg,
+  author       = "Eve Kosofsky Sedgwick",
+  title        = "Jane {A}usten and the Maturbating Girl",
+  journal      = "Critical Inquiry",
+  year         = 1991,
+  volume       = 7,
+  number       = 4,
+  pages        = "818--837",
+  month        = "Summer",
+  keywords     = "victorian literature, victorian medicine",
+  location     = "http://www.jstor.org/stable/1343745"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
