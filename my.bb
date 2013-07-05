@@ -289,6 +289,26 @@
   location     = "HG 181.K35"
 }
 
+@Book{stime,
+  author       = "Ian McEwan",
+  title        = "Sweet Tooth",
+  publisher    = "Doubleday",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "domestic spying, sexism, literary endeavors",
+  location     = "PR 6064 C4 S94"
+}
+
+@Book{sdch,
+  author       = "Carl Hiaasen",
+  title        = "Skinny Dip",
+  publisher    = "Knopf",
+  year         = 2004,
+  address      = nyny,
+  keywords     = "attempted murrdaar, ecological fraud",
+  location     = "PS 35558.I217 S575"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
