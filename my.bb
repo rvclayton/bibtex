@@ -309,6 +309,27 @@
   location     = "PS 35558.I217 S575"
 }
 
+@Book{tsatn,
+  author       = "Nate Silver",
+  title        = "The Signal and the Noise",
+  publisher    = "Penguin",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "forcasting, predicting, statistics, bayes rule, betting,
+    sports, earthquakes, climate, finance",
+  location     = "CB 155.S54"
+}
+
+@Book{ntch,
+  author       = "Carl Hiaasen",
+  title        = "Native Tongue",
+  publisher    = "Knopf",
+  year         = 1991,
+  address      = nyny,
+  keywords     = "ecological mischief, murrdaar",
+  location     = "PS 3558.I217 N38"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
