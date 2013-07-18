@@ -341,6 +341,15 @@
   location     = "GN 365.9.K58"
 }
 
+@Book{hsaa,
+  author       = "Andr{\' e} Aciman",
+  title        = "Harvard Square",
+  publisher    = "W.~W. Norton",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "america, immigrants"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
