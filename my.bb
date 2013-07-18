@@ -330,6 +330,17 @@
   location     = "PS 3558.I217 N38"
 }
 
+@Book{vapk,
+  author       = "Philip Kitcher",
+  title        = "Vaulting Ambition",
+  publisher    = mitp,
+  year         = 1985,
+  address      = cma,
+  keywords     = "sociobiology, evolution, human development, nature
+    v. nurture",
+  location     = "GN 365.9.K58"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
