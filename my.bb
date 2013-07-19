@@ -350,6 +350,16 @@
   keywords     = "america, immigrants"
 }
 
+@Book{lych,
+  author       = "Carl Hiaasen",
+  title        = "Lucky You",
+  publisher    = "Knopf",
+  year         = 1997,
+  address      = nyny,
+  keywords     = "lotteries, theft",
+  location     = "PS 3558.I217 L83"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
