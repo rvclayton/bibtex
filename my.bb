@@ -370,6 +370,17 @@
   location     = "QH 401.B66"
 }
 
+@Book{taoe,
+  author       = "Ernest Freeberg",
+  title        = "The Age of Edison",
+  publisher    = "Penguin",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "invention, electricity, electrical industry, social history,
+    the gilded age, technology",
+  location     = "T 163.4.F74"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
