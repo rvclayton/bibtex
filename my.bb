@@ -381,6 +381,16 @@
   location     = "T 163.4.F74"
 }
 
+@Book{bmch,
+  author       = "Carl Hiaasen",
+  title        = "Bad Monkey",
+  publisher    = "Knopf",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "medical scams, murrdaar, housing development",
+  location     = "PS 3558.I1217 B33"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
