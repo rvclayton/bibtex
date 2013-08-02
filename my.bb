@@ -391,6 +391,16 @@
   location     = "PS 3558.I1217 B33"
 }
 
+@Book{wcs,
+  author       = "Cheryl Strayed",
+  title        = "Wild",
+  publisher    = "Knopf",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "hiking",
+  location     = "PS 3619.T744 Z46"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
