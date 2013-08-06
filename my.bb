@@ -401,6 +401,26 @@
   location     = "PS 3619.T744 Z46"
 }
 
+@Book{dwch,
+  author       = "Carl Hiaasen",
+  title        = "Double Whammy",
+  publisher    = "Warner Books",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "fishing, murrdaar, development",
+  location     = "PS 3558.I217 D6"
+}
+
+@Book{sasja,
+  author       = "Jane Austen",
+  title        = "Sense and Sensibility",
+  publisher    = "Anchor Books",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "inter-generational wealth transfer, jumping to conclusions",
+  location     = "PR 4034.S4 2011b"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
