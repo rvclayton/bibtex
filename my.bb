@@ -421,6 +421,17 @@
   location     = "PR 4034.S4 2011b"
 }
 
+@Book{slm,
+  author       = "Leonard Mlodinow",
+  title        = "Subliminal",
+  publisher    = "Pantheon",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "subliminal behavior, subconscious, neuroscience, psychology,
+    social dynamics",
+  location     = "BF 315.M56"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
