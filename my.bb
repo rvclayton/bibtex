@@ -432,6 +432,16 @@
   location     = "BF 315.M56"
 }
 
+@Book{dcftfm,
+  author       = "Reginald Hill",
+  title        = "Death Comes for the Fat Man",
+  publisher    = "HarperCollins",
+  year         = 2007,
+  address      = nyny,
+  keywords     = "murrdaar, turrists, diy",
+  location     = "PR 6058.I448 D425"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
