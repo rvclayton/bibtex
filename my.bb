@@ -442,6 +442,16 @@
   location     = "PR 6058.I448 D425"
 }
 
+@Book{lamg,
+  author       = "Marko Gargenta",
+  title        = "Learning Android",
+  publisher    = "O'Reilly",
+  year         = 2011,
+  address      = seca,
+  keywords     = "android, software development, mobile applications",
+  location     = "QA 76.76.A65 G37"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
