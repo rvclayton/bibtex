@@ -452,6 +452,16 @@
   location     = "QA 76.76.A65 G37"
 }
 
+@Book{tfrk,
+  author       = "Rachel Kushner",
+  title        = "The Flamethrowers",
+  publisher    = "Scribner",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "art, the 70s, motorcycles, domestic terrorism",
+  location     = "PS 3611.U7386 F57"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
