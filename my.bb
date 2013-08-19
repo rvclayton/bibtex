@@ -208,7 +208,7 @@
 }
 
 @Book{pciar,
-  author       = "I.~A. Richards",
+  author       = "Ivor Armstrong Richards",
   title        = "Practical Criticism",
   publisher    = "Harcourt, Brace \& World",
   year         = 1929,
@@ -470,6 +470,17 @@
   address      = nyny,
   keywords     = "unicorns, magicians, quests",
   location     = "PS 3552.E13 L37"
+}
+
+@Book{polciar,
+  author       = "Ivor Armstrong Richards",
+  title        = "Principles of Literary Criticism",
+  publisher    = "Harcourt Brace Jovanovich",
+  year         = 1985,
+  address      = sdca,
+  keywords     = "critical theories, aesthetics, critisim, communication, art,
+    value, psychology, morality, poetry, pleasure ",
+  location     = "PN 81.R5"
 }
 
 @Article{f5smwl,
