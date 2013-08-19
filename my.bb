@@ -462,6 +462,16 @@
   location     = "PS 3611.U7386 F57"
 }
 
+@Book{tlupsb,
+  author       = "Peter~S. Beagle",
+  title        = "The Last Unicorn",
+  publisher    = "Penguin",
+  year         = 1991,
+  address      = nyny,
+  keywords     = "unicorns, magicians, quests",
+  location     = "PS 3552.E13 L37"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
