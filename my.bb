@@ -483,6 +483,16 @@
   location     = "PN 81.R5"
 }
 
+@Book{mfrh,
+  author       = "Reginald Hill",
+  title        = "Midnight Fugue",
+  publisher    = "Harper",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "murrdaar, the past",
+  location     = "PR 6058.I448 M53"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
