@@ -503,6 +503,18 @@
   location     = "HB 72.S255"
 }
 
+@Book{saotpc,
+  author       = "Jon~M. Smith",
+  title        = "Scientific Analysis on the Pocket Calculator",
+  publisher    = "Wiley-Interscience",
+  year         = 1975,
+  address      = nyny,
+  keywords     = "pocket calculator, numerical evaluation, fourier analysis,
+    numerical integration, linear systems simulation, function roots,
+    statistics, probability, optimization",
+  location     = "QA 75.S555"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
