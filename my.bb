@@ -493,6 +493,16 @@
   location     = "PR 6058.I448 M53"
 }
 
+@Book{wmctb,
+  author       = "Michael~J. Sandel",
+  title        = "What Money Can't Buy",
+  publisher    = "Farrar, Straus, and Giroux",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "markets, queue jumping, incentives, morality",
+  location     = "HB 72.S255"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
