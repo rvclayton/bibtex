@@ -515,6 +515,21 @@
   location     = "QA 75.S555"
 }
 
+@Book{tuizw,
+  author       = "Dana MacKenzie",
+  title        = "The Universe in Zero Words",
+  publisher    = pup,
+  year         = 2012,
+  address      = prnj,
+  keywords     = "zero, pythagorean theorem, pi, zeno paradoxes, levers,
+    cardano's formula, kepler's laws, fermat's last theorem, fundamental
+    theorem of calculus, netwron's laws, euler's theorems, quaternions, group
+    theory, non-euclidean geometry, prime number theorem, fourier series,
+    maxwell's equations, quanta, relativity, dirac's formula, chern-gaus-bonnet
+    euqation, continuum hypothesis, lorenz equations, black-sholes equation",
+  location     = "QA 211 M16"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
