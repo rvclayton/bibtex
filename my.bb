@@ -530,6 +530,16 @@
   location     = "QA 211 M16"
 }
 
+@Book{tpobsm,
+  author       = "Reginald Hill",
+  title        = "The Price of Butcher's Meat",
+  publisher    = "HarperCollins",
+  year         = 2008,
+  address      = nyny,
+  keywords     = "murrdaar, insatiability, puppetry",
+  location     = "PR 6058.I448 C87"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
