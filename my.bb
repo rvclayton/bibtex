@@ -540,6 +540,16 @@
   location     = "PR 6058.I448 C87"
 }
 
+@Book{tpor,
+  author       = "Stuart~A. Scheingold",
+  title        = "The Politics of Rights",
+  publisher    = yup,
+  year         = 1974,
+  address      = nhco,
+  keywords     = "legal rights, political action, law, idology, politics, ",
+  location     = "KF 380 S3"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
