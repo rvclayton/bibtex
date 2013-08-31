@@ -550,6 +550,16 @@
   location     = "KF 380 S3"
 }
 
+@Book{smtcb,
+  author       = "T.~C. Boyle",
+  title        = "San Miguel",
+  publisher    = "Viking",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "sheep, life on the ranch",
+  location     = "PS 3552.O932 S26"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
