@@ -1223,6 +1223,28 @@ Security Capabilities",
   location     = "http://www.jstor.org/stable/1343745"
 }
 
+@Article{htltiniyst,
+  author       = "Nick Feamster and Lixin Gao and Jennifer Rexford",
+  title        = "How to Lease the {I}nternet in Your Spare Time",
+  journal      = ccr,
+  year         = 2007,
+  month        = jan,		  
+  volume       = 37,
+  number       = 1,
+  pages        = "61--64",
+  keywords     = "virtual networking, internets, cabo",
+  abstract     = "Today's Internet Service Providers (ISPs) serve two roles:
+    managing their network infrastructure and providing (arguably limited)
+    services to end users.  We argue that coupling these roles impedes the
+    deployment of new protocols and architectures, and that the future Internet
+    should support two separate entities: infrastructure providers (who manage
+    the physical infrastructure) and service providers (who deploy network
+    protocols and offer end-to-end services).  We present a high-level design
+    for Cabo, an architecture that enables this separation; we also describe
+    challenges associated with realizing this architecture.",
+  location     = "http://dx.doi.org/10.1145/1198255.1198265"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
