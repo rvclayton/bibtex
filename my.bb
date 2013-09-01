@@ -560,6 +560,17 @@
   location     = "PS 3552.O932 S26"
 }
 
+@Book{grdew,
+  author       = "Donald~E. Westlake",
+  title        = "Get Real",
+  publisher    = "Grand Central Publishing",
+  year         = 2009,
+  address      = nyny,
+  month        = july,
+  keywords     = "reality as it is scripted, the ol' doublecross",
+  location     = "PS 3573.E9 G48"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
