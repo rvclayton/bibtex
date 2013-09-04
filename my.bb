@@ -1307,6 +1307,31 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/1198255.1198265"
 }
 
+@Article{asoanr,
+  author       = "David~.L Tennenhouse and  Jonathan~M. Smith and W.~David Sincoskie and David~J. Wetherall and Gary~J. Minden",
+  title        = "{A} Survey of Active-Networking Research",
+  journal      = ieeecom,
+  year         = 1997,
+  volume       = 35,
+  number       = 1,
+  pages        = "80--86",
+  month        = jan,
+  keywords     = "networking, capsules, virtualization",
+  abstract     = "Active networks are a novel approach to network architecture
+    in which the switches (or routers) of the network perform customized
+    computations on the messages flowing through them.  This approach is
+    motivated by both lead user applications, which perform user-driven
+    computation at nodes within the network today, and the emergence of mobile
+    code technologies that make dynamic network service innovation attainable.
+    The authors discuss two approaches to the realization of active networks
+    and provide a snapshot of the current research issues and activities.  They
+    illustrate how the routers of an IP network could be augmented to perform
+    such customized processing on the datagrams flowing through them.  These
+    active routers could also interoperate with legacy routers, which
+    transparently forward datagrams in the traditional manner.",
+  location     = "http://dx.doi.org/10.1109/35.568214"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
