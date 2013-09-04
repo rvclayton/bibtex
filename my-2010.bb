@@ -4390,21 +4390,6 @@
   keywords     = "ftp, system administration"
 }
 
-@Article{asoanr,
-  author       = "Tennenhouse, David~L. and Smith, Jonathan~M. and Sincoskie,
-		  W.~David and Wetherall, David~J. and Minden, Gary~J.",
-  title        = "A survey of active network research",
-  journal      = icomm,
-  year         = 1997,
-  volume       = 35,
-  number       = 1,
-  pages        = "80--86",
-  month        = jan,
-  keywords     = "Internet, packet switching, telecommunication network
-		  routing, transport protocols",
-  location     = "TK 5101.A1 I13A"
-}
-
 @Article{isagr,
   author       = "Newman, Peter and Minshall, Greg and Lyon, Tom and Huston,
 		  Larry",
