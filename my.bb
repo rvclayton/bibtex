@@ -863,6 +863,68 @@ Security Capabilities",
   keywords     = "parallel garbage collection, formal proofs"
 }
 
+@InProceedings{daioarcp,
+  author       = "Matthew Caesar and Donald Caldwell and Nick Feamster and Jennifer Rexford and Aman Shaikh and Jacobus {van der Merwe}",
+  title        = "Design and implementation of a routing control platform",
+  booktitle    = pot # "Second Symposium on Networked Systems Design \& Implementation",
+  year         = 2005,
+  volume       = 2,
+  pages        = "15--28",
+  publisher    = "USENIX Association",
+  address      = boma,
+  month        = "2--4 " # may,
+  keywords     = "bgp, inter-domain routing, routing control platform",
+  abstract     = "The routers in an Autonomous System (AS) must distribute the
+    information they learn about how to reach external destinations.
+    Unfortunately, today's internal Border Gateway Protocol (iBGP)
+    architectures have serious problems: a full mesh iBGP configuration does
+    not scale to large networks and route reflection can introduce problems
+    such as protocol oscillations and persistent loops.  Instead, we argue that
+    a Routing Control Platform (RCP) should collect information about external
+    destinations and internal topology and select the BGP routes for each
+    router in an AS.  RCP is a logically-centralized platform, separate from
+    the IP forwarding plane, that performs route selection on behalf of routers
+    and communicates selected routes to the routers using the unmodified iBGP
+    protocol.  RCP provides scalability without sacrificing correctness.  In
+    this paper, we present the design and implementation of an RCP prototype on
+    commodity hardware.  Using traces of BGP and internal routing data from a
+    Tier-1 backbone, we demonstrate that RCP is fast and reliable enough to
+    drive the BGP routing decisions for a large network.  We show that RCP
+    assigns routes correctly, even when the functionality is replicated and
+    distributed, and that networks using RCP can expect comparable convergence
+    delays to those using today's iBGP architectures.", 
+  location     = "http://www.cs.princeton.edu/~jrex/papers/rcp-nsdi.pdf"
+}
+
+@InProceedings{ivvracne,
+  author       = "Andy Bavier and Nick Feamster and Mark Huang and Larry Peterson and Jennifer Rexford",
+  title        = "In {VINI} Veritas: Realistic and Controlled Network Experimentation",
+  booktitle    = pot # "2006 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM '06)",
+  year         = 2006,
+  pages        = "3--14",
+  address      = "Pisa, Italy",
+  month        = "11--15 " # sep,
+  keywords     = "internet architecture, virtualization, routing,
+    experimentation", 
+  abstract     = "This paper describes VINI, a virtual network infrastructure
+    that allows network researchers to evaluate their protocols and services in
+    a realistic environment that also provides a high degree of control over
+    network conditions.  VINI allows researchers to deploy and evaluate their
+    ideas with real routing software, traffic loads, and network events.  To
+    provide researchers flexibility in designing their experiments, VINI
+    supports simultaneous experiments with arbitrary network topologies on a
+    shared physical infrastructure.  This paper tackles the following important
+    design question: What set of concepts and techniques facilitate flexible,
+    realistic, and controlled experimentation (e.g., multiple topologies and
+    the ability to tweak routing algorithms) on a fixed physical
+    infrastructure? We first present VINI's high-level design and the
+    challenges of virtualizing a single network.  We then present PL-VINI, an
+    implementation of VINI on PlanetLab, running the Internet In a Slice.  Our
+    evaluation of PL-VINI shows that it provides a realistic and controlled
+    environment for evaluating new protocols and services.",
+  location     = "http://dx.doi.org/10.1145/1151659.1159916"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
