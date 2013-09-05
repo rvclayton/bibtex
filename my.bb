@@ -571,6 +571,17 @@
   location     = "PS 3573.E9 G48"
 }
 
+@Book{pida,
+  author       = "Dan Ariely",
+  title        = "Predictably Irrational",
+  publisher    = "Harper",
+  year         = 2008,
+  address      = nyny,
+  keywords     = "judgment, decision making, psychology, social norms,
+    self-control, ownership, expectations",
+  location     = "BF 448 A75"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
