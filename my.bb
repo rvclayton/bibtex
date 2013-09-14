@@ -1343,6 +1343,72 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/35.568214"
 }
 
+@Article{ttapffnp,
+  author       = "J.~E. {Van der Merwe} and S.~Rooney and I.~Leslie and S.~Crosby",
+  title        = "The {T}empest---a practical framework for network programmability",
+  journal      = "IEEE Network",
+  year         = 1998,
+  volume       = 12,
+  number       = 3,
+  pages        = "20--28",
+  month        = may # "/" # jun,
+  keywords     = "atm, virtualization, mobile agents",
+  abstract     = "The Tempest framework provides a programmable network
+    environment by allowing the dynamic introduction and modification of
+    network services at two levels of granularity.  First, the switchlet and
+    associated virtual network concepts enable the safe introduction of
+    alternative control architectures into an operational network.  The
+    timescales over which such new control architectures can be introduced
+    might vary from, for example, a video conferencing specific control
+    architecture, which is active only for the duration of the conference, to a
+    new version of a general purpose control architecture, which might be
+    active for several months or longer.  Second, the Tempest framework allows
+    refinement of services at a finer level of granularity by means of the
+    connection closure concept.  In this case modification of services can be
+    performed at an application-specific level.  These attributes of the
+    Tempest framework allows service providers to effectively become network
+    operators for some well defined partition of the physical network.  This
+    enables them to take advantage of the knowledge they possess about how the
+    network resources are to be used, by programming their own specially
+    tailored control architecture.  This, as our work with the Tempest shows,
+    is a spur to creativity allowing many of the constraints imposed on
+    operators and end users to be rethought and for new techniques to be
+    quickly and safely introduced into working networks",
+  location     = "http://dx.doi.org/10.1109/65.690958"
+}
+
+@Article{gtmnsap,
+  author       = "Mohammad Hossein Manshaei and Tansu Alpcan and Tamer Bac{\c s}ar and Jean-Pierre Hubaux",
+  title        = "Game Theory Meets Network Security and Privacy",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 5,
+  pages        = "25:1--25:39",
+  month        = jun,
+  keywords     = "algorithms, design, economics, security, theory, game theory,
+    network security and privacy, intrusion detection system, location privacy
+    revocation, wireless security, cryptography, multiparty computation",
+  abstract     = "This survey provides a structured and comprehensive overview
+    of research on security and privacy in computer and communication networks
+    that use game-theoretic approaches.  We present a selected set of works to
+    highlight the application of game theory in addressing different forms of
+    security and privacy problems in computer networks and mobile applications.
+    We organize the presented works in six main categories: security of the
+    physical and MAC layers, security of self-organizing networks, intrusion
+    detection systems, anonymity and privacy, economics of network security,
+    and cryptography.  In each category, we identify security problems,
+    players, and game models.  We summarize the main results of selected works,
+    such as equilibrium analysis and security mechanism designs.  In addition,
+    we provide a discussion on the advantages, drawbacks, and future direction
+    of using game theory in this field.  In this survey, our goal is to instill
+    in the reader an enhanced understanding of different research approaches in
+    applying game-theoretic methods to network security.  This survey can also
+    help researchers from various fields develop game-theoretic solutions to
+    current and emerging security problems in computer networking.",
+  location     = "http://dx.doi.org/10.1145/2480741.2480742"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
