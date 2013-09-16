@@ -1378,7 +1378,7 @@ Security Capabilities",
 }
 
 @Article{gtmnsap,
-  author       = "Mohammad Hossein Manshaei and Tansu Alpcan and Tamer Bac{\c s}ar and Jean-Pierre Hubaux",
+  author       = "Mohammad Hossein Manshaei and Tansu Alpcan and Tamer Ba{\c s}ar and Jean-Pierre Hubaux",
   title        = "Game Theory Meets Network Security and Privacy",
   journal      = surveys,
   year         = 2013,
@@ -1407,6 +1407,19 @@ Security Capabilities",
     help researchers from various fields develop game-theoretic solutions to
     current and emerging security problems in computer networking.",
   location     = "http://dx.doi.org/10.1145/2480741.2480742"
+}
+
+@Article{xals,
+  author       = "R.~A. Nelson",
+  title        = "{XL}: {A} Language Structure",
+  journal      = sigplan,
+  year         = 1978,
+  volume       = 13,
+  number       = 12,
+  pages        = "73--87",
+  month        = dec,
+  keywords     = "language design, data structures, sequences",
+  location     = "http://dx.doi.org/10.1145/954587.954593"
 }
 
 @TechReport{sammgcs,
