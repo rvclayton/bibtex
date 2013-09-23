@@ -582,6 +582,26 @@
   location     = "BF 448 A75"
 }
 
+@Book{sewdg,
+  author       = "Walter David Greason",
+  title        = "Suburban Erasure",
+  publisher    = "Fairleigh Dickinson University Press",
+  year         = 2013,
+  address      = "Madison, New Jersey",
+  keywords     = "civil rights, growth and development, race relations",
+  location     = "E 185.93.N54 G74"
+}
+
+@Book{fnasjb,
+  author       = "Alan Sokal and Jean Bricmont",
+  title        = "Fashionable Nonsense",
+  publisher    = "Picador",
+  year         = 1998,
+  address      = nyny,
+  keywords     = "postmodernism, sociology of science, philosophy",
+  location     = "Q 175.S3659"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
