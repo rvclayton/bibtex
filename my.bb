@@ -956,6 +956,40 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/1151659.1159916"
 }
 
+@InProceedings{tucrsfrn,
+  author       = "Andrei Serjantov and Peter Sewell and Keith Wansbrough",
+  title        = "The {UDP} Calculus: Rigorous Semantics for Real Networking",
+  booktitle    = pot # "4th International Symposium on Theoretical Aspects of Computer Software (TACS '01)",
+  year         = 2001,
+  series       = lncs,
+  volume       = 2215,
+  editor       = "Naoki Kobayashi and Benjamin~C. Pierce",
+  pages        = "535--559",
+  publisher    = "Springer",
+  address      = "Sendai, Japan",
+  month        = "29--31 " # oct,
+  keywords     = "formal methods, OCamel, udp, linux networking",
+  abstract     = "Network programming is notoriously hard to understand: one
+    has to deal with a variety of protocols (IP, ICMP, UDP, TCP etc.),
+    concurrency, packet loss, host failure, timeouts, the complex sockets
+    interface to the protocols, and subtle portability issues.  Moreover, the
+    behavioural properties of operating systems and the network are not well
+    documented.A few of these issues have been addressed in the process
+    calculus and distributed algorithm communities, but there remains a wide
+    gulf between what has been captured in semantic models and what is required
+    for a precise understanding of the behaviour of practical distributed
+    programs that use these protocols.In this paper we demonstrate (in a
+    preliminary way) that the gulf can be bridged.  We give an operational
+    model for socket programming with a substantial fraction of UDP and ICMP,
+    including loss and failure.  The model has been validated by experiment
+    against actual systems.  It is not tied to a particular programming
+    language, but can be used with any language equipped with an operational
+    semantics for system calls - here we give such a language binding for an
+    OCaml fragment.  We illustrate the model with a few small network
+    programs.", 
+  location     = "http://www.cl.cam.ac.uk/~pes20/Netsem/udp-short.ps"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
