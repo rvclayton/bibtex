@@ -602,6 +602,16 @@
   location     = "Q 175.S3659"
 }
 
+@Book{tpplfp,
+  author       = "Laurence~F. Peter and Raymond Hull",
+  title        = "The Peter Principle",
+  publisher    = "William Morrow",
+  year         = 1969,
+  address      = nyny,
+  keywords     = "organizational psychology",
+  location     = "PJ 6221 M2 P4"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
