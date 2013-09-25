@@ -612,6 +612,18 @@
   location     = "PJ 6221 M2 P4"
 }
 
+@Book{a6caa,
+  author       = "B.~A. Wichmann",
+  title        = "Algol 60 Compilation and Assessment",
+  publisher    = "Academic Press",
+  year         = 1973,
+  address      = loen,
+  keywords     = "algol, compiler, code generation, performance measurement,
+    syntax analysis, diagnostics and debugging, documentation, language
+    design",
+  location     = "QA 76.73.A24 W5"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
