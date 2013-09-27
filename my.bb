@@ -613,7 +613,7 @@
 }
 
 @Book{a6caa,
-  author       = "B.~A. Wichmann",
+  author       = "Brian~A. Wichmann",
   title        = "Algol 60 Compilation and Assessment",
   publisher    = "Academic Press",
   year         = 1973,
@@ -1558,6 +1558,35 @@ Security Capabilities",
   month        = mar,
   keywords     = "threads, operating systems, performance",
   location     = "http://dx.doi.org/doi:10.1145/326619.326822"
+}
+
+@TechReport{teobmobitpoa,
+  author       = "Joshua~A. Kroll and Ian~C. Davey and Eward~W. Felton",
+  title        = "The Economics of {B}itcoin Mining or, {B}itcoin in the Presence of Adversaries",
+  institution  = "Princeton University",
+  year         = 2013,
+  address      = prnj,
+  keywords     = "fiat currency, bitcoin mining, cartels, transaction fees,
+    governance", 
+  abstract     = "The Bitcoin digital currency depends for its correctness and
+    stability on a combination of cryptography, distributed algorithms, and
+    incentive driven behavior.  We examine Bitcoin as a consensus game and
+    determine that it relies on separate consensus about the rules and about
+    game state.  An important aspect of Bitcoin's design is the mining
+    mechanism, in which participants expend resources on solving computational
+    puzzles in order to collect rewards.  This mechanism purportedly protects
+    Bitcoin against certain technical problems such as inconsistencies in the
+    system's distributed log data structure.  We consider the economics of
+    Bitcoin mining, and whether the Bitcoin protocol can survive attacks,
+    assuming that participants behave according to their incentives.  We show
+    that there is a Nash equilibrium in which all players behave consistently
+    with Bitcoin's reference implementation, along with infinitely many
+    equilibria in which they behave otherwise.  We also show how a motivated
+    adversary might be able to disrupt the Bitcoin system and crash the
+    currency.  Finally, we argue that Bitcoin will require the emergence of
+    governance structures, contrary to the commonly held view in the Bitcoin
+    community that the currency is ungovernable.", 
+  location     = "http://www.weis2013.econinfosec.org/papers/KrollDaveyFeltenWEIS2013.pdf"
 }
 
 @Manual{asymptote,
