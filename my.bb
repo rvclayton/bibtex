@@ -624,6 +624,16 @@
   location     = "QA 76.73.A24 W5"
 }
 
+@Book{twtsab,
+  author       = "Stuart~P. Green",
+  title        = "Thirteen Ways to Steal a Bicycle",
+  publisher    = hup,
+  year         = 2012,
+  address      = cma,
+  keywords     = "theft, law making, property, penal codes, trespass",
+  location     = "K 5217 G74"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
@@ -1496,6 +1506,32 @@ Security Capabilities",
   month        = dec,
   keywords     = "language design, data structures, sequences",
   location     = "http://dx.doi.org/10.1145/954587.954593"
+}
+
+@Article{dcoptptas,
+  author       = "Jo{\~ a}o V. Gomes and Pedro R. M. In{\' a}cio and Manuela Pereira and M{\' a}rio M. Freire and Paulo P. Monteiro",
+  title        = "Detectionand Classification of Peer-to-Peer Traffic: {A} Survey",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "30:1--30:40",
+  month        = jun,
+  keywords     = "network management, network measurement, network security,
+    application classification, deep packet inspections, behavioral analysis,
+    peer-to-peer networking, traffic monitoring",
+  abstract     = "The emergence of new Internet paradigms has changed the
+    common properties of network data, increasing the bandwidth consumption and
+    balancing traffic in both directions.  These facts raise important
+    challenges, making it necessary to devise effective solutions for managing
+    network traffic.  Since traditional methods are rather ineffective and
+    easily bypassed, particular attention has been paid to the development of
+    new approaches for traffic classification.  This article surveys the
+    studies on peer-to-peer traffic detection and classification, making an
+    extended review of the literature.  Furthermore, it provides a
+    comprehensive analysis of the concepts and strategies for network
+    monitoring.", 
+  location     = "http://www.di.ubi.pt/~mario/artigos/2012-CS.pdf"
 }
 
 @TechReport{sammgcs,
