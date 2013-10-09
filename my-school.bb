@@ -24015,18 +24015,6 @@
   year = {1992}
 }
 
-@TechReport{pmw,
-  author      = "Max Copperman and Jeff Thomas",
-  title       = "Poor Man's Watchpoints",
-  institution = ucal,
-  year        = 1993,
-  number      = UCSC-CRL-93--12,
-  address     = scca,
-  month       = "30 March",
-  keywords    = "testing and debugging, programming environments, debugging
-		 aids, code generation, compilers, algorithms, watchpoints"
-}
-
 @TechReport{uaooftcwagcm,
   author      = "Richard~A. Golding and Darrell~D. E. Long",
   title       = "Using an Object-Oriented Framework to Construct Wide-Area
@@ -28717,16 +28705,29 @@
 }
 
 @InProceedings{ecfracus,
-  author       = "D. D. Cowan and D. M. Germ{\'a}n and C. J. P. Lucena and A.
+  author       = "D.~D. Cowan and D.~M. Germ{\'a}n and C.~J.~P. Lucena and A.
 		  {von Staa}",
   title        = "Enhancing Code for Readability and Comprehension using
 		  {SGML}",
   booktitle    = pot # "1994 International Conference on Software Maintenance",
   pages        = "181--190",
   address      = "Victoria, British Columbia, Canada",
-  month        = " 19--23 September",
+  month        = "19--23 " # sep,
+  year         = 1994,
   keywords     = "program presentation, typesetting, sgml, text display,
-		  browsing"
+		  browsing",
+  abstract     = "Reading and understanding programs is a key activity in 
+    software reengineering, development, and maintenance.  The ability of
+    people to understand programs is directly related to the ease with which
+    the source code and documentation can be read.  Thus, enhancements to the
+    style of presentation should heighten this comprehensibility.  We describe
+    methods that use markup languages such as SGML to embed information about
+    the syntax and semantics of a program in the program code, and then show
+    how these can be used to enhance its presentation style.  We also briefly
+    discuss the extension of these markup language concepts to text databases,
+    and indicate how they can support various structural views of the code
+    through browsing techniques associated with database queries.",
+  location      = "http://dx.doi.org/10.1109/ICSM.1994.336776"
 }
 
 @InProceedings{alfwcg,
