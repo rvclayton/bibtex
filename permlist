@@ -60,6 +60,7 @@ a descent into limbo : kernighan
 a description of the dos file system : erdelsky
 a design approach for ultrareliable real time systems : lala
 a design rationale for a language based editor : welsh
+a development process generative pattern language : coplien
 a discipline for constructing multiphase communication protocols : chow
 a discipline of multiprogramming : misra
 a distributed alternative to finite state machine specifications : zave
@@ -315,6 +316,7 @@ about synchronous programming and abstract interpretation : halbwachs
 abstaction descant part 2 : gabriel
 abstract data types and software validation : guttag
 abstract data types and the development of data structures : guttag
+abstract interpretation a unified lattice model for static analysis of programs by construction or approximation of fixpoints : cousot
 abstraction and verification in alphard a symbol table example : london
 abstraction and verification in alphard design and verification of a tree handler : shaw
 abstraction and verification in alphard introduction to language and methodology : wulf
@@ -876,6 +878,8 @@ cst c state transformers : ramsdell
 cup lalr parser generator for java : hudson
 curious yellow the first coordinated worm design : wiley
 curl a gentle slope language for the web : houstetter
+curry an annotated introduction : antoy
+curry an integrated functional logic language : curry
 customizable middleware for modular distributed software : astley
 customizing linux from the bottom building your own linux base system : zhu
 cwc crossword compiler : jensen
@@ -1593,6 +1597,7 @@ internet telephony : mcknight
 internet tv implications for the long distance network : odlyzko
 interoperability of peer to peer file sharing : lui
 interpretation techniques : klint
+interprocess communication and processor dispatching on the intel 432 : cox
 interrupt processing in concurrent processors : walker
 interrupt protocol processing in the x kernel : bjorkman
 introducing undergraduates to object orientation using the turing language : holt
@@ -1899,6 +1904,7 @@ multilevel models in model driven engineering, product lines, and metaprogrammin
 multilink ppp one big virtual wan pipe : ammann
 multimedia conferencing on local area networks : ziegler
 multimedia storage servers a tutorial : gemmell
+multi paradigm programming : hanus
 multiple bus architectures : mudge
 multiple valued logic a tutorial and appreciation : smithm
 ultiplication by integer constants : briggs
@@ -2163,6 +2169,7 @@ plwm the pointless window manager : liljenberg
 political incentives in u s water policy relationships between distributive and regulatory politics : mann
 polka animation designers package lite version : stasko
 polymorphic c : voss
+poor mans watchpoints : copperman
 portprep a portable repeated string finder : jones
 postscript tutorial : bourke
 pouring liquids a study in commonsense physical reasoning : davis
@@ -2940,7 +2947,6 @@ the java native code api : yellin
 the java virtual machine a passing fad : frantz
 the joyce language report : brinch hansen
 the juno 2 constraint based drawing editor : heydon
-the jupiter audio video architecture secure multimedia in network places : curtis
 the kaffeos java runtime system : back
 the kiwinet nicola approach response generation in a user friendly interface : efe
 the knockout packet switch principles and performance : karol
@@ -3331,7 +3337,6 @@ venti a new approach to archival storage : quinlan
 verification of a class of link level protocols : krogdahl
 verification of a reliable net protocol : yodaiken
 verification of link level protocols : knuth
-version management with cvs : cederqvist
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
 vic a flexible framework for packet video : mccanne
@@ -3399,7 +3404,6 @@ what is software design : reeves
 what is the bios : schmidt
 what is vnc : mascio
 what its like to be a popl referee : wegman
-what netscape learned from cross platform software development : cusumano
 what should we plan given the dilemma of the network : cook
 what storytelling can do for information visualization : gershon
 whatever happened to the next generation internet : weiser
