@@ -50745,6 +50745,30 @@
   location     = "http://www.linuxjournal.com/article/5484"
 }
 
+@Article{pmswsigplan,
+  author       = "Max Copperman and Jeff Thomas",
+  title        = "Poor Man's Watchpoints",
+  journal      = sigplan,
+  year         = 1995,
+  volume       = 30,
+  number       = 1,
+  pages        = "37--44",
+  month        = jan,
+  keywords     = "program debugging",
+  abstract     = "Bugs that result from corruption of program data can be very
+    difficult to track down without specialized help from a debugger.  If the
+    debugger cannot help the user find the point at which data gets corrupted,
+    the user may have a long iterative debugging task.  If the debugger is able
+    to stop execution of the program at the point where data gets corrupted, as
+    with watchpoints (also known as data breakpoints), it may be a very simple
+    task to find a data corruption bug.  In this paper, we discuss a method of
+    implementing watchpoints on a system without hardware watchpoint support.
+    By instrumenting the program code to check memory accesses, and supplying
+    an interface to the instrumentation in the debugger, we provide an
+    efficient, general method of implementing watchpoints.", 
+  location     = "http://dx.doi.org/10.1145/199818.199852"
+}
+
 @inproceedings{actls,
   author	= "Simon~S. Lam and A.~Udaya Shankar",
   title		= "A Composition Theorem for Layered Systems",
@@ -58217,12 +58241,23 @@
 @TechReport{pmw,
   author       = "Max Copperman and Jeff Thomas",
   title        = "Poor Man's Watchpoints",
-  institution	= uca # ", Santa Cruz",
+  institution	= ucal # ", Santa Cruz",
   year		= 1993,
   number	= "UCSC-CRL-93-12",
   month		= "30 March",
   keywords	= "testing and debugging, programming environments, processors,
-		  algorithms, languages, watchpoints"
+		  algorithms, languages, watchpoints",
+  abstract	= "Bugs that result from corruption of program data can be very
+    difficult to track down without specialized help from a debugger.  If the
+    debugger cannot help the user find the point at which data gets corrupted,
+    the user may have a long iterative debugging task.  If the debugger is able
+    to stop execution of the program at the point where data gets corrupted, as
+    with watchpoints (also known as data breakpoints), it may be a very simple
+    task to find a data corruption bug.  In this paper, we discuss a method of
+    implementing watchpoints on a system without hardware watchpoint support.
+    By instrumenting the program code to check memory accesses, and supplying
+    an interface to the instrumentation in the debugger, we provide an
+    efficient, general method of implementing watchpoints." 
 }
 
 @TechReport{itc,
