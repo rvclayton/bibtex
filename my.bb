@@ -1022,6 +1022,71 @@ Security Capabilities",
   location     = "http://www.cl.cam.ac.uk/~pes20/Netsem/udp-short.ps"
 }
 
+@InProceedings{adpgpl,
+  author       = "James~O. Coplien",
+  title        = "{A} Development Process Generative Pattern Language",
+  booktitle    = "Pattern Languages of Program Design",
+  year         = 1995,
+  editor       = "James~O. Coplien and Douglas~C. Schmidt",
+  pages        = "183--237",
+  publisher    = acmp,
+  address      = "Monticello, Illinois",
+  month        = aug,
+  keywords     = "design patterns",
+  location     = "http://www.bell-labs.com/~cope/Patterns/"
+}
+
+@InProceedings{aiaulmfsaopbcoaof,
+  author       = "Patrick Cousot and Radhia Cousot",
+  title        = "Abstract Interpretation:  a Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints",
+  booktitle    = "Conference Record of the Sixth Annual ACM SIGPLAN-SIGACT
+    Symposium on Principles of Programming Languages",
+  year         = 1977,
+  editor       = "Robert~M. Graham and Michael~A. Harrison and Ravi Sethi",
+  pages        = "238--252",
+  publisher    = acmp,
+  address      = laca,
+  month        = jan,
+  keywords     = "program semantics, static semantics, data flow analysis,
+    lattices, fixpoint approximations",
+  abstract     = "A program denotes computations in some universe of objects. 
+    Abstract interpretation of programs consists in using that denotation to
+    describe computations in another universe of abstract objects, so that the
+    resulta of abstract execution give some informations on the actual
+    computations.  An intuitive example (which we borrow from Sintzoff [72]) is
+    the rule of signs.  The text -1515*17 may be undestood to denote
+    computations on the abstract universe {(+), (-), (+-)} where the semantics
+    of arithmetic operators is defined by the rule of signs.  The abstract
+    execution -1515*17 ==> -(+)*(+) ==> (-)*(+) ==> (-), proves that -1515+17
+    is a negative number.  Abstract interpretation is concerned by a particlar
+    underlying structure of the usual universe of computations (the sign, in
+    our example).  It gives a summay of some facets of the actual executions of
+    a program.  In general this summary is simple to obtain but inacurrate
+    (e.g.  -1515+17 ==> -(+)+(+) ==> (-)+(+) ==> (+-)).  Despite its
+    fundamental incomplete results abstract interpretation allows the
+    programmer or the compiler to answer questions which do not need full
+    knowledge of program executions or which tolerate an imprecise answer (e.g.
+    partial correctness proofs of programs ignoring the termination problems,
+    type checking, program optimizations which are not carried in the absence
+    of certainty about their feasibility, ...).", 
+  location     = "http://dx.doi.org/10.1145/512950.512973"
+}
+
+@InProceedings{tjavasminp,
+  author       = "Pavel Curtis and Michael Dixon and Ron Frederick and
+    David~A. Nichols",
+  title        = "The Juipter Audio/Video Architecture: Secure Multimedia in Network Places",
+  booktitle    = pot # "Third ACM International Conference on Multimedia",
+  year         = 1995,
+  pages        = "79--90",
+  address      = sfca,
+  month        = "5--9" # nov,
+  keywords     = "information systems, audio, video, user interfaces,
+    information systems",
+  abstract     = "",
+  location     = "http://dx.doi.org/10.1145/217279.215128"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -1534,6 +1599,48 @@ Security Capabilities",
   location     = "http://www.di.ubi.pt/~mario/artigos/2012-CS.pdf"
 }
 
+@Article{soalmfsqaiv,
+  author       = "Leandro Silva Galv{\~ a}o Federal De Carvalho and Edjair De Souza Mota",
+  title        = "Survey on Application-Layer Mechanisms for Speech Quality Adaptation in {VoIP}",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "36:1--36:31",
+  month        = jun,
+  keywords     = "design, performance, feedback loops, qos control, speech
+    quality adaptation, voice over ip",
+  abstract     = "VoIP calls are sensitive to several impairments, such as 
+    delay and packet loss.  One way to overcome these problems is by adaptively
+    adjusting application-layer parameters to keep a minimum speech quality
+    level.  At the heart of self-adaptive systems lies a feedback loop, which
+    consists of four key activities: monitoring, analysis, planning, and
+    execution.  Nevertheless, the existing adaptive approaches to QoS control
+    of VoIP do not explicitly exhibit this feedback loop.  Bringing it to
+    surface can help developers in designing more robust and human-independent
+    VoIP systems.  This survey presents a comprehensive review of the current
+    state-of-the-art research on speech quality adaptation of VoIP systems at
+    the application layer and some research challenges on this subject.", 
+  location     = "http://dx.doi.org/10.1145/2480741.2480753"
+}
+
+@Article{icapditi4,
+  author       = "George~W. Cox and William~M. Corwin and Konrad ~K. Lai and
+    Fred~J. Pollack",
+  title        = "Interprocess Communication and Processor Dispatching in the
+    {I}ntel 432", 
+  journal      = acmtcs,
+  year         = 83,
+  volume       = 1,
+  number       = 1,
+  pages        = "45--66",
+  month        = feb,
+  keywords     = "object-based microprocessors, microarchitecture, dispatching,
+    scheduling, interprocess communication",
+  abstract     = "",
+  location     = "http://dx.doi.org/10.1145/357353.357358"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
@@ -1625,6 +1732,44 @@ Security Capabilities",
   location     = "http://www.weis2013.econinfosec.org/papers/KrollDaveyFeltenWEIS2013.pdf"
 }
 
+@TechReport{palo,
+  author       = "Anthony Courtney",
+  title        = "Phantom: {A} Language Overview",
+  institution  = dcs # "Trinity College",
+  year         = 1995,
+  address      = "Dublin, Ireland",
+  month        = "14 " # may,
+  keywords     = "",
+  abstract     = "",
+  location     = ""
+}
+
+@TechReport{pailfdp,
+  author       = "Anthony Courtney",
+  title        = "Phantom:  An Interpreted Language for Distributed Programming",
+  institution  = dcs # "Trinity College",
+  year         = 1995,
+  address      = "Dublin Ireland",
+  keywords     = "",
+  abstract     = "",
+  location     = ""
+}
+
+@TechReport{paacstitoaofp,
+  author       = "Max Copperman",
+  title        = "Producing An Accurate Call-Stack Trace in the Occasional Absence of Frame Pointers",
+  institution  = "Board of Studies in Computer and Information Sciences, " #
+    ucal # ", " # "Santa Cruz",
+  year         = 1993,
+  number       = "UCSC-CRL-92-25",
+  address      = "Santa Cruz, " # CA,
+  month        = mar,
+  keywords     = "testing, debugging, programming environments, processors,
+    code generation, compilers, optimization, run-time stack",
+  abstract     = "",
+  location     = ""
+}
+
 @Manual{asymptote,
   title        = "Asymptote",
   author       = "AndyHammerlindl and John Bowman and Tom Prince",
@@ -1632,5 +1777,31 @@ Security Capabilities",
   year         = 2009,
   keywords     = "vector graphics, constraint-based programming",
   location     = "http://asymptote.sourceforge.net/"
+}
+
+@Manual{caifll,
+  title        = "Curry:  An Integrated Functional Logic Language",
+  author       = "Michael Hannus and Sergio Antoy and Herbert Kuchen and
+    Francisco~J. L{\' o}pez-Frangas and Wolfgang Lux and Juan Jos{\' e} Moreno
+    Navarro and Frank Steiner",
+  organization = "University of Kiel",
+  address      = "Germany",
+  edition      = "0.8",
+  year         = 2003,
+  month        = apr,
+  keywords     = "curry, literate programming, modules, encapsulated search,
+    constraint solvers",
+  location     = "http://www.informatik.uni-kiel.de/~curry/papers/report.pdf"
+}
+
+@Manual{cati,
+  title        = "Curry: {A} Tutorial Introduction",
+  author       = "Sergio Antoy and Michael Hannus",
+  organization = "Portland State University",
+  address      = poor,
+  year         = 2004,
+  month        = nov,
+  keywords     = "curry, web programming",
+  location     = "http://www.informatik.uni-kiel.de/~curry/tutorial/tutorial.pdf"
 }
 
