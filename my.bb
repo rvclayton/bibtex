@@ -1641,6 +1641,28 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/357353.357358"
 }
 
+@Article{igop,
+  author       = "Jan Heering and Paul Klint and Jan Rekers",
+  title        = "Incremental Generation of Parsers",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 12,
+  pages        = "1344--1351",
+  month        = dec,
+  keywords     = "incomplete programs, language design, lazy and incremental
+    parser generation, lr parser generator, parallel lr parsing, context-free
+    language parsing, program generation",
+  abstract     = "An LR-based parser generator for arbitrary context-free
+    grammars is described, which generates parsers by need and processes
+    grammar modifications by updating already existing parsers.  We motivate
+    the need for these techniques in the context of interactive language
+    definition environments, present all required algorithms, and give
+    measurements comparing their performance with that of conventional
+    techniques.", 
+  location     = "http://dx.doi.org/10.1109/32.62443"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
