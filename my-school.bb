@@ -28916,7 +28916,7 @@
   location     = "TK5105.5 .I34264 1991"
 }
 
-@InProceedings{spe,
+@InProceedings{specus,
   author       = "Connie~U. Smith",
   title        = "Software Performance Engineering",
   booktitle    = "Performance Evaluation of Computer and Communication
@@ -28928,7 +28928,6 @@
   publisher    = sv,
   address      = "Rome, Italy",
   month        = "27 September-1 " # oct,
-  keywords     = "",
   location     = "TK 5105.5.I3428X 1993"
 }
 
