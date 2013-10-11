@@ -634,6 +634,17 @@
   location     = "K 5217 G74"
 }
 
+@Book{teocgg,
+  author       = "Gerd Gigerenzer and Zeno Swijtink and Theodore Porter and
+  Lorriane Datson and John Beatty and Lorenz Kr{\" u}ger",
+  title        = "The Empire of Chance",
+  publisher    = cup,
+  year         = 1989,
+  address      = cen,
+  keywords     = "probability, statistics, risk gambling",
+  location     = "QA 273 E57"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
