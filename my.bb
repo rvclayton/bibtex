@@ -1098,6 +1098,28 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/217279.215128"
 }
 
+@InProceedings{papbpc,
+  author       = "Mary Bailey and Burra Gopal and Larry~L. Peterson and
+    Prasenjit Sarkar",
+  title        = "{\sc PathFinder}:  {A} Pattern-Based Packet Classifier",
+  booktitle    = pot # "First Symposium on Operating Systems Design and Implementation",
+  year         = 1994,
+  pages        = "115--123",
+  publisher    = acmp,
+  address      = "Monterey, " # CA,
+  month        = "14--17 " # nov,
+  keywords     = "fragmentation, out-of-order delivery, variable length
+    headers, performance, protocol analysis",
+  abstract     = "This paper describes a pattern-based approach to building
+    packet classifiers.  One novelty of the approach is that it can be
+    implemented efficiently in both software and hardware.  A performance study
+    shows that the software implementation is about twice as fast as existing
+    mechanisms, and that the hardware implementation is currently able to keep
+    up with OC-12 (622Mbps) network links and is likely to operate at gigabit
+    speeds in the near future.", 
+  location     = "http://www.cs.princeton.edu/nsg/papers/osdi94.ps"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
