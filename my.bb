@@ -1674,6 +1674,67 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/32.62443"
 }
 
+@Article{otpocdapaiwnc,
+  author       = "Andrew Newell and Jing Dong and Cristina Nita-Rotaru",
+  title        = "On the Practicality of Cryptographic Defences Against Pollution Attacks in Wireless Network Coding",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "39:1--39:26",
+  month        = jun,
+  keywords     = "wireless network coding, pollution attacks, wireless mesh
+    networks", 
+  abstract     = "Numerous practical systems based on network coding have been
+    proposed in recent years demonstrating the wide range of benefits of
+    network coding, such as increased throughput, reliability, and energy
+    efficiency.  However, network coding systems are inherently vulnerable to a
+    severe attack, known as packet pollution, which presents a key obstacle to
+    the deployment of such systems.  Several cryptographic schemes have been
+    proposed to defend against pollution attacks.  We conduct a detailed
+    analysis and an experimental evaluation in a realistic wireless network
+    coding setting of a set of representative cryptographic defenses against
+    pollution attacks.  Our analysis identifies severe limitations of
+    asymmetric-based schemes, which impose high communication overhead by
+    placing constraints on the basic network coding parameters and high
+    computation overhead by relying on numerous operations over large fields.
+    Our analysis also shows that symmetric cryptographic schemes, while having
+    better performance than asymmetric cryptographic-based schemes, impose
+    prohibitive overhead in the presence of multiple byzantine adversaries.  We
+    further evaluate these schemes by using a set of typical network coding
+    system parameters on a realistic topology.  Our experimental evaluation
+    shows that all the schemes we compare induce a throughput degradation that
+    negates the performance benefits of network coding in the presence of
+    multiple colluding adversaries.", 
+  location     = "http://dx.doi.org/10.1145/2480741.2480756",
+  location     = "http://homes.cerias.purdue.edu/~crisn/papers/pollution_computingsurvey_2012.pdf"
+}
+
+@Article{iriicas ,
+  author       = "James Stanier and Des Watson",
+  title        = "Intermediate representations in imperative compilers: {A} survey",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "26:1--26:27",
+  month        = jun,
+  keywords     = "compilers, intermediate representations, optimizations,
+    static single assignment, gated single assignment, trees, directed acyclic
+    graphs, control flow graph, data flow graph, superblocks, program
+    dependence graphs, ",
+  abstract     = "Compilers commonly translate an input program into an 
+    intermediate representation (IR) before optimizing it and generating code.
+    Over time there have been a number of different approaches to designing and
+    implementing IRs.  Different IRs have varying benefits and drawbacks.  In
+    this survey, we highlight key developments in the area of IR for imperative
+    compilers, group them by a taxonomy and timeline, and comment on the divide
+    between academic research and real-world compiler technology.  We conclude
+    that mainstream compilers, especially in the multicore era, could benefit
+    from further IR innovations.", 
+  location     = "http://dx.doi.org/10.1145/2480741.2480743"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
