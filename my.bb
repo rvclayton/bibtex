@@ -1757,6 +1757,17 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/2480741.2480743"
 }
 
+@Article{ascacwl,
+  author       = "Richard Stannard and Eric~A. Leighton",
+  title        = "{A} Social Compromise --- {A} Contract with Limits",
+  journal      = "Public Utilities Fortnightly",
+  year         = 1988,
+  pages        = "16--23",
+  month        = "12 " # may,
+  keywords     = "price regulation, profit regulation",
+  location     = "http://www.fortnightly.com/"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
@@ -1884,6 +1895,56 @@ Security Capabilities",
     code generation, compilers, optimization, run-time stack",
   abstract     = "",
   location     = ""
+}
+
+@TechReport{acompima,
+  author       = "Clemens Szyperski and Giorgio Ventre",
+  title        = "{A} Characterization of Multi-Party Interactive Multimedia Applications",
+  institution  = "International Computer Science Institute",
+  year         = 1993,
+  number       = "TR-93-006",
+  address      = bca,
+  month        = jan,
+  keywords     = "interaction models, functional characterizations, client
+    requirements",
+  abstract     = "This document tries to define and characterize a class of 
+    applications called MultiParty Interactive Multimedia (MIM), for which many
+    examples are given.  This class includes applications such as CSCW,
+    teleconferencing, and remote education; its consideration in this report is
+    based on the observation that MIM applications are both important and
+    representative for the area of high-performance real-time communication.
+    Purely functional criteria are used to capture the MIM class, i.e.  ones
+    that are not related to any particular way of implementation.  Thus, future
+    directions are sketched that give some indications on what a network
+    architecture will need to provide, in order to effectively support such
+    applications.", 
+  location     = "ftp://tenet.berkeley.edu/pub/tenet/Papers/SzyVen93a.ps"
+}
+
+@TechReport{pmsaowiti,
+  author       = "Volker Strumpen",
+  title        = "Parallel Molecular Sequence Analysis on Workstations in the {I}nternet",
+  institution  = dcs # "University of Zurich",
+  year         = 1993,
+  address      = "Zurich, Switzerland",
+  month        = jun,
+  number       = "TR-93.28",
+  keywords     = "molecular sequence analysis, parallel internet computing,
+    parallelization",
+  abstract     = "We present a highly scalable approach to distributed parallel
+    computing on workstations in the Internet which provides significant
+    speedup to molecular biology sequence analysis.  Recent developments show
+    that smaller numbers of workstations connected via a local area network can
+    be used efficiently for parallel computing.  We show that a massively
+    parallel approach using several hundred workstations, dispersed over all
+    continents, can successfully be applied for solving problems with low
+    requirements on communication bandwidth.  We calculated the optimal local
+    alignment scores between a single genetic sequence and all sequences of a
+    genetic sequence database using the ssearch code which is well known among
+    molecular biologists.  In a heterogeneous network with more than 800
+    workstations this job terminated after several minutes, in contrast to
+    several days it would have taken on a single machine.", 
+  location     = "ftp://ftp.ifi.unizh.ch/pub/techreports/TR-93/ifi-93.28.ps.gz"
 }
 
 @Manual{asymptote,
