@@ -1114,7 +1114,18 @@
   pages       = "37--43",
   month       = "January",
   keywords    = "lan bridges, ieee 802, source routing, transparent spanning
-		 tree routing, "
+		 tree routing, ",
+  abstract    = "A review the differences between two media access control
+     (MAC) bridge algorithms for local area networks (LANs) currently being
+     specified by the IEEE 802 Standards Committee.  They are the IEEE 802.5
+     Source Routing Scheme and the IEEE 802.1 Transparent Spanning Tree Scheme.
+     A brief summary of the two schemes, along with the relevant technical
+     points that cause differences in features or performance, is included.  It
+     is concluded that transparent spanning tree architecture appears to offer
+     the best solution for bridging local area networks with regard to such
+     factors as robustness, efficiency, stability, determinism, and
+     simplicity.",
+  location    = "http://dx.doi.org/10.1109/65.3236",
 }
 
 @Article{bar,
