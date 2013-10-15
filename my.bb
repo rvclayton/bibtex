@@ -1768,6 +1768,24 @@ Security Capabilities",
   location     = "http://www.fortnightly.com/"
 }
 
+@Article{tdan,
+  author       = "Mark Hayter and Derek McAuley",
+  title        = "The Desk Area Network",
+  journal      = "ACM " # osr,
+  year         = 1991,
+  volume       = 25,
+  number       = 4,
+  pages        = "14--21",
+  month        = oct,
+  keywords     = "atm, lans, interconnection networks, system architecture",
+  abstract     = "A novel architecture for use within an end computing system
+    is described.  This attempts to extend the concepts used in modern high
+    speed networks into computer system design.  A multimedia workstation is
+    being built based on this concept to evaluate the approach.", 
+  location     = "http://dx.doi.org/10.1145/122098.122100",
+  location     = "ftp://ftp.cl.cam.ac.uk/public/papers/reports/TR228-mdh-dm-dan.ps.Z"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
