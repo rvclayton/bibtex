@@ -1120,6 +1120,35 @@ Security Capabilities",
   location     = "http://www.cs.princeton.edu/nsg/papers/osdi94.ps"
 }
 
+@InProceedings{ulpswklp,
+  author       = "Jos{\' e} Carlos Brustoloni and Peter Steenkiste",
+  title        = "User-Level Protocol Servers with Kernel-Level Performance",
+  booktitle    = pot # "Seventeenth Annual Joint Conference of the IEEE
+    Computer and Communications Societies (INFOCOM '98)",
+  year         = 1998,
+  volume       = 2,
+  pages        = "463--471",
+  address      = sfca,
+  month        = "29 " # mar # "- 2 " # apr,
+  keywords     = "application program interfaces, asynchronous transfer mode,
+    client-server systems, protocols", 
+  abstract     = "Compared to kernel-level servers, user-level ones can be 
+    debugged and maintained more easily and safely, but traditionally have had
+    much worse performance.  We describe a novel I/O-oriented inter-proces
+    communication (IPC) facility that combines the emulated copy data passing
+    scheme for monolithic systems with new copy avoidance techniques for
+    microkernel systems.  Unlike previous optimizations, I/O-oriented IPC does
+    not require changes in existing user applications or complex restructuring
+    of servers; it offers an API with copy semantics and allows the same
+    servers to be installed at kernel or user level.  In end-to-end experiments
+    on an ATM network at 512 Mbps, I/O-oriented IPC gave user-level protocol
+    servers performance approaching that of kernel-level ones.  Performance
+    differences scaled roughly inversely to the processor's SPECint95 rating,
+    projecting fast further improvement", 
+  location     = "http://people.cs.pitt.edu/~jcb/papers/infocom98.ps",
+  location     = "http://dx.doi.org/10.1109/INFCOM.1998.665063"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
