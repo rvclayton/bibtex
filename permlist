@@ -237,7 +237,6 @@ a simple model of distributed programs based on implementation hiding and proces
 a simple reflexive interpreter : jefferson
 a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
-a social compromise a contract with limits : stannard
 a sociological history of the neural network controversy : olazaran
 a software engineering perspective on algorithmics : weihe
 a specification driven architectural design environment : tanir
@@ -582,7 +581,6 @@ authentication for distributed systems : woo
 authentication in distributed systems theory and practice : lampson
 autocollage : rother
 automate your build processing using java and ant : cymerman
-automated bargaining agents : sun
 automatic array inlining in java virtual machines : wimmer
 automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
@@ -698,7 +696,6 @@ causal controversy at le mont st michel : van renesse
 ccmalloc : biere
 cd writing howto : trumper
 cdt a container data type library : vo
-celestes tutorial on sunos 41x modems and terminals : stokely
 cellular automata for solving mazes : nayfeh
 census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
@@ -1524,7 +1521,6 @@ imposing the law of demeter and its variations : pal
 imprecision in computer vision : jain
 improved left corner chart parsing for large context free grammars : moore
 improvements to tcp performance in high speed networks : perloff
-improving application performance on the hp convex exemplar : sterling
 improving c++ performance using temporaries : dingle
 improving c++ program performance : lippman
 improving evolvability of operating systems with aspectc : coady
@@ -1542,6 +1538,7 @@ increasing the observability of internet behavior : chen
 incremental analysis of real programming languages : wagner
 incremental attribute evaluation a flexible algorithm for lazy update : hudson
 incremental development of an hdlc protocol in esterel : berry
+incremental generation of parsers : heering
 incremantal parser construction with metaobjects : joskimies
 incremental semantic evaluation in language based editors : kiong
 incremental zone transfer in dns : ohta
@@ -1587,6 +1584,7 @@ interconnecting electronic mail systems : redell
 interconnecting local networks to long distance networks : schneidewind
 interconnection networks using shuffles : chen
 interest groups and the regulation of pesticides congress coalitions and closure : nownes
+intermediate representations in imperative compilers a survey : stanier
 internet address space management in digital : reid
 internet group management protocol version 2 : fenner
 internet mobility 4 times 4 : cheshire
@@ -2104,6 +2102,7 @@ password generation by bloom filters : stallings
 patch free user level link time intercepting of system calls and interposing on library functions : kiselyov
 path based production rules : crawford
 path testing of computer programs with loops using a tool for simple loop patterns : white
+pathfinder a Pattern based packet classifier : bailey
 paths trees and flowers : edmonds
 pattern languages : gabriel
 pattern matching with regular expression notation in unix : gill
@@ -2710,6 +2709,7 @@ survey of highly parallel computing : haynes
 survey of scope issues in programming languages : schwanke
 survey of switching techniques in high speed networks and their performance : oie
 survey of traffic control schemes and protocols in atm networks : bae
+survey on application layer mechanisms for speech quality adaptation in voip : carvalho
 survival of the fittest : baker
 surviving network partitioning : melliar
 svp a model capturing sets streams and parallelism : parker
@@ -2835,7 +2835,6 @@ the dawning of the autonomic computing era : ganek
 the dcode intermediate program representation reference manual and report : gough
 the deadlock problem an overview : isloor
 the death of computer languages the birth of intentional programming : simonyi
-the decay and failures of web references : spinellis
 the decsystem 20 at columbia university 1977 1988 : da cruz
 the dejagnu testing framwork : savoye
 the delay friendliness of tcp : brosh
@@ -3267,7 +3266,6 @@ understanding osi network management : stallings
 understanding procedures as objects : eisenberg
 understanding symmetry in object oriented languages : zhao
 understanding unix workstation performance : muller
-unified communications with sip : steinmann
 uniform abstract syntax trees : clark
 unifying genericity combining the benefits of virtual types and parameterized classes : thorup
 unifying tables objects and documents : meijer
@@ -3287,7 +3285,6 @@ usenetfs a stackable file system for large article directories : zadok
 user interface application communication in the chimera user interface management system : wood
 user level interprocess communication for shared memory multiprocessors : bershad
 user level management of persistent data in the grasshopper operating system : dearle
-user level protocol servers with kernel level performance : brustoloni
 users are not the enemy : adams
 users guide to the gnu c++ library : lea
 users guide to the m5 macro language 2nd edition : samples
