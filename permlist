@@ -3436,6 +3436,7 @@ writing a jit parts 1 through 4 : sourcemod
 writing a scsi device driver for linux : faith
 writing a tcl extension in only 7 years : libes
 writing cgi scripts in tcl : libes
+writing hygenic macros in scheme with syntax case : dvbvig
 writing macros in continuation passing style : hilsdale
 xen and the art of virtualization : barham
 xfm an incremental methodology for developing formal models : suhaib
