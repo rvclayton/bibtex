@@ -2022,6 +2022,29 @@ Security Capabilities",
   location     = "ftp://ftp.ifi.unizh.ch/pub/techreports/TR-93/ifi-93.28.ps.gz"
 }
 
+@TechReport{whmiswsc,
+  author       = "R.~Kent Dybvig",
+  title        = "Writing Hygenic Macros in Scheme with Syntax-Case",
+  institution  = csd # "Indiana University",
+  year         = 1992,
+  number       = 356,
+  address      = "Bloomington, Indiana",
+  month        = aug,
+  keywords     = "scheme, macros, hygiene, software development",
+  abstract     = "This article describes a pattern-based hygienic macro system
+    for Scheme and provides numerous examples of its use.  Macros defined using
+    this system are automatically hygienic and referentially transparent.
+    Unlike earlier hygienic macro systems, this system does not require low
+    level macros to be written in different style from high level macros.  In
+    particular automatic hygiene, referential transparency and the ability to
+    use pattern extend to all macro definitions and there is never any need to
+    explicitly manipulate syntactic environments of any kind.  The macro system
+    also supplies a hygiene-preserving mechanism for controlled variable
+    capture, allowing macros to introduce implicit identifier bindings or
+    references.", 
+  location     = "ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/prop/syntax-case.ps.gz"
+}
+
 @Manual{asymptote,
   title        = "Asymptote",
   author       = "AndyHammerlindl and John Bowman and Tom Prince",
