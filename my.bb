@@ -1815,6 +1815,34 @@ Security Capabilities",
   location     = "ftp://ftp.cl.cam.ac.uk/public/papers/reports/TR228-mdh-dm-dan.ps.Z"
 }
 
+@Article{pcmaap,
+  author       = "Omer Zilberberg and Shlomo Weiss and Sivan Toledo",
+  title        = "Phase-Change Memory: An Architectural Perspective",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "29:1--29:33",
+  month        = jun,
+  keywords     = "computer architecture, phase-change memory, main memory,
+    hybrid memory systems",
+  abstract     = "This article surveys the current state of phase-change memory
+    (PCM) as a nonvolatile memory technology set to replace flash and DRAM in
+    modern computerized systems.  It has been researched and developed in the
+    last decade, with researchers providing better architectural designs which
+    address the technology's main challenges—its limited write endurance,
+    potential long latency, high energy writes, power dissipation, and some
+    concerns for memory privacy.  Some physical properties of the technology
+    are also discussed, providing a basis for architectural discussions.  Also
+    briefly shown are other architectural alternatives, such as FeRAM and MRAM.
+    The designs surveyed in this article include read before write, wear
+    leveling, write cancellation, write pausing, some encryption schemes, and
+    buffer organizations.  These allow PCM to stand on its own as a replacement
+    for DRAM as main memory.  Designs for hybrid memory systems with both PCM
+    and DRAM are also shown and some designs for SSDs incorporating PCM.", 
+  location     = "http://dx.doi.org/10.1145/2480741.2480746",
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
