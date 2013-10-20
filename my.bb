@@ -1149,6 +1149,36 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/INFCOM.1998.665063"
 }
 
+@InProceedings{eteertaolmus,
+  author       = "Matt~J. Merges and Hansan~B. Mutlu",
+  title        = "End-to-End Echo Response Time Analysis on Large Mainframe " #
+    unix # " Systems",
+  booktitle    = pot # "15th Conference on Local Computer Networks",
+  year         = 1990,
+  pages        = "102--111",
+  address      = "Minneapolis, Minnesota",
+  month        = "30 " # sep # "-3 " # oct,
+  keywords     = "datakit, echo response time, network analysis",
+  abstract     = "The delay characteristics of the Datakit virtual circuit
+    switch (VCS) are investigated, and its contribution to the overall
+    end-to-end character echo response time delay on large mainframe UNIX (LMU)
+    systems is evaluated.  The end-to-end delay consists of the Datakit
+    network, the device attached control unit (DACU), and host component
+    delays.  The echo response time is the amount of time it takes for a
+    character to be echoed back by the host.  To measure the end-to-end
+    terminal-to-host delay and the Datakit contribution to the overall delay,
+    two parallel experiments were set up.  The first experiment provides direct
+    dialing from a 3B2 computer into a LMU by passing Datakit, whereas the
+    second test utilized the Datakit terminal-to-host network to access the LMU
+    during the same time intervals.  The experiments provide a considerable
+    amount of data to evaluate the delay with and without the Datakit
+    component.  the 50th percentile echo response time clearly indicates that
+    the Datakit contribution to the overall response time is around 50 ms with
+    very little variance.  The overall Datakit delay fluctuates between 35 ms
+    and 70 ms", 
+  location     = "http://dx.doi.org/10.1109/LCN.1990.128646"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -2024,11 +2054,11 @@ Security Capabilities",
 
 @TechReport{whmiswsc,
   author       = "R.~Kent Dybvig",
-  title        = "Writing Hygenic Macros in Scheme with Syntax-Case",
+  title        = "Writing Hygenic Macros in {S}cheme with Syntax-Case",
   institution  = csd # "Indiana University",
   year         = 1992,
   number       = 356,
-  address      = "Bloomington, Indiana",
+  address      = blin,
   month        = aug,
   keywords     = "scheme, macros, hygiene, software development",
   abstract     = "This article describes a pattern-based hygienic macro system
