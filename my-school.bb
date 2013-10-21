@@ -25722,15 +25722,26 @@
 }
 
 @TechReport{aeuliot,
-  author       = "T. Braun and C. Diot and A. Hoglander and V. Roca",
+  author       = "T.~Braun and C.~Diot and A.~Hoglander and V.~Roca",
   title        = "An Experimental User Level Implementation of {TCP}",
   institution  = inria,
   year         = 1995,
   number       = 2650,
   address      = "Sophia-Antipolis, France",
   month        = sep,
-  keywords     = "transport protocols, user-space implementations, tcp, ip",
-  location     = "ftp://www.inria.fr/rodeo/diot/rr-2650.ps.gz"
+  keywords     = "transport protocols, user-space implementations, tcp, ip,
+    protocol implementation, alf, ilp, protocol performance",
+  abstract     = "With high speed networks supporting data rates of a few
+    hundreds Mbps and distributed applications demanding high performance,
+    existing communication system and protocol architectures are under
+    discussion.  In this report, we describe an implementation of the TCP/IP
+    stack with TCP [1] in user space and IP in kernel space.  The goal by
+    placing TCP in user space is to obtain a flexible transport protocol which
+    can in future allows integrated communication subsystems based on
+    Application Level Framing (ALF) and Integrated Layer Processing (ILP) [2].
+    ALF and ILP are expected to achieve more efficient data transfer, and more
+    application control in the communication process.", 
+  location     = "http://hal.inria.fr/inria-00074040/PDF/RR-2650.pdf"
 }
 
 @TechReport{ecoalamthcc,
