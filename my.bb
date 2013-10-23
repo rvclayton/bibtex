@@ -1179,6 +1179,37 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/LCN.1990.128646"
 }
 
+@InProceedings{fedac,
+  author       = "Dan Boneh and Amit Sahai and Brent Waters",
+  title        = "Functional Encryption: Definitions and Challenges",
+  booktitle    = pot # "8th Theory of Cryptography Conference",
+  year         = 2011,
+  editor       = "Yuval Ishai",
+  series       = lncs,
+  number       = 6597,
+  pages        = "253--273",
+  publisher    = "Springer",
+  address      = "Providence, RI",
+  month        = "28--30 " # mar,
+  keywords     = "functional encryption, predicate encryption systems,
+    simulation-secure functional encryption, public-index schemes",
+  abstract     = "We initiate the formal study of functional encryption by 
+    giving precise definitions of the concept and its security.  Roughly
+    speaking, functional encryption supports restricted secret keys that enable
+    a key holder to learn a specific function of encrypted data, but learn
+    nothing else about the data.  For example, given an encrypted program the
+    secret key may enable the key holder to learn the output of the program on
+    a specific input without learning anything else about the program.  We show
+    that defining security for functional encryption is non-trivial.  First, we
+    show that a natural game-based definition is inadequate for some
+    functionalities.  We then present a natural simulation-based definition and
+    show that it (provably) cannot be satisfied in the standard model, but can
+    be satisfied in the random oracle model.  We show how to map many existing
+    concepts to our formalization of functional encryption and conclude with
+    several interesting open problems in this young area.", 
+  location     = "doi 10.1007/978-3-642-19571-6_16"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -1871,6 +1902,22 @@ Security Capabilities",
     for DRAM as main memory.  Designs for hybrid memory systems with both PCM
     and DRAM are also shown and some designs for SSDs incorporating PCM.", 
   location     = "http://dx.doi.org/10.1145/2480741.2480746",
+}
+
+@Article{fsfnbds,
+  author       = "Liba Svobodova",
+  title        = "File Servers for Network-Based Distrubuted Systems",
+  journal      = surveys,
+  year         = 1984,
+  volume       = 16,
+  number       = 4,
+  pages        = "353--398",
+  month        = dec,
+  keywords     = "concurrency deadlocks, allocation-deallocation strategies,
+    file organization, distributed file systems, network communication, message
+    sending, checkpoint-restart, backup, access controls, distributed systems",
+  abstract     = "",
+  location     = "http://dx.doi.org/10.1145/3872.3873"
 }
 
 @TechReport{sammgcs,
