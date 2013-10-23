@@ -1102,7 +1102,7 @@ Security Capabilities",
   author       = "Mary Bailey and Burra Gopal and Larry~L. Peterson and
     Prasenjit Sarkar",
   title        = "{\sc PathFinder}:  {A} Pattern-Based Packet Classifier",
-  booktitle    = pot # "First Symposium on Operating Systems Design and Implementation",
+  booktitle    = pot # "First Symposium on " # osdi,
   year         = 1994,
   pages        = "115--123",
   publisher    = acmp,
@@ -1156,7 +1156,7 @@ Security Capabilities",
   booktitle    = pot # "15th Conference on Local Computer Networks",
   year         = 1990,
   pages        = "102--111",
-  address      = "Minneapolis, Minnesota",
+  address      = mimi,
   month        = "30 " # sep # "-3 " # oct,
   keywords     = "datakit, echo response time, network analysis",
   abstract     = "The delay characteristics of the Datakit virtual circuit
@@ -1208,6 +1208,39 @@ Security Capabilities",
     concepts to our formalization of functional encryption and conclude with
     several interesting open problems in this young area.", 
   location     = "doi 10.1007/978-3-642-19571-6_16"
+}
+
+@InProceedings{piipnp,
+  author       = "Erich~M. Nahum  and David~J. Yates and James~F. Kurose and
+    Don Towsley",
+  title        = "Performance Issues in Parallelized Network Protocols",
+  booktitle    = pot # "1st USENIX Conference on " # osdi,
+  year         = 1994,
+  pages        = "125--136",
+  address      = "Monterey, " # CA,
+  month        = "14--17 " # nov,
+  keywords     = "parallelism, performance, locking, x-kernel, checksumming,
+    packet ordering, wait-free synchronization",
+  abstract     = "Parallel processing has been proposed as a means of improving
+    network protocol throughput.  Several different strategies have been taken
+    towards parallelizing protocols.  A relatively popular approach is
+    packet-level parallelism, where packets are distributed across processors.
+    This paper provides an experimental performance study of packet-level
+    parallelism on a contemporary shared-memory multiprocessor.  We examine
+    several unexplored areas in packet-level parallelism and investigate how
+    various protocol structuring and implementation techniques can affect
+    performance.  We study TCP/IP and UDP/IP protocol stacks, implemented with
+    a parallel version of the x-kernel running in user space on Silicon
+    Graphics multiprocessors.  Our results show that only limited packet-level
+    parallelism can be achieved within a single connection under TCP, but that
+    using multiple connections can improve available parallelism.  We also
+    demonstrate that packet ordering plays a key role in determining
+    single-connection TCP performance, that careful use of locks is a
+    necessity, and that selective exploitation of caching can improve
+    throughput.  We also describe experiments that compare parallel protocol
+    performance on two generations of a parallel machine and show how computer
+    architectural trends can influence performance.", 
+  location     = "http://www.cs.columbia.edu/~nahum/papers/osdi94-parallel.pdf"
 }
 
 @Article{adteeosfuitcmca,
@@ -1918,6 +1951,46 @@ Security Capabilities",
     sending, checkpoint-restart, backup, access controls, distributed systems",
   abstract     = "",
   location     = "http://dx.doi.org/10.1145/3872.3873"
+}
+
+@Article{soidal,
+  author       = "David Alex Lamb",
+  title        = "Specification of Iterators",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 12,
+  pages        = "1352--1360",
+  month        = dec,
+  keywords     = "data structures, information hiding, trace specifications,
+    algebraic specifications, iterators",
+  abstract     = "Iterators are defined, and previously published methods for
+    defining their meanings are outlined.  It is shown how to use trace
+    specifications to define a common form of iterator module (Alphard-style
+    iterators).  A form of specification for an iterator is shown which can
+    capture the key differences between a set and a sequence at a few
+    particular places in the specification.  The trace specification of a
+    sequence iterator is compared to an algebraic specification.  It is
+    concluded that the algebraic specification is possible but somewhat
+    clumsier.  Traces are used to give partial specifications of iterator
+    construct that make sequences of calls on procedural parameters.", 
+  location     = "http://dx.doi.org/10.1109/32.62444"
+}
+
+@Article{dttotfac,
+  author       = "Steve Keen and Russell Standish",
+  title        = "Debunking the Theory of the Firm---{A} Chronology",
+  journal      = "Real-World Economics Review",
+  year         = 2010,
+  number       = 53,
+  pages        = "56--94",
+  month        = "26 " # jun,
+  keywords     = "perfect competition, profit maximizers, monopoly,
+    competition, rationality",
+  abstract     = "This paper gives a complete chronologically laid out coverage
+    of our critique, from its beginnings when writing Debunking Economics to a
+    demonstration that the Cournot-Nash equilibrium is meta-unstable.",
+  location     = "http://www.paecon.net/PAEReview/issue53/KeenStandish53.pdf"
 }
 
 @TechReport{sammgcs,
