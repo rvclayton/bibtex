@@ -1993,6 +1993,61 @@ Security Capabilities",
   location     = "http://www.paecon.net/PAEReview/issue53/KeenStandish53.pdf"
 }
 
+@Article{fdsauo,
+  author       = "Jaroslaw Milewski",
+  title        = "Functional Data Structures as Updatable Objects",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 12,
+  pages        = "1427--1432",
+  month        = dec,
+  keywords     = "applicative programming, dataflow, i-structures, parallelism,
+    static program analysis",
+  abstract     = "The threat of continuous data copying is one of the key
+    problems in applicative programming.  The opportunities to implement
+    functional data structures as updatable objects, thus avoiding any form of
+    copying, are discussed.  The notion of incremental structures and
+    associated storage is used.  Its specification is modified so as to handle
+    sequential and shared structures.  The former can be used in the case when
+    only data dependencies and not data values are considered in source program
+    analysis.  The latter can be used for nondeterministic applications such as
+    system programming.", 
+  location     = "http://dx.doi.org/10.1109/32.62450"
+}
+
+@Article{pnbhdswbs,
+  author       = "P.~David Stotts and Richard Furuta",
+  title        = "Petri-Net Based Hypertext: Document Structure with Browsing Semantics",
+  journal      = tois,
+  year         = 1989,
+  volume       = 7,
+  number       = 1,
+  pages        = "3--29",
+  month        = jan,
+  keywords     = "access controls, browsing semantics, formal models, petri
+    nets, synchronization, trellis model of hypertext",
+  abstract     = "We present a formal definition of the Trellis model of 
+    hypertext and describe an authoring and browsing prototype called
+    &agr;Trellis that is based on the model.  The Trellis model not only
+    represents the relationships that tie individual pieces of information
+    together into a document (i.e., the adjacencies), but specifies the
+    browsing semantics to be associated with the hypertext as well (i.e., the
+    manner in which the information is to be visited and presented).  The model
+    is based on Petri nets, and is a generalization of existing directed
+    graph-based forms of hypertext.  The Petri net basis permits more powerful
+    specification of what is to be displayed when a hypertext is browsed and
+    permits application of previously developed Petri net analysis techniques
+    to verify properties of the hypertext.  A number of useful hypertext
+    constructs, easily described in the Trellis model, are presented.  These
+    include the synchronization of simultaneous traversals of separate paths
+    through a hypertext, the incorporation of access controls into a hypertext
+    (i.e., specifying nodes that can be proven to be accessible only to certain
+    classes of browsers), and construction of multiple specialized (tailored)
+    versions from a single hypertext.", 
+  location     = "http://dx.doi.org/10.1145/64789.64791"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
