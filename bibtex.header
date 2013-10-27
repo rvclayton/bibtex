@@ -165,7 +165,8 @@
 @string{oopsla  = "Object-Oriented Programming Systems, Languages, and
 		   Applications"}
 @string{ora     = "O'Reilly \&\ Associates."}
-@string{orfl     = "Orlando, " # FL}
+@string{orfl    = "Orlando, " # FL}
+@string{osdi    = "Operating Systems Design and Implementation"}
 @string{osr     = "Operating Systems Review"}
 @string{ohup    = "Ohio University Press"}
 @string{oup	= "Oxford University Press"}
