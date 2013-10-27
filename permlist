@@ -1019,6 +1019,7 @@ dispelling java programming language myths : haggar
 display techniques for octree encoded objects : doctor
 displaying 3d images algorithms for single image random dot sterograms : thimbleby
 distel distributed emacs lisp for erlang : gorrie
+distributed adaptive resource allocation for sensor networks : mainland
 distributed artificial intelligence for runtime feature interaction resolution : velthuijsen
 distributed computer systems for industrial control : schoeffler
 distributed computing economics : gray
@@ -1237,6 +1238,7 @@ fiddling around with files part 1 : mauro
 fields in physics are like curried functions or physics for functional programmers : leavens
 figures doors and passages : evans
 file verification using crc : nelson
+file servers for network based distrubuted systems : svobodova
 filet o fish practical and dependable domain specific languages for os development : dagland
 filter objects for java : joshi
 finding components in a hierarchy of modules a step towards architectural understanding : girard
@@ -1309,6 +1311,7 @@ fugue a functional language for sound synthesis : dannenberg
 full text searching the burrows wheeler transform : wilets
 function overloading based on arbitrary properties of types : hinnant
 functional data structures : okasaki
+functional data structures as updatable objects : milewski
 functional languages and graphical user interfaces a review and a case study : noble
 functional metapost tutorial : korittky
 functional pearl meertens number : bird
@@ -2138,6 +2141,7 @@ perspectives manifesto 1991 : alexander
 perspectives on dedicated and control processing : house
 pervasive computing with inferno and limbo : stanley
 pete the portable expression template engine : haney
+petri net based based hypertext document structure with browsing semantics : stotts
 phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
 phase change recording : leibbrandt
@@ -2619,8 +2623,9 @@ spatial data and the voronoi tessellation : lukatela
 specification and analysis of a data transfer protocol using systems of communicating machines : lundy
 specification and analysis of intercomponent communication : heimdahl
 specification and verification of time dependent communication protocols : shankar
-specification meta systems : demetrovics
 specification of basic encoding rules for abstract syntax notation one asn 1 : itu
+specification of iterators : lamb
+specification meta systems : demetrovics
 specification styles in distributed systems design and verification : vissers
 specifying a real time kernel : spivey
 specifying and verifying conditional progress : calvert
