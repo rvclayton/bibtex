@@ -11773,7 +11773,30 @@
   number       = 5,
   pages        = "72--75",
   month        = may,
-  keywords     = "local area networks, throughput, simulation, modling",
+  keywords     = "local area networks, throughput, simulation, modlling, token
+    ring, bus lan",
+  abstract     = "In February 1980 a group of people met in San Francisco, CA,
+    USA, to form Project 802: Local Area Network Standards, sponsored by the
+    IEEE Computer Society.  The subcommittee held two open meetings, each
+    followed by circulation of a draft report for comment.  All claims had to
+    have enough evidence to allow independent verification.  Such evidence
+    included source code plus data for all simulation results, all numbers and
+    formulas for analytic results, and complete experimental conditions and
+    measurement procedures for data analysis on actual systems.  This article
+    summarizes the subcommittee's focus on calculating the maximum mean data
+    rate.  The best available evidence, based on this study and related
+    studies, is as follows.  Token passing via a ring is the least sensitive to
+    workload, offers short delay under light load, and offers controlled delay
+    under heavy load.  Token passing via a bus has the greatest delay under
+    light load, cannot carry as much traffic as a ring under heavy load, and is
+    quite sensitive to the bus length (through the propagation time for energy
+    to traverse the bus).  Carrier sense collision detection offers the
+    shortest delay under light load, is quite sensitive under heavy load to the
+    workload, and is sensitive to the bus length (the shorter the bus the
+    better it performs) and to message length (the longer the packet the better
+    it does).  While this evidence is currently being examined by those
+    actually building local area networks, other independent testing of these
+    plots for confirmation is sought and encouraged.", 
   location     = "TK 7885.A1 I15X"
 }
 
@@ -30823,15 +30846,30 @@ b
 @InProceedings{lsfpsrm,
   author       = "Carl A. Waldspurger and William E. Weihl",
   title        = "Lottery Scheduling: Flexible Proportional-Share Resource Management",
-  booktitle    = "First Symposium on Operating Systems Design and
-		  Implementation (OSDI)",
+  booktitle    = "First Symposium on Operating Systems Design and Implementation (OSDI)", 
   year         = 1994,
   pages        = "1--11",
   organization = "USENIX Association",
   address      = moncal,
   month        = "14--17 November",
   keywords     = "resource allocation, scheduling, probabilistic algorithms",
-  location     = "http://www.pdl.cs.cmu.edu/PDL-FTP/stray/lottery.ps"
+  abstract     = "This paper presents lottery scheduling, a novel randomized
+    resource allocation mechanism.  Lottery scheduling provides efficient,
+    responsive control over the relative execution rates of computations.  Such
+    control is beyond the capabilities of conventional schedulers, and is
+    desirable in systems that service requests of varying importance, such as
+    databases, media-based applications, and networks.  Lottery scheduling also
+    supports modular resource management by enabling concurrent modules to
+    insulate their resource allocation policies from one another.  A currency
+    abstraction is introduced to flexibly name, share, and protect resource
+    rights.  We also show that lottery scheduling can be generalized to manage
+    many diverse resources, such as I/O bandwidth, memory, and access to locks.
+    We have implemented a prototype lottery scheduler for the Mach 3.0
+    microkernel, and found that it provides flexible and responsive control
+    over the relative execution rates of a wide range of applications.  The
+    overhead imposed by our unoptimized prototype is comparable to that of the
+    standard Mach timesharing policy.", 
+  location     = "http://www.usenix.org/publications/library/proceedings/osdi/full_papers/waldspurger.pdf"
 }
 
 @InProceedings{,
