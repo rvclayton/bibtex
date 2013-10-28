@@ -2048,6 +2048,35 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/64789.64791"
 }
 
+@Article{telosasos,
+  author       = "David Kotz and Preston Crow",
+  title        = "The Expected Lifetime of Single-Address-Space Operating Systems",
+  journal      = compsys,
+  year         = 1996,
+  volume       = 9,
+  number       = 3,
+  pages        = "155--178",
+  month        = "Summer",
+  keywords     = "allocation policies, storage management",
+  abstract     = "Trends toward shared-memory programming paradigms, large
+    (64-bit) address spaces, and memory-mapped files have led some to propose
+    the use of a single virtual-address space, shared by all processes and
+    processors.  Typical proposals require the single address space to contain
+    all process-private data, shared data, and stored files.  To simplify
+    management of an address space where stable pointers make it difficult to
+    re-use addresses, some have claimed that a 64-bit address space is
+    sufficiently large that there is no need to ever re-use addresses.
+    Unfortunately, there has been no data to either support or refute these
+    claims, or to aid in the design of appropriate address-space management
+    policies.  In this paper, we present the results of extensive kernel-level
+    tracing of the workstations in our department, and discuss the implications
+    for single-address-space operating systems.  We found that
+    single-address-space systems will not outgrow the available address space,
+    but only if reasonable space-allocation policies are used, and only if the
+    system can adapt as larger address space becomes available.", 
+  location     = "http://www.cs.dartmouth.edu/~dfk/papers/kotz:addrtrace.pdf"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
