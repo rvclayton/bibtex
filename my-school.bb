@@ -1038,9 +1038,19 @@
   volume       = 19,
   number       = 9,
   pages        = "895--916",
-  month        = "September",
+  month        = sep,
   keywords     = "operating systems, message fragmentation and reassembly,
-		  protocol development"
+    protocol development",
+  abstract     = "This paper describes two software tools—a message manager
+    and a map manager—used to implement network protocols.  The tools are
+    provided as part of the x-kernel, an operating system kernel designed to
+    support the construction and composition of protocols.  For each tool, we
+    briefly motivate the network task that needs to be done, give a high-level
+    specification of the tool, outline the algorithms and data structures used
+    to implement the tool and give concrete examples of how the tool is used to
+    implement real protocols.  We also demonstrate how the tools, even though
+    they are designed for general use, perform efficiently.", 
+  location     = "http://dx.doi.org/10.1002/spe.4380190906"
 }
 
 @Article{dpsfssip,
