@@ -1243,6 +1243,30 @@ Security Capabilities",
   location     = "http://www.cs.columbia.edu/~nahum/papers/osdi94-parallel.pdf"
 }
 
+@InProceedings{agatreoidc,
+  author       = "M.~Spezialetti and J.~P. Kearns",
+  title        = "{A} General Approach to Recognizing Event Occurrences in Distributed Computations",
+  booktitle    = pot # "8th International Conference on Distributed Computing Systems",
+  year         = 1988,
+  pages        = "300--307",
+  address      = sjca,
+  month        = "13--17 " # jun,
+  keywords     = "events, monitoring, stabilityw",
+  abstract     = "A generalized approach to the task of monitoring a 
+    distributed computation for event occurrences is presented that involves
+    analyzing the characteristics of both the behavior to be recognized and the
+    environment in which it can occur.  The monotonicity of an event, which is
+    a measurement of the stableness of its state, is the primary feature used
+    in characterizing events.  A general classification system for monitoring
+    strategies is also presented.  The classifications are based on the view of
+    time used by the monitoring system, the delay between the occurrence of an
+    event and its recognition, and the assertions that can be made about the
+    system state at the point of recognition.  The properties of an event and a
+    computation can be used to determine the applicability of various types of
+    monitoring strategies", 
+  location     = "http://dx.doi.org/10.1109/DCS.1988.12530"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -2075,6 +2099,41 @@ Security Capabilities",
     but only if reasonable space-allocation policies are used, and only if the
     system can adapt as larger address space becomes available.", 
   location     = "http://www.cs.dartmouth.edu/~dfk/papers/kotz:addrtrace.pdf"
+}
+
+@Article{eterbiti,
+  author       = "Vern Paxson",
+  title        = "End-to-End Routing Behavior in the {I}nternet",
+  journal      = ccr,
+  year         = 2006,
+  volume       = 36,
+  number       = 5,
+  pages        = "41--56",
+  month        = oct,
+  keywords     = "internet routing, sampling, routing loops, erroneous routing,
+    fluttering, failures, routing stability",
+  abstract     = "The large-scale behavior of routing in the Internet has gone
+    virtually without any formal study, the exception being Chinoy's analysis
+    of the dynamics of Internet routing information [Ch93].  We report on an
+    analysis of 40,000 end-to-end route measurements conducted using repeated
+    traceroutes between 37 Internet sites.  We analyze the routing behavior for
+    pathological conditions, routing stability, and routing symmetry.  For
+    pathologies, we characterize the prevalence of routing loops, erroneous
+    routing, infrastructure failures, and temporary outages.  We find that the
+    likelihood of encountering a major routing pathology more than doubled
+    between the end of 1994 and the end of 1995, rising from 1.5% to 3.4%.  For
+    routing stability, we define two separate types of stability, prevalence,
+    meaning the overall likelihood that a particular route is encountered, and
+    persistence, the likelihood that a route remains unchanged over a long
+    period of time.  We find that Internet paths are heavily dominated by a
+    single prevalent route, but that the time periods over which routes persist
+    show wide variation, ranging from seconds up to days.  About 2/3's of the
+    Internet paths had routes persisting for either days or weeks.  For routing
+    symmetry, we look at the likelihood that a path through the Internet visits
+    at least one different city in the two directions.  At the end of 1995,
+    this was the case half the time, and at least one different autonomous
+    system was visited 30% of the time.", 
+  location     = "http://dx.doi.org/10.1145/1163593.1163602"
 }
 
 @TechReport{sammgcs,
