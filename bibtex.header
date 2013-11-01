@@ -218,6 +218,7 @@
 @string{sigcomm = "ACM SIGCOMM"}
 @string{sigcseb = "SICGSE Bulletin"}
 @string{sigplan = "SIGPLAN Notices"}
+@string{sjca    = "San Jose, " # CA}
 @string{slcu    = "Salt Lake City, Utah"}
 @string{sosp	= " ACM Symposium on Operating Systems Principles"}
 @string{spe	= "Software---Practice And Experience"}
