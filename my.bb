@@ -1267,6 +1267,28 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/DCS.1988.12530"
 }
 
+@InProceedings{repnb,
+  author       = "Niklas Broberg and Andreas Farre ad Josef Svenningsson",
+  title        = "Regular Expression Patterns",
+  booktitle    = pot # "Ninth ACM SIGPLAN International Conference on Functional Programming",
+  year         = 2004,
+  pages        = "67--78",
+  address      = "Snow Bird, Utah",
+  month        = "19--21 " # sep,
+  keywords     = "haskell, pattern matching, regular expressions, non-linear
+    variables, lazy matching, eager matching, preprocessors",
+  abstract     = "We extend Haskell with regular expression patterns.  Regular
+    expression patterns provide means for matching and extracting data which
+    goes well beyond ordinary pattern matching as found in Haskell.  It has
+    proven useful for string manipulation and for processing structured data
+    such as XML.  Regular expression patterns can be used with arbitrary lists,
+    and work seamlessly together with ordinary pattern matching in Haskell.
+    Our extension is lightweight, it is little more than syntactic sugar.  We
+    present a semantics and a type system, and show how to implement it as a
+    preprocessor to Haskell.", 
+  location     = "http://dx.doi.org/10.1145/1016850.1016863"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -2134,6 +2156,38 @@ Security Capabilities",
     this was the case half the time, and at least one different autonomous
     system was visited 30% of the time.", 
   location     = "http://dx.doi.org/10.1145/1163593.1163602"
+}
+
+@Article{tafmivm,
+  author       = "Roland Ducournau and Flor{\' e}al Morandat",
+  title        = "Toward a Full Multiple-Inheritance Virtual Machine",
+  journal      = jot,
+  year         = 2012,
+  volume       = 11,
+  number       = 3,
+  pages        = "6:1--29",
+  keywords     = "adaptive compiler, dynamic loading, late binding, method
+    tables, multiple inheritance, open-world assumption, perfect hashing,
+    random simulation, subtype tests, virtual machines",
+  abstract     = "Late binding and subtyping create runtime overhead for
+    object-oriented languages, especially in the context of both multiple
+    inheritance and dynamic loading.  Recent experiments show that this
+    overhead ismarked with static, non-adaptive compilers, which work under the
+    openworld assumption.  Therefore, dynamic, ie adaptive, compilation might
+    present a solution to this efficiency issue.  This paper presents the
+    abstract architecture of a virtual machine and a dynamic compiler for
+    unrestrictedmultiple-inheritance.  This architecture involves an object
+    representation that allows for shortcuts in the default implementations,
+    coupled withcompilation/recompilation protocols that maintain the most
+    efficient implementations compatible with the current state of the program.
+    Theobject representation proposed is based on perfect class hashing, which
+    shortcuts to static calls or the single-subtyping implementation.Moreover,
+    this article proposes a new methodology, based on random simulation, for
+    evaluating the runtime efficiency and recompilation cost ofthe proposed
+    protocols.  The resulting experiments show that the architecture proposed
+    should provide the same runtime efficiency as Java and .Net, thus
+    offsetting most of the multiple-inheritance overhead.", 
+  location     = "http://www.jot.fm/issues/issue_2012_10/article6.pdf"
 }
 
 @TechReport{sammgcs,
