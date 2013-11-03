@@ -2201,6 +2201,81 @@ Security Capabilities",
   location     = "http://www.jot.fm/issues/issue_2012_10/article6.pdf"
 }
 
+@Article{asosbsfoucrc,
+  author       = "Seyed Amir Hoseini-Tabatabaei and Alexander Gluhak and Rahim Tafazolli",
+  title        = "{A} Survey on Smartphone-Based Systems for Opportunistic User Context Recognition",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 45,
+  number       = 3,
+  pages        = "27:1--27:51",
+  month        = jun,
+  keywords     = "algorithms, design, experimentation, performance, pervasive
+  computing, opportunistic sensing, smartphones, user context recognition",
+  abstract     = "The ever-growing computation and storage capability of mobile
+    phones have given rise to mobile-centric context recognition systems, which
+    are able to sense and analyze the context of the carrier so as to provide
+    an appropriate level of service.  As nonintrusive autonomous sensing and
+    context recognition are desirable characteristics of a personal sensing
+    system; efforts have been made to develop opportunistic sensing techniques
+    on mobile phones.  The resulting combination of these approaches has
+    ushered in a new realm of applications, namely opportunistic user context
+    recognition with mobile phones .  This article surveys the existing
+    research and approaches towards realization of such systems.  In doing so,
+    the typical architecture of a mobile-centric user context recognition
+    system as a sequential process of sensing, preprocessing, and context
+    recognition phases is introduced.  The main techniques used for the
+    realization of the respective processes during these phases are described,
+    and their strengths and limitations are highlighted.  In addition, lessons
+    learned from previous approaches are presented as motivation for future
+    research.  Finally, several open challenges are discussed as possible ways
+    to extend the capabilities of current systems and improve their real-world
+    experience.", 
+  location     = "http://dx.doi.org/10.1145/2480741.2480744"
+}
+
+@Article{ssnrst,
+  author       = "Raymond~S. Tomlinson",
+  title        = "Selecting Sequence Numbers",
+  journal      = osr # " (" # pot # "ACM SIGCOMM/SIGOPS Workshop on Interprocess Communications)",
+  year         = 1975,
+  volume       = 9,
+  number       = 3,
+  pages        = "11-23",
+  month        = jul,
+  keywords     = "positive synchronization, sequence numbers, ",
+  abstract     = "This paper discusses techniques for selecting and 
+    synchronizing sequence numbers such that no errors will occur if certain
+    network characteristics can be bounded and if adequate data error detection
+    measures are taken.  The discussion specifically focuses on the protocol
+    described by Cerf and Kahn, (1) but the ideas are applicable to other
+    similar protocols.", 
+  location     = "http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-tomlin75.ps",
+  location     = "http://dx.doi.org/10.1145/800272.810894"
+}
+
+@Article{ptdnic,
+  author       = "Dick Hamlet and Ross Taylor",
+  title        = "Partition Testing Does Not Inspire Confidence",
+  journal      = tse,
+  year         = 1990,
+  volume       = 15,
+  number       = 12,
+  pages        = "1402--1411",
+  month        = dec,
+  keywords     = "partition testing, random testing, reliability, software
+    testing theory",
+  abstract     = "Theoretical models are used to study partition testing in the
+    abstract and to describe the circumstances under which it should perform
+    well at failure detection.  Partition testing is shown to be more valuable
+    when the partitions are narrowly based on expected failures and there is a
+    good chance that failures occur.  It is concluded that for gaining
+    confidence from successful tests, partition testing as usually practiced
+    has little value.", 
+  location     = "http://dx.doi.org/10.1109/32.62448",
+  location     = "http://www.site.uottawa.ca/~gvj/papers/Software%2520Engineering%2520IEEE%2520Transactions%2520on%25201990%2520Hamlet.pdf"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
