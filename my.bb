@@ -645,6 +645,17 @@
   location     = "QA 273 E57"
 }
 
+@Book{teopih,
+  author       = "Ian Hacking",
+  title        = "The Emergence of Probability",
+  publisher    = cup,
+  year         = 1975,
+  address      = loen,
+  keywords     = "duality, evidence, probability, expectation, annuities,
+    inductive logic, limit theorems, induction",
+  location     = "QA 273 H22"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
