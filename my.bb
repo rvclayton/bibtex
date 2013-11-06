@@ -1300,6 +1300,17 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/1016850.1016863"
 }
 
+@InProceedings{avtaocn,
+  author       = "D.~C. Swinehart, L.~C. Stewart, S.~M. Ornstein",
+  title        = "Adding Voice to an Office Computer Network",
+  booktitle    = "Proceedings of IEEE GlobeCom",
+  year         = 1983,
+  address      = sdca,
+  month        = "29 " # nov # "-1 " # dec,
+  keywords     = "agents, voice data, ethernet, etherphone, voice server, ",
+  location     = "http://bitsavers.informatik.uni-stuttgart.de/pdf/xerox/parc/techReports/CSL-83-8_Adding_Voice_to_an_Office_Computer_Network.pdf"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
