@@ -206,6 +206,7 @@ a programming language perspective to compositional software architectures : sab
 a project for operating systems simulation : shay
 a proof technique for communicating sequential processes : levin
 a proposed standard for binary floating point arithmetic : stevenson
+a protocol for packet network interconnection : cerf
 a quantitative comparison of architectures for atm switching systems : witte
 a readable tcp in the prolac protocol language : kohler
 a reflective model of inheritance : jagannathan
@@ -271,6 +272,7 @@ a survey of structured and object oriented software specification methods and te
 a survey of techniques for achieving metadata interoperability : haslhofer
 a survey of web cache replacement strategies : podlipnig
 a survey of wormhole routing techniques in direct networks : ni
+a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
 a syntactic theory of software architecture : dean
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a system architecture for fault tolerance in concurrent software : ancona
@@ -367,7 +369,6 @@ advanced javascript tutorial : thau
 advanced module systems a guide for the perplexed : pierce
 advanced programming lanauge features for executable design patterns better patterns through reflection : sullivan
 advanced programming techniques using scheme : morequ
-advanced real time languages for distributed industrial process control : steusloff
 advanced thread synchronization in java using interaction expressions : heinlein
 advances and remaining challenges to adoption of public key infrastructure technology : mcclure
 advances in computer mass storage technology : chi
@@ -667,7 +668,6 @@ built in self testing of random access memories : franklin
 business model issues in the development of digital cultural content : wall
 c a language for high level efficient and machine independent dynamic code generation : engler
 c# introduction : hejlsberg
-c# programming language future features : sridharan
 c++ aplicators and manipulators : charney
 c++ namespaces : pennello
 c++ type traits : maddock
@@ -706,7 +706,6 @@ cgi tcl reference manual : libes
 cgi tutorial : chen
 chain reactions in networks : manber
 challenges in software development : fleckenstein
-challenges in the analysis of the role of institutions in economic development : stiglitz
 change distilling tree differencing for fine grained source code change extraction : fluri
 channels : gupta
 channels a run time system for multimedia protocols : bocking
@@ -1267,6 +1266,7 @@ flow control a comparative survey : gerla
 form based file upload in html : nebel
 form formula a visual programming paradigm for user definable user interfaces : kimura
 form tricks : webb
+formal analysis of the alternating bit protocol by temproal petri nets : suzuki
 formal description and interpretation of coordination protocols for teamwork : frick
 formal logic via functional programming : leifer
 formal methods for actor systems a progress report : agha
@@ -1655,7 +1655,6 @@ java programming style guide : anon
 java programming style guidlines : geosoft
 java puzzlers : bloch
 java references : amsterdam
-java remote method invocation distributed computing for java : sun
 java rmi tutorial : baclawski
 java rmi tutorial : clausen
 java security : vanderburg
@@ -1731,7 +1730,6 @@ learning spam simple techniques for freely available software : massey
 learning to love som : alfke
 less software engineering : dahlin
 lessons from open source intellectual property and courseware : newmarch
-lessons learned through six years of component based development : sparling
 letos a lightweight execution tool for operational semantics : hartel
 lexical closures for c++ : breuel
 librep : harper
@@ -2477,8 +2475,8 @@ seeds for random number generators : marsaglia
 seis++ a pattern language for seismic tools construction and integration : yingjun
 selecting a programming language compiler and support environment method and example : anderson
 selective open recursion a solution to the fragile base class problem : aldrich
+selecting sequence numbers : tomlinson
 selecting the median and two quantiles in a set of numbers : cunto
-self adaptive software for signal processing : sztipanovits
 self assesment procedure xxiii programming languages : clifton
 self acertifying file system : mazieres
 self healing in modern operating systems : shapiro
@@ -2632,8 +2630,7 @@ specifying and verifying conditional progress : calvert
 specifying representations of machine instructions : ramsey
 splay trees : clark
 splay trees : karger
-spoken dialogue technology enabling the conversational user interface : mctear
-sqlite : sqlite
+spoken dialogue technology enabling the conversational user interface : mctear sqlite : sqlite
 squeak by example : black
 squinting at power series : mcilroy
 ssa is functional programming : appel
@@ -3044,7 +3041,6 @@ the reflective practitioner perspective in software engineering education : hazz
 the relevance of education : bruner
 the representation problem in reverse engineering : rugaber
 the resuability challenge : meyer
-the rightpages image based electronic library for alerting and browsing : story
 the rise of pseudo fascism : neiwert
 the risks of key recovery key escrow and trusted third party encryption : abelson
 the rochester checkers player : marsh
@@ -3359,7 +3355,6 @@ visualizing packet traces : zinky
 visualizing performance debugging : lehr
 visually interpreting the motion of objects in space : webb
 vlsi a new frontier for systems designers : fairbairn
-voice in computing an overview of available technologies : strathmeyer
 voice over ip : varshney
 voip security and privacy threat taxonomy : voipsa
 voip security not an afterthought : sicker
