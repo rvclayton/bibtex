@@ -2276,6 +2276,49 @@ Security Capabilities",
   location     = "http://www.site.uottawa.ca/~gvj/papers/Software%2520Engineering%2520IEEE%2520Transactions%2520on%25201990%2520Hamlet.pdf"
 }
 
+@Article{apfpni,
+  author       = "Vinton~G. Cerf and Robert~E. Kahn",
+  title        = "{A} Protocol for Packet Network Interconnection",
+  journal      = "IEEE Transactions on Communication",
+  year         = 1974,
+  volume       = 22,
+  number       = 5,
+  pages        = "637--648",
+  month        = may,
+  keywords     = "gateways, communication, tcp, associations, connection-free
+    protocols",
+  abstract     = "A protocol that supports the sharing of resources that exist
+    in different packet switching networks is presented.  The protocol provides
+    for variation in individual network packet sizes, transmission failures,
+    sequencing, flow control, end-to-end error checking, and the creation and
+    destruction of logical process-to-process connections.  Some implementation
+    issues are considered, and problems such as internetwork routing,
+    accounting, and timeouts are exposed.", 
+  location     = "http://dx.doi.org/10.1145/1064413.1064423",
+  location     = "http://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf"
+}
+
+@Article{faotabpbtpn,
+  author       = "Ichiro Suzuki",
+  title        = "Formal Analysis of the Alternating Bit Protocol by Temproal Petri Nets",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 11,
+  pages        = "1273--1281",
+  month        = nov,
+  keywords     = "alternating bit protocol, buchi automaton, formal
+    verification, omega-regular expressions, temporal logic",
+  abstract     = "Temporal Petri nets are Petri nets in which certain
+    restrictions on the firings of transitions are represented by formulas
+    containing temporal operators.  The use of temporal Petri nets for formal
+    specification and verification of the alternating bit protocol is
+    discussed.  The temporal Petri net which models the protocol is analyzed
+    formally using the existing theory of omega -regular expressions and
+    Buchi-automata.", 
+  location     = "http://dx.doi.org/10.1109/32.60315"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
