@@ -1311,6 +1311,27 @@ Security Capabilities",
   location     = "http://bitsavers.informatik.uni-stuttgart.de/pdf/xerox/parc/techReports/CSL-83-8_Adding_Voice_to_an_Office_Computer_Network.pdf"
 }
 
+@InProceedings{itsaoelvpe,
+  author       = "David Herman and Philippe Meunier",
+  title        = "Improving the Static Analysis of Embedded Languages via Partial Evaluation",
+  booktitle    = pot # "Ninth ACM SIGPLAN International Conference on Functional Programming",
+  year         = 2004,
+  pages        = "16--27",
+  address      = "Snow Bird, Utah",
+  month        = "19--21 " # sep,
+  keywords     = "testing, debugging, macros, code generators, interpreters,
+    static analysis, partial evaluation, embedded languages, value flow
+    analysis",
+  abstract     = "Programs in embedded languages contain invariants that are
+    not automatically detected or enforced by their host language.  We show how
+    to use macros to easily implement partial evaluation of embedded
+    interpreters in order to capture invariants encoded in embedded programs
+    and render them explicit in the terms of their host language.  We
+    demonstrate the effectiveness of this technique in improving the results of
+    a value flow analysis.", 
+  location     = "http://dx.doi.org/10.1145/1016848.1016857"
+}
+
 @Article{adteeosfuitcmca,
   author       = "Michael Ziwinsky and Kyle Persohn and Dennis Brylow",
   title        = "{A} Down-to-Earth Educational Operating System for Up-in-the-Cloud Many-Core Architectures",
@@ -2530,6 +2551,18 @@ Security Capabilities",
     capture, allowing macros to introduce implicit identifier bindings or
     references.", 
   location     = "ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/prop/syntax-case.ps.gz"
+}
+
+@TechReport{afdtlacord,
+  author       = "Beat Stamm",
+  title        = "Algorithms for Drawing Thick Lines and Curves on Raster Devices",
+  institution  = "Informatics Department, Institute for Computer Systems, Eidgen{\" o}ssiche Technische Hochschule",
+  year         = 1989,
+  number       = 107,
+  address      = zusw,
+  month        = may,
+  keywords     = "line drawing, raster graphics",
+  location     = "http://e-collection.library.ethz.ch/view/eth:3201%3Fq%3D%28keywords_en:SURFACE%2520CURVES%29"
 }
 
 @Manual{asymptote,
