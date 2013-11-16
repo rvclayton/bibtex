@@ -2351,6 +2351,42 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/32.60315"
 }
 
+@Article{asosqd,
+  author       = "Kyriakos Kritikos and Barbara Pernici and Pierluigi Plebani and Cinzia Cappiello and Marco Comuzzi and Salima Benrernou and Ivona Brandic and Attila Kert{\' e}sz and Michael Parkin and Manuel Carro",
+  title        = "{A} Survey on Service Quality Description",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 46,
+  number       = 1,
+  pages        = "1:1--1:58",
+  month        = oct,
+  keywords     = "documentation, langages, management, performance, service,
+  deswcription, provisioning, life-cycle, quality, qos, model, metamodel,
+    service-level agreement, sla",
+  abstract     = "Quality of service (QoS) can be a critical element for
+    achieving the business goals of a service provider, for the acceptance of a
+    service by the user, or for guaranteeing service characteristics in a
+    composition of services, where a service is defined as either a software or
+    a software-support (i.e., infrastructural) service which is available on
+    any type of network or electronic channel.  The goal of this article is to
+    compare the approaches to QoS description in the literature, where several
+    models and metamodels are included.  consider a large spectrum of models
+    and metamodels to describe service quality, ranging from ontological
+    approaches to define quality measures, metrics, and dimensions, to
+    metamodels enabling the specification of quality-based service requirements
+    and capabilities as well as of SLAs (Service-Level Agreements) and SLA
+    templates for service provisioning.  Our survey is performed by inspecting
+    the characteristics of the available approaches to reveal which are the
+    consolidated ones and which are the ones specific to given aspects and to
+    analyze where the need for further research and investigation lies.  The
+    approaches here illustrated have been selected based on a systematic review
+    of conference proceedings and journals spanning various research areas in
+    computer science and engineering, including: distributed, information, and
+    telecommunication systems, networks and security, and service-oriented and
+    grid computing.",
+  location     = "http://dx.doi.org/10.1145/2522968.2522969"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
