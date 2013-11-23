@@ -2387,6 +2387,88 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/2522968.2522969"
 }
 
+@Article{aagoh,
+  author       = "Bernard Legrand",
+  title        = "{APL} a Glimpse of Heaven",
+  journal      = "Vector",
+  year         = 2008,
+  volume       = 23,
+  number       = "1 & 2",
+  month        = jan,
+  keywords     = "programming, array languages",
+  location     = "http://archive.vector.org.uk/art10011550"
+}
+
+@Article{itsasg,
+  author       = "G.~Stiny",
+  title        = "Introduction to Shape and Shape Grammars",
+  journal      = "Environment and Planning B: Planning and Design",
+  year         = 1980,
+  volume       = 7,
+  number       = 3,
+  pages        = "343--351",
+  keywords     = "shape families, labelled shapes, shape transformations,
+    parametric shape grammars",
+  abstract     = "The definitions pertaining to the shape grammar formalism are
+    developed in detail." 
+}
+
+@Article{ptpafmmogas,
+  author       = "Amir Yahyavi and Bettina Kemme",
+  title        = "Peer-to-Peer Architectures for Massively Multiplayer Online Games:  {A} Survey",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 46,
+  number       = 1,
+  pages        = "9:1--51",
+  month        = oct,
+  keywords     = "distributed systems, mmorpg, peer-to-peer systems,
+    networking, on-line gaming, distributed application architectures",
+  abstract     = "Scalability, fast response time, and low cost are of utmost
+    importance in designing a successful massively multiplayer online game.
+    The underlying architecture plays an important role in meeting these
+    conditions.  Peer-to-peer architectures, due to their distributed and
+    collaborative nature, have low infrastructure costs and can achieve high
+    scalability.  They can also achieve fast response times by creating direct
+    connections between players.  However, these architectures face many
+    challenges.  Distributing a game among peers makes maintaining control over
+    the game more complex.  Peer-to-peer architectures also tend to be
+    vulnerable to churn and cheating.  Moreover, different genres of games have
+    different requirements that should be met by the underlying architecture,
+    rendering the task of designing a general-purpose architecture harder.
+    Many peer-to-peer gaming solutions have been proposed that utilize a range
+    of techniques while using somewhat different and confusing terminologies.
+    This article presents a comprehensive overview of current peer-to-peer
+    solutions for massively multiplayer games using a uniform terminology.", 
+  location     = "http://dx.doi.org/10.1145/2522968.2522977"
+}
+
+@Article{mrfc,
+  author       = "Olin Shivers and David Fisher",
+  title        = "Multi-return Function Call",
+  journal      = jfp,
+  year         = 2006,
+  volume       = 16,
+  number       = "4--5",
+  pages        = "547--582",
+  month        = jul,
+  keywords     = "",
+  abstract     = {It is possible to extend the basic notion of "function call"
+    to allow functions to have multiple return points.  This turns out to be a
+    surprisingly useful mechanism.  This article conducts a fairly wide-ranging
+    tour of such a feature: a formal semantics for a minimal $\lambda$-calculus
+    capturing the mechanism; motivating examples; monomorphic and
+    parametrically polymorphic static type systems; useful transformations;
+    implementation concerns and experience with an implementation; and
+    comparison to related mechanisms, such as exceptions, sum-types and
+    explicit continuations.  We conclude that multiple-return function call is
+    not only a useful and expressive mechanism, at both the source-code and
+    intermediate-representation levels, but also quite inexpensive to
+    implement.}, 
+  location     = "http://www.ccs.neu.edu/home/shivers/papers/mrlc-jfp.pdf",
+  location     = "http://dx.doi.org/10.1017/S0956796806006009"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
@@ -2599,6 +2681,15 @@ Security Capabilities",
   month        = may,
   keywords     = "line drawing, raster graphics",
   location     = "http://e-collection.library.ethz.ch/view/eth:3201%3Fq%3D%28keywords_en:SURFACE%2520CURVES%29"
+}
+
+@TechReport{pplm,
+  author       = "Mike Spivey",
+  title        = "Procedural Programming Laboratory Manual",
+  institution  = "Computing Laboratory, Oxford University",
+  year         = 2001,
+  type         = "Honour Moderations in Mathematics and Computation",
+  month        = jan
 }
 
 @Manual{asymptote,
