@@ -520,6 +520,7 @@ ant tutorial : mills
 anti vamming trust enforcement in peer to peer voip networks : banerjee
 antlr translator generator faq : jguru
 aop and the antinomy of the liar : forster
+apl a glimpse of heaven : legrand
 application graphics modeling support through object orientation : egbert
 application performance and flexibility on exokernel systems : kaashoek
 applications of continuations : friedman
@@ -1531,6 +1532,7 @@ improving scalability of multithreaded dynamic memory allocation : nakhimovsky
 improving tcp performance over mobile networks : elaarag
 improving the performance of distributed applications using active networks : legedza
 improving the reliability of commodity operating systems : swift
+improving the static analysis of embedded languages via partial evaluation : herman
 improving the world's most popular functional language user defined functions in excel : peyton jones
 improving wcet by applying worst case path optimizations : zhao
 in memoriam j c r licklider : licklider
@@ -1609,6 +1611,7 @@ introduction to markov chains : dawson
 introduction to mmix : knuth
 introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
+introduction to shape and shape grammars : stiny
 introduction to simulated annealing : tovy
 introduction to the border gateway protocol bgp : hankins
 introduction to the configurable highly parallel computer : snyder
@@ -1893,8 +1896,9 @@ mpatrol : roy
 mpegtool an x window based mpeg encoder and statistics tool : urabe
 much ado about patterns : zubek
 mud faq : anon
-multi valued constant propagation for the reengineering of interfaces : merlo
+multi return function call : shivers
 multi traversal tree decoration in a functional setting monads versus bindings : pennings
+multi valued constant propagation for the reengineering of interfaces : merlo
 multicast routing in datagram internetworks and extended lans : deering
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
@@ -2116,6 +2120,7 @@ pc hardware for source code unix : gray
 pc software performance tuning : atkins
 pdh broadband isdn atm and all that a guide to modern wan networking and how it evolved : reilly
 peep an architectural description driven peephole optimizer : kessler
+peer to peer architectures for massively multiplayer online games a survey : yahyavi
 peer to peer internet telephony using sip : singh
 pentium 4 in depth : mihocka
 people do read large ads the law of advertising from outer space : tomlinson
