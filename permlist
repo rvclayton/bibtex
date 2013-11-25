@@ -101,6 +101,7 @@ a generic iterator for tree traversal : ananiev
 a genetic algorithm for the assembly line balancing problem : anderson
 a gentle introduction to ted nelsons zigzag structure : lukka
 a global authentication service without global trust : birrell
+a graph model for software evolution : luqi
 a graph model for unsupervised lexical acquisition : widdows
 a graphical interface for chip : alvisi
 a graphical logic for specifying concurrent systems : dillon
@@ -156,6 +157,7 @@ a module system for scheme : curtis
 a multi user virtual machine : czajkowski
 a multiparadigm approach to compiler construction : justice
 a multiparty coordination aspect language : corchuelo
+a nanopass framework for compiler education : sarkar
 a nation of strangers : katz
 a network file system over http remote access and modification of files and files : kiselyov
 a neural network approach to set up the benes switch : hakim
