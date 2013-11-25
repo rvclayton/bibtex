@@ -2469,6 +2469,53 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1017/S0956796806006009"
 }
 
+@Article{anffce,
+  author       = "Dipanwita Sarkar and Oscar Waddell and R.~Kent Dybvig",
+  title        = "{A} Nanopass Framework for Compiler Education",
+  journal      = jfp,
+  year         = 2005,
+  volume       = 15,
+  number       = 5,
+  pages        = "653--667",
+  month        = sep,
+  keywords     = "compiler construction, little languages, pedagogy, macro
+    transformations",
+  abstract     = "A compiler structured as a small number of monolithic passes
+    is difficult to understand and difficult to maintain.  The steep learning
+    curve is daunting, and even experienced developers find that modifying
+    existing passes is difficult and often introduces subtle and tenacious
+    bugs.  These problems are especially frustrating when the developer is a
+    student in a compiler class.  An attractive alternative is to structure a
+    compiler as a collection of many fine-grained passes, each of which
+    performs a single task.  This structure aligns the implementation of a
+    compiler with its logical organization, simplifying development, testing,
+    and debugging.  This paper describes the methodology and tools comprising a
+    framework for constructing such compilers.", 
+  location     = "http://dx.doi.org/10.1017/S0956796805005605"
+}
+
+@Article{agmfse,
+  author       = "Luqi",
+  title        = "{A} Graph Model for Software Evolution",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 8,
+  pages        = "917--927",
+  month        = aug,
+  keywords     = "configuration control, consistency, software management,
+    maintenance, software evolution",
+  abstract     = "A graph model of software evolution is presented.  The author
+    seeks to formalize the objects and activities involved in software
+    evolution in sufficient detail to enable automatic assistance for
+    maintaining the consistency and integrity of an evolving software system.
+    This includes automated support for propagating the consequences of a
+    change to a software system.  The evolution of large and complex software
+    systems receives particular attention.", 
+  location     = "http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf",
+  location     = "http://dx.doi.org/10.1109/32.57627"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
