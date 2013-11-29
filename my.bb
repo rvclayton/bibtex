@@ -656,6 +656,18 @@
   location     = "QA 273 H22"
 }
 
+@Book{juuhab,
+  title        = "Judgement Under Uncertainty:  Heuristics and Biases",
+  publisher    = cup,
+  year         = 1982,
+  editor       = "Daniel Kahneman and Paul Slovic and Amos Tversky",
+  address      = cen,
+  keywords     = "judgement, estimation, representativeness, causality,
+    attribution, availability, covariation, control, overconfidence, multistage
+    evaluation, corrective procedures, risk perception",
+  location     = "BF 441 J8"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
@@ -1330,6 +1342,33 @@ Security Capabilities",
     demonstrate the effectiveness of this technique in improving the results of
     a value flow analysis.", 
   location     = "http://dx.doi.org/10.1145/1016848.1016857"
+}
+
+@Article{gsshdwcsn,
+  author       = "Feamster, Nick and Rexford, Jennifer",
+  title        = "Getting Student's Hands Dirty with Clean-Slate Networking",
+  journal      = ccr,
+  year         = 2011,
+  pages        = "531--536",
+  volume       = 41,
+  number       = 4,
+  month        = aug,
+  keywords     = "pedagogy, networking, network management, tabula risa",
+  abstract     = "Conventional networking courses treat today's protocols and 
+    mechanisms as fixed artifacts, rather than as part of a continually
+    evolving system.  To prepare students to think critically about Internet
+    architecture, we created a graduate networking course that combines clean
+    slate networking re-search with hands-on experience in analyzing, building,
+    and extending real networks.  Our goal was to prepare students to create
+    and explore new architectural ideas, while teaching them the platforms and
+    tools needed to evaluate their de-signs in practice.  The course, with
+    offerings at both Georgia Tech and Princeton, focused on network management
+    as aconcrete way to explore different ways to split functionality across
+    the end hosts, network elements, and management systems.  The programming
+    assignments exposed students to a range of systems, including Click,
+    Quagga, Emulab, OpenFlow/NOX, Mininet, the Transit Portal, and publicly
+    available Netflow and BGP measurement data.", 
+  location     = "http://edusigcomm.info.ucl.ac.be/pmwiki/uploads/Workshop2011/20110430002/clean-slate.pdf"
 }
 
 @Article{adteeosfuitcmca,
@@ -2514,6 +2553,36 @@ Security Capabilities",
     systems receives particular attention.", 
   location     = "http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf",
   location     = "http://dx.doi.org/10.1109/32.57627"
+}
+
+@Article{fmmf,
+  author       = "Markus Forsberg and Aarne Ranta",
+  title        = "Functional Morphology",
+  journal      = sigplan # " (" # pot # "Ninth ACM SIGPLAN International Conference on Functional Programming, ICFP' 04)",
+  year         = 2004,
+  volume       = 39,
+  number       = 9,
+  pages        = "231--223",
+  month        = sep,
+  keywords     = "languages, design morpological descriptions, functional
+    programming, linguistics, embedded languages, finite functions, haskell",
+  abstract     = "This paper presents a methodology for implementing natural
+    language morphology in the functional language Haskell.  The main idea
+    behind is simple: instead of working with untyped regular expressions,
+    which is the state of the art of morphology in computational linguistics,
+    we use finite functions over hereditarily finite algebraic datatypes.  The
+    definitions of these datatypes and functions are the language-dependent
+    part of the morphology.  The language-independent part consists of an
+    untyped dictionary format which is used for synthesis of word forms, and a
+    decorated trie, which is used for analysis.Functional Morphology builds on
+    ideas introduced by Huet in his computational linguistics toolkit Zen,
+    which he has used to implement the morphology of Sanskrit.  The goal has
+    been to make it easy for linguists, who are not trained as functional
+    programmers, to apply the ideas to new languages.  As a proof of the
+    productivity of the method, morphologies for Swedish, Italian, Russian,
+    Spanish, and Latin have already been implemented using the library.  The
+    Latin morphology is used as a running example in this article.", 
+  location     = "http://dx.doi.org/10.1145/1016848.1016879"
 }
 
 @TechReport{sammgcs,
