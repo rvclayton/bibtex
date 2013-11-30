@@ -31108,16 +31108,35 @@ b
   title        = "How to Own the {I}nternet In Your Spare Time",
   booktitle    = "11th USENIX Security Symposium",
   year         = 2002,
-  editor       = "",
-  OPTpages     = "",
-  OPTorganization= "",
-  OPTpublisher = "",
+  editor       = "Dan Boneh",
+  pages        = "149--167",
   address      = "sfca",
   month        = "5--9 " # aug,
   keywords     = "code red, worms, localized scanning, multi vector worms,
-		  hit-list scanning, permutation scanning, warhol worms,
-		  topological scanning, flash worms, stealth worms, cybercdc",
-  OPTlocation  = ""
+    hit-list scanning, permutation scanning, warhol worms, topological
+    scanning, flash worms, stealth worms, cybercdc",
+  abstract     = "The ability of attackers to rapidly gain control of vast
+    numbers of Internet hosts poses an immense risk to the overall security of
+    the Internet.  Once subverted, these hosts can not only be used to launch
+    massive denial of service floods, but also to steal or corrupt great
+    quantities of sensitive information, and confuse and disrupt use of the
+    network in more subtle ways.  We present an analysis of the magnitude of
+    the threat.We begin with a mathematical model derived from empirical data
+    of the spread of Code Red I in July, 2001.  We discuss techniques
+    subsequently employed for achieving greater virulence by Code Red II and
+    Nimda.  In this context, we develop and evaluate several new, highly
+    virulent possible techniques: hit-list scanning (which creates a Warhol
+    worm), permutation scanning (which enables self-coordinating scanning), and
+    use of Internet sized hit-lists (which creates a flash worm).  We then turn
+    to the to the threat of surreptitious worms that spread more slowly but in
+    a much harder to detect contagion fashion.  We demonstrate that such a worm
+    today could arguably subvert upwards of 10,000,000 Internet hosts.  We also
+    consider robust mechanisms by which attackers can control and update
+    deployed worms.  In conclusion, we argue for the pressing need to develop a
+    Center for Disease Control analog for virus and worm-based threats to
+    national cybersecurity, and sketch some of the components that would go
+    into such a Center." 
+  location     = "http://www.usenix.org/events/sec02/full_papers/staniford/staniford.pdf"
 }
 
 @InProceedings{lfpcij,
