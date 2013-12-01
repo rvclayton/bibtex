@@ -2585,6 +2585,66 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/1016848.1016879"
 }
 
+@Article{spottmap,
+  author       = "Adriano Valenzano and Paolo Montuschi and Luigi Ciminiera",
+  title        = "Some Properties of Timed Token Medium Access Protocols",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 8,
+  pages        = "858--869",
+  month        = aug,
+  keywords     = "local area networks, performance evaluation, timed token
+    protocols, differentiated services, real-time traffic",
+  abstract     = "Timed-token protocols are used to handle, on the same local
+    area network, both real-time and non-real-time traffic.  The authors
+    analyze this type of protocol, giving worst-case values for the throughput
+    of non-real-time traffic and the average token rotation time.  Results are
+    obtained for synchronous traffic generated according to a generic periodic
+    pattern under heavy conditions for non-real-time traffic and express not
+    only theoretical lower bounds but values deriving from the analysis of some
+    real networks.  A model which addresses the asynchronous overrun problem is
+    presented.  The influence of introducing multiple priority classes for
+    non-real-time traffic on the total throughput of this type of message is
+    shown.  It is also shown that the differences between the values obtained
+    under worst-case assumptions are close to those obtained under best-case
+    assumptions; the method may therefore be used to provide important
+    guidelines in properly tuning timed-token protocol parameters for each
+    specific network installation", 
+  location     = "http://dx.doi.org/10.1109/32.57628"
+}
+
+@Article{dssfwmnas,
+  author       = " Kanthaiah Sivapragasam Vijayalayan and Aaron Harwood and
+    Shanika Karunasekera", 
+  title        = "Distributed Scheduling Schemes for Wireless Mesh Networks:  {A} Survey",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 46,
+  number       = 1,
+  pages        = "14:1--14:34",
+  month        = oct,
+  keywords     = "algorithms, design, wireless mesh networks, ad hoc networks,
+    distributed scheduling schemes, random access, pseudo-random access,
+    cyclic access, mac protocols", 
+  abstract     = "An efficient scheduling scheme is a crucial part of Wireless
+    Mesh Networks (WMNs)—an emerging communication infrastructure solution for
+    autonomy, scalability, higher throughput, lower delay metrics, energy
+    efficiency, and other service-level guarantees.  Distributed schedulers are
+    preferred due to better scalability, smaller setup delays, smaller
+    management overheads, no single point of failure, and for avoiding
+    bottlenecks.  Based on the sequence in which nodes access the shared
+    medium, repetitiveness, and determinism, distributed schedulers that are
+    supported by wireless mesh standards can be classified as either random,
+    pseudo-random, or cyclic schemes.  We performed qualitative and
+    quantitative studies that show the strengths and weaknesses of each
+    category, and how the schemes complement each other.  We discuss how
+    wireless standards with mesh definitions have evolved by incorporating and
+    enhancing one or more of these schemes.  Emerging trends and research
+    problems remaining for future research also have been identified.", 
+  location     = "http://dx.doi.org/10.1145/2522968.2522982"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
