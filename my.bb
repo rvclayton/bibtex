@@ -668,6 +668,17 @@
   location     = "BF 441 J8"
 }
 
+@Book{gtrpg,
+  author       = "Robert~P. Gaynes",
+  title        = "Germ Theory",
+  publisher    = "ASM Press",
+  year         = 2011,
+  address      = "Washington, D.C.",
+  keywords     = "hippocrates, avicenna, fracastoro, van leeuwenhoek, humeral
+    theory, jenner, semmelwels, pasteur, koch, lister, erlich, fleming, wald",
+  location     = "RB 153 G39"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
