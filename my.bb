@@ -2656,6 +2656,36 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/2522968.2522982"
 }
 
+@Article{astdg,
+  author       = "Bogdan Korel",
+  title        = "Automated Software Test Data Generation",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 8,
+  pages        = "870--879",
+  month        = aug,
+  keywords     = "automatic test data generation, dynamic data flow analysis,
+    function minimization, software testing, symbolic evaluation",
+  abstract     = "An alternative approach to test-data generation based on
+    actual execution of the program under test, function-minimization methods
+    and dynamic data-flow analysis is presented.  Test data are developed for
+    the program using actual values of input variables.  When the program is
+    executed, the program execution flow is monitored.  If during program
+    execution an undesirable execution flow is observed then
+    function-minimization search algorithms are used to automatically locate
+    the values of input variables for which the selected path is traversed.  In
+    addition, dynamic data-flow analysis is used to determine those input
+    variables responsible for the undesirable program behavior, significantly
+    increasing the speed of the search process.  The approach to generating
+    test data is then extended to programs with dynamic data structures and a
+    search method based on dynamic data-flow analysis and backtracking is
+    presented.  In the approach described, values of array indexes and pointers
+    are known at each step of program execution; this information is used to
+    overcome difficulties of array and pointer handling.", 
+  location     = "http://dx.doi.org/10.1109/32.57624"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
