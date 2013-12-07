@@ -585,6 +585,7 @@ authentication for distributed systems : woo
 authentication in distributed systems theory and practice : lampson
 autocollage : rother
 automate your build processing using java and ant : cymerman
+automated software test data generation : korel
 automatic array inlining in java virtual machines : wimmer
 automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
@@ -1645,6 +1646,7 @@ is oberon as simple as possible a smaller object oriented language based on the 
 is turing a better language for teaching programming than pascal : martin
 iterators a sign of weakness in object oriented languages : baker
 iterators signs of weakness in object oriented languages : baker
+its the latency stupid : cheshire
 j2ee 1.4 premiers javas assertion capabilities : rogers
 j2ee new io : zukowski
 java 2d graphics : adair
