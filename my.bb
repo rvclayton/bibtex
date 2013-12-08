@@ -2686,6 +2686,36 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1109/32.57624"
 }
 
+@Article{ocdintsotaacs,
+  author       = "Jierui Xie and Stephen Kelley and Boleslaw~K. Szymanski",
+  title        = "Overlapping Community Detection in Networks:  The State-of-the-Art and Comparative Study",
+  journal      = surveys,
+  year         = 2013,		  
+  volume       = 45,
+  number       = 4,
+  pages        = "43:1--43:35",
+  month        = aug,
+  keywords     = "community detection, graph analysis, social networks",
+  abstract     = "This article reviews the state-of-the-art in overlapping
+    community detection algorithms, quality measures, and benchmarks.  A
+    thorough comparison of different algorithms (a total of fourteen) is
+    provided.  In addition to community-level evaluation, we propose a
+    framework for evaluating algorithms' ability to detect overlapping nodes,
+    which helps to assess overdetection and underdetection.  After considering
+    community-level detection performance measured by normalized mutual
+    information, the Omega index, and node-level detection performance measured
+    by F-score, we reached the following conclusions.  For low overlapping
+    density networks, SLPA, OSLOM, Game, and COPRA offer better performance
+    than the other tested algorithms.  For networks with high overlapping
+    density and high overlapping diversity, both SLPA and Game provide
+    relatively stable performance.  However, test results also suggest that the
+    detection in such networks is still not yet fully resolved.  A common
+    feature observed by various algorithms in real-world networks is the
+    relatively small fraction of overlapping nodes (typically less than 30&
+    percnt;), each of which belongs to only 2 or 3 communities.", 
+  location     = "http://dx.doi.org/10.1145/2501654.2501657"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
