@@ -679,6 +679,16 @@
   location     = "RB 153 G39"
 }
 
+@Book{tlospbm,
+  author       = "Peter~B. Medawar",
+  title        = "The Limits of Science",
+  publisher    = "Harper \& Row",
+  year         = 1984,
+  address      = nyny,
+  keywords     = "scientific discovery, science, progress",
+  location     = "Q 175.M433"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
