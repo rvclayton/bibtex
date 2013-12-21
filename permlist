@@ -500,7 +500,6 @@ an optimizing compiler for an spap architecture uisng ai tools : azaria
 an optimizing compiler for the icon programming language : walker
 an optimum parallel architecture for high speed real time digital signal processing : lang
 an overview of data compression techniques : reghbati
-an overview of query optimization in relational systems : chaudhury
 an overview of temproal and modal logic programming : orgun
 an overview of the production quality compiler compiler project : leverett
 an overview of the scala programming language : odersky
@@ -2461,6 +2460,7 @@ scomp a solution to the multilevel security problem : fraim
 scope conserving expression evaluation a class of storage optimal evaluation strategies for arithmetic expressions : chroust
 scout a communications oriented operating system : montz
 scrap more boilerplate : lammel
+scrap your boilerplate a practical design pattern for generic programming : lammel
 scraping the acm digital library : bergmark
 scripted documents : wippler
 scripting higher level programming for the 21th century : ousterhout
