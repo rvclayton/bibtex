@@ -2726,6 +2726,35 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/2501654.2501657"
 }
 
+@Article{sybapdpfgp,
+  author       = "Ralf L{\" a}mmel and Simon Peyton Jones",
+  title        = "Scrap Your Boilerplate:  {A} Practical Design Pattern for Generic Programming",
+  journal      = sigplan # " (" # pot # "2003 ACM SIGPLAN International Workshop on Types in Languages Design and Implementation (TLDI '03))",
+  year         = 2003,
+  volume       = 38,
+  number       = 3,
+  pages        = "26--37",
+  month        = mar,
+  keywords     = "haskell, generic programming, data-structure traversal,
+    rank-2 types, type case", 
+  abstract     = "We describe a design pattern for writing programs that 
+    traverse data structures built from rich mutually-recursive data types.
+    Such programs often have a great deal of boilerplate code that simply walks
+    the structure, hiding a small amount of real code that constitutes the
+    reason for the traversal.Our technique allows most of this boilerplate to
+    be written once and for all, or even generated mechanically, leaving the
+    programmer free to concentrate on the important part of the algorithm.
+    These generic programs are much more adaptive when faced with data
+    structure evolution because they contain many fewer lines of type-specific
+    code.Our approach is simple to understand, reasonably efficient, and it
+    handles all the data types found in conventional functional programming
+    languages.  It makes essential use of rank-2 polymorphism, an extension
+    found in some implementations of Haskell.  Further it relies on a simple
+    type-safe cast operator.", 
+  location     = "http://research.microsoft.com/en-us/um/people/simonpj/papers/hmap/hmap.ps",
+  location     = "http://dx.doi.org/10.1145/604174.604179"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
