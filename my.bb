@@ -2755,6 +2755,63 @@ Security Capabilities",
   location     = "http://dx.doi.org/10.1145/604174.604179"
 }
 
+@Article{alfspt,
+  author       = "David Hildum and Jacques Cohen",
+  title        = "{A} Language for Specifying Program Transformations",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 6,
+  pages        = "630--638",
+  month        = jun,
+  keywords     = "program transformation, code optimizations, pattern matching,
+    prolog, term rewriting",
+  abstract     = "A language is described for specifying program
+    transformations, from which programs can be generated to perform the
+    transformations on sequences of code.  The main objective of this work has
+    been to develop a language that would allow the user to quickly and easily
+    specify a wide range of transformations for a variety of programming
+    languages.  The rationale for the language constructs is given, as well as
+    the details of an implementation which was prototyped using Prolog.
+    Numerous examples of the language usage are provided.",
+  location     = "http://dx.doi.org/10.1109/32.55091"
+}
+
+@Article{atasosr,
+  author       = "Lukasz Budzisz and Johan Garcia and Anna Brunstrom and Ramon
+    Ferr{\' u}s",
+  title        = "{A} Taxonomy and Survey of {SCTP} Research",
+  journal      = surveys,
+  year         = 2012,
+  volume       = 44,
+  number       = 4,
+  pages        = "18:1--18:36",
+  month        = aug,
+  keywords     = "sctp, taxonomies, network research, multi-homed protocols,
+    hand-off management, load sharing",
+  abstract     = "The Stream Control Transmission Protocol (SCTP) is a 
+    relatively recent general-purpose transport layer protocol for IP networks
+    that has been introduced as a complement to the well-established TCP and
+    UDP transport protocols.  Although initially conceived for the transport of
+    PSTN signaling messages over IP networks, the introduction of key features
+    in SCTP, such as multihoming and multistreaming, has spurred considerable
+    research interest surrounding SCTP and its applicability to different
+    networking scenarios.  This article aims to provide a detailed survey of
+    one of these new features—multihoming—which, as it is shown, is the subject
+    of evaluation in more than half of all published SCTP-related articles.  To
+    this end, the article first summarizes and organizes SCTP-related research
+    conducted so far by developing a four-dimensional taxonomy reflecting the
+    (1) protocol feature examined, (2) application area, (3) network
+    environment, and (4) study approach.  Over 430 SCTP-related publications
+    have been analyzed and classified according to the proposed taxonomy.  As a
+    result, a clear perspective on this research area in the decade since the
+    first protocol standardization in 2000 is given, covering both current and
+    future research trends.  On continuation, a detailed survey of the SCTP
+    multihoming feature is provided, examining possible applications of
+    multihoming, such as robustness, handover support, and loadsharing.", 
+  location     = "http://dx.doi.org/10.1145/2333112.2333113"
+}
+
 @TechReport{sammgcs,
   author       = "Ivan Edward Sutherland",
   title        = "Sketchpad: {A} man-machine graphical communication system",
