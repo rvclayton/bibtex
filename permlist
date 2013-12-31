@@ -38,6 +38,7 @@ a comparison of four reverse engineering tools : bellay
 a comparison of microsofts c# programming language to sun microsystems java programming language : obasanjo
 a comparison of object modelling notations alloy uml and z : jackson
 a comparison of queueing cluster and distributed computing systems : kaplan
+a comparison of techniques for the specification of external system behavor : davis
 a comparison of two paradigms for distributed shared memory : levelt
 a comparative study of language support for generic programming : garcia
 a compiler based approach to protocol optimization : castelluccia
@@ -122,6 +123,7 @@ a lambda calculus of objects and method specialization : mitchell
 a language based approach to protocol construction : basu thesis
 a language based approach to protocol construction : basu 
 a language based approach to protocol implementation : abbott
+a language for specifying program transformations : hildum
 a language for writing code generators : fraser
 a larch specification of copying garbage collection : nettles
 a larch specification of the miro editor : zaremski
@@ -282,6 +284,7 @@ a system for constructing configurable high level protocols : bhatti
 a systematic approach to host interface design for high speed networks : steenkiste
 a systematic approach to multiple inheritance implementation : templ
 a taste of category theory for computer scientists : pierce
+a taxonomy and survey of sctp research : budzisz
 a taxonomy based comparison of several distributed shared memory systems : tam
 a taxonomy of broadband integrated switching architectures : daddis
 a taxonomy of computer program security flaws with examples : landwehr
@@ -631,6 +634,7 @@ binary search algorithm code and caching : bentley
 bioinformatics an introduction for computer scientists : cohen
 biologic computational building blocks : capstick
 biting the silver bullet : harel
+blame for all : ahmed
 bliss a language for systems programming : wulf
 block structure and object oriented languages : madsen
 block truncation compression : kruger
