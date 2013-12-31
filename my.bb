@@ -689,6 +689,16 @@
   location     = "Q 175.M433"
 }
 
+@Book{moaonm,
+  author       = "Norman Mailer",
+  title        = "Mind of an Outlaw",
+  publisher    = "Random House",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "essays, politics, literature",
+  location     = "PS 3525.A4152 A6"
+}
+
 @Article{f5smwl,
   author       = "Michael~W. Lucas",
   title        = "FreeBSD 5 {SMPng}",
