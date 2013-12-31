@@ -923,17 +923,22 @@
 @article{acotftsoesb,
   author	= "Alan~M. Davis",
   title		= "A Comparison of Techniques for the Specification of External
-		   System Behavor",
+    System Behavor",
   journal	= cacm,
   year		= 1988,
   volume	= 31,
   number	= 9,
   pages		= "1098--1115",
-  month		= "September",
+  month		= sep,
   keywords	= "requirements engineering, formal specifications, system
-		   descriptions, finite state machines, decision tables and
-		   trees, program design languages, structured analysis/real
-		   time, statecharts"
+    descriptions, finite state machines, decision tables and trees, program
+    design languages, structured analysis/real time, statecharts"
+  abstract	= "The elimination of ambiguity, inconsistency, and 
+    incompleteness in a Software Requirements Specification (SRS) document is
+    inherently difficult, due to the use of natural language.  The focus here
+    is a survey of available techniques designed to reduce these negatives in
+    the documentation of a software product's external behavior.", 
+  location	= "http://dx.doi.org/10.1145/48529.48534",
 }
 
 @article{uaabns,
