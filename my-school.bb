@@ -9311,7 +9311,25 @@
   month        = jul,
   keywords     = "lisp, environment trees, funarg, shallow binding, deep
 		  binding, multiprogramming, algol display",
-  location     = "QA 76.A772; /ftp.netcom.com:/pub/hb/hbaker/ShallowBinding.ps.Z"
+  abstract     = "Shallow binding is a scheme which allows the value of a 
+    variable to be accessed in a bounded amount of computation.  An elegant
+    model for shallow binding in Lisp 1.5 is presented in which
+    context-switching is an environment tree transformation called rerooting.
+    Rerooting is completely general and reversible, and is optional in the
+    sense that a Lisp 1.5 interpreter will operate correctly whether or not
+    rerooting is invoked on every context change.  Since rerooting leaves assoc
+    [v, a] invariant, for all variables v and all environments a, the
+    programmer can have access to a rerooting primitive, shallow[], which gives
+    him dynamic control over whether accesses are shallow or deep, and which
+    affects only the speed of execution of a program, not its semantics.  In
+    addition, multiple processes can be active in the same environment
+    structure, so long as rerooting is an indivisible operation.  Finally, the
+    concept of rerooting is shown to combine the concept of shallow binding in
+    Lisp with Dijkstra's display for Algol and hence is a general model for
+    shallow binding.", 
+  location     = "QA 76.A772", 
+  location     = "http://dx.doi.org/10.1145/359545.359566", 
+  location     = "http://dspace.mit.edu/bitstream/handle/1721.1/41975/AI_WP_138.pdf%3Fsequence%3D1"
 }
 
 @Article{ibsn,
@@ -31110,7 +31128,7 @@ b
   year         = 2002,
   editor       = "Dan Boneh",
   pages        = "149--167",
-  address      = "sfca",
+  address      = sfca,
   month        = "5--9 " # aug,
   keywords     = "code red, worms, localized scanning, multi vector worms,
     hit-list scanning, permutation scanning, warhol worms, topological
@@ -31135,7 +31153,7 @@ b
     deployed worms.  In conclusion, we argue for the pressing need to develop a
     Center for Disease Control analog for virus and worm-based threats to
     national cybersecurity, and sketch some of the components that would go
-    into such a Center." 
+    into such a Center.",
   location     = "http://www.usenix.org/events/sec02/full_papers/staniford/staniford.pdf"
 }
 
