@@ -932,13 +932,13 @@
   month		= sep,
   keywords	= "requirements engineering, formal specifications, system
     descriptions, finite state machines, decision tables and trees, program
-    design languages, structured analysis/real time, statecharts"
+    design languages, structured analysis/real time, statecharts",
   abstract	= "The elimination of ambiguity, inconsistency, and 
     incompleteness in a Software Requirements Specification (SRS) document is
     inherently difficult, due to the use of natural language.  The focus here
     is a survey of available techniques designed to reduce these negatives in
     the documentation of a software product's external behavior.", 
-  location	= "http://dx.doi.org/10.1145/48529.48534",
+  location	= "http://dx.doi.org/10.1145/48529.48534"
 }
 
 @article{uaabns,
@@ -3876,20 +3876,6 @@
   month        = "",
   keywords     = "",
   location     = "QA 76.C57"
-}
-
-@Article{sbili15,
-  author       = "Henry~G. {Baker, Jr.}",
-  title        = "Shallow binding in {L}isp 1.5",
-  journal      = cacm,
-  year         = 1978,
-  volume       = 21,
-  number       = 7,
-  pages        = "",
-  month        = jul,
-  keywords     = "lisp 1.5, environment trees, funargs, shallow binding, deep
-		  binding, multiprogramming, algol display",
-  location     = "QA 76.A772"
 }
 
 @Article{aiafioic,
