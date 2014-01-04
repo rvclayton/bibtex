@@ -57,4 +57,52 @@
   location     = "http://research.microsoft.com/en-us/um/people/simonpj/papers/hmap/gmap2.ps"
 }
 
+@Article{sybwcegf,
+  author       = "Ralf L{\" a}mmel and Simon Peyton Jones",
+  title        = "Scrap Your Boilerplate with Class: Extensible Generic Functions",
+  journal      = sigplan # " (" # pot # "Tenth ACM SIGPLAN International Conference on Functional Programming)",
+  year         = 2005,
+  volume       = 40,
+  number       = 9,
+  pages        = "204--215",
+  month        = sep,
+  keywords     = "generic programming, type classes, extensibility, type-case
+    recursive dictionaries",
+  abstract     = "The 'Scrap your boilerplate' approach to generic programming
+    allows the programmer to write generic functions that can traverse
+    arbitrary data structures, and yet have type-specific cases.  However, the
+    original approach required all the type-specific cases to be supplied at
+    once, when the recursive knot of generic function definition is tied.
+    Hence, generic functions were closed.  In contrast, Haskell's type classes
+    support open, or extensible, functions that can be extended with new
+    type-specific cases as new data types are defined.  In this paper, we
+    extend the 'Scrap your boilerplate' approach to support this open style.
+    On the way, we demonstrate the desirability of abstraction over type
+    classes, and the usefulness of recursive dictionaries.", 
+  location     = "http://research.microsoft.com/pubs/67439/gmap3.pdf",
+  location     = "http://dx.doi.org/10.1145/1090189.1086391"
+}
+
+
+@TechReport{afsmotmaiidsa,
+  author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
+  title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
+  institution  = "Operations Research Center, " # ucal,
+  year         = 1980,
+  number       = "ORC 80-2",
+  address      = bca,
+  month        = feb,
+  keywords     = "novice, competence, proficiency, expertise, mastery",
+  abstract     = "In acquiring a skill by means of instruction and experience,
+    the student normally passes through five developmental stages which we
+    designate novice, competence, proficiency, expertise and mastery.  We
+    argue, based on analysis of careful descriptions of skill acquisition, that
+    as the student becomes skilled, he depends less on abstract principles and
+    more on concrete experience.  We systematize and illustrate the progressive
+    changes in a performer's ways of seeing his task environment.  We conclude
+    that any skill-training procedure must be based on some model of skill
+    acquisition, so that it can address, at each stage of training,the
+    appropriate issues involved in facilitating advancement.", 
+  location     = "http://www.dtic.mil/get-tr-doc/pdf?AD=ADA084551"
+}
 
