@@ -83,6 +83,107 @@
   location     = "http://dx.doi.org/10.1145/1090189.1086391"
 }
 
+@Article{gftmjfp,
+  author       = "Ralf Hinze",
+  title        = "Generics for the Masses",
+  journal      = jfp,
+  year         = 2006,
+  volume       = 16,
+  number       = "4--5",
+  pages        = "451--483",
+  month        = jul,
+  keywords     = "generic functions, type constructors",
+  abstract     = "A generic function is a function that can be instantiated on 
+    many data types to obtain data type specific functionality.  Examples of
+    generic functions are the functions that can be derived in Haskell, such as
+    show, read, and ‘==’.  The recent years have seen a number of proposals
+    that support the definition of generic functions.  Some of the proposals
+    define new languages, some define extensions to existing languages.  As a
+    common characteristic none of the proposals can be made to work within
+    Haskell 98: they all require something extra, either a more sophisticated
+    type system or an additional language construct.  The purpose of this paper
+    is to show that one can, in fact, program generically within Haskell 98
+    obviating to some extent the need for fancy type systems or separate tools.
+    Haskell's type classes are at the heart of this approach: they ensure that
+    generic functions can be defined succinctly and, in particular, that they
+    can be used painlessly.  We detail three different implementations of
+    generics both from a practical and from a theoretical perspective.", 
+  location     = "http://www.cs.ox.ac.uk/ralf.hinze/publications/Masses.pdf"
+}
+
+@Article{ttoa1tsoae,
+  author       = "L.~P. Benezet",
+  title        = "The Teaching of Arithmetic {I}:  The Story of an Experiment",
+  journal      = "Journal of the National Education Association",
+  year         = 1935,
+  volume       = 24,
+  number       = 8,
+  pages        = "241--244",
+  month        = nov,
+  keywords     = "education, pedagogy, evaluation",
+  location     = "http://www.inference.phy.cam.ac.uk/sanjoy/benezet/1.html"
+}
+
+
+@Article{ttoa2tsoae,
+  author       = "L.~P. Benezet",
+  title        = "The Teaching of Arithmetic {II}:  The Story of an Experiment",
+  journal      = "Journal of the National Education Association",
+  year         = 1935,
+  volume       = 24,
+  number       = 9,
+  pages        = "241--244",
+  month        = dec,
+  keywords     = "education, pedagogy, evaluation",
+  abstract     = "This is the second installment of an article describing an
+    experiment which has been carried out in Manchester, New Hampshire, since
+    1929.  In the preceding section, which appeared in the November Journal,
+    Mr. Benezet explained that: In some schools of Manchester, the only
+    arithmetic in the first six grades was practise in estimating heights,
+    areas, and the like; formal arithmetic was not introduced until the seventh
+    grade.  In tests given to both the traditionally and experimentally taught
+    groups, it was found that the latter had been able in one year to attain
+    the level of accomplishment which the traditionally taught children had
+    reached after three and one-half years of arithmetic drill.  In addition,
+    because the teachers in the experimental group had had time to concentrate
+    on teaching the children to read, reason, and recite, these children
+    developed more interest in reading, a better vocabulary, and greater
+    fluency in expression.", 
+  location     = "http://www.inference.phy.cam.ac.uk/sanjoy/benezet/2.html"
+}
+
+
+@Article{ttoa3tsoae,
+  author       = "L.~P. Benezet",
+  title        = "The Teaching of Arithmetic {III}:  The Story of an Experiment",
+  journal      = "Journal of the National Education Association",
+  year         = 1936,
+  volume       = 25,
+  number       = 1,
+  pages        = "7--8",
+  month        = jan,
+  keywords     = "education, pedagogy, evaluation",
+  abstract     = "This is the third and final installment of an article by 
+    Superintendent L.  P.  Benezet, in which he describes an experiment in
+    arithmetic in the Manchester, New Hampshire, schools.  The first
+    installments [November 1935, p. 241-4 and December 1935, p.  301-3] have
+    aroused many favorable comments.  William McAndrew calls the material
+    powerful good reading, a scientific article free of the common dullness of
+    such. Helen Ives Schermerhorn, of New Jersey, writes that upon returning to
+    teach in junior high school after many years in the adult education field,
+    she was appalled at the changes which had taken place, the great number of
+    new activities which had developed, each good in itself, but nevertheless
+    cluttering up the time of the children.  The weakness in English seemed
+    inexcusable; too little time had been given to its mastery.  I hope great
+    things from the influences of Mr. Benezet's article.  A letter from C. E.
+    Birch, superintendent of schools, Lawrence, Kansas, indicates that the
+    Lawrence schools have been revising the arithmetic program for the past two
+    years.  Mr. Birch has recommended the discussion in faculty meetings of
+    the Benezet articles and their possible application in the light of the
+    local situation.",
+  location     = "http://www.inference.phy.cam.ac.uk/sanjoy/benezet/3.html"
+}
+
 
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
