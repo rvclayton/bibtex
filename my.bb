@@ -184,6 +184,21 @@
   location     = "http://www.inference.phy.cam.ac.uk/sanjoy/benezet/3.html"
 }
 
+@Article{sijrp,
+  author       = "John~R. Platt",
+  title        = "Strong Inference",
+  journal      = "Science",
+  year         = 1964,
+  volume       = 146,
+  number       = 3642,
+  pages        = "345--353",
+  month        = "16 " # oct,
+  keywords     = "analytical methodology, multiple hypotheses, evaluation",
+  abstract     = "Certain systematic methods of scientific thinking may
+    produce much more rapid progress than others",
+  location     = "http://www.jstor.org/stable/27759412"
+}
+
 
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
