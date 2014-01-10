@@ -199,7 +199,6 @@
   location     = "http://www.jstor.org/stable/27759412"
 }
 
-
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -220,5 +219,16 @@
     acquisition, so that it can address, at each stage of training,the
     appropriate issues involved in facilitating advancement.", 
   location     = "http://www.dtic.mil/get-tr-doc/pdf?AD=ADA084551"
+}
+
+@Book{taospk,
+  author       = "Philip Kitcher",
+  title        = "The Advancement of Science",
+  publisher    = oup,
+  year         = 1993,
+  address      = nyny,
+  keywords     = "philosophy of science, rationality, scientific progress,
+    cognitive labor, darwin",
+  location     = "Q 175.K533"
 }
 
