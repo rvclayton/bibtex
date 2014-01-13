@@ -199,6 +199,31 @@
   location     = "http://www.jstor.org/stable/27759412"
 }
 
+@Article{irejws,
+  author       = "James~W. Stamos and David~K. Gifford",
+  title        = "Implementing Remote Evaluation",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 7,
+  pages        = "710--722",
+  month        = jul,
+  keywords     = "distributed computing, linguistic support, procedure stub,
+    remote evaluation, remote procedure call",
+  abstract     = "Remote evaluation (REV) is a construct for building
+    distributed systems that involves sending executable code from one computer
+    to another computer via a communication network.  How REV can reduce
+    communication and improve performance for certain classes of distributed
+    applications is explained.  Implementation issues are discussed.  REV is
+    incorporated into a high-level programming language by defining its syntax
+    and its semantics.  The compile-time and run-time support for REV is
+    discussed in both heterogeneous and homogeneous systems and compared to
+    that needed by a remote procedure call implementation.  Sample performance
+    measurements are included.  Experience with a prototype REV implementation
+    is summarized.", 
+  location     = "http://dx.doi.org/10.1109/32.56097"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
