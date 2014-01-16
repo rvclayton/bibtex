@@ -257,3 +257,13 @@
   location     = "Q 175.K533"
 }
 
+@Book{tcmfj,
+  author       = "Frans Johansson",
+  title        = "The Click Moment",
+  publisher    = "Portfolio/Penguin",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "marketing, creativity, success, strategy serendipity",
+  location     = "HF 5386.J59"
+}
+
