@@ -263,6 +263,7 @@ a survey and classification of some program transformation approaches and techni
 a survey and comparison of peer to peer overlay network schemes : lua
 a survey and projection on medium access control protocols for wireless sensor networks : zhao
 a survey of adaptable grammars : christiansen
+a survey of adaptive services to cope with dynamics in wireless self organizing networks : sengul
 a survey of attack and defense techniques for reputation systems : hoffman
 a survey of cache coherence schemes for multiprocessors : stenstrom
 a survey of high level langague machines in japan : yamamoto
@@ -274,6 +275,7 @@ a survey of parallel computer architectures : duncan
 a survey of peer to peer content distribution technologies : androutsellis
 a survey of structured and object oriented software specification methods and techniques : wieringa
 a survey of techniques for achieving metadata interoperability : haslhofer
+a survey on the design applications and enhancements of application layer overlay networks : kurian
 a survey of web cache replacement strategies : podlipnig
 a survey of wormhole routing techniques in direct networks : ni
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
@@ -417,7 +419,6 @@ american business public policy case studies and political theory : lowi
 amoeba a distributed operating systems for the 1990s : mullender
 amorphous computing : abelson
 amroute adhoc multicast routing protocol : xie
-an abstract model of rollback recovery control in distributed systems : cao
 an access control facility for programming languages : jones
 an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
 an ada interface to diana for intertool communication : howell
@@ -1523,6 +1524,7 @@ implementing linux system calls : manjarrez
 implementing network protocols at user level : thekkath
 implementing object equivalence in java using the template method design pattern : stevenson
 implementing operator for smart pointers : meyers
+implementing remote evaluation : stamos
 implementing smart spiders : konchady
 implementing tcp ip on a cray computer : borman
 implementing the pi calculus in java : li
@@ -3199,6 +3201,7 @@ tools for implementing network protocols : hutchinson
 top down non correcting error recovery in llgen : van deudekom
 top down operator precedence parsing : bendersky
 topics in code generation and register allocation : leverett
+topology control in wireless ad hoc and sensor networkts : santi
 topsy a teachable operating system : frankhauser
 total functional programming : turner
 touring machines autonomous agents with attitudes : ferguson
