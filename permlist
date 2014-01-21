@@ -2377,6 +2377,7 @@ reliable and efficient hop by hop flow control : ozveren
 reliable broadcast protocols : chang
 reliable full duplex file transmission over half duplex telephone lines : lynch
 reliable udp protocol : bova
+relocating machine instructions by currying : ramsey
 remarks on a methodology for implementing highly concurrent data objects : skudlarek
 remote method calling and object group communication : maffeis
 remote procedure call programming guide : rpc
@@ -3153,6 +3154,7 @@ the us west advanced technologies prototype multimedia communication system : bu
 the usability engineering life cycle : nielson
 the usability of open source software : nichols
 the use of multilegged arguments to increase confidence in safety claims for software based systems  a study based on a bbn analysis of an idealized example : littlewood
+the use of self checks and voting in software error detection an emperical study : leveson
 the user interface as document sgml and distributed applications : fuchs
 the utility of file names : ellard
 the vanishing hand the modular revolution in american business : langlois
@@ -3382,6 +3384,7 @@ vlsi a new frontier for systems designers : fairbairn
 voice over ip : varshney
 voip security and privacy threat taxonomy : voipsa
 voip security not an afterthought : sicker
+voip steganography and its detection a survey : mazurczky
 volume models for volumetric data : ranjan
 voodoos introduction to javascript : koch
 vops a portable protocol development and implementation environment : karila
