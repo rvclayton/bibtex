@@ -224,6 +224,136 @@
   location     = "http://dx.doi.org/10.1109/32.56097"
 }
 
+@Article{tuoscavisedaes,
+  author       = "Nancy~G. Leveson and Stephen~S. Cha and John~C. Knight and
+    Timothy~J. Shimeall",
+  title        = "The Use of Self Checks and Voting in Software Error Detection:  An Emperical Study",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 4,
+  pages        = "432--443",
+  month        = apr,
+  keywords     = "acceptance tests, assertions, error detection, n-version
+    programming, software fault tolerance, software reliability",
+  abstract     = "The results of an empirical study of software error detection
+    using self checks and N-version voting are presented.  Working
+    independently, each of 24 programmers first prepared a set of self checks
+    using just the requirements specification of an aerospace application, and
+    then each added self checks to an existing implementation of that
+    specification.  The modified programs were executed to measure the
+    error-detection performance of the checks and to compare this with error
+    detection using simple voting among multiple versions.  The analysis of the
+    checks revealed that there are great differences in the ability of
+    individual programmers to design effective checks.  It was found that some
+    checks that might have been effective failed to detect an error because
+    they were badly placed, and there were numerous instances of checks
+    signaling nonexistent errors.  In general, specification-based checks alone
+    were not as effective as specification-based checks combined with
+    code-based checks.  Self checks made it possible to identify faults that
+    had not been detected previously by voting 28 versions of the program over
+    a million randomly generated inputs.  This appeared to result from the fact
+    that the self checks could examine the internal state of the executing
+    program, whereas voting examines only final results of computations.  If
+    internal states had to be identical in N-version voting systems, then there
+    would be no reason to write multiple versions.", 
+  location     = "http://dx.doi.org/10.1109/32.54295"
+}
+
+@Article{vsaidas,
+  author       = "Wojciech Mazurczyk",
+  title        = "{VoIP} Steganography and Its Detection---{A} Survey",
+  journal      = surveys,
+  year         = 2013,
+  volume       = 46,
+  number       = 2,
+  pages        = "20:1--20:21",
+  month        = nov,
+  keywords     = "information hiding, steganography, voip, ip telephony",
+  abstract     = "Steganography is an ancient art that encompasses various
+    techniques of information hiding, the aim of which is to embed secret
+    information into a carrier message.  Steganographic methods are usually
+    aimed at hiding the very existence of the communication.  Due to the rise
+    in popularity of IP telephony, together with the large volume of data and
+    variety of protocols involved, it is currently attracting the attention of
+    the research community as a perfect carrier for steganographic purposes.
+    This article is a first survey of the existing Voice over IP (VoIP)
+    steganography methods and their countermeasures.", 
+  location     = "http://dx.doi.org/10.1145/2543581.2543587"
+}
+
+@Article{rmibc,
+  author       = "Norman Ramsey",
+  title        = "Relocating Machine Instructions by Currying",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "226--236",
+  month        = may,
+  keywords     = "instruction encodings, relocation, linking, lifting, lambda
+    encodings", 
+  abstract     = "Relocation adjusts machine instructions to account for 
+    changes in the locations of the instructions themselves or of external
+    symbols to which they refer.  Standard linkers implement a finite set of
+    relocation transformations, suitable for a single architecture.  These
+    transformations are enumerated, named, and engraved in a machine-dependent
+    object-file format, and linkers must recognize them by name.  These names
+    and their associated transformations are an unnecessary source of
+    machine-dependence.The New Jersey Machine-Code Toolkit is an application
+    generator.  It helps programmers create applications that manipulate
+    machine code, including linkers.  Guided by a short instruction-set
+    specification, the toolkit generates the bit-manipulating code.
+    Instructions are described by constructors, which denote functions mapping
+    lists of operands to instructions' binary representations.  Any operand can
+    be designated as relocatable, meaning that the operand's value need not be
+    known at the time the instruction is encoded.  For instructions with
+    relocatable operands, the toolkit computes relocating transformations.
+    Tool writers can use the toolkit to create machine-independent software
+    that relocates machine instructions.  mld, a retargetable linker built with
+    the toolkit, needs only 20 lines of C code for relocation, and that code is
+    machine-independent.The toolkit discovers relocating transformations by
+    currying encoding functions.  An attempt to encode an instruction with a
+    relocatable operand results in the creation of a closure.  The closure can
+    be applied when the values of the relocatable operands become known.
+    Currying provides a general, machine-independent method of
+    relocation.Currying rewrites a &lambda;-term into two nested
+    &lambda;-terms.  The standard implementation has the first &lambda;
+    allocate a closure and store therein its operands and a pointer to the
+    second &lambda;.  Using this strategy in the toolkit means that, when it
+    builds an application, the toolkit generates code for many different inner
+    &lambda;-terms---one for each instruction that uses a relocatable address.
+    Hoisting some of the computation out of the second &lambda; into the first
+    makes many of the second &lambda;s identical---a handful are enough for a
+    whole instruction set.  This optimization reduces the size of
+    machine-dependent assembly and linking code by 15--20% for the MIPS, SPARC,
+    and PowerPC, and by about 30% for the Pentium.  It also makes the second &
+    lambda;s equivalent to relocating transformations named in standard
+    object-file formats.", 
+  location     = "http://dx.doi.org/10.1145/249069.231429"
+}
+
+@Article{tcias,
+  author       = "Yih-Farn Chen and Michael~Y. Nishimoto and C.~V. Ramamoorthy",
+  title        = "The {C} Information Abstraction System",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 3,
+  pages        = "325--334",
+  month        = mar,
+  keywords     = "entity-relation model, hierarchy, hypertext, modularization,
+    multiple views, program database, software maintenance, software metrics,
+    software restructuring, software reliability",
+  abstract     = "A system for analyzing program structures is described.  The
+    system extracts relational information from C programs according to a
+    conceptual model and stores the information in a database.  It is shown how
+    several interesting software tasks can be performed by using the relational
+    views.  These tasks include generation of graphical views, subsystem
+    extraction, program layering, dead code elimination and binding analysis.",
+  location     = "http://dx.doi.org/10.1109/32.48940"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
