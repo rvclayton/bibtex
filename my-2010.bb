@@ -6209,7 +6209,7 @@
 }
 
 @Article{aamorrcids,
-  author       = "Jiannong Cao and K.C. Wang",
+  author       = "Jiannong Cao and K.~C. Wang",
   title        = "An Abstract Model of Rollback Recovery Control in Distributed
 		  Systems",
   journal      = osr,
@@ -6219,7 +6219,25 @@
   pages        = "62--76",
   month        = oct,
   keywords     = "distributed recovery, dependency graph, atomic subgraph,
-		  blobal checkpoints",
+		  global checkpoints",
+  abstract     = "This paper develops an abstract model which presents a method
+    of uniform description of different rollback recovery control algorithms
+    for distributed systems.  We first developed a general definition of the
+    distributed rollback recovery control problem.  The concept of a
+    distributed recovery control system (DRC system), consisting of distributed
+    recovery control units (DRC units), is proposed to model recovery with
+    various control granularities.  Then, we developed a graph model, called
+    dependency graph, for distributed rollback recovery control algorithms.  An
+    atomic subgraph is defined as a subgraph induced by a set of nodes which
+    has no outgoing arcs to other nodes in the graph.  Committing and aborting
+    atomic actions can be modeled as identifying atomic subgraphs.  Next, we
+    defined two kinds of dependency graphs: checkpoint graphs and unit graphs,
+    based on the dependency relation defined by rollback propagation.  We have
+    shown that various types of distributed recovery control algorithms can be
+    classified based on the identifications of atomic subgraphs in these two
+    graphs.  Therefore, using the model may allow us to describe existing
+    algorithms in a uniform way and, more importantly, to find new
+    algorithms.", 
   location     = "QA 76.6.O6X"
 }
 
