@@ -2976,8 +2976,11 @@ Security Capabilities",
   month        = mar,
   keywords     = "testing, debugging, programming environments, processors,
     code generation, compilers, optimization, run-time stack",
-  abstract     = "",
-  location     = ""
+  abstract     = "An interactive debugger should be able to provide a 
+    call-stack trace, listing active subroutines in reverse order of their
+    invocations.  This facility relies on information provided by code within
+    each called routine.  This paper describes alternative ways to support this
+    facility in the circumstance that this code is optimized away." 
 }
 
 @TechReport{acompima,
