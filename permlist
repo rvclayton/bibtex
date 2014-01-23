@@ -2292,6 +2292,7 @@ protocol specification and verification using z : duke
 protocol verification made simple a tutorial : gouda
 protocol verification via projections : lam
 protocols for data security : demillo
+protocols for providing performance guarantees in a packet switching internet : lowery
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
 prototyping synchronous group applications : tou
@@ -2562,6 +2563,7 @@ sketchpad a man machine graphical communication system : sutherland
 skip lists : schneier
 skip lists a probabilistic alternative to balanced trees : pugh
 skribilo user manual : gallesio
+slideshow functional presentations : findler
 slim binaries : franz
 slinky static linking reloaded : collberg
 slk a capability system based on save language technology : hawblitzel

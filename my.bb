@@ -354,6 +354,29 @@
   location     = "http://dx.doi.org/10.1109/32.48940"
 }
 
+@Article{sfprbf,
+  author       = "Robert Bruce Findler and Matthew Flatt",
+  title        = "Slideshow: Functional Presentations",
+  journal      = jfp,
+  year         = 2006,
+  volume       = 16,
+  number       = "4--5",
+  pages        = "583--619",
+  month        = jul,
+  keywords     = "presentation software, graphical programming",
+  abstract     = "Among systems for creating slide presentations, the dominant
+    ones offer essentially no abstraction capability.  Slideshow represents our
+    effort over the last several years to build an abstraction-friendly slide
+    system with PLT Scheme.  We show how functional programming is well suited
+    to the task of slide creation, we report on the programming contructs that
+    we have developed for slides, and we describe our solutions to practical
+    problems in rendering slides.  We also describe experimental extensions to
+    DrScheme that support a mixture of programmatic and WYSIWYG slide
+    creation.", 
+  location     = "http://dx.doi.org/10.1017/S0956796806006010", 
+  location     = "http://www.cs.utah.edu/plt/publications/jfp05-ff.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -374,6 +397,32 @@
     acquisition, so that it can address, at each stage of training,the
     appropriate issues involved in facilitating advancement.", 
   location     = "http://www.dtic.mil/get-tr-doc/pdf?AD=ADA084551"
+}
+
+@TechReport{pfppgiapsi,
+  author       = "Carlyn~M. Lowery",
+  title        = "Protocols for Providing Performance Guarantees in a Packet-Switching Internet",
+  institution  = "Computer Science Division, Department of Electrical
+    Engineering and Computer Science, University of California",
+  address      = bca,
+  year         = 1991,
+  keywords     = "quality of service, circuit switching, connection set-up,
+    real-time protocols",
+  abstract     = "As advances in technology enable us to implement very high
+    speed computer networks, we expect to use our networks for more diverse
+    applications.  While the Internet was designed with textual data processing
+    in mind, future networks will carry information such as voice, music,
+    images, and video, along with textual data.  Many new applications will
+    have real-time performance requirements, where the timing of data arrival
+    is crucial to its usefulness.  This paper describes a methodology developed
+    at the University of California at Berkeley to support such applications,
+    reviews related research work, and proposes a real-time delivery system,
+    composed of a new protocol for administration of real-time connections,
+    combined with modifications to the Internet Protocol (IP) to support such
+    connections.  Transport protocol requirements are also discussed.  This
+    work is intended to facilitate experiments with real-time communication
+    over the Experimental University Network (XUNET).", 
+  location     = "ftp://tenet.berkeley.edu/ucb/tenet/Papers/Lowery91.ps"
 }
 
 @Book{taospk,
