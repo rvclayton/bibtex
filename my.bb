@@ -446,3 +446,14 @@
   location     = "HF 5386.J59"
 }
 
+@Book{esj,
+  author       = "Steven Johnson",
+  title        = "Emergence",
+  publisher    = "Scribner",
+  year         = 2001,
+  address      = nyny,
+  keywords     = "self-organizing systems, patterns, intelligence, information,
+    feedback, brain, behavior, ants, cities, systems",
+  location     = "Q 325 J65"
+}
+
