@@ -377,6 +377,30 @@
   location     = "http://www.cs.utah.edu/plt/publications/jfp05-ff.pdf"
 }
 
+@Article{ocfmi,
+  author       = "Daniel Hoffman",
+  title        = "On Criteria for Module Interfaces",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 5,
+  pages        = "537--542",
+  month        = may,
+  keywords     = "module interface, design, parnas decompsition, software
+    design, software quality", 
+  abstract     = "While the benefits of modular software development are widely
+    acknowledged, there is little agreement as to what constitutes a good
+    module interface.  Computational complexity techniques allow evaluation of
+    algorithm time and space costs but offer no guidance in the design of the
+    interface to an implementation.  Yet, interface design decisions often have
+    a critical effect on the development and maintenance costs of large
+    software systems.  Criteria that have led to simple, elegant interfaces are
+    presented in detail.  These criteria have been developed and refined
+    through repeated practical application.  The use of the criteria is
+    illustrated with concrete examples.", 
+  location     = "http://dx.doi.org/10.1109/32.52776"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
