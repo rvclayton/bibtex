@@ -401,6 +401,127 @@
   location     = "http://dx.doi.org/10.1109/32.52776"
 }
 
+@Article{cbfc,
+  author       = "Dimoulas, Christos and Findler, Robert Bruce and Flanagan, Cormac and Felleisen, Matthias",
+  title        = "Correct Blame for Contracts",
+  journal      = sigplan # " (" # pot # "38th Annual " # popl # ")", 
+  year         = 2011,
+  volume       = 46,
+  number       = 1,
+  pages        = "215--226",
+  month        = jan,
+  keywords     = "high-order programming, behavioral contracts, blame
+    assignment",
+  abstract     = "Behavioral software contracts supplement interface
+    information with logical assertions.  A rigorous enforcement of contracts
+    provides useful feedback to developers if it signals contract violations as
+    soon as they occur and if it assigns blame to violators with
+    precise explanations.  Correct blame assignment gets programmers started
+    with the debugging process and can significantly decrease the time needed
+    to discover and fix bugs.  Sadly the literature on contracts lacks a
+    framework for making statements about the correctness of blame assignment
+    and for validating such statements.  This paper fills the gap and uses the
+    framework to demonstrate how one of the proposed semantics for higher-order
+    contracts satisfies this criteria and another semantics occasionally
+    assigns blame to the wrong module.  Concretely, the paper applies the
+    framework to the lax enforcement of dependent higher-order contracts and
+    the picky one.  A higher-order dependent contract specifies constraints for
+    the domain and range of higher-order functions and also relates arguments
+    and results in auxiliary assertions.  The picky semantics ensures that the
+    use of arguments in the auxiliary assertion satisfies the domain contracts
+    and the lax one does not.  While the picky semantics discovers more
+    contract violations than the lax one, it occasionally blames the wrong
+    module.  Hence the paper also introduces a third semantics, dubbed indy,
+    which fixes the problems of the picky semantics without giving up its
+    advantages.", 
+  location     = "http://dx.doi.org/10.1145/1926385.1926410", 
+  location     = "http://www.ccs.neu.edu/racket/pubs/popl11-dfff.pdf"
+}
+
+@Article{afftadodsd,
+  author       = "Chen Ding and Prabhaker Mateti",
+  title        = "{A} Framework for the Automated Drawing of Data Structure Diagrams",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 5,
+  pages        = "543--557",
+  month        = may,
+  keywords     = "aesthetics, data structure diagrams, documentation systems,
+    line drawings, visual debugging",
+  abstract     = "Data structure diagrams are two-dimensional figures made up
+    of lines that aim to pictorially indicate the interrelationships of the
+    elements of a data structure.  The various rules and factors of aesthetics
+    that go into the way data structure diagrams are drawn are collected
+    together.  The various subjective factors are formulated into computable
+    objectives and numeric parameters.  These are distilled from a large number
+    of data structure drawings found in various textbooks.  The rules used have
+    not reached a level of acceptance comparable to that of the relevant rules
+    in engineering graphics.  The internal architecture of a (sub)system that
+    helps draw data structure diagrams is outlined.", 
+  location     = "http://dx.doi.org/10.1109/32.52777"
+}
+
+@Article{atpltsitbcs,
+  author       = "Soklei Leong and Stephen Jodis and Kevin Sullivan and Oliver
+    Jiang and P.~A.~D. {de Maine}",
+  title        = "{A} Transportable Programming Language ({TPL}) System---{II}:  The Bifunctional Compiler System",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 6,
+  pages        = "639--646",
+  month        = jun,
+  seealso      = "For pt. I see P.A.D. de Maine, S. Leong, and C.G. Dairs, Int. J. Comput. Inform. Sci., vol. 14, p. 161--82, 1985.",
+  keywords     = "compiler compilers, conversion rule description languages,
+    program transportation, software conversion, software portability",
+  abstract     = "The transportable programming language (TPL) method is a 
+    high-level-language approach that uses a bifunctional compiler to
+    efficiently convert code among various dialects of a particular high-level
+    language (HLL) via the hypothetical parent of the high-level language
+    (HPHLL).  The TPL compiler system that has been implemented has three
+    parts: a rule modifier, a table generator, and a TPL compiler.  A
+    metalanguage, called the conversion rule description language (CRDL), is
+    used to describe the conversion of a dialect to HPHLL and of the HPHLL to
+    another dialect.  The table generator translates those descriptions to
+    tabular forms that drive the bifunctional compiler.  The TPL compiler can
+    then be used to translate programs coded in a local dialect into HPHLL and
+    vice versa.  The rule modifier alters the descriptions of a default-a
+    synthetic `most common'-dialect.  It greatly simplifies the task of writing
+    the conversion descriptions for a new environment or dialect.  The TPL
+    method is now being extended so that it can be used to retarget a dialect
+    of any HLL to a standard environment such as Ada.  Details of the TPL
+    compiler system are given", 
+  location     = "http://dx.doi.org/10.1109/32.55092"
+}
+
+@Article{tdokatvplfcotx3,
+  author       = "Matthew~B. MacLaurin",
+  title        = "The Design of {Kodu}:  {A} Tiny Visual Programming Language for Children on the {Xbox} 360",
+  journal      = sigplan # " (" # pot # "38th Annual " # popl # ")", 
+  year         = 2011,
+  volume       = 46,
+  number       = 1,
+  pages        = "241--246",
+  month        = jan,
+  keywords     = "games, game programming, 3d user interface, end-user
+    authoring, K12 programming, programming early education, kodu, boku",
+  abstract     = "Kodu is a relatively new programming language designed
+    specifically for young children to learn through independent exploration.
+    Kodu seeks to lower the barrier to entry for new programmers by presenting
+    a radically simplified programming model which nevertheless has significant
+    expressive power.  Kodu is integrated in a real-time 3D gaming environment
+    and is designed to compete with modern console games in terms of intuitive
+    user interface and graphical production values.  In this paper we will
+    review key tradeoffs made in the design of the programming language and
+    illustrate how it is one of very few languages designed using user
+    interface design principles and methodologies, to the extent that the blend
+    of subjective and objective factors considered in the language design have
+    succeeded in presenting a model of programming which is uniquely
+    approachable and creatively empowering for non-technical users.", 
+  location     = "http://dx.doi.org/10.1145/1925844.1926413"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
