@@ -93,7 +93,8 @@ a framework for network protocol software : huni
 a framework for protocol composition in horus : van renesse
 a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
 a framework for specifying and visualizing architectural designs : holt
-a framework for the nonmonolithic implementation of protocols in the x kernel : jain
+a framework for the automated drawing of data structure diagrams : ding
+A framework for the nonmonolithic implementation of protocols in the x kernel : jain
 a functional correctness model of program verification : zelkowitz
 a functional io system : felleisen
 a general purpose macrogenerator : strachey
@@ -298,6 +299,7 @@ a taxonomy of reconfiguration techniques for fault tolerant porcessor arrays : c
 a theory of programming modifications : ramalingam
 a tool for visualizing the execution of interactions on a loosely coupled distributed system : ashton
 a tour of the squeak object engine : rowledge
+a transportable programming language tpl system ii the bifunctional compiler system : leong
 a trying c++ experience why compare dropped c++ : dinesh
 a tutorial for the sam command language : pike
 a type system for preventing data races and deadlocks in java programs : boyapati
@@ -861,6 +863,7 @@ copyrights and author responsibilities : stone
 core javascript guide : javascript
 coroutines and networks of parallel processes : kahn
 correct architecture refinement : moriconi
+correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
 cost effective parallel computing : wood
 coverage problems in sensor networks a survey : wang
@@ -1403,6 +1406,7 @@ greedy algorithms : greedy
 gridnet an alternative large distributed network : moore
 gridrpc a remote procedure call api for grid computing : nakada
 groupware some issues and experiences : ellis
+growing a language : steele
 growing languages with metamorphic syntax macros : barbrand
 guarded attribute grammars : frost
 guile tutorial : galassi
