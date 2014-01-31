@@ -2873,6 +2873,7 @@ the derivative of a regular type is its type of one hole contexts : mcbride
 the design and application of a retargetable peephole optimizer : davidson
 the design and construction of deadlock free concurrent systems : martin
 the design and implementation of arjuna : parrington
+the design and implementation of an asn 1 c compiler : neufeld
 the design and implementation of dynamic hashing for sets and tables in icon : griswold
 the design and implementation of a high level language converter : moynihan
 the design and implementation of a grammar based data generator : maurer
