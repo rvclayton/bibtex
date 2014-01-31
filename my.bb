@@ -522,6 +522,36 @@
   location     = "http://dx.doi.org/10.1145/1925844.1926413"
 }
 
+@Article{tdaioaa1cc,
+  author       = "Gerald~W. Neufeld and Yueli Yang",
+  title        = "The Design and Implementation of an {ASN}.1-{C} Compiler",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 10,
+  pages        = "1209--1220",
+  month        = oct,
+  keywords     = "abstract syntax, compilers, computer communication, external
+    data representation, languages, open system interconnection, transfer
+    syntax", 
+  abstract     = "Abstract syntax notation one (ASN.1) has been widely used in 
+    international standard specification: its transfer-syntax, the basic
+    encoding rules (BER), is used as the external data representation.  A BER
+    implementation called the ED library is presented.  The ED library includes
+    a number of encoding and decoding routines that may be used as primitive
+    functions to compose encoders and decoders for arbitrarily complicated
+    ASN.1 data types.  Based on the ED library an ASN.1-C compiler, called
+    CASN1, is designed and implemented to free the protocol implementers from
+    the arduous work of translating protocol-defined data-types and
+    constructing their encoders and decoders.  Given an ASN.1 protocol
+    specification, CASN1 automatically translates the input ASN.1 modules into
+    C and generates the BER encoders and decoders for the protocol defined
+    data-types.  The CASN1 design principles, user interface, and some example
+    applications are discussed.  The performance of the ED library and
+    generated CASN1 code is also measured and discussed.", 
+  location     = "http://dx.doi.org/10.1109/32.60300"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
