@@ -659,3 +659,14 @@
   location     = "Q 325 J65"
 }
 
+@Book{rojrap,
+  author       = "Richard~A. Posner",
+  title        = "Reflections on Judging",
+  publisher    = hup,
+  year         = 2013,
+  address      = cma,
+  keywords     = "judging, complexity, decision making, legal realism, legal
+    formalism", 
+  location     = "KF 9050 P55"
+}
+
