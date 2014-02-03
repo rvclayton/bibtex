@@ -670,3 +670,13 @@
   location     = "KF 9050 P55"
 }
 
+@Book{bcp,
+  author       = "Cherie Priest",
+  title        = "Boneshaker",
+  publisher    = "Tor",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "steampunk, seattle, mining, zombies",
+  location     = "PS 3616.R537 B66"
+}
+
