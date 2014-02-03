@@ -552,6 +552,33 @@
   location     = "http://dx.doi.org/10.1109/32.60300"
 }
 
+@Article{mvsos,
+  author       = "Allan Heydon and Mark~W. Maimone and J.~D. Tygar and
+    Jeannette~M. Wing and Amy Moormann Zaremski",
+  title        = "Mir{\' o}: Visual Specification of Security",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 10,
+  pages        = "1185--11987",
+  month        = oct,
+  keywords     = "formal specifications, higraph, security, specification
+    tools, visual language",
+  abstract     = "Miro is a set of languages and tools that support the visual
+    specification of file system security.  Two visual languages are presented:
+    the instance language, which allows specification of file system access,
+    and the constraint language, which allows specification of security
+    policies.  Miro visual languages and tools are used to specify security
+    configurations.  A visual language is one whose entities are graphical,
+    such as boxes and arrows, specifying means stating independently of any
+    implementation the desired properties of a system.  Security means file
+    system protection: ensuring that files are protected from unauthorized
+    access and granting privileges to some users, but not others.  Tools
+    implemented and examples of how these languages can be applied to real
+    security specification problems are described.", 
+  location     = "http://dx.doi.org/10.1109/32.60298"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
