@@ -1104,8 +1104,7 @@ Security Capabilities",
 @InProceedings{aiaulmfsaopbcoaof,
   author       = "Patrick Cousot and Radhia Cousot",
   title        = "Abstract Interpretation:  a Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints",
-  booktitle    = "Conference Record of the Sixth Annual ACM SIGPLAN-SIGACT
-    Symposium on Principles of Programming Languages",
+  booktitle    = "Conference Record of the Sixth Annual " # popl,
   year         = 1977,
   editor       = "Robert~M. Graham and Michael~A. Harrison and Ravi Sethi",
   pages        = "238--252",
@@ -1379,7 +1378,7 @@ Security Capabilities",
   author       = "Amal Ahmed and Robert Bruce Findler and Jeremy~G. Siek and
     Philip Wadler",
   title        = "Blame for All",
-  booktitle    = pot # "38th annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+  booktitle    = pot # "38th annual " # popl,
   year         = 2011,
   pages        = "201--214",
   publisher    = acmp,
@@ -2949,8 +2948,21 @@ Security Capabilities",
   year         = 1995,
   address      = "Dublin, Ireland",
   month        = "14 " # may,
-  keywords     = "",
-  abstract     = "",
+  keywords     = "obliq, lexical scope, distributed computing",
+  abstract     = "Phantom is a new interpreted language designed to address
+    many of the problems which arise when developing large-scale, interactive,
+    distributed applications such as distributed conferencing systems,
+    multi-player games or collaborative work tools.  To meet the requirements
+    of this application domain, Phantom combines the distributed lexical
+    scoping semantics of Obliq with a substantial language core.  The language
+    is based on a safe, extended subset of Modula-3, and supports a number of
+    modern programming features, including: static structural-equivalence
+    typing, objects, interfaces, lightweight threads, exceptions, garbage
+    collection, higherorder functions, lambda expressions, a keyword binding
+    mechanism, dynamically sized lists, slice indexing notation, and type-safe
+    implicit declarations.  This paper presents an overview of each of the key
+    features of the language core, and presents code examples to illustrate how
+    these features are used in practice.", 
   location     = ""
 }
 
