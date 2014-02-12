@@ -680,3 +680,13 @@
   location     = "PS 3616.R537 B66"
 }
 
+@Book{hfjksbb,
+  author       = "Kathy Sierra and Bert Bates",
+  title        = "Head First Java",
+  publisher    = "O'Reilly",
+  year         = 2005,
+  address      = seca,
+  keywords     = "java",
+  location     = "QA 76.73.J38 S535"
+}
+
