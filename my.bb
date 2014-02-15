@@ -579,6 +579,30 @@
   location     = "http://dx.doi.org/10.1109/32.60298"
 }
 
+@Article{mafcpeveafhol,
+  author       = "Simon Marlow and Simon {Peyton Jones}",
+  title        = "Making A Fast Curry: Push/Enter vs. Eval/Apply for Higher-order Languages",
+  journal      = jfp,
+  year         = 2006,
+  volume       = 16,
+  number       = "4--5",
+  pages        = "415--449",
+  month        = jul,
+  keywords     = "currying, functional programming, intermediate
+    representation, optimizations, performance",
+  abstract     = "Higher-order languages that encourage currying are typically
+    implemented using one of two basic evaluation models: push/enter or
+    eval/apply.  Implementors use their intuition and qualitative judgements to
+    choose one model or the other.  Our goal in this paper is to provide, for
+    the first time, a more substantial basis for this choice, based on our
+    qualitative and quantitative experience of implementing both models in a
+    state-of-the-art compiler for Haskell.  Our conclusion is simple, and
+    contradicts our initial intuition: compiled implementations should use
+    eval/apply.", 
+  location     = "http://research.microsoft.com/apps/pubs/default.aspx?id=67488",
+  location     = "http://dx.doi.org/10.1017/S0956796806005995"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -680,13 +704,14 @@
   location     = "PS 3616.R537 B66"
 }
 
-@Book{hfjksbb,
-  author       = "Kathy Sierra and Bert Bates",
-  title        = "Head First Java",
-  publisher    = "O'Reilly",
-  year         = 2005,
-  address      = seca,
-  keywords     = "java",
-  location     = "QA 76.73.J38 S535"
+@Book{hust,
+  author       = "Stephen Toulmin",
+  title        = "Human Understanding",
+  publisher    = pup,
+  year         = 1972,
+  volume       = 1,
+  address      = prnj,
+  keywords     = "rationality, concepts, reason",
+  location     = "BG 177 T58"
 }
 
