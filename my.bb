@@ -603,6 +603,28 @@
   location     = "http://dx.doi.org/10.1017/S0956796806005995"
 }
 
+@article{rcitpoosc,
+  author       = "Bruggeman, Carl and Waddell, Oscar and Dybvig, R.~Kent",
+  title        = "Representing control in the presence of one-shot continuations",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "99--107",
+  month        = may,
+  keywords     = "scheme, continuations, run-time representations,
+    compilation",
+  abstract     = "Traditional first-class continuation mechanisms allow a 
+    captured continuation to be invoked multiple times.  Many continuations,
+    however, are invoked only once.  This paper introduces one-shot
+    continuations, shows how they interact with traditional multi-shot
+    continuations, and describes a stack-based implementation of control that
+    handles both one-shot and multi-shot continuations.  The implementation
+    eliminates the copying overhead for one-shot continuations that is inherent
+    in multi-shot continuations.", 
+  location     = "http://dx.doi.org/10.1145/231379.231395"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
