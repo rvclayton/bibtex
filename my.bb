@@ -737,3 +737,13 @@
   location     = "BG 177 T58"
 }
 
+@Book{lamef,
+  author       = "Edward Frenkel",
+  title        = "Love and Math",
+  publisher    = "Basic Books",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "math, anti-semetism, education",
+  location     = "QA 29 F725 F47"
+}
+
