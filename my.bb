@@ -747,3 +747,16 @@
   location     = "QA 29 F725 F47"
 }
 
+@Book{rorfb,
+  author       = "Forrest Bice and Rose DeMaio and Spencer Florence and
+    Feng-Yun Mimi Lin and Scott Lindeman and Nicole Nussbaum and Eric Peterson
+    and Ryan Plessner and David Van Horn and Conrad Barski and Matthias
+    Felleisen",
+  title        = "Realm of Racket",
+  publisher    = "No Starch Press",
+  year         = 2013,
+  address      = sfca,
+  keywords     = "scheme, game programming, programming",
+  location     = "QA 76.73.R33 F45"
+}
+
