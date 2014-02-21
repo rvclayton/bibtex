@@ -625,6 +625,146 @@
   location     = "http://dx.doi.org/10.1145/231379.231395"
 }
 
+@Article{aofianvse,
+  author       = "Brilliant, Susan~S. and Knight, John~C. and Leveson, Nancy~G.",
+  title        = "Analysis of Faults in an {\it N}-Version Software Experiment",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 2,
+  pages        = "238--247",
+  month        = feb,
+  keywords     = "design, diversity, fault-tolerant software, multiversion
+    programming, n-version programming, software reliability",
+  abstract     = "The authors have conducted a large-scale experiment in 
+    N-version programming.  A total of 27 versions of a program were prepared
+    independently from the same specification at two universities.  The results
+    of executing the versions revealed that the versions were individually
+    extremely reliable but that the number of input cases in which more than
+    one failed was substantially more than would be expected if they were
+    statistically independent.  After the versions had been executed, the
+    failures of each version were examined and the associated faults located.
+    It appears that minor differences in the software development environment
+    would not have a major impact in reducing the incidence of faults that
+    cause correlated failures.", 
+  location     = "http://dx.doi.org/10.1109/32.44387"
+}
+
+@Article{ealimp,
+  author       = "Adl-Tabatabai, Ali-Reza and Langdale, Geoff and Lucco, Steven
+  and Wahbe, Robert",
+  title        = "Efficient and Language-Independent Mobile Programs",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "127-136",
+  month        = may,
+  keywords     = "intermediate representations, code translation, software
+    reliability, mobile software",
+  abstract     = "This paper evaluates the design and implementation of 
+    Omniware: a safe, efficient, and language-independent system for executing
+    mobile program modules.  Previous approaches to implementing mobile code
+    rely on either language semantics or abstract machine interpretation to
+    enforce safety.  In the former case, the mobile code system sacrifices
+    universality to gain safety by dictating a particular source language or
+    type system.  In the latter case, the mobile code system sacrifices
+    performance to gain safety through abstract machine interpretation.
+    Omniware uses software fault isolation, a technology developed to provide
+    safe extension code for databases and operating systems, to achieve a
+    unique combination of language-independence and excellent performance.
+    Software fault isolation uses only the semantics of the underlying
+    processor to determine whether a mobile code module can corrupt its
+    execution environment.  This separation of programming language
+    implementation from program module safety enables our mobile code system to
+    use a radically simplified virtual machine as its basis for portability.
+    We measured the performance of Omniware using a suite of four SPEC92
+    programs on the Pentium, PowerPC, Mips, and Sparc processor architectures.
+    Including the overhead for enforcing safety on all four processors, OmniVM
+    executed the benchmark programs within 21% as fast as the optimized, unsafe
+    code produced by the vendor-supplied compiler.",
+  location     = "http://dx.doi.org/10.1145/231379.231402"
+}
+
+@Article{vgspoatp,
+  author       = "Laura~K. Dillon",
+  title        = "Verifying General Safety Properties of {A}da Tasking Programs",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "51--63",
+  month        = jan,
+  keywords     = "ada tasking, axiomatic specification, isolation approach,
+    mechanical verification systems, program verification, safety properties,
+    symbolic execution, verification conditions",
+  abstract     = "The isolation approach to symbolic execution of Ada tasking
+    programs provides a basis for automating partial correctness proofs.  The
+    strength of this approach lies in its isolation nature; tasks are
+    symbolically executed and verified independently, and then checked for
+    cooperation where interference can occur.  This keeps the verification task
+    computationally feasible and enhances its compositionality.  Safety,
+    however, is a more appropriate notion of correctness for concurrent
+    programs than partial correctness.  The author shows how the isolation
+    approach to symbolic execution of Ada tasking program supports the
+    verification of general safety properties.  Specific safety properties that
+    are considered include mutual exclusion, freedom from deadlock, and absence
+    of communication failure.  The techniques are illustrated using a solution
+    to the readers and writers problem.", 
+  location     = "http://dx.doi.org/10.1109/32.44363"
+}
+
+@Article{rcbpe,
+  author       = "Michael Sperber and Peter Thiemann",
+  title        = "Realistic Compilation By Partial Evaluation",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "206--214",
+  month        = may,
+  keywords     = "semantics-directed compiler generation, partial evaluation,
+  compilation of higher-order functional languages",
+  abstract     = "Two key steps in the compilation of strict functional
+    languages are the conversion of higher-order functions to data structures
+    (closures) and the transformation to tail-recursive style.  We show how to
+    perform both steps at once by applying first-order offline partial
+    evaluation to a suitable interpreter.  The resulting code is easy to
+    transliterate to low-level C or native code.  We have implemented the
+    compilation to C; it yields a performance comparable to that of other
+    modern Scheme-to-C compilers.  In addition, we have integrated various
+    optimizations such as constant propagation, higher-order removal, and arity
+    raising simply by modifying the underlying interpreter.  Purely first-order
+    methods suffice to achieve the transformations.  Our approach is an
+    instance of semantics-directed compiler generation.", 
+  location     = "http://dx.doi.org/10.1145/231379.231419"
+}
+
+@Article{pntftsaaosc,
+  author       = "Willson, Reg~G. and Krogh, Bruce~H.",
+  title        = "Petri Net Tools for the Specification and Analysis of Discrete Controllers",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "39--50",
+  month        = jan,
+  keywords     = "control, analysis, discrete state systems, modeling, petri
+    nets, specifications, model checking, system design",
+  abstract     = "An approach is presented for the specification, modeling, and
+    analysis of discrete-state systems and controllers.  The approach features
+    a rule-based state-variable-specification formalism that is translated into
+    Petri net models composed of interconnected statemachines.  The concept of
+    reduced reachability graphs is introduced as a means of reducing the
+    computational effort required to isolate and analyze subcomponent behavior
+    within the system.  The target application is discrete manufacturing
+    systems where the costs involved in writing, debugging, and maintaining of
+    code for online process control can be significantly reduced through the
+    use of automated modeling and analysis techniques.  The approach is
+    illustrated by an example of a simple discrete-state system.", 
+  location     = "http://dx.doi.org/10.1109/32.44362"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
