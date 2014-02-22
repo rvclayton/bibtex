@@ -765,6 +765,54 @@
   location     = "http://dx.doi.org/10.1109/32.44362"
 }
 
+@Article{fsadtt,
+  author       = "Garrard, Christopher Paul and Coleman, Derek and Gallimore, Robin~M.",
+  title        = "Formal Specification and Design Time Testing",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "1--12",
+  month        = jan,
+  keywords     = "abstract data type, design validation, dynamic testing,
+    formal specification, obj",
+  abstract     = "It is shown how design time testing can be used in
+    conjunction with formal specification.  Emphasis is placed on the benefits
+    of using an executable specification language OBJ, of having a design
+    controlled by requirements specification, and of adherence to the
+    regularity and uniformity hypotheses in dynamic validation.  It is shown
+    that such an approach offers positive benefits by providing early design
+    validation and a controlled, disciplined design process.", 
+  location     = "http://dx.doi.org/10.1109/32.44359"
+}
+
+@Article{casclfasag,
+  author       = "Olender, Kurt~M. and Osterweil, Leon~J.",
+  title        = "Cecil:  {A} Sequencing Constraint Language for Automatic Static Analysis Generation",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 3,
+  pages        = "268--280",
+  month        = mar,
+  keywords     = "dataflow analysis, finite state machines, sequencing,
+    specification, static analysis",
+  abstract     = "A flexible and general mechanism for specifying problems
+    relating to the sequencing of events and mechanically translating them into
+    dataflow analysis algorithms capable of solving those problems is
+    presented.  Dataflow analysis has been used for quite some time in compiler
+    code optimization.  Most static analyzers have been custom-built to search
+    for fixed and often quite limited classes of dataflow conditions.  It is
+    shown that the range of sequences for which it is interesting and
+    worthwhile to search in actually quite broad and diverse.  A formalism for
+    specifying this diversity of conditions is created.  It is shown that these
+    conditions can be modeled essentially as dataflow analysis problems for
+    which effective solutions are known.  It is also shown how these solutions
+    can be exploited to serve as the basis for mechanical creation of analyzers
+    for these conditions.", 
+  location     = "http://dx.doi.org/10.1109/32.48935"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",

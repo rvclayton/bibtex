@@ -445,6 +445,7 @@ an attribute grammar evaluator in haskell : rushall
 an awk to c++ translator : kernighan
 an axiomatic basis for computer programming : hoare
 an efficient context free parsing algorithm : earley
+efficient and language independent mobile programs : adl-tabatabai
 efficient implementation of trie structures : aoe
 efficient interpretation using quickening : brunthaler
 an efficient reliable broadcast protocol : kaashoek
@@ -513,6 +514,7 @@ an oz primer : smolka
 an xml based framework for language neutral program representation and generic analysis : al-ekram
 analysis and detection of computer viruses and worms an annotated bibliography : singh
 analysis as model thomas kuhns paradigm shift in the structure of scientific revolution : anon
+analysis of faults in an n version software experiment : brillant
 analysis of proposals for the floating point standard : cody
 analysis of visual motion by biological computer systems : ullman
 analyzing and compressing assembly code : fraser
@@ -706,6 +708,7 @@ causal controversy at le mont st michel : van renesse
 ccmalloc : biere
 cd writing howto : trumper
 cdt a container data type library : vo
+cecil a sequencing constraint language for automatic static analysis generation : olender
 cellular automata for solving mazes : nayfeh
 census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
@@ -1292,6 +1295,7 @@ formal specification of large scale software : moller
 formal specifications a key to service interaction analysis : lee
 formal specifications and proofs of inheritance protocols for real time scheduling : pilling
 formal system design based on the synchrony hypothesis functional models and skeletons : sander
+formal specification and design time testing : garrard
 formal verification of the aamp5 microprocessor : miller
 formalization in programming environments : goguen
 formalizing a specification for analysis the hla ownership properties : damon
