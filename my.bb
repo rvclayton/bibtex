@@ -948,3 +948,14 @@
   location     = "QA 76.73.R33 F45"
 }
 
+@Book{avami,
+  author       = "Alasdair MacIntyre",
+  title        = "After Version",
+  publisher    = "University of Notre Dame Press",
+  year         = 1981,
+  address      = "Notre Dame, Indiana",
+  keywords     = "moral disagreement, enlightenment, virtues, aristotle,
+    justice, nietzsche",
+  location     = "BJ 1012 M325"
+}
+
