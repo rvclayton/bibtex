@@ -959,3 +959,24 @@
   location     = "BJ 1012 M325"
 }
 
+@Book{modrn,
+  title        = "Machine of Death",
+  publisher    = "Bearstache Books",
+  year         = 2010,
+  editor       = "Ryan North and Matthew Bennardo and David Malki",
+  address      = "Venice, " # CA,
+  keywords     = "predestination, oracular machines",
+  location     = "978-0-9821671-2-0"
+}
+
+@Book{tgarw,
+  author       = "Dennis Drabelle",
+  title        = "The Great American Railroad War",
+  publisher    = "St. Martin's Press",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "ambrose bierce, frank norris, central pacific railway,
+    transcontinental railway, corruption",
+  location     = "HE 2791 C451 D73"
+}
+
