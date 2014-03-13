@@ -980,3 +980,14 @@
   location     = "HE 2791 C451 D73"
 }
 
+@Book{paipm,
+  author       = "Nathaniel~S. Borenstein",
+  title        = "Programming as if People Mattered",
+  publisher    = pup,
+  year         = 1991,
+  address      = prnj,
+  keywords     = "user interfaces, software engineering, design, testing, war
+    stories",
+  location     = "QA 76.758 B67"
+}
+
