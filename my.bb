@@ -813,6 +813,122 @@
   location     = "http://dx.doi.org/10.1109/32.48935"
 }
 
+@Article{fedc,
+  author       = "Auslander, Joel and Philipose, Matthai and Chambers, Craig
+    and Eggers, Susan~J. and Bershad, Brian~N.",
+  title        = "Fast, Effective Dynamic Compilation",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "149--159",
+  month        = may,
+  keywords     = "dynamic compilation, run-time optimization, program
+    annotations, static compilation",
+  abstract     = "Dynamic compilation enables optimization based on the values
+    of invariant data computed at run-time.  Using the values of these run-time
+    constants, a dynamic compiler can eliminate their memory loads, perform
+    constant propagation and folding, remove branches they determine, and fully
+    unroll loops they bound.  However, the performance benefits of the more
+    efficient, dynamically-compiled code are offset by the run-time cost of the
+    dynamic compile.  Our approach to dynamic compilation strives for both fast
+    dynamic compilation and high-quality dynamically-compiled code: the
+    programmer annotates regions of the programs that should be compiled
+    dynamically; a static, optimizing compiler automatically produces
+    pre-optimized machine-code templates, using a pair of dataflow analyses
+    that identify which variables will be constant at run-time; and a simple,
+    dynamic compiler copies the templates, patching in the computed values of
+    the run-time constants, to produce optimized, executable code.  Our work
+    targets general- purpose, imperative programming languages, initially C.
+    Initial experiments applying dynamic compilation to C programs have
+    produced speedups ranging from 1.2 to 1.8.", 
+  location     = "http://www.cs.washington.edu/research/dyncomp/Papers/pldi96.pdf",
+  location     = "http://dx.doi.org/10.1145/231379.231409"
+}
+
+@Article{rrmisuamitbtollic,
+  author       = "Norman Ramsey and Jo{\~ a}o Dias",
+  title        = "Resourceable, Retargetable, Modular Instruction Selection Using a Machine-Independent, Type-Based Tiling of Low-Level Intermediate Code",
+  journal      = sigplan # " (" # pot # "38th Annual " # popl # ")", 
+  year         = 2011,
+  volume       = 46,
+  number       = 1,
+  pages        = "575--586",
+  month        = jan,
+  keywords     = "code generation, retargetable compilers, intermediate
+    representation, c--, instruction selection, rtl",
+  abstract     = "We present a novel variation on the standard technique of 
+    selecting instructions by tiling an intermediate-code tree.  Typical
+    compilers use a different set of tiles for every target machine.  By
+    analyzing a formal model of machine-level computation, we have developed a
+    single set of tiles that is machine-independent while retaining the
+    expressive power of machine code.  Using this tileset, we reduce the number
+    of tilers required from one per machine to one per architectural family
+    (e.g., register architecture or stack architecture).  Because the tiler is
+    the part of the instruction selector that is most difficult to reason
+    about, our technique makes it possible to retarget an instruction selector
+    with significantly less effort than standard techniques.  Retargeting
+    effort is further reduced by applying an earlier result which generates the
+    machine-dependent implementation of our tileset automatically from a
+    declarative description of instructions' semantics.  Our design has the
+    additional benefit of enabling modular reasoning about three aspects of
+    code generation that are not typically separated: the semantics of the
+    compiler's intermediate representation, the semantics of the target
+    instruction set, and the techniques needed to generate good target code.",
+  location     = "http://www.cs.tufts.edu/~nr/pubs/tiler-abstract.html",
+  location     = "http://dx.doi.org/10.1145/1926385.1926451"
+}
+
+@Article{fpiteaeotsp,
+  author       = "Graham~C. Low and D.~Ross Jeffery",
+  title        = "Function Points in the Estimation and Evaluation of the Software Process",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "64--71",
+  month        = jan,
+  keywords     = "estimation, function points, lines of code, qualitative
+    measurement, software management, software size",
+  abstract     = "The authors report the results of an empirical research
+    project on the consistency and limitations of the number of function points
+    as an a priori measure of system size rather than the traditional
+    lines-of-code measure.  They conclude that function points are a more
+    consistent a priori measure of system size.  The results also indicate that
+    the function-point estimate of size is lower for analysts experienced both
+    in software development and in function-point estimation.", 
+  location     = "http://dx.doi.org/10.1109/32.44364"
+}
+
+@Article{caape,
+  author       = "William~E. Howden",
+  title        = "Comments Analysis and Programming Errors",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "72--81",
+  month        = jan,
+  keywords     = "associations, comments, errors, false assumptions, faults,
+    flavors, validation, assertions",
+  abstract     = "Software validation is treated as the problem of detecting
+    errors that programmers make during the software development process.  This
+    includes fault detection, in which the focus is on techniques for detecting
+    the occurrence of local errors that result in well-defined classes of
+    program statement faults.  It also includes detecting other kinds of
+    errors, such as decomposition errors.  The main focus of the work is on a
+    decomposition-error analysis technique called comments analysis.  In this
+    technique, errors are detected by analyzing special classes of program
+    comments.  Comments analysis has been applied to a variety of systems,
+    including a data-processing program and an avionics real-time program.  The
+    use of comments analysis for sequential and concurrent systems is
+    discussed, and the basic features of comments analysis tools are
+    summarized.  The relationship of comments analysis to other techniques,
+    such as event sequence analysis, is discussed, and the differences between
+    it and earlier work are explained.", 
+  location     = "http://dx.doi.org/10.1109/32.44365"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
