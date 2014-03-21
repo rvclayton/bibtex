@@ -1107,3 +1107,35 @@
   location     = "QA 76.758 B67"
 }
 
+@Book{ttah,
+  author       = "Hannah Spahn",
+  title        = "Thomas Jefferson, Time and History",
+  publisher    = "University of Virginia Press",
+  year         = 2011,
+  address      = "Charlottesville, Virginia",
+  keywords     = "time, history",
+  location     = "B 885.Z7S63"
+}
+
+@Book{tpehb,
+  author       = "Holly Black",
+  title        = "The Poison Eaters",
+  publisher    = "Margaret K. McElderry Books",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "faries, vampyers, satan",
+  location     = "PZ 7.B52878"
+}
+
+@Book{miac,
+  author       = "Robert {van Gulik}",
+  title        = "Murder in Ancient China",
+  publisher    = "Chicago University Press",
+  year         = 2013,
+  series       = "Chicago Shorts",
+  address      = chil,
+  month        = dec,
+  keywords     = "a treacherous four-way, a misunderstanding based in pig's
+    blood " 
+}
+
