@@ -3447,20 +3447,6 @@
   keywords     = "mud, collaboration, multi-person interaction"
 }
 
-@Article{varevfdcgs,
-  author       = "Dawson~R. Engler",
-  title        = "{VCODE}:  A Retargetable, Extensible, Very Fast Dynamic Code
-		  Generation System",
-  journal      = sigplan # " (" # pcpldi # ")",
-  year         = 1996,
-  volume       = 31,
-  number       = 5,
-  pages        = "160--170",
-  month        = may,
-  keywords     = "",
-  location     = "QA 76.7.A15X"
-}
-
 @Article{cppl,
   author       = "Ian Foster",
   title        = "Compositional Parallel Programming Languages",
