@@ -929,6 +929,62 @@
   location     = "http://dx.doi.org/10.1109/32.44365"
 }
 
+@Article{varevfdcgs,
+  author       = "Dawson~R. Engler",
+  title        = "{\sc VCODE}:  {A} Retargetable, Extensible, Very Fast Dynamic Code Generation System",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "160--170",
+  month        = may,
+  keywords     = "dynamic code generation, run-time code generation",
+  abstract     = "We present vcode, a portable, extensible, very fast dynamic
+    code generation system.  An important feature of vcode is that it generates
+    machine code ``in-place'' without the use of intermediate data structures.
+    Eliminating the need to construct and consume an intermediate
+    representation at runtime makes vcode both efficient and extensible.  vcode
+    dynamically generates code at an approximate cost of six to ten
+    instructions per generated instruction, making it over an order of
+    magnitude faster than the most efficient general-purpose code generation
+    system in the literature.  Dynamic code generation is relatively well known
+    within the compiler community.  However, due in large part to the lack of a
+    publicly available dynamic code generation system, it has remained a
+    curiosity rather than a widely used technique.  A practical contribution of
+    this work is the free, unrestricted distribution of the vcode system, which
+    currently runs on the MIPS, SPARC, and Alpha architectures.", 
+  location     = "http://www.stanford.edu/~engler/vcode-pldi.ps"
+}
+
+@Article{cadmaisdtfop,
+  author       = "Surya~B. Yadav",
+  title        = "Control and Definition Modularization:  An Improved Software Design Technique for Organizing Programs",
+  journal      = tse,
+  year         = 1990,
+  volume       = 16,
+  number       = 1,
+  pages        = "92--99",
+  month        = jan,
+  keywords     = "control and definition modules, program layout, software
+    design techniques, software maintenance, software design",
+  abstract     = "The author proposes a technique called control and definition
+    modularization (CDM), which derives a systematic program layout from a
+    given structure chart using the concepts of `control' and `definition'
+    modules.  A control module includes processes for handling a conceptual
+    data object not directly implementable.  A definition module defines
+    operations associated with a concrete data object implementable using a
+    primitive or derived data type of a programming language.  Grouping the
+    operations available for each concrete data object, and keeping them
+    separated from execution flow, improves programs maintainability.  This
+    technique extends the structured design methodology and provides designers
+    with a systematic way of deriving informational strength modules as well as
+    a structured physical layout from the structure chart.  A program based on
+    the CDM technique is easier to understand and maintain.  This research
+    makes a significant contribution toward bridging the gap between structured
+    design and object-oriented concepts", 
+  location     = "http://dx.doi.org/10.1109/32.44367"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
