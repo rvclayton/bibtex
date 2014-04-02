@@ -985,6 +985,42 @@
   location     = "http://dx.doi.org/10.1109/32.44367"
 }
 
+@Article{ppaugplpsacs,
+  author       = "Dawson, Steven and Ramakrishnan, C.~R. and Warren, David~S.",
+  title        = "Practical Program Analysis Using General Purpose Logic Programming Systems --- {A} Case Study",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '96)",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "117--126",
+  month        = may,
+  keywords     = "program analysis, constraint-based programming, logic
+    programming, execution efficiency, finite-domain analysis, tabled
+    evaluation",
+  abstract     = "Many analysis problems can be cast in the form of evaluating
+    minimal models of a logic program.  Although such formulations are
+    appealing due to their simplicity and declarativeness, they have not been
+    widely used in practice because, either existing logic programming systems
+    do not guarantee completeness, or those that do have been viewed as too
+    inefficient for integration into a compiler.  The objective of this paper
+    is to re-examine this issue in the context of recent advances in
+    implementation technologies of logic programming systems.We find that such
+    declarative formulations can indeed be used in practical systems, when
+    combined with the appropriate tool for evaluation.  We use existing
+    formulations of analysis problems --- groundness analysis of logic
+    programs, and strictness analysis of functional programs --- in this case
+    study, and the XSB system, a table-based logic programming system, as the
+    evaluation tool of choice.  We give experimental evidence that the
+    resultant groundness and strictness analysis systems are practical in terms
+    of both time and space.  In terms of implementation effort, the analyzers
+    took less than 2 man-weeks (in total), to develop, optimize and evaluate.
+    The analyzer itself consists of about 100 lines of tabled Prolog code and
+    the entire system, including the components to read and preprocess input
+    programs and to collect the analysis results, consists of about 500 lines
+    of code.", 
+  location     = "http://dx.doi.org/10.1145/231379.231399"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
