@@ -1231,3 +1231,13 @@
     blood " 
 }
 
+@Book{desk,
+  author       = "Steve Keen",
+  title        = "Debunking Economics",
+  publisher    = "Zed Books",
+  year         = 2001,
+  address      = loen,
+  keywords     = "capitalism, neoclassical economics, marxism",
+  location     = "HB 75 K32"
+}
+
