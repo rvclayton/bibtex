@@ -765,6 +765,7 @@ coloured petri nets and the invariant method : jensen
 combining generics precompilation and sharing between software based processes : kennedy
 combining monads : king
 commander s the shell as a browser : gasbichler
+comments analysis and programming errors : howden
 comments on cathedrals and bazaars : winer
 comments on the dod languges : dijkstra
 common concurrent programming errors : gabb
@@ -1003,7 +1004,6 @@ desktop conferencing system mermaid : watabe
 detectinguplicat code with pmds cpd : copland
 detectingmutual consistency of shared objects : ahamad
 determinacy testing for nondeterminate logic programming languages : tick
-developing an interprocedural optimizing compiler : loeliger
 developing and using snd editing sound under linux parts 1 and 2 : phillips
 developing distributed object computing applications with corba : schmidt
 developing dynamic reconfigurable communication protocol stacks using java : lee
@@ -1229,6 +1229,7 @@ fast and small resizable arrays : demaine
 fast antialiasing : abrash
 fast approximate string matching : owolabi 
 fast cheap and out of control a robot invasion of the solar system : brooks
+fast effective dynamic compilation : auslander
 fast hashing of variable length text strings : pearson
 fast optimized sun rpc using automatic program specialization : muller
 fast packet switch architectures for broadband integrated services digital networks : tobagi
@@ -1422,6 +1423,7 @@ handling control : sitaram
 hard coding bottom up code generation tables to save time and space : fraser
 hardware compilation translating programs into circuits : wirth
 hardware synthesis from term rewriting systems : hoe
+hardware software tradeoffs for increased performance : hennessy
 hardwarec a language for hardware design : ku
 harts a distributed real time architecture : shin
 hash tables : morin
@@ -2413,6 +2415,7 @@ resistance is futile formal linguistic observations of design patterns : van emd
 resource allocation for broadband networks : hui
 resource integration using a large knowledge base in carnot : collet
 resource management in networked multimedia systems : nahrstedt
+resourceable retargetable modular instruction selection using a machine independent type based tiling of low level intermediate code : ramsey
 response time in a teletext system an individual users perspective : ammar
 responsible web caching : berghel
 restaurant tipping and service quality : lynn
@@ -2901,7 +2904,6 @@ the economics of the internet utility utilization pricing and quality of service
 the effect of packet dispersion on voice applications in ip networks : levy
 the effect of unrolling and inlining for python bytecode optimizations : asher
 the effects of pair programming on performance in an introductory programming course : mcdowell
-the effects of virtually addressed caches on virtual memory design and performance : inouye
 the elaboration order problem of ada : lander
 the electra approach to object oriented distributed programming an overview : maffeis
 the elements of single chip microcomputer architecture : cragon
@@ -3370,6 +3372,7 @@ validating metrics for ensuring space shuttle flight software quality : schneide
 validating solutions to major problems in software engineering project management : thayer
 validation verification and testing for the individual programmer : branstad
 valloy virtual functions meet a relational language : marinov
+vcode a retargetable extensible very fast dynamic code generation system : engler
 venti a new approach to archival storage : quinlan
 verification of a class of link level protocols : krogdahl
 verification of a reliable net protocol : yodaiken
