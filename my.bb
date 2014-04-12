@@ -1021,6 +1021,62 @@
   location     = "http://dx.doi.org/10.1145/231379.231399"
 }
 
+@Article{sofpabpfoa,
+  author       = "Shu, N.~C. and Lum, V.~Y. and Tung, F.~C. and Chang, C.~L.",
+  title        = "Specification of Forms Processing and Business Procedures for Office Automation",
+  journal      = tse,
+  year         = 1982,
+  volume       = 8,
+  number       = 5,
+  pages        = "499-512",
+  month        = sep,
+  keywords     = "application development, application specification, data
+    processing for non-DP professionals, form data model, form processing,
+    office automation, office information systems, office/business procedure
+    automation, programming by forms",
+  abstract     = "Business activities, in general, involve data processing
+    (such as queries, extraction, manipulation, and restructuring of data,
+    etc.) as well as conventional office work centered around preparation,
+    distribution, and filing and retrieval of documents.  Convinced that most
+    of these activities can be expressed in terms of forms, we present in this
+    paper a formal means for specification of forms processing.  The underlying
+    concept is that business functions can be decomposed into meaningfully
+    connected form processes where each process either produces or modifies a
+    form.  Powerful constructs are provided so that most of the common data
+    processing activities can be expressed in a very high level, concise, and
+    yet compilable manner.",
+  location     = "http://dx.doi.org/10.1109/TSE.1982.235738"
+}
+
+@Article{hsstfip,
+  author       = "Hennessy, John and Jouppi, Norman and Baskett, Forest and
+    Gross, Thomas and Gill, John",
+  title        = "Hardware/Software Tradeoffs for Increased Performance",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "2--11",
+  month        = mar,
+  keywords     = "virtual addressing, caching, operating system, system
+    performance, hardware-software trade-offs, memory management, IPC, system
+    design, mips, chord, mach",
+  abstract     = "Most new computer architectures are concerned with maximizing
+    performance by providing suitable instruction sets for compiled code and
+    providing support for systems functions.  We argue that the most effective
+    design methodology must make simultaneous tradeoffs across all three areas:
+    hardware, software support, and systems support.  Recent trends lean
+    towards extensive hardware support for both the compiler and operating
+    systems software.  However, consideration of all possible design tradeoffs
+    may often lead to less hardware support.  Several examples of this approach
+    are presented, including: omission of condition codes, word-addressed
+    machines, and imposing pipeline interlocks in software.  The specifics and
+    performance of these approaches are examined with respect to the MIPS
+    processor.", 
+  location     = "http://dx.doi.org/10.1145/800050.801820"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1239,5 +1295,15 @@
   address      = loen,
   keywords     = "capitalism, neoclassical economics, marxism",
   location     = "HB 75 K32"
+}
+
+@Book{ifsgrr,
+  author       = "Rob Riesman",
+  title        = "{I} Feel So Good",
+  publisher    = "University of Chicago Press",
+  year         = 2011,
+  address      = chil,
+  keywords     = "big bill broonzy, blues, folk, music",
+  location     = "ML 420 B78 R54"
 }
 
