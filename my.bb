@@ -1307,3 +1307,13 @@
   location     = "ML 420 B78 R54"
 }
 
+@Book{tbobwbs,
+  author       = "Benn Steil",
+  title        = "The Battle of Bretton Woods",
+  publisher    = pup,
+  year         = 2013,
+  address      = prnj,
+  keywords     = "international finance, harry white, john keynes",
+  location     = "HG 255 S837"
+}
+
