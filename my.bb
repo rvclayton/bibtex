@@ -1327,3 +1327,14 @@
   location     = "HD 9696 A3 U5334"
 }
 
+@Book{efhjan,
+  author       = "Julie~A. Nelson",
+  title        = "Economics for Humans",
+  publisher    = ucp,
+  year         = 2006,
+  address      = chil,
+  keywords     = "economics, metaphors, history, motivation, organizational
+    behavior", 
+  location     = "HB 72.N445"
+}
+
