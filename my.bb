@@ -1317,3 +1317,13 @@
   location     = "HG 255 S837"
 }
 
+@Book{cmjc,
+  author       = "Jefferson Cowie",
+  title        = "Capital Moves",
+  publisher    = "Cornell University Press",
+  year         = 1999,
+  address      = "Ithica, New York",
+  keywords     = "capital, labor, rca, labor markets, unions, economic policy",
+  location     = "HD 9696 A3 U5334"
+}
+
