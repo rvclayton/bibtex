@@ -1077,6 +1077,54 @@
   location     = "http://dx.doi.org/10.1145/800050.801820"
 }
 
+@Article{cgfpp,
+  author       = "Rymarczyk, James~W.",
+  title        = "Coding Guidlines for Pipelined Processors",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "12--19",
+  month        = mar,
+  abstract     = "This paper is a tutorial for assembly language programmers of
+    pipelined processors.  It describes the general characteristics of
+    pipelined processors and presents a collection of coding guidelines for
+    them.  These guidelines are particularly significant to compiler developers
+    who determine object code patterns.", 
+  keywords     = "pipeline architectures, interlocks, stalls",
+  location     = "http://dx.doi.org/10.1145/964750.801821"
+}
+
+@Article{ohmmdt,
+  author       = "John~L. Gieser",
+  title        = "On Horizontal Microprogrammed Microarchitecture Description Techniques",
+  journal      = tse,
+  year         = 1982,
+  volume       = 8,
+  number       = 5,
+  pages        = "513--525",
+  month        = sep,
+  keywords     = "automatic microcode generation, high-level microprogramming
+    language, microengine description techniques, microprogrammed
+    architectures, microprogramming", 
+  abstract     = "In automatically generating microcode starting from a 
+    high-level source language, a significant issue is the description of the
+    target microengine architecture.  The techniques and methodologies used to
+    accomplish this address the practical issues of: 1) a detailed description
+    of all microprogram controJled haudware elements of the microengine, the
+    microinstruction, the rules for valid use of all microprogrammed features,
+    and the behavior of microprogrammed operations; and 2) the use of this
+    description to interpret and decode higher level source intermediate
+    languages to form microoperations and ultimately microinstructions.  This
+    work is a step in conceptually defining the techniques and methodologies
+    for microarchitecture descriptions to accomplish the above.  Its objective
+    is to identify the techniques that appear to have the most promise for use
+    in interjecting the target microarchitecture characteristics into the
+    high-level language-to-microcode compilation process.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1982.235739"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1299,7 +1347,7 @@
 
 @Book{ifsgrr,
   author       = "Rob Riesman",
-  title        = "{I} Feel So Good",
+  title        = "I Feel So Good",
   publisher    = "University of Chicago Press",
   year         = 2011,
   address      = chil,
