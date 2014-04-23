@@ -189,18 +189,6 @@
   keywords	= "sml, larch, program specification"
 }
 
-@TechReport{acfrcg,
-  author	= "David Keppel and Susan J. Eggers and Robert R. Henery",
-  title		= "A Case for Runtime Code Generation",
-  institution	= dcse # uwash,
-  year		= 1991,
-  number	= "TR 91--11--04",
-  address	= swa,
-  keywords	= "runtime code generation, dynamic code modification,
-		   dynamically optomized code, computer architectures,
-		   partial evaluation, performance, dynamic compilation"
-}
-
 @TechReport{tatfbfptp,
   author	= "David Keppel",
   title		= "Tools and Techniques for Building Fast Portable Threads
