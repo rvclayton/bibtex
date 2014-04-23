@@ -1125,6 +1125,18 @@
   location     = "http://dx.doi.org/10.1109/TSE.1982.235739"
 }
 
+@Article{rkwr,
+  author       = "Kyle Rankin",
+  title        = "Remaster {K}noppix without Remastering",
+  journal      = "Linux Journal",
+  year         = 2008,
+  number       = 170,
+  pages        = "84--88",
+  month        = jun,
+  keywords     = "knoppix, remastering, live systems",
+  location     = "http://www.linuxjournal.com/magazine/remaster-knoppix-without-remastering"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1171,6 +1183,30 @@
     work is intended to facilitate experiments with real-time communication
     over the Experimental University Network (XUNET).", 
   location     = "ftp://tenet.berkeley.edu/ucb/tenet/Papers/Lowery91.ps"
+}
+
+@TechReport{tcfrtcg,
+  author       = "David Keppel and Susan~J. Eggers and Robert~R. Henry",
+  title        = "A Case for Runtime Code Generation",
+  institution  = dcse # uwash,
+  year         = 1991,
+  number       = "91-11-04",
+  address      = swa,
+  keywords     = "compilation, run-time code generation, dynamic optimization,
+    computer architecture, partial evaluation, performance",
+  abstract     = "We define runtime code generation (RTCG) as dynamically
+    adding code to the instruction stream of an executing program.  It has been
+    in use since the 1940s, but fell from favor because changing hardware and
+    software technologies made it less profitabile and its ad-hoc
+    implementation made it nonportable.  In this paper we argue for it's
+    return.  We base our arguments on ongoing changes in hardware technology,
+    software technology, and workloads.  Each of these changes brings about
+    circumstances in which dynamically optimized code can execute fast enough
+    to pay for the runtime overhead of creating it.  We support our analysis
+    with concrete examples.  We compare static-code and RTCG implementations of
+    several applications and show that RTCG leads to performance
+    improvements.", 
+  location     = "ftp://ftp.cs.washington.edu/tr/1991/11/UW-CSE-91-11-04.PS.Z"
 }
 
 @Book{taospk,
@@ -1384,5 +1420,16 @@
   keywords     = "economics, metaphors, history, motivation, organizational
     behavior", 
   location     = "HB 72.N445"
+}
+
+@Book{sfmsm,
+  author       = "Sanjoy Mahajan",
+  title        = "Street-Fighting Mathematics",
+  publisher    = mitp,
+  year         = 2010,
+  address      = cma,
+  month        = mar,
+  keywords     = "problem solving, estimation, heuristics",
+  location     = "QA 63.M34"
 }
 
