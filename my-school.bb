@@ -9121,7 +9121,27 @@
   number       = 4,
   pages        = "291--298",
   keywords     = "computer networks, data communication systems, packet
-		  switching",
+    switching, message switching, virtual cut-through switching, quasi
+    cut-through switching, network simulations", 
+  abstraction  = "Computer communication networks are basically resource
+    sharing systems and are used for an efficient exchange of information among
+    remote users.  Performance (throughput, delay and power) of a computer
+    network depends upon the intensity of data and/or information traffic.  If
+    a network's traffic is allowed to increase beyond certain limits, its
+    performance rapidly degrades.  In order to keep data traffic under control,
+    some restrictions are applied at various levels of computer communication
+    networks.  These restrictions are usually referred to as flow control
+    techniques.  This paper deals with window (also called end-to-end or
+    entry-to-exit) flow control in computer communication networks.  In this
+    method, a source node is allowed to have only a limited number of
+    unacknowledged messages, usually termed as window size, at a time.  Flow
+    control, in this paper, is discussed in the context of three computer
+    communication switching techniques: packet switching, virtual cut-through
+    switching and quasi cut-through switching.  The analysis of window flow
+    control is based upon simulation of a typical store-and-forward computer
+    network.  Several simulation results are presented to illustrate the
+    effects of window flow control on various computer communication switching
+    techniques.",  
   location     = "T 57.5.C66X"
 }
 
