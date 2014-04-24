@@ -1137,6 +1137,27 @@
   location     = "http://www.linuxjournal.com/magazine/remaster-knoppix-without-remastering"
 }
 
+@Article{tosalsfotb3m,
+  author       = "Alan~D. Berenbaum and Michael~W. Condry and Priscilla~M. Lu",
+  title        = "The Operating System and Languages Support Features of the {BELLMAC}-32 Microprocessor",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "30--38",
+  month        = mar,
+  keywords     = "microprocessor architecture, programming language support,
+    operating system support, compiler support",
+  abstract     = "The BELLMAC-32 microprocessor is a 32-bit microprocessor, 
+    implemented with CMOS technology, designed to support operating system
+    functions and high level languages efficiently.  The architecture was
+    designed with the following objectives in mind:  High performance.
+    Enhanced operating system support capabilities.  High level language
+    support.  High reliability, availability and maintainability.",
+  OPTlocation  = ""
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
