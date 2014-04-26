@@ -1158,6 +1158,55 @@
   OPTlocation  = ""
 }
 
+@Article{dcopt,
+  author       = "James {Archer, Jr.} and Richard Conway",
+  title        = "Display Condensation of Program Text",
+  journal      = tse,
+  year         = 1982,
+  volume       = 8,
+  number       = 5,
+  pages        = "526--529",
+  month        = sep,
+  keywords     = "interactive programming, prettyprinting, programming
+    environments, programming methodology, text editing, human factors",
+  abstract     = "In interactive systems that must display the text of 
+    programs, the size of the program is usually much larger than the capacity
+    of the screen.  While the obvious strategy is to simply choose k contiguous
+    lines for display in a k-line window, in some cases it is useful to be able
+    to represent m lines in a k-line window, where m > k, by condensing
+    portions of the text.  This paper is concerned with alternative strategies
+    for controlling such condensation.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1982.235876"
+}
+
+@Article{sotufs,
+  author       = "Carroll Morgan and Bernard Sufrin",
+  title        = "Specification of the " # unix # " Filing System",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "128--142",
+  month        = mar,
+  keywords     = "documentation, mathematical specifications, set theory, unix,
+    file system semantics, z",
+  abstract     = "A specification of the UNIX filing system is given using a 
+    notation based on elementary mathematical set theory.  The notation used
+    involves very few special constructs of its own.  The specification is
+    detailed enough to capture the filing system's behavior at the system call
+    level, yet abstracts from issues of data representation, whether in
+    programs or on the storage medium, and from the description of any
+    algorithms which might be used to implement the system.  The presentation
+    of the specification is in several stages, each new stage building on its
+    predecessors; major concepts are introduced separately so that they may be
+    easily understood.  The notation used allows these separate stages to be
+    joined together to give a complete description of each filing system
+    operation-including its error conditions.  Features of the specification
+    notation are explained as they are used, and the Appendix gives the
+    definitions of the symbols drawn from set theory.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010215"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
