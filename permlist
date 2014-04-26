@@ -1030,6 +1030,7 @@ discovering properties about arrays in simple programs : halbwachs
 discriminated unions i : alexandrescu
 disk arrays high performance high reliability storage subsystems : granger
 dispelling java programming language myths : haggar
+display condensation of program text : archer
 display techniques for octree encoded objects : doctor
 displaying 3d images algorithms for single image random dot sterograms : thimbleby
 distel distributed emacs lisp for erlang : gorrie
@@ -2662,6 +2663,7 @@ specification and analysis of intercomponent communication : heimdahl
 specification and verification of time dependent communication protocols : shankar
 specification of basic encoding rules for abstract syntax notation one asn 1 : itu
 specification of iterators : lamb
+specification of the unix filing system : morgan
 specification meta systems : demetrovics
 specification styles in distributed systems design and verification : vissers
 specifying a real time kernel : spivey
