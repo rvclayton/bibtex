@@ -1207,6 +1207,29 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010215"
 }
 
+@Article{aootmpa,
+  author       = "Johnsson, Richard~K. and Wick, John~D.",
+  title        = "An Overview of the {M}esa Processor Architecture",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "20--29",
+  month        = mar,
+  keywords     = "instruction-set design, stack architectures, process
+    management, hardware-software co-design",
+  abstract     = "This paper provides an overview of the architecture of the 
+    Mesa processor, an architecture which was designed to support the Mesa
+    programming system.  Mesa is a high level systems programming language and
+    associated tools designed to support the development of large information
+    processing applications (on the order of one million source lines).  Since
+    the start of development in 1971, the processor architecture, the
+    programming language, and the operating system have been designed as a
+    unit, so that proper tradeoffs among these components could be made.", 
+  location     = "http://dx.doi.org/10.1145/800050.801822"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
