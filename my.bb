@@ -1230,6 +1230,30 @@
   location     = "http://dx.doi.org/10.1145/800050.801822"
 }
 
+@Article{t8mgr,
+  author       = "George Rudin",
+  title        = "The 801 Minicomputer",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "39--47",
+  month        = mar,
+  keywords     = "hardware-software co-design, compilation, risc",
+  abstract     = "This paper provides an overview of an experimental system
+    developed at the IBM T. J. Watson Research Center.  It consists of a
+    running hardware prototype, a control program and an optimizing compiler.
+    The basic concepts underlying the system are discussed as are the
+    performance characteristics of the prototype.  In particular, three
+    principles are examined: system orientation towards the pervasive use of
+    high level language programming and a sophisticated compiler, a primitive
+    instruction set which can be completely hard-wired, storage hierarchy and
+    I/O organization to enable the CPU to execute an instruction at almost
+    every cycle.", 
+  location     = "http://dx.doi.org/10.1145/800050.801824"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
