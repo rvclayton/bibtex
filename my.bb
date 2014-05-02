@@ -1254,6 +1254,38 @@
   location     = "http://dx.doi.org/10.1145/800050.801824"
 }
 
+@Article{rafftcmsc,
+  author       = "David~R. Ditzel and H.~R. McLellan",
+  title        = "Register Allocation for Free:  The {C} Machine Stack Cache",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "48--56",
+  month        = mar,
+  keywords     = "cpu architecture, call sequences, compilation,
+    hardware-software co-design, stack design, system performance",
+  abstract     = "The Bell Labs C Machine project is investigating computer
+    architectures to support the C programming language. One of the goals is
+    to match an efficient architecture to the language and the compiler
+    technology available.  Measurements of different C programs show that
+    roughly one out of every twenty instructions executed is either a procedure
+    call or return. Procedure call overhead is therefore a very important
+    consideration in the overall machine design.  A second and related area of
+    primary concern in overall machine efficiency is the register allocation
+    strategy.  While use of additional registers can offer considerable
+    improvement in execution times, adding registers usually has the adverse
+    effects of increasing the procedure call overhead due to register saving
+    and creating an undue burden on the compiler.  In this paper we describe a
+    piece of the C Machine architecture which effectively eliminates the
+    register allocation problem, and improves procedure calling by drastically
+    reducing storage references required by traditional register saving.  The
+    technique can be generalized for other languages and architectures, though
+    we will only directly address those issues involving the C language.", 
+  location     = ""
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1324,6 +1356,22 @@
     several applications and show that RTCG leads to performance
     improvements.", 
   location     = "ftp://ftp.cs.washington.edu/tr/1991/11/UW-CSE-91-11-04.PS.Z"
+}
+
+@TechReport{otrort,
+  author       = "Joan Feigenbaum and Brighten Godfrey and Aurojit Panda and Michael Schapira and Scott Shenker",
+  title        = "On the Resilience of Routing Tables",
+  institution  = csd # "Yale University",
+  year         = 2012,
+  number       = "YALEU/DCS/TR-1454",
+  address      = nhco,
+  month        = aug,
+  keywords     = "routing, fault tolerance",
+  abstract     = {Many modern network designs incorporate "failover" paths
+    into routers' forwarding tables. In this paper, we formally address the
+    conditions under which such resilient routing tables can guarantee delivery
+    of packets.},
+  location     = "http://cpsc.yale.edu/sites/default/files/files/tr1454.pdf"
 }
 
 @Book{taospk,
@@ -1548,5 +1596,15 @@
   month        = mar,
   keywords     = "problem solving, estimation, heuristics",
   location     = "QA 63.M34"
+}
+
+@Book{dofpb,
+  author       = "Peter Baker",
+  title        = "Days of Fire",
+  publisher    = "Doubleday",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "bush, chaney, u.s. government, iraq, u.s. politics",
+  location     = "E 902.B353"
 }
 
