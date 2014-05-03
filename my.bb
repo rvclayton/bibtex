@@ -1286,6 +1286,32 @@
   location     = ""
 }
 
+@Article{trdoasvcp,
+  author       = "Ian~D. Cottam",
+  title        = "The Rigorous Development of a System Version Control Program",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "143--154",
+  month        = mar,
+  keywords     = "formal specification, program proving, software development
+    environment, version control",
+  abstract     = "A rigorous approach to software development is followed in 
+    developing a program to control the various components and versions of
+    systems.  This particular approach to systematic program development is
+    known as the Vienna Development Method (VDM).  This paper documerits the
+    author's early experiences with VDM on a small, yet nontrivial,
+    application.  The functional specification of the version control system is
+    presented in detail.  Design decisions taken for a prototype implementation
+    are also included.  The version control program developed is based upon the
+    Gandalf System Version Control Environment of Carnegie-Mellon University.
+    Both that system and the subject of this case study support the most common
+    forms of component interdependency relations, and methods of system
+    evolution.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.50102161"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
