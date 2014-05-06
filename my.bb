@@ -1312,6 +1312,36 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.50102161"
 }
 
+@Article{aaatoc,
+  author       = "Samuel~P. Harbison",
+  title        = "An Architectural Alternative to Optimizing Compilers",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "57--65",
+  month        = mar,
+  keywords     = "machine architecture, stack architecture, value caching",
+  abstract     = "Programming languages are designed to make programming
+    productive.  Computer architectures are designed to make program execution
+    efficient.  Although architectures should be designed with programming
+    languages in mind, it may be as inappropriate to make the computer execute
+    the programming language directly it is to make the programmer use machine
+    language.  It is the compiler's job to match the programming language and
+    the computer architectures, and therefore making compiler's efficient and
+    easy to write are important design goals of a complete hardware/software
+    system.  This paper summerizes research completed in 1980 on a computer
+    architecture, TM, that takes over some of the more burdensome tasks of
+    optimizing compilers for high-level-languages (HLL's), performing these
+    tasks dynamically during the execution of the object program.  This is a
+    different approach to making compilers efficient than is commonly taken;
+    more common approaches include devising more efficient optimization
+    algorithms, being clever about when to do optimizations, and building the 
+    compilers semiautomatically.", 
+  location     = "http://dx.doi.org/10.1145/800050.801826"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1632,5 +1662,15 @@
   address      = nyny,
   keywords     = "bush, chaney, u.s. government, iraq, u.s. politics",
   location     = "E 902.B353"
+}
+
+@Book{moawop,
+  author       = "John Cleland",
+  title        = "Fanny Hill",
+  publisher    = "Mayflower",
+  year         = 1970,
+  address      = loen,
+  keywords     = "sex",
+  location     = "PZ 3.C5887 Jo5"
 }
 
