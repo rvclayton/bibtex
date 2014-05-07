@@ -1674,3 +1674,13 @@
   location     = "PZ 3.C5887 Jo5"
 }
 
+@Book{agwl,
+  author       = "William Langewiesche",
+  title        = "American Ground",
+  publisher    = "North Point Press",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "9/11, clean-up, tribalism",
+  location     = "HV 6432 L364"
+}
+
