@@ -1342,6 +1342,28 @@
   location     = "http://dx.doi.org/10.1145/800050.801826"
 }
 
+@Article{fpcbwl,
+  author       = "Butler~W. Lampson",
+  title        = "Fast Procedure Calls",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "66--76",
+  month        = mar,
+  keywords     = "architecture, call, frame, procedure, registers, stack,
+    control transfer",
+  abstract     = "A mechanism for control transfers should handle a variety of 
+    applications (e.g., procedure calls and returns, coroutine transfers,
+    exceptions, process switches) in a uniform way.  It should also allow an
+    implementation in which the common cases of procedure call and return are
+    extremely fast, preferably as fast as unconditional jumps in the normal
+    case.  This paper describes such a mechanism and methods for its efficient
+    implementation.", 
+  location     = "http://dx.doi.org/10.1145/800050.801827"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -1682,5 +1704,25 @@
   address      = nyny,
   keywords     = "9/11, clean-up, tribalism",
   location     = "HV 6432 L364"
+}
+
+@InProceedings{amoorwpa,
+  author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
+  title        = "{A} Model of Onion Routing with Provable Anonymity",
+  booktitle    = pot # "11th International Conference on Financial Cryptography",
+  year         = 2007,
+  editor       = "Sven Dietrich and Rachna Dhamija",
+  pages        = "57--71",
+  publisher    = sv,
+  address      = "Scarborough, Trinidad/Tobago",
+  month        = "12--16 " # feb,
+  keywords     = "onion routing, io automata, ",
+  abstract     = "Onion routing is a scheme for anonymous communication that is
+    designed for practical use.  Until now, however, it has had no formal model
+    and therefore no rigorous analysis of its anonymity guarantees.  We give an
+    IO-automata model of an onion-routing protocol and, under possibilistic
+    definitions, characterize the situations in which anonymity and
+    unlinkability are guaranteed.", 
+  location     = "http://dx.doi.org/10.1145/960120.801827"
 }
 
