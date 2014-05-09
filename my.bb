@@ -1364,6 +1364,71 @@
   location     = "http://dx.doi.org/10.1145/800050.801827"
 }
 
+@Article{s4assads,
+  author       = "Friedrich~W. Beichter and Otthein Herzog and Heiko Petzsch",
+  title        = "{SLAN}-4---{A} Software Specification and Design Software",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "155--162",
+  month        = mar,
+  keywords     = "specification language, axiomatic specifications, algebraic
+    specifications", 
+  abstract     = "SLAN-4 (Software Language-4) was developed to meet the need
+    for a formal tool for specifying and designing large software systems.  It
+    provides language constructs for algebraic and axiomatic specifications and
+    also pseudocode constructs for the design step.  A major design goal was to
+    ease subsequent refinements of a (given) specification.  The design can
+    start with a very informal specification, which can be implemented later
+    using lower level concepts.  This paper gives an overview of the SLAN-4
+    syntax and semantics.  It concentrates on the most important aspects of:
+    abstract data types, algebraic specification of abstract data types, and
+    axiomatic specification of modules.  Because the pseudocode part of SLAN-4
+    consists mainly of control structures similar to those in modern high-level
+    programming languages, this element of the language is not separately
+    described.  The paper includes an example of how to use SLAN-4, and also
+    the experiences gained in using the language to formally specify a
+    real-world software product of about 18 000 lines of code written in an IBM
+    internal high-level language.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010217"
+}
+
+@Article{spmd,
+  author       = "Douglas~W. Jones",
+  title        = "Systematic Protection Mechanism Design",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "77--80",
+  month        = mar,
+  keywords     = "protection, ada, capabilities, architecture design",
+  abstract     = "This work describes an attempt to systematically design a 
+    hardware resource protection mechanism when given the requirements of a
+    particular language as a target.  The design process is formalized as a
+    structured walk through the multidimensional computer design space towards
+    a hypothetical class of optimal machines.  Each step in this walk involves
+    a change in the distribution of work between the compiler and run-time
+    system but no change in the source language semantics.  The starting point
+    for this walk is the result of a semantic analysis of the language to be
+    implemented; typically, this produces a very high level machine where the
+    compiler, if any, is trivial.  The walk ends when no changes result in a
+    net improvement.  This does not guarantee that the result is even locally
+    optimal, since the changes tried depend on the ingenuity and persistence of
+    the designer.  This design approach has been used to arrive at a practical,
+    general purpose protection mechanism oriented towards the needs of the Ada
+    language (preliminary version).  This architecture was evaluated by
+    comparing it with the PDP-11/45.  For the purpose of this comparison, the
+    protection mechanism was incorporated into a partially specified PDP-11
+    like instruction set.  The number of bits making up the processor state and
+    the number of operations involved in address computation were evaluated.
+    On this basis, the result appears to be competitive and worth further
+    investigation.", 
+  location     = ""
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
