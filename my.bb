@@ -1426,7 +1426,56 @@
     the number of operations involved in address computation were evaluated.
     On this basis, the result appears to be competitive and worth further
     investigation.", 
-  location     = ""
+  location     = "http://dx.doi.org/10.1145/800050.801828"
+}
+
+@Article{oagpommt,
+  author       = "Karl Reed",
+  title        = "On a General Property of Memory Mapping Tables",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "81--86",
+  month        = mar,
+  keywords     = "memory mapping, page tables, display, segmentation, virtual
+    memory",
+  abstract     = "The paper shows that memory mapping tables can be used to 
+    implement the display registers used in providing architectural support for
+    block-structured languages such as Algol 60.  This allows full lexical
+    level addressing to be implemented on so-called von-Neuman machines.  The
+    problems of fragmentation of the paged address space are explored, and
+    machines with memory mapping schemes capable of supporting the proposals
+    identified.  Attention is drawn to the similarity between segmented and
+    paged schemes, and it is suggested that the latter may be used to support
+    the former.", 
+  location     = "http://dx.doi.org/10.1145/800050.801829"
+}
+
+@Article{aetioa,
+  author       = "Cook, Robert~P. and Donde, Nitin",
+  title        = "An Experiment to Improve Operand Addressing",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "87--91",
+  month        = mar,
+  abstract     = "MCODE is a high-level language, stack machine designed to 
+    support strongly-typed, Pascal-based languages with a variety of data types
+    in a modular programming environment.  The instruction set, constructed for
+    efficiency and extensibility, is based on an analysis of 120,000 lines of
+    Pascal programs.  The design was compared for efficiency with the
+    instruction sets of the Digital Equipment PDP-11 and VAX by examining the
+    generated code from the same compiler for all three machines.  In addition,
+    the original design choices were tested by analyzing the generated code
+    from 19,000 lines of StarMod programs.  As a result of this iterative
+    experiment, we have summarized our observations in an efficient
+    reorganization of the VAX's addressing modes.", 
+  keywords     = "stack machine, computer architecture, addressing modes",
+  location     = "http://dx.doi.org/10.1145/800050.801830"
 }
 
 @TechReport{afsmotmaiidsa,
@@ -1769,6 +1818,16 @@
   address      = nyny,
   keywords     = "9/11, clean-up, tribalism",
   location     = "HV 6432 L364"
+}
+
+@Book{w40ds,
+  author       = "David Sedlak",
+  title        = "Water 4.0",
+  publisher    = yup,
+  year         = 2014,
+  address      = nhco,
+  keywords     = "water, water supplies, water treatment, sewage processing",
+  location     = "GB 659.6 S44"
 }
 
 @InProceedings{amoorwpa,
