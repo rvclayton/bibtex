@@ -1478,6 +1478,46 @@
   location     = "http://dx.doi.org/10.1145/800050.801830"
 }
 
+@Article{opbi,
+  author       = "Wladyslaw~M. Turski",
+  title        = "On Programming by Iterations",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "175--178",
+  month        = mar,
+  abstract     = "Iterative computations are considered in this paper as a 
+    general problem-solving technique. The loop invariant is derived from
+    problem properties rather than from program properties (as is usual in
+    programming literature). To this end, the notion of equisolution states-a
+    special subset of space-state in which lie the iterated trajectories-is
+    introduced.",
+  keywords     = "axiomatic semantics, iterations, loop invariants, program
+    derivation, problem solving",
+  location     = ""
+}
+
+@Article{ccahioc,
+  author       = "Fusaoka, Akira and Hirayama, Masaharu",
+  title        = "Compiling Chip:  {A} Hardware Implementation of Compiler",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "92--95",
+  month        = mar,
+  abstract     = "In this paper we discuss about another approch: Compiler 
+    Chip, which is a VLSI implementation of a compiler.  Constructing a
+    compiler by a few VLSI chip, the computer manufacturer can deliver
+    compilers by sets of VLSI chips, and these chips are installed in a
+    intelligent terminal in order to remove the compilation from the tasks
+    which are processed in the mainframe.", 
+  keywords     = "compilation, pascal, compiler chips",
+  location     = "http://dx.doi.org/10.1145/800050.801831"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
