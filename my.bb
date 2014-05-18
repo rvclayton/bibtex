@@ -1518,6 +1518,22 @@
   location     = "http://dx.doi.org/10.1145/800050.801831"
 }
 
+@Article{faatwotp,
+  author       = "Karl~K. Darrow",
+  title        = "Forces and Atoms:  The World of the Physicist",
+  journal      = bstj,
+  year         = 1941,
+  volume       = 20,
+  number       = 3,
+  pages        = "340--358",
+  month        = jul,
+  keywords     = "atoms, classical physics, quantum physics",
+  abstract     = {Opening lecture of a course on “Nuclear Physics and Theory of
+    Solids" delivered in the Spring semester of 1941, during the author's
+    tenure of the William Allan Neilson chair at Smith College.},
+  location     = "https://archive.org/details/bstj20-3-340"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
