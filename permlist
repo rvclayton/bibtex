@@ -867,6 +867,7 @@ copying and comparing problems and solutions : grogono
 copyrights and author responsibilities : stone
 core javascript guide : javascript
 coroutines and networks of parallel processes : kahn
+correct and robust programs : cristian
 correct architecture refinement : moriconi
 correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
@@ -2028,6 +2029,7 @@ occams razor the cutting edge for parser technology : bowen
 off and on tokens : clark
 old dogs and new tricks : nelson
 omniscient debugger user manual : lewis
+on a general property of memory mapping tables : reed
 on computable numbers with an application to the entscheidungsproblem : turing
 on criteria for module interfaces : hoffman
 on distributed fault simulation : brooks
@@ -2035,6 +2037,7 @@ on group comunication in large scale distributed systems : babaoglu
 on holy wars and a plea for peace : cohen
 on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
+on programming by iterations : turski
 on research into the individual and computing systems : jarvinen
 on resource management and qos guarantees for long range dependent traffic : adas
 on scalable state based specifications for real time systems : shaw
@@ -2053,6 +2056,7 @@ on the fly garbage collection an exercise in cooperation : dijkstra
 on the linearization of graphs and writing symbol files : griesemer
 on the optimality of cyclic transmission in teletext systems : ammar
 on the relative efficiencies of context free grammar recognizers : griffiths
+on the resilience of routing tables : feigenbaum
 on the robustness of herlihy's hierarchy : jayanti
 on the usability of {oo} representations : agarwal
 on the use of destination set grouping to improve fairness in multicast video distribution : cheung
