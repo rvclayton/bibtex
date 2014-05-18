@@ -765,18 +765,6 @@
 		   computations"
 }
 
-@article{sotufs,
-  author	= "Carroll Morgan and Bernard Sufrin",
-  title		= "Specification of the" # unix # "Filing System",
-  journal	= tse,
-  year		= 1984,
-  volume	= "SE-10",
-  number	= 2,
-  pages		= "128--142",
-  month		= mar,
-  keywords	= "formal specification, shema calculus, unix, file system, Z"
-}
-
 @article{isfswar,
   author	= "Henry~G. Baker",
   title		= "Inlining Semantics for Subroutines Which are Recursive",
