@@ -1534,6 +1534,33 @@
   location     = "https://archive.org/details/bstj20-3-340"
 }
 
+@Article{carpfc,
+  author       = "Flaviu Cristian",
+  title        = "Correct and Robust Programs",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "163--174",
+  month        = mar,
+  keywords     = "exception handling, program robustness, structured
+    programming, total correctness, weakest preconditions, language design",
+  abstract     = "The design of programs which are both correct and robust is 
+    investigated.  It is argued that the notion of an exception is a valuable
+    tool for structuring the specification, design, verification, and
+    modification of such programs.  The syntax and semantics of a language with
+    procedures and exception handling are presented.  A deductive system is
+    proposed for proving total correctness and robustness properties of
+    programs written in this language.  The system is both sound and complete.
+    It supports proof modularization, in that it allows one to reason
+    separately about fault-free and fault-tolerant system properties.  Since
+    the programming languages considered closely resembles CLU or Ada, the
+    presented deductive system is easily adaptable for verifying total
+    correctness and robustness properties of programs written in these, or
+    similar, languages.",
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010218"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
