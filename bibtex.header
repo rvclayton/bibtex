@@ -11,6 +11,7 @@
 @string{amne    = "Amsterdam, The Netherlands"}
 @string{anca    = "Anaheim, California"}
 @string{attbl   = "AT\&T Bell Laboratories"}
+@string{asplos  = "Architectural Support for Programming Languages and Operating Systems"}
 @string{atoh    = "Athens, Ohio"}
 @string{atx	= "Austin, Texas"}
 @string{aw	= "Addison-Wesley"}
@@ -215,6 +216,7 @@
 @string{sej	= "Software Engineering Journal"}
 @string{sen     = "ACM SIGSoft Software Engineering Notes"}
 @string{sfca	= "San Francisco, " # CA}
+@string{sigarch = "ACM SIGARCH Computer Architecture News"}
 @string{sigcomm = "ACM SIGCOMM"}
 @string{sigcseb = "SICGSE Bulletin"}
 @string{sigplan = "SIGPLAN Notices"}
