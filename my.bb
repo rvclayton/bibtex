@@ -1929,6 +1929,16 @@
   location     = "GB 659.6 S44"
 }
 
+@Book{oigjb,
+  author       = "John Brooks",
+  title        = "Once in Golconda",
+  publisher    = "Harper \& Row",
+  year         = 1969,
+  address      = nyny,
+  keywords     = "wall street, the crash, finance, nyse, chicanery",
+  location     = "HG 4572 B7"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
