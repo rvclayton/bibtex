@@ -1561,6 +1561,22 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010218"
 }
 
+@Article{ccahdocst,
+  author       = "Broomell, George and Heath, J.~Robert",
+  title        = "Classification Categories and Historical Development of Circuit Switching Topologies",
+  journal      = surveys,
+  year         = 1983,
+  volume       = 15,
+  number       = 2,
+  pages        = "95--133",
+  month        = jun,
+  keywords     = "circuit switching, computers, distributed-parallel
+    processing, interconnection networks, switching topologies, clos networks,
+    shuffle-exchange networks, benes networks, banyon networks",
+  abstract     = "",
+  location     = "http://dx.doi.org/10.1145/356909.356912"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
