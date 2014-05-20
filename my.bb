@@ -1577,6 +1577,73 @@
   location     = "http://dx.doi.org/10.1145/356909.356912"
 }
 
+@Article{asftegocfha,
+  author       = "Rau, B.~R. and Glaeser, C.~D. and Greenawalt, E.~M.",
+  title        = "Architectural Support for the Efficient Generation of Code for Horizontal Architectures",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "96--99",
+  month        = mar,
+  keywords     = "horizontal architectures, scheduling, delays, code
+    generation, interconnection networks, polycyclic architectures",
+  abstract     = "Horizontal architectures, such as the CDC Advanced Flexible
+    Processor and the FPS APi20-B, consist of a number of resources that can
+    operate in parallel, each of which is controlled by a field in the wide
+    instruction word.  Such architectures have been developed to perform high
+    speed scientific computations at a modest cost: Figure 1 displays those
+    characteristics of horizontal architectures that are germane to the issues
+    discussed in this paper.  The simultaneous requirements of high performance
+    and low cost lead to an architecture consisting of multiple pipelined
+    processing elements (PEs) such as adders and multipliers, a memory (which
+    for scheduling purposes may be viewed as yet another PE with two
+    operations: a READ and a WRITE), and an interconnect which ties them all
+    together.  The interconnect allows the result of one operation to be
+    directly routed to another PE as one of the inputs for an operation that is
+    to be performed there.  The required memory bandwidth is reduced since
+    temporary values need not be written to and read from the memory.  The
+    final aspect of horizontal processors that is of interest is that their
+    program memories emit wide instructions which synchronously specify the
+    actions of the multiple and possibly dissimilar PEs.  The program memory is
+    sequenced by a conventional sequencer that assumes sequential flow of
+    control unless a branch is explicitly specified.  As a consequence of the
+    simplicity of such an architecture, it is inexpensive relative to the
+    potential performance of the multiple pipelined PEs.  However, if this
+    potential performance is to be realized, the multiple resources of a
+    horizontal processor must be scheduled effectively.  The scheduling task
+    for conventional horizontal processors is quite complex and the
+    construction of highly optimizing compilers for them is a difficult and
+    expensiw3 project.  The polycyclic architecture is a horizontal
+    architecture with architectural support for the scheduling task.  The cause
+    of the complexity involved in scheduling conventional horizontal processors
+    and the manner in which the polycyclic architecture addresses this issue
+    are outlined in this paper.", 
+  location     = "http://dx.doi.org/10.1145/800050.801832"
+}
+
+@Article{cadcmc,
+  author       = "Abraham Silberschatz",
+  title        = "Cell: {A} Distributed Computing Modularization Concept",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "178--185",
+  month        = mar,
+  keywords     = "communication, distributed systems, programming languages,
+    process scheduling, program synchronization",
+  abstract     = "This paper presents a new language construct for distributed
+    computing.  This construct, called cell, allows one to simulate a variety
+    of language constructs, Its salient features provide the programmer with:
+    1) an effective communication and synchronization scheme, 2) a mechanism to
+    control the order in which various activities within a cell should be
+    executed.  We demonstrate the usefulness of our concepts by providing
+    solutions to a variety of programming exercises.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010220"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
