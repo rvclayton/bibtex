@@ -1644,6 +1644,35 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010220"
 }
 
+@Article{aaoamisudif,
+  author       = "Gene McDaniel",
+  title        = "An Analysis of a {M}esa Instruction Set Using Dynamic Instruction Frequencies",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "167--176",
+  month        = mar,
+  keywords     = "microcoding, dynamic tracing, instruction counting,
+    architecture design",
+  abstract     = "The Mesa architecture is implemented on a variety of 
+    processors, and dynamic instruction frequency data for two programs is used
+    to analyze the architecture in an implementation independent fashion.  The
+    Mesa compiler allocates variables in an order based upon their static
+    frequency of use, and measurements are provided that show that these static
+    predictions predict run time usage as well.  We provide an evaluation of
+    the advantages and costs of Mesa's compact byte encoding, its reliance upon
+    an evaluation stack, and its use of memory.  The Mesa language has evolved
+    over time in a hardware environment oriented around 16-bit quantities with
+    growing use of and accommodations to 32-bit quantities.  The cost of
+    emulating 32-bit data paths on a 16-bit machine is identified for a program
+    that heavily exploits longer values.  Several potential areas for improving
+    the execution speed of a Mesa processor with special purpose hardware are
+    identified.", 
+  location     = "http://dx.doi.org/10.1145/800050.801840"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
