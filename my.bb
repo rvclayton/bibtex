@@ -2006,6 +2006,16 @@
   location     = "HG 4572 B7"
 }
 
+@Book{wybdw,
+  author       = "Donald Westlake",
+  title        = "Watch Your Back!",
+  publisher    = "Mysterious Press",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "skullduggery",
+  location     = "PS 3573.E9 W17"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
