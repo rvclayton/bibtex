@@ -2045,6 +2045,16 @@
   location     = "PS 3573.E9 W17"
 }
 
+@Book{sohlmb,
+  author       = "Lois McMaster Bujold",
+  title        = "Shards of Honor",
+  publisher    = "Baen Books",
+  year         = 1986,
+  address      = nyny,
+  keywords     = "treachery, deceit",
+  location     = "PS 3552.U397 S53"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
