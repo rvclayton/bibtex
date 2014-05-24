@@ -1698,6 +1698,28 @@
   location     = "http://dx.doi.org/10.1145/800050.801841"
 }
 
+@Article{thoer,
+  author       = "Julian Blanchard",
+  title        = "The History of Electrical Resonance",
+  journal      = bstj,
+  year         = 1941,
+  volume       = 20,
+  number       = 4,
+  pages        = "415--433",
+  month        = oct,
+  keywords     = "alternating current circuit, leyden jar, electrical resonance
+    curve",
+  abstract     = "Our earliest knowledge of electricity was of the static kind;
+   later came the voltaic cell and direct current. But not until the discovery
+   of alternating or oscillating currents could the phenomenon of electrical
+   resonance make its appearance, Today, as we turn the dials of our radio
+   receivers and “tune in” on the station we want it is recognized how
+   widespread the application of electrical resonance has become. Nevertheless,
+   it seems that few have given thought as to how this important principle came
+   to light and how and when it came into common use.",
+  location     = "http://www3.alcatel-lucent.com/bstj/vol20-1941/articles/bstj20-4-415.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
