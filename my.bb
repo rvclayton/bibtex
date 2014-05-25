@@ -1720,6 +1720,69 @@
   location     = "http://www3.alcatel-lucent.com/bstj/vol20-1941/articles/bstj20-4-415.pdf"
 }
 
+@Article{haosnmibf,
+  author       = "Kamibayashi, N. and Ogawana, H. and Nagayama, K. and Aiso, H.",
+  title        = "Heart:  An Operating System Nucleus Machine Implemented by Firmware",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "195--204",
+  month        = mar,
+  keywords     = "firmware, microcoding, operating systems, software system
+    design",
+  abstract     = "This paper discusses the role of microprogramming in
+    operating system design and shows several things: (1) advantages of the
+    efficiency which may be gained from microcoded operating system primitives,
+    (2) selecting the most appropriste primitives for implementation, and (3)
+    an analysis of the tradeoffs among software, firmware, and hardware.  The
+    authors propose a practical approach of enhancing computer architecture
+    level, from a view point of functional hierarchy of operating systems.  In
+    order to prove the advantages of this approach, we have designed and
+    implemented an experimental abstract machine for an operating system
+    nucleus.  This research is an experimental design, and evaluation on its
+    operating system nucleus machine,called HEART.  HEART is a set of primitive
+    and universal functions, and works as a nucleus of a multiprogrammed
+    operating system.  The research results of our approach are the followings:
+    First, to clarify the properties of operating system nucleus, taking
+    functional hierarchy of operating system into consideration.  Second, to
+    show the design of operating system nucleus based on novel concepts.
+    Third, to confirm the possibility of implimenting operating system nucleus
+    machine.  Finally, we give a performance evaluation on microcoded HEART and
+    the effectiveness of enhancing computer architecture level based on the
+    properties of operating systems.", 
+  location     = "http://dx.doi.org/10.1145/800050.801843"
+}
+
+@Article{fsaasfmvmaum,
+  author       = "Maekawa, Mamoru and Sakamura, Ken and Ishikawa, Chiaki",
+  title        = "Firmware Structure and Architectural support for Monitors, Vertical Migration and User Microprogramming",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "185--194",
+  month        = mar,
+  keywords     = "operating system structure, performance, vertical migration,
+    dynamic microprogramming, processor architecture, interrupts, resource
+    management",
+  abstract     = "This paper describes firmware and hardware support necessary
+    for constructing easy-to-understand and high performance operating systems
+    including language translators and interpreters.  Basic principles are
+    one-to-one correspondence between logical hierarchy and physical hierarchy,
+    and vertical migration.  Implementation of monitors in firmware and
+    architectural support for it are discussed, and a sample system is shown.
+    Architectural support for user microprogramming is then discussed and an
+    example is shown.  After a total system firmware structure is discussed, an
+    experiment of vertical migration is described.  It is shown that a proper
+    selection of modules for migration is extremely important.  It is suggested
+    that the direction shown in this paper is one of future directions of
+    computer systems.", 
+  location     = "http://dx.doi.org/10.1145/800050.801842"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
