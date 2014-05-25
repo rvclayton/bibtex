@@ -2165,6 +2165,18 @@
   location     = "PS 3552.U397 S53"
 }
 
+@Book{tmitb,
+  author       = "A.~David Redish",
+  title        = "The Mind in the Brain",
+  publisher    = oup,
+  year         = 2013,
+  address      = oxuk,
+  keywords     = "decision making, reflexes, emotion, pavlovian systems,
+    deliberation, habits, information, motivation, self-control, imagination,
+    addiction, gambling, ptsd, morality, free will, neuroscience",
+  location     = "BF 448 R43"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
