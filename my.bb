@@ -1783,6 +1783,56 @@
   location     = "http://dx.doi.org/10.1145/800050.801842"
 }
 
+@Article{acwskl,
+  author       = "Wu, Meng-Lih and Hwang, Tai-Yang",
+  title        = "Access Control with Single-Key-Lock",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "185--191",
+  month        = mar,
+  keywords     = "access control, access control hierarchy, assess matrix,
+    key, lock, protection, security",
+  abstract     = "Based on the concept of an access matrix, a new protection
+    system that achieves access control is proposed.  In this system,
+    associated with each accessor is only a key, and associated with each
+    resource is only a lock, and through simple operations on the keys and
+    locks, privacy decisions of the protection system can be revealed.
+    Amechanism that realizes this system is also described.  Noticing the
+    importance of the role hierarchies play in access control, another
+    mechanism is devised such that each node in the hierarchy is assigned a key
+    and a simple operation on any two keys reveals the relationship of the two
+    nodes corresponding to the two keys.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010221"
+}
+
+@Article{gfcadp,
+  author       = "McLear, R.~E. and Scheibelhut, D.~M. and Tammaru, E.",
+  title        = "Guidlines for Creating a Debuggable Processor",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "100--106",
+  month        = mar,
+  keywords     = "processor design, debugging, performance monitoring",
+  abstract     = "Hardware without software is of little use.  Systems that
+    ease the task of debugging software reduce cost and speed development.
+    This paper presents guidelines for designing processors that ease debugging
+    for real-time computer systems.  Special hardware can aid the debugging
+    process by tracing execution and accesses to memory.  Such hardware
+    requires access to signals that may not be readily available.  Other, less
+    exotic hardware provides an interface to the programmer and other
+    processors.  The hardware and software of the debugging system should not
+    alter the real-time characteristics of the system under test and should be
+    able to operate on a field-grade processor.  It is undesirable to require
+    special versions of processor hardware and software for the debugging
+    system.", 
+  location     = "http://dx.doi.org/10.1145/800050.801833"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
