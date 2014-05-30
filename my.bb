@@ -1833,6 +1833,30 @@
   location     = "http://dx.doi.org/10.1145/800050.801833"
 }
 
+@Article{ammawhsfcas,
+  author       = "Ahuja, Sudhir~R. and Asthana, Abhaya",
+  title        = "{A} Multi-Microprocessor Architecture with Hardware Support for Communication and Scheduling",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "205--209",
+  month        = mar,
+  keywords     = "system architecture, communications co-processor,
+    multi-processor systems",
+  abstract     = "We describe a multiprocessor system that attempts to enhance
+    the system performance by incorporating into its architecture a number of
+    key operating system concepts.  In particular: — the scheduling and
+    synchronization of concurrent activities are built in at the hardware
+    level, — the interprocess communication functions are performed in
+    hardware, and, — a coupling between the scheduling and communication
+    functions is provided which allows efficient implementation of parallel
+    systems that is precluded when the scheduling and communication functions
+    are realized in software.",
+  location     = "http://dx.doi.org/10.1145/800050.801844"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
