@@ -2251,6 +2251,27 @@
   location     = "BF 448 R43"
 }
 
+@Book{paloi,
+  author       = "Donald~E. Westlake",
+  title        = "Put a Lid on It",
+  publisher    = "Mysterious Press",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "treachery, theft",
+  location     = "PS 3573.E9 P88"
+}
+
+@Book{fbml,
+  author       = "Michael Lewis",
+  title        = "Flash Boys",
+  publisher    = "W.~W. Norton",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "finance, high-frequency trading, stock exchanges, wall
+    street, corruption, financial regulations",
+  location     = "HG 4628.5 L49"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
