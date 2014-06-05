@@ -1857,6 +1857,52 @@
   location     = "http://dx.doi.org/10.1145/800050.801844"
 }
 
+@Article{acospo,
+  author       = "Hirzel, Martin and Soul{\' e}, Robert and Schneider, Scott
+    and Gedik, Bu{\v g}ra; Grimm, Robert", 
+  title        = "{A} Catalog of Stream Processing Optimizations",
+  journal      = surveys,
+  year         = 2014,
+  volume       = 46,
+  number       = 4,
+  pages        = "46:1--46:34",
+  month        = apr,
+  keywords     = "stream processing, optimizations",
+  abstract     = "Various research communities have independently arrived at 
+    stream processing as a programming model for efficient and parallel
+    computing.  These communities include digital signal processing, databases,
+    operating systems, and complex event processing.  Since each community
+    faces applications with challenging performance requirements, each of them
+    has developed some of the same optimizations, but often with conflicting
+    terminology and unstated assumptions.  This article presents a survey of
+    optimizations for stream processing.  It is aimed both at users who need to
+    understand and guide the system’s optimizer and at implementers who need to
+    make engineering tradeoffs.  To consolidate terminology, this article is
+    organized as a catalog, in a style similar to catalogs of design patterns
+    or refactorings.  To make assumptions explicit and help understand
+    tradeoffs, each optimization is presented with its safety constraints (when
+    does it preserve correctness&quest;) and a profitability experiment (when
+    does it improve performance&quest;).  We hope that this survey will help
+    future streaming system builders to stand on the shoulders of giants from
+    not just their own community.", 
+  location     = "http://hirzels.com/martin/papers/tr11-rc25215-opt-catalog.pdf",
+  location     = "http://dx.doi.org/10.1145/2528412"
+}
+
+@Article{tbtgsipssphee,
+  author       = "Andrew Gelman",
+  title        = "Teaching {B}ayes to Graduate Students in Political Science, Sociology, Public Health, Education, Economics, $\ldots$",
+  journal      = "
+		  The American Statistician",
+  year         = 2008,
+  volume       = 62,
+  number       = 3,
+  pages        = "202--205",
+  month        = aug,
+  keywords     = "bayes, pedagogy, statistics",
+  location     = "http://www.stat.columbia.edu/~gelman/research/published/teachingbayes.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
