@@ -26,6 +26,7 @@ a case for runtime code generation : keppel
 a case study in applied algorithm design : bentley
 a case study of a netizens guide to elections : dutton
 a case tool platform using an xml representation of java source code : maruyama
+a catalog of stream processing optimizations : hirzel
 a centaur tutorial : anon
 a classification of case technology : fuggetta
 a cmos risc processor with integrated system functions : moussouris
@@ -710,6 +711,7 @@ ccmalloc : biere
 cd writing howto : trumper
 cdt a container data type library : vo
 cecil a sequencing constraint language for automatic static analysis generation : olender
+cell a distributed computing modularization concept : silberschatz
 cellular automata for solving mazes : nayfeh
 census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
@@ -2799,6 +2801,7 @@ tcl and swing as a c c++ development tool : beazley
 tcldot graph manipulations in tcl : tcldot
 tcll1 an ll1 parser generator and parser : christopher
 tcp vegas new techniques for congestion detection and avoidance : brakmo
+teaching bayes to graduate students in political science sociology public health education economics : gelman
 teaching design : coplien
 teaching graphics using ada : brown
 teaching object oriented programming is more than teaching object oriented programming languages : lindskov 
