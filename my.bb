@@ -1903,6 +1903,39 @@
   location     = "http://www.stat.columbia.edu/~gelman/research/published/teachingbayes.pdf"
 }
 
+@Article{aprtwaifsu,
+  author       = "Li-Chi Feng and Ruei-Chuan Chang",
+  title        = "Achieving Predictable Response time with an Intelligent File System Updater",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = "3",
+  pages        = "217--237",
+  month        = "Summer",
+  keywords     = "performance, disk-io, scheduling, burst management,
+    asynchronous write-back, buffering, caching",
+  abstract     = "Delayed write is a very popular technique to improving the 
+    file system performance of UNIX operating systems.  When write operations
+    are delayed, an update policy decides how and when to write these modified
+    blocks to their assigned disk locations.  Recent research results show that
+    conventional update mechanisms perform not very well, because they neglect
+    the fact that different I/O requests naturally have different
+    characteristics.  It makes time critical interactive jobs endure large
+    variations in response time.  Update policy controls background write
+    activities that are less time critical and should be performed under
+    constraints that do not violate the urgency of other time critical jobs.
+    In this paper we propose an effective update scheme.  We suggest new
+    techniques: burst declustering and opportunistic asynchronous write.
+    Besides, we develop a system activity sensor called SAPRO (system activity
+    probe) that monitors the system activities and disk queuing status to
+    adjust the behavior of our algorithm.  Performance evaluation shows that
+    our algorithm can alleviate the lengthy queuing delay, reduce the variance
+    and worst case read response time significantly (30% and 51% respectively).
+    The mean read response time and total system performance are also
+    improved.", 
+  location     = "http://www.usenix.org/publications/compsystems/1996/sum_feng.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
