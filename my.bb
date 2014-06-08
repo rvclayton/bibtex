@@ -2351,6 +2351,16 @@
   location     = "HG 4628.5 L49"
 }
 
+@Book{rdel,
+  author       = "Elmore Lenoard",
+  title        = "Road Dogs",
+  publisher    = "William Morrow",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "friends, home ownership",
+  location     = "PS 3562.E55 R63"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
