@@ -2361,6 +2361,16 @@
   location     = "PS 3562.E55 R63"
 }
 
+@Book{fdel,
+  author       = "Elmore Leonard",
+  title        = "Freaky Deaky",
+  publisher    = "Arbor House",
+  year         = 1988,
+  address      = nyny,
+  keywords     = "deception, murrdaar, the soft touch",
+  location     = "PS 3562.E55 F7"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
