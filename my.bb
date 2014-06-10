@@ -1936,6 +1936,60 @@
   location     = "http://www.usenix.org/publications/compsystems/1996/sum_feng.pdf"
 }
 
+@Article{hsfmpci,
+  author       = "M.~V. Wilkes",
+  title        = "Hardware Support for Memory Protection:  Capability Implementations",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "107--116",
+  month        = mar,
+  keywords     = "capabilities, implementation, security, operating system",
+  abstract     = "This paper is intended to stimulate discussion on the present
+    state of hardware supported capability systems.  Interest in such systems
+    grew up in the mid-1960's and since that time information has been
+    published on several different versions.  In the opinion of some observers,
+    the software complexity of these systems outweighs the advantage gained.
+    The paper surveys the situation, and endeavors to set out the general
+    features that a hardware supported capability system should possess.  An
+    attempt is made to identify the causes of the complexity and to make
+    recommendations for removing them.  The arguments for and against the
+    tagging of capabilities are discussed and attention is drawn to a system of
+    semi-tagging previously proposed by the author.",
+  location     = "http://dx.doi.org/10.1145/800050.801834"
+}
+
+@Article{ombmltmsfhpc,
+  author       = "David~R. Cheriton and Robert~A. Kutter",
+  title        = "Optimized Memory-Based Messaging:  Leveraging the Memory System for High-Performance Communication",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = 3,
+  pages        = "179--215",
+  month        = "Summer",
+  keywords     = "system design, ipc, shared-memory systems, caching,
+    multiprocessor systems, rpc",
+  abstract     = "Memory-based messaging, passing messages between programs
+    using shared memory, is a recognized technique for efficient communication
+    that takes advantage of memory system performance.  However, the
+    conventional operating system support for this approach is inefficient,
+    especially for large-scale multiprocessor interconnects, and is too complex
+    to effectively support in hardware.  This paper describes hardware and
+    software optimizations for memory-based messaging that efficiently exploit
+    the mechanisms of the memory system to provide superior communication
+    performance.  We describe the overall model of optimized memory-based
+    messaging, its implementation in an operating system kernel and hardware
+    support for this approach in a scalable multiprocessor architecture.  The
+    optimizations include address-valued signals, message-oriented memory
+    consistency and automatic signaling on write.  Performance evaluations show
+    these extensions provide a three-to-five-fold improvement in communication
+    performance over a comparable software-only implementation.", 
+  location     = "http://i.stanford.edu/pub/cstr/reports/cs/tr/94/1506/CS-TR-94-1506.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -2320,7 +2374,7 @@
 
 @Book{tmitb,
   author       = "A.~David Redish",
-  title        = "The Mind in the Brain",
+  title        = "The Mind within the Brain",
   publisher    = oup,
   year         = 2013,
   address      = oxuk,
@@ -2369,6 +2423,16 @@
   address      = nyny,
   keywords     = "deception, murrdaar, the soft touch",
   location     = "PS 3562.E55 F7"
+}
+
+@Book{aoi,
+  author       = "Jonathan Wendell Slivertown",
+  title        = "An Orchard Invisible",
+  publisher    = "The University of Chicago Press",
+  year         = 2009,
+  address      = chil,
+  keywords     = "seeds, evolution, botany",
+  location     = "QK 661.S558"
 }
 
 @InProceedings{amoorwpa,
