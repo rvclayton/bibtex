@@ -1990,6 +1990,33 @@
   location     = "http://i.stanford.edu/pub/cstr/reports/cs/tr/94/1506/CS-TR-94-1506.pdf"
 }
 
+@Article{atfbfrc,
+  author       = "Christopher~J. Calabrese",
+  title        = "{A} Tool for Building Firewall-Router Configurations",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = 3,
+  pages        = "239--253",
+  month        = "Summer",
+  keywords     = "router configuration, little languages, shell programming,
+    software engineering",
+  abstract     = "Several commercial firewall solutions are currently 
+    available, but they may not be appropriate for all situations because of
+    their expense, lack of flexibility, or lack of scalability.  Instead, many
+    firewalls are built using packet-filtering routers.  One big impediment to
+    building router-based firewalls is how poorly the configuration languages
+    used to describe the proper operation of the routers are suited to the job
+    of building and maintaining robust firewalls.  These languages are overly
+    terse and do not support software-engineering techniques such as code reuse
+    and data hiding.This paper describes a tool that overcomes these
+    limitations by generating a configuration in the router's native
+    configuration language from a high-level description of the firewall that
+    is embedded Kornshell, a popular computer language supporting code reuse
+    and data hiding.", 
+  location     = "http://www.usenix.org/publications/compsystems/1996/sum_calabrese.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -2433,6 +2460,16 @@
   address      = chil,
   keywords     = "seeds, evolution, botany",
   location     = "QK 661.S558"
+}
+
+@Book{betp,
+  author       = "Thomas Pynchon",
+  title        = "Bleeding Edge",
+  publisher    = "Penguin",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "fraud, the early 2000s, the dot-com bubble, paranoia",
+  location     = "PS 3566 Y55 B54"
 }
 
 @InProceedings{amoorwpa,
