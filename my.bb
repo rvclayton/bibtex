@@ -2472,6 +2472,17 @@
   location     = "PS 3566 Y55 B54"
 }
 
+@Book{sott,
+  author       = "William Greider",
+  title        = "Secrets of the Temple",
+  publisher    = "Simon \& Schuster",
+  year         = 1987,
+  address      = nyny,
+  keywords     = "federal reserve, banking, finance, monetary policy, fiscal
+    policy, politics, economics, economy, recession, inflation",
+  location     = "HG 2563 G72"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
