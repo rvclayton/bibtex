@@ -2017,6 +2017,35 @@
   location     = "http://www.usenix.org/publications/compsystems/1996/sum_calabrese.pdf"
 }
 
+@Article{sattaisfrrd,
+  author       = "Eric~H. {Herrin, II} and Raphael~A. Finkel",
+  title        = "Schema and Tuple Trees:  An Intuitive Structure for Representing Relatonal Data",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = 3,
+  pages        = "93--118",
+  month        = "Summer",
+  keywords     = "relational data, data structures, joins",
+  abstract     = "Qddb is a publicly available database suite designed for 
+    applications in which the data is a set of records, each containing
+    hierarchical structure.  For example, a database of patients contains a
+    record for each patient; each patient record has multiple copies of visit
+    substructures.  Records containing such nested and replicated attributes
+    are equivalent to the join of traditional relational tables.  Qddb records
+    therefore allow the data to be recorded in a more natural fashion than
+    relational tables.  The presentation of data in Qddb is unusual but
+    intuitive; the user usually views a subset of a full relational row at any
+    given time.  This paper presents schema and tuple trees, the underlying
+    structures of a Qddb database.  Instead of a set of full relational rows
+    representing the join of several tables, the tuple tree represents the
+    tables in a compressed form.  Related data are stored and displayed
+    together, which allows the application designer to build an application in
+    a relatively small amount of time.  The algorithms for search and
+    presentation are quite efficient.", 
+  location     = "https://www.usenix.org/publications/compsystems/1996/spr_herrin.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -2433,7 +2462,7 @@
 }
 
 @Book{rdel,
-  author       = "Elmore Lenoard",
+  author       = "Elmore Leonard",
   title        = "Road Dogs",
   publisher    = "William Morrow",
   year         = 2009,
