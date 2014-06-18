@@ -2512,6 +2512,16 @@
   location     = "HG 2563 G72"
 }
 
+@Book{aftppf,
+  author       = "Priscilla Parkhurst Ferguson",
+  title        = "Accounting for Taste",
+  publisher    = ucp,
+  year         = 2004,
+  address      = chil,
+  keywords     = "gastronomy, france, cuisine",
+  location     = "TX 719.F423"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
