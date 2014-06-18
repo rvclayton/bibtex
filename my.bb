@@ -2522,6 +2522,16 @@
   location     = "TX 719.F423"
 }
 
+@Book{oosel,
+  author       = "Elmore Leonard",
+  title        = "Out of Sight",
+  publisher    = "Delacorte Press",
+  year         = 1996,
+  address      = nyny,
+  keywords     = "man on the run, murrdaar",
+  location     = "PS 3562.E55098"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
