@@ -2046,6 +2046,46 @@
   location     = "https://www.usenix.org/publications/compsystems/1996/spr_herrin.pdf"
 }
 
+@Article{dcfamfs,
+  author       = "Stavros Christodoulakis and Chris Faloutsos",
+  title        = "Design Considerations for a Message File Server",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 2,
+  pages        = "201--210",
+  month        = mar,
+  keywords     = "electronic message filing, office automation, text retrieval,
+    superimposed coding",
+  abstract     = "In this paper we describe a message server facility for 
+    handling large organizational archives of messages in an office information
+    system environment.  Messages can be retrieved according to attribute
+    values specified and to some pattern of words appearing in the text of the
+    message.  We discuss design decisions and performance considerations in
+    this environment and we derive analytic formulas for the optimal choice of
+    the parameters of the message file organization.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010223"
+}
+
+@Article{cfrcifa,
+  author       = "Matt Bishop and Michael Dilger",
+  title        = "Checking for Race Conditions in File Accesses",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = 2,
+  pages        = "131--152",
+  month        = "Spring",
+  keywords     = "static analysis, timing attacks, file-system access",
+  abstract     = "Flaws due to race conditions in which the binding of a name
+    to an object changes between repeated references occur in many programs.
+    We examine one type of this flaw in the UNIX operating system, and describe
+    a semantic method for detecting possible instances of this problem.  We
+    present the results of one such analysis in which a previously undiscovered
+    race condition flaw was found.", 
+  location     = "http://static.usenix.org/publications/compsystems/1996/spr_bishop.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
