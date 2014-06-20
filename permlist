@@ -970,7 +970,8 @@ design and implementation of an object oriented 64 bit single address space micr
 design and implementation of flexible user protocol interface : metzler
 design and validation of protocols a tutorial : holzmann
 design by contract to improve software vigilance : le traon
-esign choices for weak consistency group communication : golding
+design choices for weak consistency group communication : golding
+design considerations for a message file server : christodoulakis
 design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
 design fragments make using frameworks easier : fairbanks
 design models for computer human interfaces : gentner
@@ -1640,6 +1641,7 @@ introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
 introduction to shape and shape grammars : stiny
 introduction to simulated annealing : tovy
+introduction to stream control transmission protocol : newmarch
 introduction to the border gateway protocol bgp : hankins
 introduction to the configurable highly parallel computer : snyder
 introduction to the formal treatment of testing : gourlay
@@ -1938,6 +1940,7 @@ multilink ppp one big virtual wan pipe : ammann
 multimedia conferencing on local area networks : ziegler
 multimedia storage servers a tutorial : gemmell
 multi paradigm programming : hanus
+multiple associations with stream control transmission protocol : newmarch
 multiple bus architectures : mudge
 multiple valued logic a tutorial and appreciation : smithm
 ultiplication by integer constants : briggs
@@ -2714,6 +2717,7 @@ strategies for supporting application portability : mooney
 stream data analysis in prolog : parker
 stream data types for signal processing : dennis
 stream processing functions : burge
+stream control transmission protocol sctp associations : newmarch
 streamit a language for streaming applications : thies
 strema specifying application processes using streams : clark
 strengthening passwords : abadi
