@@ -2086,6 +2086,42 @@
   location     = "http://static.usenix.org/publications/compsystems/1996/spr_bishop.pdf"
 }
 
+@Article{mawsctp,
+  author       = "Jan Newmarch",
+  title        = "Multiple Associations with {S}tream {C}ontrol {T}ransmission {P}rotocol",
+  journal      = "Linux Journal",
+  year         = 2007,
+  number       = "163",
+  pages        = "74--78",
+  month        = nov,
+  keywords     = "sctp, associations, chat programs",
+  location     = "http://www.linuxjournal.com/article/9784"
+}
+
+@Article{itsctp,
+  author       = "Jan Newmarch",
+  title        = "Introduction to {S}tream {C}ontrol {T}ransmission {P}rotocol",
+  journal      = "Linux Journal",
+  year         = 2007,
+  number       = 161,
+  pages        = "89--94",
+  month        = sep,
+  keywords     = "sctp, transport protocols",
+  location     = "http://www.linuxjournal.com/article/9748"
+}
+
+@Article{sctpsa,
+  author       = "Jan Newmarch",
+  title        = "Stream {C}ontrol {T}ransmission {P}rotocol ({SCTP}) Associations",
+  journal      = "Linux Journal",
+  year         = 2007,
+  number       = 162,
+  pages        = "74--82",
+  month        = oct,
+  keywords     = "sctp, associations, transport protocol",
+  location     = "http://www.linuxjournal.com/article/9749"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
