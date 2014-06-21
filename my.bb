@@ -2608,6 +2608,18 @@
   location     = "PS 3562.E55098"
 }
 
+@Book{tbpdkg,
+  author       = "Doris Kearns Goodwin",
+  title        = "The Bully Pulpit",
+  publisher    = "Simon \& Schuster",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "progressive politics, william taft, theodore roosevelt,
+    muck-raking, journalism, presidential politics, ida tarbell, s. s. mclure,
+    lincoln steffins", 
+  location     = "E 757.G66"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
