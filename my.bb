@@ -2122,6 +2122,58 @@
   location     = "http://www.linuxjournal.com/article/9749"
 }
 
+@Article{sipisviq,
+  author       = "Geoff Collyer",
+  title        = "Setting Interrupt Priorities in Software via Interrupt Queueing",
+  journal      = "Computing Systems",
+  year         = 1996,
+  volume       = 9,
+  number       = 2,
+  pages        = "119--130",
+  month        = "Spring",
+  keywords     = "interrupts",
+  abstract     = "When hardware interrupt priorities don't match the needs of 
+    software, operating system designers often just suffer in silence.  We
+    describe an alternative: simulating the hardware priority interrupt queuing
+    mechanism in software, but assigning the (software) interrupt priorities as
+    we wish.  This was done on an AMD 29200 microcontoller which has
+    effectively only two interrupt levels: the clock and ever!hing else.", 
+  location     = "https://www.usenix.org/publications/compsystems/1996/spr_collyer.pdf"
+}
+
+@Article{sammiti4,
+  author       = "Pollack, Fred~J. and Cox, George~W. and Hammerstrom,
+    Dan~W. and Kahn, Kevin~C. and Lai, Konrad~K. and Rattner, Justin~R.", 
+  title        = "Supporting {A}da Memory Management in the {IAPX}-432",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "117--116",
+  month        = mar,
+  keywords     = "storage management, inter-task addressing, hardware support,
+    scope management",
+  abstract     = "In this paper, we describe how the memory management
+    mechanisms of the Intel iAPX-432 are used to implement the visibility rules
+    of Ada.  At any point in the execution of an Ada® program on the 432, the
+    program has a protected address space that corresponds exactly to the
+    program's accessibility at the corresponding point in the program's source.
+    This close match of architecture and language did not occur because the 432
+    was designed to execute Ada—it was not.  Rather, both Ada and the 432 are
+    the result of very similar design goals.  To illustrate this point, we
+    compare, in their support for Ada, the memory management mechanisms of the
+    432 to those of traditional computers.  The most notable differences occur
+    in heap-space management and multitasking.  With respect to the former, we
+    describe a degree of hardware/software cooperation that is not typical of
+    other systems.  In the latter area, we show how Ada's view of sharing is
+    the same as the 432, but differs totally from the sharing permitted by
+    traditional systems.  A description of these differences provide some
+    insight into the problems of implementing an Ada compiler for a traditional
+    architecture.", 
+  location     = "http://dx.doi.org/10.1145/960120.801835"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
