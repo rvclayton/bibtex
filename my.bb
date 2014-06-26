@@ -2682,6 +2682,16 @@
   location     = "PS 3562.E55 L3"
 }
 
+@Book{rstp,
+  author       = "Terry Pratchett",
+  title        = "Raising Steam",
+  publisher    = "Doubleday",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "the age of steam",
+  location     = "PR 6066.R34 R35"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
