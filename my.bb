@@ -2672,6 +2672,16 @@
   location     = "E 757.G66"
 }
 
+@Book{lbel,
+  author       = "Elmore Leonard",
+  title        = "LaBrava",
+  publisher    = "Arbor House",
+  year         = 1983,
+  address      = nyny,
+  keywords     = "deception, murrdaar",
+  location     = "PS 3562.E55 L3"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
