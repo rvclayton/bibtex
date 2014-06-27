@@ -2174,6 +2174,57 @@
   location     = "http://dx.doi.org/10.1145/960120.801835"
 }
 
+@Article{tvfii44,
+  author       = "Marshall Kirk McKusick",
+  title        = "The {V}irtual {F}ilesystem Interface in 4.4{BSD}",
+  journal      = "Computing Surveys",
+  year         = 1995,
+  volume       = 8,
+  number       = 1,
+  pages        = "3--25",
+  month        = "Winter",
+  keywords     = "file systems, virtual nodes, stackable file systems, union
+    file systems, file-system services",
+  abstract     = "This paper describes the virtual filesystem interface found
+    in 4.4BSD.  This interface is designed around an object oriented virtual
+    file node orvnode data structure.  The vnode structure is described along
+    with its method for dynamically expand-ing its set of operations.  These
+    operations have been divided into two groups: those to manage the
+    hierarchical filesystem name space and those to manage the flat filestore.
+    The translation of pathnames is described, as it requires a tight coupling
+    between the virtual filesystem layer and the underlying filesystems through
+    which the path traverses.  This paper describes the filesystem services
+    that are exported from the vnode interface to its clients, both local and
+    remote.  It also describes the set of services provided by the vnode layer
+    to its client filesystems.  The vnode interface has been generalized to
+    allow multiple filesystems to be stacked together.After describing the
+    stacking functionality, several examples of stacking filesystems are
+    shown.", 
+  location     = "https://www.usenix.org/publications/compsystems/1995/win_mckusick.pdf"
+}
+
+@Article{tdespr,
+  author       = "Steven~P. Reiss",
+  title        = "The {D}esert Environment",
+  journal      = tosem,
+  year         = 1999,
+  volume       = 8,
+  number       = 4,
+  pages        = "297--342",
+  month        = oct,
+  keywords     = "coding tools, integrated programming environments, program
+    editors, control coordination, fragments, light-weight parsing", 
+  abstract     = "The Desert software engineering environment is a suite of 
+    tools developed to enhance programmer productivity through increased tool
+    integration.  It introduces an inexpensive form of data integration to
+    provide additional tool capabilities and information sharing among tools,
+    uses a common editor to give high-quality semantic feedback and to
+    integrate different types of software artifacts, and builds virtual files
+    on demand to address specific tasks.  All this is done in an open and
+    extensible environment capable of handling large software systems.", 
+  location     = "http://dx.doi.org/10.1145/322993.322994"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
