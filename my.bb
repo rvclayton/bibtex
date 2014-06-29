@@ -2743,6 +2743,18 @@
   location     = "PR 6066.R34 R35"
 }
 
+@Book{tboll,
+  author       = "Umberto Eco",
+  title        = "The Book of Legendary Lands",
+  publisher    = "Rizzoli ex libris",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "flat earth, biblical lans, homer, the seven wonders, earthly
+    paradise, atlantis, ultima thule, the grail, alamut, cockaigne, utopia,
+    austral land, agartha, rennes-le-chateau",
+  location     = "GR 940 E3613"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
