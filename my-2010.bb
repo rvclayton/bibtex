@@ -4026,13 +4026,19 @@
 @Article{alwds,
   author       = "Luca Cardelli",
   title        = "A Language with Distributed Scope",
-  journal      = compsys,
+  journal      = cs,
   year         = 1995,
   volume       = 8,
   number       = 1,
   pages        = "27--60",
   month        = "Winter",
   keywords     = "obliq, object-oriented languages, distributed languages"
+  abstract     = "Obliq is a lexically-scoped, untyped, interpreted language
+    that supports distributed object-oriented computation.  Obliq objects have
+    state and are local to a site.  Obliq computations can roam over the
+    network, while maintaining network connections.  Distributed lexical
+    scoping is the key mechanism for managing distributed computation." 
+  location     = "https://www.usenix.org/publications/compsystems/1995/win_cardelli.pdf"
 }
 
 @Article{raisc,
