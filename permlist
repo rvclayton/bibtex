@@ -128,6 +128,7 @@ a language based approach to protocol construction : basu
 a language based approach to protocol implementation : abbott
 a language for specifying program transformations : hildum
 a language for writing code generators : fraser
+a language with distributed scope : cardelli
 a larch specification of copying garbage collection : nettles
 a larch specification of the miro editor : zaremski
 a learning guide to design patterns : kerievsky
@@ -3191,6 +3192,7 @@ the utility of file names : ellard
 the vanishing hand the modular revolution in american business : langlois
 the varieties of refinement : jacob
 the verification of modules : antoniou
+the virtual filesystem interface in 4.4 bsd : mckusick
 the visitor pattern : cartwright
 the viva file system : herrin
 the wall street performer protocol using software completion bonds to fund open source software development : rasch
