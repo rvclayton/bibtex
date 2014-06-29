@@ -2855,19 +2855,6 @@
   location     = "QA 76.7.A77A"
 }
 
-@Article{alwds,
-  author       = "Luca Cardelli",
-  title        = "A Language with Distributed Scope",
-  journal      = cs,
-  year         = 1995,
-  volume       = 8,
-  number       = 1,
-  pages        = "27--60",
-  month        = "Winter",
-  keywords     = "",
-  location     = ""
-}
-
 @Article{retftkpaa,
   author       = "M. P. Ward",
   title        = "Reverse Engineering through Formal Transformation: Knuth's
