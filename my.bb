@@ -2785,6 +2785,16 @@
   location     = "GR 940 E3613"
 }
 
+@Book{gsel,
+  author       = "Elmore Leonard",
+  title        = "Get Shorty",
+  publisher    = "Delacorte Press",
+  year         = 1990,
+  address      = nyny,
+  keywords     = "hollywood, murrdaar, loan sharking",
+  location     = "PS 3562 E55 G4"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
