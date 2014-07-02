@@ -2225,6 +2225,36 @@
   location     = "http://dx.doi.org/10.1145/322993.322994"
 }
 
+@Article{ilsihll,
+  author       = "McKendry, Martin~S. and Campbell, Roy~H.",
+  title        = "Implementing Language Support in High-Level Languages",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 3,
+  pages        = "227--236",
+  month        = may,
+  keywords     = "language support, high-level languages, operating systems,
+    capabilities, language features, context switching",
+  abstract     = "One of the requirements for building an operating system in a
+    high-level operating system language, such as Ada, Concurrent Pascal, or
+    Modula, is the construction of a language support system, or kernel.  This
+    paper presents a model that generalizes the concept of a kernel, and
+    defines a kernel and the processes it supports to be at different levels of
+    abstraction.  A high-level language mechanism, the Execute statement, is
+    then proposed as the basis of the interface between a kernel and the
+    processes it supports.  Software capabilities control access between levels
+    and the Execute statement controls processor context switching between
+    levels.  The mechanisms rely on data typing for reliability and protection.
+    They encourage systems that are well protected and exhibit an explicit
+    hierarchical structure.  Software capabilities and the Execute statement
+    are illustrated with a pilot implementation on the Prime 650.  An
+    experimental operating system that encompasses their use is discussed.
+    Extensions are presented which manage interrupts, timeslicing and
+    preemption, and hardware protection mechanisms.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010231"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
