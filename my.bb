@@ -2795,6 +2795,17 @@
   location     = "PS 3562 E55 G4"
 }
 
+@Book{ujltjm,
+  author       = "Laurance Tribe and Joshua Matz",
+  title        = "Uncertian Justice",
+  publisher    = "Henry Holt",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "u.s. supreme court, john roberts, justice,
+    u.s. constitution",
+  location     = "KF 4550.T789"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
