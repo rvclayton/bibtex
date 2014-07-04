@@ -2255,6 +2255,68 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010231"
 }
 
+@Article{deoloalda,
+  author       = "Jean-Paul Sansonnet and Michel Castan and Christain Percebois and D.~Botella and J.~Perez",
+  title        = "Direct Execution of {L}isp on a List-Directed Architecture",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "132--136",
+  month        = mar,
+  keywords     = "direct execution, microcoding, intermediate representation",
+  abstract     = "A direct-execution model dedicated to nonnumerical processing
+    and based upon an internal representation of source programs derived from
+    LISP has been defined.  This model provides good support for sophisticated
+    editing (syntactical parsing, tree manipulation, pretty-printing, ...) of
+    conventional languages and artificial intelligence languages.  A high level
+    microprogramming language (LEM) was designed to write the interpreters and
+    the editors.  The influence of LISP on LEM and the architecture is
+    discussed.  The structure of the LISP is presented and evaluation measures
+    dealing with size, development effort and speed are given.", 
+  location     = "http://www.computerhistory.org/collections/catalog/102719211"
+}
+
+@Article{aalowwwis,
+  author       = "Charles~L. Viles and James~C. French",
+  title        = "Availability and Latency of {W}orld {W}ide {W}eb Information Servers",
+  journal      = cs,
+  year         = 1995,
+  volume       = 8,
+  number       = 1,
+  pages        = "61--91",
+  month        = "Winter",
+  keywords     = "world-wide web, availability, latency, performance
+    measurement", 
+  abstract     = "During a 90 day period in 1994, we measured the availability
+    and connection latency of HTTP (hypertext transfer protocol) information
+    servers.  These measurements were made from a site in the Eastern United
+    States.  The list of servers included 189 servers from Europe and 324
+    servers from North America.  Our measurements indicate that on average,
+    5.0% of North American servers and 5.4% of European servers were
+    unavailable from the measurement site on any given day.  As seen from the
+    measurement site, the day-to-day variation in availability was much greater
+    for the European servers than for the North American servers.  The
+    measurements also show a wide variation in availability for individual
+    information servers.  For example, more than 80% of all North American
+    servers were available at least 95% of the time, but 5% of the servers were
+    available less than 80% of the time.  The pattern of unavailability
+    suggests a strong correlation between unavailability and geographic
+    location.  Median connection latency from the measurement site was in the
+    0.2 - 0.5s range to other North American sites and the 0.4 - 2.5s to
+    European sites, depending upon the day of the week.  Latencies were much
+    more variable to Europe than to North America.  The magnitude of the
+    latencies suggest the addition of an MGET method to HTTP to help alleviate
+    large TCP set-up times associated with the retrieval of web pages with
+    embedded images.  The data show that 97% and 99% of all successful
+    connections from the measurement site to Europe and North America
+    respectively were made within the first 10 s.  This suggests the
+    establishment of client-side time-out intervals much shorter than those
+    used for normal TCP connection establishment.", 
+  OPTlocation  = ""
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
