@@ -2177,7 +2177,7 @@
 @Article{tvfii44,
   author       = "Marshall Kirk McKusick",
   title        = "The {V}irtual {F}ilesystem Interface in 4.4{BSD}",
-  journal      = "Computing Surveys",
+  journal      = cs,
   year         = 1995,
   volume       = 8,
   number       = 1,
@@ -2314,7 +2314,29 @@
     respectively were made within the first 10 s.  This suggests the
     establishment of client-side time-out intervals much shorter than those
     used for normal TCP connection establishment.", 
-  OPTlocation  = ""
+  location     = "https://www.usenix.org/publications/compsystems/1995/win_viles.pdf"
+}
+
+@Article{asscmfbsl,
+  author       = "Le Blanc, Richard~J. and Fischer, Charles~N.",
+  title        = "{A} Simple Separate Compilation Mechanism for Block-Structured Languages",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 3,
+  pages        = "221-226",
+  month        = may,
+  keywords     = "block-structured language, compilers, pascal, programming
+    languages, separate compilation, software structure",
+  abstract     = "A very simple and efficient technique for the introduction of
+    separate compilation facilities into compilers for block-structured
+    languages is presented.  Using this technique, programs may be compiled in
+    parts while the compile-time checking advantages of compilation as a whole
+    are retained.  These features are simple for a programmer to understand and
+    are easy to implement.  Experience has shown this separate compilation
+    mechanism to be a useful tool in the development of large programs in
+    block-structured languages.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010230"
 }
 
 @TechReport{afsmotmaiidsa,
