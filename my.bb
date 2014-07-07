@@ -2890,6 +2890,16 @@
   location     = "KF 4550.T789"
 }
 
+@Book{tmclm,
+  author       = "Louis Menand",
+  title        = "The Metaphysical Club",
+  publisher    = fsg,
+  year         = 2001,
+  address      = nyny,
+  keywords     = "philosophy, pragmatism, holmes, james, dewey",
+  location     = "E 169.1 M546"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
