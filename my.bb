@@ -2914,6 +2914,16 @@
   location     = "E 169.1 M546"
 }
 
+@Book{bcel,
+  author       = "Elmore Leonard",
+  title        = "Be Cool",
+  publisher    = "Delacorte Press",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "show bidness, murrdaar",
+  location     = "PS 3562.E55 B4"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
