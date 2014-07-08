@@ -2339,6 +2339,20 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010230"
 }
 
+@Article{mtcs,
+  author       = "Karl~K. Darrow",
+  title        = "Memorial to Classical Statistics",
+  journal      = bstj,
+  year         = 1943,
+  volume       = 22,
+  number       = 1,
+  pages        = "108--135",
+  month        = jan,
+  keywords     = "thermodynamics, entropy, statistical mechanics, boltzmann,
+    maxwell, temperature, gas mixtures",
+  location     = "http://www3.alcatel-lucent.com/bstj/vol22-1943/articles/bstj22-1-108.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
