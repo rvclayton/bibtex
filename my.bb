@@ -2924,6 +2924,16 @@
   location     = "PS 3562.E55 B4"
 }
 
+@Book{tgrd,
+  author       = "Roddy Doyle",
+  title        = "The Guts",
+  publisher    = "Viking",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "music, the current unpleasantness, cancer",
+  location     = "PR 6045.O95 G88"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
