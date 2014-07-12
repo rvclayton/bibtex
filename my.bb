@@ -2353,6 +2353,31 @@
   location     = "http://www3.alcatel-lucent.com/bstj/vol22-1943/articles/bstj22-1-108.pdf"
 }
 
+@Article{tnsm,
+  author       = "Karl~K. Darrow",
+  title        = "The New Statistical Mechanics",
+  journal      = bstj,
+  year         = 1943,
+  volume       = 22,
+  number       = 3,
+  pages        = "362--392",
+  month        = oct,
+  keywords     = "entropy, bose-einstein, fermi-dirac, black-body radiation",
+  abstract     = {This is the second article upon statistical mechanics which I
+    have published this year in this Journal.  The first, which appeared in the
+    January (1943) issue, was devoted to the oldest form of the theory, which
+    is variously known as the old, the classical, or the Boltzmann statistics.
+    The word "statistics," I repeat from the former article, is a synonym for
+    statistical mechanics, objectionable but (because of the length of the
+    alternative) hardly to be avoided.  The "new statistics," frequently
+    divided into "the Bose-Einstein statistics" and "the Fermi-Dirac
+    statistics," emerged in the middle twenties and ever since it has been 
+    gradually pushing its ancestor aside.  In this article I propose to expound
+    the new statistics, laying especial emphasis on the theory of monatomic
+    gases, to which the former article was strictly limited.},
+  location     = "http://www3.alcatel-lucent.com/bstj/vol22-1943/articles/bstj22-3-362.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
