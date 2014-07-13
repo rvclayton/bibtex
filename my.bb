@@ -2959,6 +2959,17 @@
   location     = "PR 6045.O95 G88"
 }
 
+@Book{wtlisp,
+  author       = "Leo Katz",
+  title        = "Why the Law is so Perverse",
+  publisher    = ucp,
+  year         = 2011,
+  address      = chil,
+  keywords     = "law, win-win transactions, loopholes, bright lines,
+    undercriminalization, voting theory, social choice theory, transitivity",
+  location     = "K 290.K38"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
