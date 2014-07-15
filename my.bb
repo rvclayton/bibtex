@@ -2970,6 +2970,16 @@
   location     = "K 290.K38"
 }
 
+@Book{cns,
+  author       = "Nikil Savan",
+  title        = "Cubed",
+  publisher    = "Doubleday",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "office space, management, taylorism, fadism",
+  location     = "HF 5547.S336"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
