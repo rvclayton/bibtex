@@ -2980,6 +2980,16 @@
   location     = "HF 5547.S336"
 }
 
+@Book{srcw,
+  author       = "Robert Charles Wilson",
+  title        = "Spin",
+  publisher    = "Tor",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "aliens, martians, time",
+  location     = "PR 9199.3 W4987 S65"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
