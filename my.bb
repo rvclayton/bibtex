@@ -2990,6 +2990,16 @@
   location     = "PR 9199.3 W4987 S65"
 }
 
+@Book{tbsml,
+  author       = "Michael Lewis",
+  title        = "The Big Short",
+  publisher    = "W.~W. Norton",
+  year         = 2010,
+  address      = nyny,
+  keywords     = "global financial crisis, wall street, finance",
+  location     = "HC 106.83 L5"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
