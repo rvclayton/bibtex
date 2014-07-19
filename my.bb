@@ -2378,6 +2378,30 @@
   location     = "http://www3.alcatel-lucent.com/bstj/vol22-1943/articles/bstj22-3-362.pdf"
 }
 
+@Article{srfasosd,
+  author       = "Mark Scott Johnson",
+  title        = "Some Requirements for Architectural Support of Software Debugging",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "140--148",
+  month        = mar,
+  keywords     = "architectural debugging support, breakpoints, debugging,
+    debugging-oriented architecture, interactive debugging, profiles, symbolic
+    debugging, traces",
+  abstract     = "Architectural support of high-level, symbolic debugging is 
+    described at three levels of abstraction: the user's view of desired
+    debugging functionality, the debugger implementor's view of architectural
+    requirements that support the functionality, and the computer architect's
+    view of architectural features or attributes that implement the
+    requirements.  References are made where possible to computing systems that
+    meet the requirements.  The paper is written from the viewpoint of debugger
+    implementors, and is addressed primarily to computer architects.", 
+  location     = "http://dx.doi.org/10.1145/800050.801837"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -2464,6 +2488,28 @@
     conditions under which such resilient routing tables can guarantee delivery
     of packets.},
   location     = "http://cpsc.yale.edu/sites/default/files/files/tr1454.pdf"
+}
+
+@TechReport{paoabfpataer,
+  author       = "Martin, William~A. and Church, Kenneth~W. and Patil, Ramesh~S.",
+  title        = "Preliminary Analysis of a Breadth-First Parsing Algorithm: Theoretical and Experimental Results",
+  institution  = lcs # mit,
+  year         = 1981,
+  number       = "MIT-LCS-TR-261",
+  address      = cma,
+  month        = jun,
+  keywords     = "parsing, chart parsing, natural language, processing early's
+    algorithm, restricted grammars",
+  abstract     = "We will trace a brief history of context-free parsing
+    algorithms and then describe some representation issues.  The purpose of
+    this paper is to share our philosophy and experience in adapting a
+    well-known context free parsing algorithm (Earley's algorithm [8,9] and
+    variations thereof [28, 13,26,,27] to the parsing of a difficult and wide
+    raging corpus of sentences were gathered by Malhotra [22] in an experiment
+    which tooled businessmen users into thinking they interacting with a
+    computer, when they were actually interacting with Malhotra in another
+    room.", 
+  location     = "http://publications.csail.mit.edu/lcs/specpub.php?id=829"
 }
 
 @Book{taospk,
