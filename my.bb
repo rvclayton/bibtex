@@ -2402,6 +2402,26 @@
   location     = "http://dx.doi.org/10.1145/800050.801837"
 }
 
+@Article{teotp1aocgfc,
+  author       = "C.~A. Middelburg",
+  title        = "The Effect of the {PDP}-11 Architecture on Code Generation for {C}hill",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "140--148",
+  month        = mar,
+  keywords     = "code generation, machine architecture",
+  abstract     = "This paper outlines the implementation of the CCITT*) high
+    level programming language CHILL on PDP-11 computers in the CHILL compiler
+    constructed at the Dr.  Neher Laboratories.  The characteristics and
+    structure of the compiler are briefly described.  The relationship between
+    the PDP-11 architecture and the implementation of CHILL is outlined in more
+    detail.", 
+  location     = "http://dx.doi.org/10.1145/800050.801838"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3044,6 +3064,16 @@
   address      = nyny,
   keywords     = "global financial crisis, wall street, finance",
   location     = "HC 106.83 L5"
+}
+
+@Book{nftia,
+  author       = "Wayne Gladstone",
+  title        = "Notes From the Internet Apocalypse",
+  publisher    = "St. Martin's Press",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "who dun it, internet people",
+  location     = "PS 3607.L3436 N68"
 }
 
 @InProceedings{amoorwpa,
