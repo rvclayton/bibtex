@@ -2422,6 +2422,37 @@
   location     = "http://dx.doi.org/10.1145/800050.801838"
 }
 
+@Article{eaotmis,
+  author       = "Richard~E. Sweet and James~G. {Sandman, Jr.}",
+  title        = "Empirical Analysis of the {M}esa Instruction Set",
+  journal      = sigarch # " (" # pot # "First International Symposium on " #
+    ASPLOS # " (ASPLOS I))",
+  year         = 1982,
+  volume       = 10,
+  number       = 2,
+  pages        = "158--166",
+  month        = mar,
+  abstract     = "This paper describes recent work to refine the instruction
+    set of the Mesa processor.  Mesa [8] is a high level systems implementation
+    language developed at Xerox PARC during the middle 1970's.  Typical systems
+    written in Mesa are large collections of programs running on single-user
+    machines.  For this reason, a major design goal of the project has been to
+    generate compact object programs.  The computers that execute Mesa programs
+    are implementations of a stack architecture [5].  The instructions of an
+    object program are organized into a stream of eight bit bytes.  The exact
+    complement into of instructions in the architecture has changed as the
+    language and machine micro architecture have evolved.  In Sections 3 and 4,
+    we give a short history of the Mesa instruction set and discuss the
+    motivation for our most recent analysis of it.  In Section 5, we discuss
+    the tools and techniques used in this analysis.  Section 6 shows the
+    results of this analysis as applied to a large sample of approximately 2.5
+    million instruction bytes.  Sections 7 and 8 give advice to others who
+    might be contemplating similar analyses.", 
+  keywords     = "instruction sets, dynamic analysis, instruction encoding,
+    optimization, compilation, machine design", 
+  location     = "http://dx.doi.org/10.1145/800050.801839"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
