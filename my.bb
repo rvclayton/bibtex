@@ -3107,6 +3107,16 @@
   location     = "PS 3607.L3436 N68"
 }
 
+@Book{bsrbp,
+  author       = "Robert~B. Parker",
+  title        = "Back Story",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "the long hand of history, murrdaarr",
+  location     = "PS 3566.A686 B33"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
