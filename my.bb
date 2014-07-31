@@ -2453,6 +2453,36 @@
   location     = "http://dx.doi.org/10.1145/800050.801839"
 }
 
+@Article{dstbk,
+  author       = "Knoblock, Todd~B. and Ruf, Erik",
+  title        = "Data Specialization",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN 1996 Conference on Programming Language Design and Implementation (PLDAI))",
+  year         = 1996,
+  volume       = 31,
+  number       = 5,
+  pages        = "215--225",
+  month        = may,
+  keywords     = "code generation, optimization, staging",
+  abstract     = "Given a repeated computation, part of whose input context
+    remains invariant across all repetitions, program staging improves
+    performance by separating the computation into two phases.  An early phase
+    executes only once, performing computations depending only on invariant
+    inputs, while a late phase repeatedly performs the remainder of the work
+    given the varying inputs and the results of the early computations.Common
+    staging techniques based on dynamic compilation statically construct an
+    early phase that dynamically generates object code customized for a
+    particular input context.  In effect, the results of the invariant
+    computations are encoded as the compiled code for the late phase.This paper
+    describes an alternative approach in which the results of early
+    computations are encoded as a data structure, allowing both the early and
+    late phases to be generated statically.  By avoiding dynamic code
+    manipulation, we give up some optimization opportunities in exchange for
+    significantly lower dynamic space/time overhead and reduced implementation
+    complexity.", 
+  location     = "http://dx.doi.org/10.1145/231379.231428", 
+  location     = "http://research.microsoft.com/pubs/68711/mstr9604.ps"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -2561,6 +2591,22 @@
     computer, when they were actually interacting with Malhotra in another
     room.", 
   location     = "http://publications.csail.mit.edu/lcs/specpub.php?id=829"
+}
+
+@TechReport{mricsr,
+  author       = "Christian Collberg and Todd Proebsting and Gina Moraila and Akash Shankaran and Zuoming Shi and Alex~M. Warren",
+  title        = "Measuring Reproducibility in Computer Systems Research",
+  institution  = csd # uaz,
+  year         = 2014,
+  address      = tuaz,
+  month        = mar,
+  keywords     = "reproducibility, research",
+  abstract     = "We describe a study into the willingness of Computer Systems
+    researchers to share their code and data.  We also propose a novel sharing
+    specification scheme that will require researchers to specify the level of
+    reproducibility that reviewers and readers can assume from a paper either
+    submitted for publication, or published.", 
+  location     = "http://reproducibility.cs.arizona.edu/tr.pdf"
 }
 
 @Book{taospk,
@@ -3115,6 +3161,36 @@
   address      = nyny,
   keywords     = "the long hand of history, murrdaarr",
   location     = "PS 3566.A686 B33"
+}
+
+@Book{cprbf,
+  author       = "R.~Buckminster Fuller",
+  title        = "Critical Path",
+  publisher    = "St.~Martin's Press",
+  year         = 1981,
+  address      = nyny,
+  keywords     = "human development, science, technology, design",
+  location     = "CB 19 F84"
+}
+
+@Book{sttfg,
+  author       = "Timothy~F. Geithner",
+  title        = "Stress Test",
+  publisher    = "Crown",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "finance, crises, banks, governance, regulation, capitalism",
+  location     = "HB 3722.G45"
+}
+
+@Book{crbp,
+  author       = "Robert~B. Parker",
+  title        = "Chance",
+  publisher    = "G.~P. Putnam's Son",
+  year         = 1996,
+  address      = nyny,
+  keywords     = "wheels within wheels, murrdaar",
+  location     = "PS 3566.A386 C47"
 }
 
 @InProceedings{amoorwpa,
