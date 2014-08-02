@@ -2483,6 +2483,29 @@
   location     = "http://research.microsoft.com/pubs/68711/mstr9604.ps"
 }
 
+@Article{psatate,
+  author       = "Martin~S. Feather",
+  title        = "Program Specification Applied to a Text Formatter",
+  journal      = tse,
+  year         = 1982,
+  volume       = 8,
+  number       = 5,
+  pages        = "490--498",
+  month        = sep,
+  keywords     = "applicative programming, program reliability, program
+    specification, programming techniques, program transformations",
+  abstract     = "Presentation of the fonnal specification of a small text
+    formatter illustrates an approach to the construction of formal
+    specifications.  The key features of this approvach are described, and
+    their beneficial influence on the construction and organization of
+    specifications of tasks, especially those for which no concise descriptions
+    are possible, are discussed.  The intent is that in addition to serving as
+    formal descriptions of tasks, such specifications will be of use in the
+    processes of verification, development, and maintenance of their
+    implementations.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1982.235737"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3191,6 +3214,17 @@
   address      = nyny,
   keywords     = "wheels within wheels, murrdaar",
   location     = "PS 3566.A386 C47"
+}
+
+@Book{laab,
+  author       = "Darden Asbury Pyron",
+  title        = "Liberace: An American Boy",
+  publisher    = ucp,
+  year         = 2000,
+  address      = chil,
+  keywords     = "liberace, popular music, homosexuality, show business,
+    wretched excess",
+  location     = "ML 417.L67 P97"
 }
 
 @InProceedings{amoorwpa,
