@@ -3227,6 +3227,17 @@
   location     = "ML 417.L67 P97"
 }
 
+@Book{teod,
+  author       = "James~T. Patterson",
+  title        = "The Eve of Destruction",
+  publisher    = "Basic Books",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "politics, the 60s, johnson, culture, viet nam, racial
+    justice, economics",
+  location     = "E 846 P37"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
