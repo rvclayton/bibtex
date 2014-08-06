@@ -3238,6 +3238,16 @@
   location     = "E 846 P37"
 }
 
+@Book{yrnmuta,
+  author       = "David Shapiro",
+  title        = "You're Not Much Use to Anyone",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2014,
+  address      = boma,
+  keywords     = "anomie, the young and the stupid",
+  location     = "PS 3619.H35593 Y69"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
