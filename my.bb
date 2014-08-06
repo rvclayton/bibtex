@@ -3248,6 +3248,16 @@
   location     = "PS 3619.H35593 Y69"
 }
 
+@Book{csrbp,
+  author       = "Robert~B. Parker",
+  title        = "Cold Service",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "revenge, murrdaar",
+  location     = "PS 3566.A686 C65"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
