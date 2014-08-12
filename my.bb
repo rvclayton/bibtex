@@ -3258,6 +3258,16 @@
   location     = "PS 3566.A686 C65"
 }
 
+@Book{ddrbp,
+  author       = "Robert~B. Parker",
+  title        = "Double Deuce",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1992,
+  address      = nyny,
+  keywords     = "gangs, the media, murrdaar",
+  location     = "PS 3566.A688 D6"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
