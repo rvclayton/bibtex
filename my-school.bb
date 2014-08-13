@@ -4506,8 +4506,10 @@
   year         = 1996,
   address      = rma,
   month        = oct,
-  OPTkeywords  = "",
-  OPTlocation  = ""
+  keywords     = "c, software development, libraries, atoms, exceptions, sets,
+    assertions, memory management, lists, tables, dynamic arrays, threads,
+    sequences, rings, bit vectors, strings, multiple-precision arithmetic",
+  location     = "QA 76.73.C15 H37"
 }
 
 @Book{tdotb,
