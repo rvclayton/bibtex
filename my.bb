@@ -3268,6 +3268,27 @@
   location     = "PS 3566.A688 D6"
 }
 
+@Book{ltgm,
+  author       = "Greil Marcus",
+  title        = "Lipstick Traces",
+  publisher    = hup,
+  year         = 1989,
+  address      = cma,
+  keywords     = "avant garde, aesthetics, art, society, sex pistols, pung
+    rock", 
+  location     = "CB 428.M356"
+}
+
+@Book{wnkyn,
+  author       = "John Feinstein",
+  title        = "Where Nobody Knows Your Name",
+  publisher    = "Doubleday",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "minor leagues, baseball",
+  location     = "GV 875.A1 F37"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
