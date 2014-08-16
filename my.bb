@@ -3289,6 +3289,16 @@
   location     = "GV 875.A1 F37"
 }
 
+@Book{jagww,
+  author       = "Wil Wheaton",
+  title        = "Just a Geek",
+  publisher    = "O'Reilly",
+  year         = 2009,
+  address      = seca,
+  keywords     = "the muse, the actor's life, life decisions",
+  location     = "PN 2287 W4568"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
