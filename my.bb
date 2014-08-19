@@ -3299,6 +3299,16 @@
   location     = "PN 2287 W4568"
 }
 
+@Book{hmrbp,
+  author       = "Robert~B. Parker",
+  title        = "Hugger Mugger",
+  publisher    = "G.~P. Putham's Sons",
+  year         = 2000,
+  address      = nyny,
+  keywords     = "horses, murrdaar, bloodlines",
+  location     = "PS 3566.A686 H85"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
