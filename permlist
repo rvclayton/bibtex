@@ -244,6 +244,7 @@ a simple cmos camera for itsy : bartlett
 a simple equation solver and its application to financial modelling : derman
 a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
 a simple reflexive interpreter : jefferson
+a simple separate compilation mechanism for block structured languages : le blanc
 a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
 a sociological history of the neural network controversy : olazaran
@@ -917,6 +918,7 @@ data mining static code attributes to learn defect predictors : menzies
 data parallel algorithms : hillis
 data prefetch mechanisms : vanderweil
 data sharing in group work : greif
+data specialization : knoblock
 data structures and algorithms annotated reference with examples : barnett
 data structures as objects : soukup
 data structuring facilities for interactive videotext systems : tompa
@@ -1164,6 +1166,7 @@ engineering notebook an extreme programming episode : martin
 engineering notebook template method and strategy inheritance vs delegatin : martin
 enriched languages : baumann
 enumerating the rationals : gibbons
+enumerating the strings of regular languages : mcilroy
 equational reasoning about nondeterministic processes : misra
 error control coding in computers : fujiwara
 error correction of a large architectural model the henderson county courthouse : erikson
@@ -2266,6 +2269,7 @@ program fragments linking and modularization : cardelli
 program optimization via locality : sankaran
 program optimizations via locality : sankaran
 program profiling problems and a solution via machine language rewriting : reiser
+program specification applied to a text formatter : feather
 program transformation with stratego xt rules stratgies toos and systems : visser
 programmable syntax macros : weise
 programming graphical user interfaces with scheme : gallesio
@@ -2682,7 +2686,8 @@ specifying and verifying conditional progress : calvert
 specifying representations of machine instructions : ramsey
 splay trees : clark
 splay trees : karger
-spoken dialogue technology enabling the conversational user interface : mctear sqlite : sqlite
+spoken dialogue technology enabling the conversational user interface : mctear
+sqlite : sqlite
 squeak by example : black
 squinting at power series : mcilroy
 ssa is functional programming : appel
@@ -3519,7 +3524,7 @@ y in practical programs : mcadam
 y y works : felleisen
 yacc is dead : might
 yodl 2 : brokken
-you could have invented monads (and maybe already have) : domus
+you could have invented monads and maybe already have : domus
 you dont know jack about voip : scherburne
 your own handprinting recognition engine : avitzur
 your own tiny object oriented language : betz
