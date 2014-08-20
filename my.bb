@@ -2506,6 +2506,26 @@
   location     = "http://dx.doi.org/10.1109/TSE.1982.235737"
 }
 
+@Article{etsorl,
+  author       = "M.~Douglas McIlroy",
+  title        = "Enumerating the Strings of Regular Languages",
+  journal      = jfp,
+  year         = 2004,
+  volume       = 14,
+  number       = 5,
+  pages        = "503--513",
+  month        = sep,
+  keywords     = "haskell, lazy evaluation, ndfa",
+  abstract     = "Haskell code is developed for two ways to list the strings of
+    the language defined by a regular expression: directly by set operations
+    and indirectly by converting to and simulating an equivalent automaton.
+    The exercise illustrates techniques for dealing with infinite ordered
+    domains and leads to an effective standard form for nondeterministic finite
+    automata.", 
+  location     = "http://dx.doi.org/10.1017/S0956796803004982", 
+  location     = "http://www.cs.dartmouth.edu/~doug/nfa.ps.gz"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
