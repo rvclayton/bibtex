@@ -3339,6 +3339,16 @@
   location     = "PS 3566.O92 O74"
 }
 
+@Book{wnddl,
+  author       = "Don DeLillo",
+  title        = "White Noise",
+  publisher    = "Penguin",
+  year         = 1985,
+  address      = nyny,
+  keywords     = "hitler studies, toxic events, pharmapsychology",
+  location     = "PS 3554.E4425 W48"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
