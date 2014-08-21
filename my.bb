@@ -3329,6 +3329,16 @@
   location     = "PS 3566.A686 H85"
 }
 
+@Book{orp,
+  author       = "Richard Powers",
+  title        = "Orfeo",
+  publisher    = "W.~W. Norton",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "music, composers, avant garde, the security state, genetics",
+  location     = "PS 3566.O92 O74"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
