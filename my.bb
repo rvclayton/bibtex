@@ -3349,6 +3349,17 @@
   location     = "PS 3554.E4425 W48"
 }
 
+@Book{nthdjs,
+  author       = "Daniel~J. Solove",
+  title        = "Nothing to Hide",
+  publisher    = yup,
+  year         = 2011,
+  address      = nhco,
+  keywords     = "privacy, national security, law enforcement, law,
+    legislation",
+  location     = "KF 1262 S65"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
