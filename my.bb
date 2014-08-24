@@ -3380,3 +3380,32 @@
   location     = "http://dx.doi.org/10.1145/960120.801827"
 }
 
+@InProceedings{mfrp,
+  author       = "Atze {van der Ploeg}",
+  title        = "Monadic Functional Reactive Programming",
+  booktitle    = pot # "2013 ACM SIGPLAN Symposium on Haskell",
+  year         = 2013,
+  pages        = "117--128",
+  address      = boma,
+  month        = "22--24 " # dec,
+  keywords     = "functional reactive programming, monads, arrows",
+  abstract     = "Functional Reactive Programming (FRP) is a way to program
+    reactive systems in functional style, eliminating many of the problems that
+    arise from imperative techniques.  In this paper, we present an alternative
+    FRP formulation that is based on the notion of a reactive computation: a
+    monadic computation which may require the occurrence of external events to
+    continue.  A signal computation is a reactive computation that may also
+    emit values.  In contrast to signals in other FRP formulations, signal
+    computations can end, leading to a monadic interface for sequencing signal
+    phases.  This interface has several advantages: routing is implicit,
+    sequencing signal phases is easier and more intuitive than when using the
+    switching combinators found in other FRP approaches, and dynamic lists
+    require much less boilerplate code.  In other FRP approaches, either the
+    entire FRP expression is re-evaluated on each external stimulus, or impure
+    techniques are used to prevent redundant re-computations.  We show how
+    Monadic FRP can be implemented straightforwardly in a purely functional way
+    while preventing redundant re-computations.", 
+  location     = "http://homepages.cwi.nl/~ploeg/papers/monfrp.pdf",
+  location     = "http://dx.doi.org/10.1145/2503778.2503783"
+}
+
