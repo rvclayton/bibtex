@@ -3360,6 +3360,26 @@
   location     = "KF 1262 S65"
 }
 
+@Book{tmdb,
+  author       = "Kevin Birmingham",
+  title        = "The Most Dangerous Book",
+  publisher    = "The Penguin Press",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "james joyce, ulysses, censorship, the writin' life",
+  location     = "PR 6019.O9 U6257"
+}
+
+@Book{mdbrbp,
+  author       = "Robert~B. Parker",
+  title        = "Million-Dollar Baby",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "the entrepreneurial spirit, murrdaar",
+  location     = "PS 3566.A686 H86"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
