@@ -3372,12 +3372,35 @@
 
 @Book{mdbrbp,
   author       = "Robert~B. Parker",
-  title        = "Million-Dollar Baby",
+  title        = "Hundred-Dollar Baby",
   publisher    = "G.~P. Putnam's Sons",
   year         = 2006,
   address      = nyny,
   keywords     = "the entrepreneurial spirit, murrdaar",
   location     = "PS 3566.A686 H86"
+}
+
+@Book{gncp,
+  author       = "Craig Partridge",
+  title        = "Gigabit Networking",
+  publisher    = "Addison-Wesley",
+  year         = 1994,
+  address      = rma,
+  keywords     = "fiber optics, cell networking, atm, packet networks,
+    internetworking protocols, traffic shaping, performance, flow setup,
+    distributed systems, routing",
+  location     = "TK 5105.5 P3745"
+}
+
+@Book{gty,
+  author       = "Roger Fisher and William Ury and Bruce Patton",
+  title        = "Getting to Yes",
+  publisher    = "Penguin",
+  year         = 1991,
+  address      = nyny,
+  edition      = "second",
+  keywords     = "negotiation, bargaining",
+  location     = "BF 637.N4 F57"
 }
 
 @InProceedings{amoorwpa,
