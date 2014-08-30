@@ -1936,6 +1936,7 @@ mud faq : anon
 multi return function call : shivers
 multi traversal tree decoration in a functional setting monads versus bindings : pennings
 multi valued constant propagation for the reengineering of interfaces : merlo
+multiaccess in a nonqueueing mailbox environment : ferguson
 multicast routing in datagram internetworks and extended lans : deering
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
