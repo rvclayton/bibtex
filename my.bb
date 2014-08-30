@@ -2526,6 +2526,40 @@
   location     = "http://www.cs.dartmouth.edu/~doug/nfa.ps.gz"
 }
 
+@Article{mianme,
+  author       = "Michael~J. Ferguson",
+  title        = "Multiaccess in a Nonqueueing Mailbox Environment",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 3,
+  pages        = "237--243",
+  month        = may,
+  keywords     = "access reservation priorities, dekker's algorithm, mailbox
+    communication environment, many user exclusive access, single resource
+    multiaccess, single resource mutually exclusive access, tree-based
+    multiaccess",
+  abstract     = "A new and flexible solution to the problem of multiple users
+    accessing a single resource, such as communication bandwidth or composite
+    object in memory, is derived.  The means of communication consists of
+    sending and receiving messages in known locations (or equivalently,
+    mailboxes without queueing).  Any particular user is able to deposit, and
+    hence destroy, previous messages in a mailbox.  It is assumed that
+    exclusive access to a mailbox is supplied by an underlying system.  The
+    major results of this paper are: 1) a simple tree-based algorithm that
+    guarantees * no user or group of users can conspire to prevent access by
+    some other user to the resource; * only one user accesses the resource at
+    a time; * if there are N users, an individual user is guaranteed access,
+    when requested, to the resource in no more than N-1 turns; Knuth's solution
+    [6] can delay a user up to 2** (N-1)-1 turns; 2) an extension of Dekker's
+    algorithm (2 users) [2] that allows the relative rates of reservations for
+    access to the resource to be proportional to a set of N integers.  When a
+    reservation is not being used by its ``owner,'' it will be assigned to
+    another contending request.  The assignment is optimal for periodic
+    requests.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010232"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
