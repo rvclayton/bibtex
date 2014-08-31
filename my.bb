@@ -3437,6 +3437,16 @@
   location     = "BF 637.N4 F57"
 }
 
+@Book{ffnes,
+  author       = "Eric Schlosser",
+  title        = "Fast Food Nation",
+  publisher    = "Perennial",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "fast food, food safety, workplace safety, capitalism",
+  location     = "TX 945.3.S355"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
