@@ -2560,6 +2560,37 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010232"
 }
 
+@Article{reiase,
+  author       = "Kevin~J. Sullivan and David Notkin",
+  title        = "Reconciling Environment Integration and Software Evolution",
+  journal      = tsem,
+  year         = 1992,
+  volume       = 1,
+  number       = 2,
+  pages        = "229--268",
+  month        = jul,
+  keywords     = "abstract behavior type, behavior abstraction, component
+    independence, environment integration, event mechanism, implicit
+    invocation, integrated environment, mediator, mediator/event design,
+    software evolution, tool integration",
+  abstract     = "Common software design approaches complicate both tool
+    integration and software evolution when applied in the development of
+    integrated environments.  We illustrate this by tracing the evolution of
+    three different designs for a simple integrated environment as
+    representative changes are made to the requirements.  We present an
+    approach that eases integration and evolution by preserving tool
+    independence in the face of integration.  We design tool integration
+    relationships as separate components called mediators, and we design tools
+    to implicitly invoke mediators that integrate them.  Mediators separate
+    tools from each other, while implicit invocation allows tools to remain
+    independent of mediators.  To enable the use of our approach on a range of
+    platforms, we provide a formalized model and requirements for implicit
+    invocation mechanisms.  We apply this model both to analyze existing
+    mechanisms and in the design of a mechanism for C++.",
+  location     = "http://homes.cs.washington.edu/~notkin/papers/p229-sullivan.pdf", 
+  location     = "http://dx.doi.org/10.1145/131736.131744"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3445,6 +3476,26 @@
   address      = nyny,
   keywords     = "fast food, food safety, workplace safety, capitalism",
   location     = "TX 945.3.S355"
+}
+
+@Book{feg,
+  author       = "Emily Gould",
+  title        = "Friendship",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "friendship, modern life",
+  location     = "PS 3607.O8845 F75"
+}
+
+@Book{pdrbp,
+  author       = "Robert~B. Parker",
+  title        = "Paper Doll",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "whodat, murrdaar",
+  location     = "PS 3566.A686 P33"
 }
 
 @InProceedings{amoorwpa,
