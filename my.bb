@@ -3547,3 +3547,28 @@
   location     = "http://dx.doi.org/10.1145/2503778.2503783"
 }
 
+@InProceedings{cnm,
+  author       = "Pamala Zave and Jennifer Rexford",
+  title        = "Compositional Network Mobility",
+  booktitle    = "Verified Software: Theories, Tools, Experiments",
+  year         = 2013,
+  editor       = "Bertrand Meyer and Jim Woodcock",
+  pages        = "68--87",
+  series       = lncs,
+  volume       = 8164,
+  publisher    = "Springer",
+  address      = "Menlo Park, CA",
+  month        = "17--19 " # may,
+  keywords     = "",
+  abstract     = "Mobility is a network capability with many forms and many
+    uses.  Because it is difficult to implement at Internet scale, there is a
+    large and confusing landscape of mobility proposals which cannot easily be
+    compared or composed.  This paper presents formal models of two distinct
+    patterns for implementing mobility, explaining their generality and
+    applicability.  We also employ formal verification to show that different
+    instances of the patterns, used for different purposes in a network
+    architecture, compose without alteration or interference.  This result
+    applies to all real implementations refining the patterns.", 
+  location     = "http://www.research.att.com/techdocs/TD_100682.pdf"
+}
+
