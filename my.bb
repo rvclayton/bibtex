@@ -3498,6 +3498,16 @@
   location     = "PS 3566.A686 P33"
 }
 
+@Book{cmcjm,
+  author       = "Jacopo Mauro",
+  title        = "Constraints Meet Concurrency",
+  publisher    = "Atlantis Press",
+  year         = 2014,
+  address      = "Paris, France",
+  keywords     = "concurrency, constraints, machine learning",
+  location     = ""
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
