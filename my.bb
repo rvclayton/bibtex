@@ -2591,6 +2591,49 @@
   location     = "http://dx.doi.org/10.1145/131736.131744"
 }
 
+@Article{sascoob,
+  author       = "Tim Felgentreff and Alan Borning and Robert Hirschfeld",
+  title        = "Specifying and Solving Constraints on Object Behavior",
+  journal      = jot,
+  year         = 2014,
+  volume       = 13,
+  number       = 4,
+  pages        = "1--31",
+  month        = sep,
+  keywords     = "Constraints, Object Constraint Programming",
+  abstract     = "Constraints allow developers to specify desired properties of
+    systems in a number of domains, and have those properties be maintained
+    automatically.  This results in compact, declarative code, avoiding
+    scattered code to check and imperatively re-satisfy invariants.  Despite
+    these advantages, constraint programming is not yet widespread, with
+    imperative programming still the norm.  There is a long history of research
+    on integrating constraint programming with the imperative paradigm.
+    However, this integration typically does not unify the constructs for
+    encapsulation and abstraction from both paradigms.  This impedes re-use of
+    modules, as client code written in one paradigm can only use modules
+    written to support that paradigm.  Modules require redundant definitions if
+    they are to be used in both paradigms.  We present a language -- Babelsberg
+    -- that unifies the constructs for encapsulation and abstraction by using
+    only object-oriented method definitions for both declarative and imperative
+    code.  Our prototype -- Babelsberg/R -- is an extension to Ruby, and
+    continues to support Ruby's object-oriented semantics.  It allows
+    programmers to add constraints to existing Ruby programs in incremental
+    steps by placing them on the results of normal object-oriented message
+    sends.  It is implemented by modifying a state-of-the-art Ruby virtual
+    machine.  The performance of Ruby code without constraints is only modestly
+    impacted, with typically less than 10% overhead compared with the
+    unmodified virtual machine.  Furthermore, our architecture for adding
+    multiple constraint solvers allows Babelsberg to deal with constraints in a
+    variety of domains.  We argue that our approach provides a useful step
+    toward making constraint solving a useful tool for object-oriented
+    programmers.  We also provide example applications, written in our
+    Ruby-based implementation, which use constraints in a variety of
+    application domains, including interactive graphics, circuit simulations,
+    data streaming with both hard and soft constraints on performance, and
+    configuration file management.", 
+  location     = "http://dx.doi.org/10.5381/jot.2014.13.4.a1"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
