@@ -1669,7 +1669,7 @@
 @Article{acotdfsavsp,
   author       = "Brent Welch",
   title        = "A Comparison of Three Distributed File System Architectures:
-		  {Vnode}, {Sprite}, and {Plan} 9",
+    Vnode, {Sprite}, and {Plan} 9",
   journal      = cs,
   year         = 1994,
   volume       = 7,
@@ -1677,8 +1677,23 @@
   pages        = "175--200",
   month        = "Spring",
   keywords     = "file systems, vnode, sprite, plan 9, remote access, pathname
-		  resolution, name space management, device access, data
-		  caching, crash recovery"
+     resolution, name space management, device access, data caching, crash
+     recovery",
+  abstract     = "This paper compares three distributed file system
+    architectures: the vnode architecture found in SunOS, the architecture used
+    in the Sprite distributed file system, and the architecture used in the
+    Plan 9 distributed file system.  The emphasis of the comparison is on
+    generalized support for remote access to file system resources, which
+    include peripheral devices and IPC communication channels as well as
+    regular files.  The vnode architecture is an evolution of structures and
+    interfaces used in the original, stand-alone UNIX file system.  The Sprite
+    architecture provides a network-wide shared name space and emphasizes a
+    strong separation of the internal naming and I/O interfaces to easily
+    provide remote access to a variety of resources.  The Plan 9 architecture
+    relies on per-process name spaces and is organized around a singe file
+    system protocol, 9P, through which a variety of devices and system services
+    are accessed.",
+  location     = "https://www.usenix.org/legacy/publications/compsystems/1994/spr_welch.pdf"
 }
 
 @Article{cm,
