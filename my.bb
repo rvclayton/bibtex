@@ -2634,6 +2634,47 @@
   location     = "http://dx.doi.org/10.5381/jot.2014.13.4.a1"
 }
 
+@Article{asopwem,
+  author       = "Ungerer, Theo and Robi{\v c}, Borut and {\v S}ilc, Jurij",
+  title        = "{A} Survey of Processors with Explicit Multithrading",
+  journal      = surveys,
+  year         = 2003,
+  volume       = 35,
+  number       = 1,
+  pages        = "29--63",
+  month        = mar,
+  keywords     = "blocked multithreading, interleaved multithreading,
+    simultaneous multithreading, cpu architectures, performance",
+  abstract     = "Hardware multithreading is becoming a generally applied
+    technique in the next generation of microprocessors.  Several multithreaded
+    processors are announced by industry or already into production in the
+    areas of high-performance microprocessors, media, and network processors.A
+    multithreaded processor is able to pursue two or more threads of control in
+    parallel within the processor pipeline.  The contexts of two or more
+    threads of control are often stored in separate on-chip register sets.
+    Unused instruction slots, which arise from latencies during the pipelined
+    execution of single-threaded programs by a contemporary microprocessor, are
+    filled by instructions of other threads within a multithreaded processor.
+    The execution units are multiplexed between the thread contexts that are
+    loaded in the register sets.Underutilization of a superscalar processor due
+    to missing instruction-level parallelism can be overcome by simultaneous
+    multithreading, where a processor can issue multiple instructions from
+    multiple threads each cycle.  Simultaneous multithreaded processors combine
+    the multithreading technique with a wide-issue superscalar processor to
+    utilize a larger part of the issue bandwidth by issuing instructions from
+    different threads simultaneously.Explicit multithreaded processors are
+    multithreaded processors that apply processes or operating system threads
+    in their hardware thread slots.  These processors optimize the throughput
+    of multiprogramming workloads rather than single-thread performance.  We
+    distinguish these processors from implicit multithreaded processors that
+    utilize thread-level speculation by speculatively executing compiler- or
+    machine-generated threads of control that are part of a single sequential
+    program.This survey paper explains and classifies the explicit
+    multithreading techniques in research and in commercial microprocessors.", 
+  location     = "http://dx.doi.org/10.1145/641865.641867",
+  location     = "http://csd.ijs.si/silc/ACMCSungerer.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
