@@ -2324,32 +2324,6 @@
   location     = "QA 76.758.A35"
 }
 
-@Article{tvfii4,
-  author       = "Marshall Krik McKusick",
-  title        = "The Virtual Filesystem Interface in 4.4 {BSD}",
-  journal      = cs,
-  year         = 1995,
-  volume       = 8,
-  number       = 1,
-  pages        = "3--25",
-  month        = "Winter",
-  keywords     = "unix filesystems, vnodes, object-oriented filesystems,
-		  stacking filesystems, union filesystems"
-}
-
-@Article{aalowwwis,
-  author       = "Charles~L. Viles and James~C. French",
-  title        = "Availability and Latency of {World Wide Web} Information
-		  Servers",
-  journal      = cs,
-  year         = 1995,
-  volume       = 8,
-  number       = 1,
-  pages        = "61--91",
-  month        = "Winter",
-  keywords     = "www, latency, availablity, http, tcp, networks"
-}
-
 @Article{tdhrm,
   author       = "Frank Halasz and Mayer Schwartz",
   title        = "The Dexter Hypertext Reference Model",
@@ -2809,7 +2783,7 @@
 }
 
 @Article{p9fbl,
-  author       = "Hob Pike and Dave Presotto and Sean Doward and Bob Flandrena
+  author       = "Rob Pike and Dave Presotto and Sean Doward and Bob Flandrena
 		  and Ken Thompson and Howard Trickey and Phil Winterbottom",
   title        = "Plan 9 from {Bell Labs}",
   journal      = cs,
@@ -4032,12 +4006,12 @@
   number       = 1,
   pages        = "27--60",
   month        = "Winter",
-  keywords     = "obliq, object-oriented languages, distributed languages"
+  keywords     = "obliq, object-oriented languages, distributed languages",
   abstract     = "Obliq is a lexically-scoped, untyped, interpreted language
     that supports distributed object-oriented computation.  Obliq objects have
     state and are local to a site.  Obliq computations can roam over the
     network, while maintaining network connections.  Distributed lexical
-    scoping is the key mechanism for managing distributed computation." 
+    scoping is the key mechanism for managing distributed computation.",
   location     = "https://www.usenix.org/publications/compsystems/1995/win_cardelli.pdf"
 }
 
