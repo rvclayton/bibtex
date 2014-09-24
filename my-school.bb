@@ -1930,7 +1930,21 @@
   number       = 3,
   pages        = "313--332",
   month        = "Summer",
-  keywords     = "lans, wans, emulation"
+  keywords     = "lans, wans, emulation",
+  abstract     = "Programming distributed applications is already potentially
+    difficult, although tools exist to aid in their creation.  Applications
+    developed to communicate over local area networks can expect to enjoy
+    highly reliable communications with minimal latency.  However, such
+    applications may no longer continue to perform as expected if moved to a
+    wide-area net-work environment, due to the reduced performance inherent in
+    wide-area networking.  During application development it is often
+    impractical or inconvenient to evaluate application performance under real
+    wide-area network conditions.  In this paper we describe the design and
+    implementation of the Delayline tool which provides a fully configurable
+    mechanism for emulating wide-area network communications on a local area
+    network.  Delayline allows real distributed applications to be evaluated
+    under emulated wide-area network communication characteristics.", 
+  location     = "https://www.usenix.org/publications/compsystems/1994/sum_ingham.pdf"
 }
 
 @Article{thiiiateotes,
@@ -22390,20 +22404,6 @@
   keywords     = "just-in-time compilation, dynamic compilation, languages,
 		  performance",
   location     = "http://pharos.cpsc.ucalgary.ca/Dienst/Repository/2.0/Body/ncstrl.ucalgary_cs/2001-689-12/postscript"
-}
-
-@Article{asopwem,
-  author       = "Theo Ungerer and Borut Robi\v{c} and Iurij \v{S}ilc ",
-  title        = "A survey of processors with explicit multithreading",
-  journal      = surveys,
-  year         = 2003,
-  volume       = 35,
-  number       = 1,
-  pages        = "20--63",
-  month        = mar,
-  keywords     = "threads, mutithreaded processors, wideissue superscalar
-		  processor",
-  location     = "http://csd.ijs.si/silc/ACMCSungerer.pdf"
 }
 
 @Article{ipacisgh,
