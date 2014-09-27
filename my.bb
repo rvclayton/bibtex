@@ -2662,7 +2662,7 @@
     multiple threads each cycle.  Simultaneous multithreaded processors combine
     the multithreading technique with a wide-issue superscalar processor to
     utilize a larger part of the issue bandwidth by issuing instructions from
-    different threads simultaneously.Explicit multithreaded processors are
+    different threads simultaneously.  Explicit multithreaded processors are
     multithreaded processors that apply processes or operating system threads
     in their hardware thread slots.  These processors optimize the throughput
     of multiprogramming workloads rather than single-thread performance.  We
@@ -2671,8 +2671,7 @@
     machine-generated threads of control that are part of a single sequential
     program.This survey paper explains and classifies the explicit
     multithreading techniques in research and in commercial microprocessors.", 
-  location     = "http://dx.doi.org/10.1145/641865.641867",
-  location     = "http://csd.ijs.si/silc/ACMCSungerer.pdf"
+  location     = "http://dx.doi.org/10.1145/641865.641867"
 }
 
 @TechReport{afsmotmaiidsa,
@@ -3590,6 +3589,16 @@
   address      = "Paris, France",
   keywords     = "concurrency, constraints, machine learning",
   location     = ""
+}
+
+@Book{jqafk,
+  author       = "Fred Kaplan",
+  title        = "John Quincy Adams",
+  publisher    = "Harper",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "john quincy adams, diplomacy, presidency, host",
+  location     = "E 377.K34"
 }
 
 @InProceedings{amoorwpa,
