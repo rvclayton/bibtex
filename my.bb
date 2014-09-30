@@ -3623,6 +3623,16 @@
   location     = "E 377.K34"
 }
 
+@Book{taocp,
+  author       = "Per {Brinch Hansen}",
+  title        = "The Architecture of Concurrent Programs",
+  publisher    = "Prentice-Hall",
+  year         = 1977,
+  address      = ecnj,
+  keywords     = "concurrent pascal, operating systems",
+  location     = "QA 76.73.C65"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "{A} Model of Onion Routing with Provable Anonymity",
