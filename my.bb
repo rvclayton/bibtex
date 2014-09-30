@@ -2674,6 +2674,28 @@
   location     = "http://dx.doi.org/10.1145/641865.641867"
 }
 
+@Article{tcatooeiads,
+  author       = ll,
+  title        = "Time, clocks, and the ordering of events in a distributed system",
+  journal      = cacm,
+  year         = 1978,
+  volume       = 21,
+  number       = 7,
+  pages        = "558--565",
+  month        = jul,
+  keywords     = "distributed systems, synchronization, distributed queue",
+  abstract     = "The concept of one event happening before another in a 
+    distributed system is examined, and is shown to define a partial ordering
+    of the events.  A distributed algorithm is given for synchronizing a system
+    of logical clocks which can be used to totally order the events.  The use
+    of the total ordering is illustrated with a method for solving
+    synchronization problems.  The algorithm is then specialized for
+    synchronizing physical clocks, and a bound is derived on how far out of
+    synchrony the clocks can become.",
+  location     = "http://dx.doi.org/10.1145/359545.359563",
+  location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
