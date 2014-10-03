@@ -3707,3 +3707,18 @@
   location     = "http://www.research.att.com/techdocs/TD_100682.pdf"
 }
 
+@Manual{mftjcw,
+  title        = "MetaKit for Tcl",
+  author       = "Jean-Claude Wippler",
+  organization = "Equi4 Software",
+  year         = 2005,
+  keywords     = "tcl, database, application deployment",
+  abstract     = "Metakit is an embeddable database which runs on Unix, 
+    Windows, Macintosh, and other platforms.  It lets you build applications
+    which store their data efficiently, in a portable way, and which will not
+    need a complex runtime installation.  In terms of the data model, Metakit
+    takes the middle ground between RDBMS, OODBMS, and flat-file databases -
+    yet it is quite different from each of them.", 
+  location     = "http://equi4.com/metakit/tcl.html"
+}
+
