@@ -2696,6 +2696,31 @@
   location     = "http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf"
 }
 
+@Article{tecoadt,
+  author       = "Abraham Silberschatz and Richard~B. Keiburtz",
+  title        = "The External Consistency of Abstract Data Types",
+  journal      = sigplan,
+  year         = 1980,
+  volume       = 16,
+  number       = 2,
+  pages        = "64--73",
+  month        = feb,
+  keywords     = "abstract data types, external specifications, language
+    constructs",
+  abstract     = "In the definition of an abstract data type, much attention is
+    given to specifying how instances of the type are to behave when they are
+    used as intended.  Such specifications are used to guide the choice of a
+    representation for the type, and to verify that an implementation is
+    correct.  An equally important task, but one that has been relatively
+    overlooked until now, is to specify clearly what are the circumstances of
+    intended use of the type.  These specifications must also be made use of if
+    one is to certify that an implementation will produce the behavior that is
+    anticipated.  This paper addresses the specification of the environment and
+    the mode of use to be made of instances of an abstract type, and shows how
+    these can be incorporated into the type definition itself.", 
+  location     = "http://dx.doi.org/10.1145/947586.947593"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
