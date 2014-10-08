@@ -2793,7 +2793,8 @@
   pages        = "221--254",
   month        = "Summer",
   keywords     = "operating systems, distributed systems, client/server
-		  computing, name spaces, file systems, networking"
+		  computing, name spaces, file systems, networking",
+  location     = "https://www.usenix.org/publications/compsystems/1995/sum_pike.pdf"
 }
 
 @Article{tdaioa,
@@ -41233,6 +41234,18 @@
   month        = jun,
   keywords     = "network security, communication security, data encryption,
     traffic analysis, message stream integrity",
+  abstract     = "The implications of adding security mechanisms to high-level
+    network protocols operating in an open-system environment are analyzed.
+    First the threats to security that may arise in such an environment are
+    described, and then a set of goals for communications security measures is
+    established.  This is followed by a brief description of the two basic
+    approaches to communications security, link-oriented measures and
+    end-to-end measures, which concludes that end-to-end measures are more
+    appropriate in an open-system environment.  Next, relevant properties of
+    data encryption--the fundamental technique on which all communications
+    security mechanisms are based--are discussed.  The remainder of the paper
+    describes ho~w end-to-end measures can be used to achieve each of the
+    security goals previously established.", 
   location     = "http://doi.acm.org/10.1145/356909.356913"
 }
 
