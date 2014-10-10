@@ -2721,6 +2721,25 @@
   location     = "http://dx.doi.org/10.1145/947586.947593"
 }
 
+@Article{twawotcps,
+  author       = "Teitelbaum, Tim and Reps, Thomas and Horwitz, Susan",
+  title        = "The Why and Wherefore of the {C}ornell {P}rogram {S}ynthesizer",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "8--16",
+  month        = jun,
+  keywords     = "programming environments, text editing, structured editing,
+    text templates, human factors, interface design",
+  abstract     = "The Cornell Program Synthesizer is a syntax-directed
+    programming environment that has been used in introductory programming
+    courses since June, 1979.  We present our experience with the Synthesizer
+    by introducing its main features, by presenting our basic principles of
+    design, and by discussing important design decisions.", 
+  location     = "http://dx.doi.org/10.1145/872730.806448"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
