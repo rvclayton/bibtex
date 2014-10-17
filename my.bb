@@ -440,7 +440,7 @@
 
 @Article{afftadodsd,
   author       = "Chen Ding and Prabhaker Mateti",
-  title        = "{A} Framework for the Automated Drawing of Data Structure Diagrams",
+  title        = "A Framework for the Automated Drawing of Data Structure Diagrams",
   journal      = tse,
   year         = 1990,
   volume       = 16,
@@ -465,7 +465,7 @@
 @Article{atpltsitbcs,
   author       = "Soklei Leong and Stephen Jodis and Kevin Sullivan and Oliver
     Jiang and P.~A.~D. {de Maine}",
-  title        = "{A} Transportable Programming Language ({TPL}) System---{II}:  The Bifunctional Compiler System",
+  title        = "A Transportable Programming Language ({TPL}) System---{II}:  The Bifunctional Compiler System",
   journal      = tse,
   year         = 1990,
   volume       = 16,
@@ -1675,7 +1675,7 @@
 
 @Article{acsov1isufce,
   author       = "Cheryl~A. Wiecek",
-  title        = "{A} Case Study of {VAX}-11 Instruction Set Usage for Compiler Execution",
+  title        = "A Case Study of {VAX}-11 Instruction Set Usage for Compiler Execution",
   journal      = sigarch # " (" # pot # "First International Symposium on " #
     ASPLOS # " (ASPLOS I))",
   year         = 1982,
@@ -1835,7 +1835,7 @@
 
 @Article{ammawhsfcas,
   author       = "Ahuja, Sudhir~R. and Asthana, Abhaya",
-  title        = "{A} Multi-Microprocessor Architecture with Hardware Support for Communication and Scheduling",
+  title        = "A Multi-Microprocessor Architecture with Hardware Support for Communication and Scheduling",
   journal      = sigarch # " (" # pot # "First International Symposium on " #
     ASPLOS # " (ASPLOS I))",
   year         = 1982,
@@ -1859,8 +1859,8 @@
 
 @Article{acospo,
   author       = "Hirzel, Martin and Soul{\' e}, Robert and Schneider, Scott
-    and Gedik, Bu{\v g}ra; Grimm, Robert", 
-  title        = "{A} Catalog of Stream Processing Optimizations",
+    and Gedik, Bu{\v g}ra and Grimm, Robert", 
+  title        = "A Catalog of Stream Processing Optimizations",
   journal      = surveys,
   year         = 2014,
   volume       = 46,
@@ -1992,7 +1992,7 @@
 
 @Article{atfbfrc,
   author       = "Christopher~J. Calabrese",
-  title        = "{A} Tool for Building Firewall-Router Configurations",
+  title        = "A Tool for Building Firewall-Router Configurations",
   journal      = "Computing Systems",
   year         = 1996,
   volume       = 9,
@@ -2319,7 +2319,7 @@
 
 @Article{asscmfbsl,
   author       = "Le Blanc, Richard~J. and Fischer, Charles~N.",
-  title        = "{A} Simple Separate Compilation Mechanism for Block-Structured Languages",
+  title        = "A Simple Separate Compilation Mechanism for Block-Structured Languages",
   journal      = tse,
   year         = 1984,
   volume       = 10,
@@ -2636,7 +2636,7 @@
 
 @Article{asopwem,
   author       = "Ungerer, Theo and Robi{\v c}, Borut and {\v S}ilc, Jurij",
-  title        = "{A} Survey of Processors with Explicit Multithrading",
+  title        = "A Survey of Processors with Explicit Multithrading",
   journal      = surveys,
   year         = 2003,
   volume       = 35,
@@ -2740,9 +2740,30 @@
   location     = "http://dx.doi.org/10.1145/872730.806448"
 }
 
+@Article{tdoaldefbsl,
+  author       = "Morris, Joseph~M. and Schwartz, Mayer~D.",
+  title        = "The Design of a Language-Directed Editor for Block-Structured Languages",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "28--33",
+  month        = jun,
+  keywords     = "syntax-directed editors, block-structured languages,
+    incremental compilation",
+  abstract     = "A language-directed editor combines the text manipulation
+    functions of a general-purpose editor with the syntax-checking functions of
+    a compiler.  It allows a user to create and modify a program in terms of
+    its syntactic structure.  The design of a user interface and an
+    implementation for one such editor is described in language-independent
+    terms.  The design rationale is given.  The implementation is outlined in
+    terms of its major data structures.", 
+  location     = "http://dx.doi.org/10.1145/872730.806451"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
-  title        = "{A} Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
+  title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
   institution  = "Operations Research Center, " # ucal,
   year         = 1980,
   number       = "ORC 80-2",
@@ -3677,9 +3698,17 @@
   location     = "QA 76.73.C65"
 }
 
+@Book{aadftip,
+  author       = "Ryan Cohen and Tao Wang",
+  title        = "Android Application Development for the Intel Platform",
+  publisher    = "Apress Open",
+  year         = 2014,
+  keywords     = "android, embedded systems, mobile computing"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
-  title        = "{A} Model of Onion Routing with Provable Anonymity",
+  title        = "A Model of Onion Routing with Provable Anonymity",
   booktitle    = pot # "11th International Conference on Financial Cryptography",
   year         = 2007,
   editor       = "Sven Dietrich and Rachna Dhamija",
