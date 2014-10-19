@@ -2761,6 +2761,27 @@
   location     = "http://dx.doi.org/10.1145/872730.806451"
 }
 
+@Article{anodosios,
+  author       = "Gligor, Virgil~D.",
+  title        = "A Note on Denial-of-Service in Operating Systems",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 3,
+  pages        = "320--324",
+  month        = may,
+  keywords     = "denial-of-service, interuser dependencies, maximum wait time,
+    service hierarchy, service specifications",
+  abstract     = "A simple and general definition of denial-of-service in 
+    operating systems is presented.  It is argued that no current protection
+    mechanism nor model resolves this problem in any demonstrable way.  The
+    notion of interuser dependency is introduced and identified as the common
+    cause for all problem instances.  Decomposition of operating systems into
+    hierarchies of services is assumed for the discovery of denial-of-service
+    instances.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010241"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
