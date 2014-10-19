@@ -184,6 +184,7 @@ a new solution of dijkstras concurrent programming problem : lamport
 a new stack technique for the management of runtime structures in distribued implementations : hogen
 a node positioning algorithm for general trees : walker
 a noninvasive architecture to monitor real time distrubted systems : tsai
+a note on denial of service in operating systems : gligor
 a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
 a note on searching in a binary search tree : andersson
@@ -1870,7 +1871,6 @@ meta ii a syntax oriented compiler writing language : schorre
 meta programming a software production method : simonyi
 meta programming tools for ml : sheard
 metadata the mac and you : siracusa
-metakit for tcl : wippler
 methods for routing performance management and service problem relief in datakit networks : fendick
 microcontrollers cordic methods : pashea
 microeconomic theory applied to distributed systems : clarke
@@ -2508,6 +2508,7 @@ scraping the acm digital library : bergmark
 scripted documents : wippler
 scripting higher level programming for the 21th century : ousterhout
 scripts a communication abstraction mechanism and its verification : francez
+scsh cheat sheet : shivers
 scsh reference manual : shivers
 sctp a proposed standard for robust internet data transport : caro
 sdsi a simple distributed security infrastructure : rivest
@@ -2947,6 +2948,7 @@ the evolution of ntfs : anderson
 the evolution of ntfs ntfs 5.0 : anderson
 the evolution of storage systems : morris
 the expected lifetime of single address space operating systems : kotz
+the external consistency of abstract data types : silberschatz
 the factory method creational design pattern : raj
 the failure of pattern languages : gabriel
 the fairness doctrine a solution in search of a problem : cronauer
