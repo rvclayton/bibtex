@@ -2782,6 +2782,30 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010241"
 }
 
+@Article{arroaats,
+  author       = "Weller, Daniel~L. and York, Bryant~W.",
+  title        = "A Relational Representation of an Abstract Type System",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 3,
+  pages        = "303--309",
+  month        = may,
+  keywords     = "abstract data types, database interface, programming
+    languages, relational database, type systems, generics",
+  abstract     = "Programming languages have traditionally had more data types
+    than database systems.  The flexibility of abstract types could make a
+    database system more useful in supporting application development.
+    Abstract types allow users to think about and manipulate data in terms and
+    structures that they are familiar with.  This paper proposes that databases
+    have a type system interface and describes a representation of a type
+    system in terms of relations.  The type system model supports a variety of
+    programming language constructs, such as user-defined parameterized data
+    types and user-defined generic operations.  The efficiency of the type
+    system is compared to the access time of the database system.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010239"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
