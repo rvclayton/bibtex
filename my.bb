@@ -3751,6 +3751,17 @@
   keywords     = "android, embedded systems, mobile computing"
 }
 
+@Book{tcatb,
+  author       = "John {von Neumann}",
+  title        = "The Computer and the Brain",
+  publisher    = "Yale",
+  year         = 1958,
+  address      = nhco,
+  keywords     = "analog computing, digital computing, logical control,
+    neurons, memory, nervous system",
+  location     = "QA 76.V59"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "A Model of Onion Routing with Provable Anonymity",
