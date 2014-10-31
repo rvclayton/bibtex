@@ -2806,6 +2806,30 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010239"
 }
 
+@Article{aeosr,
+  author       = "Standish, Thomas~A.",
+  title        = "An Essay on Software Reuse",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 5,
+  pages        = "494--497",
+  month        = sep,
+  keywords     = "software factories, software productivity, software reuse",
+  abstract     = "This paper explores software reuse.  It discusses briefly
+    some economic incentives for developing effective software reuse technology
+    and notes that different kinds of software reuse, such as direct use
+    without modification and reuse of abstract software modules after
+    refinement, have different technological implications.  It sketches some
+    problem areas to be addressed if we are to achieve the goal of devising
+    practical software reuse systems.  These include information retrieval
+    problems and finding effective methods to aid us in understanding how
+    programs work.  There is a philosophical epilogue which stresses the
+    importance of having realistic expectations about the benefits of software
+    reuse.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010272"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
