@@ -2830,6 +2830,33 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010272"
 }
 
+@Article{tdeasefptd,
+  author       = "Walker, Janet~H.",
+  title        = "The Document Editor:  {A} Support Environment for Preparing Technical Documents",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "44--50",
+  month        = jun,
+  keywords     = "structured editing, document editing, technical document
+    production, indexing, cross-referencing, prototyping, ",
+  abstract     = "As understanding of a particular problem domain matures, its
+    tools become more specialized, moving from general low-level tools to more
+    specialized high-level tools.  Early work in a field applies the same set
+    of low-level aids to all problems.  Gradually more specialized tools emerge
+    as we come to better understand the problem and the tools that are best for
+    it.  Since the emergence of the first program editors in the early 1960s we
+    have learned a lot about the editing process and about building editors.
+    Recently several editors specialized for editing program sources, text, and
+    data structures have been developed.  To date, little work has been
+    reported on specialized document editors for editing complex text.  This
+    paper describes a research effort into identifying the requirements for an
+    interactive environment for editing complex documents and an initial
+    implementation for the environment.", 
+  location     = "http://dx.doi.org/10.1145/872730.806453"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
