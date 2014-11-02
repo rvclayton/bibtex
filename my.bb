@@ -2857,6 +2857,35 @@
   location     = "http://dx.doi.org/10.1145/872730.806453"
 }
 
+@Article{ripasotsota,
+  author       = "T.~Capers Jones",
+  title        = "Reusability in Programming:  {A} Survey of the State of the Art",
+  journal      = tse,
+  year         = 1984,
+  volume       = 10,
+  number       = 5,
+  pages        = "488--494",
+  month        = sep,
+  keywords     = "common systems, programming productivity, reusable
+    architecture, reusable code, reusable design, reusable documentation,
+    reusable modules, reusable software",
+  abstract     = "As programming passes the 30 year mark as a professional
+    occupation, an increasingly large number of programs are in application
+    areas that have been automated for many years.  This fact is changing the
+    technology base of commercial programming, and is opening up new markets
+    for standard functions, reusable common systems, modules, and the tools and
+    support needed to facilitate searching out and incorporating existing code
+    segments.  This report addresses the 1984 state of the art in the domains
+    of reusable data, reusable architectures, reusable design, common systems,
+    reusable programs, and reusable modules or subroutines.  If current trends
+    toward reusability continue, the amount of reused logic and reused code in
+    commercial programming systems may approach 50 percent by 1990.  However,
+    major efforts will be needed in the areas of reusable data, reusable
+    architectures, and reusable design before reusable code becomes a sound
+    basic technology.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010271"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
