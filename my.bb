@@ -3842,6 +3842,16 @@
   location     = "QA 76.V59"
 }
 
+@Book{pasb,
+  author       = "A.~S. Byatt",
+  title        = "Possession",
+  publisher    = "Vintage Books",
+  year         = 1990,
+  address      = nyny,
+  keywords     = "poetry, scholarship, obsession",
+  location     = "PR 6052.Y2 P6"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "A Model of Onion Routing with Provable Anonymity",
