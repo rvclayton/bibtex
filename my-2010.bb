@@ -4413,7 +4413,23 @@
   volume       = 4,
   pages        = "235--255",
   keywords     = "software quality, quality factors, software metrics, modular
-		  design"
+		  design",
+  abstract     = "Software quality involves the conformance of a software
+    product to some predefined set of functional requirements at a specified
+    level of quality.  The software is considered valid when it conforms to
+    these “quality factors” at some acceptable level.  There are a large number
+    of quality factors against which software may be validated.  This paper
+    discusses the development of traditional software metrics in relation to
+    the anticipated structure of a software system.  The taxonomy of a software
+    system primarily relies upon the dissection of the software system into
+    modules.  Modular design is the cornerstone of quality software, and
+    metrics that can predict an optimum modular structure are critical.  By
+    examining the theoretical bases on quality metrics, a base set of common
+    quantitative metrics can be devised and mapped to quality metrics in which
+    they reside.  This paper surveys existing metrics and suggests the
+    derivation of software design metrics from software quality factors.
+    Measurable software attributes are identified and suggested as potential
+    design metrics." 
 }
 
 @Article{nasddt,
@@ -8633,36 +8649,31 @@
   month        = sep,
   keywords     = "packet classification, flow identification, taxonomy,
     exhaustive search, decision tree, decomposition, tuple space, caching",
-  abstract     = " Packet classification is an enabling function for a variety
-		  of Internet applications including quality of service,
-		  security, monitoring, and multimedia communications. In order
-		  to classify a packet as belonging to a particular flow or set
-		  of flows, network nodes must perform a search over a set of
-		  filters using multiple fields of the packet as the search
-		  key. In general, there have been two major threads of
-		  research addressing packet classification, algorithmic and
-		  architectural. A few pioneering groups of researchers posed
-		  the problem, provided complexity bounds, and offered a
-		  collection of algorithmic solutions. Subsequently, the design
-		  space has been vigorously explored by many offering new
-		  algorithms and improvements on existing algorithms. Given the
-		  inability of early algorithms to meet performance constraints
-		  imposed by high speed links, researchers in industry and
-		  academia devised architectural solutions to the problem. This
-		  thread of research produced the most widely-used packet
-		  classification device technology, Ternary Content Addressable
-		  Memory (TCAM). New architectural research combines
-		  intelligent algorithms and novel architectures to eliminate
-		  many of the unfavorable characteristics of current TCAMs. We
-		  observe that the community appears to be converging on a
-		  combined algorithmic and architectural approach to the
-		  problem. Using a taxonomy based on the high-level approach to
-		  the problem and a minimal set of running examples, we provide
-		  a survey of the seminal and recent solutions to the
-		  problem. It is our hope to foster a deeper understanding of
-		  the various packet classification techniques while providing
-		  a useful framework for discerning relationships and
-		  distinctions.",
+  abstract     = "Packet classification is an enabling function for a variety
+    of Internet applications including quality of service, security,
+    monitoring, and multimedia communications.  In order to classify a packet
+    as belonging to a particular flow or set of flows, network nodes must
+    perform a search over a set of filters using multiple fields of the packet
+    as the search key.  In general, there have been two major threads of
+    research addressing packet classification, algorithmic and architectural.
+    A few pioneering groups of researchers posed the problem, provided
+    complexity bounds, and offered a collection of algorithmic solutions.
+    Subsequently, the design space has been vigorously explored by many
+    offering new algorithms and improvements on existing algorithms.  Given the
+    inability of early algorithms to meet performance constraints imposed by
+    high speed links, researchers in industry and academia devised
+    architectural solutions to the problem.  This thread of research produced
+    the most widely-used packet classification device technology, Ternary
+    Content Addressable Memory (TCAM).  New architectural research combines
+    intelligent algorithms and novel architectures to eliminate many of the
+    unfavorable characteristics of current TCAMs.  We observe that the
+    community appears to be converging on a combined algorithmic and
+    architectural approach to the problem.  Using a taxonomy based on the
+    high-level approach to the problem and a minimal set of running examples,
+    we provide a survey of the seminal and recent solutions to the problem.  It
+    is our hope to foster a deeper understanding of the various packet
+    classification techniques while providing a useful framework for discerning
+    relationships and distinctions.", 
   location     = "http://www.cse.seas.wustl.edu/techreportfiles/getreport.asp?347"
 }
 
