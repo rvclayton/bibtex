@@ -3012,6 +3012,17 @@
   location     = "http://reproducibility.cs.arizona.edu/tr.pdf"
 }
 
+@TechReport{trotsopliteoap,
+  author       = "Daniel~P. Friedman",
+  title        = "The Role of the Study of Programming Languages in the Education of a Programmer",
+  institution  = csd # inu,
+  year         = 2001,
+  address      = blin,
+  keywords     = "programming languages, program transformations, continuation
+    passing style",
+  location     = "http://www.cs.indiana.edu/~dfried/mex.ps"
+}
+
 @Book{taospk,
   author       = "Philip Kitcher",
   title        = "The Advancement of Science",
