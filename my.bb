@@ -2886,6 +2886,33 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010271"
 }
 
+@Article{cafw,
+  author       = "Lorinda Cherry",
+  title        = "Computer Aids for Writers",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "61--67",
+  month        = jun,
+  keywords     = "textual analysis, style analysis, natural-language
+    understanding, writing aids",
+  abstract     = "For many people, writing is painful and editing one's own
+    prose is difficult, tedious, and error-prone.  It is often hard to see
+    which parts of a document are difficult to read or how to transform a wordy
+    sentence into a more concise one.  It is even harder to discover that one
+    overuses a particular linguistic construct.  The system of programs
+    described here helps writers to evaluate documents and to produce better
+    written and more readable prose.  The system consists of programs to
+    measure surface features of text that are important to good writing style
+    as well as programs to do some of the tedious jobs of a copy editor.  Some
+    of the surface features measured are readability, sentence and word length,
+    sentence type, word usage, and sentence openers.  The copy editing programs
+    find spelling errors, wordy phrases, bad diction, some punctuation errors,
+    double words, and split infinitives.", 
+  location     = "http://dx.doi.org/10.1145/800209.806455"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3021,6 +3048,14 @@
   keywords     = "programming languages, program transformations, continuation
     passing style",
   location     = "http://www.cs.indiana.edu/~dfried/mex.ps"
+}
+
+@TechReport{srepdg,
+  author       = "Douglas Gregor",
+  title        = "Shift/Reduce Expression Parsing",
+  year         = 2014,
+  keywords     = "parsing, expressions, precedence parsing",
+  location     = "http://h14s.p5r.org/2014/10/shiftreduce-expression-parsing-by-douglas-gregor.html"
 }
 
 @Book{taospk,
@@ -3861,6 +3896,16 @@
   address      = nyny,
   keywords     = "poetry, scholarship, obsession",
   location     = "PR 6052.Y2 P6"
+}
+
+@Book{ctos,
+  author       = "Viki McCabe",
+  title        = "Coming to Our Senses",
+  publisher    = oup,
+  year         = 2014,
+  address      = oxuk,
+  keywords     = "gestalt, perception, structure",
+  location     = "BF 311.M4276"
 }
 
 @InProceedings{amoorwpa,
