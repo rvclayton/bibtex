@@ -30770,7 +30770,13 @@ b
   address      = nola,
   month        = "24--28 " # mar,
   keywords     = "java, concurrent programming, monitors, programmed
-		  synchronization"
+		  synchronization",
+  abstract     = "At first glance, Java monitors appear easy to use.  However,
+    a deeper analysis reveals that they are surprisingly tricky, suffer from
+    subtle race conditions, and are actually a low-level synchronization tool
+    in stark contrast to the reputation Java has as a modern well-engineered
+    language.  The programmer is responsible for building safe and robust
+    synchronization structures from Java monitors." 
 }
 
 @InProceedings{uclppic,
