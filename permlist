@@ -152,7 +152,6 @@ a micro manual for lisp not the whole truth : mccarthy
 a micromodularity mechanism : jackson
 a microprocessor based implantable telemetry system : fernald
 a microprogrammed p code interpreter for the data general eclipse s 130 minicomputer : hall
-a model and compilation strategy for out of core data parallel programs : bordawekar
 a model for flexible high performance communication subsystems : zitterbart
 a modest stl tutorial : k
 a modular architecture for providing carrier grade sip telephony services : khlifi
@@ -2572,6 +2571,7 @@ shared memory vs message passing in asynchronous distributed environment : bar-n
 sharing and protection in a single address space operating system : chase
 sharlit a tool for building optimizers : tjiang
 sheep fleecing with walter funkenbusch : anon
+shift reduce expression parsing : gregor
 shoplifting in reverse : duntermann
 shortcomings of lcl 2.4 : chalin
 should computer scientists experiment more : tichy
@@ -2690,7 +2690,6 @@ splay trees : clark
 splay trees : karger
 spoken dialogue technology enabling the conversational user interface : mctear
 sqlite : sqlite
-squeak by example : black
 squinting at power series : mcilroy
 ssa is functional programming : appel
 stack based typed assembly language : morrisett
