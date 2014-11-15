@@ -937,7 +937,14 @@
   volume	= 20,
   number	= 4,
   pages		= "403--424",
-  month		= "April",
+  month		= apr,
+  abstract	= "Univers is a generic attribute-based name server upon which
+    a variety of high-level naming services can be built.  This paper defines
+    Univers' underlying attribute-based naming model.  It also describes
+    several aspects of its implementation and demonstrates how various naming
+    services—including a global white-pages service, a local yellow-pages
+    service and a conventional name-to-address mapper—can be built on top of
+    Univers.", 
   keywords	= "name service, yellow pages, white pages, attributes"
 }
 
