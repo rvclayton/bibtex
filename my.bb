@@ -3869,14 +3869,6 @@
   location     = "QA 76.73.C65"
 }
 
-@Book{aadftip,
-  author       = "Ryan Cohen and Tao Wang",
-  title        = "Android Application Development for the Intel Platform",
-  publisher    = "Apress Open",
-  year         = 2014,
-  keywords     = "android, embedded systems, mobile computing"
-}
-
 @Book{tcatb,
   author       = "John {von Neumann}",
   title        = "The Computer and the Brain",
@@ -3906,6 +3898,27 @@
   address      = oxuk,
   keywords     = "gestalt, perception, structure",
   location     = "BF 311.M4276"
+}
+
+@Book{aadftip,
+  author       = "Tao Wang",
+  title        = "Android Application Development for the Intel Platform",
+  publisher    = "APress",
+  editor       = "Ryan Cohen",
+  year         = 2014,
+  keywords     = "android, embedded systems, mobile development",
+  location     = ""
+}
+
+@Book{nlnk,
+  author       = "Namoi Klein",
+  title        = "No Logo",
+  publisher    = "Picador",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "advertising, multinational corporations, marketing,
+    capitalism, employment",
+  location     = "HB 69 B7 K58"
 }
 
 @InProceedings{amoorwpa,
