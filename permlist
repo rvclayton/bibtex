@@ -358,7 +358,6 @@ ada system dependency analyzer tool : baratta
 adaptable architectures for supersystems : vick
 adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
 adapting correcting and perfecting software estimates a maintenance metaphor : abdel
-adaptive an object oriented framework for flexible and adaptive communication protocols : box
 adaptive automata for context dependent languages : neto
 adaptive block coding : deel
 adaptive delta modulation : knott
@@ -2534,6 +2533,7 @@ selecting sequence numbers : tomlinson
 selecting the median and two quantiles in a set of numbers : cunto
 self assesment procedure xxiii programming languages : clifton
 self acertifying file system : mazieres
+self handbook documentation : allen
 self healing in modern operating systems : shapiro
 selling objects : ivor
 semantic : berners-lee
@@ -3186,6 +3186,7 @@ the undergraduate language course what to do : bergin
 the universal transport system an adaptive end to end protocol analysis and design : richards
 the unix connection : smith
 the unix programming environment : kernighan
+the unix system and software reusability : kernighan
 the unix tree rethough an introduction to globo linux : loderunner
 the unreasonable effectiveness of mathematics in the natural sciences : wigner
 the unrevised osi reference model : day
