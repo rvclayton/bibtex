@@ -2913,6 +2913,54 @@
   location     = "http://dx.doi.org/10.1145/800209.806455"
 }
 
+@Article{agatdm,
+  author       = "Charles~F. Goldfarb",
+  title        = "A Generalized Approach to Document Markup",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "61--67",
+  month        = jun,
+  keywords     = "document markup, structural markup, document processing",
+  abstract     = {Text processing and word processing systems typically
+    require users to intersperse additional information in the natural text of
+    the document being processed.  This added information, called “markup,”
+    serves two purposes: 1.  it separates the logical elements of the document;
+    and 2.  it specifies the processing functions to be performed on those
+    elements.}, 
+  location     = "http://dx.doi.org/10.1145/800209.806456"
+}
+
+@Article{tusasr,
+  author       = "Brian~W. Kernighan",
+  title        = "The " # unix # " System and Software Reusability",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "513--518",
+  month        = sep,
+  keywords     = "unix, program development, portability",
+  abstract     = "The Unix system contains a variety of facilities that enhance
+    the reuse of software.  These vary from the utterly conventional, such as
+    function libraries, to basic architectural mechanisms, such as the Unix
+    pipe.  The Unix pipe, which makes whole programs building blocks of larger
+    computational structures, has been the primary reason for the development
+    of a literature of useful, but specialized programs-programs that would be
+    too costly to write in a conventional programming language such as C.  It
+    has led to high levels of program reuse both by the nature of its operation
+    and through its effect on programming conventions (e.g., programs
+    structured as simple filters).  Another facility enhancing reuse on Unix is
+    the on-line C source code for Unix system programs.  This has led to a
+    shared style of programming in which existing programs are used as models
+    for new programs, allowing the reuse of ideas, algorithms and source code.
+    Finally, the Unix system contains many other reuse enhancing facilities,
+    such as generic facilities for screen management (curses and termcap) and
+    program generators (lex and yacc).", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010275"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3056,6 +3104,19 @@
   year         = 2014,
   keywords     = "parsing, expressions, precedence parsing",
   location     = "http://h14s.p5r.org/2014/10/shiftreduce-expression-parsing-by-douglas-gregor.html"
+}
+
+@TechReport{txkppee,
+  author       = "Mats Bj{\" o}rkman",
+  title        = "The xx-kernel Parallel Protocol Execution Environment",
+  institution  = dcs # "Uppsala University",
+  year         = 1994,
+  type         = "Extended abstract",
+  address      = "Uppsala, Sweden",
+  abstract     = "",
+  month        = "",
+  keywords     = "parallel processing, protocol processing",
+  location     = ""
 }
 
 @Book{taospk,
