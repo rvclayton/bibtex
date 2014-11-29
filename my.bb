@@ -2961,6 +2961,28 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010275"
 }
 
+@Article{pahde,
+  author       = "Allen, Todd and Nix, Robert and Perlis, Alan",
+  title        = "{PEN}:  {A} Hierarchial Document Editor",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "74--81",
+  month        = jun,
+  keywords     = "document editing, structured editing, mathematical editing,
+    apl",
+  abstract     = "Three terms in common usage in computerized text processing
+    are text-editing, word-processing, and computer controlled typesetting.
+    This paper deals with a fourth term, manuscript preparation, that has
+    important intersections with the above three.  A computerized manuscript
+    preparation system is one that supports an author in the preparation of a
+    manuscript.  In what follows we deal with one such, the PEN system,
+    directed towards the preparation of manuscripts containing significant
+    mathematical notation.", 
+  location     = "http://dx.doi.org/10.1145/800209.806457"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
