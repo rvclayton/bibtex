@@ -2983,6 +2983,28 @@
   location     = "http://dx.doi.org/10.1145/800209.806457"
 }
 
+@Article{sewrdac,
+  author       = "Lanergan, Robert~G. and Grasso, Charles~A.",
+  title        = "Software Engineering with Reusable Designs and Code",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "498--501",
+  month        = sep,
+  keywords     = "software reuse, cobol, business data processing, software
+    libraries, software catalogs",
+  abstract     = "For over six years Raytheon's Missile Systems Division,
+    Information Processing Systems Organization has used a successful approach
+    in developing and maintaining business software.  The approach centers on
+    the fact that 60 percent of all business application designs and code are
+    redundant and can be standardized and reused.  This approach has resulted
+    in significant gains in productivity and reliability and improved end-user
+    relations, while providing better utilization of data processing personnel,
+    primarily in the maintenance phase of the software life cycle.", 
+  location     = "http://dx.doi.org/10.1145/75722.75731"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
