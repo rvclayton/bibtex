@@ -448,9 +448,6 @@ an attribute grammar evaluator in haskell : rushall
 an awk to c++ translator : kernighan
 an axiomatic basis for computer programming : hoare
 an efficient context free parsing algorithm : earley
-efficient and language independent mobile programs : adl-tabatabai
-efficient implementation of trie structures : aoe
-efficient interpretation using quickening : brunthaler
 an efficient reliable broadcast protocol : kaashoek
 an empiricaly driven mathematical modeling analysis for play calling strategy in american football : boronico
 an empirical analysis of c preprocessor use : ernst
@@ -1122,15 +1119,18 @@ education for computing professionals : parnas
 effective standard c++ library curiously recurring manipulators : kreft
 effects of the change from rate of return to price cap regulation : breautigam
 efficiency of vulnerability disclosure mechanisms to disseminate vulnerability knowledge : cavusoglu
-efficient binary transfer of pointer structures : toyn
+efficient and language independent mobile programs : adl-tabatabai
 efficient annotated terms : van den brand
+efficient binary transfer of pointer structures : toyn
 efficient compile time garbage collection for arbitrary data structures : mohnen
 efficient concise deterministic patterm matching automata for ambiguous patterns : nedjah
 efficient demultiplexing of network packets by automatic parsing : jayaram
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
 efficient implementation of the smalltalk 80 system : deutsch
+efficient implementation of trie structures : aoe
 efficient instruction scheduling for delayed load architectures : kurlander
+efficient interpretation using quickening : brunthaler
 efficient message dispatch in object oriented systems : naik
 efficient parallel recursion : brinch hansen
 efficient program tracing : larus
@@ -1173,6 +1173,7 @@ es extensible shell : es
 escape from zurg an exercise in logic programming : erwig
 escaping the event loop an alternative control structure for multi threaded guis : fuchs
 escaping the evils of centralized control with self certifying pathnames : mazieres
+etude and the folklore of user interface design : good
 euler a generalization of algol and its formal definition part 1 : wirth
 euler an experiment in language definition : christopher
 evaluating pair programming with respect to system complexity and programmer expertise : arisholm
