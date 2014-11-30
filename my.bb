@@ -3005,6 +3005,43 @@
   location     = "http://dx.doi.org/10.1145/75722.75731"
 }
 
+@Article{eatfouid,
+  author       = "Michael Good",
+  title        = "Etude and the Folklore of User Interface Design",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "34--43",
+  month        = jun,
+  keywords     = "user-interface design, heuristics",
+  abstract     = "Research in user interface design is like the weather 
+    everybody talks about it, but nobody does anything about it.  While this
+    isn't strictly true, the great majority of guidelines for user interface
+    design that one is likely to come across are based on the experience or gut
+    feelings of a particular designer.  These are better than nothing, but they
+    are made less useful since 1) a particular recommendation could be based on
+    factors unique to the designer's own system, 2) the population for whom the
+    particular system is intended is either not described in detail or is not a
+    generalizable sample of computer users, 3) designers' gut feelings are
+    notoriously inaccurate sources for human factors guidelines.  Thus the main
+    body of recommendations available to the designer of a new system is more
+    in the category of folklore than of readily accepted engineering
+    principles.  So long as one recognizes these limitations, it is still very
+    helpful to consider the recommendations one finds in the literature when
+    designing a new system.  Some of these are based on experimental evidence,
+    while others are repeated often enough and with so little opposition that
+    their utility is better than average.  In this paper, I will show how these
+    principles have been applied in designing the Etude text processing system.
+    After summarizing the major ideas behind the design of Etude, I will focus
+    on several specific areas of user interface design, comparing Etude's
+    approach with the appropriate recommendations from the folklore.  I will
+    conclude by briefly describing a forthcoming experiment which is intended
+    to determine if adherence to the folklore has in fact produced a system
+    that is easy to use.", 
+  location     = "http://dx.doi.org/10.1145/800209.806452"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
