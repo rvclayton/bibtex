@@ -3042,6 +3042,51 @@
   location     = "http://dx.doi.org/10.1145/800209.806452"
 }
 
+@Article{sosn,
+  author       = "Akyildiz, Ian~F. and Su, Weilian and Sankarasubramaniam, Yogesh and Cayirci, Erdal",
+  title        = "Survey on Sensor Networks",
+  journal      = ieeecom,
+  year         = 2002,
+  volume       = 40,
+  number       = 8,
+  pages        = "102--114",
+  month        = aug,
+  keywords     = "",
+  abstract     = "The advancement in wireless communications and electronics
+    has enabled the development of low-cost sensor networks.  The sensor
+    networks can be used for various application areas (e.g., health, military,
+    home).  For different application areas, there are different technical
+    issues that researchers are currently resolving.  The current state of the
+    art of sensor networks is captured in this article, where solutions are
+    discussed under their related protocol stack layer sections.  This article
+    also points out the open research issues and intends to spark new interests
+    and developments in this field.", 
+  location     = "http://dx.doi.org/10.1109/MCOM.2002.1024422"
+}
+
+@Article{jaisfdc,
+  author       = "Chamberlin, Donald~D. and King, James~C. and Slutz, Donald~R. and Todd, Stephen, J.~P. and Wade, Bradford~W.",
+  title        = "Janus:  An Interactive System for Document Composition",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "82--91",
+  month        = jun,
+  keywords     = "dual-view editor, document layout, interactive layout,
+    document description, document processing",
+  abstract     = {This paper describes the architecture of a proposed document
+    composition system named JANUS, which is intended to provide support for
+    authors of complex documents containing mixtures of text, line art, and
+    tone art.  The JANUS system is highly interactive, providing authors with
+    immediate feedback and direct electronic control over page layouts, using a
+    special two-display workstation.  Authors communicate with the system by
+    marking up their documents with high-level descriptive “tags”.  A tag
+    definition language is provided whereby new tags may be defined and the
+    format of each tagged object may be controlled.}, 
+  location     = "http://dx.doi.org/10.1145/872730.806458"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -3198,6 +3243,28 @@
   month        = "",
   keywords     = "parallel processing, protocol processing",
   location     = ""
+}
+
+@TechReport{ttloatr,
+  author       = ll,
+  title        = "The Temporal Logic of Actions",
+  institution  = dsrc,
+  year         = 1991,
+  number       = "rr-081",
+  address      = paca,
+  month        = 25 # " " # dec,
+  keywords     = "assertions, verification, specification, logic",
+  abstract     = "The temporal logic of actions (TLA) is a logic for specifying
+    and reasoning about concurrent systems.  Systems and their properties are
+    represented in the same logic, so the assertion that a system meets its
+    specification and the assertion that one system implements another are both
+    expressed by logical implication.  TLA is very simple; its syntax and
+    complete formal semantics are summarized in about a page.  Yet, TLA is not
+    just a logician's toy; it is extremely powerful, both in principle and in
+    practice.  This report introduces TLA and describes how it is used to
+    specify and verify concurrent algorithms.  The use of TLA to specify and
+    reason about open systems will be described elsewhere.", 
+  location     = "http://research.microsoft.com/pubs/64074/lamport-actions.pdf"
 }
 
 @Book{taospk,
