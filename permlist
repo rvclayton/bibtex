@@ -975,6 +975,7 @@ design early considered harmful graduated exposure to complexity and structure b
 design fragments make using frameworks easier : fairbanks
 design models for computer human interfaces : gentner
 design of a broadcast packet switching network : turner
+design of ada systems yielding reusable components an approach using structured algebraic specification : litvintchouk
 design of cooperative process oriented environments using reactive components : geppert
 design of reliable software in distributed systems using the conversation scheme : tyrrell
 design of the bank of america california data network : al-chalabi
@@ -993,7 +994,6 @@ designing an application framework : booch
 designing circuits by calculation : jones
 designing component based frameworks using patterns in the uml : larsen
 designing components with the c++ stl : breymann
-designing cryptography for the new century : landau
 designing distributed algorithms by means of formal sequentially phased reasoning : stomp
 designing for thread safety : venners
 designing for ultrahigh availability the unix rtr operating system : wallace
@@ -3198,7 +3198,6 @@ the use of multilegged arguments to increase confidence in safety claims for sof
 the use of self checks and voting in software error detection an emperical study : leveson
 the user interface as document sgml and distributed applications : fuchs
 the utility of file names : ellard
-the vanishing hand the modular revolution in american business : langlois
 the varieties of refinement : jacob
 the verification of modules : antoniou
 the virtual filesystem interface in 4.4 bsd : mckusick
