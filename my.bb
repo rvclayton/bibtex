@@ -3087,6 +3087,27 @@
   location     = "http://dx.doi.org/10.1145/872730.806458"
 }
 
+@Article{doaasyrcaausas,
+  author       = "Litvintchouk, Steven~D. and Matsumoto, Allen~S.",
+  title        = "Design of {A}da Systems Yielding Reusable Components: An Approach Using Structured Algebraic Specification",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "544--551",
+  month        = sep,
+  keywords     = "abstract data type, ada, algebraic specification, category theory, component environment, initial algebra, parameterized module, reusable components",
+  abstract     = "Our experience with design of Ada software has indicated that
+    a methodology, based on formal algebra, can be developed which integrates
+    the design and management of reusable components with Ada systems design.
+    The methodology requires the use of a specification language, also based on
+    formal algebra, to extend Ada's expressive power for this purpose.  We show
+    that certain requirements for the use of Ada packages which cannot be
+    expressed in Ada can be expressed in algebraic specification languages, and
+    that such specifications can then be implemented in Ada.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010278"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
