@@ -3108,6 +3108,27 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010278"
 }
 
+@Article{palftg,
+  author       = "Kernighan, Brian~W.",
+  title        = "{PIC} --- {A} Language for Typesetting Graphics",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "92--98",
+  month        = jun,
+  keywords     = "little languages, preprocessor, text processing, graphics",
+  abstract     = "PIC is a language for specifying pictures so that they can be
+    typeset as an integral part of a document preparation system.  The basic
+    objects in PIC are boxes, lines, arrows, circles, ellipses, arcs and
+    splines, which may be placed anywhere and labeled with arbitrary text.
+    Most of the effort in designing PIC has gone into making it possible to
+    specify the sizes and positions of objects with minimal use of absolute
+    coordinates.  This paper describes PIC, with primary emphasis on those
+    aspects of the language that make it easy to use.", 
+  location     = "http://dx.doi.org/10.1145/800209.806459"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
