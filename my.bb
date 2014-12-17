@@ -3129,6 +3129,63 @@
   location     = "http://dx.doi.org/10.1145/800209.806459"
 }
 
+@Article{cfsateicbt,
+  author       = "Turba, Thomas~N.",
+  title        = "Checking for Spelling and Typographical Errors in Computer-Based Text",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "51--60",
+  month        = jun,
+  keywords     = "spell checking, dictionaries, bloom filters, compression,
+    software design",
+  abstract     = "This paper addresses the problems and techniques of checking
+    for spelling and typographical errors in computer-based text.  To some
+    extent, the paper is a combination of a report of work done by the author
+    and a survey of other work which, although not all used by the author, is
+    of equal value and interest.  Some of the material presented is related to
+    other aspects of text processing such as data compaction and the efficient
+    searching of very large dictionaries.", 
+  location     = "http://dx.doi.org/10.1145/800209.806454"
+}
+
+@Article{agtl,
+  author       = "Van Wyk, Christopher~J.",
+  title        = "{A} Graphics Typesetting Language",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "99--107",
+  month        = jun,
+  keywords     = "little language, constraint-based language, graphics
+    language",
+  abstract     = "We present a new programming language, IDEAL, in which
+    two-dimensional figures can be expressed.  The language is intended to work
+    with existing text-formatting systems so that text and figures can be
+    typeset at the same time.  The building block for IDEAL programs is called
+    a “box” it shares some features with procedures and some with records in
+    general-purpose programming languages.  A box includes a system of
+    constraints (in this incarnation, equations in complex variables) that
+    declares the relative positions of its significant points and requests for
+    actions to be performed at those points.  A box is called by adding enough
+    constraints to the system in its definition that its significant points can
+    be solved for uniquely.  A box call may also include additional actions to
+    be performed during the call.  The notions of drawing a line using a
+    pattern and texturing a polygonal area follow directly from the mechanism
+    for defining and calling boxes.  Users may also ask for a box to be
+    “opaque” so that it blots out pieces of picture that it covers.  Finally,
+    two commands embody the idea of sketching several pictures on different
+    parallel planes, then merging them into a single picture.  We use these
+    when erasing to create one part of a picture would destroy another part
+    that we want.  We discuss good algorithms for implementing IDEAL when the
+    constraints are expressed as a special kind of nonlinear system and the
+    pictures are composed of straight lines and circular arcs.  The language
+    has been implemented, and was used to produce the paper.", 
+  location     = "http://dx.doi.org/10.1145/800209.806460"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -4170,6 +4227,16 @@
   keywords     = "advertising, multinational corporations, marketing,
     capitalism, employment",
   location     = "HB 69 B7 K58"
+}
+
+@Book{ftloi,
+  author       = "Wayne~C. Booth",
+  title        = "For the Love of It",
+  publisher    = ucp,
+  year         = 1999,
+  address      = chil,
+  keywords     = "music, cello, amateurism ",
+  location     = "ML 418.B49 A3"
 }
 
 @InProceedings{amoorwpa,
