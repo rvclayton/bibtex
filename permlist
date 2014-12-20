@@ -109,6 +109,7 @@ a graph model for software evolution : luqi
 a graph model for unsupervised lexical acquisition : widdows
 a graphical interface for chip : alvisi
 a graphical logic for specifying concurrent systems : dillon
+a graphics typesetting language : van wyck
 a guide for new referees in theoretical computer science : parberry
 a guide to starting a javaspace : pritchard
 a guided tour of mercurial : eide
@@ -2239,6 +2240,7 @@ preliminary analysis of a breadth first parsing algorithm theoretical and experi
 preliminary design for the programming language forsythe : reynolds
 pretty printing context free grammars : osborne
 prettyprinting : oppen
+prettyprinting in an interactive programming environment : mikelsons
 price cap regulation can we learn from the british telecom experience : bhattacharyya
 pricing and architecture of the internet historical perspecgtives from telecommunications and transportation : odlyzko
 prime numbers : smith
