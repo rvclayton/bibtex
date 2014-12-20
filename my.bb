@@ -3236,6 +3236,43 @@
   location     = "http://dx.doi.org/10.1145/800209.806461"
 }
 
+@Article{uovhllapgbmp,
+  author       = "Cheng, Thomas~T. and Lock, Evan~D. and Prywes, Noah~S.",
+  title        = "Use of Very High Level Languages and Program Generation by Management Professionals",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "552--563",
+  month        = sep,
+  keywords     = "model, non-procedural language, program generation, software
+    development productivity",
+  abstract     = "The introduction of very high level languages (VHLL) and 
+    automatic program generation are expected to reduce significantly the
+    needed programming skills and considerably increase software development
+    productivity.  The paper explores the hypothesis that the preferred mode of
+    developing management systems will be for the management professional to
+    directly specify, generate, and debug the needed software without
+    involvement of professional programmers.  The investigation is
+    experimental, by having an accountant develop an accounting system, using
+    the equational type MODEL VHLL and program generator, and by monitoring
+    carefully the times that it takes to perform certain steps or debug certain
+    types of errors.  The investigation consisted of progressive development of
+    an accounting system in three stages: first a general ledger, extended for
+    inventory management, and concluding with a major modification to
+    incorporate reporting for the effects of changing prices in accordance with
+    Financial Accounting Standard 33 (FAS 33).  In this way the work pattern in
+    modifying and maintaining a system was investigated as well.  The developer
+    was an M.B.A.  candidate majoring in accounting with a limited computer
+    background who determined the requirements of the accounting system and
+    used MODEL to generate the programs, along with their extensions and
+    modifications.  A description of the accounting system design is presented
+    first.  Next, a sample MODEL specification is discussed in order to
+    communicate generally the style of specifying computations in MODEL.  This
+    sample is used also to demonstrate the incorporation of FAS 33.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010279"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
