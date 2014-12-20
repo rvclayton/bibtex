@@ -4326,6 +4326,31 @@
   location     = "ML 418.B49 A3"
 }
 
+@Book{isfeas,
+  author       = "Adrian~A. Hopgood",
+  title        = "Intelligent Systems for Engineers and Scientists",
+  publisher    = "CRC Press",
+  year         = 2011,
+  address      = brfl,
+  edition      = "third",
+  keywords     = "artificial intelligence",
+  location     = "QA 76.76.E95 H675"
+}
+
+@Book{aiagtis,
+  author       = "Michael Negnevitsky",
+  title        = "Artificial Intelligence: {A} Guide to Intelligent Systems",
+  publisher    = "Addison-Wesley",
+  year         = 2011,
+  address      = "Harlow, England",
+  edition      = "thir",
+  keywords     = "rule-based expert systems, uncertainty, fuzzy expert systems,
+    frame-based expert systems, artificial neural networks, evolutionary
+    computation, hybrid intelligent systems, knowledge engineering, data
+    mining, ",
+  location     = "QA 76.76.E95 N445"
+}
+
 @InProceedings{amoorwpa,
   author       = "Joan Feigenbaum and Aaron Johnson and Paul Syverson",
   title        = "A Model of Onion Routing with Provable Anonymity",
