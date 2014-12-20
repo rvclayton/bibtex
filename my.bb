@@ -3186,6 +3186,56 @@
   location     = "http://dx.doi.org/10.1145/800209.806460"
 }
 
+@Article{tdatcsfrc,
+  author       = "Neighbors, James~M.",
+  title        = "The {D}raco Approach to Constructing Software from Reusable Components",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "564--574",
+  month        = sep,
+  keywords     = "analysis, automatic program design, module interconnection
+    languages, program generation, program refinement, program transformations,
+    reusable software, software components, domain analysis, domain experts",
+  abstract     = "This paper discusses an approach called Draco to the 
+    construction of software systems from reusable software parts.  In
+    particular we are concerned with the reuse of analysis and design
+    information in addition to programming language code.  The goal of the work
+    on Draco has been to increase the productivity of software specialists in
+    the construction of similar systems.  The particular approach we have taken
+    is to organize reusable software components by problem area or domain.
+    Statements of programs in these specialized domains are then optimized by
+    source-to-source program transformations and refined into other domains.
+    The problems of maintaining the representational consistency of the
+    developing program and producing efficient practical programs are
+    discussed.  Some examples from a prototype system are also given.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010280"
+}
+
+@Article{piaipe,
+  author       = "Mikelsons, Martin",
+  title        = "Prettyprinting in an Interactive Programming Environment",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "108--116",
+  month        = jun,
+  keywords     = "interactive formatting, program layout, box layout",
+  abstract     = "Prettyprint algorithms designed for printing programs on 
+    paper are not appropriate in an interactive environment where the interface
+    to the user is a CRT screen.  We describe a data representation and an
+    algorithm that allow the efficient generation of program displays from a
+    parsed internal representation of a program.  The displays show the
+    structure of the program by consistent and automatic indentation.  They
+    show the program in varying levels of detail by replacing unimportant parts
+    with ellipsis marks.  The relative importance of program parts is
+    determined jointly by the structure of the program and by the current focus
+    of attention of the programmer.", 
+  location     = "http://dx.doi.org/10.1145/800209.806461"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
