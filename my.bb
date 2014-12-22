@@ -3273,6 +3273,31 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010279"
 }
 
+@Article{seiprspihal,
+  author       = "Matsumoto, Yoshihiro",
+  title        = "Some Experiences in Promoting Reusable Software:  Presentation in Higher Abstract Levels",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "502--513",
+  month        = sep,
+  keywords     = "ada design, productivity, requirements, reusability, software
+    factory, software life cycle, software production",
+  abstract     = "In the Toshiba software factory, quality control and 
+    productivity improvements are primary concerns.  Emphasis is placed on
+    reusing existing software modules that have been proven correct through
+    actual operation.  To achieve a substantial degree of reuse, the software
+    design process is viewed at several levels of abstraction.  In this paper,
+    these levels of abstraction are defined, and examples of the specification
+    for these defined levels are given.  This paper proposes a ``presentation''
+    of each existing module at the highest level of abstraction.  Traceability
+    between the presentation and the reusable program modules which implement
+    it is established to simplify reusability.  The paper concludes with an
+    example showing reuse of a presentation for a different application.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010274"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
