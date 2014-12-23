@@ -3298,6 +3298,28 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010274"
 }
 
+@Article{ewtitxsw,
+  author       = "Gael~A. Curry and Robert~M. Ayers",
+  title        = "Experience with Traits in the {X}erox {S}tar Workstation",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "519-527",
+  month        = sep,
+  keywords     = "human interfaces, multiple inheritance, object orientation,
+    reusability, software engineering, subclassing, traits, software design,
+    language design, mesa",
+  abstract     = "The Xerox Star (8010) is an integrated office workstation.
+    Its software is written in an object-oriented style.  Often, different
+    applications will impose slightly different requirements on nominally
+    similar objects which they use.  Customization of object definitions for
+    different applications is achieved by attaching modifiers called traits to
+    pre-existing object defintions.  This paper describes the approach and
+    recounts our experience with traits.", 
+  location     = ""
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
