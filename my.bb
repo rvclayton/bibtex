@@ -3320,6 +3320,54 @@
   location     = ""
 }
 
+@Article{aevors,
+  author       = "Horowitz, Ellis. and Munson, John~B.",
+  title        = "An Expansive View of Reusable Software",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "477--487",
+  month        = sep,
+  keywords     = "application generators, nonprocedural languages, prototyping,
+    reusability, reusable software, specification, specification languages,
+    domain knowledge, transformation systems",
+  abstract     = "The present crisis in software development forces us to 
+    reconsider the fundamental ways in which programming is done.  One often
+    quoted solution is to exploit more fully the idea of reusable software.  It
+    is the purpose of this paper to examine this concept in all of its forms
+    and to assess the current state of the art.  In addition to its usual
+    meaning of reusable code, reusability includes reusable design, various
+    forms of specification systems.  so-called application generators, and
+    systems for prototyping.  We examine each approach from the perspective of
+    the practicing engineer, and we evaluate the work in terms of how it may
+    ultimately improve the development process for large-scale software
+    systems.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010270"
+}
+
+@Article{sdts,
+  author       = "Phillips, N.~C.~K.",
+  title        = "Safe Data Types Specifications",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 3,
+  pages        = "285--289",
+  month        = may,
+  keywords     = "abstract data types, algebraic axioms, type specifications",
+  abstract     = "This paper discusses the current style of algebraic data type
+    specifications.  Some simple examples illustrate that whether or not two
+    objects of the type being specified are equal can be implementation
+    dependent, even for very simple objects of the type.  To remedy this, it is
+    proposed that specifications should be safe, where safety is a stronger
+    requirement than Guttag's sufficient completeness.  The paper also
+    discusses when an operator should be part of a specification and when it
+    should be introduced by extension, and concludes with safe specifications
+    of some common data types.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010237"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -4396,6 +4444,17 @@
     computation, hybrid intelligent systems, knowledge engineering, data
     mining, ",
   location     = "QA 76.76.E95 N445"
+}
+
+@Book{apfd,
+  author       = "Benjamin~R. Barber",
+  title        = "{A} Passion for Democracy",
+  publisher    = pup,
+  year         = 1998,
+  address      = prnj,
+  keywords     = "democracy, liberalism, rights, citizenship, censorship,
+    leadership, civic education, service",
+  location     = "JK 1726.B27"
 }
 
 @InProceedings{amoorwpa,
