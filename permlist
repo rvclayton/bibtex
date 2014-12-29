@@ -2475,6 +2475,7 @@ rules for referees : forscher
 rust : hoare
 saam a method for analyzing the properties of software architectures : kazman
 safe and efficient active network programming : thibault
+safe data types specifications : phillips
 safe stl : horstmann
 safety critical software status report and annotated bibliography : place
 sage an object oriented toolkit and class library for building fortran and c restructuring tools : bodin
