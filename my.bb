@@ -3368,6 +3368,43 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010237"
 }
 
+@Article{zt9pe,
+  author       = "Wood, Steven~R.",
+  title        = "{Z} --- The 95\% Program Editor",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "1--7",
+  month        = jun,
+  keywords     = "editor design",
+  abstract     = "Recently much attention has been focused on 
+    structure-oriented program editors that have specific knowledge about the
+    syntax and semantics of a particular programming language [1, 4, 5, 18].
+    These editors provide many desirable features for editing programs.
+    However, the user interface is constrained by the syntax and semantics of
+    the target language, and editing operations that are simple in a text
+    editor can be quite complicated in a structure-oriented editor.  In
+    addition, the user has an editor that is limited to a single language and
+    must use a different editor for text editing.  Existing implementations of
+    structure-oriented editors use a parse-tree representation for a program
+    along with a supporting lexical analyzer, parser, and pretty-printer; this
+    representation significantly complicates the implementation of an editor.
+    We believe that the most natural representation of programs is text and
+    that the editor should be able to take advantage of the same visual cues
+    that programmers use to understand their programs.  With a text-oriented
+    model of program structure, the editor is both a program editor and a
+    document editor.  As a program editor it provides features to support many
+    different programming languages, such as LISP, APL, PASCAL, and BLISS.  As
+    a document editor it provides basic word-processing functions such as text
+    justification and spelling correction.  A text orientation considerably
+    simplifies the design of the editor and presents the user with a simple but
+    powerful model of program structure.  This paper describes a text-oriented
+    display editor called Z.  Z is the production editor in the Yale Computer
+    Science Department.", 
+  location     = "http://dx.doi.org/10.1145/800209.806447"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
@@ -4455,6 +4492,21 @@
   keywords     = "democracy, liberalism, rights, citizenship, censorship,
     leadership, civic education, service",
   location     = "JK 1726.B27"
+}
+
+@Book{hoor,
+  title        = "Handbook of Operations Research",
+  editor       = "Joseph~J. Moder and Salah~E. Elmaghraby",
+  publisher    = "Van Nostrand Reinhold",
+  year         = 1978,
+  address      = nyny,
+  keywords     = "operations research, system design, linear programming,
+    integer programming, conbinatorics, graph theory, network flows, geometric
+    programming, nonlinear programming, large scale programming, optimal
+    control, stochastic processes, queue theory, value theory, decision
+    analysis, game theory, search theory, simulation theory, simulation
+    computation, dynamic programming",
+  location     = "T 57.6.H35"
 }
 
 @InProceedings{amoorwpa,
