@@ -956,6 +956,7 @@ denial of service via algorithmic complexity attacks : crosby
 denotational semantics : solnneger
 denotational semantics for languages with modules : ganzinger
 deplate convert wiki like markup to latex docbook html or html slides : link
+derive a tool that automatically reverse engineers instruction encodings : engler
 deriving an object model from legacy fortran code : subramaniam
 deriving graphical representations of process networks from algebraic expressions : bolognesi
 deriving tidy drawings of trees : gibbons
