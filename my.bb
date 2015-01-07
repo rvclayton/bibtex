@@ -3405,6 +3405,30 @@
   location     = "http://dx.doi.org/10.1145/800209.806447"
 }
 
+@Article{ahfdlf,
+  author       = "Dunlop, Douglas~D. and Basili, Victor~R.",
+  title        = "{A} Heuristic for Deriving Loop Functions",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 3,
+  pages        = "275--285",
+  month        = may,
+  keywords     = "constraints, initialized loop programs, loop functions,
+    program verification",
+  abstract     = "The problem of analyzing an initialized loop and verifying
+    that the program computes some particular function of its inputs is
+    addressed.  A heuristic technique for solving these problems is proposed
+    that appears to work well in many commonly occurring cases.  The use of the
+    technique is illustrated with a number of applications.  An attribute of
+    initialized loops is identified that corresponds to the effort required to
+    apply this method in a deterministic (i.e., guaranteed to succeed) manner.
+    It is explained that in any case, the success of the proposed heuristic
+    relies on the loop exhibiting a reasonable form of behavior.", 
+  location     = "https://www.cs.umd.edu/~basili/publications/journals/J19.pdf", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010236"
+}
+
 @TechReport{afsmotmaiidsa,
   author       = "Stuart~E. Dreyfus and Hubert~L. Dreyfus",
   title        = "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition",
