@@ -10504,7 +10504,7 @@
 
 @Article{otctfdo,
   author       = "Michael~D. Smith",
-  title        = "Overocoming the Challenges to Feedback-Directed
+  title        = "Overcoming the Challenges to Feedback-Directed
 		  Optimizations",
   journal      = sigplan # " (" # pot # "Workshop on Dynamic and Adaptive
 		  Compilation and Optimization - Dynamo '00)",
@@ -10514,7 +10514,19 @@
   pages        = "1--11",
   month        = jul,
   keywords     = "profile guided compilation, compiler optimization, run-time
-		  optimization"
+		  optimization",
+  abstract     = "Feedback-directed optimization (FDO) is a general term used
+    to describe any technique that alters a program's execution based on
+    tendencies observed in its present or past runs.  This paper reviews the
+    current state of affairs in FDO and discusses the challenges inhibiting
+    further acceptance of these techniques.  It also argues that current trends
+    in hardware and software technology have resulted in an execution
+    environment where immutable executables and traditional static
+    optimizations are no longer sufficient.  It explains how we can improve the
+    effectiveness of our optimizers by increasing our understanding of program
+    behavior, and it provides examples of temporal behavior that we can (or
+    could in the future) exploit during optimization.", 
+  location     = "http://dx.doi.org/10.1145/351403.351408"
 }
 
 @Article{dattareie,
@@ -10528,8 +10540,31 @@
   number       = 7,
   pages        = "12--22",
   month        = jul,
-  keywords     = "reverse engineering, instruction set architectures"
-}
+  keywords     = "reverse engineering, instruction set architectures",
+  abstract     = "Many binary tools, such as disassemblers, dynamic code
+    generation systems, and executable code rewriters, need to understand how
+    machine instructions are encoded.  Unfortunately, specifying such encodings
+    is tedious and error-prone.  Users must typically specify thousands of
+    details of instruction layout, such as opcode and field locations values,
+    legal operands, and jump offset encodings.  We have built a tool called
+    derive that extracts these details from existing software: the system
+    assembler.  Users need only provide the assembly syntax for the
+    instructions for which they want encodings.  Derive automatically
+    reverse-engineers instruction encoding knowledge from the assembler by
+    feeding it permutations of instructions and doing equation solving on the
+    output.  Derive is robust and general.  It derives instruction encodings
+    for SPARC, MIPS, Alpha, PowerPC, ARM, and x86.  In the last case, it
+    handles variable-sized instructions, large instructions, instruction
+    encodings determined by operand size, and other CISC features.  Derive is
+    also remarkably simple: it is a factor of 6 smaller than equivalent, more
+    traditional systems.  Finally, its declarative specifications eliminate the
+    mis-specification errors that plague previous approaches, such as illegal
+    registers used as operands or incorrect field offsets and sizes.  This
+    paper discusses our current derive prototype, explains how it computes
+    instruction encodings, and also discusses the more general implications of
+    the ability to extract functionality from installed software.",  
+  location     = "http://www.cs.utah.edu/~wilson/papers/dynamo.pdf"
+  }
 
 @Article{tldanatifs,
   author       = "Wiebren de Jonge, M. and Frans Kaashoek and Wilson~C. Hsieh",
