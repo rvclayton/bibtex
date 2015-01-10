@@ -2332,6 +2332,7 @@ protocols for providing performance guarantees in a packet switching internet : 
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
 prototyping synchronous group applications : tou
+prototyping versus specifying a multiproject experiment : boehm
 providing emergency services in internet telephony : schulzrinne
 providing reliable nt desktop services by avoiding nt server : limoncelli
 proving liveness properties of concurrent programs : owicki
