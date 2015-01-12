@@ -4409,7 +4409,12 @@
   pages        = "149--159",
   keywords     = "combinatorial optimization, traveling salesman problem,
 		  heuristics, ant colony optimization, genetic algorithms",
-  location     = ""
+  abstract     = "Ant Colony Optimization (ACO) is a promising new approach to 
+    combinatorial optimization.  Here ACO is applied to the traveling salesman
+    problem (TSP).  Using a genetic algorithm (GA) to find the best set of
+    parameters, we demonstrate the good performance of ACO in finding good
+    solutions to the TSP.",
+  location     = "http://staff.washington.edu/paymana/swarm/botee99-acs.pdf"
 }
 
 @Article{tmosdq,
