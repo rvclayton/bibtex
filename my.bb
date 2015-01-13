@@ -25,3 +25,29 @@
     number of additional conclusions.", 
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010238"
 }
+@Article{acsosapbhfi,
+  author       = "Arnold, Matthew and Fink, Stephen and Sarkar, Vivek and Sweeney, Peter~F.",
+  title        = "{A} Comparative Study of Static and Profile-Based Heuristics for Inlining",
+  journal      = sigplan # " (" # pot # "Workshop on Dynamic and Adaptive
+		  Compilation and Optimization - Dynamo '00)",
+  year         = 2000,
+  volume       = 35,
+  number       = 7,
+  pages        = "52--64",
+  month        = jul,
+  keywords     = "call graphs, inlining, program optimization, static analysis,
+    dynamic analysis",
+  abstract     = "In this paper, we present a comparative study of static and 
+    profile-based heuristics for inlining.  Our motivation for this study is to
+    use the results to design the best inlining algorithm that we can for the
+    Jalapeño dynamic optimizing compiler for Java [6].  We use a well-known
+    approximation algorithm for the KNAPSACK problem as a common
+    “meta-algorithm” for the inlining heuristics studied in this paper.  We
+    present performance results for an implementation of these inlining
+    heuristics in the Jalapeño dynamic optimizing compiler.  Our performance
+    results show that the inlining heuristics studied in this paper can lead to
+    significant speedups in execution time (up to 1.68x) even with modest
+    limits on code size expansion (at most 10%).",  
+  location     = "http://dx.doi.org/10.1145/351403.351416"
+}
+
