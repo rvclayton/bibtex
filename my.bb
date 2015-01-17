@@ -61,6 +61,17 @@
   location     = "QH 375 D45"
 }
 
+@Book{osid,
+  author       = "Thomas~W. Doeppner",
+  title        = "Operating Systems in Depth",
+  publisher    = "Wiley",
+  year         = 2011,
+  keywords     = "operating systems, multithreaded programming, processor
+    management, file systems, memory management, security, networking,
+    distributed file systems",
+  location     = "QA 76.76.O63 D64"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
@@ -73,5 +84,24 @@
   keywords     = "linear programming, the simplex method, duality theory,
     sensitivity analyses",
   location     = "T 57.6.H35"
+}
+
+@TechReport{rsurr,
+  author       = "Fr{\' e}d{\' e}ric Boussinot",
+  title        = "{RC} Semantics using Rewriting Rules",
+  institution  = "Centre de Math{\' e}matiques Appliqu{\' e}es, Ecole des Mines
+  de Paris",
+  year         = 1992,
+  number       = "18--92",
+  address      = "Sophia-Antipolis, France",
+  month        = "23 " # sep,
+  keywords     = "rewriting rules, semantics, rc, reactive semantics",
+  abstract     = "This paper describes a formal semantics for a new
+     programming language called reactive C.  This language is an extension of
+     C to program reactive systems i.e.  systems that react to sequences of
+     activations from the external world.  Reactive statements are introduced
+     to code these systems.  The semantics of reactive statements is described
+     in an operational framework using conditional rewriting rules.", 
+  location     = "http://www-sop.inria.fr/meije/rp/RapportsRecherche/rapport18-92.pdf"
 }
 
