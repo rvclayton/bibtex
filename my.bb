@@ -51,3 +51,27 @@
   location     = "http://dx.doi.org/10.1145/351403.351416"
 }
 
+@Book{dsdi,
+  author       = "Daniel~C. Dennett",
+  title        = "Darwin's Dangerous Idea",
+  publisher    = "Simon \& Schuster",
+  year         = 1995,
+  address      = nyny,
+  keywords     = "evolution, darwin, scientific debate",
+  location     = "QH 375 D45"
+}
+
+@InBook{lphoor,
+  author       = "Hamdy~A. Taha",
+  title        = "Handbook of Operations Research",
+  chapter      = "II-1: Linear Programming",
+  publisher    = "Van Nostrand Reinhold",
+  year         = 1978,
+  editor       = "Joseph~J. Moder and Salah~E. Elmaghraby",
+  pages        = "85--119",
+  address      = nyny,
+  keywords     = "linear programming, the simplex method, duality theory,
+    sensitivity analyses",
+  location     = "T 57.6.H35"
+}
+
