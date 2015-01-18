@@ -9013,7 +9013,18 @@
   pages        = "401--428",
   month        = apr,
   keywords     = "reactive system, c programming language, parallelism",
-  location     = "QA 76.9.V5 C6X"
+  abstract     = "Reactive systems are interactive programs that react
+    continuously to sequences of activations coming from the external world.
+    Reactive programming leads to a new programming style where one programs in
+    terms of reactions to activations and reasons in a logic of instants.  This
+    paper describes an extension of the C programming language called RC (for
+    ‘Reactive C’) to program reactive systems.  The language RC is described,
+    then some programming examples are given to illustrate the reactive
+    approach.  The main RC notions come directly from the Esterel synchronous
+    programming language.  Finally, the Esterel and RC languages are
+    compared.", 
+  location     = "QA 76.9.V5 C6X",
+  location     = "http://dx.doi.org/10.1002/spe.4380210406"
 }
 
 @Article{srpocss,
