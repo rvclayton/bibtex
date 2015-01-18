@@ -51,6 +51,27 @@
   location     = "http://dx.doi.org/10.1145/351403.351416"
 }
 
+@Article{cfsrmc,
+  author       = "Iannino, Anthony and Musa, John~D. and Okumoto, Kazuhira and Littlewood, Bev",
+  title        = "Criteria for Software Reliability Model Comparisons",
+  journal      = tse,
+  year         = 1983,
+  volume       = 8,
+  number       = 3,
+  pages        = "12--16",
+  month        = jul,
+  keywords     = "model comparisons, predictive validity, software failures,
+    software reliability, capability, assumption quality, applicability,
+    simplicity",
+  abstract     = "A set of criteria is proposed for the comparison of software
+    reliability models.  The intention is to provide a logically organized
+    basis for determining the superior models and for the presentation of model
+    characteristics.  It is hoped that in the future, a software manager will
+    be able to more easily select the model most suitable for his/her
+    requirements from among the preferred ones.", 
+  location     = "http://dx.doi.org/10.1145/1010891.1010893"
+}
+
 @Book{dsdi,
   author       = "Daniel~C. Dennett",
   title        = "Darwin's Dangerous Idea",
@@ -103,5 +124,16 @@
      to code these systems.  The semantics of reactive statements is described
      in an operational framework using conditional rewriting rules.", 
   location     = "http://www-sop.inria.fr/meije/rp/RapportsRecherche/rapport18-92.pdf"
+}
+
+@TechReport{pbacus4,
+  author       = "Mario Wolczko and Randall~B. Smith",
+  title        = "Prototype-Based Application Construction Using {S}elf 4.0",
+  institution  = "Sun Microsystems Laboratories",
+  year         = 1995,
+  number       = "SMLI 95-0257",
+  address      = mvca,
+  keywords     = "self, prototypical programming",
+  location     = "https://www.cs.ucsb.edu/~urs/oocsb/self/release/Self-4.0/manuals/tutorial.ps.gz"
 }
 
