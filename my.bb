@@ -72,6 +72,23 @@
   location     = "http://dx.doi.org/10.1145/1010891.1010893"
 }
 
+@Article{dotpedm,
+  author       = "Barach, David~R. and Taenzer, David~H. and Wells, Robert~E.",
+  title        = "Design of the {PEN} Editor Display Module",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "130--136",
+  month        = jun,
+  keywords     = "software design, terminal handling, optimization",
+  abstract     = "PEN, a new portable video editor, uses a number of simple but
+    effective techniques.  Most are not new, but are unavailable in the
+    literature.  We will describe our goals for PEN's display module, discuss
+    implementation alternatives and describe in detail the techniques used in
+    the editor.", 
+  location     = "http://dx.doi.org/10.1145/800209.806464"
+}
 @Book{dsdi,
   author       = "Daniel~C. Dennett",
   title        = "Darwin's Dangerous Idea",
@@ -91,6 +108,32 @@
     management, file systems, memory management, security, networking,
     distributed file systems",
   location     = "QA 76.76.O63 D64"
+}
+
+@Book{aiama,
+  author       = "Stuart Russell and Peter Norvig",
+  title        = "Artificial Intelligence: {A} Modern Approach",
+  publisher    = "Prentice Hall",
+  year         = 2010,
+  address      = srnj,
+  edition      = "third",
+  keywords     = "artificial intelligence, agents, search, constraint
+    satisfaction, first-order logic, inference, planning, knowledge
+    representations, uncertainty, probabilistic reasoning, decision making,
+    leaning, natural language processing, perception, robotics",
+  location     = "Q 335 R86"
+}
+
+@Book{isppap,
+  author       = "Robert~J. Schalkoff",
+  title        = "Intelligent Systems:  Principles, Pradigms, and Pragmatics",
+  publisher    = "Jones and Bartlett",
+  year         = 2011,
+  address      = "Sudbury, " # MA,
+  keywords     = "search, constraint satisfaction, natural language
+    understanding, production systems, soar, uncertainty, fuzzy systems,
+    planning, neural networks, learning, evolutionary computing",
+  location     = "QA 76.76 I58 S323"
 }
 
 @InBook{lphoor,
