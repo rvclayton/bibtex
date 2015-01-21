@@ -99,6 +99,27 @@
   location     = "QH 375 D45"
 }
 
+@Article{rtpt,
+  author       = "Thomas~H. {Cheatham, Jr.}",
+  title        = "Reusability Through Program Transformation",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "574--588",
+  month        = sep,
+  keywords     = "programming environments, porgram transformations, rapid
+    prototyping, reusability, specification languages",
+  abstract     = "We describe a methodology and supporting programming
+    environment that provide for reuse of abstract programs.  Abstract programs
+    are written using notations and constructs natural to the problem domain in
+    a language realized by syntactic extension of a base language.  Program
+    transformations are employed to refine an abstract program into its
+    concrete counterpart.  We discuss the use of the methodology in the setting
+    of rapid prototyping and custom tailoring.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010282"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
