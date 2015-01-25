@@ -120,6 +120,50 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010282"
 }
 
+@Article{arajg,
+  author       = "James Gosling",
+  title        = "{A} Redisplay Algorithm",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "123--129",
+  month        = jun,
+  keywords     = "dynamic programming",
+  abstract     = "This paper presents an algorithm for updating the image
+    displayed on a conventional video terminal.  It assumes that the terminal
+    is capable of doing the usual insert/delete line and insert/delete
+    character operations.  It takes as input a description of the image
+    currently on the screen and a description of the new image desired and
+    produces a series of operations to do the desired transformation in a
+    near-optimal manner.  The algorithm is interesting because it applies
+    results from the theoretical string-to-string correction problem (a
+    generalization of the problem of finding a longest common subsequence), to
+    a problem that is usually approached with crude ad-hoc techniques.", 
+  location     = "http://dx.doi.org/10.1145/872730.806463"
+}
+
+@Article{otlbpitf,
+  author       = "Achugbue, James~O.",
+  title        = "On the Line Breaking Problem in Text Formatting",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "117--122",
+  month        = jun,
+  keywords     = "line breaking, text formatting, dynamic programming",
+  abstract     = "A basic problem in text formatting is that of determining the
+    break points for separating a string of words into lines to obtain a
+    formatted paragraph.  When formatted text is required to be aligned with
+    both the left and right margins, the choice of break points greatly affects
+    the quality of the formatted document.  This paper presents and discusses
+    solutions to the line breaking problem.  These include the usual
+    line-by-line method, a dynamic programming approach, and a new algorithm
+    which is optimal and runs almost as fast as the line-by-line method.", 
+  location     = "http://dx.doi.org/10.1145/800209.806462"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
