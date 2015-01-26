@@ -164,6 +164,27 @@
   location     = "http://dx.doi.org/10.1145/800209.806462"
 }
 
+@Article{esopk,
+  author       = "Soloway, Elliot and Ehrlich, Kate",
+  title        = "Emperical Studies of Programming Knowledge",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "595--609",
+  month        = sep,
+  keywords     = "cognitive models of programming, novice/expert differences,
+    program comprehension, software psychology",
+  abstract     = "We suggest that expert programmers have and use two types of 
+    programming knowledge: 1) programming plans, which are generic program
+    fragments that represent stereotypic action sequences in programming, and
+    2) rules of programming discourse, which capture the conventions in
+    programming and govern the composition of the plans into programs.  We
+    report here on two empirical studies that attempt to evaluate the above
+    hypothesis.  Results from these studies do in fact support our claim.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010283"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
