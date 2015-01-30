@@ -185,6 +185,43 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010283"
 }
 
+@Article{prtpt,
+  author       = "Boyle, James~M. and Muralidharan, Monagur~N.",
+  title        = "Program Reusability through Program Transformation",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 5,
+  pages        = "574--588",
+  month        = sep,
+  keywords     = "abstract programming, canonical forms, optimization, program
+    transformation, pure applicative lisp, rewrite rules, stepwise refinement,
+    tampr",
+  abstract     = "How can a program written in pure applicative LISP be reused
+    in a Fortran environment? One answer is by automatically transforming it
+    from LISP into Fortran.  In this paper we discuss a practical application
+    of this technique-one that yields an efficient Fortran program.  We view
+    this process as an example of abstract programming, in which the LISP
+    program constitutes an abstract specification for the Fortran version.  The
+    idea of strategy-a strategy for getting from LISP to Fortran-is basic to
+    designing and applying the transformations.  One strategic insight is that
+    the task is easier if the LISP program is converted to ``recursive''
+    Fortran, and then the recursive Fortran program is converted to
+    nonrecursive standard Fortran.  Another strategic insight is that much of
+    the task can be accomplished by converting the program from one canonical
+    form to another.  Developing a strategy also involves making various
+    implementation decisions.  One advantage of program transformation
+    methodology is that it exposes such decisions for examination and review.
+    Another is that it enables optimizations to be detected and implemented
+    easily.  Once a strategy has been discovered, it can be implemented by
+    means of rewrite-rule transformations using the TAMPR program
+    transformation system.  The transformational approach to program reuse
+    based on this strategy has a measure of elegance.  It is also practical-the
+    resulting Fortran program is 25 percent faster than its compiled LISP
+    counterpart, even without extensive optimization.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010281"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
