@@ -1153,6 +1153,7 @@ emerald a general purpose programming language : raj
 emeralds a small memory real time microkernel : zuberi
 emerging patterns in the use of xml for information modeling in vertical industries : hinkelman
 empirical analysis of software fault content and fault proneness using bayesian methods : pai
+emperical studies of programming knowledge : soloway
 emulating an operating system on top of another : franz
 enabling autonomic behavior in systems software with hot swapping : appavoo
 enabling computational nanotechnolgy through javagenes in a cycle scavenging environment : globus
@@ -2276,6 +2277,7 @@ program fragments linking and modularization : cardelli
 program optimization via locality : sankaran
 program optimizations via locality : sankaran
 program profiling problems and a solution via machine language rewriting : reiser
+program reusability through program transformation : boyle
 program specification applied to a text formatter : feather
 program transformation with stratego xt rules stratgies toos and systems : visser
 programmable syntax macros : weise
