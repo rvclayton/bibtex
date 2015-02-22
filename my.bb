@@ -222,6 +222,47 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010281"
 }
 
+@Article{tioeaiaidps,
+  author       = "Hammer, Michael and Ilson, Richard and Anderson, Tim and Gilbert, Edward and Good, Michael and Niamir, Bahram and Rosentein, Larry and Schoichet, Sandor",
+  title        = "The Implementation of {E}tude, An integrated and Interactive Document Production System",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)",
+  year         = 1981,
+  volume       = 16,
+  number       = 6,
+  pages        = "117--122",
+  month        = jun,
+  keywords     = "software design, user-interface design, document
+    representation",
+  abstract     = "Etude is an experimental text processing system that is being
+    developed in order to formulate and evaluate new approaches to the design
+    of user interfaces for office automation tools.  The primary design goal
+    for Etude is to provide the user with substantial functionality in the
+    editing and formatting of documents in the context of a system that is easy
+    to learn and use.", 
+  location     = "http://dx.doi.org/10.1145/800209.806465"
+}
+
+@Article{aisercdcall,
+  author       = "Ben-David, Amram and Ben-Porath, Moshe~I. and Loeb, Jonah~Z. and Rich, Michael",
+  title        = "An Industrial Software Engineering Retraining Course:  Development Considerations and Lessons Learned",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "748--755",
+  month        = nov,
+  OPTkeywords  = "",
+  abstract     = "Israel Aircraft Industries has recently been conducting a novel
+    six-month intensive course to retrain practicing engineers to become
+    software engineers working on embedded computer systems.  The first course
+    was concluded in January 1982 and the second course began in November 1982.
+    This paper describes the objectives, educational philosophy, course
+    content, and practical experience of the first course.  It also describes
+    how the second course was modified as a result of the lessons learned from
+    the successes and failures of the first course.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010303"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
