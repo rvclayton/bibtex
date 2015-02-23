@@ -251,7 +251,7 @@
   number       = 6,
   pages        = "748--755",
   month        = nov,
-  OPTkeywords  = "",
+  keywords     = "",
   abstract     = "Israel Aircraft Industries has recently been conducting a novel
     six-month intensive course to retrain practicing engineers to become
     software engineers working on embedded computer systems.  The first course
@@ -261,6 +261,33 @@
     how the second course was modified as a result of the lessons learned from
     the successes and failures of the first course.", 
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010303"
+}
+
+@Article{acgpoi,
+  author       = "Corrigan, Neil~B. and Starkey, J.~Denbigh",
+  title        = "{A} Concurrent General Purpose Operator Interface",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "738--748",
+  month        = nov,
+  keywords     = "computer graphics, concurrent pascal, concurrent programming,
+    interactive system, man-machine interface, operator interface, process
+    control",
+  abstract     = "Compact interactive control consoles are rephcing traditional
+    control rooms as operator interfaces for physical processes.  In the irust
+    major application of concurrent programming outside the area of operating
+    systems, this paper presents a design for a general purpose operator
+    interface which uses a color graphics terminal with a touch-sensitive
+    screen as the control console.  Operators interact with a process through a
+    collection of application-dependent displays generated interactively by
+    users familiar with the physical process.  The use of concurrent
+    programming results in a straightforward and reliable design which may
+    easily be extended to support multiple devices of varying types in the
+    control console.  An implementation of the Operator Interface in Concurrent
+    Pascal currently in progress is also discussed.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010302"
 }
 
 @Book{osid,
