@@ -290,6 +290,42 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010302"
 }
 
+@Article{eoerbufcp,
+  author       = "Kang~G. Shin and Yann-Hang Lee",
+  title        = "Evaluation of Error Recovery Blocks Used for Cooperating Processes",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "692--700",
+  month        = nov,
+  keywords     = "backward error recovery, conversation scheme, domino effect,
+    pseudorecovery points and line(s), recovery block(s), recovery line(s),
+    rollback propagations",
+  abstract     = "Three alternatives for implementing recovery blocks (RB's) 
+    are conceivable for backward error recovery in concurrent processing.
+    These are the asynchronous, synchronous, and the pseudorecovery point
+    implementations.  Asynchronous RB's are based on the concept of maximum
+    autonomy in each of concurrent processes.  Consequently, establishment of
+    RB's in a process is made independently of others and unbounded rollback
+    propagations become a serious problem.  In order to completely avoid
+    unbounded rollback propagations, it is necessary to synchronize the
+    establishment of recovery blocks in all cooperating processes.  Process
+    autonomy is sacrificed and processes are forced to wait for commitments
+    from others to establish a recovery line, leading to inefficiency in time
+    utilization.  As a compromise between asynchronous and synchronous RB's we
+    propose to insert pseudorecovery points (PRP's) so that unbounded rollback
+    propagations may be avoided while maintaining process autonomy.  We
+    developed probabilistic models for analyzing these three methods under
+    standard assumptions in computer performance analysis, i.e., exponential
+    distributions for related random variables.  With these models we have
+    estimated 1) the interval between two successive recovery lines for
+    asynchronous RB's, 2) mean loss in computation power for the synchronized
+    method, and 3) additional overhead and rollback distance in case PRP's are
+    used.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010298"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
