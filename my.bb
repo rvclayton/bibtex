@@ -326,6 +326,38 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010298"
 }
 
+@Article{rtem,
+  author       = "Bernhard Plattner",
+  title        = "Real-Time Execution Monitoring",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "756--764",
+  month        = nov,
+  keywords     = "debugging, monitor, performance evaluation, process
+    interaction, process monitor, real-time monitoring, timing",
+  abstract     = "Today's programming methodology emphasizes the study of static
+    aspects of programs.  In practice, however, monitoring a program in
+    execution, i.e., monitoring a process, is routinely done by any programmer
+    whose task it is to produce a reliable piece of software.  There are two
+    reasons why one might want to examine the dynamic aspects of a program:
+    first, to evaluate the performance of a program, and hence to assess its
+    overall behavior; and second, to demonstrate the presence of programming
+    errors, isolate erroneous program code, and correct it.  This latter task
+    is commonly called ``debugging a program'' and requires a detailed insight
+    into the innards of a program being executed.  Today, many computer systems
+    are being used to measure and control real-world processes.  The pace of
+    execution of these systems and their control programs is therefore bound to
+    timing constraints imposed by the real-world process.  As a step towards
+    solving the problems associated with execution monitoring of real-time
+    programs, we develop a set of appropriate concepts and define the basic
+    requirements for a real-time monitoring facility.  As a test case for the
+    theoretical treatment of the topic, we design hardware and software for an
+    experimental real-time monitoring system and describe its implementation.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010304"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
