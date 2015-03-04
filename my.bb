@@ -358,6 +358,32 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010304"
 }
 
+@Article{dcobnfgpc,
+  author       = "Alan Mainwaring and David~E. Culler",
+  title        = "Design Challenges of Virtual Networks:  Fast, General-Purpose Communication",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming)",
+  year         = 1999,
+  volume       = 34,
+  number       = 8,
+  pages        = "119--130",
+  month        = aug,
+  keywords     = "virtual networks, high-performance clusters, direct network
+    access, application programming interfaces, system resource management,
+    protocol architecture and implementation",
+  abstract     = "Virtual networks provide applications with the illusion of 
+    having their own dedicated, high-performance networks, although network
+    interfaces posses limited, shared resources.  We present the design of a
+    large-scale virtual network system and examine the integration of
+    communication programming interface, system resource management, and
+    network interface operation.  Our implementation on a cluster of 100
+    workstations quantifies the impact of virtualization on small message
+    latencies and throughputs, shows full hardware performance is delivered to
+    dedicated applications and time-shared workloads, and shows robust
+    performance under demanding workloads that overcommit interface
+    resources.", 
+  location     = "http://dx.doi.org/10.1145/329366.301115"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
