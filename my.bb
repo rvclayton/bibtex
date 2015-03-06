@@ -384,6 +384,38 @@
   location     = "http://dx.doi.org/10.1145/329366.301115"
 }
 
+@Article{aeiojsrmi,
+  author       = "Maassen, Jason and {van Nieuwpoort}, Rob and Veldema, Ronald and Bal, Henri~E. and Plaat, Aske",
+  title        = "An Efficient Implementation of {J}ava's {R}emote {M}ethod {I}nvocation",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming)",
+  year         = 1999,
+  volume       = 34,
+  number       = 8,
+  pages        = "173--182",
+  month        = aug,
+  keywords     = "java, rmi, performance, native-code compilation",
+  abstract     = "Java offers interesting opportunities for parallel computing.
+    In particular, Java Remote Method Invocation provides an unusually flexible
+    kind of Remote Procedure Call.  Unlike RPC, RMI supports polymorphism,
+    which requires the system to be able to download remote classes into a
+    running application.  Sun's RMI implementation achieves this kind of
+    flexibility by passing around object type information and processing it at
+    run time, which causes a major run time overhead.  Using Sun's JDK 1.1.4 on
+    a Pentium Pro/Myri.net cluster, for example, the latency for a null RMI
+    (without parameters or a return value) is 1228 &mu;sec, which is about a
+    factor of 40 higher than that of a user-level RPC.  In this paper, we study
+    an alternative approach for implementing RMI, based on native compilation.
+    This approach allows for better optimization, eliminates the need for
+    processing of type information at run time, and makes a light weight
+    communication protocol possible.  We have built a Java system based on a
+    native compiler, which supports both compile time and run time generation
+    of marshallers.  We find that almost all of the run time overhead of RMI
+    can be pushed to compile time.  With this approach, the latency of a null
+    RMI is reduced to 34 &mu;sec, while still supporting polymorphic RMIs (and
+    allowing interoperability with other JVMs).", 
+  location     = "http://dx.doi.org/10.1145/301104.301120"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
