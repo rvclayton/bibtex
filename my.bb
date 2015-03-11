@@ -497,3 +497,22 @@
   location     = "https://www.cs.ucsb.edu/~urs/oocsb/self/release/Self-4.0/manuals/tutorial.ps.gz"
 }
 
+@InProceedings{eyawtkasbwata,
+  author       = "David, Tudor and Guerraoui, Rachid and Trigonakis, Vasileios",
+  title        = "Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask",
+  booktitle    = port # "Twenty-Fourth ACM Symposium on Operating System Principles",
+  year         = 2013,
+  pages        = "33--48",
+  address      = "Framington, Pennsylvania",
+  month        = "3--6 " # nov,
+  keywords     = "synchronization, machine architecture, operon, xeon",
+  abstract     = "This paper presents the most exhaustive study of 
+    synchronization to date.  We span multiple layers, from hardware
+    cache-coherence protocols up to high-level concurrent software.  We do so
+    on different types of architectures, from single-socket -- uniform and
+    non-uniform -- to multi-socket -- directory and broadcast-based --
+    many-cores.  We draw a set of observations that, roughly speaking, imply
+    that scalability of synchronization is mainly a property of the hardware.",
+  location     = "http://dx.doi.org/10.1145/2517349.2522714"
+}
+
