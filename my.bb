@@ -516,3 +516,32 @@
   location     = "http://dx.doi.org/10.1145/2517349.2522714"
 }
 
+@InProceedings{oteogij,
+  author       = "Ran Shaham, Elliot~K. Kolodner and Mooly Sagiv",
+  title        = "On the Effectiveness of {GC} in {J}ava",
+  booktitle    = pot # "International Symposium on Memory Management",
+  year         = 2000,
+  pages        = "12--17",
+  address      = "Minneapolis, MN",
+  month        = "15--16 " # oct,
+  keywords     = "java, garbage collection, dynamic analysis",
+  abstract     = "We study the effectiveness of garbage collection (GC)
+    algorithms by measuring the time difference between the actual collection
+    time of an object and the potential earliest collection time for that
+    object.  Our ultimate goal is to use this study in order to develop static
+    analysis techniques that can be used together with GC to allow earlier
+    reclamation of objects.  The results may also be used to pinpoint
+    application source code that could be rewritten in a way that would allow
+    more timely GC.  Specifically, we compare the objects reachable from the
+    root set to the ones that are actually used again.  The idea is that GC
+    could reclaim unused objects even if they are reachable from the root set.
+    Thus, our experiments indicate a kind of upper bound on storage savings
+    that could be achieved.  We also try to characterize these objects in order
+    to understand the potential benefits of various static analysis algorithms.
+    The Java Virtual Machine (JVM) was instrumented to measure objects that are
+    reachable, but not used again, and to characterize these objects.
+    Experimental results are shown for the SPECjvm98 benchmark suite.  The
+    potential memory savings for these benchmarks range from 23% to 74%.", 
+  location     = "http://dx.doi.org/10.1145/362422.362430"
+}
+
