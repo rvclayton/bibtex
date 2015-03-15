@@ -416,6 +416,34 @@
   location     = "http://dx.doi.org/10.1145/301104.301120"
 }
 
+@Article{cmobst,
+  author       = "Udi Manber",
+  title        = "Concurrent Maintenance of Binary Search Trees",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "777--784",
+  month        = nov,
+  keywords     = "concurrent algorithms, data structures, distributed
+    algorithms, locking, transactions, trees",
+  abstract     = "The problem of providing efficient concurrent access for 
+    independent processes to a dynamic search structure is the topic of this
+    paper.  We develop concurrent algorithms for search, update, insert, and
+    delete in a simple variation of binary search trees, called external trees.
+    The algorithm for deletion, which is usually the most difficult operation,
+    is relatively easy in this data structure.  The advantages of the data
+    structure and the algorithms are that they are simple, flexible, and
+    efficient, so that they can be used as a part in the design of more
+    complicated concurrent algorithms where maintaining a dynamic search
+    structure is necessary.  In order to increase the efficiency of the
+    algorithms we introduce maintenance processes that independently reorganize
+    the data structure and relieve the user processes of nonurgent operations.
+    We also discuss questions of transactions in a dynamic environment and
+    replicated copies of the data structure.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010306"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
