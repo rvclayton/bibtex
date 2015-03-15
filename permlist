@@ -836,6 +836,7 @@ conceptual entropy and its effect on class hierarchies : dvorak
 concert c a language for distributed computing : auerbach
 concert c supporting distributed programming with language extensions and a protable multiprotocol runtime : auerbach
 concurrency control in groupware systems : ellis
+concurrent maintenance of binary search trees : manber
 concurrent object oriented language cool : maruyama
 concurrent reading and writing : lamport
 concurrent runtime monitoring of formally specified programs : sankar
