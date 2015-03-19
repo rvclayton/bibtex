@@ -444,6 +444,39 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010306"
 }
 
+@Article{mfdabiat,
+  author       = "Steven~M. German",
+  title        = "Monitoring for Deadlock and Blocking in {A}da Tasking",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "764--777",
+  month        = nov,
+  keywords     = "concurrent algorithms, concurrent programming languages,
+    correctness proofs of concurrent programs, deadlock detection, exceptions,
+    program transformations, semantics of ada tasking, state graph models, task
+    identifiers", 
+  abstract     = "We present a deadlock monitoring algorithm for Ada tasking
+    programs which is based on transforming the source program.  The
+    transformations introduce a new task called the monitor, which receives
+    information from all other tasks about their tasking activities.  The
+    monitor detects deadlocks consisting of circular entry calls as well as
+    some noncircular blocking situations.  The correctness of the program
+    transformations is formulated and proved using an operational state graph
+    model of tasking.  The main issue in the correctness proof is to show that
+    the deadlock monitor algorithm works correctly without having simultaneous
+    information about the state of the program.  In the course of this work, we
+    have developed some useful techniques for programming tasking applications,
+    such as a method for uniformly introducing task identifiers.  We argue that
+    the ease of finding and justifying program transformations is a good test
+    of the generality and uniformity of a programming language.  The complexity
+    of the full Ada language makes it difficult to safely apply
+    transformational methods to arbitrary programs.  We discuss several
+    problems with the current semantics of Ada's tasks.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010305"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
