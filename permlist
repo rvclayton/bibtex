@@ -1928,6 +1928,7 @@ mom vs rpc communication models for distributed applications" : menasce
 monadic parser combinators : hutton
 monads for functional programming : wadler
 monads indexes and transformations : bellegarde
+monitoring for deadlock and blocking in ada tasking : german
 monitoring program execution a survey : plattner
 monitors an operating system structuring concept : hoare
 moores law and communications : hellman
