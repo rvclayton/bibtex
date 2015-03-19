@@ -481,6 +481,17 @@
   location     = "QA 76.76 I58 S323"
 }
 
+@Book{tiloeb,
+  author       = "David Bromwich",
+  title        = "The Intellectual Life of Edmund Burke",
+  publisher    = "Harvard University Press",
+  year         = 2014,
+  address      = cma,
+  keywords     = "edmund burke, aesthetics, the revolutionary war, democracy,
+    political thought, politics",
+  location     = "DA 506 B9 B69"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
