@@ -477,6 +477,40 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010305"
 }
 
+@Article{apodaca,
+  author       = "Rugina, Radu and Rinard, Martin",
+  title        = "Automatic Parallelization of Divide and Conquer Algorithms",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP '99)",
+  year         = 1999,
+  volume       = 34,
+  number       = 8,
+  pages        = "72--83",
+  month        = aug,
+  keywords     = "parallelization, region analysis, pointer analysis, bounds
+    analysis, initial value analysis, correlation analysis",
+  abstract     = "Divide and conquer algorithms are a good match for modern
+    parallel machines: they tend to have large amounts of inherent parallelism
+    and they work well with caches and deep memory hierarchies.  But these
+    algorithms pose challenging problems for parallelizing compilers.  They are
+    usually coded as recursive procedures and often use pointers into
+    dynamically allocated memory blocks and pointer arithmetic.  All of these
+    features are incompatible with the analysis algorithms in traditional
+    parallelizing compilers.This paper presents the design and implementation
+    of a compiler that is designed to parallelize divide and conquer algorithms
+    whose subproblems access disjoint regions of dynamically allocated arrays.
+    The foundation of the compiler is a flow-sensitive, context-sensitive, and
+    interprocedural pointer analysis algorithm.  A range of symbolic analysis
+    algorithms build on the pointer analysis information to extract symbolic
+    bounds for the memory regions accessed by (potentially recursive)
+    procedures that use pointers and pointer arithmetic.  The symbolic bounds
+    information allows the compiler to find procedure calls that can execute in
+    parallel without violating the data dependences.  The compiler generates
+    code that executes these calls in parallel.  We have used the compiler to
+    parallelize several programs that use divide and conquer algorithms.  Our
+    results show that the programs perform well and exhibit good speedup.", 
+  location     = "http://dx.doi.org/10.1145/329366.301111"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
