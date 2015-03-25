@@ -511,6 +511,38 @@
   location     = "http://dx.doi.org/10.1145/329366.301111"
 }
 
+@Article{amfcvsed,
+  author       = "Victor~R. Basili and David~M. Weiss",
+  title        = "A Methodology for Collecting Valid Software Engineering Data",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "728--738",
+  month        = nov,
+  keywords     = "data collection, data collection methodology, error analysis,
+    error classification, software engineering experiments",
+  abstract     = "An effective data collection method for evaluating software
+    development methodologies and for studying the software development process
+    is described.  The method uses goal-directed data collection to evaluate
+    methodologies with respect to the claims made for them.  Such claims are
+    used as a basis for defining the goals of the data collection, establishing
+    a list of questions of interest to be answered by data analysis, defining a
+    set of data categorization schemes, and designing a data collection form.
+    The data to be collected are based on the changes made to the software
+    during development, and are obtained when the changes are made.  To ensure
+    accuracy of the data, validation is performed concurrently with software
+    development and data collection.  Validation is based on interviews with
+    those people supplying the data.  Results from using the methodology show
+    that data validation is a necessary part of change data collection.
+    Without it, as much as 50 percent of the data may be erroneous.
+    Feasibility of the data collection methodology was demonstrated by applying
+    it to five different projects in two different environments.  The
+    application showed that the methodology was both feasible and useful.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010301",
+  location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.21.pdf"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
