@@ -543,6 +543,39 @@
   location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.21.pdf"
 }
 
+@Article{bcafpp,
+  author       = "Lee, Jaejin and Padua, David~A. and Midkiff, Samuel~P.",
+  title        = "Basic Compiler Algorithms for Parallel Programs",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP '99)",
+  year         = 1999,
+  volume       = 34,
+  number       = 8,
+  pages        = "1--12",
+  month        = aug,
+  keywords     = "delay set analysis, concurrent control flow graphs,
+    concurrent static single-assignment form, copy propagation, dead-code
+    elimination, global value numbering, cse, ",
+  abstract     = "Traditional compiler techniques developed for sequential
+    programs do not guarantee the correctness (sequential consistency) of
+    compiler transformations when applied to parallel programs.  This is
+    because traditional compilers for sequential programs do not account for
+    the updates to a shared variable by different threads.  We present a
+    concurrent static single assignment (CSSA) form for parallel programs
+    containing cobegin/coend and parallel do constructs and post/wait
+    synchronization primitives.  Based on the CSSA form, we present copy
+    propagation and dead code elimination techniques.  Also, a global value
+    numbering technique that detects equivalent variables in parallel programs
+    is presented.  By using global value numbering and the CSSA form, we extend
+    classical common subexpression elimination, redundant load/store
+    elimination, and loop invariant detection to parallel programs without
+    violating sequential consistency.  These optimization techniques are the
+    most commonly used techniques for sequential programs.  By extending these
+    techniques to parallel programs, we can guarantee the correctness of the
+    optimized program and maintain single processor performance in a
+    multiprocessor environment.", 
+  location     = "http://dx.doi.org/10.1145/301104.301105"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
