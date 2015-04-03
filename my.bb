@@ -576,6 +576,30 @@
   location     = "http://dx.doi.org/10.1145/301104.301105"
 }
 
+@Article{omfold,
+  author       = "Stefanovi{\' c}, Darko and McKinley, Kathryn~S. and Moss, J.~Eliot~B.",
+  title        = "On Models for Object Lifetime Distributions",
+  journal      = sigplan # " (" # pot # " Second International Symposium on Memory Management, ISMM '00)",
+  year         = 2001,
+  volume       = 36,
+  number       = 1,
+  pages        = "137--142",
+  month        = jan,
+  keywords     = "object lifetimes, lifetime distributions, garbage collection
+    modeling, storage management", 
+  abstract     = "Analytical models of memory object lifetimes are appealing
+    because having them would enable mathematical analysis or fast simulation
+    of the memory management behavior of programs.  In this paper, we
+    investigate models for object lifetimes drawn from programs in
+    object-oriented languages such as Java and Smalltalk.  We present certain
+    postulated analytical models and compare them with observed lifetimes for
+    58 programs.  We find that observed lifetime distributions do not match
+    previously proposed object lifetime models, but do agree in salient shape
+    characteristics with the gamma distribution family used in statistical
+    survival analysis for general populations.", 
+  location     = "http://dx.doi.org/10.1145/362426.362477"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
