@@ -600,6 +600,85 @@
   location     = "http://dx.doi.org/10.1145/362426.362477"
 }
 
+@Article{cdpmfs,
+  author       = "Haj-Yihia, Jawad and Asher, Yosi Ben and Rotem, Efraim and Yasin, Ahmad and Ginosar, Ran",
+  title        = "Compiler-Directed Power Management for Superscalars",
+  journal      = "ACM Transactions on Architecture and Code Optimization",
+  year         = 2015,
+  volume       = 11,
+  number       = 4,
+  pages        = "48:1--48:21",
+  month        = jan,
+  keywords     = "static analysis, power management, power demand modeling, cpu
+    architectures, power distribution networks",
+  abstract     = "Modern superscalar CPUs contain large complex structures and
+    diverse execution units, consuming wide dynamic power range.  Building a
+    power delivery network for the worst-case power consumption is not energy
+    efficient and often is impossible to fit in small systems.  Instantaneous
+    power excursions can cause voltage droops.  Power management algorithms are
+    too slow to respond to instantaneous events.  In this article, we propose a
+    novel compiler-directed framework to address this problem.  The framework
+    is validated on a 4th Generation Intel® Core™ processor and with simulator
+    on output trace.  Up to 16% performance speedup is measured over baseline
+    for the SPEC CPU2006 benchmarks.",
+  location     = "http://dx.doi.org/10.1145/2685393"
+}
+
+@Article{oret,
+  author       = "Ntafos, Simon~C.",
+  title        = "On Required Element Testing",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "795--803",
+  month        = nov,
+  keywords     = "data-flow analysis, required element testing, testing
+    strategies", 
+  abstract     = "In this paper we introduce two classes of program testing
+    strategies that consist of specifying a set of required elements for the
+    program and then covering those elements with appropriate test inputs.  In
+    general, a required element has a structural and a functional component and
+    is covered by a test case if the test case causes the features specified in
+    the structural component to be executed under the conditions specified in
+    the functional component.  Data flow analysis is used to specify the
+    structural component and data flow interactions are used as a basis for
+    developing the functional component.  The strategies are illustrated with
+    examples and some experimental evaluations of their effectiveness are
+    presented.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010308"
+}
+
+@Article{iaotfgcfj,
+  author       = "Domani, Tamar and Kolodner, Elliot~K. and Lewis, Ethan and Salant, Eliot~E. and Barabash, Katherine and Lahan, Itai and Levanoni, Yossi and Petrank, Erez and Yanorer, Igor",
+  title        = "Implementing an On-the-fly Garbage Collector for {J}ava",
+  journal      = sigplan # " (" # pot # " Second International Symposium on Memory Management, ISMM '00)",
+  year         = 2001,
+  volume       = 36,
+  number       = 1,
+  pages        = "155--166",
+  month        = jan,
+  keywords     = "java, programming languages, memory management, garbage
+    collection, concurrent garbage collection, on-the-fly garbage collection",
+  abstract     = "Java uses garbage collection (GC) for the automatic
+    reclamation of computer memory no longer required by a running application.
+    GC implementations for Java Virtual Machines (JVM) are typically designed
+    for single processor machines, and do not necessarily perform well for a
+    server program with many threads running on a multiprocessor.  We designed
+    and implemented an on-the-fly GC, based on the algorithm of Doligez, Leroy
+    and Gonthier [13, 12] (DLG), for Java in this environment.  An on-the-fly
+    collector, a collector that does not stop the program threads, allows all
+    processors to be utilized during collection and provides uniform response
+    times.  We extended and adapted DLG for Java (e.g., adding support for weak
+    references) and for modern multiprocessors without sequential consistency,
+    and added performance improvements (e.g., to keep track of the objects
+    remaining to be traced).  We compared the performance of our implementation
+    with stop-the-world mark-sweep GC.  Our measurements show that the
+    performance advantage for our collector increases as the number of threads
+    increase and that it provides uniformly low response times.", 
+  location     = "http://dx.doi.org/10.1145/362426.362484"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
