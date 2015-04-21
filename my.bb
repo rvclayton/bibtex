@@ -650,7 +650,9 @@
 }
 
 @Article{iaotfgcfj,
-  author       = "Domani, Tamar and Kolodner, Elliot~K. and Lewis, Ethan and Salant, Eliot~E. and Barabash, Katherine and Lahan, Itai and Levanoni, Yossi and Petrank, Erez and Yanorer, Igor",
+  author       = "Domani, Tamar and Kolodner, Elliot~K. and Lewis, Ethan and
+    Salant, Eliot~E. and Barabash, Katherine and Lahan, Itai and Levanoni,
+    Yossi and Petrank, Erez and Yanorer, Igor", 
   title        = "Implementing an On-the-fly Garbage Collector for {J}ava",
   journal      = sigplan # " (" # pot # " Second International Symposium on Memory Management, ISMM '00)",
   year         = 2001,
@@ -677,6 +679,45 @@
     performance advantage for our collector increases as the number of threads
     increase and that it provides uniformly low response times.", 
   location     = "http://dx.doi.org/10.1145/362426.362484"
+}
+
+@Article{upgist,
+  author       = "Sirer, Emin G{\" u}n and Bershad, Brian~N.",
+  title        = "Using Production Grammars in Software Testing",
+  journal      = sigplan # "(" # pot # " Second Conference on Domain-Specific Languages)" ,
+  year         = 1999,
+  volume       = 35,
+  number       = 1,
+  pages        = "1--13",
+  month        = jan,
+  keywords     = "testing, virtual machines, production grammars, test
+    generation, comparative testing, self-describing test cases",
+  abstract     = "Extensible typesafe systems, such as Java, rely critically on
+    a large and complex software base for their overall protection and
+    integrity, and are therefore difficult to test and verify.  Traditional
+    testing techniques, such as manual test generation and formal verification,
+    are too time consuming, expensive, and imprecise, or work only on abstract
+    models of the implementation and are too simplistic.  Consequently,
+    commercial virtual machines deployed so far have exhibited numerous bugs
+    and security holes.In this paper, we discuss our experience with using
+    production grammars in testing large, complex and safety-critical software
+    systems.  Specifically, we describe lava, a domain specific language we
+    have developed for specifying production grammars, and relate our
+    experience with using lava to generate effective test suites for the Java
+    virtual machine.  We demonstrate the effectiveness of production grammars
+    in generating complex test cases that can, when combined with comparative
+    and variant testing techniques, achieve high code and value coverage.  We
+    also describe an extension to production grammars that enables concurrent
+    generation of certificates for test cases.  A certificate is a behavioral
+    description that specifies the intended outcome of the generated test case,
+    and therefore acts as an oracle by which the correctness of the tested
+    system can be evaluated in isolation.  We report the results of applying
+    these testing techniques to commercial Java implementations.  We conclude
+    that the use of production grammars in combination with other automated
+    testing techniques is a powerful and effective method for testing software
+    systems, and is enabled by a special purpose language for specifying
+    extended production grammars.", 
+  location     = "http://dx.doi.org/10.1145/331963.331965"
 }
 
 @Book{osid,
@@ -818,4 +859,3 @@
     potential memory savings for these benchmarks range from 23% to 74%.", 
   location     = "http://dx.doi.org/10.1145/362422.362430"
 }
-
