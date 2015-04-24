@@ -684,7 +684,7 @@
 @Article{upgist,
   author       = "Sirer, Emin G{\" u}n and Bershad, Brian~N.",
   title        = "Using Production Grammars in Software Testing",
-  journal      = sigplan # "(" # pot # " Second Conference on Domain-Specific Languages)" ,
+  journal      = sigplan # " (" # pot # " Second Conference on Domain-Specific Languages)" ,
   year         = 1999,
   volume       = 35,
   number       = 1,
@@ -718,6 +718,45 @@
     systems, and is enabled by a special purpose language for specifying
     extended production grammars.", 
   location     = "http://dx.doi.org/10.1145/331963.331965"
+}
+
+@Article{ujrtaelp,
+  author       = "Dale Parson",
+  title        = "Using Java Reflection to Automate Extension Langugae Parsing",
+  journal      = sigplan # " (" # pot # " Second Conference on Domain-Specific Languages)" ,
+  year         = 1999,
+  volume       = 35,
+  number       = 1,
+  pages        = "67--80",
+  month        = jan,
+  keywords     = "reflection, embedded languages, scripting languages, tcl,
+    java, c++",
+  abstract     = "An extension language is an interpreted programming language
+    designed to be embedded in a domain-specific framework.  The addition of
+    domain-specific primitive operations to an embedded extension language
+    transforms that vanilla extension language into a domain-specific language.
+    The LUxWORKS processor simulator and debugger from Lucent uses Tcl as its
+    extension language.  After an overview of extension language embedding and
+    LUxWORKS experience, this paper looks at using Java reflection and related
+    mechanisms to solve three limitations in extension language - domain
+    framework interaction.  The three limitations are gradual accumulation of
+    ad hoc interface code connecting an extension language to a domain
+    framework, over-coupling of a domain framework to a specific extension
+    language, and inefficient command interpretation.  Java reflection consists
+    of a set of programming interfaces through which a software module in a
+    Java system can discover the structure of classes, methods and their
+    associations in the system.  Java reflection and a naming convention for
+    primitive domain operations eliminate ad hoc interface code by supporting
+    recursive inspection of a domain command interface and translation of
+    extension language objects into domain objects.  Java reflection,
+    name-based dynamic class loading, and a language-neutral extension language
+    abstraction eliminate language over-coupling by transforming the specific
+    extension language into a run-time parameter.  Java reflection and command
+    objects eliminate inefficiency by bypassing the extension language
+    interpreter for stereotyped commands.  Overall, Java reflection helps to
+    eliminate these limitations by supporting reorganization and elimination of
+    handwritten code, and by streamlining interpretation.", 
+  location     = "http://www.cs.tufts.edu/~nr/cs257/archive/dale-parson/dsl99lux.ps.gz"
 }
 
 @Book{osid,
