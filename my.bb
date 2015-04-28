@@ -837,6 +837,16 @@
   location     = "DA 506 B9 B69"
 }
 
+@Book{tips,
+  author       = "Paul Vaderlind and Richard~K. Guy and Loren~C. Larsen",
+  title        = "The Inquisitive Problem Solver",
+  publisher    = "The Mathematical Association of America",
+  year         = 2002,
+  address      = "Washington, D.C.",
+  keywords     = "mathematics, problems, problem solving",
+  location     = "QA 43.V28 2002"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
