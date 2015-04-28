@@ -433,6 +433,7 @@ an ada interface to diana for intertool communication : howell
 an adaptive transport service suitable for high speed networks : richards
 an advanced 4.3 bsd interprocess communication tutorial : leffler
 an agent based approach for building complex software systems : jennings
+an algebraic specification of hdlc procedures and its verification : higashino
 an algorithm for filling regions on graphics display devices : lane
 an alphard specification of a correct and efficient transformation on data structures : bentley
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
@@ -2056,6 +2057,7 @@ on holy wars and a plea for peace : cohen
 on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
 on programming by iterations : turski
+on required element testing : ntafos
 on research into the individual and computing systems : jarvinen
 on resource management and qos guarantees for long range dependent traffic : adas
 on scalable state based specifications for real time systems : shaw
@@ -2663,6 +2665,7 @@ using metrics to evaluate software system maintainability : coleman
 using metrics to manage software projects : weller
 using multicast fec to solve the midnight madness problem : schooler
 using procedural parameters and continuations in combinatorial searches : hwang
+using production grammars in software testing : sirer
 using sfs for a secure network file system : fu
 using term rewriting systems to design and verify processors : arvind
 using tournament trees to sort : stepanov
