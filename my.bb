@@ -759,6 +759,36 @@
   location     = "http://www.cs.tufts.edu/~nr/cs257/archive/dale-parson/dsl99lux.ps.gz"
 }
 
+@Article{aasohpaiv,
+  author       = "Higashino, Teruo and Mori, Masaaki and Sugiyama, Yuji and Taniguchi, Kenichi and Kasami, Tadao",
+  title        = "An Algebraic Specification of {HDLC} Procedures and Its Verification",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "825--836",
+  month        = nov,
+  keywords     = "algebraic specifications, church-rosser property, hdlc
+    procedures, term rewriting system, verification",
+  abstract     = "It is well known that algebraic specification methods are 
+    promising for specifying programs and for verifying their various
+    properties formally.  In this paper, an algebraic specification of
+    information transfer procedures of high-level data link control (HDLC)
+    procedures is presented and some of the main properties of the
+    specification are shown.  First, we introduce abstract states, state
+    transition functions, and output functions corresponding to elementary
+    notions extracted from the description of HDLC procedures in ISO 3309-1979
+    (E) and ISO 4335-1979 (E).  Second, we show axioms which represent the
+    relations between the values of functions before and after the state
+    transitions.  Then, it is proved that the specification is ``consistent,''
+    ``sufficiently complete,'' and ``nonredundant.'' Also it is shown that an
+    implementation which realizes the specification is naturally derived.  In
+    the last section, verification of various properties of HDLC procedures is
+    formulated in the same framework as the algebraic specification, and some
+    verification examples are presented.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010311"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
