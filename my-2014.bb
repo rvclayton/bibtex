@@ -4499,7 +4499,7 @@
   publisher    = "Addison-Wesley",
   year         = 2011,
   address      = "Harlow, England",
-  edition      = "thir",
+  edition      = "third",
   keywords     = "rule-based expert systems, uncertainty, fuzzy expert systems,
     frame-based expert systems, artificial neural networks, evolutionary
     computation, hybrid intelligent systems, knowledge engineering, data
