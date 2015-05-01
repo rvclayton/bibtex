@@ -789,6 +789,35 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010311"
 }
 
+@Article{fra,
+  author       = "Elliott, Conal and Hudak, Paul",
+  title        = "Functional Reactive Animation",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN International Conference on Functional Programming, ICFP '97)",
+  year         = 1997,
+  volume       = 32,
+  number       = 8,
+  pages        = "263--273",
+  month        = aug,
+  keywords     = "functional programming, reactive programming, animation",
+  abstract     = "Fran (Functional Reactive Animation) is a collection of data
+    types and functions for composing richly interactive, multimedia
+    animations.  The key ideas in Fran are its notions of behaviors and events.
+    Behaviors are time-varying, reactive values, while events are sets of
+    arbitrarily complex conditions, carrying possibly rich information.  Most
+    traditional values can be treated as behaviors, and when images are thus
+    treated, they become animations.  Although these notions are captured as
+    data types rather than a programming language, we provide them with a
+    denotational semantics, including a proper treatment of real time, to guide
+    reasoning and implementation.  A method to effectively and efficiently
+    perform event detection using interval analysis is also described, which
+    relies on the partial information structure on the domain of event times.
+    Fran has been implemented in Hugs, yielding surprisingly good performance
+    for an interpreter-based system.  Several examples are given, including the
+    ability to describe physical phenomena involving gravity, springs,
+    velocity, acceleration, etc.  using ordinary differential equations.", 
+  location     = "http://dx.doi.org/10.1145/258949.258973"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
