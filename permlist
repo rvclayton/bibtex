@@ -932,7 +932,6 @@ ddm a cache only memory architecture : hagersten
 deadlock detection in distributed systems : singhal
 deadlock free completely connected networks towards a pi calculus approach : crowe
 deanonymizing users of the safeweb anonymizing service : martin
-debug malloc library : watson
 debugging backwards in time : lewis
 debugging memory on linux : sorfa
 debunking the expensive procedure call myth : steele
@@ -1011,9 +1010,8 @@ designing software with modula 3 : klein
 designing the internet for a networked society : wellman
 designing the legos multitasking operating system : noga
 designing the mccat compiler based on a family of structured intermediate representations : hendren
-desktop conferencing system mermaid : watabe
-detectinguplicat code with pmds cpd : copland
-detectingmutual consistency of shared objects : ahamad
+detecting duplicate code with pmds cpd : copland
+detecting mutual consistency of shared objects : ahamad
 determinacy testing for nondeterminate logic programming languages : tick
 developing and using snd editing sound under linux parts 1 and 2 : phillips
 developing distributed object computing applications with corba : schmidt
@@ -1094,7 +1092,6 @@ duel a very high level debugging language : golan
 dvd rom drive scsi command set : pioneer
 dynamic adaptive character generation and spatial expressiveness : cohen
 dynamic attention : nisley
-dynamic control and prototyping of parallel algorithms for intermediate and high level vision : wallace
 dynamic graphs : demetrescu
 dynamic hashing schemes : enbody
 dynamic linking of software components : franz
@@ -2844,7 +2841,6 @@ techniques for aligning objects in drawing programs : raisamo
 techniques for reducing pen plotting time : anderson
 techniques for requirments elicitation : goguen
 telecommunications regulation the continuing dilemma : trebing
-teledemocracy in local government : watson
 temporal logic case study : wood
 ten commandments of formal methods : bowen
 ten myths of multimodal interaction : oviatt
@@ -3514,7 +3510,6 @@ why we dont need qos trains cars and internet quality of service : bricklin
 window based error recovery and flow control with a slow acknowledgment channel a study of tcp ip performance : lakshman
 window flow control in computer communication networks : ilyas
 wireless data communications : pahlavan
-wit an infrastructure for wireless palmtop computing : watson
 word sense disambiguation a survey : navigli
 workings of a virtual private network in linux part 1 : morgan
 workings of a virtual private network in linux part 2 : morgan
@@ -3532,8 +3527,6 @@ xl a language structure : nelson
 xml mapping technology making connections in an xml centric world : roth
 xml programming with sql xml and xquery : funderburk
 xml reflective pattern matching and java : dwelly
-xml rpc in python : warner
-xml rpc it works both ways : warner 
 xml rpc specification : xml-rpc
 xml schema languages : walsh
 xml with scheme : martinovsky
