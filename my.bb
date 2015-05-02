@@ -724,7 +724,7 @@
   author       = "Dale Parson",
   title        = "Using Java Reflection to Automate Extension Langugae Parsing",
   journal      = sigplan # " (" # pot # " Second Conference on Domain-Specific Languages)" ,
-  year         = 1999,
+  year         = 2000,
   volume       = 35,
   number       = 1,
   pages        = "67--80",
@@ -816,6 +816,33 @@
     ability to describe physical phenomena involving gravity, springs,
     velocity, acceleration, etc.  using ordinary differential equations.", 
   location     = "http://dx.doi.org/10.1145/258949.258973"
+}
+
+@Article{dsec,
+  author       = "Leijen, Daan and Meijer, Erik",
+  title        = "Domain Specific Embedded Compilers",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages)" ,
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "109--122",
+  month        = jan,
+  keywords     = "haskell, embedded languages, little languages, phantom
+    types",
+  abstract     = "Domain-specific embedded languages (DSELs) expressed in 
+    higher-order, typed (HOT) languages provide a composable framework for
+    domain-specific abstractions.  Such a framework is of greater utility than
+    a collection of stand-alone domain-specific languages.  Usually, embedded
+    domain specific languages are build on top of a set of domain specific
+    primitive functions that are ultimately implemented using some form of
+    foreign function call.  We sketch a general design pattern/or embedding
+    client-server style services into Haskell using a domain specific embedded
+    compiler for the server's source language.  In particular we apply this
+    idea to implement Haskell/DB, a domain specific embdedded compiler that
+    dynamically generates of SQL queries from monad comprehensions, which are
+    then executed on an arbitrary ODBC database server.", 
+  location     = "http://dx.doi.org/10.1145/331963.331977", 
+  location     = "https://www.usenix.org/events/dsl99/full_papers/leijen/leijen.pdf"
 }
 
 @Book{osid,
