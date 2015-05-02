@@ -967,3 +967,28 @@
     potential memory savings for these benchmarks range from 23% to 74%.", 
   location     = "http://dx.doi.org/10.1145/362422.362430"
 }
+
+@InProceedings{dmdcsm,
+  author       = "Watabe, Kazuo and Sakata, Shiro and Maeno, Kazutoshi and Fukuoka, Hideyuki and Ohmori, Toyoko",
+  title        = "Distributed Multiparty Desktop Conferencing System: {MERMAID}",
+  booktitle    = pot # "1990 ACM Conference on Computer-Supported Cooperative Work (CSCW '90)",
+  year         = 1990,
+  pages        = "27--38",
+  address      = laca,
+  month        = "7--10 " # oct,
+  keywords     = "client-server, shared workspaces, video conferencing",
+  abstract     = "This describes a distributed multiparty desktop conferencing
+    system (MERMAID) and presents its preliminary brief evaluation, obtained as
+    a result of daily use.  MERMAID, which is designed based on group
+    collaboration system architecture, provides an environment for widely
+    distributed participants, seated at their desks, to hold real-time
+    conferences by interchanging information through video, voice, and
+    multimedia documents.  This system is implemented by using narrow-band
+    ISDN, high-speed data network, and UNIX-based EWSs with electronic writing
+    pads, image scanners, video cameras, microphone-installed loudspeakers,
+    etc.  The system provides participants with the means for sharing
+    information in such multimedia forms as video images, voice, text,
+    graphics, still images, and hand drawn figures.", 
+  location     = "http://dx.doi.org/10.1145/99332.99338"
+}
+
