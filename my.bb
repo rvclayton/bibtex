@@ -845,6 +845,33 @@
   location     = "https://www.usenix.org/events/dsl99/full_papers/leijen/leijen.pdf"
 }
 
+@Article{shlrs,
+  author       = "Dennis~W. Leinbaugh",
+  title        = "Selectors: High-Level Resource Schedulers",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "810--825",
+  month        = nov,
+  keywords     = "nonprocedural langauge, process synchronization, protected
+  resource, resource scheduling, resource sharing, starvation",
+  abstract     = "Resource sharing problems can be described in three basically
+    independent modular components.  The constraints the resource places upon
+    sharing because of physcal limitations and consistency requirements.  The
+    desired ordering of resource requests to achieve efficiency-either
+    efficiency of resource utilization or efficiency of processes making the
+    requests.  Modifications to the ordering to prevent starvation of processes
+    waiting for requests which might otherwise never receive service.  A
+    high-level nonprocedural language to specify these components of resource
+    sharing problems is described.  General deadlock and starvation properties
+    of selectors are proven.  Solutions to several classic resource sharing
+    problems are shown to illustrate the expressiveness of this language.
+    Proof techniques for this high-level language are introduced to show how to
+    prove particular selectors are or are not deadlock and starvation free.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010310"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
