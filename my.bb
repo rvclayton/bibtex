@@ -872,6 +872,38 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010310"
 }
 
+@Article{vveis,
+  author       = "James Jennings and Eric Beuscher",
+  title        = "Verischemelog: {V}erilog Embedded in {S}cheme",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages)" ,
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "109--122",
+  month        = jan,
+  keywords     = "scheme, verilog, macros, extension languages, embedded
+    languages, hardware description languages",
+  abstract     = "Verischemelog (pronounced with 5 syllables, 
+    ver-uh-scheme-uh-log) is a language and programming environment embedded in
+    Scheme for designing digital electronic hardware systems and for
+    controlling the simulatin of these circuits.  Simulation is performed by a
+    separate program, often a commercial product.  Verischemelog compiles to
+    Verilog, an industry standard language accepted by several commercial and
+    public domain simulators.  Because many design elements are easily
+    parameterized, design engineers currently write scripts which generate
+    hardware description code in Verilog.  These scripts work by textual
+    substitution, and are typically ad-hoc and quite limited.  Preprocessors
+    for Verilog, on the other hand, are hampered by their macro-expansion
+    languages, which support few data types and lack procedures.  Verischemelog
+    obviates the need for scripts and prepocessors by providing a hardware
+    description language with list-based syntax, and Scheme to manipulate it.
+    An interactive development environment gives early and specific feedback
+    about errors, and structured access to the compiler and run-time
+    environment provide a high degree of reconfigurability and extensibility of
+    Verischemelog.", 
+  location     = "http://usenix.org/publications/library/proceedings/dsl99/full_papers/jennings/jennings.pdf"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
