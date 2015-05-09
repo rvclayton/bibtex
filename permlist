@@ -751,6 +751,7 @@ clearing memory and partial register stalls in your code : barad
 client requirements for real time communication services : ferrari
 client server caching revisited : franklin
 clocks in dataflow languages : caspi
+closed covers to verify progress for communicating finite state machines : gouda
 clostrophobia its etiology and treatment : baker
 cml a higher order concurrent language : reppy
 coases penguin or linux and the nature of the firm : benkler
