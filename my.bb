@@ -904,6 +904,36 @@
   location     = "http://usenix.org/publications/library/proceedings/dsl99/full_papers/jennings/jennings.pdf"
 }
 
+@Article{cctvpfcfsm,
+  author       = "Mohammed~C. Gouda",
+  title        = "Closed Covers:  To Verify Progress for Communicating Finite State Machines",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "846--855",
+  month        = nov,
+  keywords     = "communicating finite state machines, communication progress,
+    communication protocols, verification techniques, automata, data
+    structures, protocols, resource management, system recovery",
+  abstract     = {Consider communicating finite state machines which exchange
+    messages over unbounded FIFO channels.  We discuss a technique to verify
+    that the communication between a given pair of such machines will progress
+    indefinitely; this implies that the communication is free from deadlocks
+    and unspecified receptions.  The technique is based on finding a set of
+    global states for the communicating pair such that the following two
+    conditions (along with other conditions) are satisfied: 1) the initial
+    global state is in that set; and 2) starting from any global state in that
+    set, an "acyclic version" of the communicating pair must reach a global
+    state in that set.  We call such a set a closed cover, and show that the
+    existence of a closed cover for a communicating pair is sufficient to
+    guarantee indefinite communication progress.  We also show that in many
+    practical instances, if the communication is guaranteed to progress
+    indefinitely, then the existence of a closed cover is necessary.},
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010313",
+  location     = "http://www.cs.utexas.edu/~gouda/papers/journal/10-whole.pdf"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
