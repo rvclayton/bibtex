@@ -934,6 +934,41 @@
   location     = "http://www.cs.utexas.edu/~gouda/papers/journal/10-whole.pdf"
 }
 
+@Article{aooassl,
+  author       = "Giuseppe Serazzi and Maria Caizarossa",
+  title        = "Adaptive Optimization of a System's Load",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  month        = nov,
+  pages        = "837--845",
+  keywords     = "adaptive control, adaptive scheduling algorithm, asymptotic
+    bound analyasis, load balancing, real-time performance optimization",
+  abstract     = "Applications of modeling techniques based on queueing theory
+    to computer system performance analysis normally assume the existence of
+    steady-state conditions.  However, these conditions are often violated
+    since the unpredictable composition of workload causes peaks having highly
+    variable intensities and durations.  Furthermore, computer system
+    performance is highly dependent on how the system reacts to workload
+    fluctuations.  Automatic control mechanisms are required to take care of
+    the high variance of resource demands.  Real-time optimization of the
+    overall performance of a computer system requires the introduction of
+    adaptive control on the controlled functions, An adaptive scheduling
+    algorithm which controls the input of the system in order to maximize a
+    given performance criterion, such as the system throughput, is presented.
+    The system load is adjusted depending on the characteristics of both the
+    mix of jobs in execution and the mix of jobs submitted to the system and
+    waiting in the input queue.  The asymptotic analysis of the performance
+    bounds provides useful information about the limits on the performance
+    indexes that can be achieved with a multiclass workload.  The evaluation of
+    the adaptive control system is performed through simulation experiments
+    using data collected from two real workloads.  This technique could be used
+    to optimize the throughput of a centralized system as well as for the
+    automatic load balancing in a distributed environment.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010312"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
