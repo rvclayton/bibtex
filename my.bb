@@ -969,6 +969,48 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010312"
 }
 
+@Article{acm,
+  author       = "Khayat, Mohammad G.",
+  title        = "{A} Concurrency Measure",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "804--810",
+  month        = nov,
+  keywords     = "compatibility, concurrency control, degree of concurrency,
+    dining philosophers problem, interprocess communication, maximal
+    compatibility, parallel processing, readers/writers problem,
+    synchronization policies, update synchronization",
+  abstract     = "With the new advents of technology and the availability of 
+    microprocessors and minicomputers, parallel and distributed processing is
+    gaining widespread acceptability.  In such systems resources are shared
+    among a number of processes.  Accesses to the resources must be
+    synchronized in order to guarantee proper operation of a system.  In this
+    research work, a measure, called maximal compatibility, is developed to
+    measure the degree of concurrency (parallelism) a synchronization policy
+    achieves.  A set of accesses is considered compatible if it only contains
+    accesses that are permitted to occur simultaneously.  A policy is maximally
+    compatible if it allows every compatible set of accesses to occur
+    simultaneously and if the maximum number of requests is always satisfied
+    without allowing incompatible accesses to occur simultaneously.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010309"
+}
+
+@Article{dore,
+  author       = "Janusz~A. Brzozowski",
+  title        = "Derivatives of Regular Expressions",
+  journal      = jacm,
+  year         = 1964,
+  volume       = 11,
+  number       = 4,
+  pages        = "481--494",
+  month        = oct,
+  keywords     = "symbolic manipulation, algebraic manipulation",
+  abstract     = "",
+  location     = "http://dx.doi.org/10.1145/321239.321249"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
