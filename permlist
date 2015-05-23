@@ -47,6 +47,7 @@ a compiler based approach to protocol optimization : castelluccia
 a compiler definition facility based on the syntatic macro : campbell
 a compiler writers guide to c# : shields
 a computer music system that follows a human conductor : morita
+a concurrency measure : khayat
 a configurable visual programming environment : karsai
 a constructive development environment for parallel and distributed programs : magee
 a controlled experiment to assess the benefits of procedure argument type checking : prechelt
@@ -879,6 +880,7 @@ correct architecture refinement : moriconi
 correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
 cost effective parallel computing : wood
+counting paths nondeterminism as linear algebra : benson
 coverage problems in sensor networks a survey : wang
 covert channels in the tcp ip protocol suite : rowland
 cp miner finding copy paste and related bugs in large scale software code : li
