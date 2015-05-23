@@ -1011,6 +1011,39 @@
   location     = "http://dx.doi.org/10.1145/321239.321249"
 }
 
+@Article{cpnala,
+  author       = "David~B. Benson",
+  title        = "Counting Paths:  Nondeterminism as Linear Algebra",
+  journal      = tse,
+  year         = 1984,
+  volume       = "SE-10",
+  number       = 6,
+  pages        = "785--794",
+  month        = nov,
+  keywords     = "convergent iterative programs, deterministic divergence,
+    nondeterministic divergence, nondeterministic programs, nonnegative
+    matrices, semirings, computer errors, concurrent computing, control
+    systems, convergence, design engineering, distributed computing, linear
+    algebra, operating systems, programming profession, redundancy",
+  abstract     = "Nondeterminism is considered to be ignorance about the actual
+    state transition sequence performed during a computation.  The number of
+    distinct potential paths from state i to j forms a matrix [nij].  The
+    behavior of a nondeterministic program is defined to be this multiplicity
+    matrix of the state transitions.  The standard programming constructs have
+    behaviors defined in terms of the behaviors of their constituents using
+    matrix addition and multiplication only.  The spectral radius of the matrix
+    assigned to an iterating component characterizes its convergence.  The
+    spectral radius is shown to be either 0 or else >= 1.  The program
+    converges iff the spectral radius is zero, diverges deterministically iff
+    the spectral radius is one, and has a proper nondeterministic divergence
+    iff the spectral radius exceeds one.  If the machine has an infinite number
+    of states the characterization of convergence is given graph theoretically.
+    The spectral radii of synchronous and interleaved parallel noncommunicating
+    systems are easily computed in terms of the spectral radii of the
+    components.", 
+  location     = "http://dx.doi.org/10.1109/TSE.1984.5010307"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
