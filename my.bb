@@ -1044,6 +1044,35 @@
   location     = "http://dx.doi.org/10.1109/TSE.1984.5010307"
 }
 
+@Article{dsodiws,
+  author       = "Fern{\' a}ndez, Mary and Suciu, Dan and Tatarinov, Igor",
+  title        = "Declarative Specification of Data-Intensive Web Sites",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)",
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "135--148",
+  month        = jan,
+  keywords     = "domain-specific languages, functional languages,
+    semistructured data, query languages, template languages",
+  abstract     = "Integrated information systems are often realized as 
+    data-intensive Web sites, which integrate data from multiple data sources.
+    We present a system, called STRUDEL, for specifying and generating
+    data-intensive Web sites.  STRUDEL separates the tasks of accessing and
+    integrating a site's data sources, building its structure, and generating
+    its HTML representation.  STRUDEL's declarative query language, called
+    StruQL, supports the first two tasks.  Unlike ad-hoc database queries, a
+    StruQL query is a software artifact that must be extensible and reusable To
+    support more modular and reusable site definition queries, we extend StruQL
+    with functions and describe how the new language, FunStruQL, better
+    supports common site-engineering tasks, such as choosing a strategy for
+    generating the site's pages dynamically and/or statically To substantiate
+    STRUDEL's benefits, we describe the re-engineering of a production Web site
+    using FunStruQL and show that the new site is smaller, more reusable, and
+    unlike the original site, can be analyzed and optimized.", 
+  location     = "http://dx.doi.org/10.1145/331960.331979"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
