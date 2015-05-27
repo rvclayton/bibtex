@@ -4170,7 +4170,7 @@
   pages        = "40--52",
   month        = oct,
   keywords     = "message handlers, dynamic protocol composition, dynamic code
-    generation, application specific handlers, ",
+    generation, application specific handlers",
   abstract     = "Application-specific safe message handlers (ASHs) are
     designed to provide applications with hardware-level network performance.
     ASHs are user-written code fragments that safely and efficiently execute in
@@ -17958,23 +17958,20 @@
   number       = 11,
   pages        = "1174--1200",
   abstract     = "Single-assignment and functional languages have value
-		  semantics that do not permit side-effects.  This lack of
-		  side-effects makes automatic detection of parallelism and
-		  optimization for data locality in programs much
-		  easier. However, the same property poses a challenge in
-		  implementing these languages efficiently.  This paper
-		  describes an optimizing compiler system that solves the key
-		  problem of aggregate copy elimination.  The methods developed
-		  rely exclusively on compile-time algorithms, including
-		  interprocedural analysis, that are applied to an intermediate
-		  data flow representation.  By dividing the problem into
-		  update-in-place and build-in-place analysis, a small set of
-		  relatively simple techniquesÅ—edge substitution, graph pattern
-		  matching, substructure sharing and substructure targetingÅ—was
-		  found to be very powerful. If combined properly and
-		  implemented carefully, the algorithms eliminate unnecessary
-		  copy operations to a very high degree.  No run- time overhead
-		  is imposed on the compiled programs.",
+    semantics that do not permit side-effects.  This lack of side-effects makes
+    automatic detection of parallelism and optimization for data locality in
+    programs much easier.  However, the same property poses a challenge in
+    implementing these languages efficiently.  This paper describes an
+    optimizing compiler system that solves the key problem of aggregate copy
+    elimination.  The methods developed rely exclusively on compile-time
+    algorithms, including interprocedural analysis, that are applied to an
+    intermediate data flow representation.  By dividing the problem into
+    update-in-place and build-in-place analysis, a small set of relatively
+    simple techniques - edge substitution, graph pattern matching, substructure
+    sharing and substructure targeting - was found to be very powerful.  If
+    combined properly and implemented carefully, the algorithms eliminate
+    unnecessary copy operations to a very high degree.  No run- time overhead
+    is imposed on the compiled programs.", 
   month        = nov,
   keywords     = "copy elimination, aggregate update problem, single-assignment
 		  language Functional language, optimizing compiler",
@@ -18283,27 +18280,6 @@
 		  can use to address its own Y2K challenge in a forthright and
 		  level-headed manner.",
   location     = "http://dx.doi.org/10.1109/2.573656"
-}
-
-@Article{narf,
-  author       = "Robert Floyd",
-  title        = "Nondeterministic Algorithms",
-  journal      = jacm,
-  year         = 1967,
-  volume       = 14,
-  number       = 4,
-  pages        = "636-644",
-  month        = oct,
-  keywords     = "",
-  abstract     = "Programs to solve combinatorial search problems may often be
-		  simply written by using multiple-valued functions.  Such
-		  programs, although impossible to execute directly on
-		  conventional computers, may be converted in a mechanical way
-		  into conventional backtracking programs.  The process is
-		  illustrated with algorithms to find all solutions to the
-		  eight queens problem on the chessboard, and to find all
-		  simple cycles in a network.",
-  location     = "http://doi.acm.org/10.1145/321420.321422"
 }
 
 @Article{dlosc,
@@ -22448,10 +22424,9 @@
   volume       = 19,
   number       = 3,
   pages        = "42--54",
-  abstract     = "If youíre writing code to be used by other programmers,
-		  youíll want to make it customizable, and youíll want to do it
-		  well.  This article presents an approach that is both
-		  efficient and easy to manage.",
+  abstract     = "If you're writing code to be used by other programmers, 
+    you'll want to make it customizable, and you'll want to do it well.  This
+    article presents an approach that is both efficient and easy to manage.",
   month        = mar,
   keywords     = "template specialization, c++",
   location     = "http://www.ddj.com/cpp/184401370?pgno=7"
@@ -26673,7 +26648,7 @@
     compound documents to enterprise applications that include distributed
     server components.  The backers of competing standards are racing to
     capture market leadership by delivering the tangible benefits of component
-    standards via distributed component platforms˝integrated development and
+    standards via distributed component platforms: integrated development and
     runtime environments that isolate much of the conceptual and technical
     complexity involved in building component-based applications.  With DCPs,
     businesses can assign their few highly skilled programmers to component
@@ -30647,8 +30622,8 @@
     software engineering community.  This paper compiles the results of our
     investigation of this problem.  As interagent formalism, we adopt a simple
     variant of Live Sequence Charts.  For the intraagent perspective, we
-    consider a game-theoretic foundation, looking at agents as "strategies,˝
-    which encompasses the popular "state-based" paradigm. Three classes of
+    consider a game-theoretic foundation, looking at agents as strategies
+    encompassing the popular "state-based" paradigm. Three classes of
     relationships between models are studied: scenario checking (called eLSC
     checking), synthesis, and verification.  We set a formally defined
     theoretical stage that allows us to express these three problems very
