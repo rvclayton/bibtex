@@ -1131,6 +1131,16 @@
   location     = "QA 43.V28 2002"
 }
 
+@Book{bbrbp,
+  author       = "Robert~B. Parker",
+  title        = "Bad Business",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2004,
+  address      = nyny,
+  keywords     = "financial chicanery, murrdaar",
+  location     = "PS 3566.A686 B34"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
