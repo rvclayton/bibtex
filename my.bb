@@ -1073,6 +1073,25 @@
   location     = "http://dx.doi.org/10.1145/331960.331979"
 }
 
+@Article{narwf,
+  author       = "Robert~W. Floyd",
+  title        = "Nondeterministic Algorithms",
+  journal      = jacm,
+  year         = 1967,
+  volume       = 14,
+  number       = 4,
+  pages        = "636--644",
+  month        = oct,
+  keywords     = "nondeterminism, algorithms, program transforms",
+  abstract     = "Programs to solve combinatorial search problems may often be 
+    simply written by using multiple-valued functions.  Such programs, although
+    impossible to execute directly on conventional computers, may be converted
+    in a mechanical way into conventional backtracking programs.  The process
+    is illustrated with algorithms to find all solutions to the eight queens
+    problem on the chessboard, and to find all simple cycles in a network.", 
+  location     = "http://dx.doi.org/10.1145/321420.321422"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
