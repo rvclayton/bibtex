@@ -1141,6 +1141,16 @@
   location     = "PS 3566.A686 B34"
 }
 
+@Book{hifh,
+  author       = "Helen Macdonald",
+  title        = "{H} Is for Hawk",
+  publisher    = "Grove Press",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "hawks, death, history",
+  location     = "QL 696.F3 M324"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
