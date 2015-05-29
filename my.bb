@@ -1092,6 +1092,38 @@
   location     = "http://dx.doi.org/10.1145/321420.321422"
 }
 
+@Article{biagcs,
+  author       = "Lindstrom, Gary",
+  title        = "Backtracking in a Generalized Control Setting",
+  journal      = toplas,
+  year         = 1979,
+  volume       = 1,
+  number       = 1,
+  pages        = "8--26",
+  month        = jul,
+  keywords     = "backtracking, coroutines, nondeterministic programming,
+    simulation, control structures, pascal",
+  abstract     = "Backtracking is a powerful conceptual and practical
+    programming language control structure.  However, its application in
+    general has been limited to global control over recursive programs.  In
+    this paper we explore the coherence and utility of applying backtracking in
+    a more general control setting, namely, block-structured coroutines.  The
+    following criteria are proposed for such a control combination to be judged
+    successful: (i) retention of each control form's individual semantics; (ii)
+    coherent semantics for each legal application of the combination; (iii)
+    nonpreeminence of either control form, and (iv) facilitation of genuinely
+    novel programming effects.  The attainability of these criteria is
+    assessed, with the aid of an informal language design and three
+    illustrative applications: (i) a dual tree walk program using
+    coroutine-managed backtracking subsystems; (ii) a context-free language
+    intersection tester using bilevel hierarchical backtracking, and (iii) an
+    optimizing computer job scheduler using backtracking in a simulation
+    language context.  Full programs are given for each example, phrased in a
+    Pascal extension offering both coroutines and backtracking (expressed
+    through nondeterministic control).", 
+  location     = "http://dx.doi.org/10.1145/357062.357063"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
