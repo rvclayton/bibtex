@@ -8314,8 +8314,31 @@
   number       = 1,
   pages        = "1--9",
   month        = jan,
-  keywords     = "programming, data streams",
-  location     = "QA 76.6.I17"
+  keywords     = "programming, data streams, coroutines, in-line expansion,
+    program module network, pascal, program modularization, program
+    reusability, value stream, process termination",
+  abstract     = "A description is given of features which were added to a 
+    conventional programming language that will manipulate streams of values.
+    A stream is a sequence of values of a certain fixed type.  The number of
+    elements of a stream may be determined at execution time, and evaluation of
+    each element can be postponed until its value is actually needed.  Many
+    programs can be expressed naturally and clearly as networks of processes
+    communicating by means of streams.  The network is called a composite
+    function and consists of several component functions.  Since component
+    functions are connected solely by streams, they greatly increase the
+    flexibility of combinations and the reusability of programs.  Loop
+    statements can be considered as iterative statements over streams.  One
+    general problem in these networks is the mechanism of terminating each
+    process of the network.  A practical solution for this problem is
+    presented.  Comparisons to other programming styles, such as coroutines,
+    Lisp, functional programming, and dataflow languages, are described.  Three
+    modes of execution are considered for the implementation of composite
+    functions: parallel mode, coroutine mode, and inline mode.  In the inline
+    mode, a composite function is expanded and transformed into a single
+    function, realizing maximum run-time efficiency.  Algorithms for this
+    expansion are given.", 
+  location     = "QA 76.6.I17", 
+  location     = "http://dx.doi.org/10.1109/32.67573"
 }
 
 @Article{mieocl,
