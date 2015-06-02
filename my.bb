@@ -1318,3 +1318,14 @@
   location     = "http://dx.doi.org/10.1145/99332.99338"
 }
 
+@Misc{tpbadtkla,
+,
+  author       = "Peter {Van Roy} and Seif Haridi",
+  title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
+  howpublished = "lecture slides",
+  year         = 2002,
+		  
+  month        = "17 " # jul,
+  keywords     = "programming, teaching"
+}
+
