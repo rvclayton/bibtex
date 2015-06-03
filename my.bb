@@ -1202,6 +1202,16 @@
   location     = "QL 696.F3 M324"
 }
 
+@Book{apc,
+  author       = "Peter Carey",
+  title        = "Amnesia",
+  publisher    = "Knopf",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "hackers",
+  location     = "PR 9619.3 C36 A83"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
@@ -1319,7 +1329,6 @@
 }
 
 @Misc{tpbadtkla,
-,
   author       = "Peter {Van Roy} and Seif Haridi",
   title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
   howpublished = "lecture slides",
