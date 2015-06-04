@@ -4276,7 +4276,7 @@
   location     = "PN 2287 W4568"
 }
 
-@Book{hmrbp,
+@Book{hmrbp2000,
   author       = "Robert~B. Parker",
   title        = "Hugger Mugger",
   publisher    = "G.~P. Putham's Sons",
