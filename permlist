@@ -607,6 +607,7 @@ automatic generation of visual programming environments : costagliola
 automatic implementation of formal descriptions of communication protocols : hansson 
 automatic mining of source code repositories to improve bug finding techniques : williams
 automatic synthesis of state machines from trace diagrams : koskimies
+automatic transformations of series expressions into loops : waters
 automated testing of object oriented software : meyer
 automatically achieving elasticity in the implementation of programming languages : horowitz
 automatically proving the correctness of compiler optimizations : lerner
@@ -2450,7 +2451,6 @@ residue arithmetic a tutorial with examples : taylor
 resistance is futile formal linguistic observations of design patterns : van emde boas
 resource allocation for broadband networks : hui
 resource integration using a large knowledge base in carnot : collet
-resource management in networked multimedia systems : nahrstedt
 resourceable retargetable modular instruction selection using a machine independent type based tiling of low level intermediate code : ramsey
 response time in a teletext system an individual users perspective : ammar
 responsible web caching : berghel
