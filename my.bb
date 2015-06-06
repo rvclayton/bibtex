@@ -1124,6 +1124,26 @@
   location     = "http://dx.doi.org/10.1145/357062.357063"
 }
 
+@Article{eeoartsfams,
+  author       = "Blake, Ben~A. and Schwan, Karsten",
+  title        = "Experimental Evaluation of a Real-Time Scheduler for a Multiprocessor System",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 1,
+  pages        = "34--44",
+  month        = jan,
+  keywords     = "bin packing, deadline, distributed scheduling",
+  abstract     = "A description is given of the design, implementation, and
+    experimental evaluation of a multiprocessor scheduler used with robotics
+    applications and other real-time programs.  The scheduler makes decisions
+    concerning both the assignment of processes and the scheduling of these
+    processes on each processor such that a near-optimal numer of processor
+    deadlines is satisfied.  It assumes that process execution times,
+    deadlines, and earliest possible start times are known.", 
+  location     = "http://dx.doi.org/10.1109/32.67577"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
@@ -1210,6 +1230,16 @@
   address      = nyny,
   keywords     = "hackers",
   location     = "PR 9619.3 C36 A83"
+}
+
+@Book{hmrbp,
+  author       = "Robert~B. Parker",
+  title        = "Hush Money",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "politics, outery, hypocrisy, murrdaar",
+  location     = "PS 3566.A686 H87"
 }
 
 @InBook{lphoor,
