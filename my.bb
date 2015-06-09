@@ -1144,6 +1144,34 @@
   location     = "http://dx.doi.org/10.1109/32.67577"
 }
 
+@Article{aalfosl,
+  author       = "Guyer, Samuel~Z. and Lin, Calvin",
+  title        = "An Annotation Language for Optimizing Software Libraries",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)",
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "39--52",
+  month        = jan,
+  keywords     = "performance annotations, library optimization",
+  abstract     = "This paper introduces an annotation language and a compiler
+    that together can customize a library implementation for specific
+    application needs.  Our approach is distinguished by its ability to exploit
+    high level, domain-specific information in the customization process.  In
+    particular, the annotations provide semantic information that enables our
+    compiler to analyze and optimize library operations as if they were
+    primitives of a domain-specific language.  Thus, our approach yields many
+    of the performance benefits of domain-specific languages, without the
+    effort of developing a new compiler for each domain.This paper presents the
+    annotation language, describes its role in optimization, and illustrates
+    the benefits of the overall approach.  Using a partially implemented
+    compiler, we show how our system can significantly improve the performance
+    of two applications written using the PLAPACK parallel linear algebra
+    library.", 
+  location     = "http://dx.doi.org/10.1145/331960.331970",
+  location     = "http://www.cs.tufts.edu/~sguyer/publications/dsl99.pdf"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
