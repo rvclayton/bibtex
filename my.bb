@@ -1172,6 +1172,15 @@
   location     = "http://www.cs.tufts.edu/~sguyer/publications/dsl99.pdf"
 }
 
+@Book{natrbp,
+  author       = "Rober~B. Parker",
+  title        = "Now and Then",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2007,
+  address      = nyny,
+  location     = "PS 3566.A6868 N69"
+}
+
 @Book{osid,
   author       = "Thomas~W. Doeppner",
   title        = "Operating Systems in Depth",
