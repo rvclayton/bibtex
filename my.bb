@@ -1172,6 +1172,28 @@
   location     = "http://www.cs.tufts.edu/~sguyer/publications/dsl99.pdf"
 }
 
+@Article{sams,
+  author       = "Robert~F. Rosen",
+  title        = "Supervisory and Monitor Systems",
+  journal      = surveys,
+  year         = 1969,
+  volume       = 1,
+  number       = 1,
+  pages        = "37--54",
+  month        = mar,
+  keywords     = "executive systems, supervisory systems, operating systems,
+    monitors, history, tutorial, command language, interrupts, software",
+  abstract     = "A survey of the development of executive systems, covering
+    primitive as well as more refined concepts, is presented.  It is arranged
+    chronologically, from the early 1950s through the present time, and is
+    based upon representative systems of each period which where in active use
+    at several installations and which implicitly defined the them existing
+    state-of-the-art.  The material is presented in a progression from the
+    simple to the most complex developments, in the same way they  
+    occurred during the period considered.", 
+  location     = "http://dx.doi.org/10.1145/356540.356544"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
