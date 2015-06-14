@@ -440,6 +440,7 @@ an alphard specification of a correct and efficient transformation on data struc
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
 an analysis of tcp processing overhead : clark
 an annotated bibliography of interactive program steering : gu
+an annotation language for optimizing software libraries : guyer
 an apl machine : abrams
 an applicative control flow graph based on huets zipper : ramsey
 an appraisal of program specifications : liskov
@@ -2781,6 +2782,7 @@ summary of ml syntax : ullman
 sunit : burkert
 supercomputers colossal computations enormous expectations renowned risk : lincoln
 superquadrics and angle preserving transformations : barr
+supervisory and monitor systems : rosen
 supporting dynamic data structures on distributed memory machines : rogers
 supporting real time applications in an integrated services packet network architecture and machanism : clark
 supporting software reusbility with polymorphic types : laverman
