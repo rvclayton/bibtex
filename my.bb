@@ -1194,6 +1194,28 @@
   location     = "http://dx.doi.org/10.1145/356540.356544"
 }
 
+@Article{asopanatsp,
+  author       = "David Harel",
+  title        = "And/Or Programs:  A New Approach to Structured Programming",
+  journal      = toplas,
+  year         = 1980,
+  volume       = 2,
+  number       = 1,
+  pages        = "1--17",
+  month        = jan,
+  keywords     = "alternation, and/or programs, program verification,
+    structured programming, textual complexity",
+  abstract     = "A simple tree-like programming/specification language is 
+    presented.  The central idea is the dividing of conventional programming
+    constructs into the two classes of and and or subgoaling, the subgoal tree
+    itself constituting the program.  Programs written in the language can, in
+    general, be both nondeterministic and parallel.  The syntax and semantics
+    of the language are defined, a method for verifying programs written in it
+    is described, and the practical significance of programming in the language
+    assessed.  Finally, some directions for further research are indicated.", 
+  location     = "http://dx.doi.org/10.1145/357084.357085"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1299,6 +1321,16 @@
   address      = nyny,
   keywords     = "politics, outery, hypocrisy, murrdaar",
   location     = "PS 3566.A686 H87"
+}
+
+@Book{prbp,
+  author       = "Robert~B. Parker",
+  title        = "Potshot",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2001,
+  address      = nyny,
+  keywords     = "real estate, murrdaar",
+  location     = "PS 3566.A686 P68"
 }
 
 @InBook{lphoor,
