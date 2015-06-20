@@ -1216,6 +1216,32 @@
   location     = "http://dx.doi.org/10.1145/357084.357085"
 }
 
+@Article{dcapbde,
+  author       = "Tai, Kuo-Chung and Carver, Richard~H. and Obaid, Evelyn~E.",
+  title        = "Debugging Concurrent {A}da Programs by Deterministic Execution",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  OPTnumber    = 1,
+  pages        = "45--63",
+  month        = jan,
+  keywords     = "ada, debugging, concurrency, execution traces, deterministic
+    execution", 
+  abstract     = "A language-based approach to deterministic execution
+    debugging of concurrent Ada programs is presented.  The approach is to
+    define synchronization (SYN) -sequences of a concurrent Ada program in
+    terms of Ada language constructs and to replay such SYN-sequences without
+    the need for system-dependent debugging tools.  It is shown how to define a
+    SYN-sequence of a concurrent Ada program in order to provide sufficient
+    information for deterministic execution.  It is also shown how to transform
+    a concurrent Ada program P so that the SYN-sequences of previous executions
+    of P can be replayed.  This transformation adds an Ada task to P that
+    controls program execution by synchronizing with the original tasks in P.
+    A brief description is given of the implementation of tools supporting
+    deterministic execution debugging of concurrent Ada programs.", 
+  location     = "http://dx.doi.org/10.1109/32.67578"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1331,6 +1357,17 @@
   address      = nyny,
   keywords     = "real estate, murrdaar",
   location     = "PS 3566.A686 P68"
+}
+
+@Book{tbaoon,
+  author       = "Stephen Pinker",
+  title        = "The Better Angels of our Nature",
+  publisher    = "Penguin",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "violence, pacification, civilization, humanitarianism,
+    warfare, rights, psychology, moral systems, politics",
+  location     = "HM 111.6 P57"
 }
 
 @InBook{lphoor,
