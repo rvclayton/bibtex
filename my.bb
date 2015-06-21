@@ -1242,6 +1242,30 @@
   location     = "http://dx.doi.org/10.1109/32.67578"
 }
 
+@Article{acsl,
+  author       = "Li, Du and Muntz, Richard~R.",
+  title        = "{A} Collaboration Specification Language",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)",
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "149--162",
+  month        = jan,
+  keywords     = "computer-supported cooperative work, declarative
+    specifications, concurrency control, session control, roles",
+  abstract     = "COCA (Collaborative Objects Coordination Architecture) was
+    proposed as a novel means to model and support collaborations over the
+    Internet.  Our approach separates coordination policies from user
+    interfaces and the policies are specified in a logic-based language.  Over
+    the past year, both the collaboration model and the specification language
+    have been substantially refined and evaluated through our experience in
+    building real-life collaboration systems.  This paper presents the design
+    of the specification language and illustrates the main ideas with a few
+    simple design examples.  Semantics, implementation, runtime support, and
+    applications are also covered but not as the focus of this paper.", 
+  location     = "http://dx.doi.org/10.1145/331960.331980"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
