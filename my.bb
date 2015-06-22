@@ -1266,6 +1266,30 @@
   location     = "http://dx.doi.org/10.1145/331960.331980"
 }
 
+@Article{asoatsm,
+  author       = "McKinney, J. M.",
+  title        = "A Survey of Analytical Time-Sharing Models",
+  journal      = surveys,
+  year         = 1969,
+  volume       = 1,
+  number       = 2,
+  pages        = "105--116",
+  month        = jun,
+  keywords     = "time-sharing, queueing analysis, mathematical time-sharing
+    studies, scheduling algorithm, operating systems, multiprogramming
+    systems",
+  abstract     = "Queueing models of time-sharing algorithms have been
+  appearing in the literature with increasing frequency.  This survey 
+    delineates the parameters distinguishing different analytic models and 
+    presents the research results of most of the papers to date.  The analysis
+    techniques for various round-robin and multiple-level queue models both
+    with and without priorities are emphasized.  The results indicated provide
+    the system designer with a number of degrees of freedom with which to
+    synthesize a time-shared processing system and point out needed research 
+    directions.  An annotated bibliography is provided.",
+  location     = "http://dx.doi.org/10.1145/356546.356549"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
