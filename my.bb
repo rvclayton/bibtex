@@ -1418,6 +1418,16 @@
   location     = "HM 111.6 P57"
 }
 
+@Book{rrju,
+  author       = "John Updike",
+  title        = "Rabbit Redux",
+  publisher    = "Knopf",
+  year         = 1971,
+  address      = nyny,
+  keywords     = "sucking in the 70s",
+  location     = "PS 3571.P4"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
