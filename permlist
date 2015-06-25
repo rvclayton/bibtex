@@ -437,6 +437,7 @@ an advanced 4.3 bsd interprocess communication tutorial : leffler
 an agent based approach for building complex software systems : jennings
 an algebraic specification of hdlc procedures and its verification : higashino
 an algorithm for filling regions on graphics display devices : lane
+an alternative to the use of patterns in string processing : griswold
 an alphard specification of a correct and efficient transformation on data structures : bentley
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
 an analysis of tcp processing overhead : clark
