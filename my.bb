@@ -1454,6 +1454,16 @@
   location     = "PS 3571.P4"
 }
 
+@Book{srbp,
+  author       = "Robert~B. Parker",
+  title        = "Sixkill",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "wha happened?, murrdaar",
+  location     = "PS 3566.A686 S57"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
