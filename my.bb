@@ -1290,6 +1290,32 @@
   location     = "http://dx.doi.org/10.1145/356546.356549"
 }
 
+@Article{aattuopisp,
+  author       = "Griswold, Ralph~E. and Hanson, David~R.",
+  title        = "An Alternative to the Use of Patterns in String Processing",
+  journal      = toplas,
+  year         = 1980,
+  volume       = 2,
+  number       = 2,
+  pages        = "153--172",
+  month        = apr,
+  keywords     = "string processing, pattern matching, programming languages,
+    snobol4, icon, generators",
+  abstract     = "SNOBOL4 is best known for its string processing facilities,
+    which are based on patterns as data objects.  Despite the demonstrated
+    success of patterns, there are many shortcomings associated with their use.
+    The concept of patterns in SNOBOL4 is examined and problem areas are
+    discussed.  An alternative method for high-level string processing is
+    described.  This method, implemented in the programming language Icon,
+    employs generators, which are capable of producing alternative values.
+    Generators, coupled with a goal-driven method of expression evaluation,
+    provide the string processing facilities of SNOBOL4 without the
+    disadvantages associated with patterns.  Comparisons between SNOBOL4 and
+    Icon are included and the broader implications of the new approach are
+    discussed.", 
+  location     = "http://dx.doi.org/10.1145/357094.357096"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1424,7 +1450,7 @@
   publisher    = "Knopf",
   year         = 1971,
   address      = nyny,
-  keywords     = "sucking in the 70s",
+  keywords     = "sucking in the 60s",
   location     = "PS 3571.P4"
 }
 
