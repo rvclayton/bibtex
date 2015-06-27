@@ -1316,6 +1316,28 @@
   location     = "http://dx.doi.org/10.1145/357094.357096"
 }
 
+@Article{tgoiimals,
+  author       = "Maurice~V. Wilkes",
+  title        = "The Growth of Interest in Microprogramming:  A Literature Survey",
+  journal      = surveys,
+  year         = 1969,
+  volume       = 1,
+  number       = 3,
+  pages        = "139--145",
+  month        = sep,
+  keywords     = "microprogramming, machine architecture, optimization",
+  abstract     = "The literature is surveyed beginning with the first paper
+    published in 1951.  At that time microprogramming was proposed primarily as
+    a means for designing the control unit of an otherwise conventional digital
+    computer, although the possible use of a read/write control memory was
+    noted.  The survey reveals the way in which interest has successively
+    developed in the following aspects of the subject: stored logic, the
+    application of microprogramming to the design of a range of computers,
+    emulation, microprogramming in support of software, the read/white control
+    memories.  The bibliography includes 55 papers.", 
+  location     = "http://dx.doi.org/10.1145/356551.356553"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
