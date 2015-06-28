@@ -1338,6 +1338,37 @@
   location     = "http://dx.doi.org/10.1145/356551.356553"
 }
 
+@Article{mrsurc,
+  author       = "Daniel~G. Bobrow",
+  title        = "Managing Reentrant Structures Using Reference Counts",
+  journal      = toplas,
+  year         = 1980,
+  volume       = 2,
+  number       = 3,
+  pages        = "369--273",
+  month        = jul,
+  keywords     = "storage management, garbage collection, reference counting",
+  abstract     = "Automatic storage management requires that one identify
+    storage unreachable by a user's program and return it to free status.  One
+    technique maintains a count of the references from user's programs to each
+    cell, since a count of zero implies the storage is unreachable.  Reentrant
+    structures are self-referencing; hence no cell in them will have a count of
+    zero, even though the entire structure is unreachable.  A modification of
+    standard reference counting can be used to manaage the deallocation of a
+    large class of frequently used reentrant structures, including two-way and
+    circularly linked lists.  All the cells of a potentially reentrant
+    structure are considered as part of a single group for deallocation
+    purposes.  Information associated with each cell specifies its group
+    membership.  Internal references (pointers from one cell of the group to
+    another) are not reference counted.  External references to any cell of
+    this group are counted as references to the group as a whole.  When the
+    external reference count goes to zero, all the cells of the group can be
+    deallocated.  This paper describes several ways of specifying group
+    membership, properties of each implementation, and properties of mutable
+    and immutable group membership.", 
+  location     = "http://dx.doi.org/10.1145/357103.357104"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
