@@ -1266,6 +1266,29 @@
   location     = "http://dx.doi.org/10.1145/331960.331980"
 }
 
+@Article{halfpvlsd,
+  author       = "Bonachea, Dan and Fisher, Kathleen and Rogers, Anne and Smith, Frederick",
+  title        = "Hancock: A Language For Processing Very Large-Scale Data",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)",
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "xxx--yyy",
+  month        = jan,
+  keywords     = "domain specific languages, stream processing, high-level
+    languages, data mining",
+  abstract     = "A signature is an evolving customer profile computed from
+    call records.  AT&T uses signatures to detect fraud and to target
+    marketing.  Code to compute signatures can be difficult to write and
+    maintain because of the volume of data.  We have designed and implemented
+    Hancock, a C-based domain-specific programming language for describing
+    signatures.  Hancock provides data abstraction mechanisms to manage the
+    volume of data and control abstractions to facilitate looping over records.
+    This paper describes the design and implementation of Hancock, discusses
+    early experiences with the language, and describes our design process.",  
+  location     = ""
+}
+
 @Article{asoatsm,
   author       = "McKinney, J. M.",
   title        = "A Survey of Analytical Time-Sharing Models",
