@@ -1517,6 +1517,16 @@
   location     = "PS 3566.A686 S57"
 }
 
+@Book{tpwg,
+  author       = "William Gibson",
+  title        = "The Peripheral",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "the future is now",
+  location     = "PS 3557 I2264 P47"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
