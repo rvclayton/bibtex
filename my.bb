@@ -1392,6 +1392,37 @@
   location     = "http://dx.doi.org/10.1145/357103.357104"
 }
 
+@Article{saarinfs,
+  author       = "Jason Gait",
+  title        = "Stability, Availability, and Response in Network File Service",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 2,
+  OPTpages     = "133--140",
+  month        = feb,
+  keywords     = "competition to respond, duplicate message exceptions,
+    throughput, redundancy",
+  abstract     = "A network file system called Multifile is described.  It 
+    meets response, availability, and stability requirements as primitive
+    functions.  Multifile has a high degree of responsiveness because its
+    component parts compete among themselves to service file requests; it has
+    high availability because it maintains multiple copies of files; and it
+    exhibits stable behavior over wise range of system parameters.  The
+    responsiveness of Multifile to read requests improves as the number of
+    pages per request rises, implying that read ahead pages can profitably be
+    cached at client sites.  The throughput of Multifile improves as the
+    request size increases and as the number of clients increases.  As server
+    load increases, the responsiveness of Multifile to read requests is stable
+    in most configurations.  The throughput of writes is unstable as the number
+    of pages in the wire request rises, implying that write back pages should
+    not be cached at client sites.  The scale of events in file service is
+    dominated by disk activity, so lost message exceptions do not occur
+    frequently enough to affect file service; however, duplicate message
+    exceptions are a factor in performance.", 
+  location     = "http://dx.doi.org/10.1109/32.67594"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1548,6 +1579,16 @@
   address      = nyny,
   keywords     = "the future is now",
   location     = "PS 3557 I2264 P47"
+}
+
+@Book{igdeb,
+  author       = "Eric Broug",
+  title        = "Islamic Geometric Design",
+  publisher    = "Thames \& Hudson",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "design, art, geometry",
+  location     = "NK 1270 B7613"
 }
 
 @InBook{lphoor,
