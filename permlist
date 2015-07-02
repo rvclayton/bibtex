@@ -1850,6 +1850,7 @@ making the future safe for the past adding genericity to the java programming la
 maintenance and service guide hp compaq nc4400 notebook pc : hp
 managing code inspection information : barnard
 managing conflict in system diagnosis : sheppard
+managing reentrant structures using reference counts : bobrow
 managing replicated remote procedure call transactions : zhou
 managing stored voice in the etherphone system : terry
 mango a parser generator for self : agesen
@@ -2719,6 +2720,7 @@ spoken dialogue technology enabling the conversational user interface : mctear
 sqlite : sqlite
 squinting at power series : mcilroy
 ssa is functional programming : appel
+stability availability and response in network file service : gait
 stack based typed assembly language : morrisett
 stack inspections theory and variants : fournet
 stacking them up a comparison of virtual machines : gough
