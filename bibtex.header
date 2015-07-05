@@ -61,6 +61,7 @@
 @string{dcse	= "Deptartment of Computer Science and Engineering, "}
 @string{deco	= "Digital Equipment Corp."}
 @string{deecs	= "Deptartment of Electrical Engineering and Computer Science"}
+@string{dsl99	= sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)"}
 @string{dsrc	= "Digital Systems Research Center"}
 @string{ecnj	= "Englewood Cliffs, New Jersey"}
 @string{ecoop   = "European Conference on Object Oriented Programming"}
@@ -186,6 +187,7 @@
 @string{popl    = "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"}
 @string{pot     = "Proceedings of the "}
 @string{ppa	= "Pittsburgh, Pennsylvania"}
+@string{ppopp99	= sigplan # " (" # pot # "Seventh ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP '99)"}
 @string{prnj	= "Princeton, " # NJ}
 @string{proccscw = "Proceedings of the Conference on" # cscw}
 @string{pasca   = " Pasadina, " # CA}
@@ -223,6 +225,7 @@
 @string{sjca    = "San Jose, " # CA}
 @string{slcu    = "Salt Lake City, Utah"}
 @string{sosp	= " ACM Symposium on Operating Systems Principles"}
+@string{sotm	= sigplan # " (" # pot # "ACM SIGPLAN SIGOA Symposium on Text Manipulation)"}
 @string{spe	= "Software---Practice And Experience"}
 @string{srnj    = "Upper Saddle River, " # NJ}
 @string{ss      = "Simon \&\ Schuster"}
