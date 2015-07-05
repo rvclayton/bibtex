@@ -1423,6 +1423,38 @@
   location     = "http://dx.doi.org/10.1109/32.67594"
 }
 
+@Article{mrjpgh,
+  author       = "Peterson, John and Hager, Greg",
+  title        = "Monadic Robotics",
+  journal      = sigplan # " (" # pot # "Second Conference on Domain-Specific Languages, DSL '99)",
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "95--108",
+  month        = jan,
+  keywords     = "robotics, functional reactive programming, monads, functional
+    programming, haskell, software abstraction, frob",
+  abstract     = "We have developed a domain specific language for the 
+    construction of robot controllers, Frob (Functional ROBotics).  The
+    semantic basis for Frob is Functional Reactive Programming, or simply FRP,
+    a purely functional model of continuous time, interactive systems.  FRP is
+    built around two basic abstractions: behaviors, values defined continuously
+    in time, and events, discrete occurances in time.  On this foundation, we
+    have constructed abstractions specific to the domain of robotics.  Frob
+    adds yet another abstraction: the task, a basic unit of work defined by a
+    continuous behavior and a terminating event.This paper examines two
+    interrelated aspects of Frob.  First, we study the design of systems based
+    on FRP and how abstractions defined using FRP can capture essential
+    domain-specific concepts for systems involving interaction over time.
+    Second, we demonstrate an application of monads, used here to implement
+    Frob tasks.  By placing our task abstraction in a monadic framework, we are
+    able to organize task semantics in a modular way, allowing new capabilities
+    to be added without pervasive changes to the system.We present several
+    robot control algorithms specified using Frob.  These programs are clear,
+    succinct, and modular, demonstrating the power of our approach.", 
+  location     = "http://dx.doi.org/10.1145/331963.331976"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
