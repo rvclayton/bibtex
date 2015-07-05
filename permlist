@@ -1936,6 +1936,7 @@ mojo nation how it works : anon
 molecular computing the lock key paradigm : conrad
 mom vs rpc communication models for distributed applications" : menasce
 monadic parser combinators : hutton
+monadic robotics : peterson
 monads for functional programming : wadler
 monads indexes and transformations : bellegarde
 monitoring for deadlock and blocking in ada tasking : german
