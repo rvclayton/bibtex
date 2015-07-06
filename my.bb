@@ -1634,6 +1634,27 @@
   location     = "NK 1270 B7613"
 }
 
+@Book{jmhgu,
+  author       = "Harlow Giles Unger",
+  title        = "John Marshall",
+  publisher    = "Da Capo Press",
+  year         = 2014,
+  address      = boma,
+  keywords     = "john marshall, revolutionary america, federalism, the supreme
+    court",
+  location     = "KF 8745.M3 U54"
+}
+
+@Book{fmtgp,
+  author       = "Alexander~A. Stepanov and Daniel~E. Rose",
+  title        = "From Mathematics to Generic Programming",
+  publisher    = aw,
+  year         = 2015,
+  address      = usrnj,
+  keywords     = "generic programming, abstract algebra, gcd, cryptography",
+  location     = "QA 76.6245 S74"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
