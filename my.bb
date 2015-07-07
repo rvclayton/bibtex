@@ -1455,6 +1455,34 @@
   location     = "http://dx.doi.org/10.1145/331963.331976"
 }
 
+@Article{aepss,
+  author       = "Selby, Richard~W. and Basili, Victor~R.",
+  title        = "Analyzing Error-Prone System Structure",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 2,
+  pages        = "141--152",
+  month        = feb,
+  keywords     = "emperical measurement and evaluation, error analysis,
+    software inspections, software metrics, system decomposition, system
+    strength and coupling",
+  abstract     = "Using measures of data interaction called data bindings, the
+    authors quantify ratios of coupling and strength in software systems and
+    use the ratios to identify error-prone system structures.  A 148000 source
+    line system from a prediction environment was selected for empirical
+    analysis.  Software error data were collected from high-level system design
+    through system testing and from field operation of the system.  The authors
+    use a set of five tools to calculate the data bindings automatically and
+    use a clustering technique to determine a hierarchical description of each
+    of the system's 77 subsystems.  A nonparametric analysis of variance model
+    is used to characterize subsystems and individual routines that had either
+    many or few errors or high or low error correction effort.  The empirical
+    results support the effectiveness of the data bindings clustering approach
+    for localizing error-prone system structure.", 
+  location     = "http://dx.doi.org/10.1109/32.67595"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
