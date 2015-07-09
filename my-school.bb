@@ -10498,13 +10498,25 @@
 }
 		  
 @inproceedings{opwps,
-  author = 	"M. T. Vandevoorde",
+  author = 	"Mark~T. Vandevoorde",
   title = 	"Optimizing Programs With Partial Specifications",
   booktitle = 	"Proceedings of the First International Workshop on Larch",
-  editor =	"U. Martin and " # jmw,
+  editor =	"Ursula Martin and " # jmw,
   location =    "Dedham, " # MA,
   year = 	1992,
   pages = 	"262--281",
+  keywords = 	"larch, optimization, theorem proving, speckle",
+  abstract     = "This paper describes a compilation method that exploits
+    formal specifications to optimize programs.  The method performs
+    optimizations that are impossible using techniques based purely on code
+    analysis because formal specifications contain information that either (1)
+    cannot be deduced from code, or (2) can in theory be deduced from code but
+    is too costly to deduce.  The method supports modular optimization in the
+    presence of partial specifications: most calls to specified procedures may
+    be optimized, even when the calling program calls unspecified or partially
+    specified procedures.  To demonstrate the method, I built a prototype
+    compiler for an imperative programming language called Speckle, which is
+    based on CLU and uses Larch specifications.", 
   month = 	"13--15 " # jul
 }
 
