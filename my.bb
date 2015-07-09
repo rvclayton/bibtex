@@ -1683,6 +1683,16 @@
   location     = "QA 76.6245 S74"
 }
 
+@Book{cttahyop,
+  author       = "Haruki Murakami",
+  title        = "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+  publisher    = "Knopf",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "mystery",
+  location     = "PL 856 U673 S5513"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
