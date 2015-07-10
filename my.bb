@@ -1693,6 +1693,16 @@
   location     = "PL 856 U673 S5513"
 }
 
+@Book{srbp1990,
+  author       = "Robert~B. Parker",
+  title        = "Stardust",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1990,
+  address      = nyny,
+  keywords     = "herassment, murrdaar",
+  location     = "PS 3566.A686 S7"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
