@@ -1483,6 +1483,30 @@
   location     = "http://dx.doi.org/10.1109/32.67595"
 }
 
+@Article{lsfogfsa,
+  author       = "Cohen, Doron~J. and Gotlieb, C. C.",
+  title        = "A List Structure Form of Grammars for Syntatic Analysis",
+  journal      = surveys,
+  year         = 1970,
+  volume       = 2,
+  number       = 1,
+  pages        = "65--82",
+  month        = mar,
+  keywords     = "grammars, parsing, data structures, lists, syntax-directed
+    compilation, graphs, top-down parsing, bottom-up parsing, backtracking,
+    context free grammars, bnf form",
+  abstract     = "The syntax graph is a representation for grammars in list
+    structure form, in which printers link the various components and
+    alternatives of a production.  Rules for constructing the syntax graph are
+    explicitly stated.  When this structure is used the algorithms for
+    syntactic analysis become particularly simple.  Two algorithms for
+    top-to-bottom parsing without backtracking are given, and one algorithm
+    with backtracking, all of which can e used on any context-free grammar.
+    From the syntax graph a reversed graph can be defined, and this naturally
+    leads to a simple algorithm for bottom-to-top parsing.", 
+  location     = "http://dx.doi.org/10.1145/356561.356565"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1701,6 +1725,17 @@
   address      = nyny,
   keywords     = "herassment, murrdaar",
   location     = "PS 3566.A686 S7"
+}
+
+@Book{tgc1,
+  author       = "John Kenneth Galbraith",
+  title        = "The Great Crash 1929",
+  publisher    = "Mariner Books",
+  year         = 1997,
+  address      = boma,
+  keywords     = "the great crash, economics, politics, finance, wall street,
+    human nature",
+  location     = "HB 3717 1929.G32 1997"
 }
 
 @InBook{lphoor,
