@@ -464,6 +464,7 @@ an end to end approach to host mobility : snoeren
 an ethnographic study of copy and paste programming practices in oopl : kim
 an evaluation of self adjusting binary search tree techniques : bell
 an exercise in dependent types a well typed interpreter : augustsson
+an exercise in program explanation : misra
 an experiment in table driven code generation : graham
 an experiment with inline substitution : cooper
 an experimental evaluation of continuous testing during development : saff
@@ -2121,7 +2122,7 @@ optimization of dynamic languages using hierarchical layering of virtual machine
 optimization of object oriented programs using static class hierarchy analysis : dean
 optimizing an ansi c interpreter with superoperators : proebsting
 optimizing ipc performance for shared memory mutliprocessors : gamsa
-optimizing programs with partial specifications : vandervoorde
+optimizing programs with partial specifications : vandevoorde
 optimizing stack fram access for processors with restricted addressing modes : bartley
 optional scope contracts : beck
 organization of object oriented programs using static class hierarchy analysis : dean
