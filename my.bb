@@ -1507,6 +1507,22 @@
   location     = "http://dx.doi.org/10.1145/356561.356565"
 }
 
+@Article{aeipe,
+  author       = "Jaydev Misra",
+  title        = "An Exercise in Program Explanation",
+  journal      = toplas,
+  year         = 1981,
+  volume       = 3,
+  number       = 1,
+  pages        = "104--109",
+  month        = jan,
+  keywords     = "prime sieves, stepwise refinement, formal development",
+  abstract     = "A combination of program-proving and stepwise refinement is
+    used to develop and explain an algorithm which uses a version of the sieve
+    method for computing primes.",
+  location     = "http://dx.doi.org/10.1145/357121.357128"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1736,6 +1752,16 @@
   keywords     = "the great crash, economics, politics, finance, wall street,
     human nature",
   location     = "HB 3717 1929.G32 1997"
+}
+
+@Book{tholk,
+  author       = "George~H. Marcus and William Whitaker",
+  title        = "The Houses of Louis Kahn",
+  publisher    = yup,
+  year         = 2013,
+  address      = nhco,
+  keywords     = "lewis kahn, architecture, houses",
+  location     = "NA 737.K32 M35"
 }
 
 @InBook{lphoor,
