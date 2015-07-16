@@ -1764,6 +1764,16 @@
   location     = "NA 737.K32 M35"
 }
 
+@Book{tlats,
+  author       = "Lan Cao",
+  title        = "The Lotus and the Storm",
+  publisher    = "Viking",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "vietnam, history, duplicity, diaspora",
+  location     = "PS 3553.A5823 L68"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
