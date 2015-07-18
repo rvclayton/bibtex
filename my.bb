@@ -1523,6 +1523,35 @@
   location     = "http://dx.doi.org/10.1145/357121.357128"
 }
 
+@Article{wiafpnafp,
+  author       = "John Longley",
+  title        = "When is a Functional Program Not a Functional Program?",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN " # icfp # ", ICFP '99)",
+  year         = 1999,
+  volume       = 32,
+  number       = 9,
+  pages        = "1--7",
+  month        = sep,
+  keywords     = "sequentially realizable functionals, functional algorithms",
+  abstract     = "In an impure functional language, there are programs whose
+    behaviour is completely functional (in that they behave extensionally on
+    inputs), but the functions they compute cannot be written in the purely
+    functional fragment of the language.  That is, the class of programs with
+    functional behaviour is more expressive than the usual class of pure
+    functional programs.  In this paper we introduce this extended class of
+    functional programs by means of examples in Standard ML, and explore what
+    they might have to offer to programmers and language implementors.After
+    reviewing some theoretical background, we present some examples of
+    functions of the above kind, and discuss how they may be implemented.  We
+    then consider two possible programming applications for these functions:
+    the implementation of a search algorithm, and an algorithm for exact
+    real-number integration.  We discuss the advantages and limitations of this
+    style of programming relative to other approaches.  We also consider the
+    increased scope for compiler optimizations that these functions would
+    offer.", 
+  location     = "http://dx.doi.org/10.1145/317636.317775"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
