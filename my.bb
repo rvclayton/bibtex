@@ -1552,6 +1552,56 @@
   location     = "http://dx.doi.org/10.1145/317636.317775"
 }
 
+@Article{jfde,
+  author       = "Nakatani, Lloyd~H. and Ardis, Mark~A. and Olsen, Robert~G. and Pontrelli, Paul~M.",
+  title        = "Jargons for Domain Engineering",
+  journal      = dsl99,
+  year         = 2000,
+  volume       = 35,
+  number       = 1,
+  pages        = "15--24",
+  month        = jan,
+  keywords     = "domain engineering, domain-specific languages, software
+    engineering",
+  abstract     = "In the Family-oriented Abstraction, Specification and 
+    Translation (FAST) domain engineering process for software production, a
+    member of a software product family is automatically generated from a model
+    expressed in a DSL.  In practice, the time and skill needed to make the
+    DSLs proved to be bottlenecks.  FAST now relies on jargons, a kind of
+    easy-to-make DSL that domain engineers who are not language experts can
+    quickly make themselves.  We report our experiences with jargons in the
+    FAST process, and describe the benefits they provide above and beyond
+    conventional DSLs for software production and other purposes.", 
+  location     = "http://dx.doi.org/10.1145/331960.331966"
+}
+
+@Article{aefdfts,
+  author       = "James~M. Purtilo and Pankaj Jalote",
+  title        = "An Environment for Developing Fault-Tolerant Software",
+  journal      = tse,
+  year         = 1991,
+  volume       = "SE-17",
+  number       = 2,
+  pages        = "153--159",
+  month        = feb,
+  keywords     = "module interconnection language, n-version programming,
+    recovery block, software bus, software fault tolerance",
+  abstract     = "An environment that supports execution of programs using both
+    N-version programming and recovery blocks in a uniform manner is described.
+    For N-version programming, the system offers an easy and flexible way of
+    specifying the target machines for the separate versions.  The basic unit
+    of fault tolerance supported by this system is at the procedure or function
+    level.  Each such program unit can be packaged as its own task, and
+    different fault tolerance techniques can subsequently be employed, even
+    within the same application.  The environment also allows versions to be
+    written in different programming languages and executed on different
+    machines.  This enhances the independence between the different versions,
+    making the fault tolerance techniques more effective.  This environment has
+    been developed for use on Unix-based hosts and currently runs on a network
+    of Sun and DEC workstations", 
+  location     = "http://dx.doi.org/10.1109/32.67596"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
