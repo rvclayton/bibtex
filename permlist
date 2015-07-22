@@ -582,6 +582,7 @@ assessing the relationship between software assertions and code quality an empir
 assessing voice quality in packet based telephony : janssen
 assignment as the sole means of updating objects : buhr
 associations in c++ : ford
+associons a program notation with tuples instead of variables : rem
 ast a generator for abstract syntax trees : grosch
 astlog a language for examining abstract syntax trees : crew
 asts for optimizing compilers : clark
