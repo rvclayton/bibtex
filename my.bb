@@ -1602,6 +1602,30 @@
   location     = "http://dx.doi.org/10.1109/32.67596"
 }
 
+@Article{aapnwtiov,
+  author       = "Martin Rem",
+  title        = "Associons:  {A} Program Notation with Tuples Instead of Variables",
+  journal      = toplas,
+  year         = 1981,
+  volume       = 3,
+  number       = 3,
+  pages        = "251--262",
+  month        = jul,
+  keywords     = "programming languages, data structures, content-retrievable
+    tuples, associons, closure statement, concurrency, associative addressing",
+  abstract     = "A program notation without variables is proposed.  The state
+    of a computation is recorded as a set of associons. Each associon is a
+    tuple of names representing a relation between the entities with those
+    names.  The state of the computation can be changed by the creation of new
+    associons representing new relations deducible from those already recorded.
+    The building block prescribing such deductions is called the closure
+    statement. The notation proposed is the result of our search for a basic
+    statement the execution of which may employ more concurrency than is the
+    case for the traditional assignment statement.  Some possible extensions to
+    the notation are discussed.",
+  location     = "http://dx.doi.org/10.1145/357139.357142"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -1851,6 +1875,17 @@
   address      = nyny,
   keywords     = "vietnam, history, duplicity, diaspora",
   location     = "PS 3553.A5823 L68"
+}
+
+@Book{dagbs,
+  author       = "Bruce Schneier",
+  title        = "Data and Goliath",
+  publisher    = "W. W. Norton",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "data surveillance, nsa, edward snowdon, privacy, security, 
+    internet",
+  location     = "HM 846.S362"
 }
 
 @InBook{lphoor,
