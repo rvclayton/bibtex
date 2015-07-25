@@ -595,6 +595,7 @@ atm concepts architectures and protocols : vetter
 atom a system for building customized program analysis tools : srivastava
 atomic heap transactions and fine grain interrupts : shivers
 attacks on copyright marking systems : petitcolas
+attribute based compiler implemented using visitor pattern : neff
 attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
