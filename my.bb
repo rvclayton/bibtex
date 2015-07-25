@@ -1888,6 +1888,16 @@
   location     = "HM 846.S362"
 }
 
+@Book{smrbp,
+  author       = "Robert~B. Parker",
+  title        = "Sudden Mischief",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1998,
+  address      = nyny,
+  keywords     = "bad decisions, murrdaar",
+  location     = "PS 3566.A686 S83"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
