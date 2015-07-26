@@ -1898,6 +1898,16 @@
   location     = "PS 3566.A686 S83"
 }
 
+@Book{naja,
+  author       = "Jane Austen",
+  title        = "Northanger Abbey",
+  publisher    = "Anchor Books",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "innocence, impressionable youth, metafiction",
+  location     = "PR 4034 N7"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
