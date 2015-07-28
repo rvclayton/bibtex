@@ -1626,6 +1626,35 @@
   location     = "http://dx.doi.org/10.1145/357139.357142"
 }
 
+@Article{vmpjd,
+  author       = "Denning, Peter~J.",
+  title        = "Virtual Memory",
+  journal      = surveys,
+  year         = 1970,
+  volume       = 28,
+  number       = 1,
+  pages        = "153--189",
+  month        = sep,
+  keywords     = "virtual memory, one-level store, memory allocation, storage
+    allocation, dynamic storage allocation, segmentation, paging, replacement
+    algoritms, storage fragmentation, thrashing, working set",
+  abstract     = "The need for automatic storage allocation arises from the 
+    desire for program modularity, machine independence, and resource sharing.
+    Virtual memory is an elegant way of achieving these objectives.  In a
+    virtual memory, the addresses a program may use to identify information are
+    distinguished from the addresses the memory system uses to identify
+    physical storage sites, and program-generated addresses are translated
+    automatically to the corresponding machine addresses.  Two principal
+    methods for implementing virtual memory, segmentation and paging, are
+    compared and contrasted.  Many contemporary implementations have
+    experienced one or more of these problems: poor utilization of storage,
+    thrashing, and high costs associated with loading information into memory.
+    These and subsidiary problems are studied from a theoretic view, and are
+    shown to be controllable by a proper combination of hardware and memory
+    management policies.", 
+  location     = "http://dx.doi.org/10.1145/356571.356573"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
