@@ -1937,6 +1937,16 @@
   location     = "PR 4034 N7"
 }
 
+@Book{tarbp,
+  author       = "Robert~B. Parker",
+  title        = "Thin Air",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 1995,
+  address      = nyny,
+  keywords     = "delusion",
+  location     = "PS 3566.A686 T47"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
