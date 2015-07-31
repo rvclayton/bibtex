@@ -2063,6 +2063,29 @@
   location     = "http://dx.doi.org/10.1145/99332.99338"
 }
 
+@InProceedings{jadfml,
+  author       = "Grande, Johan and Boudol, G{\' e}rard and Serrano, Manuel",
+  title        = "Jthread, a deadlock-free mutex library",
+  booktitle    = pot # "17th International Symposium on and Practice of Declarative Programming",
+  year         = 2015,
+  pages        = "149--160",
+  address      = "Siena, Italy",
+  month        = "14--16 " # jul,
+  keywords     = "mutual exclusion, deadlock prevention, deadlock avoidance,
+    concurrency control, concurrent programming",
+  abstract     = "We design a mutex library for Hop -- a dialect of Scheme
+    which supports preemptive multithreading and shared memory -- that mixes
+    deadlock prevention and deadlock avoidance to provide an easy to use,
+    expressive, and safe locking function.  This requires an operation to
+    acquire several mutexes simultaneously, for which we provide a
+    starvation-free algorithm.  Choosing a formal definition of
+    starvation-freedom leads us to identify the concept of asymptotic deadlock.
+    Preliminary observations seem to show that our library has negligible
+    impact on the performance of real-life applications.  Our work could be
+    applied to other languages such as Java.", 
+  location     = "http://dx.doi.org/10.1145/2790449.2790523"
+}
+
 @Misc{tpbadtkla,
   author       = "Peter {Van Roy} and Seif Haridi",
   title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
@@ -2072,4 +2095,3 @@
   month        = "17 " # jul,
   keywords     = "programming, teaching"
 }
-
