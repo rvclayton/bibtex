@@ -1657,7 +1657,7 @@
 
 @Article{tyohslasepi,
   author       = "Krzysztof~R. Apt",
-  title        = "Ten Years of Hoare's Logic: {A} Survey---Part {I}",
+  title        = "Ten Years of {H}oare's Logic: {A} Survey---Part {I}",
   journal      = toplas,
   year         = 1981,
   volume       = 3,
@@ -1665,10 +1665,10 @@
   pages        = "431--483",
   month        = oct,
   keywords     = "Hoare's logic, partial correctness, total correctness, 
-    soundness, completeness in the sense of Cook, expressiveness, arithmetical
-    interpretation, while programs, recursive procedures, variable
-    declarations, subscripted variables, call-by-name, call-by-value,
-    call-by-variable, static scope, dynamic scope, procedures as parameters", 
+    soundness, Cook completeness, expressiveness, arithmetical interpretation,
+    while programs, recursive procedures, variable declarations, subscripted
+    variables, call-by-name, call-by-value, call-by-variable, static scope,
+    dynamic scope, procedures as parameters", 
   abstract     = "A survey of various results concerning Hoare's approach to 
     proving partial and total correctness of programs is presented.  Emphasis
     is placed on the soundness and completeness issues.  Various proof systems
@@ -1968,6 +1968,16 @@
   address      = nyny,
   keywords     = "delusion",
   location     = "PS 3566.A686 T47"
+}
+
+@Book{pdra,
+  author       = "Renata Adler",
+  title        = "Pitch Dark",
+  publisher    = "NYRB",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "women in travel",
+  location     = "PS 3551 D63 P5"
 }
 
 @InBook{lphoor,
