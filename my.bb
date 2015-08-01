@@ -1655,6 +1655,29 @@
   location     = "http://dx.doi.org/10.1145/356571.356573"
 }
 
+@Article{tyohslasepi,
+  author       = "Krzysztof~R. Apt",
+  title        = "Ten Years of Hoare's Logic: {A} Survey---Part {I}",
+  journal      = toplas,
+  year         = 1981,
+  volume       = 3,
+  number       = 4,
+  pages        = "431--483",
+  month        = oct,
+  keywords     = "Hoare's logic, partial correctness, total correctness, 
+    soundness, completeness in the sense of Cook, expressiveness, arithmetical
+    interpretation, while programs, recursive procedures, variable
+    declarations, subscripted variables, call-by-name, call-by-value,
+    call-by-variable, static scope, dynamic scope, procedures as parameters", 
+  abstract     = "A survey of various results concerning Hoare's approach to 
+    proving partial and total correctness of programs is presented.  Emphasis
+    is placed on the soundness and completeness issues.  Various proof systems
+    for while programs, recursive procedures, local variable declarations, and
+    procedures with parameters, together with the corresponding soundness,
+    completeness, and incompleteness results, are discussed.", 
+  location     = "http://dx.doi.org/10.1145/357146.357150"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
