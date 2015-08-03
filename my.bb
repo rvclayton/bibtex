@@ -1980,6 +1980,16 @@
   location     = "PS 3551 D63 P5"
 }
 
+@Book{fgnh,
+  author       = "Nick Hornby",
+  title        = "Funny Girl",
+  publisher    = "Riverhead Books",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "comedy, careerism, television entertainments",
+  location     = "PR 6058 O689 F86"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
