@@ -1678,6 +1678,32 @@
   location     = "http://dx.doi.org/10.1145/357146.357150"
 }
 
+@Article{autss,
+  author       = "Foster, Caxton~C.",
+  title        = "An Unclever Time-Sharing System",
+  journal      = surveys,
+  year         = 1971,
+  volume       = 3,
+  number       = 1,
+  pages        = "23--48",
+  month        = mar,
+  keywords     = "time sharing, operating system, tutorial, command
+    language, scheduling",
+  abstract     = "This paper describes the internal structure of a time-sharing
+    system in some detail.  This system is dedicated to providing remote
+    access, and has a simple file structure.  It is intended for use in a
+    university type environment where there are many short jobs that will
+    profit from one- or two-second turnaround.  Despite its simplicity, this
+    system can serve as a useful introduction to the problems encountered by
+    the designers of any time-sharing system.  Included are a discussion of the
+    command language, the hardware organization toward which the design is
+    oriented, the general internal organization, the command sequences, the CPU
+    scheduler, handling of interrupts, the assignment of core space, execution
+    and control of the user's program, backup storage management, and the
+    handling of errors.", 
+  location     = "http://dx.doi.org/10.1145/356583.356585"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
