@@ -2016,6 +2016,17 @@
   location     = "PR 6058 O689 F86"
 }
 
+@Book{nadbe,
+  author       = "Barbara Ehrenreich",
+  title        = "Nickel and Dimed",
+  publisher    = "Metropolitian Books",
+  year         = 2001,
+  address      = nyny,
+  keywords     = "minimum wage, unskilled labor, poverty, class warefare,
+    waitressing, maid service, retail clerks",
+  location     = "HD 4918 E375"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
