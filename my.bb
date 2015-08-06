@@ -1704,6 +1704,31 @@
   location     = "http://dx.doi.org/10.1145/356583.356585"
 }
 
+@Article{sapcfsulm,
+  author       = "Nishida, Fujio and Takamatsu, Shinobu and Fujita, Yoneharu and Tani, Tadaski",
+  title        = "Semi-Automatic Program Construction From Specifications Using Library Modules",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "853--871",
+  month        = sep,
+  keywords     = "automatic programming, formal specifications, software tools,
+    subroutines, maps, library modules, program generation, refinement system",
+  abstract     = "A method of semiautomatic specification refinement and 
+    program generation using library modules, is described.  Users write their
+    specifications and modify and rearrange them so that they can be refined
+    with the aid of the library modules.  When a specification is given, a
+    refinement system, called MAPS (module-aided program construction system)
+    searches for library modules applicable to the given specification,
+    replaces the specification with a more detailed description written in the
+    operation part of the modules, and converts the refined specification into
+    a program written in a programming language designated by the user.
+    Case-like expressions or pseudo-natural language expressions are used for
+    describing user's specifications and specifications for library modules", 
+  location     = "http://dx.doi.org/10.1109/32.92909"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
