@@ -2052,6 +2052,16 @@
   location     = "HD 4918 E375"
 }
 
+@Book{wswrbp,
+  author       = "Robert~B. Parker",
+  title        = "Widow's Walk",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "murrdaar, hidden shame",
+  location     = "PS 3566 A686 W53"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
