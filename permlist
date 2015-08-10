@@ -2817,6 +2817,7 @@ sxslt manipulation language for xml : kiselyov
 symbolic model checking using sat proceudres instead of bdds : biere
 synchronization algorithms for shared memory multiprocessors : graunke
 synchronization coherence and event ordering in multiprocessors : dubois
+synchronization in distributed programs : schneider
 synchronous automata for reactive real time or embedded systems : maffeis
 synchronous c++ a language for interactive applications : petitpierre
 synchronous extensions to operation centric hardware description languages : nordin
