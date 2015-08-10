@@ -1729,6 +1729,29 @@
   location     = "http://dx.doi.org/10.1109/32.92909"
 }
 
+@Article{sidp,
+  author       = "Schneider, Fred~B.",
+  title        = "Synchronization in Distributed Programs",
+  journal      = toplas,
+  year         = 1982,
+  volume       = 4,
+  number       = 2,
+  pages        = "125--148",
+  month        = apr,
+  keywords     = "logical clocks, synchronization, distributed semaphores,
+    guarded commands, monotonic predicates, phase transitions",
+  abstract     = "A technique for solving synchronization problems in 
+    distributed programs is described.  Use of this technique in environments
+    in which processes may fail is discussed.  The technique can be used to
+    solve synchronization problems directly, to implement new synchronization
+    mechanisms (which are presumably well suited for use in distributed
+    programs), and to construct distributed versions of existing
+    synchronization mechanisms.  Use of the technique is illustrated with
+    implementations of distributed semaphores and a conditional message-passing
+    facility.", 
+  location     = "http://dx.doi.org/10.1145/357162.357163"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
