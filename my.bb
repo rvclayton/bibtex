@@ -1752,6 +1752,27 @@
   location     = "http://dx.doi.org/10.1145/357162.357163"
 }
 
+@Article{oeamdlwh,
+  author       = "Launchbury, John and Lewis, Jeffrey~R. and Cook, Byron",
+  title        = "On Embedding a Microarchitectural Design Langauge Within {H}askell",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN " # icfp # ", ICFP '99)",
+  year         = 1999,
+  volume       = 32,
+  number       = 9,
+  pages        = "60--69",
+  month        = sep,
+  keywords     = "embedded languages, hardware description language, lazy
+    evaluation, state monads, reactive systems, symbolic simulation",
+  abstract     = "Based on our experience with modelling and verifying
+    microarchitectural designs within Haskell, this paper examines our use of
+    Haskell as host for an embedded language.  In particular, we highlight our
+    use of Haskell's lazy lists, type classes, lazy state monad, and unsafe
+    Perform I0, and point to several areas where Haskell could be improved in
+    the future.  We end with an example of a benefit gained by bringing the
+    functional perspective to microarchitectural modelling.", 
+  location     = "http://dx.doi.org/10.1145/317636.317784"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2083,6 +2104,16 @@
   address      = nyny,
   keywords     = "murrdaar, hidden shame",
   location     = "PS 3566 A686 W53"
+}
+
+@Book{mwg,
+  author       = "Walter Sinnott-Armstrong",
+  title        = "Morality Without God",
+  publisher    = oup,
+  year         = 2009,
+  address      = oxuk,
+  keywords     = "theology, morality, religion, ethics, atheism",
+  location     = "BJ 47.S49"
 }
 
 @InBook{lphoor,
