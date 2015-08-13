@@ -2068,6 +2068,7 @@ on a general property of memory mapping tables : reed
 on computable numbers with an application to the entscheidungsproblem : turing
 on criteria for module interfaces : hoffman
 on distributed fault simulation : brooks
+on embedding a microarchitectural design langauge within haskell : launchbury
 on group comunication in large scale distributed systems : babaoglu
 on holy wars and a plea for peace : cohen
 on line monitoring a tutorial : schroeder
