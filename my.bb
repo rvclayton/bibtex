@@ -2116,6 +2116,16 @@
   location     = "BJ 47.S49"
 }
 
+@Book{tprbp,
+  author       = "Robert~B. Parker",
+  title        = "The Professional",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "sexual pathology, murrdaar",
+  location     = "PS 3566 A686 P75"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
