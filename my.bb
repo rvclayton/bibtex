@@ -1773,6 +1773,25 @@
   location     = "http://dx.doi.org/10.1145/317636.317784"
 }
 
+@Article{sdegc,
+  author       = "Coffman, E. G. and Elphick, M. and Shoshani, A.",
+  title        = "System Deadlocks",
+  journal      = surveys,
+  year         = 1971,
+  volume       = 3,
+  number       = 2,
+  pages        = "67--78",
+  month        = jun,
+  keywords     = "deadlock, deadly embrace, system deadlocks, multiprogramming,
+  interlock problems, prevention, avoidance",
+  abstract     = "A problem of increasing importance in the design of large
+    multiprogramming systems is the, so-called, deadlock or deadly-embrace
+    problem.  In this article we survey the work that has been done on the
+    treatment of deadlocks from both the theoretical and practical points of
+    view.", 
+  location     = "http://dx.doi.org/10.1145/356586.356588"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
