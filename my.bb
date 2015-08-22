@@ -1792,6 +1792,34 @@
   location     = "http://dx.doi.org/10.1145/356586.356588"
 }
 
+@Article{tmlasotiipl,
+  author       = "Ledgard, Henry~F.",
+  title        = "Ten Mini-Languages: {A} Study of Topical Issues in Programming Languages",
+  journal      = surveys,
+  year         = 1971,
+  volume       = 3,
+  number       = 3,
+  pages        = "115--146",
+  month        = sep,
+  keywords     = "computer science curriculum, language design, compiler
+    design, formal definition, syntax, semantics, assignment, transfer of
+    control, functions, parameter passing, type checking, string manipulation,
+    data structure, input/output",
+  abstract     = "The proliferation of programming languages has raised many 
+    issues of language design, definition, and implementation.  This paper
+    presents a series of ten mini-languages, each of which exposes salient
+    features found in existing programming languages.  The value of the
+    mini-languages lies in their brevity of description and the isolation of
+    important linguistic features: in particular, the notions of assignment,
+    transfer of control, functions, parameter passing, type checking, data
+    structures, string manipulation, and input/output.  The mini-languages may
+    serve a variety of uses: notably, as a pedagogical tool for teaching
+    programming languages, as a subject of study for the design of programming
+    languages, and as a set of test cases for methods of language
+    implementation or formal definition.", 
+  location     = "http://dx.doi.org/10.1145/356589.356592"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2143,6 +2171,16 @@
   address      = nyny,
   keywords     = "sexual pathology, murrdaar",
   location     = "PS 3566 A686 P75"
+}
+
+@Book{dpcb11,
+  title        = "Dorothy Parker: Complete Broadway, 1918--1923",
+  publisher    = "iUniverse",
+  year         = 2014,
+  editor       = "Kevin~C. Fitzpatrick",
+  address      = "Bloomington, Indiana",
+  keywords     = "broadway, reviews, theater",
+  location     = "978 1 4917 2267 1"
 }
 
 @InBook{lphoor,
