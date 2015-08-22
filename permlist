@@ -2833,6 +2833,7 @@ synthesis of communication protocols survey and assessment : probert
 synthesis of operation centric hardware descriptions : hoe
 synthesis of synchronous assertions with guarded atomic actions : pellauer
 synthetic perturbation techniques for screening shared-memory programs : snelick
+system deadlocks : coffman
 system modelling with high level petri nets : genrich
 system support for efficient dynamically configurable multi party interactive multimedia applications : moran
 systematic program development : dromey
@@ -2866,6 +2867,7 @@ telecommunications regulation the continuing dilemma : trebing
 temporal logic case study : wood
 ten commandments of formal methods : bowen
 ten myths of multimodal interaction : oviatt
+ten mini languages a study of topical issues in programming languages : ledgard
 tenex a paged time sharing system for the pdp 10 : bobrow
 terminal emulation for automation and testing character graphic programs a code walkthough : libes
 ternary search trees : bentley
