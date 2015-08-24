@@ -2342,6 +2342,31 @@
   location     = "http://dx.doi.org/10.1145/2790449.2790523"
 }
 
+@InProceedings{oaurocaltat,
+  author       = "Tarau, Paul",
+  title        = "On a Uniform Representation of Combinators, Arithmetic, Lambda Terms and Types",
+  booktitle    = pot # "17th International Symposium on Principles and Practice of Declarative Programming (PPDP '15)",
+  year         = 2015,
+  pages        = "244--255",
+  address      = "Siena, Italy",
+  month        = "14--16 " # jul,
+  keywords     = "algorithms, languages, theory, rosser's x-combinator,
+    tree-based numbering systems, lambda calculus, normalization of de bruin
+    terms, type inference, bijective godel numberings, logic programming as
+    metalanguage",
+  abstract     = "A uniform representation, as binary trees with empty leaves,
+    is given to expressions built with Rosser's X-combinator, natural numbers,
+    lambda terms and simple types.  Type inference, normalization of combinator
+    expressions and lambda terms in de Bruijn notation, ranking/unranking
+    algorithms and tree-based natural numbers are described as a literate
+    Prolog program.  With sound unification and compact expression of
+    combinatorial generation algorithms, logic programming is shown to
+    conveniently host a declarative playground where interesting properties and
+    behaviors emerge from the interaction of heterogenous but deeply connected
+    computational objects.", 
+  location     = "http://dx.doi.org/10.1145/2790449.2790526"
+}
+
 @Misc{tpbadtkla,
   author       = "Peter {Van Roy} and Seif Haridi",
   title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
