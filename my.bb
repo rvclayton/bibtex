@@ -1820,6 +1820,26 @@
   location     = "http://dx.doi.org/10.1145/356589.356592"
 }
 
+@Article{swam,
+  author       = "Martin, William~A.",
+  title        = "Sorting",
+  journal      = surveys,
+  year         = 1971,
+  volume       = 3,
+  number       = 4,
+  pages        = "147--174",
+  month        = dec,
+  keywords     = "sorting, algorithm design, algorithm analysis",
+  abstract     = "The bibliography appearing at the end of this article lists
+    37 sorting algorithms and 100 books and papers on sorting published in the
+    last 20 years.  The basic ideas presented here have been abstracted from
+    this body of work, and the best algorithms known are given as examples.  As
+    the algorithms are explained, references to related algorithms and
+    mathematical or experimental analyses are given.  Suggestions are then made
+    for choosing the algorithm best suited to a given situation.", 
+  location     = "http://dx.doi.org/10.1145/356593.356594"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
