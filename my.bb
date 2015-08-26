@@ -1770,7 +1770,7 @@
     Perform I0, and point to several areas where Haskell could be improved in
     the future.  We end with an example of a benefit gained by bringing the
     functional perspective to microarchitectural modelling.", 
-  location     = "http://dx.doi.org/10.1145/317636.317784"
+  location     = "http://dx.doi.org/10.1145/317636.317784g"
 }
 
 @Article{sdegc,
@@ -1838,6 +1838,29 @@
     mathematical or experimental analyses are given.  Suggestions are then made
     for choosing the algorithm best suited to a given situation.", 
   location     = "http://dx.doi.org/10.1145/356593.356594"
+}
+
+@Article{haxgcotbt,
+  author       = "Malcolm Wallace and Colin Runciman",
+  title        = "Haskell and {XML}:  Generic Combinators or Type-Based Translation?",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN " # icfp # ", ICFP '99)",
+  year         = 1999,
+  volume       = 32,
+  number       = 9,
+  pages        = "435--468",
+  month        = sep,
+  keywords     = "document markup langauges, xml, haskell, combinators,
+    algebraic properties, dtds, functional programming",
+  abstract     = "We present two complementary approaches to writing XML
+    document-processing applications in a functional language.  In the first
+    approach, the generic tree structure of XML documents is used as the basis
+    for the design of a library of combinators for generic processing:
+    selection, generation, and transformation of XML trees.  The second
+    approach is to use a type-translation framework for treating XML document
+    type definitions (DTDs) as declarations of algebraic data types, and a
+    derivation of the corresponding functions for reading and writing documents
+    as typed values in Haskell.", 
+  location     = "http://dx.doi.org/10.1145/317765.317794"
 }
 
 @Book{natrbp,
