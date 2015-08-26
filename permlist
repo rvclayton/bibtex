@@ -1463,6 +1463,7 @@ hash tables for the standard library : austern
 hashed and hierarchical timing wheels data structures for the efficient implementation of a timer facility : varghese
 hashing for dynamic and static internal tables : lewis
 hashing revisited : hamer
+haskell and xml generic combinators or type based translation : wallace
 haskell typeclass replacement : kiselyov
 haskell vs ada vs c++ vs awk vs an experiment in software prototyping productivity : hudak
 haystack a platform for authoring end user semantic web applications : quan
