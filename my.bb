@@ -1863,6 +1863,31 @@
   location     = "http://dx.doi.org/10.1145/317765.317794"
 }
 
+@Article{apmgg,
+  author       = "Gouda, Mohamed~G. and Herman, Ted",
+  title        = "Adaptive Programming",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "911--921",
+  month        = sep,
+  keywords     = "distributed computing, adaptive systems, programming
+    methodology, program composition, self-stabilization",
+  abstract     = "An adaptive program is one that changes its behavior base on
+    the current state of its environment.  This notion of adaptivity is
+    formalized, and a logic for reasoning about adaptive programs is presented.
+    The logic includes several composition operators that can be used to define
+    an adaptive program in terms of given constituent programs; programs
+    resulting from these compositions retain the adaptive properties of their
+    constituent programs.  The authors begin by discussing adaptive sequential
+    programs, then extend the discussion to adaptive distributed programs.  The
+    relationship between adaptivity and self-stabilization is discussed.  A
+    case study for constructing an adaptive distributed program where a token
+    is circulated in a ring of processes is presented.", 
+  location     = "http://dx.doi.org/10.1109/32.92911"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2224,6 +2249,16 @@
   address      = "Bloomington, Indiana",
   keywords     = "broadway, reviews, theater",
   location     = "978 1 4917 2267 1"
+}
+
+@Book{acifd,
+  title        = "Android Cookbook",
+  publisher    = "O'Reilly",
+  year         = 2012,
+  editor       = "Ian~F. Darwin",
+  address      = seca,
+  keywords     = "android, mobile programming, java",
+  location     = "QA 76.76.A65"
 }
 
 @InBook{lphoor,
