@@ -2273,6 +2273,26 @@
   location     = "QA 76.76.A65"
 }
 
+@Book{aidwsmm,
+  author       = "Walter Mosley",
+  title        = "All I Did Was Shoot My Man",
+  publisher    = "Riverhead Books",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "treachery, murrdaar",
+  location     = ""
+}
+
+@Book{sws,
+  author       = "Will Self",
+  title        = "Shark",
+  publisher    = "Grove Press",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "stream of consciousness",
+  location     = ""
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
