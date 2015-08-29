@@ -1888,6 +1888,18 @@
   location     = "http://dx.doi.org/10.1109/32.92911"
 }
 
+@Article{aaalfst,
+  author       = "Cohen, Kenneth. and Wegstein, J.~H.",
+  title        = "{AXLE}: An Axiomatic Language for String Transformations",
+  journal      = cacm,
+  year         = 1965,
+  volume       = 8,
+  number       = 11,
+  pages        = "657--661",
+  month        = nov,
+  keywords     = "string processing, rewriting systems"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
