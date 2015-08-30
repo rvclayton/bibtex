@@ -2293,6 +2293,16 @@
   location     = ""
 }
 
+@Book{amb,
+  author       = "Mark Blyth",
+  title        = "Austerity",
+  publisher    = oup,
+  year         = 2013,
+  address      = nyny,
+  keywords     = "austerity, economic policy, economic history, fiscal policy",
+  location     = "HJ 8015 B59"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
