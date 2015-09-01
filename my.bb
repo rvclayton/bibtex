@@ -1924,6 +1924,44 @@
   location     = "http://dx.doi.org/10.1109/32.92913"
 }
 
+@Article{scvp,
+  author       = "Aggarwal, Aneesh",
+  title        = "Software Caching Vs. Prefetching",
+  journal      = sigplan # " (" # pot # " Third International Symposium on Memory Management, ISMM '02)",
+  year         = 2002,
+  volume       = 38,
+  number       = 2,
+  pages        = "157--162",
+  month        = jan,
+  abstract     = "The performance gap between memory subsystem and 
+    high-performance processors is ever-increasing.  Prefetching is one method
+    to bridge this performance gap.  Prefetching has been proposed for
+    array-based and pointer applications, typically using software-based
+    techniques with the help of the compiler.  Prefetching suffers from certain
+    disadvantages such as an increase in memory traffic, an increase in the
+    number of executed instructions, and an increase in memory requirement for
+    some cases.In this paper, we investigate the technique of software caching
+    for applications that perform searches or sorted insertions.  For data
+    structures larger than the processor data cache, such a search or sorted
+    insert may result in multiple cache misses before the correct value is
+    found.  In a software caching approach, a small software buffer is
+    maintained that records the most recently added values (these values are
+    the ones that are later searched) along with their addresses and is
+    consulted during a search or an insert.  In this paper, we present results
+    of our initial experiments.  We found that for applications involving a
+    search, software caching performs as high as 30% better than the original
+    application.  Also, this technique executes upto 14% less instructions and
+    the number of cache accesses decrease by around upto 18%.  We also compared
+    this technique against software prefetching and found that in some cases,
+    the performance improvement was as high as 40%.  This technique also has an
+    added advantage of using less memory space than prefetching (all the
+    improvements were obtained for very small software caches).  These initial
+    results encourage a more in-depth study of this technique.", 
+  keywords     = "optimization, memory management, caching, prefetching, data
+    structures",
+  location     = "http://dx.doi.org/10.1145/512429.512450"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
