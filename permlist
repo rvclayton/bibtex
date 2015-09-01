@@ -2658,6 +2658,7 @@ software abstractions : jackson
 software architecture patterns : garlan
 software assurance by bounded exhaustive testing : yang
 software based replication for fault tolerance : guerraoui
+software caching vs prefetching : aggarwal
 software communication mechanisms procedure calls versus messages : stankovic
 software complexity and maintenance costs : banker
 software considerations in mass storage systems : o'lear
