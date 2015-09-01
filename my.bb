@@ -1900,6 +1900,30 @@
   keywords     = "string processing, rewriting systems"
 }
 
+@Article{amtip,
+  author       = "Hoffman, Daniel~M. and Strooper, Paul",
+  title        = "Automated Module Testing in {P}rolog",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "934--943",
+  month        = sep,
+  keywords     = "testing, automation, prolog, modules, definitions, oracles",
+  abstract     = "Tools and techniques for writing scripts in Prolog that
+    automatically test modules implemented in C are presented.  Both the input
+    generation and the test oracle problems are addressed, focusing on a
+    balance between the adequacy of the test inputs and the cost of developing
+    the output oracle.  The authors investigate automated input generation
+    according to functional testing, random testing, and a novel approach based
+    on trace invariants.  For each input generation scheme, a mechanism for
+    generating the expected outputs has been developed.  The methods are
+    described and illustrated in detail.  Script development and maintenance
+    costs appear to be reasonable, and run-time performance appears to be
+    acceptable.", 
+  location     = "http://dx.doi.org/10.1109/32.92913"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
