@@ -1962,6 +1962,31 @@
   location     = "http://dx.doi.org/10.1145/512429.512450"
 }
 
+@Article{ewtsc,
+  author       = "Freudenberger, Stefan~M. and Schwartz, Jacob~T. and Sharir, Micha",
+  title        = "Experience with the {SETL} Optimizer",
+  journal      = toplas,
+  year         = 1983,
+  volume       = 5,
+  number       = 1,
+  pages        = "26--45",
+  month        = jan,
+  keywords     = "very high-level languages, setl, language processors, 
+    optimization, automatic programming, algorithms analysis; program
+    modification, program transformation, languages, automatic data-structure
+    selection, copy optimization", 
+  abstract     = "The structure of an existing optimizer for the very
+    high-level, set theoretically oriented programming language SETL is
+    described, and its capabilities are illustrated.  The use of novel
+    techniques (supported by state-of-the-art interprocedural program analysis
+    methods) enables the optimizer to accomplish various sophisticated
+    optimizations, the most significant of which are the automatic selection of
+    data representations and the systematic elimination of superfluous copying
+    operations.  These techniques allow quite sophisticated data-structure
+    choices to be made automatically.", 
+  location     = "http://dx.doi.org/10.1145/357195.357197"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2342,7 +2367,7 @@
   year         = 2012,
   address      = nyny,
   keywords     = "treachery, murrdaar",
-  location     = ""
+  location     = "PS 3563.O88456 A77 2012"
 }
 
 @Book{sws,
@@ -2352,7 +2377,7 @@
   year         = 2014,
   address      = nyny,
   keywords     = "stream of consciousness",
-  location     = ""
+  location     = "PR 6069.E3654 S53 2014"
 }
 
 @Book{amb,
@@ -2363,6 +2388,26 @@
   address      = nyny,
   keywords     = "austerity, economic policy, economic history, fiscal policy",
   location     = "HJ 8015 B59"
+}
+
+@Book{bmag,
+  author       = "Atul Gawande",
+  title        = "Being Mortal",
+  publisher    = "Metropolitan Books",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "death, end of life, hospices, mortatlity, geriatrics",
+  location     = "R 726.8"
+}
+
+@Book{bfwm,
+  author       = "Walter Mosley",
+  title        = "Blonde Faith",
+  publisher    = "Little, Brown",
+  year         = 2007,
+  address      = nyny,
+  keywords     = "murrdaar, bygons being bygons",
+  location     = "PS 3563.O88456 B59"
 }
 
 @InBook{lphoor,
