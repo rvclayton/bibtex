@@ -2420,6 +2420,17 @@
   location     = "E 607.M32"
 }
 
+@Book{dtldttdte,
+  author       = "Valerie Curtis",
+  title        = "Don't Look, Don't Touch, Don't Eat",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "aversion, hygiene, evolution, manners, social organization,
+    disease",
+  location     = "BF 575.A886 C87"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
