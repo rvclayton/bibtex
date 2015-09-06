@@ -1773,6 +1773,33 @@
   location     = "http://dx.doi.org/10.1145/317636.317784g"
 }
 
+@Article{iwwtbswj,
+  author       = "Benton, Nick and Kennedy, Andrew",
+  title        = "Interlanguage Working Without Tears: Blending {SML} with {J}ava",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN " # icfp # ", ICFP '99)",
+  year         = 1999,
+  volume       = 32,
+  number       = 9,
+  pages        = "126--137",
+  month        = sep,
+  keywords     = "foreign function interfaces, java, sml, null values,  ",
+  abstract     = "A good foreign-language interface is crucial for the success
+    of any modern programming language implementation.  Although all serious
+    compilers for functional languages have some facility for interlanguage
+    working, these are often limited and awkward to use.This article describes
+    the features for bidirectional interlanguage working with Java that are
+    built into the latest version of the MLj compiler.  Because the MLj foreign
+    interface is to another high-level typed language which shares a garbage
+    collector with compiled ML code, and because we are willing to extend the
+    ML language, we are able to provide unusually powerful, safe and easy to
+    use interlanguage working features.  Indeed, rather then being a
+    traditional foreign interface, our language extensions are more a partial
+    integration of Java features into SML.We describe this integration of
+    Standard ML and Java, first informally with example program fragments, and
+    then formally in the notation used by The Definition of Standard ML.",  
+  location     = "http://dx.doi.org/10.1145/317636.317791"
+}
+
 @Article{sdegc,
   author       = "Coffman, E. G. and Elphick, M. and Shoshani, A.",
   title        = "System Deadlocks",
