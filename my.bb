@@ -2410,6 +2410,16 @@
   location     = "PS 3563.O88456 B59"
 }
 
+@Book{wtcwwo,
+  author       = "Chandra Manning",
+  title        = "What This Cruel War Was Over",
+  publisher    = "Vintage Books",
+  year         = 2007,
+  address      = nyny,
+  keywords     = "civil war, slavery",
+  location     = "E 607.M32"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
