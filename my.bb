@@ -2014,6 +2014,31 @@
   location     = "http://dx.doi.org/10.1145/357195.357197"
 }
 
+@Article{mcnbmd,
+  author       = "Wolfson, Ouri and Sengupta, Soumitra and Yemini, Yechiam",
+  title        = "Managing Communication Networks by Monitoring Databases",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "944--953",
+  month        = sep,
+  keywords     = "network management, database systems, language features,
+    events, real-time databases",
+  abstract     = "The problem of managing large communication networks using
+    statistical tests, alerts, and correlation among alerts is considered.  The
+    authors propose a model of these network management functions as
+    data-manipulation operations.  They argue that this approach can improve
+    the flexibility of network management systems by providing a language that
+    is declarative and set-oriented.  These are properties of existing
+    data-manipulation languages and it is shown that any data-manipulation
+    language, augmented with several new capabilities, can serve as a language
+    for specifying the aforementioned network management functions.  The new
+    capabilities required are specification of events, correlation among
+    events, and change-tracking.", 
+  location     = "http://dl.acm.org/citation.cfm?id=126277"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2456,6 +2481,16 @@
   keywords     = "aversion, hygiene, evolution, manners, social organization,
     disease",
   location     = "BF 575.A886 C87"
+}
+
+@Book{msmesa,
+  author       = "Edward {St. Aubyn}",
+  title        = "Mother's Milk",
+  publisher    = "Open City Books",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "parenthood, parents, dying",
+  location     = "PR 6069.T134"
 }
 
 @InBook{lphoor,
