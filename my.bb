@@ -2493,6 +2493,16 @@
   location     = "PR 6069.T134"
 }
 
+@Book{tpsd,
+  author       = "Dario Fo",
+  title        = "The Pope's Daughter",
+  publisher    = "Europa Editions",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "italy, politics, religion",
+  location     = ""
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
