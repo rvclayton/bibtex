@@ -2039,6 +2039,33 @@
   location     = "http://dl.acm.org/citation.cfm?id=126277"
 }
 
+@Article{gocspmfs,
+  author       = "Steven~P. Reiss",
+  title        = "Generation of Compiler Symbol Processing Mechanisms from Specifications",
+  journal      = toplas,
+  year         = 1983,
+  volume       = 5,
+  number       = 2,
+  pages        = "127--163",
+  month        = apr,
+  keywords     = "symbol processing, compilation, non-procedureal
+    specifications, ada, symbol tables, compiler generators",
+  abstract     = "Compiler symbol processing has become complex as programming
+    languages have evolved.  In this paper we describe a comprehensive model of
+    symbol processing, and a system that uses this model to generate the symbol
+    processing portions of a compiler from simple specifications.  The model
+    supports a variety of entities with different types of names.  It includes
+    a detailed view of scoping.  It provides a simple picture of the complex
+    mapping from a source token to a specific entity.  The model is illustrated
+    with examples from Ada.  The system is divided into two parts.  The first
+    takes a nonprocedural description of the semantics of symbols in the
+    language and produces a symbol table module for a compiler for that
+    language.  The second supports a simple symbol processing language that
+    allows the easy connection of syntax and semantic processing to the symbol
+    module.", 
+  location     = "http://dx.doi.org/10.1145/69624.69625"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
