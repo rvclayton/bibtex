@@ -1390,6 +1390,7 @@ generating efficient stack code for java : shpeisman
 generating fast code from concurrent program dependence graphs : zeng
 generating lr syntax error messages from examples : jeffery
 generating testing and analysis tools with aria : devanbu
+generation of compiler symbol processing mechanisms from specifications : reiss
 generation of efficient parsers through direct compilation of xml schema grammars : perkins
 generation of lr parsers by partial evaluation : sperber
 generating perfect hash functions : gettys
