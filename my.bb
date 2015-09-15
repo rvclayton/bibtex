@@ -2530,6 +2530,16 @@
   location     = ""
 }
 
+@Book{ckwm,
+  author       = "Walter Mosley",
+  title        = "Cinnamon Kiss",
+  publisher    = "Little, Brown",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "the long arm of history, murrdaar",
+  location     = "PS 3563.O88456 C56"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
