@@ -2066,6 +2066,20 @@
   location     = "http://dx.doi.org/10.1145/69624.69625"
 }
 
+@Article{amtfeosd,
+  author       = "Sergio C{\' a}rdenas-Garc{\' \i}a and Marvin~V. Zelkowitz",
+  title        = "A Management Tool For Evaluation of Software Designs",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "961--971",
+  month        = sep,
+  keywords     = "correctness, decision support systems, design evaluation,
+    prototyping, risk analysis, software reuse.",
+  location     = "http://www.cs.umd.edu/~mvz/pub/cardenas-zelkowitz-tse.pdf"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2538,6 +2552,16 @@
   address      = nyny,
   keywords     = "the long arm of history, murrdaar",
   location     = "PS 3563.O88456 C56"
+}
+
+@Book{tsos,
+  author       = "Stephen Pinker",
+  title        = "The Sense of Style",
+  publisher    = "Viking",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "grammar, writing, style",
+  location     = "PE 1421.P56"
 }
 
 @InBook{lphoor,
