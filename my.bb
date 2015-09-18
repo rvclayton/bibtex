@@ -2080,6 +2080,29 @@
   location     = "http://www.cs.umd.edu/~mvz/pub/cardenas-zelkowitz-tse.pdf"
 }
 
+@Article{icarh,
+  author       = "Hoare, C.~A.~R. and Allison, D.~C.~S.",
+  title        = "Incomputability",
+  journal      = surveys,
+  year         = 1972,
+  volume       = 4,
+  number       = 3,
+  pages        = "169--178",
+  month        = sep,
+  keywords     = "incomputability, logical paradox, termination, recursion,
+    programming languages, theory of types, interpreter",
+  abstract     = "Russell's logical paradox, formulated in terms of English
+    adjectives, is cons]dered as a convenient starting point for this
+    discussion of incomputablhty.  It is shown to be impossible, under a wide
+    variety of circumstances, to program a function which will determine
+    whether another function written in the same programming language wdl
+    terminate.  The theory of types is introduced in an attempt to evade the
+    paradox Finally, it is shown that any language containing conditionals and
+    recursive function definitions, which is powerful enough to program its own
+    interpreter, cannot be used to program its own terminates function.", 
+  location     = "http://dx.doi.org/10.1145/356603.356606"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
