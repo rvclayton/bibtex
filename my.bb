@@ -2103,6 +2103,32 @@
   location     = "http://dx.doi.org/10.1145/356603.356606"
 }
 
+@Article{gaalsfrdp,
+  author       = "Liskov, Barbara and Scheifler, Robert",
+  title        = "Guardians and Actions: Linguistic Support for Robust, Distributed Programs",
+  journal      = toplas,
+  year         = 1983,
+  volume       = 5,
+  number       = 3,
+  pages        = "381--404",
+  month        = jul,
+  keywords     = "languages,  reliability, atomicity, nested atomic actions,
+    remote procedure call, clu, argus, distributed objects",
+  abstract     = "An overview is presented of an integrated programming
+    language and system designed to support the construction and maintenance of
+    distributed programs: programs in which modules reside and execute at
+    communicating, but geographically distinct, nodes.  The language is
+    intended to support a class of applications concerned with the manipulation
+    and preservation of long-lived, on-line, distributed data.  The language
+    addresses the writing of robust programs that survive hardware failures
+    without loss of distributed information and that provide highly concurrent
+    access to that information while preserving its consistency.  Several new
+    linguistic constructs are provided; among them are atomic actions, and
+    modules called guardians that survive node failures.", 
+  location     = "http://dx.doi.org/10.1145/2166.357215", 
+  location     = "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-824-distributed-computer-systems-engineering-spring-2006/readings/argus.pdf"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
