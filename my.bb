@@ -2129,6 +2129,41 @@
   location     = "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-824-distributed-computer-systems-engineering-spring-2006/readings/argus.pdf"
 }
 
+@Article{tpompurvmr,
+  author       = "Tzou, Shin-Yuan and Anderson, David~P.",
+  title        = "The Performance of Message-Passign Using Restricted Virtual Memory Remapping",
+  journal      = spe,
+  year         = 1991,
+  volume       = 21,
+  number       = 3,
+  pages        = "251--267",
+  month        = mar,
+  keywords     = "performance, operating systems, virtual memory, remapping,
+    message-passing Interprocess communication", 
+  abstract     = "DASH is a distributed operating system kernel.
+    Message-passing (MP) is used for local communication,and the MP system uses
+    virtual memory (VM) remapping instead of software memory copying for moving
+    large amounts of data between virtual address spaces.  Remapping eliminates
+    a potential communication bottleneck and may increase the feasibility of
+    moving services such as file services to the user level.  Previous systems
+    that have used VM remapping for message transfer, however, have suffered
+    from higher-operation delay, limiting the use of the technique.  The DASH
+    design reduces this delay by restricting the generality of remapping: a
+    fixed part of every space is reserved for remapping, and a page's virtual
+    address does not change when it is moved between spaces.  We measured the
+    performance of the DASH kernel for Sun 3/50 workstations, on which memory
+    can be copied at 3.9 MB/s.  Using remapping, DASH can move large messages
+    between user spaces at a rate of 39 MB/s if they are not referenced and
+    24.8 MB/s if each page is referenced.  Furthermore, the per-operation delay
+    is low, so VM remapping is beneficial even for messages containing only one
+    page.  To further understand the performance of the DASH MP system, we
+    broke an MP operation into short code segments and timed them with
+    microsecond precision.  The results show the relative costs of data
+    movement and the other components of MP operations, and allow us to
+    evaluate several specific design decisions.", 
+  location     = "http://dx.doi.org/10.1002/spe.4380210303"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
