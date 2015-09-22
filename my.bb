@@ -2613,6 +2613,26 @@
   location     = "PE 1421.P56"
 }
 
+@Book{tgdtf,
+  author       = "Thomas Fleming",
+  title        = "The Great Divide",
+  publisher    = "Da Capo Press",
+  year         = 2015,
+  address      = boma,
+  keywords     = "colonial america, washington, jefferson",
+  location     = ""
+}
+
+@Book{tmimb,
+  author       = "Walter Mosley",
+  title        = "The Man in My Basement",
+  publisher    = "Little, Brown",
+  year         = 2004,
+  address      = boma,
+  keywords     = "crime, punishment",
+  location     = "PS 3563.O88456 M36"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
