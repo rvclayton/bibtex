@@ -2164,6 +2164,28 @@
   location     = "http://dx.doi.org/10.1002/spe.4380210303"
 }
 
+@Article{chfhahfh,
+  author       = "Finne, Sigbjorn and Leijen, Daan and Meijer, Erik and Peyton Jones, Simon",
+  title        = "Calling Hell from Heaven and Heaven from Hell",
+  journal      = sigplan # " (" # pot # "Second ACM SIGPLAN " # icfp # ", ICFP '99)",
+  year         = 1999,
+  volume       = 32,
+  number       = 9,
+  pages        = "114--125",
+  month        = sep,
+  keywords     = "com, foreign-function interfaces, argument marshaling",
+  abstract     = "The increasing popularity of component-based programming
+    tools offer a big opportunity to designers of advanced programming
+    languages, such as Haskell.  If we can package our programs as software
+    components, then it is easy to integrate them into applications written in
+    other languages.In earlier work we described a preliminary integration of
+    Haskell with Microsoft's Component Object Model (COM), focusing on how
+    Haskell can create and invoke COM objects.  This paper develops that work,
+    concentrating on the mechanisms that support externally-callable Haskell
+    functions, and the encapsulation of Haskell programs as COM objects.", 
+  location     = "http://dx.doi.org/10.1145/317765.317790"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2666,6 +2688,16 @@
   address      = boma,
   keywords     = "crime, punishment",
   location     = "PS 3563.O88456 M36"
+}
+
+@Book{alesa,
+  author       = "Edward {St. Aubyn}",
+  title        = "At Last",
+  publisher    = "Picador",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "death, rememberance",
+  location     = "PR 6069.T134 A93"
 }
 
 @InBook{lphoor,
