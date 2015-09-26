@@ -2186,6 +2186,34 @@
   location     = "http://dx.doi.org/10.1145/317765.317790"
 }
 
+@Article{psvoa,
+  author       = "Barnes, Bruce~H.",
+  title        = "Programmer's View of Automata",
+  journal      = surveys,
+  year         = 1972,
+  volume       = 4,
+  number       = 4,
+  pages        = "221--239",
+  month        = dec,
+  keywords     = "automata, computer programming, finite state machine,
+    deterministic automaton, nondeterministic automaton",
+  abstract     = "This discussion introduces computer scientists to the 
+    concepts, definitions, notation and ideas of finite automata theory and to
+    suggest how these ideas might relate to some of the other fields of
+    Computer Science.  Many of the ideas presented will be familiar to computer
+    programmers, although they might not be immediately recognizable, for it is
+    the precise nature of mathematics that renders these concepts tractable to
+    investigation.  Since understanding of the basic concepts is the purpose of
+    this discussion, more emphasis will be placed on definitions and examples
+    than on theorems and proofs.  The principal benefit of the study of finite
+    automata to the computer programmer is not in theories and theorems, but is
+    rather in the insight and understanding it can contribute to many
+    programming problems; specifically, in determining the underlying structure
+    of the problem and in establishing how this structure is modified as the
+    computation progresses.",  
+  location     = "http://dx.doi.org/10.1145/356608.356610"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
