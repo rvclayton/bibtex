@@ -2728,6 +2728,16 @@
   location     = "PR 6069.T134 A93"
 }
 
+@Book{ddtdia,
+  author       = "Walter Mosley",
+  title        = "Debbie Doesn't Do It Anymore",
+  publisher    = "Doubleday",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "life changes",
+  location     = "PS 3563.O88456 D43"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
