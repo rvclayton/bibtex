@@ -2738,6 +2738,16 @@
   location     = "PS 3563.O88456 D43"
 }
 
+@Book{dbrg,
+  author       = "R{\' o}mulo Gallegos",
+  title        = "Do{\~ n}a Barbara",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "the plains, life on the frontier",
+  location     = "PQ 8549.G24 D613"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
