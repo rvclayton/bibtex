@@ -2912,6 +2912,30 @@
   location     = "http://dx.doi.org/10.1145/2790449.2790526"
 }
 
+@InProceedings{fammoc,
+  author       = "Prodromos Gerakios and George Fourtounis and Yannis Smaragdakis",
+  title        = "{FOO}: A Minimal Modern {OO} Calculus",
+  booktitle    = pot # "17th Workshop on Formal Techniques for Java-Like Programs",
+  year         = 2015,
+  address      = "Prague, Czech Republic",
+  month        = "7 " # jul,
+  keywords     = "object-oriented programming, formal semantics, type systems,
+    structural types, nominal types",
+  abstract     = "We present the Flyweight Object-Oriented (FOO) calculus for 
+    the modeling of object-oriented languages.  FOO is a simple, minimal
+    class-based calculus, modeling only essential computational aspects and
+    emphasizing larger-scale features (e.g., inheritance and generics).  FOO is
+    motivated by the observation that recent language design work focuses on
+    elements not well-captured either by traditional object calculi or by
+    language-specific modeling efforts,such as Featherweight Java.  FOO
+    integrates seamlessly both nominal and structural subtyping ideas,
+    leveraging the latter to eliminate the need for modeling object fields and
+    constructors.  Comparing to recent formalization efforts in the literature,
+    FOO is more compact,yet versatile enough to be usable in multiple settings
+    modeling Java, C#, or Scala extensions.", 
+  location     = "https://yanniss.github.io/foo-ftfjp15.pdf"
+}
+
 @Misc{tpbadtkla,
   author       = "Peter {Van Roy} and Seif Haridi",
   title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
