@@ -2214,6 +2214,36 @@
   location     = "http://dx.doi.org/10.1145/356608.356610"
 }
 
+@Article{sostaom,
+  author       = "J.~L. Baer",
+  title        = "Survey of Some Theoretical Aspects of Multiprocessing",
+  journal      = surveys,
+  year         = 1973,
+  volume       = 5,
+  number       = 1,
+  pages        = "31--80",
+  month        = mar,
+  keywords     = "multiprocessing, performance, parallelism, multlprocessing,
+    mutual exclusion, semaphores, automatic paralleism detection, graph models,
+    Petri  nets, flow graph schemata, scheduling, array processors, pipe-line
+    computers.",
+  abstract     = "This paper surveys several theoretical aspects of 
+    multiprocessing.  First, we look at the language features that help exploit
+    parallelism.  The additional instructions needed for a multiprocessor
+    architecture; problems, such as mutual exclusion, raised by the concurrent
+    processing of parts of a program; and the extensions to existing high-level
+    languages are examined.  The methods for automatic detection of parallelism
+    in current high-level languages are reviewed both at the inter- and
+    intra-statement levels.  The following part of the paper deals with more
+    theoretical aspects of multiprocessing.  Different models for parallel
+    computation such as graph models, Petri nets, parallel flowcharts, and flow
+    graph schemata are introduced.  Finally, multiprocessors performance
+    prediction either through analysis of models or by simulation is examined.
+    In an appendix, an attempt is made toward the classification of existing
+    multlprocessors", 
+  location     = "http://dx.doi.org/10.1145/356612.356615"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
