@@ -2244,6 +2244,39 @@
   location     = "http://dx.doi.org/10.1145/356612.356615"
 }
 
+@Article{raaesipd,
+  author       = "Colussi, L.",
+  title        = "Recursion As an Effective Step in Program Development",
+  journal      = toplas,
+  year         = 1984,
+  volume       = 6,
+  number       = 1,
+  pages        = "55--67",
+  month        = jan,
+  keywords     = "programming languages, pascal, language constructs, data
+     structures, program specifying, program verifying, program reasoning,
+     assertions, pre- and postconditions, program and recursion schemes
+     algorithms, languages, theory, verification, correctness, iteration,
+     program development, program transformations, program optimization, proof
+     translation", 
+  abstract     = "A general translation rule from recursive procedures to 
+    iterative ones is augmented by also translating the correctness proof.  The
+    augmented translation rule is defined within the framework of Pascal
+    programs, with the correctness proof expressed in the Hoare style.  The
+    translation is consistent with the stepwise development of Pascal programs.
+    Moreover the translation can be done automatically provided that the
+    assertions are expressed in a formal specification language.  Given are a
+    few simplification rules, whose applicability, after the translation, is
+    easily detectable and strongly suggested by the translated assertions.  It
+    is shown that the particular cases of linear, tail, and simple recursion
+    (which are known to be easily handled and simplified when expressed in a
+    schematic functional notation) can be simplified automatically after the
+    translation step without leaving the Pascal language.  Two examples are
+    provided to show that the given simplification rules can also effectively
+    apply to more general recursive procedures.", 
+  location     = "http://dx.doi.org/10.1145/357233.357236"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2778,6 +2811,16 @@
   location     = "PQ 8549.G24 D613"
 }
 
+@Book{ojajs,
+  author       = "Jonathan Schaeffer",
+  title        = "One Jump Ahead",
+  publisher    = "Springer",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "checkers, artificial intelligence, game-playing programs",
+  location     = "GV 1464.S33 2009"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
@@ -2975,3 +3018,13 @@
   month        = "17 " # jul,
   keywords     = "programming, teaching"
 }
+
+@Misc{1rfwmcq,
+  author       = "Timothy~W. Bothell",
+  title        = "14 Rules for Writing Multiple-Choice Questions",
+  howpublished = "web page",
+  year         = 2001,
+  keywords     = "testing, multiple-choice questions",
+  location     = "https://testing.byu.edu/handbooks/14%20Rules%20for%20Writing%20Multiple-Choice%20Questions.pdf"
+}
+
