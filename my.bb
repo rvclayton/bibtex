@@ -2821,6 +2821,16 @@
   location     = "GV 1464.S33 2009"
 }
 
+@Book{pjf,
+  author       = "Jonathan Franzen",
+  title        = "Purity",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "your mom and dad, the internet, secrets",
+  location     = "PS 3556.R352 P87"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
