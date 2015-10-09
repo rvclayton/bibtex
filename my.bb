@@ -2277,6 +2277,37 @@
   location     = "http://dx.doi.org/10.1145/357233.357236"
 }
 
+@Article{tfascaifj,
+  author       = "Flanagan, Cormac and Freund, Stephen~N. and Lifshin, Marina and Qadeer, Shaz",
+  title        = "Types for Atomicity: Static Checking and Inference for Java",
+  journal      = toplas,
+  year         = 2008,
+  volume       = 30,
+  number       = 4,
+  month        = jul,
+  keywords     = "type systems, atomicity, verification, synchronization,
+    specification",
+  abstract     = "Atomicity is a fundamental correctness property in 
+    multithreaded programs.  A method is atomic if, for every execution, there
+    is an equivalent serial execution in which the actions of the method are
+    not interleaved with actions of other threads.  Atomic methods are amenable
+    to sequential reasoning, which significantly facilitates subsequent
+    analysis and verification.  This article presents a type system for
+    specifying and verifying the atomicity of methods in multithreaded Java
+    programs using a synthesis of Lipton's theory of reduction and type systems
+    for race detection.  The type system supports guarded, write-guarded, and
+    unguarded fields, as well as thread-local data, parameterized classes and
+    methods, and protected locks.  We also present an algorithm for verifying
+    atomicity via type inference.  We have applied our type checker and type
+    inference tools to a number of commonly used Java library classes and
+    programs.  These tools were able to verify the vast majority of methods in
+    these benchmarks as atomic, indicating that atomicity is a widespread
+    methodology for multithreaded programming.  In addition, reported atomicity
+    violations revealed some subtle errors in the synchronization disciplines
+    of these programs.", 
+  location     = "http://dx.doi.org/10.1145/1377492.1377495"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
