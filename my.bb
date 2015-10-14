@@ -2308,6 +2308,56 @@
   location     = "http://dx.doi.org/10.1145/1377492.1377495"
 }
 
+@Article{tlbdafa,
+  author       = "Karam, Gerald~M. and Buhr, Raymond~J. A.",
+  title        = "Temporal Logic-Based Deadlock Analysis for {A}da",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 10,
+  pages        = "1109--1125",
+  month        = oct,
+  keywords     = "ada, environment, design, concurrent systems, deadlock,
+  specification language, prolog, temporal logic, executable specifications",
+  abstract     = "A temporal logic-based specification language and deadlock
+    analyzer for Ada is described.  The deadlock analyzer is intended for use
+    within Timebench, a concurrent system-design environment with support for
+    Ada.  The specification language, COL, uses linear-time temporal logic to
+    provide a formal basis for axiomatic reasoning.  The deadlock analysis tool
+    uses the reasoning power of COL to demonstrate that Ada designs specified
+    in COL are systemwide deadlock-free: in essence, it uses a specialized
+    theorem prover to deduce the absence of deadlock.  The deadlock algorithm
+    is shown to be decidable for finite systems and acceptable otherwise.  It
+    is also shown to have a worst-case computational complexity that is
+    exponential with the number of tasks.  The analyzer has been implemented in
+    Prolog.  Numerous examples are evaluated using the analyzer, including
+    readers and writers, gas station, five dining philosophers, and a layered
+    communications system.  The results indicate that analysis time is
+    reasonable for moderate designs in spite of the worst-case complexity of
+    the algorithm .", 
+  location     = "http://dx.doi.org/10.1109/32.99197"
+}
+
+@Article{cspfcadosd,
+  author       = "Hull, M.~Elizabeth~C. and McKeag, R.~M.",
+  title        = "Communicating Sequential Processes for Centralized and Distributed Operating System Design",
+  journal      = toplas,
+  year         = 1984,
+  volume       = 6,
+  number       = 2,
+  pages        = "175--191",
+  month        = apr,
+  keywords     = "Design, Languages, operating systems, parallel programming,
+    program design, communicating sequential processes, distributed systems,
+    pascal-plus",
+  abstract     = "This paper demonstrates how the notation of Communicating
+    Sequential Processes may be used in the design of an operating system.  It
+    goes further to show how such an approach assists in the design and
+    development of a system distributed over a network of computers.  The
+    technique uses a well-defined design methodology.", 
+  location     = "http://dx.doi.org/10.1145/2993.2381"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2860,6 +2910,26 @@
   address      = nyny,
   keywords     = "your mom and dad, the internet, secrets",
   location     = "PS 3556.R352 P87"
+}
+
+@Book{fotdwm,
+  author       = "Walter Mosley",
+  title        = "Fear of the Dark",
+  publisher    = "Little, Brown",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "turmoil, murrdaar",
+  location     = "PS 3563.O88456 F384"
+}
+
+@Book{1920eb,
+  author       = "Eric Burns",
+  title        = "1920",
+  publisher    = "Pegasus Books",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "1920, prohibition, harding, anarcists, wilson, ponzi",
+  location     = "E 784.B872 2015b"
 }
 
 @InBook{lphoor,
