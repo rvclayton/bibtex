@@ -798,6 +798,7 @@ common language runtime memory model : brumme
 common nntp extensions : barber
 commonsense knowledge representation based on fuzzy logic : zadeh
 communicating reusable designs via design patterns : lalonde
+communicating sequential processes for centralized and distributed operating system design : hull
 communication by messengers : tschudin
 communication complexity : kushilevitz
 communication facilities for distributed transaction processing systems : mafla
@@ -2881,6 +2882,7 @@ techniques for aligning objects in drawing programs : raisamo
 techniques for reducing pen plotting time : anderson
 techniques for requirments elicitation : goguen
 telecommunications regulation the continuing dilemma : trebing
+temporal logic based deadlock analysis for ada : karam
 temporal logic case study : wood
 ten commandments of formal methods : bowen
 ten myths of multimodal interaction : oviatt
