@@ -2358,6 +2358,26 @@
   location     = "http://dx.doi.org/10.1145/2993.2381"
 }
 
+@Article{pipp17,
+  author       = "Rosenfeld, Azriel",
+  title        = "Progress in Picture Processing: 1969--71",
+  journal      = surveys,
+  year         = 1973,
+  volume       = 5,
+  number       = 2,
+  pages        = "81--108",
+  month        = jun,
+  keywords     = "picture processing, image processing, pattern recognition,
+    bandwidth compression, encoding, approximation, spatial filtering, image
+    enhancement, picture properties, segmentation, geometrical properties,
+    scene analysis, picture languages.", 
+  abstract     = "Developments in the field of picture processing by computer
+    during 1969-71 are surveyed.  The topics covered include picture
+    compression, image enhancement, pictorial pattern recognition, scene
+    analysis, and picture grammars.",
+  location     = "http://dx.doi.org/10.1145/356616.356617"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
