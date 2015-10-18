@@ -3374,6 +3374,7 @@ type feedback vs concrete type inference a comparison of optimization techniques
 type inference of self analysis of objects with dynamic and multiple inheritance : agesen
 type inference with simple selftypes is np complete : palsberg
 type laundering : vlissides
+type safe multithreading in cyclone : grossman
 type systems : cardelli
 typechecking with ad hoc polymorphism : thatte
 typeful programming : cardelli
