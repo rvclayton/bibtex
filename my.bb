@@ -2378,6 +2378,30 @@
   location     = "http://dx.doi.org/10.1145/356616.356617"
 }
 
+@Article{tsmic,
+  author       = "Grossman, Dan",
+  title        = "Type-Safe Multithreading in {C}yclone",
+  journal      = sigplan # "(" # pot # "ACM SIGPLAN International Workshop on Types in Langauge, Design and Implementation)"
+  year         = 2003,
+  volume       = 38,
+  number       = 3,
+  pages        = "13--25",
+  month        = mar,
+  keywords     = "concurrent programming structures, operational semantics,
+    data races, cyclone, static analysis, abstract machines",
+  abstract     = "We extend Cyclone, a type-safe polymorphic language at the C
+    level of abstraction, with threads and locks.  Data races can violate type
+    safety in Cyclone.  An extended type system statically guarantees their
+    absence by enforcing that thread-shared data is protected via locking and
+    that thread-local data does not escape the thread that creates it.  The
+    extensions interact smoothly with parametric polymorphism and region-based
+    memory management.  We present a formal abstract machine that models the
+    need to prevent races, a polymorphic type system for the machine that
+    supports thread-local data, and a corresponding type-safety result.", 
+  location     = "http://dx.doi.org/10.1145/604174.604177",
+  location     = "http://homes.cs.washington.edu/~djg/papers/cycthreads.pdf"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
