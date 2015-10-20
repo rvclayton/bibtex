@@ -2381,7 +2381,7 @@
 @Article{tsmic,
   author       = "Grossman, Dan",
   title        = "Type-Safe Multithreading in {C}yclone",
-  journal      = sigplan # "(" # pot # "ACM SIGPLAN International Workshop on Types in Langauge, Design and Implementation)"
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN International Workshop on Types in Langauge, Design and Implementation)",
   year         = 2003,
   volume       = 38,
   number       = 3,
@@ -2976,6 +2976,16 @@
   location     = "E 784.B872 2015b"
 }
 
+@Book{fgck,
+  author       = "Christopher Kemp",
+  title        = "Floating Gold",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "ambergris, whaling, natural resources",
+  location     = "QD 331.K457"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
@@ -3018,6 +3028,28 @@
   address      = mvca,
   keywords     = "self, prototypical programming",
   location     = "https://www.cs.ucsb.edu/~urs/oocsb/self/release/Self-4.0/manuals/tutorial.ps.gz"
+}
+
+@TechReport{amgp,
+  author       = "Marwan Shaban",
+  title        = "{A} Minimal {GB} Parser",
+  institution  = csd # "Boston University",
+  year         = 1993,
+  number       = "93-013",
+  address      = boma,
+  month        = oct,
+  keywords     = "parser",
+  abstract     = "We describe a GB parser implemented along the lines of those
+    written by Fong [4] and Dorr [2].  The phrase structure recovery component
+    is an implementation of Tomita's generalized LR parsing algorithm
+    (described in [10]), with recursive control flow (similar to Fong's
+    implementation).  The major principles implemented are government, binding,
+    bounding, trace theory, case theory, $\theta$-theory, and barriers.  The
+    particular version of GB theory we use is that described by Haegeman [5].
+    The parser is minimal in the sense that it implements the major principles
+    needed in a GB parser, and has fairly good coverage of linguistically
+    interesting portions of the English language.", 
+  location     = "http://open.bu.edu/bitstream/handle/2144/1467/1993-013-gb-parser.pdf"
 }
 
 @InProceedings{eyawtkasbwata,
