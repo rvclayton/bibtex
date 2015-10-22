@@ -2402,6 +2402,18 @@
   location     = "http://homes.cs.washington.edu/~djg/papers/cycthreads.pdf"
 }
 
+@Book{er,
+  author       = "Stephanie Clifford",
+  title        = "Everybody Rise",
+  journal      = "St. Martin's Press",
+  year         = 2015,
+  OPTpages     = "",
+  OPTabstract  = "",
+  OPTmonth     = "",
+  OPTkeywords  = "",
+  OPTlocation  = ""
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -2984,6 +2996,16 @@
   address      = chil,
   keywords     = "ambergris, whaling, natural resources",
   location     = "QD 331.K457"
+}
+
+@Book{ersc,
+  author       = "Stephanie Clifford",
+  title        = "Everybody Rise",
+  publisher    = "St. Martin's Press",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "eat the rich, the elephants dance",
+  location     = "PS 3603.L499"
 }
 
 @InBook{lphoor,
