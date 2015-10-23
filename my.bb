@@ -3218,6 +3218,23 @@
   location     = "https://yanniss.github.io/foo-ftfjp15.pdf"
 }
 
+@InProceedings{ecviscw,
+  author       = "Watson, Robert N.~M.",
+  title        = "Exploiting Concurrency Vulnerabilities in System Call Wrappers",
+  booktitle    = pot # "first USENIX workshop on Offensive Technologies (WOOT'07)",
+  year         = 2007,
+  address      = boma,
+  month        = "6--10 " # aug,
+  keywords     = "security, concurrency, operating systems, system calls",
+  abstract     = "System call interposition allows the kernel security model to
+    be extended.  However, when combined with current operating systems, it is
+    open to concurrency vulnerabilities leading to privilege escalation and
+    audit bypass.  We discuss the theory and practice of system call wrapper
+    concurrency vulnerabilities, and demonstrate exploit techniques against
+    GSWTK, Systrace, and CerbNG.", 
+  location     = "http://www.watson.org/~robert/2007woot/2007usenixwoot-exploitingconcurrency.pdf"
+}
+
 @Misc{tpbadtkla,
   author       = "Peter {Van Roy} and Seif Haridi",
   title        = "Teaching Programming Broadly and Deeply:  The Kernel Language Approach",
