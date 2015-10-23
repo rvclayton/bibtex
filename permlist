@@ -1232,6 +1232,7 @@ experiments with automatic file migration : lawrie
 expierences with the orca programming language : wilson
 exploring security vulnerabilities by exploiting  buffer overflow using the mips isa : phillips
 exploring the deisgn of an intentional naming scheme with an automatic constraint analyzer : khurshid
+exploiting concurrency vulnerabilities in system call wrappers : watson
 exploiting style in architectural design environments : garlan
 exploiting the advantages of mapped files for stream i o : krieger
 exploring group communication for reliable high volume data distribution : cooperstock
