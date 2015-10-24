@@ -2402,6 +2402,32 @@
   location     = "http://homes.cs.washington.edu/~djg/papers/cycthreads.pdf"
 }
 
+@Article{eobsat,
+  author       = "Couger, J.~Daniel",
+  title        = "Evolution of Business System Analysis Techniques",
+  journal      = surveys,
+  year         = 1973,
+  volume       = 5,
+  number       = 3,
+  pages        = "167--198",
+  month        = sep,
+  keywords     = "business system analysis, decision table processor, forms
+    flow chart, information process chart, logical system design, problem
+    statement analyzer, problem statement language, physical system design,
+    system development cycle, time automated grid", 
+  abstract     = "Until recently, the evolution of business system analysis
+    lagged hardware evolution by one full generation.  During the first
+    generation of business-oriented computers, in the 1950s, system analysts
+    used unit record-oriented analysis and design techniques.  Between 1960 and
+    1970, computer oriented techniques for system analysis were developed.  The
+    gap has narrowed to half a generation.  Third generation techniques emerged
+    six years after the first installation of third generation computers.  The
+    evolution of techniques for business system analysis is described, with
+    emphasis on the requirements of new techniques to handle today's
+    complicated business systems.", 
+  location     = "http://dx.doi.org/10.1145/356619.356621"
+}
+
 @Book{er,
   author       = "Stephanie Clifford",
   title        = "Everybody Rise",
