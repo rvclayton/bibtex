@@ -2428,18 +2428,6 @@
   location     = "http://dx.doi.org/10.1145/356619.356621"
 }
 
-@Book{er,
-  author       = "Stephanie Clifford",
-  title        = "Everybody Rise",
-  journal      = "St. Martin's Press",
-  year         = 2015,
-  OPTpages     = "",
-  OPTabstract  = "",
-  OPTmonth     = "",
-  OPTkeywords  = "",
-  OPTlocation  = ""
-}
-
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3032,6 +3020,16 @@
   address      = nyny,
   keywords     = "eat the rich, the elephants dance",
   location     = "PS 3603.L499"
+}
+
+@Book{fswm,
+  author       = "Walter Mosley",
+  title        = "Fortunate Son",
+  publisher    = "Little, Brown",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "fate",
+  location     = "PS 3563.O88456 F67"
 }
 
 @InBook{lphoor,
