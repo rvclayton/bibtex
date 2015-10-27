@@ -2428,6 +2428,36 @@
   location     = "http://dx.doi.org/10.1145/356619.356621"
 }
 
+@Article{toagip,
+  author       = "Katayama, Takuya",
+  title        = "Translation of Attribute Grammars into Procedures",
+  journal      = toplas,
+  year         = 1984,
+  volume       = 6,
+  number       = 3,
+  pages        = "345--369",
+  month        = jul,
+  keywords     = "algorithms, languages, attribute grammar, attribute
+    evaluator, compiler generator",
+  abstract     = "An efficient method for evaluating attribute grammars by 
+    translating them into sets of procedures is presented.  The basic idea
+    behind the method is to consider nonterminal symbols of the grammar as
+    functions that map their inherited attributes to their synthesized
+    attributes.  Associated with the nonterminal symbols are procedures that
+    realize the functions.  The attribute grammar is translated into a program
+    consisting of these procedures.  The essential point about this method is
+    that attribute grammars are completely compiled into procedures, in
+    contrast with evaluation algorithms that work interpretively in a
+    table-driven manner.  No information is stored in the nodes of derivation
+    trees.  Although this evaluation method is applicable principally to
+    absolutely noncircular attribute grammars in which the dependency relation
+    among attribute occurrences of every production rule does not contain
+    cycles, it is shown how the method is extended to the general noncircular
+    attribute grammars.  Problems of evaluating a set of attributes
+    simultaneously and of recursive descent evaluation are also discussed.", 
+  location     = "http://dx.doi.org/10.1145/579.586"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
