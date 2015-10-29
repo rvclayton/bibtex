@@ -1,5 +1,5 @@
 .so bibtex.header
-		  
+>41;320;0c		  
 @Article{pvsame,
   author       = "Boehm, Barry~W. and Gray, Terence~E. and Seewaldt, Thomas",
   title        = "Prototyping Versus Specifying:  {A} Multiproject Experiment",
@@ -2456,6 +2456,36 @@
     attribute grammars.  Problems of evaluating a set of attributes
     simultaneously and of recursive descent evaluation are also discussed.", 
   location     = "http://dx.doi.org/10.1145/579.586"
+}
+
+@Article{cftavatacsc,
+  author       = "Richard~A. Kemmerer and Phillip~A. Porras",
+  title        = "Covert Flow Trees:  {A} Visual Approach to Analyzing Covert Storage Channels",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 11,
+  pages        = "1166--1185",
+  month        = nov,
+  keywords     = "attributes, covert channel operation sequences, covert flow
+    tree, covert storage channels, listening process, resource attribute, tree
+    structure, security analysis, security tools, data security",
+  abstract     = "The authors introduce a technique for detecting covert 
+    storage channels using a tree structure called a covert flow tree (CFT).
+    CFTs are used to perform systematic searches for operation sequences that
+    allow information to be relayed through attributes and eventually detected
+    by a listening process.  When traversed, the paths of a CFT yield a
+    comprehensive list of operation sequences which support communication via a
+    particular resource attribute.  These operation sequences are then analyzed
+    and either discharged as benign or determined to be covert communication
+    channels.  Algorithms for automating the construction of CFTs and potential
+    covert channel operation sequences are presented.  To illustrate this
+    technique, two example systems are analyzed and their results compared to
+    two currently accepted analysis techniques performed on identical systems.
+    This comparison shows that the CFT approach not only identified all covert
+    storage channels found by the other analysis techniques, but discovered a
+    channel not detected by the other techniques", 
+  location     = "http://dx.doi.org/10.1109/32.106972"
 }
 
 @Book{natrbp,
