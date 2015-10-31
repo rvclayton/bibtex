@@ -2488,6 +2488,34 @@
   location     = "http://dx.doi.org/10.1109/32.106972"
 }
 
+@Article{tpaasitp,
+  author       = "Richard~S. Bird",
+  title        = "The Promotion and Accumulation Strategies in Transformational Programming",
+  journal      = toplas,
+  year         = 1984,
+  volume       = 6,
+  number       = 4,
+  pages        = "487--504",
+  month        = oct,
+  keywords     = "programming, code transformations, algorithms, verification,
+    transformational programming, operators, algorithm refinement",
+  abstract     = "The promotion strategy in transformational programming is a 
+    general method for achieving efficiency by exploiting the recursive
+    structure in the dominant term of an algorithmic expression.  For it to be
+    carried out successfully, the original problem often has to be generalized
+    by the inclusion of an extra parameter, a technique known as accumulation.
+    These strategies are illustrated by deriving algorithms for two nontrivial
+    problems: (1) determining whether a given digraph is acyclic, and (2)
+    constructing the longest subsequence of a given sequence of vertices that
+    forms a connected path in a given digraph.  The derivations also serve to
+    emphasize the usefulness of certain notational devices in applicative
+    expressions, especially infix operators.  Not only do such operators
+    enhance the succinctness and readability of expressions, they also allow
+    many transformations to be formulated as algebraic laws about their
+    distributive and other properties.", 
+  location     = "http://dx.doi.org/10.1145/1780.1781"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
