@@ -3186,6 +3186,28 @@
   location     = "http://open.bu.edu/bitstream/handle/2144/1467/1993-013-gb-parser.pdf"
 }
 
+@TechReport{hcttopic,
+  author       = "Nicolas Wirth",
+  title        = "Hardware Compilation:  The Translation of Programs into Circuits",
+  institution  = "Departement Informatik, Institut f{\" u}r Computersysteme,
+    Eidgen{\" o}ssische Technische Hochschule", 
+  year         = 1997,
+  number       = 286,
+  address      = "Z{\" u}rich, Switzerland",
+  month        = jan,
+  keywords     = "hardware compilation, sequential circuits, circuit design",
+  abstract     = "Abstract We explain how programs specified in a sequential
+    programming language can be translated automatically into a digital
+    circuit.  The possibility to specify which parts of a program are to be
+    compiled into instruction sequences for a conventional processor, and which
+    ones are to be translated into customized circuits has gained relevance
+    with the advent of large programmable gate arrays (FPGA).  They open the
+    door to introduce massive, fine-grained parallelism.  In order to
+    demonstrate the feasibility of this approach, we present a tiny programming
+    language featuring the basic programming and circuit design facilities.", 
+  location     = "https://e-collection.library.ethz.ch/view/eth:4328"
+}
+
 @InProceedings{eyawtkasbwata,
   author       = "David, Tudor and Guerraoui, Rachid and Trigonakis, Vasileios",
   title        = "Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask",
