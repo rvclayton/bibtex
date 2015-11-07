@@ -3120,6 +3120,16 @@
   location     = "PS 3563.O88456 F67"
 }
 
+@Book{bpal,
+  author       = "Alan Gilbert",
+  title        = "Black Patriots and Loyalists",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "american revolution, slavery, abolition",
+  location     = "E 269.N3G55"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
