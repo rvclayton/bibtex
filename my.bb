@@ -1,5 +1,5 @@
 .so bibtex.header
->41;320;0c		  
+
 @Article{pvsame,
   author       = "Boehm, Barry~W. and Gray, Terence~E. and Seewaldt, Thomas",
   title        = "Prototyping Versus Specifying:  {A} Multiproject Experiment",
@@ -2514,6 +2514,35 @@
     many transformations to be formulated as algebraic laws about their
     distributive and other properties.", 
   location     = "http://dx.doi.org/10.1145/1780.1781"
+}
+
+@Article{gcil,
+  author       = "David Gelernter",
+  title        = "Generative Communication in {L}inda",
+  journal      = toplas,
+  year         = 1985,
+  volume       = 7,
+  number       = 1,
+  pages        = "80--112",
+  month        = jan,
+  keywords     = "distributed programming languages, generative communication,
+    linda, tuple-space communication", 
+  abstract     = "Generative communication is the basis of a new distributed
+    programming langauge that is intended for systems programming in
+    distributed settings generally and on integrated network computers in
+    particular.  It differs from previous interprocess communication models in
+    specifying that messages be added in tuple-structured form to the
+    computation environment, where they exist as named, independent entities
+    until some process chooses to receive them.  Generative communication
+    results in a number of distinguishing properties in the new language,
+    Linda, that is built around it.  Linda is fully distributed in space and
+    distributed in time; it allows distributed sharing, continuation passing,
+    and structured naming.  We discuss these properties and their implications,
+    then give a series of examples.  Linda presents novel implementation
+    problems that we discuss in Part II.  We are particularly concerned with
+    implementation of the dynamic global name space that the generative
+    communication model requires.", 
+  location     = "http://dx.doi.org/10.1145/2363.2433"
 }
 
 @Book{natrbp,
