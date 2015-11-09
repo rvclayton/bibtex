@@ -3159,6 +3159,17 @@
   location     = "E 269.N3G55"
 }
 
+@Book{rjw,
+  author       = "Jonathan Waldman",
+  title        = "Rust",
+  publisher    = "Simon \& Schuster",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "corrosion, galvanization, pigs, statue of liberty, stainless
+    steel, cans",
+  location     = "TA 418.74.W35"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
