@@ -760,7 +760,7 @@ class is type is inadequate for object reuse : yu
 class specification design by contract : anon
 classes and inheritance in actor oriented design : lee
 classification categories and historical development of circuit switching topologiecs : broomell
-leanroom practice a theme and variations : deck
+cleanroom practice a theme and variations : deck
 cleanroom process model : linger
 cleanroom software engineering : anon
 clearing memory and partial register stalls in your code : barad
@@ -1398,6 +1398,7 @@ generation of compiler symbol processing mechanisms from specifications : reiss
 generation of efficient parsers through direct compilation of xml schema grammars : perkins
 generation of lr parsers by partial evaluation : sperber
 generating perfect hash functions : gettys
+generative communication in linda : gelernter
 generative representations for evolving familes of designs : hornby
 generalized algebraic data types and object oriented programming : kennedy
 generic programming typed buffers i : alexandrescu
@@ -1851,6 +1852,7 @@ lottery scheduling flexible proportional share resource management : waldspurger
 low fat computing : fox
 lowering the barriers to programming a taxonomy of programming environments and languages for novice programmers : kelleher
 lpd for run and mp3 playing : lpd
+lr parsing : aho
 lsi vlsi building blocks : tobias
 lua an extensible extension language : ierusalimschy
 luc public key encryption : smith
