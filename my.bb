@@ -2545,6 +2545,27 @@
   location     = "http://dx.doi.org/10.1145/2363.2433"
 }
 
+@Article{lpava,
+  author       = "Aho, Albert~V. and Johnson, Steven~C.",
+  title        = "{LR} Parsing",
+  journal      = surveys,
+  year         = 1974,
+  volume       = 6,
+  number       = 2,
+  pages        = "99--124",
+  month        = jun,
+  keywords     = "grammars, parsers, compilers, ambiguous grammars,
+     context-free languages, LR grammars, parser generators, error detection
+     and recovery",
+  abstract     = "The LR syntax analysis method is a useful and versatile
+     technique for parsing deterministic context-free languages in compiling
+     applications.  This paper provides an informal exposition of LR parsing
+     techniques emphasizing the mechanical generation of efficient LR parsers
+     for context-free grammars.  Particular attention is given to extending the
+     parser generation techniques to apply to ambiguous grammars.", 
+  location     = "http://dx.doi.org/10.1145/356628.356629"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
