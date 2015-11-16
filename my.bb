@@ -3279,6 +3279,18 @@
   location     = "https://e-collection.library.ethz.ch/view/eth:4328"
 }
 
+@TechReport{itlpkra,
+  author       = "Krzystof~R. Apt",
+  title        = "Introduction to Logic Programming",
+  institution  = dcs # uta,
+  year         = 1897,
+  number       = "TR-87-35",
+  address      = atx,
+  month        = sep,
+  keywords     = "logic programming, proof theory, semantics, computability,
+    negative information, general goals"
+}
+
 @InProceedings{eyawtkasbwata,
   author       = "David, Tudor and Guerraoui, Rachid and Trigonakis, Vasileios",
   title        = "Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask",
