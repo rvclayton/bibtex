@@ -2566,6 +2566,29 @@
   location     = "http://dx.doi.org/10.1145/356628.356629"
 }
 
+@Article{nlpafs,
+  author       = "Collobert, Ronan and Weston, Jason and Bottou, L{\' e}on and Karlen, Michael and Kavukcuoglu, Koray and Kuksa, Pavel",
+  title        = "Natural Language Processing (almost) from Scratch",
+  journal      = "The Journal of Machine Learning Research",
+  year         = 2011,
+  volume       = 12,
+  pages        = "2493--2537",
+  month        = aug,
+  keywords     = "natural language processing, neural networks, deep learning,
+    part-of-speech tagging, chunking, semantic role labeling, feature vectors,
+    tagging scheme, training, feature extraction, unlabeled data",
+  abstract     = "We propose a unified neural network architecture and learning
+    algorithm that can be applied to various natural language processing tasks
+    including part-of-speech tagging, chunking, named entity recognition, and
+    semantic role labeling.  This versatility is achieved by trying to avoid
+    task-specific engineering and therefore disregarding a lot of prior
+    knowledge.  Instead of exploiting man-made input features carefully
+    optimized for each task, our system learns internal representations on the
+    basis of vast amounts of mostly unlabeled training data.  This work is then
+    used as a basis for building a freely available tagging system with good
+    performance and minimal computational requirements." 
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
