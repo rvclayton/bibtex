@@ -3214,6 +3214,16 @@
   location     = "TA 418.74.W35"
 }
 
+@Book{maadad,
+  author       = "Thomas Aiello",
+  title        = "Model Airplanes are Decadent and Depraved",
+  publisher    = "NIU Press",
+  year         = 2015,
+  address      = "DeKalb, Illinois",
+  keywords     = "drug addiction, moral panics, glue sniffing, moral panics",
+  location     = "HV 5822.G4 A44"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
