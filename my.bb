@@ -2589,6 +2589,41 @@
     performance and minimal computational requirements." 
 }
 
+@Article{moichwml,
+  author       = "Stephenson, Mark and Amarasinghe, Saman and Martin, Martin and O'Reilly, Una-May",
+  title        = "Meta Optimization:  Improving compiler Heuristics with Machine Learning",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation, PLDI '03)",
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "77--90",
+  month        = may,
+  keywords     = "machine learning, priority functions, generic programming,
+    compiler heruistics",
+  abstract     = "Compiler writers have crafted many heuristics over the years
+    to approximately solve NP-hard problems efficiently.  Finding a heuristic
+    that performs well on a broad range of applications is a tedious and
+    difficult process.  This paper introduces Meta Optimization, a methodology
+    for automatically fine-tuning compiler heuristics.  Meta Optimization uses
+    machine-learning techniques to automatically search the space of compiler
+    heuristics.  Our techniques reduce compiler design complexity by relieving
+    compiler writers of the tedium of heuristic tuning.  Our machine-learning
+    system uses an evolutionary algorithm to automatically find effective
+    compiler heuristics.  We present promising experimental results.  In one
+    mode of operation Meta Optimization creates application-specific heuristics
+    which often result in impressive speedups.  For hyperblock formation, one
+    optimization we present in this paper, we obtain an average speedup of 23%
+    (up to 73%) for the applications in our suite.  Furthermore, by evolving a
+    compiler's heuristic over several benchmarks, we can create effective,
+    general-purpose heuristics.  The best general-purpose heuristic our system
+    found for hyperblock formation improved performance by an average of 25% on
+    our training set, and 9% on a completely unrelated test set.  We
+    demonstrate the efficacy of our techniques on three different optimizations
+    in this paper: hyperblock formation, register allocation, and data
+    prefetching.", 
+  location     = "http://groups.csail.mit.edu/commit/papers/03/metaopt-pldi.pdf"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
