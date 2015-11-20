@@ -1906,6 +1906,7 @@ message driven programming system for fine grain multicomputers : maskit
 message passing between sequential processes the reply primitive and the administrator concept : gentelman
 messaging technologies compared : olson
 meta ii a syntax oriented compiler writing language : schorre
+meta optimization improving compiler heuristics with machine learning : stephenson
 meta programming a software production method : simonyi
 meta programming tools for ml : sheard
 metadata the mac and you : siracusa
