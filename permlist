@@ -2310,6 +2310,7 @@ producing an accurate call stack trace in the occasional absence of frame pointe
 productivity incentive clauses and rate adjustment for inflation : baumol
 profile guided automatic inline expansion for c programs : chang
 profiling for performance : newcomer
+program abstraction and instantiation : dershowitz
 program comprehension : rugaber
 program comprehension workshop notes : rajlich
 program development under inferno : peppe
