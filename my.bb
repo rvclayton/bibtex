@@ -3259,6 +3259,16 @@
   location     = "HV 5822.G4 A44"
 }
 
+@Book{gfwm,
+  author       = "Walter Mosley",
+  title        = "Gone Fishin'",
+  publisher    = "Black Classic Press",
+  year         = 1997,
+  address      = "Baltimore, Maryland",
+  keywords     = "impetuous youth",
+  location     = "PS 3563.O88r56 G66"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
