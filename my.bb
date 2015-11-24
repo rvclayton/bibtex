@@ -2624,6 +2624,40 @@
   location     = "http://groups.csail.mit.edu/commit/papers/03/metaopt-pldi.pdf"
 }
 
+@Article{paai,
+  author       = "Dershowitz, Nachum",
+  title        = "Program Abstraction and Instantiation",
+  journal      = toplas,
+  year         = 1985,
+  volume       = 7,
+  number       = 3,
+  pages        = "446--477",
+  month        = jul,
+  keywords     = "verification, abstraction, analogy, instantiation, program
+    schemas, correctness proofs, axiomatic semantics",
+  abstract     = "Our goal is to develop formal methods for abstracting a given
+    set of programs into a program schema and for instantiating a given schema
+    to satisfy concrete specifications.  Abstraction and instantiation are two
+    important phases in software development which allow programmers to apply
+    knowledge learned in the solutions of past problems when faced with new
+    situations.  For example, from two programs using a linear (or binary)
+    search technique, an abstract schema can be derived that embodies the
+    shared idea and that can be instantiated to solve similar new problems.
+    Along similar lines, the development and application of program
+    transformations are considered.  We suggest the formulation of analogies as
+    a basic tool in program abstraction.  An analogy is first sought between
+    the specifications of the given programs; this yields an abstract
+    specification that may be instantiated to any of the given concrete
+    specifications.  The analogy is then used as a basis for transforming the
+    existing programs into an abstract schema that represents the embedded
+    technique, with the invariant assertions and correctness proofs of the
+    given programs helping to verify and complete the analogy.  A given
+    concrete specification of a new problem may then be compared with the
+    abstract specification of the schema to suggest an instantiation of the
+    schema that yields a correct program.", 
+  location     = "http://dx.doi.org/10.1145/3916.3986"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3267,6 +3301,16 @@
   address      = "Baltimore, Maryland",
   keywords     = "impetuous youth",
   location     = "PS 3563.O88r56 G66"
+}
+
+@Book{cmaos,
+  author       = "Elmore Leonard",
+  title        = "Charlie Martz and Other Stories",
+  publisher    = "William Morrow",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "a man alone",
+  location     = "PS 3562.E55 A6 2015"
 }
 
 @InBook{lphoor,
