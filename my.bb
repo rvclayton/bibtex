@@ -2658,6 +2658,29 @@
   location     = "http://dx.doi.org/10.1145/3916.3986"
 }
 
+@Article{bstafo,
+  author       = "Nievergelt, J.",
+  title        = "Binary Search Trees and File Organization",
+  journal      = surveys,
+  year         = 1974,
+  volume       = 6,
+  number       = 3,
+  pages        = "195--207",
+  month        = sep,
+  keywords     = "Search, search tree, search time, binary search tree, optimal
+    tree, balanced tree, height-balance, weight-balance, file, static file,
+    dynamic file, file organization, file processing, restructuring of file,
+    random access, sequential access, access frequencies", 
+  abstract     = "Binary search trees are an important technique for organizing
+    large files because they are efficient for both random and sequential
+    access of records, and for modification of a file.  Because of this, they
+    have received a great deal of attention in recent years, and their
+    properties are now better understood than those of most other file
+    organization methods.  This paper surveys the main results which have been
+    obtained.", 
+  location     = "http://dx.doi.org/10.1145/356631.356634"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
