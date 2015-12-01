@@ -2681,6 +2681,33 @@
   location     = "http://dx.doi.org/10.1145/356631.356634"
 }
 
+@Article{ccdasmp,
+  author       = "Gill, Geoffrey~K. and Kemerer, Chris~F.",
+  title        = "Cyclomatic Complexity Density and Software Maintenance Productivity",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 12,
+  pages        = "1284--1288",
+  month        = dec,
+  keywords     = "management, measurement, performance, software productivity,
+    software maintenance, software complexity, mccabe metrics, cyclomatic
+    complexity",
+  abstract     = "A study of the relationship between the cyclomatic complexity
+    metric (T.  McCabe, 1976) and software maintenance productivity, given that
+    a metric that measures complexity should prove to be a useful predictor of
+    maintenance costs, is reported.  The cyclomatic complexity metric is a
+    measure of the maximum number of linearly independent circuits in a program
+    control graph.  The current research validates previously raised concerns
+    about the metric on a new data set.  However, a simple transformation of
+    the metric is investigated whereby the cyclomatic complexity is divided by
+    the size of the system in source statements.  thereby determining a
+    complexity density ratio.  This complexity density ratio is demonstrated to
+    be a useful predictor of software maintenance productivity on a small pilot
+    sample of maintenance projects.", 
+  location     = "http://dx.doi.org/10.1109/32.106988"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3440,6 +3467,8 @@
   author       = "Jeremiah Blocki and Manuel Blum and Anupam Datta and Santosh Vempala",
   title        = "Human Computable Passwords",
   year         = 2014,
+  institution  = "arXiv",
+  number       = "1404.0024v3",
   month        = oct,
   keywords     = "passwords, human authentication, planned satisfiability,
     statistical algorithms, statistical dimension",
