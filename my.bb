@@ -3363,6 +3363,16 @@
   location     = "PS 3562.E55 A6 2015"
 }
 
+@Book{lgwm,
+  author       = "Walter Mosley",
+  title        = "Little Green",
+  publisher    = "Doubleday",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "brains on drugs, murrdaar",
+  location     = "PS 3563.O88456 L44"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
