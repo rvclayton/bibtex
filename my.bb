@@ -2708,6 +2708,38 @@
   location     = "http://dx.doi.org/10.1109/32.106988"
 }
 
+@Article{citrw,
+  author       = "Condit, Jeremy and Harren, Matthew and McPeak, Scott and Necula, George~C. and Weimer, Westley",
+  title        = "{CCured} in the Real World",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation, PLDI '03)",
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "232--244",
+  month        = may,
+  keywords     = "reliability, experimentation, security, languages, type
+  safety, memory safety, c, run-time type information, library compatibility",
+  abstract     = "CCured is a program transformation system that adds memory
+    safety guarantees to C programs by verifying statically that memory errors
+    cannot occur and by inserting run-time checks where static verification is
+    insufficient.This paper addresses major usability issues in a previous
+    version of CCured, in which many type casts required the use of pointers
+    whose representation was expensive and incompatible with precompiled
+    libraries.  We have extended the CCured type inference algorithm to
+    recognize and verify statically a large number of type casts; this goal is
+    achieved by using physical subtyping and pointers with run-time type
+    information to allow parametric and subtype polymorphism.  In addition, we
+    present a new instrumentation scheme that splits CCured's metadata into a
+    separate data structure whose shape mirrors that of the original user data.
+    This scheme allows instrumented programs to invoke external functions
+    directly on the program's data without the use of a wrapper function.With
+    these extensions we were able to use CCured on real-world security-critical
+    network daemons and to produce instrumented versions without memory-safety
+    vulnerabilities.", 
+  location     = "http://www.cs.berkeley.edu/~necula/Papers/ccured_pldi03.pdf",
+  location     = "http://dx.doi.org/10.1145/780822.781157"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
