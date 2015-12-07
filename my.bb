@@ -2740,6 +2740,32 @@
   location     = "http://dx.doi.org/10.1145/780822.781157"
 }
 
+@Article{aaocswtcet,
+  author       = "Avrunin, George~S. and Buy, Ugo~A. and Corbett, James~C. and Dillon, Laura~K. and Wileden, Jack~C.",
+  title        = "Automated Analysis of Concurrent Systems With the Constrained Expression Toolset",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 11,
+  pages        = "1204--1222",
+  month        = nov,
+  keywords     = "concurrent systems, automated analysis, analysis tools,
+    experimental evaluation, toolset performance, constrained expressions,
+    formal methods, event-based model",
+  abstract     = "The constrained expression approach to analysis of concurrent
+    software systems can be used with a variety of design and programming
+    languages and does not require a complete enumeration of the set of
+    reachable states of the concurrent system.  The construction of a toolset
+    automating the main constrained expression analysis techniques and the
+    results of experiments with that toolset are reported.  The toolset is
+    capable of carrying out completely automated analyses of a variety of
+    concurrent systems, starting from source code in an Ada-like design
+    language and producing system traces displaying the properties represented
+    bv the analysts queries.  The strengths and weaknesses of the toolset and
+    the approach are assessed on both theoretical and empirical grounds.", 
+  location     = "http://dx.doi.org/10.1109/32.106975"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
