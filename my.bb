@@ -3405,6 +3405,16 @@
   location     = "PS 3563.O88456 L44"
 }
 
+@Book{desa,
+  author       = "Harvey~G. Cohen",
+  title        = "Duke Ellington's America",
+  publisher    = ucp,
+  year         = 2010,
+  address      = chil,
+  keywords     = "jazz, duke ellington",
+  location     = "ML 410.E44 C56"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
