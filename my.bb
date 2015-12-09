@@ -2766,6 +2766,31 @@
   location     = "http://dx.doi.org/10.1109/32.106975"
 }
 
+@Article{fpadai,
+  author       = "Charles~R. Symons",
+  title        = "Function Point Analysis:  Difficulties and Improvements",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "2--11",
+  month        = jan,
+  keywords     = "complexity, estimating, function points maintenance,
+    productivity, system development",
+  abstract     = "The method of function point analysis was developed by A.  J.
+    Albrecht (1979) to help measure the size of a computerized business
+    information system.  Such sizes are needed as a component of the
+    measurement of productivity in system development and maintenance
+    activities, and as a component of estimating the effort needed for such
+    activities.  Close examination of the method shows certain weaknesses, and
+    the author proposes a partial alternative.  A description is given of the
+    principles of this Mark II approach.  The results are presented of some
+    measurements of actual systems to calibrate the Mark II approach, and
+    conclusions are drawn on the validity and applicability of function point
+    analysis generally.", 
+  location     = "http://dx.doi.org/10.1109/32.4618"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
