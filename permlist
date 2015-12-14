@@ -1473,6 +1473,7 @@ hardware synthesis from term rewriting systems : hoe
 hardware software tradeoffs for increased performance : hennessy
 hardwarec a language for hardware design : ku
 harts a distributed real time architecture : shin
+hash table methods : maurer
 hash tables : morin
 hash tables for the standard library : austern
 hashed and hierarchical timing wheels data structures for the efficient implementation of a timer facility : varghese
