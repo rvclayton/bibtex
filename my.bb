@@ -2791,6 +2791,30 @@
   location     = "http://dx.doi.org/10.1109/32.4618"
 }
 
+@Article{htm,
+  author       = "Maurer, W.~D. and Lewis, T.~G.",
+  title        = "Hash Table Methods",
+  journal      = surveys,
+  year         = 1975,
+  volume       = 7,
+  number       = 1,
+  pages        = "5--19",
+  month        = mar,
+  keywords     = "hash code, hashing function, randomizing technique,
+    key-to-address transform, hash table, scatter storage, searching, symbol
+    table, file systems, file search, bucket, collision, synonyms",
+  abstract     = "This is a tutorial survey of hash table methods, chiefly
+    intended for programmers and students of programming who are encountering
+    the subject for the first time.  The better-known methods of calculating
+    hash addresses and of handling collisions and bucket overflow are presented
+    and compared.  It is shown that under certain conditions we can guarantee
+    that no two items belonging to a certain class will have the same hash
+    code, thus providing an improvement over the usual notion of a hash code as
+    a randomizing technique.  Several alternatives to hashing are discussed,
+    and suggestions are made for further research and further development.", 
+  location     = "http://dx.doi.org/10.1145/356643.356645"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
