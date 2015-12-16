@@ -2815,6 +2815,31 @@
   location     = "http://dx.doi.org/10.1145/356643.356645"
 }
 
+@Article{spdrgd,
+  author       = "R.~Geoff Dromey",
+  title        = "Systematic Program Development",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "12--29",
+  month        = jan,
+  keywords     = "constructive program proof, formal specifications,
+    goal-oriented programming, invariants, post-conditions, program derivation,
+    top-down refinement, weakest preconditions",
+  abstract     = "A constructive method of program development is presented.
+    It is based on a simple strategy for problem decomposition that is claimed
+    to be more supportive of goal-oriented programming than the Wirth-Dijkstra
+    top-down refinement method.  With the proposed method, a program is
+    developed by making a sequence of refinements, each of which can establish
+    the postcondition for a corresponding sequence of progressively weaker
+    preconditions until a mechanism has been composed that will establish the
+    postcondition for the original given precondition for the problem.  The
+    strategy can minimize case analysis, simplify constructive program proofs,
+    and ensure a correspondence between program structure and data structure.",
+  location     = "http://dx.doi.org/10.1109/32.4619"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3488,6 +3513,16 @@
   address      = chil,
   keywords     = "jazz, duke ellington",
   location     = "ML 410.E44 C56"
+}
+
+@Book{lmsss,
+  author       = "Walter Mosley",
+  title        = "Love Machine\slash{}Stepping Stone",
+  publisher    = "Tor",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "the hive mind, humans are a virus from outer space",
+  location     = "PS 3563.O88456 S74"
 }
 
 @InBook{lphoor,
