@@ -3525,6 +3525,16 @@
   location     = "PS 3563.O88456 S74"
 }
 
+@Book{msdwm,
+  author       = "Walter Mosley",
+  title        = "Merge\slash{}Disciple",
+  publisher    = "Tor",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "sticks from outer space, friends in strange places",
+  location     = "PS 3563.O88456 M47"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
