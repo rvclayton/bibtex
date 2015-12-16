@@ -20363,22 +20363,6 @@
   location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.15.pdf"
 }
 
-@Article{spd,
-  author       = "R.~Geoff Dromey",
-  title        = "Systematic Program Development",
-  journal      = tse,
-  year         = 1988,
-  volume       = 14,
-  number       = 1,
-  pages        = "12--29",
-  month        = jan,
-  keywords     = "constructive program proof, formal specifications,
-		  goal-oriented programming, invariants, postconditions,
-		  program derivation, top-down refinement, weakest
-		  preconditions",
-  location     = "TK 7885.A1 I15X"
-}
-
 @Article{tulcwtd,
   author       = "Joe Bergin",
   title        = "The Undergraduate Language Course:  What to Do?",
