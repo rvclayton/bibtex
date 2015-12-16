@@ -2840,6 +2840,27 @@
   location     = "http://dx.doi.org/10.1109/32.4619"
 }
 
+@Article{rarpcmsodak,
+  author       = "Panzieri, Fabio and Shrivastava, Santosh~K.",
+  title        = "Rajdoot:  {A} Remote Procedure Call Mechanism Supporting Orphan Detection and Killing",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "30--37",
+  month        = jan,
+  keywords     = "distributed systems, fault tolerance, interprocess
+    communication, network protocols, remote procedure calls",
+  abstract     = "Rajdoot is a remote procedure call (RPC) mechanism with a 
+    number of fault tolerance capabilities.  A discussion is presented of the
+    reliability-related issues and how these issues have been dealt with in the
+    RPC design.  Rajdoot supports exactly-once semantics with call nesting
+    capability, and incorporates effective measures for orphan detection and
+    killing.  Performance figures show that the reliability measures of Rajdoot
+    impose little overhead.", 
+  location     = "http://dx.doi.org/10.1109/32.4620"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
