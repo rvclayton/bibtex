@@ -2407,6 +2407,7 @@ quinault an office modeling system : nutt
 r++ adding path base rules to c++ : crawford
 r++ using rules in object oriented designs : mishra
 rafts for basic blocks a progress report on forth native code compilation : ertl
+rajdoot a remote procedure call mechanism supporting orphan detection and killing : panzieri
 ram guide part 1 dram and sram basics : stokes
 random early detection gateways for congestion avoidance : floyd
 random event simulation for c programs : scolnick
