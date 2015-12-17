@@ -3556,6 +3556,16 @@
   location     = "PS 3563.O88456 M47"
 }
 
+@Book{crjg,
+  author       = "Julian Gamble",
+  title        = "Clojure Recipes",
+  publisher    = "Addison-Wesley",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "clojure, leningen, java, rest, jason",
+  location     = "QA 76.73 C566 G36"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
