@@ -2861,6 +2861,47 @@
   location     = "http://dx.doi.org/10.1109/32.4620"
 }
 
+@Article{umlctcfpc,
+  author       = "Chou, Andy and Chelf, Benjamin and Engler, Dawson and Heinrich, Mark",
+  title        = "Using Meta-level Compilation to Check {FLASH} Protocol Code",
+  journal      = sigplan # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS IX))",
+  year         = 2000,
+  volume       = 34,
+  number       = 5,
+  pages        = "59--70",
+  month        = dec,
+  keywords     = "protocol verification, meta-compilation, state machines, path
+    analysis, ",
+  abstract     = "Building systems such as OS kernels and embedded software is
+    difficult.  An important source of this difficulty is the numerous rules
+    they must obey: interrupts cannot be disabled for ~too long, global
+    variables must be protected by locks, user pointers passed to OS code must
+    be checked for safety before use, etc.  A single violation can crash the
+    system, yet typically these invariants are unchecked, existing only on
+    paper or in the implementor's mind.This paper is a case study in how system
+    implementors can use a new programming methodology, meta-level compilation
+    (MC), to easily check such invariants.  It focuses on using MC to check for
+    errors in the code used to manage cache coherence on the FLASH shared
+    memory multiprocessor.  The only real practical method known for verifying
+    such code is testing and simulation.  We show that simple, system-specific
+    checkers can dramatically improve this situation by statically pinpointing
+    errors in the program source.  These checkers can be written by
+    implementors themselves and, by exploiting the system-specific information
+    this allows, can detect errors unreachable with other methods.  The
+    checkers in this paper found 34 bugs in FLASH code despite the care used in
+    building it and the years of testing it has undergone.  Many of these
+    errors fall in the worst category of systems bugs: those that show up
+    sporadically only after days of continuous use.  The case study is
+    interesting because it shows that the MC approach finds serious errors in
+    well-tested, non-toy systems code.  Further, the code to find such bugs is
+    usually 10-100 lines long, written in a few hours, and exactly locates
+    errors that, if discovered during testing, would require several days of
+    investigation by an experienced implementor.The paper presents 8 checkers
+    we wrote, their application to five different protocol implementations, and
+    a discussion of the errors that we found.", 
+  location     = "http://dx.doi.org/10.1145/378993.379002"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3564,6 +3605,16 @@
   address      = nyny,
   keywords     = "clojure, leningen, java, rest, jason",
   location     = "QA 76.73 C566 G36"
+}
+
+@Book{arlf,
+  author       = "Robin Lane Fox",
+  title        = "Augustine",
+  publisher    = "Basic Books",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "augustine, early christianity, schisms, dear god",
+  location     = ""
 }
 
 @InBook{lphoor,
