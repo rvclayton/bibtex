@@ -3617,6 +3617,17 @@
   location     = ""
 }
 
+@Book{tpdy,
+  author       = "Daniel Yergin",
+  title        = "The Prize",
+  publisher    = "Simon \& Schuster",
+  year         = 1991,
+  address      = nyny,
+  keywords     = "oil, economic development, international relations,
+    politics",
+  location     = "HD 9560.6.Y47"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
