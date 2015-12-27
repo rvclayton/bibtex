@@ -2902,6 +2902,42 @@
   location     = "http://dx.doi.org/10.1145/378993.379002"
 }
 
+@Article{ccnaoapc,
+  author       = "Kimbleton, Stephen~R. and Schneider, G.~Michael",
+  title        = "Computer Communication Networks:  Approaches, Objectives, and Performance Considerations",
+  journal      = surveys,
+  year         = 1975,
+  volume       = 7,
+  number       = 3,
+  pages        = "129--173",
+  month        = sep,
+  keywords     = "computer networks, packet switching, line switching, circuit
+    switching, value-added networks, remote-access networks, terminal-access
+    networks, mission-oriented networks, data transmission, message switching,
+    routing algorithms, protocols, network topology, distributed data bases,
+    job migration, network applications", 
+  abstract     = "Computer communication networks is a subject of increasing
+    interest.  Although a variety of surveys have appeared which describe
+    network alternatives and explain far-reaching technological possibilities
+    achievable with networking, effective network utilization requires an
+    understanding of network functional components and their interactions.
+    Describing these issues is the objective of this paper.  To do this, the
+    three basic network sharing alternatives are first identified.  For those
+    two which involve host/host communication, the basic traffic types are
+    discussed.  The communications alternatives are then detailed and a
+    hypothesis is advanced that the packet-switched networks provide the most
+    appropriate technology for supporting multimodal traffic between hosts.
+    Consequently, a careful examination of the functional components of the
+    packet switch is provided This provides a basis for describing factors
+    which must be considered in implementing a packet-switched subnetwork.
+    Additional issues which should be considered when several hosts and,
+    perhaps, the communications subnetwork are under the control of a single
+    administrative organization are then discussed.  The paper concludes with a
+    description of three networking examples and an identification of areas for
+    future research.",
+  location     = "http://dx.doi.org/10.1145/356651.356653"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -3626,6 +3662,17 @@
   keywords     = "oil, economic development, international relations,
     politics",
   location     = "HD 9560.6.Y47"
+}
+
+@Book{hacbph,
+  author       = "Brian~P. Hogan",
+  title        = "{HTML5} and {CSS3}",
+  publisher    = "The Pragmatic Bookshelf",
+  year         = 2013,
+  address      = "Dallas, Texas",
+  keywords     = "html5, css3, interactivity, accessibility, data storage,
+    multimedia",
+  location     = "QA76.76.H94 H617"
 }
 
 @InBook{lphoor,
