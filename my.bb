@@ -3675,6 +3675,17 @@
   location     = "QA76.76.H94 H617"
 }
 
+@Book{dwacd,
+  author       = "Arthur Conan Doyle",
+  title        = "Dangerous Work",
+  publisher    = ucp,
+  year         = 2012,
+  editor       = "Jon Lellenberg and Daniel Stashower",
+  address      = chil,
+  keywords     = "whaling, conan doyle, seafaring",
+  location     = "PR 4623.A415 2012"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
