@@ -2938,6 +2938,31 @@
   location     = "http://dx.doi.org/10.1145/356651.356653"
 }
 
+@Article{cistcae,
+  author       = "Anderson, George~A. and Jensen, E.~Douglas",
+  title        = "Computer Interconnection Structures: Taxonomy, Characteristics, and Examples",
+  journal      = surveys,
+  year         = 1975,
+  volume       = 7,
+  number       = 4,
+  pages        = "197--213",
+  month        = dec,
+  keywords     = "communication network structures, taxonomy, network design,
+    distributed processing, distributed computers, multiprocessors,
+    multicomputer bus structures, computer networks",
+  abstract     = "This paper presents a taxonomy, or naming scheme, for systems
+    of interconnected computers.  It is an attempt to provide an
+    implementation-independent method by which to identify deigns, and a common
+    context in which to discuss them.  The taxonomy is based on interprocessor
+    message handling and hardware interconnection topology, and distinguishes
+    ten basic multiple-computer architectures.  Various relevant attributes are
+    identified and discussed, and examples of actual designs are given for each
+    architecture.  Keywords and Phrases: distributed processing, distributed
+    computers, multiprocessors, multicomputers bus structures, computer
+    networks.", 
+  location     = "http://dx.doi.org/10.1145/356654.356658"
+}
+
 @Book{natrbp,
   author       = "Rober~B. Parker",
   title        = "Now and Then",
@@ -4003,5 +4028,16 @@
   year         = 2001,
   keywords     = "testing, multiple-choice questions",
   location     = "https://testing.byu.edu/handbooks/14%20Rules%20for%20Writing%20Multiple-Choice%20Questions.pdf"
+}
+
+@Misc{tloa,
+  author       = "Bret Victor",
+  title        = "The Ladder of Abstraction",
+  howpublished = "Web page",
+  year         = 2011,
+  month        = oct,
+  keywords     = "abstraction, design, experimentation, visualization,
+    exploration",
+  location     = "http://worrydream.com/LadderOfAbstraction/"
 }
 
