@@ -3711,6 +3711,17 @@
   location     = "PR 4623.A415 2012"
 }
 
+@Book{httskwllskwt,
+  author       = "Adele Farber and Elaine Mazlish",
+  title        = "How to Talk So Kids Will Listen \& Listen So Kids Will Talk",
+  publisher    = "Scribner",
+  year         = 2012,
+  address      = nyny,
+  edition      = "second",
+  keywords     = "communication, parenting, listening",
+  location     = "HQ 755.8 F3"
+}
+
 @InBook{lphoor,
   author       = "Hamdy~A. Taha",
   title        = "Handbook of Operations Research",
