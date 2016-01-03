@@ -269,7 +269,7 @@
 @string{upp     = upenn # " Press"}
 @string{uril    = " Urbana, " # IL}
 @string{ustra   = " University of Strathclyde"}
-@string{uta	= " The University of Texas"}
+@string{uta	= " University of Texas"}
 @string{utam	= " University of Tampere"}
 @string{utaz    = " University of Tazmania"}
 @string{utor    = " University of Toronto"}
