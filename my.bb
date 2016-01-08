@@ -82,3 +82,24 @@
   location     = "PS 3563.O88456 G54"
 }
 
+@Book{fscssbbesg,
+  author       = "Simon Goldhill",
+  title        = "Freud's Couch, Scott's Buttocks, Bront{\" e}'s Grave",
+  publisher    = ucp,
+  year         = 2011,
+  address      = chil,
+  keywords     = "scott, wordsworth, bronte, shakespere, freud, pilgrimages,
+    victorians, writer's houses",
+  location     = "PR 110.G7 G65"
+}
+
+@Book{tyematen,
+  author       = "Salman Rushdie",
+  title        = "Two Years Eight Months and Twenty-Eight Nights",
+  publisher    = "Random House",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "magic, genies, conflict, miscegenation",
+  location     = "PR 6068.U757 T96"
+}
+
