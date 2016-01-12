@@ -89,7 +89,7 @@
   location     = "http://dx.doi.org/10.1145/24039.24071"
 }
 
-@Article{tcoas,
+@Article{tcoas86,
   author       = "Turchin, Valentin~F.",
   title        = "The Concept of a Supercompiler",
   journal      = toplas,
@@ -157,5 +157,16 @@
   address      = nyny,
   keywords     = "magic, genies, conflict, miscegenation",
   location     = "PR 6068.U757 T96"
+}
+
+@Book{tfas,
+  author       = "Daniel Kahneman",
+  title        = "Thinking, Fast and Slow",
+  publisher    = fsg,
+  year         = 2011,
+  address      = nyny,
+  keywords     = "cognition, judgment, reasoning, decision making, risk
+    analysis", 
+  location     = "BF 441 K238"
 }
 
