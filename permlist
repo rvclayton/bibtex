@@ -152,6 +152,7 @@ a method for analyzing loop programs : waters
 a methodology for building application specific visualizations of parallel programs : stasko
 a methodology for implementing highly concurrent data objects : herlihy
 a methodology for procedure cloning : cooper
+a methodology for synthesis of recursive functional programs : banerjee
 a micro manual for lisp not the whole truth : mccarthy
 a micromodularity mechanism : jackson
 a microprocessor based implantable telemetry system : fernald
@@ -2955,6 +2956,7 @@ the challenge for incentive regulation : barnich
 the chief architects reflection on symbol iir : rice
 the clouds distributed operating system : dasgupta
 the composition of semantics in algol 68 : branquart
+the concept of a supercompiler : turchin
 the concert signature representation idl as an intermediate language : auerbauch
 the conservative nanny state : baker
 the construction of software systems using domain specific reuse infrastructures : debaud
