@@ -62,6 +62,62 @@
   location     = "http://dx.doi.org/10.1145/384264.379004"
 }
 
+@Article{amfsorfp,
+  author       = "Banerjee, Debasish",
+  title        = "{A} Methodology for Synthesis of Recursive Functional Programs",
+  journal      = toplas,
+  year         = 1987,
+  volume       = 9,
+  number       = 3,
+  pages        = "441--462",
+  month        = jul,
+  keywords     = "programming from example, fp systems, least fixed point,
+    recursive programs, program transformation",
+  abstract     = "John Backus introduced the Functional Programming (FP)
+    system, the variable-free applicative system having reduction semantics.
+    Backus has also introduced a unique expansion technique for reasoning about
+    a class of recursive FP programs.  As a natural outgrowth of this expansion
+    technique, an FP program synthesis methodology is described in this paper.
+    The methodology synthesizes recursive FP programs of the form f = p →, q;
+    E(f .  h) from their preformulated case-by-case descriptions, which in turn
+    come from given input-output example specifications.  After explaining the
+    methodology informally, formalization in the form of a definition and a
+    synthesis theorem is introduced.  A sufficient condition for the functional
+    form E, for successful synthesis under the present methodology, is obtained
+    structurally.  Several illustrative examples of synthesis are also
+    included.", 
+  location     = "http://dx.doi.org/10.1145/24039.24071"
+}
+
+@Article{tcoas,
+  author       = "Turchin, Valentin~F.",
+  title        = "The Concept of a Supercompiler",
+  journal      = toplas,
+  year         = 1986,
+  volume       = 8,
+  number       = 3,
+  pages        = "292--325",
+  month        = jul,
+  keywords     = "program transformation, lazy evaluation, rafel, metasystem
+  transition, program optimization, supercompilation, prolog",
+  abstract     = "A supercompiler is a program transformer of a certain type.
+    It traces the possible generalized histories of computation by the original
+    program, and compiles an equivalent program, reducing in the process the
+    redundancy that could be present in the original program.  The nature of
+    the redundancy that can be eliminated by supercompilation may be various,
+    e.g., some variables might have predefined values (as in partial
+    evaluation), or the structure of control transfer could be made more
+    efficient (as in lazy evaluation), or it could simply be the fact that the
+    same variable is used more than once.  The general principles of
+    supercompilation are described and compared with the usual approach to
+    program transformation as a stepwise application of a number of equivalence
+    rules.  It is argued that the language Refal serves the needs of
+    supercompilation best.  Refal is formally defined and compared with Prolog
+    and other languages.  Examples are given of the operation of a Refal
+    supercompiler implemented at CCNY on an IBM/370.", 
+  location     = "http://dx.doi.org/10.1145/5956.5957"
+}
+
 @Book{tlwmg,
   author       = "Martha Grimes",
   title        = "The Lamorna Wink",
