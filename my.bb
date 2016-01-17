@@ -193,3 +193,13 @@
   location     = "BF 441 K238"
 }
 
+@Book{spetdg,
+  author       = "Philip~E. Tetlock and Dan Gardner",
+  title        = "Superforecasters",
+  publisher    = "Crown",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "forecasting, estimation, predictions, reasoning",
+  location     = "HB 3730 T47"
+}
+
