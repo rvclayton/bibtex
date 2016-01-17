@@ -118,6 +118,29 @@
   location     = "http://dx.doi.org/10.1145/5956.5957"
 }
 
+@Article{tgocp,
+  author       = "Carson, Scott~D. and {Reynolds, Jr.}, Paul~F.",
+  title        = "The Geometry of Concurrent Programs",
+  journal      = toplas,
+  year         = 1987,
+  volume       = 9,
+  number       = 1,
+  pages        = "25--53",
+  month        = jan,
+  keywords     = "deadlock detection, semaphore properties",
+  abstract     = "Synchronization errors in concurrent programs are notoriously
+    difficult to find and correct.  Deadlock, partial deadlock, and unsafeness
+    are conditions that constitute such errors.  A model of concurrent
+    semaphore programs based on multidimensional, solid geometry is presented.
+    While previously reported geometric models are restricted to two-process
+    mutual exclusion problems, the model described here applies to a broader
+    class of synchronization problems.  The model is shown to be exact for
+    systems composed of an arbitrary, yet fixed number of concurrent processes,
+    each consisting of a straight line sequence of arbitrarily ordered
+    semaphore operations.", 
+  location     = "http://dx.doi.org/10.1145/9758.9759"
+}
+
 @Book{tlwmg,
   author       = "Martha Grimes",
   title        = "The Lamorna Wink",
