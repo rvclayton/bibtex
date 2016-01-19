@@ -203,3 +203,13 @@
   location     = "HB 3730 T47"
 }
 
+@Book{trmwm,
+  author       = "Walter Mosley",
+  title        = "The Right Mistake",
+  publisher    = "Basic Books",
+  year         = 2008,
+  address      = nyny,
+  keywords     = "bootstrappin'",
+  location     = "PS 3563.O88456 R48"
+}
+
