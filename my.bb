@@ -213,3 +213,12 @@
   location     = "PS 3563.O88456 R48"
 }
 
+@Book{ttpl,
+  author       = "Richard~C. Holt and Philip~A. Matthews and J.~Alan Rosselet and James~R. Cordy",
+  title        = "The Turing Programming Language",
+  publisher    = pw,
+  year         = 1988,
+  address      = ecnj,
+  keywords     = "turing, programming language"
+}
+
