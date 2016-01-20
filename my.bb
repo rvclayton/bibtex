@@ -141,6 +141,28 @@
   location     = "http://dx.doi.org/10.1145/9758.9759"
 }
 
+@Article{eodbms,
+  author       = "Fry, James~P. and Sibley, Edgar~H.",
+  title        = "Evolution of Data-Base Management Systems",
+  journal      = surveys,
+  year         = 1976,
+  volume       = 8,
+  number       = 1,
+  pages        = "7--42",
+  month        = mar,
+  keywords     = "database management, distributed databases, special-purpose
+    languages, standards, data definition", 
+  abstract     = "This paper deals with the history and definitions common to 
+    data-base technology.  It delimits the objectives of data-base management
+    systems, discusses important concepts, and defines terminology for use by
+    other papers in this issue, traces the development of data-base systems
+    methodology, gives a uniform example, and presents some trends and issues.
+    Keywords and Phrases: data base, data-base management, data definition,
+    data manipulation, generalized processing, data model, data independence,
+    distributed data base, data-base machines, data dictionary", 
+  location     = "http://dx.doi.org/10.1145/356662.356664"
+}
+
 @Book{tlwmg,
   author       = "Martha Grimes",
   title        = "The Lamorna Wink",
@@ -216,7 +238,7 @@
 @Book{ttpl,
   author       = "Richard~C. Holt and Philip~A. Matthews and J.~Alan Rosselet and James~R. Cordy",
   title        = "The Turing Programming Language",
-  publisher    = pw,
+  publisher    = ph,
   year         = 1988,
   address      = ecnj,
   keywords     = "turing, programming language"
