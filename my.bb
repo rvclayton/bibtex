@@ -163,6 +163,16 @@
   location     = "http://dx.doi.org/10.1145/356662.356664"
 }
 
+@Book{taeff,
+  author       = "Frederick Franck",
+  title        = "The Awakened Eye",
+  publisher    = "Knopf",
+  year         = 1979,
+  address      = nyny,
+  keywords     = "drawing, zen, looking and seeing",
+  location     = "NC 139.F72 A4"
+}
+
 @Book{tlwmg,
   author       = "Martha Grimes",
   title        = "The Lamorna Wink",
