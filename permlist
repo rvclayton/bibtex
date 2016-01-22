@@ -3035,7 +3035,6 @@ the five levels of raid : wiebel
 the flex software design system designers need languages too : sutton
 the flux oskit a substrate for kernel and langauge research : ford
 the formal execution semantics of specc : mueller
-the tftp protocol : sollins
 the function of function in lisp : moses
 the future engineering of software a management perspective : basili
 the future of ideas : lessig
@@ -3239,6 +3238,7 @@ the teaching of arithmetic iii the story of an experiment : benezet
 the term processor generator kimwitu : van ejik
 the term processor kimwitu manual and cookbook : van eijk
 the text editor sam : pike
+the tftp protocol : sollins
 the thaiti programming language events as first class objects : hearne
 the theory of ccitt recommendation h.261 video codec for audiovisual services at p x 64 kbit/sec and review of such a codec : moore
 the theory of classification part 1 perspectives on type compatibility : simons
@@ -3255,6 +3255,7 @@ the theory of classification part 11 adding class types to object implementation
 the theory of classification part 12 buliding the class hierarchy : simons
 the theory of economic regulation : stigler
 the threeballot voting system : rivest
+the turing programming language : holt
 the transformation of the american state the new era new deal test : lewis-beck
 the transformational calculus : garrigue
 the transport layer tutorial and survey : iren
