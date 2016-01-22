@@ -163,6 +163,22 @@
   location     = "http://dx.doi.org/10.1145/356662.356664"
 }
 
+@Article{ttplcacm,
+  author       = "Holt, Richard~C. and Cordy, James~R.",
+  title        = "The {T}uring Programming Language",
+  journal      = cacm,
+  year         = 1988,
+  volume       = 31,
+  number       = 12,
+  pages        = "1410--1423",
+  month        = dec,
+  keywords     = "programming languages, design, pascal, ada",
+  abstract     = "Turing, a new general purpose programming language, is 
+    designed to have Basic's clean interactive syntax, Pascal's elegance, and
+    C's flexibility.", 
+  location     = "http://dx.doi.org/10.1145/53580.53581"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
