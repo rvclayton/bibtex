@@ -179,6 +179,39 @@
   location     = "http://dx.doi.org/10.1145/53580.53581"
 }
 
+@Article{papa,
+  author       = "Lebeck, Alvin~R. and Fan, Xiaobo and Zeng, Heng and Ellis, Carla",
+  title        = "Power Aware Page Allocation",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "105--116",
+  month        = dec,
+  keywords     = "power management, page-allocation algorithms, dram",
+  abstract     = "One of the major challenges of post-PC computing is the need
+    to reduce energy consumption, thereby extending the lifetime of the
+    batteries that power these mobile devices.  Memory is a particularly
+    important target for efforts to improve energy efficiency.  Memory
+    technology is becoming available that offers power management features such
+    as the ability to put individual chips in any one of several different
+    power modes.  In this paper we explore the interaction of page placement
+    with static and dynamic hardware policies to exploit these emerging
+    hardware features.  In particular, we consider page allocation policies
+    that can be employed by an informed operating system to complement the
+    hardware power management strategies.  We perform experiments using two
+    complementary simulation environments: a trace-driven simulator with
+    workload traces that are representative of mobile computing and an
+    execution-driven simulator with a detailed processor/memory model and a
+    more memory-intensive set of benchmarks (SPEC2000).  Our results make a
+    compelling case for a cooperative hardware/software approach for exploiting
+    power-aware memory, with down to as little as 45% of the Energy&bull; Delay
+    for the best static policy and 1% to 20% of the Energy&bull; Delay for a
+    traditional full-power memory.", 
+  location     = "http://dx.doi.org/10.1145/378995.379007", 
+  location     = "https://users.cs.duke.edu/~alvy/papers/CS-2000-08.pdf"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
