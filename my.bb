@@ -212,6 +212,33 @@
   location     = "https://users.cs.duke.edu/~alvy/papers/CS-2000-08.pdf"
 }
 
+@Article{moas,
+  author       = "Enslow Jr., Philip",
+  title        = "Multiprocessor Organization---{A} Survey",
+  journal      = surveys,
+  year         = 1977,
+  volume       = 9,
+  number       = 1,
+  pages        = "103--129",
+  month        = mar,
+  keywords     = "Computer system organization, concurrent operations,
+  interconnection subsystems, multiprocessor operating systems,
+  multiprocessors, simultaneous operations",
+  abstract     = "Multiprocessors are defined as a subclass of MIMD (Multiple
+    Instruction Stream, Multiple Data Stream) multiple-computer systems in
+    which the processors have common access to primary memory and the
+    input/output channels and there is a single operating system controlling
+    the entire complex.  It is possible to characterize the hardware
+    organization by the nature of the system utilized to interconnect the
+    primary functional units--processors, memory, and input/output channels.
+    The three basic interconnection systems discussed are: 1) time-shared
+    buses; 2) crossbar switch matrix; and 3) multibus, multiport memories.
+    Three organizations for multiprocessor operating systems are also
+    discussed: 1) master-slave; 2) separate executive for each processor; and
+    3) symmetric treatment of all processors.", 
+  location     = "http://dx.doi.org/10.1145/356683.356688"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
