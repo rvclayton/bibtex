@@ -267,6 +267,29 @@
   location     = "http://dx.doi.org/10.1145/384264.379234"
 }
 
+@Article{aawa,
+  author       = "Olivier Arsac and St{\' e}phane Dalmas and Marc Ga{\" e}tano",
+  title        = "Algorithm Animation with {AGAT}",
+  journal      = "Computer-Human Interaction in Symbolic Computation",
+  year         = 1998,
+  volume       = "",
+  number       = "",
+  pages        = "89--115",
+  month        = "",
+  keywords     = "algorithm animation, stream computing, client-server
+    computing, data analysis",
+  abstract     = "Algorithm animation is a powerful tool for exploring a 
+    program’s behavior.  It is used in various areas of computer science, such
+    as teaching (Rasala et al.  1994), design and analysis of algorithms
+    (Bentley and Kernighan 1991), performance tuning (Duisberg 1986).
+    Algorithm animation systems provide a form of program visualization that
+    deals with dynamic graphical displays of a program’s operations.  They
+    offer many facilities for users to view and interact with an animated
+    display of an algorithm, by providing ways to control through multiple
+    views the data given to algorithms and their execution.", 
+  location     = "http://dx.doi.org/10.1007/978-3-7091-6461-7_6"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
