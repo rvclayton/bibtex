@@ -239,6 +239,34 @@
   location     = "http://dx.doi.org/10.1145/356683.356688"
 }
 
+@Article{enpceuht,
+  author       = "Kawahito, Motohiro and Komatsu, Hideaki and Nakatani, Toshio",
+  title        = "Effective Null Pointer Check Elimination Utilizing Hardware Trap",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "139--149",
+  month        = dec,
+  keywords     = "java, null pointer checks, page-access optimizations",
+  abstract     = "We present a new algorithm for eliminating null pointer
+    checks from programs written in Java&trade;.  Our new algorithm is split
+    into two phases.  In the first phase, it moves null checks backward, and it
+    is iterated for a few times with other optimizations to eliminate redundant
+    null checks and maximize the effectiveness of other optimizations.  In the
+    second phase, it moves null checks forward and converts many null checks to
+    hardware traps in order to minimize the execution cost of the remaining
+    null checks.  As a result, it eliminates many null checks effectively and
+    exploits the maximum use of hardware traps.  This algorithm has been
+    implemented in the IBM cross-platform Java Just-in-Time (JIT) compiler.
+    Our experimental results show that our approach improves performance by up
+    to 71% for jBYTEmark and up to 10% for SPECjvm98 over the previously known
+    best algorithm.  They also show that it increases JIT compilation time by
+    only 2.3%.  Although we implemented our algorithm for Java, it is also
+    applicable for other languages requiring null checking.", 
+  location     = "http://dx.doi.org/10.1145/384264.379234"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
