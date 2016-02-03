@@ -267,6 +267,29 @@
   location     = "http://dx.doi.org/10.1145/384264.379234"
 }
 
+@Article{oaafgsps,
+  author       = "Kubiatowicz, John and Bindel, David and Chen, Yan and Czerwinski, Steven and Eaton, Patrick and Geels, Dennis and Gummadi, Ramakrishan and Rhea, Sean and Weatherspoon, Hakim and Weimer, Westley and Wells, Chris and Zhao, Ben",
+  title        = "{OceanStore}: An Architecture for Global-Scale Persistent Storage",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "190--201",
+  month        = dec,
+  keywords     = "peer-to-peer networking, remote storage, autonomy, ad-hoc
+    routing, archival storage",
+  abstract     = "OceanStore is a utility infrastructure designed to span the 
+    globe and provide continuous access to persistent information.  Since this
+    infrastructure is comprised of untrusted servers, data is protected through
+    redundancy and cryptographic techniques.  To improve performance, data is
+    allowed to be cached anywhere, anytime.  Additionally, monitoring of usage
+    patterns allows adaptation to regional outages and denial of service
+    attacks; monitoring also enhances performance through pro-active movement
+    of data.  A prototype implementation is currently under development.",  
+  location     = "http://dx.doi.org/10.1145/356989.357007",  
+  location     = "https://www.cs.virginia.edu/~weimer/p/p190-kubi.pdf"
+}
+
 @Article{aawa,
   author       = "Olivier Arsac and St{\' e}phane Dalmas and Marc Ga{\" e}tano",
   title        = "Algorithm Animation with {AGAT}",
@@ -379,5 +402,15 @@
   year         = 1988,
   address      = ecnj,
   keywords     = "turing, programming language"
+}
+
+@Book{htbp,
+  author       = "Eugenia Cheng",
+  title        = "How to Bake $\pi$",
+  publisher    = "Basic Books",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "mathematics, category theory",
+  location     = "QA 9 C4862"
 }
 
