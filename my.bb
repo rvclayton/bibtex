@@ -313,6 +313,29 @@
   location     = "http://dx.doi.org/10.1007/978-3-7091-6461-7_6"
 }
 
+@Article{tenw,
+  author       = "Wirth, Niklaus",
+  title        = "Type Extensions",
+  journal      = toplas,
+  year         = 1988,
+  volume       = 10,
+  number       = 2,
+  pages        = "204--214",
+  month        = apr,
+  keywords     = "extensible data types, modula-2, polymorphism, type systems",
+  abstract     = "Software systems represent a hierarchy of modules.  Client
+    modules contain sets of procedures that extend the capabilities of imported
+    modules.  This concept of extension is here applied to data types.
+    Extended types are related to their ancestor in terms of a hierarchy.
+    Variables of an extended type are compatible with variables of the ancestor
+    type.  This scheme is expressed by three language constructs only: the
+    declaration of extended record types, the type test, and the type guard.
+    The facility of extended types, which closely resembles the class concept,
+    is defined in rigorous and concise terms, and an efficient implementation
+    is presented.", 
+  location     = "http://dx.doi.org/10.1145/42190.46167"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
