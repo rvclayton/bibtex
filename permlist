@@ -3400,6 +3400,7 @@ two notes on notation : knuth
 two stacks for tail calls : cheng
 type based publish subscribe concepts and experiences : eugster
 type checking type classes : nipkow
+type extensions : wirth
 type feedback vs concrete type inference a comparison of optimization techniques for object oriented languages : agesen
 type inference of self analysis of objects with dynamic and multiple inheritance : agesen
 type inference with simple selftypes is np complete : palsberg
