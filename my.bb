@@ -336,6 +336,31 @@
   location     = "http://dx.doi.org/10.1145/42190.46167"
 }
 
+@Article{pgm,
+  author       = "Sedgewick, Robert",
+  title        = "Permutation Generation Methods",
+  journal      = surveys,
+  year         = 1977,
+  volume       = 9,
+  number       = 2,
+  pages        = "137--164",
+  month        = jun,
+  keywords     = "permutations, combinatorial algorithms, code optimization,
+    algorithm analysis, lexicographic ordering, random permutations, recursion,
+    cyclic rotation.",
+  abstract     = "This paper surveys the numerous methods that have been
+    proposed for permutation enumeration by computer.  The various algorithms
+    which have been developed over the years are described in detail, and
+    implemented in a modern Algol-like language.  All of the algorithms are
+    derived from a single control structure.  The problems involved with
+    implementing the best of the algorithms on real computers are treated in
+    detail.  Assembly-language programs are derived and analyzed fully.  The
+    paper is intended not only as a survey of permutation generation methods,
+    but also as a tutorial on how to compare a number of different algorithms
+    for the same task.", 
+  location     = "http://dx.doi.org/10.1145/356689.356692"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
