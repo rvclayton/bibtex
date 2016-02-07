@@ -2239,6 +2239,7 @@ performance of checksums and crcs over real data : partridge
 performance visualization of a distributed system a case study : jakiela
 perils of porting applications from unix to nt : linthicum
 perly unix with buttons : hesketh
+permutation generation methods : sedgewick
 persistence in e revisited implementation experiences : schuh
 persistent objects in cpp : stevens
 personalization and privacy : volokh
