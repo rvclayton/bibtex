@@ -361,6 +361,33 @@
   location     = "http://dx.doi.org/10.1145/356689.356692"
 }
 
+@Article{sadfns,
+  author       = "Hill, Jason and Szewczyk, Robert and Woo, Alec and Hollar, Seth and Culler, David and Pister, Kristofer",
+  title        = "System Architecture Directiosn for Networked Sensors",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "93--104",
+  month        = dec,
+  keywords     = "networked sensors, system architecture, event-driven systems,
+    power consumption, sensor networks, tinyos",
+  abstract     = "Technological progress in integrated, low-power, CMOS
+    communication devices and sensors makes a rich design space of networked
+    sensors viable.  They can be deeply embedded in the physical world and
+    spread throughout our environment like smart dust.  The missing elements
+    are an overall system architecture and a methodology for systematic
+    advance.  To this end, we identify key requirements, develop a small device
+    that is representative of the class, design a tiny event-driven operating
+    system, and show that it provides support for efficient modularity and
+    concurrency-intensive operation.  Our operating system fits in 178 bytes of
+    memory, propagates events in the time it takes to copy 1.25 bytes of
+    memory, context switches in the time it takes to copy 6 bytes of memory and
+    supports two level scheduling.  The analysis lays a groundwork for future
+    architectural advances.", 
+  location     = "http://dx.doi.org/10.1145/378993.379006"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
