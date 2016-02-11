@@ -388,6 +388,39 @@
   location     = "http://dx.doi.org/10.1145/378993.379006"
 }
 
+@Article{cspm,
+  author       = "Mattson, Peter and Dally, William~J. and Rixner, Scott and Kapasi, Ujval~J. and Owens, John~D.",
+  title        = "Communication Scheduling",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "82--92",
+  month        = dec,
+  keywords     = "interconnection networks, instruction scheduling, cpu
+    architectures", 
+  abstract     = "The high arithmetic rates of media processing applications
+    require architectures with tens to hundreds of functional units, multiple
+    register files, and explicit interconnect between functional units and
+    register files.  Communication scheduling enables scheduling to these
+    emerging architectures, including those that use shared buses and register
+    file ports.  Scheduling to these shared interconnect architectures is
+    difficult because it requires simultaneously allocating functional units to
+    operations and buses and register file ports to the communications between
+    operations.  Prior VLIW scheduling algorithms are limited to clustered
+    register file architectures with no shared buses or register file ports.
+    Communication scheduling extends the range of target architectures by
+    making each communication explicit and decomposing it into three
+    components: a write stub, zero or more copy operations, and a read stub.
+    Communication scheduling allows media processing kernels to achieve 98% of
+    the performance of a central register file architecture on a distributed
+    register file architecture with only 9% of the area, 6% of the power
+    consumption, and 37% of the access delay, and 120% of the performance of a
+    clustered register file architecture on a distributed register file
+    architecture with 56% of the area and 50% of the power consumption.", 
+  location     = "http://dx.doi.org/10.1145/378993.379005"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
