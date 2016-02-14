@@ -421,6 +421,35 @@
   location     = "http://dx.doi.org/10.1145/378993.379005"
 }
 
+@Article{dfaisr,
+  author       = "Fosdick, Lloyd~D. and Osterweil, Leon~J.",
+  title        = "Data Flow Analysis in Software Reliability",
+  journal      = surveys,
+  year         = 1976,
+  volume       = 8,
+  number       = 3,
+  pages        = "305--330",
+  month        = sep,
+  keywords     = "automatic documentation, automatic error detection, data flow
+    analysis, software reliability, control-flow graphs, static analysis,
+    fortran, compilation",
+  abstract     = "The ways that the methods of data flow analysis can be 
+    applied to improve software reliability are described.  There is also a
+    review of the basic terminology from graph theory and from data flow
+    analysis in global program optimization.  The notation of regular
+    expressions is used to describe actions on data for sets of paths.  These
+    expressions provide the basis of a classification scheme for data flow
+    which represents patterns of data flow along paths within subprograms and
+    along paths which cross subprogram boundaries.  Fast algorithms, originally
+    introduced for global optimization, are described and it is shown how they
+    can be used to implement the classification scheme.  It is then shown how
+    these same algorithms can also be used to detect the presence of data flow
+    anomalies which are symptomatic of programming errors.  Finally, some
+    characteristics of and experience with DAVE, a data flow analysis system
+    embodying some of these ideas, are described.",
+  location     = "http://dx.doi.org/10.1145/356674.356676"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -520,5 +549,15 @@
   address      = nyny,
   keywords     = "mathematics, category theory",
   location     = "QA 9 C4862"
+}
+
+@Book{hnk,
+  author       = "Noel Kingsbury",
+  title        = "Hybrid",
+  publisher    = ucp,
+  year         = 2009,
+  address      = chil,
+  keywords     = "plant breeding, agriculture, hybridization",
+  location     = "SB 123.K554"
 }
 
