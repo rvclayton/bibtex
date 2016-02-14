@@ -884,33 +884,6 @@
   keywords = 	"program understanding, assembler"
 }
 
-@Article{dfaisr,
-  author = 	"Lloyd~D. Fosdick and Leon~J. Osterweil",
-  title = 	"Data Flow Analysis in Software Reliability",
-  journal = 	acmcs,
-  year = 	1976,
-  volume = 	8,
-  number = 	3,
-  pages = 	"305--330",
-  month = 	"September",
-  keywords = 	"automatic documentation, automatic error dection,
-		 data flow analysis, software reliability",
-  abstract = 	"The ways that the methods of data flow analysis can be 
-    applied to improve software reliability are described.  There is also a
-    review of the basic terminology from graph theory and from data flow
-    analysis in global program optimization.  The notation of regular
-    expressions is used to describe actions on data for sets of paths.  These
-    expressions provide the basis of a classification scheme for data flow
-    which represents patterns of data flow along paths within subprograms and
-    along paths which cross subprogram boundaries.  Fast algorithms, originally
-    introduced for global optimization, are described and it is shown how they
-    can be used to implement the classification scheme.  It is then shown how
-    these same algorithms can also be used to detect the presence of data flow
-    anomalies which are symptomatic of programming errors.  Finally, some
-    characteristics of and experience with DAVE, a data flow analysis system
-    embodying some of these ideas, are described." 
-}
-
 @article{nil,
   author = 	"F. N. Parr and R. E. Strom",
   title = 	"{NIL}:  A High-Level Language for Distributed Systems
