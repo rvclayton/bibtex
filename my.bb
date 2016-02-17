@@ -450,6 +450,40 @@
   location     = "http://dx.doi.org/10.1145/356674.356676"
 }
 
+@Article{spfhpplim,
+  author       = "Duesterwald, Evelyn and Bala, Vasanth",
+  title        = "Software Profiling for Hot Path Prediction:  Less is More",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "202--211",
+  month        = dec,
+  keywords     = "path prediction, jit compilation, dynamic analysis, hot-spot
+    detection",
+  abstract     = "Recently, there has been a growing interest in exploiting
+    profile information in adaptive systems such as just-in-time compilers,
+    dynamic optimizers and, binary translators.  In this paper, we show that
+    sophisticated software profiling schemes that provide highly accurate
+    information in an offline setting are ill-suited for these dynamic code
+    generation systems.  We experimentally demonstrate that hot path
+    predictions must be made early in order to control the rising cost of
+    missed opportunity that result from the prediction delay.  We also show
+    that existing sophisticated path profiling schemes, if used in an online
+    setting, offer no prediction advantages over simpler schemes that exhibit
+    much lower runtime overheads.Based on these observation we developed a new
+    low-overhead software profiling scheme for hot path prediction.  Using an
+    abstract metric we compare our scheme to path profile based prediction and
+    show that our scheme achieves comparable prediction quality.  In our second
+    set of experiments we include runtime overhead and evaluate the performance
+    of our scheme in a realistic application: Dynamo, a dynamic optimization
+    system.  The results show that our prediction scheme clearly outperforms
+    path profile based prediction and thus confirm that less profiling as
+    exhibited in our scheme will actually lead to more effective hot path
+    prediction.", 
+  location     = "http://dx.doi.org/10.1145/356989.357008"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
