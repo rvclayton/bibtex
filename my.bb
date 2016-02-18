@@ -484,6 +484,19 @@
   location     = "http://dx.doi.org/10.1145/356989.357008"
 }
 
+@Article{tscf,
+  author       = "Clif Flynt",
+  title        = "{TCL} Scrollbars",
+  journal      = login,
+  year         = 2002,
+  volume       = 27,
+  number       = 3,
+  pages        = "25--30",
+  month        = jun,
+  keywords     = "tcl, tk, scrollbars, canvas",
+  location     = "https://www.usenix.org/publications/login/june-2002-volume-27-number-3/tclsh-spot"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
