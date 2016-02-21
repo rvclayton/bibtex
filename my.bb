@@ -497,6 +497,35 @@
   location     = "https://www.usenix.org/publications/login/june-2002-volume-27-number-3/tclsh-spot"
 }
 
+@Article{oaccitdoti6a,
+  author       = "Zahir, Rumi and Ross, Jonathan and Morris, Dale and Hess, Drew",
+  title        = "{OS} and Compiler Considerations in the Design of the {IA}-64 Architecture",
+  journal      = osr # " (" # pot # "Ninth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS IX)",
+  year         = 2000,
+  volume       = 28,
+  number       = 5,
+  pages        = "212--221",
+  month        = dec,
+  keywords     = "cpu architecture, speculative execution, compiler
+    optimization, operating system optimizations",
+  abstract     = "Increasing demands for processor performance have outstripped
+    the pace of process and frequency improvements, pushing designers to find
+    ways of increasing the amount of work that can be processed in parallel.
+    Traditional RISC architectures use hardware approaches to obtain more
+    instruction-level parallelism, with the compiler and the operating system
+    (OS) having only indirect visibility into the mechanisms used.The IA-64
+    architecture [14] was specifically designed to enable systems which create
+    and exploit high levels of instruction-level parallelism by explicitly
+    encoding a program's parallelism in the instruction set [25].  This paper
+    provides a qualitative summary of the IA-64 architecture features that
+    support control and data speculation, and register stacking.  The paper
+    focusses on the functional synergy between these architectural elements
+    (rather than their individual performance merits), and emphasizes how they
+    were designed for cooperation between processor hardware, compilers and the
+    OS.", 
+  location     = "http://dx.doi.org/10.1145/378993.379242"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
