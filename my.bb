@@ -526,6 +526,26 @@
   location     = "http://dx.doi.org/10.1145/378993.379242"
 }
 
+@Article{asoatfda,
+  author       = "Weide, Bruce",
+  title        = "A Survey of Analysis Techniques for Discrete Algorithms",
+  journal      = surveys,
+  year         = 1977,
+  volume       = 9,
+  number       = 4,
+  pages        = "291--313",
+  month        = dec,
+  keywords     = "algorithms analysis,  computational  complexity,
+   combinatorics,  NP-complete problems,  approximation  algorithms", 
+  abstract     = "This survey includes an introduction to the concepts of 
+    problem complexity, analysis of algorithms to find bounds on complexity,
+    average-case behavior, and approximation algorithms The major techniques
+    used m analysis of algorithms are reviewed and examples of the use of these
+    methods are presented.  A brief explanation of the problem classes P and
+    NP, as well as the class of NP-complete problems, is also presented.", 
+  location     = "http://dx.doi.org/10.1145/356707.356711"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
