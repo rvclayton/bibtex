@@ -657,3 +657,15 @@
   location     = "SB 123.K554"
 }
 
+@Book{bcof,
+  author       = "James~M. McPherson",
+  title        = "Battle Cry of Freedom",
+  publisher    = oup,
+  year         = 1988,
+  volume       = "6",
+  series       = "Oxford History of the United States",
+  address      = nyny,
+  keywords     = "civil war, slavery, politics, military",
+  location     = "E 173.O94 v.6"
+}
+
