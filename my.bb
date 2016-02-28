@@ -679,3 +679,14 @@
   location     = "PS 3463.O88456 R68"
 }
 
+@Book{idon,
+  author       = "John~F. Geer",
+  title        = "In Defense of Negativity",
+  publisher    = ucp,
+  year         = 2006,
+  address      = chil,
+  keywords     = "campaign management, political advertising, political
+    campaigns, presidential elections, negativism, mud flinging, attack ads",
+  location     = "JK 2281.G44"
+}
+
