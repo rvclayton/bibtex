@@ -669,3 +669,13 @@
   location     = "E 173.O94 v.6"
 }
 
+@Book{rgwm,
+  author       = "Walter Mosley",
+  title        = "Rose Gold",
+  publisher    = "Doubleday",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "murrdaar, official corruption",
+  location     = "PS 3463.O88456 R68"
+}
+
