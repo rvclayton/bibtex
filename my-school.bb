@@ -10388,7 +10388,7 @@
   keywords     = "file systems, distributed systems, file-access protocol"
 }
 
-@Article{pn,
+@Article{pnjlp,
   author       = "James L. Peterson",
   title        = "Petri Nets",
   journal      = surveys,
@@ -10398,7 +10398,17 @@
   pages        = "223--252",
   month        = sep,
   keywords     = "petri nets, system models, synchronous concurrent events",
-  location     = ""
+  abstract     = "Over the last decade, the Petri net has gamed increased usage
+    and acceptance as a basic model of systems of asynchronous concurrent
+    computation.  This paper surveys the basic concepts and uses of Petri nets.
+    The structure of Petri nets, their markings and execution, several examples
+    of Petri net models of computer hardware and software, and research into
+    the analysis of Petri nets are presented, as are the use of the
+    reachability tree and the decidability and complexity of some Petri net
+    problems.  Petri net languages, models of computation related to Petri
+    nets, and some extensions and subclasses of the Petri net model are also
+    briefly discussed", 
+  location     = "http://dx.doi.org/10.1145/356698.356702"
 }
 
 @Article{atocpsf,
