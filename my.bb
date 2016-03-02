@@ -546,6 +546,49 @@
   location     = "http://dx.doi.org/10.1145/356707.356711"
 }
 
+@Article{paicp,
+  author       = "R.~C.~B. Cooper and K.~G. Hamilton",
+  title        = "Preserving Abstraction in Concurrent Programming",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "258--263",
+  month        = feb,
+  keywords     = "abstraction, clu, monitors, concurrency control, deadlock,
+    interface, module, process, synchronization operating systems",
+  abstract     = "Recent programming languages have attempted to provide
+    support for concurrency and for modular programming based on abstract
+    interfaces.  Building on experience of adding monitors to CLU, a language
+    oriented towards data abstraction, it is explained how these two goals
+    conflict.  In particular, the clash between conventional views on interface
+    abstraction and the programming style required for avoiding monitor
+    deadlock is discussed.  It is argued that the best compromise between these
+    goals is a combination of a fine-grain locking mechanism together with a
+    method for explicitly defining concurrency properties for selected
+    interfaces",
+  location     = "http://dx.doi.org/10.1109/32.4643"
+}
+
+@Article{tfsoasbis,
+  author       = "David Gray",
+  title        = "The Formal Specification of a Small Bookshop Information System",
+  journal      = tse,
+  year         = 1088,
+  volume       = 14,
+  number       = 2,
+  pages        = "263--272",
+  month        = feb,
+  keywords     = "formal specifications, requirements analysis, mathematical
+    specification, set theory, z",
+  abstract     = "A specification, and its development, for a small bookshop
+    information system are discussed.  the specification is presented using
+    mathematics and the scheme calculus of C.  Morgan and B.  Sufrin.  An
+    insight is given into how the specification was developed and why a formal
+    specification is appropriate.", 
+  location     = "http://dx.doi.org/10.1109/32.4644"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
