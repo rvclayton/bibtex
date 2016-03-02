@@ -31800,21 +31800,6 @@ b
   location     = "www.cs.utah.edu/techreports/2003/abstracts/UUCS-03-023a.pdf"
 }
 
-@InProceedings{wsm,
-  author       = "Ryan Culpepper and Mathias Felleisen",
-  title        = "Enabling Complex {UI} In Web Applications with {\tt
-		  send\slash suspend\slash dispatch}",
-  booktitle    = "Scheme 2003: " # pot # " Fourth Workshop on Scheme and
-		  Functional Programming",
-  year         = 2003,
-  editor       = "Matthew Flatt",
-  pages        = "59--68",
-  address      = boma,
-  month        = "7 " # nov,
-  keywords     = "",
-  location     = "www.cs.utah.edu/techreports/2003/abstracts/UUCS-03-023a.pdf"
-}
-
 @InProceedings{psp,
   author       = "Dorai Sitaram",
   title        = "Porting {S}cheme Programs",
