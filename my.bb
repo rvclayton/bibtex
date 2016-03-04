@@ -733,3 +733,41 @@
   location     = "JK 2281.G44"
 }
 
+@Book{erdr,
+  author       = "Dani Rodrik",
+  title        = "Economic Rules",
+  publisher    = "W.~W. Norton",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "economics, modeling",
+  location     = "HB 75 R5785"
+}
+
+@InProceedings{wsm,
+  author       = "Ryan Culpepper and Mathias Felleisen",
+  title        = "Well-Shaped Macros",
+  booktitle    = "Scheme 2003: " # pot # " Fourth Workshop on Scheme and
+                Functional Programming",
+  year         = 2003,
+  editor       = "Matthew Flatt",
+  pages        = "59--68",
+  address      = boma,
+  month        = "7 " # nov,
+  keywords     = "macros, shapes, scheme",
+  abstract     = "Scheme includes an easy-to-use and powerful macro mechanism
+    for extending the programming language with new expression and definition
+    forms.  Using macros, a Scheme programmer can define a new notation for a
+    specific problem domain and can then state algorithms in this language.
+    Thus, Scheme programmers can formulate layers of abstraction whose
+    expressive power greatly surpasses that of ordinary modules.
+    Unfortunately, Scheme's macros are also too powerful.  The problem is that
+    macro definitions extend the parser, a component of a language's
+    environment that is always supposed to terminate and produce predictable
+    results, and that they can thus turn the parser into a chaotic and
+    unpredictable tool.  In this paper, we report on an experiment to tame the
+    power of macros.  Specifically, we introduce a system for specifying and
+    restricting the class of shapes that a macro can transform.  We dub the
+    revised macro system well-shaped macros.", 
+  location     = "www.cs.utah.edu/techreports/2003/abstracts/UUCS-03-023a.pdf"
+}
+
