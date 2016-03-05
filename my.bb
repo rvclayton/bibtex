@@ -743,6 +743,16 @@
   location     = "HB 75 R5785"
 }
 
+@Book{sep,
+  author       = "Walter Mosley",
+  title        = "Six Easy Pieces",
+  publisher    = "Atria Books",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "murrdaars",
+  location     = "PS 3563.O88456 S59 2003"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
