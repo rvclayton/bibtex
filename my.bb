@@ -753,6 +753,16 @@
   location     = "PS 3563.O88456 S59 2003"
 }
 
+@Book{iacp,
+  author       = "Craig Packer",
+  title        = "Into Africa",
+  publisher    = ucp,
+  year         = 1996,
+  address      = chil,
+  keywords     = "africa, serengetti, mammal research, lions, ecology",
+  location     = "QL 31.P15 A3"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
