@@ -763,6 +763,17 @@
   location     = "QL 31.P15 A3"
 }
 
+@Book{mjatgm,
+  author       = "Lee Alan Dugatkin",
+  title        = "Mr. Jefferson and the Giant Moose",
+  publisher    = ucp,
+  year         = 2009,
+  address      = chil,
+  keywords     = "natural history, degeneracy theory, buffon, jefferson, pr,
+    scientific progress",
+  location     = "QH 528 D843"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
