@@ -802,3 +802,30 @@
   location     = "www.cs.utah.edu/techreports/2003/abstracts/UUCS-03-023a.pdf"
 }
 
+@TechReport{taotiotmcpzoat,
+  author       = "Steele Jr., Guy Lewis and Sussman, Gerald~J.",
+  title        = "The Art of the Interpreter or, The Modularity Complex (Parts Zero, One, and Two)",
+  institution  = ail # ", " # mit,
+  year         = 1978,
+  type         = "AI Memo",
+  number       = 453,
+  address      = cma,
+  month        = may,
+  keywords     = "abstraction, actors, applicative order, bindings, control
+    structures, debugging, dynamic scoping, environments, fluid variables,
+    funarg problem, functional objects, interactive programming, lambda
+    calculus, lexical scoping, lisp, modularity, procedural data, recursion
+    equations, referential transparency, scheme, side effects, static scoping,
+    structured programming", 
+  abstract     = "We examine the effects of various language design decisions
+    on the programming styles available to a user of the language, with
+    particular emphasis on the ability to incrementally construct modular
+    systems.  At each step we exhibit an interactive meta-circular interpreter
+    for the language under consideration.  Each new interpreter is the result
+    of an incremental change to a previous interpreter.  The interpreters we
+    exhibit are all written in a simple dialect of LISP, and all implement
+    LISP-like languages.  A subset of these interpreters constitute a partial
+    historical reconstruction of the actual evolution of LISP.", 
+  location     = "http://repository.readscheme.org/ftp/papers/ai-lab-pubs/AIM-453.pdf"
+}
+
