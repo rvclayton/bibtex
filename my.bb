@@ -774,6 +774,16 @@
   location     = "QH 528 D843"
 }
 
+@Book{tgfwpw,
+  author       = "Walter Prescott Webb",
+  title        = "The Great Frontier",
+  publisher    = uta # " Press",
+  year         = 1964,
+  address      = atx,
+  keywords     = "civilization, development, institutions",
+  location     = "CB 245 W4"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
@@ -827,5 +837,24 @@
     LISP-like languages.  A subset of these interpreters constitute a partial
     historical reconstruction of the actual evolution of LISP.", 
   location     = "http://repository.readscheme.org/ftp/papers/ai-lab-pubs/AIM-453.pdf"
+}
+
+@TechReport{spirl,
+  author       = "Robert Lawler",
+  title        = "Some Powerful Ideas",
+  institution  = ail # ", " # mit,
+  year         = 1981,
+  type         = "A.I. Memo",
+  number       = 652,
+  address      = cma,
+  month        = dec,
+  keywords     = "logo, heuristics, problem solving",
+  abstract     = "Here is a set of problem solving ideas (absorbed by and 
+    developed through the MIT Logo project over many years) presented in such a
+    way as to useful to someone with a Logo computer.  With the ideas on
+    unbound, single sheets, you can easily pick out those you like and set
+    aside the others.  The ideas vary in sophistication and accessibility: no
+    threshold, no ceiling.", 
+  location     = "http://hdl.handle.net/1721.1/6363"
 }
 
