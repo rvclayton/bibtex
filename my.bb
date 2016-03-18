@@ -589,6 +589,28 @@
   location     = "http://dx.doi.org/10.1109/32.4644"
 }
 
+@Article{cgutmadp,
+  author       = "Aho, Alfred~V. and Ganapathi, Mahadevan and Tjiang, Steven~W.~K.",
+  title        = "Code Generation Using Tree Matching and Dynamic Programming",
+  journal      = toplas,
+  year         = 1989,
+  volume       = 11,
+  number       = 4,
+  pages        = "491--516",
+  month        = oct,
+  keywords     = "twig, code generation, tree matching, dynamic programming,
+    machine descriptions",
+  abstract     = "Compiler-component generators, such as lexical analyzer
+    generators and parser generators, have long been used to facilitate the
+    construction of compilers.  A tree-manipulation language called twig has
+    been developed to help construct efficient code generators.  Twig
+    transforms a tree-translation scheme into a code generator that combines a
+    fast top-down tree-pattern matching algorithm with dynamic programming.
+    Twig has been used to specify and construct code generators for several
+    experimental compilers targeted for different machines.", 
+  location     = "http://dx.doi.org/10.1145/69558.75700"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
