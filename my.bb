@@ -806,6 +806,16 @@
   location     = "CB 245 W4"
 }
 
+@Book{tttwm,
+  author       = "Walter Mosley",
+  title        = "The Tempest Tales",
+  publisher    = "Black Classic Press",
+  year         = 2008,
+  address      = bama,
+  keywords     = "morality, sin, heaven and hell",
+  location     = "PS 3563.O88456 T46"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
