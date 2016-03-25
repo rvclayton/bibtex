@@ -611,6 +611,34 @@
   location     = "http://dx.doi.org/10.1145/69558.75700"
 }
 
+@Article{pgpavt,
+  author       = "Carlbom, Ingrid and Paciorek, Joseph",
+  title        = "Planar Geometric Projections and Viewing Transformations",
+  journal      = surveys,
+  year         = 1978,
+  volume       = 10,
+  number       = 4,
+  pages        = "465--502",
+  month        = dec,
+  keywords     = "computer graphics, viewing transformations, descriptive
+    geometry, engineering drawing, architectural drawing, planar geometric
+    projections, perspective projections, parallel projections", 
+  abstract     = "In computer graphics one is often concerned with representing
+    three-dimensional objects on a two-dimensional display surface.  The choice
+    of such a representation depends on several factors, including the purpose
+    for which the representation is intended, the visual effects that are
+    desired, and the shape of the object.  This paper describes how
+    two-dimensional views can be obtained using planar geometric projections
+    such as perspective and parallel projections.  It discusses how these
+    projections can be generated from a three-dimensional representation of an
+    object in a manner suitable for computer graphics systems.  In particular,
+    it shows how these projections can be generated using the viewing
+    transformations of the Core Graphics System.  The factors that affect the
+    choice of projection are also discussed, and some guidelines for making
+    such a choice are given.", 
+  location     = "http://dx.doi.org/10.1145/356744.356750"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
