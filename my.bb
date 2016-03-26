@@ -844,6 +844,16 @@
   location     = "PS 3563.O88456 T46"
 }
 
+@Book{diabd,
+  author       = "Walter Mosley",
+  title        = "Devil in a Blue Dress",
+  publisher    = "Washington Square Press",
+  year         = 1990,
+  address      = nyny,
+  keywords     = "murrdaar, things ain't what the seem to be",
+  location     = "PS 3563.O88456 D48"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
