@@ -639,6 +639,34 @@
   location     = "http://dx.doi.org/10.1145/356744.356750"
 }
 
+@Article{tooms,
+  author       = "Dasgupta, Subrata",
+  title        = "The Organization of Microprogram Stores",
+  journal      = surveys,
+  year         = 1979,
+  volume       = 11,
+  number       = 1,
+  pages        = "39--65",
+  month        = mar,
+  keywords     = "read-only memory, writable control store, vertical
+    microprogrammmg, horizontal microprogramming, polyphase timing scheme,
+    microinstruction, microword, emulation, machine organization, minimal
+    encoding, microword length minimization, parallelism detecting, computer
+    architecture, microprogram optimization, machine complexity", 
+  abstract     = "A central issue in microprogramming is the organization of 
+    the control store--the memory from which a microprogram is executed.  The
+    structure of this store has a major influence on the economy (in both time
+    and memory space) of the target machine implementation, on the overall
+    complexity of the host machine organization, and on Its
+    microprogrammabilty.  The first part of this paper surveys some aspects of
+    control store architectures, including the organization of microinstruction
+    words, and the effects of different timing schemes on the complexity of
+    both control store and host machine organizations The latter part of the
+    paper reviews some recent algorithms for optimizing the width and length of
+    control stores.", 
+  location     = "http://dx.doi.org/10.1145/356757.356761"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
