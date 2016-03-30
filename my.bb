@@ -882,6 +882,17 @@
   location     = "PS 3563.O88456 D48"
 }
 
+@Book{otgoe,
+  author       = "Peter Bacon Hales",
+  title        = "Outside the Gates of Eden",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "the moderne, pop cult, atomic weaponry, levittown, dylan,
+    hendrix, early computer games", 
+  location     = "E 169.12 H339"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
