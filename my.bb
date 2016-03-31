@@ -893,6 +893,16 @@
   location     = "E 169.12 H339"
 }
 
+@Book{ldfma,
+  author       = "Mike Adams",
+  title        = "Lee de Forest",
+  publisher    = "Springer",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "audion, inventing, patents, radio, talkies",
+  location     = "TK 5739 D4 A33"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
