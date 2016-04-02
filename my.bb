@@ -903,6 +903,16 @@
   location     = "TK 5739 D4 A33"
 }
 
+@Book{term,
+  author       = "Randall Munroe",
+  title        = "Thing Explainer",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2015,
+  address      = boma,
+  keywords     = "how things work, explanations",
+  location     = "978 0 544 66825 6"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
