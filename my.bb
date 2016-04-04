@@ -667,6 +667,37 @@
   location     = "http://dx.doi.org/10.1145/356757.356761"
 }
 
+@Article{gdpgn,
+  author       = "Nagy, George and Wagle, Sharad",
+  title        = "Geographic Data Processing",
+  journal      = surveys,
+  year         = 1979,
+  volume       = 11,
+  number       = 2,
+  pages        = "139--181",
+  month        = jun,
+  keywords     = "geographic information systems, geographic data processing,
+    management reformation systems, automated cartography, computational
+    geometry, natural resource management, graphic input and output, picture
+    processing, remote sensing", 
+  abstract     = "This survey attempts to provide a unified framework for the 
+    constituent elements--originating in numerous and diverse disciplines--of
+    geographical data processing systems.  External aspects of such systems, as
+    perceived by potential users, are discussed with regard to extent,
+    coordinate system and base map, range of applications, input/output
+    mechanisms, computer configuration, command and interaction, documentation,
+    and administration.The internal aspects, which would concern the system
+    designer, are analyzed in terms of the type of spatial variables involved
+    and of their interrelationship with respect to common operations This point
+    of view is shown to lead to a workable classification of two-dimensional
+    geometric algorithms and data structures.  To provide concrete examples,
+    ten representative geographic data processing systems, ranging from
+    automated cartography to interactive decision support, are described.  In
+    conclusion, some comparisons are drawn between geographical data processing
+    systems and their conventional business-oriented counterparts.", 
+  location     = "http://dx.doi.org/10.1145/356770.356777"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
