@@ -698,6 +698,28 @@
   location     = "http://dx.doi.org/10.1145/356770.356777"
 }
 
+@Article{fsfccdiosar,
+  author       = "Gasbichler, Martin and Sperber, Michael",
+  title        = "Final Shift for {\tt Call/cc}: Direct Implementation of {\tt Shift} and {\tt Reset}",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "271--282",
+  month        = sep,
+  keywords     = "continuations, implementation, scheme, scheme 48, virtual
+    machines, delimited continuations",
+  abstract     = "We present a direct implementation of the shift and reset
+    control operators in the Scheme 48 system.  The new implementation improves
+    upon the traditional technique of simulating shift and reset via call/cc.
+    Typical applications of these operators exhibit space savings and a
+    significant overall performance gain.  Our technique is based upon the
+    popular incremental stack/heap strategy for representing continuations.  We
+    present implementation details as well as some benchmark measurements for
+    typical applications.",  
+  location     = "http://dx.doi.org/10.1145/581478.581504"
+}
+		  
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
