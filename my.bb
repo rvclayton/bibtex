@@ -719,6 +719,34 @@
     typical applications.",  
   location     = "http://dx.doi.org/10.1145/581478.581504"
 }
+
+@Article{eeocag,
+  author       = "Jones, Larry~G.",
+  title        = "Efficient Evaluation of Circular Attribute Grammars",
+  journal      = toplas,
+  year         = 1990,
+  volume       = 12,
+  number       = 3,
+  pages        = "429--462",
+  month        = jul,
+  keywords     = "attribute circularity, attribute grammars, attribute grammar
+    evaluation, fixed-point computation, incremental attribute evaluation",
+  abstract     = "We present efficient algorithms for exhaustive and 
+    incremental evaluation of circular attributes under any conditions that
+    guarantee finite convergence.  The algorithms are derived from those for
+    noncircular attribute grammars by partitioning the underlying attribute
+    dependency graph into its strongly connected components and by ordering the
+    evaluations to follow a topological sort of the resulting directed acyclic
+    graph.  The algorithms are efficient in the sense that their worst-case
+    running time is proportional to the cost of computing the fixed points of
+    only those strongly connected components containing affected attributes or
+    attributes directly dependent on affected attributes.  When the attribute
+    grammar is noncircular or the specific dependency graph under consideration
+    is acyclic, both algorithms reduce to the standard optimal algorithms for
+    noncircular attribute evaluation.", 
+  location     = "http://dx.doi.org/10.1145/78969.78971"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
