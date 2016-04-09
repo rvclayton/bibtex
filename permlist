@@ -1159,6 +1159,7 @@ efficient binary transfer of pointer structures : toyn
 efficient compile time garbage collection for arbitrary data structures : mohnen
 efficient concise deterministic patterm matching automata for ambiguous patterns : nedjah
 efficient demultiplexing of network packets by automatic parsing : jayaram
+efficient evaluation of circular attribute grammars : jones
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
 efficient implementation of the smalltalk 80 system : deutsch
