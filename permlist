@@ -124,6 +124,7 @@ a highly restricted temporal logic with a tractable decision procedure : pratt
 a historical overview of computer architecture : smith
 a history of clu : liskov
 a hybrid state machine notation for component specification : sakharov
+a jit translator for oberon : nelson
 a laboratory environment for experimenting with xinu : comer
 a laboratory for teaching object oriented thinking : beck
 a lambda calculus of objects and method specialization : mitchell
