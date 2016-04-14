@@ -994,6 +994,16 @@
   location     = "978 0 544 66825 6"
 }
 
+@Book{psssl,
+  author       = "Seth Lerer",
+  title        = "Prospero's Son",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "biography, theater, bloodlines",
+  location     = "PR 55.L47 A3"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
@@ -1066,5 +1076,26 @@
     aside the others.  The ideas vary in sophistication and accessibility: no
     threshold, no ceiling.", 
   location     = "http://hdl.handle.net/1721.1/6363"
+}
+
+@TechReport{ajtfo,
+  author       = "Peter Nelson",
+  title        = "{A} {JIT} Translator for {O}beron",
+  institution  = "New College",
+  year         = 2010,
+  address      = oxuk,
+  month        = "20 " # may,
+  keywords     = "jit compilation, oberon",
+  abstract     = "The aim was to implement a JIT runtime for the Oxford Oberon-2
+    platform using the open source libjit library.  The Oxford Oberon-2
+    platform consists of a compiler and runtime.  The runtime system uses a
+    stack-based virtual machine, with an architecture similar to that of the
+    JVM and CLR.  Even with only a few simple runtime code optimisations, the
+    completed JIT performed far better than the interpreter implementation in a
+    number of informal benchmarking tests, even coming close to the performance
+    of Mono 2.6.  A possible future project could involve adding to and
+    improving on the optimisation techniques, and more formal benchmarking
+    tests.",
+  location     = "http://peterdn.com/page/A-JIT-Translator-for-Oberon.aspx"
 }
 
