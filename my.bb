@@ -747,6 +747,42 @@
   location     = "http://dx.doi.org/10.1145/78969.78971"
 }
 
+@Article{bfofaji,
+  author       = "Ogata, Kazunori and Komatsu, Hideaki and Nakatani, Toshio",
+  title        = "Bytecode Fetch Optimization for a {J}ava Interpreter",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS X)",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "58--67",
+  month        = oct,
+  keywords     = "bytecode interpretation, java, performance, powerpc,
+    superscaler processor, stack caching, pipelined interpreter",
+  abstract     = "Interpreters play an important role in many languages, and 
+    their performance is critical particularly for the popular language Java.
+    The performance of the interpreter is important even for high-performance
+    virtual machines that employ just-in-time compiler technology, because
+    there are advantages in delaying the start of compilation and in reducing
+    the number of the target methods to be compiled.  Many techniques have been
+    proposed to improve the performance of various interpreters, but none of
+    them has fully addressed the issues of minimizing redundant memory accesses
+    and the overhead of indirect branches inherent to interpreters running on
+    superscalar processors.  These issues are especially serious for Java
+    because each bytecode is typically one or a few bytes long and the
+    execution routine for each bytecode is also short due to the low-level,
+    stack-based semantics of Java bytecode.  In this paper, we describe three
+    novel techniques of our Java bytecode interpreter, write-through
+    top-of-stack caching (WT), position-based handler customization (PHC), and
+    position-based speculative decoding (PSD), which ameliorate these problems
+    for the PowerPC processors.  We show how each technique contributes to
+    improving the overall performance of the interpreter for major Java
+    benchmark programs on an IBM POWER3 processor.  Among three, PHC is the
+    most effective one.  We also show that the main source of memory accesses
+    is due to bytecode fetches and that PHC successfully eliminates the
+    majority of them, while it keeps the instruction cache miss ratios small.", 
+  location     = "http://dx.doi.org/10.1145/605432.605404"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
