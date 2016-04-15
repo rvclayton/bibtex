@@ -783,6 +783,30 @@
   location     = "http://dx.doi.org/10.1145/605432.605404"
 }
 
+@Article{paipefdavcp,
+  author       = "Chow, Ching-Hua and Lam, Simon~S.",
+  title        = "{PROSPEC}:  An Interactive Programming Environment for Designing and Verifying Communication Protocols",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "327--338",
+  month        = mar,
+  keywords     = "analysis, verification, communication protocols, formal
+    description techniques, formal specifications, programming environment,
+    protocol design, reachability analysis, software tools",
+  abstract     = "The PROSPEC software environment for designing and verifying
+    communication protocols is described.  It integrates several tools that
+    implement methods for protocol verification and construction (i.e., fair
+    reachability analysis, multiphase construction, and protocol projection).
+    The system provides a unified graphical interface to facilitate the
+    application of these methods and creates an interactive environment for
+    specifying, verifying, and designing communication protocols.  PROSPEC was
+    used successfully to design and verify versions of BSC, X.21, X.25, and
+    Telnet document transfer protocols.", 
+  location     = "http://dx.doi.org/10.1109/32.4653"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
@@ -1038,6 +1062,15 @@
   address      = chil,
   keywords     = "biography, theater, bloodlines",
   location     = "PR 55.L47 A3"
+}
+
+@Book{ditcac,
+  author       = "Agatha Christie",
+  title        = "Death in the Clouds",
+  publisher    = "Dodd, Mead",
+  year         = 1935,
+  keywords     = "broadening travel, murrdaar",
+  location     = "PZ 3 C4637 PR 6005 H66"
 }
 
 @InProceedings{wsm,
