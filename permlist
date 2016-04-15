@@ -704,6 +704,7 @@ building your research program : leveson
 built in self testing of random access memories : franklin
 business model issues in the development of digital cultural content : wall
 c a language for high level efficient and machine independent dynamic code generation : engler
+bytecode fetch optimization for a java interpreter : ogata
 c# introduction : hejlsberg
 c++ aplicators and manipulators : charney
 c++ namespaces : pennello
