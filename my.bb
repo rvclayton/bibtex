@@ -1084,6 +1084,16 @@
   location     = "F 591 W69"
 }
 
+@Book{dotn,
+  author       = "Agatha Christie",
+  title        = "Death on the Nile",
+  publisher    = "Dodd, Mead",
+  year         = 1970,
+  address      = nyny,
+  keywords     = "murrdaar, teamwork",
+  location     = "PR 6005.H66 D4"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
