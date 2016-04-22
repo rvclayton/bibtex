@@ -1073,6 +1073,17 @@
   location     = "PZ 3 C4637 PR 6005 H66"
 }
 
+@Book{isymanomo,
+  author       = "Richard White",
+  title        = {"It's Your Misfortune and None of My Own"},
+  publisher    = "University of Oklahoma Press",
+  year         = 1991,
+  address      = "Norman, Oklahoma",
+  keywords     = "the american west, government, economic development,
+    territorial politics, indigenous populations", 
+  location     = "F 591 W69"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
