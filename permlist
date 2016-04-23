@@ -2868,6 +2868,7 @@ swarm 0.44 documents : dales
 sxml specification : kiselyov
 sxslt manipulation language for xml : kiselyov
 symbolic model checking using sat proceudres instead of bdds : biere
+symmertic and asymmetric encryption : simmons
 synchronization algorithms for shared memory multiprocessors : graunke
 synchronization coherence and event ordering in multiprocessors : dubois
 synchronization in distributed programs : schneider
@@ -3542,6 +3543,7 @@ vortex rtl textual description grammar : cecil
 vrml primer and tutorial : schneider
 w effect considered harmful : khare
 walkabout revisited the runabout : grothoff
+wait free synchronization : herlihy
 wap is a trap reject wap : banan
 wavelets an elementary introduction and examples : ueda
 wearing the hair shirt : peyton jones
