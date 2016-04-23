@@ -807,6 +807,70 @@
   location     = "http://dx.doi.org/10.1109/32.4653"
 }
 
+@Article{wfsmh,
+  author       = "Maurice Herlihy",
+  title        = "Wait-Free Synchronization",
+  journal      = toplas,
+  year         = 1991,
+  volume       = 13,
+  number       = 1,
+  pages        = "124--149",
+  month        = jan,
+  keywords     = "algorithms, language, verification, linearizability,
+    wait-free synchronization",
+  abstract     = "A wait-free implementation of a concurrent data object is one
+    that guarantees that any process can complete any operation in a finite
+    number of steps, regardless of the execution speeds of the other processes.
+    The problem of constructing a wait-free implementation of one data object
+    from another lies at the heart of much recent work in concurrent
+    algorithms, concurrent data structures, and multiprocessor architectures.
+    First, we introduce a simple and general technique, based on reduction to a
+    concensus protocol, for proving statements of the form, “there is no
+    wait-free implementation of X by Y.” We derive a hierarchy of objects such
+    that no object at one level has a wait-free implementation in terms of
+    objects at lower levels.  In particular, we show that atomic read/write
+    registers, which have been the focus of much recent attention, are at the
+    bottom of the hierarchy: thay cannot be used to construct wait-free
+    implementations of many simple and familiar data types.  Moreover,
+    classical synchronization primitives such astest&set and fetch&add, while
+    more powerful than read and write, are also computationally weak, as are
+    the standard message-passing primitives.  Second, nevertheless, we show
+    that there do exist simple universal objects from which one can construct a
+    wait-free implementation of any sequential object.", 
+  location     = "https://cs.brown.edu/~mph/Herlihy91/p124-herlihy.pdf",
+  location     = "http://dx.doi.org/10.1145/114005.102808"
+}
+
+@Article{saae,
+  author       = "Gustavus~J. Simmons",
+  title        = "Symmertic and Asymmetric Encryption",
+  journal      = surveys,
+  year         = 1979,
+  volume       = 11,
+  number       = 4,
+  pages        = "305--330",
+  month        = dec,
+  keywords     = "cryptography, secure communications, asymmetric encryption,
+  computational complexity, public-key cryptosystems, authentication, linear
+  shift registers",
+  abstract     = "All cryptosystems currently in use are symmetric in the sense
+    that they require the transmitter and receiver to share, in secret, either
+    the same piece of reformation (key) or one of a pair of related keys easily
+    computed from each other, the key is used in the encryption process to
+    introduce uncertainty to an unauthorized receiver.  Not only is an
+    asymmetric encryption system one in which the transmitter and receiver keys
+    are different, but in addition it Is computationally infeasible to compute
+    at least one from the other.  Asymmetric systems make it possible to
+    authenticate messages whose contents must be revealed to an opponent or
+    allow a transmitter whose key has been compromised to communicate in
+    privacy to a receiver whose key has been kept secret--neither of which is
+    possible using a symmetric cryptosystem.  This paper opens with a brief
+    discussion of encryption principles and then proceeds to a comprehensive
+    discussion of the asymmetric encryption/decryption channel and its
+    application in secure communications.", 
+  location     = "http://dx.doi.org/10.1145/356789.356793"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
