@@ -1158,6 +1158,26 @@
   location     = "PR 6005.H66 D4"
 }
 
+@Book{cnglsh,
+  author       = "Liang-shih Hahn",
+  title        = "Complex Numbers \& Geometry",
+  publisher    = "The Mathematical Association of America",
+  year         = 1994,
+  address      = "Washington, D.C.",
+  keywords     = "complex numbers, geometry, mobius transforms",
+  location     = "QA 255.H34 1994"
+}
+
+@Book{sre,
+  author       = "Richard Ellis",
+  title        = "Swordfish",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "swordfish, ocean ecology, fishing economics",
+  location     = "QL 638.X5 E45"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
