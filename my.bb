@@ -1273,3 +1273,36 @@
   location     = "http://peterdn.com/page/A-JIT-Translator-for-Oberon.aspx"
 }
 
+@MastersThesis{nlpffolp,
+  author       = "Kevin~T. Driver",
+  title        = "Natural Language Processing for First Order Logic Problems",
+  school       = uta # " at Austin",
+  year         = 2007,
+  address      = atx,
+  month        = dec,
+  keywords     = "alloy, knaves, knights, logic puzzles, satisfaction",
+  abstract     = "Designing software and implementing these designs are 
+    processes highly prone to error.  Despite the best human effort, these
+    designs and implementations often produce software with undesired results
+    or difficult-to-detect defects.  The Software Design Group at MIT has
+    produced the Alloy modeling language in order to address these issues.
+    Model-checking with Alloy allows for the specification of invariants and
+    the itemization of possible satisfying program executions, as well as other
+    features.  One downside in the use of Alloy is that the model designer is
+    required to learn another language with all its syntax and semantics,
+    simply to express the model.  A more ideal situation would be to bridge the
+    gap between the model designer and the modeling software with some
+    understanding and processing of natural language.  The focus of this paper
+    is to present a solution of natural language processing coupled with model
+    design for a certain problem domain.  Based upon prior work of the author
+    and his colleagues, a grammar will be presented and examined, and the
+    conversion from natural language to Alloy will be discussed.  Additional
+    analyses of members of the problem domain will then be presented, including
+    meaningful dissection of unsatisfiable models using new additions to the
+    Alloy language and mapping these results back to the original natural
+    language model.  In this way, describing models is made easier with the
+    added advantage of detecting and isolating unsatisfiable portions of the
+    model.  The implications of this effort reveal numerous applications in the
+    software discipline and beyond." 
+}
+
