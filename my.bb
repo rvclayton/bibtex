@@ -1178,6 +1178,38 @@
   location     = "QL 638.X5 E45"
 }
 
+@Book{mmpdrg,
+  author       = "Persi Diaconis and Ron Graham",
+  title        = "Magical Mathematics",
+  publisher    = pup,
+  year         = 2012,
+  address      = prnj,
+  keywords     = "cycles, mandelbrot set, shuffles",
+  location     = "GV 1549 D53"
+}
+
+@Book{ittgocn,
+  author       = "Roland Deaux",
+  title        = "Introduction to the Geometry of Complex Numbers",
+  publisher    = "Dover",
+  year         = 2008,
+  address      = "Mineola, New York",
+  keywords     = "complex numbers, geometric representation, analytic geometry,
+    circular transformations, conics, homography",
+  location     = "QA 471 D373"
+}
+
+@Book{gacn,
+  author       = "Hans Schwerdtfeger",
+  title        = "Geometry and Complex Numbers",
+  publisher    = "Dover",
+  year         = 1979,
+  address      = nyny,
+  keywords     = "analytic geometry, circles, moebius transformation,
+    non-euclidean geometries",
+  location     = "QA 255 S36"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
