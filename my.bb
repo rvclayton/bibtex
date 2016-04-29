@@ -871,6 +871,32 @@
   location     = "http://dx.doi.org/10.1145/356789.356793"
 }
 
+@Article{pcssl,
+  author       = "Simon~S. Lam",
+  title        = "Protocol Conversion",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "353--362",
+  month        = mar,
+  keywords     = "communication protocols, computer networks, internetworking,
+    protocol architecture, protocol conversion, protocol projection, protocol
+    verification",
+  abstract     = "The problem of achieving communication between two processes
+    across a network or an internetwork is considered.  The notion of logical
+    connectivity between processes in a protocol is formalized.  The problem of
+    constructing a protocol converter to achieve interoperability between
+    processes that implement different protocols is addressed.  A formal model
+    is presented, based on the theory of protocol projection, for reasoning
+    about the semantics of different protocols and conversions between them.
+    Two kinds of converters are presented: memoryless converters and
+    finite-state converters.  The construction of some finite-state converters
+    is illustrated, and examples are given.", 
+  location     = "http://dx.doi.org/10.1109/32.4655",
+  location     = "ftp://ftp.cs.utexas.edu/pub/techreports/tr87-05.pdf"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
@@ -1208,6 +1234,16 @@
   keywords     = "analytic geometry, circles, moebius transformation,
     non-euclidean geometries",
   location     = "QA 255 S36"
+}
+
+@Book{tloh,
+  author       = "Agatha Christie",
+  title        = "The Labours of Hercules",
+  publisher    = "Dodd, Mead",
+  year         = 1967,
+  address      = nyny,
+  keywords     = "murrdaar, the classics",
+  location     = "PR 6005.H66 L33"
 }
 
 @InProceedings{wsm,
