@@ -897,6 +897,42 @@
   location     = "ftp://ftp.cs.utexas.edu/pub/techreports/tr87-05.pdf"
 }
 
+@Article{esrwst,
+  author       = "Oplinger, Jeffrey and Lam, Monica~S.",
+  title        = "Enhancing Software Reliability with Speculative Threads",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS X)",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "184--196",
+  month        = oct,
+  keywords     = "machine architecture, thread-level speculation, transactions,
+    recovery, execution monitoring, transactional programming",
+  abstract     = "This paper advocates the use of a monitor-and-recover
+    programming paradigm to enhance the reliability of software, and proposes
+    an architectural design that allows software and hardware to cooperate in
+    making this paradigm more efficient and easier to program.  We propose that
+    programmers write monitoring functions assuming simple sequential execution
+    semantics.  Our architecture speeds up the computation by executing the
+    monitoring functions speculatively in parallel with the main computation.
+    For recovery, programmers can define fine-grain transactions whose side
+    effects, including all register modifications and memory writes, can either
+    be committed or aborted under program control.  Transactions are
+    implemented efficiently by treating them as speculative threads.  Our
+    experimental results suggest that monitored execution is more amenable to
+    parallelization than regular program execution.  Code monitoring is sped up
+    by a factor of 1.5 by exploiting single-thread instruction-level
+    parallelism, and by an additional factor of 1.6 using thread-level
+    speculation.  This results in an overall improvement of 2.5 times and a
+    sustained 5.4 instructions-per-cycle performance.  A monitored execution
+    that used to be 2.5 times slower executes with a degradation of only 12%
+    when compared to the performance on the baseline machine.  We also show
+    that the concept of fine-grain transactional programming is useful in
+    catching buffer overrun errors through a number of real-life examples.", 
+  location     = "http://dx.doi.org/10.1145/605397.605417",
+  location     = "http://suif.stanford.edu/papers/asplos02.ps"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
