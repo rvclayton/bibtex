@@ -933,6 +933,28 @@
   location     = "http://suif.stanford.edu/papers/asplos02.ps"
 }
 
+@Article{esbdmalpe,
+  author       = "Sevin\d{c}, S{\" u}leyman and Zeigler, Bernard~P.",
+  title        = "Entity Structure Based Design Methodology:  {A} {LAN} Protocol Example",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "375--383",
+  month        = mar,
+  keywords     = "discrete event simulation, entity structure based knowledge
+    representation, knowledge-based local area network design",
+  abstract     = "An application of the system entity structure is illustrated:
+    a frame-like knowledge representation scheme is used to design local area
+    networks (LANs).  An entity structure for a data-link-layer protocol that
+    illustrates many possible applications is introduced.  The main concepts of
+    the design methodology are illustrated using this example entity structure,
+    and the underlying simulation environment is briefly discussed.  The
+    methodology aims to facilitate evaluation of a wide family of design
+    alternatives and component combinations.", 
+  location     = "http://dx.doi.org/10.1109/32.4657"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
@@ -1280,6 +1302,16 @@
   address      = nyny,
   keywords     = "murrdaar, the classics",
   location     = "PR 6005.H66 L33"
+}
+
+@Book{hpsc,
+  author       = "Agatha Christie",
+  title        = "Hercule Poirot's Christmas",
+  publisher    = "William Morrow",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "murrdaar, family life",
+  location     = "PR 6005.H66 H44"
 }
 
 @InProceedings{wsm,
