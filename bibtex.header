@@ -7,6 +7,7 @@
 @string{acmt	= "ACM Transactions on "}
 @string{acmtcs	= acmt # "Computer Systems"}
 @string{acmq	= "ACM Queue"}
+@string{ail     = "Artifical Intelligence Laboratory"}
 @string{aio     = "Ames, Iowa"}
 @string{amne    = "Amsterdam, The Netherlands"}
 @string{anca    = "Anaheim, California"}
@@ -47,7 +48,7 @@
 @string{crl	= "Cambridge Research Lab, "}
 @string{cpma    = "College Park, Maryland"}
 @string{cs      = "Computing Systems"}
-@string{csail   = "Computer Science and Artifical Intelligence Laboratory"}
+@string{csail   = "Computer Science and " # ail}
 @string{sigcseb = "SICGSE Bulletin"}
 @string{csl	= "Concurrent Systems Laboratory, "}
 @string{cscw    = " Computer-Supported Cooperative Work"}
