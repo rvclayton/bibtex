@@ -1342,6 +1342,27 @@
   location     = "PR 6005.H66 H44"
 }
 
+@Book{asbrl,
+  author       = "Roger Lowenstein",
+  title        = "America's Bank",
+  publisher    = "Penguin",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "federal reserve, monetary policy, politics, populism, wall
+    street, finance, central banking, federalism",
+  location     = "HG 2563 L69"
+}
+
+@Book{amia,
+  author       = "Agatha Christie",
+  title        = "{A} Murder is Announced",
+  publisher    = "Dodd, Mead",
+  year         = 1950,
+  address      = nyny,
+  keywords     = "murrdaar, identity",
+  location     = "PR 6005 H66 M847"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
