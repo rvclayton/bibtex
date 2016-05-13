@@ -955,6 +955,34 @@
   location     = "http://dx.doi.org/10.1109/32.4657"
 }
 
+@Article{asotfsaridcs,
+  author       = "Kohler, Walter~H.",
+  title        = "{A} Survey of Techniques for Synchronization and Recovery in Decentralized Computer Systems",
+  journal      = surveys,
+  year         = 1981,
+  volume       = 13,
+  number       = 2,
+  pages        = "149--183",
+  month        = jun,
+  keywords     = "decentralized system, object model, access synchronization,
+    concurrency control, crash recovery, atomic action",
+  abstract     = "Two related and fundamental problems in designing
+    decentralized systems which support an object model of computation are
+    introduced, and proposed solution techniques are surveyed The first problem
+    is synchronizing access to shared objects while allowing a high degree of
+    concurrency.  The second is the recovery of objects in spite of user
+    errors, application errors, or partial system failure.  The synchronization
+    problem is a generalization of the concurrency control problem which arises
+    in database and transaction-processing systems.  Concurrency control
+    methods which use locking, timestamps, circulating permit, tickets,
+    conflict analysis, and reservations are presented and compared.  The
+    proposed approach to solving the recovery problem is based on a software
+    structuring abstraction called the atomic action, a type of generalized
+    transaction.  Requirements and techniques for implementing atomic actions
+    in a decentralized environment are discussed.", 
+  location     = "http://dx.doi.org/10.1145/356842.356845"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
