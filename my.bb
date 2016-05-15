@@ -983,6 +983,40 @@
   location     = "http://dx.doi.org/10.1145/356842.356845"
 }
 
+@Article{matvmfsn,
+  author       = "Levis, Philip and Culler, David",
+  title        = "Mat{\' e}: {A} Tiny Virtual Machine for Sensor Networks",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS X)",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "85--95",
+  month        = oct,
+  keywords     = "sensor networks, virtual machines, tinyos, active networks,
+    code capsules, ad-hoc routing",
+  abstract     = "Composed of tens of thousands of tiny devices with very 
+    limited resources (motes), sensor networks are subject to novel systems
+    problems and constraints.  The large number of motes in a sensor network
+    means that there will often be some failing nodes; networks must be easy to
+    repopulate.  Often there is no feasible method to recharge motes, so energy
+    is a precious resource.  Once deployed, a network must be reprogrammable
+    although physically unreachable, and this reprogramming can be a
+    significant energy cost.We present Maté, a tiny communication-centric
+    virtual machine designed for sensor networks.  Maté's high-level interface
+    allows complex programs to be very short (under 100 bytes), reducing the
+    energy cost of transmitting new programs.  Code is broken up into small
+    capsules of 24 instructions, which can self-replicate through the network.
+    Packet sending and reception capsules enable the deployment of ad-hoc
+    routing and data aggregation algorithms.  Maté's concise, high-level
+    program representation simplifies programming and allows large networks to
+    be frequently reprogrammed in an energy-efficient manner; in addition, its
+    safe execution environment suggests a use of virtual machines to provide
+    the user/kernel boundary on motes that have no hardware protection
+    mechanisms.", 
+  location     = "http://dx.doi.org/10.1145/605397.605407",
+  location     = "https://sing.stanford.edu/site/publications/asplos02levis.pdf"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
