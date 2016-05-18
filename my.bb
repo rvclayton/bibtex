@@ -1017,6 +1017,37 @@
   location     = "https://sing.stanford.edu/site/publications/asplos02levis.pdf"
 }
 
+@Article{ialfic,
+  author       = "Daniel~M. Yellin and Robert~E. Strom",
+  title        = "{INC}: {A} Language for Incremental Computations",
+  journal      = toplas,
+  year         = 1991,
+  volume       = 13,
+  number       = 2,
+  pages        = "211--236",
+  month        = apr,
+  keywords     = "Dynamic algorithms, finite differencing, incremental
+    complexity, incremental computations, graph representations, data-flow
+    computations, static complexity", 
+  abstract     = "An incremental computation is one that is performed
+    repeatedly on nearly identical inputs.  Incremental computations occur
+    naturally in many environments, such as compilers, language-based editors,
+    spreadsheets, and formatters.  This article describes a proposed tool for
+    making it easy to write incremental programs.  The tool consists of a
+    programming language, INC, and a set of compile-time transformations for
+    the primitive elements of INC.  A programmer defines an algorithm in INC
+    without regard to efficient incremental execution.  The transformations
+    automatically convert this algorithm into an efficient incremental
+    algorithm.  INC is a functional language.  The implementation of an INC
+    program is a network of processes.  Each INC function is transformed into a
+    process that receives and transmits messages describing changes, to its
+    inputs and outputs.  We give an overview to the language and illustrate the
+    incremental techniques employed by INC.  We present the static and
+    incremental complexity bounds for the primitive INC functions.  We also
+    present some example programs illustrating INC'S flexibility.", 
+  location     = "http://dx.doi.org/10.1145/53990.54002"
+}
+
 		  
 @Book{taeff,
   author       = "Frederick Franck",
@@ -1395,6 +1426,16 @@
   address      = nyny,
   keywords     = "murrdaar, identity",
   location     = "PR 6005 H66 M847"
+}
+
+@Book{hpsec,
+  author       = "Agatha Christie",
+  title        = "Hercule Poirot's Early Cases",
+  publisher    = "Dodd, Mead",
+  year         = 1974,
+  address      = nyny,
+  keywords     = "murrdaar",
+  location     = "PZ3.C4637 Hh3 PR6005.H66"
 }
 
 @InProceedings{wsm,
