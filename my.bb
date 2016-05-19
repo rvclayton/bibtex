@@ -1048,7 +1048,6 @@
   location     = "http://dx.doi.org/10.1145/53990.54002"
 }
 
-		  
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -1466,6 +1465,33 @@
   location     = "www.cs.utah.edu/techreports/2003/abstracts/UUCS-03-023a.pdf"
 }
 
+@InProceedings{satstaotnoem,
+  author       = "Teh, Phoey Lee and Rayson, Paul and Pak, Irina and Piao, Scott",
+  title        = "Sentiment Analysis Tools Should Take Account of the Number of Exclamatio Marks!!!",
+  booktitle    = pot # "17th International Conference on Information Integration and Web-based Applications \& Services (iiWAS '15)",
+  year         = 2015,
+  address      = "Brussels, Belgium",
+  month        = "11--13 " # dec,
+  keywords     = "sentiment tools, exclamation marks, comments, emotions,
+    reviews, human factors, text analysis",
+  abstract     = "There are various factors that affect the sentiment level
+    expressed in textual comments.  Capitalization of letters tends to mark
+    something for attention and repeating of letters tends to strengthen the
+    emotion.  Emoticons are used to help visualize facial expressions which can
+    affect understanding of text.  In this paper, we show the effect of the
+    number of exclamation marks used, via testing with twelve online sentiment
+    tools.  We present opinions gathered from 500 respondents towards like and
+    dislike values, with a varying number of exclamation marks.  Results show
+    that only 20% of the online sentiment tools tested considered the number of
+    exclamation marks in their returned scores.  However, results from our
+    human raters show that the more exclamation marks used for positive
+    comments, the more they have higher like values than the same comments with
+    fewer exclamations marks.  Similarly, adding more exclamation marks for
+    negative comments, results in a higher dislike.", 
+  location     = "http://dx.doi.org/10.1145/2837185.2837216"
+}
+
+		  
 @TechReport{taotiotmcpzoat,
   author       = "Steele Jr., Guy Lewis and Sussman, Gerald~J.",
   title        = "The Art of the Interpreter or, The Modularity Complex (Parts Zero, One, and Two)",
