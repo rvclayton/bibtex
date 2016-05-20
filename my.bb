@@ -1437,6 +1437,17 @@
   location     = "PZ3.C4637 Hh3 PR6005.H66"
 }
 
+@Book{tvhk,
+  author       = "Han Kang",
+  title        = "The Vegetarian",
+  publisher    = "Hogarth",
+  year         = 2015,
+  address      = loen,
+  keywords     = "differences of opinion, the integrity of art, what is
+    madness",
+  location     = "PL 992.26 K36 C4313"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
