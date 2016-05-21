@@ -1048,6 +1048,27 @@
   location     = "http://dx.doi.org/10.1145/53990.54002"
 }
 
+@Article{tpohnlcp,
+  author       = "Mayer, Richard~E.",
+  title        = "The Psychology of How Novices Learn Computer Programming",
+  journal      = surveys,
+  year         = 1981,
+  volume       = 13,
+  number       = 1,
+  pages        = "121--141",
+  month        = mar,
+  keywords     = "psychology, programming, novices, instruction, man-machine
+    interface, concrete models, restatement, pedagogy",
+  abstract     = "This paper examines the current state of knowledge concerning
+    how to increase the novice's understanding of computers and computer
+    programming.  In particular, it reviews how advances in cognitive and
+    educational psychology may be applied to problems in teaching
+    non-programmers how to use computers.  Two major instructional techniques
+    are reviewed: providing a concrete model of the computer and encouraging
+    the learners to actively put technical information into their own words.", 
+  location     = "http://dx.doi.org/10.1145/356835.356841"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
