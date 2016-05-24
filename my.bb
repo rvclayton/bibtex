@@ -1069,6 +1069,39 @@
   location     = "http://dx.doi.org/10.1145/356835.356841"
 }
 
+@Article{erfas,
+  author       = "Sivathanu, Muthian and Arpaci-Dusseau, Andrea~C. and Arpaci-Dusseau, Remzi~H.",
+  title        = "Evolving {RPC} for Active Storage",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS X))",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "264--276",
+  month        = oct,
+  keywords     = "rpc, file servers, sprite, scripting",
+  abstract     = "We introduce Scriptable RPC (SRPC), an RPC-based framework
+    that enables distributed system services to take advantage of active
+    components.  Technology trends point to a world where each component in a
+    system (whether disk, network interface, or memory) has substantial
+    computational capabilities; however, traditional methods of building
+    distributed services are not designed to take advantage of these new
+    architectures, mandating wholesale change of the software base to exploit
+    more powerful hardware.  In contrast, SRPC provides a direct and simple
+    migration path for traditional services into the active environment.We
+    demonstrate the power and flexibility of the SRPC framework through a
+    series of case studies, with a focus on active storage servers.
+    Specifically, we find three advantages to our approach.  First, SRPC
+    improves the performance of distributed file servers, reducing latency by
+    combining the execution of operations at the file server.  Second, SRPC
+    enables the ready addition of new functionality; for example, more powerful
+    cache consistency models can be realized on top of a server that exports a
+    simple NFS-like interface.  Third, SRPC simplifies the construction of
+    distributed services; operations that are difficult to coordinate across
+    client and server can now be co-executed at the server, thus avoiding
+    costly agreement and crash-recovery protocols.",
+  location     = "http://dx.doi.org/10.1145/635506.605425"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
