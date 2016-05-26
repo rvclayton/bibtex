@@ -1102,6 +1102,44 @@
   location     = "http://dx.doi.org/10.1145/635506.605425"
 }
 
+@Article{ascfcea,
+  author       = "Gordon, Michael~I. and Thies, William and Karczmarek, Michal and Lin, Jasper and Meli, Ali~S. and Lamb, Andrew~A. and Leger, Chris and Wong, Jeremy and Hoffmann, Henry and Maze, David and Amarasinghe, Saman",
+  title        = "A Stream Compiler for Communication-Exposed Architectures",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS X))",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "291--303",
+  month        = oct,
+  keywords     = "stream processing",
+  abstract     = "With the increasing miniaturization of transistors, wire
+    delays are becoming a dominant factor in microprocessor performance.  To
+    address this issue, a number of emerging architectures contain replicated
+    processing units with software-exposed communication between one unit and
+    another (e.g., Raw, SmartMemories, TRIPS).  However, for their use to be
+    widespread, it will be necessary to develop compiler technology that
+    enables a portable, high-level language to execute efficiently across a
+    range of wire-exposed architectures.In this paper, we describe our compiler
+    for StreamIt: a high-level, architecture-independent language for streaming
+    applications.  We focus on our backend for the Raw processor.  Though
+    StreamIt exposes the parallelism and communication patterns of stream
+    programs, some analysis is needed to adapt a stream program to a
+    software-exposed processor.  We describe a partitioning algorithm that
+    employs fission and fusion transformations to adjust the granularity of a
+    stream graph, a layout algorithm that maps a stream graph to a given
+    network topology, and a scheduling strategy that generates a fine-grained
+    static communication pattern for each computational element.We have
+    implemented a fully functional compiler that parallelizes StreamIt
+    applications for Raw, including several load-balancing transformations.
+    Using the cycle-accurate Raw simulator, we demonstrate that the StreamIt
+    compiler can automatically map a high-level stream abstraction to Raw
+    without losing performance.  We consider this work to be a first step
+    towards a portable programming model for communication-exposed
+    architectures.", 
+  location     = "http://dx.doi.org/10.1145/635506.605425",
+  location     = "http://groups.csail.mit.edu/cag/streamit/papers/streamit-asplos.pdf"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -1500,6 +1538,16 @@
   keywords     = "differences of opinion, the integrity of art, what is
     madness",
   location     = "PL 992.26 K36 C4313"
+}
+
+@Book{motoe,
+  author       = "Agatha Christie",
+  title        = "Murder on the Orient Express",
+  publisher    = "William Morrow",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "murrdaar, teamwork",
+  location     = "PR 6005.H66 M88"
 }
 
 @InProceedings{wsm,
