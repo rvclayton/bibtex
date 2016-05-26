@@ -267,6 +267,7 @@ a statistical approach to the spam problem : robinson
 a stepwise refinement based approach for synthesizing protocol specifications in an interpreted petri net model : kahlouche
 a stop and go queueing framework for congestion management : golestani
 a straightforward denotational semantics for nondeterministic data flow programs : kosinski
+a stream compiler for communication exposed architectures : gordon
 a study of common pitfalls in simple multi threaded programs : choi
 a study of design characterization in evolving software using stability as a criterion : kelly
 a study of the fragile base class problem : makhajlov
