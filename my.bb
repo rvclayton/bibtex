@@ -1550,6 +1550,16 @@
   location     = "PR 6005.H66 M88"
 }
 
+@Book{trafoag,
+  author       = "Robert~J. Gordon",
+  title        = "The Rise and Fall of American Growth",
+  publisher    = pup,
+  year         = 2016,
+  address      = prnj,
+  keywords     = "economics, growth, development, economic policy",
+  location     = "HD 6983 G69"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
