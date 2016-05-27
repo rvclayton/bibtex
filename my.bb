@@ -1682,6 +1682,39 @@
   location     = "http://peterdn.com/page/A-JIT-Translator-for-Oberon.aspx"
 }
 
+@TechReport{stfamc,
+  author       = "Peter~S. Langston",
+  title        = "Six Techniques for Algorithmic Music Composition",
+  institution  = "Bellcore",
+  year         = 1988,
+  address      = "Morristown, N.J.",
+  keywords     = "stochastic generation, fractals, midi",
+  abstract     = "Can machines compose music? Is composition an artistic act of
+    inspired creation beyond the scope of current technology or is it amenable
+    to some form of computer contribution? This report describes algorithms
+    that perform specific composition tasks.Developing methods of machine
+    composition requires the solution of a number of difficult problems in the
+    fields of algorithm design, data representation, and human interface
+    design, using techniques from software engineering, generative grammars,
+    computer graphics, and others.  At Bellcore a set of programs composes and
+    plays music for listeners who have dialed in through the public switched
+    telephone network.  This paper describes, in detail, six algorithms
+    developed for those programs to deal with specific aspects of music
+    composition.  Stochastic Binary Subdivision generates non-repeating
+    rhythmic structures that avoid common rhythmic problems.  Riffology 
+    generates acceptable improvised melodies with little computing overhead.
+    Auditals is a grammar-based technique to exploit the similarities between
+    plant structure and musical structure.  Key Phrase Animation and Fractal
+    Interpolation are approaches borrowed from computer graphics and used for
+    melodic embellishment.  Expert Novice Picker composes authentic banjo solos
+    based on expert knowledge.  All of the algorithms strive for a certain
+    elegance in style - compact source code expressing a single technique with
+    few special cases and little arbitrariness other than the use of random
+    numbers.  Algorithms such as these are useful tools on the computer
+    composer's workbench.", 
+  location     = "http://peterlangston.com/Papers/amc.pdf"
+}
+
 @MastersThesis{nlpffolp,
   author       = "Kevin~T. Driver",
   title        = "Natural Language Processing for First Order Logic Problems",
