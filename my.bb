@@ -1715,6 +1715,19 @@
   location     = "http://peterlangston.com/Papers/amc.pdf"
 }
 
+@TechReport{fraf,
+  author       = "Bob Sproull",
+  title        = "Font Representations and Formats",
+  institution  = "Computer Science Laboratory " # parc,
+  year         = 1980,
+  address      = paca,
+  month        = oct,
+  keywords     = "fonts, alto, rasters, splines",
+  abstract     = "This report presents the various standard and
+    device-dependent font formats in use at PARC",
+  location     = "ftp://bitsavers.informatik.uni-stuttgart.de/pdf/xerox/alto/printing/AltoFontFormats_Oct1980.pdf"
+}
+
 @MastersThesis{nlpffolp,
   author       = "Kevin~T. Driver",
   title        = "Natural Language Processing for First Order Logic Problems",
