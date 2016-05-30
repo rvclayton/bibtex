@@ -1140,6 +1140,32 @@
   location     = "http://groups.csail.mit.edu/cag/streamit/papers/streamit-asplos.pdf"
 }
 
+@Article{harcfhm,
+  author       = "Mueller, Robert~A. and Duda, Michael~R. and Sweany, Philip~H. and Walicki, Jack~S.",
+  title        = "Horizon: {A} Retargetable Compiler for Horizontal Microarchitectures",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 5,
+  pages        = "575--583",
+  month        = may,
+  keywords     = "data antidependency, data dependency, loop pipelining,
+    microcode compaction, microprogramming, retargetable microcode compilers,
+    trace scheduling",
+  abstract     = "The vertical migration of complex application code into
+    horizontal microcode makes traditional methods of handwritten and
+    hand-optimized microcode with primitive assembly languages impractical.
+    Higher-level languages that permit abstraction from low-level timing and
+    concurrency details are considered a major step toward alleviating the
+    problem.  This approach is feasible only if compilers for these languages
+    exist that can produce high-quality microcode and that can be targeted to
+    new machines with modest effort and high reliability.  An overview is
+    provided of the Horizon retargetable microcode compiler, which facilitates
+    the production of highly optimized microcode and the targeting of the
+    compiler to specific machines.", 
+  location     = "http://dx.doi.org/10.1109/32.6135"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
