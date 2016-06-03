@@ -1617,6 +1617,16 @@
   location     = "HD 6983 G69"
 }
 
+@Book{cac1975,
+  author       = "Agatha Christie",
+  title        = "Curtain",
+  publisher    = "Dodd, Mead",
+  year         = 1975,
+  address      = nyny,
+  keywords     = "murrdaar, the evils that men do",
+  location     = "PZ3.C4637 PR6005.H66"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
