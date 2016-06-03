@@ -1166,6 +1166,37 @@
   location     = "http://dx.doi.org/10.1109/32.6135"
 }
 
+@Article{ejas,
+  author       = "Solworth, Jon~A.",
+  title        = "Epochs",
+  journal      = toplas,
+  year         = 1992,
+  volume       = 14,
+  number       = 1,
+  pages        = "28--53",
+  month        = jan,
+  keywords     = "algorithms, design, languages, theory, verification, multiple
+    data stream architecture, process management, concurrent programming",
+  abstract     = "To date, the implementation of message passing languages has
+    required the communications variables (sometimes called ports) either to be
+    limited to the number of physical communications registers in the machine
+    or to be mapped to memory.  Neither solution is satisfactory.  Limiting the
+    number of variables decreases modularity and efficiency of parallel
+    programs.  Mapping variables to memory increases the cost of communications
+    and the granularity of parallelism.  We present here a new programming
+    language construct called epochs.Epochs are a scoping mechanism within
+    which the programmer can declare communications variables, which are live
+    only during the scope of that epoch.  To limit the range of time a register
+    has to be allocated for a communications variable, the compiler ensures
+    that all processors enter an epoch simultaneously.  The programming style
+    engendered fits somewhere between the SIMD data parallel and the MIMD
+    process spawning models. We describe an implementation for epochs including
+    an efficient synchronization mechanism, a means of statically binding
+    registers to communications variables, and a method of fusing epochs to
+    reduce synchronization overhead.", 
+  location     = "http://dx.doi.org/10.1145/111186.116785"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
