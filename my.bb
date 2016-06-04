@@ -1627,6 +1627,16 @@
   location     = "PZ3.C4637 PR6005.H66"
 }
 
+@Book{acos,
+  author       = "Olja Savi{\v c}evi{\' c}",
+  title        = "Adios Cowboy",
+  publisher    = "McSweeny's",
+  year         = 2016,
+  address      = sfca,
+  keywords     = "going home, remembering, figuring it out",
+  location     = "PG 1620.29.A95A2"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
