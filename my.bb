@@ -1197,6 +1197,36 @@
   location     = "http://dx.doi.org/10.1145/111186.116785"
 }
 
+@Article{daiogftnclr,
+  author       = "Kennedy, Andrew and Syme, Don",
+  title        = "Design and Implementation of Generics for the .{NET} Common Language Runtime",
+  journal      = sigplan # " (" # pot # "2001 Conference on Programming Language Design and Implementation (PLDI '01))",
+  year         = 2001,
+  volume       = 36,
+  number       = 5,
+  pages        = "1--12",
+  month        = may,
+  keywords     = "generics, virtual machines, polymorphism",
+  abstract     = "The Microsoft.NET Common Language Runtime provides a shared
+    type system, intermediate language and dynamic execution environment for
+    the implementation and inter-operation of multiple source languages.  In
+    this paper we extend it with direct support for parametric polymorphism
+    (also known as generics), describing the design through examples written in
+    an extended version of the C# programming language, and explaining aspects
+    of implementation by reference to a prototype extension to the runtime.
+    Our design is very expressive, supporting parameterized types, polymorphic
+    static, instance and virtual methods, F-bounded type parameters,
+    instantiation at pointer and value types, polymorphic recursion, and exact
+    run-time types.  The implementation takes advantage of the dynamic nature
+    of the runtime, performing just-in-time type specialization,
+    representation-based code sharing and novel techniques for efficient
+    creation and use of run-time types.  Early performance results are
+    encouraging and suggest that programmers will not need to pay an overhead
+    for using generics, achieving performance almost matching hand-specialized
+    code.",
+  location     = "http://dx.doi.org/10.1145/378795.378797"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
