@@ -1001,6 +1001,7 @@ description of a machine architecture for use with block structured languages : 
 description of fastnet a unidirectional local area communications network : limb
 design and implementation of a configurable mixed media file system : maffeis
 design and implementation of a distributed parallel programming system : lin
+design and implementation of generics for the net common language runtime : kennedy
 design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
 design and architecture of the brazil web application framework : uhler
 design and implementation of an object oriented 64 bit single address space microkernel : murray
