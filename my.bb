@@ -1698,6 +1698,16 @@
   location     = "PG 1620.29.A95A2"
 }
 
+@Book{tmfac,
+  author       = "Agatha Christie",
+  title        = "The Moving Finger",
+  publisher    = "Dodd, Mead",
+  year         = 1942,
+  address      = nyny,
+  keywords     = "murrdaar, mighty pens",
+  location     = "PR 6005.H66 M64"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
