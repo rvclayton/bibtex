@@ -1227,6 +1227,37 @@
   location     = "http://dx.doi.org/10.1145/378795.378797"
 }
 
+@Article{tedotfdam,
+  author       = "Boute, Raymond~T.",
+  title        = "The {Euclidean} Definition of the Functions {\tt div} and {\tt mod}",
+  journal      = toplas,
+  year         = 1992,
+  volume       = 14,
+  number       = 2,
+  pages        = "127--144",
+  month        = apr,
+  keywords     = "desgn, standardization, theory, div function, decimation,
+    euclid's theorem, hardware description, integer division, interpolation,
+    mod function, number representation, predefined functions, remainder,
+    residue, sampling", 
+  abstract     = "The definitions of the functions div and mod in the computer
+    science literature and in programming languages are either similar to the
+    Algol of Pascal definition (which is shown to be an unfortunate choice) or
+    based on division by truncation (T-definition) or division by flooring as
+    defined by Knuth (F-definition).  The differences between various
+    definitions that are in common usage are discussed, and an additional one
+    is proposed, which is based on Euclid's theorem and therefore is called the
+    Euclidean definition (E-definition).  Its distinguishing feature is that 0
+    &#8804; D mod d &lt; | d | irrespective of the signs of D and d.  It is
+    argued that the E- and F-definitions are superior to all other ones in
+    regularity and useful mathematical properties and hence deserve serious
+    consideration as the standard convention at the applications and language
+    level.  It is also shown that these definitions are the most suitable ones
+    for describing number representation systems and the realization of
+    arithmetic operations at the architecture and hardware level.", 
+  location     = "http://dx.doi.org/10.1145/128861.128862"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
