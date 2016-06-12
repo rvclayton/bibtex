@@ -1708,6 +1708,16 @@
   location     = "PR 6005.H66 M64"
 }
 
+@Book{tawbk,
+  author       = "Blair Kamin",
+  title        = "Terror and Wonder",
+  publisher    = ucp,
+  year         = 2010,
+  address      = chil,
+  keywords     = "architecture, security, design, ecology",
+  location     = "NA 712.7.K36"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
