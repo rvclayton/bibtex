@@ -1718,6 +1718,37 @@
   location     = "NA 712.7.K36"
 }
 
+@Book{nomac,
+  author       = "Agatha Christie",
+  title        = "{N} or {M}?",
+  publisher    = "Dodd, Mead",
+  year         = 1941,
+  address      = nyny,
+  keywords     = "murrdaar, dastardly spies",
+  location     = ""
+}
+
+@Book{twols,
+  author       = "David Jaher",
+  title        = "The Witch of Lime Street",
+  publisher    = "Crown",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "spiritualism, houdini, doyle, fraud, scientific
+    inquiry", 
+  location     = "BF 1283 C85 J34"
+}
+
+@Book{ircs,
+  author       = "Carl Shapiro and Hal~R. Varian",
+  title        = "Information Rules",
+  publisher    = "Harvard Business School Press",
+  year         = 1999,
+  address      = boma,
+  keywords     = "business strategies, the internet, the information economy",
+  location     = "HC 79.I55 S53"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
