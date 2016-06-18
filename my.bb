@@ -1258,6 +1258,66 @@
   location     = "http://dx.doi.org/10.1145/128861.128862"
 }
 
+@Article{vsfeds,
+  author       = "Dittrich, Klaus~R. and Lorie, Raymond~A.",
+  title        = "Version Support for Engineering Database Systems",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 4,
+  pages        = "429--437",
+  month        = apr,
+  keywords     = "computer-aided design, databases, version control, object
+    structures, versioned databases",
+  abstract     = "In engineering applications, multiple copies of object
+    descriptions have to coexist in a single database.  This paper proposes a
+    scheme that enables users to explicitly deal with these object versions.
+    After introducing a basic version model, the problem of rerouting
+    interobject references upon the creation of new versions is solved by
+    providing generic references and user-specific environments.  Finally,
+    logical version clusters are introduced that allow for the meaningful
+    grouping of versions.  The paper concludes with some remarks on
+    implementation and a comparison with other approaches.", 
+  location     = "http://dx.doi.org/10.1109/32.4664"
+}
+
+@Article{cmajs,
+  author       = "Alan Jay Smith",
+  title        = "Cache Memories",
+  journal      = surveys,
+  year         = 1982,
+  volume       = 14,
+  number       = 3,
+  pages        = "473--530",
+  month        = sep,
+  keywords     = "design, experimentation, measurement, performance, buffer
+    memory, paging, prefetching, tlb,  store-through, amdah1470, ibm 3033,
+    bias",
+  abstract     = "Cache memories are used in modern, medium and high-speed CPUs
+    to hold temporarily those portions of the contents of main memory which are
+    (believed to be) currently in use.  Since instructions and data in cache
+    memories can usually be referenced in 10 to 25 percent of the time required
+    to access main memory, cache memories permit the execution rate of the
+    machine to be substantially increased.  In order to function effectively,
+    cache memories must be carefully designed and implemented.  In this paper,
+    we explain the various aspects of cache memories and discuss in some detail
+    the design features and trade-offs.  A large number of original,
+    trace-driven simulation results are presented.  Consideration is given to
+    practical implementation questions as well as to more abstract design
+    issues.  Specific aspects of cache memories that are investigated include:
+    the cache fetch algorithm (demand versus prefetch), the placement and
+    replacement algorithms, line size, store-through versus copy-back updating
+    of main memory, cold-start versus warm-start miss ratios, multicache
+    consistency, the effect of input/output through the cache, the behavior of
+    split data/instruction caches, and cache size.  Our discussion includes
+    other aspects of memory system architecture, including translation
+    lookaside buffers.  Throughout the paper, we use as examples the
+    implementation of the cache in the Amdahl 470V/6 and 470V/7, the IBM 3081,
+    3033, and 370/168, and the DEC VAX 11/780.  An extensive bibliography is
+    provided.", 
+  location     = "http://dx.doi.org/10.1145/356887.356892"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
