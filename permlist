@@ -713,6 +713,7 @@ c++ namespaces : pennello
 c++ type traits : maddock
 c-- a portable assembly language that supports garbage collection : peyton jones
 c based interactive rtl design methodology : shin
+cache memories : smith
 cache profiling and the spec benchmarks a case study : lebeck
 caching in the sprite network file system : nelson
 caching strategies to improve disk system performance : karedla
@@ -3522,6 +3523,7 @@ venti a new approach to archival storage : quinlan
 verification of a class of link level protocols : krogdahl
 verification of a reliable net protocol : yodaiken
 verification of link level protocols : knuth
+version support for engineering database systems : dittrich
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
 vic a flexible framework for packet video : mccanne
