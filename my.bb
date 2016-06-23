@@ -1318,6 +1318,32 @@
   location     = "http://dx.doi.org/10.1145/356887.356892"
 }
 
+@Article{ewasdma,
+  author       = "Wall, David~W.",
+  title        = "Experience with a Software-Defined Machine Architecture",
+  journal      = toplas,
+  year         = 1992,
+  volume       = 14,
+  number       = 3,
+  pages        = "299-338",
+  month        = jul,
+  keywords     = "graph coloring, intermediate language, interprocedural
+    optimization, pipline scheduling, profiling, register allocation, register
+    windows, risc, link-time manipulations",
+  abstract     = "We have built a system in which the compiler back end and the
+    linker work together to present an abstract machine at a considerably
+    higher level than the actual machine.  The intermediate language translated
+    by the back end is the target language of all high-level compilers and is
+    also the only assembly language generally available.  This lets us do
+    intermodule register allocation, which would be harder if some of the code
+    in the program had come from a traditional assembler, out of sight of the
+    optimizer.  We do intermodule register allocation and pipeline instruction
+    scheduling at link time, using information gathered by the compiler back
+    end.  The mechanism for analyzing and modifying the program at link time is
+    also useful in a wide array of instrumentation tools.", 
+  location     = "http://dx.doi.org/10.1145/129393.129395"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -1807,6 +1833,16 @@
   address      = boma,
   keywords     = "business strategies, the internet, the information economy",
   location     = "HC 79.I55 S53"
+}
+
+@Book{tphac,
+  author       = "Agatha Christie",
+  title        = "The Pale Horse",
+  publisher    = "Harper",
+  year         = 1961,
+  address      = nyny,
+  keywords     = "auras and emanations, murrdaar",
+  location     = "PZ 3.C4637 PR6005.H66"
 }
 
 @InProceedings{wsm,
