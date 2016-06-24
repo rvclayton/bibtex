@@ -1845,6 +1845,16 @@
   location     = "PZ 3.C4637 PR6005.H66"
 }
 
+@Book{tmatv,
+  author       = "Paul Murray",
+  title        = "The Mark and the Void",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "banking, fraud",
+  location     = "PR 6113.U78 M37."
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
