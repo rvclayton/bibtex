@@ -705,14 +705,15 @@ building your own basic cgi program : palmer
 building your research program : leveson
 built in self testing of random access memories : franklin
 business model issues in the development of digital cultural content : wall
-c a language for high level efficient and machine independent dynamic code generation : engler
 bytecode fetch optimization for a java interpreter : ogata
+c a language for high level efficient and machine independent dynamic code generation : engler
 c# introduction : hejlsberg
 c++ aplicators and manipulators : charney
 c++ namespaces : pennello
 c++ type traits : maddock
 c-- a portable assembly language that supports garbage collection : peyton jones
 c based interactive rtl design methodology : shin
+c grammars : mckeeman
 cache memories : smith
 cache profiling and the spec benchmarks a case study : lebeck
 caching in the sprite network file system : nelson
