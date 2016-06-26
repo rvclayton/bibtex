@@ -1249,6 +1249,7 @@ experiences with ada code generation : zorn
 experiences with software specification and verification using lp the larch proof assistant : broy
 experimental models for validating technology : zeklowitz
 experimental prototyping in smalltalk : diedrich
+experiments in optimizing fp : ryder
 experiments in sr with different upcall program structures : atkins
 experiments with a fast object swapper : peck
 experiments with a program timing tool based on source level timing schema : park
