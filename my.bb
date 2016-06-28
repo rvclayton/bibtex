@@ -1344,6 +1344,60 @@
   location     = "http://dx.doi.org/10.1145/129393.129395"
 }
 
+@Article{eiof,
+  author       = "Ryder, Barbara~G. and Pendergrast, J.~Stephen",
+  title        = "Experiments in Optimizing {FP}",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 4,
+  pages        = "444-454",
+  month        = apr,
+  keywords     = "coupling, fp, functional programming, optimization,
+  intermediate representation",
+  abstract     = "FPOPT, a globally optimizing compiler for FP, was built to 
+    study the efficiency of compiling a functional programming language by
+    translating it into an intermediate language and then optimizing that
+    intermediate language.  This paper describes the FPOPT system, the design
+    of the intermediate language and the optimizations performed.  We have
+    compared the relative effectiveness of these optimizations, singly and in
+    combinations, using an instrumented version of FPOPT; we report our
+    findings here.", 
+  location     = "http://dx.doi.org/10.1109/32.4668"
+}
+
+@Article{apaocp,
+  author       = "Ball, Thomas and Majumdar, Rupak and Millstein, Todd and Rajamani, Sriram~K.",
+  title        = "Automatic Predicate Abstraction of {C} Programs",
+  journal      = sigplan # " (" # pot # "2001 Conference on Programming Language Design and Implementation (PLDI '01))",
+  year         = 2001,
+  volume       = 36,
+  number       = 5,
+  pages        = "203--213",
+  month        = may,
+  keywords     = "model checking, theorem checking",
+  abstract     = "Model checking has been widely successful in validating and
+    debugging designs in the hardware and protocol domains.  However,
+    state-space explosion limits the applicability of model checking tools, so
+    model checkers typically operate on abstractions of systems.  Recently,
+    there has been significant interest in applying model checking to software.
+    For infinite-state systems like software, abstraction is even more
+    critical.  Techniques for abstracting software are a prerequisite to making
+    software model checking a reality.  We present the first algorithm to
+    automatically construct a predicate abstraction of programs written in an
+    industrial programming language such as C, and its implementation in a tool
+    &mdash; C2BP.  The C2BP tool is part of the SLAM toolkit, which uses a
+    combination of predicate abstraction, model checking, symbolic reasoning,
+    and iterative refinement to statically check temporal safety properties of
+    programs.  Predicate abstraction of software has many applications,
+    including detecting program errors, synthesizing program invariants, and
+    improving the precision of program analyses through predicate sensitivity.
+    We discuss our experience applying the C2BP predicate abstraction tool to a
+    variety of problems, ranging from checking that list-manipulating code
+    preserves heap invariants to finding errors in Windows NT device drivers.", 
+  location     = "http://dx.doi.org/10.1145/378795.378846"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
