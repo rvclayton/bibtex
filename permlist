@@ -617,6 +617,7 @@ automate your build processing using java and ant : cymerman
 automated analysis of concurrent systems with the constrained expression toolset : avrunin
 automated module testing in prolog : hoffman
 automated software test data generation : korel
+automated testing of object oriented software : meyer
 automatic array inlining in java virtual machines : wimmer
 automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
@@ -625,9 +626,9 @@ automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
 automatic implementation of formal descriptions of communication protocols : hansson 
 automatic mining of source code repositories to improve bug finding techniques : williams
+automatic predicate abstraction of c programs : ball
 automatic synthesis of state machines from trace diagrams : koskimies
 automatic transformations of series expressions into loops : waters
-automated testing of object oriented software : meyer
 automatically achieving elasticity in the implementation of programming languages : horowitz
 automatically proving the correctness of compiler optimizations : lerner
 automatically restructuring programs for the web : matthews
