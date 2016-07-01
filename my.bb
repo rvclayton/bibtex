@@ -1909,6 +1909,16 @@
   location     = "PR 6113.U78 M37."
 }
 
+@Book{ssac,
+  author       = "Agatha Christie",
+  title        = "Surprise! Surprise!",
+  publisher    = "Dodd, Mead",
+  year         = 1965,
+  address      = nyny,
+  keywords     = "murrdaar",
+  location     = "PZ 7.C4529"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
