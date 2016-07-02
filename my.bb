@@ -1919,6 +1919,16 @@
   location     = "PZ 7.C4529"
 }
 
+@Book{pohrbw,
+  author       = "Randall~B. Woods",
+  title        = "Prisoners of Hope",
+  publisher    = "Basic Books",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "lbj, great society, racism, the 60s, vietnam, politics",
+  location     = "E 846.W66"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
