@@ -1398,6 +1398,30 @@
   location     = "http://dx.doi.org/10.1145/378795.378846"
 }
 
+@Article{tcwasbtftvocs,
+  author       = "Cleaveland, Rance and Parrow, Joachim and Steffen, Bernhard",
+  title        = "The {C}oncurrency {W}orkbench:  {A} Semantics-Based Tool for the Verification of Concurrent Systems",
+  journal      = toplas,
+  year         = 1993,
+  volume       = 15,
+  number       = 1,
+  pages        = "36--72",
+  month        = jan,
+  keywords     = "automatic verification, concurrency, finite-state systems,
+  concurrency workbench, process algebra",
+  abstract     = "The Concurrency Workbench is an automated tool for analyzing
+    networks of finite-state processes expressed in Milner's Calculus of
+    Communicating Systems.  Its key feature is its breadth: a variety of
+    different verification methods, including equivalence checking, preorder
+    checking, and model checking, are supported for several different process
+    semantics.  One experience from our work is that a large number of
+    interesting verification methods can be formulated as combinations of a
+    small number of primitive algorithms.  The Workbench has been applied to
+    the verification of communications protocols and mutual exclusion
+    algorithms and has proven a valuable aid in teaching and research.", 
+  location     = "http://dx.doi.org/10.1145/151646.151648"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
