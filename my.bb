@@ -1422,6 +1422,37 @@
   location     = "http://dx.doi.org/10.1145/151646.151648"
 }
 
+@Article{alasftcatopp,
+  author       = "Schwan, Karsten and Ramnath, Rajiv and Vasudevan, Sridhar and Ogle, David",
+  title        = "{A} Language and System for the Construction and Tuning of Parallel Programs",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 4,
+  pages        = "455--471",
+  month        = apr,
+  keywords     = "monitoring, objects, parallel programming, programming
+    environment, program views, tuning, adaptation",
+  abstract     = "The programming of efficient parallel software typically
+    requires extensive experimentation with program prototypes.  To facilitate
+    such experimentation, any programming system that supports rapid
+    prototyping of parallel programs should provide high-level language
+    primitives with which programs can be explicitly, statically, or
+    dynamically tuned with respect to performance and reliability.  When using
+    such primitives, programmers should not need to interact explicitly or even
+    be aware of the different software tools involved in program construction
+    and tuning, such as compilers, linkers, and loaders.  In addition, such
+    language primitives should be able to refer conveniently to the information
+    about the executing program and the parallel hardware required for tuning.
+    Such information may include monitoring data about the current or previous
+    program or even hints regarding appropriate tuning decisions.  Language
+    primitives and an associated programming system for program tuning are
+    presented in this paper.  The primitives and system have been implemented,
+    and have been tested with several parallel applicationson a network of
+    UNIX@ workstations.", 
+  location     = "http://dx.doi.org/10.1109/32.4669"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -1951,6 +1982,16 @@
   address      = nyny,
   keywords     = "lbj, great society, racism, the 60s, vietnam, politics",
   location     = "E 846.W66"
+}
+
+@Book{smac,
+  author       = "Agatha Christie",
+  title        = "Sleeping Murder",
+  publisher    = "Harper",
+  year         = 1976,
+  address      = nyny,
+  keywords     = "murrdaar, deep roots",
+  location     = "PZ 3.C4637 Sm"
 }
 
 @InProceedings{wsm,
