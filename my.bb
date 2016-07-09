@@ -1994,6 +1994,16 @@
   location     = "PZ 3.C4637 Sm"
 }
 
+@Book{ajkm,
+  author       = "Karim Misk{\' e}",
+  title        = "Arab Jazz",
+  publisher    = "MacLehose Press",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "murrdaar, religion, drugs",
+  location     = "PQ 2673.I78 A7313"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
