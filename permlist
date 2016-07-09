@@ -2385,6 +2385,7 @@ programming with communication protocol stacks : free
 programming with fudgets : hallgren
 programming with streams : nakata
 programming with streams in a pascal like language : nakata
+programming with system calls for interprocess communication : apollo
 programming with the http protocol : davidson
 programming world wide web pages in scheme : normark
 programming xml in java part 1 : johnson
