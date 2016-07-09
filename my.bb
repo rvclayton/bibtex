@@ -2205,3 +2205,16 @@
     software discipline and beyond." 
 }
 
+@Manual{pwscfic,
+  title        = "Programming With System Calls For Interprocess Communication",
+  organization = "Apollo Computer Inc.",
+  address      = "330 Billerica Road, Chelmsford, MA 01824",
+  revision     = "00",
+  softwarerel  = "9.0",
+  orderno      = "005696",
+  year         = 1985,
+  month        = jul,
+  keywords     = "pascal, ipc, mailboxes, datagrams, file mapping",
+  location     = "http://bitsavers.informatik.uni-stuttgart.de/pdf/apollo/005696-00_Programming_With_System_Calls_For_Interprocess_Communications_Jul85.pdf"
+}
+
