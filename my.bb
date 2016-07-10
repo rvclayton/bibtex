@@ -1453,6 +1453,37 @@
   location     = "http://dx.doi.org/10.1109/32.4669"
 }
 
+@Article{srfcvfs,
+  author       = "Hansen, Wilfred~J.",
+  title        = "Subsequence References:  First-Class Values for Substrings",
+  journal      = toplas,
+  year         = 1992,
+  volume       = 14,
+  number       = 4,
+  pages        = "471--489",
+  month        = oct,
+  keywords     = "andrew toolkit, atk, auis, document processing, ness,
+    programming language design, sequences, strings, string searching,
+    subsequences, substrings",
+  abstract     = "Arrays of characters are a basic data type in many
+    programming languages, but strings and substrings are seldom accorded
+    first-class status as parameters and return values.  Such status would
+    enable a routine that calls a search function to readily access context on
+    both sides of a return value.  To enfranchise substrings, this paper
+    describes a new data type for substrings as a special case of one for
+    general subsequences.  The key idea is that values are not sequences or
+    references to positions in sequences, but rather references to
+    subsequences.  Primitive operations on the data type are constants,
+    concatenation, and four new functions&mdash;base, start, next, and
+    extent&mdash;which map subsequence references to subsequence references.
+    This paper informally presents the data type, demonstrates its convenience
+    for defining search functions, and shows how it can be concisely
+    implemented.  Examples are given in Ness, a language incorporating the new
+    data type, which is implemented as part of the Andrew User Interface
+    System.",
+  location     = "http://dx.doi.org/10.1145/133233.133234"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
