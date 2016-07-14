@@ -1484,18 +1484,6 @@
   keywords     = ""
 }
 
-@Article{asccfds,
-  author       = "Shmuel Katz",
-  title        = "A Superimposition Control Construct for Distributed Systems",
-  journal      = toplas,
-  year         = 1993,
-  volume       = 15,
-  number       = 2,
-  pages        = "337--354",
-  month        = "April",
-  keywords     = "distributed programming"
-}
-
 @Article{dodpicl,
   author       = "Tzilla Elrad and Nissim Francez",
   title        = "Decomposition of Distributed Programs Into
