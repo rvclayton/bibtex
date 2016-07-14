@@ -272,6 +272,7 @@ a study of common pitfalls in simple multi threaded programs : choi
 a study of design characterization in evolving software using stability as a criterion : kelly
 a study of the fragile base class problem : makhajlov
 a suite of unix filters for fragment assembly : myers
+a superimposition control construct for distributed systems : katz
 a survey and classification of some program transformation approaches and techniques : feather
 a survey and comparison of peer to peer overlay network schemes : lua
 a survey and projection on medium access control protocols for wireless sensor networks : zhao
