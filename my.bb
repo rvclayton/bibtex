@@ -1484,6 +1484,30 @@
   location     = "http://dx.doi.org/10.1145/133233.133234"
 }
 
+@Article{asccfds,
+  author       = "Katz, Shmuel",
+  title        = "{A} Superimposition Control Construct for Distributed Systems",
+  journal      = toplas,
+  year         = 1993,
+  volume       = 15,
+  number       = 2,
+  pages        = "337--356",
+  month        = apr,
+  keywords     = "distributed programming, control construct, formal and actual
+    processes, modularity, roletype, superimposition",
+  abstract     = "A control structure called a superimposition is proposed.
+    The structure contains schematic abstractions of processes called roletypes
+    in its declaration.  Each roletype may be bound to processes from a basic
+    distributed algorithm, and the operations of the roletype will then execute
+    interleaved with those of the basic processes, over the same state space.
+    This structure captures a kind of modularity natural for distributed
+    programming, which previously has been treated using a macro-like
+    implantation of code.  The elements of a superimposition are identified, a
+    syntax is suggested, correctness criteria are defined, and examples are
+    presented.", 
+  location     = "http://dx.doi.org/10.1145/169701.169682"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2033,6 +2057,26 @@
   address      = nyny,
   keywords     = "murrdaar, religion, drugs",
   location     = "PQ 2673.I78 A7313"
+}
+
+@Book{erdo,
+  author       = "Daniel Oppenheimer",
+  title        = "Exit Right",
+  publisher    = "Simon \& Schuster",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "chambers, burnham, regan, podhoretz, horowitz, hitchens",
+  location     = "E 747.O67"
+}
+
+@Book{tgac,
+  author       = "Agatha Christie",
+  title        = "Third Girl",
+  publisher    = "Dodd, Mead",
+  year         = 1966,
+  address      = nyny,
+  keywords     = "murrdaar, gaslighting",
+  location     = "PR 6005.H66"
 }
 
 @InProceedings{wsm,
