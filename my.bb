@@ -2079,6 +2079,17 @@
   location     = "PR 6005.H66"
 }
 
+@Book{tlsta,
+  author       = "Ted Anton",
+  title        = "The Longevity Seekers",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "longevity, aging, science, venture capitalism, genetics,
+    social policy",
+  location     = "HB 1322.3.A58"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
