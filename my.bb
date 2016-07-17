@@ -2090,6 +2090,16 @@
   location     = "HB 1322.3.A58"
 }
 
+@Book{ndhlm,
+  author       = "H.~L. Mencken",
+  title        = "Newspaper Days",
+  publisher    = "Knopf",
+  year         = 1941,
+  address      = nyny,
+  keywords     = "journalism, reporters",
+  location     = "PS 3525.E43 Z53"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
