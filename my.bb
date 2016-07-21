@@ -1508,6 +1508,34 @@
   location     = "http://dx.doi.org/10.1145/169701.169682"
 }
 
+@Article{potodr,
+  author       = "Haerder, Theo and Reuter, Andreas",
+  title        = "Principles of Transaction-Oriented Database Recovery",
+  journal      = surveys,
+  year         = 1983,
+  volume       = 15,
+  number       = 4,
+  pages        = "287--317",
+  month        = dec,
+  keywords     = "reliability, fault tolerance, database management, recovery
+    and restart, transaction processing, database administration, logging and
+    recovery, acid, checkpoints",
+  abstract     = "In this paper, a terminological framework is provided for
+    describing different transaction-oriented recovery schemes for database
+    systems in a conceptual rather than an implementation-dependent way.  By
+    introducing the terms materialized database, propagation strategy, and
+    checkpoint, we obtain a means for classifying arbitrary implementations
+    from a unified viewpoint.  This is complemented by a classification scheme
+    for logging techniques, which are precisely defined by using the other
+    terms.  It is shown that these criteria are related to all relevant
+    questions such as speed and scope of recovery and amount of redundant
+    information required.  The primary purpose of this paper, however, is to
+    establish an adequate and precise terminology for a topic in which the
+    confusion of concepts and implementational aspects still imposes a lot of
+    problems.", 
+  location     = "http://dx.doi.org/10.1145/289.291"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2098,6 +2126,16 @@
   address      = nyny,
   keywords     = "journalism, reporters",
   location     = "PS 3525.E43 Z53"
+}
+
+@Book{tbrlc,
+  author       = "Libby Cudmore",
+  title        = "The Big Rewind",
+  publisher    = "William Morrow",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "murrdaar, hipsters",
+  location     = ""
 }
 
 @InProceedings{wsm,
