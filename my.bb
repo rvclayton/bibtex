@@ -1200,7 +1200,7 @@
 @Article{daiogftnclr,
   author       = "Kennedy, Andrew and Syme, Don",
   title        = "Design and Implementation of Generics for the .{NET} Common Language Runtime",
-  journal      = sigplan # " (" # pot # "2001 Conference on Programming Language Design and Implementation (PLDI '01))",
+  journal      = sigplan # " (" # pldai01 # ")",
   year         = 2001,
   volume       = 36,
   number       = 5,
@@ -1369,7 +1369,7 @@
 @Article{apaocp,
   author       = "Ball, Thomas and Majumdar, Rupak and Millstein, Todd and Rajamani, Sriram~K.",
   title        = "Automatic Predicate Abstraction of {C} Programs",
-  journal      = sigplan # " (" # pot # "2001 Conference on Programming Language Design and Implementation (PLDI '01))",
+  journal      = sigplan # " (" # pldai01 # ")",
   year         = 2001,
   volume       = 36,
   number       = 5,
@@ -1534,6 +1534,29 @@
     confusion of concepts and implementational aspects still imposes a lot of
     problems.", 
   location     = "http://dx.doi.org/10.1145/289.291"
+}
+
+@Article{ufaaucamloccias,
+  author       = "Heintze, Nevin and Tardieu, Olivier",
+  title        = "Ultra-fast Aliasing Analysis using {CLA}:  {A} Million Lines of {C} code in a Second",
+  journal      = sigplan # " (" # pldai01 # ")",
+  year         = 2001,
+  volume       = 36,
+  number       = 5,
+  pages        = "254--263",
+  month        = may,
+  abstract     = "We describe the design and implementation of a system for
+    very fast points-to analysis.  On code bases of about million lines of
+    unpreprocessed C code, our system performs field-based Andersen-style
+    points-to analysis in less than a second and uses less than 10MB of memory.
+    Our two main contributions are a database-centric analysis architecture
+    called compile-link-analyze (CLA), and a new algorithm for implementing
+    dynamic transitive closure.  Our points-to analysis system is built into a
+    forward data-dependence analysis tool that is deployed within Lucent to
+    help with consistent type modifications to large legacy C code bases.", 
+  keywords     = "type checking, dependence analysis, points-to analysis,
+    reachability, program analysis, transitive closure",
+  location     = "http://dx.doi.org/10.1145/378795.378855"
 }
 
 @Book{taeff,
