@@ -2172,6 +2172,7 @@ operational machine specification in a functional programming language : koopman
 operational versus definitional a perspective on programming paradigms : ambler
 optical packet switching : rouskas
 optimal price cap regulations : clemenz
+optimal spilling for cisc machines with few registers : appel
 optimistic register coalescing : park
 optimization of dynamic languages using hierarchical layering of virtual machines : yermolovich
 optimization of object oriented programs using static class hierarchy analysis : dean
