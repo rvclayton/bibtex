@@ -2180,6 +2180,16 @@
   location     = "PS 3525.E43 Z53"
 }
 
+@Book{hdhlm,
+  author       = "H.~L. Mencken",
+  title        = "Heathen Days",
+  publisher    = "Knopf",
+  year         = 1943,
+  address      = nyny,
+  keywords     = "travel, personages",
+  location     = "PS 3525.E43 Z533"
+}
+
 @Book{tbrlc,
   author       = "Libby Cudmore",
   title        = "The Big Rewind",
