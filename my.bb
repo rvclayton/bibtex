@@ -2200,6 +2200,16 @@
   location     = ""
 }
 
+@Book{trlb,
+  author       = "Laudomina Bonanni",
+  title        = "The Reprisal",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "ww ii, revenge",
+  location     = "PQ 4807.O555 R3713"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
