@@ -1588,6 +1588,29 @@
   location     = "https://www.cs.princeton.edu/~appel/papers/spill.pdf"
 }
 
+@Article{iitam,
+  author       = "Angluin, Dana and Smith, Carl~H.",
+  title        = "Inductive Inference: Theory and Methods",
+  journal      = surveys,
+  year         = 1983,
+  volume       = 15,
+  number       = 3,
+  pages        = "237--269",
+  month        = sep,
+  keywords     = "computation by abstract devices, artificial intelligence,
+    automatic programming, program synthesis, learning, induction, algorithms,
+    theory inductive inference, learning by example", 
+  abstract     = "There has been a great deal of theoretical and experimental
+    work in computer science on inductive inference systems, that is, systems
+    that try to infer general rules from examples.  However, a complete and
+    applicable theory of such systems is still a distant goal.  This survey
+    highlights and explains the main ideas that have been developed in the
+    study of inductive inference, with special emphasis on the relations
+    between the general theory and the specific algorithms and
+    implementations.", 
+  location     = "http://dx.doi.org/10.1145/356914.356918"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
