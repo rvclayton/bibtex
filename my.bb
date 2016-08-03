@@ -1611,6 +1611,36 @@
   location     = "http://dx.doi.org/10.1145/356914.356918"
 }
 
+@Article{amovc,
+  author       = "Wolf, Alexander~L. and Clarke, Lori~A. and Wileden, Jack~C.",
+  title        = "{A} Model of Visibility Control",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 4,
+  pages        = "512--520",
+  month        = apr,
+  keywords     = "computer languages, module interface control, scope,
+    visibility, algol60, smalltalk80, pic",
+  abstract     = "A number of mechanisms have been created for controlling
+    entity visibility.  As with most language concepts in computer science,
+    visibility control mechanisms have been developed in an essentially ad hoc
+    fashion, with no clear indication given by their designers as to how one
+    proposed mechanism relates to another.  This paper introduces a formal
+    model for describing and evaluating visibility control mechanisms.  The
+    model reflects a general view of visibility in which the concepts of
+    requisition of access and provision of access are distinguished.This model
+    provides a means for characterizing and reasoning about the various
+    properties of visibility control mechanisms.  Specifically, a notion of
+    preciseness is defined in this paper.  The utility of the model is
+    illustrated by using it to evaluate and compare the relative strengths and
+    weaknesses, with respect to preciseness, of the visibility control
+    mechanisms found in Algol60, Ada, Gypsy, and an approach we have developed,
+    called PIG, that specifically addresses the concerns of visibility control
+    in large software systems.", 
+  location     = "http://dx.doi.org/10.1109/32.4673"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
