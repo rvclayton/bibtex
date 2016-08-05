@@ -2263,6 +2263,17 @@
   location     = "PQ 4807.O555 R3713"
 }
 
+@Book{tbmw,
+  author       = "Mary Westmacott",
+  title        = "The Burden",
+  publisher    = "Arbor House",
+  year         = 1956,
+  address      = nyny,
+  keywords     = "sisterhood, guilt",
+  aka          = "Agatha Christie",
+  location     = "PZ 3.C4637 Bu"		  
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
