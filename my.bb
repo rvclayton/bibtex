@@ -2476,6 +2476,28 @@
   location     = "ftp://bitsavers.informatik.uni-stuttgart.de/pdf/xerox/alto/printing/AltoFontFormats_Oct1980.pdf"
 }
 
+@TechReport{piipasftin,
+  author       = "Ralph~E. Griswold",
+  title        = "Programming in {I}con; Problems and Solutions from the {I}con {N}ewsletter",
+  institution  = dcs # uaz,
+  year         = 1986,
+  number       = "TR 86-2",
+  address      = taz,
+  month        = 1 # " " # jan,
+  keywords     = "icon, programming problems",
+  abstract     = "The Icon Newsletter was started in 1978 as a vehicle for
+    distributing information about the Icon programming language.  One
+    continuing feature of the Newsletter is a programming corner that presents
+    programming techniques, problems, and solutions.  This report is a
+    compilation of that material.  It starts with Icon Newsletter #5, since
+    earlier Newsletters contained material related to versions of Icon that are
+    now obsolete.  Most of the material that follows appears as it was
+    originally published, although there are some editorial changes to correct
+    errors, to improve continuity, and to bring earlier program material up to
+    the syntax of Version 5.",
+  location     = "https://www.cs.arizona.edu/icon/ftp/doc/tr86_2b.pdf"
+}
+
 @MastersThesis{nlpffolp,
   author       = "Kevin~T. Driver",
   title        = "Natural Language Processing for First Order Logic Problems",
