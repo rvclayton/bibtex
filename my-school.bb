@@ -22040,20 +22040,6 @@
   location     = "QA 76.A772"
 }
 
-@Article{dv,
-  author       = "David~R. Hanson and Todd~A. Proebsting",
-  title        = "Dynamic Variables",
-  journal      = sigplan # " (" # pot # "ACM SIGPLAN 2001 Conference on " #
-		  pldai # ")",
-  year         = 2001,
-  volume       = 36,
-  number       = 5,
-  pages        = "264-273",
-  month        = may,
-  keywords     = "dynamic variables",
-  location     = "QA 76.A772"
-}
-
 @article{rfis8,
   author       = "Brian Foote and Ralph~E. Johnson",
   title        = "Reflective facilities in {S}malltalk-80",
