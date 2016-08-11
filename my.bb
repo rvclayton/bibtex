@@ -1675,6 +1675,59 @@
   location     = "http://dx.doi.org/10.1109/32.4672"
 }
 
+@Article{tcapsecisc,
+  author       = "Patricia~A. Oberndorf",
+  title        = "The {C}ommon {A}da {P}rogramming {S}upport {E}nvironment ({CAPSE}) {I}nterface {S}et ({CAIS})",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 6,
+  pages        = "742-748",
+  month        = jun,
+  keywords     = "operating systems, transportability, interface design, tool
+    suites", 
+  abstract     = "The Common APSE Interface Set (CAIS) is discussed, along with
+    its relationship to issues in the development of environments.  The CAIS
+    concepts and features are described, followed by a discussion of several
+    ways in which the CAIS provides valuable capabilities for environment
+    architectures and construction", 
+  location     = "http://dx.doi.org/10.1109/32.6154"
+}
+
+@Article{dvdrh,
+  author       = "Hanson, David~R. and Proebsting, Todd~A.",
+  title        = "Dynamic Variables",
+  journal      = sigplan # " (" # pldai01 # ")",
+  year         = 2001,
+  volume       = 36,
+  number       = 5,
+  pages        = "264--273",
+  month        = may,
+  keywords     = "dynamic variables, control structures, variable scope,
+    software engineering",
+  abstract     = "Most programming languages use static scope rules for
+    associating uses of identifiers with their declarations.  Static scope
+    helps catch errors at compile time, and it can be implemented efficiently.
+    Some popular languages&mdash;Perl, Tel, TeX, and Postscript&mdash;offer
+    dynamic scope, because dynamic scope works well for variables that
+    &ldquo;customize&rdquo; the execution environment, for example.
+    Programmers must simulate dynamic scope to implement this kind of usage in
+    statically scoped languages.  This paper describes the design and
+    implementation of imperative language constructs for introducing and
+    referencing dynamically scoped variables&mdash;dynamic variables for short.
+    The design is a minimalist one, because dynamic variables are best used
+    sparingly, much like exceptions.  The facility does, however, cater to the
+    typical uses for dynamic scope, and it provides a cleaner mechanism for
+    so-called thread-local variables.  A particularly simple implementation
+    suffices for languages without exception handling.  For languages with
+    exception handling, a more efficient implementation builds on existing
+    compiler infrastructure.  Exception handling can be viewed as a control
+    construct with dynamic scope.  Likewise, dynamic variables are a data
+    construct with dynamic scope.", 
+  location     = "https://www.microsoft.com/en-us/research/publication/dynamic-variables/",
+  location     = "http://dx.doi.org/10.1145/378795.378857"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
