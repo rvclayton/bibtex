@@ -34379,31 +34379,6 @@
   location     = "http://doi.acm.org/10.1145/1039539.1039571"
 }
 
-@Article{apwe,
-  author       = "Connor McBride and Ross Patterson",
-  title        = "Applicative Programming with Effects",
-  journal      = jfp,
-  year         = 2008,
-  volume       = 18,
-  number       = 1,
-  pages        = "1--13",
-  month        = jan,
-  keywords     = "applicative class, data structure traversal, monads,
-    applicative functors, arrows",
-  abstract     = "In this article, we introduce Applicative functors an 
-    abstract characterisation of an applicative style of effectful programming,
-    weaker than Monads and hence more widespread.  Indeed, it is the ubiquity
-    of this programming pattern that drew us to the abstraction.  We retrace
-    our steps in this article, introducing the applicative pattern by diverse
-    examples, then abstracting it to define the Applicative type class and
-    introducing a bracket notation that interprets the normal application
-    syntax in the idiom of an Applicative functor.  Furthermore, we develop the
-    properties of applicative functors and the generic operations they support.
-    We close by identifying the categorical structure of applicative functors
-    and examining their relationship both with Monads and with Arrow.",
-  location     = "http://www.soi.city.ac.uk/~ross/papers/Applicative.html"
-}
-
 @Article{uliiaoe,
   author       = "Yvonne Rogers and Sara Price andCliff Randell and Danae
     Stanton Fraser and Mark Weal and Geraldine Fitzpatrick",
