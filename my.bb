@@ -1728,6 +1728,32 @@
   location     = "http://dx.doi.org/10.1145/378795.378857"
 }
 
+@Article{apwe,
+  author       = "Mcbride, Conor and Paterson, Ross",
+  title        = "Applicative Programming with Effects",
+  journal      = jfp,
+  year         = 2008,
+  volume       = 18,
+  number       = 1,
+  pages        = "1--13",
+  month        = jan,
+  keywords     = "applicative class, monad, data structure traversal,
+    applicative functors, arrows",
+  abstract     = "In this article, we introduce Applicative functors - an 
+    abstract characterisation of an applicative style of effectful programming,
+    weaker than Monads and hence more widespread.  Indeed, it is the ubiquity
+    of this programming pattern that drew us to the abstraction.  We retrace
+    our steps in this article, introducing the applicative pattern by diverse
+    examples, then abstracting it to define the Applicative type class and
+    introducing a bracket notation that interprets the normal application
+    syntax in the idiom of an Applicative functor.  Furthermore, we develop the
+    properties of applicative functors and the generic operations they support.
+    We close by identifying the categorical structure of applicative functors
+    and examining their relationship both with Monads and with Arrow.", 
+  location     = "http://staff.city.ac.uk/~ross/papers/Applicative.ps.gz",
+  location     = "http://dx.doi.org/10.1017/S0956796807006326"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
