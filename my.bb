@@ -2361,6 +2361,16 @@
   location     = "PZ 3.C4637 Bu"		  
 }
 
+@Book{tlsrjdm,
+  author       = "John~D. MacDonald",
+  title        = "The Lonely Silver Rain",
+  publisher    = "Knopf",
+  year         = 1985,
+  address      = nyny,
+  keywords     = "murrdaar, impetuous youth",
+  location     = "PS 3563.A28 L6"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
