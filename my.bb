@@ -1754,6 +1754,27 @@
   location     = "http://dx.doi.org/10.1017/S0956796807006326"
 }
 
+@Article{afdopic,
+  author       = "Fidge, Colin~J.",
+  title        = "{A} Formal Definition of Priority in {CSP}",
+  journal      = toplas,
+  year         = 1993,
+  volume       = 15,
+  number       = 4,
+  pages        = "681--705",
+  month        = sep,
+  keywords     = "csp, trace semantics, priority, concurrency, semantics",
+  abstract     = "The process models of Ada and occam are formally based on the
+    CSP process algebra.  However, for fine-tuning real-time performance, they
+    include &ldquo;prioritized&rdquo; constructs that have no counterparts in
+    CSP.  These constructs therefore lack any formal definition, a situation
+    that leaves room for misunderstandings.  We extend CSP with a formal
+    definition of the notion of priority.  The definition is then used to
+    assess the transputer implementation of priority in occam and the
+    definition of priority in Ada.", 
+  location     = "http://dx.doi.org/10.1145/155183.155221"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
