@@ -2418,6 +2418,26 @@
   location     = "PS 3563.A28 L6"
 }
 
+@Book{tditwc,
+  author       = "Eric Larson",
+  title        = "The Devil in the White City",
+  publisher    = "Vantage",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "world expositions, murrdaar, psychopaths, ferris wheels",
+  location     = "HV 6248.M8 L37 2003"
+}
+
+@Book{spqrmb,
+  author       = "Mary Beard",
+  title        = "{SPQR}",
+  publisher    = "Liveright",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "ancient rome",
+  location     = "DG 231.B43 2015"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
