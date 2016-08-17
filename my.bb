@@ -1775,6 +1775,29 @@
   location     = "http://dx.doi.org/10.1145/155183.155221"
 }
 
+@Article{seaauif,
+  author       = "Young, Michal and Taylor, Richard~N. and Troup, Dennis~B.",
+  title        = "Software Environment Architectures and User Interface Facilities",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 6,
+  pages        = "697--708",
+  month        = jun,
+  keywords     = "environments, interactive program structures, user interface
+    management systems",
+  abstract     = "The authors discuss the demands and constraints on a user
+    interface management system for a software environment, and the relation
+    between the architecture of the environment and the user interface
+    management system.  A model for designing user interface management systems
+    for large extensible environments is presented.  This model synthesizes
+    several recent advances in user interfaces and specializes them to the
+    domain of software environments.  The model can be applied to a wide
+    variety of environment contexts.  A prototype implementation is
+    described.", 
+  location     = "http://dx.doi.org/10.1109/32.6151"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
