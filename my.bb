@@ -1798,6 +1798,33 @@
   location     = "http://dx.doi.org/10.1109/32.6151"
 }
 
+@Article{tcpdsfse,
+  author       = "Hudson, Scott~E. and King, Roger",
+  title        = "The {C}actis Project: Database Support for Software Environments",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 6,
+  pages        = "709--710",
+  month        = jun,
+  keywords     = "database management systems, software environments, data
+    model", 
+  abstract     = "The Cactis project is an on-going effort oriented toward
+    extending database support from traditional business-oriented applications
+    to software environments.  The main goals of the project are to construct
+    an appropriate model, and develop new techniques to support the unusual
+    data management needs of software environments, including program
+    compilations, software configurations, load modules, project schedules,
+    software versions, nested and long transactions, and program
+    transformations.  The ability to manage derived information is common to
+    many of these data needs, and the Cactis database management system has the
+    ability to represent and maintain derived data in a time- and
+    space-efficient fashion.  A central contribution of Cactis is its
+    integration of the type constructors of semantic models and the localized
+    behavior capabilities of object-oriented database management systems.", 
+  location     = "http://dx.doi.org/10.1109/32.6152"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2459,6 +2486,17 @@
   address      = nyny,
   keywords     = "ancient rome",
   location     = "DG 231.B43 2015"
+}
+
+@Book{ttyf,
+  author       = "David Welky",
+  title        = "The Thousand-Year Flood",
+  publisher    = ucp,
+  year         = 2011,
+  address      = chil,
+  keywords     = "flood control, disaster response, ohio river valley, the new
+    deal, federal-local governance",
+  location     = "HV 6101937.M57 W45"
 }
 
 @InProceedings{wsm,
