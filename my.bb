@@ -1825,6 +1825,40 @@
   location     = "http://dx.doi.org/10.1109/32.6152"
 }
 
+@Article{mapatcc,
+  author       = "Kurose, James~F. and Schwartz, Mischa and Yemini, Yechiam",
+  title        = "Multiple-Access Protocols and Time-Constrained Communication",
+  journal      = surveys,
+  year         = 1984,
+  volume       = 16,
+  number       = 1,
+  pages        = "43--70",
+  month        = mar,
+  keywords     = "computer networks, multiple-access protocols, real-time
+    connumication, time-constrained communication, channel-allocation
+    protocols, contention-based protocols, protocol evaluation, protocol
+    capacity, time delay, throughput",
+  abstract     = "During the past ten years, the field of multiple-access
+    communication has developed into a major area of both practical and
+    theoretical interest within the field of computer communications.  The
+    multiple-access problem arises from the necessity of sharing a single
+    communication channel among a community of distributed users.  The
+    distributed algorithm used by the stations to share the channel is known as
+    the multiple-access protocol.  In this paper we examine the multiple-access
+    problem and various approaches to its resolution.  In this survey we first
+    define the multiple-access problem and then present the underlying issues
+    and difficulties in achieving multiple-access communication.  A taxonomy
+    for multiple-access protocols is then developed in order to characterize
+    common approaches and to provide a framework within which these protocols
+    can be compared and contrasted.  Different proposed protocols are then
+    described and discussed, and aspects of their performance are examined.
+    The use of multiple-access protocols for real- time or time-constrained
+    communication applications, such as voice transmission, is examined next.
+    Issues in time-constrained communication are identified, and recent work in
+    the design of time-constrained multiple-access protocols is surveyed.", 
+  location     = "http://dx.doi.org/10.1145/861.870"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2497,6 +2531,16 @@
   keywords     = "flood control, disaster response, ohio river valley, the new
     deal, federal-local governance",
   location     = "HV 6101937.M57 W45"
+}
+
+@Book{tfye,
+  author       = "John~D. MacDonald",
+  title        = "The Fearful Yellow Eye",
+  publisher    = "J.~B. Lippincott",
+  year         = 1966,
+  address      = phpa,
+  keywords     = "extortion, murrdaar",
+  location     = "PS 3563.A28 "
 }
 
 @InProceedings{wsm,
