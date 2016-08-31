@@ -2543,6 +2543,17 @@
   location     = "PS 3563.A28 "
 }
 
+@Book{tcor,
+  author       = "Stephen Holmes and Cass~R. Sunstein",
+  title        = "The Cost of Rights",
+  publisher    = "W.~W. Norton",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "rights, responsibilities, governance, taxes, redistribution,
+    property rights, laws, enforcement, welfare",
+  location     = "JC 599.U5 H55"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
