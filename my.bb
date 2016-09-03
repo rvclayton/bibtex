@@ -2554,6 +2554,16 @@
   location     = "JC 599.U5 H55"
 }
 
+@Book{bddp,
+  author       = "Darryl Pinckney",
+  title        = "Black Deutschland",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "expats, berlin",
+  location     = "PS 3566.I516 B58"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
