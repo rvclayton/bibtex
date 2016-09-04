@@ -1859,6 +1859,33 @@
   location     = "http://dx.doi.org/10.1145/861.870"
 }
 
+@Article{canfcp,
+  author       = "Andrews, Gregory~R. and Schneider, Fred~B.",
+  title        = "Concepts and Notations for Concurrent Programming",
+  journal      = surveys,
+  year         = 1983,
+  volume       = 15,
+  number       = 1,
+  pages        = "3--43",
+  month        = mar,
+  keywords     = "concurrent programming, concurrent language constructs,
+    programming structures, coroutines, process management, language
+    organization and design, fork and join, busy waiting, semaphores,
+    conditional critical regions, monitors, path expressions, communication
+    channels, synchronization, message passing, axiomatic semantics, ada,
+    argus, gypsy, sr, ada, communicating sequential processes",
+  abstract     = "Much has been learned in the last decade about concurrent
+    programming.  This paper identifies the major concepts of concurrent
+    programming and describes some of the more important language notations for
+    writing concurrent programs.  The roles of processes, communication, and
+    synchronization are discussed.  Language notations for expressing
+    concurrent execution and for specifying process interaction are surveyed.
+    Synchronization primitives based on shared variables and on message passing
+    are described.  Finally, three general classes of concurrent programming
+    languages are identified and compared.",
+  location     = "http://dx.doi.org/10.1145/356901.356903"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
