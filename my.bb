@@ -2591,6 +2591,16 @@
   location     = "PS 3566.I516 B58"
 }
 
+@Book{tipbs,
+  author       = "Bernd Stiegler",
+  title        = "Traveling in Place",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "travel, rooms",
+  location     = "PN 56.T7 S8513"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
