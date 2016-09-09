@@ -1886,6 +1886,32 @@
   location     = "http://dx.doi.org/10.1145/356901.356903"
 }
 
+@Article{dtad,
+  author       = "Moret, Bernard~M.~E.",
+  title        = "Decision Trees and Diagrams",
+  journal      = surveys,
+  year         = 1982,
+  volume       = 14,
+  number       = 4,
+  pages        = "593--623",
+  month        = dec,
+  keywords     = "atomic digraph, binary identification, boolean graph,
+    decision program, decision table, diagnostic key, diagnostic table,
+    evaluation, exhaustive function, feature selection, heuristics,
+    hierarchical classifier, multiplier network, multistage testing,
+    np-complete problems, sequential evaluation procedure, table splitting,
+    taxonomy, test selection",
+  abstract     = "Decision trees and diagrams (also known as sequential
+    evaluation procedures) have widespread applications in databases, decision
+    table programming, concrete complexity theory, switching theory, pattern
+    recognition, and taxonomy--in short, wherever discrete functions must be
+    evaluated sequentially.  In this tutorial survey a common framework of
+    definitions and notation is established, the contributions from the main
+    fields of application are reviewed, recent results and extensions are
+    presented, and areas of ongoing and future research are discussed.", 
+  location     = "http://dx.doi.org/10.1145/356893.356898"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
