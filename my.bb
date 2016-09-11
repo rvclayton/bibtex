@@ -1887,7 +1887,7 @@
 }
 
 @Article{dtad,
-  author       = "Moret, Bernard~M.~E.",
+  author       = "Moret, Bernard M.~E.",
   title        = "Decision Trees and Diagrams",
   journal      = surveys,
   year         = 1982,
@@ -1910,6 +1910,28 @@
     fields of application are reviewed, recent results and extensions are
     presented, and areas of ongoing and future research are discussed.", 
   location     = "http://dx.doi.org/10.1145/356893.356898"
+}
+
+@Article{trocicp,
+  author       = "McIntyre, Donald~B.",
+  title        = "The Role of Composition in Computer Programming",
+  journal      = "APL Quote Quad" # " (" # pot # "International Conference on Applied Programming Languages, APL '95)",
+  year         = 1995,
+  volume       = 25,
+  number       = 4,
+  pages        = "116--133",
+  month        = jun,
+  keywords     = "executable mathematical notation, function composition,
+    composite verbs, adverbs, conjunctions, trains, forks, hooks, gerunds,
+    geometry, iverson, apl, j",
+  abstract     = "Iverson has greatly enlarged the mathematical notion of 
+    function composition and made it available to computer programmers.  This
+    paper explains the concept, and uses practical examples to show how
+    concise, powerful programs can be written and read.  Alternative forms are
+    given, and ways of overcoming initial difficulties are explained.The
+    systematic use of composition extends the well-known advantages of APL;
+    namely conciseness, consistency, and generality.", 
+  location     = "http://dx.doi.org/10.1145/206913.206985"
 }
 
 @Book{taeff,
