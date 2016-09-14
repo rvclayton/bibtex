@@ -1934,6 +1934,40 @@
   location     = "http://dx.doi.org/10.1145/206913.206985"
 }
 
+@Article{dsuhmn,
+  author       = "Hicks, Michael and Moore, Jonathan~T. and Nettles, Scott",
+  title        = "Dynamic Software Updating",
+  journal      = sigplan # " (" # pldai01 # ")",
+  year         = 2001,
+  volume       = 36,
+  number       = 5,
+  pages        = "13--23",
+  month        = may,
+  keywords     = "software updating, patch management, dynamic patches,
+    updateable systems",
+  abstract     = "Many important applications must run continuously and without
+    interruption, yet must be changed to fix bugs or upgrade functionality.  No
+    prior general-purpose methodology for dynamic updating achieves a practical
+    balance between flexibility, robustness, low overhead, and ease of use.  We
+    present a new approach for C-like languages that provides type-safe dynamic
+    updating of native code in an extremely flexible manner (code, data, and
+    types may be updated, at programmer-determined times) and permits the use
+    of automated tools to aid the programmer in the updating process.  Our
+    system is based on dynamic patches that both contain the updated code and
+    the code needed to transition from the old version to the new.  A novel
+    aspect of our patches is that they consist of verifiable native code (e.g.
+    Proof-Carrying Code [17] or Typed Assembly Language [16]), which is native
+    code accompanied by annotations that allow on-line verification of the
+    code's safety.  We discuss how patches are generated mostly automatically,
+    how they are applied using dynamic-linking technology, and how code is
+    compiled to make it updateable.  To concretely illustrate our system, we
+    have implemented a dynamically-updateable web server, FlashEd.  We discuss
+    our experience building and maintaining FlashEd.  Performance experiments
+    show that for FlashEd, the overhead due to updating is typically less than
+    1%.", 
+  location     = "http://dx.doi.org/10.1145/378795.378798"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
