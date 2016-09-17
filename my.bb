@@ -2683,6 +2683,16 @@
   location     = "PN 56.T7 S8513"
 }
 
+@Book{sgsj,
+  author       = "Susan Jacoby",
+  title        = "Strange Gods",
+  publisher    = "Pantheon",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "religion, conversions",
+  location     = "BL 639.J33"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
