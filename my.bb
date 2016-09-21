@@ -2693,6 +2693,16 @@
   location     = "BL 639.J33"
 }
 
+@Book{nipjdm,
+  author       = "John~D. MacDonald",
+  title        = "Nightmare in Pink",
+  publisher    = "J.~B. Lippencott",
+  year         = 1976,
+  address      = phpa,
+  keywords     = "have a nice trip, grift",
+  location     = "PS 3563.A28"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
