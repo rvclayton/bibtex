@@ -2703,6 +2703,17 @@
   location     = "PS 3563.A28"
 }
 
+@Book{podllng,
+  author       = "Leo Lowenthal and Norbert Guterman",
+  title        = "Prophets of Deceit",
+  publisher    = "Harper \& Brothers",
+  year         = 1949,
+  address      = nyny,
+  keywords     = "antisemitism, anticommunism, propaganda, psychology,
+    agitators", 
+  location     = "HM 263 L6"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
