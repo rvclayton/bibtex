@@ -1968,6 +1968,31 @@
   location     = "http://dx.doi.org/10.1145/378795.378798"
 }
 
+@Article{dpacpc,
+  author       = "Per {Brinch Hensen}",
+  title        = "Distributed Processes: {A} Concurrent Programming Concept",
+  journal      = cacm,
+  year         = 1978,
+  volume       = 21,
+  number       = 11,
+  pages        = "934--941",
+  month        = nov,
+  keywords     = "concurrent programming, distributed processes, microprocessor
+    networks, nondeterminism, guarded regions, programming languages, process
+    communication and scheduling, sorting arrays, coroutines, classes,
+    monitors, processes, semaphores, buffers, path expressions, input/output",
+  abstract     = "A language concept for concurrent processes without common
+    variables is introduced.  These processes communicate and synchronize by
+    means of procedure calls and guarded regions.  This concept is proposed for
+    real-time applications controlled by microcomputer networks with
+    distributed storage.  The paper gives several examples of distributed
+    processes and shows that they include procedures, coroutines, classes,
+    monitors, processes, semaphores, buffers, path expressions, and
+    input/output as special cases.", 
+  location     = "http://brinch-hansen.net/papers/1978a.pdf",
+  location     = "http://dx.doi.org/10.1145/359642.359651"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2714,6 +2739,21 @@
   location     = "HM 263 L6"
 }
 
+@Book{dpacpc,
+  author       = "",
+  title        = "Distributed Processes: {A} Concurrent Programming Concept",
+  publisher    = "",
+  year         = "",
+  OPTeditor    = "",
+  OPTvolume    = "",
+  OPTseries    = "",
+  OPTaddress   = "",
+  OPTedition   = "",
+  OPTmonth     = "",
+  OPTkeywords  = "",
+  OPTlocation  = ""
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
@@ -2902,6 +2942,18 @@
     errors, to improve continuity, and to bring earlier program material up to
     the syntax of Version 5.",
   location     = "https://www.cs.arizona.edu/icon/ftp/doc/tr86_2b.pdf"
+}
+
+@TechReport{aphoa,
+  author       = "Michael~S. Montalbano",
+  title        = "A Personal History of {APL}",
+  institution  = "General Products Division, Santa Teresa Laboratory, International Business Machines Corporation",
+  year         = 1982,
+  number       = "TR-03 214",
+  address      = "San Jose, California",
+  month        = oct,
+  keywords     = "apl, notation, management",
+  location     = "http://ed-thelen.org/comp-hist/APL-hist.html"
 }
 
 @MastersThesis{nlpffolp,
