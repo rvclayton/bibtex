@@ -2739,19 +2739,15 @@
   location     = "HM 263 L6"
 }
 
-@Book{dpacpc,
-  author       = "",
-  title        = "Distributed Processes: {A} Concurrent Programming Concept",
-  publisher    = "",
-  year         = "",
-  OPTeditor    = "",
-  OPTvolume    = "",
-  OPTseries    = "",
-  OPTaddress   = "",
-  OPTedition   = "",
-  OPTmonth     = "",
-  OPTkeywords  = "",
-  OPTlocation  = ""
+@Book{bjbb,
+  author       = "Joshua {Blu Buhs}",
+  title        = "Bigfoot",
+  publisher    = ucp,
+  year         = 2009,
+  address      = chil,
+  keywords     = "yeti, abominable snowman, susquatch, bigfoot, cryptozoology,
+    anthropology, mass media",
+  location     = "QL 89.2.S2 B84"
 }
 
 @InProceedings{wsm,
