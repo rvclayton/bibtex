@@ -1993,6 +1993,38 @@
   location     = "http://dx.doi.org/10.1145/359642.359651"
 }
 
+@Article{pga,
+  author       = "Quinn, Michael~J. and Deo, Narsingh",
+  title        = "Parallel Graph Algorithms",
+  journal      = surveys,
+  year         = 1984,
+  volume       = 16,
+  number       = 3,
+  pages        = "319--348",
+  month        = sep,
+  keywords     = "systolic arrays, associative processors, processor arrays,
+    multiple cpu computers, graph searching, mimd, simd, undirected graph
+    connected components, connectivity algorithms, maximum clique, maximum
+    cardinality matching, weighted graph parallel algorithms, minimum spanning
+    tree, shortest path, tsp",
+  abstract     = "Algorithms and data structures developed to solve graph
+    problems on parallel computers are surveyed.  The problems discussed relate
+    to searching graphs and finding connected components, maximal cliques,
+    maximum cardinality matchings, minimum spanning trees, shortest paths, and
+    traveling salesman tours.  The algorithms are based on a number of models
+    of parallel computation, including systolic arrays, associative processors,
+    array processors, and multiple CPU computers.  The most popular model is a
+    direct extension of the standard RAM model of sequential computation.  It
+    may not, however, be the best basis for the study of parallel algorithms.
+    More emphasis has been focused recently on communications issues in the
+    analysis of the complexity of parallel algorithms; thus parallel models are
+    coming to be more complementary to implementable architectures.  Most
+    algorithms use relatively simple data structures, such as the adjacency
+    matrix and adjacency lists, although a few algorithms using linked lists,
+    heaps, and trees are also discussed.",
+  location     = "http://dx.doi.org/10.1145/2514.2515"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
