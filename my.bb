@@ -2025,6 +2025,27 @@
   location     = "http://dx.doi.org/10.1145/2514.2515"
 }
 
+@Article{trboalpl,
+  author       = "Herndon Jr., Robert~M. and Berzins, Valdis~A.",
+  title        = "The Realizable Benefits of a Language Prototyping Language",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 6,
+  pages        = "803--809",
+  month        = jun,
+  keywords     = "attribute grammars, languages, prototyping, software tools,
+    translation", 
+  abstract     = "The uses and advantages of a language tailored specifically
+    for the description and construction of translators are considered.  The
+    major features of the Kodiyak language prototyping language are described.
+    The Kodiyak language was designed to be a comprehensive translator
+    development system.  The language is intended to support a simple,
+    unambiguous conceptual model of translation, to allow the construction of
+    nontrivial translators, and, to be easy to use", 
+  location     = "http://dx.doi.org/10.1109/32.6159"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2834,6 +2855,27 @@
     fewer exclamations marks.  Similarly, adding more exclamation marks for
     negative comments, results in a higher dislike.", 
   location     = "http://dx.doi.org/10.1145/2837185.2837216"
+}
+
+@InProceedings{fmflwiams,
+  author       = "H. Naciri and L. Rideau",
+  title        = "Figue:  Mathematical FOrmula Layout with Interaction and {MathML} Support",
+  booktitle    = pot # "Fifth Asian Symposium on Computer Mathematics (ASCM 2001)",
+  year         = 2001,
+  pages        = "112--121",
+  publisher    = "World Scientific",
+  address      = "Matsuyama, Japan",
+  month        = "29--28 " # sep,
+  keywords     = "mathml, layout, mathematics",
+  abstract     = "Tools for mathematics often need to display formulas, to 
+    interact with them, and also make them easily accessible on the Internet.
+    In this paper, we present FIGUE, an interactive two dimensional layout
+    engine specialised for building WYSIWYG environments for symbolic systems
+    and scientific document editors.  This component is currently used for
+    developing a mathematical proofs interface.  In order to communicate
+    mathematical data on the Internet, FIGUE also supports MathML standard: it
+    generates, processes, and renders MathML documents.", 
+  location     = "http://dx.doi.org/10.1142/9789812799661_0012"
 }
 
 		  
