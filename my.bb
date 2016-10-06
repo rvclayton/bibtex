@@ -2046,6 +2046,38 @@
   location     = "http://dx.doi.org/10.1109/32.6159"
 }
 
+@Article{sgcpfd,
+  author       = "Cartey, Luke and Lyngs\o, Rune and {de Moor}, Oege",
+  title        = "Synthesising Graphics Card Programs from {DSLs}",
+  journal      = sigplan # " (" # pldai12 # ")",
+  year         = 2012,
+  volume       = 47,
+  number       = 6,
+  pages        = "121--132",
+  month        = jun,
+  keywords     = "gpu, scientific applications, program synthesis, dynamic
+    programming, domain specific language, scheduling partitions, parallelising
+    recursive equations, hidden markov models",
+  abstract     = "Over the last five years, graphics cards have become a
+    tempting target for scientific computing, thanks to unrivaled peak
+    performance, often producing a runtime speed-up of x10 to x25 over
+    comparable CPU solutions.  However, this increase can be difficult to
+    achieve, and doing so often requires a fundamental rethink.  This is
+    especially problematic in scientific computing, where experts do not want
+    to learn yet another architecture.  In this paper we develop a method for
+    automatically parallelising recursive functions of the sort found in
+    scientific papers.  Using a static analysis of the function dependencies we
+    identify sets - partitions - of independent elements, which we use to
+    synthesise an efficient GPU implementation using polyhedral code generation
+    techniques.  We then augment our language with DSL extensions to support a
+    wider variety of applications, and demonstrate the effectiveness of this
+    with three case studies, showing significant performance improvement over
+    equivalent CPU methods, and similar efficiency to hand-tuned GPU
+    implementations.",
+  location     = "http://dx.doi.org/10.1145/2254064.2254080",
+  location     = "https://www.stats.ox.ac.uk/__data/assets/pdf_file/0003/8229/Synthesising_Graphics_Card_Programs.pdf"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2803,6 +2835,16 @@
   location     = "QL 89.2.S2 B84"
 }
 
+@Book{hdm,
+  author       = "Daivd Means",
+  title        = "Hystopia",
+  publisher    = "Farrar, Straus, and Giroux",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "alternative histories, viet nam, domestic strife",
+  location     = "PS 3563.E195 H97"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
@@ -3070,5 +3112,14 @@
   month        = jul,
   keywords     = "pascal, ipc, mailboxes, datagrams, file mapping",
   location     = "http://bitsavers.informatik.uni-stuttgart.de/pdf/apollo/005696-00_Programming_With_System_Calls_For_Interprocess_Communications_Jul85.pdf"
+}
+
+@Manual{casplfcl,
+  title        = "Chio:  {A} String Processing Library for Common Lisp",
+  author       = "Jonathan~E. Spingarn",
+  year         = 2003,
+  month        = sep,
+  keywords     = "common lisp, string processing, libraries",
+  location     = "http://www.toiling-in-obscurity.net/chio/"
 }
 
