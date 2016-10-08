@@ -2845,6 +2845,17 @@
   location     = "PS 3563.E195 H97"
 }
 
+@Book{ljeb,
+  author       = "Ethan Brown",
+  title        = "Learning JavaScript",
+  publisher    = "O'Reilly",
+  year         = 2016,
+  address      = seca,
+  edition      = "Third",
+  keywords     = "javascript, ecmascript 6,",
+  location     = "QA 76.73.J39 P7"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
