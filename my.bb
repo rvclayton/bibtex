@@ -2078,6 +2078,44 @@
   location     = "https://www.stats.ox.ac.uk/__data/assets/pdf_file/0003/8229/Synthesising_Graphics_Card_Programs.pdf"
 }
 
+@Article{csavos,
+  author       = "Jonsson, Bengt",
+  title        = "Compositional Specification and Verification of Distributed Systems",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 2,
+  pages        = "259--303",
+  month        = mar,
+  keywords     = "specification, verification, io-automata, assertional
+    reasoning, compositionality, message passing, modular specification,
+    specification, stepwise refinement ",
+  abstract     = "We present a method for specification and verification of 
+    distributed systems that communicate via asynchronous message passing.  The
+    method handles both safety and liveness properties.  It is compositional,
+    i.e., a specification of a composite system can be obtained from
+    specifications of its components.  Specifications are given as labeled
+    transition systems with fairness properties, using a program-like notation
+    with guarded multiple assignments.  Compositionality is attained by
+    partitioning the labels of a transition system into input events, which
+    intuitively denote message receptions, and output events, which intuitively
+    denote message transmissions.  A specification denotes a set of allowed
+    sequences of message transmissions and receptions, in analogy with the way
+    finite automata are used as acceptors of finite strings.  A lower-level
+    specification implements a higher-level one.  We present a verification
+    technique which reduces the problem of verifying the correctness of an
+    implementation to classical verification conditions.  Safety properties are
+    verified by establishing a simulation relation between transition systems.
+    Liveness properties are verified using methods for proving termination
+    under fairness assumptions.  Since specifications can be given at various
+    levels of abstraction, the method is suitable in a development process
+    where a detailed implementation is developed from an abstract specification
+    through a sequence of refinement steps.  As an application of the method,
+    an algorithm by Thomas for updating a distributed database is specified and
+    verified.", 
+  location     = "http://dx.doi.org/10.1145/174662.174665"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -2854,6 +2892,16 @@
   edition      = "Third",
   keywords     = "javascript, ecmascript 6,",
   location     = "QA 76.73.J39 P7"
+}
+
+@Book{motgs,
+  author       = "John~D. MacDonald",
+  title        = "More of the Good Stuff",
+  publisher    = "Knopf",
+  year         = 1984,
+  address      = nyny,
+  keywords     = "murrdaar, skullduggery",
+  location     = "PS 3563 A28 M6"
 }
 
 @InProceedings{wsm,
