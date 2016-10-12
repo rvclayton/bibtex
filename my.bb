@@ -2904,6 +2904,16 @@
   location     = "PS 3563 A28 M6"
 }
 
+@Book{wtrww,
+  author       = "E.~J. {Dionne, Jr.}",
+  title        = "Why the Right Went Wrong",
+  publisher    = "Simon \& Schuster",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "politics, political parties, conservatism, u.s. politics",
+  location     = "JC 573.3.U6 D57"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
