@@ -183,6 +183,8 @@
 @string{phisics = "Prentice Hall International Series in Computer Science"}
 @string{phpe    = "Philadelphia, Pennsylvania"}
 @string{pldai   = "Programming Language Design and Implementation"}
+@string{pldai01 = pot # "2001 Conference on " # pldai # ", PLDI '01"}
+@string{pldai12 = pot # "33rd Conference on " # pldai # ", PLDI '12"}
 @string{podc	= " ACM Symposium on Principles of Distributed Computing"} 
 @string{poor	= "Portland, Oregon"}
 @string{popl    = "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"}
