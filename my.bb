@@ -2116,6 +2116,33 @@
   location     = "http://dx.doi.org/10.1145/174662.174665"
 }
 
+@Article{laipg,
+  author       = "Heering, J. and Klint, P. and Rekers, J.",
+  title        = "Lazy and Incremental Program Generation",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 3,
+  pages        = "1010-1023",
+  month        = may,
+  keywords     = "greedy, lazy, and incremental program generation, lazy and
+  incremental generation of lexical scanners, lazy and incremental generation
+  of parsers, lazy and incremental compilation, program generator",
+  abstract     = "Current program generators usually operate in a greedy manner
+    in the sense that a program must be generated in its entirety before it can
+    be used.  If generation time is scarce, or if the input to the generator is
+    subject to modification, it may be better to be more cautious and to
+    generate only those parts of the program that are indispensable for
+    processing the particular data at hand.  We call this lazy program
+    generation.  Another, closely related strategy is incremental program
+    generation.  When its input is modified, an incremental generator will try
+    to make a corresponding modification in its output rather than generate a
+    completely new program.  It may be advantageous to use a combination of
+    both strategies in program generators that have to operate in a highly
+    dynamic and/or interactive environment.", 
+  location     = "http://dx.doi.org/10.1145/177492.177750"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -3190,5 +3217,13 @@
   month        = sep,
   keywords     = "common lisp, string processing, libraries",
   location     = "http://www.toiling-in-obscurity.net/chio/"
+}
+
+@Manual{htwasos,
+  title        = "How to Write a Simple Operating System",
+  author       = "Mike Saunders",
+  year         = 2009,
+  keywords     = "operating systems, assembly, linux, boot-loaders, mikeos",
+  location     = "http://mikeos.sourceforge.net/write-your-own-os.html"
 }
 
