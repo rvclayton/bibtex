@@ -1828,6 +1828,7 @@ lattice based access control models : sandhu
 law governed peer to peer auctions : fontoura
 laws of occam programming : roscoe
 layered multiplexing considered harmful : tannenhouse
+lazy and incremental program generation : heering
 lazy depth first search and linear graph algorithms in haskell : king
 lazy functional components for graphical user interfaces : noble
 lazy functional parser combinators in java : dijkstra
