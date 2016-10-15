@@ -2941,6 +2941,26 @@
   location     = "JC 573.3.U6 D57"
 }
 
+@Book{asio,
+  author       = "Sofia Samatar",
+  title        = "{A} Stranger in Olondria",
+  publisher    = "Small Beer Press",
+  year         = 2013,
+  address      = "Easthampton, MA",
+  keywords     = "angels, closure",
+  location     = "PS 3619.A4496 S77"
+}
+
+@Book{wtni,
+  author       = "Nancy Isenberg",
+  title        = "White Trash",
+  publisher    = "Viking",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "class, american history",
+  location     = "HN 90.S6 I84"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
