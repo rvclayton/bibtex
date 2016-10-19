@@ -2971,6 +2971,16 @@
   location     = "PS 3604.O9547 C49"
 }
 
+@Book{cmm2008,
+  author       = "Mark Monmonier",
+  title        = "Coastlines",
+  publisher    = ucp,
+  year         = 2008,
+  address      = chil,
+  keywords     = "map making, cartography, sea coasts",
+  location     = "GA 108.7.M65"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
