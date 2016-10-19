@@ -2961,6 +2961,16 @@
   location     = "HN 90.S6 I84"
 }
 
+@Book{cbd2016,
+  author       = "Brian Doyle",
+  title        = "Chicago",
+  publisher    = "St.~Martin's Press",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "chicago",
+  location     = "PS 3604.O9547 C49"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
