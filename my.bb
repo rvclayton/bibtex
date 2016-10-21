@@ -2981,6 +2981,26 @@
   location     = "GA 108.7.M65"
 }
 
+@Book{asrs,
+  author       = "Matthew McBride",
+  title        = "{A} Swollen Red Sun",
+  publisher    = "MysteriousPress.com\slash Open Road Integrated Media, Inc.",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "murrdaar, drugs",
+  location     = "978 1 4804 8571 6"
+}
+
+@Book{esbre,
+  author       = "Roger Ebert",
+  title        = "Ebert's Best",
+  publisher    = "Chicago Shorts",
+  year         = 2013,
+  address      = chil,
+  keywords     = "movies",
+  location     = "978 0 226 04890 1"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
