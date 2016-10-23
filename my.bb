@@ -3001,6 +3001,16 @@
   location     = "978 0 226 04890 1"
 }
 
+@Book{nifde,
+  author       = "Todd~G. Buchholz",
+  title        = "New Ideas From Dead Economists",
+  publisher    = "New American Library",
+  year         = 1989,
+  address      = nyny,
+  keywords     = "economists, economic theory",
+  location     = "HB 76 B83"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
