@@ -2143,6 +2143,27 @@
   location     = "http://dx.doi.org/10.1145/177492.177750"
 }
 
+@Article{tdor,
+  author       = "Besl, Paul~J. and Jain, Ramesh~C.",
+  title        = "Three-Dimensional Object Recognition",
+  journal      = surveys,
+  year         = 1985,
+  volume       = 17,
+  number       = 1,
+  pages        = "75--145",
+  month        = mar,
+  keywords     = "depth maps, range images, surface characterization, surface
+  matching, 3-d object recognition, 3-d object reconstruction",
+  abstract     = "A general-purpose computer vision system must be capable of
+    recognizing three-dimensional (3-D) objects.  This paper proposes a precise
+    definition of the 3-D object recognition problem, discusses basic concepts
+    associated with this problem, and reviews the relevant literature.  Because
+    range images (or depth maps) are often used as sensor input instead of
+    intensity images, techniques for obtaining, processing, and characterizing
+    range data are also surveyed.", 
+  location     = "http://dx.doi.org/10.1145/4078.4081"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
