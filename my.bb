@@ -3075,11 +3075,21 @@
   location     = "HB 76 B83"
 }
 
+@Book{lltf,
+  author       = "Thomas Frank",
+  title        = "Listen, Liberal",
+  publisher    = "Metropolitan Books",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "democratic party, politics, class politics, meritocracy,
+    credentialism, liberalism", 
+  location     = "JK 2316.F73 2016"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
-  booktitle    = "Scheme 2003: " # pot # " Fourth Workshop on Scheme and
-                Functional Programming",
+  booktitle    = "Scheme 2003: " # pot # " Fourth Workshop on Scheme and Functional Programming",
   year         = 2003,
   editor       = "Matthew Flatt",
   pages        = "59--68",
