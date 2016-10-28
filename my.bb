@@ -2164,6 +2164,49 @@
   location     = "http://dx.doi.org/10.1145/4078.4081"
 }
 
+@Article{lfmacsorwcbc,
+  author       = "Shan Lu and Soyeon Park and Eunsoo Seo and Yuanyuan Zhor",
+  title        = "Learning from Mistakes --- {A} Comprehensive Study on Real World Concurrency Bug Characteristics",
+  journal      = sigplan # " (" # pot # "13th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS XIII)",
+  year         = 2008,
+  volume       = 43,
+  number       = 3,
+  pages        = "329--339",
+  month        = mar,
+  keywords     = "concurrent programming, concurrency errors, error
+    characteristics, transactional memory, multi-threading",
+  abstract     = "The reality of multi-core hardware has made concurrent
+    programs pervasive.  Unfortunately, writing correct concurrent programs is
+    difficult.  Addressing this challenge requires advances in multiple
+    directions, including concurrency bug detection, concurrent program
+    testing, concurrent programming model design, etc.  Designing effective
+    techniques in all these directions will significantly benefit from a deep
+    understanding of real world concurrency bug characteristics.  This paper
+    provides the first (to the best of our knowledge) comprehensive real world
+    concurrency bug characteristic study.  Specifically, we have carefully
+    examined concurrency bug patterns, manifestation, and fix strategies of 105
+    randomly selected real world concurrency bugs from 4 representative server
+    and client open-source applications (MySQL, Apache, Mozilla and
+    OpenOffice).  Our study reveals several interesting findings and provides
+    useful guidance for concurrency bug detection, testing, and concurrent
+    programming language design.  Some of our findings are as follows: (1)
+    Around one third of the examined non-deadlock concurrency bugs are caused
+    by violation to programmers' order intentions, which may not be easily
+    expressed via synchronization primitives like locks and transactional
+    memories; (2) Around 34% of the examined non-deadlock concurrency bugs
+    involve multiple variables, which are not well addressed by existing bug
+    detection tools; (3) About 92% of the examined concurrency bugs can be
+    reliably triggered by enforcing certain orders among no more than 4 memory
+    accesses.  This indicates that testing concurrent programs can target at
+    exploring possible orders among every small groups of memory accesses,
+    instead of among all memory accesses; (4) About 73% of the examined
+    non-deadlock concurrency bugs were not fixed by simply adding or changing
+    locks, and many of the fixes were not correct at the first try, indicating
+    the difficulty of reasoning concurrent execution by programmers.", 
+  location     = "http://dx.doi.org/10.1145/1353535.1346323",
+  location     = "http://pages.cs.wisc.edu/~shanlu/paper/asplos122-lu.pdf"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
