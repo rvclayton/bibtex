@@ -1835,6 +1835,7 @@ lazy functional components for graphical user interfaces : noble
 lazy functional parser combinators in java : dijkstra
 lazy vs strict : wadler
 lclint a tool for using specifications to check code : evans
+learning from mistakes a comprehensive study on real world concurrency bug characteristics : lu
 learning in theory and practice : brown
 learning linear grammars from structural information : sempere
 learning operating systems structure and implementation through the mps computer system simulator : morsiani
