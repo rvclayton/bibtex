@@ -2207,6 +2207,45 @@
   location     = "http://pages.cs.wisc.edu/~shanlu/paper/asplos122-lu.pdf"
 }
 
+@Article{osdcama,
+  author       = "Hannan, John",
+  title        = "Operational Semantics-Directed COmpilers and Machine Architectures",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 4,
+  pages        = "1215--1247",
+  month        = jul,
+  keywords     = "abstract machines, pass separation, semantics-based
+    compilation, partial evaluation, staging transformations, interpreters",
+  abstract     = "We consider the task of automatically constructing
+    intermediate-level machine architectures and compilers generating code for
+    these architectures, given operational semantics for source languages.  We
+    use operational semantics in the form of abstract machines given by rewrite
+    systems in which the rewrite rules operate on terms representing states of
+    computations.  To construct compilers and new architectures we employ a
+    particular strategy called pass separation, a form of staging
+    transformation, that takes a program p and constructs a pair of programs
+    p1, p2 such that p(x, y) = p2(p1(x), y)) for all x,y.  If p represents an
+    operational semantics for a language, with arguments x and y denoting a
+    source program and its input data, then pass separation constructs programs
+    p1 and p2 corresponding to a compiler and an executor.  The compiler
+    translates the source language into an intermediate-level target language,
+    and the executor provides the definition for this language.  Our use of
+    pass separation supports the automatic definition of target languages or
+    architectures, and the structure of these architectures is directed by the
+    structure of the given source semantics.  These architectures resemble
+    abstract machine languages found in hand-crafted compilers.  Our method is
+    restricted to a limited class of abstract machines given as term-rewriting
+    systems, but we argue that this class encompasses a large set of language
+    definitions derived from more natural operational semantics.  We provide
+    two examples of our method by constructing compilers and target
+    architectures for a simple functional language and a simple imperative
+    language.  Though we construct these architectures automatically, they bear
+    a striking resemblance to existing architectures constructed by hand.", 
+  location     = "http://dx.doi.org/10.1145/183432.183458"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
