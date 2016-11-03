@@ -3125,6 +3125,17 @@
   location     = "JK 2316.F73 2016"
 }
 
+@Book{hoe,
+  author       = "Paul R. Ehrlich and Michael Charles Tobias",
+  title        = "Hope On Earth",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "ecology, environmental ethics, global environmental change,
+    nature conservation, population",
+  location     = "QH 541.I45.H665"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
