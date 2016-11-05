@@ -3136,6 +3136,16 @@
   location     = "QH 541.I45.H665"
 }
 
+@Book{mles,
+  author       = "Emma Straub",
+  title        = "Modern Lovers",
+  publisher    = "Riverhead Books",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "love, life",
+  location     = "PS 3619.T74259 M63"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
