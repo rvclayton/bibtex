@@ -2209,7 +2209,7 @@
 
 @Article{osdcama,
   author       = "Hannan, John",
-  title        = "Operational Semantics-Directed COmpilers and Machine Architectures",
+  title        = "Operational Semantics-Directed Compilers and Machine Architectures",
   journal      = toplas,
   year         = 1994,
   volume       = 16,
@@ -2264,6 +2264,32 @@
     following section gives relative measures that are applied between two or
     more algorithms.  The final section presents open questions.", 
   location     = "http://dx.doi.org/10.1145/5505.5507"
+}
+
+@Article{svitde,
+  author       = "Reiss, Steven~P.",
+  title        = "Software Visualization in the {D}esert Environment",
+  journal      = sigplan # " (" # pot # "1998 ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering, PASTE '98)",
+  year         = 1998,
+  volume       = 33,
+  number       = 7,
+  pages        = "59--66",
+  month        = jul,
+  keywords     = "system visualization, development environments, ",
+  abstract     = "While software visualization has been widely used for
+    navigation, its use for understanding has been much more limited.  Software
+    visualizations are expensive to develop, require large amounts of
+    information that is often difficult to collect, and even then, are good
+    only at addressing the specific task for which they were developed.  Our
+    work on software visualization in the Desert environment is aimed at making
+    software visualization a viable approach to understanding.  We do this by
+    providing ready access to a variety of information about the system at
+    hand, a range of high-quality, high-density visualizations, and a simple
+    interface that lets the programmer rapidly create new software
+    visualizations for understanding problems as they arise.  In this paper we
+    describe the approach we have taken.", 
+  location     = "http://static.cs.brown.edu/people/spr/research/desert/desertvis.ps", 
+  location     = "http://dx.doi.org/10.1145/277631.277643"
 }
 
 @Book{taeff,
