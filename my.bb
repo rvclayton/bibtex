@@ -2246,6 +2246,26 @@
   location     = "http://dx.doi.org/10.1145/183432.183458"
 }
 
+@Article{sols,
+  author       = "Hester, James~H. and Hirschberg, Daniel~S.",
+  title        = "Self-Organizing Linear Search",
+  journal      = surveys,
+  year         = 1985,
+  volume       = 17,
+  number       = 3,
+  pages        = "295--311",
+  month        = sep,
+  keywords     = "linear search, permutations, locality, optimizations",
+  abstract     = "Algorithms that modify the order of linear search lists are
+    surveyed.  First the problem, including assumptions and restrictions, is
+    defined.  Next a summary of analysis techniques and measurements that apply
+    to these algorithms is given.  The main portion of the survey presents
+    algorithms in the literature with absolute analyses when available.  The
+    following section gives relative measures that are applied between two or
+    more algorithms.  The final section presents open questions.", 
+  location     = "http://dx.doi.org/10.1145/5505.5507"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
