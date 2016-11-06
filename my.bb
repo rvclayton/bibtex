@@ -3166,6 +3166,16 @@
   location     = "PS 3619.T74259 M63"
 }
 
+@Book{bftb,
+  author       = "Conrad Barski and Chris Wilmer",
+  title        = "Bitcoin for the Befuddled",
+  publisher    = "No Starch Press",
+  year         = 2015,
+  address      = sfca,
+  keywords     = "bitcoin, cryptography, peer-to-peer networks, currency",
+  location     = "https://lccn.loc.gov/2014951031"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
