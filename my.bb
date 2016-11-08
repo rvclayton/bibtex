@@ -3302,6 +3302,30 @@
   location     = "http://dx.doi.org/10.1142/9789812799661_0012"
 }
 
+@InProceedings{r20a,
+  author       = "Stephen~T. Bachinsky and Glenn~H. Tarbox and Larry Mellon and Richard Fujimoto",
+  title        = "{RTI} 2.0 Architecture",
+  booktitle    = pot # "1998 Spring Simulation Interoperability Workshop (SIW ’98)",
+  year         = 1998,
+  editor       = "",
+  pages        = "",
+  address      = "Orlando, Florida",
+  month        = "9--13 " # mar,
+  keywords     = "high-level architecture, runtime infrastructure, time
+    management, interest management",
+  abstract     = "A recent DMSO (Defense Modeling and Simulation Office)
+    initiative resulted in a new RTI design and build effort.  This paper
+    describes the design constructs used in the RTI 2.0 architecture and the
+    driving principles used throughout the design process.  Key architectural
+    features are identified and analyzed in terms of meeting the RTI's set of
+    requirements.  Concepts such as system scalability, runtime performance,
+    federation-specific tuning, reliability, and maintainability are discussed
+    within the confines of the RTI 2.0 architecture.  This paper presents
+    information representing the HLA development process underway by the DMSO
+    and the DoD AMG (Architecture Management Group).", 
+  location     = "http://www.cs.bham.ac.uk/research/projects/pdesmas/LITERATURE/RTI2.0Arch.pdf"
+}
+
 		  
 @TechReport{taotiotmcpzoat,
   author       = "Steele Jr., Guy Lewis and Sussman, Gerald~J.",
