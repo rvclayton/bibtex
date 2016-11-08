@@ -533,7 +533,6 @@ an overview of the production quality compiler compiler project : leverett
 an overview of the scala programming language : odersky
 an oz primer : smolka
 an unclever time sharing system : foster
-an xml based framework for language neutral program representation and generic analysis : al-ekram
 analysis and detection of computer viruses and worms an annotated bibliography : singh
 analysis as model thomas kuhns paradigm shift in the structure of scientific revolution : anon
 analysis of faults in an n version software experiment : brillant
@@ -641,7 +640,7 @@ automating process discovery through event data analysys : cook
 autonomous decentralized computer control systems : ihara
 autonomous robotic inspection and manipulation using multisensor feedback : abidi
 avl trees tutorial and c++ implementation : appleton
-avoiding buffer overflows and related problems : alexander
+axiomatic bootstrapping a guide for compiler hackers : appel
 axiomatic semantics : solnneger
 axle an axiomatic language for string transformations : cohen
 backtracking in a generalized control setting : lindstrom
@@ -939,7 +938,6 @@ curious yellow the first coordinated worm design : wiley
 curl a gentle slope language for the web : houstetter
 curry an annotated introduction : antoy
 curry an integrated functional logic language : curry
-customizable middleware for modular distributed software : astley
 customizing linux from the bottom building your own linux base system : zhu
 cwc crossword compiler : jensen
 cybernetics and the mangle ashby beer and pask : pickering
@@ -1504,7 +1502,6 @@ hardwarec a language for hardware design : ku
 harts a distributed real time architecture : shin
 hash table methods : maurer
 hash tables : morin
-hash tables for the standard library : austern
 hashed and hierarchical timing wheels data structures for the efficient implementation of a timer facility : varghese
 hashing for dynamic and static internal tables : lewis
 hashing revisited : hamer
