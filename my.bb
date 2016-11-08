@@ -2292,6 +2292,32 @@
   location     = "http://dx.doi.org/10.1145/277631.277643"
 }
 
+@Article{abagfch,
+  author       = "Appel, Andrew~W.",
+  title        = "Axiomatic Bootstrapping: {A} Guide for Compiler Hackers",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 6,
+  pages        = "1699--1718",
+  month        = nov,
+  keywords     = "verification, bootstrapping, axiom systems, interpreters,
+    code retargeting, system modifications",
+  abstract     = "If a compiler for language L is implemented in L, then it
+    should be able to compile itself.  But for systems used interactively
+    commands are compiled and immediately executed, and these commands may
+    invoke the compiler; so there is the question of how ever to cross-compile
+    for another architecture.  Also, where the compiler writes binary files of
+    static type information that must then be read in by the bootstrapped
+    interactive compiler, how can one ever change the format of digested type
+    information in binary files?Here I attempt an axiomatic clarification of
+    the bootstrapping technique, using Standard ML of New Jersey as a case
+    study.  This should be useful to implementors of any self-applicable
+    interactive compiler with nontrivial object-file and runtime-system
+    compatibility problems.", 
+  location     = "http://dx.doi.org/10.1145/197320.197336"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
