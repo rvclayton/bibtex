@@ -7,6 +7,7 @@ cat <<eof! |
 14 rules for writing multiple choice questions : brigham
 17 mistakes microsoft made in the xbox security system : steil
 23 things i know about modules for scheme : queinnec
+4.2 bsd and 4.3 bsd as examples of the unix system : quarterman
 56kbps data transmission across the pstn : henderson
 64 bit programming in a 32 bit world : nicholson
 802.11b access point mapping : byers
@@ -2572,7 +2573,6 @@ rpc in the x kernel evaluating new design techniques : hutchinson
 rpc under fire : vinoski
 rpcgen programming guide : rpcgen
 rss tutorial : nottingham
-rti 2.0 architecture : bachinsky
 rtl modeling in c++ : zhao
 rtp library api specification : lucent
 ruby users guide : ruby
