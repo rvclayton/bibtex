@@ -1449,7 +1449,7 @@
     primitives and an associated programming system for program tuning are
     presented in this paper.  The primitives and system have been implemented,
     and have been tested with several parallel applicationson a network of
-    UNIX@ workstations.", 
+    UNIX workstations.", 
   location     = "http://dx.doi.org/10.1109/32.4669"
 }
 
@@ -2316,6 +2316,33 @@
     interactive compiler with nontrivial object-file and runtime-system
     compatibility problems.", 
   location     = "http://dx.doi.org/10.1145/197320.197336"
+}
+
+@Article{42a43aeotus,
+  author       = "Quarterman, John~S. and Silberschatz, Abraham and Peterson, James~L.",
+  title        = "4.{2BSD} and 4.{3BSD} as Examples of the " # unix # " System",
+  journal      = surveys,
+  year         = 1985,
+  volume       = 17,
+  number       = 4,
+  pages        = "379--418",
+  month        = dec,
+  keywords     = "flexibility, portability, simplicity, operating systems,
+    kernel design, shells, processes, memory management, file systems, i/o
+    systems, inter-process communication, user interfaces",
+  abstract     = "This paper presents an in-depth examination of the 4.2 
+    Berkeley Software Distribution, Virtual VAX-11 Version (4.2BSD), which is a
+    version of the UNIX Time-Sharing System.  There are notes throughout on
+    4.3BSD, the forthcoming system from the University of California at
+    Berkeley.  We trace the historical development of the UNIX system from its
+    conception in 1969 until today, and describe the design principles that
+    have guided this development.  We then present the internal data structures
+    and algorithms used by the kernel to support the user interface.  In
+    particular, we describe process management, memory management, the file
+    system, the I/O system, and communications.  These are treated in as much
+    detail as the UNIX licenses will allow.  We conclude with a brief
+    description of the user interface and a set of bibliographic notes.", 
+  location     = "https://doi.org/10.1145/6041.6043"
 }
 
 @Book{taeff,
