@@ -3255,6 +3255,16 @@
   location     = "https://lccn.loc.gov/2014951031"
 }
 
+@Book{nbb,
+  author       = "Craig~A. Monson",
+  title        = "Nuns Behaving Badly",
+  publisher    = ucp,
+  year         = 2010,
+  address      = chil,
+  keywords     = "church governance, nuns, convents, canon law, italy",
+  location     = "BX 4220.I8 M68"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
