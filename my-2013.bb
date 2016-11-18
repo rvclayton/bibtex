@@ -3091,7 +3091,7 @@ Security Capabilities",
 
 @Manual{asymptote,
   title        = "Asymptote",
-  author       = "AndyHammerlindl and John Bowman and Tom Prince",
+  author       = "Andy Hammerlindl and John Bowman and Tom Prince",
   edition      = "1.80",
   year         = 2009,
   keywords     = "vector graphics, constraint-based programming",
