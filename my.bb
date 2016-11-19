@@ -2345,6 +2345,34 @@
   location     = "https://doi.org/10.1145/6041.6043"
 }
 
+@Article{tcsriail,
+  author       = "Auerbach, Joshua~S. and Russell, James~R.",
+  title        = "The {C}oncert Signature Representation: {IDL} as Intermediate Language",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "1--12",
+  month        = aug,
+  keywords     = "intermediate languages, marshaling, interoperability,
+    constraints, contracts, interfaces",
+  abstract     = "In the Concert multilanguage distributed programming system,
+    interface specification is the responsibility of programming languages, not
+    a separate IDL.  However, an IDL is still necessary in order to define
+    equivalence between declarations in different languages.  A single
+    representation is also desirable internally to economize on aspects of the
+    implementation.  Consequently, Concert has an IDL as an intermediate
+    language, produced by compiler front-ends and not normally manipulated by
+    programmers.  It is formally separated into a contract, which defines
+    interoperability and an endpoint modifier, which captures the local choice
+    of representation.  Only contracts are used to define interface
+    equivalence.  Our choice of what kinds of information to put in the
+    contract was motivated by a desire to be minimal, thereby enabling maximum
+    feasible interoperability between different expressions of the same
+    abstraction in the same or different languages.", 
+  location     = "https://doi.org/10.1145/185087.185095"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
