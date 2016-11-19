@@ -3539,6 +3539,17 @@
   location     = "http://ed-thelen.org/comp-hist/APL-hist.html"
 }
 
+@TechReport{tgnvdcs,
+  author       = "Daniel~I. Applebaum",
+  title        = "The {\it {G}alatea} Network Video Device Control System",
+  institution  = "M.I.T. Media Laboratory",
+  year         = 1990,
+  address      = cma,
+  keywords     = "client-server model, protocols, interfaces, video management,
+    configuration",
+  location     = "http://mf.media.mit.edu/pubs/techreport/ProjGalatea.pdf"
+}
+
 @MastersThesis{nlpffolp,
   author       = "Kevin~T. Driver",
   title        = "Natural Language Processing for First Order Logic Problems",
