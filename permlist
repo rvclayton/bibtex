@@ -2251,7 +2251,6 @@ patterns for piccolo : piccolo
 patterns plop plop fizz fizz : martin
 patterns the top ten misconceptions : vlissides
 pc hardware for source code unix : gray
-pc software performance tuning : atkins
 pdh broadband isdn atm and all that a guide to modern wan networking and how it evolved : reilly
 peep an architectural description driven peephole optimizer : kessler
 peer to peer architectures for massively multiplayer online games a survey : yahyavi
@@ -3011,6 +3010,7 @@ the challenge for incentive regulation : barnich
 the chief architects reflection on symbol iir : rice
 the clouds distributed operating system : dasgupta
 the composition of semantics in algol 68 : branquart
+the concert signature representation idl as intermediate language : auerbach
 the concurrency workbench a semantics based tool for the verification of concurrent systems : cleaveland
 the concept of a supercompiler : turchin
 the concert signature representation idl as an intermediate language : auerbauch
