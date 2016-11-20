@@ -2373,6 +2373,23 @@
   location     = "https://doi.org/10.1145/185087.185095"
 }
 
+@Article{aavgl,
+  author       = "John~C. Bowman and Andy Hammerlindl",
+  title        = "Asymptote: {A} Vector Graphics Language",
+  journal      = "TUGboat",
+  year         = 2008,
+  volume       = 29,
+  number       = 2,
+  pages        = "288--294",
+  keywords     = "functions, graphics, modules, shading, paths, vector
+    graphics",
+  abstract     = "Asymptote is a powerful descriptive vector graphics language
+    inspired by METAPOST that features robust floating-point numerics,
+    automatic picture sizing, native three-dimensional graphics, and a
+    C++/Java-like syntax enhanced with high-order functions.", 
+  location     = "https://www.math.ualberta.ca/~bowman/publications/asyTUG.pdf"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
