@@ -244,7 +244,6 @@ a scheme for little languages in interactive graphics : beckman
 a scheme for real time channel establishment in wide area networks : ferrari
 a scheme shell : shivers 
 a second opinion on data flow machines and languages : gajski
-a secure os based firewall : bonilla
 a security kernel for a multiprocessor microcomputer : schell
 a short history of the internet : sterling
 a simple and extensible graphical debugger : hanson
@@ -599,6 +598,7 @@ ast a generator for abstract syntax trees : grosch
 astlog a language for examining abstract syntax trees : crew
 asts for optimizing compilers : clark
 asymptote : asymptote
+asymptote a vector graphics language : bowman
 asynchronous signals in standard ml : reppy
 atanasoff and the abc : atanasoff
 aterm library user manual : de jong
