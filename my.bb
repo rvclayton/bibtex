@@ -2390,6 +2390,26 @@
   location     = "https://www.math.ualberta.ca/~bowman/publications/asyTUG.pdf"
 }
 
+@Article{aaidlfsats,
+  author       = "Sankar, Sriram and Hayes, Roger",
+  title        = "{ADL} --- An Interface Definition Language for Specifying and Testing Software",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "13--21",
+  month        = aug,
+  keywords     = "testing, specification, exception",
+  abstract     = "This paper describes an interface definition language called
+    ADL which extends OMG's CORBA interface definition language with formal
+    specification constructs.  In addition to ADL's use in formal
+    documentation, ADL's primary use is for testing software.  ADL can be
+    adapted for use with most programming languages.This paper also presents an
+    overview of a testing technology based on ADL and presents the highlights
+    of a test-data description language (TDD) used to describe test-data.", 
+  location     = ""
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
