@@ -386,6 +386,7 @@ adding equations to pccts : hamel
 adding generic functions to scheme : tessman
 adding performance aspects to specification languages : bochmann
 adding wildcards to the java programming language : torgersen
+adl an interface definition language for specifying and testing software : sankar
 admissible state semantics for representational systems : doyle
 admission control for real time packet sessions : farrandiz
 adslgen reference manual : wang
