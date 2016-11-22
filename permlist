@@ -416,7 +416,6 @@ algebraic identities for program calculation : bird
 algol 68 as a metalanguage for denotational semantics : pagan
 algol w reference manual : eve
 algorithm animation with agat : arsac
-algorithm form dynamic software cache coherence : sandhu
 algorithms and data structures for flash memories : gal
 algorithms and issues in server software design : anon
 algorithms for directed graphs : mangano
@@ -1143,7 +1142,6 @@ dynamic linking of software components : franz
 dynamic optimization through the use of automatic runtime specialization : whaley
 dynamic program monitoring and transformation using the omos object server : orr
 dynamic program slicing : agrawal
-dynamic protocol configuration for multimedia networks : stainov
 dynamic reconfiguration basic building blocks for autonomic computing on ibm pseries servers : jann
 dynamic regeneration of software documentation : johnson
 dynamic scene analysis using pixel based processes : jain
@@ -3029,7 +3027,6 @@ the dcode intermediate program representation reference manual and report : goug
 the deadlock problem an overview : isloor
 the death of computer languages the birth of intentional programming : simonyi
 the decsystem 20 at columbia university 1977 1988 : da cruz
-the dejagnu testing framwork : savoye
 the delay friendliness of tcp : brosh
 the denotational semantics of booster : dechering
 the denotational semantics of programming languages : tennent
