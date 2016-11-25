@@ -2410,6 +2410,27 @@
   location     = ""
 }
 
+@Article{teoapvotsioctcooa,
+  author       = "Hirschheim, R.~A.",
+  title        = "The Effect of a Priori Views on the Social Implications of Computing:  The Case of Office Automation",
+  journal      = surveys,
+  year         = 1986,
+  volume       = 18,
+  number       = 2,
+  pages        = "165--195",
+  month        = jun,
+  keywords     = "optimism, pessimism, realism, social effects",
+  abstract     = "Office automation impact has received considerable attention
+    in the literature recently.  Unfortunately, that which has appeared is
+    diverse and contradictory.  The relevant literature is reviewed,
+    summarized, and placed in a framework containing three positions on office
+    automation impact: optimism, pessimism, and relativism.  The basic
+    assumptions and empirical support for each position are noted and analyzed.
+    It is proposed that these positions are based on a number of a priori views
+    which guide the reporting and beliefs about technological impact.", 
+  location     = "https://doi.org/10.1145/7474.7476"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
