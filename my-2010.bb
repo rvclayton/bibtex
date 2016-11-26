@@ -58674,8 +58674,8 @@
   institution  = "Software Assurance Technology Center, NASA",
   year         = 1998,
   month        = apr,
-  keywords     = "",
-  location     = ""
+  keywords     = "requirements, metrics, quality, testing",
+  location     = "http://static1.1.sqspcdn.com/static/f/702523/9173343/1288309028997/199812-Hammer.pdf"
 }
 
 @TechReport{amms,
