@@ -3608,6 +3608,29 @@
   location     = "http://mf.media.mit.edu/pubs/techreport/ProjGalatea.pdf"
 }
 
+@TechReport{aiofll,
+  author       = "Warner Hans and Stephan Winkler",
+  title        = "Abstract Interpretation of Functional Logic Languages",
+  institution  = "RWTH Aachen",
+  year         = 1993,
+  number       = "1992--43",
+  address      = "Aachen, Germany",
+  month        = "12 " # jan,
+  keywords     = "functional logic language, abstract interpretation,
+    transformations, specialization, non-strict operations, safe analysis,
+    operational semantics",
+  abstract     = "The technique of abstract interpretation is used in 
+    functional and logic programming with various applications.  In this paper,
+    we show how methods of abstract interpretation for logic programming can be
+    adapted for purposes of functional logic languages.  But these extensions
+    are not straightforward --- especially the presence of non-strict
+    operations and a three-valued boolean domain cause additional problems.  It
+    is shown how the usage of slightly modified original techniques together
+    with a program transformation that incorporates a result directed analysis
+    can yield good results.", 
+  location     = "http://ftp.informatik.rwth-aachen.de/Publications/AIB/1992/1992-43.ps.gz"
+}
+
 @MastersThesis{nlpffolp,
   author       = "Kevin~T. Driver",
   title        = "Natural Language Processing for First Order Logic Problems",
