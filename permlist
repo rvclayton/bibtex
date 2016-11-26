@@ -650,7 +650,6 @@ bare metal recovery : curley
 bash features : fox
 basic polymorphic typechecking : cardelli
 basic xml : anon
-bayesian span filtering techniques : haskins
 beanshell simple java scripting : beanshell
 beepcore tcl : rose
 behavioral consistency of c and verilog programs using bounded model checking : clarke
@@ -1115,7 +1114,6 @@ documentation for the chip computer system version 1.1 : babaoglu
 documenting programs in a web style the progltx style option : schrod
 does java guarantee thread safety : haggar
 does your workstation computation belong on a supercomputer : thomborson
-doing requirements right the first time : hammer
 domain analysis and reverse engineering : debaud
 domain models are aspect free : steinmann
 domain name system security extensions : eastlake
