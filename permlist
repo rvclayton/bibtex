@@ -10,6 +10,7 @@ cat <<eof! |
 4.2 bsd and 4.3 bsd as examples of the unix system : quarterman
 56kbps data transmission across the pstn : henderson
 64 bit programming in a 32 bit world : nicholson
+8 ways to report errors in haskell : kidd
 802.11b access point mapping : byers
 a better api for first class continuations : feeley
 a bibliography of garbage collection and related topics : sankaran
@@ -1332,6 +1333,7 @@ finding string distances : vlades
 fine grained object protection in unix : low
 finger trees a simple general purpose data structure : hinze
 finite state code generation : fraser
+finite state machines in forth : noble
 firewalls at home : sinteur
 first class functions : krishnamurthi
 first things first prioritizing requirements : wiegers
