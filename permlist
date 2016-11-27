@@ -2043,7 +2043,6 @@ my enemys enemy : shasha
 myths about congestion management in high speed networks : jain
 naked objects a technique for designing more expressive systems : pawson
 napster messages : napster
-national security as an ambiguous symbol : wolfers
 ncurses old school interfaces : hammel
 nebula a new architecture and its relationship to computer hardware : szewerenko
 nesl a data parallel language : blelloch
@@ -2205,7 +2204,6 @@ overview of the ibm java just in time compiler : suganuma
 oxford oberon 2 compiler users manual : spivey
 p2p and the promise of internet equality : agre
 packet switching interconnection networks for modular systems : dias
-packetized video options for interaction between the user the network and the codec : wakeman
 packrat parsing simple powerful lazy linear time : ford
 pad a zoomable graphical sketchpad for exploring alternate interface physics : bederson
 painless parsing in haskell : hevan
@@ -3618,7 +3616,6 @@ what is vnc : mascio
 what its like to be a popl referee : wegman
 what should we plan given the dilemma of the network : cook
 what storytelling can do for information visualization : gershon
-whatever happened to the next generation internet : weiser
 whats important about knowledge representation : woods
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
