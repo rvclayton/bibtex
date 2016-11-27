@@ -2431,6 +2431,33 @@
   location     = "https://doi.org/10.1145/7474.7476"
 }
 
+@Article{adsmaip,
+  author       = "Wang, Yu",
+  title        = "A Distributed Specification Model and Its Prototyping",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1090--1097",
+  month        = aug,
+  keywords     = "boolean expressions, distributed decomposition, executable
+    specification, finite-state machines, switching systems, event-driven 
+    systems",
+  abstract     = "A specification model is described that is based on the
+    finite-state machine but is distributed.  The model allows the user to
+    decompose a large system into separate views.  Each view is a complete
+    system in itself, and reveals how the whole system would behave as seen
+    from a certain angle.  Put together, the combined views present a complete
+    picture of the whole system.  The complexity of a large centralized system
+    is thus distributed and subdued.  The author offers a simple execution
+    scheme for the model.  Using a high-level state-transition language called
+    SXL, constructs in the model are expressed as preconditions and
+    postconditions of transitions.  The execution scheme allows all the views
+    in the model to proceed in a parallel but harmonious way, producing a
+    working prototype for the modeled system.", 
+  location     = "https://doi.org/10.1109/32.7619"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -3349,6 +3376,16 @@
   address      = chil,
   keywords     = "church governance, nuns, convents, canon law, italy",
   location     = "BX 4220.I8 M68"
+}
+
+@Book{ptd,
+  author       = "Helen Morales",
+  title        = "Pilgrimage to Dollywood",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "country music, theme parks, dolly parton",
+  location     = "ML 420.P28 M67"
 }
 
 @InProceedings{wsm,
