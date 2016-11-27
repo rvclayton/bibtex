@@ -76,6 +76,7 @@ a distributed local area network packet protocol for combined voice and data tra
 a distributed object model for the java system : wollrath
 a distributed protocol for channel based communication with choice : knabe
 a distributed single address space operating system supporting persistence : heiser
+a distributed specification model and its prototyping : wang
 a distributed system : rushby
 a domain specific language for video device drivers from design to implementation : thibault
 a dual ui constraint equation solver in c++ : medwin
