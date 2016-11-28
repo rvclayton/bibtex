@@ -3388,6 +3388,16 @@
   location     = "ML 420.P28 M67"
 }
 
+@Book{gtrfsb,
+  author       = "Roger Fisher and Scott Brown",
+  title        = "Getting Together",
+  publisher    = "Penguin",
+  year         = 1988,
+  address      = nyny,
+  keywords     = "negotiation, trust, interpersonal relationships",
+  location     = "BF 637.N4 F58"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
