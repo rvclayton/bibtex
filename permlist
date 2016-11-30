@@ -706,7 +706,6 @@ building robust systems : sussman
 building the perfect executable : cheif
 building trustworthy systems lessons from the ptn and internet : schneider
 building your own basic cgi program : palmer
-building your research program : leveson
 built in self testing of random access memories : franklin
 business model issues in the development of digital cultural content : wall
 bytecode fetch optimization for a java interpreter : ogata
@@ -852,7 +851,6 @@ comprehending monads : wadler
 computational geometry finding the convex hull : gettys
 computational lambda calculus and monads : moggi
 computational thinking : wing
-computer aided specification of process control systems : ludewig
 computer architecture in the 1990s : stone
 computer architectures for pictorial information systems : danielsson
 computer communication networks approaches objectives and performance considerations : kimbleton
@@ -2178,7 +2176,7 @@ operational machine specification in a functional programming language : koopman
 operational semantics directed compilers and machine architectures : hannan
 operational versus definitional a perspective on programming paradigms : ambler
 optical packet switching : rouskas
-Optimal Incremental Parsing : larcheveque
+optimal incremental parsing : larcheveque
 optimal price cap regulations : clemenz
 optimal spilling for cisc machines with few registers : appel
 optimistic register coalescing : park
