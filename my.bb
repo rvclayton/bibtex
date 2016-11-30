@@ -2458,6 +2458,21 @@
   location     = "https://doi.org/10.1109/32.7619"
 }
 
+@Article{oip,
+  author       = "Larchev{\^ e}que, J.-M.",
+  title        = "Optimal Incremental Parsing",
+  journal      = toplas,
+  year         = 1995,
+  volume       = 17,
+  number       = 1,
+  pages        = "1--15",
+  month        = jan,
+  keywords     = "",
+  abstract     = "incremental parsing, threaded trees, semantic portability,
+    node reuse, context reuse",
+  location     = "https://doi.org/10.1145/200994.200996"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
