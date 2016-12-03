@@ -2473,6 +2473,20 @@
   location     = "https://doi.org/10.1145/200994.200996"
 }
 
+@Article{aaeaffpv,
+  author       = "Yoshiaki Kakuda and Yasushi Wakahara and Masamitsu Norigoe",
+  title        = "An Acyclic Expansion Algorithm for Fast Protocol Validation",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1059--1069",
+  month        = aug,
+  keywords     = "communicating finite state machine, communications software,
+    deadlock fifo channel, overflow, protocol error, protocol specification,
+    protocol validation, reachability, software modules"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -3691,6 +3705,17 @@
     with a program transformation that incorporates a result directed analysis
     can yield good results.", 
   location     = "http://ftp.informatik.rwth-aachen.de/Publications/AIB/1992/1992-43.ps.gz"
+}
+
+@TechReport{c0fsig45,
+  author       = "Arpan Sen",
+  title        = "{C}++0x feature support in {GCC} 4.5",
+  institution  = "IBM",
+  year         = 2011,
+  type         = "DeveloperWorks",
+  month        = "1 " # mar,
+  keywords     = "c++, unicode, initialization lists, type inference, lambdas",
+  location     = "https://www.ibm.com/developerworks/aix/library/au-gcc/"
 }
 
 @MastersThesis{nlpffolp,
