@@ -443,6 +443,7 @@ amorphous computing : abelson
 amroute adhoc multicast routing protocol : xie
 an access control facility for programming languages : jones
 an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
+an acyclic expansion algorithm for fast protocol validation : kakuda
 an ada interface to diana for intertool communication : howell
 an adaptive transport service suitable for high speed networks : richards
 an advanced 4.3 bsd interprocess communication tutorial : leffler
@@ -714,6 +715,7 @@ c# introduction : hejlsberg
 c++ aplicators and manipulators : charney
 c++ namespaces : pennello
 c++ type traits : maddock
+c++x0 feature support in gcc 4.5 : sen
 c-- a portable assembly language that supports garbage collection : peyton jones
 c based interactive rtl design methodology : shin
 c grammars : mckeeman
