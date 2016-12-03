@@ -1165,6 +1165,7 @@ effective null pointer check elimination utilizing hardware trap : kawahito
 effective standard c++ library curiously recurring manipulators : kreft
 effects of the change from rate of return to price cap regulation : breautigam
 efficiency of vulnerability disclosure mechanisms to disseminate vulnerability knowledge : cavusoglu
+efficient algorithms for finding maximum matching in graphs : galil
 efficient and language independent mobile programs : adl-tabatabai
 efficient annotated terms : van den brand
 efficient binary transfer of pointer structures : toyn
