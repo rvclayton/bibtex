@@ -2487,6 +2487,27 @@
     protocol validation, reachability, software modules"
 }
 
+@Article{eaffmmig,
+  author       = "Galil, Zvi",
+  title        = "Efficient Algorithms for Finding Maximum Matching in Graphs",
+  journal      = surveys,
+  year         = 1986,
+  volume       = 18,
+  number       = 1,
+  pages        = "23--38",
+  month        = mar,
+  keywords     = "algorithmic tools, assignment problem, augmenting path,
+    blossoms, data structures, d-heap, duality, generalized priority queue,
+    main theorem of botany, matching monsters, moonlighting, polygamy,
+    primal-dual method, shmathematics, shrink, warm-up",
+  abstract     = "This paper surveys the techniques used for designing the most
+    efficient algorithms for finding a maximum cardinality or weighted matching
+    in (general or bipartite) graphs.  It also lists some open problems
+    concerning possible improvements in existing algorithms and the existence
+    of fast parallel algorithms for these problems.", 
+  location     = "https://doi.org/10.1145/6462.6502"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
