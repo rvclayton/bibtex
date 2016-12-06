@@ -9828,7 +9828,7 @@
 }
 
 @Article{pottbaiufrmotdc,
-  author       = "H. Katz",
+  author       = "Hagay Katz",
   title        = "Provision of teleaction teleservices by an {ISDN} using frame
 		  relaying/multiplexing on the {D} channel",
   journal      = "Telecommunication Journal of Australia",
