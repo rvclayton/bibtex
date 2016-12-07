@@ -2467,9 +2467,9 @@
   number       = 1,
   pages        = "1--15",
   month        = jan,
-  keywords     = "",
-  abstract     = "incremental parsing, threaded trees, semantic portability,
+  keywords     = "incremental parsing, threaded trees, semantic portability,
     node reuse, context reuse",
+  abstract     = "",
   location     = "https://doi.org/10.1145/200994.200996"
 }
 
@@ -2506,6 +2506,27 @@
     concerning possible improvements in existing algorithms and the existence
     of fast parallel algorithms for these problems.", 
   location     = "https://doi.org/10.1145/6462.6502"
+}
+
+@Article{pasii,
+  author       = "Dinesh  Katiyar and  David  Luckham and John  Mitchell",
+  title        = "Polymorphism and subtyping in interfaces",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "22--34",
+  month        = aug,
+  keywords     = "types, interfaces, scope control, parameterized interfaces,
+    subtyping, interface derivation, private interfaces, ", 
+  abstract     = "RAPIDE is a programming language framework designed for the
+    development of large, concurrent, real-time systems by prototyping.  The
+    framework consists of a type language and default executable,
+    specification and architecture languages, along with associated
+    programming tools.  Interfaces are the central construct of the type
+    system.  This document describes RAPIDE interfaces, their expressiveness
+    and their use as a typing construct.",
+  location     = "ftp://cs.stanford.edu/cs/theory/katiyar/papers/idl-workshop-94.ps"
 }
 
 @Book{taeff,
