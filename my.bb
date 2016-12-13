@@ -2469,7 +2469,16 @@
   month        = jan,
   keywords     = "incremental parsing, threaded trees, semantic portability,
     node reuse, context reuse",
-  abstract     = "",
+  abstract     = "This communication sets the problem of incremental parsing in
+    the context of a complete incremental compiling system.  It turns out that,
+    according to the incrementally paradigm of the attribute evaluator and
+    data-flow analyzer to be used, two definitions of optimal incrementality in
+    a parser are possible.  Algorithms for achieving both forms of optimality
+    are given, both of them based on ordinary LALR(1) parse tables.  Optimality
+    and correctness proofs, which are merely outlined in this communication,
+    are made intuitive thanks to the concept of a well-formed list of threaded
+    trees, a natural extension of the concept of threaded tree found in earlier
+    works on incremental parsing.", 
   location     = "https://doi.org/10.1145/200994.200996"
 }
 
@@ -2510,7 +2519,7 @@
 
 @Article{pasii,
   author       = "Dinesh  Katiyar and  David  Luckham and John  Mitchell",
-  title        = "Polymorphism and subtyping in interfaces",
+  title        = "Polymorphism and Subtyping in Interfaces",
   journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
   year         = 1994,
   volume       = 29,
@@ -2527,6 +2536,31 @@
     system.  This document describes RAPIDE interfaces, their expressiveness
     and their use as a typing construct.",
   location     = "ftp://cs.stanford.edu/cs/theory/katiyar/papers/idl-workshop-94.ps"
+}
+
+@Article{fmosrop,
+  author       = "Mili, Ali and Desharnais, Jules and Gagn{\' e}, Jean Raynomd",
+  title        = "Formal Models of Stepwise Refinement of Programs",
+  journal      = surveys,
+  year         = 1986,
+  volume       = 18,
+  number       = 3,
+  pages        = "231--276",
+  month        = sep,
+  keywords     = "alternation rule, assertion-based specifications, assignment
+    rule, function-based specifications, generalization rule, iteration rule,
+    relation-based specifications, sequence rule, program design rules,
+    stepwise refinement, discrete mathematics",
+  abstract     = "Of the many ways to express program specifications, three of
+    the most common are: as a pair of assertions, an input assertion and an
+    output assertion; as a function mapping legal inputs to correct outputs; or
+    as a relation containing the input/output pairs that are considered
+    correct.  The construction of programs consists of mapping a potentially
+    complex specification into a program by recursively decomposing complex
+    specifications into simpler ones.  We show how this decomposition takes
+    place in all three modes of specification and draw some conclusions on the
+    nature of programming.", 
+  location     = "https://doi.org/10.1145/27632.28054"
 }
 
 @Book{taeff,
