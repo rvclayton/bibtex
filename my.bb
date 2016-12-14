@@ -3503,6 +3503,16 @@
   location     = "BF 637.N4 F58"
 }
 
+@Book{ajdg,
+  author       = "John {de Graaf} and David Wann and Thomas~H. Naylor",
+  title        = "Affluenza",
+  publisher    = "Berrett-Koehier",
+  year         = 2014,
+  address      = sfca,
+  keywords     = "affluence",
+  location     = "HN 60.D396"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
