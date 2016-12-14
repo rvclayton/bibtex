@@ -3601,6 +3601,32 @@
   location     = "http://www.cs.bham.ac.uk/research/projects/pdesmas/LITERATURE/RTI2.0Arch.pdf"
 }
 
+@InProceedings{vafffpv,
+  author       = "McCanne, Stephen. and Van Jacobson",
+  title        = "{vic}: A Flexible Framework for Packet Video",
+  booktitle    = pot # "Third ACM International Conference on Multimedia",
+  year         = 1995,
+  pages        = "511--522",
+  address      = sfca,
+  month        = nov,
+  keywords     = "conferencing protocols, digital video, image and video
+    compression and processing, multicasting, networking and communication", 
+  abstract     = "The deployment of IP Multicast has fostered the development 
+    of a suite of applications, collectively known as the MBone tools, for
+    real-time multimedia conferencing over the Internet.  Two of these tools --
+    nv from Xerox PARC and ivs from INRIA -- provide video transmission using
+    software-based codecs.  We describe a new video tool, vic, that extends the
+    groundbreaking work of nv and ivs with a moreflexible system architecture.
+    This flexibility is characterized by network layer independence, support
+    for hardware-based codecs, a conference coordination model, an extensible
+    user interface, and support for diverse compression algorithms.  We also
+    propose a novel compression scheme called Intra-H.261.  Created as a hybrid
+    of the nv and ivs codecs, Intra-H.261 provides a factor of 2-3 improvement
+    in compression gain over the nv encoder (6 dB of PSNR) as well as a
+    substantial run-time performance improvement over the ivs H.261 coder.", 
+  location     = "ftp://ftp.ee.lbl.gov/papers/vic-mm95.ps.Z"
+}
+
 		  
 @TechReport{taotiotmcpzoat,
   author       = "Steele Jr., Guy Lewis and Sussman, Gerald~J.",
