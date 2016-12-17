@@ -15050,7 +15050,7 @@
 }
 
 @Article{idiradha,
-  author       = "John Noll and Wals Scacchi",
+  author       = "John Noll and Walt Scacchi",
   title        = "Integrating Diverse Information Repositories:  A Distributed Hypertext Approach",
   journal      = ieeec,
   year         = 1991,
