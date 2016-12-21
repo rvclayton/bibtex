@@ -2563,6 +2563,42 @@
   location     = "https://doi.org/10.1145/27632.28054"
 }
 
+@Article{apssiobdraqa,
+  author       = "Alfons Kemper and Donald Kossmann",
+  title        = "Adaptable Pointer Swizzling Strategies in Object Bases: Design, Realization, and Quantitative Analysis",
+  journal      = "The VLDB Journal",
+  year         = 1995,
+  volume       = 4,
+  number       = 3,
+  pages        = "519--566",
+  month        = jul,
+  keywords     = "pointer swizzling, object-oriented database systems,
+    performance evaluation, adaptive strategies, storage management, object,
+    management",
+  abstract     = {In this article, different techniques for "pointer swizzling"
+    are classified and evaluated for optimizing the access to main-memory
+    resident persistent objects.  To speed up the access along inter-object
+    references, the persistent pointers in the form of unique object
+    identifiers (OIDs) are transformed (swizzled) into main-memory pointers
+    (addresses).  Pointer swizzling techniques can be divided into two classes:
+    (1) those that allow replacement of swizzled objects from the buffer before
+    the end of an application program, and (2) those that rule out the
+    displacement of swizzled objects.  The first class (i.e., techniques that
+    take "precautions" for the replacement of swizzled objects) has not yet
+    been thoroughly investigated.  Four different pointer swizzling techniques
+    allowing object replacement are investigated and compared with the
+    performance of an object manager employing no pointer swizzling.  The
+    extensive qualitative and quantitative evaluation—only part of which could
+    be presented in this article—demonstrate that there is no one superior
+    pointer swizzling strategy for all application profiles.  Therefore, an
+    adaptable object base run-time system is devised that employs the full
+    range of pointer swizzling strategies, depending on the application profile
+    characteristics that are determined by, for example, monitoring in
+    combination with sampling, user specifications, and/or program analysis.}, 
+  location     = "http://www.db.fmi.uni-passau.de:8000/publications/journals/VLDBJ95.ps.Z", 
+  location     = "DOI: 10.1007/BF01231646"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
@@ -3511,6 +3547,16 @@
   address      = sfca,
   keywords     = "affluence",
   location     = "HN 60.D396"
+}
+
+@Book{rufic,
+  author       = "Ann Durkin Keating",
+  title        = "Rising Up From Indian Country",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "chicago, fort dearborn massacre, john Kinzie",
+  location     = "E 356.C53 K43"
 }
 
 @InProceedings{wsm,
