@@ -2599,6 +2599,30 @@
   location     = "DOI: 10.1007/BF01231646"
 }
 
+@Article{ttgpe,
+  author       = "Mark Edel",
+  title        = "The {T}inkertoy Graphical Programming Environment",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1110--1115",
+  month        = aug,
+  keywords     = "graphical programming, graphics, iconic programming,
+    interactive graphics, lisp, program visualization, syntax directed editing,
+    user interfaces",
+  abstract     = "The Tinkertoy graphical interface to Lisp is described, in
+    which programs are 'built' rather than written, out of icons and flexible
+    interconnections.  It represents a computer/user interface that can easily
+    exceed the interaction speed of the best text-based language editors and
+    command languages.  It also provides a consistent framework for interaction
+    across both editing and command execution.  Moreover, because programs are
+    represented graphically, structures that do not naturally conform to the
+    text medium can be clearly described, the new kinds of information can be
+    incorporated into programs and program elements.",
+  location     = "https://doi.org/10.1109/32.7621"
+}
+
 @Book{taeff,
   author       = "Frederick Franck",
   title        = "The Awakened Eye",
