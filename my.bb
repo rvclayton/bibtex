@@ -3583,6 +3583,16 @@
   location     = "E 356.C53 K43"
 }
 
+@Book{tacp,
+  author       = "Camille Perri",
+  title        = "The Assistants",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "inequality, student loans, robin hood",
+  location     = "PS 3616.E768 A88"
+}
+
 @InProceedings{wsm,
   author       = "Ryan Culpepper and Mathias Felleisen",
   title        = "Well-Shaped Macros",
