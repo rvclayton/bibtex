@@ -1115,7 +1115,6 @@ does java guarantee thread safety : haggar
 does your workstation computation belong on a supercomputer : thomborson
 domain analysis and reverse engineering : debaud
 domain models are aspect free : steinmann
-domain name system security extensions : eastlake
 domain names concepts and facilities : mockapetris
 domain names implementation and specification : mockapetris
 domain specific embedded compilers : leijen
@@ -3404,7 +3403,6 @@ towards the development of a cognitive model of programming a software engineeri
 towards the elimination of documentation : johnson
 towards understanding e prime : wilson
 tracing the meta level pypys tracing jit compiler : bolz
-tracking hackers on irc : brumley
 trading packet headers for packet processing : chandranmenon
 traditional operational semantics : solnneger
 trail jar files : sommerer
