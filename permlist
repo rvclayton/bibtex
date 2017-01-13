@@ -657,6 +657,7 @@ behavioral consistency of c and verilog programs using bounded model checking : 
 being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
+beyond definition use architectural interconnection : allen
 beyond layering modularity considerations for protocol architectures : calvert
 beyond voip protocols : hersent
 beware of a new and ready made army of legal bots : sengar
@@ -2491,6 +2492,7 @@ reducing compilation time by a compilation server : onodera
 reducing host load network load and latency in a distributed shared memory : minnich
 reengineering with reflection models a case study : murphy
 reexamining b trees : johnson
+refactoring dynamic languages : reia
 refactorings in large software projects : lippert
 refinement calculus part i sequential nondeterministic programs : back
 refinement calculus part ii parallel and reactive programs : back
