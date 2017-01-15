@@ -35,3 +35,29 @@
   location     = "978-2-9557474-0-7", 
   location     = "https://www.youtube.com/watch?v=Sx-6WpiobIU"
 }
+		  
+@Article{erisrp,
+  author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
+  title        = "Error Repair in Shift-Reduce Parsers",
+  journal      = toplas,
+  year         = 1995,
+  volume       = 17,
+  number       = 4,
+  pages        = "672--689",
+  month        = jul,
+  keywords     = "algorithms, languages, theory, bison, error recovery, least
+    cost error recovery, shift-reduce parsers, yacc",
+  abstract     = "Local error repair of strings during CFG parsing requires the
+    insertion and deletion of symbols in the region of a syntax error to
+    produce a string that is error free.  Rather than precalculating tables at
+    parser generation time to assist in finding such repairs, this article
+    shows how such repairs can be found during shift-reduce parsing by using
+    the parsing tables themselves.  This results in a substantial space saving
+    over methods that require precalculated tables.  Furthermore, the article
+    shows how the method can be integrated with lookahead to avoid finding
+    repairs that immediately result in further syntax errors.  The article
+    presents the results of experiments on a version of the LALR(1)-based
+    parser generator Bison to which the algorithm was added.", 
+  location     = "https://doi.org/10.1145/210184.210193"
+}
+
