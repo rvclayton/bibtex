@@ -61,3 +61,39 @@
   location     = "https://doi.org/10.1145/210184.210193"
 }
 
+@Article{dmaahv,
+  author       = "Veen, Arthur~H.",
+  title        = "Dataflow Machine Architecture",
+  journal      = surveys,
+  year         = 1986,
+  OPTvolume    = 18,
+  number       = 4,
+  pages        = "365--396",
+  month        = dec,
+  keywords     = "data-driven architectures, dataflow machines, data structure
+    storage, parallel execution, dataflow graphs, iterative and recursive
+    constructs, packet communication, code copying, tagged tokens, matching", 
+  abstract     = "Dataflow machines are programmable computers of which the
+    hardware is optimized for fine-grain data-driven parallel computation.  The
+    principles and complications of data-driven execution are explained, as
+    well as the advantages and costs of fine-grain parallelism.  A general
+    model for a dataflow machine is presented and the major design options are
+    discussed.  Most dataflow machines described in the literature are surveyed
+    on the basis of this model and its associated technology.  For
+    general-purpose computing the most promising dataflow machines are those
+    that employ packet-switching communication and support general recursion.
+    Such a recursion mechanism requires an extremely fast mechanism to map a
+    sparsely occupied virtual space to a physical space of realistic size.  No
+    solution has yet proved fully satisfactory.  A working prototype of one
+    processing element is described in detail.  On the basis of experience with
+    this prototype, some of the objections raised against the dataflow approach
+    are discussed.  It appears that the overhead due to fine-grain parallelism
+    can be made acceptable by sophisticated compiling and employing special
+    hardware for the storage of data structures.  Many computing-intensive
+    programs show sufficient parallelism.  In fact, a major problem is to
+    restrain parallelism when machine resources tend to get overloaded.
+    Another issue that requires further investigation is the distribution of
+    computation and data structures over the processing elements.", 
+  location     = "https://doi.org/10.1145/27633.28055"
+}
+
