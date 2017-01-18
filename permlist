@@ -965,6 +965,7 @@ data structuring facilities for interactive videotext systems : tompa
 data structures in jdsl : goodrich
 data transport in a byte stream network : fraser
 data types as values : donahue
+dataflow machine architecture : veen
 datakit packet switch generic 1 system description : calvert
 dcom and corba side by side step by step and layer and layer : chung
 ddm a cache only memory architecture : hagersten
