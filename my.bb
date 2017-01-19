@@ -10,6 +10,16 @@
   location     = "PS 3563.C3687 A69"
 }
 
+@Book{scnn,
+  author       = "Carl~N. Nightengale",
+  title        = "Segregation",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "segregation, racial politics, city planning, colonialism",
+  location     = "HD 7288.75.N54"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
