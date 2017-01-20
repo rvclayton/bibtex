@@ -51566,6 +51566,19 @@
   title        = "Beyond Definition\slash Use:  Architectural Interconnection",
   pages        = "35--45",
   keywords     = "system architecture, csp, interaction structure, wright",
+  abstract     = "Large software systems require decompositional mechanisms in
+    order to make them tractable.  Traditionally, MILs and IDLs have played
+    this role by providing notations based on definition/use bindings.  In this
+    paper we argue that current MIL/IDLs based on definition/use have some
+    serious drawbacks.  A significant problem is that they fail to distinguish
+    between implementation and interaction relationships between modules.  We
+    propose an alternative model in which components interact along well 
+    defined lines of communication -- or connectors.  Connectors are defined as
+    protocols that capture the expected patterns of communication between
+    modules.  We show how this leads to a scheme that is much more expressive
+    for architectural relationships, that allows the formal definition of
+    module interaction, and that supports its own form of automated checks and
+    formal reasoning.",
   booktitle    = pot # "Workshop on Interface Definition Languges",
   year         = 1994,
   volume       = 29,
@@ -51574,7 +51587,9 @@
   organization = "ACM SIGPLAN",
   publisher    = acmp,
   address      = poor,
-  month        = aug
+  month        = aug, 
+  location     = "https://doi.org/10.1145/185087.185101", 
+  location     = "http://repository.cmu.edu/cgi/viewcontent.cgi?article=1719&context=compsci"
 }
 
 @InProceedings{ilfsps,
