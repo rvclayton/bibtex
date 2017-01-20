@@ -107,3 +107,13 @@
   location     = "https://doi.org/10.1145/27633.28055"
 }
 
+@Manual{tlt,
+  title        = "The \LaTeX{}2HTML Translator",
+  author       = "Nikos Drakos",
+  organization = "Computer Based Learning Unit, University of Leeds",
+  year         = 1996,
+  month        = "7 " # jun,
+  keywords     = "latex, html, documentation",
+  location     = "http://www.latex2html.org/"
+}
+
