@@ -107,6 +107,30 @@
   location     = "https://doi.org/10.1145/27633.28055"
 }
 
+@Article{aafmusde,
+  author       = "Ben-Shaul, Israel~Z. and Kaiser, Gail~E. and Heineman, George~T.",
+  title        = "An Architecture for Multi-User Software Development Environments",
+  journal      = cs,
+  year         = 1993,
+  volume       = 6,
+  number       = 2,
+  pages        = "65--113",
+  month        = "Spring",
+  keywords     = "synchronization, task management, data management,
+    client-server architecture, transaction and lock management, marvel,
+    process modeling, visualization, software development environment",
+  abstract     = "We present an architecture for multi-user software
+    development environments, covering general, process-centered and rule-based
+    MUSDEs.  Our architecture is founded on componentization, with particular
+    concern for the capability to replace the synchronization component--to
+    allow experimentation with novel concurrency control mechanisms--with
+    minimal effects on other components while still supporting integration.
+    The architecture has been implemented for the MARVEL SDE, and we report our
+    experience replacing and tailoring several parts of the synchronization
+    component as part of Marvel", 
+  location     = "https://www.usenix.org/publications/compsystems/1993/spr_benshaul.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
