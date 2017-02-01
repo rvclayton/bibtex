@@ -141,3 +141,21 @@
   location     = "http://www.latex2html.org/"
 }
 
+@TechReport{apapssewm,
+  author       = "Ernst~W. Mayr and Richard~J. Anderson and Peter~H. Hochschild", 
+  title        = "{A} Programming and Problem-Solving Seminar",
+  institution  = csd # "Stanford University",
+  year         = 1985,
+  number       = "CS-TR-85-1072",
+  address      = sca,
+  month        = oct,
+  keywords     = "integer bricks, scheduling, presburger arithmetic, graphics,
+    parallel computation bottelnecks",
+  abstract     = "This report contains edited transcripts of the discussions
+    held in Stanford's course CS204, Problem Seminar, during winter quarter
+    1984.  The course topics consisted of five problems coming from different
+    areas of computer science.  The problems were discussed in class and solved
+    and programmed by the students working in teams.", 
+  location     = "http://i.stanford.edu/TR/CS-TR-85-1072.html"
+}
+
