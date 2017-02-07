@@ -30,6 +30,17 @@
   location     = "D 804.48.K314"
 }
 
+@Book{caimrg,
+  author       = "Michael~R. Garey and David~S. Johnson",
+  title        = "Computers and Intractability",
+  publisher    = "W.~H. Freeman",
+  year         = 1979,
+  address      = nyny,
+  keywords     = "computers, complexity, intractability, np-completeness,
+    np-hardness, complexity proofs",
+  location     = "QA 76.6 G35"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
