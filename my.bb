@@ -66,6 +66,39 @@
   location     = "978-2-9557474-0-7", 
   location     = "https://www.youtube.com/watch?v=Sx-6WpiobIU"
 }
+
+@InProceedings{dacfqc,
+  author       = "Dongol, Brijesh and Hierons, Robert~M.",
+  title        = "Decidability and Complexity for Quiescent Consistency",
+  booktitle    = pot # "31st Annual ACM/IEEE Symposium on Logic in Computer Science (LICS '16)",
+  year         = 2016,
+  pages        = "116--125",
+  address      = nyny,
+  month        = "5--8 " # jul,
+  keywords     = "quiescent consistency, concurrent objects, decidability,
+    finite automata, traces, correctness, membership",
+  abstract     = "Quiescent consistency is a notion of correctness for a 
+    concurrent object that gives meaning to the object's behaviours in
+    quiescent states, i.e., states in which none of the object's operations are
+    being executed.  The condition enables greater flexibility in object design
+    by allowing more behaviours to be admitted, which in turn allows the
+    algorithms implementing quiescent consistent objects to be more efficient
+    (when executed in a multithreaded environment).  Quiescent consistency of
+    an implementation object is defined in terms of a corresponding abstract
+    specification.  This gives rise to two important verification questions:
+    membership (checking whether a behaviour of the implementation is allowed
+    by the specification) and correctness (checking whether all behaviours of
+    the implementation are allowed by the specification).  In this paper, we
+    consider the membership and correctness conditions for quiescent
+    consistency, as well as a restricted form that assumes an upper limit on
+    the number of events between two quiescent states.  We show that the
+    membership problem for unrestricted quiescent consistency is NP-complete
+    and that the correctness problem is decidable, coNEXPTIME-hard, and in
+    EXPSPACE.  For the restricted form, we show that membership is in PTIME,
+    while correctness is PSPACE-complete.", 
+  location     = "https://doi.org/10.1145/2933575.2933576"
+}
+
 		  
 @Article{erisrp,
   author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
