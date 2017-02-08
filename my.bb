@@ -41,6 +41,16 @@
   location     = "QA 76.6 G35"
 }
 
+@Book{dja,
+  author       = "John Altman",
+  title        = "Deception",
+  publisher    = "G.~P. Putnam's Sons",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "mcguffins, children at play",
+  location     = "PS 3601.L85 D43"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
