@@ -195,6 +195,34 @@
   location     = "https://www.usenix.org/publications/compsystems/1993/spr_benshaul.pdf"
 }
 
+@Article{asossmatcn,
+  author       = "Ramamurthy, Bina and Melton, Austin",
+  title        = "{A} Synthesis of Software Science Measures and the Cyclomatic Number",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1116--1121",
+  month        = aug,
+  keywords     = "control flow, cyclomatic number, software complexity,
+    software complexity measure,   software complexity metric, software
+    science, structured programs",
+  abstract     = "A solution is obtained to the problem of defining a software
+    measure or a family of measures which simultaneously detect those aspects
+    of software complexity that are detected by the software science measures
+    and the cyclomatic number.  The authors present a family of measures,
+    called weighted measures that is built on the software science measures by
+    adding weights to certain operators and operands; the size of the weights
+    is determined by a theorem which relates nesting levels and the cyclomatic
+    number.  Thus, by construction the weighted measures synthesize the
+    software science measures and the cyclomatic number.  Further, by applying
+    the weighted measures, the software science measures, and the cyclomatic
+    number to sample programs, it is shown that the weighted measures also
+    synthesize in practice the software science measures and the cyclomatic
+    number.", 
+  location     = "https://doi.org/10.1109/32.7622"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
