@@ -223,6 +223,30 @@
   location     = "https://doi.org/10.1109/32.7622"
 }
 
+@Article{apatss,
+  author       = "Freitag, Burkhard and Margaria, Tiziana and Steffen, Bernhard",
+  title        = "{A} Pragmatic Approach to Software Synthesis",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "22--34",
+  month        = aug,
+  keywords     = "interface definition languages, interface constraints,
+    modules, parameter configuration",
+  abstract     = "We present a practice oriented tool for software synthesis
+    that supports the interface-correct configuration of complex systems from a
+    library of reusable software components.  Besides simply checking the
+    interface-correctness of a link by means of type constraints, the tool is
+    also designed to propose software components for solving a (loosely)
+    specified problem within a certain context.  In particular, it identifies
+    possible interfacing modules that in case of an interface-conflict may
+    serve for the right conversion, transformation or parameter configuration.
+    We illustrate our tool, which is based on the deductive database system
+    LOLA, in three application specific settings.", 
+  location     = "https://doi.org/10.1145/185084.185102"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
