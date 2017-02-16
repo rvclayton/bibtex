@@ -1392,7 +1392,6 @@ frameworks for intra and interprocedural dataflow analysis : chambers
 free riding on gnutella : adar
 freenets next generation routing protocol : clarke
 from constructivism to computer science : troelstra
-from formal protocol specification towards automated performance prediction : rudin
 from live sequence charts to state machines and back a guided tour : bontemps
 from mechanism to method data abstraction and heterarchy : henney
 from mechanism to method the safe stacking of cats : henney
@@ -2881,7 +2880,6 @@ supervisory and monitor systems : rosen
 supporting dynamic data structures on distributed memory machines : rogers
 supporting real time applications in an integrated services packet network architecture and machanism : clark
 supporting software reusbility with polymorphic types : laverman
-supporting the negotiation life cycle : robinson
 supporting thousands of threads using a hybrid stack sharing scheme : dageville
 suppression of partial redundancies : hailperin
 supra rpc subprogram parameters to remote procedure calls : stoyenko
