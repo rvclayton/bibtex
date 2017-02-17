@@ -51,6 +51,18 @@
   location     = "PS 3601.L85 D43"
 }
 
+@Book{otbhlc,
+  author       = "Hillary~L. Chute",
+  title        = "Outside the Box",
+  publisher    = ucp,
+  year         = 2014,		  
+  address      = chil,
+  keywords     = "scott mccloud, charles burns, aline kominsky-crumb, daniel
+    clowes, phoebe gloeckner, joe sacco, alison bechdel, francoise mouly, lynda
+    barry, adrian tomine, art spiegelman, chris ware, comix, art",
+  location     = "NC 1305 C48"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
