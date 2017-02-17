@@ -3313,7 +3313,7 @@
 }
 
 @Article{iais,
-  author       = "Stephan Nurer and Stephen Omohundro and David Stoutamire and
+  author       = "Stephan Murer and Stephen Omohundro and David Stoutamire and
 		  Clemens Szyperski",
   title        = "Iterations Abstraction in {S}ather",
   journal      = toplas,
