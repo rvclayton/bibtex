@@ -259,6 +259,69 @@
   location     = "https://doi.org/10.1145/185084.185102"
 }
 
+@Article{biatmt,
+  author       = "Kiselyov, Oleg and Shan, Chung-chieh and Friedman, Daniel~P. and Sabry, Amr",
+  title        = "Backtracking, Interleaving, and Terminating Monad Tansformers",
+  journal      = sigplan # " (" # pot # "Tenth ACM SIGPLAN International Conference on Functional Programming, ICFP '05)",
+  year         = 2005,
+  volume       = 40,
+  number       = 9,
+  pages        = "192--203",
+  month        = sep,
+  keywords     = "continuations, control delimiters, haskell, logic
+    programming, prolog, streams, control strucures, backtracking computations,
+    cuts, monads",
+  abstract     = "We design and implement a library for adding backtracking
+    computations to any Haskell monad.  Inspired by logic programming, our
+    library provides, in addition to the operations required by the MonadPlus
+    interface, constructs for fair disjunctions, fair conjunctions,
+    conditionals, pruning, and an expressive top-level interface.  Implementing
+    these additional constructs is easy in models of backtracking based on
+    streams, but not known to be possible in continuation-based models.  We
+    show that all these additional constructs can be generically and
+    monadically realized using a single primitive msplit.  We present two
+    implementations of the library: one using success and failure
+    continuations; and the other using control operators for manipulating
+    delimited continuations.", 
+  location     = "https://doi.org/10.1145/1086365.1086390"
+}
+
+@Article{tapidpl,
+  author       = "Atkinson, Malcolm~P. and Buneman, O.~Peter",
+  title        = "Types and Persistance in Database Programming Languages",
+  journal      = surveys,
+  year         = 1987,
+  volume       = 19,
+  number       = 2,
+  pages        = "105--170",
+  month        = jun,
+  keywords     = "conceptual languages, databases, data models, data types,
+    embedded languages, integrated languages, object-oriented programming,
+    persistence, persistent languages, polymorphism, programming languages,
+    type inheritance",
+  abstract     = "Traditionally, the interface between a programming language
+    and a database has either been through a set of relatively low-level
+    subroutine calls, or it has required some form of embedding of one language
+    in another.  Recently, the necessity of integrating database and
+    programming language techniques has received some long-overdue recognition.
+    In response, a number of attempts have been made to construct programming
+    languages with completely integrated database management systems.  These
+    languages, which we term database programming languages, are the subject of
+    this review.  The design of these languages is still in its infancy, and
+    the purpose of writing this review is to identify the areas in which
+    further research is required.  In particular, we focus on the problems of
+    providing a uniform type system and mechanisms for data to persist.  Of
+    particular importance in solving these problems are issues of polymorphism,
+    type inheritance, object identity, and the choice of structures to
+    represent sets of similar values.  Our conclusion is that there are areas
+    of programming language research&mdash;modules, polymorphism, persistence,
+    and inheritance&mdash;that must be developed and applied to achieve the
+    goal of a useful and consistent database programming language.  Other
+    research areas of equal importance, such as implementation, transaction
+    handling, and concurrency, are not examined here in any detail.", 
+  location     = "https://doi.org/10.1145/62070.45066"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
