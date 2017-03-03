@@ -322,6 +322,36 @@
   location     = "https://doi.org/10.1145/62070.45066"
 }
 
+@Article{acilfpbs,
+  author       = "Russell, James~R. and Strom, Robert~E. and Yellin, Daniel~M.",
+  title        = "{A} Checkable Interface Language for Pointer-Based Structures",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "59--73",
+  month        = aug,
+  keywords     = "constraints, interface specifications, dataflow analysis,
+    lattices, idls",
+  abstract     = "We present a technique for analysing structural constraints
+    on data aggregates in high-level languages.  Our technique includes a
+    formal constraint language and a dataflow algorithm for automatically
+    checking equality constraints.  The constraint language is used to augment
+    the type information on program interfaces.  For example, one can specify
+    that a procedure must return aggregates A and B where each element in
+    aggregate A points to some element in aggregate B, and that parameter C
+    will have the properties of a rooted tree both on input and output.  Our
+    dataflow algorithm tracks the constraints which must apply at each
+    statement in order for the procedure to satisfy its interface, and detects
+    invalid programs which fail to satisfy the constraints on their interfaces.
+    We apply our technique to several examples.Our work is motivated by the
+    requirements for expressive interface definition languages for distributed
+    systems, and by the desire to mechanically check program modules against
+    their interfaces.  Our analysis techniques also yield information which may
+    enable compilers and stub generators to produce better implementations.", 
+  location     = "https://doi.org/10.1145/185084.185105"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
