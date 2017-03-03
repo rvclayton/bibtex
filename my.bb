@@ -380,3 +380,20 @@
   location     = "http://i.stanford.edu/TR/CS-TR-85-1072.html"
 }
 
+@TechReport{mmlo,
+  author       = "Sergei Romanenko and Peter Setsoft",
+  title        = "Moscow {ML} Language Overview",
+  institution  = "Russian Academy of Sciences",
+  year         = 1996,
+  address      = "Moscow, Russia",
+  month        = "1 " # jul,
+  keywords     = "ml, functional programming",
+  abstract     = "This is a compact reference to the language implemented by
+    Moscow ML, a subset of Standard ML.  For reference material on Standard ML,
+    see Milner, Tofte, Harper and MacQueen: The Definition ofStandard ML, The
+    MIT Press 1997.  Moscow ML implements parts of the SML Basis Library.
+    Section 14 of this manual lists all structure, type, constructor, value,
+    function, and exception identifiers defined by Moscow ML.", 
+  location     = "https://pdfs.semanticscholar.org/b3b9/88556dbe706cf1ab8cd6e0a95c36a04ad93f.pdf"
+}
+
