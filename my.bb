@@ -352,6 +352,34 @@
   location     = "https://doi.org/10.1145/185084.185105"
 }
 
+@Article{ptvaar,
+  author       = "Waters, Richard~C.",
+  title        = "Program Translation via Abstraction and Reimplementation",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1207--1228",
+  month        = aug,
+  keywords     = "artificial intelligence, compilation, program analysis,
+    programmer's apprentice, program translation, program plans, abstraction",
+  abstract     = "An abstraction-and-reimplementation paradigm is presented in
+    which the source program is first analyzed in order to obtain a
+    programming-language-independent abstract understanding of the computation
+    performed by the program as a whole.  The program is then reimplemented in
+    the target language based on this understanding.  The key to this approach
+    is the abstract understanding obtained.  It allows the translator to
+    benefit from an appreciation of the global features of the source program
+    without being distracted by what are considered irrelevant details.
+    Knowledge-based translation via abstraction and reimplementation is
+    described as one of the goals of the Programmer's Apprentice project.  A
+    translator which translates Cobol programs into Hibol (a very-high-level
+    business data processing language) has been constructed.  A computer which
+    generates extremely efficient PDP-11 object code for Pascal programs has
+    been designed.", 
+  location     = "https://doi.org/10.1109/32.7629"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
