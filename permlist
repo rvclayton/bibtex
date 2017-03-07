@@ -2370,6 +2370,7 @@ program profiling problems and a solution via machine language rewriting : reise
 program reusability through program transformation : boyle
 program specification applied to a text formatter : feather
 program transformation with stratego xt rules stratgies toos and systems : visser
+program translation via abstraction and reimplementation : waters
 programmable syntax macros : weise
 programmers view of automata : barnes
 programming graphical user interfaces with scheme : gallesio
