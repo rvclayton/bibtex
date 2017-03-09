@@ -97,7 +97,6 @@ a formal proof of a protocol for communications over faulty channels using the l
 a formal specification maturity model : fraser
 a framework for controlling coopeerative agents : lee
 a framework for defining the quality of communications services : richters
-a framework for evaluating specification methods for reactive systems : ardis
 a framework for network protocol software : huni
 a framework for protocol composition in horus : van renesse
 a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
