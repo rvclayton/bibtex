@@ -63,6 +63,16 @@
   location     = "NC 1305 C48"
 }
 
+@Book{dezs,
+  author       = "Zo{\" e} Sharp",
+  title        = "Die Easy",
+  publisher    = "Pegasus Crime",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "murrdaar, the long cold hand of revenge",
+  location     = ""
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
