@@ -1942,7 +1942,9 @@
   volume       = 47,
   number       = 2,
   month        = dec,
-  keywords     = "",
+  keywords     = "regulation, local operating companies, at&t divestiture,
+    competition, telecommunications, public policy, infrastructure, local
+    exchanges",
   location     = "http://www.law.indiana.edu:80/fclj/v47/no2/walker.html"
 }
 
