@@ -390,6 +390,31 @@
   location     = "https://doi.org/10.1109/32.7629"
 }
 
+@Article{ptovar,
+  author       = "Smith, Geoffrey and Volpano, Denniso",
+  title        = "Polymorphic Typing of Variables and References",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 3,
+  pages        = "254--267",
+  month        = may,
+  keywords     = "languages, theory, verification, assignment, references,
+    variables, type systems, weakly-typed variables",
+  abstract     = "In this article we consider the polymorphic type checking of
+    an imperative language.  Our language contains variables, first-class
+    references (pointers), and first-class functions.  Variables, as in
+    traditional imperative languages, are implicitly dereferenced, and their
+    addresses (L-values) are not first-class values.  Variables are easier to
+    type check than references and, in many cases, lead to more general
+    polymorphic types.  We present a polymorphic type system for our language
+    and prove that it is sound.  Programs that use variables sometimes require
+    weak types, as in Tofte's type system for Standard ML, but such weak types
+    arise far less frequently with variables than with references", 
+  location     = "https://doi.org/10.1145/229542.229544",
+  location     = "https://users.cs.fiu.edu/~smithg/papers/toplas96.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
