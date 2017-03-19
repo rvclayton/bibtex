@@ -95,6 +95,16 @@
   location     = "CB 251.T5913"
 }
 
+@Book{ahateotw,
+  author       = "Erin Claiborne",
+  title        = "{A} Hero at the End of the World",
+  publisher    = "Big Bang Press",
+  year         = 2014,
+  address      = "Brooklyn, N.Y.",
+  keywords     = "magic, london",
+  location     = "isbn-13 9780990484400"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
