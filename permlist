@@ -3452,6 +3452,7 @@ type inference with simple selftypes is np complete : palsberg
 type laundering : vlissides
 type safe multithreading in cyclone : grossman
 type systems : cardelli
+type theories and object oriented programming : danforth
 typechecking with ad hoc polymorphism : thatte
 typeful programming : cardelli
 typelists and applications : alexandrescu
