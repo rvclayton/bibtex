@@ -447,6 +447,37 @@
   location     = "https://users.cs.fiu.edu/~smithg/papers/toplas96.pdf"
 }
 
+@Article{ttaoop,
+  author       = "Scott Danforth and Chris Tomlinson",
+  title        = "Type Theories and Object-Oriented Programming",
+  journal      = surveys,
+  year         = 1988,
+  volume       = 20,
+  number       = 1,
+  edition      = "29--72",
+  month        = mar,
+  keywords     = "languages, theory, data abstraction, inheritance,
+    object-oriented programming, polymorphism, type checking, type
+    interference, abstract data types, subtyping", 
+  abstract     = "Object-oriented programming is becoming a popular approach to
+    the construction of complex software systems.  Benefits of object
+    orientation include support for modular design, code sharing, and
+    extensibility.  In order to make the most of these advantages, a type
+    theory for objects and their interactions should be developed to aid
+    checking and controlled derivation of programs and to support early binding
+    of code bodies for efficiency.  As a step in this direction, this paper
+    surveys a number of existing type theories and examines the manner and
+    extent to which these theories are able to represent the ideas found in
+    object-oriented programming.  Of primary interest are the models provided
+    by type theories for abstract data types and inheritance, and the major
+    portion of this paper is devoted to these topics.  Code fragments
+    illustrative of the various approaches are provided and discussed.  The
+    introduction provides an overview of object- oriented programming and types
+    in programming languages; the summary provides a comparative evaluation of
+    the reviewed typing systems, along with suggestions for future work.", 
+  location     = "https://doi.org/10.1145/62058.62060"
+}
+		  
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
