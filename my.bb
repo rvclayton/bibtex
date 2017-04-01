@@ -523,3 +523,21 @@
   location     = "https://pdfs.semanticscholar.org/b3b9/88556dbe706cf1ab8cd6e0a95c36a04ad93f.pdf"
 }
 
+@TechReport{hefim,
+  author       = "Steven Deering",
+  title        = "Host Extensions for {IP} Multicasting",
+  institution  = "Network Working Group",
+  year         = 1989,
+  type         = "Request for Comment",
+  number       = 1112,
+  address      = "Stanford University",
+  abstract     = "This memo specifies the extensions required of a host
+    implementation of the Internet Protocol (IP) to support multicasting.  It
+    is the recommended standard for IP multicasting in the Internet.
+    Distribution of this memo is unlimited.", 
+  month        = aug,
+  keywords     = "ip, multicasting, host group addresses, multicast ip
+    datagrams, internet group management protocol",
+  location     = "https://www.rfc-editor.org/rfc/pdfrfc/rfc1112.txt.pdf"
+}
+
