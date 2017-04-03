@@ -389,6 +389,7 @@ adding dynamic interfaces to smalltalk : sadeh
 adding equations to pccts : hamel
 adding generic functions to scheme : tessman
 adding performance aspects to specification languages : bochmann
+adding performance information to adt interfaces : cohen
 adding wildcards to the java programming language : torgersen
 adl an interface definition language for specifying and testing software : sankar
 admissible state semantics for representational systems : doyle
