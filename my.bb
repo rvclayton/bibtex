@@ -472,12 +472,12 @@
     by type theories for abstract data types and inheritance, and the major
     portion of this paper is devoted to these topics.  Code fragments
     illustrative of the various approaches are provided and discussed.  The
-    introduction provides an overview of object- oriented programming and types
+    introduction provides an overview of object-oriented programming and types
     in programming languages; the summary provides a comparative evaluation of
     the reviewed typing systems, along with suggestions for future work.", 
   location     = "https://doi.org/10.1145/62058.62060"
 }
-		  
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
@@ -539,5 +539,21 @@
   keywords     = "ip, multicasting, host group addresses, multicast ip
     datagrams, internet group management protocol",
   location     = "https://www.rfc-editor.org/rfc/pdfrfc/rfc1112.txt.pdf"
+}
+
+@TechReport{t7p,
+  author       = "David Gries",
+  title        = "The 711 Problem",
+  institution  = dcs # "Cornell University",
+  year         = 1982,
+  number       = "82-493",
+  address      = "Cornell, N.Y.",
+  month        = may,
+  keywords     = "puzzles, pascal, saddle-back search",
+  abstract     = "Write a program that, given two positive integer M and N,
+    will find 4 integers, called b, c, d, and e, satisfying (1) 0 <= b, c, d, e
+    <= N, (2) b + c + d + e = M, and (3) b*c*d*e = M.  Call such a tuple (b, c,
+    d, e) a solution.  If no solution exist, indicate that in some fashion.",
+  location     = "https://ecommons.cornell.edu/handle/1813/6333"
 }
 
