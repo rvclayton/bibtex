@@ -478,6 +478,57 @@
   location     = "https://doi.org/10.1145/62058.62060"
 }
 
+@Article{asmftsacu,
+  author       = "Scott, Michael~L. and Finkel, Raphael~A.",
+  title        = "{A} Simple Mechanism for Type Security Across Compilation Units",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1238--1239",
+  month        = aug,
+  keywords     = "type checking, link-time checking, hash codes",
+  abstract     = "A simple technique is described that detects structural-type
+    clashes across compilation units with an arbitrarily high degree of
+    confidence.  The type of each external object is described in canonical
+    form.  A hash function compresses the description into a short code.  If
+    the code is embedded in a symbol-table name, then consistency can be
+    checked by an ordinary linker.  For distributed programs, run-time checking
+    of message types can be performed with very little overhead.",
+  location     = "https://doi.org/10.1109/32.7631"
+}
+
+@Article{didfds,
+  author       = "Bochmann, Gregor",
+  title        = "Delay-Independent Design for Distributed Systems",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1229--1237",
+  month        = aug,
+  keywords     = "distributed systems, regularity, distributed synchronization,
+    module interconnections",
+  abstract     = "Methods of limiting the impact of communication delays on the
+    logical behavior of distributed systems are considered.  It is assumed that
+    a distributed system is described in terms of a number of interconnected
+    modules, and each module is described in terms of its possible states and
+    the possible state transitions.  Transitions may be initiated spontaneously
+    by a module and may give rise to output messages, which will be received,
+    after some possible delay, by another module as an input.  Otherwise,
+    transitions may be initiated by received input.  If the system has the
+    property called regularity, its behavior is logically independent of the
+    communication delays.  A simple condition for regularity is given.  This
+    condition is the basis for the implementation of counter-based
+    synchronization conditions in a distributed environment.  Weaker forms of
+    regularity, which make abstraction of internal operations invisible from
+    the point of view of an outside observer, are also considered.  The
+    application of these concepts to the design of module interfaces involving
+    'collisions' and to communication including timeouts is discussed in some
+    detail with examples.", 
+  location     = "https://doi.org/10.1109/32.7630"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
