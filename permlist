@@ -253,6 +253,7 @@ a simple and powerful type system for programming lanauges : ayres
 a simple and unifying approach to subjective objects : smith
 a simple cmos camera for itsy : bartlett
 a simple equation solver and its application to financial modelling : derman
+a simple mechanism for type security across compilation units : scott
 a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
 a simple reflexive interpreter : jefferson
 a simple separate compilation mechanism for block structured languages : le blanc
@@ -995,6 +996,7 @@ definition groups making sources into first class objects : bobrow
 definition of mmixal : knuth
 definition of open language : sunik
 deforestation transforming programs to eliminate trees : wadler 
+delay independent design for distributed systems : bochmann
 demystifying bgp : papen
 democracy and the problem of free speech : sunstein
 demonstrational interfaces a step beyond direct manipulation : myers
