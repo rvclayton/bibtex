@@ -529,6 +529,43 @@
   location     = "https://doi.org/10.1109/32.7630"
 }
 
+@Article{tcbliittofp,
+  author       = "Sands, David",
+  title        = "Total Correctness by Local Improvement in the Transformation of Functional Programs",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 2,
+  pages        = "175--234",
+  month        = mar,
+  keywords     = "correctness, improvement, operational equivalence, program
+    transformation, fold-unfold",
+  abstract     = "The goal of program transformation is to improve efficiency
+    while preserving meaning.  One of the best-known transformation techniques
+    is Burstall and Darlington's unfold-fold method.  Unfortunately the
+    unfold-fold method itself guarantees neither improvement in efficiency nor
+    total correctness.  The correctness problem for unfold-fold is an instance
+    of a strictly more general problem: transformation by locally
+    equivalence-preserving steps does not necessarily preserve (global)
+    equivalence.  This article presents a condition for the total correctness
+    of transformations on recursive programs, which, for the first time, deals
+    with higher-order functional languages (both strict and nonstrict)
+    including lazy data structures.  The main technical result is an
+    improvement theorem which says that if the local transformation steps are
+    guided by certain optimization concerns (a fairly natural condition for a
+    transformation), then correctness of the transformation follows.  The
+    improvement theorem makes essential use of a formalized improvement theory;
+    as a rather pleasing corollary it also guarantees that the transformed
+    program is a formal improvement over the original.  The theorem has
+    immediate practical consequences: it is a powerful tool for proving the
+    correctness of existing transformation methods for higher-order functional
+    programs, without having to ignore crucial factors such as memoization or
+    folding, and it yields a simple syntactic method for guiding and
+    constraining the unfold-fold method in the general case so that total
+    correctness (and improvement) is always guaranteed.", 
+  location     = "https://doi.org/10.1145/227699.227716"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
