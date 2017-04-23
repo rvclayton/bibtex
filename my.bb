@@ -566,6 +566,31 @@
   location     = "https://doi.org/10.1145/227699.227716"
 }
 
+@Article{bsidadp,
+  author       = "C{\' e}dric Bouhours and Herv{\' e} Leblanc and Christian Percebois",
+  title        = "Bad Smells in Design and Design Patterns",
+  journal      = jot,
+  year         = 2009,
+  volume       = 8,
+  number       = 3,
+  pages        = "43--63",
+  month        = may # "-" # jun,
+  keywords     = "spoiled patterns, design patterns, design reviews",
+  abstract     = {To give a consistent and more valuable property on models,
+    model-driven processes should be able to reuse the expert knowledge
+    generally expressed in terms of patterns.  We focus our work on the design
+    stage and on the systematically use of design patterns.  Choose a good
+    design pattern and ensure the correct integration of the chosen pattern are
+    non trivial for a designer who wants to use them.  To help designers, we
+    propose design inspection in order to detect “bad smells in design” and
+    models reworking through use of design patterns.  The automatic detection
+    and the explanation of the misconceptions are performed thanks to spoiled
+    patterns.  A “spoiled pattern” is a pattern which allows to instantiate
+    inadequate solutions for a given problem: requirements are respected, but
+    architecture is improvable.}, 
+  location     = "http://www.jot.fm/issues/issue_2009_05/column5.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
