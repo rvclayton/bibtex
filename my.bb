@@ -105,6 +105,16 @@
   location     = "isbn-13 9780990484400"
 }
 
+@Book{tieb,
+  author       = "Elif Batuman",
+  title        = "The Idiot",
+  publisher    = "Penguin",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "education, love, language, philosophy",
+  location     = "PS 3602.A9237 I45"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
