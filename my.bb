@@ -601,6 +601,38 @@
   location     = "http://www.jot.fm/issues/issue_2009_05/column5.pdf"
 }
 
+@Article{ddidd,
+  author       = "Edgar Knapp",
+  title        = "Deadlock Detection in Distributed Databases",
+  journal      = surveys,
+  year         = 1987,
+  volume       = 19,
+  number       = 4,
+  pages        = "303--328",
+  month        = dec,
+  keywords     = "deadlock detection, deadlock models, distributed deadlocks,
+    diffusing computations, global-state detection, edge-chasing algorithms,
+    path-pushing algorithms, wait-for graphs",
+  abstract     = "The problem of deadlock detection in distributed systems has
+    undergone extensive study.  An important application relates to distributed
+    database systems.  A uniform model in which published algorithms can be
+    cast is given, and the fundamental principles on which distributed deadlock
+    detection schemes are based are presented.  These principles represent
+    mechanisms for developing distributed algorithms in general and deadlock
+    detection schemes in particular.  In addition, a hierarchy of deadlock
+    models is presented; each model is characterized by the restrictions that
+    are imposed upon the form resource requests can assume.  The hierarchy
+    includes the well-known models of resource and communication deadlock.
+    Algorithms are classified according to both the underlying principles and
+    the generality of resource requests they permit.  A number of algorithms
+    are discussed in detail, and their complexity in terms of the number of
+    messages employed is compared.  The point is made that correctness proofs
+    for such algorithms using operational arguments are cumbersome and error
+    prone and, therefore, that only completely formal proofs are sufficient for
+    demonstrating correctness.", 
+  location     = "https://doi.org/10.1145/45075.46163"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
