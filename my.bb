@@ -633,6 +633,29 @@
   location     = "https://doi.org/10.1145/45075.46163"
 }
 
+@Article{idlcrt,
+  author       = "Gay, David~E.",
+  title        = "Interface Definition Language Conversions: Recursive Types",
+  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "101--110",
+  month        = aug,
+  keywords     = "interface conversions, distributed computation, type models,
+    type recursion, pointers",
+  abstract     = "A large heterogeneous network contains many applications
+    developed in different environments, each with its own incompatible
+    interface definition language.  One way of dealing with this diversity is
+    to define a conversion from the interfaces of one system into another, thus
+    giving access from the second system to the first.  This presents a number
+    of difficulties, amongst which is the different representation of recursive
+    types in different languages.  This paper gives two algorithms for
+    converting the representation of such recursive types between different
+    styles of interface definition languages.", 
+  location     = "https://doi.org/10.1145/185084.185112"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
