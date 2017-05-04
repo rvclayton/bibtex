@@ -19240,7 +19240,7 @@
 }
 
 @Article{tma,
-  author       = "Ravi Gansan",
+  author       = "Ravi Ganesan",
   title        = "The Messyware Advantage",
   journal      = cacm,
   year         = 1999,
