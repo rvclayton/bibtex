@@ -656,6 +656,30 @@
   location     = "https://doi.org/10.1145/185084.185112"
 }
 
+@Article{osam,
+  author       = "Abadi, Mart{\' \i}n and Cardelli, Luca",
+  title        = "On Subtyping and Matching",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 4,
+  pages        = "401--423",
+  month        = jul,
+  keywords     = "f-bounded subtyping, subtyping, self, matching, type
+    operators, type theory, object types, inheritance, binary methods,
+    protocols, recursive object types, higher-order subtyping",
+  abstract     = "A relation between recursive object types, called matching,
+    has been proposed as a generalization of subtyping.  Unlike subtyping,
+    matching does not support subsumption, but it does support inheritance of
+    binary methods.  We argue that matching is a good idea, but that it should
+    not be regarded as a form of F-bounded subtyping (as was originally
+    intended).  We show that a new interpretation of matching as higher-order
+    subtyping has better properties.  Matching turns out to be a third-order
+    construction, possibly the only one to have been proposed for general use
+    in programming.", 
+  location     = "https://doi.org/10.1145/233561.233563"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
