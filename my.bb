@@ -680,6 +680,34 @@
   location     = "https://doi.org/10.1145/233561.233563"
 }
 
+@Article{cbsfcwagdm,
+  author       = "Kraemer, Kenneth~L. and King, John Leslie",
+  title        = "Computer-Based Systems for Cooperative Work and Group Decision Making",
+  journal      = surveys,
+  year         = 1988,
+  volume       = 20,
+  number       = 2,
+  pages        = "115--146",
+  month        = jun,
+  keywords     = "cooperative work, group decision making, system evaluation,
+    decision making",
+  abstract     = "Application of computer and communications technology to
+    cooperative work and group decision making has grown out of three
+    traditions: computer-based communications, computer:based information
+    service provision, and computer-based decision support.  This paper reviews
+    the group decision support systems (GDSSs) that have been configured to
+    meet the needs of groups at work, and evaluates the experience to date with
+    such systems.  Progress with GDSSs has proved to be slower than originally
+    anticipated because of shortcomings with available technology, poor
+    integration of the various components of the computing package, and
+    incomplete understanding of the nature of group decision making.
+    Nevertheless, the field shows considerable promise with respect to the
+    creation of tools to aid in group decision making and the development of
+    sophisticated means of studying the dynamics of decision making in
+    groups.", 
+  location     = "https://doi.org/10.1145/46157.46158"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
@@ -757,5 +785,32 @@
     <= N, (2) b + c + d + e = M, and (3) b*c*d*e = M.  Call such a tuple (b, c,
     d, e) a solution.  If no solution exist, indicate that in some fashion.",
   location     = "https://ecommons.cornell.edu/handle/1813/6333"
+}
+
+@InBook{cafpltam,
+  author       = "Luca Cardelli",
+  title        = "Combinators and Functional Programming Languages",
+  chapter      = "The Amber Machine",
+  publisher    = "Springer",
+  year         = 1986,
+  editor       = "G.~Cousineau and P.-L. Curien and B.~Robinet",
+  pages        = "48--70",
+  volume       = 242,
+  series       = lncs,
+  address      = "Berlin",
+  keywords     = "virtual machines",
+  keywords     = "The Amber machine is a stack machine designed as an
+    intermediate language for compiling higher-order languages.  The current
+    version is specialized for the Amber language.  The machine supports a set
+    of basic and structured data types, functional closures, signals, bitmap
+    graphics, persistent objects and meta-level execution.  The latter is
+    needed as the Amber compiler is entirely written in Amber (above the Amber
+    machine level) and needs to switch level when executing a program it has
+    just compiled.  A set of implementation strategies are admissible for this
+    machine, including byte-code interpretation, threaded code interpretation
+    and compilation to native code.  The current implementation is based on a
+    byte-code interpreter and a onespace compacting collector, and runs on a
+    Macintosh.", 
+  location     = "https://doi.org/10.1007/3-540-17184-3_39"
 }
 
