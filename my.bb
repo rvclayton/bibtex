@@ -185,6 +185,30 @@
 }
 
 		  
+@InProceedings{svaet,
+  author       = "Javier Castillo and Pablo Heurta and Jos{\' e} Ignacio Mart{\' \i}nez",
+  title        = "An Open-Source Tool for {SystemC} to {Verilog} Automatic Translation",
+  booktitle    = "",
+  year         = 2007,
+  OPTeditor    = "",
+  pages        = "347--354",
+  keywords     = "",
+  abstract     = "As the complexity of electronic systems increases, new ways
+    for describing these systems are proposed.  One actual trend involves the
+    use of system level languages that allows the description of the whole
+    system in a higher abstraction level.  This type of methodology helps a
+    designer to obtain an appropriate Hw-Sw partition, where the Sw is compiled
+    to the target platform and the Hw is refined to bring it down to a lower
+    level of abstraction in order to be synthesized.  This last step usually
+    requires the use of a translation tool that from a description of the
+    system in a system level modeling language, converts it to an equivalent
+    one in a standard Hardware Description Language, usually Verilog or VHDL.
+    This works presents a tool that from a SystemC RTL description generates
+    its equivalent Verilog code ready to be synthesized by any standard Verilog
+    Synthesis Tool.", 
+  OPTlocation  = ""
+}
+
 @Article{erisrp,
   author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
   title        = "Error Repair in Shift-Reduce Parsers",
@@ -824,4 +848,3 @@
     Macintosh.", 
   location     = "https://doi.org/10.1007/3-540-17184-3_39"
 }
-
