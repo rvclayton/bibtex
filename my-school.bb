@@ -19248,7 +19248,7 @@
   number       = 11,
   pages        = "69--73",
   month        = nov,
-  keywords     = "intermediaries, ",
+  keywords     = "intermediaries",
   location     = "QA 76.A772"
 }
 
