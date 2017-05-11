@@ -51606,7 +51606,17 @@
   organization = "ACM SIGPLAN",
   publisher    = acmp,
   address      = poor,
-  month        = aug
+  abstract     = "We suggest a novel application of a formal specification
+    language: we use it to support some programming conventions and encourage
+    certain styles of programming.  The Larch/C Interface Language (LCL) is a
+    language for documenting the interfaces of ANSI C programs.  It is designed
+    to support a style of c programming where a program is organized around a
+    set of software modules.  Even though C does not support abstract data
+    types, LCL supports the specifications of abstract data types, and provides
+    guidelines on how abstract types can be implemented in C.  A lint-like
+    program checks for some conformance of C code to its LCL specification.", 
+  month        = aug,
+  location     = "https://doi.org/10.1145/185084.185106"
 }
 
 @InProceedings{aaamspl,
