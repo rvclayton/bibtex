@@ -115,6 +115,17 @@
   location     = "PS 3602.A9237 I45"
 }
 
+@Book{ttjg,
+  author       = "James Gleick",
+  title        = "Time Travel",
+  publisher    = "Pantheon",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "time travel, literature, the artistic imagination, space and
+    time, time", 
+  location     = "QC 173.59.S65 G54"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
