@@ -743,6 +743,31 @@
   location     = "https://doi.org/10.1145/46157.46158"
 }
 
+@Article{oteeoapa,
+  author       = "Choi, Jong-Deok and Cytron, R. and Ferrante, J.",
+  title        = "On the Efficient Engineering of Ambitious Program Analysis",
+  journal      = tse,
+  year         = 1994,
+  volume       = 20,
+  number       = 2,
+  pages        = "105--114",
+  month        = feb,
+  keywords     = "data-flow graphs, data-flow chains, data-flow analysis,
+    reaching definitions, static single assignment, compact representation,
+    demand-driven computation",
+  abstract     = "Recent advances in languages, software design methodologies,
+    and architecture have prompted the development of improved compile-time
+    methods for analyzing the effects of procedure calls, pointer references,
+    and array accesses.  Such sophistication, however, generally implies that
+    compilers and programming environments will experience a corresponding
+    increase in the volume of analysis information, which may be difficult to
+    use efficiently.  In this paper, we consider the practical accommodation of
+    such information.  Our results show how to engineer a compiler such that
+    its optimization phase takes time proportional to the benefit, rather than
+    the size, of such information.", 
+  location     = "https://doi.org/10.1109/32.265631"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
