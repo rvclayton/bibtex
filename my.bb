@@ -126,6 +126,16 @@
   location     = "QC 173.59.S65 G54"
 }
 
+@Book{litb,
+  author       = "George Saunders",
+  title        = "Lincoln in the Bardo",
+  publisher    = "Random House",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "the dead and how they got there, unfinished business",
+  location     = "PS 3569.A7897"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -766,6 +776,22 @@
     its optimization phase takes time proportional to the benefit, rather than
     the size, of such information.", 
   location     = "https://doi.org/10.1109/32.265631"
+}
+
+@Article{doatfsapcp,
+  author       = "De Francesco, Nicoletta and Vaglini, Gigliola",
+  title        = "Description of a Tool for Specifying and Prototyping Concurrent Programs",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1554--1564",
+  month        = nov,
+  keywords     = "automatic programming, events, historical references,
+    programming environment, rapid prototyping, specification language
+  environment, specification of concurrent programs",
+  abstract     = "",
+  location     = ""
 }
 
 @Manual{tlt,
