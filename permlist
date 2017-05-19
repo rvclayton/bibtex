@@ -12,7 +12,7 @@ cat <<eof! |
 64 bit programming in a 32 bit world : nicholson
 8 ways to report errors in haskell : kidd
 802.11b access point mapping : byers
-a better api for first class continuations : feeley
+a etter api for first class continuations : feeley
 a bibliography of garbage collection and related topics : sankaran
 a bibliography of programming style : thomas
 a bibliography on syntax error handling in context free languages : van den bosch
@@ -507,7 +507,7 @@ an introduction to haskell with applications to digital signal processing : gobl
 an introduction to morphic : maloney
 an introduction to process algebra : bergstra
 an introduction to quantum computation and quantum communication : pike
-an introduction to software architecture : gralan
+an introduction to software architecture : garlan
 an introduction to speech and speaker recognition : peacocke
 an introduction to the bird meertens formalism : gibbons
 an introduction to the wsl program transformer : bull
@@ -1010,6 +1010,7 @@ deriving graphical representations of process networks from algebraic expression
 deriving tidy drawings of trees : gibbons
 description languages exploration : graham
 description of a machine architecture for use with block structured languages : tanenbaum
+description of a tool for specifying and prototyping concurrent programs : de francesco
 description of fastnet a unidirectional local area communications network : limb
 design and implementation of a configurable mixed media file system : maffeis
 design and implementation of a distributed parallel programming system : lin
