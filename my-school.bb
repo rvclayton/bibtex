@@ -13304,6 +13304,11 @@
   keywords     = "interpretation versus compilation, interpretation techniques,
 		  instruction coding, code generation, direct threaded code,
 		  indirect threaded code",
+  abstract     = "The relative merits of implementing high level programming
+    languages by means of interpretation or compilation are discussed.  The
+    properties and the applicability of interpretation techniques known as
+    classical interpretation, direct threaded code and indirect threaded code
+    are described and compared.", 
   location     = "QA 76.7.A77A"
 }
 
