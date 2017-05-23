@@ -873,6 +873,17 @@
   location     = "https://ecommons.cornell.edu/handle/1813/6333"
 }
 
+@TechReport{otctbuidtis,
+  author       = "David Garlan and Gail Kaiser and David Notkin",
+  title        = "On the Criteria To Be Used In Composing Tools Into Systems",
+  institution  = "Tektronix Laboratories",
+  year         = 1988,
+  number       = "TR 88-08-09",
+  month        = aug,
+  keywords     = "system decomposition, tools, shared data structures, abstract
+    data types"
+}
+
 @InBook{cafpltam,
   author       = "Luca Cardelli",
   title        = "Combinators and Functional Programming Languages",
