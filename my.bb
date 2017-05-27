@@ -136,6 +136,16 @@
   location     = "PS 3569.A7897"
 }
 
+@Book{litsus,
+  author       = "Sarah Vowell",
+  title        = "Lafayette in the Somewhat United States",
+  publisher    = "Riverhead Books",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "revolutionary war, diplomacy, france, lafayette, washington",
+  location     = "E 207.L2 V69"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
