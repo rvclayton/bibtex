@@ -894,6 +894,17 @@
     data types"
 }
 
+@TechReport{itl,
+  author       = "Christopher~W. Fraser and David~R. Hanson",
+  title        = "Installing {\tt lcc}",
+  institution  = "AT\&T Bell Laboratories",
+  year         = 1992,
+  address      = mhnj,
+  month        = "15 " # sep,
+  keywords     = "lcc, compilers, c",		  
+  location     = "http://drh.github.io/lcc/current/doc/install.html"
+}
+
 @InBook{cafpltam,
   author       = "Luca Cardelli",
   title        = "Combinators and Functional Programming Languages",
