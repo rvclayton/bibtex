@@ -146,6 +146,18 @@
   location     = "E 207.L2 V69"
 }
 
+@Book{8zal,
+  author       = "Alan~R. Miller",
+  title        = "8080/{Z80} Assembly Language",
+  publisher    = "John Wiley \& Sons",
+  year         = 1981,
+  address      = nyny,
+  keywords     = "number bases, logical operations, stacks, i/o, macros, system
+     monitor, zilog z-80 processors, intel 8080 processors, number-base
+     conversion, paper tape, magnetic tape, cp/m",
+  location     = "QA 76.8.I28 M53"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
