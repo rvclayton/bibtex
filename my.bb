@@ -816,6 +816,37 @@
   location     = ""
 }
 
+@Article{hrocosr,
+  author       = "Hanan Samet",
+  title        = "Hierarchical Representations of Collections of Small Rectangles",
+  journal      = surveys,
+  year         = 1988,
+  volume       = 20,
+  number       = 4,
+  pages        = "271--309",
+  month        = dec,
+  keywords     = "cartography, geographic information systems, interval trees,
+    hierarchical data structures, multidimensional data structures, plane-sweep
+    methods, priority search trees, quadtrees, R-trees, rectangle intersection
+    problem, rectangles, representative points, segment trees, vlsi design rule
+    checking",
+  abstract     = "A tutorial survey is presented of hierarchical data
+    structures for representing collections of small rectangles.  Rectangles
+    are often used as an approximation of shapes for which they serve as the
+    minimum rectilinear enclosing object.  They arise in applications in
+    cartography as well as very large-scale integration (VLSI) design rule
+    checking.  The different data structures are discussed in terms of how they
+    support the execution of queries involving proximity relations.  The focus
+    is on intersection and subset queries.  Several types of representations
+    are described.  Some are designed for use with the plane-sweep paradigm,
+    which works well for static collections of rectangles.  Others are oriented
+    toward dynamic collections.  In this case, one representation reduces each
+    rectangle to a point in a higher multidimensional space and treats the
+    problem as one involving point data.  The other representation is area
+    based&mdash;that is, it depends on the physical extent of each rectangle.",
+  location     = "http://dl.acm.org/citation.cfm?id=50021"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
