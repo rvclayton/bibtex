@@ -847,6 +847,34 @@
   location     = "http://dl.acm.org/citation.cfm?id=50021"
 }
 
+@Article{spbrtewpcs,
+  author       = "Ceri, Stefano and Crespi-Reghizzi, Stefano and Di~Maio, Aandrea and Lavazza, Luigi~A.",
+  title        = "Software Prototyping by Relational Techniques:  Experiences with Program Construction Systems",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1597--1609",
+  month        = nov,
+  keywords     = "ada, program construction environments, rapid prototyping,
+  relational programming, target computer description",
+  abstract     = "A method for designing and prototyping program construction
+    systems using relational databases is presented.  Relations are the only
+    data structures used inside the systems and for interfaces; programs
+    extensively use relational languages, in particular relational algebra.
+    Two large projects are described.  The Ada Relational Translator (ART) is
+    an experimental compiler-interpreter for Ada in which all subsystems,
+    including the parser, semantic analyzer, interpreter, kernel, and debugger,
+    use relations as their only data structure; the relational approach has
+    been pushed to the utmost to achieve fast prototyping in a student
+    environment.  Multi-Micro Line (MML) is a tool set for constructing
+    programs for multimicroprocessors' targets, in which relations are used for
+    allocation and configuration control.  Both experiences validate the
+    approach for managing teamwork in evolving projects, identify areas where
+    this approach is appropriate, and raise critical issues.", 
+  location     = "https://doi.org/10.1109/32.9048"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
