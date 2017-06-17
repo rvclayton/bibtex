@@ -158,6 +158,17 @@
   location     = "QA 76.8.I28 M53"
 }
 
+@Book{clr2017,
+  author       = "Lucinda Rosenfeld",
+  title        = "Class",
+  publisher    = "Little, Brown",
+  year         = 2017,
+  address      = nyny,
+  month        = "January",
+  keywords     = "schooling, social class, income stratification, family",
+  location     = "813.54"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -873,6 +884,31 @@
     approach for managing teamwork in evolving projects, identify areas where
     this approach is appropriate, and raise critical issues.", 
   location     = "https://doi.org/10.1109/32.9048"
+}
+
+@Article{galfsaiovp,
+  author       = "Ambler, Allen~L. and Good, Donald~I. and Browne, James~C. and Burger, Wilhelm~F. and Cohen, Richard~M. and Hoch, Charles~G. and Wells, Robert~E.",
+  title        = "{GYPSY}: {A} Language for Specification and Implementation of Verifiable Programs",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  year         = 1977,
+  month        = mar,
+  volume       = 12,
+  number       = 3,
+  pages        = "1--10",
+  keywords     = "verification, pascal, language design, incremental
+    development, specification",
+  abstract     = "An introduction to the Gypsy programming and specification
+    language is given.  Gypsy is a high-level programming language with
+    facilities for general programming and also for systems programming that is
+    oriented toward communications processing.  This includes facilities for
+    concurrent processes and process synchronization.  Gypsy also contains
+    facilities for detecting and processing errors that are due to the actual
+    running of the program in an imperfect environment.  The specification
+    facilities give a precise way of expressing the desired properties of the
+    Gypsy programs.  All of the features of Gypsy are fully verifiable, either
+    by formal proof or by validation at run time.  An overview of the language
+    design and a detailed example program are given.", 
+  location     = "https://doi.org/10.1145/390017.808306"
 }
 
 @Manual{tlt,
