@@ -238,7 +238,6 @@ a retargetable debugger : ramsey
 a retargetable instruction reorganizer : davidson
 a retrospective on paradigms of ai programming : norvig
 a reusable architecture for simulations : dahmann
-a scala tutorial for java programmers : schinz
 a scalable content addressable network : ratnasamy
 a schedulability analyzer for real time euclid : stoyenko
 a scheme api for test suites : bothner
@@ -671,7 +670,6 @@ biglook a widget library for the scheme programming language : gallesio
 binary search algorithm code and caching : bentley
 binary search trees and file organization : nievergelt
 bioinformatics an introduction for computer scientists : cohen
-biologic computational building blocks : capstick
 biting the silver bullet : harel
 blame for all : ahmed
 bliss a language for systems programming : wulf
