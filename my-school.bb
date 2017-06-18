@@ -7838,7 +7838,7 @@
 }
 
 @Article{otooctts,
-  author       = "Mostafa~H. Ammar",
+  author       = "Mostafa~H. Ammar and J.~W. Wong",
   title        = "On the Optimality of Cyclic Transmission in Teletext
 		  Systems",
   journal      = ieeetoc,
