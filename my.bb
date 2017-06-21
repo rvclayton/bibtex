@@ -911,6 +911,33 @@
   location     = "https://doi.org/10.1145/390017.808306"
 }
 
+@Article{aocdics,
+  author       = "Colbourn, Charles~J. and van Oorschot, Paul~C.",
+  title        = "Applications of Combinatorial Designs in Computer Science",
+  journal      = surveys,
+  year         = 1989,
+  volume       = 21,
+  number       = 2,
+  pages        = "223--250",
+  month        = jun,
+  keywords     = "algorithms, design, security, theory, authentication,
+    combinatorial design, distributed consensus, file organization,
+    intercommunication networks memory access, parallel algorithms, parallel
+    sorting", 
+  abstract     = "The theory of combinatorial designs has been used in widely
+    different areas of computation concerned with the design and analysis of
+    both algorithms and hardware.  Combinatorial designs capture a subtle
+    balancing property that is inherent in many difficult problems and hence
+    can provide a sophisticated tool for addressing these problems.  The role
+    of combinatorial designs in solving many problems that are basic to the
+    field of computing is explored in this paper.  Case studies of many
+    applications of designs to computation are given; these constitute a first
+    survey, which provides a representative sample of uses of designs.  More
+    importantly, they suggest paradigms in which designs can be used profitably
+    in algorithm design and analysis.", 
+  location     = "https://doi.org/10.1145/66443.66446"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
