@@ -169,6 +169,18 @@
   location     = "813.54"
 }
 
+@Book{fuddb,
+  author       = "Danielle DiMartino Booth",
+  title        = "Fed Up",
+  publisher    = "Portfolio",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "economics, federal reserve banks, alan greenspan, ben
+    bernake, janet yellin, banks, banking, monetary policy, richard fisher,
+    dallas fed",
+  location     = "HG 2563.B586"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1037,6 +1049,32 @@
   month        = "15 " # sep,
   keywords     = "lcc, compilers, c",		  
   location     = "http://drh.github.io/lcc/current/doc/install.html"
+}
+
+@TechReport{tblcr,
+  author       = "Piti Disyatat",
+  title        = "The Bank Lending Channel Revisited",
+  institution  = "Bank for International Settlements",
+  year         = 2010,
+  type         = "BIS Working Papers",
+  number       = 297,
+  address      = "Basel, Switzerland",
+  month        = feb,
+  keywords     = "monetary policy, bank lending,channel, bank capital, credit,
+    money", 
+  abstract     = "A central proposition in research on the role that banks play
+    in the transmission mechanism is that monetary policy imparts a direct
+    impact on deposits and that deposits, insofar as they constitute the supply
+    of loanable funds, act as the driving force of bank lending.  This paper
+    argues that the emphasis on policy-induced changes in deposits is
+    misplaced.  A reformulation of the bank lending channel is proposed that
+    works primarily through the impact of monetary policy on banks' balance
+    sheet strength and risk perception.  Such a recasting implies, contrary to
+    conventional wisdom, that greater reliance on market-based funding enhances
+    the importance of the channel.  The framework also shows how banks,
+    depending on the strength of their balance sheets, could act either as
+    absorbers or amplifiers of shocks originating in the financial system.", 
+  location     = "http://www.bis.org/publ/work297.htm"
 }
 
 @InBook{cafpltam,
