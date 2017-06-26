@@ -950,6 +950,32 @@
   location     = "https://doi.org/10.1145/66443.66446"
 }
 
+@Article{otuorefst,
+  author       = "Clarke, Charles~L.~A. and Cormack, Gordon~V.",
+  title        = "On the Use of Regular Expressions for Searching Text",
+  journal      = toplas,
+  year         = 1997,
+  volume       = 19,
+  number       = 3,
+  pages        = "413--426",
+  month        = may,
+  keywords     = "specialized application languages, regular expressions,
+    regular languages, sgml",
+  abstract     = "The use of regular expressions for text search is widely
+    known and well understood.  It is then surprising that the standard
+    techniques and tools prove to be of limited use for searching structured
+    text formatted with SGML or similar markup languages.  Our experience with
+    structured text search has caused us to reexamine the current practice.
+    The generally accepted rule of &ldquo;leftmost longest match&rdquo; is an
+    unfortunate choice and is at the root of the difficulties.  We instead
+    propose a rule which is semantically cleaner.  This rule is generally
+    applicable to a variety of text search applications, including source code
+    analysis, and has interesting properties in its own right.  We have written
+    a publicly available search tool implementing the theory in the article,
+    which has proved valuable in a variety of circumstances.", 
+  location     = "https://doi.org/10.1145/256167.256174"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
