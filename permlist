@@ -2156,6 +2156,7 @@ on the resilience of routing tables : feigenbaum
 on the robustness of herlihy's hierarchy : jayanti
 on the use of destination set grouping to improve fairness in multicast video distribution : cheung
 on the use of http as a substrate for other protocols : moore
+on the use of regular expressions for searching text : clarke
 on the value of static analysis for fault detection in software : zheng
 on theory and practice of assertion based software development : toth
 on type systems for object oriented database programming languages : leontiev
