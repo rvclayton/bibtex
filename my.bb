@@ -987,6 +987,37 @@
   location     = "https://doi.org/10.1145/256167.256174"
 }
 
+@Article{dcpcem,
+  author       = "McDowell, Charles~E. and Helmbold, David~P.",
+  title        = "Debugging Concurrent Programs",
+  journal      = surveys,
+  year         = 1989,
+  volume       = 21,
+  number       = 4,
+  pages        = "593--622",
+  month        = dec,
+  keywords     = "distributed computing, event history, nondeterminism,
+    parallel processing, probe effect, program replay, program visualization,
+    static analysis",
+  abstract     = "The main problems associated with debugging concurrent
+    programs are increased complexity, the probe effect, nonrepeatability, and
+    the lack of a synchronized global clock.  The probe effect refers to the
+    fact that any attempt to observe the behavior of a distributed system may
+    change the behavior of that system.  For some parallel programs, different
+    executions with the same data will result in different results even without
+    any attempt to observe the behavior.  Even when the behavior can be
+    observed, in many systems the lack of a synchronized global clock makes the
+    results of the observation difficult to interpret.  This paper discusses
+    these and other problems related to debugging concurrent programs and
+    presents a survey of current techniques used in debugging concurrent
+    programs.  Systems using three general techniques are described:
+    traditional or breakpoint style debuggers, event monitoring systems, and
+    static analysis systems.  In addition, techniques for limiting, organizing,
+    and displaying a large amount of data produced by the debugging systems are
+    discussed.", 
+  location     = "https://doi.org/10.1145/76894.76897"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
