@@ -975,7 +975,8 @@ deadlock detection in distributed systems : singhal
 deadlock free completely connected networks towards a pi calculus approach : crowe
 deanonymizing users of the safeweb anonymizing service : martin
 debugging backwards in time : lewis
-debugging memory on linux : sorfa
+debugging concurrent programs : mcdowell
+adebugging memory on linux : sorfa
 debunking the expensive procedure call myth : steele
 decentralized user authentication in a global file system : kaminsky
 decentralizing sip : bryan
