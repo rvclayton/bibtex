@@ -181,6 +181,17 @@
   location     = "HG 2563.B586"
 }
 
+@Book{tifjk,
+  author       = "Jason Kekulak",
+  title        = "The Impossible Fortress",
+  publisher    = "Simon \& Schuster",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "game programming, computer games, bad decision making, geeks,
+    1980s, boys and girls together, C-64", 
+  location     = "PS 3618.E57275 I47"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
