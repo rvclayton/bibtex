@@ -1018,6 +1018,29 @@
   location     = "https://doi.org/10.1145/76894.76897"
 }
 
+@Article{eiaoortcipa,
+  author       = "Fischer, Charles~N. and LeBlanc, Richard~J.",
+  title        = "Efficient Implementation and Optimization of Run-Time Checking in {{P}}ascal",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  year         = 1977,
+  month        = mar,
+  volume       = 12,
+  number       = 3,
+  pages        = "19--24",
+  keywords     = "pascal, run-time check generation, run-time check
+    optimization, discriminated type unions, pointers, heap management,
+    by-reference parameters, programming language design",
+  abstract     = "Complete run-time checking of programs is an essential tool
+    for the development of reliable software.  A number of features of the
+    programming language PASCAL (arrays, subranges, pointers, record variants
+    (discriminated type unions), formal procedures, etc.) can require some
+    checking at run-time as well as during compilation.  The problem of
+    efficiently implementing such checking is considered.  Language
+    modifications to simplify such checking are suggested.  The possibility of
+    optimizing such checking is discussed.", 
+  location     = "https://doi.org/10.1145/390018.808308"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
