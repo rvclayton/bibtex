@@ -976,7 +976,7 @@ deadlock free completely connected networks towards a pi calculus approach : cro
 deanonymizing users of the safeweb anonymizing service : martin
 debugging backwards in time : lewis
 debugging concurrent programs : mcdowell
-adebugging memory on linux : sorfa
+debugging memory on linux : sorfa
 debunking the expensive procedure call myth : steele
 decentralized user authentication in a global file system : kaminsky
 decentralizing sip : bryan
@@ -1177,6 +1177,7 @@ efficient compile time garbage collection for arbitrary data structures : mohnen
 efficient concise deterministic patterm matching automata for ambiguous patterns : nedjah
 efficient demultiplexing of network packets by automatic parsing : jayaram
 efficient evaluation of circular attribute grammars : jones
+efficient implementation and optimization of run-time checking in pascal : fischer
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
 efficient implementation of the smalltalk 80 system : deutsch
