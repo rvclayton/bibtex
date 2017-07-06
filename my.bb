@@ -1041,6 +1041,32 @@
   location     = "https://doi.org/10.1145/390018.808308"
 }
 
+@Article{notdoe,
+  author       = "Popek, Gerald~J. and Horning, J.~J. and Lampson, Butler~W. and Mitchell, J.~G. and London, Ralph~L.",
+  title        = "Notes on the Design of {E}uclid",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  year         = 1977,
+  month        = mar,
+  volume       = 12,
+  number       = 3,
+  pages        = "11--18",
+  keywords     = "euclid, verification, system programming language,
+    reliability, pascal, aliasing, data encapsulation, parameterized types,
+    visibility of names, machine dependencies, legality assertions, storage
+    allocation, language design",
+  abstract     = "Euclid is a language for writing system programs that are to
+    be verified.  We believe that verification and reliability are closely
+    related, because if it is hard to reason about programs using a language
+    feature, it will be difficult to write programs that use it properly.  This
+    paper discusses a number of issues in the design of Euclid, including such
+    topics as the scope of names, aliasing, modules, type-checking, and the
+    confinement of machine dependencies; it gives some of the reasons for our
+    expectation that programming in Euclid will be more reliable (and will
+    produce more reliable programs) than programming in Pascal, on which Euclid
+    is based.", 
+  location     = "https://doi.org/10.1145/800022.808307"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
