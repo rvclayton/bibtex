@@ -1067,6 +1067,22 @@
   location     = "https://doi.org/10.1145/800022.808307"
 }
 
+@Article{scaiisr,
+  author       = "Lew, Ken~S. and Dillon, Tharam~S. and Forward, Kevin~E.",
+  title        = "Software Complexity and Its Impact on Software Reliability",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1645--1655",
+  month        = nov,
+  keywords     = "module coupling, software complexity, software design,
+    software reliability, information content, complexity metrics, information
+    flow graphs, system decomposition, software fault tolerance",
+  abstract     = "",
+  location     = "https://doi.org/10.1109/32.9052"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
