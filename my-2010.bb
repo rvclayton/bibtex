@@ -50732,6 +50732,28 @@
   location     = "http://dx.doi.org/10.1145/199818.199852"
 }
 
+@Article{pithos,
+  author       = "Cohen, Ellis and Jefferson, David",
+  title        = "Protection in the {H}ydra Operating System",
+  journal      = osr # " (" # pot # "Fifth " # sosp # ", SOSP '75)",
+  year         = 1975,
+  volume       = 9,
+  number       = 5,
+  pages        = "141--160",
+  month        = nov,
+  keywords     = "operating system, protection, capability, type, protected
+    subsystem, protection problem, mutual suspicion, containment, revocation",
+  abstract     = "This paper describes the capability based protection
+    mechanisms provided by the Hydra Operating System Kernel.  These mechanisms
+    support the construction of user-defined protected subsystems, including
+    file and directory subsystems, which do not therefore need to be supplied
+    directly by Hydra.  In addition, we discuss a number of well known
+    protection problems, including Mutual Suspicion, Confinement and
+    Revocation, and we present the mechanisms that Hydra supplies in order to
+    solve them.",
+  location     = "https://doi.org/10.1145/1067629.806532"
+}
+
 @inproceedings{actls,
   author	= "Simon~S. Lam and A.~Udaya Shankar",
   title		= "A Composition Theorem for Layered Systems",
@@ -57715,17 +57737,6 @@
     networks, the web, service providers, local access, coporate telephony,
     services, carrier strategies, regulation",
   location     = "TK 5105.8865.I57"
-}
-
-@techreport{pithos,
-  author	= "Ellis Cohen and David Jefferson",
-  title		= "Protection in the {H}ydra Operating System",
-  institution	= scs # cmu,
-  year		= 1976,
-  address	= ppa,
-  keywords	= "operating system, protection, capability, type, protected
-		   subsystem, protection problem, mutual suspicion confinement,
-		   revocation, hydra" 
 }
 
 @techreport{aadwsc,
