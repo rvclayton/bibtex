@@ -1083,6 +1083,30 @@
   location     = "https://doi.org/10.1109/32.9052"
 }
 
+@Article{cadfcd,
+  author       = "Banerjee, Jay and Kim, Won and Kim, Sung-Jo and Garza, Jorge~F.",
+  title        = "Clustering a {DAG} for {CAD} Databases",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1684--1699",
+  month        = nov,
+  keywords     = "breadth-first traversal, cad databases, children-depth-first,
+    traversal method, clustering, dag, depth-first traversal method, hierarchy,
+    storage organization",
+  abstract     = "A DAG (direct acyclic graph) is an important data structure
+    which requires efficient support in CAD (computer-aided design) databases.
+    It typically arise from the design hierarchy, which describes complex
+    designs in terms of subdesigns.  A study is made of the properties of the
+    three types of clustered sequences of nodes for hierarchies and DAGs, and
+    algorithms are developed for generating the clustered sequences, retrieving
+    the descendants of a given node, and inserting new nodes into existing
+    clustered sequences of nodes which preserve their clustering properties.
+    The performance of the clustering sequences is compared.", 
+  location     = "https://doi.org/10.1109/32.9055"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
