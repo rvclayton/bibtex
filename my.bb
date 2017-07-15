@@ -192,6 +192,16 @@
   location     = "PS 3618.E57275 I47"
 }
 
+@Book{tbtb,
+  author       = "John McWhorter",
+  title        = "Talking Back Talking Black",
+  publisher    = "Bellevue Literary Press",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "aave, dialect",
+  location     = "978 1 942658 20 7"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
