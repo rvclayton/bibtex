@@ -202,6 +202,15 @@
   location     = "978 1 942658 20 7"
 }
 
+@Book{ttplss,
+  author       = "Steven Slade",
+  title        = "The T Programming Language",
+  publisher    = ph,
+  year         = 1987,
+  address      = ecnj,
+  keywords     = "lisp, symbolic problems"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
