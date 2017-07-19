@@ -294,6 +294,22 @@
   OPTlocation  = ""
 }
 
+@InProceedings{imsdimaictdtlsanlpc2,
+  author       = "Lillian Lee",
+  title        = "``{I}'m sorry Dave, {I}'m afraid {I} can't do that'' : Linguistics, Statistics, and Natural Language Processing Circa 2001",
+  booktitle    = "Computer Science: Reflections on the Field",
+  year         = 2004,
+  pages        = "111-118",
+  publisher    = "National Academies Press",
+  address      = wadc,
+  keywords     = "ambiguity, language analysis, empiricism",
+  abstract     = {A brief, general-audience overview of the history of natural
+    language processing, focusing on data-driven approaches.  Topics include
+    Ambiguity and language analysis, Firth things first, A 'C' change, and The
+    empiricists strike back.},
+  location     = "http://www.cs.cornell.edu/home/llee/papers/cstb.pdf"
+}
+
 @Article{erisrp,
   author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
   title        = "Error Repair in Shift-Reduce Parsers",
