@@ -1007,18 +1007,18 @@
   month        = may,
   keywords     = "specialized application languages, regular expressions,
     regular languages, sgml",
-  abstract     = "The use of regular expressions for text search is widely
+  abstract     = {The use of regular expressions for text search is widely
     known and well understood.  It is then surprising that the standard
     techniques and tools prove to be of limited use for searching structured
     text formatted with SGML or similar markup languages.  Our experience with
     structured text search has caused us to reexamine the current practice.
-    The generally accepted rule of &ldquo;leftmost longest match&rdquo; is an
-    unfortunate choice and is at the root of the difficulties.  We instead
-    propose a rule which is semantically cleaner.  This rule is generally
-    applicable to a variety of text search applications, including source code
-    analysis, and has interesting properties in its own right.  We have written
-    a publicly available search tool implementing the theory in the article,
-    which has proved valuable in a variety of circumstances.", 
+    The generally accepted rule of "leftmost longest match" is an unfortunate
+    choice and is at the root of the difficulties.  We instead propose a rule
+    which is semantically cleaner.  This rule is generally applicable to a
+    variety of text search applications, including source code analysis, and
+    has interesting properties in its own right.  We have written a publicly
+    available search tool implementing the theory in the article, which has
+    proved valuable in a variety of circumstances.},
   location     = "https://doi.org/10.1145/256167.256174"
 }
 
@@ -1140,6 +1140,40 @@
     clustered sequences of nodes which preserve their clustering properties.
     The performance of the clustering sequences is compared.", 
   location     = "https://doi.org/10.1109/32.9055"
+}
+
+@Article{tacttfc,
+  author       = "Bergstra, Jan~A. and Dinesh, T.~B. and Field, J. and Heering, Jan",
+  title        = "Towards a Complete Transformational Toolkit for Compilers",
+  journal      = toplas,
+  year         = 1997,
+  volume       = 19,
+  number       = 5,
+  pages        = "639--684",
+  month        = sep,
+  keywords     = "compiler intermediate representation, completion, imperative
+    language, partial evaluation, program transformation, term rewriting",
+  abstract     = {PIM is an equational logic designed to function as a
+    "transformational toolkit" for compilers and other programming tools that
+    analyze and manipulate imperative languages.  It has been applied to such
+    problems as program slicing, symbolic evaluation, conditional constant
+    propagation, and dependence analysis.  PIM consists of the untyped lambda
+    calculus extended with an algebraic data type that characterizes the
+    behavior of lazy stores and generalized conditionals.  A graph form of PIM
+    terms is by design closely related to several intermediate representations
+    commonly used in optimizing compilers.  In this article, we show that PIM's
+    core algebraic component, PIMt, possesses a complete equational
+    axiomatization (under the assumption of certain reasonable restrictions on
+    term formation).  This has the practical consequence of guaranteeing that
+    every semantics-preserving transformation on a program representable in
+    PIMt can be derived by application of PIMt rules.  We systematically derive
+    the complete PIMt logic as the culmination of a sequence of increasingly
+    powerful equational systems starting from a straightforward "interpreter"
+    for closed PIMt terms.  This work is an intermediate step in a larger
+    program to develop a set of well-founded tools for manipulation of
+    imperative programs by compilers and other systems that perform program
+    analysis.}, 
+  location     = "https://doi.org/10.1145/265943.265944"
 }
 
 @Manual{tlt,
