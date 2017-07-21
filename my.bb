@@ -211,6 +211,16 @@
   keywords     = "lisp, symbolic problems"
 }
 
+@Book{ahwiab,
+  author       = "David Grossman",
+  title        = "{A} Horse Walks into a Bar",
+  publisher    = "Knopf",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "rememberance, stand-up comedy",
+  location     = "PJ 5054.G728 S8813"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
