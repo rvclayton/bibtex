@@ -1186,6 +1186,40 @@
   location     = "https://doi.org/10.1145/265943.265944"
 }
 
+@Article{rsfftras,
+  author       = "Abbott, Russell~J.",
+  title        = "Resourceful Systems for Fault Tolerance, Reliability, and Safety",
+  journal      = surveys,
+  year         = 1990,
+  volume       = 22,
+  number       = 1,
+  pages        = "35--68",
+  month        = mar,
+  keywords     = "logic programming, n-version programming, object-oriented
+    programming, planning, prolog, recovery blocks, resourceful systems, fault
+    tolerance, faults, mistakes, errors",
+  abstract     = "Above all, it is vital to recognize that completely
+    guaranteed behavior is impossible and that there are inherent risks in
+    relying on computer systems in critical environments.  The unforeseen
+    consequences are often the most disastrous [Neumann 1986].  Section 1 of
+    this survey reviews the current state of the art of system reliability,
+    safety, and fault tolerance.  The emphasis is on the contribution of
+    software to these areas.  Section 2 reviews current approaches to software
+    fault tolerance.  It discusses why some of the assumptions underlying
+    hardware fault tolerance do not hold for software.  It argues that the
+    current software fault tolerance techniques are more accurately thought of
+    as delayed debugging than as fault tolerance.  It goes on to show that in
+    providing both backtracking and executable specifications, logic
+    programming offers most of the tools currently used in software fault
+    tolerance.  Section 3 presents a generalization of the recovery block
+    approach to software fault tolerance, called resourceful systems.  Systems
+    are resourceful if they are able to determine whether they have achieved
+    their goals or, if not, to develop and carry out alternate plans.  Section
+    3 develops an approach to designing resourceful systems based upon a
+    functionally rich architecture and an explicit goal orientation.", 
+  location     = "https://doi.org/10.1145/78949.78951"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
