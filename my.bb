@@ -221,6 +221,16 @@
   location     = "PJ 5054.G728 S8813"
 }
 
+@Book{htbas,
+  author       = "Massimo Pigliucci",
+  title        = "How to Be a Stoic",
+  publisher    = "Basic Books",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "stoicism, philosophy",
+  location     = "B 528.P53"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1218,6 +1228,29 @@
     3 develops an approach to designing resourceful systems based upon a
     functionally rich architecture and an explicit goal orientation.", 
   location     = "https://doi.org/10.1145/78949.78951"
+}
+
+@Article{asopipl,
+  author       = "Ambler, Allen~L. and Hoch, Charles~G.",
+  title        = "{A} Study of Protection in Programming Languages",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  year         = 1977,
+  month        = mar,
+  volume       = 12,
+  number       = 3,
+  pages        = "25--40",
+  keywords     = "protection, pascal, concurrent pascal, euclid, clu, gypsy,
+    abstract data types, module, scope control, security",
+  abstract     = "The concept of &ldquo;protection&rdquo; in programming
+    languages refers to the ability to express directly in the language the
+    desired access control relationships for all objects defined in the
+    language.  The use of such mechanisms as data types, scope, parameter
+    passing mechanisms, routines as parameters, abstract data types, and
+    capabilities in Pascal, Concurrent Pascal, Euclid, Clu, and Gypsy are
+    explored via a simple example which embodies many protection problems.  The
+    usefulness of language defined and enforced protection mechanisms to the
+    process of formal verification is discussed.",
+  location     = "https://doi.org/10.1145/800022.808309"
 }
 
 @Manual{tlt,
