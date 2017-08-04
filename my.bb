@@ -231,6 +231,26 @@
   location     = "B 528.P53"
 }
 
+@Book{rar11,
+  author       = "Gabriel Kolko",
+  title        = "Railroads and Regulation 1877--1916",
+  publisher    = "W.~W. Norton \& Co.",
+  year         = 1970,
+  address      = nyny,
+  keywords     = "railroads, regulation, federalism, economic theory",
+  location     = "KF 2289.K6"
+}
+
+@Book{mwwhm,
+  author       = "Haruki Murakami",
+  title        = "Men Without Woman",
+  publisher    = "Knopf",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "friendship, men and women, story tellin'",
+  location     = "PL 856.U673 A2"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
