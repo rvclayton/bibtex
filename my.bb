@@ -1426,3 +1426,14 @@
     Macintosh.", 
   location     = "https://doi.org/10.1007/3-540-17184-3_39"
 }
+		  
+@Misc{biftc,
+  author       = "Kragen Javier Sitaker",
+  OPTtitle     = "Bytecode Interpreters for Tiny Computers",
+  howpublished = "mailing list",
+  year         = 2007,
+  month        = sep,
+  keywords     = "squeak, smalltalk, basic, p-code, byte codes, forth picbit",
+  location     = "http://www.wulfden.org/downloads/Forth_Resources/ByteCodeInterpretters_4_TinyComputers.pdf"
+}
+
