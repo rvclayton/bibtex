@@ -2887,6 +2887,7 @@ supporting thousands of threads using a hybrid stack sharing scheme : dageville
 suppression of partial redundancies : hailperin
 supra rpc subprogram parameters to remote procedure calls : stoyenko
 survey and taxonomy of packet classification techniques : taylor
+survey of closed queueing networks with blocking : onvural
 survey of highly parallel computing : haynes
 survey of scope issues in programming languages : schwanke
 survey of some theoretical aspects of multiprocessing : baer
