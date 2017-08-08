@@ -1273,6 +1273,31 @@
   location     = "https://doi.org/10.1145/800022.808309"
 }
 
+@Article{socqnwb,
+  author       = "Onvural, Raif~O.",
+  title        = "Survey of Closed Queueing Networks with Blocking",
+  journal      = surveys,
+  year         = 1990,
+  volume       = 22,
+  number       = 2,
+  pages        = "83--121",
+  month        = jun,
+  keywords     = "blocking, finite-buffer capacities, markiv model, queueing
+    networks, closed queueing networks", 
+  abstract     = "Closed queueing networks are frequently used to model complex
+    service systems such as production systems, communication systems, computer
+    systems, and flexible manufacturing systems.  When limitations are imposed
+    on the queue sizes (i.e., finite queues), a phenomenon called blocking
+    occurs.  Queueing networks with blocking are, in general, difficult to
+    treat.  Exact closed form solutions have been reported only in a few
+    special cases.  Hence, most of the techniques that are used to analyze such
+    queueing networks are in the form of approximations, numerical analysis,
+    and simulation.  In this paper, we give a systematic presentation of the
+    literature related to closed queueing networks with finite queues.  The
+    results are significant for both researchers and practitioners.", 
+  location     = "https://doi.org/10.1145/78919.78920"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
