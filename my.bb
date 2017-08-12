@@ -251,6 +251,19 @@
   location     = "PL 856.U673 A2"
 }
 
+@Book{crm,
+  author       = "Barbara Liskov and Russell Atkinson and Toby Bloom and Eliot
+  Moss and J.~Craig Shaffert and Robert Scheifler and Alan Snyder",
+  title        = "{CLU} Reference Manual",
+  publisher    = "Springer",
+  year         = 1981,
+  volume       = 114,
+  series       = lncs,
+  address      = bege,
+  keywords     = "programming languages, modules, data types, objects",
+  location     = "QA 76.73.C25 C58"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
