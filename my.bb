@@ -264,6 +264,26 @@
   location     = "QA 76.73.C25 C58"
 }
 
+@Book{grs2017,
+  author       = "R{\" u}diger Safranski",
+  title        = "Goethe",
+  publisher    = "Liveright",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "goethe, german history, art, literature",
+  location     = "PT 2051.S2413"
+}
+
+@Book{fhamec,
+  author       = "Alan Moore and Eddie Campbell",
+  title        = "From Hell",
+  publisher    = "Top Shelf Productions",
+  year         = 2006,
+  address      = "Marietta, Georgia",
+  keywords     = "crime, victorian london",
+  location     = "PN 6728.F76 M66"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1311,6 +1331,44 @@
   location     = "https://doi.org/10.1145/78919.78920"
 }
 
+@Article{tdiaeoj,
+  author       = "Rinard, Martin~C. and Lam, Monica~S.",
+  title        = "The Design, Implementation, and Evaluation of {J}ade",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 3,
+  pages        = "483--545",
+  month        = may,
+  keywords     = "implicit parallelism, imperative programming, message
+    passing, data model, parallelizing compilers, large-grain parallelism",
+  abstract     = "Jade is a portable, implicitly parallel language designed for
+    exploiting task-level concurrency.Jade programmers start with a program
+    written in a standard serial, imperative language, then use Jade constructs
+    to declare how parts of the program access data.  The Jade implementation
+    uses this data access information to automatically extract the concurrency
+    and map the application onto the machine at hand.  The resulting parallel
+    execution preserves the semantics of the original serial program.  We have
+    implemented Jade as an extension to C, and Jade implementations exist for s
+    hared-memory multiprocessors, homogeneous message-passing machines, and
+    heterogeneous networks of workstations.  In this atricle we discuss the
+    design goals and decisions that determined the final form of Jade and
+    present an overview of the Jade implementation.  We also present our
+    experience using Jade to implement several complete scientific and
+    engineering applications.  We use this experience to evaluate how the
+    different Jade language features were used in practice and how well Jade as
+    a whole supports the process of developing parallel applications.  We find
+    that the basic idea of preserving the serial semantics simplifies the
+    program development process, and that the concept of using data access
+    specifications to guide the parallelization offers significant advantages
+    over more traditional control-based approaches.  We also find that the Jade
+    data model can interact poorly with concurrency patterns that write
+    disjoint pieces of a single aggregate data structure, although this problem
+    arises in only one of the applications.", 
+  location     = "https://doi.org/10.1145/291889.291893",
+  location     = "https://people.csail.mit.edu/rinard/paper/toplas98.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
@@ -1436,6 +1494,23 @@
     depending on the strength of their balance sheets, could act either as
     absorbers or amplifiers of shocks originating in the financial system.", 
   location     = "http://www.bis.org/publ/work297.htm"
+}
+
+@TechReport{crmtr,
+  author       = "Barbara Liskov and Russell Atkinson and Toby Bloom and Eliot
+  Moss and J.~Craig Shaffert and Robert Scheifler and Alan Snyder",
+  title        = "{CLU} Reference Manual",
+  institution  = lcs # mit,
+  month        = oct,
+  year         = 1979,
+  number       = "MIT-LCS-TR-225",
+  address      = cama,
+  keywords     = "clu, data abstraction, programming language",
+  abstract     = "This document serves both as an introduction to CLU and as a
+    language reference manual.  Sections 1 through 4 present an overview of the
+    language.  These sections highlight the essential features of CLU, and
+    discuss how CLU differs from other, more conventional, languages.",
+  location     = "http://publications.csail.mit.edu/lcs/specpub.php?id=793"
 }
 
 @InBook{cafpltam,
