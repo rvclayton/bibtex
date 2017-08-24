@@ -284,6 +284,27 @@
   location     = "PN 6728.F76 M66"
 }
 
+@Book{lscdf,
+  author       = "Daniel Farber",
+  title        = "Lincoln's Constitution",
+  publisher    = ucp,
+  year         = 2003,
+  address      = chil,
+  keywords     = "lincoln, the us constitution, the civil war, session, law",
+  location     = "E 457.2 F216"
+}
+
+@Book{acitaoe11,
+  author       = "Robert Green McCloskey",
+  title        = "American Conservatism In the Age of Enterprise 1865--1910",
+  publisher    = "Harper Torchbooks",
+  year         = 1964,
+  address      = nyny,
+  keywords     = "economics, william graham sumner, stephen j. field, andrew
+    carnegie, democracy, politics", 
+  location     = "JA 84.U5 M35"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
