@@ -305,6 +305,16 @@
   location     = "JA 84.U5 M35"
 }
 
+@Book{mmc2016,
+  author       = "Michael Chabon",
+  title        = "Moonglow",
+  publisher    = "Harper",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "space flight, history, biography",
+  location     = "PS 3553.H15 M66"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
