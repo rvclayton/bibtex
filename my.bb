@@ -315,6 +315,16 @@
   location     = "PS 3553.H15 M66"
 }
 
+@Book{bamu,
+  author       = "Howard~S. Baker",
+  title        = "Becoming a Marihauna User",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "drug use, marijuana, drug psychology, drug sociology",
+  location     = "HV 5822.M3 B395"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
