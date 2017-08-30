@@ -1410,6 +1410,36 @@
   location     = "https://people.csail.mit.edu/rinard/paper/toplas98.pdf"
 }
 
+@Article{vdasoafgds,
+  author       = "Aurenhammer, Franz",
+  title        = "Voroni Diagrams --- {A} Survey of a Fundamental Geometric Data Structure",
+  journal      = surveys,
+  year         = 1991,
+  volume       = 23,
+  number       = 3,
+  pages        = "345--405",
+  month        = sep,
+  keywords     = "algorithms, analysis of algorithms and problem complexity,
+    cell complex, clustering, combinatorial algorithms, combinatorial
+    complexity, combinatorics, computational geometry and object modeling,
+    computer graphics, convex hull, crystal structure, discrete mathematics,
+    divide-and-conquer, geometric algorithms, geometric data structure, growth
+    model, higher dimensional embedding, hyperplane arrangement, k-set,
+    languages and systems, motion planning, neighbor searching, nonnumerical
+    algorithms and problems-geometrical problems and computations, object
+    modeling, plane-sweep, proximity, randomized insertion, spanning tree,
+    theory, triangulation", 
+  abstract     = "This paper presents a survey of the Voronoi diagram, one of 
+    the most fundamental data structures in computational geometry.  It
+    demonstrates the importance and usefulness of the Voronoi diagram in a wide
+    variety of fields inside and outside computer science and surveys the
+    history of its development.  The paper puts particular emphasis on the
+    unified exposition of its mathematical and algorithmic properties.
+    Finally, the paper provides the first comprehensive bibliography on Voronoi
+    diagrams and related structures.", 
+  location     = "https://doi.org/10.1145/116873.116880"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
