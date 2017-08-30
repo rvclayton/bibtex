@@ -1440,6 +1440,38 @@
   location     = "https://doi.org/10.1145/116873.116880"
 }
 
+@Article{easula,
+  author       = "Attiya, Hagit and Herlihy, Maurice and Rachman, Ophir",
+  title        = "Efficient Atomic Snapshots Using Lattice Agreement",
+  journal      = "Distributed Computing",
+  year         = 1995,
+  volume       = 8,
+  number       = 3,
+  pages        = "131--132",
+  month        = mar,
+  keywords     = "lattice agreement, snapshot objects, synchronous agreement,
+    asynchronous agreement",
+  abstract     = "The snapshot object is an important tool for constructing
+    wait-free asynchronous algorithms.  We relate the snapshot object to the
+    lattice agreement decision problem.  It is shown that any algorithm for
+    solving lattice agreement can be transformed into an implementation of a
+    snapshot object.  The overhead cost of this transformation is only a linear
+    number of read and write operations on atomic single-writer multi-reader
+    registers.  The transformation uses an unbounded amount of shared memory.
+    We present a deterministic algorithm for lattice agreement that used O(log2
+    n) operations on 2-processor Test & Set registers, plus O(n) operations on
+    atomic single-writer multi-reader registers.  The shared objects are used
+    by the algorithm in a dynamic mode, that is, the identity of the processors
+    that access each of the shared objects is determined dynamically during the
+    execution of the algorithm.  By a randomized implementation of 2-processors
+    Test & Set registers from atomic registers, this algorithm implies a
+    randomized algorithm for lattice agreement that uses an expected number of
+    O(n) operations on (dynamic) atomic single-writer multi-reader registers.
+    Combined with our transformation this yields implementations of atomic
+    snapshots with the same complexity.", 
+  location     = "https://doi.org/10.1007/BF02242714"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
