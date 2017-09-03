@@ -325,6 +325,16 @@
   location     = "HV 5822.M3 B395"
 }
 
+@Book{tsowps,
+  author       = "Pamela Sargent",
+  title        = "The Shore of Women",
+  publisher    = "Crown",
+  year         = 1986,
+  address      = nyny,
+  keywords     = "recovery, religion, boys and girls together",
+  location     = "PS 3569.A6887 S47"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
