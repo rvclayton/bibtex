@@ -1626,6 +1626,29 @@
   location     = "http://publications.csail.mit.edu/lcs/specpub.php?id=793"
 }
 
+@TechReport{tdotepl,
+  author       = "Richardson, Joel E. and Carey, Michael J. and Schuh, Daniel T.",
+  title        = "The Design of the {E} Programming Language",
+  institution  = dcs # uwisc,
+  year         = 1989,
+  number       = "TR 824",
+  address      = madw,
+  keywords     = "database languages, iterators, persistance, schemas, c++",
+  abstract     = "E is an extension of C++ designed for writing software 
+    systems to support persistent applications.  Originally designed as a
+    language for implementing database systems, E has evolved into a general
+    persistent programming language.  E was the first C++ extension to support
+    transparent persistence, the first C++ implementation to support generic
+    classes, and remains the only C++ extension to provide general-purpose
+    iterators.  In addition to its contributions to the C++ programming domain,
+    work on E has made several contributions to the file of persistent
+    languages in general, including several distinct implementations of
+    persistence.  This paper describes the main features of E and shows through
+    examples how E addresses many of the problems that arise in building
+    persistent systems.", 
+  location     = "https://minds.wisconsin.edu/handle/1793/59078"
+}
+
 @InBook{cafpltam,
   author       = "Luca Cardelli",
   title        = "Combinators and Functional Programming Languages",
