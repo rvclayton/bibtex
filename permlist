@@ -593,6 +593,7 @@ asdlgen reference manual : wang
 aspect oriented programming : highley
 aspect oriented programming : kiczales
 aspect oriented programming for distributed systems its use its effect on language design and its limits : van roy
+aspects of implementing clu : atkinson
 aspectcool an experiment in design and implementation of aspect oriented language : avdicausevic
 assessing the relationship between software assertions and code quality an empirical investigation : kudjravets
 assessing voice quality in packet based telephony : janssen
@@ -1297,6 +1298,7 @@ extracting task level parallelism : girkar
 extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
 ez processes : hanson
+f*dging up a racket : yoo
 facts of software engineering management : glass
 failure resilient transaction management in multidatabases : soparkar
 fast algorithms for sorting and searching strings : bentley
@@ -3649,6 +3651,7 @@ writing a tcl extension in only 7 years : libes
 writing cgi scripts in tcl : libes
 writing hygenic macros in scheme with syntax case : dvbvig
 writing macros in continuation passing style : hilsdale
+xe design rationale  clu revisited : hirvisalo
 xen and the art of virtualization : barham
 xfm an incremental methodology for developing formal models : suhaib
 xl a language structure : nelson
