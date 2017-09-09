@@ -445,6 +445,25 @@
   location     = "http://www.cs.cornell.edu/home/llee/papers/cstb.pdf"
 }
 
+@InProceedings{aoic,
+  author       = "Atkinson, Russell~R. and Liskov, Barbara~H. and Scheifler, Robert~W.",
+  title        = "Aspects of Implementing {CLU}",
+  booktitle    = pot # "1978 Annual Conference",
+  year         = 1978,
+  pages        = "123--129",
+  address      = "Washington, D.~C.",
+  month        = "4--6 " # dec,
+  keywords     = "exception handling, parametric polymorphism, iterators,
+    language implementation",
+  abstract     = "Linguistic mechanisms used in CLU to support 1) structured
+    exception handling, 2) iteration over abstract objects, and 3)
+    parameterized abstractions are briefly reviewed, and methods of realizing
+    these mechanisms are described.  The mechanisms discussed support features
+    that are likely to be included in other programming languages, and the
+    implementation methods should be applicable to a wide range of languages.",
+  location     = "https://doi.org/10.1145/800127.804079"
+}
+
 @Article{erisrp,
   author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
   title        = "Error Repair in Shift-Reduce Parsers",
@@ -1493,6 +1512,23 @@
   location     = "https://doi.org/10.1007/BF02242714"
 }
 
+@Article{xdrcr,
+  author       = "Hirvisalo, Vesa and Arkko, Jari and Kuusela, Juha and Nuutila, Esko and Tamminen, Markku",
+  title        = "{XE} Design Rationale:  {C}lu Revisited",
+  journal      = sigplan,
+  year         = 1989,
+  volume       = 24,
+  number       = 9,
+  pages        = "72--79",
+  month        = sep,
+  keywords     = "language design, parameterization, generalized iterators",
+  abstract     = "XE is a programming language designed and implemented at the
+    Helsinki University of Technology by the ExBed project.  The design of XE
+    is based on the CLU programming language.  This paper discusses differences
+    between the two languages and the design decisions of XE.", 
+  location     = "https://doi.org/10.1145/68127.68130"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
@@ -1695,5 +1731,13 @@
   month        = sep,
   keywords     = "squeak, smalltalk, basic, p-code, byte codes, forth picbit",
   location     = "http://www.wulfden.org/downloads/Forth_Resources/ByteCodeInterpretters_4_TinyComputers.pdf"
+}
+
+@Misc{fuuar,
+  author       = "Danny Yoo",
+  title        = "F*dging Up a Racket",
+  howpublished = "{\tt hashcollision.org}",
+  keywords     = "racket, brainfuck, language implementation, planet",
+  location     = "http://www.hashcollision.org/brainfudge/"
 }
 
