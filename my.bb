@@ -335,6 +335,17 @@
   location     = "PS 3569.A6887 S47"
 }
 
+@Book{jatsr,
+  author       = "Helena Kelly",
+  title        = "Jane Austen, the Secret Radical",
+  publisher    = "Knopf",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "austen, 18th/19th century life, literature, slavery,
+    enclosure, entailment, primogeniture",
+  location     = "PR 4038.P6 K38"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
