@@ -346,6 +346,16 @@
   location     = "PR 4038.P6 K38"
 }
 
+@Book{tfitaoos,
+  author       = "Ross Thomas",
+  title        = "The Fools in Town are on Our Side",
+  publisher    = "Morrow",
+  year         = 1971,
+  address      = nyny,
+  keywords     = "skullduggery, elections, texas, corruption, teamwork",
+  location     = "PS 3570.H58"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
