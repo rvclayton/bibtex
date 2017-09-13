@@ -356,6 +356,16 @@
   location     = "PS 3570.H58"
 }
 
+@Book{tbgb,
+  author       = "Oliver Bleeck",
+  title        = "The Brass Go-Between",
+  publisher    = "Harper \& Row",
+  year         = 1983,
+  address      = nyny,
+  keywords     = "trades, dirty dealing",
+  location     = "PS 3570.H58 B7"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1704,6 +1714,19 @@
     examples how E addresses many of the problems that arise in building
     persistent systems.", 
   location     = "https://minds.wisconsin.edu/handle/1793/59078"
+}
+
+@TechReport{bvcufpdcfdia,
+  author       = "FBI",
+  title        = "Bitcoin Virtual Currency:  Unique Features Present Distinct Challenges for Deterring Illicit Activity",
+  institution  = "Cyber Intelligence and Criminal Intelligence Sections, Directorate of Intelligence, FBI",
+  year         = 2012,
+  type         = "Intelligence Assessment",
+  month        = "24 " # apr,
+  keywords     = "bitcoin, malware, money services business, money transmitter,
+    peer-to-peer networking, public key cryptography, real money, virtual
+    currency, zeus trojan",
+  location     = "https://cryptome.org/2012/05/fbi-bitcoin.pdf"
 }
 
 @InBook{cafpltam,
