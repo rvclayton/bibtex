@@ -252,6 +252,7 @@ a simple and powerful type system for programming lanauges : ayres
 a simple and unifying approach to subjective objects : smith
 a simple cmos camera for itsy : bartlett
 a simple equation solver and its application to financial modelling : derman
+a simple graph based intermediate representation : click
 a simple mechanism for type security across compilation units : scott
 a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
 a simple reflexive interpreter : jefferson
