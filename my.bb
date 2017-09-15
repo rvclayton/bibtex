@@ -1,5 +1,9 @@
 .so bibtex.header
-
+		  
+@string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations)"}
+@string{idl94 = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
+@string{rs77  = " (" # pot # "ACM Conference on Language Design For Reliable Software)"}		  
+		  
 @Book{atamfm,
   author       = "Maureen~F. McHugh",
   title        = "After the Apocalypse",
@@ -600,7 +604,7 @@
 @Article{apatss,
   author       = "Freitag, Burkhard and Margaria, Tiziana and Steffen, Bernhard",
   title        = "{A} Pragmatic Approach to Software Synthesis",
-  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  journal      = sigplan # idl94,
   year         = 1994,
   volume       = 29,
   number       = 8,
@@ -687,7 +691,7 @@
 @Article{acilfpbs,
   author       = "Russell, James~R. and Strom, Robert~E. and Yellin, Daniel~M.",
   title        = "{A} Checkable Interface Language for Pointer-Based Structures",
-  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  journal      = sigplan # idl94,
   year         = 1994,
   volume       = 29,
   number       = 8,
@@ -946,7 +950,7 @@
 @Article{idlcrt,
   author       = "Gay, David~E.",
   title        = "Interface Definition Language Conversions: Recursive Types",
-  journal      = sigplan # " (" # pot # "Workshop on Interface Definition Languages, IDL '94)",
+  journal      = sigplan # idl94,
   year         = 1994,
   volume       = 29,
   number       = 8,
@@ -1121,7 +1125,7 @@
 @Article{galfsaiovp,
   author       = "Ambler, Allen~L. and Good, Donald~I. and Browne, James~C. and Burger, Wilhelm~F. and Cohen, Richard~M. and Hoch, Charles~G. and Wells, Robert~E.",
   title        = "{GYPSY}: {A} Language for Specification and Implementation of Verifiable Programs",
-  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  journal      = sigplan # rs77,
   year         = 1977,
   month        = mar,
   volume       = 12,
@@ -1230,7 +1234,7 @@
 @Article{eiaoortcipa,
   author       = "Fischer, Charles~N. and LeBlanc, Richard~J.",
   title        = "Efficient Implementation and Optimization of Run-Time Checking in {{P}}ascal",
-  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  journal      = sigplan # rs77,
   year         = 1977,
   month        = mar,
   volume       = 12,
@@ -1253,7 +1257,7 @@
 @Article{notdoe,
   author       = "Popek, Gerald~J. and Horning, J.~J. and Lampson, Butler~W. and Mitchell, J.~G. and London, Ralph~L.",
   title        = "Notes on the Design of {E}uclid",
-  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  journal      = sigplan # rs77,
   year         = 1977,
   month        = mar,
   volume       = 12,
@@ -1387,7 +1391,7 @@
 @Article{asopipl,
   author       = "Ambler, Allen~L. and Hoch, Charles~G.",
   title        = "{A} Study of Protection in Programming Languages",
-  journal      = sigplan # " (" # pot # "ACM Conference on Language Design For Reliable Software)",
+  journal      = sigplan # rs77,
   year         = 1977,
   month        = mar,
   volume       = 12,
@@ -1547,6 +1551,29 @@
     is based on the CLU programming language.  This paper discusses differences
     between the two languages and the design decisions of XE.", 
   location     = "https://doi.org/10.1145/68127.68130"
+}
+
+@Article{asgbir,
+  author       = "Click, Cliff and Paleczny, Michael",
+  title        = "{A} Simple Graph-Based Intermediate Representation",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "35--49",
+  month        = mar,
+  keywords     = "graphs, static single assignment, optimizations",
+  abstract     = "We present a graph-based intermediate representation (IR) 
+    with simple semantics and a low-memory-cost C++ implementation.  The IR
+    uses a directed graph with labeled vertices and ordered inputs but
+    unordered outputs.  Vertices are labeled with opcodes, edges are unlabeled.
+    We represent the CFG and basic blocks with the same vertex and edge
+    structures.  Each opcode is defined by a C++ class that encapsulates
+    opcode-specific data and behavior.  We use inheritance to abstract common
+    opcode behavior, allowing new opcodes to be easily defined from old ones.
+    The resulting IR is simple, fast and easy to use.", 
+  location     = "http://www.oracle.com/technetwork/java/javase/tech/c2-ir95-150110.pdf", 
+  location     = "https://doi.org/10.1145/202529.202534"
 }
 
 @Manual{tlt,
