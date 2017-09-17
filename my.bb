@@ -370,6 +370,16 @@
   location     = "PS 3570.H58 B7"
 }
 
+@Book{tlhck,
+  author       = "Herbert~C. Kraft",
+  title        = "The Lenape",
+  publisher    = "New Jersey Historical Society",
+  year         = 1988,
+  address      = "Newark, N.J.",
+  keywords     = "lenape, exploration",
+  location     = "F 131.N62"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
