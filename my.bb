@@ -380,6 +380,16 @@
   location     = "F 131.N62"
 }
 
+@Book{tfwtbl,
+  author       = "Jarett Kobek",
+  title        = "The Future Won't Be Long",
+  publisher    = "Viking",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "the big city, drug abuse, the 80s, the 90s, artists",
+  location     = "PS 3611.O3 F88"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
