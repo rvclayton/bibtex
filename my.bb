@@ -1596,6 +1596,42 @@
   location     = "https://doi.org/10.1145/202529.202534"
 }
 
+@Article{catalacfdcg,
+  author       = "Poletto, Massimiliano and Hsieh, Wilson~C. and Engler, Dawson~R. and Kaashoek, M.~Frans",
+  title        = "{`C} and {tcc}: A Language and Compiler for dynamic Code Generation",
+  journal      = toplas,
+  year         = 1999,
+  volume       = 21,
+  number       = 2,
+  pages        = "324--369",
+  month        = mar,
+  keywords     = "ansi c, compilers, dynamic code generation, dynamic code
+    optimization",
+  abstract     = "Dynamic code generation allows programmers to use run-time
+    information in order to achieve performance and expressiveness superior to
+    those of static code.  The 'C(Tick C) language is a superset of ANSI C that
+    supports efficient and high-level use of dynamic code generation.  'C
+    provides dynamic code generation at the level of C expressions and
+    statements and supports the composition of dynamic code at run time.  These
+    features enable programmers to add dynamic code generation to existing C
+    code incrementally and to write important applications (such as
+    &ldquo;just-in-time&rdquo; compilers) easily.  The article presents many
+    examples of how 'C can be used to solve practical problems.  The tcc
+    compiler is an efficient, portable, and freely available implementation of
+    'C.  tcc allows programmers to trade dynamic compilation speed for dynamic
+    code quality: in some aplications, it is most important to generate code
+    quickly, while in others code quality matters more than compilation speed.
+    The overhead of dynamic compilation is on the order of 100 to 600 cycles
+    per generated instruction, depending on the level of dynamic optimizaton.
+    Measurements show that the use of dynamic code generation can improve
+    performance by almost an order of magnitude; two- to four-fold speedups are
+    common.  In most cases, the overhead of dynamic compilation is recovered in
+    under 100 uses of the dynamic code; sometimes it can be recovered within
+    one use.",
+  location     = "https://doi.org/10.1145/316686.316697",
+  location     = "https://web.stanford.edu/~engler/tickc.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
