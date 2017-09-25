@@ -390,6 +390,16 @@
   location     = "PS 3611.O3 F88"
 }
 
+@Book{tpooi,
+  author       = "Simon Reid-Henry",
+  title        = "The Political Origins of Inequality",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "inequality, development politics, poverty, wealth",
+  location     = "HM 821.R45"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1630,6 +1640,30 @@
     one use.",
   location     = "https://doi.org/10.1145/316686.316697",
   location     = "https://web.stanford.edu/~engler/tickc.pdf"
+}
+
+@Article{tsmam,
+  author       = "Daniel Hoffman and Richard~T. Snodgrass",
+  title        = "Trace Specifications: Methodology and Models",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1243--1253",
+  month        = sep,
+  keywords     = "formal specification, logic, prototype, software engineering,
+    trace specification, algebraic specifications, models",
+  abstract     = "Precise abstract software specification is achievable by
+    using formal specification languages.  However, nontrivial specifications
+    are inordinately difficult to read and write.  This paper summarizes the
+    trace specification language and present? the trace specification
+    methodology: a set of heuristics designed to make the reading and writing
+    of complex specifications manageable.  Also described is a technique for
+    constructing formal, executable models from specifications written using
+    the methodology.  These models are useful as proofs of specification
+    consistency and as executable prototypes.  Fully worked examples of the
+    methodology and the model building technique are included.", 
+  location     = "http://doi.org/10.1109/32.6168"
 }
 
 @Manual{tlt,
