@@ -2374,6 +2374,7 @@ program fragments linking and modularization : cardelli
 program optimization via locality : sankaran
 program optimizations via locality : sankaran
 program profiling problems and a solution via machine language rewriting : reiser
+program readability procedures versus comments : tenny
 program reusability through program transformation : boyle
 program specification applied to a text formatter : feather
 program transformation with stratego xt rules stratgies toos and systems : visser
