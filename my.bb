@@ -400,6 +400,21 @@
   location     = "HM 821.R45"
 }
 
+@Book{prpvc,
+  author       = "Ted Tenny",
+  title        = "Program Readability: Procedures Versus Comments",
+  publisher    = tse,
+  year         = 1988,
+  editor       = ,
+  OPTvolume    = "",
+  OPTseries    = "",
+  OPTaddress   = "",
+  OPTedition   = "",
+  OPTmonth     = "",
+  OPTkeywords  = "",
+  OPTlocation  = ""
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1664,6 +1679,56 @@
     consistency and as executable prototypes.  Fully worked examples of the
     methodology and the model building technique are included.", 
   location     = "http://doi.org/10.1109/32.6168"
+}
+
+@Article{ppelas,
+  author       = "Bogdan Korel",
+  title        = "{PELAS}---Program Error-Locating Assistant System",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1253--1260",
+  month        = sep,
+  keywords     = "debugging, dependence network, dependence relation, error
+    localization, hypotheses formation, programming assistant",
+  abstract     = "Error localization in program debugging is the process of
+    identifying program statements which cause incorrect behavior.  A prototype
+    of the error localization assistant system which guides a programmer during
+    debugging of Pascal programs is described.  The system is interactive: it
+    queries the programmer for the correctness of the program behavior and uses
+    answers to focus the programmer's attention on an erroneous part of the
+    program (in particular, it can localize a faulty statement).  The system
+    differs from previous approaches in that it makes use of the knowledge of
+    program structure, which is derived automatically.  The knowledge of
+    program structure is represented by the dependence network which is used by
+    the error-locating reasoning mechanism to guide the construction,
+    evaluation, and modification of hypothesis of possible causes of the error.
+    Backtracking reasoning has been implemented in the reasoning mechanism.", 
+  location     = "https://doi.org/10.1109/32.6169"
+}
+
+@Article{prpvc,
+  author       = "Ted Tenny",
+  title        = "Program Readability: Procedures Versus Comments",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1271--1279",
+  month        = sep,
+  keywords     = "comments, experiment design, procedure format, program
+    readability, pl/1, factorial experiment",
+  abstract     = "A 3*2 factorial experiment was performed to compare the
+    effects of procedure format (none, internal, or external) with those of
+    comments (absent or present) on the readability of a PL/1 program.  The
+    readability of six editions of the program, each having a different
+    combination of these factors, was inferred from the accuracy with which
+    students could answer questions about the program after reading it.  Both
+    extremes in readability occurred in the program editions having no
+    procedures: without comments the procedureless program was the least
+    readable and with comments it was the most readable.", 
+  location     = "https://doi.org/10.1109/32.6171"
 }
 
 @Manual{tlt,
