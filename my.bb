@@ -400,19 +400,14 @@
   location     = "HM 821.R45"
 }
 
-@Book{prpvc,
-  author       = "Ted Tenny",
-  title        = "Program Readability: Procedures Versus Comments",
-  publisher    = tse,
-  year         = 1988,
-  editor       = ,
-  OPTvolume    = "",
-  OPTseries    = "",
-  OPTaddress   = "",
-  OPTedition   = "",
-  OPTmonth     = "",
-  OPTkeywords  = "",
-  OPTlocation  = ""
+@Book{mbfef,
+  author       = "Elena Ferrante",
+  title        = "My Brillant Friend",
+  publisher    = "Europa",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "naples",
+  location     = "PQ 4866.E6345 A8113"
 }
 
 @InProceedings{rdlrr,
