@@ -2736,7 +2736,6 @@ software based replication for fault tolerance : guerraoui
 software caching vs prefetching : aggarwal
 software communication mechanisms procedure calls versus messages : stankovic
 software complexity and its impact on software reliability : lew
-software complexity and maintenance costs : banker
 software considerations in mass storage systems : o'lear
 software defect reduction top 10 list : boehm
 software design : enos
@@ -3099,7 +3098,6 @@ the flux oskit a substrate for kernel and langauge research : ford
 the formal execution semantics of specc : mueller
 the formal specification of a small bookshop information system : gray
 the function of function in lisp : moses
-the future engineering of software a management perspective : basili
 the future of ideas : lessig
 the future of internet addresses : bieringer
 the future of internet worms : nazario
