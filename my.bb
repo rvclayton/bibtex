@@ -1906,6 +1906,26 @@
   location     = "https://cryptome.org/2012/05/fbi-bitcoin.pdf"
 }
 
+@TechReport{lmpr,
+  author       = "Alan Bawden and Richard Greenblatt and Jack Holloway and Thomas Knight and David Moon and Daniel Weinreb",
+  title        = "{LISP} Machine Progress Report",
+  institution  = "Artificial Intelligence Laboratory, " # mit,
+  year         = 1977,
+  type         = "Memo",
+  number       = 444,
+  address      = cma,
+  month        = aug,
+  keywords     = "implementation, system language, i/o, data representation,
+    program representation, control structures, storage organization, editing",
+  abstract     = "This informal paper introduces the LISP Machine, describes
+    the goals and current status of the project, and explicates some of the key
+    ideas.  It covers the LISP machine implementation, LISP as a system
+    language, input/output, representation of data, representation of programs,
+    control structures, storage organization, garbage collection, the editor,
+    and the current status of the work.", 
+  location     = "https://dspace.mit.edu/handle/1721.1/5751"
+}
+
 @InBook{cafpltam,
   author       = "Luca Cardelli",
   title        = "Combinators and Functional Programming Languages",
