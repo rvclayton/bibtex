@@ -410,6 +410,16 @@
   location     = "PQ 4866.E6345 A8113"
 }
 
+@Book{jyc,
+  author       = "Yahtzee Croshaw",
+  title        = "Jam",
+  publisher    = "Dark Horse Books",
+  year         = 2012,
+  address      = "Milwaukie, Oregon",
+  keywords     = "the apocalypse, skullduggery",
+  location     = "PR 9619.4.C735 J36"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
