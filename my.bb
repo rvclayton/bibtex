@@ -420,6 +420,16 @@
   location     = "PR 9619.4.C735 J36"
 }
 
+@Book{qtm,
+  author       = "Stephen Jay Gould",
+  title        = "Questioning the Millennium",
+  publisher    = "Harmony Books",
+  year         = 1997,
+  address      = nyny,
+  keywords     = "leap years, calendar, millennium",
+  location     = "CB 161.G67"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
