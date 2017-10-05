@@ -1736,6 +1736,40 @@
   location     = "https://doi.org/10.1109/32.6171"
 }
 
+@Article{asoasa,
+  author       = "Vladimir Estivill-Castro and Derick Wood",
+  title        = "{A} Survey of Adaptive Sorting Algorithms",
+  journal      = surveys,
+  year         = 1992,
+  volume       = 24,
+  number       = 4,
+  pages        = "441--476",
+  month        = dec,
+  OPTkeywords  = "adaptive sorting algorithm, comparison tree, optimal
+    adaptivity, randomized algorithm, sorted sequence, cook kim division,
+    problem sorting, composite structure, worst-case adaptive, problem
+    complexity, data storage representation, generic sort, partition sort,
+    sorting algorithm, exponential search, nonnumerical algorithm,
+    expected-case adaptive, statistic probabilistic algorithm",
+  abstract     = "The design and analysis of adaptive sorting algorithms has
+    made important contributions to both theory and practice.  The main
+    contributions from the theoretical point of view are: the description of
+    the complexity of a sorting algorithm not only in terms of the size of a
+    problem instance but also in terms of the disorder of the given problem
+    instance; the establishment of new relationships among measures of
+    disorder; the introduction of new sorting algorithms that take advantage of
+    the existing order in the input sequence; and, the proofs that several of
+    the new sorting algorithms achieve maximal (optimal) adaptivity with
+    respect to several measures of disorder.  The main contributions from the
+    practical point of view are: the demonstration that several algorithms
+    currently in use are adaptive; and, the development of new algorithms,
+    similar to currently used algorithms that perform competitively on random
+    sequences and are significantly faster on nearly sorted sequences.  In this
+    survey, we present the basic notions and concepts of adaptive sorting and
+    the state of the art of adaptive sorting algorithms.",
+  location     = "http://doi.org/10.1145/146370.146381"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
