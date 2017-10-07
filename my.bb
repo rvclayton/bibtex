@@ -1780,6 +1780,37 @@
   location     = "http://doi.org/10.1145/146370.146381"
 }
 
+@Article{syslbt,
+  author       = "Leslie Lamport and Lawrence~C. Paulson",
+  title        = "Should Your Specification Language Be Typed?",
+  journal      = toplas,
+  year         = 1999,
+  volume       = 21,
+  number       = 3,
+  pages        = "502--526",
+  month        = may,
+  keywords     = "set theory, specification, types, verification, logic,
+    functions, operators, recursion, typed formal languages, typed set theory,
+    disjoint sums, data types, higher-order logic, type theories, constructive
+    type theory, expressiveness",
+  abstract     = "Most specification languages have a type system.  Type
+    systems are hard to get right, and getting them wrong can lead to
+    inconsistencies.  Set theory can serve as the basis for a specification
+    language without types.  This possibility, which has been widely
+    overlooked, offers many advantages.  Untyped set theory is simple and is
+    more flexible than any simple typed formalism.  Polymorphism, overloading,
+    and subtyping can make a type system more powerful, but at the cost of
+    increased somplexity, and such refinements can never attain the flexibility
+    of having no types at all.  Typed formalisms have advantages, too, stemming
+    from the power of mechanical type checking.  While types serve little
+    purpose in hand proofs, they do help with mechanized proofs.  In the
+    absence of verificaiton, type checking can catch errors in specifications.
+    It may be possible to have the best of both worlds by adding typing
+    annotations to an untyped specification language.  We consider only
+    specification languages, not programming languages.", 
+  location     = "https://doi.org/10.1145/319301.319317"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
