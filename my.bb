@@ -430,6 +430,16 @@
   location     = "CB 161.G67"
 }
 
+@Book{cays,
+  author       = "Ross Thomas",
+  title        = "Cast a Yellow Shadow",
+  publisher    = "William Morrow \& Co.",
+  year         = 1967,
+  address      = nyny,
+  keywords     = "assassination, skullduggery, race relations",
+  location     = "PS 3570.H58"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
