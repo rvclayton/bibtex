@@ -440,6 +440,16 @@
   location     = "PS 3570.H58"
 }
 
+@Book{mldfm,
+  author       = "Douglas~F. MacKenzie",
+  title        = "Mango Lassie",
+  publisher    = "Loch Lomond Books",
+  year         = 2011,
+  address      = "Washington, D.~C.",
+  keywords     = "the 60s, georgetown, drugs, rampant sexism",
+  location     = "978 0 615 52266 1"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -1819,6 +1829,29 @@
     annotations to an untyped specification language.  We consider only
     specification languages, not programming languages.", 
   location     = "https://doi.org/10.1145/319301.319317"
+}
+
+@Article{escm,
+  author       = "Elaine~J. Weyuker",
+  title        = "Evaluating Software Complexity Measures",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1357--1365",
+  month        = sep,
+  keywords     = "cyclomatic numbers, lines of code, software metrics, data
+    flow, software science, software complexity",
+  abstract     = "A set of properties of syntactic software complexity measures
+    is proposed to serve as a basis for the evaluation of such measures.  Four
+    known complexity measures are evaluated and compared using these criteria.
+    This formalized evaluation clarifies the strengths and weaknesses of the
+    examined complexity measures, which include the statement count, cyclomatic
+    number, effort measure, and data flow complexity measures.  None of these
+    measures possesses all nine properties, and several are found to fail to
+    possess particularly fundamental properties; this failure calls into
+    question their usefulness in measuring synthetic complexity.", 
+  location     = "https://doi.org/10.1109/32.6178"
 }
 
 @Manual{tlt,
