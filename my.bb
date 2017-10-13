@@ -450,6 +450,16 @@
   location     = "978 0 615 52266 1"
 }
 
+@Book{rgkm,
+  author       = "Kate Moore",
+  title        = "Radium Girls",
+  publisher    = "Sourcebooks",
+  year         = 2017,
+  address      = "Naperville, IL",
+  keywords     = "watch dial painters, industrial injuries, radium poisoning",
+  location     = "HD 6067.2.U6 M66"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
