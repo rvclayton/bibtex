@@ -1199,7 +1199,6 @@ elements of interaction : milner
 eliminating array bound checking through nondependent types : oleg
 eliminating disjunctions of leads to properties : calvert
 eliminating spurious error messages using exceptions polymorphism and higher order functions : ramsey
-email winners and losers : wilson
 embedding built in test in hot spots of an object oriented framework : jeon
 embracing windows : taylor
 emerald a general purpose programming language : raj
