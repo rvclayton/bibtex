@@ -1864,6 +1864,34 @@
   location     = "https://doi.org/10.1109/32.6178"
 }
 
+@Article{fdoda,
+  author       = "Levent Orman",
+  title        = "Functional Development of Database Applications",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1280--1292",
+  month        = sep,
+  keywords     = "application semantics, database applications, data semantics,
+  functional development, functional model, functional specification,
+  metasemantics, database application language",
+  abstract     = "A highly modular and uniformly functional development
+    methodology for database applications is introduced.  An event-oriented
+    view of the database is adopted recording the observed events directly and
+    treating the state of the environment as derived data.  The relationship
+    between the observed events and the derived state of the system is
+    expressed using a purely functional language.  The application systems in
+    this environment are divided into their smallest possible components
+    consisting of only functions and simple functional expressions.  The
+    multimode of small but highly independent components generated in this
+    fashion are placed in the database along with the data, to utilize the
+    database management system in maintaining the application system.  The
+    semantics of individual applications is captured within the data model
+    serving those applications.",
+  location     = "https://doi.org/10.1109/32.6172"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
