@@ -1,6 +1,6 @@
 .so bibtex.header
 		  
-@string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations)"}
+@string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
 @string{idl94 = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
 @string{rs77  = " (" # pot # "ACM Conference on Language Design For Reliable Software)"}		  
 		  
@@ -1917,6 +1917,31 @@
     McCabe's (1976) V(G) and lines of code, but at least one chunk measure
     predicted better than E in every case.", 
   location     = "https://doi.org/10.1109/32.6179"
+}
+
+@Article{gtdfgfosp,
+  author       = "Pascal Aubry and Thierry Gautier",
+  title        = "{GC}: The Data-Flow Graph Format of Synchronous Programming",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "83--93",
+  month        = mar,
+  abstract     = "Based on an abstraction of the time as a discrete logical
+    time, the synchronous languages, armed with a strong semantics, enable the
+    design of safe real-time applications.  Some of them are of imperative
+    style, while others are declarative.  Academic and industrial teams
+    involved in synchronous programming defined together three intermediate
+    representations, on the way to standardization:• IC, a parallel format of
+    imperative style,• GC, a parallel format of data-flow style,• OC, a
+    sequential format to describe automata.In this paper, we describe more
+    specifically the format GC, and its links with the synchronous data-flow
+    language SIGNAL.  Thanks to the first experimentation, GC reveals itself as
+    a powerful representation for graph transformations, code production,
+    optimization, hardware synthesis, etc.", 
+  keywords     = "synchronous languages, data-flow graphs, clocks, signal",
+  location     = "https://doi.org/10.1145/202530.202538"
 }
 
 @Manual{tlt,
