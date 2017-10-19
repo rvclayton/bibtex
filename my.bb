@@ -1892,6 +1892,33 @@
   location     = "https://doi.org/10.1109/32.6172"
 }
 
+@Article{asotaocm,
+  author       = "John Stephen Davis and Richard~J. LeBlanc",
+  title        = "{A} Study of the Applicability of Complexity Measures",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 9,
+  pages        = "1366-1372",
+  month        = sep,
+  keywords     = "complexity measures, software science, chunking, software
+    maintenance, entropy, software forecasting",
+  abstract     = "A study of the predictive value of a variety of syntax-based
+    problem complexity measures is reported.  Experimentation with variants of
+    chunk-oriented measures showed that one should judiciously select
+    measurable software attributes as proper indicators of what one wishes to
+    predict, rather than hoping for a single, all-purpose complexity measure.
+    The authors have shown that it is possible for particular complexity
+    measures or other factors to serve as good predictors of some properties of
+    program but not for others.  For example, a good predictor of construction
+    time will not necessarily correlate well with the number of error
+    occurrences.  M.H.  Halstead's (1977) efforts measure (E) was found to be a
+    better predictor that the two nonchunk measures evaluated, namely, T.J.
+    McCabe's (1976) V(G) and lines of code, but at least one chunk measure
+    predicted better than E in every case.", 
+  location     = "https://doi.org/10.1109/32.6179"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
