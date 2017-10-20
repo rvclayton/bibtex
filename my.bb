@@ -578,6 +578,30 @@
   location     = "https://doi.org/10.1145/800127.804079"
 }
 
+@InProceedings{daare,
+  author       = "Jean-Marc DeBaud and Bijith Moopen and Spencer Rugaber",
+  title        = "Domain Analysis and Reverse Engineering",
+  booktitle    = pot # "International Conference on Software Maintenance (ICSM '94)",
+  year         = 1994,
+  editor       = "Hausi~A. M{\" u}ller and Mari Georges",
+  pages        = "326--335",
+  month        = oct,
+  keywords     = "domain engineering, reverse engineering, report writing,
+    domain models, object-oriented frameworks",
+  abstract     = "Current reverse engineering technology is typically based on
+    program analysis methods such as parsing and data flow analysis.  As such,
+    it is limited in what it can accomplish.  Knowledge of the application
+    domain containing a program can help overcome this limit and aid the
+    comprehension process.  The paper discusses the relationship of application
+    domain analysis and reverse engineering.  Two case studies are presented.
+    The first describes how domain knowledge, expressed as an object-oriented
+    framework, can aid the reverse engineering process for a well-understood
+    domain.  The second studies how reverse engineering can be used to build a
+    domain model.  Issues raised by the confluence of domain analysis and
+    reverse engineering are discussed, and implications on future work in the
+    area are suggested" 
+}
+
 @Article{erisrp,
   author       = "McKenzie, Bruce~J. and Yeatman, Corey and de Vere, Lorraine",
   title        = "Error Repair in Shift-Reduce Parsers",
