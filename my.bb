@@ -460,6 +460,16 @@
   location     = "HD 6067.2.U6 M66"
 }
 
+@Book{lfsad,
+  author       = "Antonio Damasio",
+  title        = "Looking for Spinoza",
+  publisher    = "Harcourt",
+  year         = 2003,
+  address      = "Orlando, Florida",
+  keywords     = "spinoza, emotions, feelings, mind-body, neurophyschology",
+  location     = "QP 401.D203"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
