@@ -470,6 +470,16 @@
   location     = "QP 401.D203"
 }
 
+@Book{fvs,
+  author       = "C.~H.~O'D. Alexander",
+  title        = "Fischer v. Spassky",
+  publisher    = "Vintage",
+  year         = 1972,
+  address      = nyny,
+  keywords     = "chess, bobby fischer, boris spassky, world championship",
+  location     = "GV 1455.A47"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
