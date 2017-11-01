@@ -480,6 +480,16 @@
   location     = "GV 1455.A47"
 }
 
+@Book{jcp,
+  author       = "Cherie Priest",
+  title        = "Jacaranda",
+  publisher    = "Subterranean Press",
+  year         = 2015,
+  address      = "Burton, MI",
+  keywords     = "eeeevil, guilt, broken promises",
+  location     = "978 1 59606 685 4"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
