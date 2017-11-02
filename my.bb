@@ -1998,6 +1998,32 @@
   location     = "https://doi.org/10.1145/202530.202538"
 }
 
+@Article{tcpiftc,
+  author       = "Michael Barborak and Anton Dahbura and Miroslaw Malek",
+  title        = "The Consensus Problem in Fault-Tolerant Computing",
+  journal      = surveys,
+  year         = 1993,
+  volume       = 25,
+  number       = 2,
+  pages        = "171--220",
+  month        = jun,
+  keywords     = "computer communication networks, network operations, network
+    management, network monitoring, distributed systems, distributed
+    applications, network operating systems, operating systems, reliability,
+    fault tolerance algorithms, design, reliability byzantine agreement,
+    consensus problem, decision theory, processor membership, system
+    diagnosis", 
+  abstract     = "The consensus problem is concerned with the agreement on a 
+    system status by the fault-free segment of a processor population in spite
+    of the possible inadvertent or even malicious spread of disinformation by
+    the faulty segment of that population.  The resulting protocols are useful
+    throughout fault-tolerant parallel and distributed systems and will impact
+    the design of decision systems to come.  This paper surveys research on the
+    consensus problem, compares approaches, outlines applications, and suggests
+    directions for future work.", 
+  location     = "https://doi.org/10.1145/152610.152612"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
