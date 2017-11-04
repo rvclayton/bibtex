@@ -490,6 +490,17 @@
   location     = "978 1 59606 685 4"
 }
 
+@Book{wwrbp,
+  author       = "Richard~B. Primack",
+  title        = "Walden Warming",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "global warming, walden pond, climate change, thoreau,
+    ecology, record keeping",
+  location     = "QH 105.M4 P75"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
