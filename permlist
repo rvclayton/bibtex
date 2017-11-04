@@ -1488,6 +1488,7 @@ graph drawing by force directed placement : fruchterman
 graph traversals : rolfe
 graphical configuration programming : kramer
 graphical fisheye views : sarkar
+gray codes for partial match and range queries : faloutsos
 great principles in computing curricula : denning
 greedy algorithms : greedy
 gridnet an alternative large distributed network : moore
