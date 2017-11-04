@@ -2024,6 +2024,37 @@
   location     = "https://doi.org/10.1145/152610.152612"
 }
 
+@Article{gcfpmarq,
+  author       = "Christos Faloutsos",
+  title        = "Gray Codes for Partial Match and Range Queries",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 10,
+  pages        = "1381--1393",
+  month        = oct,
+  keywords     = "distance-preserving mappings, file access, query
+    optimizations, multi-attribute hashing",
+  abstract     = "It is suggested that Gray codes be used to improve the
+    performance of methods for partial match and range queries.  Specifically,
+    the author illustrates the improved clustering of similar records that Gray
+    codes can achieve with multiattribute hashing.  Gray codes are used instead
+    of binary codes to map record signatures to buckets.  In Gray codes,
+    successive codewords differ in the value of exactly one bit position; thus,
+    successive buckets hold records with similar record signatures.  The
+    proposed method achieves better clustering of similar records, thus
+    reducing the I/O time.  A mathematical model is developed to derive
+    formulas giving the average performance of both methods, and it is shown
+    that the proposed method achieves 0-50% relative savings over the binary
+    codes.  The author also discusses how Gray codes could be applied to some
+    retrieval methods designed for range queries, such as the grid file and the
+    approach based on the so-called z-ordering.  Gray codes are also used to
+    design good distance-preserving functions, which map a k-dimensional (k-D)
+    space into a one-dimensional one, in such a way that points are close in
+    the k-D space are likely to be close in the 1-D space.", 
+  location     = "https://doi.org/10.1109/32.6184"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
