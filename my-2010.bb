@@ -1929,9 +1929,19 @@
   volume       = 25,
   number       = 3,
   pages        = "225--262",
-  month        = "September",
+  month        = sep,
   keywords     = "assertional reasoning, hoare logic, invariants, leads-to
-		  properties, saftey properties, state transisition systems"
+		  properties, saftey properties, state transisition systems",
+  abstract     = "This is a tutorial introduction to assertional reasoning
+    based on temporal logic.  The objective is to provide a working familiarity
+    with the technique.  We use a simple system model and a simple proof
+    system, and we keep to a minimum the treatment of issues such as soundness,
+    completeness, compositionality, and abstraction.  We model a concurrent
+    system by a state transition system and fairness requirements.  We reason
+    about such systems using Hoare logic and a subset of linear-time temporal
+    logic, specifically, invariant assertions and leads-to assertions.  We
+    apply the method to several examples.", 
+  location     = "https://doi.org/10.1145/158439.158441"
 }
 
 @Article{tvom,
