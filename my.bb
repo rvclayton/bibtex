@@ -2066,6 +2066,38 @@
   location     = "https://doi.org/10.1109/32.6184"
 }
 
+@Article{cmarirfc,
+  author       = "Brian~T. Lewis and L.~Peter Deutsch and Theodore~C. Goldstein",
+  title        = "{Clarity} {MCode}:  A Retargetable Intermediate Representation for Compilation",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "119--128",
+  month        = mar,
+  keywords     = "intermediate code, interoperability, runtime systems,
+    portability", 
+  abstract     = "To support the compilation of Clarity, we have developed a 
+    high-level, machine-independent intermediate representation that we call
+    MCode (for middle code).  We use MCode to compile Clarity programs at
+    execution time (i.e., on-the-fly) into SPARC1 code for the Solaris
+    operating system.  This code generator is designed to be largely
+    machine-independent: besides the SPARC code generator, an Intel x86 version
+    is being developed.  MCode includes a small amount of optimization
+    information that enables the runtime code generator to produce good quality
+    code.  Our SPARC code generator produces code about as good as that
+    produced by the SunPRO C compiler at the -O2 optimization level.  A
+    significant advantage of MCode over native machine code is that it can be
+    represented more compactly; MCode is stack based, and the encoding of most
+    instructions can be a single byte.  We also support an interpreter for
+    MCode that supports full interoperation with C and existing C libraries.
+    Although MCode includes instructions and data structures needed to
+    implement some Clarity language-specific constructs such as its exceptions
+    and method calls, the core of MCode is suitable for representing code for C
+    and many other languages.", 
+  location     = "https://doi.org/10.1145/202529.202542"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
@@ -2309,5 +2341,15 @@
   howpublished = "{\tt hashcollision.org}",
   keywords     = "racket, brainfuck, language implementation, planet",
   location     = "http://www.hashcollision.org/brainfudge/"
+}
+
+@Misc{htoyt,
+  author       = "John~W. Chinneck",
+  title        = "How to Organize Your Thesis",
+  howpublished = "Web page",
+  year         = 1999,
+  month        = "29 " # sep,
+  keywords     = "thesis, research",
+  location     = "http://www.sce.carleton.ca/faculty/chinneck/thesis.html"
 }
 
