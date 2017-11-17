@@ -2098,6 +2098,29 @@
   location     = "https://doi.org/10.1145/202529.202542"
 }
 
+@Article{aplfrts,
+  author       = "Luqi and V.~Berzins and Raymond~T. Yeh",
+  title        = "{A} Prototyping Language for Real-Time Software",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 10,
+  pages        = "1409--1423",
+  month        = oct,
+  keywords     = "control abstraction, data abstraction, modularity",
+  abstract     = "PSDL is a language for describing prototypes of real-time
+    software systems.  It is most useful for requirements analysis, feasibility
+    studies, and the design of large embedded systems.  PSDL has facilities for
+    recording and enforcing timing constraints, and for modeling the control
+    aspects of real-time systems using nonprocedural control constraints,
+    operator abstractions, and data abstractions.  The language has been
+    designed for use with an associated prototyping methodology.  PSDL
+    prototypes are executable if supported by a software base containing
+    reusable software components in an underlying programming language (e.g.
+    Ada).", 
+  location     = "https://doi.org/10.1109/32.6186"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
