@@ -2131,6 +2131,40 @@
   location     = "https://doi.org/10.1109/32.6186"
 }
 
+@Article{rtim,
+  author       = "Chitnis, Sachin~V. and Satpathy, Manoranjan and Oberoi, Sundeep",
+  title        = "Rationalized Three Instruction Machine",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "94--102",
+  month        = mar,
+  keywords     = "functional programming, abstract machines, control flow
+    analysis, compiling, optimization, lazy evaluation, instruction set design,
+    strictness analysis",
+  abstract     = "The declarative nature of functional programming languages
+    causes many difficulties in their efficient implementation on conventional
+    machines.  The problem is much harder when the language has non-strict
+    (lazy) semantics.  Abstract machines serve as an intellectual aid in
+    bridging the semantic gap between such languages and the conventional von
+    Neumann architecture.  However they become more and more complex with time
+    as efficiency considerations force the instruction set of the machine to
+    grow in size.  In this paper we explain the phenomenon in context of the
+    Three Instruction Machine (TIM).  We then define a rationalized instruction
+    set for TIM that allows us to view all enhancements to TIM in a uniform
+    way.  This instruction set is quite close to RISC instructions and clearly
+    identifies the key operations on closures.  Translation of functional
+    programs to our rationalized instruction set opens up scope for various
+    local and global optimizations.  We illustrate this by showing how to build
+    control flow graphs and perform optimizations on it.  Lazy arguments in
+    functional programs make it hard to predict evaluation order statistically.
+    We define the notion of pseudo-lazy arguments to statically expose the
+    control flow information, wherever possible, for doing better flow
+    analysis.", 
+  location     = "https://doi.org/10.1145/202529.202539"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
