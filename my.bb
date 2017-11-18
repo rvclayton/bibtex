@@ -501,6 +501,16 @@
   location     = "QH 105.M4 P75"
 }
 
+@Book{tfsssjg,
+  author       = "Stephen Jay Gould",
+  title        = "The Flamingo's Smile",
+  publisher    = "W.~W. Norton",
+  year         = 1987,
+  address      = nyny,
+  keywords     = "evolution, scientific practice, taxonomies, trends",
+  location     = "QH 81 G673"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
