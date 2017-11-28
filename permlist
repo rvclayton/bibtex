@@ -327,6 +327,7 @@ a tour of the squeak object engine : rowledge
 a transportable programming language tpl system ii the bifunctional compiler system : leong
 a trying c++ experience why compare dropped c++ : dinesh
 a tutorial for the sam command language : pike
+a type system for object initialization in the java bytecode language : freund
 a type system for preventing data races and deadlocks in java programs : boyapati
 a uniform approach for compile time and run time specialization : consel
 a universal scripting framework : shivers
@@ -338,7 +339,6 @@ a vcode tutorial : engler
 a verified connection management protocol for the transport layer : murphy
 a very high speed architecture for simulated annealing : abramson
 a vision of visualization in teaching object oriented programming : ben
-a vlsi geometry processor for graphics : clark
 a voice over ip service architecture for integrated communications : rizzetto
 a weakness in the 4.2 bsd unix tcp ip software : morris
 a whirlwind tutorial on creating really teensy elf executables for linux : raiter
