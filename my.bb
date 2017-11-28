@@ -511,6 +511,16 @@
   location     = "QH 81 G673"
 }
 
+@Book{vfms,
+  author       = "Michael Swanwick",
+  title        = "Vacuum Flowers",
+  publisher    = "Arbor House",
+  year         = 1987,
+  address      = nyny,
+  keywords     = "personality, individuality, collectivism",
+  location     = "PS 3569.W28 V3"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
