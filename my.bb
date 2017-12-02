@@ -521,6 +521,16 @@
   location     = "PS 3569.W28 V3"
 }
 
+@Book{wsw,
+  author       = "Kate Auspitz",
+  title        = "Wallis's War",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "love, wwii, duchess of windsor, espionage",
+  location     = "PS 3601.U853 W35"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -2173,6 +2183,38 @@
     control flow information, wherever possible, for doing better flow
     analysis.", 
   location     = "https://doi.org/10.1145/202529.202539"
+}
+
+@Article{atsfoiitjbl,
+  author       = "Freund, Stephen~N. and Mitchell, John~C.",
+  title        = "{A} Type System for Object Initialization in the {J}ava Bytecode Language",
+  journal      = toplas,
+  year         = 1999,
+  volume       = 21,
+  number       = 6,
+  pages        = "1196--1250",
+  month        = nov,
+  keywords     = "bytecode language, java, object initialization, type
+    checking",
+  abstract     = "In the standard Java implementation, a Java language program
+    is compiled to Java bytecode.  This bytecode may be sent across the network
+    to another site, where it is then interpreted by the Java Virtual Machine.
+    Since bytecode may be written by hand, or corrupted during network
+    transmission, the Java Virtual Machine contains a bytecode verifier that
+    performs a number of consistency checks before code is interpreted.  As
+    illustrated by previous attacks on the Java Virtual Machine, these tests,
+    which include type correctness, are critical for system security.  In order
+    to analyze existing bytecode verifiers and to understand the properties
+    that should be verified, we develop a precise specification of
+    statically-correct Java bytecode, in the form of a type system.  Our focus
+    in this paper is a subset of the bytecode language dealing with object
+    creation and initialization.  For this subset, we prove that for every Java
+    bytecode program that satisfies our typing constraints, every object is
+    initialized before it is used.  The type system is easily combined with a
+    previous system developed by Stata and Abadi for bytecode subroutines.  Our
+    analysis of subroutines and object initialization reveals a previously
+    unpublished bug in the Sun JDK bytecode verifier.", 
+  location     = "https://doi.org/10.1145/330643.330646"
 }
 
 @Manual{tlt,
