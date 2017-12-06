@@ -2217,6 +2217,32 @@
   location     = "https://doi.org/10.1145/330643.330646"
 }
 
+@Article{issdmifisd,
+  author       = "Richard Baskerville",
+  title        = "Information Systems Security Design Methods:  Implications for Information Systems Development",
+  journal      = surveys,
+  year         = 1993,
+  volume       = 25,
+  number       = 4,
+  pages        = "375--414",
+  month        = dec,
+  abstract     = "The security of information systems is a serious issue
+    because computer abuse is increasing.  It is important, therefore, that
+    systems analysts and designers develop expertise in methods for specifying
+    information systems security.  The characteristics found in three
+    generations of general information system design methods provide a
+    framework for comparing and understanding current security design methods.
+    These methods include approaches that use checklists of controls, divide
+    functional requirements into engineering partitions, and create abstract
+    models of both the problem and the solution.  Comparisons and contrasts
+    reveal that advances in security methods lag behind advances in general
+    systems development methods.  This analysis also reveals that more general
+    methods fail to consider security specifications rigorously.", 
+  keywords     = "checklists, control integrity, risk analysis, safety,
+    structured systems analysis and design, system modeling",
+  location     = "https://doi.org/10.1145/162124.162127"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
