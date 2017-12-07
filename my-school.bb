@@ -21420,8 +21420,7 @@
 
 @Article{aimftgoocs,
   author       = "Colin~J. Prosser and Alistair~C. Kilgour",
-  title        = "An Integer Method For the Graphical Output of Conic
-		  Sections",
+  title        = "An Integer Method For the Graphical Output of Conic Sections",
   journal      = "ACM Transactions on Graphics",
   year         = 1983,
   volume       = 2,
@@ -21429,7 +21428,16 @@
   pages        = "182--191",
   month        = jul,
   keywords     = "algorithms, integer arithmetic, curve generation",
-  location     = ""
+  abstract     = "A method is described of generating polygonal line
+    approximations to curves defined as conic sections, using only 16-bit
+    integer arithmetic.  Integer analogs of the parametric forms of conic
+    section definitions are employed, which table look-up for the trigonometric
+    functions and a fixed-point square root algorithm derived from the
+    subtraction method commonly used with mechanical calculators.  For
+    computers without floating-point hardware the method offers significant
+    advantages over direct software simulation of floating-point hardware
+    instructions.", 
+  location     = "https://doi.org/10.1145/357323.357325"
 }
 
 @Article{tiihtrd,
