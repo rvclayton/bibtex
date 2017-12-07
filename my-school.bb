@@ -10201,16 +10201,26 @@
 }
 
 @Article{lsra,
-  author       = "Massimiliano Poletto and Vivek Sarkar",
-  title        = "Liner Scan Register Allocation",
+  author       = "Poletto, Massimiliano and Sarkar, Vivek",
+  title        = "Linear Scan Register Allocation",
   journal      = toplas,
   year         = 1999,
   volume       = 21,
   number       = 5,
-  pages        = "895--913",
+  pages        = "395--913",
   month        = sep,
-  keywords     = "compliers, register allocation, code optimizations",
-  location     = "QA 76.7.A77A"
+  keywords     = "code optimization, compilers, register allocation",
+  abstract     = {We describe a new algorithm for fast global register
+    allocation called linear scan.  This algorithm is not based on graph
+    coloring, but allocates registers to variables in a single linear-time scan
+    of the variables' live ranges.  The linear scan algorithm is considerably
+    faster than algorithms based on graph coloring, is simple to implement, and
+    results in code that is almost as efficient as that obtained using more
+    complex and time-consuming register allocators based on graph coloring.
+    The algorithm is of interest in applications where compile time is a
+    concern, such as dynamic compilation systems, "just-in-time" compilers, and
+    interactive development environments.},  
+  location     = "https://doi.org/10.1145/330249.330250"
 }
 
 @Article{ansfeidb,
