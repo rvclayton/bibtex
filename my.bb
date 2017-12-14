@@ -2253,6 +2253,34 @@
   location     = "https://doi.org/10.1145/162124.162127"
 }
 
+@Article{hmmbawa,
+  author       = "Blume, Matthias and Appel, Andrew~W.",
+  title        = "Hierarchical Modularity",
+  journal      = toplas,
+  year         = 1999,
+  volume       = 21,
+  number       = 4,
+  pages        = "813--847",
+  month        = jul,
+  keywords     = "compilation management, linking, modularity, modules, name
+    visibility, program structure",
+  abstract     = "To cope with the complexity of very large systems, it is not
+    sufficient to divide them into simple pieces because the pieces themselves
+    will either be too numerous or too large.  A hierarchical modular structure
+    is the natural solution.  In this article we explain how that approach can
+    be applied to software.  Our compilation manager provides a language for
+    specifying where individual modules fit into a hierarchy and how they are
+    related semantically.  We pay particular attention to the structure of the
+    global name space of program identifiers that are used for module linkage
+    because any potential for name clashes between otherwise unrelated parts of
+    a program can negatively affect modularity.  We discuss the theoretical
+    issues in building software hierarchically, and we describe our
+    implementation of CM, the compilation manager for Standard ML of New
+    Jersey.", 
+  location     = "https://doi.org/10.1145/325478.325518",
+  location     = "http://people.cs.uchicago.edu/~blume/papers/cm-TOPLAS.pdf"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
