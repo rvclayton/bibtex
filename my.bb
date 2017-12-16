@@ -2281,6 +2281,31 @@
   location     = "http://people.cs.uchicago.edu/~blume/papers/cm-TOPLAS.pdf"
 }
 
+@Article{xaytilot,
+  author       = "O'Brien, Kevin and O'Brien, Kathryn~M. and Hopkins, Martin and Shepherd, Arvin and Unrau, Ron",
+  title        = "{XIL} and {YIL}:  The Intermediate Languages of {TOBEY}",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "71--82",
+  month        = mar,
+  keywords     = "intermediate languages, canonical representations, code
+    optimization, compiler back-ends", 
+  abstract     = "Typically, the choice of intermediate representation by a 
+    particular compiler implementation seeks to address a specific goal.  The
+    intermediate language of the TOBEY compilers, XIL, was initially chosen to
+    facilitate the production of highly optimal scalar code, yet, it was easily
+    extended to a higher level form YIL in order to support a new suite of
+    optimizations which in most existing compilers are done at the level of
+    source to source translation.  In this paper we will discuss those design
+    features of XIL that were important factors in the production of optimal
+    scalar code.  In addition we will demonstrate how the strength of the YIL
+    abstraction lay in its ability to access the underlying low level
+    representation.", 
+  location     = "https://doi.org/10.1145/202529.202537"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
