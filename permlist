@@ -1652,7 +1652,6 @@ incremental development of an hdlc protocol in esterel : berry
 incremental generation of parsers : heering
 incremantal parser construction with metaobjects : joskimies
 incremental semantic evaluation in language based editors : kiong
-incremental zone transfer in dns : ohta
 inductive inference theory and methods : angluin
 industrial and academic protocol testing the gap and the means of convergence : lai
 infant mortality and generational garbage collection : baker
@@ -1966,7 +1965,6 @@ middleware an architecture for distributed system services : bernstein
 migrating c code to unicode : nestved
 migrating sockets for networking with quality of service guarantees : yau
 millicode in an ibm zseries processor : heller
-mime tutorial : borenstein
 mimic a fast system 370 simulator : may 
 min and max redivivus : alexandrescu
 mini statecharts a lean version of statecharts : nazareth
