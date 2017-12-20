@@ -2906,6 +2906,7 @@ swap space implementation : mauro
 swarm 0.44 documents : dales
 sxml specification : kiselyov
 sxslt manipulation language for xml : kiselyov
+symbolic boolean manipulation with ordered binary decision diagrams : bryant
 symbolic model checking using sat proceudres instead of bdds : biere
 symmertic and asymmetric encryption : simmons
 synchronization algorithms for shared memory multiprocessors : graunke
