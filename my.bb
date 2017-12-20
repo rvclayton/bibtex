@@ -2306,6 +2306,34 @@
   location     = "https://doi.org/10.1145/202529.202537"
 }
 
+@Article{sbmwobdd,
+  author       = "Bryant, Randal~E.",
+  title        = "Symbolic {B}oolean Manipulation with Ordered Binary-Decision Diagrams",
+  journal      = surveys,
+  year         = 1992,
+  volume       = 24,
+  number       = 3,
+  pages        = "293--319",
+  month        = sep,
+  keywords     = "binary-decision diagrams, boolean functions, boolean algebra,
+    branching programs, symbolic analysis, symbolic manipulation",
+  abstract     = "Ordered Binary-Decision Diagrams (OBDDs) represent Boolean
+    functions as directed acyclic graphs.  They form a canonical
+    representation, making testing of functional properties such as
+    satisfiability and equivalence straightforward.  A number of operations on
+    Boolean functions can be implemented as graph algorithms on OBDD data
+    structures.  Using OBDDs, a wide variety of problems can be solved through
+    symbolic analysis.  First, the possible variations in system parameters and
+    operating conditions are encoded with Boolean variables.  Then the system
+    is evaluated for all variations by a sequence of OBDD operations.
+    Researchers have thus solved a number of problems in digital-system design,
+    finite-state system analysis, artificial intelligence, and mathematical
+    logic.  This paper describes the OBDD data structure and surveys a number
+    of applications that have been solved by OBDD-based symbolic analysis.", 
+  location     = "https://doi.org/10.1145/136035.136043",
+  location     = "http://repository.cmu.edu/cgi/viewcontent.cgi?article=1217&context=compsci"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
