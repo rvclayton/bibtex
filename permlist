@@ -1049,7 +1049,6 @@ designing a reusable symbol table library : wu
 designing an application framework : booch
 designing circuits by calculation : jones
 designing component based frameworks using patterns in the uml : larsen
-designing components with the c++ stl : breymann
 designing distributed algorithms by means of formal sequentially phased reasoning : stomp
 designing for thread safety : venners
 designing for ultrahigh availability the unix rtr operating system : wallace
