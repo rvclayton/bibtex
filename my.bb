@@ -2344,6 +2344,33 @@
   location     = "http://repository.cmu.edu/cgi/viewcontent.cgi?article=1217&context=compsci"
 }
 
+@Article{gagurrr,
+  author       = "Berson, David~A. and Gupta, Rajiv and Soffa, Mary Lou",
+  title        = "{GURRR}: {A} Global Unified Resource Requirements Representation",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "23--34",
+  month        = mar,
+  keywords     = "register allocation, pdg, cdg, instruction scheduling,
+    parallelism", 
+  abstract     = "When compiling for instruction level parallelism (ILP), the
+    integration of the optimization phases can lead to an improvement in the
+    quality of code generated.  However, since several different
+    representations of a program are used in the various phases, only a partial
+    integration has been achieved to date.  We present a program representation
+    that combines resource requirements and availability information with
+    control and data dependence information.  The representation enables the
+    integration of several optimizing phases, including transformations,
+    register allocation, and instruction scheduling.  The basis of this
+    integration is the simultaneous allocation of different types of resources.
+    We define the representation and show how it is constructed.  We then
+    formulate several optimization phases to use the representation to achieve
+    better integration.", 
+  location     = "https://doi.org/10.1145/202529.202533"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
