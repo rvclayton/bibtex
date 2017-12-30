@@ -560,6 +560,16 @@
   keywords     = "aliens, student abduction"
 }
 
+@Book{ths2017,
+  author       = "Harvey Sachs",
+  title        = "Toscanini",
+  publisher    = "Liveright",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "toscanini, opera, conducting, 20c italian politics",
+  location     = "ML 422.T67 S35"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
