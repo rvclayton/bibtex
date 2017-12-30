@@ -551,6 +551,15 @@
   location     = "BJ 1921.D4413"
 }
 
+@Book{mtiaa,
+  author       = "Bruce Coville",
+  title        = "My Teacher is an Alien",
+  publisher    = "Manhanset House",
+  year         = 1986,
+  address      = "Dering Harbor, N.Y.",
+  keywords     = "aliens, student abduction"
+}
+
 @InProceedings{rdlrr,
   author       = "Reia, Rafael and Menezes Leit{\~ a}o, Ant{\' o}nio",
   title        = "Refactoring Dynamic Languages",
@@ -2369,6 +2378,40 @@
     formulate several optimization phases to use the representation to achieve
     better integration.", 
   location     = "https://doi.org/10.1145/202529.202533"
+}
+
+@Article{atadpplboso,
+  author       = "Ben Hassen, Saniya and Bal, Henri~E. and Jacobs, Ceriel~J.~H.",
+  title        = "{A} Task- and Data-Parallel Programming Language Based on Shared Objects",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 6,
+  pages        = "1131--1170",
+  month        = nov,
+  keywords     = "data parallism, shared objects, task parallelism, static
+    analysis, parallel programming",
+  abstract     = "Many programming languages support either task parallelism, but 
+    few languages provide a uniform framework for writing applications that need
+    both types of parallelism or data parallelism.  We present a programming
+    language and system that integrates task and data parallelism using shared
+    objects.  Shared objects may be stored on one processor or may be
+    replicated.  Objects may also be partitioned and distributed on several
+    processors.Task parallelism is achieved by forking processes remotely and
+    have them communicate and synchronize through objects.  Data parallelism is
+    achieved by executing operations on partitioned objects in parallel.
+    Writing task-and data-parallel applications with shared objects has several
+    advantages.  Programmers use the objects as if they were stored in a memory
+    common to all processors.  On distributed-memory machines, if objects are
+    remote, replicated, or partitioned, the system takes care of many low-level
+    details such as data transfers and consistency semantics.  In this article,
+    we show how to write task-and data-parallel programs with our shared object
+    model.  We also desribe a portable implementation of the model.  To assess
+    the performance of the system, we wrote several applications that use task
+    and data parallelism and excuted them on a collection of Pentium Pros
+    connected by Myrinet.  The performance of these applications is also
+    discussed in this article.", 
+  location     = "https://doi.org/10.1145/295656.295658"
 }
 
 @Manual{tlt,
