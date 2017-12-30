@@ -310,6 +310,7 @@ a system architecture for fault tolerance in concurrent software : ancona
 a system for constructing configurable high level protocols : bhatti
 a systematic approach to host interface design for high speed networks : steenkiste
 a systematic approach to multiple inheritance implementation : templ
+a task and data parallel programming language based on shared objects : ben hassen
 a taste of category theory for computer scientists : pierce
 a taxonomy and survey of sctp research : budzisz
 a taxonomy based comparison of several distributed shared memory systems : tam
