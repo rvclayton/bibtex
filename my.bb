@@ -2424,6 +2424,30 @@
   location     = "https://doi.org/10.1145/295656.295658"
 }
 
+@Article{ahkbsfac,
+  author       = "Moldovan, Dan~I. and Wu, Chung-I.",
+  title        = "{A} Hierarchical Knowledge Based System for Airplane Classification",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 12,
+  pages        = "1829--1834",
+  month        = dec,
+  keywords     = "computer vision, hierarchical reasoning, knowledge bases, frames",
+  abstract     = "Airplane classification is used as an application domain to
+    illustrate how hierarchical reasoning on large knowledge bases can be
+    implemented.  The knowledge base is organized as a two-dimensional
+    hierarchy: one dimension corresponds to the levels of complexity often seen
+    in computer vision, and the other dimension corresponds to the complexity
+    of hypothesis used in the reasoning process.  Reasoning proceeds top-down,
+    from more abstract levels with fewer details toward levels with more
+    details.  Whenever possible, with the help of domain knowledge, decision is
+    taken at a higher level, which significantly reduces processing time.  A
+    software package called RuBICS (Rule-Based Image Classification System) is
+    described, and some examples of airplane classification are shown.", 
+  location     = "https://doi.org/10.1109/32.9066"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
