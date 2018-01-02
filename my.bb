@@ -2448,6 +2448,31 @@
   location     = "https://doi.org/10.1109/32.9066"
 }
 
+@Article{acbcpsassaf,
+  author       = "Kelsey, Richard~A.",
+  title        = "{A} Correspondence between Continuation Passing Style and Static Single Assignment Form",
+  journal      = sigplan # ir95,
+  year         = 1995,
+  volume       = 30,
+  number       = 3,
+  pages        = "13--22",
+  month        = mar,
+  keywords     = "intermediate representations, continuation passing style,
+    static single-assignment form, conversions, code optimizations",
+  abstract     = "We define syntactic transformations that convert continuation passing
+    style (CPS) programs into static single assignment form (SSA) and vice
+    versa.  Some CPS programs cannot be converted to SSA, but these are not
+    produced by the usual CPS transformation.  The CPS&rarr;SSA transformation
+    is especially helpful for compiling functional programs.  Many
+    optimizations that normally require flow analysis can be performed directly
+    on functional CPS programs by viewing them as SSA programs.  We also
+    present a simple program transformation that merges CPS procedures together
+    and by doing so greatly increases the scope of the SSA flow information.
+    This transformation is useful for analyzing loops expressed as recursive
+    procedures.", 
+  location     = "https://doi.org/10.1145/202529.202532"
+}
+
 @Manual{tlt,
   title        = "The \LaTeX{}2HTML Translator",
   author       = "Nikos Drakos",
