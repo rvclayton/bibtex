@@ -1125,7 +1125,6 @@ documentation for the chip computer system version 1.1 : babaoglu
 documenting programs in a web style the progltx style option : schrod
 does java guarantee thread safety : haggar
 domain models are aspect free : steinmann
-domain names concepts and facilities : mockapetris
 domain names implementation and specification : mockapetris
 domain specific embedded compilers : leijen
 domain specific languages an annotated bibliography : deursen
@@ -3375,7 +3374,6 @@ three ethical moments in debian : coleman
 three monads for continuations : kieburtz
 thunks and the lambda calculus : hatcliff
 time constrained sorting a comparison of different algorithms : puschner
-time synchronization for voip quality of service : melvin
 timed callbacks in c++ : stapfer
 tkgecko a frill necked lizard : ball
 tla+ : lamport
