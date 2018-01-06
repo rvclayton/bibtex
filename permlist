@@ -274,6 +274,7 @@ a stepwise refinement based approach for synthesizing protocol specifications in
 a stop and go queueing framework for congestion management : golestani
 a straightforward denotational semantics for nondeterministic data flow programs : kosinski
 a stream compiler for communication exposed architectures : gordon
+a streams based communications subsystem in turing plus for protocol development : atwood
 a study of common pitfalls in simple multi threaded programs : choi
 a study of design characterization in evolving software using stability as a criterion : kelly
 a study of protection in programming language : ambler
