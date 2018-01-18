@@ -12,6 +12,16 @@
   location     = "HM 851.N54"
 }
 
+@Book{tsrjb,
+  author       = "John Brunner",
+  title        = "The Shockwave Rider",
+  publisher    = "Harper \& Row",
+  year         = 1975,
+  address      = nyny,
+  keywords     = "future, networking, security, secrecy",
+  location     = "PR 6052.R8"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
