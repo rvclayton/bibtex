@@ -22,6 +22,16 @@
   location     = "PR 6052.R8"
 }
 
+@Book{srs,
+  author       = "Robin Sloan",
+  title        = "Sourdough",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "techology, food science, breadmaking",
+  location     = "PS 3619.L6278 S67"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
