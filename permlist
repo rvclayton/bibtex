@@ -973,6 +973,7 @@ data structuring facilities for interactive videotext systems : tompa
 data structures in jdsl : goodrich
 data transport in a byte stream network : fraser
 data types as values : donahue
+dataflow computing models languages and machines for intelligence computations : harath
 dataflow machine architecture : veen
 datakit packet switch generic 1 system description : calvert
 dcom and corba side by side step by step and layer and layer : chung
@@ -1202,7 +1203,6 @@ embedding built in test in hot spots of an object oriented framework : jeon
 embracing windows : taylor
 emerald a general purpose programming language : raj
 emeralds a small memory real time microkernel : zuberi
-emerging patterns in the use of xml for information modeling in vertical industries : hinkelman
 empirical analysis of software fault content and fault proneness using bayesian methods : pai
 emperical studies of programming knowledge : soloway
 emulating an operating system on top of another : franz
