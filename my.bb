@@ -32,6 +32,16 @@
   location     = "PS 3619.L6278 S67"
 }
 
+@Book{snttd,
+  author       = "Ian Zack",
+  title        = "Say No to the Devil",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "blues, gary davis, guitarists, street preachers, folk music",
+  location     = "ML 419.D386 Z33"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -54,5 +64,29 @@
     analysis and design and has helped to envision and finally build systems of
     quality.",
   location     = "http://dirkriehle.com/computer-science/research/1994/plop-1994-tools.pdf"
+}
+
+@Article{dcmlamfic,
+  author       = "Herath, Jayantha and Yamaguchi, Yoshinori and Saito, Nobuo and Yuba, Toshitsugu",
+  title        = "Dataflow Computing Models, Languages, and Machines for Intelligence Computations",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 12,
+  pages        = "1805--1828",
+  month        = dec,
+  keywords     = "architecture, dataflow, functional and logic programming,
+    parallel computation, performance analysis, recursion, control flow,
+    symbolic computing",
+  abstract     = "The authors compare dataflow computing models, languages, and
+    dataflow computing machines for numerical and nonnumerical computations.
+    The high-level-language-graph transformations that must be performed to
+    achieve high performance for numerical and nonnumerical programs executed
+    in a dataflow computing environment are described for Lisp, using the DCBL
+    transformations.  Some general problems of dataflow computing machines are
+    discussed.  Performance evaluation measurements obtained by executing
+    benchmark programs in the ETL nonnumerical dataflow computing environment,
+    the EM-3, are presented.",
+  location     = "https://doi.org/10.1109/32.9065"
 }
 
