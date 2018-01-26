@@ -2098,7 +2098,8 @@ notes on the design of euclid : popek
 notes on thread models in mach 3 : ford
 np completeness : scheier
 nt 5 still no match for unix : mcgarvey
-number representations and dragon curves : davis
+number representations and dragon curves i : davis
+number representations and dragon curves ii : davis
 oberon script a lightweight compiler and runtime system for the web : sommerer
 oberon technical notes : pfister
 object centered design for java teaching ood in cs 1 : adams
