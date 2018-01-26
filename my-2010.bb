@@ -55042,20 +55042,6 @@
   location     = "http://www.brynosaurus.com/pub/net/sst.pdf"
 }
 
-@InProceedings{amitbpl,
-  author       = "Bent Bruun Kristensen and Ole Lehrmann Madsen and
-		  Birger M\o{}ller-Pedersen and Kristen Nygaard",
-  title        = "Abstraction Mechanisms in the {BETA} Programming Language",
-  booktitle    = pot # "10th " # popl,
-  year         = 1983,
-  pages        = "285--298",
-  publisher    = acmp,
-  address      = "Austin, Texas",
-  month        = jan,
-  keywords     = "",
-  location     = "http://doi.acm.org/10.1145/567067.567094"
-}
-
 @InProceedings{agocpavmfs,
   author       = "Mario Latendresse",
   title        = "Automatic Generation of Compact Programs and Virtual Machines for {S}cheme",
