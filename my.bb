@@ -178,6 +178,34 @@
   location     = "https://doi.org/10.1109/32.9064"
 }
 
+@Article{fafcmdtg,
+  author       = "Dujardin, Eric and Amiel, Eric and Simon, Eric",
+  title        = "Fast Algorithms for Compressed Multimethod Dispatch Table Generation",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 1,
+  pages        = "116--165",
+  month        = jan,
+  keywords     = "algorithms, language, measurement, performance, dispatch
+    tables, late binding, multimethods, optimization, pole types, run-time
+    dispatch", 
+  abstract     = "The efficiency of dynamic dispatch is a major impediment to
+    the adoption of multimethods in object-oriented languages.  In this
+    article, we propose a simple multimethod dispatch scheme based on
+    compressed dispatch tables.  This scheme is applicable to any
+    object-oriented language using a method precedence order that satisfies a
+    specific monotonous property (e.g., as Cecil and Dylan) and guarantees that
+    dynamic dispatch is performed in constant time, the latter being a major
+    requirement for some languages and applications.  We provide efficient
+    algorithms to build the dispatch tables, provide their worst-case
+    complexity, and demonstrate the effectiveness of our scheme by real
+    measurements performed on two large object-oriented applications.  Finally,
+    we provide a detailed comparison of our technique with other existing
+    techniques.",
+  location     = "https://doi.org/10.1145/271510.271521"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
