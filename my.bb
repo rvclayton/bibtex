@@ -64,6 +64,16 @@
   location     = "QA 76.73.P194 G74"
 }
 
+@Book{tghsr,
+  author       = "Salman Rushdie",
+  title        = "The Golden House",
+  publisher    = "Random House",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "2016 us election, crime, india, visual artists",
+  location     = "PR 6068.U757 G65"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
