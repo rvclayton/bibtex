@@ -1649,6 +1649,7 @@ increasing network throughput by integrating protocol layers : abbott
 increasing the observability of internet behavior : chen
 incremental analysis of real programming languages : wagner
 incremental attribute evaluation a flexible algorithm for lazy update : hudson
+incremental computation of dominator trees : sreedhar 
 incremental development of an hdlc protocol in esterel : berry
 incremental generation of parsers : heering
 incremantal parser construction with metaobjects : joskimies
@@ -1928,7 +1929,7 @@ mapping objects to files a unix file system interface to an object management sy
 mapping software architectures to efficient implementation via partial evaluation : marlet
 mapping the beep core into tcp : rose
 maptool supporting modular syntax development : kadhim
-margination and project gutenberg : fishbourne
+margination and project gutenberg : fishburne
 masking the overhead of protocol layering : van renesse
 massive parallelism with workstation clusters challenge or nonsense : cap
 massively parallel model matching : rigoutsos
