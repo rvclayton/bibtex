@@ -1,6 +1,7 @@
 .so bibtex.header
 		  
 @string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
+		  
 @Book{tdoetn,
   author       = "Tom Nichols",
   title        = "The Death of Expertise",
@@ -72,6 +73,16 @@
   address      = nyny,
   keywords     = "2016 us election, crime, india, visual artists",
   location     = "PR 6068.U757 G65"
+}
+
+@Book{tjgrbp,
+  author       = "Robert~B. Parker",
+  title        = "The Judas Goat",
+  publisher    = "Houghton Mifflin",
+  year         = 1978,
+  address      = boma,
+  keywords     = "terra, london, olympics",
+  location     = "PS 3566.A686"
 }
 
 @InBook{aplftcaibottamm,
@@ -204,6 +215,30 @@
     we provide a detailed comparison of our technique with other existing
     techniques.",
   location     = "https://doi.org/10.1145/271510.271521"
+}
+
+@Article{icodt,
+  author       = "Sreedhar, Vugranam~C. and Gao, Guang~R. and Lee, Yong-Fong",
+  title        = "Incremental Computation of Dominator Trees",
+  journal      = sigplan # ir95,
+  year         = 1993,
+  volume       = 30,
+  number       = 3,
+  pages        = "1--12",
+  month        = mar,
+  keywords     = "dominator trees, dj-graph, incremental maintenance,
+    control-flow graphs",
+  abstract     = "Data flow analysis based on an incremental approach may
+    require that  the dominator tree be correctly maintained at all times.
+    Previous solutions to the problem of incrementally maintaining dominator
+    trees were restricted to reducible flowgraphs.  In this paper we present a
+    new algorithm for incrementally maintaining the dominator tree of an
+    arbitrary flowgraph, either reducible or irreducible, based on a program
+    representation called the DJ-graph.  For the case where an edge is
+    inserted, our algorithm is also faster than previous approaches (in the
+    worst case).  For the deletion case, our algorithm is likely to run fast on
+    the average cases.",
+  location     = "https://doi.org/10.1145/202530.202531"
 }
 
 @InProceedings{amitbpl,
