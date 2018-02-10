@@ -85,6 +85,16 @@
   location     = "PS 3566.A686"
 }
 
+@Book{qobemh,
+  author       = "Elaine~M. Hayes",
+  title        = "Queen of Bebop",
+  publisher    = "Ecco",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "sarah vaughan, jazz",
+  location     = "ML 420.V3 H39"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -239,6 +249,35 @@
     worst case).  For the deletion case, our algorithm is likely to run fast on
     the average cases.",
   location     = "https://doi.org/10.1145/202530.202531"
+}
+
+@Article{atsfjbs,
+  author       = "Stata, Raymie and Abadi, Martin",
+  title        = "A Type System for {J}ava Bytecode Subroutines",
+  journal      = toplas,
+  year         = 1999,
+  volume       = 21,
+  number       = 1,
+  pages        = "90--137",
+  month        = jan,
+  keywords     = "bytecode verification, java, typing rules",
+  abstract     = "Java is typically compiled into an intermediate language,
+    JVML, that is interpreted by the Java Virtual Machine.  Because mobile JVML
+    code is not always trusted, a bytecode verifier enforces static constraints
+    that prevent various dynamic errors.  Given the importance of the bytecode
+    verifier for security, its current descriptions are inadequate.  This
+    article proposes using typing rules to describe the bytecode verifier
+    because they are more precise than prose, clearer than code, and easier to
+    reason about than either.  JVML has a subroutine construct which is used
+    for the compilation of Java's try-finally statement.  Subroutines are a
+    major source of complexity for the bytecode verifier because they are not
+    obviously last-in/first-out and because they require a kind of
+    polymorphism.  Focusing on subroutines, we isolate an interesting, small
+    subset of JVML.  We give typing rules for this subset and prove their
+    correctness.  Our type system constitutes a sound basis for bytecode
+    verification and a rational reconstruction of a delicate part of Sun's
+    bytecode verifier.",
+  location     = "https://doi.org/10.1145/314602.314606"
 }
 
 @InProceedings{amitbpl,
