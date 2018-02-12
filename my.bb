@@ -298,3 +298,22 @@
   location     = "https://doi.org/10.1145/567067.567094"
 }
 
+@TechReport{dacsbssbsalbl,
+  author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
+    Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
+  title        = "{DCOM} and {CORBA} Side by Side, Step by Step, and Layer by Layer",
+  institution  = "Bell Laboratories, Lucent Technologies",
+  address      = "Murray Hill, New Jersey",
+  keywords     = "corba, dom, distributed computing, architectures",
+  abstract     = "DCOM (Distributed Component Object Model) and CORBA (Common
+    Object Request Broker Architecture) are two popular distributed object
+    models.  In this paper, we make architectural comparison of DCOM and CORBA
+    at three different layers: basic programming architecture, remoting
+    architecture, and the wire protocol architecture.  A step-by-step
+    description of remote object activation and method invocation is provided
+    to demonstrate the similarities and differences of the two frameworks.  A
+    primary goal is for people who are already familiar with one model to
+    quickly understand the basic architecture of the other.",
+  location     = "http://research.microsoft.com/~ymwangspapers/HTML/DCOMnCORBA/S.html"
+}
+
