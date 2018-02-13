@@ -95,6 +95,17 @@
   location     = "ML 420.V3 H39"
 }
 
+@Book{prbp1992,
+  author       = "Robert~B. Parker",
+  title        = "Pastime",
+  publisher    = "Berkley Books",
+  year         = 1992,
+  price        = "$7.99",
+  address      = nyny,
+  keywords     = "parents and children",
+  location     = "PS 3566.A686 P34"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
