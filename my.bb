@@ -106,6 +106,16 @@
   location     = "PS 3566.A686 P34"
 }
 
+@Book{lfcib,
+  author       = "Ian Bassingthwaighte",
+  title        = "Live from Cairo",
+  publisher    = "Scribner",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "displacement, egypt, cairo, revolution",
+  location     = "PS 3602.A8492 L59"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -289,6 +299,32 @@
     verification and a rational reconstruction of a delicate part of Sun's
     bytecode verifier.",
   location     = "https://doi.org/10.1145/314602.314606"
+}
+
+@Article{a0ailtsdp,
+  author       = "Apt, Krzysztof~R. and Brunekreef, Jacob and Partington, Vincent and Schaerf, Andrea",
+  title        = "Alma-0: An Imperative Language that Supports Declarative Programming",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 5,
+  pages        = "1014--1066",
+  month        = sep,
+  keywords     = "declarative programming, imperative programming, search
+    modula 2, backtracking, reversible assignment, language extensions,
+    multi-paradigm programming, logic programming",
+  abstract     = "We describe a small programming language, called Alma-0, that
+    augments the expressive power of imperative programming with a small number
+    of features inspired by the logic programming paradigm.  These additions
+    encourage declarative programming and make it a more attractive solutions
+    for problems involving search.  We illustrate the use of Alma-0 by
+    presenting solutions to a number of classical problems, including search,
+    STRIPS planning, knapsack, and Eight Queens.  These solutions are
+    substantially simpler than their counterparts written in the imperative or
+    in the logic programming style and can be used for different purposes
+    without any modification.  We also discuss the implementation of Alma-0 and
+    an operational, executable, semantics of a large subset of the language.",
+  location     = "https://doi.org/10.1145/293677.293679"
 }
 
 @InProceedings{amitbpl,
