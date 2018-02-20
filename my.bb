@@ -116,6 +116,16 @@
   location     = "PS 3602.A8492 L59"
 }
 
+@Book{ctew,
+  author       = "Rubin Fine",
+  title        = "Chess the Easy Way",
+  publisher    = "David McKay",
+  year         = 1942,
+  address      = nyny,
+  keywords     = "chess",
+  location     = "GV 1445 F55"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
