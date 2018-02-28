@@ -126,6 +126,16 @@
   location     = "GV 1445 F55"
 }
 
+@Book{whhrc,
+  author       = "Hillary Rodham Clinton",
+  title        = "What Happened",
+  publisher    = "Simon \& Schuster",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "2016 election, politics, media",
+  location     = "9 781501 175565"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -335,6 +345,34 @@
     without any modification.  We also discuss the implementation of Alma-0 and
     an operational, executable, semantics of a large subset of the language.",
   location     = "https://doi.org/10.1145/293677.293679"
+}
+
+@Article{tdmiaacs,
+  author       = "Stytz, M.~R. and Frieder, G. and Frieder, O.",
+  title        = "Three-Dimensional Medical Imaging: Algorithms and Computer Systems",
+  journal      = surveys,
+  year         = 1991,
+  volume       = 23,
+  number       = 4,
+  pages        = "421--499",
+  month        = dec,
+  keywords     = "computer graphics, medical imaging, surface rendering,
+    three-dimensional imaging, volume rendering, algorithms, surface
+    extraction",
+  abstract     = "This paper presents an introduction to the field of
+    three-dimensional medical imaging.  It presents medical imaging terms and
+    concepts, summarizes the basic operations performed in three-dimensional
+    medical imaging, and describes sample algorithms for accomplishing these
+    operations.  The paper contains a synopsis of the architectures and
+    algorithms used in eight machines to render three-dimensional medical
+    images, with particular emphasis paid to their distinctive contributions.
+    It compares the performance of the machines along several dimensions,
+    including image resolution, elapsed time to form an image, imaging
+    algorithms used in the machine, and the degree of parallelism used in the
+    architecture.  The paper concludes with general trends for future
+    developments in this field and references on three-dimensional medical
+    imaging.",
+  location     = "https://doi.org/10.1145/125137.125155"
 }
 
 @InProceedings{amitbpl,
