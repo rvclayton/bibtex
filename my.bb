@@ -395,6 +395,24 @@
   location     = "https://doi.org/10.1145/390017.808316"
 }
 
+@Article{wwwtiu,
+  author       = "Tim Berners-Lee and Robert Cailliau and Jean-Fran{\c c}ois Groff and Bernd Pollermann",
+  title        = "{W}orld-{W}ide {W}eb: The Information Universe",
+  journal      = "Electronic Networking: Research, Applications and Policy",
+  year         = 1992,
+  volume       = 1,
+  number       = 2,
+  pages        = "74--82",
+  month        = "Spring",
+  keywords     = "information access, hypertext, document management",
+  abstract     = {The World-Wide Web (W3) initiative is a practical project to
+    bring a global information universe into existence using available
+    technology.  This article describes the aims, data model, and protocols
+    needed to implement the "web," and compares them with various contemporary
+    systems.},
+  location     = "www.w3.org/History/1992/ENRAP/Article_9202.txt"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
