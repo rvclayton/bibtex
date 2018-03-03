@@ -375,6 +375,26 @@
   location     = "https://doi.org/10.1145/125137.125155"
 }
 
+@Article{ehipi,
+  author       = "M.~Donald MacLaren",
+  title        = "Exception Handling in {PL}/{I}",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 12,
+  number       = 3,
+  pages        = "101--104",
+  month        = mar,
+  keywords     = "pl/1, exceptional conditions, errors, interrupts, non-local
+    go-tos, structured programming, code generation",
+  abstract     = "The PL/I language's facilities for handling exceptional
+    conditions are analyzed.  The description is based on the new PL/I
+    standard.  Special attention is given to fine points which are not well
+    known.  The analysis is generally critical.  It emphasizes problems in
+    regards to implementation and structured programming.  A few suggestions
+    for future language design are offered.",
+  location     = "https://doi.org/10.1145/390017.808316"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -391,6 +411,38 @@
     constructs and tools in the field of programming and programming
     languages. BETA has been developed from 1975 on.", 
   location     = "https://doi.org/10.1145/567067.567094"
+}
+
+@InProceedings{mdb,
+  author       = "Bergel, Alexandre and Ducasse, Stephane and Putney, Colin and Wuyts, Roel",
+  title        = "Meta-Driven Browsers",
+  booktitle    = "Advances in Smalltalk",
+  year         = 2006,
+  editor       = "Wolfgang De~Meuter",
+  pages        = "134--156",
+  publisher    = "Springer",
+  address      = "Prague, Czechoslovakia",
+  series       = lncs,
+  volume       = 4406,
+  month        = "4--8 " # sep,
+  keywords     = "tools, metamodeling, ui, Browsers, squeak, smalltalk, domain
+    models",
+  abstract     = "Smalltalk is not only an object-oriented programming
+    language; it is also known for its extensive integrated development
+    environment supporting interactive and dynamic programming.  While the
+    default tools are adequate for browsing the code and developing
+    applications, it is often cumbersome to extend the environment to support
+    new language constructs or to build additional tools supporting new ways of
+    navigating and presenting source code.  In this paper, we present the
+    OmniBrowser, a browser framework that supports the definition of browsers
+    based on an explicit metamodel.  With OmniBrowser a domain model is
+    described in a graph and the navigation in this graph is specified in its
+    associated metagraph.  We present how new browsers are built from
+    predefined parts and how new tools are easily described.  The browser
+    framework is implemented in the Squeak Smalltalk environment.  This paper
+    shows several concrete instantiations of the framework: a remake of the
+    ubiquitous Smalltalk System Browser, and a coverage browser.", 
+  location     = "https://doi.org/10.1007/978-3-540-71836-9_7"
 }
 
 @TechReport{dacsbssbsalbl,
