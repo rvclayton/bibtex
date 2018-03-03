@@ -1247,6 +1247,7 @@ evolution of test and code via test first design : langr
 evolution of the ethernet local computer network : shoch
 examination of the applicability of router and bridging techniques : salwen
 example based graphical database query languages : ozsoyoglu
+exception handling in pli : maclaren
 exceptional java : griffiths
 executable specifications with data-flow diagrams : fuggetta
 executing continuation semantics a comparison : slonneger
@@ -1953,6 +1954,7 @@ mercurial tutorial : mercurial
 message driven programming system for fine grain multicomputers : maskit
 message passing between sequential processes the reply primitive and the administrator concept : gentelman
 messaging technologies compared : olson
+meta driven browsers : bergel
 meta ii a syntax oriented compiler writing language : schorre
 meta optimization improving compiler heuristics with machine learning : stephenson
 meta programming a software production method : simonyi
