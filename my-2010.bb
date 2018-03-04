@@ -5418,7 +5418,21 @@
   pages        = "4--10",
   month        = oct,
   keywords     = "file systems, configurable systems, object-oriented design",
-  location     = "QA 76.6.O6X"
+  abstract     = "In this paper we describe the design and implementation of a
+    configurable mixed-media file system.  The attribute configurable means
+    that a file system serving a specific application area can be realized out
+    of a library of reusable file system classes.  The attribute mixed-media
+    stands for the file system's ability to integrate different media types
+    (RAM, harddisks, WORM optical disks, CDROMs, tape devices, RAIDs etc.) into
+    a virtual storage, and making applications unaware of this aggregation.  A
+    prototype C++ implementation of the proposed design, called the VANILLA
+    file system, is presented and its performance assessed.  Raw-write
+    performance is up to 4.5 times higher than in a standard Sun OS file
+    system.  We will also demonstrate how various storage organization forms,
+    especially hierarchies, arrays, and mirrors of both local and remote
+    storages, can be realized using the proposed file system class library.", 
+  location     = "QA 76.6.O6X",
+  location     = "https://doi.org/10.1145/191525.191527"
 }
 
 @Article{cpatsbacs,
