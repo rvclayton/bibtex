@@ -1020,7 +1020,6 @@ description languages exploration : graham
 description of a machine architecture for use with block structured languages : tanenbaum
 description of a tool for specifying and prototyping concurrent programs : de francesco
 description of fastnet a unidirectional local area communications network : limb
-design and implementation of a configurable mixed media file system : maffeis
 design and implementation of a distributed parallel programming system : lin
 design and implementation of generics for the net common language runtime : kennedy
 design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
