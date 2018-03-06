@@ -413,6 +413,35 @@
   location     = "www.w3.org/History/1992/ENRAP/Article_9202.txt"
 }
 
+@Article{apaffafhol,
+  author       = "Ashley, J.~Michael and Dybvig, R.~Kent",
+  title        = "{A} Practical and Flexible Flow Analysis for Higher-Order Languages",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 4,
+  pages        = "845--868",
+  month        = jul,
+  keywords     = "abstract interpretation, higher-order languages, compiler
+      optimizations, closures, scheme, flow analysis, data analysis",
+  abstract     = "A flow analysis collects data-flow and control-flow
+      information about programs.  A compiler can use this information to
+      enable optimizations.  The analysis described in this article unifies and
+      extends previous work on flow analysis for higher-order languages
+      supporting assignment and control operators.  The analysis is abstract
+      interpretation based and is parameterized over two polyvariance operators
+      and a projection operator.  These operators are used to regulate the
+      speed and accuracy of the analysis.  An implementation of the analysis is
+      incorporated into and used in a production Scheme compiler.  The analysis
+      can process any legal Scheme program without modification.  Others have
+      demonstrated that a 0CFA analysis can enables the optimizations, but a
+      0CFA analysis is O(n)3).  An O(n) instantiation of our analysis
+      successfully enables the optimization of closure representations and
+      procedure calls.  Experiments with the cheaper instantiation show that it
+      is as effective as 0CFA for these optimizations.",
+  location     = "https://doi.org/10.1145/291891.291898"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
