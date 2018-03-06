@@ -209,7 +209,8 @@ a pattern language for tool construction and integration based on the tools and 
 a plea for lean software : wirth
 a pointless derivation of radix sort : gibbons
 a portable multiprocessor interface for standard ml of new jersey : morrisett
-aa pragmatic approach to software synthesis : freitag
+a pragmatic approach to software synthesis : freitag
+a practical and flexible flow analysis for higher order languages : ashley
 a pratical context sensitive interprocedural analysis framework for c compilers : hendren
 a practical data flow computer : watson
 a practical suffix tree implementation for string searches : dorohonceanu
