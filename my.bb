@@ -136,6 +136,16 @@
   location     = "9 781501 175565"
 }
 
+@Book{rbmp,
+  author       = "Michael Poore",
+  title        = "Reincarnation Blues",
+  publisher    = "Del Rey",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "reincarnation, death, learning, doing good",
+  location     = "PS 3616.O644 R45"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
