@@ -452,6 +452,32 @@
   location     = "https://doi.org/10.1145/291891.291898"
 }
 
+@Article{dokbswakba,
+  author       = "Schoen, Eric and Smith, Reid~G. and Buchanan, Bruce~G.",
+  title        = "Design of Knowledge-Based Systems with a Knowledge-Based Assistant",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 12,
+  pages        = "1771--1791",
+  month        = dec,
+  keywords     = "knowledge acquisition, knowledge-based systems,
+    object-oriented programming, structured editing, programming environments,
+    user interfaces",
+  abstract     = "The authors propose a model for an intelligent assistant to
+    aid in building knowledge-based systems (KBSs) and discuss a preliminary
+    implementation.  The assistant participates in KBS construction, including
+    acquisition of an initial model of a problem domain, acquisition of control
+    and task-specific inference knowledge, testing and validation, and
+    long-term maintenance of encoded knowledge.  The authors present a
+    hypothetical scenario in which the assistant and a KBS designer cooperate
+    to create an initial domain model and then discuss five categories of
+    knowledge the assistant requires to offer such help.  They discuss two
+    software technologies on which the assistant is based: an object-oriented
+    programming language, and a user-interface framework.",
+  location     = "https://doi.org/10.1109/32.9063"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
