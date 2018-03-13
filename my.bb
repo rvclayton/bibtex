@@ -146,6 +146,16 @@
   location     = "PS 3616.O644 R45"
 }
 
+@Book{zbb,
+  author       = "Bob Berman",
+  title        = "Zapped",
+  publisher    = "Little, Brown",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "the electromagnetic spectrum",
+  location     = "QC 358.5.B47"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
