@@ -156,6 +156,16 @@
   location     = "QC 358.5.B47"
 }
 
+@Book{gvrk,
+  author       = "Rachel Khong",
+  title        = "Goodbye, Vitamin",
+  publisher    = "Henry Holt",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "alzheimer's, aimlessness",
+  location     = "PS 3611.H66 G66"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
