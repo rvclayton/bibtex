@@ -498,6 +498,32 @@
   location     = "https://doi.org/10.1109/32.9063"
 }
 
+@Article{hslanatpas,
+  author       = "Abeysundara, Bandula~W. and Kamal, Ahmed~E.",
+  title        = "High-Speed Local Area Networks and Their Performance:  {A} Survey",
+  journal      = surveys,
+  year         = 1991,
+  volume       = 23,
+  number       = 2,
+  pages        = "221--264",
+  month        = jun,
+  keywords     = "access schemes, computer networks, data communication, medium
+    access protocols, optical fiber networks, simulation, bus networks, ring
+    networks, tree networks",
+  abstract     = "At high data transmission rates, the packet transmission time
+    of a local  area network (LAN) could become comparable to or less than the
+    medium propagation delay.  The performance of many LAN schemes degrades
+    rapidly when the packet transmission time becomes small comparative to the
+    medium propagation delay.  This paper introduces LANs and discusses the
+    performance degradation of LANs at high speeds.  It surveys recently
+    proposed LAN schemes designed to operate at high data rates, including
+    their performance characteristics desirable in LAN medium access protocols
+    are identified and discussed.  The paper serves as a tutorial for readers
+    less familiar with local computer communication networks.  It also serves
+    as a survey of the state-of-the-art LANs.",
+  location     = "https://doi.org/10.1145/103724.103726"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
