@@ -2786,6 +2786,7 @@ software prototyping by relational techniques experiences with program construct
 software psychology requirements for software maintenance activities : rugaber
 software quality improvement : mizuno
 software reliability modern challenges : spinellis
+software reliability the role of programmed exception handling : melliar
 software requirements a tutorial : faulk
 software safety in computer controlled systems : leveson
 software visualization in the large : ball
@@ -3660,6 +3661,7 @@ writing a tcl extension in only 7 years : libes
 writing cgi scripts in tcl : libes
 writing hygenic macros in scheme with syntax case : dvbvig
 writing macros in continuation passing style : hilsdale
+xboard : xboard
 xe design rationale  clu revisited : hirvisalo
 xen and the art of virtualization : barham
 xfm an incremental methodology for developing formal models : suhaib
