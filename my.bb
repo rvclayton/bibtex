@@ -626,3 +626,12 @@
   location     = "http://research.microsoft.com/~ymwangspapers/HTML/DCOMnCORBA/S.html"
 }
 
+@Manual{atajsm,
+  title        = "{ANT} Tutorial",
+  author       = "Ashley J.~S. Mills",
+  organization = "The University of Birmingham",
+  year         = 2002,
+  keywords     = "build management, xml, java",
+  location     = "http://supportweb.cs.bham.ac.uk/docs/tutorials/docsystem/build/tutorials/ant/ant.html"
+}
+
