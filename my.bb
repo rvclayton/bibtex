@@ -166,6 +166,16 @@
   location     = "PS 3611.H66 G66"
 }
 
+@Book{l30mt,
+  author       = "Max Tegmark",
+  title        = "Life 3.0",
+  publisher    = "Knopf",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "intelligence, artificial intelligence, AGI, cosmology",
+  location     = "Q 334.7.T44"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -522,6 +532,29 @@
     less familiar with local computer communication networks.  It also serves
     as a survey of the state-of-the-art LANs.",
   location     = "https://doi.org/10.1145/103724.103726"
+}
+
+@Article{srtropeh,
+  author       = "Melliar-Smith, P.~M. and Randell, B.",
+  title        = "Software Reliability: The Role of Programmed Exception Handling",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 12,
+  number       = 3,
+  pages        = "95--100",
+  month        = mar,
+  keywords     = "failures, errors, faults, exceptions, recovery blocks,
+    failure handling, reliable software design",
+  abstract     = "The paper discusses the basic concepts underlying the issue
+    of software reliability, and argues that programmed exception handling is
+    inappropriate for dealing with suspected software errors.  Instead it is
+    shown, using an example program, how exception handling can be combined
+    with the recovery block structure.  The result is to improve the
+    effectiveness with which problems due to anticipated faulty input data,
+    hardware components, etc., are dealt with, while continuing to provide
+    means for recovering from unanticipated faults, including ones due to
+    residual software design errors.", 
+  location     = "https://doi.org/10.1145/390018.808315"
 }
 
 @InProceedings{amitbpl,
