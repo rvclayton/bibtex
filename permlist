@@ -62,7 +62,6 @@ a correspondence between algol 60 and churchs lambda notation part ii : landin
 a correspondence between continuation passing style and static single assignment form : kelsey
 a critique of c++ : joyner
 a critique of the gnu hurd multi server operating system : walfield
-a critique of the windows application programming interface : spinellis
 a data labelling technique for high performance protocol processing and its consequences : feldmeier
 a declarative approach to visualizaing concurrent components : gruia
 a descent into limbo : kernighan
@@ -790,7 +789,6 @@ cleanroom practice a theme and variations : deck
 cleanroom process model : linger
 cleanroom software engineering : anon
 clearing memory and partial register stalls in your code : barad
-client requirements for real time communication services : ferrari
 client server caching revisited : franklin
 clocks in dataflow languages : caspi
 closed covers to verify progress for communicating finite state machines : gouda
@@ -1682,7 +1680,6 @@ integrated voice data communication over high speed fiber optic networks : mukhe
 integrating code generation and optimization : fraser
 integrating formal methods into the development process : kemmerer
 integrating internet telephony services : jiang
-integrating model checking and theorem proving for relational reasoning : arkoudas
 integrating status and event phenomena in formal specifications of interactive systems : abowd
 integration or separation : gelernter
 intel microprocessors 8008 to 8086 : morse
