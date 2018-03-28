@@ -557,6 +557,32 @@
   location     = "https://doi.org/10.1145/390018.808315"
 }
 
+@Article{acotwapi,
+  author       = "Diomidis Spinellis",
+  title        = "{A} Critique of the {W}indows Application Programming Interface",
+  journal      = "Computer Standards \& Interfaces",
+  year         = 1993,
+  volume       = 20,
+  number       = 1,
+  pages        = "1--8",
+  month        = nov,
+  keywords     = "function names, naming conventions, portability, type
+    systems, name-space pollution",
+  abstract     = "The architecture, interface, and functionality of the Windows
+    Application Programming Interface (API) make it difficult to master and use
+    effectively, and contribute negatively to the safety, robustness, and
+    portability of the applications developed under it.  The API is structured
+    around a large and constantly evolving set of functions and is based on a
+    problematic shared library implementation.  The provided interfaces are
+    complicated, nonorthogonal, abuse the type system, cause name-space
+    pollution, and use inconsistent naming conventions.  In addition, the
+    functionality of the interface suffers from inconsistency, incompleteness,
+    and inadequate documentation.  Application developers, programming tool
+    vendors, and Microsoft should face the above problems and provide
+    appropriate solutions.", 
+  location     = "https://doi.org/10.1016/S0920-5489%2898%2900012-9"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -624,6 +650,31 @@
     primary goal is for people who are already familiar with one model to
     quickly understand the basic architecture of the other.",
   location     = "http://research.microsoft.com/~ymwangspapers/HTML/DCOMnCORBA/S.html"
+}
+
+@TechReport{crfrtcs,
+  author       = "D. Ferrari",
+  title        = "Client Requirements for Real-Time Communication Services",
+  institution  = "Internet Engineering Task Force, Network Working Group",
+  year         = 1990,
+  type         = "Request for Comments",
+  number       = 1193,
+  address      = bca,
+  month        = nov,
+  keywords     = "client requests, performance, delay, reliability,
+    translation",
+  abstract     = "A real-time communication service provides its clients with
+    the ability to specify their performance requirements and to obtain
+    guarantees about the satisfaction of those requirements.  In this paper, we
+    propose a set of performance specifications that seem appropriate for such
+    services; they include various types of delay bounds, throughput bounds,
+    and reliability bounds.  We also describe other requirements and desirable
+    properties from a client's viewpoint, and the ways in which each
+    requirement is to be translated to make it suitable for lower levels in the
+    protocol hierarchy.  Finally, we present some examples of requirements
+    specification, and discuss some of the possible objections to our
+    approach.", 
+  location     = "https://tools.ietf.org/html/rfc1193"
 }
 
 @Manual{atajsm,
