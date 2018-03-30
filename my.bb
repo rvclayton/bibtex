@@ -176,6 +176,16 @@
   location     = "Q 334.7.T44"
 }
 
+@Book{trrmi,
+  author       = "Ryan McIlvain",
+  title        = "The Radicals",
+  publisher    = "Hogarth",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "protest, violent action",
+  location     = "PS 3613.C535 R33"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -675,6 +685,18 @@
     specification, and discuss some of the possible objections to our
     approach.", 
   location     = "https://tools.ietf.org/html/rfc1193"
+}
+
+@TechReport{agaftalbp,
+  author       = "Edward~J. Anderson and Michael~C. Ferris",
+  title        = "{A} Genetic Algorithm for the Assembly Line Balancing Problem",
+  institution  = "Optimization Group, UW-Madison Computer Sciences, " # uwisc,
+  year         = 1990,
+  number       = 926,
+  address      = madw,
+  keywords     = "genetic algorithms, parallel computing",
+  abstract     = "",
+  location     = "ftp://ftp.cs.wisc.edu/tech-reports/reports/1990/tr926"
 }
 
 @Manual{atajsm,
