@@ -699,6 +699,43 @@
   location     = "ftp://ftp.cs.wisc.edu/tech-reports/reports/1990/tr926"
 }
 
+@TechReport{msltfoesatlosr,
+  author       = "Robert~M. Brady and Ross~J. Anderson and Robin~C. Ball",
+  title        = "Murphy's Law, the Fitness of Evolving Species, and the Limits of Software Reliability",
+  institution  = "Computing Laboratory, Cambridge University",
+  year         = 1998,
+  type         = "UCAM-CL-TR",
+  number       = 471,
+  address      = cen,
+  month        = sep,
+  keywords     = "software reliability, evolving species, reliability growth
+    model, software development, poisson distribution, experimental
+    measurement, mass market computing, biological evolution, spiral model,
+    statistical thermodynamics, software errors, software assurance,
+    evolutionary development model observed reliability growth, one-off
+    software development",
+  abstract     = "We tackle two problems of interest to the software assurance
+    community. Firstly, existing models of software development (such as the
+    waterfall and spiral models) are oriented towards one-off software
+    development projects, while the growth of mass market computing has led to
+    a world in which most software consists of packages which follow an
+    evolutionary development model.  Thisleads us to ask whether anything
+    interesting and useful may be said about evolutionary development.  We
+    answer in the afﬁrmative.  Secondly, existing reliability growth models
+    emphasise the Poisson distribution of individual software bugs, while the
+    empirically observed reliability growth for large systems is asymptotically
+    slower than this.  We provide a rigorous explanation of this phenomenon.
+    Our reliability growth model is inspired by statistical thermodynamics, but
+    also applies to biological evolution.  It is in close agreement with
+    experimental measurements of the ﬁtness of an evolving species and the
+    reliability of commercial software products.  However, it shows that there
+    are signiﬁcant differences between the evolution of software and the
+    evolution of species.  In particular, we establish maximisation properties
+    corresponding to Murphy’s law which work to the advantage of a biological
+    species, but to the detriment of software reliability.", 
+  location     = "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-471.pdf"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
