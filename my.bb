@@ -186,6 +186,16 @@
   location     = "PS 3613.C535 R33"
 }
 
+@Book{aaatp,
+  author       = "Tim Peake",
+  title        = "Ask an Astronaut",
+  publisher    = "Little, Brown",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "iss, space travel, space walks, ",
+  location     = ""
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -591,6 +601,60 @@
     vendors, and Microsoft should face the above problems and provide
     appropriate solutions.", 
   location     = "https://doi.org/10.1016/S0920-5489%2898%2900012-9"
+}
+
+@Article{aaefeis,
+  author       = "Erman, Lee~D. and Lark, Jay~S. and Hayes-Roth, Frederick",
+  title        = "{ABE}:  An Environment for Engineering Intelligent Systems",
+  journal      = tse,
+  year         = 1993,
+  volume       = 14,
+  number       = 12,
+  pages        = "1758--1770",
+  month        = dec,
+  keywords     = "cooperative operating system, distributed computing,
+    intelligent-systems engineering, module-oriented programming, layered
+    architecture, abstract machines",
+  abstract     = "The ABE multilevel architecture for developing intelligent
+    systems addresses the key problems of intelligent systems engineering:
+    large-scale applications and the reuse and integration of software
+    components.  ABE defines a virtual machine for module-oriented programming
+    and a cooperative operating system that provides access to the capabilities
+    of that virtual machine.  On top of the virtual machine, ABE provides a
+    number of systemdesign and development frameworks, which embody such
+    programming metaphors as control flow, blackboards, and dataflow.  These
+    frameworks support the construction of capabilities, including knowledge
+    processing tools, which span a range from primitive modules to skeletal
+    systems.  Finally, applications can be built on skeletal systems.  In
+    addition, ABE supports the importation of existing software, including both
+    conventional and knowledge processing tools.",
+  location     = "https://doi.org/10.1109/32.9062"
+}
+
+@Article{calwdt,
+  author       = "Augustsson, Lennart",
+  title        = "Cayenne --- {A} Language with Dependent Types",
+  journal      = sigplan,
+  year         = 1999,
+  volume       = 34,
+  number       = 1,
+  pages        = "239--250",
+  month        = jan,
+  keywords     = "type systems, language design, dependent types, module systems",
+  abstract     = "Cayenne is a Haskell-like language.  The main difference
+    between Haskell and Cayenne is that Cayenne has dependent types, i.e., the
+    result type of a function may depend on the argument value, and types of
+    record components (which can be types or values) may depend on other
+    components.  Cayenne also combines the syntactic categories for value
+    expressions and type expressions; thus reducing the number of language
+    concepts.Having dependent types and combined type and value expressions
+    makes the language very powerful.  It is powerful enough that a special
+    module concept is unnecessary; ordinary records suffice.  It is also
+    powerful enough to encode predicate logic at the type level, allowing types
+    to be used as specifications of programs.  However, this power comes at a
+    cost: type checking of Cayenne is undecidable.  While this may appear to be
+    a steep price to pay, it seems to work well in practice.", 
+  location     = "https://doi.org/10.1145/291251.289451"
 }
 
 @InProceedings{amitbpl,
