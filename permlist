@@ -2,7 +2,7 @@
 #
 # permlist - write to std-out a kwik index of titles.
 
-cat <<eof! |
+ca <<eof! |
 .profile : howard
 14 rules for writing multiple choice questions : brigham
 17 mistakes microsoft made in the xbox security system : steil
@@ -747,6 +747,7 @@ case studies in symbolic model checking : gopalakrishnan
 case studies of software process improvement measurement : paulish
 caterpillars fate a pattern language for transformations from analysis to design : kerth
 causal controversy at le mont st michel : van renesse
+cayenne a language with dependent types : augustsson
 ccmalloc : biere
 ccured in the real world : condit
 cd writing howto : trumper
