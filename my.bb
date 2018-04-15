@@ -196,6 +196,17 @@
   location     = ""
 }
 
+@Book{fcje,
+  author       = "Jeffrey Eugenides",
+  title        = "Fresh Complaint",
+  publisher    = "Farrar, Straus, and Giroux",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "escape, travel, parentage, debt, dreams, separation,
+    progress, artichokes, theft, duplicity",
+  location     = "PS 3555.U4 A6"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -655,6 +666,40 @@
     cost: type checking of Cayenne is undecidable.  While this may appear to be
     a steep price to pay, it seems to work well in practice.", 
   location     = "https://doi.org/10.1145/291251.289451"
+}
+
+@Article{iomad,
+  author       = "Litwin, Witold and Mark, Leo and Roussopoulos, Nick",
+  title        = "Interoperability of Multiple Autonomous Databases",
+  journal      = surveys,
+  year         = 1990,
+  volume       = 22,
+  number       = 3,
+  pages        = "267--293",
+  month        = sep,
+  keywords     = "database autonomy, database interoperability without global
+    schema, distributed databases, federated databases, multidatabases,
+    multidatabase language",
+  abstract     = "Database systems were a solution to the problem of shared
+    access to heterogeneous files created by multiple autonomous applications
+    in a centralized environment.  To make data usage easier, the files were
+    replaced by a globally integrated database.  To a large extent, the idea
+    was successful, and many databases are now accessible through local and
+    long-haul networks.  Unavoidably, users now need shared access to multiple
+    autonomous databases.  The question is what the corresponding methodology
+    should be.  Should one reapply the database approach to create globally
+    integrated distributed database systems or should a new approach be
+    introduced? We argue for a new approach to solving such data management
+    system problems, called multidatabase or federated systems.  These systems
+    make databases interoperable, that is, usable without a globally integrated
+    schema.  They preserve the autonomy of each database yet support shared
+    access.  Systems of this type will be of major importance in the future.
+    This paper first discusses why this is the case.  Then, it presents
+    methodologies for their design.  It further shows that major commerical
+    relational database systems are evolving toward multidatabase systems.  The
+    paper discusses their capabilities and limitations, presents and discusses
+    a set of prototypes, and, finally, presents some current research issues.", 
+  location     = "https://doi.org/10.1145/96602.96608"
 }
 
 @InProceedings{amitbpl,
