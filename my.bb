@@ -207,6 +207,16 @@
   location     = "PS 3555.U4 A6"
 }
 
+@Book{twatp,
+  author       = "Charles~C. Mann",
+  title        = "The Wizard and the Prophet",
+  publisher    = "Alfred~A. Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "ecology, technology, vogt, borlaug, green revolution",
+  location     = "GE 56.V64 M36"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -700,6 +710,108 @@
     paper discusses their capabilities and limitations, presents and discusses
     a set of prototypes, and, finally, presents some current research issues.", 
   location     = "https://doi.org/10.1145/96602.96608"
+}
+
+@Article{bsansa,
+  author       = "Joshua~J. Arulanandham and Cristian~S. Calude and Michael~J. Dinneen",
+  title        = "Bead–Sort: {A} Natural Sorting Algorithm",
+  journal      = "The Bulletin of the European Association for Theoretical Computer Science",
+  year         = 2002,
+  volume       = 76,
+  pages        = "153--162",
+  keywords     = "sorting, linear sorts, sorting implementations",
+  abstract     = "Nature is not only a source of minerals and precious stones
+    but is also a mine of algorithms.  By observing and studying natural
+    phenomena, computer algorithms can be extracted.  In this note, a simple
+    natural phenomenon is used to design a sorting algorithm for positive
+    integers, called here Bead-Sort.  The algorithm's run-time complexity
+    ranges from O(1) to O(S) (S is the sum of the input integers) depending on
+    the user's perspective.  Finally, three possible implementations are
+    suggested.",
+  location     = "https://www.cs.auckland.ac.nz/~mjd/misc/BeadSort5.pdf"
+}
+
+@Article{cois,
+  author       = "Anish Arora and Paul Attie and Michael Evangelist and Mohamed Gouda",
+  title        = "Convergence of Iteration Systems",
+  journal      = "Distributed Computing",
+  year         = 1993,
+  volume       = 7,
+  number       = 1,
+  pages        = "43--53",
+  month        = nov,
+  keywords     = "convergence, stabilization, iteration systems, dependency graph",
+  abstract     = "An iteration system is a set of assignment statements whose
+    computation proceeds in steps: at each step, an arbitrary subset of the
+    statements is executed in parallel.  The set of statements thus executed
+    may differ at each step; however, it is required that each statement is
+    executed infinitely often along the computation.  The convergence of such
+    systems (to a fixed point) is typically verified by showing that the value
+    of a given variant function is decreased by each step that causes a state
+    change.  Such a proof requires an exponential number of cases (in the
+    number of assignment statements) to be considered.  In this paper, we
+    present alternative methods for verifying the convergence of iteration
+    systems.  In most of these methods, upto a linear number of cases need to
+    be considered.",
+  location     = "https://doi.org/10.1007/BF02278855"
+}
+
+@Article{ttipl,
+  author       = "Herriot, Robert~G.",
+  title        = "Towards the Ideal Programming Language",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 12,
+  number       = 3,
+  pages        = "56--62",
+  month        = mar,
+  keywords     = "types, simula class, instances, pascal, adjectives,
+    modifiers, procedures, extensible languages, plasma, smalltalk, prepositions,
+    imperative operators, applicative operators, which operator, passive operator",
+  abstract     = "A programming language with good features and notation can
+    help the programmer represent his abstractions in the programming language,
+    and can also help someone else understand the original abstraction.  There
+    have been numerous proposals for better features.  In this paper we propose
+    several new ideas to improve the notation.  First we suggest that class
+    instances be named with a sequence of identifiers consisting of the class
+    name preceded by modifiers.  Then we propose that prepositions be placed
+    before procedure parameters to suggest their role.  Finally, we suggest
+    that applicative and imperative operations can be separated semantically,
+    and then recombined syntactically through the use of the
+    &ldquo;which&rdquo; and passive operators.",
+  location     = "https://doi.org/10.1145/390017.808311"
+}
+
+@Article{assofli,
+  author       = "Douence, R{\' e}mi and Fradet, Pascal",
+  title        = "{A} Systematic Study of Functional Language Implementations",
+  journal      = toplas,
+  year         = 1998,
+  volume       = 20,
+  number       = 2,
+  pages        = "344--387",
+  month        = mar,
+  keywords     = "abstract machines, compilers, combinators, functional
+    programming, program transformation, comparative implementations",
+  abstract     = "We introduce a unified framework to describe, relate,
+    compare, and classify functional language implementations.  The compilation
+    process is expressed as a succession of program transformations in the
+    common framework.  At each step, different transformations model
+    fundamental choices.  A benefit of this approach is to structure and
+    decompose the implementation process.  The correctness proofs can be
+    tackled independently for each step and amount to proving program
+    transformations in the functional world.  This approach also paves the way
+    to formal comparisons by making it possible to estimate the complexity of
+    individual transformations or compositions of them.  Our study aims at
+    covering the whole known design space of sequential functional language
+    implementations.  In particular, we consider call-by-value, call-by-name,
+    call-by-need reduction strategies as well as environment- and graph-based
+    implementations.  We describe for each compilation step the diverse
+    alternatives as program transformations.  In some cases, we illustrate how
+    to compare or relate compilation techniques, express global optimizations,
+    or hybrid implementations.  We also provide a classification of well-known
+    abstract machines.", 
+  location     = "https://doi.org/10.1145/276393.276397"
 }
 
 @InProceedings{amitbpl,
