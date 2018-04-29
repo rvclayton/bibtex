@@ -814,6 +814,37 @@
   location     = "https://doi.org/10.1145/276393.276397"
 }
 
+@Article{dobps,
+  author       = "Chin, Roger~S. and Chanson, Samuel~T.",
+  title        = "Distributed Object-Based Programming Systems",
+  journal      = surveys,
+  year         = 1991,
+  volume       = 23,
+  number       = 1,
+  pages        = "91--124",
+  month        = mar,
+  keywords     = "capabilities, distributed operating systems, error recovery,
+    method invocation, nested transactions, object-based programming languages,
+    object model, object reliability, processor allocation, resource management,
+    synchronization, transactions",
+  abstract     = "The development of distributed operating systems and
+    object-based programming languages makes possible an environment in which
+    programs consisting of a set of interacting modules, or objects, may
+    execute concurrently on a collection of loosely coupled processors.  An
+    object-based programming language encourages a methodology for designing
+    and creating a program as a set of autonomous components, whereas a
+    distributed operating system permits a collection of workstations or
+    personal computers to be treated as a single entity.  The amalgamation of
+    these two concepts has resulted in systems that shall be referred to as
+    distributed, object-based programming systems.  This paper discusses issues
+    in the design and implementation of such systems.  Following the
+    presentation of fundamental concepts and various object models, issues in
+    object management, object interaction management, and physical resource
+    management are discussed.  Extensive examples are drawn from existing
+    systems.", 
+  location     = "https://doi.org/10.1145/103162.103165"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
