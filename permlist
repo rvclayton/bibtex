@@ -313,6 +313,7 @@ a system architecture for fault tolerance in concurrent software : ancona
 a system for constructing configurable high level protocols : bhatti
 a systematic approach to host interface design for high speed networks : steenkiste
 a systematic approach to multiple inheritance implementation : templ
+a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
 a taste of category theory for computer scientists : pierce
 a taxonomy and survey of sctp research : budzisz
@@ -660,6 +661,7 @@ bare metal recovery : curley
 bash features : fox
 basic polymorphic typechecking : cardelli
 basic xml : anon
+bead sort a natural sorting algorithm : arulanandham
 beanshell simple java scripting : beanshell
 beepcore tcl : rose
 behavioral consistency of c and verilog programs using bounded model checking : clarke
@@ -1106,6 +1108,7 @@ distributed ez : campos
 distributed file systems concepts and examples : levy
 distributed hierarchical control for parallel processing : feitelson
 distributed mobile computation in obliq : cardelli
+distributed object based programming systems : chin
 distributed operating systems : tanenbaum
 distributed processes a concurrent programming concept : brinch hansen
 distributed scheduling schemes for wireless mesh networks a survey :  vijayalayan
@@ -3417,6 +3420,7 @@ towards relaxing assumptions in languages and their implementation : shaw
 towards the best collection api : kiselyov
 towards the development of a cognitive model of programming a software engineering approach : traynor
 towards the elimination of documentation : johnson
+towards the ideal programming language : herriot
 towards understanding e prime : wilson
 trace specifications methodology and models : hoffman
 tracing the meta level pypys tracing jit compiler : bolz
