@@ -2560,6 +2560,7 @@ resourceful systems for fault tolerance, reliability, and safety : abbott
 response time in a teletext system an individual users perspective : ammar
 responsible web caching : berghel
 restaurant tipping and service quality : lynn
+restricted data types specification and enforcement of invariant properties of variables : buckle
 resume writing a hiring managers perspective : russo
 retargetable cross compilation techniques comparison and analysis of gcc and zephyr : dai
 rethinking memory management : applegate
@@ -2795,6 +2796,7 @@ solaris sockets past and present : mauro
 solving triangular peg solitaire : bell
 some deadlock properties of computer systems : hole
 some economics of the internet : mackie
+some extensions to algebraic specifications : guttag
 some issues for single address space systems : chase
 some issues in the semantics of facile distributed programming : thomsen
 some powerful ideas : lawler
