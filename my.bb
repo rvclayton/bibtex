@@ -845,6 +845,52 @@
   location     = "https://doi.org/10.1145/103162.103165"
 }
 
+@Article{setas,
+  author       = "Guttag, Jhon~V. and Horowitz, Ellis and Musser, David~R.",
+  title        = "Some Extensions to Algebraic Specifications",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 12,
+  number       = 3,
+  pages        = "62--67",
+  month        = mar,
+  keywords     = "abstract data type, data structures, programming languages,
+    procedure specification, error specification, correctness, functional
+    programming",
+  abstract     = "Algebraic specifications of abstract data types are beginning
+    to gain wide currency.  In this paper we discuss an extension to this
+    specification technique which allows the specification of procedures which
+    alter their parameters, and various ways of handling the specification of
+    error conditions.",
+  location     = "https://doi.org/10.1145/800022.808312"
+}
+
+@Article{rdtsaeoipov,
+  author       = "Buckle, Normand",
+  title        = "Restricted Data Types, Specification and Enforcement of Invariant Properties of Variables",
+  journal      = sigplan # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 12,
+  number       = 3,
+  pages        = "68--76",
+  month        = mar,
+  keywords     = "data type, invariant property, programming language,
+    readability, reliability, restricted type, runtime verification, type checking",
+  abstract     = "When defining a data type, it is often useful to specify
+    restrictions on the permitted values of that type.  Pascal's subrange type
+    declaration, a special case of this kind of constraint definition, has
+    already proved itself to be quite useful.  Restricted data types allow more
+    complex constraints to be defined and checked; for example, a variable
+    could be declared of type &ldquo;odd integer&rdquo; or the day field of a
+    &ldquo;date&rdquo; type variable could be checked for consistency with the
+    year and month fields.  A simple mechanism is proposed, allowing the
+    formulation of such constraints and their association with data types; the
+    behaviour of a restricted type variable is described.  The effects of the
+    use of such a mechanism on program reliability, readability and efficiency
+    are discussed.", 
+  location     = "https://doi.org/10.1145/800022.808313"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
