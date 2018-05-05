@@ -217,6 +217,17 @@
   location     = "GE 56.V64 M36"
 }
 
+@Book{capfd,
+  author       = "Fyodor Dostoevsky",
+  title        = "Crime and Punishment",
+  publisher    = "Liveright",
+  year         = 2018,
+  translator   = "Michael~R. Katz",
+  address      = nyny,
+  keywords     = "crime, punishment",
+  location     = "PG 3326.P7"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -777,8 +788,8 @@
     name preceded by modifiers.  Then we propose that prepositions be placed
     before procedure parameters to suggest their role.  Finally, we suggest
     that applicative and imperative operations can be separated semantically,
-    and then recombined syntactically through the use of the
-    &ldquo;which&rdquo; and passive operators.",
+    and then recombined syntactically through the use of the which and passive
+    operators.",
   location     = "https://doi.org/10.1145/390017.808311"
 }
 
@@ -881,14 +892,42 @@
     declaration, a special case of this kind of constraint definition, has
     already proved itself to be quite useful.  Restricted data types allow more
     complex constraints to be defined and checked; for example, a variable
-    could be declared of type &ldquo;odd integer&rdquo; or the day field of a
-    &ldquo;date&rdquo; type variable could be checked for consistency with the
+    could be declared of type odd integer or the day field of a
+    date type variable could be checked for consistency with the
     year and month fields.  A simple mechanism is proposed, allowing the
     formulation of such constraints and their association with data types; the
     behaviour of a restricted type variable is described.  The effects of the
     use of such a mechanism on program reliability, readability and efficiency
     are discussed.", 
   location     = "https://doi.org/10.1145/800022.808313"
+}
+
+@Article{olsicm,
+  author       = "Anger, Frank~D.",
+  title        = "On {L}amport's Interprocessor Communication Model",
+  journal      = toplas,
+  year         = 1989,
+  volume       = 11,
+  number       = 3,
+  pages        = "404--417",
+  month        = jul,
+  keywords     = "nonatomic operations, abstractions, axiom schemes",
+  abstract     = "Leslie Lamport presented a set of axioms in 1979 that capture
+    the essential properties of the temporal relationships between complex and
+    perhaps unspecified activities within any system, and proceeded to use this
+    axiom system to prove the correctness of sophisticated algorithms for
+    reliable communication and mutual exclusion in systems without shared
+    memory.  As a step toward a more complete metatheory of Lamport's axiom
+    system, this paper determines the extent to which that system differs from
+    systems based on atomic or indivisible, actions.  Theorem 1 shows that only
+    very weak conditions need be satisfied in addition to the given axioms to
+    guarantee the existence of an atomic model while Proposition 1 gives
+    sufficient conditions under which any such model must be a faithful
+    representation.  Finally, Theorem 2 restates a result of Lamport showing
+    exactly when a system can be thought of as made up of a set of atomic
+    events that can be totally ordered temporally.  A new constructive proof is
+    offered for this result.", 
+  location     = "https://doi.org/10.1145/65979.65982"
 }
 
 @InProceedings{amitbpl,
