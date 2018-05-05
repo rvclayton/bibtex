@@ -2139,6 +2139,7 @@ on distributed fault simulation : brooks
 on embedding a microarchitectural design langauge within haskell : launchbury
 on group comunication in large scale distributed systems : babaoglu
 on holy wars and a plea for peace : cohen
+on lamports interprocessor communication model : anger
 on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
 on programming by iterations : turski
