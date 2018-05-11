@@ -930,6 +930,26 @@
   location     = "https://doi.org/10.1145/65979.65982"
 }
 
+@Article{iftsutsmaat,
+  author       = "Schneider, Fred~B.",
+  title        = "Implementing Fault-Tolerant Services Using the State Machine Approach: {A} Tutorial",
+  journal      = surveys,
+  year         = 1990,
+  volume       = 22,
+  number       = 4,
+  pages        = "299--319",
+  month        = dec,
+  keywords     = "client-server, distributed services, state machines,
+    fail-stop processors, byzantine failures", 
+  abstract     = "The state machine approach is a general method for
+    implementing fault-tolerant services in distributed systems.  This paper
+    reviews the approach and describes protocols for two different failure
+    models&mdash;Byzantine and fail stop.  Systems reconfiguration techniques
+    for removing faulty components and integrating repaired components are also
+    discussed.",
+  location     = "https://doi.org/10.1145/98163.98167"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
