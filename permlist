@@ -1618,6 +1618,7 @@ implementing concurrent c : gahani
 implementing constraint imperative programming languages the kaleidoscope 93 virtual machine : lopez
 implementing dynamic minimal prefix tries : dundas
 implementing equals for mixed type comparison : langer
+implementing fault tolerant services using the state machine approach a tutorial : schneider
 implementing linux system calls : manjarrez
 implementing network protocols at user level : thekkath
 implementing object equivalence in java using the template method design pattern : stevenson
