@@ -950,6 +950,47 @@
   location     = "https://doi.org/10.1145/98163.98167"
 }
 
+@Article{ascwfacadpl,
+  author       = "Corrodi, Claudio and Heu{\ss}ner, Alexander and Poskitt, Christopher~M.",
+  title        = "{A} Semantics Comparison Workbench for a Concurrent, Asynchronous, Distributed Programming Language",
+  journal      = "Formal Aspects of Computing",
+  year         = 2018,
+  volume       = 30,
+  number       = 1,
+  pages        = "163--192",
+  month        = jan,
+  keywords     = "concurrent asynchronous programming, distributed programming
+    with message passing, operational semantics, runtime semantics, graph
+    transformation systems, verification/analysis parameterised by semantics,
+    concurrency abstractions, object-oriented programming, software engineering,
+    scoop, groove",
+  abstract     = "A number of high-level languages and libraries have been
+    proposed that offer novel and simple to use abstractions for concurrent,
+    asynchronous, and distributed programming.  The execution models that
+    realise them, however, often change over time--whether to improve
+    performance, or to extend them to new language features--potentially
+    affecting behavioural and safety properties of existing programs.  This is
+    exemplified by Scoop, a message-passing approach to concurrent
+    object-oriented programming that has seen multiple changes proposed and
+    implemented, with demonstrable consequences for an idiomatic usage of its
+    core abstraction.  We propose a semantics comparison workbench for Scoop
+    with fully and semi-automatic tools for analysing and comparing the state
+    spaces of programs with respect to different execution models or semantics.
+    We demonstrate its use in checking the consistency of properties across
+    semantics by applying it to a set of representative programs, and
+    highlighting a deadlock-related discrepancy between the principal execution
+    models of Scoop.  Furthermore, we demonstrate the extensibility of the
+    workbench by generalising the formalisation of an execution model to
+    support recently proposed extensions for distributed programming.  Our
+    workbench is based on a modular and parameterisable graph transformation
+    semantics implemented in the Groove tool.  We discuss how graph
+    transformations are leveraged to atomically model intricate language
+    abstractions, how the visual yet algebraic nature of the model can be used
+    to ascertain soundness, and highlight how the approach could be applied to
+    similar languages.", 
+  location     = "https://doi.org/10.1007/s00165-017-0443-1"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1091,6 +1132,24 @@
     corresponding to Murphy’s law which work to the advantage of a biological
     species, but to the detriment of software reliability.", 
   location     = "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-471.pdf"
+}
+
+@TechReport{aniotil,
+  author       = "Todd~A. Proebsting and Gregg~M. Townsend",
+  title        = "{A} New Implementation of the {I}con Language",
+  institution  = csd # uaz,
+  year         = 1999,
+  number       = "TR 99-13",
+  address      = taz,
+  abstract     = "We describe Jcon, a new, Java-based implementation of the
+    Icon programming language.  The implementation includes a compiler and
+    runtime system.  The runtime system is novel in its concise and efficient
+    object-oriented implementation of a dynamically typed language, as well as
+    its simple mechanism for realizing Icon generators.",
+  month        = "4 " # oct,
+  keywords     = "icon, java, object-oriented programming, generators, language
+    implementation, backtracking, intermediate representations",
+  location     = "https://www.microsoft.com/en-us/research/publication/a-new-implementation-of-the-icon-language/"
 }
 
 @Manual{atajsm,
