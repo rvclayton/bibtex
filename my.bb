@@ -228,6 +228,15 @@
   location     = "PG 3326.P7"
 }
 
+@Book{rbds,
+  title        = "Reconstruction",
+  publisher    = "The Library of America",
+  year         = 2018,
+  editor       = "Brooks~D. Simpson",
+  address      = nyny,
+  keywords     = "civil war, reconstruction, politics"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
