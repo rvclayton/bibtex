@@ -1050,6 +1050,36 @@
   location     = "https://doi.org/10.1007/978-3-540-71836-9_7"
 }
 
+@InProceedings{acooet,
+  author       = "Small, Christopher and Seltzer, Margo",
+  title        = "{A} Comparison of {OS} Extension Technologies",
+  booktitle    = pot # "1996 USENIX Annual Technical Conference",
+  year         = 1996,
+  pages        = "41--54",
+  address      = sdca,
+  month        = "22--26 " # jan,
+  keywords     = "operating systems, device drivers, kernel modifications,
+    user-space code, up-calls, kernel modules, os security",
+  abstract     = "The current trend in operating systems research is to allow
+    applications to dynamically extend the kernel to improve application
+    performance or extend functionality, but the most effective approach to
+    extensibility remains unclear.  Some systems use safe languages to permit
+    code to be downloaded directly into the kernel; other systems provide
+    in-kernel interpreters to execute extension code; still others use software
+    techniques to ensure the safety of kernel extensions.  The key
+    characteristics that distinguish these systems are the philosophy behind
+    extensibility and the technology used to implement extensibility.  This
+    paper presents a taxonomy of the types of extensions that might be
+    desirable in an extensible operating system, evaluates the performance cost
+    of various extension technologies currently being employed, and compares
+    the cost of adding a kernel extension to the benefit of having the
+    extension in the kernel.  Our results show that compiled technologies (e.g.
+    Modula-3 and software fault isolation) are good candidates for implementing
+    general-purpose kernel extensions, but that the overhead of interpreted
+    languages is sufficiently high that they are inappropriate for this use.", 
+  location     = "https://www.eecs.harvard.edu/margo/papers/usenix96-os/paper.ps"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
