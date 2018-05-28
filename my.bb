@@ -237,6 +237,15 @@
   keywords     = "civil war, reconstruction, politics"
 }
 
+@Book{sosv,
+  author       = "Anna Yen",
+  title        = "Sophia of Silicon Valley",
+  publisher    = "William Morrow",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "work-life balance, entrepreneurs"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
