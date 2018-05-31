@@ -1089,6 +1089,26 @@
   location     = "https://www.eecs.harvard.edu/margo/papers/usenix96-os/paper.ps"
 }
 
+@InProceedings{lddeim,
+  author       = "Goel, Shantanu and Duchamp, Dan",
+  title        = "Linux Device Driver Emulation in {M}ach",
+  booktitle    = pot # "1996 USENIX Annual Technical Conference",
+  year         = 1996,
+  pages        = "65--74",
+  address      = sdca,
+  month        = "22--26 " # jan,
+  keywords     = "device drivers, linux, mach, emulation",
+  abstract     = "We describe the design and performance of code added to the
+    Mach microkernel (Mach 4.0, version UK02p21) that permits one to build a
+    Mach kernel that includes unmodified Linux device drivers.  We have written
+    emulation code to support all Linux 1.3.35 network and SCSI drivers for the
+    ISA and PCI I/O buses.  Emulation increases latency, but very little.  The
+    degree depends on both device and operation, and varies from 2 microseconds
+    for receiving small (60 byte) network packets up to 197 microseconds for
+    writing 16KB to an ISA SCSI device.",
+  location     = "https://www.usenix.org/publications/library/proceedings/sd96/full_papers/goel.ps"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
