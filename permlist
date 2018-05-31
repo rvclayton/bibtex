@@ -1875,6 +1875,7 @@ linear types can change the world : wadler
 linkage analysis of processes : yaung
 linkage in the nemesis single address space operating system : roscoe
 linux : winer
+linux device driver emulation in mach : goel
 linux for s390 technical notes on a large scale implementation : sine
 linux scheduler latency : williams
 liquid software a new paradigm for networked systems : hartman
