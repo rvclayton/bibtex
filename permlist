@@ -12,7 +12,7 @@ ca <<eof! |
 64 bit programming in a 32 bit world : nicholson
 8 ways to report errors in haskell : kidd
 802.11b access point mapping : byers
-a etter api for first class continuations : feeley
+a better api for first class continuations : feeley
 a bibliography of garbage collection and related topics : sankaran
 a bibliography of programming style : thomas
 a bibliography on syntax error handling in context free languages : van den bosch
@@ -507,6 +507,7 @@ an improved context free recognizer : graham
 an informal operational semantics of c linda : narem
 an informal tour on denotational semantics : de meuter
 an inheritance model for supporting flexible displays of data structures : dewan
+an interpreter for server side hop : serpette
 an introduction to assertional reasoning for concurrent systems : shankar
 an introduction to dependability : patterson
 an introduction to disk drive modeling : granger
