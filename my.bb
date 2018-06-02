@@ -246,6 +246,17 @@
   keywords     = "work-life balance, entrepreneurs"
 }
 
+@Book{sdd,
+  author       = "Deborah Davis",
+  title        = "Strapless",
+  publisher    = "Tarcher/Penguin",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "virginie amilie avegno gautreau, john singer sargent, paris
+    art scene",
+  location     = "ND 237.S3 D38"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1009,6 +1020,33 @@
   location     = "https://doi.org/10.1007/s00165-017-0443-1"
 }
 
+@Article{aifssh,
+  author       = "Serpette, Bernard~P. and Serrano, Manuel",
+  title        = "An Interpreter for Server-Side {H}op",
+  journal      = sigplan # " (" # pot # "Seventh Symposium on Dynamic Languages)",
+  year         = 2012,
+  volume       = 47,
+  number       = 2,
+  pages        = "1--12",
+  month        = feb,
+  keywords     = "functional languages, scheme, interpreter implementation,
+    threaded code, optimizations",
+  abstract     = "HOP is a Scheme-based multi-tier programming language for the
+    Web. The client-side of a program is compiled to JavaScript, while the
+    server-side is executed by a mix of natively compiled code and interpreted
+    code.  At the time where HOP programs were basic scripts, the performance
+    of the server-side interpreter was not a concern; an inefficient
+    interpreter was acceptable.  As HOP expanded, HOP programs got larger and
+    more complex.  A more efficient interpreter was necessary.  This new
+    interpreter is described in this paper.  It is compact, its whole
+    implementation counting no more than 2.5 KLOC.  It is more than twice
+    faster than the old interpreter and consumes less than a third of its
+    memory.  Although it cannot compete with static or JIT native compilers,
+    our experimental results show that it is amongst the fastest interpreters
+    for dynamic languages.",
+  location     = "https://doi.org/10.1145/2168696.2047851"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1218,6 +1256,21 @@
   keywords     = "icon, java, object-oriented programming, generators, language
     implementation, backtracking, intermediate representations",
   location     = "https://www.microsoft.com/en-us/research/publication/a-new-implementation-of-the-icon-language/"
+}
+
+@TechReport{iaf7tcftutsststg,
+  author       = "Aaron Sawdey and Matthew O'Keefe and Terrance Parr",
+  title        = "Implementing a {F}ortran 77 to {CM} {F}ortran Translator Using the {SORCERER} Source-To-Source Translator Generator",
+  institution  = "University of Minnesota",
+  year         = 1993,
+  type         = "AHPCRC Preprint",
+  number       = "93-102",
+  month        = oct,
+  address      = "",
+  keywords     = "language translation, tree transformations, intermediate
+    representations, high-performance computing",
+  abstract     = "",
+  location     = ""
 }
 
 @Manual{atajsm,
