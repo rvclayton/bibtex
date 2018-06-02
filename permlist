@@ -1610,7 +1610,6 @@ image transfer an end to end design : turner
 imperative functional programming : peyton jones
 implementation issues in the development of the parsec parser : harper
 implementations and performance of two rpc based lan gateway applications : yasrebi
-implementing a fortran 77 to cm fortran translator using the sorcerer source to source translator generator : sawdey
 implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
 implementing an interpreter : sugalski
 implementing atomic actions on decentralized data : reed
