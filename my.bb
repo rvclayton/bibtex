@@ -257,6 +257,17 @@
   location     = "ND 237.S3 D38"
 }
 
+@Book{thtc,
+  author       = "T.~C. Boyle",
+  title        = "The Harder They Come",
+  publisher    = "Ecco",
+  year         = 2015,
+  address      = nyny,
+  price        = "$15.88",
+  keywords     = "violence, sovereign citizens, madness",
+  location     = ""
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1047,6 +1058,24 @@
   location     = "https://doi.org/10.1145/2168696.2047851"
 }
 
+@Article{tgua,
+  author       = "Brown, C.~Wayne",
+  title        = "Teaching Graphics Using {A}da",
+  journal      = "Ada Newsletter (" # pot # "2004 Annual ACM SIGAda International Conference on Ada)",
+  year         = 2004,
+  volume       = 24,
+  number       = 4,
+  pages        = "47--50",
+  month        = dec,
+  keywords     = "graphics, ada, ",
+  abstract     = "This paper describes several Ada-language tools supporting a
+    computer-graphics course.  These tools include an updated and improved
+    OpenGL Ada specification file, a VRML-to-code conversion tool, and an
+    Ada-to-C conversion tool.  The tool-development rational and some
+    implementation issues are discussed.",
+  location     = "https://doi.org/10.1145/1032297.1032306"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1271,6 +1300,15 @@
     representations, high-performance computing",
   abstract     = "",
   location     = ""
+}
+
+@TechReport{ltchamfsp,
+  author       = "Lawrence Bernstein and David Klappholz",
+  title        = "Live-Through Case Histories as Motivation for Software Process",
+  institution  = "New Jersey Center for Software Engineering",
+  keywords     = "capstone courses, requirements analysis, case histories,
+    project management",
+  location     = "http://www.njcse.org/Documents/version40.pdf"
 }
 
 @Manual{atajsm,
