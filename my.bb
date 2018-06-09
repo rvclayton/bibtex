@@ -268,6 +268,16 @@
   location     = ""
 }
 
+@Book{ttmjhy,
+  author       = "James Harvey Young",
+  title        = "The Toadstool Millionaires",
+  publisher    = pup,
+  year         = 1961,
+  address      = prnj,
+  keywords     = "patent medicines, folk medicine",
+  location     = "RM 671.A1 Y6"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
