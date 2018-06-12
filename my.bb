@@ -1068,6 +1068,37 @@
   location     = "https://doi.org/10.1145/2168696.2047851"
 }
 
+@Article{hatjcfp,
+  author       = "Homescu, Andrei and {\c S}uhan, Alex",
+  title        = "HappyJIT:  A Tracing {JIT} Compiler for {PHP}",
+  journal      = sigplan # " (" # pot # "Seventh Symposium on Dynamic Languages)",
+  year         = 2012,
+  volume       = 47,
+  number       = 2,
+  pages        = "25--36",
+  month        = feb,
+  keywords     = "php, jit compilation, interpretation, pypy, tracing,
+    optimization, dynamic typing",
+  abstract     = "Current websites are a combination of server-generated
+    dynamic content with client-side interactive programs.  Dynamically - typed
+    languages have gained a lot of ground in both of these domains.  The growth
+    of Web 2.0 has introduced a myriad of websites which contain personalized
+    content, which is specific to the user.  PHP or Python programs generate
+    the actual HTML page after querying a database and processing the results,
+    which are then presented by the browser.  It is becoming more and more
+    vital to accelerate the execution of these programs, as this is a
+    significant part of the total time needed to present the page to the user.
+    This paper presents a novel interpreter for the PHP language written in
+    RPython, which the PyPy translator then translates into C.  The translator
+    integrates into the interpreter a tracing just-in-time compiler which
+    optimizes the hottest loops in the interpreted programs.  We also describe
+    a data model that supports all the data types in the PHP language, such as
+    references and iterators.  We evaluate the performance of this interpreter,
+    showing that speedups up to a factor of 8 are observed using this
+    approach.", 
+  location     = "https://doi.org/10.1145/2047849.2047854"
+}
+
 @Article{tgua,
   author       = "Brown, C.~Wayne",
   title        = "Teaching Graphics Using {A}da",
