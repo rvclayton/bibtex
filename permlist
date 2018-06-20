@@ -600,6 +600,7 @@ asdlgen reference manual : wang
 aspect oriented programming : highley
 aspect oriented programming : kiczales
 aspect oriented programming for distributed systems its use its effect on language design and its limits : van roy
+aspects of applicative programming for file systems : friedman
 aspects of implementing clu : atkinson
 aspectcool an experiment in design and implementation of aspect oriented language : avdicausevic
 assessing the relationship between software assertions and code quality an empirical investigation : kudjravets
