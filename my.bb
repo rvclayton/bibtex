@@ -1117,6 +1117,32 @@
   location     = "https://doi.org/10.1145/1032297.1032306"
 }
 
+@Article{aoapffs,
+  author       = "Friedman, Daniel~P. and Wise, David~S.",
+  title        = "Aspects of Applicative Programming for File Systems",
+  journal      = osr # " (" # pot # "ACM Conference on Language Design for Reliable Software)",
+  year         = 1977,
+  volume       = 11,
+  number       = 2,
+  pages        = "41--55",
+  month        = apr,
+  keywords     = "referential transparency, recursive programming, real time,
+    shared file, functional combination, suspension, text editor, lazy
+    evaluation",
+  abstract     = "This paper develops the implications of recent results in
+    semantics for applicative programming.  Applying suspended evaluation
+    (call-by-need) to the arguments of file construction functions results in
+    an implicit synchronization of computation and output.  The programmer need
+    not participate in the determination of the pace and the extent of the
+    evaluation of his program.  Problems concerning multiple input and multiple
+    output files are considered: typical behavior is illustrated with an
+    example of a rudimentary text editor written applicatively.  As shown in
+    the trace of this program, the driver of the program is the sequential
+    output device(s).  Implications of applicative languages for I/O bound
+    operating systems are briefly considered.", 
+  location     = "https://doi.org/10.1145/390018.808310"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
