@@ -1378,6 +1378,21 @@
   location     = "http://www.njcse.org/Documents/version40.pdf"
 }
 
+@TechReport{sscsh,
+  author       = "Cay~S. Horstmann",
+  title        = "Safe {STL}",
+  abstract     = "STL, the Standard Template Library designed by Alexander
+    Stepanov and Meng Lee, is slated to become a part of the ANSI/ISO C++
+    Standard.  Reaction to STL has been mixed.  Some programmers applaud its
+    elegance and power, others find flaws with the interface, naming
+    conventions, multithread support or safety.  While STL may not be the
+    perfect container class library, it is here to stay.  I designed this small
+    but useful enhancement to make STL safer to use.  Safe STL catches many
+    typical STL programming errors at runtime (and a few at compile time).",
+  keywords     = "stl, c++, programming errors, iterators",
+  location     = "http://horstmann.com/safestl.html"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
