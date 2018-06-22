@@ -278,6 +278,16 @@
   location     = "RM 671.A1 Y6"
 }
 
+@Book{sitg,
+  author       = "Nassim Nicholas Taleb",
+  title        = "Skin in the Game",
+  publisher    = "Random House",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "risk, sociology, vitriol, information asymmetry, intellectuals",
+  location     = "HM 1101.T35"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
