@@ -288,6 +288,31 @@
   location     = "HM 1101.T35"
 }
 
+@Book{taoipij,
+  author       = "Kenny~A. Hunt",
+  title        = "The Art of Image Processing in Java",
+  publisher    = "A.~K. Peters",
+  year         = 2010,
+  address      = "Natick, MA",
+  keywords     = "optics, human vision, digital images, java, point processing,
+    region processing, geometric operations, image printing, image display,
+    frequency domain, image compression, morphological image processing",
+  location     = "TA 1637.H87"
+}
+
+@Book{fpaai,
+  author       = "Peter Henderson",
+  title        = "Functional Programming:  Application and Implementation",
+  publisher    = ph,
+  year         = 1980,
+  address      = ecnj,
+  keywords     = "functions, programs, functional languages, functional
+    programs, program representation, program interpretation, imperative
+    programs, machine architectures, non-determinism, backtracking, delayed
+    evaluation, higher-order functions",
+  location     = "QA 76.6"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
