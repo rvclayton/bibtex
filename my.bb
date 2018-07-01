@@ -313,6 +313,16 @@
   location     = "QA 76.6"
 }
 
+@Book{tpla,
+  author       = "Nafkote Tamirat",
+  title        = "The Parking Lot Attendant",
+  publisher    = "Henry Holt",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "immigrants, duplicity",
+  location     = "PS 3620.A67 P37"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1176,6 +1186,35 @@
     output device(s).  Implications of applicative languages for I/O bound
     operating systems are briefly considered.", 
   location     = "https://doi.org/10.1145/390018.808310"
+}
+
+@Article{ceaaofpl,
+  author       = "Paul Hudak",
+  title        = "Conception, Evolution, and Application of Functional Programming Languages",
+  journal      = surveys,
+  year         = 1989,
+  volume       = 21,
+  number       = 3,
+  pages        = "359--411",
+  month        = sep,
+  keywords     = "data abstraction, higher-order functions, lazy evaluation,
+    referential transparency, types, lambda calculus, language design, lisp,
+    haskell, pattern matching, functional i-o", 
+  abstract     = "The foundations of functional programming languages are
+    examined from both historical and technical perspectives.  Their evolution
+    is traced through several critical periods: early work on lambda calculus
+    and combinatory calculus, Lisp, Iswim, FP, ML, and modern functional
+    languages such as Miranda1 and Haskell.  The fundamental premises on which
+    the functional programming methodology stands are critically analyzed with
+    respect to philosophical, theoretical, and pragmatic concerns.  Particular
+    attention is paid to the main features that characterize modern functional
+    languages: higher-order functions, lazy evaluation, equations and pattern
+    matching, strong static typing and type inference, and data abstraction.
+    In addition, current research areas&mdash;such as parallelism,
+    nondeterminism, input/output, and state-oriented computations&mdash;are
+    examined with the goal of predicting the future development and application
+    of functional languages.",
+  location     = "https://doi.org/10.1145/72551.72554"
 }
 
 @InProceedings{amitbpl,
