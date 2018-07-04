@@ -323,6 +323,16 @@
   location     = "PS 3620.A67 P37"
 }
 
+@Book{aiapjc,
+  author       = "Patrick~J. Charles",
+  title        = "Armed in America",
+  publisher    = "Prometheus Books",
+  year         = 2018,
+  address      = "Amherst, " # NY,
+  keywords     = "firearms, laws and legislation, gun control, constitutional law",
+  location     = "KF 3941.C49"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
