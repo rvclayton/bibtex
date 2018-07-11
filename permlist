@@ -623,7 +623,6 @@ attribute based compiler implemented using visitor pattern : neff
 attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
-augmenting pattern based architectural recovery with flow analysis mosaic a case study : tonella
 augural image zooming : withers
 authentication for distributed systems : woo
 authentication in distributed systems theory and practice : lampson
@@ -826,7 +825,6 @@ common language runtime memory model : brumme
 commonsense knowledge representation based on fuzzy logic : zadeh
 communicating reusable designs via design patterns : lalonde
 communicating sequential processes for centralized and distributed operating system design : hull
-communication by messengers : tschudin
 communication complexity : kushilevitz
 communication facilities for distributed transaction processing systems : mafla
 communication mechanisms for programming distributed systems : shatz
@@ -971,7 +969,6 @@ data sharing in group work : greif
 data specialization : knoblock
 data structures and algorithms annotated reference with examples : barnett
 data structures as objects : soukup
-data structuring facilities for interactive videotext systems : tompa
 data structures in jdsl : goodrich
 data transport in a byte stream network : fraser
 data types as values : donahue
@@ -1034,7 +1031,6 @@ design considerations for a message file server : christodoulakis
 design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
 design fragments make using frameworks easier : fairbanks
 design models for computer human interfaces : gentner
-design of a broadcast packet switching network : turner
 design of ada systems yielding reusable components an approach using structured algebraic specification : litvintchouk
 design of cooperative process oriented environments using reactive components : geppert
 design of knowledge based systems with a knowledge based assistant : schoen
@@ -1279,7 +1275,6 @@ exploiting the advantages of mapped files for stream i o : krieger
 exploring group communication for reliable high volume data distribution : cooperstock
 expressional loops : waters
 expressions that talk about themselves : fokkinga
-expressnet a hight performance integrated services area network : tobagi
 extended state diagrams and reactive systems : drusinsky
 extending imake : husain
 extending powerepsilon with algebraic rewriting : li-xin
@@ -1312,7 +1307,6 @@ fast cheap and out of control a robot invasion of the solar system : brooks
 fast effective dynamic compilation : auslander
 fast hashing of variable length text strings : pearson
 fast optimized sun rpc using automatic program specialization : muller
-fast packet switch architectures for broadband integrated services digital networks : tobagi
 fast string maching using an n gram algorithm : kim
 faster calculation of superquadric shapes : franklin
 faster dynamic linking for sparc v8 and system v4 : keppel
@@ -1354,8 +1348,6 @@ flapjax tutorial : flapjax
 flash an efficient and portable web server : pei
 flavors a finite state verification technique for software systems : cobleigh
 fletchers checksum : kodis
-flexible design a summary of computing curricula 1991 : tucker
-flexible protocol stacks : tschudin
 flexible task graphs a unified restricted thread programming model for java : aurbach
 flexible text display with lector : raymond
 flick a flexible optimizing idl compiler : eide
@@ -1501,7 +1493,6 @@ growing languages with metamorphic syntax macros : barbrand
 guarded attribute grammars : frost
 guardians and actions linguistic support for robust distributed programs : liskov
 gurrr a global unified resource requirements representation : berson
-h.261 software codec for videoconferencing over the internet : turletti
 habits of effective analysists : wiegers
 hackers introduction to partial evaluation : bacon
 handles and exception safety part 4 tracking references without counters : koenig
@@ -1602,7 +1593,6 @@ ilu : janssen
 ilu reference manual : janssen
 image processing using quadtrees : dash
 image retrieval from the world wide web issues techniques and systems : kherfi
-image transfer an end to end design : turner
 imperative functional programming : peyton jones
 implementation issues in the development of the parsec parser : harper
 implementations and performance of two rpc based lan gateway applications : yasrebi
@@ -1902,7 +1892,6 @@ low fat computing : fox
 lowering the barriers to programming a taxonomy of programming environments and languages for novice programmers : kelleher
 lpd for run and mp3 playing : lpd
 lr parsing : aho
-lsi vlsi building blocks : tobias
 lua an extensible extension language : ierusalimschy
 luc public key encryption : smith
 macfs a portable macintosh file system library : dinda
@@ -1960,7 +1949,6 @@ metadata the mac and you : siracusa
 methods for routing performance management and service problem relief in datakit networks : fendick
 microcontrollers cordic methods : pashea
 microeconomic theory applied to distributed systems : clarke
-metropolitan area optical networks : tomkos
 microsoft a case study in international competitiveness high technology and the future of antitrust law : page
 middleware an architecture for distributed system services : bernstein
 migrating c code to unicode : nestved
@@ -2069,7 +2057,6 @@ networking the network : agre
 networks and algorithms for very large scale parallel computation : gottleib
 networks for the future to .net or not : netaction
 neural adaptive congestion control for broadband atm networks : chen
-neural network architecture for crossbar switch control : troudet
 neural network design of a banyan network controller : brown
 neural networks for control : cembrano
 neural networks for pattern recognition : kothari
@@ -2078,7 +2065,6 @@ neural networks for switching : brown
 neuronet a distributed real time system for monitoring neurophysiologic function in the medical environment : krieger
 new advances in filesystem space : miner
 new copyright law for distance education the meaning and importance of the teach act : crews
-new directions in communications or which way to the information age : turner
 new directions in cryptography : diffie
 new heap data structures : kaplan
 new techniques for ray tracing procedurally defined objects : kajiya
@@ -2261,7 +2247,6 @@ peep an architectural description driven peephole optimizer : kessler
 peer to peer architectures for massively multiplayer online games a survey : yahyavi
 peer to peer internet telephony using sip : singh
 pentium 4 in depth : mihocka
-people do read large ads the law of advertising from outer space : tomlinson
 perfect spatial hashing : lefebre
 performance analysis of five interprocess communication mechanisms across unix operating systems : immach
 performance analysis ratholes : jain
@@ -2442,7 +2427,6 @@ protocols for data security : demillo
 protocols for providing performance guarantees in a packet switching internet : lowery
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
-prototyping synchronous group applications : tou
 prototyping versus specifying a multiproject experiment : boehm
 providing emergency services in internet telephony : schulzrinne
 providing reliable nt desktop services by avoiding nt server : limoncelli
@@ -2645,7 +2629,6 @@ seda an architecture for well conditioned scalable internet services : welsh
 seeds for random number generators : marsaglia
 selecting a programming language compiler and support environment method and example : anderson
 selective open recursion a solution to the fragile base class problem : aldrich
-selecting sequence numbers : tomlinson
 selecting the median and two quantiles in a set of numbers : cunto
 selectors high level resource schedulers : leinbaugh
 self assesment procedure xxiii programming languages : clifton
@@ -3409,7 +3392,6 @@ towards more effective testing for high assurance systems : hecht
 towards principles of inheritance and subtyping in programming languages : moss
 towards relaxing assumptions in languages and their implementation : shaw
 towards the best collection api : kiselyov
-towards the development of a cognitive model of programming a software engineering approach : traynor
 towards the elimination of documentation : johnson
 towards the ideal programming language : herriot
 towards understanding e prime : wilson
@@ -3447,7 +3429,6 @@ tutorial notes on partial evaluation : concel
 tutorial on ats anairiats : ats
 twelve random access strategies for fiber optic networks : maxemchuk
 twelve ways to make sure your parallel programming system doesnt make others look bad : wilson
-twiki documentation : twiki
 two faces of power : bachrach
 two handed image navigation in fran : elliott
 two issues in parallel language design : bohm
@@ -3477,7 +3458,6 @@ understanding computers and cognition : winograd
 understanding binary searches : koenig
 understanding bittorrent an experimental perspective : legout
 understanding interfaces : lam
-understanding nt multithreaded programming : tomlinson
 understanding osi network management : stallings
 understanding procedures as objects : eisenberg
 understanding symmetry in object oriented languages : zhao
@@ -3511,7 +3491,6 @@ using an object oriented framework to construct wide area group communications m
 using as : elsner
 using as the gnu assembler : delsner
 using clustering graphs in legacy systems remodularization : wiggerts
-using course long programming projects in cs2 : turner
 using encryption for authentication in large computer networks : needham
 using executable domain models to implement legacy software reengineering : debaud
 using fuzzy sets to diagnose coronary artery stenosis : cios
