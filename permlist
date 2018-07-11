@@ -263,7 +263,6 @@ a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
 a sociological history of the neural network controversy : olazaran
 a software engineering perspective on algorithmics : weihe
-a specification driven architectural design environment : tanir
 a specification of modula 2 process coroutine management : nicholl
 a specification of the soar cognitive architecture in z : milnes
 a specifiers introduction to formal methods : wing
@@ -318,7 +317,6 @@ a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
 a taste of category theory for computer scientists : pierce
 a taxonomy and survey of sctp research : budzisz
-a taxonomy based comparison of several distributed shared memory systems : tam
 a taxonomy of broadband integrated switching architectures : daddis
 a taxonomy of computer program security flaws with examples : landwehr
 a taxonomy of datatypes : meek
@@ -742,7 +740,6 @@ call with current continuation patterns : ferguson
 caml trading experiences with functional programming on wall street : minsky
 can software development be elevated from the microsoft style : kiselyov
 capability based protection in a persistent global virtual memory system : vochteloo
-capnet an approach to ultra high speed network : tam
 capriccio scalable threads for internet services : von behren
 carbonkernel real time operating system simulator : carbon
 cargo cult science : feynman
@@ -911,7 +908,6 @@ constructing program dependency graphs using a parser : harrold
 constructing reusable specifications through analogy : chiang
 constructive logics part 1 a tutorial on proof systems and typed lambda calculus : gallier
 continuations and advanced flow control : bartlett
-continuations and stackless python : tismer
 contouring data fields : giles
 control and communication in programming systems : reid
 convergence of iteration systems : arora
@@ -1098,7 +1094,6 @@ disk arrays high performance high reliability storage subsystems : granger
 dispelling java programming language myths : haggar
 display condensation of program text : archer
 display techniques for octree encoded objects : doctor
-displaying 3d images algorithms for single image random dot sterograms : thimbleby
 distel distributed emacs lisp for erlang : gorrie
 distributed adaptive resource allocation for sensor networks : mainland
 distributed artificial intelligence for runtime feature interaction resolution : velthuijsen
@@ -1590,7 +1585,6 @@ htmlprag pragmatic parsing of html to shtml and sxml : van dyke
 http made really easy : marshall
 human inference : nesbitt
 hygienic macro expansion : kohlbecker
-hyperchannel network links : thornton
 hypernets good gnews for gnutella : gunther
 hyperprogramming a formal approach to software enviornments : goguen
 hypertext transfer protocol http : berners-lee
@@ -1927,7 +1921,6 @@ managing communication networks by monitoring databases : wolfson
 managing conflict in system diagnosis : sheppard
 managing reentrant structures using reference counts : bobrow
 managing replicated remote procedure call transactions : zhou
-managing stored voice in the etherphone system : terry
 mango a parser generator for self : agesen
 manual for the prosper class : goualard
 mapping objects to files a unix file system interface to an object management system : florijn
@@ -1947,7 +1940,6 @@ measurement analysis and improvement of udp ip throughput for the decstation 500
 measurement and evaluation of the mips architecture and processor : gross
 measuring software quality a case study : drake
 mechanical verification of concurrent systems with tla : engberg
-mechanisms in political processes : tilly
 median cut color quantization : kruger
 median filtering : blysmo
 mediators in the architecture of future information systems : wiederhold
@@ -2599,7 +2591,6 @@ ruby users guide : ruby
 rules for referees : forscher
 rust : hoare
 saam a method for analyzing the properties of software architectures : kazman
-safe and efficient active network programming : thibault
 safe data types specifications : phillips
 safety critical software status report and annotated bibliography : place
 sage an object oriented toolkit and class library for building fortran and c restructuring tools : bodin
@@ -2700,7 +2691,6 @@ sheep fleecing with walter funkenbusch : anon
 shift reduce expression parsing : gregor
 shoplifting in reverse : duntermann
 shortcomings of lcl 2.4 : chalin
-should computer scientists experiment more : tichy
 signature matching a key to reuse : zaremski
 signatures a language extension for improving type abstraction and subtype polymorphism in c++ : baumgartner
 signatures for a network protocol stack a systems application of standard ml : biagioni
@@ -2808,7 +2798,6 @@ some shortcomings of ocl the object constraint language of uml : viziri
 some topics in parser generators : jacobs
 sos simple operating system simulator : crowley
 source code : weisner
-spacecraft computers state of the art survey : theis
 spambayes effective open source basesian based email classification : meyer
 sparc assembly language reference manual : sparc
 spatial data and the voronoi tessellation : lukatela
@@ -3303,7 +3292,6 @@ the synchronous approach to reactive and real time systems : benveniste
 the synchronous data flow programming language lustre : halbwachs
 the task of the referee : smith
 the tattletale technique : reyelts
-the teach act finally becomes law : harper
 the teaching of arithmetic i the story of an experiment : benezet
 the teaching of arithmetic ii the story of an experiment : benezet
 the teaching of arithmetic iii the story of an experiment : benezet
@@ -3552,7 +3540,6 @@ using types and inheritance in object oriented programming : halbert
 using virtual addresses as object references : chase
 uu for programming languages : ferreira
 validating metrics for ensuring space shuttle flight software quality : schneidewind
-validating solutions to major problems in software engineering project management : thayer
 validation verification and testing for the individual programmer : branstad
 valloy virtual functions meet a relational language : marinov
 vcode a retargetable extensible very fast dynamic code generation system : engler
@@ -3613,7 +3600,6 @@ welcome to the wireless world problems using & understanding mobile telephony : 
 what are mactimes : farmer
 what are principal typings and what are they good for : jim
 what are race conditions : netzer
-what can software engineering learn from artifical intelligence : tichy
 what has influenced computing innovation : hughes
 what if mass storage were free : copeland
 what is a is and isn't an analysis of taxonomic links in semantic networks : brachman
