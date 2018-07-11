@@ -14707,7 +14707,7 @@
   number       = 3,
   pages        = "64--71",
   month        = mar,
-  keywords     = "artifical neural networks",
+  keywords     = "artificial neural networks",
   location     = "TK 7885.A1 I15"
 }
 
@@ -16862,7 +16862,7 @@
   number       = 3,
   pages        = "",
   month        = jun,
-  keywords     = "british cybernetisists, the homeostat, artifical
+  keywords     = "british cybernetisists, the homeostat, artificial
 		  intelligence, self-stablizing systems",
   location     = "www.soc.uiuc.edu/faculty/pickerin/cybernetics.pdf"
 }
@@ -18664,7 +18664,7 @@
 
 @Article{wcselfai,
   author       = "Walter~F. Tichy",
-  title        = "What Can Software Engineering Learn From Artifical Intelligence?",
+  title        = "What Can Software Engineering Learn From Artificial Intelligence?",
   journal      = ieeec,
   year         = 1987,
   volume       = 20,
@@ -27928,7 +27928,7 @@
 @TechReport{aplffedpbptr,
   author       = "Gregory~T. Sullivan",
   title        = "Advanced Programming Lanauge Features for Executable Design Patterns: ``{B}etter Patterns Through Reflection''",
-  institution  = "Artifical Intelligence Laboratory, " # mit,
+  institution  = "Artificial Intelligence Laboratory, " # mit,
   year         = 2002,
   address      = cma,
   month        = mar,
