@@ -99,7 +99,6 @@ a formal specification maturity model : fraser
 a framework for controlling coopeerative agents : lee
 a framework for defining the quality of communications services : richters
 a framework for network protocol software : huni
-a framework for protocol composition in horus : van renesse
 a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
 a framework for specifying and visualizing architectural designs : holt
 a framework for the automated drawing of data structure diagrams : ding
@@ -379,7 +378,6 @@ ad hoc self supervising peer to peer search networks : cooper
 ada 95 a guide for c and c++ programmers : johnston
 ada and software defelopment support a new concept in language design : leblanc
 ada system dependency analyzer tool : baratta
-adaptable architectures for supersystems : vick
 adaptable pointer swizzling strategies in object bases design realization and quantitative analysis : kemper
 adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
 adapting correcting and perfecting software estimates a maintenance metaphor : abdel
@@ -615,7 +613,6 @@ asynchronous signals in standard ml : reppy
 atanasoff and the abc : atanasoff
 aterm library user manual : de jong
 atm communications network control by neural networks : hiramatsu
-atm concepts architectures and protocols : vetter
 atom a system for building customized program analysis tools : srivastava
 atomic heap transactions and fine grain interrupts : shivers
 attacks on copyright marking systems : petitcolas
@@ -1092,7 +1089,6 @@ display condensation of program text : archer
 display techniques for octree encoded objects : doctor
 distel distributed emacs lisp for erlang : gorrie
 distributed adaptive resource allocation for sensor networks : mainland
-distributed artificial intelligence for runtime feature interaction resolution : velthuijsen
 distributed computer systems for industrial control : schoeffler
 distributed computing economics : gray
 distributed coordination models for client server computing : adler
@@ -1514,7 +1510,6 @@ haskell typeclass replacement : kiselyov
 haskell vs ada vs c++ vs awk vs an experiment in software prototyping productivity : hudak
 heap or stack which should you use : paugh
 heap profiling of lazy functional programs : runciman
-hector a hierarchically structured shared memory multiprocessor : vranesic
 here be dragons : griffiths
 hermes language experiences : korfhage
 heterogeneous and autonomous transaction processing : pu
@@ -1539,7 +1534,6 @@ hoisting branch conditions improving superscalar processor performance : applebe
 homogeneous coordinates and projective planes in computer graphics : riesenfeld
 hood and z for the development of complex software systems : di giovanni
 horizon a retargetable compiler for horizontal microarchitectures : muller
-horus a flexible group communication system : van renesse
 how and how not to write a good systems paper : levin
 how aspectj is used an analysis of eleven aspectj programs : apel
 how best to provide the services is programmers need : glass
@@ -1614,7 +1608,6 @@ implementing remote evaluation : stamos
 implementing smart spiders : konchady
 implementing tcp ip on a cray computer : borman
 implementing the pi calculus in java : li
-implementing visicalc : visicalc
 implications of classical scheduling results for real time systems : stankovic
 implicit java array bounds checking on 64 bit architecture : bentley
 imposing the law of demeter and its variations : pal
@@ -1736,7 +1729,6 @@ ip switching and gigabit routers : newman
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
 is finding security holes a good idea : rescoria
-is free software inevitable : vepstas
 is ip going to take over the world of communications : molinero
 is layering harmful : crowcroft
 is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
@@ -2241,7 +2233,6 @@ patterns and software development : beck
 patterns and software essential concepts and terminology : appleton
 patterns for piccolo : piccolo
 patterns plop plop fizz fizz : martin
-patterns the top ten misconceptions : vlissides
 pdh broadband isdn atm and all that a guide to modern wan networking and how it evolved : reilly
 peep an architectural description driven peephole optimizer : kessler
 peer to peer architectures for massively multiplayer online games a survey : yahyavi
@@ -2263,7 +2254,6 @@ perly unix with buttons : hesketh
 permutation generation methods : sedgewick
 persistence in e revisited implementation experiences : schuh
 persistent objects in cpp : stevens
-personalization and privacy : volokh
 perspectives manifesto 1991 : alexander
 perspectives on dedicated and control processing : house
 pervasive computing with inferno and limbo : stanley
@@ -2532,7 +2522,6 @@ representing control in the presence of one shot continuations : bruggemann
 representing structure and behavior of digital hardware : davis
 requirements validation via automated natural language parsing : nanduri
 residue arithmetic a tutorial with examples : taylor
-resistance is futile formal linguistic observations of design patterns : van emde boas
 resource allocation for broadband networks : hui
 resource integration using a large knowledge base in carnot : collet
 resourceable retargetable modular instruction selection using a machine independent type based tiling of low level intermediate code : ramsey
@@ -2777,7 +2766,6 @@ some issues for single address space systems : chase
 some issues in the semantics of facile distributed programming : thomsen
 some powerful ideas : lawler
 some results on the impossibility universality and decidability of consensus : jayanti
-some shortcomings of ocl the object constraint language of uml : viziri
 some topics in parser generators : jacobs
 sos simple operating system simulator : crowley
 source code : weisner
@@ -2940,7 +2928,6 @@ technical context and cultural consequences of xml : adler
 techniques for aligning objects in drawing programs : raisamo
 techniques for reducing pen plotting time : anderson
 techniques for requirments elicitation : goguen
-telecommunications regulation the continuing dilemma : trebing
 temporal logic based deadlock analysis for ada : karam
 temporal logic case study : wood
 ten commandments of formal methods : bowen
@@ -3548,8 +3535,6 @@ visualizing packet traces : zinky
 visualizing performance debugging : lehr
 visually interpreting the motion of objects in space : webb
 vlsi a new frontier for systems designers : fairbairn
-voice over ip : varshney
-voip security and privacy threat taxonomy : voipsa
 voip security not an afterthought : sicker
 voip steganography and its detection a survey : mazurczky
 volume models for volumetric data : ranjan
