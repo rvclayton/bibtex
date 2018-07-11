@@ -83,7 +83,6 @@ a distributed system : rushby
 a domain specific language for video device drivers from design to implementation : thibault
 a dual ui constraint equation solver in c++ : medwin
 a dynamic network architecture : omalley
-a fast algorithm for color image quantization using only 256 colors : watanabe
 a fast and general implementation of mach ipc in a network : orman
 a fast division technique for constant divisors : artzy
 a fast file system for unix : mckusick
@@ -713,7 +712,6 @@ building robust systems : sussman
 building the perfect executable : cheif
 building trustworthy systems lessons from the ptn and internet : schneider
 building your own basic cgi program : palmer
-business model issues in the development of digital cultural content : wall
 bytecode fetch optimization for a java interpreter : ogata
 c a language for high level efficient and machine independent dynamic code generation : engler
 c# introduction : hejlsberg
@@ -885,7 +883,6 @@ concurrent object oriented language cool : maruyama
 concurrent reading and writing : lamport
 concurrent runtime monitoring of formally specified programs : sankar
 condition handling in the lisp language family : pitman
-configuration dependent performance of a prioritized csma broadcast network : watson
 conflicts : clark
 conformational automata in the cytoskeleton : hameroff
 congestion avoidance and control : jacobson
@@ -1049,7 +1046,6 @@ designing circuits by calculation : jones
 designing component based frameworks using patterns in the uml : larsen
 designing distributed algorithms by means of formal sequentially phased reasoning : stomp
 designing for thread safety : venners
-designing for ultrahigh availability the unix rtr operating system : wallace
 designing logic systems using state machines : clare
 designing object initialization : venners
 designing reusable classes : johnson
@@ -1788,7 +1784,6 @@ karl wiegers describes 10 requirements traps to avoid : wiegers
 kawa compiling scheme to java : bothner
 keep it clean a unique approach to functional programming  : plasmeijer
 keeping the web in web services : prescod
-keeping your site comfortably secure an introduction to internet firewalls : wack
 kerberos an authentication service for open network systems : steiner
 kerberos network design manual : backman
 kerberos versus the leighton micali protocol : rubin
@@ -2574,7 +2569,6 @@ scala by example : odersky
 scalability three tiered architectures and application servers : greenspun
 scalable extensibility via nested inheritance : nystrom
 scalable feedback control for multicast video distribution in the internet : bolot
-scalable high speed ip routing lookups : waldvogel
 scalable multicast file distribution : gemmell
 scalable, robust visualization of very large trees : beerman
 scalable secure nad highly available distributed file access : satayanarayanan
@@ -2992,7 +2986,6 @@ the concert signature representation idl as an intermediate language : auerbauch
 the consensus problem in fault tolerant computing : barborak
 the conservative nanny state : baker
 the construction of software systems using domain specific reuse infrastructures : debaud
-the conversational classroom : waite
 the crisis wide area security architecture : belani
 the cweb system of structured documentation : knuth
 the dark side of the web an open proxys view : pai
@@ -3529,7 +3522,6 @@ virtual xml a toolbox and use cases for the xml world view : rose
 visual information retrieval from large distributed online repositories : chang
 visual representations for recursive algorithms : stern
 visualization and debugging in a heterogeneous environment : beguelin
-visualization and performance analysis of formally specified communication protocols : walch
 visualizing design patterns in their applications and compositions : dong
 visualizing packet traces : zinky
 visualizing performance debugging : lehr
