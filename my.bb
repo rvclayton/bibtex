@@ -333,6 +333,27 @@
   location     = "KF 3941.C49"
 }
 
+@Book{tdplgb,
+  author       = "Gilad Bracha",
+  title        = "The Dart Programming Language",
+  publisher    = aw,
+  year         = 2016,
+  address      = boma,
+  keywords     = "dart, reflection, type systems, object-oriented programming,
+    concurrency, futures, mixins, libraries, functions, asyncrony",
+  location     = "QA 76.73.D23 B73"
+}
+
+@Book{ildck,
+  author       = "Chris Kraus",
+  title        = "{I} Love Dick",
+  publisher    = "Semiotext(e)",
+  year         = 2006,
+  address      = "Los Angeles, " # CA,
+  keywords     = "letters, art damage",
+  location     = "PS 3561.R2873 I15 2006a"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1225,6 +1246,29 @@
     examined with the goal of predicting the future development and application
     of functional languages.",
   location     = "https://doi.org/10.1145/72551.72554"
+}
+
+@Article{wsatframp,
+  author       = "Maggiolo-Schettini, Andrea. and Napoli, Margherita and Tortora, Genoveffa",
+  title        = "Web Structures:  {A} Tool for Representing and Manipulating Programs",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1621--1639",
+  month        = nov,
+  keywords     = "data flow analysis, high level program transformations,
+    interpretive semantics, programming languages, replacement systems,
+    category theory, web structures, macroderivations",
+  abstract     = "The authors introduce web structures and their
+    transformations and develop their theory in the framework of category
+    theory.  Once a program has been represented as a web structure, software
+    tools, such as a high-level data flow analyzer or other general program
+    transformers, can be written as sets of web structure production rules.  An
+    implementation of web structure transformations is in progress.  The
+    mathematical theory of web structure transformations allows form proofs of
+    properties both at the metatheoretical and theoretical levels.", 
+  location     = "https://doi.org/10.1109/32.9050"
 }
 
 @InProceedings{amitbpl,
