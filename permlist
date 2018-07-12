@@ -1690,6 +1690,7 @@ internet telephony : mcknight
 internet tv implications for the long distance network : odlyzko
 interoperability of peer to peer file sharing : lui
 interpretation techniques : klint
+interprocedural control flow analysis of first order programs with tail call optimization : debray
 interprocess communication and processor dispatching on the intel 432 : cox
 interrupt processing in concurrent processors : walker
 interrupt protocol processing in the x kernel : bjorkman
