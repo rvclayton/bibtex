@@ -354,6 +354,16 @@
   location     = "PS 3561.R2873 I15 2006a"
 }
 
+@Book{desic,
+  author       = "Kevin Watkins",
+  title        = "Discrete Event Simulation in {C}",
+  publisher    = "McGraw-Hill",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "random numbers, modeling",
+  location     = "QA 76.73.C15 W39"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1271,6 +1281,123 @@
   location     = "https://doi.org/10.1109/32.9050"
 }
 
+@Article{shsirl,
+  author       = "Waldvogel, Marcel and Varghese, George and Turner, Jon and Plattner, Bernhard",
+  title        = "Scalable High Speed {IP} Routing Lookups",
+  journal      = ccr # " (" # pot # "ACM SIGCOMM '97 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication)",
+  year         = 1997,
+  volume       = 27,
+  number       = 4,
+  pages        = "25--36",
+  month        = oct,
+  keywords     = "binary search, hash tables, ip lookup, backtracking,
+    precomputation, rope search",
+  abstract     = "Internet address lookup is a challenging problem because of
+    increasing routing table sizes, increased traffic, higher speed links, and
+    the migration to 128 bit IPv6 addresses.  IP routing lookup requires
+    computing the best matching prefix, for which standard solutions like
+    hashing were believed to be inapplicable.  The best existing solution we
+    know of, BSD radix tries, scales badly as IP moves to 128 bit addresses.
+    Our paper describes a new algorithm for best matching prefix using binary
+    search on hash tables organized by prefix lengths.  Our scheme scales very
+    well as address and routing table sizes increase: independent of the table
+    size, it requires a worst case time of log2(address bits) hash lookups.
+    Thus only 5 hash lookups are needed for IPv4 and 7 for IPv6.  We also
+    introduce Mutating Binary Search and other optimizations that, for a
+    typical IPv4 backbone router with over 33,000 entries, considerably reduce
+    the average number of hashes to less than 2, of which one hash can be
+    simplified to an indexed array access.  We expect similar average case
+    behavior for IPv6.", 
+  location     = "https://doi.org/10.1145/263109.263136"
+}
+
+@Article{ptttm,
+  author       = "John Vissides",
+  title        = "Patterns: The Top Ten Misconceptions",
+  journal      = "Object Magazine",
+  year         = 1997,
+  volume       = 7,
+  number       = 1,
+  pages        = "30--33",
+  keywords     = "context",
+  location     = "http://www.research.ibm.com/designpatterns/pubs/top10misc.html"
+}
+
+@Article{mipp,
+  author       = "Charles Tilly",
+  title        = "Mechanisms in Political Processes",
+  journal      = "Annual Review of Political Science",
+  year         = 2001,
+  volume       = 4,
+  pages        = "21--41",
+  keywords     = "public politics, democratization, trust networks, inequality,
+    regime environment, change mechanisms",
+  abstract     = "Ostensibly theoretical disputes in political science often
+    involve competing approaches to explanation, including skepticism, covering
+    law arguments, reconstructions of propensities, system models, and
+    explanations featuring causal mechanisms.  Mechanism- and process-based
+    accounts, including cognitive, environmental, and relational effects,
+    deserve more attention than they have received in recent political science.
+    Analyses of democratization illustrate these points.",
+  location     = "https://doi.org/10.1146/annurev.polisci.4.1.21"
+}
+
+@Article{icfaofopwtco,
+  author       = "Debray, Saumya~K. and Proebsting, Todd~A.",
+  title        = "Interprocedural Control Flow Analysis of First-Order Programs with Tail-Call Optimization",
+  journal      = toplas,
+  year         = 1997,
+  volume       = 19,
+  number       = 4,
+  pages        = "568--585",
+  month        = jul,
+  keywords     = "control-flow analysis, interprocedural analysis, control-flow
+    grammars, follow sets, lr(0) parsers, lr(1) parsers, ",
+  abstract     = "Knowledge of low-level control flow is essential for many
+    compiler optimizations.  In systems with tail-call optimization, the
+    determination of interprocedural control flow is complicated by the fact
+    that because of tail-call optimization, control flow at procedure returns
+    is not readily evident from the call graph of the program.  This article
+    shows how interprocedural control-flow analysis of first-order programs can
+    be carried out using well-known concepts from parsing theory.  In
+    particular, we show that context-insensitive ( or zeroth-order)
+    control-flow analysis corresponds to the notion of FOLLOW sets in
+    context-free grammars, while context-sensitive (or first-order)
+    control-flow analysis corresponds to the notion of LR(1) items.  The
+    control-flow information so obtained can be used to improve the precision
+    of interprocedural dataflow analyses as well as to extend certain low-level
+    code optimizations across procedure boundaries.", 
+  location     = "https://doi.org/10.1145/262004.262006"
+}
+
+@Article{tladomsl,
+  author       = "Ilkka Toumi",
+  title        = "The Lives and Death of {M}oore's Law",
+  journal      = "First Monday",
+  year         = 2002,
+  volume       = 7,
+  number       = 11,
+  month        = nov,
+  keywords     = "transistor counts, hardware development",
+  abstract     = "Moore’s Law has been an important benchmark for developments
+    in microelectronics and information processing for over three decades.
+    During this time, its applications and interpretations have proliferated
+    and expanded, often far beyond the validity of the original assumptions
+    made by Moore.  Technical considerations of optimal chip manufacturing
+    costs have been expanded to processor performance, economics of computing,
+    and social development.  It is therefore useful to review the various
+    interpretations of Moore’s Law and empirical evidence that could support
+    them.  Such an analysis reveals that semiconductor technology has evolved
+    during the last four decades under very special economic conditions.  In
+    particular, the rapid development of microelectronics implies that economic
+    and social demand has played a limited role in this industry.  Contrary to
+    popular claims, it appears that the common versions of Moore’s Law have not
+    been valid during the last decades.  As semiconductors are becoming
+    important in economy and society, Moore’s Law is now becoming an
+    increasingly misleading predictor of future developments.", 
+  location     = "http://firstmonday.org/ojs/index.php/fm/article/view/1000/921"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1369,6 +1496,47 @@
     for receiving small (60 byte) network packets up to 197 microseconds for
     writing 16KB to an ISA SCSI device.",
   location     = "https://www.usenix.org/publications/library/proceedings/sd96/full_papers/goel.ps"
+}
+
+@InProceedings{ssootoclou,
+  author       = "Vaziri, Mandana and Jackson, Daniel",
+  title        = "Some Shortcomings of {OCL}, the Object Constrain Language of {UML}",
+  booktitle    = pot # "Technology of Object-Oriented Languages and Systems (TOOLS '00)",
+  year         = 2000,
+  pages        = "555--572",
+  address      = "Santa Barbara, " # CA,
+  month        = "30 July-3 August",
+  keywords     = "ocl, alloy, uml metamodel",
+  abstract     = "We illustrate some shortcomings of the Object Constraint
+    Language of UML, and ways in which it may be improved, by comparing it to
+    Alloy, a simile object modeling language.  We use the core package of the
+    UML metamodel as a basis for the comparison.",
+  location     = "http://dx.doi.org/10.1109/TOOLS.2000.10063"
+}
+
+@InProceedings{apbarwfaacs,
+  author       = "P. Tonella and R. Fiutem and G. Antoniol and E. Merlo",
+  title        = "Augmenting Pattern-Based Architectural Recovery with Flow Analysis:  a Case Study",
+  booktitle    = pot # "3rd Working Conference on Reverse Engineering (WCRE '96)",
+  year         = 1996,
+  pages        = "198--208",
+  month        = "8--10 " # nov,
+  keywords     = "patterns, architectural analysis, architectural recognizers",
+  abstract     = "Understanding the overall organization of a software system,
+    i.e. its software architecture, is often required during software
+    maintenance: tools can help maintainers in managing the evolution of legacy
+    systems, by showing them architectural information.  In this paper, the
+    analysis of a medium-sized application using a pattern based architectural
+    recovery environment is presented.  The results obtained give useful
+    information about the system architecture but also show some limitations of
+    a purely pattern based approach.  To overcome such limitations,
+    architectural analysis algorithms have been augmented with information
+    about control and data flow and the case study application has been
+    re-analyzed.  Complementing pattern matching with flow information has
+    allowed to detect architectural constructs also when they are spread over
+    different procedures in source code and to extract useful additional
+    information through the use of constant propagation and slicing.", 
+  location     = "0-8186-7674-4"
 }
 
 @TechReport{dacsbssbsalbl,
@@ -1528,5 +1696,42 @@
   year         = 2002,
   keywords     = "build management, xml, java",
   location     = "http://supportweb.cs.bham.ac.uk/docs/tutorials/docsystem/build/tutorials/ant/ant.html"
+}
+
+@Unpublished{ivbf,
+  author       = "Bob Frankston",
+  title        = "Implementing {VisiCalc}",
+  keywords     = "visicalc, software development, apple ][, ",
+  year         = 2003,
+  month        = apr,
+  location     = "http://rmf.vc/ImplementingVisiCalcV1"
+}
+
+@Misc{ifsi,
+  author       = "Linas Vepstas",
+  title        = "Is Free Software Inevitable?",
+  year         = 2001,
+  month        = feb # "-" # jul,
+  keywords     = "free trade, free software, altruistic behavior, corporations,
+    indirect investment, monopoly",
+  location     = "https://www.linas.org/theory/freetrade.html"
+}
+
+@Misc{casp,
+  author       = "Christian Tismer",
+  title        = "Continuations and Stackless Python",
+  howpublished = "web",
+  keywords     = "continuations, generators, python",
+  location     = "http://www.stackless.com/spcpaper.htm"
+}
+
+@Misc{coip,
+  author       = "Jason Tackaberry",
+  title        = "{CORBA} Objects in {P}ython",
+  howpublished = "web",
+  year         = 2000,
+  month        = apr,
+  keywords     = "distributed objects, corba, gnome, orb, idl",
+  location     = "https://projects-old.gnome.org/ORBit2/orbit-python.pdf"
 }
 
