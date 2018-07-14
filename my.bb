@@ -1398,6 +1398,87 @@
   location     = "http://firstmonday.org/ojs/index.php/fm/article/view/1000/921"
 }
 
+@Article{lslcw,
+  author       = "Clark Williams",
+  title        = "Linux Scheduler Latency",
+  journal      = "EE Times",
+  year         = 2002,
+  month        = jun,
+  keywords     = "latency, response time, interrupts, preemption",
+  abstract     = "One of my jobs at Red Hat is to evaluate and recommend new
+    techniques for embedded Linux solutions.  Scheduler latency is one of the
+    biggest complaints that hard realtime champions have about Linux.  I
+    decided to evaluate preemption and low-latency to see which one came out on
+    top.",
+  location     = "https://www.eetimes.com/document.asp?doc_id=1200916"
+}
+
+@Article{twtmsyppsdtmolb,
+  author       = "Gregory~V. Wilson and Brent Gorda and Paul Lu",
+  title        = "Twelve Ways to Make Sure Your Parallel Programming System Doesn't Make Others Look Bad",
+  journal      = ieeec,
+  year         = 1994,
+  volume       = 27,
+  number       = 10,
+  pages        = 112,
+  month        = oct,
+  keywords     = "group operations, i-o, marshaling, timesharing, behavior, performance",
+  abstract     = "Anyone who has done any parallel programming knows that it's
+    more difficult than sequential programming.  To keep ourselves employed, we
+    should make sure it stays that way.  Therefore, if you're adding to the
+    hundreds of parallel programming systems in existence, please follow these
+    rules so that your system won't make the rest of us look stupid.",
+  location     = "TK 7885.A1 I15X"
+}
+
+@Article{affnps,
+  author       = "H{\" u}ni, Hermann and Johnson, Ralph and Engel, Robert",
+  title        = "{A} Framework for Network Protocol Software",
+  journal      = sigplan # " (" # pot # "Tenth Annual Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA '95)",
+  year         = 1995,
+  volume       = 30,
+  number       = 10,
+  pages        = "358--369",
+  month        = oct,
+  keywords     = "mux, factories, architecture model, strategy pattern, visitor
+    pattern, prototype pattern, atm signalling, evaluation",
+  abstract     = "Writing software to control networks is important and
+    difficult.  It must be efficient, reliable, and flexible.  Conduits+ is a
+    framework for network software that has been used to implement the
+    signalling system of a mullti-protocol ATM access switch.  An earlier
+    version was used to implement TCP/IP.  It reduces the complexity of network
+    software, makes it easier to extend or modify network protocols, and is
+    sufficiently efficient.  Conduits+ shows the power of a componentized
+    object-oriented framework and of common object-oriented design patterns.", 
+  location     = "https://doi.org/10.1145/217839.217875"
+}
+
+@Article{sarosd,
+  author       = "Ian~A. Mcleod",
+  title        = "Storage and Retrieval of Structured Documents",
+  journal      = "Journal of Information Processing and Management",
+  year         = 1990,
+  volume       = 26,
+  number       = 2,
+  pages        = "197--208",
+  keywords     = "text retrieval, query language",
+  abstract     = "There have been a number of important document related
+    activities which suggest the need for a new model for text.  ISO standards
+    for document description have been recently developed.  These standards
+    view documents as hierarchical objects and it is likely that languages such
+    as SGML will become widely used in the near future for document markup.  As
+    structured documents become available, so there will be a need to evolve
+    tools to take advantage of structural knowledge.  The goal of the work
+    described here is to develop such tools.  A conceptual model for
+    bibliographic data has been designed.  The model is known as Maestro
+    (Management Environment for Structured Text Retrieval and Organization).
+    It supports structured documents and provides a query language to retrieve
+    and link information contained in these structures, in this paper, an
+    overview of Maestro is presented together with an outline of the basic
+    implementation strategy.", 
+  location     = "https://doi.org/10.1016/0306-4573%2890%2990025-W"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1537,6 +1618,93 @@
     different procedures in source code and to extract useful additional
     information through the use of constant propagation and slicing.", 
   location     = "0-8186-7674-4"
+}
+
+@InProceedings{ucailsr,
+  author       = "T.~A. Wiggerts",
+  title        = "Using Clustering Algorithms in Legacy Systems Remodularization",
+  booktitle    = pot # "4th Working Conference on Reverse Engineering (WCRE '97)",
+  year         = 1997,
+  pages        = "33--43",
+  month        = "8--10 " # nov,
+  keywords     = "clustering, similarity, optimization, hierarchical
+    algorithms, rmodularization",
+  abstract     = "Incited by the observation that cluster analysis and the 
+    remodularization of software systems solve similar problems, we have done
+    research in both these areas in order to provide theoretical background for
+    the application of cluster analysis in systems remodularization.  In this
+    article we present an overview of cluster analysis and of systems
+    remodularization.  It appears that system remodularization techniques often
+    either reinvent clustering techniques or could be augmented by them.  We
+    also give directions for further research.",
+  location     = "0-8186-7674-4"
+}
+
+@InProceedings{anefsmnaac,
+  author       = "Robert Lake and Laura Pate",
+  title        = "{A} Network Environment for Studying Multimedia Network Architecture and Control",
+  booktitle    = "IEEE Global Telecommunications Conference and Exhibition",
+  year         = 1989,
+  pages        = "1232--1236",
+  address      = "Dallas, Texas",
+  month        = "27--30 " # nov,
+  keywords     = "multimedia applications, multimedia services, multimedia
+    mail, multimedia databases",
+  abstract     = "Bellcore's Integrated Media Architecture Laboratory (IMAL)
+    studies architecture, control and network design issues of network-based
+    multimedia services.  This paper will present an overview of a set of
+    likely multimedia services that use audio, video, graphics, text, and other
+    sorts of data; describe the laboratory environment we use to support these
+    services; and provide a high-level description of how we have implemented
+    these services as networked modules."
+}
+
+@InProceedings{wberafcwasacasotip,
+  author       = "Lakshman, T.~V. and Suter, B. and Madhow, U.",
+  title        = "Window-Based Error Recovery and Flow Control with a Slow Acknowledgement Channel: {A} Study of {TCP}/{IP} Performance",
+  booktitle    = pot # "Sixteenth Annual Joint Conference of the IEEE Computer and Communications Societies (INFOCOM '97)",
+  year         = 1997,
+  pages        = "1199--1210",
+  month        = "9--11 " # apr,
+  keywords     = "path models, random loss, multiple collections, buffer sharing",
+  abstract     = "With the envisaged growth in Internet access services over
+    networks with asymmetric links such as Asymmetric Digital Subscriber Line
+    (ADSL) and Hybrid Fiber Coax (HFC), it becomes crucial to evaluate the
+    performance of window-based protocols over systems in which the reverse
+    link is considerably slower than the forward link.  Even if the actual
+    bandwidth asymmetry is moderate, high effective asymmetries can result
+    because of bidirectional traffic.  Our objective is to determine, whether
+    TCP/IP performs reasonably in a setting in which the reverse link is the
+    primary bottleneck.Our main results are: (1) For both the prevalent Tahoe
+    version with Fast Retransmit and the Reno version of TCP, we determine the
+    throughput as a function of buffering, round-trip times and (normalized)
+    asymmetry.  (2) Asymmetry increases TCP's already high sensitivity to
+    random packet losses.  (3) Congestion in the reverse path adds considerably
+    to TCP's unfairness when multiple connections share the reverse link.",
+  location     = "0-8186-7780-5"
+}
+
+@InProceedings{tcpivc,
+  author       = "Alain~J. Martin",
+  title        = "Translating Concurrent Programs Into {VLSI} Chips",
+  booktitle    = "Parallel Architectures and Languages Europe (PARLE '92)",
+  year         = 1992,
+  editor       = "Etiemble, D. and Syre, J.~C.",
+  pages        = "515--532",
+  volume       = 605,
+  series       = lncs,
+  publisher    = "Springer",
+  address      = "Paris, France",
+  month        = "15--18 " # jun,
+  keywords     = "production rule, clock signal, clock period, program
+    transformation, vlsi design ",
+  abstract     = "This paper reviews the results of almost a decade of research
+    in the synthesis of asynchronous VLSI circuits from concurrent programs.
+    In view of these results, it is argued that a method based on program
+    transformations can produce circuits that are both correct by construction
+    and efficient.  The design of the first asynchronous microprocessor is used
+    as an example.", 
+  location     = "http://dx.doi.org/10.1007/3-540-55599-4_108"
 }
 
 @TechReport{dacsbssbsalbl,
@@ -1733,5 +1901,25 @@
   month        = apr,
   keywords     = "distributed objects, corba, gnome, orb, idl",
   location     = "https://projects-old.gnome.org/ORBit2/orbit-python.pdf"
+}
+
+@Misc{abdsgts11,
+  author       = "Dave Winer",
+  title        = "{A} Busy Developer's Guide to {SOAP} 1.1",
+  howpublished = "WWW",
+  year         = 2001,
+  month        = "2 " # apr,
+  keywords     = "soap, xml",
+  location     = "scripting.com/davenet/2001/04/04/aBusyDevelopersGuideToSoap.html"
+}
+
+@Misc{hmre,
+  author       = "James Marshall",
+  title        = "{HTTP} Made Really Easy",
+  howpublished = "WWW",
+  year         = 1997,
+  month        = aug,
+  keywords     = "transactions, head, post, proxies, 1.1, clients, services",
+  location     = "https://www.jmarshall.com/easy/http/"
 }
 
