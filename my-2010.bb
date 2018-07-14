@@ -68560,7 +68560,7 @@
 }
 
 @Book{stmofw,
-  author       = "Paul~S. Machilin",
+  author       = "Paul~S. Machlin",
   title        = "Stride: The Music of Fats Waller",
   publisher    = "Twayne Publishers",
   address      = boma,
