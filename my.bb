@@ -1479,6 +1479,46 @@
   location     = "https://doi.org/10.1016/0306-4573%2890%2990025-W"
 }
 
+@Article{pwthp,
+  author       = "Andrew Davison",
+  title        = "Programming With the {HTTP} Protocol",
+  journal      = "Web Techniques",
+  year         = 1996,
+  volume       = 1,
+  number       = 4,
+  month        = jul,
+  keywords     = "http, gets, web pages",
+  location     = "http://www.cs.mu.oz.au/~ad"
+}
+
+@Article{sftffrl,
+  author       = "Degermark, Mikael and Brodnik, Andrej and Carlsson, Svante and Pink, Stephen",
+  title        = "Small Forwarding Tables for Fast Routing Lookups",
+  journal      = ccr # " (" # pot # "ACM SIGCOMM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication, SIGCOMM '97)",
+  year         = 1997,
+  volume       = 27,
+  number       = 4,
+  pages        = "3--14",
+  month        = oct,
+  keywords     = "routing tables, forwarding, performance",
+  abstract     = "For some time, the networking community has assumed that it
+    is impossible to do IP routing lookups in software fast enough to support
+    gigabit speeds.  IP routing lookups must find the routing entry with the
+    longest matching prefix, a task that has been thought to require hardware
+    support at lookup frequencies of millions per second.We present a
+    forwarding table data structure designed for quick routing lookups.
+    Forwarding tables are small enough to fit in the cache of a conventional
+    general purpose processor.  With the table in cache, a 200 MHz Pentium Pro
+    or a 333 MHz Alpha 21164 can perform a few million lookups per second.
+    This means that it is feasible to do a full routing lookup for each IP
+    packet at gigabit speeds without special hardware.The forwarding tables are
+    very small, a large routing table with 40,000 routing entries can be
+    compacted to a forwarding table of 150-160 Kbytes.  A lookup typically
+    requires less than 100 instructions on an Alpha, using eight memory
+    references accessing a total of 14 bytes.",
+  location     = "https://doi.org/10.1145/263105.263133"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1707,6 +1747,42 @@
   location     = "http://dx.doi.org/10.1007/3-540-55599-4_108"
 }
 
+@InProceedings{uedmtilsre,
+  author       = "Jean-Marc Debaud",
+  title        = "Using Executable Domain Models to Implement Legacy Software Re-engineering",
+  booktitle    = pot # "OOPSLA'95 Workshop on Legacy Systems and Object Technology",
+  year         = 1995,
+  address      = atx,
+  month        = "16 " # oct,
+  keywords     = "domain modeling, reverse engineering",
+  abstract     = "In this position paper, we advocate a domain-centric approach
+    to the evolution of legacy systems.  The migration of legacy systems is a
+    difficult endeavor because traditional methods have two principal
+    deficiencies.  First, they fail to capture the context of a system, i.e.,
+    its domain.  Second, the legacy system’s comprehension results are not
+    directly usable for the system evolution.  We propose the construction of
+    executable domain models to alleviate both problems.  The construction of
+    an executable domain model entails a process of domain analysis that leads
+    to a domain model, as well as the transition of the former to an executable
+    state.  The domain model provides domain expectations that drive legacy
+    system understanding.  The executable domain model provides a medium in
+    which the result of the legacy system comprehension can be recorded.  In
+    fact, the executable domain model is instantiated using the system
+    requirements derived during program comprehension.  The artifact thus
+    created takes the role of the re-engineered program.  Our work uses the
+    technique of object-oriented frameworks (OOF) as the executable domain
+    model representation.", 
+  location     = "ftp://ftp.cc.gatech.edu/pub/groups/reverse/repository/legacy-RE.ps"
+}
+
+@InProceedings{cpatav,
+  author       = "Michael Deck",
+  title        = "Cleanroom Practice: {A} Theme and Variations",
+  booktitle    = pot # "9th International Software Quality Week",
+  year         = 1996,
+  keywords     = "software development, testing, specifications"z
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -1855,6 +1931,25 @@
     typical STL programming errors at runtime (and a few at compile time).",
   keywords     = "stl, c++, programming errors, iterators",
   location     = "http://horstmann.com/safestl.html"
+}
+
+@TechReport{fasfathop,
+  author       = "Craig~A. Damon and Ralph Melton and Robert~J. Allen and Elizabeth Bigelow and James~M. Ivers and David Garlan",
+  title        = "Formalizing a Specification for Analysis:  The {HLA} Ownership Properties",
+  institution  = scs # cmu,
+  year         = 1999,
+  number       = "CMU-CS-99-126",
+  address      = ppa,
+  month        = apr,
+  keywords     = "Formal specification, model checking, Z specification language, distributed simulation",
+  abstract     = "Interfaces are commonly specified using informal or
+    semi-formal techniques, relying primarily on natural language descriptions.
+    Such specifications, however, can easily overlook significant details and
+    are not amenable to analysis by automated tools.  This paper looks at
+    formalizing one portion of a substantial specification, the ownership
+    management chapter of the DoD HLA framework, and at the subsequent analysis
+    using the tool Ladybug.", 
+  location     = "http://www.cs.cmu.edu/afs/cs/project/nitpick/www/ownership.html"
 }
 
 @Manual{atajsm,
