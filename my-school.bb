@@ -20823,7 +20823,7 @@
 }
 
 @Article{mcpfba3ec,
-  author       = "Conrad Wiesert",
+  author       = "Conrad Weisert",
   title        = "Making " # cpp # " pratical for Business Applications:  3
 		  Essential Classes",
   journal      = sigplan,
