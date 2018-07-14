@@ -44,7 +44,6 @@ a comparison of microsofts c# programming language to sun microsystems java prog
 a comparison of object modelling notations alloy uml and z : jackson
 a comparison of os extension technologies : small
 a comparison of queueing cluster and distributed computing systems : kaplan
-a comparison of techniques for the specification of external system behavor : davis
 a comparison of two paradigms for distributed shared memory : levelt
 a comparative study of language support for generic programming : garcia
 a compiler based approach to protocol optimization : castelluccia
@@ -193,7 +192,6 @@ a note on denial of service in operating systems : gligor
 a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
 a note on searching in a binary search tree : andersson
-a novel algorithm for discrete event simulation : debenedictis
 a novel program representation for interprocedural analysis : agrawal
 a paradigm shift in the distribution of multimedia : parr
 a paradigm shift to oop has occurred implementation to follow : mitchell
@@ -235,7 +233,6 @@ a retargetable compiler for ansi c : fraser
 a retargetable debugger : ramsey
 a retargetable instruction reorganizer : davidson
 a retrospective on paradigms of ai programming : norvig
-a reusable architecture for simulations : dahmann
 a scalable content addressable network : ratnasamy
 a schedulability analyzer for real time euclid : stoyenko
 a scheme api for test suites : bothner
@@ -301,7 +298,6 @@ a survey on the design applications and enhancements of application layer overla
 a survey of web cache replacement strategies : podlipnig
 a survey of wormhole routing techniques in direct networks : ni
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
-a syntactic theory of software architecture : dean
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a synthesis of software science measures and the cyclomatic number : ramamurthy
 a system architecture for fault tolerance in concurrent software : ancona
@@ -312,7 +308,6 @@ a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
 a taste of category theory for computer scientists : pierce
 a taxonomy and survey of sctp research : budzisz
-a taxonomy of broadband integrated switching architectures : daddis
 a taxonomy of computer program security flaws with examples : landwehr
 a taxonomy of datatypes : meek
 a taxonomy of program visualization systems : roman
@@ -520,7 +515,6 @@ an object oriented approach to constructing recursive descent parsers : davis
 an object oriented architecture for text retrieval : cutting
 an object oriented ll1 parser generator : kuhl
 an old fashioned recipe for real time : abadi
-an operating system approach to securing e services : dalton
 an operating systems vade mecum : finkel
 an operational approach to requirements specification for embedded systems : zave
 an operational semantics for csp : plotkin
@@ -584,7 +578,6 @@ artificial intelligence solution manual : poole
 artificial neural networks a tutorial : jain
 as for abstract syntax manual : despeyroux
 as we may think : bush
-asap a protocol for symbolic computation systems : dalmas
 asc an associative computing paradigm : potter
 asdlgen reference manual : wang
 aspect oriented programming : highley
@@ -776,7 +769,6 @@ class is type is inadequate for object reuse : yu
 class specification design by contract : anon
 classes and inheritance in actor oriented design : lee
 classification categories and historical development of circuit switching topologiecs : broomell
-cleanroom practice a theme and variations : deck
 cleanroom process model : linger
 cleanroom software engineering : anon
 clearing memory and partial register stalls in your code : barad
@@ -850,7 +842,6 @@ computational geometry finding the convex hull : gettys
 computational lambda calculus and monads : moggi
 computational thinking : wing
 computer architecture in the 1990s : stone
-computer architectures for pictorial information systems : danielsson
 computer communication networks approaches objectives and performance considerations : kimbleton
 computer experiments with fractional gaussian noises part 1 averages and variances : mandelbrot
 computer graphics the need for graphics design part 1 : myers
@@ -1353,7 +1344,6 @@ formal system design based on the synchrony hypothesis functional models and ske
 formal specification and design time testing : garrard
 formal verification of the aamp5 microprocessor : miller
 formalization in programming environments : goguen
-formalizing a specification for analysis the hla ownership properties : damon
 formalizing architectural connections : allen
 forming grammars for structured documents an application of grammitcal inference : ahonen
 formula a programming language for expressive computer music : anderson
@@ -1559,11 +1549,9 @@ ibal a probabilistic rational programming language : pfeffer
 ibm powernp network processor  hardware software and applications : allen
 iconic control graph representation : robillard
 ideas or interests privacy in electronic communications : regan
-identification and measuring quality in a software requirements specification : davis
 identifying and qualifying reusable software components : caldiera
 identifying syntactic differences between two programs : yang
 identifying the difficulties of object oriented development : sheetz
-ieee 802.17 resilient packet ring tutorial : davik
 ieee project 802 standards efforts : gibson
 ilu : janssen
 ilu reference manual : janssen
@@ -1751,7 +1739,6 @@ java2d an introduction and tutorial : hall
 javascript essentials : goodman
 jello a retargetable just in time compiler for llvm bytecode : lattner
 jingle bells solving the santa claus problem in polyhponic c# : benton
-jini connection technology architecture overview : day
 jist an efficient approach to simulation using virtual machines : barr
 jit vs offline compilation limits and benefits of bytecode compilation : muller
 joeq a virtual machine and compiler infrastructure : whaley
@@ -1850,7 +1837,6 @@ llvm a compilation framework for lifelong program analysis transformation : latt
 load distributing for locally distributed systems : shivaratri
 locally least cost error recovery in earlys algorithm : anderson
 logic programming and compiler writing : warren
-logic programming as a representation of knowledge : dahl
 logical time capturing causality in distributed systems : raynal
 logical time in distributed computing systems : fidge
 loops : loops
@@ -1975,7 +1961,6 @@ multi return function call : shivers
 multi traversal tree decoration in a functional setting monads versus bindings : pennings
 multi valued constant propagation for the reengineering of interfaces : merlo
 multiaccess in a nonqueueing mailbox environment : ferguson
-multicast routing in datagram internetworks and extended lans : deering
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
 multilevel models in model driven engineering, product lines, and metaprogramming : batory
@@ -2265,7 +2250,6 @@ polymorphism and subtyping in interfaces : katiyar
 poor mans watchpoints : copperman
 portprep a portable repeated string finder : jones
 postscript tutorial : bourke
-pouring liquids a study in commonsense physical reasoning : davis
 power aware page allocation : lebeck
 power laws pareto distributions and zipfs law : newman
 powerpc 601 and alpha 21064 a tale of two risks : smith
@@ -2354,7 +2338,6 @@ programming with fudgets : hallgren
 programming with streams : nakata
 programming with streams in a pascal like language : nakata
 programming with system calls for interprocess communication : apollo
-programming with the http protocol : davidson
 programming world wide web pages in scheme : normark
 programming xml in java part 1 : johnson
 project athena as a distributed computer system : champine
@@ -2485,7 +2468,6 @@ representation of moving rigid objects based on visual observations : nagel
 representations and meta interpreters : krishnamurthi
 representing change by aspect : dolog
 representing control in the presence of one shot continuations : bruggemann
-representing structure and behavior of digital hardware : davis
 requirements validation via automated natural language parsing : nanduri
 residue arithmetic a tutorial with examples : taylor
 resource allocation for broadband networks : hui
@@ -2511,7 +2493,6 @@ rex xml shallow parsing with regular expressions : cameron
 rie a comipler generator based on a one pass type attribute grammar : sassa
 right triangulated irregular networks : evans
 rigor and proof in mathematics a historical perspective : kleiner
-rijndael the advanced encryption standard : daemen
 risk management : simmons
 robust distributed computing and sensing algorithm : brooks
 role based access control models : sandhu
@@ -2654,7 +2635,6 @@ slideshow functional presentations : findler
 slim binaries : franz
 slinky static linking reloaded : collberg
 slk a capability system based on save language technology : hawblitzel
-small forwarding tables for fast routing lookups : degermark
 small programming exercises : rem
 smart and stupid networks why the internet is like microsoft : odlyzko
 smart messages an object oriented communication mechanism for parallel systems : arjomandi 
@@ -2972,7 +2952,6 @@ the design and implementation of a grammar based data generator : maurer
 the design and implementation of a secure auction netowrk : franklin
 the design and implementation of the lout document formatting language : kingston
 the design implementation and evaluation of jade : rinard
-the design of a family of application oriented requirements languages : davis
 the design of the e programming language : richardson
 the design of the inferno virtual machine : winterbottom
 the development process generative pattern language : coplien
@@ -3257,7 +3236,6 @@ the unix programming environment : kernighan
 the unix system and software reusability : kernighan
 the unix tree rethough an introduction to globo linux : loderunner
 the unreasonable effectiveness of mathematics in the natural sciences : wigner
-the unrevised osi reference model : day
 the us west advanced technologies prototype multimedia communication system : bulick
 the usability engineering life cycle : nielson
 the usability of open source software : nichols
@@ -3427,7 +3405,6 @@ using an object oriented framework to construct wide area group communications m
 using as : elsner
 using as the gnu assembler : delsner
 using encryption for authentication in large computer networks : needham
-using executable domain models to implement legacy software reengineering : debaud
 using fuzzy sets to diagnose coronary artery stenosis : cios
 using induction to design algorithms : manber
 using inheritance to implement concurrency : ben-ari
@@ -3648,5 +3625,5 @@ sort
 
 # Local Variables:
 # eval: (auto-fill-mode -1)
-# eval: (fset 'd "\C-a\C-u1\C-k\C-[<")
+# eval: (progn (fset 'd "\C-a\C-u1\C-k\C-[<") (local-set-key (kbd "C-c d") 'd))
 # End:
