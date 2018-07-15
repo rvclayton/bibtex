@@ -1636,6 +1636,33 @@
   location     = "http://archive.arstechnica.com/paedia/n/ntfs/ntfs5-1.html"
 }
 
+@Article{ctprimvms,
+  author       = "Hartley, Stephen~J.",
+  title        = "Compile-Time Program Restructuring in Multiprogrammed Virtual Memory Systems",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1640--1644",
+  month        = nov,
+  keywords     = "operating systems, program restructuring, paging behavior,
+    performance",
+  abstract     = "An evaluation is made of a way to reduce the cost of program
+    restructuring by having a compiler determine the program's packing in
+    virtual address space from an analysis of its source code.  Two features of
+    this method are the duplication of code modules in virtual address space
+    and the inline substitution of the code for a called procedure.  This
+    compile-time restructuring algorithm is evaluated using the
+    instruction-only address traces from a collection of programs.  In a
+    simulation of a virtual memory system using disks as secondary storage
+    devices, the method is not successful, since it leads to a higher optimum
+    space-time execution cost than that of the unrestructured program.  The
+    algorithm did reduce program space-time execution cost for some arbitrarily
+    chosen memory allocations smaller than the optimum.  This could be useful
+    in a multiuser, multiprogrammed environment.", 
+  location     = "https://doi.org/10.1109/32.9051"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
