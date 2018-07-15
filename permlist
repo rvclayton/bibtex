@@ -819,6 +819,7 @@ comparison of two lan bridge approaches : soha
 compilation and delayed evaluation in apl : guibas
 compilation of stack based languages : ertl
 compile time copy elimination : schnorf
+compile time program restructuring in multiprogrammed virtual memory systems : hartley
 compiler construction : wirth
 compiler directed cache management in multiprocessors : cheong
 compilers and computer architecture : wulf
