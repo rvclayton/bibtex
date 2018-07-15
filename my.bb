@@ -1519,6 +1519,36 @@
   location     = "https://doi.org/10.1145/263105.263133"
 }
 
+@Article{ddcfhpc,
+  author       = "Matheou, George and Evripidou, Paraskevas",
+  title        = "Data-Driven Concurrency for High Performance Computing",
+  journal      = "ACM Transactions on Architecture and Code Optimization",
+  year         = 2017,
+  volume       = 14,
+  number       = 4,
+  pages        = 53,
+  month        = dec,
+  keywords     = "data-driven multithreading, distributed execution, runtime
+    system, high-performance computing, communication management, multi-core
+    scheduling",
+  abstract     = "In this work, we utilize dynamic dataflow/data-driven
+    techniques to improve the performance of high performance computing (HPC)
+    systems.  The proposed techniques are implemented and evaluated through an
+    efficient, portable, and robust programming framework that enables
+    data-driven concurrency on HPC systems.  The proposed framework is based on
+    data-driven multithreading (DDM), a hybrid control-flow/dataflow model that
+    schedules threads based on data availability on sequential processors.  The
+    proposed framework was evaluated using several benchmarks, with different
+    characteristics, on two different systems: a 4-node AMD system with a total
+    of 128 cores and a 64-node Intel HPC system with a total of 768 cores.  The
+    performance evaluation shows that the proposed framework scales well and
+    tolerates scheduling overheads and memory latencies effectively.  We also
+    compare our framework to MPI, DDM-VM, and OmpSs&commat;Cluster.  The
+    comparison results show that the proposed framework obtains comparable or
+    better performance.", 
+  location     = "https://doi.org/10.1145/3162014"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1780,7 +1810,7 @@
   title        = "Cleanroom Practice: {A} Theme and Variations",
   booktitle    = pot # "9th International Software Quality Week",
   year         = 1996,
-  keywords     = "software development, testing, specifications"z
+  keywords     = "software development, testing, specifications"
 }
 
 @TechReport{dacsbssbsalbl,
