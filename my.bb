@@ -1549,6 +1549,93 @@
   location     = "https://doi.org/10.1145/3162014"
 }
 
+@Article{tfrppt,
+  author       = "Anderson, David~P.",
+  title        = "Techniques for Reducing Pen Plotting Time",
+  journal      = tog,
+  year         = 1983,
+  volume       = 2,
+  number       = 3,
+  pages        = "197--212",
+  month        = jul,
+  keywords     = "line drawing, plotting, minimization, data structure, quadtree",
+  abstract     = "The amount of time used by a pen plotter in drawing a set of
+    line segments depends on the order and directions in which the segments are
+    drawn, and can generally be reduced by reordering and redirecting the
+    segments.  This paper represents practical techniques for reducing plotting
+    time.  A method is proposed in which a buffer of segments in maintained,
+    and the criterion used in choosing a segment from the buffer to draw is
+    that of closeness to the current pen position.  By storing the segment
+    endpoints in a quadtree data structure, it is possible to find the closest
+    endpoint in an amount of time which is essentially independent of the
+    buffer size.  We give algorithms for inserting, deleting, and finding
+    closest points in the quadtree.  The performance of the plotting time
+    reduction program in a sample of real-world applications is given.  Test
+    cases from data plotting, computer-aided design and VLSI design are used.", 
+  location     = "https://doi.org/10.1145/357323.357327"
+}
+
+@Article{dotboacdn,
+  author       = "Muayyad Al-Chalabi and William~J. Liss",
+  title        = "Design of the {B}ank of {A}merica {C}alifornia Data Network",
+  journal      = "AT\&T Technical Journal",
+  year         = 1988,
+  pages        = "87--106",
+  month        = nov # "/" # dec,
+  keywords     = "system engineering, datakit, network management, performance",
+  abstract     = "This paper describes Bank of America's California data
+    network, a corporate utility network that uses AT&T's Datakit
+    virtual-circuit-switch technology to consolidate multiple networks into a
+    single network.  The network is managed by AT&T's StarKeeper
+    network-management system and Dataphone II level-IV system controller.  The
+    network architecture consists of an access network that connects branches
+    to hubs, and a backbone network that interconnects hubs and data centers.
+    We address three fundamental areas: optimization of the network topology
+    and node configuration, performance analysis, and network management.
+    Network optimization deals with determining the optimal number of nodes,
+    access facilities engineering, and backbone configuration and routine.
+    Performance analysis shows the end-to-end delays for the applications.  In
+    the network management area, we discuss administration, disaster recovery,
+    network monitoring , and data collection." 
+}
+
+@Article{teonn40,
+  author       = "Matt Anderson",
+  title        = "The Evolution of {NTFS}: {NTFS} 4.0",
+  journal      = "Ars Technica",
+  keywords     = "file systems",
+  abstract     = "Welcome to Part I of my series, the Evolution of NTFS. Part I
+    deals with NTFS u through NTFS 1.1, the version of NTFS found in Windows NT
+    4.0 (and commonly called NTFS 4.0).  The article will give background t the
+    development o NTFS, and foreshadow some o the important changes found in
+    the next generation of NTF found in Windows 2000.  Part II wil focus
+    completely on NTFS 5.0 (yep, even Microsoft skipped a few numbers), and Par
+    III will talk about ways you ca integrate NTFS into a multi-OS environment.
+    If you're wanting to learn more about the version of NTFS found in Windows
+    2000, start here.  99% o this data is related to NTFS 5.0, and won't be
+    repeated in Part II.", 
+  location     = "http://archive.arstechnica.com/paedia/n/ntfs.html"
+}
+
+@Article{teonn50,
+  author       = "Matt Anderson",
+  title        = "The Evolution of {NTFS}: {NTFS} 5.0",
+  journal      = "Ars Technica",
+  keywords     = "file system",
+  abstract     = "What's in Part II? Part II is all about NTFS as it stands in
+    Windows 2000.  I'm going to cover most of the more highly touted features
+    of the semi-new filesystem, including Encrypting Filesystem (EFS),
+    Distributed Link Tracking, Quotas, and more.  NTFS 5.0, as it's called in
+    Windows 2000, is an important new step in the world of Win32 OSes, and even
+    folks who don't use NTWin2K should be interested.  How is it important?
+    Well, from an overview perspective, most of the new techs that I covered in
+    Windows 2000: 5-n-5 Top Features require the added functionality laid down
+    by the new NTFS release.  No matter what you're using now, if you're a
+    Microsoft OS user, you'll be getting acquainted with a form of NTFS in the
+    near future.", 
+  location     = "http://archive.arstechnica.com/paedia/n/ntfs/ntfs5-1.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1982,6 +2069,32 @@
   location     = "http://www.cs.cmu.edu/afs/cs/project/nitpick/www/ownership.html"
 }
 
+@TechReport{csejf,
+  author       = "John Foreman",
+  title        = "Cleanroom Software Engineering",
+  institution  = sei,
+  year         = 2005,
+  type         = "Software Technology Roadmap",
+  address      = ppa,
+  keywords     = "maturity, complementary technologies",
+  abstract     = "Cleanroom software engineering is a theory-based
+    team-oriented process for development and certification of high-reliability
+    software systems under statistical quality control.  A principal objective
+    of the Cleanroom process is development of software that exhibits zero
+    failures in use.  The Cleanroom name is borrowed from hardware Cleanrooms,
+    with their emphasis on rigorous engineering discipline and focus on defect
+    prevention rather than defect removal.  Cleanroom combines mathematically
+    based methods of software specification, design, and correctness
+    verification with statistical, usage-based testing to certify software
+    fitness for use.  Cleanroom projects have reported substantial gains in
+    quality and productivity.  This report defines the Cleanroom Software
+    Engineering Reference Model, or CRM.  The CRM is expressed in terms of a
+    set of 14 Cleanroom processes and 20 work products.  It is intended as a
+    guide for Cleanroom project management and performance, process assessment
+    and improvement, and technology transfer and adoption.", 
+  location     = "http://www.sei.cmu.edu/library/abstracts/reports/96tr022.cfm"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -2046,5 +2159,35 @@
   month        = aug,
   keywords     = "transactions, head, post, proxies, 1.1, clients, services",
   location     = "https://www.jmarshall.com/easy/http/"
+}
+
+@Misc{aamtkspsitsosr,
+  title        = "Analysis as Model: {T}homas {K}uhn's Paradigm Shift in the Structure of Scientific Revolutions",
+  howpublished = "WWW",
+  keywords     = "kuhn, philosophy of science",
+  location     = "http://webpages.shepherd.edu/maustin/kuhn/kuhnpaper.htm"
+}
+
+@Misc{mnhiw,
+  title        = "Mojo Nation --- How It Works",
+  howpublished = "WWW",
+  keywords     = "peer-to-peer networks, reputation systems, payment systems",
+  location     = "http://archive.li/YxpAA"
+}
+
+@Misc{siema,
+  author       = "Mitch Altman",
+  title        = "Soldering is Easy",
+  howpublished = "WWW",
+  keywords     = "soldering",
+  location     = "https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf"
+}
+
+@Misc{suassfur,
+  author       = "Ladd Angelius",
+  title        = "Set Up a Simple Syndication Feed Using {RSS}",
+  howpublished = "WWW",
+  keywords     = "rss, distribution, xml",
+  location     = "http://www.devx.com/xml/Article/10790"
 }
 
