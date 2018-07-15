@@ -530,7 +530,6 @@ an overview of the scala programming language : odersky
 an oz primer : smolka
 an unclever time sharing system : foster
 analysis and detection of computer viruses and worms an annotated bibliography : singh
-analysis as model thomas kuhns paradigm shift in the structure of scientific revolution : anon
 analysis of faults in an n version software experiment : brillant
 analysis of proposals for the floating point standard : cody
 analysis of visual motion by biological computer systems : ullman
@@ -651,7 +650,6 @@ behavioral consistency of c and verilog programs using bounded model checking : 
 being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
-beyond definition use architectural interconnection : allen
 beyond layering modularity considerations for protocol architectures : calvert
 beyond voip protocols : hersent
 beware of a new and ready made army of legal bots : sengar
@@ -770,7 +768,6 @@ class specification design by contract : anon
 classes and inheritance in actor oriented design : lee
 classification categories and historical development of circuit switching topologiecs : broomell
 cleanroom process model : linger
-cleanroom software engineering : anon
 clearing memory and partial register stalls in your code : barad
 client server caching revisited : franklin
 clocks in dataflow languages : caspi
@@ -1011,7 +1008,6 @@ design of ada systems yielding reusable components an approach using structured 
 design of cooperative process oriented environments using reactive components : geppert
 design of knowledge based systems with a knowledge based assistant : schoen
 design of reliable software in distributed systems using the conversation scheme : tyrrell
-design of the bank of america california data network : al-chalabi
 design of the programming lanauge forsythe : reynolds
 design of the x kernel : hutchinson 
 design pattern detection using similarity scoring : tsantalis
@@ -1115,7 +1111,6 @@ dynamic hashing schemes : enbody
 dynamic linking of software components : franz
 dynamic optimization through the use of automatic runtime specialization : whaley
 dynamic program monitoring and transformation using the omos object server : orr
-dynamic program slicing : agrawal
 dynamic reconfiguration basic building blocks for autonomic computing on ibm pseries servers : jann
 dynamic regeneration of software documentation : johnson
 dynamic scene analysis using pixel based processes : jain
@@ -1179,7 +1174,6 @@ enabling computational nanotechnolgy through javagenes in a cycle scavenging env
 enabling sip based sessions in ad hoc networks : banerjee
 encapsulated postscript files : eps
 encapsulation inheritance and the platypus effect : talin
-encoding of management information the use of abstract syntax notation one asn1 outline : anon
 end to end echo response time analysis on large mainframe unix systems : merges
 end to end routing behavior in the internet : paxon
 endian neutral software part 1 : gillig
@@ -1226,7 +1220,6 @@ experience in translating z designs to haskell implementation : sherrell
 experience with a software-defined machine architecture : wall
 experience with an extensible language : irons
 experience with fagans inspection method : doolan
-experience with some principles for building an internet scale reliable system : afergan
 experience with tcltk for scientific and engineering visualization : kernighan
 experience with the setl optimizer : freudenberger
 experiences with ada code generation : zorn
@@ -1344,7 +1337,6 @@ formal system design based on the synchrony hypothesis functional models and ske
 formal specification and design time testing : garrard
 formal verification of the aamp5 microprocessor : miller
 formalization in programming environments : goguen
-formalizing architectural connections : allen
 forming grammars for structured documents an application of grammitcal inference : ahonen
 formula a programming language for expressive computer music : anderson
 forward acknowledgement refining tcp congestion control  : mathis
@@ -1546,7 +1538,6 @@ hypernets good gnews for gnutella : gunther
 hyperprogramming a formal approach to software enviornments : goguen
 hypertext transfer protocol http : berners-lee
 ibal a probabilistic rational programming language : pfeffer
-ibm powernp network processor  hardware software and applications : allen
 iconic control graph representation : robillard
 ideas or interests privacy in electronic communications : regan
 identifying and qualifying reusable software components : caldiera
@@ -1627,7 +1618,6 @@ installing lcc : fraser
 installing python modules : ward
 instructions for the use of gzigzag : ervasti
 instrumenting programs for symbolic trace generation : huang
-inteconnection free biomolecular computing : aoki
 integrated voice data communication over high speed fiber optic networks : mukherjee
 integrating code generation and optimization : fraser
 integrating formal methods into the development process : kemmerer
@@ -1666,7 +1656,6 @@ interrupt processing in concurrent processors : walker
 interrupt protocol processing in the x kernel : bjorkman
 introducing undergraduates to object orientation using the turing language : holt
 introducing xns and xnsorg : engst
-introduction to abstract syntax notation one asn1 lagnguage and syntax outline : anon
 introduction to distributive categories : cockett
 introduction to logic programming : apt
 introduction to markov chains : dawson
@@ -1775,8 +1764,6 @@ language support for lightweight transactions : harris
 larch frequently asked questions : leavens
 larchant rdoss a distributed shared persistent memory and its garbage collector : shapiro
 latency lags bandwidth : patterson
-latex2e font selection : anon
-latex2e for class and package writers : anon
 lattice based access control models : sandhu
 law governed peer to peer auctions : fontoura
 laws of occam programming : roscoe
@@ -1939,7 +1926,6 @@ module algebra : bergstra
 module composition and refinement with applications to protocol conversion : calvert
 module imbedding : radenski
 module types module variables and their use as a universal encapsulation mechanism : radenski
-mojo nation how it works : anon
 molecular computing the lock key paradigm : conrad
 mom vs rpc communication models for distributed applications" : menasce
 monadic parser combinators : hutton
@@ -1964,7 +1950,6 @@ multiaccess in a nonqueueing mailbox environment : ferguson
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
 multilevel models in model driven engineering, product lines, and metaprogramming : batory
-multilink ppp one big virtual wan pipe : ammann
 multimedia conferencing on local area networks : ziegler
 multimedia storage servers a tutorial : gemmell
 multi paradigm programming : hanus
@@ -2474,7 +2459,6 @@ resource allocation for broadband networks : hui
 resource integration using a large knowledge base in carnot : collet
 resourceable retargetable modular instruction selection using a machine independent type based tiling of low level intermediate code : ramsey
 resourceful systems for fault tolerance, reliability, and safety : abbott
-response time in a teletext system an individual users perspective : ammar
 responsible web caching : berghel
 restaurant tipping and service quality : lynn
 restricted data types specification and enforcement of invariant properties of variables : buckle
@@ -2591,7 +2575,6 @@ serial isogons of 90 degrees : sallows
 service specification and protocol construction for the transport layer : murphy
 servlets faq : jguru
 set based analysis of ml programs : heintze 
-set up a simple syndication feed using rss : angelius
 setuid demystified : chen
 seven habits of successful pattern writers : vlissides
 sfs 0.5 manual : mazieres
@@ -2863,7 +2846,6 @@ teaching programming broadly and deeply the kernel language approach : van roy
 teaching programming in the oop era : burton
 technical context and cultural consequences of xml : adler
 techniques for aligning objects in drawing programs : raisamo
-techniques for reducing pen plotting time : anderson
 techniques for requirments elicitation : goguen
 temporal logic based deadlock analysis for ada : karam
 temporal logic case study : wood
@@ -2987,8 +2969,6 @@ the euclidean definition of the functions div and mod : boute
 the evolution of abstraction in programming languages : guarino
 the evolution of an object oriented compiler framework : graver
 the evolution of instruction sequencing : krick
-the evolution of ntfs : anderson
-the evolution of ntfs ntfs 5.0 : anderson
 the evolution of storage systems : morris
 the expected lifetime of single address space operating systems : kotz
 the external consistency of abstract data types : silberschatz
@@ -3044,7 +3024,6 @@ the insignificance of statistical significance testing : johnson
 the intel 432 a vlsi architecture for fault tolerant computer systems : johnson
 the interaction of the formal and the practical in parallel programming environment development code : werth
 the interlisp programming environment : teitelman
-the internet gopher protocol : anklesaria
 the introduction of definitional facilities into higher level programming languages : cheatham
 the java native code api : yellin
 the java virtual machine a passing fad : frantz
@@ -3136,7 +3115,6 @@ the pros and cons of teaching purely functional programming in first year : chak
 the psychology of how novices learn computer programming : mayer
 the public and its problems : dewey
 the public philosophy interest group liberalism : lowi
-the quality of open source production zealots and good samaritans in the case of wikipedia : anthony
 the quality without a name : gabriel
 the r6rs module system : simionato
 the radial sweep algorithm for constructing triangulated irregular networks : mirante
@@ -3322,7 +3300,6 @@ trampolines for embedded systems : link
 trans fatty acids and cardiovascular disease : mozaffarian
 transform methods and impage compression : hankerson
 transformational approach to program concretization : kasyanov
-transition to a legacy and reuse based software life cycle : ahrens
 translating forth to efficient c : ertl
 translation lookaside buffer consistency : teller
 translation of attribute grammars into procedures : katayama
