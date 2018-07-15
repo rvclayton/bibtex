@@ -504,8 +504,7 @@
 		 Twitchell and J. Gazara",
   title = 	"Construction of File Management Systems From Software
 		 Components", 
-  booktitle = 	pot # "Thirteenth Annual International
-		 Computer Software \& Applications Conference",
+  booktitle = 	pot # "Thirteenth Annual International Computer Software \& Applications Conference",
   year = 	1989,
   pages = 	"358--364",
   publisher = 	ieeecsp,
@@ -5429,8 +5428,7 @@
 
 @Book{bjatpotvi,
   author       = "Linda Gertner Zatlin",
-  title        = "Beardsley, Japonisme, and the Perversion of the Victorian
-		  Ideal", 
+  title        = "Beardsley, Japonisme, and the Perversion of the Victorian Ideal", 
   publisher    = cup,
   year         = 1997,
   address      = cen,
@@ -8557,8 +8555,7 @@
   author       = "Ole Agesen and Urs H{\"o}lzle",
   title        = "Type feedback vs. concrete type inference: {A} comparison of
 		  optimization techniques for object-oriented languages",
-  journal      = sigplan # " (OOPSLA '95, " # pot # "Tenth Annual Conference on
-		  " # oopsla # ")", 
+  journal      = sigplan # " (OOPSLA '95, " # pot # "Tenth Annual Conference on " # oopsla # ")", 
   year         = 1995,
   volume       = 30,
   number       = 10,
@@ -11442,7 +11439,8 @@
   month        = oct,
   keywords     = "modularity, production systems, leaning heuristics, semantic
 		  equivalence",
-  location     = "TK 7885.A1 I15X"
+  location     = "TK 7885.A1 I15X",
+  location     = "http://doi.ieeecomputersociety.org/10.1109/MC.1983.1654197"
 }
 
 @Article{lpaarok,
@@ -19025,19 +19023,6 @@
   keywords     = "parallel programming, performance tuning, multi-processor
 		  scheduling, visual performance displays",
   location     = "TK 7885.A1 I15"
-}
-
-@Article{tfrppt,
-  author       = "David~P. Andeerson",
-  title        = "Techniques for Reducing Pen Plotting Time",
-  journal      = "ACM Transactions on Graphics",
-  year         = 1983,
-  volume       = 2,
-  number       = 3,
-  pages        = "197--212",
-  month        = jul,
-  keywords     = "quad trees, optimization",
-  location     = ""
 }
 
 @Article{acsoansgte,
