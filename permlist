@@ -8,7 +8,6 @@ ca <<eof! |
 17 mistakes microsoft made in the xbox security system : steil
 23 things i know about modules for scheme : queinnec
 4.2 bsd and 4.3 bsd as examples of the unix system : quarterman
-56kbps data transmission across the pstn : henderson
 64 bit programming in a 32 bit world : nicholson
 8 ways to report errors in haskell : kidd
 802.11b access point mapping : byers
@@ -176,7 +175,6 @@ a new admission control method for real time communication in an internetwork : 
 a new approach to abstract data types i informal development : feferman
 a new approach to economic development an analysis of innovativeness in the states : berman
 a new approach to forth native code generation : ertl
-a new approach to object oriented middleware : henning
 a new architecture for the implementation of scripting languages : sah
 a new arq scheme for multicast satellite communication : quernheim 
 a new c compiler : thompson
@@ -651,7 +649,6 @@ being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
 beyond layering modularity considerations for protocol architectures : calvert
-beyond voip protocols : hersent
 beware of a new and ready made army of legal bots : sengar
 bias on the web : mowshowitz
 bidirectional data flow analysis myths and reality : khedker
@@ -738,7 +735,6 @@ cell a distributed computing modularization concept : silberschatz
 cellular automata for solving mazes : nayfeh
 census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
-certificate revocation : hope
 cget cput and stage safe file transport tools for the internet : cheswick
 cgi programming : hamilton
 cgi tcl reference manual : libes
@@ -1010,7 +1006,7 @@ design of cooperative process oriented environments using reactive components : 
 design of knowledge based systems with a knowledge based assistant : schoen
 design of reliable software in distributed systems using the conversation scheme : tyrrell
 design of the programming lanauge forsythe : reynolds
-design of the x kernel : hutchinson 
+design of the x kernel : hutchins 
 design pattern detection using similarity scoring : tsantalis
 design patterns abstraction and reuse of object oriented design : gamma
 design patterns in object oriented frameworks : srinivasan
@@ -1681,7 +1677,6 @@ io an estelle simulator for performance evaluation : fernandez
 io considered harmful at least for the first few weeks : rosenberg
 io issues in a multimedia system : reddy
 ip anycast point to any point communication : metz
-ip next generation overview : hinden
 ip switching and gigabit routers : newman
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
@@ -1807,7 +1802,6 @@ linkage in the nemesis single address space operating system : roscoe
 linux : winer
 linux device driver emulation in mach : goel
 linux for s390 technical notes on a large scale implementation : sine
-liquid software a new paradigm for networked systems : hartman
 lisp as an alternative to java : gat
 lisp good news bad news how to win big : gabriel
 literary machines : nelson
@@ -1936,7 +1930,6 @@ monads indexes and transformations : bellegarde
 monitoring for deadlock and blocking in ada tasking : german
 monitoring program execution a survey : plattner
 monitors an operating system structuring concept : hoare
-moores law and communications : hellman
 more programming puzzlers : bloch
 more than a gigabuck examining gnu linux's size : wheeler
 moscow ml owners manual : romanenko
@@ -2217,7 +2210,6 @@ pk a posix threads kernel : miller
 pl360 a programming language for the 360 computer : wirth
 pl360 textbook : guertin
 plan 9 from bell labs : pike
-plan a programming language for active networks : hicks
 planar geometric projections and viewing transformations : carlbom
 planet reference : miyata
 plasticfs : miller
@@ -2598,7 +2590,6 @@ silver an extensible attribute grammar system : van wyk
 sim a utility for detecting similarity in computer programs : gitchell 
 similar shape retrieval in shape data management : mehrotra
 simple register spilling in a retargetable compiler : fraser
-simplified ip addressing : hector
 simply typed lambda calculus : anonymous
 simulated annealing a heuristic optimization algorithm : plashikar
 simulating hypercubes in unix part i : hamilton
@@ -2698,7 +2689,6 @@ spambayes effective open source basesian based email classification : meyer
 sparc assembly language reference manual : sparc
 spatial data and the voronoi tessellation : lukatela
 specification and analysis of a data transfer protocol using systems of communicating machines : lundy
-specification and analysis of intercomponent communication : heimdahl
 specification and verification of time dependent communication protocols : shankar
 specification of basic encoding rules for abstract syntax notation one asn 1 : itu
 specification of iterators : lamb
@@ -2820,7 +2810,6 @@ synthesis of communication protocols survey and assessment : probert
 synthesis of operation centric hardware descriptions : hoe
 synthesis of synchronous assertions with guarded atomic actions : pellauer
 synthetic perturbation techniques for screening shared-memory programs : snelick
-system architecture directiosn for networked sensors : hill
 system deadlocks : coffman
 system modelling with high level petri nets : genrich
 system support for efficient dynamically configurable multi party interactive multimedia applications : moran
@@ -2914,7 +2903,6 @@ the construction of software systems using domain specific reuse infrastructures
 the crisis wide area security architecture : belani
 the cweb system of structured documentation : knuth
 the dark side of the web an open proxys view : pai
-the darpa internet interconnecting hetergeneous computer networks with gateways : hinden
 the dawn of the stupid network : isenberg
 the dawning of the autonomic computing era : ganek
 the dcode intermediate program representation reference manual and report : gough
@@ -3121,7 +3109,6 @@ the r6rs module system : simionato
 the radial sweep algorithm for constructing triangulated irregular networks : mirante
 the reactive keyboard a predictive typing aid : darragh
 the real meaning of architecture : fisher
-the reflective practitioner perspective in software engineering education : hazzan
 the relevance of education : bruner
 the representation problem in reverse engineering : rugaber
 the resuability challenge : meyer
@@ -3496,7 +3483,6 @@ why c++ is not very fit for gui programming : kiselyov
 why events are a bad idea for high concurrency servers : von behren 
 why gnutella can't scale : ritter
 why pascal is not my favorite programming language : kernighan
-why people do and dont wear active badges a case study : harper
 why procedural is the wrong first paragidm if oop is the goal : bergin
 why politics needs religion : sweetman
 why software jewels are rare : parnas
