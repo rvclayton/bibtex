@@ -1663,6 +1663,24 @@
   location     = "https://doi.org/10.1109/32.9051"
 }
 
+@Article{hidp,
+  author       = "Hillier, Bill and Leaman, Adrian",
+  title        = "How is Design Possible?",
+  journal      = "Journal of Architectural and Planning Research",
+  year         = 1974,
+  volume       = 3,
+  number       = 1,
+  pages        = "4--11",
+  month        = jan,
+  keywords     = "genotypes, phenotypes, solution fields",
+  abstract     = "This paper approaches the question 'how is design possible?'
+    by suggesting that design is a relatively simple set of operations carried
+    out on highly complex structures, which are themselves simplified by
+    'theories' and modes of representation.  The analysis strongly suggests
+    that if design method is to be improved then it is more important to study
+    the environment itself than how designers design."
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -2120,6 +2138,67 @@
     guide for Cleanroom project management and performance, process assessment
     and improvement, and technology transfer and adoption.", 
   location     = "http://www.sei.cmu.edu/library/abstracts/reports/96tr022.cfm"
+}
+
+@TechReport{watps,
+  author       = "Lee Haugen",
+  title        = "Writing a Teaching Philosophy Statement",
+  institution  = "Center for Teaching Excellence, Iowa State University",
+  year         = 1998,
+  address      = "Ames, Iowa",
+  month        = mar,
+  keywords     = "teaching, objectives, tactics, commitment, justification",
+  location     = "https://www.learner.org/workshops/hswriting/support/writingTeachPhilosophy.pdf"
+}
+
+@TechReport{paplfan,
+  author       = "Michael Hicks and Pankaj Kakkar and Jonathan~T. Moore and Carl~A. Gunter and and Scott Nettles",
+  title        = "{PLAN}: {A} Programming Language for Active Networks",
+  institution  = "Department of Computer and Information Science, University of Pennsylvania",
+  year         = 1997,
+  address      = phpe,
+  month        = "7 " # nov,
+  keywords     = "active networking, code injection, protection",
+  abstract     = "PLAN (Programming Language for Active Networks) is a new
+    language for programs that are carried in the packets of a programmable
+    network.  PLAN programs replace the packet headers (which can be viewed as
+    `dumb' programs) used in current networks.  As a header replacement, PLAN
+    programs must be lightweight and of limited functionality.  These
+    limitations are mitigated by allowing PLAN code to call service routines
+    written in other, more powerful languages.  These service routines may also
+    be loaded into the routers dynamically.  This two-level architecture, in
+    which PLAN serves as a scripting or `glue' language for more general
+    services, is the primary contribution of the paper.  PLAN is a strict
+    functional language providing a limited set of primitives and datatypes.
+    PLAN defines primitives for remotely executing PLAN programs on other
+    nodes, and these primitives are used to provide basic data transport in the
+    network.  Because remote execution makes debugging difficult, PLAN provides
+    strong static guarantees to the programmer, such as type safety.  A more
+    novel property aimed at protecting network availability is a guarantee that
+    plan programs use a bounded amount of space and time on active routers and
+    bandwidth in the network." 
+}
+
+@TechReport{mslac,
+  author       = "Martin~E. Hellman",
+  title        = "Moore's Law and Communications",
+  institution  = "Department of Electrical Engineering, Stanford University",
+  year         = 2003,
+  address      = paca,
+  month        = "11 " # jun,
+  keywords     = "communication, moore's law",
+  location     = "https://ee.stanford.edu/~hellman/opinion/moore.html"
+}
+
+@TechReport{5dtatp,
+  author       = "Michael Henderson",
+  title        = "56kbps Data Transmission Across the {PSTN}",
+  institution  = "Network Access Division, Conexant Systems, Inc.",
+  year         = 1998,
+  address      = "St. Louis, Missouri",
+  month        = "14 " # oct,
+  keywords     = "modems",
+  location     = "http://www.michael-henderson.us/Papers/56Kbps.pdf"
 }
 
 @Manual{atajsm,
