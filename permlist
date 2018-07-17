@@ -2319,6 +2319,7 @@ programming with system calls for interprocess communication : apollo
 programming world wide web pages in scheme : normark
 programming xml in java part 1 : johnson
 project athena as a distributed computer system : champine
+project oberon : wirth
 prolac language reference manual : kohler
 promela a language for constructing correct and efficient protocols : basu
 prometheus or pandora the influence of automation on society : simon
@@ -3453,6 +3454,7 @@ what are mactimes : farmer
 what are principal typings and what are they good for : jim
 what are race conditions : netzer
 what has influenced computing innovation : hughes
+what i wish i knew when learning haskell : diehl
 what if mass storage were free : copeland
 what is a is and isn't an analysis of taxonomic links in semantic networks : brachman
 what is a library anymore anyway : keller
