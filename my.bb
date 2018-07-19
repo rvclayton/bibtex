@@ -364,6 +364,26 @@
   location     = "QA 76.73.C15 W39"
 }
 
+@Book{smtktikbi,
+  title        = "Student Modelling:  The Key to Individualized Knowledge-Based Instruction",
+  publisher    = "Springer",
+  year         = 1994,
+  editor       = "Jim~E. Greer and Gordon~I. McCalla",
+  address      = "Berlin, Germany",
+  keywords     = "student models, learning",
+  location     = "LB 1028.45 S74"
+}
+
+@Book{mamgc,
+  author       = "Gregory Caleys",
+  title        = "Marx and Marxism",
+  publisher    = "Nation Books",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "marx, marxism, history, politics, economics",
+  location     = ""
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1681,6 +1701,18 @@
     the environment itself than how designers design."
 }
 
+@Article{apsfhscobi,
+  author       = "Zygmunt Haas",
+  title        = "{A} Protocol Structure for High-Speed Communication Over Broadband {ISDN}",
+  journal      = "IEEE Network Magazine",
+  year         = 1991,
+  volume       = 5,
+  number       = 1,
+  pages        = "64--70",
+  month        = jan,
+  keywords     = "protocol stacks, software architecture"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -1945,6 +1977,26 @@
   keywords     = "software development, testing, specifications"
 }
 
+@InProceedings{annatsutbs,
+  author       = "N.~Z. Hakim and H.~E. Meadows",
+  title        = "{A} Neural Network Approach to Set Up the {B}enes Switch",
+  booktitle    = "Ninth Annual Joint Conference of the IEEE Computer and Communication Societies (INFOCOM '90)",
+  year         = 1990,
+  month        = "3--7 " # jul,
+  keywords     = "neural networks",
+  abstract     = "A novel technique for setting up the Benes switch that has
+    essentially optimal time complexity when implemented on a neural network is
+    presented.  This approach consists of defining distances between input or
+    output ports and expressing the Banyan network's ability to realize a given
+    permutation in terms of a distance matrix.  This description allows a
+    neural network implementation of the setup algorithm.  It is shown that the
+    neural network converges to a solution that will allow the switch to
+    self-route the information according to the desired permutation.  The time
+    complexity of this operation is closer to optimal and the hardware simpler
+    to implement than with previously presented algorithms", 
+  location     = "http://dx.doi.org/10.1109/INFCOM.1990.91274"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -2199,6 +2251,16 @@
   month        = "14 " # oct,
   keywords     = "modems",
   location     = "http://www.michael-henderson.us/Papers/56Kbps.pdf"
+}
+
+@TechReport{wiwikwlh,
+  author       = "Stephen Diehl",
+  title        = "What {I} Wish {I} Know When Learning Haskell",
+  year         = 2012,
+  month        = "10 " # sep,
+  keywords     = "haskell, cabal, ghci, monads, applicative functors, arrows,
+    gadts, lambda calculus, hoas, core, typeclasses, monad transformers, quickcheck",
+  location     = "http://dev.stephendiehl.com/hask/"
 }
 
 @Manual{atajsm,
