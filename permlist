@@ -169,7 +169,6 @@ a multiparty coordination aspect language : corchuelo
 a nanopass framework for compiler education : sarkar
 a nation of strangers : katz
 a network file system over http remote access and modification of files and files : kiselyov
-a neural network approach to set up the benes switch : hakim
 a neural network expert system for diagnosing and treating hypertension : poli
 a new admission control method for real time communication in an internetwork : ferrari
 a new approach to abstract data types i informal development : feferman
@@ -619,7 +618,6 @@ automatic derivation of code generators from machine descriptions : cattell
 automatic formal synthesis of hardware from higher order logic : gordon
 automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
-automatic implementation of formal descriptions of communication protocols : hansson 
 automatic mining of source code repositories to improve bug finding techniques : williams
 automatic predicate abstraction of c programs : ball
 automatic synthesis of state machines from trace diagrams : koskimies
@@ -862,7 +860,6 @@ concurrent reading and writing : lamport
 concurrent runtime monitoring of formally specified programs : sankar
 condition handling in the lisp language family : pitman
 conflicts : clark
-conformational automata in the cytoskeleton : hameroff
 congestion avoidance and control : jacobson
 congestion control and traffic management in atm networks recent advances and a survey : jain
 conjunction as composition : zave
@@ -1662,7 +1659,6 @@ introduction to probability : grinstead
 introduction to shape and shape grammars : stiny
 introduction to simulated annealing : tovy
 introduction to stream control transmission protocol : newmarch
-introduction to the border gateway protocol bgp : hankins
 introduction to the configurable highly parallel computer : snyder
 introduction to the formal treatment of testing : gourlay
 introduction to the literature on semantics : leavens
@@ -1696,7 +1692,6 @@ javagenes and condor cycle scavenging genetic algorithms : globus
 jabber server v1.2 technical white paper : jabber
 jade a high level machine independent language for parallel programming : rinard
 java 2 distributed object middleware performance analysis and optimization : juric
-java as a first programming language a critical evaluation : hadjerroult
 java as an intermediate language : hardwick
 java bytecode compression for low end embedded systems : clausen
 java code conventions : anon
@@ -1915,7 +1910,6 @@ modular denotational semantics for compiler construction : liang
 modular design of real time systems : haase
 modular extensions to z : sampaio
 modular scheduling of atomic actions : rosenband
-modular verification of computer communication protocols : hailpern
 modularity and efficiency in protocol implementation : clark
 module algebra : bergstra
 module composition and refinement with applications to protocol conversion : calvert
@@ -2091,7 +2085,6 @@ open programming services for virtual machines the design of mozart and seam : b
 openbsd : openbsd
 openc++ tutorial : chiba
 operating systems : anderson
-operating systems and middleware : hailperin
 operation centric hardware description and synthesis : hoe
 operation of hdlc abm in harsh error environments a robust extension : fairhurst
 operational machine specification in a functional programming language : koopman
@@ -2416,7 +2409,6 @@ refinement calculus part i sequential nondeterministic programs : back
 refinement calculus part ii parallel and reactive programs : back
 reflection and semantics in lisp : smith
 reflections on an operating system design : lampson
-reflection on notecards seven issues for the next generation of hypermedia systems : halasz
 reflections on the high level language symbol computer system : ditzel
 reflections on trusting trust : thompson
 reflective facilities in smalltalk 80 : foote
@@ -2596,7 +2588,6 @@ simulated annealing a heuristic optimization algorithm : plashikar
 simulating hypercubes in unix part i : hamilton
 simulating hypercubes in unix part ii : hamilton
 simulating plant growth : grubert
-simulating software development processes : hansen
 simulating student programmers : spohrer
 simulation lecture notes : nakayama
 single pass generation of static single assignment form for structured languages : brandis
@@ -2818,7 +2809,6 @@ systematic program development : dromey
 systems software research is irrelevant : pike
 tabu search part ii : glover
 taco protyping high level object oriented programming constructs by means of template based programming techniques : nolte
-tahuti a geometrical sketch recognition system for uml class diagrams : hammond
 take pity on the user the red customization package : prunet
 tango a framework and system for algorithm animation : stasko
 tangrams : mathew
@@ -3287,7 +3277,6 @@ traits classes : becker
 traits composable units of behavior : sharli
 trampolines for embedded systems : link
 trans fatty acids and cardiovascular disease : mozaffarian
-transform methods and impage compression : hankerson
 transformational approach to program concretization : kasyanov
 translating forth to efficient c : ertl
 translation lookaside buffer consistency : teller
