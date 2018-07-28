@@ -374,7 +374,6 @@ adaptive delta modulation : knott
 adaptive parallelism and piranha : carriero
 adaptive programming : gouda
 adaptive routing protocols for hypercube interconnection networks : gaughan
-adaptive service composition in flexible processes : ardagna
 adaptive star grammars and their languages : drewes
 adaptive unsharp masking : kientzle
 adding dynamic interfaces to smalltalk : sadeh
@@ -1811,7 +1810,7 @@ llgen an extended ll1 parser generator : jacobs
 llnextgen user manual : halkes
 llvm a compilation framework for lifelong program analysis transformation : lattner
 load distributing for locally distributed systems : shivaratri
-locally least cost error recovery in earlys algorithm : anderson
+locally least cost error recovery in earleys algorithm : anderson
 logic programming and compiler writing : warren
 logical time capturing causality in distributed systems : raynal
 logical time in distributed computing systems : fidge
@@ -2260,7 +2259,6 @@ process groups and group communication : liang
 process scheduling and unix semaphores : dunstan
 process semantics global axioms compositional rules and applications : nguyen
 processes are in the eye of the beholder : lamport
-processor reconfiguration through instruction set metamorphosis : athanas
 producing an accurate call stack trace in the occasional absence of frame pointers : copperman
 productivity incentive clauses and rate adjustment for inflation : baumol
 profile guided automatic inline expansion for c programs : chang
