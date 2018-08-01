@@ -11,6 +11,7 @@ ca <<eof! |
 64 bit programming in a 32 bit world : nicholson
 8 ways to report errors in haskell : kidd
 802.11b access point mapping : byers
+a behavioral notion of subtyping : liskov
 a better api for first class continuations : feeley
 a bibliography of garbage collection and related topics : sankaran
 a bibliography of programming style : thomas
@@ -1179,7 +1180,7 @@ entity structure based design methodology a lan protocol example : sevinc
 enumerating the rationals : gibbons
 enumerating the strings of regular languages : mcilroy
 equational reasoning about nondeterministic processes : misra
-error control coding in computers : fujiwara
+error control coding in computers : fujiwra
 error correction of a large architectural model the henderson county courthouse : erikson
 error repair in shift reduce parsers : mckenzie
 es extensible shell : es
@@ -1602,6 +1603,7 @@ information systems security design methods implications for information systems
 information theory complexity and neural networks : abu-mostafa
 inheritance : shasha
 inheritance is not subtyping : cook
+inheritance of interface specifications : leavens
 ingest a simple program for performing distributed relational database operations : silberberg
 inlining semantics for subroutines which are recursive : baker
 inside hector the systems view : reid
