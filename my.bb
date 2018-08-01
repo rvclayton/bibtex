@@ -1,6 +1,7 @@
 .so bibtex.header
 		  
 @string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
+@string{idl94 = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
 		  
 @Book{tdoetn,
   author       = "Tom Nichols",
@@ -1793,6 +1794,49 @@
     automatically encompass a wider range of educational domains with little
     designer intervention.", 
   location     = "http://dx.doi.org/10.1016/j.asoc.2005.03.001"
+}
+
+@Article{iois,
+  author       = "Gary~T. Leavens",
+  title        = "Inheritance of interface specifications",
+  journal      = sigplan # idl94,
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "129--138",
+  month        = aug,
+  keywords     = "modularity, information loss",
+  abstract     = "Four alternatives for the semantics of inheritance of
+    specifications are discussed.  The information loss and frame axiom
+    problems for inherited specifications are also considered.",
+  location     = "https://doi.org/10.1145/185084.185117"
+}
+
+@Article{pvil,
+  author       = "Pippenger, Nicholas",
+  title        = "Pure versus Impure {L}isp",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 19,
+  number       = 2,
+  pages        = "223--238",
+  month        = mar,
+  keywords     = "online computation, schematology, lisp machines, upper and
+    lower bounds",
+  abstract     = "The aspect of purity versus impurity that we address involves
+    the absence versus presence of mutation: the use of primitives (RPLACA and
+    RPLACD in Lisp, set-car! and set-cdr! in Scheme) that change the state of
+    pairs without creating new pairs.  It is well known that cyclic list
+    structures can be created by impure programs, but not by pure ones.  In
+    this sense, impure Lisp is more powerful than pure Lisp.  If the inputs and
+    outputs of programs are restricted to be sequences of atomic symbols,
+    however, this difference in computability disappears.  We shall show that
+    if the temporal sequence of input and output operations must be maintained
+    (that is, if computations must be online), then a difference in complexity
+    remains: for a pure program to do what an impure program does in n steps,
+    O(n log n) steps are sufficient, and in some cases ¿(n log n) steps are
+    necessary.", 
+  location     = "https://doi.org/10.1145/244795.244798"
 }
 
 @InProceedings{amitbpl,
