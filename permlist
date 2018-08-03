@@ -130,7 +130,6 @@ a laboratory for teaching object oriented thinking : beck
 a lambda calculus of objects and method specialization : mitchell
 a language based approach to protocol construction : basu thesis
 a language based approach to protocol construction : basu 
-a language based approach to protocol implementation : abbott
 a language for specifying program transformations : hildum
 a language for writing code generators : fraser
 a language with distributed scope : cardelli
@@ -327,7 +326,6 @@ a users guide to planet : miyata
 a users manual for metapost : hobby
 a vcode tutorial : engler
 a verified connection management protocol for the transport layer : murphy
-a very high speed architecture for simulated annealing : abramson
 a voice over ip service architecture for integrated communications : rizzetto
 a weakness in the 4.2 bsd unix tcp ip software : morris
 a whirlwind tutorial on creating really teensy elf executables for linux : raiter
@@ -368,7 +366,6 @@ ada and software defelopment support a new concept in language design : leblanc
 ada system dependency analyzer tool : baratta
 adaptable pointer swizzling strategies in object bases design realization and quantitative analysis : kemper
 adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
-adapting correcting and perfecting software estimates a maintenance metaphor : abdel
 adaptive automata for context dependent languages : neto
 adaptive block coding : deel
 adaptive delta modulation : knott
@@ -433,7 +430,6 @@ alternatives in efficient protocol implementations for high speed networks : gun
 alternatives to two classic data structures : okasaki
 american business public policy case studies and political theory : lowi
 amoeba a distributed operating systems for the 1990s : mullender
-amorphous computing : abelson
 amroute adhoc multicast routing protocol : xie
 an access control facility for programming languages : jones
 an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
@@ -531,7 +527,6 @@ analysis of faults in an n version software experiment : brillant
 analysis of proposals for the floating point standard : cody
 analysis of visual motion by biological computer systems : ullman
 analyzing and compressing assembly code : fraser
-analyzing differences between internet information systems software architectures : abowd
 analyzing distributed algorithms with first order logic : shlyakhter
 and efficient parallel garbage collection system and its correctness proof : kung
 and or programs a new approach to structured programming : harel
@@ -647,7 +642,6 @@ being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
 beyond layering modularity considerations for protocol architectures : calvert
-beware of a new and ready made army of legal bots : sengar
 bias on the web : mowshowitz
 bidirectional data flow analysis myths and reality : khedker
 bif a behavioral intermediate format for high level synthesis : dutt
@@ -699,7 +693,6 @@ c# introduction : hejlsberg
 c++ aplicators and manipulators : charney
 c++ namespaces : pennello
 c++ type traits : maddock
-c++x0 feature support in gcc 4.5 : sen
 c-- a portable assembly language that supports garbage collection : peyton jones
 c based interactive rtl design methodology : shin
 c grammars : mckeeman
@@ -1029,7 +1022,6 @@ detecting duplicate code with pmds cpd : copland
 detecting mutual consistency of shared objects : ahamad
 determinacy testing for nondeterminate logic programming languages : tick
 developing and using snd editing sound under linux parts 1 and 2 : phillips
-developing distributed object computing applications with corba : schmidt
 developing dynamic reconfigurable communication protocol stacks using java : lee
 developing your own 32 bit operating system : burgess
 development of communication software by stepwise refinement : freudenmann
@@ -1045,7 +1037,6 @@ directions and issues in architecture and language : flynn
 directory based cache coherence in large scale multiprocessors : chaiken
 dis virtual machine specification : dis
 disciplined c : noyelle
-discovering architectures from running systems : schmerl
 discovering documentation for java container classes : henkel
 discovering machine specific code improvements : kessler
 discovering properties about arrays in simple programs : halbwachs
@@ -1055,7 +1046,6 @@ dispelling java programming language myths : haggar
 display condensation of program text : archer
 display techniques for octree encoded objects : doctor
 distel distributed emacs lisp for erlang : gorrie
-distributed computer systems for industrial control : schoeffler
 distributed computing economics : gray
 distributed coordination models for client server computing : adler
 distributed database systems where are we now : ozsu
@@ -1176,7 +1166,6 @@ engineering and education for the future : lee
 engineering notebook an extreme programming episode : martin
 engineering notebook template method and strategy inheritance vs delegatin : martin
 enriched languages : baumann
-entity structure based design methodology a lan protocol example : sevinc
 enumerating the rationals : gibbons
 enumerating the strings of regular languages : mcilroy
 equational reasoning about nondeterministic processes : misra
@@ -1201,7 +1190,6 @@ evolution of data base management systems : fry
 evolution of metropolitan area networks to broadband isdn : byrne
 evolution of test and code via test first design : langr
 evolution of the ethernet local computer network : shoch
-examination of the applicability of router and bridging techniques : salwen
 example based graphical database query languages : ozsoyoglu
 exception handling in pli : maclaren
 exceptional java : griffiths
@@ -1259,7 +1247,6 @@ failure resilient transaction management in multidatabases : soparkar
 fast algorithms for sorting and searching strings : bentley
 fast and scalable layer four switching : srinivasan
 fast and small resizable arrays : demaine
-fast antialiasing : abrash
 fast approximate string matching : owolabi 
 fast cheap and out of control a robot invasion of the solar system : brooks
 fast effective dynamic compilation : auslander
@@ -1275,7 +1262,6 @@ fault tolerance in commercial computers : siewiorek
 fault tolerant clock synchronization in distributed systems : ramanathan
 fault tolerant computing fundamental concepts : nelson
 fault tolerant semiconductor memories : sarrazin
-fault tolerant systems in commercial applications : serlin
 fc++ founctional tools for object oriented tasks : smaragdakis
 feature interactions and formal specifications in telecommunications : zave
 feeding frenzy selectively materalizing users event feeds : silberstein
@@ -1342,7 +1328,6 @@ frame relaying and the fast packet switching concepts and issues : rahnema
 framework for implementing the next generation of communication protocols : fry
 framework for implementing the next generation of computing protocols : fry
 frameworks for intra and interprocedural dataflow analysis : chambers
-free riding on gnutella : adar
 freenets next generation routing protocol : clarke
 from constructivism to computer science : troelstra
 from live sequence charts to state machines and back a guided tour : bontemps
@@ -1435,7 +1420,6 @@ graph data management for molecular and cell biology : eckman
 graph drawing by force directed placement : fruchterman
 graph traversals : rolfe
 graphical configuration programming : kramer
-graphical fisheye views : sarkar
 gray codes for partial match and range queries : faloutsos
 great principles in computing curricula : denning
 greedy algorithms : greedy
@@ -1583,7 +1567,6 @@ in memoriam j c r licklider : licklider
 inc a language for incremental computations : yellin
 incomputability : hoare
 increasing mom flexibility with portable rule bases : curry
-increasing network throughput by integrating protocol layers : abbott
 increasing the observability of internet behavior : chen
 incremental analysis of real programming languages : wagner
 incremental attribute evaluation a flexible algorithm for lazy update : hudson
@@ -1600,7 +1583,6 @@ influence of visual technology on the evolution of language environments : amble
 information encoding with two dimensional bar codes : pavlidis
 information presentation cascading style sheets : lilley
 information systems security design methods implications for information systems development : baskerville
-information theory complexity and neural networks : abu-mostafa
 inheritance : shasha
 inheritance is not subtyping : cook
 inheritance of interface specifications : leavens
@@ -1616,7 +1598,6 @@ integrated voice data communication over high speed fiber optic networks : mukhe
 integrating code generation and optimization : fraser
 integrating formal methods into the development process : kemmerer
 integrating internet telephony services : jiang
-integrating status and event phenomena in formal specifications of interactive systems : abowd
 integration or separation : gelernter
 intel microprocessors 8008 to 8086 : morse
 intensional equality for continuations : appel
@@ -1662,7 +1643,6 @@ introduction to stream control transmission protocol : newmarch
 introduction to the configurable highly parallel computer : snyder
 introduction to the formal treatment of testing : gourlay
 introduction to the literature on semantics : leavens
-introduction to the special issue on price cap regulation : acton
 introduction to tla : lamport
 introduction to web services architecture : gottschalk
 intrusion detection for the masses : bauer
@@ -1747,7 +1727,6 @@ korbit a kernel space corba orb : lattner
 krypton a functional approach to knowledge representation : brachman
 lambda the ultimate imperitive : steele
 lambdamoo programmers manual : curtis
-lan and io convergence a survey of the issues : sachs
 lan protocol modeling and performance evaluation : yuang
 language bindings for xml : simeon
 language processing in program editors : reps
@@ -2011,7 +1990,6 @@ number representations and dragon curves i : davis
 number representations and dragon curves ii : davis
 oberon script a lightweight compiler and runtime system for the web : sommerer
 oberon technical notes : pfister
-object centered design for java teaching ood in cs 1 : adams
 object message and performance how they coexist in self : ungar
 object orientation in heterogeneous distributed computing systems : nicol
 object oriented abstractions for distributed programming : guerraoui
@@ -2338,7 +2316,6 @@ protocols for providing performance guarantees in a packet switching internet : 
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
 prototyping versus specifying a multiproject experiment : boehm
-providing emergency services in internet telephony : schulzrinne
 providing reliable nt desktop services by avoiding nt server : limoncelli
 proving liveness properties of concurrent programs : owicki
 proving the correctness of the static link technique using evolving algebras : mohnen
@@ -2363,7 +2340,6 @@ rafts for basic blocks a progress report on forth native code compilation : ertl
 rajdoot a remote procedure call mechanism supporting orphan detection and killing : panzieri
 ram guide part 1 dram and sram basics : stokes
 random early detection gateways for congestion avoidance : floyd
-random event simulation for c programs : scolnick
 randomized shuffling : rolfe
 rapid case dispatch in scheme : clinger
 rate control in standard transport layer protocols : eldridge
@@ -2611,7 +2587,7 @@ smgn rapid prototyping of small domain specific languages : kienle
 sml tk functional programming for graphical user interfaces : luth
 soap simple object access protocol : box
 sockets programming in java a tutorial : mahmoud
-soft typing : cartwright
+soft typing : carwright
 software abstractions : jackson
 software assurance by bounded exhaustive testing : yang
 software based replication for fault tolerance : guerraoui
@@ -2645,7 +2621,6 @@ using javascript as a real programming language : mikkonen
 using meta level compilation to check flash protocol code : chou
 using metrics in management decision making : stark
 using metrics to evaluate software system maintainability : coleman
-using multicast fec to solve the midnight madness problem : schooler
 using procedural parameters and continuations in combinatorial searches : hwang
 using production grammars in software testing : sirer
 using sfs for a secure network file system : fu
@@ -2823,7 +2798,6 @@ teaching objects first in introductory computer science : cooper
 teaching oo putting the object back into ood : coplien
 teaching programming broadly and deeply the kernel language approach : van roy
 teaching programming in the oop era : burton
-technical context and cultural consequences of xml : adler
 techniques for aligning objects in drawing programs : raisamo
 techniques for requirments elicitation : goguen
 temporal logic based deadlock analysis for ada : karam
@@ -2965,7 +2939,6 @@ the function of function in lisp : moses
 the future of ideas : lessig
 the future of internet addresses : bieringer
 the future of internet worms : nazario
-the future of operational research is past : ackoff
 the future of peer to peer computing : loo
 the future of programming languages evidence to support a midwest university information systems curriculum : wenger
 the future of software engineering : humphrey
@@ -2976,7 +2949,6 @@ the geometry of concurrent programs : carson
 the gnu 64 bit pl8 compiler toward an open standard environment for firmware development : gellerich
 the gnutella protocol : gnutella
 the go programming language : go
-the good the bad and the run sliced : abrash
 the google file system : ghemawat
 the grid protocol a high performance scheme for maintaining replicated data : cheung
 the growth of interest in microprogramming a literature survey : wilkes
@@ -3020,7 +2992,6 @@ the larch smalltalk interface specification language : cheon
 the learning psychology of visual programming for object orientation : ireland
 the leden character recognizer : newman
 the lessons of lucasfilms habitat : morningstar
-the life of a carpet an application of the alexander rules : salingaros
 the limbo programming language : anon
 the limbo programming language : ritchie
 the limits of quantum computers : aaronson
@@ -3078,7 +3049,6 @@ the polyadic pi calculus a tutorial : milner
 the portland experience a report on a distributed research group : olson
 the power elite : mills
 the power of /proc : galvin
-the powerdot class : adriaens
 the precc compiler compiler : breuer
 the pretzelbook : gartner
 the principles of large scale computing machines : von neumann
@@ -3121,8 +3091,6 @@ the self 4.1 programmers reference manual : agesen
 the semantics of a simple language for parallel programming : kahn
 the semantics of the c++ programming language : wallace
 the semantics of verilog using transition system combinators : pace
-the session initiation protocol internet centric signaling : schulzrinne
-the session initiation protocol providing advanced telephony services across the internet : schulzrinne
 the sextant software exploration tool : schafer
 the sharpe ratio : sharpe
 the signal data flow methodology applied to a production cell : amagbegnon
@@ -3205,7 +3173,6 @@ the visitor pattern : cartwright
 the viva file system : herrin
 the wall street performer protocol using software completion bonds to fund open source software development : rasch
 the wavelet packet transform : cody
-the webs hidden order : adamic
 the x kernel a platform for accessing internet resources : peterson
 the xerox star a retrospective : johnson
 the xx kernel parallel protocol execution environment : bjorkman
@@ -3376,14 +3343,12 @@ using smgn for rapid prototyping of small domain specific languages : kienle
 using standard ml in software maintenance a promising approach : baumann
 using statecharts in the design of occam 2 program : gee
 using static single assignment form in a code optimizer : mcconnell
-using style to understand descriptions of software architecture : abowd
 using templates in practice : vandervoorde
 using the asf sdf meta environment for teaching computer science : dinesh
 using tool abstraction to compose systems : garlan
 using types and inheritance in object oriented programming : halbert
 using virtual addresses as object references : chase
 uu for programming languages : ferreira
-validating metrics for ensuring space shuttle flight software quality : schneidewind
 validation verification and testing for the individual programmer : branstad
 valloy virtual functions meet a relational language : marinov
 vcode a retargetable extensible very fast dynamic code generation system : engler
@@ -3418,7 +3383,6 @@ voodoos introduction to javascript : koch
 vops a portable protocol development and implementation environment : karila
 voroni diagrams a survey of a fundamental geometric data structure : aurenhammer
 vortex rtl textual description grammar : cecil
-vrml primer and tutorial : schneider
 w effect considered harmful : khare
 walkabout revisited the runabout : grothoff
 wait free synchronization : herlihy
@@ -3467,7 +3431,6 @@ when telepathy won't do requirements engineering key practices : wiegers
 where do i begin a problem solving approach in teaching functional programming : thompson
 whither software : gabriel
 why a bazaar may fizzle or fail : lindal
-why a ring : saltzer
 why c++ is not very fit for gui programming : kiselyov
 why events are a bad idea for high concurrency servers : von behren 
 why gnutella can't scale : ritter
