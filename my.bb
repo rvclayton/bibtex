@@ -395,6 +395,16 @@
   location     = "PS 3557.R48998 K67 2018b"
 }
 
+@Book{jjfd,
+  author       = "Fiona Donovan",
+  title        = "Jasper Johns",
+  publisher    = "Thames \& Hudson",
+  year         = 2017,
+  address      = loen,
+  keywords     = "late 20th century art",
+  location     = "N 6537.J6 D66 2017"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1837,6 +1847,49 @@
     O(n log n) steps are sufficient, and in some cases ¿(n log n) steps are
     necessary.", 
   location     = "https://doi.org/10.1145/244795.244798"
+}
+
+@Article{anmfaaotw,
+  author       = "Baker, James~E. and Cruz, Isabel~F. and Liotta, Giuseppe and Tamassia, Roberto",
+  title        = "{A} New Model for Algorithm Animation Over the {WWW}",
+  journal      = surveys,
+  year         = 1995,
+  volume       = 27,
+  number       = 4,
+  pages        = "568--572",
+  month        = dec,
+  keywords     = "algorithm animation, client-server architectures,
+    event-driven architecture",
+  location     = "https://doi.org/10.1145/234782.234792"
+}
+
+@Article{uams,
+  author       = "Knight, Kevin",
+  title        = "Unification: {A} Multidiscliplinary Survey",
+  journal      = surveys,
+  year         = 1989,
+  volume       = 21,
+  number       = 1,
+  pages        = "93--124",
+  month        = mar,
+  keywords     = "artificial intelligence, computational complexity,
+    equational theories, feature structures, generalization, higher-order logic,
+    inheritance, lattices, logic programming, natural language processing, occur
+    check, parallel algorithms, prolog, resolution, theorem proving, type
+    inference, unification",
+  abstract     = "The unification problem and several variants are presented.
+    Various algorithms and data structures are discussed.  Research on
+    unification arising in several areas of computer science is surveyed; these
+    areas include theorem proving, logic programming, and natural language
+    processing.  Sections of the paper include examples that highlight
+    particular uses of unification and the special problems encountered.  Other
+    topics covered are resolution, higher order logic, the occur check,
+    infinite terms, feature structures, equational theories, inheritance,
+    parallel algorithms, generalization, lattices, and other applications of
+    unification.  The paper is intended for readers with a general computer
+    science background&mdash;no specific knowledge of any of the above topics
+    is assumed.", 
+  location     = "https://doi.org/10.1145/62029.62030"
 }
 
 @InProceedings{amitbpl,
