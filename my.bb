@@ -1892,6 +1892,52 @@
   location     = "https://doi.org/10.1145/62029.62030"
 }
 
+@Article{intbipl,
+  author       = "Abbott, Mark~B. and Peterson, Larry~L.",
+  title        = "Increasing Network Throughput by Integrating Protocol Layers",
+  journal      = ton,
+  year         = 1993,
+  volume       = 1,
+  number       = 5,
+  pages        = "600-610",
+  month        = oct,
+  keywords     = "integrated layer processing, word filters, ordering
+    constraints, modularity",
+  abstract     = "Integrating protocol data manipulations is a strategy for
+    increasing the throughput of network protocols.  The idea is to combine a
+    series of protocol layers into a pipeline so as to access message data more
+    efficiently.  This paper introduces a widely-applicable technique for
+    integrating protocols.  This technique not only improves performance, but
+    also preserves the modularity of protocol layers by automatically
+    integrating independently expressed protocols.  The paper also describes a
+    prototype integration tool, and studies the performance limits and
+    scalability of protocol integration", 
+  location     = "https://doi.org/10.1109/90.251918"
+}
+
+@Article{isaepifsois,
+  author       = "Gregory~D. Abowd and Allan~J. Dix",
+  title        = "Integrating Status and Event Phenomena in Formal Specifications of Interactive Systems",
+  journal      = sen # "(" # pot # "Second ACM SIGSOFT Symposium on Foundations of Software Engineering, SIGSOFT '94)",
+  year         = 1994,
+  volume       = 19,
+  number       = 5,
+  pages        = "44--52",
+  month        = dec,
+  keywords     = "formal specifications, interactive system design, multi-user
+    systems, mixed-control interaction",
+  abstract     = "In this paper we investigate the appropriateness of formal
+    specification languages for the description of user interface phenomena.
+    Specifically, we are concerned with the distinction between continuously
+    available information, which we call status, and atomic, non-persistent
+    information, which we call events.  We propose a hybrid model and notation
+    to address status and event phenomena symmetrically.  We demonstrate the
+    effectiveness of this model for designing and understanding mixed control
+    interaction, an especially important topic in the design of multi-user
+    systems.", 
+  location     = "https://doi.org/10.1145/193173.195293"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -2174,6 +2220,29 @@
     complexity of this operation is closer to optimal and the hardware simpler
     to implement than with previously presented algorithms", 
   location     = "http://dx.doi.org/10.1109/INFCOM.1990.91274"
+}
+
+@InProceedings{anafdms,
+  author       = "Joel~F. Adam and Henry~H. Houh and Michael Ismert and David~L. Tennenhouse",
+  title        = "{A} Network ARchitecture for Distributed Multimedia Systems",
+  booktitle    = pot # "International Conference on Multimedia Computing and Systems",
+  year         = 1994,
+  pages        = "76--85",
+  keywords     = "ATM, distributed systems, multimedia hardware, multimedia
+    systems, network architecture",
+  abstract     = "This paper presents a novel network architecture for
+    distributed multimedia systems.  The VuNet is a gigabit-per-second
+    desk/local-area ATM network which interconnects general-purpose
+    workstations, networkbased multimedia devices and bridges to other
+    networks.  During the course of an application, media streams are exchanged
+    between the workstations and devices in a seamless manner.  This
+    architecture has several advantages over traditional workstation-centric
+    systems including the ability to share multimedia devices and to reduce the
+    burden of multimedia tasks on the workstation.  This paper describes the
+    VuNet philosophy, the VuNet hardware, and presents the results of
+    experiments in which high bit-rate video streams are transported across the
+    system.", 
+  location     = "https://pdfs.semanticscholar.org/854f/b70434b1ed2dcd67bf8e98d17cb3460fe049.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
