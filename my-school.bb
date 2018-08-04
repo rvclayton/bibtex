@@ -1973,19 +1973,6 @@
   location     = "http://www.cse.wustl.edu/~jain/papers/ftp/cong_myths.pdf",
 }
 
-@Article{intbipl,
-  author       = "Mark~B. Abbott and " # lape,
-  title        = "Increasing Network Throughput by Integrating Protocol
-		  Layers",
-  journal      = ton,
-  year         = 1993,
-  volume       = 1,
-  number       = 5,
-  pages        = "600--610",
-  month        = oct,
-  keywords     = "integrated layer processing, protocol structure"
-}
-
 @Article{amtoc,
   author       = "C. E. Shannon",
   title        = "A Mathematical Theory of Communication",
