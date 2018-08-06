@@ -1918,7 +1918,7 @@
 @Article{isaepifsois,
   author       = "Gregory~D. Abowd and Allan~J. Dix",
   title        = "Integrating Status and Event Phenomena in Formal Specifications of Interactive Systems",
-  journal      = sen # "(" # pot # "Second ACM SIGSOFT Symposium on Foundations of Software Engineering, SIGSOFT '94)",
+  journal      = sen # " (" # pot # "Second ACM SIGSOFT Symposium on Foundations of Software Engineering, SIGSOFT '94)",
   year         = 1994,
   volume       = 19,
   number       = 5,
@@ -1936,6 +1936,136 @@
     interaction, an especially important topic in the design of multi-user
     systems.", 
   location     = "https://doi.org/10.1145/193173.195293"
+}
+
+@Article{mtafgcicn,
+  author       = "Hussein~M. Abdel-Wahab",
+  title        = "Multiuser Tools Architecture for Group Collaboration in Computer Networks",
+  journal      = "Computer Communications",
+  year         = 1990,
+  volume       = 13,
+  number       = 3,
+  pages        = "165--169",
+  month        = apr,
+  keywords     = "computer communications, distributed systems, collaborative
+  work, x window system, unix operating system, internet protocol",
+  abstract     = "With the widespread availability of data communications
+    networks and powerful workstations, there is a strong and growing need to
+    support collaboration among geographically distributed users.  This paper
+    describes an architecture for constructing multiuser software tools for
+    real-time collaboration among a group of remote users.  A prototype
+    implementation of a multiuser tool, called CoDraw, based on this
+    architecture is described.  CoDraw allows a group of remote users to
+    collaborate in drawing figures and graphs.  It is built using the X window
+    system and the internet communications in UNIX environment.", 
+}
+
+@Article{frog,
+  author       = "Eytan Adar and Bernardo~A. Huberman",
+  title        = "Free Riding on {G}nutella",
+  journal      = fm,
+  year         = 2000,
+  volume       = 5,
+  number       = 10,
+  month        = oct,
+  keywords     = "peer-to-peer networking, file sharing, tragedy of the commons",
+  abstract     = "An extensive analysis of user traffic on Gnutella shows a
+    significant amount of free riding in the system.  By sampling messages on
+    the Gnutella network over a 24-hour period, we established that almost 70%
+    of Gnutella users share no files, and nearly 50% of all responses are
+    returned by the top 1% of sharing hosts.  Furthermore, we found out that
+    free riding is distributed evenly between domains, so that no one group
+    contributes significantly more than others, and that peers that volunteer
+    to share files are not necessarily those who have desirable ones.  We argue
+    that free riding leads to degradation of the system performance and adds
+    vulnerability to the system.  If this trend continues copyright issues
+    might become moot compared to the possible collapse of such systems.", 
+  location     = "http://firstmonday.org/article/view/792/701"
+}
+
+@Article{tsippatsati,
+  author       = "Henning Schulzrinne and Jonathan Rosenberg",
+  title        = "The {S}ession {I}nitiation {P}rotocol: Providing Advanced Telephony Services Across the {I}nternet",
+  journal      = bltj,
+  year         = 2002,
+  volume       = 3,
+  number       = 4,
+  pages        = "144--160",
+  month        = oct,
+  keywords     = "network servers, addressing, naming, mobility, protocol
+    integration, modularity",
+  abstract     = "During the past few years, Internet telephony has evolved
+    from a toy for the technically savvy to a technology that, in the not too
+    distant future, may replace the existing circuit-switched telephone
+    network.  Supporting the widespread use of Internet telephony requires a
+    host of standardized protocols to ensure quality of service (QoS),
+    transport audio and video data, provide directory services, and enable
+    signaling.  Signaling protocols are of particular interest because they are
+    the basis for advanced services such as mobility, universal numbers,
+    multiparty conferencing, voice mail, and automatic call distribution.  Two
+    signaling protocols have emerged to fill this need: the ITU-T H.323 suite
+    of protocols and session initiation protocol (SIP), developed by the
+    Internet Engineering Task Force (IETF).  In this paper we examine how SIP
+    is used in Internet telephony.  We present an overview of the protocol and
+    its architecture, and describe how it can be used to provide a number of
+    advanced services.  Our discussion of some of SIP's strengths—its
+    simplicity, scalability, extensibility, and modularity—also analyzes why
+    these are critical components for an IP telephony signaling protocol.  SIP
+    will prove to be a valuable tool, not just for end-to-end IP services, but
+    also for controlling existing phone services." 
+}
+
+@Article{tsasfhpcs,
+  author       = "Douglas~C. Schmidt and Tatsuya Suda",
+  title        = "Transport System Architecture Services For High Performance Communications Systems",
+  journal      = "IEEE Journal on Selected Areas in Communications",
+  year         = 1993,
+  volume       = 11,
+  pages        = "489--506",
+  month        = may,
+  keywords     = "transport layer, protocol families, flow control",
+  abstract     = "Providing end-to-end gigabit communication support for
+    high-bandwidth multimedia applications requires transport systems that
+    transfer data efficiently via network protocols such as TCP, TP4, XTP, and
+    ST-II.  This paper describes and classiﬁes transport system services that
+    integrate operating system resources such as CPU(s), virtual memory, and
+    I/O devices together with network protocols to support distributed
+    multimedia applications running on local and wide-area networks.  A taxonomy
+    is presented that compares and evaluates four commercial and experimental
+    transport systems in terms of their protocol processing support.  The
+    systems covered in this paper include System V UNIX STREAMS, the BSD UNIX
+    networking subsystem, the x-kernel, and the Choices Conduit system.  This
+    paper is intended to navigate researchers and developers through the
+    transport system design space by describing alternative approaches for key
+    transport system services.", 
+  location     = "http://doi.org/10.1109/49.221197"
+}
+
+@Article{eotaorabt,
+  author       = "Howard Salwen and Richard Boule and J.~Noel Chiappa",
+  title        = "Examination of the Applicability of Router and Bridging Techniques",
+  journal      = ieeen,
+  year         = 1988,
+  volume       = 2,
+  number       = 1,
+  pages        = "77--80",
+  month        = jan,
+  keywords     = "bridges, routers, processing load, traffic, topology control
+    network management, lan interconnection",
+  abstract     = "Bridges are compared to routers from a number of
+    perspectives. Routers are systems that interconnect networks based on
+    information contained in layer 3, the networking layer, of the Open Systems
+    Interconnection (OSI) model.  Bridges use layer 2 (data link layer)
+    information to determine whether packets should be passed from one network
+    to another.  This type of interconnection strategy use node address data
+    only and thus is independent of the protocol used for OSI layer 3 and
+    above.  Processing requirements of bridges and routers are compared,
+    highlighting the more complex processing needs of the latter.  The greater
+    functionality and flexibility of routing, which accompanies this increased
+    complexity, is discussed.  In particular, the focus is on the ability of
+    routers to interconnect different local area network techniques, deal with
+    heavy traffic, and control topology", 
+  location     = "https://doi.org/10.1109/65.3242"
 }
 
 @InProceedings{amitbpl,
@@ -2245,6 +2375,26 @@
   location     = "https://pdfs.semanticscholar.org/854f/b70434b1ed2dcd67bf8e98d17cb3460fe049.pdf"
 }
 
+@InProceedings{tloacaaotar,
+  author       = "Nikos~A. Salingaros",
+  title        = "The Life of a Carpet an Application of the {A}lexander Rules",
+  booktitle    = "Oriental Carpet and Textile Studies V",
+  year         = 1999,
+  editor       = "M. {Eiland, Jr.} and R. Pinner",
+  pages        = "189--196",
+  keywords     = "design, carpeting, randomness",
+  abstract     = "The greatest carpets project a very powerful presence.  We
+    analyze various design factors that contribute to this effect.
+    Differentiating space on the smallest perceivable scale creates life in a
+    carpet.  This is activated through the process of coupling mutually
+    contrasting elements, both in terms of color and geometry.  A carpet's
+    large-scale coherence depends on arranging the small-scale elements
+    symmetrically, and defining complex elements that could themselves be
+    decomposed into smaller elements.  The same rules apply to all types of
+    carpets, regardless of provenance or age.", 
+  location     = "http://zeta.math.utsa.edu/~yxk833/life.carpet.html"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -2511,6 +2661,25 @@
   location     = "http://dev.stephendiehl.com/hask/"
 }
 
+@TechReport{adbiissa,
+  author       = "Abowd, Gregory~D. and Pitkow, James Edward and Kazman, Rick",
+  title        = "Analyzing Differences Between {I}nternet Information System Software Architectures",
+  institution  = "GVU, College of Computing, Georgia Institute of Technology",
+  year         = 1995,
+  number       = "GIT-GVU-95-34",
+  address      = atga,
+  keywords     = "internet information systems, software architecture,
+    scenario-based analysis, www, wais, harvest",
+  abstract     = "While the growth and variety of Internet information systems
+    has been dramatic over the past five years, the methodical consideration of
+    the differences between systems has not been emphasized.  We present a
+    particular scenario-based method for analyzing different systems in this
+    domain based on their software architecture.  We demonstrate this method,
+    the Software Architecture Analysis Method (SAAM), by applying it to three
+    well-known Internet information systems-WWW, WAIS and Harvest.", 
+  location     = "https://smartech.gatech.edu/bitstream/handle/1853/3578/95-34.pdf?sequence=1&isAllowed=y"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -2770,6 +2939,14 @@
   month        = "15 " # mar,
   keywords     = "git, branches",
   location     = "https://blog.plover.com/prog/git-habits.html"
+}
+
+@Misc{ddocawc,
+  author       = "Douglas~C. Schmidt",
+  title        = "Developing Distributed Object Computing Applications With {CORBA}",
+  howpublished = "Web",
+  keywords     = "distributed software",
+  location     = "https://www.cse.wustl.edu/~schmidt/PDF/corba4.pdf"
 }
 
 
