@@ -28872,19 +28872,6 @@
   location     = "http://dx.doi.org/10.1109/2.683004"
 }
 
-@Article{tsippatsati,
-  author       = "J. Rosenberg, H. Schulzrinne",
-  title        = "The Session Initiation Protocol: Providing Advanced Telephony Services across the {I}nternet",
-  journal      = "Bell Labs Technical Journal",
-  year         = 1998,
-  volume       = 3,
-  number       = 4,
-  pages        = "144--160",
-  month        = oct # "-" # dec,
-  keywords     = "network security, network protocol, addressing, naming,
-    personal mobility, call screening, network services"
-}
-
 @Article{tsipics,
   author       = "Hennig Schulzrinne and Jonathan Rosenberg",
   title        = "The Session Initiation Protocol: {I}nternet-Centric Signaling",
