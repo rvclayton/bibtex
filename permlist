@@ -598,7 +598,6 @@ attribute based compiler implemented using visitor pattern : neff
 attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
-augural image zooming : withers
 authentication for distributed systems : woo
 authentication in distributed systems theory and practice : lampson
 autocollage : rother
@@ -767,7 +766,6 @@ code generation for ansi c : fraser
 code generation using tree matching and dynamic programming : aho
 code opimization across procedures : richardson
 codebugger a software tool for cooperative debugging : xie
-codesign from cospecification : woo
 coding with the dns protocol : jones
 cognitive models of program comprehension : tiemens
 cojoining specifications : abadi
@@ -833,7 +831,6 @@ computer graphics the need for graphics design part 1 : myers
 computer graphics the need for graphics design part 2 : myers
 computer interconnection structures taxonomy characteristics and examples : anderson
 computer memory systems : pohm
-computer networks and distributed systems : witte
 computer programming as an art : knuth
 computer science for the many : biermann
 computer technology and architecture an evolving interaction : hennessy
@@ -883,7 +880,6 @@ correct and robust programs : cristian
 correct architecture refinement : moriconi
 correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
-cost effective parallel computing : wood
 counting paths nondeterminism as linear algebra : benson
 coverage problems in sensor networks a survey : wang
 covert channels in the tcp ip protocol suite : rowland
@@ -2120,7 +2116,6 @@ parsing non lr k grammars with yacc : merrill
 parsing with c++ classes : conway
 parsing with c++ deferred expressions : conway
 partial evaluation principles and perspectives : consel
-partial redundancy elimination is not bidirectional : wolfe
 partitions : celko
 passing data from one form to another : webb
 password generation by bloom filters : stallings
@@ -2145,7 +2140,6 @@ perfect spatial hashing : lefebre
 performance analysis of five interprocess communication mechanisms across unix operating systems : immach
 performance analysis ratholes : jain
 performance and environment monitoring for continuous program optimization : casaval
-performance and functional prototyping from software descriptions : wohlin
 performance description and analysis for distributed systems using a variant of lotos : rico
 performance issues in parallelized network protocols : nahum
 performance of a broadcast packet switch : bubenik
@@ -2212,7 +2206,6 @@ precompiling c++ for garbage collection : edelson
 predicate abstraction and refinement techniques for verifying verilog : clarke
 predicate dispatching a unified theory of dispatch : ernst
 predicate path expressions : andler
-predicting client-server availablility : wood
 preliminary analysis of a breadth first parsing algorithm theoretical and experimental results : martin
 preliminary design for the programming language forsythe : reynolds
 preserving abstraction in concurrent programming : cooper
@@ -2484,7 +2477,6 @@ scrap more boilerplate : lammel
 scrap more boilerplate reflection, zips and generalised casts : lammel
 scrap your boilerplate a practical design pattern for generic programming : lammel
 scraping the acm digital library : bergmark
-scripted documents : wippler
 scripting higher level programming for the 21th century : ousterhout
 scripts a communication abstraction mechanism and its verification : francez
 scsh cheat sheet : shivers
@@ -3334,7 +3326,6 @@ using memoization to acheive polynomial complexity of purely functional executab
 using multicast to solve the midnight madness problem : schooler
 using objects for system analysis : parsons
 using objects for systems analysis : parsons
-using paeno curves for bilevel display of continuous tone images : witten
 using path expressions as concurrency guards : rees
 using postfix for secure smtp gateways : bauer
 using protocol validation techniques to solve protocol conversion problems : chang
@@ -3416,13 +3407,11 @@ what is all the fuss about neural networks : barth
 what is conservatism : agree
 what is dhtml : gardner
 what is interactive scripting : travers
-what is new in http 1.1 : wong
 what is software design : reeves
 what is the bios : schmidt
 what its like to be a popl referee : wegman
 what should we plan given the dilemma of the network : cook
 what storytelling can do for information visualization : gershon
-whats important about knowledge representation : woods
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
 when is one thing equal to some other thing : mazur
