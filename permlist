@@ -13,7 +13,7 @@ ca <<eof! |
 802.11b access point mapping : byers
 a behavioral notion of subtyping : liskov
 a better api for first class continuations : feeley
-a bibliography of garbage collection and related topics : sankaran
+a bibliography of garbage collection and related topics : sanaran
 a bibliography of programming style : thomas
 a bibliography on syntax error handling in context free languages : van den bosch
 a binding protocol for distributed shared objects : shapiro
@@ -73,7 +73,6 @@ a distributed alternative to finite state machine specifications : zave
 a distributed heterogeneous supercomputing management system : ghafoor
 a distributed local area network packet protocol for combined voice and data transmission : limb
 a distributed object model for the java system : wollrath
-a distributed protocol for channel based communication with choice : knabe
 a distributed single address space operating system supporting persistence : heiser
 a distributed specification model and its prototyping : wang
 a distributed system : rushby
@@ -168,7 +167,6 @@ a multiparadigm approach to compiler construction : justice
 a multiparty coordination aspect language : corchuelo
 a nanopass framework for compiler education : sarkar
 a nation of strangers : katz
-a network file system over http remote access and modification of files and files : kiselyov
 a neural network expert system for diagnosing and treating hypertension : poli
 a new admission control method for real time communication in an internetwork : ferrari
 a new approach to abstract data types i informal development : feferman
@@ -464,14 +462,12 @@ an empiricaly driven mathematical modeling analysis for play calling strategy in
 an empirical analysis of c preprocessor use : ernst
 an empirical comparison and characterization of high defect and high complexity modules : koru
 an environment for developing fault-tolerant software : purtilo
-an ethnographic study of copy and paste programming practices in oopl : kim
 an evaluation of self adjusting binary search tree techniques : bell
 an exercise in dependent types a well typed interpreter : augustsson
 an exercise in program explanation : misra
 an experiment in table driven code generation : graham
 an experiment with inline substitution : cooper
 an experimental evaluation of continuous testing during development : saff
-an experimental evaluation of the assumption of independence in multiversion programming : knight
 an experimental user level interface of tcp : braun
 an exploration of novice programming errors in an object oriented environment : barr
 an expressive language of signatures : ramsey
@@ -1059,7 +1055,6 @@ distribution and persistence in the ik platform : sousa
 dive into greasemonkey : pilgrim
 dive into html 5 : pilgrim
 divide and conquer algorithms : divide
-divde and conquer http response splitting web cache poisoning attacks and related topics : klein
 dmt a demonstration tool : zheng
 do parallel languages respond to the needs of scientific programmers : pancake
 doclet overview : doclet
@@ -2086,7 +2081,6 @@ os portal an economic approach for making an embedded kernel extensible : chang
 os6 an experimental operating system for a small computer part 2 input output and filing system : stoy
 overriding the c++ operator == : stevenson
 overview of common benchmarks : weicker
-overview of metropolitan area networks : klessig
 overview of the ibm java just in time compiler : suganuma
 oxford oberon 2 compiler users manual : spivey
 p2p and the promise of internet equality : agre
