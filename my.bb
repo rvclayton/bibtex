@@ -2068,6 +2068,127 @@
   location     = "https://doi.org/10.1109/65.3242"
 }
 
+@Article{wsnih11,
+  author       = "Clinton Wong",
+  title        = "What's New in {HTTP}/1.1",
+  journal      = "World Wide Web Journal",
+  year         = 1996,
+  OPTvolume    = "",
+  OPTnumber    = "",
+  OPTpages     = "",
+  OPTabstract  = "",
+  OPTmonth     = "",
+  OPTkeywords  = "",
+  OPTlocation  = ""
+}
+
+@Article{oaics,
+  author       = "Rob Kling",
+  title        = "Organizational Analysis in Computer Science",
+  journal      = "The Information Society",
+  year         = 1993,
+  volume       = 9,
+  number       = 2,
+  month        = mar # "-" # jun,
+  keywords     = "usability, organizations, informatics, system design",
+  abstract     = "Computer science in the United States is hard pressed to show
+    broad utility to help justify billion dollar research programs and the
+    value of educating well over 40,000 bachelor of science and master of
+    science specialists annually in the United States.  The Computer Science
+    and Telecommunications Board of the U.S.  National Research Council
+    recently has issued a report, “Computing the Future” (Hartmanis & Lin
+    1992), which sets a new agenda for computer science.  The report
+    recommended that computer scientists broaden their conceptions of the
+    discipline to include computing applications and domains to help understand
+    them.  This article argues that many computer science graduates need some
+    skills in analyzing human organizations to help develop appropriate systems
+    requirements, because they are trying to develop high‐performance computing
+    applications that effectively support higher performance human
+    organizations.  It is time for academic computer science to embrace
+    organizational analysis (the field of Organizational Informatics) as a key
+    area of research and instruction.", 
+  location     = "https://doi.org/10.1080/01972243.1993.9960134"
+}
+
+@Article{astuip,
+  author       = "Harald Wertz",
+  title        = "{A} System to Understand Incorrect Programs",
+  journal      = "Lisp Bulletin",
+  year         = 1978,
+  volume       = 1,
+  number       = 2,
+  pages        = "27--34",
+  month        = jul,
+  keywords     = "lisp, program understanding, rule-based reasoning",
+  abstract     = "This paper presents a systems (PHENARETE) which understands
+    and improves incompletely defined LISP programs, such as those written by
+    students beginning to program in LISP.  This system takes, as input, the
+    program without any additional information.  In order to understand the
+    program, the system meta-evaluates it, using a library of pragmatic rules,
+    describing the construction and correction of general program constructs,
+    and a set of specialists, describing the syntax and semantics of the
+    standard LISP functions.  The system can use its understanding of the
+    program to detect errors in it, to debug them and, eventually, to justify
+    its proposed modification.  This paper gives a brief survey of the working
+    of the system, emphasizing on some commented examples.", 
+  location     = "http://dx.doi.org/10.1145/1411798.1411808"
+}
+
+@Article{ansfedb,
+  author       = "Attali, Isabelle and Caromel, Denis and Ehmety, Sidi Ould",
+  title        = "A Natural Semantics for {E}iffel Dynamic Binding",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 6,
+  pages        = "711--729",
+  month        = nov,
+  keywords     = "inheritance, big-step semantics, dynamic binding, ",
+  abstract     = "This article formally defines Eiffel dynamic binding in
+    presence of renaming and redefinition.  Message passing, inheritance, and
+    polymorphism are expressed in an operational style using natural semantics.
+    From the formal specification, we derive an algorithm to determine the
+    appropriate version of a feature to apply to a given object.  This
+    algorithm, based only on the class hierarchy and not using any intermediate
+    structure, gives a practical approach to the understanding of inheritance,
+    renaming, and redefinition in Eiffel.", 
+  location     = "https://doi.org/10.1145/236114.236118"
+}
+
+@Article{aatspt,
+  author       = "Carlos Urias Muniz",
+  title        = "An Approach to Software Product Testing",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1589--1593",
+  month        = nov,
+  keywords     = "adaptive testing, black box, correctness measurement, defect
+    detection, detect isolation, extensive testing random testing, self-checking,
+    test case generator",
+  abstract     = "An approach to software product testing is presented.  The
+    approach uses the following techniques: automatic test case generation,
+    self-checking test cases, black box test cases, random test cases, and a
+    form of exhaustive testing, correctness measurements, and correction of
+    defects in the test cases instead of in the product (direct circumvention).
+    The techniques have been cost effective and applied to a very large
+    products.", 
+}
+
+@Article{rtaap,
+  author       = "Phil Agre",
+  title        = "Responding to Arguments Against Privacy",
+  journal      = "The Network Observer",
+  year         = 1996,
+  volume       = 3,
+  number       = 7,
+  pages        = "1--12",
+  month        = jul,
+  keywords     = "privacy",
+  location     = "http://polaris.gseis.ucla.edu/pagre/tno.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -2393,6 +2514,54 @@
     decomposed into smaller elements.  The same rules apply to all types of
     carpets, regardless of provenance or age.", 
   location     = "http://zeta.math.utsa.edu/~yxk833/life.carpet.html"
+}
+
+@InProceedings{sdjcw,
+  author       = "Jean-Claude Wippler",
+  title        = "Scripted Documents",
+  booktitle    = pot # "Seventh USENIX Tcl/Tk Conference",
+  year         = 2000,
+  organization = "Usenix",
+  address      = ate,
+  month        = "14--18 " # feb,
+  keywords     = "packaging, scripting, extensions",
+  abstract     = "Software used to be written as source code, which was then
+    compiled and linked into a single machine-specific application program.
+    With scripting languages, editable scripts are now executable without
+    intermediate steps, but the dependency on lots of script files complicates
+    robust deployment.  A range of wrapping schemes are in use today to package
+    scripts and extensions into a single file.  The Scripted Document approach
+    presented here goes further by offering a database-centric solution for
+    packaging, installation, configuration, upgrades, as well as all
+    application-specific data.  An implementation for Tcl is described — using
+    MetaKit as embedded database — with a summary of the experiences gathered
+    so far.", 
+  location     = "https://www.usenix.org/legacy/publications/library/proceedings/tcl2k/wippler.html"
+}
+
+@InProceedings{anfsohraamofaif,
+  author       = "Oleg Kiselyov",
+  title        = "{A} Network File System Over {HTTP}: Remote Access and Modification of Files and {\it Files}",
+  booktitle    = pot # "Annual USENIX Conference",
+  year         = 1999,
+  pages        = "31--17",
+  address      = "Monterey, " # CA,
+  month        = "6--11 " # jun,
+  keywords     = "system call replacement, client-server architecture, security",
+  abstract     = "The goal of the present HTTPFS project is to enable access to
+    remote files, directories, and other containers through an HTTP pipe.
+    HTTPFS system permits retrieval, creation and modification of these
+    resources as if they were regular files and directories on a local
+    filesystem.  The remote host can be any UNIX or Win9x/WinNT box that is
+    capable of running a Perl CGI script and accessible either directly or via
+    a web proxy or a gateway.  HTTPFS runs entirely in user space.  The current
+    implementation fully supports reading as well as creating, writing,
+    appending, and truncating of files on a remote HTTP host.  HTTPFS provides
+    an isolation level for concurrent file access stronger than the one
+    mandated by POSIX file system semantics, closer to that of AFS.  Both a
+    programmatic interface with familiar open(), read(), write(), close(), etc.
+    calls, and an interactive interface, via the popular Midnight Commander
+    file browser, are provided." 
 }
 
 @TechReport{dacsbssbsalbl,
