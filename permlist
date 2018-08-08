@@ -1,8 +1,7 @@
 #! /bin/bash
-#
 # permlist - write to std-out a kwik index of titles.
 
-ca <<eof! |
+cat <<eof! |
 .profile : howard
 14 rules for writing multiple choice questions : brigham
 17 mistakes microsoft made in the xbox security system : steil
@@ -71,7 +70,6 @@ a discipline for constructing multiphase communication protocols : chow
 a discipline of multiprogramming : misra
 a distributed alternative to finite state machine specifications : zave
 a distributed heterogeneous supercomputing management system : ghafoor
-a distributed local area network packet protocol for combined voice and data transmission : limb
 a distributed object model for the java system : wollrath
 a distributed single address space operating system supporting persistence : heiser
 a distributed specification model and its prototyping : wang
@@ -489,7 +487,6 @@ an introduction to disk drive modeling : granger
 an introduction to haskell with applications to digital signal processing : goblirsch
 an introduction to morphic : maloney
 an introduction to process algebra : bergstra
-an introduction to quantum computation and quantum communication : pike
 an introduction to software architecture : garlan
 an introduction to speech and speaker recognition : peacocke
 an introduction to the bird meertens formalism : gibbons
@@ -706,7 +703,6 @@ capability based protection in a persistent global virtual memory system : vocht
 capriccio scalable threads for internet services : von behren
 carbonkernel real time operating system simulator : carbon
 cargo cult science : feynman
-cascading style sheets level 1 : lie
 case studies in symbolic model checking : gopalakrishnan
 case studies of software process improvement measurement : paulish
 caterpillars fate a pattern language for transformations from analysis to design : kerth
@@ -723,7 +719,6 @@ census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
 cget cput and stage safe file transport tools for the internet : cheswick
 cgi programming : hamilton
-cgi tcl reference manual : libes
 cgi tutorial : chen
 chain reactions in networks : manber
 challenges in software development : fleckenstein
@@ -923,7 +918,6 @@ data specialization : knoblock
 data structures and algorithms annotated reference with examples : barnett
 data structures as objects : soukup
 data structures in jdsl : goodrich
-data transport in a byte stream network : fraser
 data types as values : donahue
 dataflow computing models languages and machines for intelligence computations : harath
 dataflow machine architecture : veen
@@ -970,7 +964,6 @@ deriving tidy drawings of trees : gibbons
 description languages exploration : graham
 description of a machine architecture for use with block structured languages : tanenbaum
 description of a tool for specifying and prototyping concurrent programs : de francesco
-description of fastnet a unidirectional local area communications network : limb
 design and implementation of a distributed parallel programming system : lin
 design and implementation of generics for the net common language runtime : kennedy
 design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
@@ -1014,7 +1007,6 @@ detecting duplicate code with pmds cpd : copland
 detecting mutual consistency of shared objects : ahamad
 determinacy testing for nondeterminate logic programming languages : tick
 developing and using snd editing sound under linux parts 1 and 2 : phillips
-developing dynamic reconfigurable communication protocol stacks using java : lee
 developing your own 32 bit operating system : burgess
 development of communication software by stepwise refinement : freudenmann
 development support systems : lauber
@@ -1078,7 +1070,6 @@ drawing graphs with dot : koutsoflos
 drawing graphs with metapost : hobby
 dsl implementation in metaocaml template haskell and c++ : czarnecki
 duel a very high level debugging language : golan
-dvd rom drive scsi command set : pioneer
 dynamic adaptive character generation and spatial expressiveness : cohen
 dynamic attention : nisley
 dynamic graphs : demetrescu
@@ -1099,7 +1090,6 @@ e prime : low
 e prime as a revision strategy : zimmerman
 e prime the spirit and the letter : kenyon
 early experience with adsl in lcc : hanson
-early experiments with asynchronous time division networks : fraser
 early storage reclamation in a tracing garbage collector : harris
 easy to use object oriented parallel processing with mentat : grimshaw
 eclipse a platform for integrating development tools : riveres
@@ -1244,7 +1234,6 @@ fast effective dynamic compilation : auslander
 fast hashing of variable length text strings : pearson
 fast optimized sun rpc using automatic program specialization : muller
 fast string maching using an n gram algorithm : kim
-faster calculation of superquadric shapes : franklin
 faster dynamic linking for sparc v8 and system v4 : keppel
 faster generalized lr parsing : aycock
 fault injection a method for validating computer-system dependability : clark
@@ -1290,7 +1279,6 @@ form based file upload in html : nebel
 form formula a visual programming paradigm for user definable user interfaces : kimura
 form tricks : webb
 formal analysis of the alternating bit protocol by temproal petri nets : suzuki
-formal description and interpretation of coordination protocols for teamwork : frick
 formal logic via functional programming : leifer
 formal methods for actor systems a progress report : agha
 formal methods for protocol conversion : calvert
@@ -1302,7 +1290,6 @@ formal specification and analysis of software architectures using the chemical a
 formal specification methods for reactive systems : furbach
 formal specification of large scale software : moller
 formal specifications a key to service interaction analysis : lee
-formal specifications and proofs of inheritance protocols for real time scheduling : pilling
 formal system design based on the synchrony hypothesis functional models and skeletons : sander
 formal specification and design time testing : garrard
 formal verification of the aamp5 microprocessor : miller
@@ -1316,7 +1303,6 @@ four systems of policy politics and choice : lowi
 fp oop haskell : berger
 fractal rulers : swan
 frame relaying and the fast packet switching concepts and issues : rahnema
-framework for implementing the next generation of communication protocols : fry
 framework for implementing the next generation of computing protocols : fry
 frameworks for intra and interprocedural dataflow analysis : chambers
 freenets next generation routing protocol : clarke
@@ -1391,7 +1377,6 @@ gj extending the java programming language with type parameters : bracha
 glimpse documentation : glimpse
 gnu mix development kit mdk : ruiz
 gnu smalltalk users guide : gnu
-go directly to jail : friedl
 go to statement considered harmful : dijkstra
 goal directed reasoning for specification based data structure repair : demsky
 godiva a very high level dialect of java : jeffery
@@ -1491,7 +1476,6 @@ how to own the internet in your spare time : staniford
 how to program in self 1.4 : ungar
 how to prove observational theorems with lp : bidoit
 how to read mathematics : simonson
-how to regulate science : fukuyama
 how to solve the santa claus problem : ben-ari
 how to use a 64 bit virtual address space : chase
 how to write a simple operating system : saunders
@@ -1549,12 +1533,10 @@ improving evolvability of operating systems with aspectc : coady
 improving module reuse by interface adaptation : purtilo
 improving scalability of multithreaded dynamic memory allocation : nakhimovsky
 improving tcp performance over mobile networks : elaarag
-improving the performance of distributed applications using active networks : legedza
 improving the reliability of commodity operating systems : swift
 improving the static analysis of embedded languages via partial evaluation : herman
 improving the world's most popular functional language user defined functions in excel : peyton jones
 improving wcet by applying worst case path optimizations : zhao
-in memoriam j c r licklider : licklider
 inc a language for incremental computations : yellin
 incomputability : hoare
 increasing mom flexibility with portable rule bases : curry
@@ -1572,7 +1554,6 @@ inference controls for statistical databases : denning
 infinite order logic and the church-turing thesis : vyzovitis
 influence of visual technology on the evolution of language environments : ambler
 information encoding with two dimensional bar codes : pavlidis
-information presentation cascading style sheets : lilley
 information systems security design methods implications for information systems development : baskerville
 inheritance : shasha
 inheritance is not subtyping : cook
@@ -1919,7 +1900,6 @@ ultiplication by integer constants : briggs
 multiprocessor algorithms for relational database operators on hypercube systems : frieder
 multiprocessor organization a survey : enslow
 multiprocessor performance measurement instrumentation : mink
-multipurpose web publishing using html xml and css : lie
 multithreaded java program test generation : edelstein
 multix an xml based formalism to encode multi structured documents : chatti
 musical equational programs a functional approach : van den broek
@@ -1939,7 +1919,6 @@ netlogo : netlogo
 netscape plug ins : netscape
 network news transfer protocol : kantor
 network objects : birrell
-network programming for the rest of us : lefkowitz
 network routing : kelly
 network security via reverse engineering of tcp code vulnerability analysis and proposed solutions : guha
 network services in an uncooperative internet : jannotti
@@ -2130,7 +2109,6 @@ peep an architectural description driven peephole optimizer : kessler
 peer to peer architectures for massively multiplayer online games a survey : yahyavi
 peer to peer internet telephony using sip : singh
 pentium 4 in depth : mihocka
-perfect spatial hashing : lefebre
 performance analysis of five interprocess communication mechanisms across unix operating systems : immach
 performance analysis ratholes : jain
 performance and environment monitoring for continuous program optimization : casaval
@@ -2140,7 +2118,6 @@ performance of a broadcast packet switch : bubenik
 performance of a software mpeg video decoder : patel
 performance of checksums and crcs over real data : partridge
 performance visualization of a distributed system a case study : jakiela
-perils of porting applications from unix to nt : linthicum
 perly unix with buttons : hesketh
 permutation generation methods : sedgewick
 persistence in e revisited implementation experiences : schuh
@@ -2153,7 +2130,6 @@ petri net based based hypertext document structure with browsing semantics : sto
 petri nets : peterson
 phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
-phase change recording : leibbrandt
 philosophies for enginerring computer based systems : lawson
 pi a pattern language : kudrjavets
 pi rpc a platform independent remote procedure call architecture : ray
@@ -2177,7 +2153,6 @@ plm 386 programmers guide : plm
 plt mzc mzscheme compiler manual : mzc
 pluggable type systems : bracha
 plumbing and other utilities : pike
-plwm the pointless window manager : liljenberg
 political incentives in u s water policy relationships between distributive and regulatory politics : mann
 polka animation designers package lite version : stasko
 polymorphic c : voss
@@ -2222,7 +2197,6 @@ problems with determining package cohesion and coupling : rising
 procedural programming laboratory manual : spivey
 procedures and parameters an axiomatic approach : hoare
 process assessment considered wasteful : fayad
-process groups and group communication : liang
 process scheduling and unix semaphores : dunstan
 process semantics global axioms compositional rules and applications : nguyen
 processes are in the eye of the beholder : lamport
@@ -2267,7 +2241,6 @@ programming semantics for multiprogrammed computations : dennis
 programming shorhands : proebsting
 programming with asn1 using polymorphic types and type specialization : lavender
 programming with behaviors the syntax and semantics : be
-programming with communication protocol stacks : free
 programming with fudgets : hallgren
 programming with streams : nakata
 programming with streams in a pascal like language : nakata
@@ -2303,7 +2276,6 @@ protocols for providing performance guarantees in a packet switching internet : 
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
 prototyping versus specifying a multiproject experiment : boehm
-providing reliable nt desktop services by avoiding nt server : limoncelli
 proving liveness properties of concurrent programs : owicki
 proving the correctness of the static link technique using evolving algebras : mohnen
 proxies design principles for robust object oriented intercession apis : cutsem
@@ -2346,10 +2318,8 @@ real time behavior of programs : haase
 real time data fusion in the intensive care unit : factor
 real time further misconceptions or half truths : kurki
 real time scheduling theory and ada : sha
-real time voice communication over the internet using packet path diversity : liang
 realization of verilog hdl domputation model : hyde
 realizing 3d visualization using crossed beam volumetric displays : ebert
-really truly trackerless bittorrent : fry
 reasoning about time in higher level language software : shaw
 recognizers for extracting architectural features from source code : harris
 reconciling environment integration and component independence : sullivan
@@ -2428,7 +2398,6 @@ risk management : simmons
 robust distributed computing and sensing algorithm : brooks
 role based access control models : sandhu
 role based access control with x.509 attribute certificates : chadwick
-ron was wrong whit was right : lenstra
 rolling your own input iterators : van horn
 routing algorithms for internetworking : stallings
 rpc in the x kernel evaluating new design techniques : hutchinson
@@ -2442,7 +2411,6 @@ rules for referees : forscher
 rust : hoare
 saam a method for analyzing the properties of software architectures : kazman
 safe data types specifications : phillips
-safety critical software status report and annotated bibliography : place
 sage an object oriented toolkit and class library for building fortran and c restructuring tools : bodin
 salto system for assembly language transformation and optimization : rohou
 satellite link communication protocols : pujolle
@@ -2464,7 +2432,6 @@ scheduling vector straight line code on vector processors : keller
 scheme 79 lisp on a chip : sussman
 schemes a high level data structuring concept : mitchell
 schemeunit and schemeql two little languages : welsh
-scomp a solution to the multilevel security problem : fraim
 scope conserving expression evaluation a class of storage optimal evaluation strategies for arithmetic expressions : chroust
 scout a communications oriented operating system : montz
 scrap more boilerplate : lammel
@@ -2621,7 +2588,6 @@ software quality improvement : mizuno
 software reliability modern challenges : spinellis
 software reliability the role of programmed exception handling : melliar
 software requirements a tutorial : faulk
-software safety in computer controlled systems : leveson
 software visualization in the large : ball
 software vs hardware errors : glass
 solaris sockets past and present : mauro
@@ -2670,7 +2636,6 @@ static analysis for detecting taint style vulnerabilities in web applications : 
 static debugging of c programs detection of pointer errors in recursive data structures : gaugne
 static detection of dynamic memory errors : evans
 static mapping of functional programs an example in signal processing : dennis
-static scheduling of synchronous data flow programs for digital signal processing : lee
 statistical debugging a hypothesis testing based approach : liu
 statistical testing of software based on a usage model : walton
 steganography of voip streams : mazurczyk
@@ -2717,7 +2682,6 @@ suif an infrastructure for research on parallelizing and optimizing compilers : 
 summary cache a scalable wide area web cache sharing protocol : fan
 summary of ml syntax : ullman
 sunit : burkert
-supercomputers colossal computations enormous expectations renowned risk : lincoln
 superquadrics and angle preserving transformations : barr
 supervisory and monitor systems : rosen
 supporting dynamic data structures on distributed memory machines : rogers
@@ -2869,7 +2833,6 @@ the design and implementation of an asn 1 c compiler : neufeld
 the design and implementation of dynamic hashing for sets and tables in icon : griswold
 the design and implementation of a high level language converter : moynihan
 the design and implementation of a grammar based data generator : maurer
-the design and implementation of a secure auction netowrk : franklin
 the design and implementation of the lout document formatting language : kingston
 the design implementation and evaluation of jade : rinard
 the design of the e programming language : richardson
@@ -2886,7 +2849,6 @@ the dream of a perfect language : eco
 the drunkards walk : mlodinow
 the economics of the internet utility utilization pricing and quality of service : odlyzko
 the effect of a priori views on the social implications of computing the case of office automation : hirschheim
-the effect of packet dispersion on voice applications in ip networks : levy
 the effect of unrolling and inlining for python bytecode optimizations : asher
 the effects of pair programming on performance in an introductory programming course : mcdowell
 the elaboration order problem of ada : lander
@@ -3209,7 +3171,6 @@ towards a first course based on object oriented patterns : wallingford
 towards a model of mind as a laissez faire economy of idiots : ebaum
 towards a new security architecture for telephony : bassil
 towards a semantics for object z : duke
-towards a universal data transport system : fraser
 towards action refinement in process algebras : aceto
 towards leakage containment : lawall
 towards more effective testing for high assurance systems : hecht
@@ -3276,7 +3237,6 @@ understanding and applying operational transformation : spiewak
 understanding and verifying distributed algorithms using stratified decomposition : chou
 understanding computers and cognition : winograd
 understanding binary searches : koenig
-understanding bittorrent an experimental perspective : legout
 understanding interfaces : lam
 understanding osi network management : stallings
 understanding procedures as objects : eisenberg
@@ -3344,7 +3304,6 @@ verification of link level protocols : knuth
 version support for engineering database systems : dittrich
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
-video abstracting : lienhart
 video data conversion and real time tracking : gilbert
 videotex networks : ball
 views a way for pattern matching to coexist with data abstraction : wadler
@@ -3433,7 +3392,6 @@ wrappers to the rescue : brant
 writing a jit parts 1 through 4 : sourcemod
 writing a scsi device driver for linux : faith
 writing a tcl extension in only 7 years : libes
-writing cgi scripts in tcl : libes
 writing hygenic macros in scheme with syntax case : dvbvig
 writing macros in continuation passing style : hilsdale
 xboard : xboard
