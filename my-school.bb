@@ -10207,19 +10207,6 @@
   location     = "https://doi.org/10.1145/330249.330250"
 }
 
-@Article{ansfeidb,
-  author       = "Isabelle Attali and Denis Caromel and Sidi Ould Ehmety",
-  title        = "A natural semantics for {E}iffel dynamic binding",
-  journal      = toplas,
-  year         = 1996,
-  volume       = 18,
-  number       = 6,
-  pages        = "711-729",
-  month        = nov,
-  keywords     = "Eiffel, dynamic binding, inheritance, renaming, semantics",
-  location     = "QA 76.7.A77A"
-}
-
 @Article{eewail,
   author       = "David~R. Hanson",
   title        = "Early Experience with {ASDL} in {lcc}",
