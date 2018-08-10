@@ -2189,6 +2189,154 @@
   location     = "http://polaris.gseis.ucla.edu/pagre/tno.html"
 }
 
+@Article{pcrhvh,
+  author       = "van Houten, Henk and Leibbrandt, Wouter",
+  title        = "Phase Change Recording",
+  journal      = cacm,
+  year         = 2000,
+  volume       = 43,
+  number       = 11,
+  pages        = "64--71",
+  month        = nov,
+  keywords     = "recordable media, lasers",
+  abstract     = "Burning data into and off of the storage medium is such a
+    reliable read/write method, the CD is now the world's most popular means of
+    distributing and exchanging prerecorded digital content",
+  location     = "https://doi.org/10.1145/353360.353366"
+}
+
+@Article{tdaioasas,
+  author       = "Franklin, Matthew~K. and Reiter, Michael~K.",
+  title        = "The Design and Implementation of a Secure Auction Service",
+  journal      = tse,
+  year         = 1996,
+  volume       = 22,
+  number       = 5,
+  pages        = "302--312",
+  month        = may,
+  keywords     = "distributed systems, security, byzantine failures, electronic
+    commerce, sealed-bit auctions, verifiable signature sharing",
+  abstract     = "We present the design and implementation of a distributed
+    service for performing sealed-bid auctions.  This service provides an
+    interface by which clients, or bidders, can issue secret bids to the
+    service for an advertised auction.  Once the bidding period has ended, the
+    auction service opens the bids, determines the winning bid, and provides
+    the winning bidder with a ticket for claiming the item bid upon.  Using
+    novel cryptographic techniques, the service is constructed to provide
+    strong protection for both the auction house and correct bidders, despite
+    the malicious behavior of any number of bidders and even a constant
+    fraction of the servers comprising the auction service.  Specifically, it
+    is guaranteed that (i) bids of correct bidders are not revealed until after
+    the bidding period has ended, (ii) the auction house collects payment for
+    the winning bid, (iii) losing bidders forfeit no money, and (iv) only the
+    winning bidder can collect the item bid upon.  We also discuss techniques
+    to enable anonymous bidding.",
+  location     = "https://doi.org/10.1109/32.502223"
+}
+
+@Article{popafutn,
+  author       = "David~S. Linthicum",
+  title        = "Perils of Porting Applications From " # unix # " to {NT}",
+  journal      = "Uniforum",
+  year         = 1996,
+  month        = aug,
+  keywords     = "porting, linux, nt, portability, ",
+  location     = "http://www.uniforum.org/publications/ufm/aug96/unix-nt.html"
+}
+
+@Article{ipcastsh,
+  author       = "Chris Lilley",
+  title        = "Information Presentation: {{C}}ascading {{S}}tyle {{S}}heets",
+  journal      = "WebSmith",
+  year         = 1996,
+  volume       = 1,
+  number       = 3,
+  month        = may # "-" # jun,
+  keywords     = "css, html, styling",
+  abstract     = "Looking for a simple, effective way to implement style
+    changes in your web documents? Explore the possibilities of CCS1.", 
+  location     = "http://www.ru.j-npcs.org/usoft/WWW/WebSmith/issues/i3/index.html"
+}
+
+@Article{wcssite,
+  author       = "Liang, Ting-Peng and Lai, Hsiangchu and Chen, Nian-Shing and Wei, Hungshiung and Chen, Meng Chang",
+  title        = "When Client\slash Server Isn't Enough",
+  journal      = ieeec,
+  year         = 1994,
+  volume       = 27,
+  number       = 5,
+  pages        = "73--79",
+  month        = may,
+  keywords     = "groupware, task coordination, software architecture",
+  abstract     = "Computing in a distributed environment for multitasked
+    cooperative work is a promising area that presents many coordination
+    issues.  Our prototype system implements a three-layer architecture to
+    provide greater control and flexibility in the distributed multitasking
+    environment.  The architecture includes a groupware server, application
+    servers, and clients.  The architecture can be further refined to provide
+    more flexible control of activities.  More applications, such as group
+    calendaring and participative design can also be studied to find their
+    idiosyncratic coordination needs and to elaborate the division of labor
+    among different servers and clients.", 
+  location     = "https://doi.org/10.1109/2.291288"
+}
+
+@Article{adlanppfcvadt,
+  author       = "John~O. Limb and Lois~E. Flamm",
+  title        = "{A} Distributed Local Area Network Packet Protocol for Combined Voice and Data Transmission",
+  journal      = jsac,
+  year         = 1983,
+  volume       = 1,
+  number       = 5,
+  pages        = "926--934",
+  month        = nov,
+  keywords     = "local area networks, protocols, data communication,
+    telecommunication traffic, facsimile, delay, algorithm design and analysis,
+    distributed algorithms, circuit simulation, multiplexing",
+  abstract     = "Local area networks designed to carry a variety of traffic
+    such as data, voice, facsimile, and video should be able to implement low
+    latency virtual circuits to meet the demands of periodic traffic.  We have
+    designed a partially distributed algorithm to efficiently schedule voice
+    traffic on a unidirectional bus system called Fasnet.  Virtual channels are
+    allocated for the duration of a talk spurt and relinquished during the
+    intervening silent intervals.  Conversations already in progress, but
+    without an assigned circuit, take precedence over newly arriving calls.
+    Unused voice capacity may be utilized by data stations when required.
+    Simulations of the system indicate that performance is close to that
+    obtained by an ideal TASI multiplexer.  While the algorithm is unfair, this
+    is not a significant factor unless the network is loaded very heavily.
+    Further, except for a sojourn time unused voice capacity is utilized by the
+    data stations.", 
+  location     = "https://doi.org/10.1109/JSAC.1983.1146006"
+}
+
+@Article{mspfbis,
+  author       = "Thomas D.~C. Little and Arif Ghafoor",
+  title        = "Multimedia Synchronization Protocols for Broadband Integrated Services",
+  journal      = jsac,
+  year         = 1991,
+  volume       = 9,
+  number       = 9,
+  pages        = "1368--1382",
+  month        = dec,
+  keywords     = "protocols, intserv networks, streaming media, application specific processors, delay, multimedia systems, processor scheduling, data communication, broadband communication, telecommunication traffic",
+  abstract     = "Protocols to provide synchronization of data elements with
+    arbitrary temporal relationships of both stream and non-stream broadband
+    traffic types are proposed.  It is specified that the provision of a
+    synchronization function be performed within a packet switched network,
+    and, accordingly, a two-level communication architecture is presented.  The
+    lower level, called the network synchronization protocol (NSP), provides
+    the ability to establish and maintain individual connections with specified
+    synchronization characteristics.  The upper level, the application
+    synchronization protocol (ASP), supports an integrated synchronization
+    service for multimedia applications.  The ASP identifies the temporal
+    relationships among an application's data objects and manages the
+    synchronization of arriving data for playout.  The proposed NSP and ASP are
+    mapped to the session and application layers of the
+    open-systems-interconnection (OSI) reference model, respectively.", 
+  location     = "https://doi.org/10.1109/49.108675"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -2564,6 +2712,82 @@
     file browser, are provided." 
 }
 
+@InProceedings{itpodauan,
+  author       = "Ulana Legedza and David~J. Wetherall and John Guttag",
+  title        = "Improving the Performance of Distributed Applications Using Active Networks",
+  booktitle    = "IEEE INFOCOM '98",
+  year         = 1998,
+  pages        = "590--599",
+  month        = apr,
+  keywords     = "active networking, network architectures, capsules,
+    multicast, auctions, network caching, routers",
+  abstract     = "An active network permits applications to inject customized
+    programs into network nodes.  This permits faster protocol innovation by
+    making it easier to deploy new network protocols, even over the wide area.
+    In this paper, we argue that the ability to introduce active protocols
+    offers important opportunities for end-to-end performance improvements of
+    distributed applications.  We begin by describing several active protocols
+    that provide novel network services and discussing the impact of the
+    services on end-to-end application performance.  We then discuss two active
+    protocols that implement a previously studied service, reliable multicast.
+    One protocol is optimized to support batch applications and the other
+    interactive applications.  Finally, we analyze the performance of these
+    protocols relative to a baseline non-active protocol.  The results clearly
+    demonstrate that the introduction of active protocols tuned to the needs of
+    specific applications can lead to significant performance improvements.", 
+  location     = "http://www.sds.lcs.mit.edu/publications/infocom98lwg.html"
+}
+
+@InProceedings{prndsbans,
+  author       = "Thomas~A. Limoncelli and Tom Reingold and Ralph Loura",
+  title        = "Providing Reliable {NT} Desktop Services By Avoiding {NT} Server",
+  booktitle    = pot # "Large Installation System Administration of Windows NT Conference, LISA-NT",
+  year         = 1998,
+  pages        = "75--89",
+  address      = sewa,
+  month        = "5--8 " # aug,
+  keywords     = "open systems, simplicity, calendar management",
+  abstract     = "We have developed a reliable, stable NT Desktop environment
+    for our customers.  The services we provide include: Standard desktop
+    applications (word processing, spreadsheet, etc.), access to UNIX compute
+    servers, file storage and backups, e-mail, printing, calendar, netnews,
+    web, and Internet access.  We founded our architecture by selecting open,
+    standard protocols rather than specific applications.  This decoupled our
+    client application selection process from our server platform selection
+    process.  We could then choose the server based on our needs for
+    reliability, scalability, and manageability and let customers independently
+    choose their clients based on their needs of platform (NT or UNIX),
+    features, and preferences.  We can now choose between competing server
+    products rather than be locked into the (potentially difficult to manage)
+    server required for a particular client application.  This created a ``no
+    compromises'' environment on the desktop as well as in our server room.
+    Our customers are happy because the ``tail'' doesn't ``wag the dog''.  Our
+    ability to manage this infrastructure is superior because the dog doesn't
+    wag the tail either.  The resulting system gives us a strong base to build
+    new services.", 
+  location     = "https://www.usenix.org/legacyurl/papers-large-installation-sys-admin-windows-nt-6"
+}
+
+@InProceedings{wcsit,
+  author       = "Don Libes",
+  title        = "Writing {CGI} Scripts in {T}cl",
+  booktitle    = pot # "4th Conference on USENIX Tcl/Tk Workshop",
+  year         = 1996,
+  pages        = "21--34",
+  address      = "Monterey, " # CA,
+  month        = "10--13 " # jul,
+  keywords     = "tcl, cgi, scripting",
+  abstract     = "CGI scripts enable dynamic generation of HTML pages.  This
+    paper describes how to write CGI scripts using Tcl.  Many people use Tcl
+    for this purpose already but in an ad hoc way and without realizing many of
+    the more nonobvious benefits.  This paper reviews these benefits and
+    provides a framework and examples.  Canonical solutions to HTML quoting
+    problems are presented.  This paper also discusses using Tcl for the
+    generation of different formats from the same document.  As an example, FAQ
+    generation in both text and HTML are described.", 
+  location     = "https://www.researchgate.net/publication/243609777_Writing_CGI_scripts_in_Tcl"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -2849,6 +3073,51 @@
   location     = "https://smartech.gatech.edu/bitstream/handle/1853/3578/95-34.pdf?sequence=1&isAllowed=y"
 }
 
+@TechReport{rwwwhwr,
+  author       = "Arjen~K. Lenstra and James~P. Hughes and Maxime Augler and
+    Joppe~W. Bos and Thorsten Kleinjung and Christophe Wachter",
+  title        = "Ron was Wrong, {W}hit was Right",
+  institution  = "EPFL IC LACL",
+  year         = 2012,
+  address      = "Lausanne, Switzerland",
+  keywords     = "sanity check, rsa, 99.8% security, elgamal, dsa, ecdsa,
+    (batch) factoring, discrete logarithm, euclidean algorithm, seeding random
+    number generators, k9", 
+  abstract     = "We performed a sanity check of public keys collected on the
+    web.  Our main goal was to test the validity of the assumption that
+    different random choices are made each time keys are generated.  We found
+    that the vast majority of public keys work as intended.  A more
+    disconcerting finding is that two out of every one thousand RSA moduli that
+    we collected offer no security.  Our conclusion is that the validity of the
+    assumption is questionable and that generating keys in the real world for
+    “multiple-secrets” cryptosystems such as RSA is significantly riskier than
+    for “single-secret” ones such as ElGamal or (EC)DSA which are based on
+    Diffie-Hellman.", 
+  location     = "http://eprint.iacr.org/2012/064.pdf"
+}
+
+@TechReport{cssl1,
+  author       = "H\r{a}kon Lium Lie and Bert Bos",
+  title        = "{C}ascading {S}tyle {S}heets, level 1",
+  institution  = "W3C",
+  year         = 1999,
+  number       = "REC-CSS1-19990111",
+  month        = "11 " # jan,
+  keywords     = "html, style sheets, css",
+  abstract     = "This document specifies level 1 of the Cascading Style Sheet
+    mechanism (CSS1).  CSS1 is a simple style sheet mechanism that allows
+    authors and readers to attach style (e.g.  fonts, colors and spacing) to
+    HTML documents.  The CSS1 language is human readable and writable, and
+    expresses style in common desktop publishing terminology.  One of the
+    fundamental features of CSS is that style sheets cascade; authors can
+    attach a preferred style sheet, while the reader may have a personal style
+    sheet to adjust for human or technological handicaps.  The rules for
+    resolving conflicts between different style sheets are defined in this
+    specification.  This Recommendation results from W3C activities in the area
+    of Style Sheets.  For background information on style sheets, see [1].", 
+  location     = "https://www.w3.org/TR/CSS1"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -2901,6 +3170,29 @@
   year         = 2012,
   keywords     = "netlogo, programming, program structure",
   location     = "https://subversion.american.edu/aisaac/notes/netlogo-intro.xhtml"
+}
+
+@Manual{ctarm,
+  title        = "{\tt cgi.tcl} - {A} Reference Manual",
+  author       = "Don Libes",
+  keywords     = "www, cgi, tcl, scripting",
+  location     = "ftp://ftp.ntua.gr/mirror/expect/cgi.tcl/ref.html"
+}
+
+@Manual{ptpwm,
+  title        = "{PLWM} --- The Pointless Window Manager",
+  author       = "Peter Liljenberg",
+  year         = 2002,
+  keywords     = "window manager, python",
+  location     = "http://plwm.sourceforge.net/"
+}
+
+@Manual{drdscs,
+  title        = "{DVD}-{ROM} Drive {SCSI} Command Set",
+  organization = "Pioneer",
+  edition      = "TB--0597",
+  keywords     = "scsi, dvd",
+  location     = "https://slidex.tips/download/technical-bulletin-no-tb-0597-dvd-rom-drive-scsi-command-set"
 }
 
 @Unpublished{ivbf,
@@ -3116,6 +3408,16 @@
   howpublished = "Web",
   keywords     = "distributed software",
   location     = "https://www.cse.wustl.edu/~schmidt/PDF/corba4.pdf"
+}
+
+@Misc{aitqcaqc,
+  author       = "Rob Pike",
+  title        = "An Introduction to Quantum Computation and Quantum Computing",
+  howpublished = "Invited {\sc Usenix} talk",
+  year         = 2000,
+  month        = "23 " # jun,
+  keywords     = "quantum computing, quantum communication",
+  location     = "https://www.usenix.org/events/usenix2000/invitedtalks/pike_html/"
 }
 
 
