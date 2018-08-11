@@ -143,7 +143,6 @@ a logic based approach to system modelling : rich
 a logical calculus of the ideas immanent in nervous activity : mculloch
 a machine independent debugger revisited : hanson
 a mathematical theory of communication : shannon
-a measurement base performance analyzer for real time program : kenny
 a method for analyzing loop programs : waters
 a methodology for building application specific visualizations of parallel programs : stasko
 a methodology for implementing highly concurrent data objects : herlihy
@@ -155,7 +154,6 @@ a microprocessor based implantable telemetry system : fernald
 a microprogrammed p code interpreter for the data general eclipse s 130 minicomputer : hall
 a model for flexible high performance communication subsystems : zitterbart
 a model of visibility control : wolf
-a modular architecture for providing carrier grade sip telephony services : khlifi
 a modular geometric constraint solver for user interface applications : hosobe
 a modular module system : leroy
 a modular proof of correctness for a network synchronizer : fekete
@@ -255,7 +253,6 @@ a spiral model of software development and enhancement : boehm
 a sruvey of cache coherence schemes for multiprocessors : stenstrom
 a stackable file system interface for linux : zadok
 a statistical approach to the spam problem : robinson
-a stepwise refinement based approach for synthesizing protocol specifications in an interpreted petri net model : kahlouche
 a stop and go queueing framework for congestion management : golestani
 a straightforward denotational semantics for nondeterministic data flow programs : kosinski
 a stream compiler for communication exposed architectures : gordon
@@ -429,7 +426,6 @@ amoeba a distributed operating systems for the 1990s : mullender
 amroute adhoc multicast routing protocol : xie
 an access control facility for programming languages : jones
 an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
-an acyclic expansion algorithm for fast protocol validation : kakuda
 an ada interface to diana for intertool communication : howell
 an adaptive transport service suitable for high speed networks : richards
 an advanced 4.3 bsd interprocess communication tutorial : leffler
@@ -455,7 +451,6 @@ an attribute grammar evaluator in haskell : rushall
 an awk to c++ translator : kernighan
 an axiomatic basis for computer programming : hoare
 an efficient context free parsing algorithm : earley
-an efficient reliable broadcast protocol : kaashoek
 an empiricaly driven mathematical modeling analysis for play calling strategy in american football : boronico
 an empirical analysis of c preprocessor use : ernst
 an empirical comparison and characterization of high defect and high complexity modules : koru
@@ -554,7 +549,6 @@ architecture independent parallel computation : skillicorn
 architecture of an open object oriented database management system : wells
 architecure and design of adaptive object models : yoder
 are operating systems obsoloete : denning
-area codes country codes penal codes and toll free numbers : keevers
 arguments and results : noble
 arithmetic equality constraints as c++ statements : van wyk
 arithmetic shifting considered harmful : steele
@@ -1805,7 +1799,6 @@ mate a tiny virtual machine for sensor networks : levis
 mathematical theory of claude shannon : chiu
 mathematics the loss of certainty : kline
 matrix computations on systolic type meshes : moreno
-measurement analysis and improvement of udp ip throughput for the decstation 5000 : kay
 measurement and evaluation of the mips architecture and processor : gross
 measuring software quality a case study : drake
 mechanical verification of concurrent systems with tla : engberg
@@ -1919,7 +1912,6 @@ netlogo : netlogo
 netscape plug ins : netscape
 network news transfer protocol : kantor
 network objects : birrell
-network routing : kelly
 network security via reverse engineering of tcp code vulnerability analysis and proposed solutions : guha
 network services in an uncooperative internet : jannotti
 network subsystem design a case for an integrated data path : druschel
@@ -1938,7 +1930,6 @@ new advances in filesystem space : miner
 new copyright law for distance education the meaning and importance of the teach act : crews
 new directions in cryptography : diffie
 new heap data structures : kaplan
-new techniques for ray tracing procedurally defined objects : kajiya
 newlines and lexer states : clark
 next permutation when c++ gets it right : word aligned
 nix a safe and policy free system for software deployment : dolstra
@@ -2359,7 +2350,6 @@ relocating machine instructions by currying : ramsey
 remarks on a methodology for implementing highly concurrent data objects : skudlarek
 remote method calling and object group communication : maffeis
 remote procedure call programming guide : rpc
-repeal braunls law : kaelbling
 replacing a dictionary with a square root : cargill
 replacing complexity with generality the programming language forsythe : reynolds
 replicated abstract data types building blocks for collaborative applications : roh
@@ -2409,7 +2399,6 @@ rtp library api specification : lucent
 ruby users guide : ruby
 rules for referees : forscher
 rust : hoare
-saam a method for analyzing the properties of software architectures : kazman
 safe data types specifications : phillips
 sage an object oriented toolkit and class library for building fortran and c restructuring tools : bodin
 salto system for assembly language transformation and optimization : rohou
@@ -2913,8 +2902,6 @@ the ia 64 architecture at work : dulong
 the idea encryption algorithm : schneier
 the impact of architectural trends on operating system performance : rosenblum
 the implementation of newsqueak : pike
-the importance of non data touching processing overheads in tcp ip : kay
-the incomplete scheme 48 reference manual : kelsey
 the inferno operating system : dorward
 the inferno shell : peppe
 the influence of browsers on evaluators : queinnec
@@ -2929,7 +2916,6 @@ the joyce language report : brinch hansen
 the juno 2 constraint based drawing editor : heydon
 the kaffeos java runtime system : back
 the kiwinet nicola approach response generation in a user friendly interface : efe
-the knockout packet switch principles and performance : karol
 the knockout switch a simple modular architecture for high performance packet switching : yeh
 the labelled bnf grammar formalism : frosberg
 the ladder of abstraction : victor
@@ -3324,10 +3310,8 @@ voip security not an afterthought : sicker
 voip steganography and its detection a survey : mazurczky
 volume models for volumetric data : ranjan
 voodoos introduction to javascript : koch
-vops a portable protocol development and implementation environment : karila
 voroni diagrams a survey of a fundamental geometric data structure : aurenhammer
 vortex rtl textual description grammar : cecil
-w effect considered harmful : khare
 walkabout revisited the runabout : grothoff
 wait free synchronization : herlihy
 wap is a trap reject wap : banan
@@ -3352,7 +3336,6 @@ what has influenced computing innovation : hughes
 what i wish i knew when learning haskell : diehl
 what if mass storage were free : copeland
 what is a is and isn't an analysis of taxonomic links in semantic networks : brachman
-what is a library anymore anyway : keller
 what is a monoid : kmett
 what is a thesis defense : riesbeck
 what is ada : brender
