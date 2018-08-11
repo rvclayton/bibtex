@@ -1,7 +1,6 @@
 .so bibtex.header
 		  
 @string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
-@string{idl94 = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
 		  
 @Book{tdoetn,
   author       = "Tom Nichols",
@@ -2375,6 +2374,24 @@
   location     = "https://doi.org/10.1109/49.108675"
 }
 
+@Article{wech,
+  author       = "Rohit Khare",
+  title        = "{W}* Effect Considered Harmful",
+  journal      = "IEEE Internet Computing",
+  year         = 1999,
+  volume       = 3,
+  number       = 4,
+  pages        = "89--92",
+  month        = jul # "-" # aug,
+  keywords     = "wireless networking, WAP, Web standard, wireless Internet
+    access, TCP/IP ", 
+  abstract     = "Claiming that wireless is different WAP 1.1 rewrites almost
+    every Web standard in the book.  The commercial demand for WAP has proved
+    sufficient to implement most of its technologies, but it should be adopted
+    very cautiously.  The author discusses the component technologies of WAP.", 
+  location     = "https://doi.org/10.1109/4236.780965"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -2826,6 +2843,65 @@
   location     = "https://www.researchgate.net/publication/243609777_Writing_CGI_scripts_in_Tcl"
 }
 
+@InProceedings{ambpafrtp,
+  author       = "Kevin~B. Kenny and Kwei-Jay Lin",
+  title        = "{A} Measurement-Based Performance Analyzer For Real-Time Programs",
+  booktitle    = pot # "Tenth Annual International Phoenix Conference on Computers and Communications",
+  year         = 1991,
+  pages        = "93--99",
+  address      = "Scottsdale, " # az,
+  month        = "27--30 " # mar,
+  keywords     = "measurement-based performance analyzer, real-time programs,
+    program measurements, performance behavior, parametric model, unbounded
+    loops, recursive control, statistical confidence", 
+  abstract     = "The authors present a system that uses program measurements
+    as an aid in analyzing the performance behavior of real-time programs.  The
+    authors propose a system that can measure the time required for a task
+    under various conditions, and integrate these measured times into a
+    parametric model supplied by the programmer.  The measurement must require
+    only insignificant time compared to the task being performed.  Some
+    capabilities of such a system include: analysis of program structures that
+    are impossible for other systems, such as unbounded loops and recursive
+    control structures; providing accurate timing information even on hardware
+    whose timing behavior is difficult to model and analyze; and providing
+    confidence in the timing model by validating it statistically for goodness
+    of fit.  The system allows for dependency of the execution time on the
+    input data.  It allows the programmer to build a model of a task's timing
+    behavior that incorporates world knowledge, and gives a measure of
+    statistical confidence that the model accurately represents the program's
+    actual behavior.", 
+  location     = "https://doi.org/10.1109/PCCC.1991.113797"
+}
+
+@InProceedings{samfatposa,
+  author       = "Kazman, Rick and Bass, Len and Webb, Mike and Abowd, Gregory",
+  title        = "{SAAM}:  {A} Method for Analyzing the Properties of Software Architectures",
+  booktitle    = pot # "16th International Conference on Software Engineering (ICSE '94)",
+  year         = 1994,
+  pages        = "81--90",
+  address      = "Sorrento, Italy",
+  month        = "16--21 " # may,
+  keywords     = "software architecture analysis, SAAM, organization life
+    cycle, software quality, software maintainability, software modularity,
+    software reusability, Software Architecture Analysis Method, user
+    interface, modifiability quality, software portability", 
+  abstract     = "While software architecture has become an increasingly
+    important research topic in recent years, insufficient attention has been
+    paid to methods for evaluation of these architectures.  Evaluating
+    architectures is difficult for two main reasons.  First, there is no common
+    language used to describe different architectures.  Second, there is no
+    clear way of understanding an architecture with respect to an
+    organization's life cycle concerns -software quality concerns such as
+    maintainability portability, modularity, reusability, and so forth.  We
+    address these shortcomings by describing three perspectives by which we can
+    understand the description of a software architecture and then proposing a
+    five-step method for analyzing software architectures called SAAM (Software
+    Architecture Analysis Method).  We illustrate the method by analyzing three
+    separate user interface architectures with respect to the quality of
+    modifiability.", 
+  location     = "https://doi.org/10.1109/ICSE.1994.296768"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -3156,6 +3232,26 @@
   location     = "https://www.w3.org/TR/CSS1"
 }
 
+@TechReport{trotmatfoete,
+  author       = "Kempf, James and Austein, Rob",
+  title        = "The Rise of the Middle and the Future of End to End",
+  institution  = "IETF",
+  year         = 2003,
+  type         = "RFC",
+  number       = "3724",
+  month        = jan,
+  keywords     = "internet architecture, system development, security, iana",
+  abstract     = "The end-to-end principle is the core architectural guideline
+    of the Internet.  In this document, we briefly examine the development of
+    the end-to-end principle as it has been applied to the Internet
+    architecture over the years.  We discuss current trends in the evolution of
+    the Internet architecture in relation to the end-to-end principle, and try
+    to draw some conclusion about the evolution of the end-to-end principle,
+    and thus for the Internet architecture which it supports, in light of these
+    current trends.", 
+  location     = "https://tools.ietf.org/html/rfc3724"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -3456,6 +3552,13 @@
   month        = "23 " # jun,
   keywords     = "quantum computing, quantum communication",
   location     = "https://www.usenix.org/events/usenix2000/invitedtalks/pike_html/"
+}
+
+@Misc{acccpcatfn,
+  author       = "R.~J. Keevers",
+  title        = "Area Codes, Country Codes, Penal Codes and Toll Free Numbers",
+  howpublished = "PDF",
+  keywords     = "number plans, standardization"
 }
 
 
