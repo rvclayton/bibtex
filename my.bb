@@ -405,6 +405,16 @@
   location     = "N 6537.J6 D66 2017"
 }
 
+@Book{tospm,
+  author       = "Paolo Maurensig",
+  title        = "Theory of Shadows",
+  publisher    = "Farrar, Straus, \& Giroux",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "chess, collaboration, history, alekhine",
+  location     = "PQ 4873.A8947 T46513"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -1820,6 +1830,34 @@
     specifications are discussed.  The information loss and frame axiom
     problems for inherited specifications are also considered.",
   location     = "https://doi.org/10.1145/185084.185117"
+}
+
+@Article{uiitapisse,
+  author       = "Hamilton, Graham and Radia, Sanjay",
+  title        = "Using Interface Inheritance to Address Problems in System Software Evolution",
+  journal      = sigplan # idl94,
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "119--128",
+  month        = aug,
+  keywords     = "interfaces, inheritance, versioning",
+  abstract     = "Two specific problems faced in large distributed systems are
+    (1) evolving and managing different versions of an interface while
+    minimizing the impact on existing clients, and (2) supporting the addition
+    of auxiliary interfaces that are orthogonal to the main interface of an
+    abstraction.In the context of the Spring distributed system, we addressed
+    both problems using an object-oriented interface definition language.
+    Different versions of an interface are represented as different types with
+    an inheritance relationship that minimizes the impact on existing clients
+    and allows easy management of versions.We distinguish between fundamental
+    and auxiliary properties each of which are defined as separate types.
+    Rather than use simple root inheritance, we use a combination of root and
+    leaf inheritance.  This provides flexibility in supporting auxiliary
+    properties and allows us to add new auxiliary properties as the system
+    evolves without forcing the system to be recompiled.The solutions have been
+    tested and refined through their use in the Spring system.", 
+  location     = "https://doi.org/10.1145/185084.185115"
 }
 
 @Article{pvil,
