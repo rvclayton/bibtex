@@ -13123,7 +13123,7 @@
 }
 
 @Article{ftsm,
-  author       = "David~B. Sarrizan and Miroslaw Malek",
+  author       = "David~B. Sarrazan and Miroslaw Malek",
   title        = "Fault-Tolerant Semiconductor Memories",
   journal      = ieeec,
   year         = 1984,
