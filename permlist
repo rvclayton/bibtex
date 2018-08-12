@@ -30,7 +30,6 @@ a case tool platform using an xml representation of java source code : maruyama
 a catalog of stream processing optimizations : hirzel
 a centaur tutorial : anon
 a checkable interface language for pointer based structures : russell
-a classification of case technology : fuggetta
 a cmos risc processor with integrated system functions : moussouris
 a code generator interface for ansi c : fraser
 a cognitive perspective on teaching object oriented analysis and design : ryan
@@ -88,7 +87,6 @@ a flexible message service specification : calvert
 a formal description of behavioral verilog based on axiomatic semantics : fiskio
 a formal definition of priority in csp : fidge
 a formal proof of a protocol for communications over faulty channels using the larch prover : chetali
-a formal specification maturity model : fraser
 a framework for controlling coopeerative agents : lee
 a framework for defining the quality of communications services : richters
 a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
@@ -668,7 +666,6 @@ building flexible real time systems using the flex language : kenny
 building interpreters by transforming stratified monads : espinosa
 building robust systems : sussman
 building the perfect executable : cheif
-building trustworthy systems lessons from the ptn and internet : schneider
 building your own basic cgi program : palmer
 bytecode fetch optimization for a java interpreter : ogata
 c a language for high level efficient and machine independent dynamic code generation : engler
@@ -754,7 +751,6 @@ collaborative information retrieval gropher from moo : masinter
 collaborative networked communication muds as system tools : evard
 collaborative systems solving the vocabulary problem : chen
 color and sound in algorithm animation : brown
-color models : schneier
 coloured petri nets and the invariant method : jensen
 combining generics precompilation and sharing between software based processes : kennedy
 combining monads : king
@@ -1227,7 +1223,6 @@ fault tolerance by design diversity concepts and experiments : avizienis
 fault tolerance in commercial computers : siewiorek
 fault tolerant clock synchronization in distributed systems : ramanathan
 fault tolerant computing fundamental concepts : nelson
-fault tolerant semiconductor memories : sarrazin
 fc++ founctional tools for object oriented tasks : smaragdakis
 feature interactions and formal specifications in telecommunications : zave
 feeding frenzy selectively materalizing users event feeds : silberstein
@@ -1574,7 +1569,6 @@ intermediate representations in imperative compilers a survey : stanier
 internet address space management in digital : reid
 internet group management protocol version 2 : fenner
 internet mobility 4 times 4 : cheshire
-internet protocol storage area networks : sarkar
 internet resource discovery services : obraczka
 internet scavenger hunt : internet
 internet telephony : mcknight
@@ -1740,7 +1734,6 @@ literate smalltalk programming using hypertext : osterbye
 little languages for pictures in awk : bently
 live through case histories as motivation for software process : bernstein
 lively linear lisp look ma no garbage : baker
-living the dynamic life of plug ins : schnoebelen
 ll and lr translators need k 1 lookahead : parr
 llgen an extended ll1 parser generator : jacobs
 llnextgen user manual : halkes
@@ -1879,7 +1872,6 @@ multiple associations with stream control transmission protocol : newmarch
 multiple bus architectures : mudge
 multiple valued logic a tutorial and appreciation : smithm
 ultiplication by integer constants : briggs
-multiprocessor algorithms for relational database operators on hypercube systems : frieder
 multiprocessor organization a survey : enslow
 multiprocessor performance measurement instrumentation : mink
 multithreaded java program test generation : edelstein
@@ -2743,7 +2735,6 @@ the abcs of specification amsl behavior and components : barnett
 the absolute minimum every software developer absolutely positively must know about unicode and character sets no excuses : spolsky
 the accent compiler compiler : accent
 the affordances of media spaces : gaver
-the allegory of the humidifier roi for systems engineering : sampson
 the alloc stream facility a redsign of application level stream io : krieger
 the alonzo functional programming language : ramsdell
 the alpha language : wilde
