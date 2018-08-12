@@ -1,5 +1,5 @@
 #! /bin/bash
-# permlist - write to std-out a kwik index of titles.
+# permlist- write to std-out a kwik index of titles.
 
 cat <<eof! |
 .profile : howard
@@ -211,7 +211,6 @@ a programming and problem-solving seminar : mayr
 a programming language perspective to compositional software architectures : sabry
 a project for operating systems simulation : shay
 a proof technique for communicating sequential processes : levin
-a proposed standard for binary floating point arithmetic : stevenson
 a protocol for packet network interconnection : cerf
 a quantitative comparison of architectures for atm switching systems : witte
 a readable tcp in the prolac protocol language : kohler
@@ -232,7 +231,6 @@ a scheme for real time channel establishment in wide area networks : ferrari
 a scheme shell : shivers 
 a second opinion on data flow machines and languages : gajski
 a security kernel for a multiprocessor microcomputer : schell
-a short history of the internet : sterling
 a simple and extensible graphical debugger : hanson
 a simple and powerful type system for programming lanauges : ayres
 a simple and unifying approach to subjective objects : smith
@@ -292,7 +290,6 @@ a syntax directed integrated programming environment for developing simd superco
 a synthesis of software science measures and the cyclomatic number : ramamurthy
 a system architecture for fault tolerance in concurrent software : ancona
 a system for constructing configurable high level protocols : bhatti
-a systematic approach to host interface design for high speed networks : steenkiste
 a systematic approach to multiple inheritance implementation : templ
 a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
@@ -688,7 +685,6 @@ caching in the sprite network file system : nelson
 caching strategies to improve disk system performance : karedla
 caching substitutions : krishnamurthi
 calculating encoding and decoding functions for prefix codes : pareja
-calculating the maximum mean data rate in local area networks : stuck
 call by value is dual to call by name : wadler
 call with current continuation patterns : ferguson
 caml trading experiences with functional programming on wall street : minsky
@@ -809,7 +805,6 @@ comprehending monads : wadler
 computational geometry finding the convex hull : gettys
 computational lambda calculus and monads : moggi
 computational thinking : wing
-computer architecture in the 1990s : stone
 computer communication networks approaches objectives and performance considerations : kimbleton
 computer experiments with fractional gaussian noises part 1 averages and variances : mandelbrot
 computer graphics the need for graphics design part 1 : myers
@@ -858,7 +853,6 @@ converting python virtual machine code to c : aycock
 cool an object based language for parallel programming : chandra
 cooperative software : rettig
 copying and comparing problems and solutions : grogono
-copyrights and author responsibilities : stone
 core javascript guide : javascript
 coroutines and networks of parallel processes : kahn
 correct and robust programs : cristian
@@ -978,7 +972,6 @@ design of the programming lanauge forsythe : reynolds
 design of the x kernel : hutchins 
 design pattern detection using similarity scoring : tsantalis
 design patterns abstraction and reuse of object oriented design : gamma
-design patterns in object oriented frameworks : srinivasan
 design principles and design patterns : martin
 design principles behind smalltalk : ingles
 design recovery by automated search for structural design patterns in object oriented software : kramer
@@ -1220,7 +1213,6 @@ f*dging up a racket : yoo
 facts of software engineering management : glass
 failure resilient transaction management in multidatabases : soparkar
 fast algorithms for sorting and searching strings : bentley
-fast and scalable layer four switching : srinivasan
 fast and small resizable arrays : demaine
 fast approximate string matching : owolabi 
 fast cheap and out of control a robot invasion of the solar system : brooks
@@ -1466,7 +1458,6 @@ how to give a good research talk : jones
 how to identify new high payoff information systems for the organization : peffers
 how to make a multiprocessor computer that correctly executes multiprocess programs : lamport
 how to make lisp go faster than c : verna
-how to own the internet in your spare time : staniford
 how to program in self 1.4 : ungar
 how to prove observational theorems with lp : bidoit
 how to read mathematics : simonson
@@ -1515,7 +1506,6 @@ implementing remote evaluation : stamos
 implementing smart spiders : konchady
 implementing tcp ip on a cray computer : borman
 implementing the pi calculus in java : li
-implications of classical scheduling results for real time systems : stankovic
 implicit java array bounds checking on 64 bit architecture : bentley
 imposing the law of demeter and its variations : pal
 imprecision in computer vision : jain
@@ -1603,7 +1593,6 @@ introduction to markov chains : dawson
 introduction to mmix : knuth
 introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
-introduction to shape and shape grammars : stiny
 introduction to simulated annealing : tovy
 introduction to stream control transmission protocol : newmarch
 introduction to the configurable highly parallel computer : snyder
@@ -1904,7 +1893,6 @@ myths about congestion management in high speed networks : jain
 naked objects a technique for designing more expressive systems : pawson
 napster messages : napster
 ncurses old school interfaces : hammel
-nebula a new architecture and its relationship to computer hardware : szewerenko
 nesl a data parallel language : blelloch
 netblt a high throughput transport protocol : clark
 netheads versus bellheads : denton
@@ -2389,7 +2377,6 @@ robust distributed computing and sensing algorithm : brooks
 role based access control models : sandhu
 role based access control with x.509 attribute certificates : chadwick
 rolling your own input iterators : van horn
-routing algorithms for internetworking : stallings
 rpc in the x kernel evaluating new design techniques : hutchinson
 rpc under fire : vinoski
 rpcgen programming guide : rpcgen
@@ -2561,7 +2548,6 @@ ule a modern scheduler for freebsd : roberson
 using and customizing knoppix : bernier
 using javascript as a real programming language : mikkonen
 using meta level compilation to check flash protocol code : chou
-using metrics in management decision making : stark
 using metrics to evaluate software system maintainability : coleman
 using procedural parameters and continuations in combinatorial searches : hwang
 using production grammars in software testing : sirer
@@ -2592,7 +2578,6 @@ some topics in parser generators : jacobs
 sos simple operating system simulator : crowley
 source code : weisner
 spambayes effective open source basesian based email classification : meyer
-sparc assembly language reference manual : sparc
 spatial data and the voronoi tessellation : lukatela
 specification and analysis of a data transfer protocol using systems of communicating machines : lundy
 specification and verification of time dependent communication protocols : shankar
@@ -3224,7 +3209,6 @@ understanding and verifying distributed algorithms using stratified decompositio
 understanding computers and cognition : winograd
 understanding binary searches : koenig
 understanding interfaces : lam
-understanding osi network management : stallings
 understanding procedures as objects : eisenberg
 understanding symmetry in object oriented languages : zhao
 understanding unix workstation performance : muller
@@ -3465,5 +3449,5 @@ sort
 
 # Local Variables:
 # eval: (auto-fill-mode -1)
-# eval: (progn (fset 'd "\C-a\C-u1\C-k\C-[<") (local-set-key (kbd "C-c d") 'd))
+# eval: (progn (fset 'd "\C-a\C-u1\C-k\C-[<\C-s") (local-set-key (kbd "C-c d") 'd))
 # End:
