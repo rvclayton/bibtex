@@ -13903,7 +13903,7 @@
 }
 
 @Article{nanaairtch,
-  author       = "Leland Szewerenko and William~B. Deitz and Frank~E. {Ward,
+  author       = "Leland Szewerenko and William~B. Dietz and Frank~E. {Ward,
 		  Jr.}",
   title        = "Nebula:  A New Architecture and Its Relationship to Computer
 		  Hardware",
