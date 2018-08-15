@@ -65,7 +65,6 @@ a descent into limbo : kernighan
 a description of the dos file system : erdelsky
 a design rationale for a language based editor : welsh
 a development process generative pattern language : coplien
-a discipline for constructing multiphase communication protocols : chow
 a discipline of multiprogramming : misra
 a distributed alternative to finite state machine specifications : zave
 a distributed heterogeneous supercomputing management system : ghafoor
@@ -423,14 +422,12 @@ an access control facility for programming languages : jones
 an action based framework for verifying logical and behavioural properties of concurrent systems : de nicola
 an ada interface to diana for intertool communication : howell
 an adaptive transport service suitable for high speed networks : richards
-an advanced 4.3 bsd interprocess communication tutorial : leffler
 an agent based approach for building complex software systems : jennings
 an algebraic specification of hdlc procedures and its verification : higashino
 an algorithm for filling regions on graphics display devices : lane
 an alternative to the use of patterns in string processing : griswold
 an alphard specification of a correct and efficient transformation on data structures : bentley
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
-an analysis of tcp processing overhead : clark
 an annotated bibliography of interactive program steering : gu
 an annotation language for optimizing software libraries : guyer
 an apl machine : abrams
@@ -534,7 +531,6 @@ applying pi towards a basis for concurrent imperative programming : odersky
 applying software complexity metrics to program maintenance : harrison
 applying user level measurements to rti 1.3 release 2 : cohen
 architectural and software issues in the design and application of peripheral array processors : karplus
-architectural considerations for a new generation of protocols : clark
 architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
 architectural styles and the design of network based software architectures : fielding
 architectural support for cooperative multiuser interfaces : bentley
@@ -618,7 +614,6 @@ basic xml : anon
 bead sort a natural sorting algorithm : arulanandham
 beanshell simple java scripting : beanshell
 beepcore tcl : rose
-behavioral consistency of c and verilog programs using bounded model checking : clarke
 being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
@@ -1286,7 +1281,6 @@ fractal rulers : swan
 frame relaying and the fast packet switching concepts and issues : rahnema
 framework for implementing the next generation of computing protocols : fry
 frameworks for intra and interprocedural dataflow analysis : chambers
-freenets next generation routing protocol : clarke
 from constructivism to computer science : troelstra
 from live sequence charts to state machines and back a guided tour : bontemps
 from mechanism to method data abstraction and heterarchy : henney
@@ -1836,7 +1830,6 @@ modular denotational semantics for compiler construction : liang
 modular design of real time systems : haase
 modular extensions to z : sampaio
 modular scheduling of atomic actions : rosenband
-modularity and efficiency in protocol implementation : clark
 module algebra : bergstra
 module composition and refinement with applications to protocol conversion : calvert
 module imbedding : radenski
@@ -1886,7 +1879,6 @@ naked objects a technique for designing more expressive systems : pawson
 napster messages : napster
 ncurses old school interfaces : hammel
 nesl a data parallel language : blelloch
-netblt a high throughput transport protocol : clark
 netheads versus bellheads : denton
 netlogo : netlogo
 netscape plug ins : netscape
@@ -2040,7 +2032,6 @@ pad a zoomable graphical sketchpad for exploring alternate interface physics : b
 painless parsing in haskell : hevan
 palm os programmers companion : bey
 paradigm a highly scalable shared memory multicomputer architecture : cheriton
-parallel crawlers : cho
 parallel graph algorithms : quinn
 parallel implementations of probabilistic inference : kozlov
 parallel operators : jezequel
@@ -2227,7 +2218,6 @@ proofs and refutations : lakatos
 proofs of correctness of cache coherence protocols : stoy
 properties of concurrent programs : chandi
 prosper tutorial : guha
-protecting free expression online with freenet : clarke
 protecting public keys and signature keys : denning
 protection : lampson
 protection in the hydra operating system : cohen
@@ -2934,7 +2924,6 @@ the monarch parallel processor hardware design : rettberg
 the multimedia multicasting problem : pasquale
 the multistage cube a versitile interconnection network : siegel
 the mystery of the tower revealed a nonreflective description of the reflective tower : wand
-the nachos instructional operating system : wchristopher
 the nesc language a holistic approach to networked embedded systems : gay
 the new font family selection user interface to standard latex : mittelbach
 the new jersey machine code toolkit : ramsey
@@ -3167,7 +3156,6 @@ tries : sahni
 truffles a secure service for widespread file sharing : reiher
 truly random numbers : plumb
 ttp a protocol for fault tolerant real time systems : kopetz
-tussle in cyberspace defining tomorrows internet : clark
 tutorial compiling concurrent languages for sequential processors : edwards
 tutorial notes on partial evaluation : concel
 tutorial on ats anairiats : ats
