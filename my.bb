@@ -3252,6 +3252,58 @@
   location     = "https://tools.ietf.org/html/rfc3724"
 }
 
+@TechReport{anmd,
+  author       = "R. Clayton",
+  title        = "{A} New {MICE} Database",
+  institution  = bcr,
+  year         = 1987,
+  number       = "IM-000-21460-87-02",
+  address      = "Morristown, N.J.",
+  month        = "14 " # aug,
+  keywords     = "mice, intelligent services, databases, telephony",
+  abstract     = "The Modular, Integrated Communications Environment (MICE) is
+    an intelligent-network services testbed which uses a single database to
+    store operational data.  In addition to being a performance bottle-neck,
+    the database makes it difficult to implement and experiment with services.
+    This paper describes the current MICE database arrangement and the problems
+    it causes, and proposes a solution based on multiple databases.  The paper
+    then describes the changes made to MICE so it can use multiple databases,
+    and describes how the changes were implemented."
+}
+
+@TechReport{napar,
+  author       = "David~D. Clark",
+  title        = "Name, Addresses, Ports, and Routes",
+  institution  = ietf,
+  year         = 1982,
+  number       = "RFC 814",
+  month        = jul,
+  keywords     = "names, addresses, service identifiers",
+  abstract     = "This RFC gives suggestions and guidance for the design of the
+    tables and algorithms necessary to keep track of these various sorts of
+    identifiers inside a host implementation of TCP/IP.", 
+  location     = "https://tools.ietf.org/html/rfc814"
+}
+
+@TechReport{aa43ict,
+  author       = "Samuel~J. Leffler and Robert~S. Fabry and William~N. Joy and
+    Phil Lapsley and Steve Miller and Chris Torek",
+  title        = "An Advanced 4.{3BSD} Interprocess Communication Tutorial",
+  institution  = "Computer Systems Research Group, Department of Electrical
+    Engineering and Computer Science, University of California, Berkeley",
+  year         = 1986,
+  address      = beca,
+  keywords     = "unix, interprocess communication, sockets",
+  abstract     = "This document provides an introduction to the interprocess
+    communication facilities included in the 4.3BSD release of the Unix system.
+    It discusses the overall model for interprocess communication and
+    introduces the interprocess communication primitives which have been added
+    to the system.  The majority of the document considers the use of these
+    primitives in developing applications.  The reader is expected to be
+    familiar with the C programming language as all examples are written in
+    C."
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -3559,6 +3611,16 @@
   title        = "Area Codes, Country Codes, Penal Codes and Toll Free Numbers",
   howpublished = "PDF",
   keywords     = "number plans, standardization"
+}
+
+@Misc{fsngrp,
+  author       = "Ian Clarke",
+  title        = "Freenet's Next Generation Routing Protocol",
+  howpublished = "Web",
+  year         = 2003,
+  month        = "20 " # jul,
+  keywords     = "routing, peer-to-peer networking",
+  location     = "http://freenetproject.org/index.php?page=ngrouting"
 }
 
 
