@@ -414,6 +414,16 @@
   location     = "PQ 4873.A8947 T46513"
 }
 
+@Book{wbit,
+  author       = "Robert Wright",
+  title        = "Why Buddhism is True",
+  publisher    = "Simon \& Schuster",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "buddhism, psychology, meditation, mental life",
+  location     = "BQ 4050.W75 "
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
