@@ -822,6 +822,7 @@ constructing distributed systems in conic : magee
 constructing program dependency graphs using a parser : harrold
 constructing reusable specifications through analogy : chiang
 constructive logics part 1 a tutorial on proof systems and typed lambda calculus : gallier
+constructing submodule specifications and network protocols : sidu
 continuations and advanced flow control : bartlett
 contouring data fields : giles
 control and communication in programming systems : reid
@@ -1538,6 +1539,7 @@ interconnection networks using shuffles : chen
 interest groups and the regulation of pesticides congress coalitions and closure : nownes
 interface definition language conversions: recursive types : gay
 interface language for supporting programming styles : tan
+interfaces and extended ml : kahrs
 interlanguage working without tears blending sml with java : benton
 intermediate representations in imperative compilers a survey : stanier
 internet address space management in digital : reid
