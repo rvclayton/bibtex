@@ -2402,6 +2402,70 @@
   location     = "https://doi.org/10.1109/4236.780965"
 }
 
+@Article{iaem,
+  author       = "Kahrs, Stefan and Sannella, Donald and Tarlecki, Andrzej",
+  title        = "Interfaces and {E}xtended {ML}",
+  journal      = sigplan # idl94,
+  year         = 1994,
+  volume       = 29,
+  number       = 8,
+  pages        = "111--118",
+  month        = aug,
+  keywords     = "interfaces,  specifications, logics",
+  abstract     = "This is a position paper giving our views on the uses and
+    makeup of module interfaces.  The position espoused is inspired by our work
+    on the Extended ML (EML) formal software development framework and by ideas
+    in the algebraic foundations of specification and formal development.  The
+    present state of interfaces in EML is outlined and set in the context of
+    plans for a more general EML-like framework with axioms in interfaces taken
+    from an arbitrary logical system formulated as an institution.  Some more
+    speculative plans are sketched concerning the simultaneous use of multiple
+    institutions in specification and development.", 
+  location     = "https://doi.org/10.1145/185084.185113"
+}
+
+@Article{cssanp,
+  author       = "Sidhu, Deepinder~P. and Aristizabal, Juan",
+  title        = "Constructing Submodule Specifications and Network Protocols",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1565--1577",
+  month        = nov,
+  keywords     = "automation, formal modeling, protocol development tools,
+    protocol entities, protocol properties, protocol service, protocol
+    verification, state transition",
+  abstract     = "Applications of an automated tool for module specification
+    (ATMS) that finds the specification for a submodule of a system are
+    presented.  Given the specification of a system, together with the
+    specification for n-1 submodules, the ATMS constructs the specification for
+    the nth addition submodule such that the interaction among the n submodules
+    is equivalent to the specification of the system.  The implementation of
+    the technique is based on an approach proposed by P.  Merlin and G.B.
+    Bochmann (1983).  The specification of a system and its submodules consists
+    of all possible execution sequences of their individual operations.  The
+    ATMS uses finite-state machine concepts to represent the specifications and
+    interactions of the system and its submodules.  The specification found by
+    the ATMS for a missing module of a system is the most general one, if one
+    exists.  Application of the ATMS in the area of communication protocols is
+    discussed.  A manual process to find the specification for a missing module
+    using the Merlin-Bochmann technique is time-consuming and prone to errors.
+    The automated tool presented proves a reliable method for constructing such
+    a module.", 
+  location     = "https://doi.org/10.1109/32.9045"
+}
+
+@Article{shoti,
+  author       = "Bruce Sterling",
+  title        = "Short History of the {I}nternet",
+  journal      = "The Magazine of Fantasy and Science Fiction",
+  year         = 1993,
+  month        = feb,
+  keywords     = "internet, arpanet",
+  location     = "https://www.internetsociety.org/internet/history-internet/short-history-of-the-internet/"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3633,4 +3697,28 @@
   location     = "http://freenetproject.org/index.php?page=ngrouting"
 }
 
+
+@MastersThesis{cchioawan,
+  author       = "Nitin~K. Ganatra",
+  title        = "Census: Collecting Host Information on a Wide Area Network",
+  school       = "Computer and Information Science, University of California, Santa Cruz",
+  year         = 1992,
+  address      = scca,
+  month        = jun,
+  keywords     = "internet, internet hosts, dns",
+  abstract     = "The exponential growth of the Internet presents new problems
+    in recording global network information.  The Domain Name System provided a
+    way to cope with the enormous growth rates by distributing network
+    information among all domains.  This distribution accomplished its goal of
+    eliminating the need for a central database, but at the same time
+    eliminated the source of centralized network information.  Such information
+    is useful in applications dealing with resource discovery on the Internet
+    and in studies of the network topography.  Census is a program to traverse
+    the Internet domain tree and collect information by recursively querying
+    name servers for host information and other sub-domains.  During the
+    development of the Census program (about 6 months), the host population of
+    the Internet has grown in size by 30 percent, and has showed no sign of
+    abating.", 
+  location     = "https://www.researchgate.net/publication/2651480_Census_Collecting_Host_Information_on_a_Wide_Area_Network"
+}
 
