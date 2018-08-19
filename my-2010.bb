@@ -1202,19 +1202,6 @@
   keywords     = "procol implementation, automated implementation, estelle"
 }
 
-@Article{asdmaiatpacsd,
-  author       = "Nirio Shiratori and Kaoru Takasashi and Shoichi Nouguchi",
-  title        = "A Software Design Method and Its Application to Protocol and
-		  Communication Software Development",
-  journal      = cnisdn,
-  year         = 1988,
-  volume       = 15,
-  number       = 1,
-  pages        = "245--267",
-  keywords     = "harmonic design, protocol specification languages, language
-		  transformations"
-}
-
 @Article{aaumftdaiopa,
   author       = "Branislav Meandzija",
   title        = "Archetype:  A Unified Method for the Design and
