@@ -448,6 +448,28 @@
   location     = "http://dirkriehle.com/computer-science/research/1994/plop-1994-tools.pdf"
 }
 
+@InBook{anacmfrtciai,
+  author       = "Domenico Ferrari",
+  title        = "Advances in Real-Time Systems",
+  chapter      = "{A} New Admission Control Method For Real-Time Communication in an Internetwork",
+  publisher    = ph,
+  year         = 1995,
+  address      = srnj,
+  pages        = "105--116",
+  keywords     = "tenet, admission control, ",
+  abstract     = "Admission control is a necessary component of a real-time
+    communication service.  The admission control method adopted so far in the
+    Tenet approach to real-time communication was based on a very simple, not
+    very realistic node model.  The method described here can be applied to a
+    wide variety of node models with a wide spectrum of accuracies, and is
+    therefore much more general than the previous one.  The admission control
+    tests and computations for the case of the Earliest Due Date scheduling
+    discipline are shown as an example of application of the new method.  The
+    main advantages and drawbacks of this method are discussed; the
+    predominance of the advantages is expected to be connrmed by experience
+    with testbed implementations." 
+}
+
 @Article{dcmlamfic,
   author       = "Herath, Jayantha and Yamaguchi, Yoshinori and Saito, Nobuo and Yuba, Toshitsugu",
   title        = "Dataflow Computing Models, Languages, and Machines for Intelligence Computations",
@@ -2466,6 +2488,103 @@
   location     = "https://www.internetsociety.org/internet/history-internet/short-history-of-the-internet/"
 }
 
+@Article{asdmaiatpacsd,
+  author       = "Norio Shiratori and Kaoru Takahashi and Shoichi Noguchi",
+  title        = "{A} Software Design Method and Its Application to Protocol and Communication Software Development",
+  journal      = cnis,
+  year         = 1988,
+  volume       = 15,
+  number       = 4,
+  pages        = "245--267",
+  keywords     = "software design method, protocols, communication software,
+    protocol verification, protocol implementation, specification language,
+    programming language, computer networks, support system for protocol development",
+  abstract     = "This paper proposes an approach, called the Harmonic Design
+    Method, to achieve an approximately ideal language that simultaneously
+    serves the purposes or requirements of software specification,
+    verification, implementation and so on.  This approach is based on two
+    important concepts-partitioning and unification.  In the Harmonic Design
+    Method, the collection of the problem-oriented languages and the
+    transformation algorithms between the languages, provided through the
+    process of the partitioning and unification, is regarded as the
+    approximation to the target ideal language.  As an application of the
+    Harmonic Design Method, the design of a software support system for making
+    the development of protocols and communication software easy is given.  In
+    this design, we provide three problem-oriented languages, viz., the
+    protocol specification language NESDEL, the communication software oriented
+    programming language IDL and the language EXPA which has both a framework
+    for expressing protocols and an algorithm for verifying protocols, and
+    three transformation algorithms between them, i.e., NESDEL-to-EXPA,
+    EXPA-to-NESDEL and NESDEL-to-IDL.  The details of these languages and
+    transformation algorithms are also given.  Finally, we introduce some
+    software tools used for supporting these languages and transformation
+    algorithms.", 
+  location     = "https://doi.org/10.1016/0169-7552%2888%2990062-1"
+}
+
+@Article{ampocfans,
+  author       = "Fekete, Alan and Lynch, Nancy and Shira, L.",
+  title        = "{A} Modular Proof of Correctness for a Network Synchronizer",
+  journal      = pot # "Amsterdam Workshop on Distributed Algorithms",
+  year         = 1987,
+  pages        = "219--256",
+  keywords     = "networks, synchronization (electronics), input output models,
+    computer communications, algorithms, allocations, automation, clustering,
+    distribution, graphs, modular construction, nodes, reasoning, resource
+    management, synchronism",
+  abstract     = "In this paper we offer a formal, rigorous proof of the
+    correctness of Awerbuch's algorithm for network synchronization.  We
+    specify both the algorithm and the correctness condition using the I/O
+    automation model, which has previously been used to describe and verify
+    algorithms for concurrency control and resource allocation.  We show that
+    the model is also a powerful tool for reasoning about distributed graph
+    algorithms.  Our proof of correctness follows closely the intuitive
+    arguments made by the design techniques as stepwise refinement and
+    modularity.  In particular, since the algorithm uses simpler algorithms for
+    synchronization within and between 'clusters' of nodes, our proof can
+    import as lemmas the correctness of these simpler algorithms.  Keywords:
+    Verification, Modularity, Network protocols, and Synchronization.", 
+  location     = "http://www.dtic.mil/dtic/tr/fulltext/u2/a192726.pdf"
+}
+
+@Article{nsfm,
+  author       = "Domenico Ferrari ane Anindo Banerjea and Hui Zhang",
+  title        = "Network Support for Multimedia",
+  journal      = cnis,
+  year         = 1994,
+  volume       = 26,
+  pages        = "1267--1280",
+  keywords     = "channel setup, protocol suites",
+  abstract     = "Multimedia communication can be supported in an
+    integrated-services network in the general framework of realtime
+    communication.  The Tenet Group has devised an approach that provides some
+    initial solutions to the realtime communication problem.  This paper
+    attempts to identify the principles behind these solutions.  We also
+    describe a suite of protocols, and their implementations in several
+    environments, that embody these principles, and work in progress that will
+    lead towards more complete solutions.", 
+}
+
+@Article{drcrf,
+  author       = "Rob Falla",
+  title        = "Dynamically Replaced Content",
+  journal      = "Webreview.Com",
+  year         = 1998,
+  month        = "11 " # dec,
+  keywords     = "web development",
+  abstract     = "Today we will look at several ways to give your Web page the
+    editable feel.  These techniques allow users to replace parts of a Web page
+    with their own information.  The functionality is almost the same as using
+    the form input controls text and textarea but with a noticeable improvement
+    to the appearance.  We will examine four alternative implementations of the
+    Replaced Content technique in this article.  The first two are browser
+    dependent implementations that highlight the use of this technique in a
+    controlled environment like an Intranet.  The other two demonstrate the
+    ease with which this technique works cross-browser.  The fourth differs
+    from the others by the way it accepts data.", 
+  location     = "https://people.apache.org/~jim/NewArchitect/webrevu/1998/12_11/developers/12_11_98_1.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3378,6 +3497,47 @@
     C."
 }
 
+@TechReport{cmopc,
+  author       = "Tim Tiemens",
+  title        = "Cognitive Models of Program Comprehension",
+  institution  = "Software Engineering Research Center",
+  year         = 1989,
+  address      = atga,
+  month        = "8 " # dec,
+  keywords     = "brooks, comprehension, soloway, representation, programmers
+    apprentice, plan recognition",
+  abstract     = "This paper describes some cognitive models in program
+    comprehension.  Th goal is to use this knowledge about cognitive models to
+    produce a tool (the Cognitive Support Tool, CST) which can reduce the
+    amount of effort needed to understand program.  The models discussed here
+    were derived from both a human perspective and from a source code
+    perspective.  After reviewing these models, a synthesis sectio uggests some
+    implications of the information presented.  Finally, a section describing a
+    sample interactive sessions with CST is presented.", 
+  location     = "http://www.cc.gatech.edu/reverse/repository/cogmodels.ps"
+}
+
+@TechReport{igmpv2,
+  author       = "W. Fenner",
+  title        = "Internet Group Management Protocol, Version 2",
+  institution  = ietf,
+  year         = 1997,
+  type         = "RFC",
+  number       = 2236,
+  month        = nov,
+  keywords     = "multicast, group management",
+  abstract     = "This memo documents IGMPv2, used by IP hosts to report their
+    multicast group memberships to routers.  It updates STD 5, RFC 1112.
+    IGMPv2 allows group membership termination to be quickly reported to the
+    routing protocol, which is important for high-bandwidth multicast groups
+    and/or subnets with highly volatile group membership.  This document is a
+    product of the Inter-Domain Multicast Routing working group within the
+    Internet Engineering Task Force.  Comments are solicited and should be
+    addressed to the working group's mailing list at idmr@cs.ucl.ac.uk and/or
+    the author(s).", 
+  location     = "https://datatracker.ietf.org/doc/rfc2236/"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -3697,6 +3857,29 @@
   location     = "http://freenetproject.org/index.php?page=ngrouting"
 }
 
+@Misc{osgeraecic,
+  author       = "Benjamin Sims",
+  title        = "On Shifting Ground:  Earthquake Retrofit and Engineering Culture in {C}alifornia",
+  keywords     = "construction risk, caltrans, civil engineers, design
+    formalism, practices",
+  location     = "http://polaris.gseis.ucla.edu/pagre/rre.html"
+}
+
+@Misc{aism,
+  author       = "David Poole and Alan Mackworth",
+  title        = "Artificial Intelligence Solutions Manual",
+  year         = 2009,
+  month        = "9 " # nov,
+  keywords     = "all the answers"
+}
+
+@Misc{lsemd,
+  author       = "Mike Dahlin",
+  title        = "{LESS} Software Engineering",
+  year         = 2000,
+  month        = "15 " # may,
+  keywords     = "coding standards"
+}
 
 @MastersThesis{cchioawan,
   author       = "Nitin~K. Ganatra",
