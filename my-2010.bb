@@ -58002,18 +58002,6 @@
   keywords	= "profile, name server, internets"
 }
 
-@techreport{fhidpl,
-  author	= "Richard~D. Schlicting and Titus D. M. Purdin",
-  title		= "Failure Handling in Distributed Programming Languages",
-  institution	= dcs # uaz,
-  year		= 1985,
-  number	= "TR 85--14",
-  address	= taz,
-  month		= aug,
-  keywords	= "failure handling, asynchronous behavior, event handling,
-		   synchronizing resources"
-}
-
 @techreport{tfpadoss,
   author	= "Eric Cooper and Robert Harper and Peter Lee",
   title		= "The {F}ox Project:  Advanced Development of Systems
