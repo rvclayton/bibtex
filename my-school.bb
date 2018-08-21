@@ -396,15 +396,6 @@
   type = 	"Internal Memorandum"
 }
 
-@techreport{failures,
-  author = 	"Richard D. Schlichting and Titus D. M. Purdin",
-  title = 	"Failure Handling in Distributed Programming Languages",
-  institution =	uaz,
-  year = 	1985,
-  number = 	"TR 85-14",
-  month = 	"August"
-}
-
 @techreport{cruisercg,
   author = 	"Richard Clayton",
   title = 	"The {Cruiser} Customer's Guide",
