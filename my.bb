@@ -3538,6 +3538,20 @@
   location     = "https://datatracker.ietf.org/doc/rfc2236/"
 }
 
+@TechReport{fhidpl,
+  author       = "Richard~D. Schlichting and Titus D.~M. Purdin",
+  title        = "Failure Handling in Distributed Programming Languages",
+  institution  = dcs # uaz,
+  year         = 1985,
+  number       = "TR 85-14",
+  address      = taz,
+  month        = "2 " # aug,
+  keywords     = "fail-stop processors, failure handling, sr, distributed
+    programming languages, events",
+  abstract     = "",
+  location     = ""
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
