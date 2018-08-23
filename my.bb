@@ -424,6 +424,16 @@
   location     = "BQ 4050.W75 "
 }
 
+@Book{tosjb,
+  author       = "Julian Barnes",
+  title        = "The Only Story",
+  publisher    = "Alfred~A. Knpof",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "lurv",
+  location     = "PR 6052.A6657 O55"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
