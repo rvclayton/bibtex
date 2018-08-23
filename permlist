@@ -214,7 +214,6 @@ a retargetable compiler for ansi c : fraser
 a retargetable debugger : ramsey
 a retargetable instruction reorganizer : davidson
 a retrospective on paradigms of ai programming : norvig
-a scalable content addressable network : ratnasamy
 a schedulability analyzer for real time euclid : stoyenko
 a scheme api for test suites : bothner
 a scheme for little languages in interactive graphics : beckman
@@ -853,7 +852,6 @@ critical vpn security analysis and new approach for securing voip communications
 croquet a collaboration system architecture : smith
 cross correlation and matched filters : qureshi
 cryptography as an operating system service a case study : keromytis
-cscw tools concepts and architects : reinhard
 csp and timewise refinement : reed
 csp methods for identifying atomic actions in the design of fault tolerant concurrent systems : tyrrell
 cst c state transformers : ramsdell
@@ -1264,7 +1262,6 @@ foundations for the study of software architecture : perry
 four systems of policy politics and choice : lowi
 fp oop haskell : berger
 fractal rulers : swan
-frame relaying and the fast packet switching concepts and issues : rahnema
 framework for implementing the next generation of computing protocols : fry
 frameworks for intra and interprocedural dataflow analysis : chambers
 from constructivism to computer science : troelstra
@@ -1396,7 +1393,6 @@ hey you got your compiler in my operating system : howell
 hierarchical modularity : blume
 hierarchical representations of collections of small rectangles : samet
 high latency low bandwidth windowing in the jupiter collaboration system : michols
-high level modeling and fpga prototyping of microprocessors : ray
 high speed cryptography with the rsa algorithm : wiener
 high speed local area networks and their performance a survey : abeysundara
 high performance logic programming with the aquarius prolog compiler : van roy
@@ -1534,7 +1530,6 @@ interactive foundations of object oriented programming : wegner
 interactive steering using the application executive : bliss
 interactive systems bridging the gaps between developers and users : grudin
 interbase an execution environment for heterogeneous software systems : bukhres
-interconnecting electronic mail systems : redell
 interconnection networks using shuffles : chen
 interest groups and the regulation of pesticides congress coalitions and closure : nownes
 interface definition language conversions: recursive types : gay
@@ -1542,7 +1537,6 @@ interface language for supporting programming styles : tan
 interfaces and extended ml : kahrs
 interlanguage working without tears blending sml with java : benton
 intermediate representations in imperative compilers a survey : stanier
-internet address space management in digital : reid
 internet mobility 4 times 4 : cheshire
 internet scavenger hunt : internet
 internet telephony : mcknight
@@ -2035,7 +2029,6 @@ patterns and software development : beck
 patterns and software essential concepts and terminology : appleton
 patterns for piccolo : piccolo
 patterns plop plop fizz fizz : martin
-pdh broadband isdn atm and all that a guide to modern wan networking and how it evolved : reilly
 peep an architectural description driven peephole optimizer : kessler
 peer to peer architectures for massively multiplayer online games a survey : yahyavi
 peer to peer internet telephony using sip : singh
@@ -2231,7 +2224,6 @@ rapid case dispatch in scheme : clinger
 rate control in standard transport layer protocols : eldridge
 rationale for the design of the ada programming lanaugae : ichbiah
 rationalized three instruction machine : chitnis
-ratpoison man page : ratpoison
 rbac schema verification using lightweight formal model and constraint analysis : zao
 rc reference manual : boussinot
 rc semantics using rewrite rules : boussinot
@@ -2275,8 +2267,6 @@ regular expressions : java
 reiserfs : reiser
 relacs a communications infrastructue for constructing reliable applications in large scale distributed systems : babaoglu
 relations and refinement in circuit design : jones
-reliability and scaling issues in multicast communication : rajagopalan
-reliability modeling an overview for system designers : reibman
 reliable and efficient hop by hop flow control : ozveren
 reliable broadcast protocols : chang
 reliable full duplex file transmission over half duplex telephone lines : lynch
@@ -3024,7 +3014,6 @@ the verification of modules : antoniou
 the virtual filesystem interface in 4.4 bsd : mckusick
 the visitor pattern : cartwright
 the viva file system : herrin
-the wall street performer protocol using software completion bonds to fund open source software development : rasch
 the wavelet packet transform : cody
 the x kernel a platform for accessing internet resources : peterson
 the xerox star a retrospective : johnson
@@ -3065,7 +3054,6 @@ topics in code generation and register allocation : leverett
 topology control in wireless ad hoc and sensor networkts : santi
 topsy a teachable operating system : frankhauser
 total functional programming : turner
-toward a basis for protocol specification and process decomposition : rath
 toward a theory of test data selection : goodenough
 toward an expert system for expressive musical performance : johnson
 toward formalizing domain modeling semantics in language syntax : evermann
@@ -3221,7 +3209,6 @@ visualizing design patterns in their applications and compositions : dong
 visualizing packet traces : zinky
 visualizing performance debugging : lehr
 voip steganography and its detection a survey : mazurczky
-volume models for volumetric data : ranjan
 voodoos introduction to javascript : koch
 voroni diagrams a survey of a fundamental geometric data structure : aurenhammer
 vortex rtl textual description grammar : cecil
