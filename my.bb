@@ -2595,6 +2595,65 @@
   location     = "https://people.apache.org/~jim/NewArchitect/webrevu/1998/12_11/developers/12_11_98_1.html"
 }
 
+@Article{rasiimc,
+  author       = "Rajagopalan, Bala",
+  title        = "Reliability and Scaling Issues in Multicast Communication",
+  journal      = ccr # " (Conference Proceedings On Communications Architectures \& Protocols, SIGCOMM '92)",
+  year         = 1992,
+  volume       = 22,
+  number       = 4,
+  pages        = "188--198",
+  month        = oct,
+  keywords     = "multicast group association protocol, reliable multicasting,
+    gateway-host protocols, group addressing",
+  abstract     = "The efficiency with which multicast communication can take
+    place is largely determined by the network level support available for such
+    communication.  Two factors contribute to the complexity of supporting
+    current multicast applications: the lack of reliable multicast transport
+    mechanisms at the network level and the lack of network support for large
+    scale multicast communication.  In this paper, we examine the issues
+    pertinent to eliminating these shortcomings.  We first show that internet
+    multicasting algorithms based on reverse path forwarding are inherently
+    unreliable and present a source-tree-based reliable multicasting scheme.
+    The new scheme makes use of simple inter-gateway protocols and works on top
+    of previously developed distance vector and link state internet routing
+    schemes.  Next, to support large scale applications, we present a scheme
+    for partial multicasting and introduce a new network level operation,
+    called gather.  The partial multicasting mechanism allows messages to be
+    delivered to subsets of multicast destinations, while the gather operation
+    aids gateways in selectively suppressing redundant messages, thus reducing
+    the message complexity.  Using simulations, we investigate the efficacy of
+    our schemes in supporting a sample application based on multicast
+    communication.", 
+  location     = "https://doi.org/10.1145/144179.144275"
+}
+
+@Article{twsppuscbtfossd,
+  author       = "Chris Rasch",
+  title        = "The {W}all {S}treet Performer Protocol:  Using Software Completion Bonds to Fund Open Source Software Development",
+  journal      = "First Monday",
+  year         = 2001,
+  volume       = 6,
+  number       = 6,
+  month        = "4 " # jun,
+  keywords     = "social policy, open source marketplaces, software completion
+    bond markets, funding",
+  abstract     = "In their article “The street performer protocol and digital
+    copyrights” (Kelsey and Schneier, 1999) suggest that copyright will become
+    increasingly difficult to enforce.  They propose a general mechanism for
+    funding digital public works, the “street performer protocol” in which
+    authors produce their work only after they receive enough contributions to
+    make it worth their while.  In this article, I sketch out a proposal for
+    the creation of a software completion bond market.  I think such a market
+    would be a practical implementation of the “street performer protocol” for
+    the funding of open source software.  I first describe how such a bond
+    market might work, and why I think the open source community needs a bond
+    market.  Then I examine the underlying economics of open source software.
+    Finally, I review some of the existing and potential alternatives to a
+    software completion bond market [1].",
+  location     = "http://firstmonday.org/ojs/index.php/fm/article/view/865/774"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
