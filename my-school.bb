@@ -8798,20 +8798,6 @@
   location     = "QA 76.7.A15X"
 }
 
-@Article{gepcfaas,
-  author       = "Claude Castelluecia and Walid Dabbous and Sean O'Malley",
-  title        = "Generating Efficient Protocol Code from an Abstract
-		  Specification",
-  journal      = ccr # " (SIGCOMM '96 Proceedings)",
-  year         = 1996,
-  volume       = 26,
-  number       = 4,
-  pages        = "",
-  month        = oct,
-  keywords     = "",
-  location     = "QA76.9 .V5 C6X"
-}
-
 @Article{afant,
   author       = "Mansur Arbabi and Scott~M. Fischthal and Vincent~C. Cheng
 		  and Elizabeth Bart", 
