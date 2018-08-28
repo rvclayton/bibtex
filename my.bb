@@ -2654,6 +2654,96 @@
   location     = "http://firstmonday.org/ojs/index.php/fm/article/view/865/774"
 }
 
+@Article{jitcc,
+  author       = "Peter Chalk",
+  title        = "Java in the Computing Curricula",
+  journal      = sigplan,
+  year         = 1999,
+  volume       = 34,
+  number       = 12,
+  pages        = "9--11",
+  month        = dec,
+  keywords     = "java, object-oriented programming, pedagogy",
+  location     = "https://doi.org/10.1145/344283.344284"
+}
+
+@Article{sahpia,
+  author       = "David~R. Cheriton",
+  title        = "Sirpent:  {A} High-Performance Internetworking Approach",
+  journal      = ccr # " (Conference Proceedings On Communications Architectures \& Protocols, SIGCOMM '89)",
+  year         = 1989,
+  volume       = 19,
+  number       = 4,
+  pages        = "158--169",
+  month        = sep,
+  keywords     = "routing, high-performance, resource management, scalability,
+    source routing, transport layer, packet lifetimesl",
+  abstract     = "A clear target for computer communication technology is to
+    support a high-performance global internetwork.  Current internetworking
+    approaches use either concatenated virtual circuits, as in X.75, or a
+    &ldquo;universal&rdquo; internetwork datagram, as in the DoD Internet IP
+    protocol and the ISO connectionless network protocol (CLNP).  Both
+    approaches have significant disadvantages.  This paper describes
+    Sirpent&trade; (Source Internetwork Routing Protocol with Extended Network
+    Transfer)1, a new approach to an internetwork architecture that makes
+    source routing the basis for interconnection, rather than an option as in
+    IP.  Its benefits include simple switching with low per-packet processing
+    and delay, support for accounting and congestion control, and scalability
+    to a global internetwork.  It also supports flexible, user-controlled
+    routing such as required for security, policy-based routing and realtime
+    applications.  We also propose a specific internetwork protocol, called
+    VIPER&trade;2, as a realization of the Sirpent approach.", 
+  location     = "https://doi.org/10.1145/75246.75263"
+}
+
+@Article{gepcfaas,
+  author       = "Dabbous, Walid and O'Malley, Sean and Castelluccia, Claude",
+  title        = "Generating Efficient Protocol Code from an Abstract Specification",
+  journal      = ccr # " (Conference Proceedings On Communications Architectures \& Protocols, SIGCOMM '96)",
+  year         = 1996,
+  volume       = 26,
+  number       = 4,
+  pages        = "60--72",
+  month        = oct,
+  keywords     = "esterel, code generation, input scheduling, sharing, performance",
+  abstract     = "A protocol compiler takes as input an abstract specification
+    of a protocol and generates an implementation of that protocol.  Protocol
+    compilers usually produce inefficient code both in terms of code speed and
+    code size.  In this paper, we show that the combination of two techniques
+    makes it possible to build protocol compilers that generate efficient code.
+    These techniques are i) the use of a compiler that generates from the
+    specification a unique tree-shaped automaton (rather than multiple
+    independent automata), and ii) the use of optimization techniques applied
+    at the automaton level, i.e.  on the branches of the trees.We have
+    developed a protocol compiler that uses both these techniques.  The
+    compiler takes as input a protocol specification written in the synchronous
+    language Esterel.  The specification is compiled into a unique automaton by
+    the Esterel front end compiler.  The automaton is then optimized and
+    converted into C code by our protocol optimizer called HIPPCO.  HIPPCO
+    improves code performance and reduces code size by simultaneously
+    optimizing the performance of the common path and optimizing the size of
+    the uncommon path.  We evaluate the gain expected with our approach on a
+    real-life example, namely a working subset of the TCP protocol generated
+    from an Esterel specification.  We compare the protocol code generated with
+    our approach to that derived from the standard BSD TCP implementation.  The
+    results are very encouraging.  HIPPCO-generated code executes up to 25 %
+    fewer instructions than the BSD code for input packet processing while
+    maintaining comparable code size.", 
+  location     = "https://doi.org/10.1145/248156.248163"
+}
+
+@Article{ggoweb,
+  author       = "Karl Beiser",
+  title        = "Getting Grabby: Offline {{W}}eb Browsing",
+  journal      = "Online",
+  year         = 1997,
+  volume       = 21,
+  number       = 2,
+  pages        = "20--27",
+  month        = mar # "/" # apr,
+  keywords     = "web, bandwidth, webwhacker"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3164,6 +3254,30 @@
   location     = "https://doi.org/10.1109/ICSE.1994.296768"
 }
 
+@InProceedings{htictb,
+  author       = "Vinton Cerf",
+  title        = "How the Internet Came to Be",
+  booktitle    = "The Online User's Encyclopedia",
+  year         = 1993,
+  editor       = "Bernard Adoba",
+  publisher    = "Addison-Wesley",
+  keywords     = "arpanet, internet",
+  location     = "http://www.netvalley.com/archives/mirrors/cerf-how-inet.html"
+}
+
+@InProceedings{sotfnb,
+  author       = "Nicholson Baker",
+  title        = "Survival of the Fittest",
+  booktitle    = "The Best American Essays",
+  year         = 1994,
+  editor       = "Tracy Kidder",
+  pages        = "1--15",
+  publisher    = "Houghton Mifflin",
+  address      = boma,
+  keywords     = "american essays, 20th century",
+  location     = "PS 688.B48"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -3619,6 +3733,54 @@
     programming languages, events",
   abstract     = "",
   location     = ""
+}
+
+@TechReport{istls,
+  author       = "Stuart Cheshire",
+  title        = "It's the Latency, Stupid",
+  year         = 1996,
+  month        = may,
+  keywords     = "bandwidth, latency, consumer devices, compression",
+  abstract     = "Years ago David Cheriton at Stanford taught me something that
+    seemed very obvious at the time -- that if you have a network link with low
+    bandwidth then it's an easy matter of putting several in parallel to make a
+    combined link with higher bandwidth, but if you have a network link with
+    bad latency then no amount of money can turn any number of them into a link
+    with good latency.  It's now many years later, and this obvious fact seems
+    lost on the most companies making networking hardware and software for the
+    home.  I think it's time it was explained again in writing.", 
+  location     = "http://www.stuartcheshire.org/rants/Latency.html"
+}
+
+@TechReport{smasaldrsfmm,
+  author       = "Shun Yan Cheung",
+  title        = "Subgraph Multicasting: {A} Scalable and Low-Delay Routing Scheme for Multipoint Messages",
+  institution  = "Department of Mathematics and Computer Science, Emory University",
+  address      = atga,
+  keywords     = "subgraph multicasting, looping, delay, atm, ",
+  abstract     = "We present a new multicast routine technique that is scalable
+    and can have low message delays.  The subgraph multicasting method uses a
+    subgraph spanning all multicast destinations and forwards messages over the
+    links in the subgraph.  the method is scalable because the network
+    maintains only one subgraph per multicast group and lower message delay is
+    possible due to the fact that the subgraph has alternate shorter paths to
+    deliver messages from a source to a destination.  However, cycles may form
+    in the subgraph which an cause messages to loop indefinitely.  We present
+    an efficient technique for detecting and removing unnecessary messages, and
+    who how minimum delay multicast subgraphs can be constructed.  We also
+    present an implementation of the subgraph multicasting technique in
+    Asynchronous Transfer Mode (ATM) networks.  The performance of minimum
+    delay subgraph multicasting is studied in ten random networks and compared
+    with the core based tree (CBT) multicasting method." 
+}
+
+@TechReport{jrt,
+  author       = "Kenneth Baclawski",
+  title        = "Java {RMI} Tutorial",
+  institution  = "College of Computer Science, Northeastern University",
+  year         = 2004,
+  address      = boma,
+  keywords     = "java, rmi, tutorial"
 }
 
 @Manual{atajsm,
