@@ -1,4 +1,4 @@
-#! /bin/bash
+d#! /bin/bash
 # permlist- write to std-out a kwik index of titles.
 
 cat <<eof! |
@@ -838,7 +838,6 @@ crazy clocks counterintuitive consequences of inteligent automation : vicente
 creating encoded name and value pairs : webb
 creating fractals : mcworter
 credible compilation : rinard
-critical vpn security analysis and new approach for securing voip communications over vpn networks : diab
 croquet a collaboration system architecture : smith
 cross correlation and matched filters : qureshi
 cryptography as an operating system service a case study : keromytis
@@ -1337,7 +1336,6 @@ graph drawing by force directed placement : fruchterman
 graph traversals : rolfe
 graphical configuration programming : kramer
 gray codes for partial match and range queries : faloutsos
-great principles in computing curricula : denning
 greedy algorithms : greedy
 gridnet an alternative large distributed network : moore
 gridrpc a remote procedure call api for grid computing : nakada
@@ -1820,7 +1818,6 @@ naked objects a technique for designing more expressive systems : pawson
 napster messages : napster
 ncurses old school interfaces : hammel
 nesl a data parallel language : blelloch
-netheads versus bellheads : denton
 netlogo : netlogo
 netscape plug ins : netscape
 network news transfer protocol : kantor
@@ -1840,7 +1837,6 @@ neural networks for switching : brown
 neuronet a distributed real time system for monitoring neurophysiologic function in the medical environment : krieger
 new advances in filesystem space : miner
 new copyright law for distance education the meaning and importance of the teach act : crews
-new directions in cryptography : diffie
 new heap data structures : kaplan
 newlines and lexer states : clark
 next permutation when c++ gets it right : word aligned
@@ -1962,7 +1958,6 @@ overview of common benchmarks : weicker
 overview of the ibm java just in time compiler : suganuma
 oxford oberon 2 compiler users manual : spivey
 p2p and the promise of internet equality : agre
-packet switching interconnection networks for modular systems : dias
 packrat parsing simple powerful lazy linear time : ford
 pad a zoomable graphical sketchpad for exploring alternate interface physics : bederson
 painless parsing in haskell : hevan
@@ -2147,7 +2142,6 @@ proofs and refutations : lakatos
 proofs of correctness of cache coherence protocols : stoy
 properties of concurrent programs : chandi
 prosper tutorial : guha
-protecting public keys and signature keys : denning
 protection : lampson
 protection in the hydra operating system : cohen
 protein based optical computing and memories : birge
@@ -2161,7 +2155,6 @@ protocol latency mips and reality : mosberger
 protocol programming in erlang using binaries : wikstrom
 protocol specification and verification using z : duke
 protocol verification made simple a tutorial : gouda
-protocols for data security : demillo
 protocols for providing performance guarantees in a packet switching internet : lowery
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
@@ -2456,7 +2449,6 @@ using term rewriting systems to design and verify processors : arvind
 using tournament trees to sort : stepanov
 software design patterns for tinyos : gay
 software profiling for hot path prediction less is more : duesterwald
-software project verification and validation : deutsch
 software prototyping by relational techniques experiences with program construction systems : ceri
 software psychology requirements for software maintenance activities : rugaber
 software quality improvement : mizuno
@@ -2627,7 +2619,6 @@ ternary search trees : bentley
 territory game : shasta
 testing ics getting to the core of the problem : murray
 testing protocol implementations based on a formal specification : miller
-tetris is hard even to approximate : demaine
 text editors algorithms and architectures : vlades
 text to speech conversion technology : o'mally
 textual specification tabular languages and pccts : craymer
