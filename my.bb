@@ -2744,6 +2744,54 @@
   keywords     = "web, bandwidth, webwhacker"
 }
 
+@Article{ctate,
+  author       = "Palsberg, Jens and Smith, Scott",
+  title        = "Constrained Types and Their Expressiveness",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 5,
+  pages        = "519--527",
+  month        = sep,
+  keywords     = "constraints, constrained types",
+  abstract     = "A constrained type consists of both a standard type and a
+    constraint set.  Such types enable efficient type inference for
+    object-oriented languages with polymorphism and subtyping, as demonstrated
+    by Eifrig, Smith, and Trifonov.  Until now, it has been unclear how
+    expressive constrained types are.  In this article we study constrained
+    types without universal quantification.  We prove that they accept the same
+    programs as the type system of Amadio and Cardelli with subtyping and
+    recursive types.  This result gives a precise connection between
+    constrained types and the standard notion of types.",
+  location     = "https://doi.org/10.1145/232706.232715"
+}
+
+@Article{sdm,
+  author       = "Peckham, Joan and Maryanski, Fred",
+  title        = "Semantic Data Models",
+  journal      = surveys,
+  year         = 1988,
+  volume       = 20,
+  number       = 3,
+  pages        = "153--189",
+  month        = sep,
+  keywords     = "conceptual data models, database systems, data models,logical
+  database design, next generation data models, comparative analysis",
+  abstract     = "Semantic data models have emerged from a requirement for more
+    expressive conceptual data models.  Current generation data models lack
+    direct support for relationships, data abstraction, inheritance,
+    constraints, unstructured objects, and the dynamic properties of an
+    application.  Although the need for data models with richer semantics is
+    widely recognized, no single approach has won general acceptance.  This
+    paper describes the generic properties of semantic data models and presents
+    a representative selection of models that have been proposed since the
+    mid-1970s.  In addition to explaining the features of the individual
+    models, guidelines are offered for the comparison of models.  The paper
+    concludes with a discussion of future directions in the area of conceptual
+    data modeling.", 
+  location     = "https://doi.org/10.1145/62061.62062"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3278,6 +3326,51 @@
   location     = "PS 688.B48"
 }
 
+@InProceedings{tiheta,
+  author       = "Erik~D. Demaine",
+  title        = "Tetris is Hard, Even to Approximate",
+  booktitle    = pot # "9th Ann. Int. Conf. Computing and Combinatorics (COCOON'03)",
+  year         = 2003,
+  editor       = "T. Warnow and B. Zhu",
+  pages        = "351--363",
+  publisher    = sv,
+  volume       = "2697",
+  series       = lncs,		  
+  month        = jul,
+  keywords     = "tetris, reductions, completeness, soundness,
+    inapproximability, variants",
+  abstract     = "In the popular computer game of Tetris, the player is given a
+    sequence of tetromino pieces and must pack them into a rectangular
+    gameboard initially occupied by a given configuration of filled squares;
+    any completely filled row of the gameboard is cleared and all filled
+    squares above it drop by one row.  We prove that in the offline version of
+    Tetris, it is NP-complete to maximize the number of cleared rows, maximize
+    the number of tetrises (quadruples of rows simultaneously filled and
+    cleared), minimize the maximum height of an occupied square, or maximize
+    the number of pieces placed before the game ends.  We furthermore show the
+    extreme inapproximability of the first and last of these objectives to
+    within a factor of p^(1-epsilon)ε, when given a sequence of p pieces, and
+    the inapproximability of the third objective to within a factor of 2 -
+    epsilonε, for any epsilonε> 0.  Our results hold under several variations
+    on the rules of Tetris, including different models of rotation, limitations
+    on player agility, and restricted piece sets.", 
+  location     = "https://www.ocf.berkeley.edu/~wwu/readordie/tetris-npc.pdf"
+}
+
+@InProceedings{alc,
+  author       = "Luca Cardelli",
+  title        = "Amber",
+  booktitle    = "Combinators and Functional Programming Languages",
+  year         = 1986,
+  editor       = "Guy Cousineau and Pierre-Louis Curien and Bernard Robinet",
+  pages        = "21--70",
+  publisher    = sv,
+  volume       = 242,
+  series       = lncs,
+  keywords     = "amber, syntax, semantics",
+  location     = "http://lucacardelli.name/Papers/Amber.pdf"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -3781,6 +3874,15 @@
   year         = 2004,
   address      = boma,
   keywords     = "java, rmi, tutorial"
+}
+
+@TechReport{nvb,
+  author       = "Fran{\c c}ios M{\' e}nard and David Isenberg",
+  title        = "Netheads Versus {B}ellheads",
+  institution  = "T.~M. Denton Consultants",
+  address      = "Ottawa, Canada",
+  keywords     = "internets, pstn",
+  location     = "http://www.cs.columbia.edu/~hgs/papers/others/1999/Dent9905_Netheads.pdf"
 }
 
 @Manual{atajsm,
