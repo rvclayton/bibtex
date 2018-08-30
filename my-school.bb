@@ -17405,20 +17405,6 @@
   location     = "QA 76.A772"
 }
 
-@Article{uofsa,
-  author       = "Jeffrey Parsons and Yair Wand",
-  title        = "Using Objects for Systems Analysis",
-  journal      = cacm,
-  year         = 1997,
-  volume       = 40,
-  number       = 12,
-  pages        = "104--110",
-  month        = dec,
-  keywords     = "systems analysis, ontologies, concept theory, o-o design,
-		  object models",
-  location     = "QA 76.A772"
-}
-
 @Article{hbtptsipn,
   author       = "Robert~L. Glass",
   title        = "How Best to Provide the Services {IS} Programmers Need",
