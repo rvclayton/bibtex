@@ -32116,7 +32116,7 @@
 
 @Article{cwsvs,
   author       = "Huaiqing Wang and Shuozhong Wang",
-  title        = "Cyber Warefare: Steganography vs. Steganalysis",
+  title        = "Cyber Warfare: Steganography vs. Steganalysis",
   journal      = cacm,
   year         = 2004,
   volume       = 47,
