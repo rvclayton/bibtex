@@ -1,4 +1,4 @@
-d#! /bin/bash
+#! /bin/bash
 # permlist- write to std-out a kwik index of titles.
 
 cat <<eof! |
@@ -76,7 +76,6 @@ a dynamic network architecture : omalley
 a fast and general implementation of mach ipc in a network : orman
 a fast division technique for constant divisors : artzy
 a fast file system for unix : mckusick
-a faster udp : partridge
 a fifteen puzzle in fran : elliott
 a first course in computer science mathematical principles for software engineering : mills
 a first look at novice compilation behaviorusing bluej : jadud
@@ -102,7 +101,6 @@ a graph model for unsupervised lexical acquisition : widdows
 a graphical interface for chip : alvisi
 a graphical logic for specifying concurrent systems : dillon
 a graphics typesetting language : van wyck
-a guide for new referees in theoretical computer science : parberry
 a guide to starting a javaspace : pritchard
 a guided tour of mercurial : eide
 a guided tour of program design methodologies : bergland
@@ -174,7 +172,6 @@ a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
 a note on searching in a binary search tree : andersson
 a novel program representation for interprocedural analysis : agrawal
-a paradigm shift in the distribution of multimedia : parr
 a paradigm shift to oop has occurred implementation to follow : mitchell
 a parametric object system : skibinski
 a partial evaluator and its use as a programming tool : beckman
@@ -460,7 +457,6 @@ an introduction to haskell with applications to digital signal processing : gobl
 an introduction to morphic : maloney
 an introduction to process algebra : bergstra
 an introduction to software architecture : garlan
-an introduction to speech and speaker recognition : peacocke
 an introduction to the bird meertens formalism : gibbons
 an introduction to the wsl program transformer : bull
 an introduction to tkgofer : vullinghs
@@ -623,7 +619,6 @@ bnf converter multilingual front end generation from labelled bnf grammars : pel
 bonsai a compact representation of trees : darragh
 books of note liberty's programming c# : meyer
 boost threads : kempf
-boosting system performance with optimistic distributed protocols : pedone
 braids and fibers language constructs with architectural support for adaptive responses to memory latencies : bacon
 bras another kind of make : kirsch
 braunls law : braunl
@@ -644,7 +639,6 @@ building flexible real time systems using the flex language : kenny
 building interpreters by transforming stratified monads : espinosa
 building robust systems : sussman
 building the perfect executable : cheif
-building your own basic cgi program : palmer
 bytecode fetch optimization for a java interpreter : ogata
 c a language for high level efficient and machine independent dynamic code generation : engler
 c# introduction : hejlsberg
@@ -666,10 +660,8 @@ caml trading experiences with functional programming on wall street : minsky
 can software development be elevated from the microsoft style : kiselyov
 capability based protection in a persistent global virtual memory system : vochteloo
 capriccio scalable threads for internet services : von behren
-carbonkernel real time operating system simulator : carbon
 cargo cult science : feynman
 case studies in symbolic model checking : gopalakrishnan
-case studies of software process improvement measurement : paulish
 caterpillars fate a pattern language for transformations from analysis to design : kerth
 causal controversy at le mont st michel : van renesse
 cayenne a language with dependent types : augustsson
@@ -904,7 +896,6 @@ definition of mmixal : knuth
 definition of open language : sunik
 deforestation transforming programs to eliminate trees : wadler 
 delay independent design for distributed systems : bochmann
-demystifying bgp : papen
 democracy and the problem of free speech : sunstein
 demonstrational interfaces a step beyond direct manipulation : myers
 demultiplexing on the atm adapter experiments with internet protocols in user space : biersack
@@ -1047,7 +1038,6 @@ easy to use object oriented parallel processing with mentat : grimshaw
 eclipse a platform for integrating development tools : riveres
 ecological development and policy change : hofferbert
 economical fault tolerant networks : butt
-education for computing professionals : parnas
 effective null pointer check elimination utilizing hardware trap : kawahito
 effective standard c++ library curiously recurring manipulators : kreft
 effects of the change from rate of return to price cap regulation : breautigam
@@ -1090,7 +1080,6 @@ enabling sip based sessions in ad hoc networks : banerjee
 encapsulated postscript files : eps
 encapsulation inheritance and the platypus effect : talin
 end to end echo response time analysis on large mainframe unix systems : merges
-end to end routing behavior in the internet : paxon
 endian neutral software part 1 : gillig
 endian neutral software part 2 : gillig
 engineering and education for the future : lee
@@ -1215,7 +1204,6 @@ firewalls at home : sinteur
 first class functions : krishnamurthi
 first things first prioritizing requirements : wiegers
 flapjax a programming language for ajax applications : meyerovich
-flash an efficient and portable web server : pei
 flavors a finite state verification technique for software systems : cobleigh
 fletchers checksum : kodis
 flexible task graphs a unified restricted thread programming model for java : aurbach
@@ -1245,7 +1233,6 @@ forming grammars for structured documents an application of grammitcal inference
 formula a programming language for expressive computer music : anderson
 forward acknowledgement refining tcp congestion control  : mathis
 foundations for object oriented programming : mitchell
-foundations for the study of software architecture : perry
 four systems of policy politics and choice : lowi
 fp oop haskell : berger
 fractal rulers : swan
@@ -1320,7 +1307,6 @@ gnu smalltalk users guide : gnu
 go to statement considered harmful : dijkstra
 goal directed reasoning for specification based data structure repair : demsky
 godiva a very high level dialect of java : jeffery
-going wireless  behavior & practice of new mobile phone users : palen
 goo reference manual v 38 : bachrach
 good design principles in a compiler university course : acebal
 good regulatory regimes : schmalensee
@@ -1405,7 +1391,6 @@ how to be a programmer a short comprehensive and personal summary : reed
 how to break out of a chroot jail : simes
 how to do things with words : austin
 how to give a good research talk : jones
-how to identify new high payoff information systems for the organization : peffers
 how to make a multiprocessor computer that correctly executes multiprocess programs : lamport
 how to make lisp go faster than c : verna
 how to program in self 1.4 : ungar
@@ -1458,7 +1443,6 @@ implicit java array bounds checking on 64 bit architecture : bentley
 imposing the law of demeter and its variations : pal
 imprecision in computer vision : jain
 improved left corner chart parsing for large context free grammars : moore
-improvements to tcp performance in high speed networks : perloff
 improving c++ performance using temporaries : dingle
 improving c++ program performance : lippman
 improving evolvability of operating systems with aspectc : coady
@@ -1739,7 +1723,6 @@ meta programming tools for ml : sheard
 metadata the mac and you : siracusa
 microcontrollers cordic methods : pashea
 microeconomic theory applied to distributed systems : clarke
-microsoft a case study in international competitiveness high technology and the future of antitrust law : page
 middleware an architecture for distributed system services : bernstein
 migrating c code to unicode : nestved
 migrating sockets for networking with quality of service guarantees : yau
@@ -2180,7 +2163,6 @@ quinault an office modeling system : nutt
 r++ adding path base rules to c++ : crawford
 r++ using rules in object oriented designs : mishra
 rafts for basic blocks a progress report on forth native code compilation : ertl
-rajdoot a remote procedure call mechanism supporting orphan detection and killing : panzieri
 ram guide part 1 dram and sram basics : stokes
 random early detection gateways for congestion avoidance : floyd
 randomized shuffling : rolfe
@@ -2673,7 +2655,6 @@ the consensus problem in fault tolerant computing : barborak
 the construction of software systems using domain specific reuse infrastructures : debaud
 the crisis wide area security architecture : belani
 the cweb system of structured documentation : knuth
-the dark side of the web an open proxys view : pai
 the dawn of the stupid network : isenberg
 the dawning of the autonomic computing era : ganek
 the dcode intermediate program representation reference manual and report : gough
@@ -2824,7 +2805,6 @@ the modula 2 environment for parallel programming : hanssgen
 the modula 3 type system : cardelli
 the modular structure of complex systems : parnas
 the monarch parallel processor hardware design : rettberg
-the multimedia multicasting problem : pasquale
 the mystery of the tower revealed a nonreflective description of the reflective tower : wand
 the nesc language a holistic approach to networked embedded systems : gay
 the new font family selection user interface to standard latex : mittelbach
@@ -2906,7 +2886,6 @@ the standard librarian a debugging allocator : austern
 the standard librarian sorting and the standard library : austern
 the standard template library : stepanov
 the structure and performance of interpreters : romer
-the structure of scientific revolutions : pajares
 the structure of systems using upcalls : clark
 the structure of the the multiprogramming system : dikjstra
 the styx architecture for distributed systems : pike
@@ -2970,7 +2949,6 @@ the virtual filesystem interface in 4.4 bsd : mckusick
 the visitor pattern : cartwright
 the viva file system : herrin
 the wavelet packet transform : cody
-the x kernel a platform for accessing internet resources : peterson
 the xerox star a retrospective : johnson
 the xx kernel parallel protocol execution environment : bjorkman
 the y programming language : hanson
@@ -3121,8 +3099,6 @@ using inspections to investigate program correctness : britcher
 using mathematical induction to design computer algorithms : manber
 using memoization to acheive polynomial complexity of purely functional executable specifications of non deterministic top down parsers : frost
 using multicast to solve the midnight madness problem : schooler
-using objects for system analysis : parsons
-using objects for systems analysis : parsons
 using path expressions as concurrency guards : rees
 using postfix for secure smtp gateways : bauer
 using redundancies to find errors : xie
@@ -3179,7 +3155,6 @@ webit embedding xml html and css in scheme : webit
 webl a programming language for the web : kistler
 webos operating system services for wide area applications : vahdat
 webrelay  a multithreaded http relay server : zhang
-welcome to the wireless world problems using & understanding mobile telephony : palen
 what are principal typings and what are they good for : jim
 what are race conditions : netzer
 what i wish i knew when learning haskell : diehl
@@ -3216,7 +3191,6 @@ why systolic architectures : kung
 why threads are a bad idea for most purposes : osterhout
 why we dont need qos trains cars and internet quality of service : bricklin
 window flow control in computer communication networks : ilyas
-wireless data communications : pahlavan
 word sense disambiguation a survey : navigli
 workings of a virtual private network in linux part 1 : morgan
 workings of a virtual private network in linux part 2 : morgan
