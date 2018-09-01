@@ -434,6 +434,16 @@
   location     = "PR 6052.A6657 O55"
 }
 
+@Book{atpsb,
+  author       = "Naomi Prins",
+  title        = "All The Presidents' Bankers",
+  publisher    = "Nation Books",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "finance, capitalism, banking, regulation, politics",
+  location     = "E 743.P74"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -2792,6 +2802,47 @@
   location     = "https://doi.org/10.1145/62061.62062"
 }
 
+@Article{tsosr,
+  author       = "Frank Pajares",
+  title        = "The Structure of Scientific Revolutions",
+  journal      = "Philosopher's Web Magazine",
+  keywords     = "normal science, paradigms, anomaly, scientific theories, crisis",
+  abstract     = "A synopsis from the original",
+  location     = "https://www.uky.edu/~eushe2/Pajares/kuhnsyn.html"
+}
+
+@Article{macsiichtatfoal,
+  author       = "Amy~C. Page",
+  title        = "Microsoft: {A} Case Study in International Competitiveness, Hight Technology, and the Future of Antitrust Law",
+  journal      = "Federal Communications Law Journal",
+  year         = 1994,
+  volume       = 47,
+  number       = 1,
+  pages        = "artical 9",
+  keywords     = "antitrust, microsoft, monopolization, globalization, policy",
+  location     = "http://www.repository.law.indiana.edu/fclj/vol47/iss1/9"
+}
+
+@Article{ctailfli,
+  author       = "Radia Perlman and Arthur Harvey and George Varghese",
+  title        = "Choosing the Appropriate {ISO} layer for {LAN} Interconnection",
+  journal      = ieeen,
+  year         = 1988,
+  volume       = 2,
+  number       = 1,
+  pages        = "81--86",
+  month        = jan,
+  keywords     = "bridges, routers, addressing, bandwidth, control",
+  abstract     = "The authors discuss the technical ramifications involved in
+    the choice between interconnecting local area networks with a layer 3 (ISO
+    network layer) versus layer 2 (ISO data link layer) approach, that is,
+    routers versus bridges.  They consider the distinction between two layers
+    and define routers and bridges.  They then argue the case for each.  They
+    conclude that neither approach is better, in the sense that each has its
+    appropriate problem space, and suggest a mixture of relays.", 
+  location     = "https://doi.org/10.1109/65.3243"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3962,6 +4013,15 @@
   location     = "https://slidex.tips/download/technical-bulletin-no-tb-0597-dvd-rom-drive-scsi-command-set"
 }
 
+@Manual{ckum,
+  title        = "CarbonKernel User Manual",
+  edition      = "1.3",
+  year         = 2001,
+  month        = jul,
+  keywords     = "real-time operating system simulator",
+  location     = "https://sourceforge.net/projects/carbonkernel/"
+}
+
 @Unpublished{ivbf,
   author       = "Bob Frankston",
   title        = "Implementing {VisiCalc}",
@@ -4226,6 +4286,14 @@
   year         = 2000,
   month        = "15 " # may,
   keywords     = "coding standards"
+}
+
+@Misc{byobcp,
+  author       = "David Palmer",
+  title        = "Building Your Own Basic {CGI} Program",
+  howpublished = "Web page",
+  keywords     = "cgi, scripting",
+  location     = "http://perl.find-info.ru/perl/007/index.htm"
 }
 
 @MastersThesis{cchioawan,
