@@ -3936,6 +3936,23 @@
   location     = "http://www.cs.columbia.edu/~hgs/papers/others/1999/Dent9905_Netheads.pdf"
 }
 
+@TechReport{clswas,
+  author       = "Douglas~W. Clark",
+  title        = "Copying List Structures Without Auxilliary Storage",
+  institution  = dcs # cmu,
+  year         = 1975,
+  address      = ppa,
+  month        = oct,
+  keywords     = "list structures, copying, algorithms",
+  abstract     = "An algorithm is presented for copying an arbitrary list
+  structure into a block of contiguous storage locations without destroying the
+  original list.  Apart form a fixed number of program variables, no auxiliary
+  storage, such as a stack, is used.  The algorithm needs no mark bits and
+  operates in linear time.  It is shown to be significantly faster than the
+  best previous algorithm for the same problem.", 
+  location     = "https://doi.org/10.21236"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
