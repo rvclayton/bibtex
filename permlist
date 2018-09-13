@@ -805,6 +805,7 @@ constructing program dependency graphs using a parser : harrold
 constructing reusable specifications through analogy : chiang
 constructive logics part 1 a tutorial on proof systems and typed lambda calculus : gallier
 constructing submodule specifications and network protocols : sidu
+content addressable and associateve memory : chisvin
 continuations and advanced flow control : bartlett
 contouring data fields : giles
 control and communication in programming systems : reid
@@ -815,6 +816,7 @@ converting python virtual machine code to c : aycock
 cool an object based language for parallel programming : chandra
 cooperative software : rettig
 copying and comparing problems and solutions : grogono
+copying list structures without auxilliary storage : clark
 core javascript guide : javascript
 coroutines and networks of parallel processes : kahn
 correct and robust programs : cristian
