@@ -2923,6 +2923,29 @@
   location     = "https://www.eecs.harvard.edu/margo/papers/usenix96-os/paper.ps"
 }
 
+@InProceedings{tmsdsmfs4,
+  author       = "Ronald~G. Minnich and David~J. Farber",
+  title        = "The {M}ether System:  Distributed Shared Memory for {SunOS} 4.0",
+  booktitle    = pot # "Summer 1989 USENIX Conference",
+  year         = 1989,
+  pages        = "51--60",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "operating systems, kernel drivers, distributed shared memory,
+    user-space servers, system calls",
+  abstract     = "Mether is a Distributed Shared memory (DSM) that runs on Sun
+    workstations under the SunOS 4.0 operating system.  User programs access
+    the Mether address space in a way indistinguishable from other memory.
+    Mether was inspired by the MemNet DSM, but unlike MemNet Mether consists of
+    sotfware communicating over a conventional Ethernet.  hTe kernel part of
+    Mether actually does no data transmission over the network.  Data
+    transmission is accomplished by a user-level server.  hTe kernel driver has
+    no preference for a server, and indeed does not know that servers exist.
+    hTe kernel driver has been made very safe, and in fact panic is not in its
+    dictionary.",  
+  location     = "https://repository.upenn.edu/cis_reports/332/"
+}
+
 @InProceedings{lddeim,
   author       = "Goel, Shantanu and Duchamp, Dan",
   title        = "Linux Device Driver Emulation in {M}ach",
