@@ -395,7 +395,6 @@ alphonse wait here for my signal : hartley
 also the language : myers
 alternate realities : casti
 alternating skip lists : marrie
-alternatives in efficient protocol implementations for high speed networks : gunningberg
 alternatives to two classic data structures : okasaki
 amber : cardelli
 american business public policy case studies and political theory : lowi
@@ -445,7 +444,6 @@ an illustration of the domain analysis process : leach
 an implementation of an applicative file system : heck
 an implementation of precompiled headers : litman
 an implementation of rtp version 1 for the x kernel : laio
-an improved algorithm for detecting objects in code : canfora
 an improved context free recognizer : graham
 an informal operational semantics of c linda : narem
 an informal tour on denotational semantics : de meuter
@@ -567,7 +565,6 @@ automated testing of object oriented software : meyer
 automatic array inlining in java virtual machines : wimmer
 automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
-automatic formal synthesis of hardware from higher order logic : gordon
 automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
 automatic mining of source code repositories to improve bug finding techniques : williams
@@ -678,7 +675,6 @@ cgi programming : hamilton
 chain reactions in networks : manber
 challenges in software development : fleckenstein
 change distilling tree differencing for fine grained source code change extraction : fluri
-channels : gupta
 channels a run time system for multimedia protocols : bocking
 characterizing people as nonlinear first order components in software development : cockburn
 charming python inside python's implementations : mertz
@@ -703,7 +699,6 @@ cleanroom process model : linger
 clearing memory and partial register stalls in your code : barad
 client server caching revisited : franklin
 clocks in dataflow languages : caspi
-closed covers to verify progress for communicating finite state machines : gouda
 clostrophobia its etiology and treatment : baker
 clustering a dag for cad databases : banerjee
 cml a higher order concurrent language : reppy
@@ -1408,7 +1403,6 @@ htmlprag : van dyke
 htmlprag pragmatic parsing of html to shtml and sxml : van dyke
 human inference : nesbitt
 hygienic macro expansion : kohlbecker
-hypernets good gnews for gnutella : gunther
 hyperprogramming a formal approach to software enviornments : goguen
 hypertext transfer protocol http : berners-lee
 ibal a probabilistic rational programming language : pfeffer
@@ -1527,7 +1521,6 @@ introduction to the configurable highly parallel computer : snyder
 introduction to the formal treatment of testing : gourlay
 introduction to the literature on semantics : leavens
 introduction to tla : lamport
-introduction to web services architecture : gottschalk
 intrusion detection for the masses : bauer
 inverting the burrows wheeler transform : bird
 investigating java concurrency using abstract state machines : gurevich
@@ -1600,7 +1593,6 @@ key to the success of asynchronous transfer mode an application programming inte
 keywords scanners and screeners : clark
 keywords special identifier idioms : clark
 knaves and knights : backhouse
-knowledge oriented consideration of communication protocols : gotzhein
 korbit a kernel space corba orb : lattner
 krypton a functional approach to knowledge representation : brachman
 lambda the ultimate imperitive : steele
@@ -1808,7 +1800,6 @@ netlogo : netlogo
 netscape plug ins : netscape
 network news transfer protocol : kantor
 network objects : birrell
-network security via reverse engineering of tcp code vulnerability analysis and proposed solutions : guha
 network services in an uncooperative internet : jannotti
 network subsystem design a case for an integrated data path : druschel
 networking the network : agre
@@ -2132,7 +2123,6 @@ protection : lampson
 protection in the hydra operating system : cohen
 protein based optical computing and memories : birge
 protocol analysis using a timed version of sdl : bause
-protocol conversion : green
 protocol conversion : lam
 protocol design and implementation using formal methods : van sinderen
 protocol engineering a critical assessment : rudin
@@ -2736,7 +2726,6 @@ the generic graph component library : lee
 the generic graph component library : siek
 the geometry of concurrent programs : carson
 the gnu 64 bit pl8 compiler toward an open standard environment for firmware development : gellerich
-the gnutella protocol : gnutella
 the go programming language : go
 the google file system : ghemawat
 the grid protocol a high performance scheme for maintaining replicated data : cheung
@@ -3021,7 +3010,6 @@ translating forth to efficient c : ertl
 translation lookaside buffer consistency : teller
 translation of attribute grammars into procedures : katayama
 transport service and protocols for high speed networks : zitterbart
-transporting voice traffic over packet networks : greenstein
 traversing an html table with javascript and dom interfaces : galli
 treating statement sequences as block objects : mossenbock
 tree automata techniques and applications : comon
