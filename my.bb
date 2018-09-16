@@ -2853,6 +2853,36 @@
   location     = "https://doi.org/10.1109/65.3243"
 }
 
+@article{ecfoam,
+  author       = "Chrysanthis, Panos~K. and Raghuram, S. and Ramamritham, Krithi",
+  title        = "Extracting Concurrency From Objects: {A} Methodology",
+  journal      = "ACM SIGMOD Record (" # pot # " 1991 ACM SIGMOD International Conference on Management of Data, SIGMOD '91)",
+  year         = 1991,
+  pages        = "108--117",
+  volume       = 20,
+  number       = 2,
+  month        = jun,
+  keywords     = "concurrency control, semantics, object graphs",
+  abstract     = "Whereas a number of semantics-based concurrency control
+    schemes for object-oriented systems have been proposed in the literature,
+    each scheme has approached the issue from fairly narrow considerations.  In
+    this paper, we have made an effort to discover, from first principles, the
+    nature of concurrency semantics inherent in objects.  Towards this end, we
+    identify the dimensions along which object and operation semantics can be
+    modeled.  These dimensions are then used to classify and unify existing
+    semantic-based concurrency control schemes.  To formalize this
+    classification, we propose a graph representation for objects that can be
+    derived from the abstract specification of an object, Based on this
+    representation, which helps identify the semantic information inherent in
+    an object, we propose a methodology that shows how various semantic notions
+    applicable to concurrency control can be effectively combined to improve
+    concurrency.  In this process, we identify and exploit a new source of
+    semantic information, namely, the ordering among component objects, to
+    further enhance concurrency.  Lastly, we present a scheme, based on this
+    methodology, for deriving compatibility tables for operations on objects.", 
+  location     = "https://doi.org/10.1145/119995.115803"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3984,6 +4014,58 @@
   operates in linear time.  It is shown to be significantly faster than the
   best previous algorithm for the same problem.", 
   location     = "https://doi.org/10.21236"
+}
+
+@TechReport{cgagmm,
+  author       = "Amit Gupta and Mark Moran",
+  title        = "Channel Groups",
+  institution  = "Tenet Group, University of California",
+  year         = 1993,
+  number       = "TR-93-015",
+  address      = bca,
+  month        = mar,
+  keywords     = "resource sharing, multicast, teleconferences",
+  abstract     = "A single distributed application typically requires setting
+    up a number of real-time connections, or channels.  Current schemes usually
+    assume different channels are independent, when in reality, important
+    relationships often exist between them.  We introduce a new abstraction
+    called channel groups that lets network clients describe these
+    relationships explicitly to the network service provider.  For example, by
+    describing sharing relationships between channels, the network client
+    enables the network to share resource allocations among related
+    channels—lowering the cost and improving the scalability of communication.
+    In addition, specification of other relationships, such as inter-stream
+    synchronization, disjoint-path routing, relative dropping priorities, and
+    simultaneous establishment provide a richer, more efficient service.
+    Channel groups provide a unifying abstraction and an easily-extensible
+    interface for specifying these and other relationships.  This report
+    presents a general description of the channel group abstraction and
+    demonstrates its usefulness in describing several types of inter-stream
+    relationships.", 
+  location     = "https://www.icsi.berkeley.edu/ftp/global/pub/techreports/1993/tr-93-015.pdf"
+}
+
+@TechReport{hggnfg,
+  author       = "Neal Gunther",
+  title        = "Hypernets --- Good ({G})news for {G}nutella",
+  year         = 2002,
+  month        = "15 " # feb,
+  keywords     = "hypernet topologies, tree topologies, performance metrics,
+    relative bandwidth",
+  abstract     = "Criticism of Gnutella network scalability has rested on the
+    bandwidth attributes of the original interconnection topology: a Cayley
+    tree.  Trees, in general, are known to have lower aggregate bandwidth than
+    higher dimensional topologies e.g., hypercubes, meshes and tori.  Gnutella
+    was intended to support thousands to millions of peers.  Studies of
+    interconnection topologies in the literature, however, have focused on
+    hardware implementations which are limited by cost to a few thousand nodes.
+    Since the Gnutella network is virtual, hyper-topologies are relatively
+    unfettered by such constraints.  We present performance models for several
+    plausible hyper-topologies and compare their query throughput up to
+    millions of peers.  The virtual hypercube and the virtual hypertorus are
+    shown to offer near linear scalability subject to the number of peer TCP/
+    IP connections that can be simultaneously kept open.", 
+  location     = "http://www.perfdynamics.com/Papers/Gnews.html"
 }
 
 @Manual{atajsm,
