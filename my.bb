@@ -444,6 +444,16 @@
   location     = "E 743.P74"
 }
 
+@Book{tslot,
+  author       = "Anonymous",
+  title        = "The Secret Life of Teachers",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "teaching, high school",
+  location     = "LB 1777.3.N4 D49"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
