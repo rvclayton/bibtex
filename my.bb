@@ -2981,9 +2981,20 @@
     Mether actually does no data transmission over the network.  Data
     transmission is accomplished by a user-level server.  hTe kernel driver has
     no preference for a server, and indeed does not know that servers exist.
-    hTe kernel driver has been made very safe, and in fact panic is not in its
+    The kernel driver has been made very safe, and in fact panic is not in its
     dictionary.",  
   location     = "https://repository.upenn.edu/cis_reports/332/"
+}
+
+@InProceedings{eaoftmmm,
+  author       = "James~Q. Arnold",
+  title        = "{ELF}:  An Object File to Mitigate Mischievous Misoneism",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "1--10",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "linkers, object-file formats, text processing, change management"
 }
 
 @InProceedings{lddeim,
