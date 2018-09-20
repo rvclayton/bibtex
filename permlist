@@ -1061,6 +1061,7 @@ efficient relational calculation for software analysis : lewerentz
 elegant lisp programs : chaitin
 elements of category theory : martini
 elements of interaction : milner
+elf an object file to mitigate mischievous misoneism : arnold
 eliminating array bound checking through nondependent types : oleg
 eliminating disjunctions of leads to properties : calvert
 eliminating spurious error messages using exceptions polymorphism and higher order functions : ramsey
