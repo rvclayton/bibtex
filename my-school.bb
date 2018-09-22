@@ -8177,7 +8177,7 @@
 }
 
 @Article{tcfpchttp,
-  author       = "Jeffrey C. Mougl",
+  author       = "Jeffrey C. Mogul",
   title        = "The Case for Persistent-Connection {HTTP}",
   journal      = ccr # " (SIGCOMM '95 Proceedings)",
   year         = 1995,
