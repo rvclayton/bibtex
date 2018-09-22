@@ -454,6 +454,16 @@
   location     = "LB 1777.3.N4 D49"
 }
 
+@Book{asfad,
+  author       = "Joshua Mattson",
+  title        = "A Short Film About Disappointment",
+  publisher    = "Penguin",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "trauma, drama, movie reviews",
+  location     = "PS 3613.A8665 S56"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -2994,7 +3004,27 @@
   pages        = "1--10",
   address      = "Anaheim, " # CA,
   month        = "11--15 " # jun,
-  keywords     = "linkers, object-file formats, text processing, change management"
+  keywords     = "linkers, object-file formats, text processing, change management",
+  abstract     = "An object file is much like a shipping box: People typically
+     ignore the container and focus on the contents.  Despite its
+     unobtrusiveness, a system's object file directly affects services such as
+     program execution and development, and a deficient file format restricts
+     the services a system can deliver.  Moreover, some issues surface only as
+     the computing environment changes.  For example, an object file with mixed
+     or ambiguous byte order complicates file sharing across a heterogeneous
+     network, without causing problems for a homogeneous environment.  ELF
+     (Executable and Linking Format) is the object file for System V Release 4.
+     Unlike previous object files, ELF includes an access library that provides
+     key services such as host/target translation and version control.  In
+     combination, the new object file format and the access library eliminate
+     many problems and support new services.  Besides the technical aspects of
+     object file design, this paper addresses the practical problem of changing
+     object file formats.  Object files contain the binary representations for
+     programs, in which people may have substantial investments of time or
+     money.  Introducing ELF was made more challenging by the need to preserve
+     investments and to limit the turmoil for people who write programs, for
+     people who port System V to other architectures, and for people who use
+     applications." 
 }
 
 @InProceedings{lddeim,
