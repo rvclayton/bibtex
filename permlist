@@ -105,7 +105,6 @@ a guide to starting a javaspace : pritchard
 a guided tour of mercurial : eide
 a guided tour of program design methodologies : bergland
 a heuristic for deriving loop functions : dunlop
-a hierarchical knowledge based system for airplane classification : moldovan
 a high level language for specifying pictures : van wyk
 a high performance software implementation of the data encryption standard dea : glawitsch
 a high school program in computer science : gal
@@ -172,7 +171,6 @@ a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
 a note on searching in a binary search tree : andersson
 a novel program representation for interprocedural analysis : agrawal
-a paradigm shift to oop has occurred implementation to follow : mitchell
 a parametric object system : skibinski
 a partial evaluator and its use as a programming tool : beckman
 a pattern language for tool construction and integration based on the tools and materials metaphor : riehle
@@ -677,7 +675,6 @@ challenges in software development : fleckenstein
 change distilling tree differencing for fine grained source code change extraction : fluri
 channels a run time system for multimedia protocols : bocking
 characterizing people as nonlinear first order components in software development : cockburn
-charming python inside python's implementations : mertz
 chart parsing of flowgraphs : lutz
 checking for search robot crawling and indexing : rappoport
 checking inside the black box regression testing bo comparing value spectra : xie
@@ -1076,7 +1073,6 @@ enabling computational nanotechnolgy through javagenes in a cycle scavenging env
 enabling sip based sessions in ad hoc networks : banerjee
 encapsulated postscript files : eps
 encapsulation inheritance and the platypus effect : talin
-end to end echo response time analysis on large mainframe unix systems : merges
 endian neutral software part 1 : gillig
 endian neutral software part 2 : gillig
 engineering and education for the future : lee
@@ -1499,7 +1495,6 @@ interfaces and extended ml : kahrs
 interlanguage working without tears blending sml with java : benton
 intermediate representations in imperative compilers a survey : stanier
 internet scavenger hunt : internet
-internet telephony : mcknight
 internet tv implications for the long distance network : odlyzko
 interoperability of peer to peer file sharing : lui
 interpretation techniques : klint
@@ -1533,7 +1528,6 @@ ip switching and gigabit routers : newman
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
 is finding security holes a good idea : rescoria
-is ip going to take over the world of communications : molinero
 is layering harmful : crowcroft
 is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
 is turing a better language for teaching programming than pascal : martin
@@ -1783,7 +1777,6 @@ multiple bus architectures : mudge
 multiple valued logic a tutorial and appreciation : smithm
 ultiplication by integer constants : briggs
 multiprocessor organization a survey : enslow
-multiprocessor performance measurement instrumentation : mink
 multithreaded java program test generation : edelstein
 multix an xml based formalism to encode multi structured documents : chatti
 musical equational programs a functional approach : van den broek
@@ -2352,7 +2345,6 @@ signatures a language extension for improving type abstraction and subtype polym
 signatures for a network protocol stack a systems application of standard ml : biagioni
 silver an extensible attribute grammar system : van wyk
 sim a utility for detecting similarity in computer programs : gitchell 
-similar shape retrieval in shape data management : mehrotra
 simple register spilling in a retargetable compiler : fraser
 simply typed lambda calculus : anonymous
 simulated annealing a heuristic optimization algorithm : plashikar
@@ -2377,7 +2369,6 @@ small programming exercises : rem
 smart and stupid networks why the internet is like microsoft : odlyzko
 smart messages an object oriented communication mechanism for parallel systems : arjomandi 
 smart pointers they're smart but they're not pointers : edelson
-smarter memory improving bandwidth for streamed references : mckee
 smarttutor an intelligent tutoring system in web based adult education : cheung
 smashing c++ vptrs : rix
 smgn rapid prototyping of small domain specific languages : kienle
@@ -2426,7 +2417,6 @@ software design patterns for tinyos : gay
 software profiling for hot path prediction less is more : duesterwald
 software prototyping by relational techniques experiences with program construction systems : ceri
 software psychology requirements for software maintenance activities : rugaber
-software quality improvement : mizuno
 software reliability modern challenges : spinellis
 software reliability the role of programmed exception handling : melliar
 software requirements a tutorial : faulk
@@ -2534,7 +2524,6 @@ survey of scope issues in programming languages : schwanke
 survey of some theoretical aspects of multiprocessing : baer
 survey of switching techniques in high speed networks and their performance : oie
 survey on application layer mechanisms for speech quality adaptation in voip : carvalho
-surviving network partitioning : melliar
 svp a model capturing sets streams and parallelism : parker
 swap space implementation : mauro
 swarm 0.44 documents : dales
@@ -2631,7 +2620,6 @@ the bsd packet filter a new architecture for user level packet capture : mccanne
 the c information abstraction system : chen
 the c-- language reference manual : peyton jones
 the case against micropayments : odlyzko
-the case for persistent connection http : mogul
 the cassowary linear arithmetic constraint solving algorithm : badros
 the cathedral and the bazaar : raymond
 the challenge for incentive regulation : barnich
@@ -2836,7 +2824,6 @@ the public and its problems : dewey
 the public philosophy interest group liberalism : lowi
 the quality without a name : gabriel
 the r6rs module system : simionato
-the radial sweep algorithm for constructing triangulated irregular networks : mirante
 the reactive keyboard a predictive typing aid : darragh
 the real meaning of architecture : fisher
 the relevance of education : bruner
@@ -2848,7 +2835,6 @@ the rochester checkers player : marsh
 the role of composition in computer programming : mcintyre
 the role of dynamic programming and control structures in performance : bernecky
 the role of logic in knowledge representation : israel
-the role of object oriented metrics : meyer
 the role of the study of programming languages in the education of a programmer : friedman
 the rome programmers guide : french
 the rtl system : mcconnell
@@ -2869,7 +2855,6 @@ the sl synchronous language : boussinot
 the slather 1.0 specification : omohumdro
 the software architecture of a san storage control system : glider
 the solaris process model : mauro
-the source of authority for commercial access control : moffett
 the spec# programming system an overview : barnett
 the specification and modeling of computer security : mclean
 the sprite network operating system : osterhout
@@ -2952,7 +2937,6 @@ thinking recursively : roberts
 thirty years is long enough getting beyond c : brewer
 thirty years later lessons from the multics security evaluation : karger
 this is not a pipe : foucault
-thomas s kuhn the structure of scientific revolutions : moloney
 thoughts on larch ml and a new application for lp : wing
 threads and locks : java
 three approaches to type structure : reynolds
