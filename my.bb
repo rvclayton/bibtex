@@ -2903,6 +2903,64 @@
   location     = "https://doi.org/10.1145/119995.115803"
 }
 
+@Article{iigttotwoc,
+  author       = "Molinero-Fern{\' a}ndez, Pablo and McKeown, Nick and Zhang, Hui",
+  title        = "Is {IP} Going to Take Over the World of Communication?",
+  journal      = ccr,
+  year         = 2003,
+  volume       = 33,
+  number       = 1,
+  pages        = "113--118",
+  month        = jan,
+  keywords     = "ip, packet switching, circuit swithing",
+  abstract     = "While it is technically pleasing to believe that IP will
+    dominate all forms of communication, our delight in its elegance is making
+    us overlook its shortcomings.  IP is an excellent means to exchange data,
+    which explains its success.  It remains ill suited as a means to provide
+    many other types of service; and is too crude to form the transport
+    infrastructure in its own right.  To allow the continued success of IP, we
+    must be open-minded to it living alongside, and co-operating with other
+    techniques (such as circuit switching) and protocols that are optimized to
+    different needs.  In this position paper, we question some of the folklore
+    surrounding IP and packet switching.  We conclude that while
+    packet-switched IP will continue to dominate best-effort data services at
+    the edge of the network, the core of the network will use optical circuit
+    switching as a platform for multiple services.",
+  location     = "http://yuba.stanford.edu/~nickm/papers/sigcomm_2002_position.pdf", 
+  location     = "https://doi.org/10.1145/774763.774781"
+}
+
+@Article{tsktsosr,
+  author       = "Daniel~P. Moloney",
+  title        = "Thomas {S}. {K}uhn, {\it {T}he {S}tructure of {S}cientific {R}evolutions}",
+  journal      = "First Things",
+  year         = 2000,
+  number       = 101,
+  pages        = "53--55",
+  month        = mar,
+  keywords     = "kuhn",
+  location     = "https://www.firstthings.com/article/2000/03/the-structure-of-scientific-revolutions"
+}
+
+@Article{cpyipysi,
+  author       = "David Mertz",
+  title        = "Charming {P}ython: Inside {P}ython's Implementations",
+  journal      = "IBM developerWorks",
+  year         = 2000,
+  volume       = 19,
+  number       = 48,
+  month        = "13 " # nov,
+  keywords     = "stackless python, scripting languages, language implementation",
+  abstract     = "What most programmers probably think of when they talk about
+    Python is the specific implementation sometimes called CPython (because it
+    is implemented in C).  However, Python as a language specification has been
+    implemented several times in parallel with the evolution of Guido van
+    Rossum's reference implementation.  This article consists of annotated
+    interviews with the creators of two of the non-standard Pythons --
+    Stackless and Vyper.", 
+  location     = "https://www.linuxtoday.com/infrastructure/2000111301306NWCYSW"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
