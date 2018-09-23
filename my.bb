@@ -464,6 +464,16 @@
   location     = "PS 3613.A8665 S56"
 }
 
+@Book{tpots,
+  author       = "Ocatvia~E. Butler",
+  title        = "The Parable of the Sower",
+  publisher    = "Warner Books",
+  year         = 2000,
+  address      = nyny,
+  keywords     = "dystopia, travel, survival, spiritualism",
+  location     = "PS 3552.U827 P37"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
