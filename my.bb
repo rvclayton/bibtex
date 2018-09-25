@@ -2985,6 +2985,29 @@
   location     = "https://doi.org/10.1109/32.9043"
 }
 
+@Article{rocbmd,
+  author       = "Candea, George and Brown, Aaron~B. and Fox, Armando and Patterson, David",
+  title        = "Recovery-Oriented Computing:  Building Multitier Dependability",
+  journal      = ieeec,
+  year         = 2004,
+  volume       = 37,
+  number       = 11,
+  pages        = "60--67",
+  month        = nov,
+  keywords     = "microbooting, undo/redo systems, fast recovery, system
+    dependability, system recovery", 
+  abstract     = "The Recovery-Oriented Computing project studied techniques to
+    help systems quickly recover from inevitable failures.  ROC research
+    focuses mainly on Internet services because they can growto immense
+    proportions, are subject to perpetual evolution, have varying workloads,
+    and are expected to run 24/7.The project has implemented two building
+    blocks for recovery: microreboot and system-level undo.  These researchers
+    believe that most of what we have learned from Internet services can also
+    be appliedto desktops, smaller network services, and other computing
+    environments.", 
+  location     = "https://doi.org/10.1109/MC.2004.219"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
