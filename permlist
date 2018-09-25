@@ -1149,7 +1149,6 @@ extensions to standard ml to support transactions : wing
 external data representation : xdr
 extracting geometric information from architectural drawings : kernighan
 extracting guarantees from chaos : kubiatowicz
-extracting task level parallelism : girkar
 extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
 ez processes : hanson
@@ -2174,6 +2173,7 @@ reconciling environment integration and component independence : sullivan
 reconstructing io : fraser
 record structures for advanced information systems : smura
 recources for early object design education : biddle
+recovery oriented computing building multitier dependability : candea
 recursion as an effective step in program development : colussi
 recursive ascent descent parsing : hornspool
 recursive functions of symbolic expressions and their computation by machine part 1 : mccarthy
