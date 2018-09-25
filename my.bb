@@ -2961,6 +2961,30 @@
   location     = "https://www.linuxtoday.com/infrastructure/2000111301306NWCYSW"
 }
 
+@Article{rfccatal,
+  author       = "Narian~H. Gehani and William~D. Roome",
+  title        = "Rendezvous Facilities: {C}oncurrent {C} and the {A}da Language",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 11,
+  pages        = "1546--1553",
+  month        = nov,
+  keywords     = "parallel programming, Concurrent C, Ada, concurrent
+    programming, rendezvous, synchronization, expressiveness, priority,
+    language constructs, process management", 
+  abstract     = "The concurrent programming facilities in both Concurrent C
+    and the Ada language are based on the rendezvous concept.  Although these
+    facilities are similar, there are substantial differences.  Facilities in
+    Concurrent C were designed keeping in perspective the concurrent
+    programming facilities in the Ada language and their limitations.
+    Concurrent C facilities have also been modified as a result of experience
+    with its initial implementations.  The authors compare the concurrent
+    programming facilities in Concurrent C and Ada and show that it is easier
+    to write a variety of concurrent programs in Concurrent C than in Ada.", 
+  location     = "https://doi.org/10.1109/32.9043"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
