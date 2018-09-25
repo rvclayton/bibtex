@@ -87,11 +87,12 @@
 @string{hup     = "Harvard University Press"}
 @string{ibmjrd  = "IBM Journal of Research and Development"}
 @string{ibmsj   = "IBM Systems Journal"}
-@string{ico   = "International Conference on "}
+@string{ico     = "International Conference on "}
 @string{icase   = "IEEE " # ico # "Automated Software Engineering"}
 @string{icfp    = ico # "Functional Programming"}
 @string{icnp    = ico # "Network Protocols"}
 @string{icfmmc  = ico # "Formal Methods and Models for Codesign"}
+@string{idl94   = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
 @string{ieeec   = "IEEE Computer"}
 @string{ieeecom = "IEEE Communications Magazine"}
 @string{ieeecsp = "IEEE Computer Society Press"}
