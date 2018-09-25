@@ -2205,6 +2205,7 @@ relocating machine instructions by currying : ramsey
 remarks on a methodology for implementing highly concurrent data objects : skudlarek
 remote method calling and object group communication : maffeis
 remote procedure call programming guide : rpc
+rendezvous facilities concurrent c and the ada language : gehani
 replacing a dictionary with a square root : cargill
 replacing complexity with generality the programming language forsythe : reynolds
 replicated abstract data types building blocks for collaborative applications : roh
