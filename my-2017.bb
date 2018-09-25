@@ -1,7 +1,6 @@
 .so bibtex.header
 		  
 @string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
-@string{idl94 = " (" # pot # "Workshop on Interface Definition Languages, IDL '94)"}
 @string{rs77  = " (" # pot # "ACM Conference on Language Design For Reliable Software)"}		  
 		  
 @Book{atamfm,
