@@ -79,7 +79,6 @@ a fast file system for unix : mckusick
 a fifteen puzzle in fran : elliott
 a first course in computer science mathematical principles for software engineering : mills
 a first look at novice compilation behaviorusing bluej : jadud
-a flexible message service specification : calvert
 a formal description of behavioral verilog based on axiomatic semantics : fiskio
 a formal definition of priority in csp : fidge
 a formal proof of a protocol for communications over faulty channels using the larch prover : chetali
@@ -726,12 +725,10 @@ communication complexity : kushilevitz
 communication mechanisms for programming distributed systems : shatz
 communication network class library : junius
 communications satellite softare a tutorial : dusio
-community without propinquity revisited communication technology and the transformation of the urban public sphere : calhoun
 commutativity based concurrency control for abstract data types : weihl
 comparing two garbage collectors for c++ : edelson
 comparing high change modules and modules with the highest measurement values in two large scale open source projects : koru
 comparison of rate based service disciplines : zhang
-comparison of specc and systemc languages for system design : cai
 comparison of two bridge routing approaches : zhang
 comparison of two lan bridge approaches : soha
 compilation and delayed evaluation in apl : guibas
@@ -862,7 +859,6 @@ data structures in jdsl : goodrich
 data types as values : donahue
 dataflow computing models languages and machines for intelligence computations : harath
 dataflow machine architecture : veen
-datakit packet switch generic 1 system description : calvert
 ddm a cache only memory architecture : hagerten
 deadlock detection in distributed databases : knapp
 deadlock detection in distributed systems : singhal
@@ -1208,7 +1204,6 @@ form tricks : webb
 formal analysis of the alternating bit protocol by temproal petri nets : suzuki
 formal logic via functional programming : leifer
 formal methods for actor systems a progress report : agha
-formal methods for protocol conversion : calvert
 formal methods selected historical methods : jones
 formal methods selected historical references : jones
 formal models of communication services a case study : fekete
@@ -1741,7 +1736,6 @@ modular design of real time systems : haase
 modular extensions to z : sampaio
 modular scheduling of atomic actions : rosenband
 module algebra : bergstra
-module composition and refinement with applications to protocol conversion : calvert
 module imbedding : radenski
 module types module variables and their use as a universal encapsulation mechanism : radenski
 molecular computing the lock key paradigm : conrad
