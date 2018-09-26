@@ -3694,6 +3694,27 @@
   location     = "https://doi.org/10.1016/B978-0-444-89874-6.50030-1"
 }
 
+@InProceedings{tcpdaia,
+  author       = "Yih-Farn Chen",
+  title        = "The {C} Program Database and Its Applications",
+  booktitle    = pot # "Summer 1989 USENIX Conference",
+  year         = 1989,
+  pages        = "157--171",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "program analysis, cia, relational analysis, program graphs,
+    dead-code elimination, subsystem extraction, refactoring",
+  abstract     = "The C program database is a collection of files that stores
+    the structure information about software objects in C programs.  These
+    files can be processed by relational database tools to locate object
+    declarations and analyze their relations hips.  This paper describes how
+    various tools use the C program Database to provide graphic views of
+    program structures, extract self-contained subsystems, eliminate dead code,
+    and automate software restructuring tasks.  Program databases have been
+    built for several widely used tools and systems.  The analysis results of
+    these databases are compared."
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
