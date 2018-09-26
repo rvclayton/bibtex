@@ -3008,6 +3008,34 @@
   location     = "https://doi.org/10.1109/MC.2004.219"
 }
 
+@Article{cwprctattotups,
+  author       = "Craig Calhoun",
+  title        = "Community without Propinquity Revisited: Communications Technology and the Transformation of the Urban Public Sphere",
+  journal      = "Sociological Inquiry",
+  year         = 1998,
+  volume       = 68,
+  number       = 3,
+  pages        = "373--397",
+  month        = jul,
+  keywords     = "urban phenomenon, interpersonal community, urban public
+  sphere",
+  abstract     = "Recent discussions of the Internet have touted “virtual
+    community” and a capacity to enhance citizen power in democracies.  The
+    present essay (a) calls for a more rigorous understanding of community; (b)
+    suggests that relationships forged with the aid of electronic technology
+    may do more to foster “categorical identities” than they do dense,
+    multiplex, and systematic networks of relationships; and (c) argues that an
+    emphasis on community needs to be complemented by more direct attention to
+    the social bases of discursive publics that engage people across lines of
+    basic difference in collective identities.  Previous protest movements have
+    shown that communications media have an ambiguous mix of effects.  They do
+    facilitate popular mobilization, but they also make it easy for relatively
+    ephemeral protest activity to outstrip organizational roots.  They also
+    encourage governments to avoid concentrating their power in specific
+    spatial locations and thus make revolution in some ways more difficult.", 
+  location     = "https://doi.org/10.1111/j.1475-682X.1998.tb00474.x"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3641,6 +3669,31 @@
   location     = "http://lucacardelli.name/Papers/Amber.pdf"
 }
 
+@InProceedings{mcarwatpc,
+  author       = "Kenneth~L. Calvert",
+  title        = "Module Composition and Refinement with Applications to Protocol Conversion",
+  booktitle    = pot # "IFIP TC6/WG6.1. Twelfth International Symposium on Protocol Specification, Testing and Verification",
+  year         = 1992,
+  editor       = "R.~J. {Linn, Jr.} and M.~{\" U}. Uyar",
+  pages        = "383--397",
+  address      = "Lake Buena Vista, Florida",
+  month        = "22--25 " # jun,
+  keywords     = "",
+  abstract     = "In Lam and Shankar's theory of specifications based on state
+    transition systems, modules correspond to programs or implementations;
+    interfaces are abstract specifications defining the services that modules
+    provide to each other.  A module that correctly implements the service
+    defined by a given interface is said to offer the interface.  This paper
+    defines two refinement relations on module specifications.  The first is a
+    sufficient condition for safety and progress properties of one module to
+    hold in the other; it is a slight generalization of Lam and Shankar's
+    well-formed refinement.  The second relation implies that if one module
+    offers an interface, the other does so as well.  A composition operation,
+    permitting compatible module specifications to be combined without
+    explicitly specifying an interface between them, is also defined.", 
+  location     = "https://doi.org/10.1016/B978-0-444-89874-6.50030-1"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -4224,6 +4277,44 @@
   location     = "http://www.perfdynamics.com/Papers/Gnews.html"
 }
 
+@TechReport{dpsg1sd,
+  author       = "K.~L. Calvert and M. Marsh",
+  title        = "{DATAKIT} Packet Switch --- Generic 1 System Description",
+  institution  = "Bell Laboratories",
+  year         = 1983,
+  type         = "Memorandum for File",
+  number       = "95454-1",
+  address      = "Homdel, N.J.",
+  month        = "14 " # jul,
+  keywords     = "networking"
+}
+
+@TechReport{afmss,
+  author       = "Kenneth~L. Calvert",
+  title        = "{A} Flexible Message Service Specification",
+  institution  = coc # git,
+  address      = atga,
+  abstract     = "This paper explores the use of a single, parameterized
+    specification to define services with a range of different degrees of
+    reliability.  An example service specification is presented, which closely
+    resembles the popular sockets interface to networking services.  The
+    specification embodies a model that is quite general, and handles unicast
+    and multicast communication in the same framework.  The specification
+    itself has a modular structure so that, by instantiating certain predicates
+    differently, different service characteristics are obtained.  The limits of
+    this approach, in particular the difficulty of separating safety and
+    progress specifications, are discussed.", 
+  keywords     = "service specification, modularity, state transition specifications"
+}
+
+@TechReport{afetepf,
+  author       = "Kenneth~L. Calvert",
+  title        = "{A} Flexible End-to-End Protocol Framework",
+  institution  = coc # git,
+  address      = atga,
+  keywords     = "end-to-end protocol services, tau, infrastructure processing"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -4582,6 +4673,15 @@
   howpublished = "Web page",
   keywords     = "cgi, scripting",
   location     = "http://perl.find-info.ru/perl/007/index.htm"
+}
+
+@Misc{stotuciaiciahe,
+  author       = "Craig Calhoun",
+  title        = "Structural Transformation of the University:  Contradictory Ideals and Institutional Compromises in {A}merican Higher Education",
+  howpublished = "Presentation, Thesis 11 Center for Critical Theory, La Trobe
+    University", 
+  year         = "2002",
+  month        = "17" # jul
 }
 
 @MastersThesis{cchioawan,
