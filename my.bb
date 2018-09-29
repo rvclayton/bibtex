@@ -474,6 +474,16 @@
   location     = "PS 3552.U827 P37"
 }
 
+@Book{crs,
+  author       = "Roger Scruton",
+  title        = "Conservatism",
+  publisher    = "All Points Books",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "conservatism, philosophy, european conservatism, socialism,
+    cultural conservatism"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
