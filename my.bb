@@ -3046,6 +3046,32 @@
   location     = "https://doi.org/10.1111/j.1475-682X.1998.tb00474.x"
 }
 
+@Article{dcdal,
+  author       = "Lelewer, Debra~A. and Hirschberg, Daniel~S.",
+  title        = "Data Compression",
+  journal      = surveys,
+  year         = 1987,
+  volume       = 19,
+  number       = 3,
+  pages        = "261--296",
+  month        = sep,
+  keywords     = "adaptive coding, adaptive huffman coding, coding, coding
+    theory, file compression, huffman codes, minimum-redundancy codes, optimal
+    codes, prefix codes, text compression",
+  abstract     = "This paper surveys a variety of data compression methods
+    spanning almost 40 years of research, from the work of Shannon, Fano, and
+    Huffman in the late 1940s to a technique developed in 1986.  The aim of
+    data compression is to reduce redundancy in stored or communicated data,
+    thus increasing effective data density.  Data compression has important
+    application in the areas of file storage and distributed systems.  Concepts
+    from information theory as they relate to the goals and evaluation of data
+    compression methods are discussed briefly.  A framework for evaluation and
+    comparison of methods is constructed and applied to the algorithms
+    presented.  Comparisons of both theoretical and empirical natures are
+    reported, and possibilities for future research are suggested.", 
+  location     = "https://doi.org/10.1145/45072.45074"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
