@@ -82,7 +82,6 @@ a first look at novice compilation behaviorusing bluej : jadud
 a formal description of behavioral verilog based on axiomatic semantics : fiskio
 a formal definition of priority in csp : fidge
 a formal proof of a protocol for communications over faulty channels using the larch prover : chetali
-a framework for controlling coopeerative agents : lee
 a framework for defining the quality of communications services : richters
 a framework for selective recompilation in the presence of complex intermodule dependencies : chambers
 a framework for the automated drawing of data structure diagrams : ding
