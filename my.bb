@@ -484,6 +484,17 @@
     cultural conservatism"
 }
 
+@Book{vab,
+  author       = "Evelyne Bloch-Dano",
+  title        = "Vegetables: {A} Biography",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "artichoke, jerusalem artichoke, cabbage, parsnip, carrot,
+    pea, tomato, bean, pumpkin, chili pepper",
+  location     = "SN 320.5.B6613"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
