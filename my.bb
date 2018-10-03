@@ -26,7 +26,7 @@
 @Book{srs,
   author       = "Robin Sloan",
   title        = "Sourdough",
-  publisher    = "Farrar, Straus and Giroux",
+  publisher    = fsg,
   year         = 2017,
   address      = nyny,
   keywords     = "techology, food science, breadmaking",
@@ -199,7 +199,7 @@
 @Book{fcje,
   author       = "Jeffrey Eugenides",
   title        = "Fresh Complaint",
-  publisher    = "Farrar, Straus, and Giroux",
+  publisher    = fsg,
   year         = 2017,
   address      = nyny,
   keywords     = "escape, travel, parentage, debt, dreams, separation,
@@ -407,7 +407,7 @@
 @Book{tospm,
   author       = "Paolo Maurensig",
   title        = "Theory of Shadows",
-  publisher    = "Farrar, Straus, \& Giroux",
+  publisher    = fsg,
   year         = 2018,
   address      = nyny,
   keywords     = "chess, collaboration, history, alekhine",
@@ -493,6 +493,16 @@
   keywords     = "artichoke, jerusalem artichoke, cabbage, parsnip, carrot,
     pea, tomato, bean, pumpkin, chili pepper",
   location     = "SN 320.5.B6613"
+}
+
+@Book{tnmvl,
+  author       = "Mario Vargas Llosa",
+  title        = "The Neighborhood",
+  publisher    = fsg,
+  year         = 2016,
+  address      = nyny,
+  keywords     = "yellow press, corruption, high-jinks",
+  location     = "PQ 8498.32.A65 C49513"
 }
 
 @InBook{aplftcaibottamm,
