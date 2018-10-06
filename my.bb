@@ -3093,6 +3093,34 @@
   location     = "https://doi.org/10.1145/45072.45074"
 }
 
+@Article{cagjtb,
+  author       = "Boyland, John Tang",
+  title        = "Conditional Attribute Grammars",
+  journal      = toplas,
+  year         = 1996,
+  volume       = 18,
+  number       = 1,
+  pages        = "73--108",
+  month        = jan,
+  keywords     = "attribute grammars, conditionals, demand evaluation,
+    functional dependencies, language processor generators, non-strict
+    evaluation, static analysis",
+  abstract     = "Attribute grammars are a useful formalism for the
+    specification of computations on structured terms.  The classical
+    definition of attribute grammars, however, has no way of treating
+    conditionals nonstrictly.  Consequently, the natural way of expressing many
+    otherwise well-behaved computations involves a circularity.  This article
+    presents conditional attribute grammars, and extension of attribute
+    grammars that enables more precise analysis of conditionals.  In
+    conditional attribute grammars, attribute equations may have guards.
+    Equations are active only when their guards are satisfied.  The standard
+    attribute grammar evaluation classes are definable for conditional
+    attribute grammars, and the corresponding evaluation techniques can be
+    easily adapted.  However, determining membership in standard evaluation
+    classes such as 1-SWEEP, OAG, and SNC is NP-hard.", 
+  location     = "https://doi.org/10.1145/225540.225544"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
