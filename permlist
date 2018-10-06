@@ -777,6 +777,7 @@ concurrent object oriented language cool : maruyama
 concurrent reading and writing : lamport
 concurrent runtime monitoring of formally specified programs : sankar
 condition handling in the lisp language family : pitman
+conditional attribute grammars : boyland
 conflicts : clark
 congestion avoidance and control : jacobson
 congestion control and traffic management in atm networks recent advances and a survey : jain
