@@ -4853,6 +4853,14 @@
   month        = "17" # jul
 }
 
+@Misc{dpiawstpso,
+  author       = "Joacrim Schrod",
+  title        = "Documenting Programs in a {WEB} style:  The {\tt progltx} style option",
+  year         = 1991,
+  month        = "25 " # aug,
+  keywords     = "documentation, web, literate programming, latex, style file"
+}
+
 @MastersThesis{cchioawan,
   author       = "Nitin~K. Ganatra",
   title        = "Census: Collecting Host Information on a Wide Area Network",
