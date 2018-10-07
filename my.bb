@@ -3800,6 +3800,42 @@
     these databases are compared."
 }
 
+@InProceedings{iotfrfs,
+  author       = "Richard Guy and John~S. Heidemann and Wai Mak and Thomas~W. {Page, Jr.} and Gerald~J. Popek and Dieter Rothmeier",
+  title        = "Implementation of the {F}icus Replicated File System",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "63--71",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "distributed file systems, network partitioning, vnodes,
+    layered architecture, layer interfaces, nfs, replication, conflict resolution",
+  abstract     = {As we approach nation-wide integration of computer systems,
+    it is clear that file replication will play a key role, both to improve
+    data availability in the face of failures, and to improve performance by
+    locating data near where it will be used.  We expect that future file
+    systems will have an extensible, modular structure in which features such
+    as replication can be slipped in as a transparent layer in a stackable
+    layered architecture.  We introduce the Ficus replicated file system for
+    NFS and show how it is layered on top of existing file systems.  The Ficus
+    file system differs from previous file replication services in that it
+    permits update during network partition if any copy of a file is
+    accessible.  File and directory updates are automatically propagated to
+    accessible replicas.  Conflicting updates to directories are detected and
+    automatically repaired; conflicting updates to ordinary files are detected
+    and reported to the owner.  The frequency of communications outages
+    rendering inaccessible some replicas in a large scale network and the
+    relative rarity of conflicting updates make this optimistic scheme
+    attractive.  Stackable layers facilitate the addition of new features to an
+    existing file system without reimplementing existing functions.  This is
+    done in a manner analogous to object-oriented programming with inheritance.
+    By structuring the file system as a stack of modules, each with the same
+    interface, modules which augment existing services can be added
+    transparently.  This paper describes the implementation of the Ficus file
+    system using the layered architecture.}, 
+  location     = "https://www.isi.edu/~johnh/PAPERS/Guy90b.pdf"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
