@@ -267,7 +267,6 @@ a survey on smartphone based systems for opportunistic user context recognition 
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a synthesis of software science measures and the cyclomatic number : ramamurthy
 a system architecture for fault tolerance in concurrent software : ancona
-a system for constructing configurable high level protocols : bhatti
 a systematic approach to multiple inheritance implementation : templ
 a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
@@ -343,7 +342,6 @@ adaptive unsharp masking : kientzle
 adding dynamic interfaces to smalltalk : sadeh
 adding equations to pccts : hamel
 adding generic functions to scheme : tessman
-adding performance aspects to specification languages : bochmann
 adding performance information to adt interfaces : cohen
 adding wildcards to the java programming language : torgersen
 adl an interface definition language for specifying and testing software : sankar
@@ -671,7 +669,6 @@ cgi programming : hamilton
 chain reactions in networks : manber
 challenges in software development : fleckenstein
 change distilling tree differencing for fine grained source code change extraction : fluri
-channels a run time system for multimedia protocols : bocking
 characterizing people as nonlinear first order components in software development : cockburn
 chart parsing of flowgraphs : lutz
 checking for search robot crawling and indexing : rappoport
@@ -852,7 +849,6 @@ data level parallel programming in c++ : breuel
 data mining static code attributes to learn defect predictors : menzies
 data parallel algorithms : hillis
 data prefetch mechanisms : vanderweil
-data sharing in group work : greif
 data specialization : knoblock
 data structures and algorithms annotated reference with examples : barnett
 data structures as objects : soukup
@@ -888,7 +884,6 @@ deforestation transforming programs to eliminate trees : wadler
 delay independent design for distributed systems : bochmann
 democracy and the problem of free speech : sunstein
 demonstrational interfaces a step beyond direct manipulation : myers
-demultiplexing on the atm adapter experiments with internet protocols in user space : biersack
 denial of service via algorithmic complexity attacks : crosby
 denotational semantics : solnneger
 denotational semantics for languages with modules : ganzinger
@@ -1425,7 +1420,6 @@ implementing object equivalence in java using the template method design pattern
 implementing operator for smart pointers : meyers
 implementing remote evaluation : stamos
 implementing smart spiders : konchady
-implementing tcp ip on a cray computer : borman
 implementing the pi calculus in java : li
 implicit java array bounds checking on 64 bit architecture : bentley
 imposing the law of demeter and its variations : pal
@@ -1832,7 +1826,6 @@ object oriented patterns : coad
 object oriented programming enhancements in ada 200y : tuft
 object oriented programming for structured procedural programmers : khan
 object oriented programming is oversold : jacobs
-object oriented real time systems concepts and examples : bihari
 object oriented style : friedman
 object oriented symbol management in syntax directed compiler systems : naik
 object oriented techniques in hardware design : kumar
@@ -2108,7 +2101,6 @@ properties of concurrent programs : chandi
 prosper tutorial : guha
 protection : lampson
 protection in the hydra operating system : cohen
-protein based optical computing and memories : birge
 protocol analysis using a timed version of sdl : bause
 protocol conversion : lam
 protocol design and implementation using formal methods : van sinderen
@@ -2339,7 +2331,6 @@ shoplifting in reverse : duntermann
 shortcomings of lcl 2.4 : chalin
 signature matching a key to reuse : zaremski
 signatures a language extension for improving type abstraction and subtype polymorphism in c++ : baumgartner
-signatures for a network protocol stack a systems application of standard ml : biagioni
 silver an extensible attribute grammar system : van wyk
 sim a utility for detecting similarity in computer programs : gitchell 
 simple register spilling in a retargetable compiler : fraser
@@ -2452,7 +2443,6 @@ stack based typed assembly language : morrisett
 stack inspections theory and variants : fournet
 stacking them up a comparison of virtual machines : gough
 standard for the format of arpa internet text messages : crocker
-standards for open document processing current state and future developments : bormann
 star encoding : nelson
 stardust an environment for parallel programming on networks of heterogeneous workstations : cabillic
 stars and starlets : shasha
@@ -2679,7 +2669,6 @@ the essence of the visitor pattern : palsberg
 the essence of xml : simeon
 the esterel synchronous programming language design semantics implementation : berry
 the ethics of free software : meyer
-the ethics of safety critical systems : bowen
 the euclidean definition of the functions div and mod : boute
 the evolution of abstraction in programming languages : guarino
 the evolution of an object oriented compiler framework : graver
