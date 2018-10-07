@@ -3836,6 +3836,33 @@
   location     = "https://www.isi.edu/~johnh/PAPERS/Guy90b.pdf"
 }
 
+@InProceedings{iisld,
+  author       = "Marc Sabatella",
+  title        = "Issues in Shared Libraries Design",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "11-23",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "program organization, sharability, library binding time,
+    importability, symbol binding time, binding granularity, version control,
+    program size, execution sped, flexibility, transparency, reliability,
+    security", 
+  abstract     = {On traditional Unix systems, executable programs may be
+    shared on disk and in memory, but library code may not be shared between
+    programs.  Several Unix platforms now support shared library facilities.
+    While the existing implementations share some common aspects, there are
+    several important concerns that have been addressed differently.  These
+    include program organization, sharability, library binding time,
+    importability, symbol binding time, binding granularity, and version
+    control.  I explore these issues and their impacts on program size,
+    execution sped, flexibility, transparency, reliability, and security.  The
+    programs are interrelated, and often there are trade-offs against linker
+    and loader complexity as well.  I then give an overview of the HP-US shared
+    libraries design, emphasizing how we resolved the concerns discussed in
+    this paper.}  
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
