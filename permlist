@@ -1408,6 +1408,7 @@ ilu reference manual : janssen
 image retrieval from the world wide web issues techniques and systems : kherfi
 imperative functional programming : peyton jones
 implementation issues in the development of the parsec parser : harper
+implementation of the ficus replicated file system : guy
 implementations and performance of two rpc based lan gateway applications : yasrebi
 implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
 implementing a fortran 77 to cm fortran translator using the sorcerer source to source translator generator : sawdey
