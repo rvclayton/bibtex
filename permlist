@@ -1521,6 +1521,7 @@ is finding security holes a good idea : rescoria
 is layering harmful : crowcroft
 is oberon as simple as possible a smaller object oriented language based on the concept of module type : radenski
 is turing a better language for teaching programming than pascal : martin
+issues in shared libraries design : sabatella
 iterators a sign of weakness in object oriented languages : baker
 iterators signs of weakness in object oriented languages : baker
 j2ee 1.4 premiers javas assertion capabilities : rogers
