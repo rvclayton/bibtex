@@ -505,6 +505,17 @@
   location     = "PQ 8498.32.A65 C49513"
 }
 
+@Book{svyl,
+  author       = "Yasha Levine",
+  title        = "Surveillance Valley",
+  publisher    = "Public Affairs",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "spying, internet, darpa, edward snowdon, jacob applebaum,
+    tor, signal, the octopus",
+  location     = "TK 7882.E2 L48"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -3121,6 +3132,33 @@
   location     = "https://doi.org/10.1145/225540.225544"
 }
 
+@Article{sfithu,
+  author       = "Hudson, Scott~E. and King, Roger",
+  title        = "Semantic Feedback in the {H}iggens {UIMS}",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1188--1206",
+  month        = aug,
+  keywords     = "computer graphics, incremental attribute evaluation, semantic
+    feedback, user interface management, user reversal and recovery",
+  abstract     = "Almost all applications using interactive graphics contain
+    important structures and concepts which are deeper than the geometres used
+    to display them to the user.  One of the major tasks of the system
+    implementer is to cause the user interface to reflect this deeper structure
+    accurately so that it may be directly manipulated by the user.  The authors
+    describe a tool, the Higgens user interface management system (UIMS), which
+    can automate much of this task for a wide class of systems using
+    interactive graphics.  It is able to generate graphical user interfaces
+    automatically from a high-level interface specification.  These
+    specifications are primarily nonprocedural in nature.  They describe how
+    graphical images can be automatically derived and updated based on
+    applications entities, and how graphical inputs can be translated back into
+    terms which are appropriate to the application.", 
+  location     = "https://doi.org/10.1109/32.7628"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3861,6 +3899,85 @@
     and loader complexity as well.  I then give an overview of the HP-US shared
     libraries design, emphasizing how we resolved the concerns discussed in
     this paper.}  
+}
+
+@InProceedings{tsbtaai,
+  author       = "Mark~D. Campbell and Tracy~R. Edmonds",
+  title        = "{TOWER} {STREAMS}-Based {TTY}:  Architecture and Implementation",
+  booktitle    = pot # "Summer 1989 USENIX Conference",
+  year         = 1989,
+  pages        = "15--27",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "ttys, ",
+  abstract     = "This paper discusses architectural and implementation issues
+    of STREAMS-based TTY with respect to the members of the TOWER family.
+    Issues examined include general architectural concerns, implementation
+    decisions, performance, and efficiency with respect to unintelligent,
+    semi-intelligent, intelligent, and multi-noded intelligent TTY subsystems.
+    Three classes of STREAMS-based TTY architectures, local, remote and hybrid
+    STREAMS-based techniques, are examined and critiqued with respect to the
+    four types of TTY subsystems present on TOWER systems today.  The TOWER
+    STREAMS-based TTY subsystem (hereafter referred to as TSTTY) is presented
+    in light of these models.  Performance and system efficiency data of the
+    Clist- and STREAMS-based TTY subsystems are given for the semi-intelligent
+    and intelligent TTY subsystems.  The myth of increased character-level
+    response time associated with STREAMS-based TTY is disproven with results
+    showing that the tsTTY scheme actually results in the decrease of
+    character-level response time." 
+}
+
+@InProceedings{atopm,
+  author       = "Geetha Ramalingam and Thomas William Reps",
+  title        = "{A} Theory of Program Modifications",
+  booktitle    = "Proceedings of the International Joint Conference on Theory and Practice of Software Development (TAPSOFT '91)",
+  series       = lncs,
+  volume       = 494,
+  year         = 1991,
+  pages        = "137--152",
+  publisher    = "Springer",
+  address      = "Brighton, UK",
+  month        = "8--12 " # apr,
+  keywords     = "functional modification, functional-modification algebras,
+    brouwerian algebra",
+  abstract     = "The need to integrate several versions of a program into a
+    common one arises frequently, but it is a tedious and time consuming task
+    to merge programs by hand.  The program-integration algorithm proposed by
+    Horwitz, Prins, and Reps provides a way to create a semantics-based tool
+    for integrating a base program with two or more variants.  The integration
+    algorithm is based on the assumption that any change in the behaviour,
+    rather than the text, of a program variant is significant and must be
+    preserved in the merged program.  An integration system based on this
+    algorithm will determine whether the variants incorporate interfering
+    changes, and, if they do not, create an integrated program that includes
+    all changes as well as all features of the base program that are preserved
+    in all variants.  This paper studies the algebraic properties of the
+    program-integration operation, such as whether there is a law of
+    associativity.  (For example, in this context associativity means: “If
+    three variants of a given base are to be integrated by a pair of
+    two-variant integrations, the same result is produced no matter which two
+    variants are integrated first.”) Whereas an earlier work that studied the
+    algebraic properties of program integration formalized the
+    Horwitz-Prins-Reps integration algorithm as an operation in a Brouwerian
+    algebra, this paper introduces a new algebraic structure in which
+    integration can be formalized, called fmalgebra.  In fm-algebra, the notion
+    of integration derives from the concepts of a program modification and an
+    operation for combining modifications.  (Thus, while earlier work concerned
+    an algebra of programs, this paper concerns an algebra of program
+    modifications.) The potential benefits of an algebraic theory of
+    integration, such as the one developed in this paper, are actually
+    three-fold: (1) It allows one to understand the fundamental algebraic
+    properties of integration—laws that express the “essence of integration.”
+    Such laws allow one to reason formally about the integration operation.
+    (2) It provides knowledge that is useful for designing alternative
+    integration algorithms whose power and scope are beyond the capabilities of
+    current algorithms.  (3) Because such a theory formalizes certain
+    operations that are more primitive than the integration operation, an
+    implementation of these primitive operations can form the basis for a more
+    powerful program-manipulation system than one based on just the integration
+    operation.", 
+  location     = "http://dx.doi.org/10.1007/3540539816_65", 
+  location     = "https://link.springer.com/content/pdf/10.1007%2F3540539816_65.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
