@@ -1405,7 +1405,6 @@ implementation issues in the development of the parsec parser : harper
 implementation of the ficus replicated file system : guy
 implementations and performance of two rpc based lan gateway applications : yasrebi
 implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
-implementing a fortran 77 to cm fortran translator using the sorcerer source to source translator generator : sawdey
 implementing an interpreter : sugalski
 implementing atomic actions on decentralized data : reed
 implementing communication protocols using object oriented techniques : lavender
@@ -1511,7 +1510,6 @@ investigating java concurrency using abstract state machines : gurevich
 investigating the influence of formal methods : pfleeger
 io an estelle simulator for performance evaluation : fernandez
 io considered harmful at least for the first few weeks : rosenberg
-io issues in a multimedia system : reddy
 ip anycast point to any point communication : metz
 ip switching and gigabit routers : newman
 ipp routing architecture : bolla
