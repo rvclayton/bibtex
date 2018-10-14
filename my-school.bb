@@ -16669,7 +16669,7 @@
 }
 
 @Article{oortscae,
-  author       = "Thomas~E. Binari and Prabha Gopinath",
+  author       = "Thomas~E. Bihari and Prabha Gopinath",
   title        = "Object-Oriented Real-Time Systems:  Concepts and Examples",
   journal      = ieeec,
   year         = 1992,
@@ -18527,6 +18527,14 @@
   month        = jul,
   keywords     = "collaborative agents, system configuration, reactive control
 		  systems, adaptive control systems",
+  abstract     = "Presents an overview of the ITX (Interacting Transaction)
+    system, which supports complex interactions among cooperating agents in the
+    presence of user interventions that change application objectives and
+    system failures.  The system's components and its unique fixed-point
+    criterion for feedback control of iterative interactions are described.  An
+    example of a simplified multimedia teleconferencing application is
+    discussed to illustrate the features of the ITX system.", 
+  location     = "https://doi.org/10.1109/MC.1993.274939", 
   location     = "TK 7885.A1 I15"
 }
 
