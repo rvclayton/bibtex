@@ -175,6 +175,7 @@ a pattern language for tool construction and integration based on the tools and 
 a plea for lean software : wirth
 a pointless derivation of radix sort : gibbons
 a portable multiprocessor interface for standard ml of new jersey : morrisett
+a portable run time system for the hermes distributed programming language : bacon
 a pragmatic approach to software synthesis : freitag
 a practical and flexible flow analysis for higher order languages : ashley
 a pratical context sensitive interprocedural analysis framework for c compilers : hendren
