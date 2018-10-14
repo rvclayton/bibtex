@@ -516,6 +516,17 @@
   location     = "TK 7882.E2 L48"
 }
 
+@Book{cp1jdh,
+  author       = "Jacqueline~D. Hamilton",
+  title        = "{CGI} Programming 101",
+  publisher    = "CGI101.COM",
+  year         = 2004,
+  address      = "Houston, Texas",
+  edition      = "2nd",
+  keywords     = "perl, cgi, www",
+  location     = "QA 76.625.H36"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -3159,6 +3170,27 @@
   location     = "https://doi.org/10.1109/32.7628"
 }
 
+@Article{sfodpcsafd,
+  author       = "Ute Bormann and Carsten Bormann",
+  title        = "Standards for Open Document Processing:  Current State and Future Developments",
+  journal      = cnis,
+  year         = 1991,
+  volume       = 21,
+  number       = 3,
+  pages        = "149--163",
+  month        = may,
+  keywords     = "open document processing, sgml, oda",
+  abstract     = "SGML (ISO 8879) and ODA (ISO 8613) are the two predominant
+    international standards in the realm of open document processing, gaining
+    more and more importance for the interchange of documents in both the
+    publishing environment and the office environment.  To ensure early
+    availability the functionality currently provided by these standards has
+    been restricted with respect to some future requirements.  The pertinent
+    international standardization committees are currently working on the
+    required future extensions to these standards.",
+  location     = "http://dx.doi.org/10.1016/0169-7552%2891%2990035-B"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3291,6 +3323,27 @@
      investments and to limit the turmoil for people who write programs, for
      people who port System V to other architectures, and for people who use
      applications." 
+}
+
+@InProceedings{aprtsfthdpl,
+  author       = "David~F. Bacon and Andy Lowry",
+  title        = "A Portable Run-Time System for the {H}ermes Distributed Programming Language",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "39--49",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "interpreters, distributed systems, distributed programming
+    language, language design, inter-process communication, data structures, ",
+  abstract     = "We present our implementation of a portable run-time system
+    for Hermes, a very high level language containing integrated constructs
+    similar to those provided at the system and library level in systems like
+    Mach and SQL.  The Hermes features we will focus upon in this paper are
+    lightweight concurrent processes, the use of ports for typed communication
+    between processes, a typed object store and its implementation via the Unix
+    filesystem, and relational data structures for high-level associative
+    queries.",
+  location     = "http://researcher.ibm.com/files/us-bacon/Bacon90Portable.pdf"
 }
 
 @InProceedings{lddeim,
@@ -4601,6 +4654,27 @@
   keywords     = "end-to-end protocol services, tau, infrastructure processing"
 }
 
+@TechReport{soaps11,
+  author       = "Don Box and David Ehnebuske and Gopal Kakivaya and Andrew Layman and Noah Mendelsohn and Henrik Frystyk Nielsen and Satish Thatte and Dave Winer",
+  title        = "Simple {O}bject {A}ccess {P}rotocol ({SOAP}) 1.1",
+  institution  = "W3C",
+  year         = 2000,
+  type         = "note",
+  number       = "SOAP-20000508",
+  month        = "8 " # may,
+  keywords     = "messaging, activation, rpc",
+  abstract     = "SOAP is a lightweight protocol for exchange of information in
+    a decentralized, distributed environment.  It is an XML based protocol that
+    consists of three parts: an envelope that defines a framework for
+    describing what is in a message and how to process it, a set of encoding
+    rules for expressing instances of application-defined datatypes, and a
+    convention for representing remote procedure calls and responses.  SOAP can
+    potentially be used in combination with a variety of other protocols;
+    however, the only bindings defined in this document describe how to use
+    SOAP in combination with HTTP and HTTP Extension Framework.",
+  location     = "http://www.w3.org/TR/2000/NOTE-SOAP-20000508"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -4685,6 +4759,12 @@
   month        = jul,
   keywords     = "real-time operating system simulator",
   location     = "https://sourceforge.net/projects/carbonkernel/"
+}
+
+@Manual{cblosxom,
+  title        = "Configure Blosxom",
+  keywords     = "blogging",
+  location     = "http://blosxom.sourceforge.net/documentation/users/configure/"
 }
 
 @Unpublished{ivbf,
