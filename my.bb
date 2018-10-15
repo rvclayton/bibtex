@@ -4033,6 +4033,38 @@
   location     = "https://link.springer.com/content/pdf/10.1007%2F3540539816_65.pdf"
 }
 
+@InProceedings{dafdfs,
+  author       = "Alex Siegel and Kenneth Birman and Keith Marzullo",
+  title        = "Deceit:  {A} Flexible Distributed File System",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "51-61",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "flexible distributed file system, fault-tolerance,
+    availability, file replication, concurrent reads, update propagation
+    strategies, automatic disk load balancing, multiple versions, Sun Network
+    File Server, protocol compatibility, NFS client software, Deceit, NFS
+    servers", 
+  abstract     = "Deceit, a distributed file system that provides flexibility
+    in the fault-tolerance and availability of files, is described.  Deceit
+    provides many capabilities to the user: file replication with concurrent
+    reads and writes, a range of update propagation strategies, automatic disk
+    load balancing and the ability to have multiple versions of a file.  Deceit
+    provides Sun Network File Server (NFS) protocol compatibility; no change in
+    NFS client software is necessary in order to use Deceit.  The purpose of
+    Deceit is to replace large collections of NFS servers.  NFS suffers from
+    several problems in an environment where most clients mount most servers.
+    First, if any one server crashes, clients will block or fail when they try
+    to access that server, and, as the number of servers increases, this
+    problem becomes more likely.  Second, servers have a (roughly) fixed
+    capacity, yet it is difficult to move files from one NFS server to another
+    without disrupting clients.  Third, replicating a file to increase its
+    availability must be managed by the user.  Deceit addresses these three
+    problems.", 
+  location     = "https://doi.org/10.1109/MRD.1990.138237"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
