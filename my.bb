@@ -3202,6 +3202,37 @@
   location     = "http://dx.doi.org/10.1016/0169-7552%2891%2990035-B"
 }
 
+@Article{tamfm,
+  author       = "Chambers, Craig and Leavens, Gary~T.",
+  title        = "Typechecking and Modules for Multimethods",
+  journal      = toplas,
+  year         = 1995,
+  volume       = 17,
+  number       = 6,
+  pages        = "805--843",
+  month        = nov,
+  keywords     = "object-oriented languages, Cecil, modules, packages, type
+    systems, type checking algorithms, subtyping, signatures, inheritance", 
+  abstract     = "Two major obstacles that hinder the wider acceptance of
+    multimethods are (1) concerns over the lack of encapsulation and modularity
+    and (2) the absence of static typechecking in existing multimethod-based
+    languages.  This article addresses both of these problems.  We present a
+    polynomial-time, static typechecking algorithm that checks the conformance,
+    completeness, and consistency of a group of method implementations with
+    respect to declared message signatures.  This algorithm improves on
+    previous algorithms by handling separate type and inheritance hierarchies,
+    abstract classes, and graph-based method lookup semantics.  We also present
+    a module system that enables independently developed code to be fully
+    encapsulated and statically typechecked on a per-module basis.  To
+    guarantee that potential conflicts between independently developed modules
+    have been resolved, a simple well-formedness condition on the modules
+    comprising a program is checked at link-time.  The typechecking algorithm
+    and module system are applicable to a range of multimethod-based languages,
+    but the article uses the Cecil language as a concrete example of how they
+    can be applied.", 
+  location     = "https://doi.org/10.1145/218570.218571"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4074,6 +4105,28 @@
     availability must be managed by the user.  Deceit addresses these three
     problems.", 
   location     = "https://doi.org/10.1109/MRD.1990.138237"
+}
+
+@InProceedings{beouutvk,
+  author       = "Cheriton, David~R. and Whitehead, Gregory~R. and Sznyter, Edward~W.",
+  title        = "Binary Emulation of" # unix #  " Using the {V} Kernel",
+  booktitle    = pot # "Summer 1990 USENIX Conference",
+  year         = 1990,
+  pages        = "73-85",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "binary emulation, unix, v, kernel support",
+  abstract     = "Binary emulation support is essential in future operating
+    systems to support the enormous body of existing application software.
+    Future systems should be able to emulate existing systems, such as Unix,
+    with comparable performance to native execution.  This paper describes the
+    binary emulation of Unix under V, focusing on the kernel and process-level
+    emulation mechanisms.  Binary emulation support requires minimal mechanism
+    in the kernel and makes good use of V's server facilities.  Binary
+    emulation performance is comparable to that of the native Unix system.  For
+    most Unix applications, incompatibilities with the native Unix system
+    appear comparable to these between different versions and releases of the
+    Unix system itself."
 }
 
 @TechReport{dacsbssbsalbl,
