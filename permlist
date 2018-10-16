@@ -594,6 +594,7 @@ bidirectional data flow analysis myths and reality : khedker
 bif a behavioral intermediate format for high level synthesis : dutt
 big ball of mud : foote
 biglook a widget library for the scheme programming language : gallesio
+binary emulation of unix using the v kernel : cheriton
 binary search algorithm code and caching : bentley
 binary search trees and file organization : nievergelt
 bioinformatics an introduction for computer scientists : cohen
@@ -3006,6 +3007,7 @@ type laundering : vlissides
 type safe multithreading in cyclone : grossman
 type systems : cardelli
 type theories and object oriented programming : danforth
+typechecking and modules for multimethods : chambers
 typechecking with ad hoc polymorphism : thatte
 typeful programming : cardelli
 typelists and applications : alexandrescu
