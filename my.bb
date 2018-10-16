@@ -527,6 +527,17 @@
   location     = "QA 76.625.H36"
 }
 
+@Book{pmc,
+  author       = "Margaret Cuozon",
+  title        = "Paradox",
+  publisher    = mitp,
+  year         = 2014,
+  address      = cma,
+  keywords     = "paradox, philosophy, liar's paradox, sorties paradox, zeno,
+    subjective probability",
+  location     = "BC 199.P2 C86"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
