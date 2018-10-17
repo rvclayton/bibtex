@@ -2357,7 +2357,6 @@ small programming exercises : rem
 smart and stupid networks why the internet is like microsoft : odlyzko
 smart messages an object oriented communication mechanism for parallel systems : arjomandi 
 smart pointers they're smart but they're not pointers : edelson
-smarttutor an intelligent tutoring system in web based adult education : cheung
 smashing c++ vptrs : rix
 smgn rapid prototyping of small domain specific languages : kienle
 sml tk functional programming for graphical user interfaces : luth
@@ -2701,7 +2700,6 @@ the geometry of concurrent programs : carson
 the gnu 64 bit pl8 compiler toward an open standard environment for firmware development : gellerich
 the go programming language : go
 the google file system : ghemawat
-the grid protocol a high performance scheme for maintaining replicated data : cheung
 the growth of interest in microprogramming a literature survey : wilkes
 the hardware software cost ratio is it a myth : boehm
 the hawala alternative remittance system and its role in money laundering : jost
