@@ -9506,19 +9506,6 @@
   location     = "TK 5101.A1 I13A"
 }
 
-@Article{fcacs,
-  author       = "Mario Gerla and Leonard Kleinrock",
-  title        = "Flow Control:  A Comparative Survey",
-  journal      = ieeetoc,
-  year         = 1980,
-  volume       = "COM-28",
-  number       = 4,
-  pages        = "553--574",
-  month        = apr,
-  keywords     = "packet switching, congestion, traffic control",
-  location     = "TK 5101.A1 I13A"
-}
-
 @Article{idoaheie,
   author       = "G{\'e}rard Berry and Georges Gonthier",
   title        = "Incremental development of an {HDLC} entity in {E}sterel",
