@@ -1089,6 +1089,7 @@ evaluating software engineering standards : pfleeger
 event reconstruction in high energy physics : rinaldo
 everything you always wanted to know about synchronization but were afraid to ask : david
 evolving rpc for active storage : sivathanu
+evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
 evolution of metropolitan area networks to broadband isdn : byrne
 evolution of test and code via test first design : langr
@@ -2532,6 +2533,7 @@ systematic program development : dromey
 systems software research is irrelevant : pike
 tabu search part ii : glover
 taco protyping high level object oriented programming constructs by means of template based programming techniques : nolte
+tail call elimination on the java virtual machine : schinz
 take pity on the user the red customization package : prunet
 tango a framework and system for algorithm animation : stasko
 tangrams : mathew
