@@ -55359,27 +55359,6 @@
   location     = "ftp://ftp.cs.washington.edu/tr/1993/09/UW-CSE-93-09-04.PS.Z"
 }
 
-@InProceedings{schinz-odersky:babel01,
-  author = {Michel Schinz and Martin Odersky},
-  title =  {Tail call elimination on the {J}ava {V}irtual {M}achine},
-  booktitle =  {Proc. ACM SIGPLAN BABEL'01 Workshop on Multi-Language
-		Infrastructure and Interoperability.},
-  pages = {155-168},
-  year = 2001,
-  volume = 59,
-  number = 1,
-  series = {Electronic Notes in Theoretical Computer Science},
-  publisher = {Elsevier},
-  note = {http://www.elsevier.nl/locate/entcs/volume59.html},
-  keywords = {http://www.elsevier.nl/locate/entcs/volume59.html},
-  abstract = "A problem that often has to be solved by compilers for functional
-    languages targeting the Java Virtual Machine is the elimination of tail
-    calls.  This paper explains how we solved it in our Funnel compiler and
-    presents some experimental results about the impact our technique has on
-    both performance and size of the compiled programs.",
-  location = "http://lamp.epfl.ch/~odersky/papers/babel01.html"
-}
-		  
 @mastersthesis{drmtp, 
   author	= "Christopher Joselane Wilkenloh",
   title		= "Design of a Reliable Message Transaction Protocol",
