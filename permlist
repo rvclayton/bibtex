@@ -231,7 +231,6 @@ a spiral model of software development and enhancement : boehm
 a sruvey of cache coherence schemes for multiprocessors : stenstrom
 a stackable file system interface for linux : zadok
 a statistical approach to the spam problem : robinson
-a stop and go queueing framework for congestion management : golestani
 a straightforward denotational semantics for nondeterministic data flow programs : kosinski
 a stream compiler for communication exposed architectures : gordon
 a streams based communications subsystem in turing plus for protocol development : atwood
@@ -904,11 +903,9 @@ design and architecture of the brazil web application framework : uhler
 design and implementation of an object oriented 64 bit single address space microkernel : murray
 design and implementation of flexible user protocol interface : metzler
 design by contract to improve software vigilance : le traon
-design choices for weak consistency group communication : golding
 design considerations for a message file server : christodoulakis
 design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
 design fragments make using frameworks easier : fairbanks
-design models for computer human interfaces : gentner
 design of ada systems yielding reusable components an approach using structured algebraic specification : litvintchouk
 design of cooperative process oriented environments using reactive components : geppert
 design of knowledge based systems with a knowledge based assistant : schoen
@@ -1146,7 +1143,6 @@ extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
 ez processes : hanson
 f*dging up a racket : yoo
-facts of software engineering management : glass
 failure resilient transaction management in multidatabases : soparkar
 fast algorithms for sorting and searching strings : bentley
 fast and small resizable arrays : demaine
@@ -1194,7 +1190,6 @@ fletchers checksum : kodis
 flexible task graphs a unified restricted thread programming model for java : aurbach
 flexible text display with lector : raymond
 flick a flexible optimizing idl compiler : eide
-flow control a comparative survey : gerla
 form based file upload in html : nebel
 form formula a visual programming paradigm for user definable user interfaces : kimura
 form tricks : webb
@@ -1361,7 +1356,6 @@ hood and z for the development of complex software systems : di giovanni
 horizon a retargetable compiler for horizontal microarchitectures : muller
 how and how not to write a good systems paper : levin
 how aspectj is used an analysis of eleven aspectj programs : apel
-how best to provide the services is programmers need : glass
 how can i measure java code performance : moss
 how complete are knowledge representation systems : elcock
 how do you plug java memory leaks : henry
@@ -1398,7 +1392,6 @@ ideas or interests privacy in electronic communications : regan
 identifying and qualifying reusable software components : caldiera
 identifying syntactic differences between two programs : yang
 identifying the difficulties of object oriented development : sheetz
-ieee project 802 standards efforts : gibson
 ilu : janssen
 ilu reference manual : janssen
 image retrieval from the world wide web issues techniques and systems : kherfi
@@ -1758,7 +1751,6 @@ multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
 multilevel models in model driven engineering, product lines, and metaprogramming : batory
 multimedia conferencing on local area networks : ziegler
-multimedia storage servers a tutorial : gemmell
 multi paradigm programming : hanus
 multiple access protocols and time constrained communication : kurose
 multiple associations with stream control transmission protocol : newmarch
@@ -2249,7 +2241,6 @@ scala by example : odersky
 scalability three tiered architectures and application servers : greenspun
 scalable extensibility via nested inheritance : nystrom
 scalable feedback control for multicast video distribution in the internet : bolot
-scalable multicast file distribution : gemmell
 scalable, robust visualization of very large trees : beerman
 scalable secure nad highly available distributed file access : satayanarayanan
 scaling parallel programs for multiprocessors methodology and examples : singh
@@ -2558,7 +2549,6 @@ teaching oo putting the object back into ood : coplien
 teaching programming broadly and deeply the kernel language approach : van roy
 teaching programming in the oop era : burton
 techniques for aligning objects in drawing programs : raisamo
-techniques for requirments elicitation : goguen
 temporal logic based deadlock analysis for ada : karam
 temporal logic case study : wood
 ten commandments of formal methods : bowen
@@ -2698,7 +2688,6 @@ the generic graph component library : lee
 the generic graph component library : siek
 the geometry of concurrent programs : carson
 the gnu 64 bit pl8 compiler toward an open standard environment for firmware development : gellerich
-the go programming language : go
 the google file system : ghemawat
 the growth of interest in microprogramming a literature survey : wilkes
 the hardware software cost ratio is it a myth : boehm
@@ -2785,7 +2774,6 @@ the pagerank citation ranking bringing order to the web : page
 the pegasys system pictures as formal documentation of large programs : moriconi
 the peregrine high performance rpc system : johnson
 the performance of message passign using restricted virtual memory remapping : tzou
-the performance of weak consistency replication protocols : golding
 the pluscal algorithm language : lamport
 the politics of agenda building an alternative perspective for modern democratic theory : cobb
 the polyadic pi calculus a tutorial : milner
@@ -2837,7 +2825,6 @@ the sharpe ratio : sharpe
 the signal data flow methodology applied to a production cell : amagbegnon
 the sl synchronous language : boussinot
 the slather 1.0 specification : omohumdro
-the software architecture of a san storage control system : glider
 the solaris process model : mauro
 the spec# programming system an overview : barnett
 the specification and modeling of computer security : mclean
@@ -3047,7 +3034,6 @@ using a relational query language as a software maintainance tool : glagowski
 using a zyxtel u1496 series modem with a sun sparc station : hosain
 using abc to prototype vdm specifications : kans
 using an abstracted interpreter to understand abstract interpretation : friedman
-using an object oriented framework to construct wide area group communications mechanisms : golding
 using as : elsner
 using as the gnu assembler : delsner
 using encryption for authentication in large computer networks : needham
@@ -3130,7 +3116,6 @@ what is software design : reeves
 what is the bios : schmidt
 what its like to be a popl referee : wegman
 what should we plan given the dilemma of the network : cook
-what storytelling can do for information visualization : gershon
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
 when is one thing equal to some other thing : mazur
