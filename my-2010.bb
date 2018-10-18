@@ -1978,7 +1978,24 @@
   number       = 4,
   pages        = "553--574",
   month        = "April",
-  keywords     = "packet switching, congestion, flow control"
+  keywords     = "packet switching, congestion, flow control, road
+    transportation, communication system traffic control, packet switching,
+    routing, switching circuits, delay effects, resource management,
+    telecommunication traffic, throughput, flexible printed circuits", 
+  abstract     = "Packet switching offers attractive advantages over the more
+    conventional circuit-switched scheme, namely, flexibility in setting up
+    user connections and more efficient use of resources after the connection
+    is established.  However, if user demands are allowed to exceed the system
+    capacity, unpleasant congestion effects occur which rapidly neutralize the
+    delay and efficiency advantages.  Congestion can be eliminated by using an
+    appropriate set of traffic monitoring and control procedures called flow
+    control procedures.  Flow control can be exercised at various levels in a
+    packet network.  The following levels are identified and discussed in this
+    paper: hop level, entry-to-exit level, network access level, and transport
+    level.  For each level, the most representative techniques are surveyed and
+    compared.  Furthermore, the interaction between the different levels is
+    discussed.",
+  location     = "https://doi.org/10.1109/TCOM.1980.1094691" 
 }
 
 @Article{trasffon,
