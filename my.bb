@@ -1,7 +1,8 @@
 .so bibtex.header
 		  
-@string{ir95  = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
-		  
+@string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
+@string{usenixs90 = pot # "Summer 1990 USENIX Conference"}
+
 @Book{tdoetn,
   author       = "Tom Nichols",
   title        = "The Death of Expertise",
@@ -536,6 +537,16 @@
   keywords     = "paradox, philosophy, liar's paradox, sorties paradox, zeno,
     subjective probability",
   location     = "BC 199.P2 C86"
+}
+
+@Book{prarx,
+  author       = "Andromeda Romano-Lax",
+  title        = "Plum Rains",
+  publisher    = "Soho Press",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "japan, robots, ai, immigration policies, guest workers",
+  location     = "PS 3618.O59 P58"
 }
 
 @InBook{aplftcaibottamm,
@@ -3233,6 +3244,41 @@
   location     = "https://doi.org/10.1145/218570.218571"
 }
 
+@Article{micamif,
+  author       = "Soma Chadhuri",
+  title        = "More {\it Choices\/} Allow More {\it Faults\/}",
+  subtitle     = "Set Consensus Problems in Totally Asynchronous Systems",
+  journal      = "Information and Computation",
+  year         = 2001,
+  volume       = 105,
+  number       = 1,
+  pages        = "132--158",
+  month        = mar,
+  keywords     = "consensus, impossibility results, fault-tolerance,
+    asynchronous distributed systems, set consensus",
+  abstract     = "We define the k-SET CONSENSUS PROBLEM as an extension of the
+    CONSENSUS problem, where each processor decides on a single value such that
+    the set of decided values in any run is of size at most k.  We require the
+    agreement condition that all values decided upon are initial values of some
+    processor.  We show that the problem has a simple (k−1) -resilient protocol
+    in a totally asynchronous system.  In an attempt to come up with a matching
+    lower bound on the number of failures, we study the uncertainty condition,
+    which requires that there must be some initial configuration from which all
+    possible input values can be decided.  We prove using a combinatorial
+    argument that any k-resilient protocol for the k-set agreement problem
+    would satisfy the uncertainty condition, while this is not true for any
+    (k−1)-resilient protocol.  This result seems to strengthen the conjecture
+    that there is no k-resilient protocol for this problem.  We prove this
+    result for a restricted class of protocols.  Our motivation for studying
+    this problem is to test whether the number of choices allowed to the
+    processors is related to the number of faults.  We hope that this will
+    provide intuition towards achieving better bounds for more practical
+    problems that arise in distributed computing, e.g., the renaming problem.
+    The larger goal is to characterize the boundary between possibility and
+    impossibility in asynchronous systems given multiple faults", 
+  location     = "http://dx.doi.org/10.1006/inco.1993.1043"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -3339,7 +3385,7 @@
 @InProceedings{eaoftmmm,
   author       = "James~Q. Arnold",
   title        = "{ELF}:  An Object File to Mitigate Mischievous Misoneism",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
   pages        = "1--10",
   address      = "Anaheim, " # CA,
@@ -3370,7 +3416,7 @@
 @InProceedings{aprtsfthdpl,
   author       = "David~F. Bacon and Andy Lowry",
   title        = "A Portable Run-Time System for the {H}ermes Distributed Programming Language",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
   pages        = "39--49",
   address      = "Anaheim, " # CA,
@@ -3936,7 +3982,7 @@
 @InProceedings{iotfrfs,
   author       = "Richard Guy and John~S. Heidemann and Wai Mak and Thomas~W. {Page, Jr.} and Gerald~J. Popek and Dieter Rothmeier",
   title        = "Implementation of the {F}icus Replicated File System",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
   pages        = "63--71",
   address      = "Anaheim, " # CA,
@@ -3972,7 +4018,7 @@
 @InProceedings{iisld,
   author       = "Marc Sabatella",
   title        = "Issues in Shared Libraries Design",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
   pages        = "11-23",
   address      = "Anaheim, " # CA,
@@ -4078,9 +4124,9 @@
 @InProceedings{dafdfs,
   author       = "Alex Siegel and Kenneth Birman and Keith Marzullo",
   title        = "Deceit:  {A} Flexible Distributed File System",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
-  pages        = "51-61",
+  pages        = "51--61",
   address      = "Anaheim, " # CA,
   month        = "11--15 " # jun,
   keywords     = "flexible distributed file system, fault-tolerance,
@@ -4110,9 +4156,9 @@
 @InProceedings{beouutvk,
   author       = "Cheriton, David~R. and Whitehead, Gregory~R. and Sznyter, Edward~W.",
   title        = "Binary Emulation of" # unix #  " Using the {V} Kernel",
-  booktitle    = pot # "Summer 1990 USENIX Conference",
+  booktitle    = usenixs90,
   year         = 1990,
-  pages        = "73-85",
+  pages        = "73--85",
   address      = "Anaheim, " # CA,
   month        = "11--15 " # jun,
   keywords     = "binary emulation, unix, v, kernel support",
@@ -4127,6 +4173,74 @@
     most Unix applications, incompatibilities with the native Unix system
     appear comparable to these between different versions and releases of the
     Unix system itself."
+}
+
+@InProceedings{uaaap,
+  author       = "David Golub and Randall Dean and Alessandro Forin and Richard Rashid",
+  title        = unix # " as an Application Program",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "87--95",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "mach, memory management, signal management, ipc, performance",
+  abstract     = "Since March of 1989 we have had running at CMU a computing
+    environment in which the functions of a traditional Unix system are cleanly
+    divided into two parts: facilities which manage the hardware resources of a
+    computer system (such as CPU, I/O and memory) and support for higher-level
+    resource abstractions used in the building of application programs, e.g.
+    files and sockets.  This paper describes the implementation of Unix as a
+    multithreaded application program running on the Mach kernel.  The
+    rationale, design, implementation history and performance of the system is
+    presented.", 
+  location     = "http://flint.cs.yale.edu/cs422/doc/mach-app.ps"
+}
+
+@InProceedings{etvi,
+  author       = "David S.~H. Rosenthal",
+  title        = "Evolving the {V}node Interface",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "107--117",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "software evolution, file systems",
+  abstract     = "The vnode interface has succeeded in supporting a wide range
+    of file system implementations over its 6-year history.  During that time
+    it has also had to accommodate evolution in file system semantics, and in
+    the relationship between the file system and the virtual memory system.
+    The effects of this evolution have been less than elegant, and pressures
+    for further evolution are mounting.  The evolution of the interface is
+    reviewed in order to identify the problems it has caused, and a more robust
+    revision of the interface design proposed.  This design also permits new
+    file systems to be implemented in terms of pre-existing file system
+    implementations; it is more like the Streams interface in this respect.
+    The current state of a prototype implementation is described and its
+    performance characterized.", 
+  location     = "https://pdfs.semanticscholar.org/d166/0be2246bbbb28706a802f804999fa936ae77.pdf"
+}
+
+@InProceedings{tceotjvm,
+  author       = "Michel Schinz and Martin Odersky",
+  title        = "Tail-Call Elimination on the {J}ava {V}irtual {M}achine",
+  booktitle    = pot # "ACM SIGPLAN Workshop on Multi-Language Infrastructure and Interoperability (BABEL '01)",
+  year         = 2001,
+  volume       = 59,
+  number       = 1,
+  series       = "Electronic Notes in Theoretical Computer Science",
+  publisher    = "Elsevier",
+  pages        = "155-168",
+  address      = "Firenze, Italy",
+  month        = "8 " # sep,
+  keywords     = "jvm, tail-call elimination, trampolines, continuations,
+    compilation, stack unwinding, program optimization",
+  abstract     = "A problem that often has to be solved by compilers for
+    functional languages targeting the Java Virtual Machine is the elimination
+    of tail calls.  This paper explains how we solved it in our Funnel compiler
+    and presents some experimental results about the impact our technique has
+    on both performance and size of the compiled programs.", 
+  location     = "http://lampwww.epfl.ch/~odersky/papers/babel01.html",
+  location     = "http://www.elsevier.nl/locate/entcs/volume59.html"
 }
 
 @TechReport{dacsbssbsalbl,
@@ -5177,4 +5291,3 @@
     abating.", 
   location     = "https://www.researchgate.net/publication/2651480_Census_Collecting_Host_Information_on_a_Wide_Area_Network"
 }
-
