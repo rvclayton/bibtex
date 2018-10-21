@@ -157,6 +157,7 @@ a new architecture for the implementation of scripting languages : sah
 a new arq scheme for multicast satellite communication : quernheim 
 a new c compiler : thompson
 a new color naming system for graphics languages : berk
+a new design for distributed systems the remote memory model : comer
 a new implementation of the icon language : proebsting
 a new page table for 64 bit address spaces : talluri
 a new parsing method for non lr 1 grammars : harford
@@ -780,6 +781,7 @@ conflicts : clark
 congestion avoidance and control : jacobson
 congestion control and traffic management in atm networks recent advances and a survey : jain
 conjunction as composition : zave
+cons should not evaluate its arguments : friedman
 considering recursion : robison
 consistency based diagnosis : palshikar
 consistency in dataflow graphs : lee
