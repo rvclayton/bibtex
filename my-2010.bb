@@ -51461,19 +51461,6 @@
   keywords     = "protection domains, rpc, fault detection"
 }
 
-@InProceedings{andfdstrmm,
-  author       = "Douglas Comer and James Griffioen",
-  title        = "A New Design for Distributed Systems:  The Remote Memory
-		  Model",
-  booktitle    = sucp,
-  year         = 1990,
-  pages        = "127--135",
-  address      = "Anaheim, California",
-  month        = "11--15 June",
-  keywords     = "distributed architectures, virtual memory, memory servers,
-		  paging"
-}
-
 @InProceedings{rrfrrppfaiw,
   author       = "William~J. Baumol",
   title        = "Reaonable Rules for Rate Regulation:  Plausible Policies for
