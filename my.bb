@@ -4243,6 +4243,87 @@
   location     = "http://www.elsevier.nl/locate/entcs/volume59.html"
 }
 
+@InProceedings{aiortts,
+  author       = "Mark Heuser",
+  title        = "An Implementation of Real-Time Thread Synchronization",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "97--105",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "priority inversion, real-time scheduling, busy waiting",
+  abstract     = "High-priority threads need fast and predictable service in
+    real-time applications.  When threads interact by serializing their access
+    to shared data, it is possible for one or more low-priority threads to
+    indefinitely postpone the execution of a high-priority thread.  This
+    situation, known as unbounded priority inversion, poses a serious threat to
+    the application's ability to meet its deadlines.  The delay experienced by
+    high-priority threads in the presence of contention must be bounded, and
+    synchronization overhead in the absence of contention should be low.  This
+    paper describes a collection of low-level synchronization tools --- CPU
+    rescheduling control, busy-weight mutual exclusion, and client-server
+    coordination --- designed to meet these needs in a unix operating system.
+    Together they can be used to implement basic priority inheritance, the
+    simplest of the techniques for controlling priority inversion.  The effects
+    of priority inheritance and unbounded priority inversion are demonstrated
+    with some measurements." 
+}
+
+@InProceedings{atiafroa,
+  author       = "Bruce Thompson and Daryl Stolte and David Ellis",
+  title        = "{A} Transparent Integration Approach for Rewritable Optical Autochangers",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "119--126",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "direct access secondary storage, transparent integration, swapping",
+  abstract     = "Insufficient disk space has been a problem with computer
+    systems since their introduction.  The high cost of online peripherals and
+    limited floor space constrains the amount of disk storage a system user can
+    afford.  Optical storage, in conjunction with autochangers promises to
+    relive the online data crunch by providing storage at a cost competitive
+    with tapes but with access speeds approaching disks.  Because these direct
+    access secondary storage (dass tm) devices have unique attributes, a new
+    method of peripheral integration is required.  This paper describes an
+    integration technique for re-writable optical storage and autochangers for
+    the uni operating system that is transparent to users and applications.
+    All the standard unix methods of accessing and managing files work on the
+    autochanger as they do with disks.  No new commands or utilities are
+    needed." 
+}
+
+@InProceedings{andfdstrmm,
+  author       = "Douglas Comer and James Griffioen",
+  title        = "{A} New Design for Distributed Systems:  The Remote Memory Model",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "119--126",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "remote paging, special-purpose protocols, client-server computing",
+  abstract     = "This paper describes a new model for constructing distributed
+    systems called the Remote Memory Model.  The remote memory model consists
+    of several client machines, one or more dedicated machines called remote
+    memory servers, and a communication channel interconnecting them.  In the
+    remote memory model, client machines share the memory resources located on
+    the remote memory server.  Client machines that exhaust their local memory
+    move portions of their address space to the remote memory server and
+    retrieve pieces as needed.  Because the remote memory server uses a
+    machine-independent protocol to communicate with client machines, the
+    remote memory server can support multiple heterogeneous client machines
+    simultaneously.  This paper describes the remote memory model and discusses
+    the advantages and issues of systems that use this model.  It examines the
+    design of a highly efficient, reliable, machine-independent protocol used
+    by the remote memory server to communicate with the client machines.  It
+    also outlines the algorithms and data structures employed by the remote
+    memory server to efficiently locate the data stored on the server.
+    Finally, it presents measurements of a prototype implementation that
+    clearly demonstrate the viability and competitive performance of the remote
+    memory model.", 
+  location     = "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1829&context=cstech"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
