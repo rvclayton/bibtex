@@ -170,6 +170,7 @@ a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
 a note on searching in a binary search tree : andersson
 a novel program representation for interprocedural analysis : agrawal
+a pageable memory based filesystem : mckusick 
 a parametric object system : skibinski
 a partial evaluator and its use as a programming tool : beckman
 a pattern language for tool construction and integration based on the tools and materials metaphor : riehle
