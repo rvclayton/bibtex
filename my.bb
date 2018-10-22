@@ -3279,6 +3279,40 @@
   location     = "http://dx.doi.org/10.1006/inco.1993.1043"
 }
 
+@Article{aaogmids,
+  author       = "Kemper, Alfons and Wallrath, Mechtild",
+  title        = "An Analysis of Geometric Modeling in Database Systems",
+  journal      = surveys,
+  year         = 1987,
+  volume       = 19,
+  number       = 1,
+  pages        = "47--91",
+  month        = mar,
+  keywords     = "engineering database systems, geometric modeling,
+    object-oriented database systems, cad-cam database systems, constructive
+    solid geometry, boundary representation, database access languages, object
+    representations, relational modeling",
+  abstract     = "The data-modeling and computational requirements for
+    integrated computer aided manufacturing (CAM) databases are analyzed, and
+    the most common representation schemes for modeling solid geometric objects
+    in a computer are described.  The primitive instancing model, the boundary
+    representation, and the constructive solid geometry model are presented
+    from the viewpoint of database representation.  Depending on the
+    representation scheme, one can apply geometric transformations to the
+    stored geometric objects.  The standard transformations, scaling,
+    translation, and rotation, are outlined with respect to the data structure
+    aspects.  Some of the more recent developments in the area of engineering
+    databases with regard to supporting these representation schemes are then
+    explored, and a classification scheme for technical database management
+    systems is presented that distinguishes the systems according to their
+    level of object orientation: structural or behavioral object orientation.
+    First, several systems that are extensions to the relational model are
+    surveyed, then the functional data model DAPLEX, the nonnormalized
+    relational model NF2, and the database system R2D2 that provides abstract
+    data types in the NF2 model are described.", 
+  location     = "https://doi.org/10.1145/28865.28866"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4322,6 +4356,25 @@
     clearly demonstrate the viability and competitive performance of the remote
     memory model.", 
   location     = "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1829&context=cstech"
+}
+
+@InProceedings{apmbf,
+  author       = "Marshall~K. McKusick and Michael~J. Karels and Keith Bostic",
+  title        = "{A} Pageable Memory Based Filesystem",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "137--143",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "file systems, memory-resident file systems, io performance",
+  abstract     = "This paper describes the motivations for memory-based
+    filesystems.  It compares techniques used to implement them and describes
+    the drawbacks of using dedicated memory to support such filesystems.  To
+    avoid the drawbacks of using dedicated memory, it discusses building a
+    simple memory-based filesystem in pageable memory.  It details the
+    performance characteristics of this filesystem and concludes with areas for
+    future work.", 
+  location     = "https://people.debian.org/~adamm/doc/papers/memfs.ps.gz"
 }
 
 @TechReport{dacsbssbsalbl,
