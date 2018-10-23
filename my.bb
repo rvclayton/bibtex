@@ -3313,6 +3313,50 @@
   location     = "https://doi.org/10.1145/28865.28866"
 }
 
+@Article{asagqffcm,
+  author       = "Golestani, S.~Jamaloddin",
+  title        = "{A} Stop-And-Go Queueing Framework for Congestion Management",
+  journal      = ccr # " (" # pot # "ACM SIGCOMM '97 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication)",
+  year         = 1990,
+  volume       = 20,
+  number       = 4,
+  pages        = "8--18",
+  month        = sep,
+  keywords     = "framing strategies, packet admission policies, frame size,
+    queueing delay, bandwidth allocation, congestion strategies",
+  abstract     = "A framework for congestion management in integrated services
+    packet networks based on a particular service discipline, called
+    stop-and-go queueing, is proposed.  In this framework, loss-free and
+    bounded-delay transmission is provided to the class of traffic with
+    stringent delay and loss requirements, e.g., real-time traffic, while the
+    bursty traffic without such requirements is treated on a different basis to
+    achieve high transmission efficiency.  Loss-free and bounded-delay
+    transmission is accomplished by means of an admission policy which ensures
+    smoothness of the traffic at the network edge, and the stop-and-go queueing
+    which maintains the traffic smoothness throughout the network.  Both the
+    admission policy and the stop-and-go queueing are based on a time framing
+    concept, addressed in a previous paper.  This concept is further developed
+    here to incorporate several frame sizes into the strategy, thereby
+    providing the necessary flexibility in accommodating throughput and
+    end-to-end delay requirements of different connections on an as-needed
+    basis.", 
+  location     = "https://doi.org/10.1145/99508.99523"
+}
+
+@Article{fosem,
+  author       = "Robert~L. Glass",
+  title        = "Facts of Software Engineering Management",
+  journal      = "InformIT",
+  year         = 2002,
+  month        = "22 " # nov,
+  keywords     = "management, programmer quality, programmer productivity, work
+    environment, exaggeration, learning, tooling, estimation, timing",
+  abstract     = "Robert L.  Glass explains why a software manager can't forget
+    about the most important facts —like people are important, technical hype
+    does more harm that good, and complexity is, well, complex.", 
+  location     = "http://www.informit.com/articles/index.aspx?st=66385"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5019,6 +5063,54 @@
   location     = "http://www.w3.org/TR/2000/NOTE-SOAP-20000508"
 }
 
+@TechReport{dcfwcgc,
+  author       = "Richard~A. Golding, Darrell D.~E. Long",
+  title        = "Design Choices for Weak-Consistency Group Communication",
+  institution  = "Concurrent Systems Laboratory, " # cis # ", " # ucal,
+  year         = 1992,
+  number       = "UCSC-TR-92-45",
+  address      = scca,
+  month        = "12 " # oct,
+  keywords     = "group membership, weak consistency replication, mobile
+    computing systems, bibliographic databases, reliability measurements",
+  abstract     = "Many wide-area distributed applications can be implemented
+    using distributed group communication, a mechanism for coordinating the
+    activities of related processes running at different sites.  We have
+    developed a modular architecture for group communication systems that can
+    be used to build a system tailored to application requirements.  We focus
+    on *weak consistency* mechanisms for group communication, since these allow
+    highly efficient operation on wide-area internetworks.  We examine several
+    design choices that can be made in building a weakly-consistent group
+    communication mechanism, and discuss the decisions we made in building two
+    very different wide-area applications.  The architecture accommodates both
+    systems well, and allows several application-specific decisions that
+    increase efficiency and flexibility.", 
+  location     = "https://www.soe.ucsc.edu/research/technical-reports/UCSC-CRL-92-45"
+}
+
+@TechReport{tpowcrp,
+  author       = "Richard~A. Golding, Darrell D.~E. Long",
+  title        = "The Performance of Weak-Consistency Replication Protocols",
+  institution  = "Concurrent Systems Laboratory, " # cis # ", " # ucal,
+  year         = 1992,
+  number       = "UCSC-CRL-92-30",
+  address      = scca,
+  month        = "6 " # jul,
+  keywords     = "internet, time-stamped anti-entropy, fault tolerance,
+    consistency, delay, propagation delay",
+  abstract     = "Weak-consistency replication protocols can be used to build
+    wide-area services that are scalable, fault- tolerant, and useful for
+    mobile computer systems.  We have developed the *timestamped anti-entropy*
+    protocol, which provides reliable eventual delivery with a variety of
+    message orderings.  Pairs of replicas periodically exchange update
+    messages; in this way updates eventually propagate to all replicas.  In
+    this paper we present a detailed analysis of the fault tolerance and the
+    consistency provided by this protocol.  The protocol is extremely robust in
+    the face of site and network failure, and it scales well to large numbers
+    of replicas.", 
+  location     = "https://www.soe.ucsc.edu/research/technical-reports/UCSC-CRL-92-30"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -5109,6 +5201,37 @@
   title        = "Configure Blosxom",
   keywords     = "blogging",
   location     = "http://blosxom.sourceforge.net/documentation/users/configure/"
+}
+
+@Manual{latgpp,
+  title        = "\LaTeX\ and the {G}nuplot Plotting Program",
+  author       = "David Kotz",
+  edition      = "4.0",
+  year         = 2004,
+  month        = mar,
+  keywords     = "gnuplot, latex",
+  location     = "http://www.gnuplot.info/files/tutorial.pdf"
+}
+
+@Manual{gtwck,
+  title        = "Gnuplot",
+  author       = "Thomas Williams and Colin Kelley",
+  edition      = "4.0",
+  year         = 2004,
+  month        = "13 " # mar,
+  keywords     = "gnuplot",
+  location     = "http://www.gnuplot.info/"
+}
+
+@Manual{g40abmat,
+  title        = "Gnuplot 4.0 --- {A} Brief Manual and Tutorial",
+  organization = "Department of Civil and Environmental Engineering, Edmund T. Pratt School of Engineering, Duke University",
+  address      = "Durham, N.C.",
+  edition      = "",
+  year         = 2005,
+  month        = "13 " # apr,
+  keywords     = "gnuplot",
+  location     = "http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.duke.edu/~hpgavin/gnuplot.html"
 }
 
 @Unpublished{ivbf,
