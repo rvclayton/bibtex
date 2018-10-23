@@ -153,19 +153,6 @@
 		   maxemchuck protocol, refinement, specification"
 }
 
-@TechReport{dcfwcgc,
-  author = 	"Richard A. Goldberg and Darrell D. E. Long",
-  title = 	"Design Choices for Weak-Consistency Group Communication",
-  institution = csl # ucal,
-  year = 	1992,
-  number = 	"UCSC-TR-92-45",
-  address = 	scca,
-  month = 	oct,
-  keywords = 	"distributed systems, group communication, weak consistency,
-		 wide-area networks, bibliographic databases, mobile computing"
-		 
-}
-
 @TechReport{etsmltst,
   author	= jmw # "and Manuel Faehndrich and J. Gregory Morrisett and
 		  Scott Nettles",
