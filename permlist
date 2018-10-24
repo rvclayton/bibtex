@@ -32,7 +32,6 @@ a centaur tutorial : anon
 a checkable interface language for pointer based structures : russell
 a cmos risc processor with integrated system functions : moussouris
 a code generator interface for ansi c : fraser
-a cognitive perspective on teaching object oriented analysis and design : ryan
 a collection of declarative ada example programs : thornley
 a comparative analysis of functional correctness : dunlop
 a comparative evaluation of generic programming in java and c++ : saiedian
@@ -327,7 +326,6 @@ acme a user interface for programmers : pike
 action semantics : solnneger
 action semantics a tool for developing programming languages : doh
 active messages a mechanism for integrated communication and computation : von eicken
-ad hoc self supervising peer to peer search networks : cooper
 ada 95 a guide for c and c++ programmers : johnston
 ada and software defelopment support a new concept in language design : leblanc
 ada system dependency analyzer tool : baratta
@@ -405,6 +403,7 @@ an algebraic specification of hdlc procedures and its verification : higashino
 an algorithm for filling regions on graphics display devices : lane
 an alternative to the use of patterns in string processing : griswold
 an alphard specification of a correct and efficient transformation on data structures : bentley
+an analysis of geometric modeling in database systems : kemper
 an analysis of process and memory models to support high speed networking in a unix environment : murphy
 an annotated bibliography of interactive program steering : gu
 an annotation language for optimizing software libraries : guyer
@@ -499,12 +498,10 @@ applications of combinatorial designs in computer science : colbourn
 applications of continuations : friedman
 applications of the proposed ieee 754 standard for floating point arithmetic : hough
 applicative programming with effects : mcbride
-applying and interpeting object oriented metrics : rosenberg
 applying data flow techniques to data base machines : boral
 applying design by contract : meyer
 applying pi towards a basis for concurrent imperative programming : odersky
 applying software complexity metrics to program maintenance : harrison
-applying user level measurements to rti 1.3 release 2 : cohen
 architectural and software issues in the design and application of peripheral array processors : karplus
 architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
 architectural styles and the design of network based software architectures : fielding
@@ -585,7 +582,6 @@ basic polymorphic typechecking : cardelli
 basic xml : anon
 bead sort a natural sorting algorithm : arulanandham
 beanshell simple java scripting : beanshell
-beepcore tcl : rose
 being popular : grahm
 benchmark characterization : conte
 better extensibility through modular syntax" : grimm
@@ -813,7 +809,6 @@ correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
 counting paths nondeterminism as linear algebra : benson
 coverage problems in sensor networks a survey : wang
-covert channels in the tcp ip protocol suite : rowland
 covert flow trees a visual approach to analyzing covert storage channel : kemmerer
 scp miner finding copy paste and related bugs in large scale software code : li
 cracking the oyster : bentley
@@ -1125,7 +1120,6 @@ exploring the deisgn of an intentional naming scheme with an automatic constrain
 exploiting concurrency vulnerabilities in system call wrappers : watson
 exploiting style in architectural design environments : garlan
 exploiting the advantages of mapped files for stream i o : krieger
-exploring group communication for reliable high volume data distribution : cooperstock
 expressional loops : waters
 expressions that talk about themselves : fokkinga
 extended state diagrams and reactive systems : drusinsky
@@ -1276,7 +1270,6 @@ genoa a customizable front end retargetable source code analysis framework : dev
 geometric algorithms : orwant
 geometric logic in computer science : vickers
 getting acquainted with the c-- language : iglesias
-getting started using use cases to capture requirements : rumbaugh
 getting started with aspectj : aspectj
 getting started with erlang : erlang
 getting started with netscape javascript debugger : javascript
@@ -1567,7 +1560,6 @@ karl wiegers describes 10 requirements traps to avoid : wiegers
 kawa compiling scheme to java : bothner
 keep it clean a unique approach to functional programming  : plasmeijer
 kerberos an authentication service for open network systems : steiner
-kerberos versus the leighton micali protocol : rubin
 kernel synchronization primitives : mauro
 key to the success of asynchronous transfer mode an application programming interface : lin
 keywords scanners and screeners : clark
@@ -1667,7 +1659,6 @@ mango a parser generator for self : agesen
 manual for the prosper class : goualard
 mapping objects to files a unix file system interface to an object management system : florijn
 mapping software architectures to efficient implementation via partial evaluation : marlet
-mapping the beep core into tcp : rose
 maptool supporting modular syntax development : kadhim
 margination and project gutenberg : fishburne
 masking the overhead of protocol layering : van renesse
@@ -1731,7 +1722,6 @@ modular scheduling of atomic actions : rosenband
 module algebra : bergstra
 module imbedding : radenski
 module types module variables and their use as a universal encapsulation mechanism : radenski
-molecular computing the lock key paradigm : conrad
 mom vs rpc communication models for distributed applications" : menasce
 monadic parser combinators : hutton
 monadic robotics : peterson
@@ -1743,7 +1733,6 @@ monitors an operating system structuring concept : hoare
 more programming puzzlers : bloch
 more than a gigabuck examining gnu linux's size : wheeler
 moscow ml owners manual : romanenko
-mpatrol : roy
 mpegtool an x window based mpeg encoder and statistics tool : urabe
 much ado about patterns : zubek
 mud faq : anon
@@ -1886,7 +1875,6 @@ operation centric hardware description and synthesis : hoe
 operational machine specification in a functional programming language : koopman
 operational semantics directed compilers and machine architectures : hannan
 operational versus definitional a perspective on programming paradigms : ambler
-optical packet switching : rouskas
 optimal incremental parsing : larcheveque
 optimal price cap regulations : clemenz
 optimal spilling for cisc machines with few registers : appel
@@ -2066,7 +2054,6 @@ programming in oberon : reiser
 programming in oberon : writh
 programming in the pi calculus : pierce
 programming in timed cuncurrent constraint languages : saraswat
-programming internet telephony services : rosenberg
 programming language concepts the lambda calculus approach : fokkinga
 programming languages : hunt
 programming languages and direct execution computer architecture : chu
@@ -2100,7 +2087,6 @@ protection in the hydra operating system : cohen
 protocol analysis using a timed version of sdl : bause
 protocol conversion : lam
 protocol design and implementation using formal methods : van sinderen
-protocol engineering a critical assessment : rudin
 protocol implementation using integrated layer processing : braun
 protocol latency mips and reality : mosberger
 protocol programming in erlang using binaries : wikstrom
@@ -2188,7 +2174,6 @@ reliable udp protocol : bova
 relocating machine instructions by currying : ramsey
 remarks on a methodology for implementing highly concurrent data objects : skudlarek
 remote method calling and object group communication : maffeis
-remote procedure call programming guide : rpc
 rendezvous facilities concurrent c and the ada language : gehani
 replacing a dictionary with a square root : cargill
 replacing complexity with generality the programming language forsythe : reynolds
@@ -2209,7 +2194,6 @@ resourceful systems for fault tolerance, reliability, and safety : abbott
 responsible web caching : berghel
 restaurant tipping and service quality : lynn
 restricted data types specification and enforcement of invariant properties of variables : buckle
-resume writing a hiring managers perspective : russo
 retargetable cross compilation techniques comparison and analysis of gcc and zephyr : dai
 rethinking memory management : applegate
 reusable application dependent machine descriptions : bailey
@@ -2229,10 +2213,8 @@ role based access control models : sandhu
 rolling your own input iterators : van horn
 rpc in the x kernel evaluating new design techniques : hutchinson
 rpc under fire : vinoski
-rpcgen programming guide : rpcgen
 rss tutorial : nottingham
 rtl modeling in c++ : zhao
-rtp library api specification : lucent
 ruby users guide : ruby
 rules for referees : forscher
 rust : hoare
@@ -2389,7 +2371,6 @@ ule a modern scheduler for freebsd : roberson
 using and customizing knoppix : bernier
 using javascript as a real programming language : mikkonen
 using meta level compilation to check flash protocol code : chou
-using metrics to evaluate software system maintainability : coleman
 using procedural parameters and continuations in combinatorial searches : hwang
 using production grammars in software testing : sirer
 using sfs for a secure network file system : fu
@@ -2398,7 +2379,6 @@ using tournament trees to sort : stepanov
 software design patterns for tinyos : gay
 software profiling for hot path prediction less is more : duesterwald
 software prototyping by relational techniques experiences with program construction systems : ceri
-software psychology requirements for software maintenance activities : rugaber
 software reliability modern challenges : spinellis
 software reliability the role of programmed exception handling : melliar
 software requirements a tutorial : faulk
@@ -2595,7 +2575,6 @@ the behavior of behavior : smith
 the best available technology for computer security : landwehr
 the bigwig project : barbrand
 the bliss programming language a history : brender
-the blocks extensible exchange protocol core : rose
 the blowfish encryption algorithm : schneier
 the bsd packet filter a new architecture for user level packet capture : mccanne
 the c information abstraction system : chen
@@ -2804,7 +2783,6 @@ the r6rs module system : simionato
 the reactive keyboard a predictive typing aid : darragh
 the real meaning of architecture : fisher
 the relevance of education : bruner
-the representation problem in reverse engineering : rugaber
 the resuability challenge : meyer
 the rise of pseudo fascism : neiwert
 the risks of key recovery key escrow and trusted third party encryption : abelson
@@ -2825,7 +2803,6 @@ the self 4.1 programmers reference manual : agesen
 the semantics of a simple language for parallel programming : kahn
 the semantics of the c++ programming language : wallace
 the semantics of verilog using transition system combinators : pace
-the sextant software exploration tool : schafer
 the sharpe ratio : sharpe
 the signal data flow methodology applied to a production cell : amagbegnon
 the sl synchronous language : boussinot
@@ -2917,7 +2894,6 @@ thoughts on larch ml and a new application for lp : wing
 threads and locks : java
 three approaches to type structure : reynolds
 three dimensional medical imaging algorithms and computer systems : stytz
-three ethical moments in debian : coleman
 three monads for continuations : kieburtz
 thunks and the lambda calculus : hatcliff
 time constrained sorting a comparison of different algorithms : puschner
@@ -3120,7 +3096,6 @@ what is interactive scripting : travers
 what is software design : reeves
 what is the bios : schmidt
 what its like to be a popl referee : wegman
-what should we plan given the dilemma of the network : cook
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
 when is one thing equal to some other thing : mazur
