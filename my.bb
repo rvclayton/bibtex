@@ -595,6 +595,22 @@
     with testbed implementations." 
 }
 
+@InBook{opsgnr,
+  author       = "",
+  title        = "",
+  chapter      = "Optical Packet Switching",
+  publisher    = "Kulwer",
+  year         = 2004,
+  OPTeditor    = "",
+  OPTpages     = "",
+  OPTvolume    = "",
+  OPTseries    = "",
+  OPTaddress   = "",
+  OPTedition   = "",
+  month        = "",
+  location     = ""
+}
+
 @Article{dcmlamfic,
   author       = "Herath, Jayantha and Yamaguchi, Yoshinori and Saito, Nobuo and Yuba, Toshitsugu",
   title        = "Dataflow Computing Models, Languages, and Machines for Intelligence Computations",
@@ -3357,6 +3373,37 @@
   location     = "http://www.informit.com/articles/index.aspx?st=66385"
 }
 
+@Article{kvtlmp,
+  author       = "Aviel~D. Rubin",
+  title        = "Kerberos Versus the {L}eighton-{M}icali Protocol",
+  journal      = ddj,
+  year         = 2000,
+  volume       = 25,
+  number       = 11,
+  pages        = "21--26",
+  month        = nov,
+  keywords     = "kerberos, cryptography",
+  location     = "http://www.drdobbs.com/kerberos-versus-the-leighton-micali-pr/184404307"
+}
+
+@Article{ccittips,
+  author       = "Craig~H. Rowland",
+  title        = "Covert Channels in the {TCP}/{IP} Protocol Suite",
+  journal      = "First Monday",
+  year         = 1997,
+  volume       = 2,
+  number       = 5,
+  month        = jan,
+  keywords     = "tcp/ip headers, sequence numbers, tcp acknowledgments, protection",
+  abstract     = "The TCP/IP protocol suite has a number of weaknesses that
+    allow an attacker to leverage techniques in the form of covert channels to
+    surreptitiously pass data in otherwise benign packets.  This paper attempts
+    to illustrate these weaknesses in both theoretical and practical
+    examples.", 
+  location     = "http://dx.doi.org/10.5210/fm.v2i5.528",
+  location     = "http://firstmonday.org/ojs/index.php/fm/article/view/528/449"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4421,6 +4468,107 @@
   location     = "https://people.debian.org/~adamm/doc/papers/memfs.ps.gz"
 }
 
+@InProceedings{opsgns,
+  author       = "George~N. Rouskas and Lisong Xu",
+  title        = "Optical Packet Switching",
+  booktitle    = "Emerging Optical Network Technologies",
+  year         = 2005,
+  OPTeditor    = "Sivalingam, K.~M. and Subramaniam, S.",
+  publisher    = "Springer",
+  address      = boma,
+  keywords     = "optical packet switching, wavelength division multiplexing
+    (WDM), switch architectures, contention resolution techniques", 
+  abstract     = "The concept of optical packet switching (OPS) is emerging as
+    an alternative to coarser-grained switching in the optical domain.  Despite
+    the significant technological challenges it faces, OPS holds the promise of
+    a highly reconfigurable, bandwidth-efficient, and ﬂexible optical layer.
+    In this chapter we study some of the architectural and design issues for
+    OPS networks, we examine a number of enabling technologies, and we discuss
+    some of the ongoing research and experimental efforts.",  
+  location     = "https://www.csc2.ncsu.edu/faculty/rouskas/Publications/Books/Kluwer-Rouskas-2004.pdf",  
+  location     = "https://doi.org/10.1007/0-387-22584-6_5"
+}
+
+@InProceedings{aulmtr13r2,
+  author       = "Danny Cohen and Andreas Kemkes",
+  title        = "Applying User-Level Measurements to {RTI} 1.3 Release 2",
+  booktitle    = pot # "Simulation Interoperability Workshop",
+  year         = 1998,
+  month        = "Fall",
+  keywords     = "hla, rtl, ddm, routing space, use case, federate performance,
+    performance measurement"
+}
+
+@InProceedings{afttfsbdmo,
+  author       = "Masataka Ohta and Hiroshi Tezuka",
+  title        = "{A} Fast {\tt /tmp} File System By Delay Mount Option",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "145--150",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "file systems, system calls, disk buffering, cache semantics,
+    i-o performance",
+  abstract     = "To improve the speed of a /tmp file system, a new mount
+    option delay is introduced.  A usual UNIX kernel has three types of write
+    operations: sync write, async write and delayed write.  For important data
+    such as directory structure, slow but sure sync write is used to maintain
+    file system integrity even through system crash.  For less important data,
+    fast delayed write is used to gain efficiency.  As delayed write only
+    writes to memory called a buffer cache, which is later copied to the disk,
+    it is much faster than other types of write operations.  The delay option
+    enforces all write operations on the file system performed with the delayed
+    write.  For the /tmp file system, where files are removed shortly after
+    creation, integrity is not so much necessary.  So, by specifying the delay
+    option, a fast /tmp file system is obtained.  The delay option is
+    implemented with modification of less than 50 lines in UNIX kernel and less
+    than 10 lines in /etc/mount command.  Compared to memory disk
+    implementation of a fast /tmp file system, delay approach is faster.
+    Moreover, with the delay option, /tmp file system may be retained after
+    power failure.  The size of the file system is not limited by the size of
+    memory and can be as large a an ordinary file system.  Combined with
+    dynamic buffer caching, delay option can utilize all free memory to
+    accelerate file operations on /tmp.  The delay option is also useful for
+    the fast installation of a totally new file system." 
+}
+
+@InProceedings{dfsao,
+  author       = "Michael~L. Kazar and Bruce~W. Leverett and Owen~T. Anderson and Vasilis Apostolides and Beth~A. Bottos and Sailesh Chutani and Craig~F. Everhart and W.~Anthony Mason and Shu-Tsui Tu and Edward~R. Zayas",
+  title        = "{DEcorum} File System Architectural Overview",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "151--163",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "distributed file systems, rpc, volumes, aggregates, acls,
+    client-server architecture, caching",
+  abstract     = "We describe the DEcorum file system, a distributed file
+    system designed for high performance, low network load, easy operation and
+    administration, and interoperability with other file systems.  The DEcorum
+    file system has three components: the DEcorum protocol exporter (or file
+    server); the Episode physical file system; and the DEcorum client (or cache
+    manager).  Episode is a module that implements the Vnode/VFS interface,
+    using transaction logging to allow fast recovery from crashes.  To be
+    exact, it implements a VFS+ interface: extensions to the standard Vnode and
+    VFS interfaces, and two new modules, aggregates and volumes, which give
+    flexibility beyond what is provided by Unix partitions to support
+    administration and operation of networks of thousands of workstations.  The
+    DEcorum protocol exporter provides remote access to the Episode physical
+    file system via remote procedure calls (RPCs).  It can export access to
+    other physical file systems, such as the Berkeley fast file system, using
+    extensions of the physical file systems to support the VFS+ interface.  The
+    DEcorum client exports a Vnode interface, but obtains its data by making
+    RPCs to a DEcorum protocol exporter.  It caches data from the file server.
+    To synchronize accesses to files, preserving single-system UNIX semantics,
+    it relies on typed tokens obtained with the data: guarantees provided by
+    the server that various operations can be performed remotely.  Tokens can
+    be revoked by the file server using separate RPCs.  A locking hierarchy is
+    used to avoid deadlock between clients accessing files and servers revoking
+    tokens on the same files; we explain the hierarchy and informally sketch a
+    proof of its correctness.", 
+  location     = ""
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -5111,6 +5259,107 @@
   location     = "https://www.soe.ucsc.edu/research/technical-reports/UCSC-CRL-92-30"
 }
 
+@TechReport{aaioom,
+  author       = "Linda~H. Rosenberg",
+  title        = "Applying and Interpreting Object-Oriented Metrics",
+  institution  = "Software Assurance Technology Center, NASA",
+  month        = apr,
+  year         = 1998,
+  keywords     = "object-oriented metrics, software management, software
+    assurance", 
+  abstract     = "Object-oriented design and development is becoming very
+    popular in today's software development environment.  Object oriented
+    development requires not only a different approach to design and
+    implementation, it requires a different approach to software metrics.
+    Since object oriented technology uses objects and not algorithms as its
+    fundamental building blocks, the approach to software metrics for object
+    oriented programs must be different from the standard metrics set.  Some
+    metrics, such as lines of code and cyclomatic complexity, have become
+    accepted as standard for traditional functional/ procedural programs, but
+    for object-oriented, there are many proposed object oriented metrics in the
+    literature.  The question is, Which object oriented metrics should a
+    project use, and can any of the traditional metrics be adapted to the
+    object oriented environment? In this paper, the Software Assurance
+    Technology Center (SATC) at NASA Goddard Space Flight Center discusses its
+    approach to choosing metrics for a project by first identifying the
+    attributes associated with object oriented development.  Within this
+    framework, nine metrics for object oriented are selected.  These metrics
+    include three traditional metrics adapted for an object oriented
+    environment, and six new metrics to evaluate the principle object oriented
+    structures and concepts.  The metrics are first defined, then using a very
+    simplistic object oriented example, the metrics are applied.
+    Interpretation guidelines are then discussed and data from NASA projects
+    are used to demonstrate the application of the metrics.  In the experience
+    of the SATC, projects choose the data they collect by default - if the tool
+    they are using compiles it, the project collects it.  The purpose of this
+    paper is to help project managers choose a comprehensive set of metrics,
+    not by default, but by using a set of metrics based on attributes and
+    features of object oriented technology.  Applying and Interpreting Object
+    Oriented Metrics", 
+  location     = "http://www.literateprogramming.com/ooapply.pdf"
+}
+
+@TechReport{sprfsma,
+  author       = "Spencer Rugaber and Victoria~G. Tisdale",
+  title        = "Software Psychology Requirements for Software Maintenance Activities",
+  institution  = "Software Engineering Research Center, Georgia Institute of Technology",
+  year         = 1992,
+  address      = atga,
+  month        = "17 " # nov,
+  keywords     = "programming, program comprehension, debugging, composition,
+    modification, problem solving"
+}
+
+@TechReport{egcfrhvdd,
+  author       = "Jeremy R. Cooperstock and Steve Kotsopoulos",
+  title        = "Exploring Group Communication for Reliable High Volume Data Distribution",
+  institution  = "Department of Electrical and Computer Engineering, University of Toronto",
+  address      = toon,
+  keywords     = "multicast, broadcast, data distribution, performance, protocols",
+  abstract     = "The design and implementation of a protocol to provide
+    reliable and efficient distribution of large quantities of data to many
+    hosts on a local area network or internetwork is described.  By exploiting
+    the one-to-many transmission capabilities of multicast and broadcast, it is
+    possible to transmit data to multiple hosts simultaneously, using less
+    bandwidth and thus obtaining greater efficiently than repeated
+    multicasting.  Although performance measurements indicate the superiority
+    of multicast, we dynamically select from available transmission modes so as
+    to maximize efficiency and throughput while providing reliable delivery of
+    data to all hosts.  Our results demonstrate that file-distribution program
+    based on this protocol can benefit from a linear speed-up over TCP-based
+    programs such as rdist." 
+}
+
+@TechReport{wswpgtdotn,
+  author       = "C. Cook",
+  title        = "What Should We Plan Given the Dilemma of the Network?",
+  institution  = IETF,
+  year         = 1993,
+  type         = "RFC",
+  number       = 1527,
+  month        = sep,
+  keywords     = "regulation, technology transfer, network policy, network
+    access, nren",
+  abstract     = "Early last year, as the concluding effort of an 18 month
+    appointment at the US Congress Office of Technology Assessment (OTA), I
+    drafted a potential policy framework for Congressional action on the
+    National Research and Education Network (NREN).  The Internet community
+    needs to be asking what the most important policy issues facing the network
+    are.  And given agreement on any particular set of policy issues, the next
+    thing we should be asking is, what would be some of the political choices
+    that would follow for Congress to make? It is unfortunate that this was
+    never officially done for or by the Congress by OTA.  What we have as a
+    result is network policy making being carried out now by the Science
+    Subcommittee on the House side in consultation with a relatively small
+    group of interested parties.  The debate seems to be more focused on
+    preserving turf than on any sweeping understanding of what the legislation
+    is doing.  That is unfortunate.  In the hope that it may contain some
+    useful ideas, I offer a shortened version of the suggested policy draft as
+    information for the Internet community.", 
+  location     = "https://dx.doi.org/10.17487/RFC1527",
+  location     = "https://tools.ietf.org/html/rfc1527"
+}
+
 @Manual{atajsm,
   title        = "{ANT} Tutorial",
   author       = "Ashley J.~S. Mills",
@@ -5200,7 +5449,7 @@
 @Manual{cblosxom,
   title        = "Configure Blosxom",
   keywords     = "blogging",
-  location     = "http://blosxom.sourceforge.net/documentation/users/configure/"
+  location     = "http://blosxom.sourceforge.net/documentation/users/onfigure/"
 }
 
 @Manual{latgpp,
@@ -5232,6 +5481,56 @@
   month        = "13 " # apr,
   keywords     = "gnuplot",
   location     = "http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.duke.edu/~hpgavin/gnuplot.html"
+}
+
+@Manual{mgsr,
+  title        = "mpatrol",
+  author       = "Graeme~S. Roy",
+  edition      = "2.13 for {\tt mpatrol} version 1.4.8",
+  year         = 2002,
+  month        = "8 " # jan,
+  keywords     = "memory management, debugging, gnu",
+  location     = "http://mpatrol.sourceforge.net/"
+}
+
+@Manual{btmr,
+  title        = "beepcore-tcl",
+  author       = "Marshal Rose",
+  organization = "Dover Beach Consulting, Inc.",
+  year         = 2002,
+  month        = jan,
+  keywords     = "beep, tcl",
+  location     = "http://beepcore-tcl.sourceforge.net/"
+}
+
+@Manual{rlas,
+  title        = "{RTP} Library {API} Specification",
+  organization = "Lucent Technologies",
+  year         = 1998,
+  month        = jun,
+  keywords     = "rtp, api, spec",
+  location     = "http://www.cs.columbia.edu/irt/software/rtplib/rtplib-1.0a1/rtp_api.html"
+}
+
+@Manual{rpcpg,
+  title        = "Remote Procedure Call Programming Guide",
+  organization = "FreeBSD",
+  keywords     = "rpc, coding",
+  location     = "https://docs.freebsd.org/44doc/psd/23.rpc/paper.pdf"
+}
+
+@Manual{rpcgenpg,
+  title        = "{\tt rpcgen} Programming Guide",
+  organization = "FreeBSD",
+  keywords     = "rpcgen, coding",
+  location     = "https://docs.freebsd.org/44doc/psd/22.rpcgen/paper.pdf"
+}
+
+@Manual{aoora,
+  title        = "An Overview of {RMI} Applications",
+  organization = "Oracle",
+  keywords     = "rmi, java",
+  location     = "https://docs.oracle.com/javase/tutorial/rmi/overview.html"
 }
 
 @Unpublished{ivbf,
