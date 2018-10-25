@@ -74,6 +74,7 @@ a dual ui constraint equation solver in c++ : medwin
 a dynamic network architecture : omalley
 a fast and general implementation of mach ipc in a network : orman
 a fast division technique for constant divisors : artzy
+a fast tmp file system by delay mount option : ohta
 a fast file system for unix : mckusick
 a fifteen puzzle in fran : elliott
 a first course in computer science mathematical principles for software engineering : mills
