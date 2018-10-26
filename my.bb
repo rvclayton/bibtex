@@ -3404,6 +3404,31 @@
   location     = "http://firstmonday.org/ojs/index.php/fm/article/view/528/449"
 }
 
+@Article{hodo,
+  author       = "Cejtin, Henry and Jagannathan, Suresh and Kelsey, Richard",
+  title        = "Higher-Order Distributed Objects",
+  journal      = toplas,
+  year         = 1995,
+  volume       = 17,
+  number       = 5,
+  pages        = "704--739",
+  month        = sep,
+  keywords     = "concurrency, continuations, higher-order languages, message
+    passing, garbage collection, proxies, interpretation",
+  abstract     = "We describe a distributed implementation of Scheme that
+    permits efficient transmission of higher-order objects such as closures and
+    continuations.  The integration of distributed communication facilities
+    within a higher-order programming language engenders a number of new
+    abstractions and paradigms for distributed computing.  Among these are
+    user-specified load-balancing and migration policies for threads,
+    incrementally linked distributed computations, and parameterized
+    client-server applications.  To our knowledge, this is the first
+    distributed dialect of Scheme (or a related language) that addresses
+    lightweight communication abstractions for higher-order objects.", 
+  location     = "https://doi.org/10.1145/213978.213986",
+  location     = "https://www.cs.purdue.edu/homes/suresh/papers/toplas95.ps.gz"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4565,8 +4590,36 @@
     be revoked by the file server using separate RPCs.  A locking hierarchy is
     used to avoid deadlock between clients accessing files and servers revoking
     tokens on the same files; we explain the hierarchy and informally sketch a
-    proof of its correctness.", 
-  location     = ""
+    proof of its correctness."
+}
+
+@InProceedings{tcscs,
+  author       = "Daniel Farmer and Eugene~H. Spafford",
+  title        = "The {{\sc Cops}} Security Checker System",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "151--163",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "security, system administration",
+  abstract     = "In the past several years, there have been a large number of
+    published works that have graphically described a wide variety of security
+    problems particular to Unix.  Without fail, the same problems have been
+    discussed over and over again, describing the problems with SUID (set user
+    ID) programs, improper file permissions, and bad passwords (to name a few).
+    There are two common characteristics to each of these problems: first, they
+    are usually simple to correct, if found; second, they are fairly easy to
+    detect.  Since almost all Unix systems have fairly equivalent problems, it
+    seems appropriate to create a tool to detect potential security problems as
+    an aid to system administrators.  This paper describes one such tool: Cops.
+    Cops (Computerized Oracle and Password System) is a freely-available,
+    reconfigurable set of programs and shell scripts that enable system
+    administrators to check for possible security holes in their systems.  This
+    paper briefly describes the system.  Included are the underlying design
+    goals, the functions provided by the tool, possible extensions, and some
+    experiences gained from its use.  We also include information on how to
+    obtain a copy of the initial Cops release.", 
+  location     = "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1844&context=cstech"
 }
 
 @TechReport{dacsbssbsalbl,
