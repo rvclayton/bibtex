@@ -3429,6 +3429,43 @@
   location     = "https://www.cs.purdue.edu/homes/suresh/papers/toplas95.ps.gz"
 }
 
+@Article{tpemho,
+  author       = "Olson, Margrethe~H. and Bly, Sara~A.",
+  title        = "The Portland Experience",
+  subtitle     = "A Report on a Distributed Research Group",
+  journal      = "International Journal of Man-Machine Studies",
+  year         = 1991,
+  volume       = 34,
+  number       = 2,
+  pages        = "211--228",
+  month        = feb,
+  keywords     = "distributed laboratory, social research, management control",
+  abstract     = "From 1985 for three years, the System Concepts Laboratory
+    (SCL) of the Xerox Palo Alto Research Center had employees in both Palo
+    Alto, California, and Portland, Oregon.  The Portland remote site was
+    intended to be a forcing function for the lab to focus on issues of
+    interpersonal computing in a geographically distributed organization.
+    Interpersonal computing supports people communicating and working together
+    through computers; it includes tools and support interaction separated by
+    time and/or space as well as face-to-face interaction and meetings.  A
+    consultant to the laboratory took on the role of outside observer to
+    provide insight into questions about the process of working in a
+    distributed organization and about tools for supporting collaboration in a
+    distributed organization.  The primary collaborative world of the lab
+    itself was design.  The major tool that developed to support the cross-site
+    environment was Media Space, a network of video, audio and computing
+    technologies.  With the Media Space, SCL members were able to make
+    significant progress in supporting their distributed design process.  The
+    SCL experience adds to the existing knowledge of collaboration by focusing
+    on intellectual effort where the primary resource is information.  The
+    activities of the lab depended on reciprocal interdependence of group
+    members for information.  Their work required them to be in touch with one
+    another to share and coordinate information, yet lab members were often not
+    together physically or temporally.  The SCL work forced the boundaries of
+    social place to extend beyond the boundaries of physical place.", 
+  location     = "https://doi.org/10.1016/0020-7373%2891%2990042-6"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4620,6 +4657,96 @@
     experiences gained from its use.  We also include information on how to
     obtain a copy of the initial Cops release.", 
   location     = "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1844&context=cstech"
+}
+
+@InProceedings{peapdotin,
+  author       = "Andrew Odlyzko",
+  title        = "Privacy, Economics, and Price Discrimination of the {I}nternet",
+  booktitle    = pot # "5th International Conference on Electronic Commerce",
+  year         = 2003,
+  pages        = "355--366",
+  address      = ppa,
+  month        = "30 " # sep # "- 3 " # oct,
+  keywords     = "price discrimination, versioning, behavioral economics",
+  abstract     = "The rapid erosion of privacy poses numerous puzzles.  Why is
+    it occurring, and why do people care about it? This paper proposes an
+    explanation for many of these puzzles in terms of the increasing importance
+    of price discrimination.  Privacy appears to be declining largely in order
+    to facilitate difierential pricing, which ofiers greater social and
+    economic gains than auctions or shopping agents.  The thesis of this paper
+    is that what really motivates commercial organizations (even though they
+    often do not realize it clearly themselves) is the growing incentive to
+    price discriminate, coupled with the increasing ability to price
+    discriminate.  It is the same incentive that has led to the airline yield
+    management system, with a complex and constantly changing array of prices.
+    It is also the same incentive that led railroads to invent a variety of
+    price and quality difierentiation schemes in the 19th century.  Privacy
+    intrusions serve to provide the information that allows sellers to
+    determine buyers' willingness to pay.  They also allow monitoring of usage,
+    to ensure that arbitrage is not used to bypass discriminatory
+    pricing.Economically, price discrimination is usually regarded as
+    desirable, since it often increases the efficiency of the economy.  That is
+    why it is frequently promoted by governments, either through explicit
+    mandates or through indirect means.  On the other hand, price
+    discrimination often arouses strong opposition from the public.There is no
+    easy resolution to the conflict between sellers; incentives to price
+    discriminate and buyers' resistance to such measures.  The continuing
+    tension between these two factors will have important consequences for the
+    nature of the economy.  It will also determine which technologies will be
+    adopted widely.  Governments will likely play an increasing role in
+    controlling pricing, although their roles will continue to be ambiguous.
+    Sellers are likely to rely to an even greater extent on techniques such as
+    bundling that will allow them to extract more consumer surplus and also to
+    conceal the extent of price discrimination.  Micropayments and auctions are
+    likely to play a smaller role than is often expected.  In general, because
+    of strong conflicting pressures, privacy is likely to prove an intractable
+    problem that will be prominent on the the public agenda for the foreseeable
+    future.", 
+  location     = "http://dx.doi.org/10.1007/1-4020-8090-5_15", 
+  location     = "http://www.dtc.umn.edu/~odlyzko/doc/privacy.economics.pdf"
+}
+
+@InProceedings{csfaplftfatd,
+  author       = "Norman~L. Kerth",
+  title        = "Caterpillar's Fate: {A} Pattern Language for Transformation from Analysis to Design",
+  booktitle    = "Pattern Languages of Program Design",
+  year         = 1995,
+  editor       = "James Coplien and Douglas Schmidt",
+  publisher    = "Addison-Wesley",
+  keywords     = "work practices, collaboration, concurrency",
+  abstract     = "Caterpillar's Fate is a pattern language used to support the
+    transformation from fine analysis documents to an initial software design.
+    Just as the concept metamorphosis is used to explain the magical emergence
+    of butterflies; Caterpillar's Fate explores the magic of constructing a
+    system of objects from an object-free analysis.",
+  location     = "http://c2.com/ppr/catsfate.html"
+}
+
+@InProceedings{teot,
+  author       = "William Cattey",
+  title        = "The Evolution of {\it turnin\/}",
+  subtitle     = "A Classroom-Oriented File Exchange Service",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "137--143",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "scripting, program evolution, system management",
+  abstract     = "From the beginning, MIT Professors wanted to use the Project
+    Athena campus wide computer network to collect assignments.  The turnin
+    program started off as a shell script that sent files to a central
+    timesharing host for perusal by a grader.  When timesharing hosts were
+    replaced by a network of workstations, turnin became a network service
+    layered on NFS.  At that time, programs were added to help graders sort
+    through the files.  Student retrieval of prepared handouts and the exchange
+    of papers in real-time were added.  Today, turnin is a stand alone network
+    service with cooperating servers and a replicated database.  It has been
+    integrated with a WYSIWYG editor for composition of complex documents, and
+    their annotation by peers and teachers.  The teacher side of the interface
+    is evolving into a point and click gradebook interface.  This paper
+    describes the evolution of turnin from its original shell script form to
+    its current integrated editing/formatting/annotating system.", 
+  location     = "http://web.mit.edu/wdc/www/ezhist.html"
 }
 
 @TechReport{dacsbssbsalbl,
@@ -5875,6 +6002,57 @@
   year         = 1991,
   month        = "25 " # aug,
   keywords     = "documentation, web, literate programming, latex, style file"
+}
+
+@Misc{itiftldn,
+  author       = "Andrew~M. Odlyzko",
+  title        = "Internet {TV}: Implications for the Long Distance Network",
+  year         = 2003,
+  keywords     = "long distance network, internet tv, internet backbone, new
+    technology, new mode , traditional broadcast tv, main reason, vinyl record,
+    broadcast tv signal, traditional tv, improved variant, consumer market,
+    natural inertia, cell phone , old medium, last mile, little impact", 
+  abstract     = "The migration of traditional TV to the Internet is likely to
+    have little impact on the long distance network.  The main reason is that
+    consumers still take on the order of a decade to embrace new technologies
+    (such as cell phones) or even improved variants of old media (as with CDs
+    replacing vinyl records).  Hence we should not expect traditional broadcast
+    TV to change substantially or to migrate to new modes of distribution any
+    time soon.  Yet within much less than a decade, progress in photonics will
+    produce an increase in the capacity of Internet backbones far beyond that
+    required to carry all the broadcast TV signals.  There will continue to be
+    bottlenecks in the ”last mile” that will limit the migration of TV to the
+    Internet (and this will reinforce the natural inertia of the consumer
+    market).  However, the backbones are unlikely to be an impediment.  The
+    Internet is likely to have a much larger impact on TV than TV will have on
+    Internet backbones.  There is vastly more storage than transmission
+    capacity, and this is likely to continue.  Together with the requirements
+    of mobility, and the need to satisfy human desires for convenience and
+    instant gratiﬁcation, this is likely to induce a migration towards a
+    store-and-replay model, away from the current real-time streaming model of
+    the broadcast world.  Further, HDTV may ﬁnally get a chance to come into
+    widespread use.  The ﬂexibility of the Internet is its biggest advantage,
+    and will allow for continued experimentation with novel services.", 
+  location     = "http://www.dtc.umn.edu/~odlyzko/doc/tv.internet.pdf"
+}
+
+@Misc{algtdp,
+  author       = "Joshua Kerievsky",
+  title        = "A Learning Guide to Design Patterns",
+  howpublished = "web page",
+  year         = 2000,
+  month        = feb,
+  keywords     = "study groups, software patterns",
+  abstract     = "Every now and then I ask people if they are familiar with the
+    book, Design Patterns: Elements of Reusable Object-Oriented Software.  On
+    such occassions, I'm often surprised to hear someone respond, Yes, I've
+    read it. Having spent close to three years running a study group devoted to
+    understanding the subtleties, combinations and variations of the patterns
+    in this book and others, I am often compelled to ask these individuals if
+    they actually believe that the book can be read rather than studied? This
+    learning guide has been written for those who want to learn and use design
+    patterns, rather than just read about them.", 
+  location     = "https://www.industriallogic.com/papers/learning.html"
 }
 
 @MastersThesis{cchioawan,
