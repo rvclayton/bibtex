@@ -13781,7 +13781,7 @@
 }
 
 @Article{ttsct,
-  author       = "Michael~H. O'Mally",
+  author       = "Michael~H. O'Malley",
   title        = "Text-To-Speech Conversion Technology",
   journal      = ieeec,
   year         = 1990,
