@@ -3381,35 +3381,9 @@
 		  dynamic memory usage of the generated compilers."
 }
 
-@Article{hodo,
-  author       = "Henry Cejtin and Suresh Jagannathan and Richard Kelsey",
-  title        = "Higher-Order Distributed Objects",
-  journal      = toplas,
-  year         = 1995,
-  volume       = 17,
-  number       = 5,
-  pages        = "704--739",
-  month        = sep,
-  keywords     = "distributed computing, scheme, process migration,
-		  continuations, applicative languages, extensible languages",
-  abstract     = "We describe a distributed implementation of Scheme that
-		  permits efficient transmission of higher-order objects such
-		  as closures and continuations. The integration of distributed
-		  communication facilities within a higher-order programming
-		  language engenders a number of new abstractions and paradigms
-		  for distributed computing. Among these are user-specified
-		  load-balancing and migration policies for threads,
-		  incrementally linked distributed computations, and
-		  parameterized client-server applications. To our knowledge,
-		  this is the first distributed dialect of Scheme (or a related
-		  language) that addresses lightweight communication
-		  abstractions for higher-order objects."
-}
-
 @Article{aomffapomjbc,
   author       = "Valerie~E. Polichar",
-  title        = "An Office {MUD} for Fun and Profit?  Or Maybe Just Better
-		  Communication",
+  title        = "An Office {MUD} for Fun and Profit?  Or Maybe Just Better Communication",
   journal      = login,
   year         = 1996,
   volume       = 21,
@@ -4978,7 +4952,7 @@
   month        = jul,
   keywords     = "procedural animation, material deformation, finite-element
 		  analysis",
-  OPTlocation  = "QA 76.A772"
+  location     = "QA 76.A772"
 }
 
 @Article{sifaep,
