@@ -71,7 +71,6 @@ a distributed specification model and its prototyping : wang
 a distributed system : rushby
 a domain specific language for video device drivers from design to implementation : thibault
 a dual ui constraint equation solver in c++ : medwin
-a dynamic network architecture : omalley
 a fast and general implementation of mach ipc in a network : orman
 a fast division technique for constant divisors : artzy
 a fast tmp file system by delay mount option : ohta
@@ -121,7 +120,6 @@ a language for writing code generators : fraser
 a language with distributed scope : cardelli
 a larch specification of copying garbage collection : nettles
 a larch specification of the miro editor : zaremski
-a learning guide to design patterns : kerievsky
 a library implementation of posix threads under unix : mueller
 a lift simulation prototype : galpin
 a linear logic quicksort : baker
@@ -149,7 +147,6 @@ a multi user virtual machine : czajkowski
 a multiparadigm approach to compiler construction : justice
 a multiparty coordination aspect language : corchuelo
 a nanopass framework for compiler education : sarkar
-a nation of strangers : katz
 a new approach to abstract data types i informal development : feferman
 a new approach to economic development an analysis of innovativeness in the states : berman
 a new approach to forth native code generation : ertl
@@ -224,7 +221,6 @@ a simple reflexive interpreter : jefferson
 a simple separate compilation mechanism for block structured languages : le blanc
 a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
-a sociological history of the neural network controversy : olazaran
 a software engineering perspective on algorithmics : weihe
 a specification of modula 2 process coroutine management : nicholl
 a specification of the soar cognitive architecture in z : milnes
@@ -237,7 +233,6 @@ a straightforward denotational semantics for nondeterministic data flow programs
 a stream compiler for communication exposed architectures : gordon
 a streams based communications subsystem in turing plus for protocol development : atwood
 a study of common pitfalls in simple multi threaded programs : choi
-a study of design characterization in evolving software using stability as a criterion : kelly
 a study of protection in programming language : ambler
 a study of the applicability of complexity measures : davis
 a study of the fragile base class problem : makhajlov
@@ -357,7 +352,6 @@ advanced module systems a guide for the perplexed : pierce
 advanced programming lanauge features for executable design patterns better patterns through reflection : sullivan
 advanced programming techniques using scheme : morequ
 advanced thread synchronization in java using interaction expressions : heinlein
-advances and remaining challenges to adoption of public key infrastructure technology : mcclure
 advances in computer mass storage technology : chi
 advances in dataflow programming languages : johnston
 aesthetic layout of generalized trees : bloesch
@@ -486,7 +480,6 @@ analyzing distributed algorithms with first order logic : shlyakhter
 and efficient parallel garbage collection system and its correctness proof : kung
 and or programs a new approach to structured programming : harel
 angel resource unification in a 64 bit micro kernel : murray
-animating fracture : o'brian
 animating z specifications in haskell using a monad : goodman
 annotating objects for transport to other worlds : ungar
 anti vamming trust enforcement in peer to peer voip networks : banerjee
@@ -503,7 +496,6 @@ applying data flow techniques to data base machines : boral
 applying design by contract : meyer
 applying pi towards a basis for concurrent imperative programming : odersky
 applying software complexity metrics to program maintenance : harrison
-architectural and software issues in the design and application of peripheral array processors : karplus
 architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
 architectural styles and the design of network based software architectures : fielding
 architectural support for cooperative multiuser interfaces : bentley
@@ -619,7 +611,6 @@ bridges tools to extend the vesta configuration management system : brown
 bridging the gap between network and relational databases management systems : larson
 brief postscript tutorial for 15 462 : heckbert
 bringing up scientists in the art of critiquing research : kuyper
-bubbles gullibility and other challenges for economics psychology sociology and information sciences : odlyzko
 bug analysis of pascal programs : anjaneyulu
 build a tree save a parse : clark
 build level components : de jonge
@@ -653,7 +644,6 @@ capability based protection in a persistent global virtual memory system : vocht
 capriccio scalable threads for internet services : von behren
 cargo cult science : feynman
 case studies in symbolic model checking : gopalakrishnan
-caterpillars fate a pattern language for transformations from analysis to design : kerth
 causal controversy at le mont st michel : van renesse
 cayenne a language with dependent types : augustsson
 ccmalloc : biere
@@ -894,7 +884,6 @@ deriving graphical representations of process networks from algebraic expression
 deriving tidy drawings of trees : gibbons
 description languages exploration : graham
 description of a machine architecture for use with block structured languages : tanenbaum
-description of a tool for specifying and prototyping concurrent programs : de francesco
 design and implementation of a distributed parallel programming system : lin
 design and implementation of generics for the net common language runtime : kennedy
 design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
@@ -960,7 +949,6 @@ display techniques for octree encoded objects : doctor
 distel distributed emacs lisp for erlang : gorrie
 distributed computing economics : gray
 distributed coordination models for client server computing : adler
-distributed database systems where are we now : ozsu
 distributed ez : campos
 distributed file systems concepts and examples : levy
 distributed mobile computation in obliq : cardelli
@@ -1092,7 +1080,6 @@ evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
 evolution of metropolitan area networks to broadband isdn : byrne
 evolution of test and code via test first design : langr
-example based graphical database query languages : ozsoyoglu
 exception handling in pli : maclaren
 exceptional java : griffiths
 executable specifications with data-flow diagrams : fuggetta
@@ -1136,7 +1123,6 @@ extensible records with scoped labels : leijen
 extensible syntax with lexical scoping : cardelli
 extensions to standard ml to support transactions : wing
 external data representation : xdr
-extracting geometric information from architectural drawings : kernighan
 extracting guarantees from chaos : kubiatowicz
 extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
@@ -1209,7 +1195,6 @@ formal verification of the aamp5 microprocessor : miller
 formalization in programming environments : goguen
 forming grammars for structured documents an application of grammitcal inference : ahonen
 formula a programming language for expressive computer music : anderson
-forward acknowledgement refining tcp congestion control  : mathis
 foundations for object oriented programming : mitchell
 four systems of policy politics and choice : lowi
 fp oop haskell : berger
@@ -1343,6 +1328,7 @@ high speed cryptography with the rsa algorithm : wiener
 high speed local area networks and their performance a survey : abeysundara
 high performance logic programming with the aquarius prolog compiler : van roy
 high pressure steam engines and computer software : leveson
+higher order distributed objects : cejtin
 higher order functions for parsing : hutton
 higher order messaging : welher
 hints on programming language design : hoare
@@ -1476,7 +1462,6 @@ interfaces and extended ml : kahrs
 interlanguage working without tears blending sml with java : benton
 intermediate representations in imperative compilers a survey : stanier
 internet scavenger hunt : internet
-internet tv implications for the long distance network : odlyzko
 interoperability of peer to peer file sharing : lui
 interpretation techniques : klint
 interprocedural control flow analysis of first order programs with tail call optimization : debray
@@ -1503,7 +1488,6 @@ investigating java concurrency using abstract state machines : gurevich
 investigating the influence of formal methods : pfleeger
 io an estelle simulator for performance evaluation : fernandez
 io considered harmful at least for the first few weeks : rosenberg
-ip anycast point to any point communication : metz
 ip switching and gigabit routers : newman
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
@@ -2013,13 +1997,11 @@ pretty printing context free grammars : osborne
 prettyprinting : oppen
 prettyprinting in an interactive programming environment : mikelsons
 price cap regulation can we learn from the british telecom experience : bhattacharyya
-pricing and architecture of the internet historical perspecgtives from telecommunications and transportation : odlyzko
 prime numbers : smith
 primitive types considered harmful : alpert
 principles of transaction oriented database recovery : haerder
 principles versus patterns : pescio
 priority queues for motorists : guttman
-privacy economics and price discrimination on the internet : odlyzko
 probabilistic model for quality of service modeling in packet switched data networks : popescu
 probability statistics and stochastic processes : shalizi
 probability theory : probability
@@ -2106,7 +2088,6 @@ pthreads library interface : mueller
 ptom a pascal translator for mobile code : tschudin
 purely functional data structures : moss
 putting oo distributed programming to work : felber
-px supporting voice in workstations : kamel
 qbe obe a language for office and business automation : zloof
 quality of service negotiation in a real time communication network : ramaekers
 quality of service requirements in packet switching public data networks : park
@@ -2168,7 +2149,6 @@ regular expressions : java
 reiserfs : reiser
 relacs a communications infrastructue for constructing reliable applications in large scale distributed systems : babaoglu
 relations and refinement in circuit design : jones
-reliable and efficient hop by hop flow control : ozveren
 reliable broadcast protocols : chang
 reliable full duplex file transmission over half duplex telephone lines : lynch
 reliable udp protocol : bova
@@ -2234,7 +2214,6 @@ scaling parallel programs for multiprocessors methodology and examples : singh
 scaling up visual programming languages : burnnett
 scarcely variabled programming and pascal : runciman
 scheduling support for concurrency and parallelism in the mach operating system : black
-scheduling vector straight line code on vector processors : keller
 scheme 79 lisp on a chip : sussman
 schemes a high level data structuring concept : mitchell
 schemeunit and schemeql two little languages : welsh
@@ -2332,7 +2311,6 @@ slim binaries : franz
 slinky static linking reloaded : collberg
 slk a capability system based on save language technology : hawblitzel
 small programming exercises : rem
-smart and stupid networks why the internet is like microsoft : odlyzko
 smart messages an object oriented communication mechanism for parallel systems : arjomandi 
 smart pointers they're smart but they're not pointers : edelson
 smashing c++ vptrs : rix
@@ -2429,7 +2407,6 @@ static detection of dynamic memory errors : evans
 static mapping of functional programs an example in signal processing : dennis
 statistical debugging a hypothesis testing based approach : liu
 statistical testing of software based on a usage model : walton
-steganography of voip streams : mazurczyk
 stepwise refinement and verification in box structured systems : mills
 stepwise refinement of parallel algorithms : back
 sticks : shasha
@@ -2484,7 +2461,6 @@ survey of closed queueing networks with blocking : onvural
 survey of highly parallel computing : haynes
 survey of scope issues in programming languages : schwanke
 survey of some theoretical aspects of multiprocessing : baer
-survey of switching techniques in high speed networks and their performance : oie
 survey on application layer mechanisms for speech quality adaptation in voip : carvalho
 svp a model capturing sets streams and parallelism : parker
 swap space implementation : mauro
@@ -2546,7 +2522,6 @@ territory game : shasta
 testing ics getting to the core of the problem : murray
 testing protocol implementations based on a formal specification : miller
 text editors algorithms and architectures : vlades
-text to speech conversion technology : o'mally
 textual specification tabular languages and pccts : craymer
 the 711 problem : gries
 the abcs of specification amsl behavior and components : barnett
@@ -2626,10 +2601,8 @@ the document object model : anon
 the document object model : kamthan
 the dream of a perfect language : eco
 the drunkards walk : mlodinow
-the economics of the internet utility utilization pricing and quality of service : odlyzko
 the effect of a priori views on the social implications of computing the case of office automation : hirschheim
 the effect of unrolling and inlining for python bytecode optimizations : asher
-the effects of pair programming on performance in an introductory programming course : mcdowell
 the elaboration order problem of ada : lander
 the electra approach to object oriented distributed programming an overview : maffeis
 the elements of single chip microcomputer architecture : cragon
@@ -2725,7 +2698,6 @@ the logic of real arguments : fisher
 the logical disk a new approach to improving file systems : de jonge
 the many faces of consensus in distributed systems : turek
 the many faces of inheritance a taxonomy of taxonomy : meyer
-the many paradoxes of broadband : odlyzko
 the marasmus of the icc : huntington
 the masstor mass storage product at brookhaven national laboratory : ewing
 the mathematics of halftoning : adler
@@ -2762,7 +2734,6 @@ the performance of message passign using restricted virtual memory remapping : t
 the pluscal algorithm language : lamport
 the politics of agenda building an alternative perspective for modern democratic theory : cobb
 the polyadic pi calculus a tutorial : milner
-the portland experience a report on a distributed research group : olson
 the power elite : mills
 the power of /proc : galvin
 the precc compiler compiler : breuer
@@ -2958,7 +2929,6 @@ ttp a protocol for fault tolerant real time systems : kopetz
 tutorial compiling concurrent languages for sequential processors : edwards
 tutorial notes on partial evaluation : concel
 tutorial on ats anairiats : ats
-twelve random access strategies for fiber optic networks : maxemchuk
 two faces of power : bachrach
 two handed image navigation in fran : elliott
 two issues in parallel language design : bohm
