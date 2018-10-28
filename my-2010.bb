@@ -4941,7 +4941,7 @@
   location     = "QA 76.A772"
 }
 
-@Article{af,
+@Article{afjfob,
   author       = "James~F. O'Brien and Jessica~K. Hodgins",
   title        = "Animating Fracture",
   journal      = cacm,
@@ -51360,18 +51360,6 @@
   address      = "Stowe, Vermont",
   month        = aug,
   keywords     = "protocol verification, protocol specification"
-}
-
-@InProceedings{ectufoi,
-  author       = "Don Libes",
-  title        = "{expect}: Curing Those Uncontrollabl Fits of Interaction",
-  booktitle    = sucp,
-  year         = 1990,
-  pages        = "183--192",
-  address      = "Anaheim, California",
-  month        = "11--15 June",
-  keywords     = "expect, interaction, shell, programmed dialogue, tcl, unix,
-		  uucp"
 }
 
 @InProceedings{waosgfafah,
