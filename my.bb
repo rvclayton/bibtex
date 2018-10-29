@@ -549,6 +549,16 @@
   location     = "PS 3618.O59 P58"
 }
 
+@Book{hlthw,
+  author       = "T.~Harry Williams",
+  title        = "Huey Long",
+  publisher    = "Knopf",
+  year         = 1969,
+  address      = nyny,
+  keywords     = "huey p. long, politics, southern politics, populism",
+  location     = "E 748.L86 W48"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -3431,7 +3441,7 @@
 
 @Article{tpemho,
   author       = "Olson, Margrethe~H. and Bly, Sara~A.",
-  title        = "The Portland Experience",
+  title        = "The {P}ortland Experience",
   subtitle     = "A Report on a Distributed Research Group",
   journal      = "International Journal of Man-Machine Studies",
   year         = 1991,
@@ -3464,6 +3474,32 @@
     together physically or temporally.  The SCL work forced the boundaries of
     social place to extend beyond the boundaries of physical place.", 
   location     = "https://doi.org/10.1016/0020-7373%2891%2990042-6"
+}
+
+@Article{tdotvos,
+  author       = "Barbara~H. Liskov",
+  title        = "The Design of the {V}enus Operating System",
+  journal      = cacm,
+  year         = 1972,
+  volume       = 15,
+  number       = 3,
+  pages        = "144--149",
+  month        = mar,
+  keywords     = "operating systems, system design, levels of abstraction,
+    machine architecture, microprogramming, signals, semaphores,
+    multiprogramming, virtual machines, processes, process communication,
+    virtual devices, data sharing, resource management, deadlock,
+    segmentation",
+  abstract     = "The Venus Operating System is an experimental
+    multiprogramming system which supports five or six concurrent users on a
+    small computer.  The system was produced to test the effect of machine
+    architecture on complexity of software.  The system is defined by a
+    combination of microprograms and software.  The microprogram defines a
+    machine with some unusual architectural features; the software exploits
+    these features to define the operating system as simply as possible.  In
+    this paper the development of the system is described, with particular
+    emphasis on the principles which guided the design.", 
+  location     = "https://doi.org/10.1145/361268.361272"
 }
 
 @InProceedings{amitbpl,
@@ -4747,6 +4783,47 @@
     describes the evolution of turnin from its original shell script form to
     its current integrated editing/formatting/annotating system.", 
   location     = "http://web.mit.edu/wdc/www/ezhist.html"
+}
+
+@InProceedings{ectufoi,
+  author       = "Don Libes",
+  title        = "{\tt expect}: Curing Those Uncontrollable Fits of Interaction",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "137--143",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "expect, interaction, programmed dialogue, shell tcl, unix,
+    uucp, tty i-o",
+  abstract     = "UNIX programs used to be designed so that they could be
+    connected with pipes created by a shell.  This paradigm is insufficient
+    when dealing with many modern programs that demand to be used
+    interactively.  Expect is a program designed to control interactive
+    programs.  Expect reads a script that resembles the dialogue itself but
+    which may include multiple paths through it.", 
+  location     = "https://www.nist.gov/publications/expect-curing-those-uncontrollable-fits-interaction"
+}
+
+@InProceedings{eotuccilahp,
+  author       = "Paul Chan and Manoj and Vasta Santhanam",
+  title        = "Evolution of the {U}-code Compiler Intermediate Language at {H}ewlett-{P}ackard",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "137--143",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "intermediate representation, language evolution, compilation,
+    stack machines, u-code, p-code, pascal",
+  abstract     = "U-code is a simple stack-based compiler intermediate language
+    developed several years ago for use in portable Pascal and FORTRAN
+    compilers.  Several companies including Hewlett-Packard have used U-code to
+    implement production compilers.  Through the years, the original U-code
+    definition has been extended at Hewlett-Packard to support new languages
+    and compiler functionality.  Recently, Hewlett-Packard proposed a variant
+    of U-code for use as an Architecture-Neutral Distribution Format (ANDF) in
+    response to Open Software Foundation's Request for Technology.  This paper
+    provides a retrospective look at the evolution of U-code at Hewlett-Packard
+    and discusses its suitability as an ANDF." 
 }
 
 @TechReport{dacsbssbsalbl,
