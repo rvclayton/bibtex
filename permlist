@@ -1080,6 +1080,7 @@ evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
 evolution of metropolitan area networks to broadband isdn : byrne
 evolution of test and code via test first design : langr
+evolution of the u code compiler intermediate language at hewlett packard : chan
 exception handling in pli : maclaren
 exceptional java : griffiths
 executable specifications with data-flow diagrams : fuggetta
@@ -2592,6 +2593,7 @@ the design and implementation of the lout document formatting language : kingsto
 the design implementation and evaluation of jade : rinard
 the design of the e programming language : richardson
 the design of the inferno virtual machine : winterbottom
+the design of the venus operating system : liskov
 the development process generative pattern language : coplien
 the diagnosis of mistakes in programmes on the edsac : gill
 the diffusion of innovation among the american states : walker
