@@ -4826,6 +4826,30 @@
     and discusses its suitability as an ANDF." 
 }
 
+@InProceedings{teotd,
+  author       = "Mark~A. Linton",
+  title        = "The Evolution of {{\tt dbx}}",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "211--220",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "source-level debugging, modular structure, breakpoints,
+    tracing, symbol tables",
+  abstract     = "Dbx is the standard source-level debugger on most Unix
+    workstations. Over the past six years Dbx has grown from a debugger for
+    interpreted Pascal programs to a debugger for compiled C, C++, FORTRAN,
+    Pascal, and Modula-2 programs.  Dbx also has been retargetted to a variety
+    of architectures, including VAX, Motorola 68000, MIPS, IBM RT-PC, IBM 370,
+    Sun SPARC, and Intel 80386.  This paper describes the evolution of Dbx and
+    examines how the organization of Dbx has enhanced its portability and
+    extensibility.  The structure of Dbx is based on a set of abstractions that
+    deﬁne what a debugger must do, not on a decomposition by language or
+    machine.  These abstractions provide greater ﬂexibility in handling the
+    unexpected problems associated with retargetting a program.",
+  location     = "ftp://gatekeeper.dec.com/pub/X11/interviews/papers/dbx.ps.Z"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
