@@ -824,6 +824,7 @@ cybernetics and the mangle ashby beer and pask : pickering
 cyclomatic complexity density and software maintenance productivity : gill
 cyclone a safe dialect of c : jim
 d a language framework for distributed programming : lopes
+dalek a gnu improved programmable debugger : olsson
 darwins world simulation in c# an interpreter : wiener
 data abstraction in the box structures approach : deck
 data clustering a review : jain
@@ -3076,6 +3077,7 @@ when one billion does not equal one billion : wiebe
 when telepathy won't do requirements engineering key practices : wiegers
 where do i begin a problem solving approach in teaching functional programming : thompson
 whither software : gabriel
+why a bazaar may fizzle or fail : lindhal
 why c++ is not very fit for gui programming : kiselyov
 why events are a bad idea for high concurrency servers : von behren 
 why gnutella can't scale : ritter
