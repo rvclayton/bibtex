@@ -559,6 +559,16 @@
   location     = "E 748.L86 W48"
 }
 
+@Book{erdc,
+  author       = "Douglas Coupland",
+  title        = "Eleanor Rigby",
+  publisher    = "Bloomsbury",
+  year         = 2004,
+  address      = nyny,
+  keywords     = "quirky people, improbable events",
+  location     = "PS 3553.O855 E44"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -3502,6 +3512,37 @@
   location     = "https://doi.org/10.1145/361268.361272"
 }
 
+@Article{aaospimmswfssd,
+  author       = "Steven~J. Hartley",
+  title        = "An Analysis of Some Problems in Managing Virtual Memory Systems with Fast Secondary Storage Devices",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1176--1187",
+  month        = aug,
+  keywords     = "storage allocation, virtual memory, secondary storage, cyclic
+    locality interval, least-cost pathway, memory management, loop structure,
+    space-time execution cost", 
+  abstract     = "Some of the problems that are expected to be encountered in
+    managing virtual memory systems using the newer-technology secondary
+    storage devices are address.  The difficulties that two proposed policies
+    have in choosing the most economical program localities of reference to
+    assign to primary memory are analyzed.  K.  Koh's (1981) criterion for
+    examining the cyclic locality interval (CLI) hierarchy of a program and
+    choosing the least-cost pathway is examined.  Koh's criterion is designed
+    for the case of a CLI containing a single inner CLI.  The decision to
+    descend the hierarchy is based on the cycle time of the outer CLI.  If the
+    outer CLI has two or more inner CLIs, it is possible for Koh's criterion to
+    indicate that it is more economical to descend to one of the inner CLIs
+    without that actually being the case.  Choosing which CLI to descend to
+    requires knowledge of its duration, and this is not generally available to
+    the memory management system.  An attempt to use Koh's criterion with the
+    loop structure of a program in order to reduce space-time execution cost
+    was not successful.", 
+  location     = "https://doi.org/10.1109/32.7627"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -4850,6 +4891,43 @@
   location     = "ftp://gatekeeper.dec.com/pub/X11/interviews/papers/dbx.ps.Z"
 }
 
+@InProceedings{tdoasig,
+  author       = "Bill Cheswick",
+  title        = "The Design of a Secure {I}nternet Gateway",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "233--237",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "security, gateways, system administration, dmz, intranet",
+  abstract     = "The Internet supports a vast and growing community of
+    computers users around the world.  Unfortunately, this network can provide
+    anonymous access to this community by the unscrupulous, careless, or
+    dangerous.  On any given Internet there is a certain percentage of
+    poorly-maintained systems.  AT&T has a large internal Internet that we wish
+    to protect from outside attacks, while providing useful services between
+    the two.  This paper describes our Internet gateway.  It is an
+    application-level gateway that passes mail and many of the common Internet
+    services between our internal machines and the Internet.  This is
+    accomplished without IP connectivity using a pair of machines: a trusted
+    internal machine and an untrusted external gateway.  These are connected by
+    a private link.  The internal machine provides a few carefully-guarded
+    services to the external gateway.  This configuration helps protect the
+    internal internet even if the external machine is fully compromised.", 
+  location     = "http://www.cheswick.com/ches/papers/gateway.pdf"
+}
+
+@InProceedings{dagipd,
+  author       = "Ronald~A. Olsson and Richard~H. Crawford and W.~Wilson Ho",
+  title        = "Dalek: {A} {GNU}, Improved Programmable Debugger",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "221--231",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "debugging, gdb, events"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -6154,6 +6232,13 @@
     learning guide has been written for those who want to learn and use design
     patterns, rather than just read about them.", 
   location     = "https://www.industriallogic.com/papers/learning.html"
+}
+
+@Misc{wabmfof,
+  author       = "John Lindal",
+  OPTtitle     = "Why a Bazaar may Fizzle or Fail",
+  year         = 1990,
+  keywords     = "cathedral, bazaar"
 }
 
 @MastersThesis{cchioawan,
