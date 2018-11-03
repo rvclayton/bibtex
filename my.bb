@@ -3543,6 +3543,33 @@
   location     = "https://doi.org/10.1109/32.7627"
 }
 
+@Article{gseiahe,
+  author       = "Alain Karsenty and Christophe Tronche and Michel Beaudouin-Lafon",
+  title        = "{GroupDesign}:  Shared Editing in a Heterogeneous Environment",
+  journal      = cs,
+  year         = 1993,
+  volume       = 6,
+  number       = 2,
+  pages        = "167--195",
+  month        = "Spring",
+  keywords     = "shared editors, synchronous groupware, cscw, user interfaces,
+    purely replicated architecture, distributed systems, interactive systems
+    engineering",
+  abstract     = "This article describes GroupDesign, a multi-user drawing tool
+    that runs in a heterogeneous environment (a network of Apple Macintosh
+    computers and Unix workstations).  From the perspective of the users, we
+    present a number of functionalities that we have developed for supporting
+    the collaborative aspect of work and the new user interfaces issues raised
+    by the shared editing of a document: Graphic & Audio Echo, Localization,
+    Identification, Age, History, Teleconference and Private Editing.  From the
+    perspective of the designers, we introduce the notion of purely replicated
+    architecture and we describe the tools we have developed to implement this
+    architecture in a heterogeneous environment.  We also demonstrate the
+    possibility of creating a multi-user application from a single-user one and
+    address the issues in developing synchronous heterogeneous groupware.",
+  location     = "https://pdfs.semanticscholar.org/2be1/dcc7105e1c6f8b171e2263367dcf2560baca.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
