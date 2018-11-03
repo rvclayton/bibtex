@@ -4928,6 +4928,29 @@
   keywords     = "debugging, gdb, events"
 }
 
+@InProceedings{puovfc,
+  author       = "Mike O'Dell",
+  title        = "Putting " # unix # " on Very Fast Computers",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "239--246",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "system design, hardware-software codesign, GaAs circuitry,
+    system calls, signals, interface semantics",
+  abstract     = "A computer with a 250 MHz clock and built from leading-edge
+    technology works in fundamentally different ways compared with a one-chip
+    CMOS VLSI processor clocking in at less than 50 MHz.  The interactions
+    between a UNIX implementation and its supporting hardware have always been
+    quite subtle and remain a considerable headache for those charged with
+    porting the system.  But in addition to the imprecisions of fuzzy
+    functional definitions for some key system facilities, the laws of physics
+    conspire to make the marriage of very fast computers and modern UNIX
+    systems an even more interesting challenge than it would normally be.  This
+    paper discusses some of the matchmaking necessary to achieve a matrimonious
+    accommodation." 
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
