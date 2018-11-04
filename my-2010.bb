@@ -423,8 +423,7 @@
 }
 
 @article{citsnfs,
-  author	= "Michael~N. Nelson and Brent~B. Welch and John~K.
-		   Ousterhout",
+  author	= "Michael~N. Nelson and Brent~B. Welch and John~K. Ousterhout",
   title		= "Caching in the {S}prite Network File System",
   journal	= tocs,
   year		= 1988,
@@ -51362,22 +51361,10 @@
   keywords     = "protocol verification, protocol specification"
 }
 
-@InProceedings{waosgfafah,
-  author       = "John K. Ousterhout",
-  title        = "Why Aren't Operating Systems Getting Faster as Fast as
-		  Hardware?",
-  booktitle    = sucp,
-  year         = 1990,
-  pages        = "247--256",
-  address      = "Anaheim, California",
-  month        = "11--15 June",
-  keywords     = "protection barriers, context switching, bandwidth mismatch"
-}
-
 @InProceedings{tlsm,
   author       = "Mandel Rosenblum and John K. Ousterhout",
   title        = "The {LFS} Storage Manager",
-  booktitle    = sucp,
+  booktitle    = usenixs90,
   year         = 1990,
   pages        = "315--324",
   address      = "Anaheim, California",
