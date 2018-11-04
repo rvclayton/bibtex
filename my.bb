@@ -1,7 +1,6 @@
 .so bibtex.header
 		  
 @string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
-@string{usenixs90 = pot # "Summer 1990 USENIX Conference"}
 
 @Book{tdoetn,
   author       = "Tom Nichols",
@@ -4976,6 +4975,37 @@
     systems an even more interesting challenge than it would normally be.  This
     paper discusses some of the matchmaking necessary to achieve a matrimonious
     accommodation." 
+}
+
+@InProceedings{tbpvsbirt,
+  author       = "Roy~D. Trammell",
+  title        = "The Big Picture:  Visualizing System Behavior in Real Time",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "257--266",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "system performance, visualization, performance analysis",
+  abstract     = ""
+}
+
+@InProceedings{watosgfafah,
+  author       = "John~K. Ousterhout",
+  title        = "Why Aren’t Operating Systems Getting Faster As Fast as Hardware?",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "247--256",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "system performance, bandwidth mismatches",
+  abstract     = "This paper evaluates several hardware platforms and operating
+    systems using a set of benchmarks that stress kernel entry/exit, file
+    systems, and other things related to operating systems.  The overall
+    conclusion is that operating system performance is not improving at the
+    same rate as the base speed of the underlying hardware.  The most obvious
+    ways to remedy this situation are to improve memory bandwidth and reduce
+    operating systems’ tendency to wait for disk operations to complete.", 
+  location     = "https://web.stanford.edu/~ouster/cgi-bin/papers/osfaster.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
