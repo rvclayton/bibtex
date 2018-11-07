@@ -71,7 +71,6 @@ a distributed specification model and its prototyping : wang
 a distributed system : rushby
 a domain specific language for video device drivers from design to implementation : thibault
 a dual ui constraint equation solver in c++ : medwin
-a fast and general implementation of mach ipc in a network : orman
 a fast division technique for constant divisors : artzy
 a fast tmp file system by delay mount option : ohta
 a fast file system for unix : mckusick
@@ -2327,7 +2326,6 @@ software based replication for fault tolerance : guerraoui
 software caching vs prefetching : aggarwal
 software communication mechanisms procedure calls versus messages : stankovic
 software complexity and its impact on software reliability : lew
-software considerations in mass storage systems : o'lear
 software defect reduction top 10 list : boehm
 software design : enos
 software development based on executable specifications and transformations : fromherz
