@@ -3569,6 +3569,62 @@
   location     = "https://pdfs.semanticscholar.org/2be1/dcc7105e1c6f8b171e2263367dcf2560baca.pdf"
 }
 
+@Article{srtaiaispnaam,
+  author       = "Clark, David~D. and Shenker, Scott and Zhang, Lixia",
+  title        = "Supporting Real-Time Applications in an Integrated Services Packet Network: Architecture and Mechanism",
+  journal      = ccr # " (" # pot # "ACM SIGCOMM '92 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication)",
+  year         = 1992,
+  volume       = 22,
+  number       = 4,
+  pages        = "14--26",
+  month        = oct,
+  keywords     = "real-time, applications, delay, qos, traffic guarantees,
+    scheduling, service interfaces, admission control",
+  abstract     = "This paper considers the support of real-time applications in
+    an Integrated Services Packet Network (ISPN).  We first review the
+    characteristics of real-time applications.  We observe that, contrary to
+    the popular view that real-time applications necessarily require a fixed
+    delay bound, some real-time applications are more flexible and can adapt to
+    current network conditions.  We then propose an ISPN architecture that
+    supports two distinct kinds of real-time service: guaranteed service, which
+    is the traditional form of real-time service discussed in most of the
+    literature and involves pre-computed worst-case delay bounds, and predicted
+    service which uses the measure performance of the network in computing
+    delay bounds.  We then propose a packet scheduling mechanism that can
+    support both of these real-time services as well as accommodate datagram
+    traffic.  We also discuss two other aspects of an overall ISPN
+    architecture: the service interface and the admission control criteria.", 
+  location     = "https://doi.org/10.1145/144179.144199", 
+  location     = "https://groups.csail.mit.edu/ana/Publications/PubPDFs/Supporting%20Real-Time%20Applications%20in%20an%20Integrated%20Services%20Packet%20Network.pdf"
+}
+
+@Article{palparmsfdp,
+  author       = "Kessels, Joep L.~W.",
+  title        = "{PHILAN}:  {A} {LAN} Providing a Reliable Message Service for Distributed Processing",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 10,
+  pages        = "1424--1431",
+  month        = oct,
+  keywords     = "circuit-switched traffic, fiber-optic ring, flow and error
+    control, local area network, reliable message service",
+  abstract     = "A local area network (LAN) design based on a ring topology is
+    presented which can support both packet-switched and circuit-switched
+    traffic.  The packet-switching service is reliable in that the LAN
+    controllers deal with all protocol problems, i.e., medium arbitrations as
+    well as flow and error control.  The service can meet real-time
+    constraints, since the performance is stable under high load conditions and
+    the arbitration delays are bounded.  Moreover, the processing speed of the
+    LAN controller is independent of the transmission speed, and the speed
+    requirements are such that they can be met by a microprocessor (no need for
+    dedicated hardware to process the information on the fly).  Before the
+    design of PHILAN is presented, an analysis is given of the protocol
+    problems that have to be dealt with when establishing a reliable
+    packet-switching service on a LAN.", 
+  location     = "https://doi.org/10.1109/32.6187"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5045,6 +5101,42 @@
     reason for investigating file server performance: helping a computing
     facility answer the question How will our application (workload) perform
     using this file server?} 
+}
+
+@InProceedings{pmoamsk,
+  author       = "John~H. Hartman and John~K. Ousterhout",
+  title        = "Performance Measurements of a Multiprocessor {S}prite Kernel",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "279--287",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "multiprocessing, locking, kernel throughput, multithreaded
+    computation, bottlenecks, monitors, kernel programming, mutual exclusion,
+    virtual memory, scheduling, sprite",
+  abstract     = "This report presents performance measurements made of the
+    Sprite operating system running on a multiprocessor.  A variety of microand
+    macro-benchmarks were run while varying the number of processors in the
+    system, and both the elapsed time and the contention for kernel locks were
+    recorded.  A number of interesting conclusions are drawn from the results.
+    First, the macro-benchmarks show acceptable performance on systems of up to
+    five processors.  Total system throughput increases almost linearly with
+    the system size.  Projections of the lock contention measurements show that
+    the maximum performance will be reached with about seven processors in the
+    system.  Second, it is often difficult to predict the effect of a benchmark
+    on particular kernel locks.  It was anticipated that different benchmarks
+    would saturate different kernel monitor locks.  After running the
+    benchmarks it was found that a single master lock was the biggest kernel
+    bottleneck, and that one of the micro-benchmarks had saturated a different
+    lock than the one at which it was targeted.  The kernel locking structure
+    has become so complex as the system has evolved that it is hard to
+    determine cause and effect relationships.  Third, although the kernel
+    contains many locks, only a few of them are performance bottlenecks.
+    Performance measurements such as those presented here allow the relevant
+    parts of the kernel to be redesigned to eliminate the bottlenecks.  Such a
+    redesign is needed to allow the system to scale gracefully beyond about
+    seven processors.", 
+  location     = "https://pdfs.semanticscholar.org/d62c/c6245f2136b944d016a9eac1d42c37e1babc.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
