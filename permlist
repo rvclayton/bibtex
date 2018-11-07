@@ -1708,7 +1708,7 @@ modular scheduling of atomic actions : rosenband
 module algebra : bergstra
 module imbedding : radenski
 module types module variables and their use as a universal encapsulation mechanism : radenski
-mom vs rpc communication models for distributed applications" : menasce
+mom vs rpc communication models for distributed applications : menasce
 monadic parser combinators : hutton
 monadic robotics : peterson
 monads for functional programming : wadler
@@ -1716,6 +1716,7 @@ monads indexes and transformations : bellegarde
 monitoring for deadlock and blocking in ada tasking : german
 monitoring program execution a survey : plattner
 monitors an operating system structuring concept : hoare
+montage breaking windows into small pieces : haahr
 more programming puzzlers : bloch
 more than a gigabuck examining gnu linux's size : wheeler
 moscow ml owners manual : romanenko
