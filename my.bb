@@ -5139,6 +5139,35 @@
   location     = "https://pdfs.semanticscholar.org/d62c/c6245f2136b944d016a9eac1d42c37e1babc.pdf"
 }
 
+@InProceedings{mbwisp,
+  author       = "Paul Haahr",
+  title        = "Montage:  Breaking Windows into Small Pieces",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "289--297",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "window managers, scheme, csp",
+  abstract     = {Window systems are hard to program because the involve
+    connecting an asynchronous world, where a mouse may move or a key may be
+    pressed a any moment, to programs which execute synchronously.  This
+    requirement has led to the use of the 9inverted program structure style of
+    programming, which adds complexity to the underlying code.  The Montage
+    window system eliminates this complexity by providing a programming model
+    that uses sequential fragments of code connected by synchronous I/O.  The
+    system has its clients are written in an extension to the Scheme
+    programming language which supports concurrency.  In the same way as useful
+    routines can be built up from simple programs by composing Unix pipelines,
+    sophisticated applications can be created in Montage by connecting simple
+    lightweight processes.  In addition, the programs may be trivially (and
+    transparently) modified by adding processes that filter input to or output
+    from applications.  This use of concurrency and compatibility is isomorphic
+    to object-oriented programming.  Things that would be objects in other
+    window systems, such as window decoration (borders, title bars, etc.) or
+    menus are processes, but, in practice, Montage processes are easier to
+    write than objects in other window systems.}
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
