@@ -3625,6 +3625,37 @@
   location     = "https://doi.org/10.1109/32.6187"
 }
 
+@Article{iitdoatfsmge,
+  author       = "Michael Knister and Atul Prakash",
+  title        = "Issues in the Design of a Toolkit for Supporting Multiple Group Editors",
+  journal      = cs,
+  year         = 1993,
+  volume       = 6,
+  number       = 2,
+  pages        = "135--166",
+  month        = "Spring",
+  keywords     = "cscw, sharing toolkit, isis, group editing, retrofitting",
+  abstract     = "A great interest has developed in recent years in building
+    tools that allow people to collaborate on work without the need for
+    physical proximity.  One such class of tools, group editors, allows
+    collaborators to view and edit a shared document simultaneously from their
+    workstations.  Building group editors, however, requires solving
+    non-trivial problems such as providing adequate response time for edit
+    operations and yet ensuring consistency with concurrent updates, and
+    providing adequate per-user undo facilities.  We have implemented a
+    toolkit, called DistEdit, for building new interactive group editors and
+    for converting existing single-user editors into group editors with minimal
+    changes to their code.  The toolkit allows different users to use their
+    favorite editors (e.g., Xedit, Gnu Emacs) to edit a shared file and observe
+    each others' changes as they occur.  The toolkit provides fine-grain
+    concurrency control, fault-tolerance, synchronization of views, and support
+    for per-user undo.  V/e describe the detailed design and implementation of
+    the DistEdit toolkit and report our experiences in converting several
+    editors, including Gnu Emacs and Xedit, to group editors using the
+    toolkit.",
+  location     = "https://www.usenix.org/publications/compsystems/1993/spr_knister.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5166,6 +5197,38 @@
     window systems, such as window decoration (borders, title bars, etc.) or
     menus are processes, but, in practice, Montage processes are easier to
     write than objects in other window systems.}
+}
+
+@InProceedings{saxwms,
+  author       = "Thomas~E. LaStrange",
+  title        = "{swm}: An {X} Window Manager Shell",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "299--306",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "configuration, virtual desktops, session management,
+    object-oriented structuring",
+  abstract     = "swm is a policy-free, user conﬁgurable window manager client
+    for the X Window System.  Besides providing basic window manager
+    functionality, swm introduces new features not found in existing window
+    managers.  First and foremost, swm has no default look-and-feel.  Like the
+    X Window system itself, swm does not dictate policy (look-and-feel);
+    rather, it provides the mechanism for implementing window management
+    policy.  Users are not required to learn a new programming language to
+    modify its behavior; instead, simple objects with associated actions
+    determine swm’s operation.  Its major advantage over other window managers
+    is a feature called the Virtual Desktop.  The Virtual Desktop effectively
+    makes the X root window larger than the physical limits of the display and
+    can be panned in a number of ways,including scroll bars, a panner object,
+    or window manager commands.  Besides window management, swm also provides
+    primitive session management.  It can save a user’s current window layout
+    and restart those clients when X is restarted.  swm can restart clients
+    regardless of what toolkit they were built on or what remote host (if any)
+    they were running on.  All relevant client information is restored,
+    including window position and size, icon position, and the state of the
+    client.", 
+  location     = "http://www.lastrange.com/work/swm.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
