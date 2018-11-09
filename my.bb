@@ -5231,6 +5231,40 @@
   location     = "http://www.lastrange.com/work/swm.pdf"
 }
 
+@InProceedings{ahluitftxwsact,
+  author       = "Pedneault, Michel",
+  title        = "{A} High-Level User Interface Toolkit for the {X} {WINDOW} {SYSTEM} and Character Terminals",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "307--313",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "user interface toolkits, interface polymorphism,
+    character-based interfaces, graphical interfaces, curses",
+  abstract     = "NTUI is a high-level user interface toolkit that allows
+    single-stream development of unix applications intended for both the X
+    window System and character terminals.  The graphical and the
+    character-based versions of an application share the same source code.  The
+    sharing is not limited to code written in a high-level programming language
+    such as C.  It also includes defaults specified in X resource files, and
+    objects, such as forms and menus, built with a user interface definition
+    language that provides a non-programmatic way of specifying the
+    presentation aspects of a user interface.  An important characteristic of
+    this toolkit is that the character-based version does not impose
+    constraints on the appearance of the graphical version.  Similarly, the
+    usability of the character-based version is not compromised by the richer
+    interactive environment in which the graphical version is used.  This is
+    achieved by a careful encapsulation of appearance and behavior semantics at
+    the toolkit level.  Both versions of NTUI are based on the X Toolkit.  The
+    X Window System version follows a client-server model.  In the
+    character-based version, windows and events are local to the application; a
+    library provides windowing system and even-handling services that the X
+    Toolkit normally obtains from an X Server.  The sharing of a single
+    terminal among several NTUI and other character-based applications is
+    achieved by a single screen manager which provides serial access to
+    applications running in parallel." 
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
