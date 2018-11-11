@@ -51361,17 +51361,6 @@
   keywords     = "protocol verification, protocol specification"
 }
 
-@InProceedings{tlsm,
-  author       = "Mandel Rosenblum and John K. Ousterhout",
-  title        = "The {LFS} Storage Manager",
-  booktitle    = usenixs90,
-  year         = 1990,
-  pages        = "315--324",
-  address      = "Anaheim, California",
-  month        = "11--15 June",
-  keywords     = "disk management, logs, system performance"
-}
-
 @InProceedings{dotx,
   author       = "Norman~C. Hutchinson and" # lap,
   title        = "Design of the " # xk,
