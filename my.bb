@@ -3656,6 +3656,32 @@
   location     = "https://www.usenix.org/publications/compsystems/1993/spr_knister.pdf"
 }
 
+@Article{sfrig,
+  author       = "Ramamoorthy, C.~V. and Garg, Vijay and Prakash, Atul",
+  title        = "Support for Reusability in {G}enesis",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1145--1154",
+  month        = aug,
+  keywords     = "abstraction, programming environment, reusability,
+    traceability, attributes, entities, relations, query languages",
+  abstract     = "Genesis is a software-engineering-based programming
+    environment geared to support big software projects.  The authors first
+    discuss a reusability-driven development methodology that advocates
+    software development based on reusability considerations.  Then, they
+    discuss the tools and techniques provided in Genesis to support this
+    methodology.  Techniques are suggested for improving the retrievability,
+    composability, and understandability of software resources.  Retrievability
+    is improved by use of ESL (entity specification language) for tying
+    resources through attributes and relations.  Composability is improved
+    through a mechanism called functional composition that provides
+    considerably more generality than Unix pipes for composing programs.
+    Understandability is improved by the use of program abstractors.", 
+  location     = "https://doi.org/10.1109/32.7625"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5263,6 +5289,39 @@
     terminal among several NTUI and other character-based applications is
     achieved by a single screen manager which provides serial access to
     applications running in parallel." 
+}
+
+@InProceedings{tlsm,
+  author       = "Mendel Rosenblum and John~K. Ousterhout",
+  title        = "The {LFS} Storage Manager",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "315--324",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "log-structured file systems, cpu-storage speed mismatch,
+    immutable data structures, disk performance, storage management, primary
+    store caches, free-space management, checkpointing",
+  abstract     = "Advances in computer system technology in the areas of CPUs,
+    disk subsystems, and volatile RAM memory are combining to create
+    performance problems existing file systems are ill-equipped to solve.  This
+    paper identifies the problems of using the existing UNIX file systems on
+    1990's technology and presents an alternative file system design that can
+    use disks an order-of-magnitude more efficiently for typical UNIX
+    workloads.  The design, named LFS for log-structured file system, treats
+    the disk as a segmented append-only log.  This allows LFS to write many
+    small changes to disk in a single large I/O while still maintaining the
+    fast file reads of existing file systems.  In addition, the log-structured
+    approach allows near instantaneous file system crash recovery without
+    coupling CPU and disk performance with synchronous disk writes.  This paper
+    describes and justifies the major data structures and algorithms of the LFS
+    design.  We compare an implementation of LFS in the Sprite distributed
+    operating system to SunOS's file system running on the same hardware.  For
+    tests that create, destroy, or modify files at a high rate, LFS can achieve
+    an order-of-magnitude speedup over SunOS.  In spite of its obvious
+    write-optimization, LFS's read performance matches or exceeds the SunOS
+    file system under most common UNIX workloads.", 
+  location     = "https://users.soe.ucsc.edu/~sbrandt/290S/lfs.ps"
 }
 
 @TechReport{dacsbssbsalbl,
