@@ -1704,7 +1704,6 @@ modern concurrency abstractions for c# : benton
 modula 2 projects for an operating systems course racing sorts and multiple windows : feldman
 modula 3 language definition : cardelli
 modular denotational semantics for compiler construction : liang
-modular design of real time systems : haase
 modular extensions to z : sampaio
 modular scheduling of atomic actions : rosenband
 module algebra : bergstra
@@ -1721,7 +1720,6 @@ monitors an operating system structuring concept : hoare
 montage breaking windows into small pieces : haahr
 more programming puzzlers : bloch
 more than a gigabuck examining gnu linux's size : wheeler
-moscow ml owners manual : romanenko
 mpegtool an x window based mpeg encoder and statistics tool : urabe
 much ado about patterns : zubek
 mud faq : anon
@@ -2321,7 +2319,6 @@ smashing c++ vptrs : rix
 smgn rapid prototyping of small domain specific languages : kienle
 sml tk functional programming for graphical user interfaces : luth
 soap simple object access protocol : box
-sockets programming in java a tutorial : mahmoud
 soft typing : carwright
 software abstractions : jackson
 software assurance by bounded exhaustive testing : yang
@@ -2901,7 +2898,6 @@ towards a new security architecture for telephony : bassil
 towards a semantics for object z : duke
 towards action refinement in process algebras : aceto
 towards leakage containment : lawall
-towards more effective testing for high assurance systems : hecht
 towards principles of inheritance and subtyping in programming languages : moss
 towards relaxing assumptions in languages and their implementation : shaw
 towards the best collection api : kiselyov
