@@ -75,6 +75,7 @@ a fast division technique for constant divisors : artzy
 a fast tmp file system by delay mount option : ohta
 a fast file system for unix : mckusick
 a fifteen puzzle in fran : elliott
+a filesystem for software development : hendricks
 a first course in computer science mathematical principles for software engineering : mills
 a first look at novice compilation behaviorusing bluej : jadud
 a formal description of behavioral verilog based on axiomatic semantics : fiskio
@@ -1162,6 +1163,7 @@ finding components in a hierarchy of modules a step towards architectural unders
 finding faults in multi threaded programs : artho
 finding response times in a real time system : joseph
 finding significance in noisy data : kimbrel
+finding similar files in a large file system : manber
 finding string distances : vlades
 fine grained object protection in unix : low
 finger trees a simple general purpose data structure : hinze
