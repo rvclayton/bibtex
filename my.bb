@@ -1,6 +1,7 @@
 .so bibtex.header
 		  
 @string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
+@string{usenixw94 = pot # "Winter 1994 USENIX Conference"}
 
 @Book{tdoetn,
   author       = "Tom Nichols",
@@ -566,6 +567,16 @@
   address      = nyny,
   keywords     = "quirky people, improbable events",
   location     = "PS 3553.O855 E44"
+}
+
+@Book{ensp,
+  author       = "Steven Pinker",
+  title        = "Enlightenment Now",
+  publisher    = "Viking",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "enlightenment, progress, science, reason, humanism",
+  location     = "HM 891.P56"
 }
 
 @InBook{aplftcaibottamm,
@@ -3682,6 +3693,28 @@
   location     = "https://doi.org/10.1109/32.7625"
 }
 
+@Article{tcmfat,
+  author       = "Sol M. Shatz",
+  title        = "Towards Complexity Metrics for {A}da Tasking",
+  journal      = tse,
+  year         = 1988,
+  OPTvolume    = 14,
+  number       = 8,
+  pages        = "1122--1127",
+  month        = aug,
+  keywords     = "distributed computing, software maintenance, software
+    measurement, software testing, complexity theory, petri nets, programming,
+    software design, guidelines, software metrics",
+  abstract     = "Using Ada as a representative distributed programming
+    language, the author discusses some ideas on complexity metrics that focus
+    on Ada tasking and rendezvous.  Concurrently active rendezvous are claimed
+    to be an important aspect of communication complexity.  A Petri net graph
+    model of Ada rendezvous is used to introduce a rendezvous graph, an
+    abstraction that can be useful in viewing and computing effective
+    communication complexity.", 
+  location     = "https://doi.org/10.1109/32.7623"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5322,6 +5355,90 @@
     write-optimization, LFS's read performance matches or exceeds the SunOS
     file system under most common UNIX workloads.", 
   location     = "https://users.soe.ucsc.edu/~sbrandt/290S/lfs.ps"
+}
+
+@InProceedings{eulfcmotsvi,
+  author       = "David~C. Steere and James~J. Kistler and M.~Satyanarayanan",
+  title        = "Efficient User-Level File Cache Management on the {S}un {V}node Interface",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "325--332",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "performance, user-level file systems, caching, ipc, coda, venus",
+  abstract     = "In developing a distributed file system, there are several
+    good reasons for implementing the client file cache manager as a user-level
+    process.  These include ease of implementation, increased portability, and
+    minimal impact on kernel size.  For reasons of compatibility it is also
+    desirable to use a standard file intercept mechanism on the client.  The
+    Sun VFS/Vnode file system interface is such a standard.  However, this
+    interface is designed for kernel-based file systems, and a user-level cache
+    manager that used the Vnode mechanism would pay a large performance penalty
+    due to the high number of kernel to cache manager context switches per file
+    system call.  This paper describes our solution to the problem for the Coda
+    file system.  By using a relatively small amount of kernel code to cache
+    critical information, we are able to retain the much larger and more
+    complex components of the Coda cache manager in a user level process.  The
+    measurements of Coda presented here confirm the performance benefits of
+    this strategy, and indicate the relative merits of caching different kinds
+    of information in the kernel.", 
+  location     = "https://www.cs.cmu.edu/~satya/docdir/steere-usenix-vfs-1990.pdf"
+}
+
+@InProceedings{affsd,
+  author       = "David Hendricks",
+  title        = "{A} Filesystem for Software Development",
+  booktitle    = usenixs90,
+  year         = 1990,
+  pages        = "333--340",
+  address      = "Anaheim, " # CA,
+  month        = "11--15 " # jun,
+  keywords     = "user-space file systems, union file systems, file systems,
+    vnodes, version control",
+  abstract     = "Successful software development often requires the
+    duplication of source hierarchies, either to make snapshots of releases or
+    to allow multiple developers to work in parallel on common sets of sources.
+    Copying files is expensive in terms of space, time, and the administrative
+    burden of keeping all the copies up-to-date.  The Translucent File Service
+    (TFS) is a special-purpose filesystem transparent to user programs, that
+    removes the need to copy files.  The TFS is a Sun Operating System (SunOS)
+    filesystem with copy-on-write semantics.  The TFS allows users both to
+    share a file hierarchy and to have a private hierarchy into which files
+    from the shared hierarchy are copied as they are modified.  Consequently,
+    users are isolated from each other's changes, as files in the shared
+    hierarchy are guaranteed not to change.  Files are only copied when they
+    are modified, conserving disk space.  The TFS was built to support Sun's
+    version configuration and management tool, the Network Software Environment
+    (NSE).  The TFS is a mature filesystem that has been made a standard part
+    of SunOS version 4.1.  This paper describes the semantics that the TFS
+    provides, and presents several applications of the TFS.  The implementation
+    of the TFS is described, along with possibilities for future development." 
+}
+
+@InProceedings{fsfialfs,
+  author       = "Udi Manber",
+  title        = "Finding Similar Files in a Large File System",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "1--10",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "fingerprinting, approximate fingerprinting",
+  abstract     = "We present a tool, called sif, for finding all similar files
+    in a large file system.  Files are considered similar if they have
+    significant number of common pieces, even if they are very different
+    otherwise.  For example, one file may be contained, possibly with some
+    changes, in another file, or a file may be a reorganization of another
+    file.  The running time for finding all groups of similar files, even for
+    as little as 25% similarity, is on the order of 500MB to 1GB an hour.  The
+    amount of similarity and several other customized parameters can be
+    determined by the user at a post-processing stage, which is very fast.  Sif
+    can also be used to very quickly identify all similar files to a query file
+    using a preprocessed index.  Application of sif can be found in file
+    management, information collecting (to remove duplicates), program reuse,
+    file synchronization, data compression, and maybe even plagiarism
+    detection.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/manber.finding"
 }
 
 @TechReport{dacsbssbsalbl,
