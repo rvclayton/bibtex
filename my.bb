@@ -3715,6 +3715,19 @@
   location     = "https://doi.org/10.1109/32.7623"
 }
 
+@Article{spijat,
+  author       = "Qusay~H. Mahmoud",
+  title        = "Sockets Programming in {J}ava:  {A} Tutorial",
+  journal      = "JavaWorld",
+  year         = 1996,
+  month        = "11 " # dec,
+  keywords     = "java, sockets, programming",
+  abstract     = "This classic JavaWorld tutorial presents an introduction to
+    sockets programming over TCP/IP networks and demonstrates how to write
+    client/server applications in Java.", 
+  location     = "https://www.javaworld.com/article/2077322/core-java/core-java-sockets-programming-in-java-a-tutorial.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5441,6 +5454,30 @@
   location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/manber.finding"
 }
 
+@InProceedings{tmetfhas,
+  author       = "Herbert Hecht and Myron Hecht and Dolores Wallace ",
+  title        = "Toward More Effective Testing for High-Assurance Systems",
+  booktitle    = pot # "1997 High-Assurance Engineering Workshop",
+  year         = 1997,
+  pages        = "176--181",
+  address      = wdc,
+  month        = "11--12 " # aug,
+  keywords     = "system testing, software testing, failure analysis, nist,
+    costs, hardware, guidelines, application software, fault tolerance,
+    software reliability", 
+  abstract     = "The objective of the paper is to reduce the cost of testing
+    software in high assurance systems.  It is at present a very expensive
+    activity and one for which there are no generally accepted guidelines.  A
+    part of the problem is that failure mechanisms for software are not as
+    readily understood as those for hardware, and that the experience of any
+    one project does not provide enough data to improve the understanding.  A
+    more comprehensive attack on the high cost of software test requires
+    pooling of fault and failure data from many projects, and an initiative by
+    NIST that can furnish the basis for the data collection and analysis is
+    described.", 
+  location     = "https://doi.org/10.1109/HASE.1997.648060"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -6403,6 +6440,15 @@
   organization = "Oracle",
   keywords     = "rmi, java",
   location     = "https://docs.oracle.com/javase/tutorial/rmi/overview.html"
+}
+
+@Manual{mmosm,
+  title        = "Moscow {ML} Owner's Manual",
+  author       = "Sergei Romanenko and Peter Sestoft and Claudio Russo",
+  year         = 1998,
+  month        = "1 " # jul,
+  keywords     = "ml, programming, polymorphism",
+  location     = "http://mosml.org/manual.pdf"
 }
 
 @Unpublished{ivbf,
