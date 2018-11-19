@@ -801,7 +801,8 @@ correctness and composition of software architectures : moriconi
 counting paths nondeterminism as linear algebra : benson
 coverage problems in sensor networks a survey : wang
 covert flow trees a visual approach to analyzing covert storage channel : kemmerer
-scp miner finding copy paste and related bugs in large scale software code : li
+cp miner finding copy paste and related bugs in large scale software code : li
+cql a flat file database query language : fowler
 cracking the oyster : bentley
 crazy clocks counterintuitive consequences of inteligent automation : vicente
 creating encoded name and value pairs : webb
@@ -1075,6 +1076,7 @@ evaluating software complexity measures : weyuker
 evaluating software engineering standards : pfleeger
 event reconstruction in high energy physics : rinaldo
 everything you always wanted to know about synchronization but were afraid to ask : david
+evolving mach 3.0 to a migrating thread model : ford
 evolving rpc for active storage : sivathanu
 evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
@@ -1266,6 +1268,7 @@ getting started with ups : ups
 ghosts of unix past part 2 conflated designs : brown
 gibis a hypertext tool for exploratory policy discussion : conklin
 gj extending the java programming language with type parameters : bracha
+glimpse a tool to search through entire file systems : manber
 glimpse documentation : glimpse
 gnu mix development kit mdk : ruiz
 gnu smalltalk users guide : gnu
@@ -2077,6 +2080,7 @@ protocol latency mips and reality : mosberger
 protocol programming in erlang using binaries : wikstrom
 protocol specification and verification using z : duke
 protocol verification made simple a tutorial : gouda
+protocols for data security : dimillo
 protocols for providing performance guarantees in a packet switching internet : lowery
 prototype based application construction using self 4.0 : wolczko
 prototype based programming in javascript : techhead
@@ -2755,6 +2759,7 @@ the quality without a name : gabriel
 the r6rs module system : simionato
 the reactive keyboard a predictive typing aid : darragh
 the real meaning of architecture : fisher
+the refdbms bibliographic database system : golding
 the relevance of education : bruner
 the resuability challenge : meyer
 the rise of pseudo fascism : neiwert
