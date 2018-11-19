@@ -3728,6 +3728,32 @@
   location     = "https://www.javaworld.com/article/2077322/core-java/core-java-sockets-programming-in-java-a-tutorial.html"
 }
 
+@Article{autfdsca,
+  author       = "Dorab Patel and Scott~D. Kalter",
+  title        = "{A} " # unix # " Toolkit for Distributed Synchronous Collaborative Applications",
+  journal      = cs,
+  year         = 1993,
+  volume       = 6,
+  number       = 2,
+  pages        = "105--134",
+  month        = "Spring",
+  keywords     = "groupware, distributed applications, rendezvous, resource
+    discovery, session management, asynchronous i-o",
+  abstract     = "There are many low-level problems, such as resource discovery
+    and rendezvous, faced by developers of distributed synchronous
+    collaborative applications.  This paper systematically explores these
+    problems and discusses their solutions under Unix.  These solutions are
+    collected into a toolkit that provides a high-level abstract interface to
+    developers for a variety of different application classes.  The toolkit
+    supports rendezvous via a file, rather than via a user or application.
+    This lets clients join a session without additional user specification.  A
+    toolkit evaluation, and comparison with alternatives, indicates the class
+    of applications most suited to this approach.  Experience using the toolkit
+    with various applications demonstrates the usefulness of the provided
+    primitives for rapidly developing collaborative applications.", 
+  location     = "http://www.usenix.org/publications/compsystems/1993/spr_patel.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5476,6 +5502,165 @@
     NIST that can furnish the basis for the data collection and analysis is
     described.", 
   location     = "https://doi.org/10.1109/HASE.1997.648060"
+}
+
+@InProceedings{em30tamtm,
+  author       = "Ford, Bryan and Lepreau, Jay",
+  title        = "Evolving {M}ach 3.0 to a Migrating Thread Model",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "97--114",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "mach, threads, thread migration, active objects, operating
+    systems, protection boundaries, upcalls",
+  abstract     = "We have modified Mach 3.0 to treat cross-domain remote
+    procedure call (RPC) as a single entity, instead of a sequence of message
+    passing operations.  With RPC thus elevated, we improved the transfer of
+    control during RPC by changing the thread model.  Like most operating
+    systems, Mach views threads as statically associated with a single task,
+    with two threads involved in an RPC.  An alternate model is that of
+    migrating threads, in which, during RPC, a single thread abstraction moves
+    between tasks with the logical flow of control, and server code is
+    passively executed.  We have compatibly replaced Mach's static threads with
+    migrating threads, in an attempt to isolate this aspect of operating system
+    design and implementation.  The key element of our design is a decoupling
+    of the thread abstraction into the execution context and the schedulable
+    thread of control, consisting of a chain of contexts.  A key element of our
+    implementation is that threads are now based in the kernel, and temporarily
+    make excursions into tasks via upcalls.  The new system provides more
+    precisely defined semantics for thread manipulation and additional control
+    operations, allows scheduling and accounting attributes to follow threads,
+    simplifies kernel code, and improves RPC performance.  We have retained the
+    old thread and IPC interfaces for backwards compatibility, with no changes
+    required to existing client programs and only a minimal change to servers,
+    as demonstrated by a functional Unix single server and clients.  The
+    logical complexity along the critical RPC path has been reduced by a factor
+    of nine.  Local RPC, doing normal marshaling, has sped up by factors of
+    1.7-3.4.  We conclude that a migrating-thread model is superior to a static
+    model, that kernel-visible RPC is a prerequisite for this improvement, and
+    that it is feasible to improve existing operating systems in this manner.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/presentation/evolving-mach-30-migrating-thread-mo"
+}
+
+@InProceedings{ccalfdp,
+  author       = "Auerbach, Joshua~S. and Goldberg, Arthur~P. and Goldszmidt, Germ{\' a}n S. and Gopal, Ajei~S. and Kennedy, Mark~T. and Rao, Josyula~R. and Russell, James~R.",
+  title        = "Concert/{C}:  {A} Language for Distributed Programming",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "79--96",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "distributed programming, rpc, language translation, language
+    extension, transparency",
+  abstract     = "Concert/C is a new language for distributed C programming
+    that extends ANSI C to support distribution and process dynamics.
+    Concert/C provides the ability to create and terminate processes, connect
+    them together, and communicate among them.  It supports transparent remote
+    function calls (RPC) and asynchronous messages.  Interprocess
+    communications interfaces are typed in Concert/C, and type correctness is
+    checked at compile time wherever possible, otherwise at runtime.  All C
+    data types, including complex data structures containing pointers and
+    aliases, can be transmitted in RPCs.  Concert/C programs run on a
+    heterogeneous set of machine architectures and operating systems and
+    communicate over multiple RPC and messaging protocols.  The current
+    Concert/C implementation runs on AIX 3.2, SunOS 4.1, Solaris 2.2 and OS/2
+    2.1, and communicates over Sun RPC, OSF/DCE and UDP multicast.  Several
+    groups inside and outside IBM are actively using Concert/C, and it is
+    available via anonymous ftp from software.watson.ibm.com:/pub/concert.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/concertc-language-distributed-programming"
+}
+
+@InProceedings{tirdbds,
+  author       = "Golding, Richard~A. and Long, Darrell D.~E. and Wilkes, John",
+  title        = "The {\it refdbms\/} distributed bibliographic database system",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "79--96",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "bibliographic databases, distributed databases, replicated
+    databases, weak consistency protocol, refer, bibtex",
+  abstract     = "Refdbms is a database system for sharing bibliographic
+    references among many users at sites on a wide-area network such as the
+    Internet.  This paper describes our experiences in building and using
+    refdbms for the last two years.  It summarizes the collection of facilities
+    that refdbms provides, and gives detailed information on how well refdbms
+    functions as a collaborative, wide-area, distributed information system.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/refdbms-distributed-bibliographic-database-system"
+}
+
+@InProceedings{dftfmun,
+  author       = "Lidl, Kurt and Osborne, Josh and Malcolm, Joseph",
+  title        = "Drinking from the Firehose:  Multicast {USENET} News",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "33--45",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "multicast transport, mbone, netnews, nntp",
+  abstract     = "News transport and spooling systems of the last several years
+    have concentrated on decreasing the resource load on news servers.  One
+    beneficial side effect has been the average decrease in time that a news
+    system spends on a given article.  This paper describes a novel USENET news
+    transport protocol, which we call Muse.  The two major motivations behind
+    Muse are to reduce the average propagation delays of articles on USENET and
+    to further reduce the resource load on a centralized news server.  Muse
+    runs on top of the experimental Internet multicast backbone, commonly
+    referred to as the Mbone.  Major design and implementation issues are
+    discussed.  Security concerns of multicast news are discussed and our
+    solution is examined.  The problems of scaling news distribution to
+    thousands of hosts are also addressed.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/presentation/drinking-firehose-multicast-usenet-n"
+}
+
+@InProceedings{gattstefs,
+  author       = "Udi Manber and Sun Wu",
+  title        = "{GLIMPSE}:  {A} Tool to Search Through Entire File Systems",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "23--32",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "search, indexing, approximate matching, big data",
+  abstract     = "GLIMPSE, which stands for GLobal IMPlicit SEarch, provides
+    indexing and query schemes for file systems.  The novelty of glimpse is
+    that it uses a very small index - in most cases 2-4% of the size of the
+    text - and still allows very flexible full-text retrieval including Boolean
+    queries, approximate matching (i.e., allowing misspelling), and even
+    searching for regular expressions.  In a sense, glimpse extends agrep to
+    entire file systems, while preserving most of its functionality and
+    simplicity.  Query times are typically slower than with inverted indexes,
+    but they are still fast enough for many applications.  For example, it took
+    5 seconds of CPU time to find all 19 occurrences of Usenix AND Winter in a
+    file system containing 69MB of text spanning 4300 files.  Glimpse is
+    particularly designed for personal information, such as one's own file
+    system.  The main characteristic of personal information is that it is
+    non-uniform and includes many types of documents.  An information retrieval
+    system for personal information should support many types of queries,
+    flexible interaction, low overhead, and customization, All these are
+    important features of glimpse.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/glimpse-tool-search-through-entire-file-systems"
+}
+
+@InProceedings{caffdql,
+  author       = "Glenn Fowler",
+  title        = "{cql} --- {A} Flat File Database Query Language",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "11--21",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "queries, unix tools, file processing, record processing",
+  abstract     = "cql is a UNIX system tool that applies C style query
+    expressions to flat file databases.  In some respects it is yet another
+    addition to the toolbox of programmable file filters: grep [Hume88], sh
+    [Bour78][BK89], awk [AKW88], and perl [Wall].  However, by restricting its
+    problem domain, cql takes advantage of optimizations not available to these
+    more general purpose tools.  This paper describes the cql data description
+    and query language, query optimizations, and provides comparisons with
+    other tools.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/presentation/cql-flat-file-database-query-languag"
 }
 
 @TechReport{dacsbssbsalbl,
