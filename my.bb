@@ -5663,6 +5663,45 @@
   location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/presentation/cql-flat-file-database-query-languag"
 }
 
+@InProceedings{tdsmoswaos,
+  author       = "Keleher, Pete and Cox, Alan~L. and Dwarkadas, Sandhya and Zwaenepoel, Willy",
+  title        = "{TreadMarks}:  Distributed Shared Memory on Standard Wrokstations and Operating Systems",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "115--132",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "release consistency, lazy release consistency, communication
+    overhead, distributed programming, workstation lans, performance,
+    distributed shared memory",
+  abstract     = "TreadMarks is a distributed shared memory (DSM) system for
+    standard Unix systems such as SunOS and Ultrix.  This paper presents a
+    performance evaluation of TreadMarks running on Ultrix using
+    DECstation-5000/240's that are connected by a 100-Mbps switch-based ATM LAN
+    and a 10-Mbps Ethernet.  Our objective is to determine the efficiency of a
+    user-level DSM implementation on commercially available workstations and
+    operating systems.  We achieved good speedups on the 8-processor ATM
+    network for Jacobi (7.4), TSP (7.2), Quicksort (6.3), and ILINK (5.7).  For
+    a slightly modified version of Water from the SPLASH benchmark suite, we
+    achieved only moderate speedups (4.0) due to the high communication and
+    synchronization rate.  Speedups decline on the 10-Mbps Ethernet (5.5 for
+    Jacobi, 6.5 for TSP, 4.2 for Quicksort, 5.1 for ILINK, and 2.1 for Water),
+    reflecting the bandwidth limitations of the Ethernet.  These results
+    support the contention that, with suitable networking technology, DSM is a
+    viable technique for parallel computation on clusters of workstations.  To
+    achieve these speedups, TreadMarks goes to great lengths to reduce the
+    amount of communication performed to maintain memory consistency.  It uses
+    a lazy implementation of release consistency, and it allows multiple
+    concurrent writers to modify a page, reducing the impact of false sharing.
+    Great care was taken to minimize communication overhead.  In particular, on
+    the ATM network, we used a standard low-level protocol, AAL3/4, bypassing
+    the TCP/IP protocol stack.  Unix communication overhead, however, remains
+    the main obstacle in the way of better performance for programs like Water.
+    Compared to the Unix communication overhead, memory management cost (both
+    kernel and user level) is small and wire time is negligible.", 
+  location     = ""
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
