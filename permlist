@@ -617,7 +617,6 @@ build level components : de jonge
 building and securing a linux based wireless network : jupiterweb
 building and using shared libraries : cheif
 building communication paradigms with the cm 5 active message layer cmam : von eicken
-building flexible real time systems using the flex language : kenny
 building interpreters by transforming stratified monads : espinosa
 building robust systems : sussman
 building the perfect executable : cheif
@@ -657,7 +656,6 @@ census collecting host information on a wide area network : ganatra
 certain factors affecting telegraph speed : nyquist
 cgi programming : hamilton
 chain reactions in networks : manber
-challenges in software development : fleckenstein
 change distilling tree differencing for fine grained source code change extraction : fluri
 characterizing people as nonlinear first order components in software development : cockburn
 chart parsing of flowgraphs : lutz
@@ -1229,7 +1227,6 @@ functional specification documents : smith
 functional specification of imperative programs an alternative point of view of functional languages : mohnen
 functions as processes : milner
 fundamentals of bar code information theory : pavlidis
-fusion of loops for parallelism and locality : manjikian
 fuzzy logic : zadeh
 fuzzy logic in c : viot
 gaining efficiency in transport services by appropriate design and implementation choices : watson
@@ -2339,7 +2336,6 @@ software environment architectures and user interface facilities : young
 software environment reasearch directions for the next five years : osterweil
 software estimating rules of thumb : jones
 software evolution through rapid prototyping : luqi
-software ics : findlay
 software is discrete mathematics : page
 software maintainability a pratical concern for life cycle costs : munson
 software measurement for dod systems recommendations for initial core measures : carleton
@@ -3025,7 +3021,6 @@ verification of link level protocols : knuth
 version support for engineering database systems : dittrich
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
-video data conversion and real time tracking : gilbert
 views a way for pattern matching to coexist with data abstraction : wadler
 virtual clocks a new traffic control algorithm for packet switching networks : zhang
 virtual gain for audio windows : cohen
