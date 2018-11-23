@@ -5702,6 +5702,48 @@
   location     = ""
 }
 
+@InProceedings{earftioaasf,
+  author       = "Black, Richard and Crosby, Simon",
+  title        = "Experience and Results from the Implementation of an {ATM} Socket Family",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "143--152",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "atm, kernel-user space split, tunneling, kernel development, sockets",
+  abstract     = "This paper describes the implementation of an ATM protocol
+    stack as a protocol family within a 4.3 BSD derived Unix.  A novel approach
+    to the implementation of the management and control functions for the ATM
+    protocol stack has been adopted.  The data path is implemented within the
+    kernel but all control and management functions are implemented by a user
+    space daemon.  An encapsulation of IP on the ATM protocol is provided by
+    means of a logical IP interface.  The mapping of IP addresses to ATM
+    addresses is performed by the user space daemon.", 
+  location     = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/usenix1994.pdf"
+}
+
+@InProceedings{wsfrtmc,
+  author       = "Hagsand, Olof and Sj{\" o}din, Peter",
+  title        = "Working Support for Real-time Multimedia Communication",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "143--152",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "atm, real-time scheduling, multi-media networking, kernel, os
+    facilities",
+  abstract     = "We show how multimedia applications with real-time
+    requirements can be supported in a distributed system.  A UNIX system has
+    been modified to give soft real-time support.  The modifications include
+    deadline-based scheduling, preemption points and prioritized interrupt
+    processing.  In addition, a system call interface for real-time application
+    programming has been designed.  We justify the modifications by experiments
+    with a simple distributed multimedia delivery system.  The experiments are
+    made on an ATM network, where resources are reserved by means of the ST-2
+    internetworking protocol.", 
+  location     = "http://eprints.sics.se/3372/01/WS-RT.ps"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
