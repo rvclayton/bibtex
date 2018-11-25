@@ -5744,6 +5744,30 @@
   location     = "http://eprints.sics.se/3372/01/WS-RT.ps"
 }
 
+@InProceedings{fdaaumfnia,
+  author       = "Summit, Steve",
+  title        = "Filesystem Daemons as a Unifying Mechanism for Network Information Access",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "63--77",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "system-call interception, user-space file systems,
+    unified information access",
+  abstract     = "As the Net burgeons, new tools and protocols are being
+    introduced to permit some orderly use to be made of the wealth of
+    information available.  These new protocols, however, often presuppose the
+    use of new, nonstandard, highly interactive user interfaces.  This paper
+    presents a mechanism for unifying access to diverse network services
+    through filesystem daemons, which allow network information services to be
+    treated as if they were conventional files and directories, residing in the
+    local namespace, and accessed transparently with standard tools.  Besides
+    normal filesystem operations (open, read, write, etc.), the daemons may
+    introduce extended operations, which provide generic access to such
+    features as network database lookup operations.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/summit.a"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
