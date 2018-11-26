@@ -5768,6 +5768,33 @@
   location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/summit.a"
 }
 
+@InProceedings{epdfmealm,
+  author       = "Yuhara, Masanobu and Bershad, Brian~N. and Maeda, Chris and Moss, J. Eliot~B.",
+  title        = "Efficient Packet Demultiplexing for Multiple Endpoints and Large Messages",
+  booktitle    = usenixw94,
+  year         = 1994,
+  pages        = "153--165",
+  address      = sfca,
+  month        = "17--21 " # jan,
+  keywords     = "packet filters, mach, code fusion, fragmentation, dispatch",
+  abstract     = "This paper describes a new packet filter mechanism that
+    efficiently dispatches incoming network packets to one of multiple
+    endpoints, for example address spaces.  Earlier packet filter systems
+    iteratively applied each installed filter against every incoming packet,
+    resulting in high processing overhead whenever multiple filters existed.
+    Our new packet filter provides an associative match function that enables
+    similar but not identical filters to be combined together into a single
+    filter.  The filter mechanism, which we call the Mach Packet Filter (MPF),
+    has been implemented for the Mach 3.0 operating system and is being used to
+    support endpoint-based protocol processing, whereby each address space
+    implements its own suite of network protocols.  With large numbers of
+    registered endpoints, MPF outperforms the earlier BSD Packet Filter (BPF)
+    by over a factor of four.  MPF also allows a filter program to dispatch
+    fragmented packets, which was quite difficult with previous filter
+    mechanisms.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/efficient-packet-demultiplexing-multiple"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
