@@ -5795,6 +5795,28 @@
   location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/efficient-packet-demultiplexing-multiple"
 }
 
+@InProceedings{laotoaan,
+  author       = "Wolman, Alec and Voelker, Geoff and Thekkath, Chandramohan~A.",
+  title        = "Latency Analysis of {TCP} on an {ATM} Network",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "167--179",
+  month        = "17--21 " # jan,
+  keywords     = "checksumming, delay, atm, tcp, header prediction, data
+    copying, protocol performance",
+  abstract     = "In this paper we characterize the latency of the BSD 4.4
+    alpha implementation of TCP on an ATM network.  Latency reduction is a
+    difficult task, and careful analysis is the first step towards reduction.
+    We investigate the impact of both the network controller and the protocol
+    implementation on latency.  We find that a low latency network controller
+    has a significant impact on the overall latency of TCP.  We also
+    characterize the impact on latency of some widely discussed improvements to
+    TCP, such as header prediction and the combination of the checksum
+    calculation with data copying.", 
+  location     = "ftp://ftp.cs.washington.edu/tr/1993/03/UW-CSE-93-03-03.PS.Z"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
