@@ -51938,19 +51938,6 @@
   location     = "QA 76.54.R43 1990"
 }
 
-@InProceedings{epdfmealm,
-  author       = "Masanobu Yuhara and Brian~N. Bershad and Chris Maeda and
-		  J.~Eliot~B. Moss",
-  title        = "Efficnent Packet Demultiplexing for Multiple Endpoints and
-		  Large Messages",
-  booktitle    = wucp,
-  year         = 1994,
-  pages        = "153--166",
-  address      = sfca,
-  month        = "17--21 January",
-  keywords     = "demultiplexing"
-}
-
 @InProceedings{iaos,
   author       = "Egidio Astesiano",
   title        = "Inductive and Operational Semantics",
