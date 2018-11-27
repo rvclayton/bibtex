@@ -5817,6 +5817,33 @@
   location     = "ftp://ftp.cs.washington.edu/tr/1993/03/UW-CSE-93-03-03.PS.Z"
 }
 
+@InProceedings{iukpupbo,
+  author       = "Speer, Steven~E. and Kumar, Rajiv and Partridge, Craig",
+  title        = "Improving " # unix # " Kernel Performance using Profile Based Optimization",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "181--188",
+  month        = "17--21 " # jan,
+  keywords     = "performance measurements, directed code optimization,
+    profile-based optimizations, risc processors",
+  abstract     = "Several studies have shown that operating system performance
+    has lagged behind improvements in application performance.  In this paper
+    we show how operating systems can be improved to make better use of RISC
+    architectures, particularly in some of the networking code, using a
+    compiling technique known as Profile Based Optimization (PBO).  PBO uses
+    profiles from the execution of a program to determine how to best organize
+    the binary code to reduce the number of dynamically taken branches and
+    reduce instruction cache misses.  In the case of an operating system, PBO
+    can use profiles produced by instrumented kernels to optimize a kernel
+    image to reflect patterns of use on a particular system.  Tests applying
+    PBO to an HP-UX kernel running on an HP9000/720 show that certain parts of
+    the system code (most notably the networking code) achieve substantial
+    performance improvements of up to 35% on micro benchmarks.  Overall system
+    performance typically improves by about 5%.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/partridge.ps"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
