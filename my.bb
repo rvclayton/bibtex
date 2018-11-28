@@ -579,6 +579,16 @@
   location     = "HM 891.P56"
 }
 
+@Book{bth2018,
+  author       = "Thor Hanson",
+  title        = "Buzz",
+  publisher    = "Basic Books",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "bees, evolution, ecology, agriculture, social animals",
+  location     = "QL 565.H36"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -5842,6 +5852,31 @@
     performance improvements of up to 35% on micro benchmarks.  Overall system
     performance typically improves by about 5%.", 
   location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/partridge.ps"
+}
+
+@InProceedings{mboaxws,
+  author       = "Chen, J.~Bradley",
+  title        = "Memory Behavior of an {X11} Window System",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "189--200",
+  month        = "17--21 " # jan,
+  keywords     = "context switching, caches, look-aside buffers, client-server
+    architecture",
+  abstract     = "We used memory reference traces from a DEC Ultrix system
+    running the X11 window system from MIT Project Athena and several freely
+    available X11 applications to measure different aspects of memory system
+    behavior and performance.  Our measurements show that memory behavior for
+    X11 workloads differs in several important ways from workloads more
+    traditionally used in cache performance studies.  User instruction cache
+    behavior is a major component in overall memory system delays, with
+    significant competition within and between address spaces.  User TLB miss
+    rates are up to a factor of two higher than other ill-behaved integer
+    workloads.  Write-buffer stalls, data cache behavior, and uncached memory
+    reads can be problematic for microbenchmarks, but they are not an issue for
+    the realistic applications we tested.", 
+  location     = "https://www.cs.cmu.edu/afs/cs/project/mach/public/www/doc/abstracts/X11_mem_behavior.html"
 }
 
 @TechReport{dacsbssbsalbl,
