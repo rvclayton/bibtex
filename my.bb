@@ -5879,6 +5879,27 @@
   location     = "https://www.cs.cmu.edu/afs/cs/project/mach/public/www/doc/abstracts/X11_mem_behavior.html"
 }
 
+@InProceedings{aunsfssue,
+  author       = "Nelson, Michael~N. and Radia, Sanjay~R.",
+  title        = "{A} Uniform Name Service for {S}pring's " # unix # " Environment",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "201--209",
+  month        = "17--21 " # jan,
+  keywords     = "name spaces, object-oriented systems, plan 9",
+  abstract     = "The Spring operating system provides a uniform name service
+    that can be used to associate any name with any object independent of the
+    type of object, and allows arbitrary name spaces to be created and used as
+    first-class objects.  We have used this name service to unify the many
+    UNIX&#174; name spaces.  Objects that on UNIX systems are typically stored
+    in separate name spaces are all accessible via a single uniform name
+    service in Spring.  In addition, it is easy to add new Spring objects that
+    are not currently available in UNIX systems without modifying the
+    underlying name service.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/nelson.pdf"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
