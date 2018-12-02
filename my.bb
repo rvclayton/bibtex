@@ -3764,6 +3764,30 @@
   location     = "http://www.usenix.org/publications/compsystems/1993/spr_patel.pdf"
 }
 
+@Article{bagtap,
+  author       = "Proebsting, Todd~A.",
+  title        = "{BURS} Automata Generation",
+  journal      = toplas,
+  year         = 1995,
+  volume       = 17,
+  number       = 3,
+  pages        = "461--486",
+  month        = may,
+  keywords     = "code generation, code-generator generator, dynamic
+    programming, tree pattern matching, redundancy elimination, table-driven
+    processing", 
+  abstract     = "A simple and efficient algorithm for generating bottom-up
+    rewrite system (BURS) tables is described.  A small code-generator
+    generator implementation produces BURS tables efficiently, even for complex
+    instruction set descriptions.  The algorithm does not require novel data
+    structures or complicated algorithmic techniques.  Previously published
+    methods for on-the-fly elimination of states are generalized and simplified
+    to create a new method, triangle trimming, that is employed in the
+    algorithm.  A prototype implementation, burg, generates BURS tables very
+    efficiently.", 
+  location     = "https://doi.org/10.1145/203095.203098"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -5900,6 +5924,54 @@
   location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/nelson.pdf"
 }
 
+@InProceedings{fsdfanfsa,
+  author       = "Hitz, Dave and Lau, James and Malcolm, Michael",
+  title        = "File System Design for an {NFS} File Server Appliance",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "235--246",
+  month        = "17--21 " # jan,
+  keywords     = "file systems, nvram, nfs servers",
+  abstract     = "Network Appliance Corporation recently began shipping a new
+    kind of network server called an NFS file server appliance, which is a
+    dedicated server whose sole function is to provide NFS file service.  The
+    file system requirements for an NFS appliance are different from those for
+    a general-purpose UNIX system, both because an NFS appliance must be
+    optimized for network file access and because an appliance must be easy to
+    use.  This paper describes WAFL (Write Anywhere File Layout), which is a
+    file system designed specifically to work in an NFS appliance.  The primary
+    focus is on the algorithms and data structures that WAFL uses to implement
+    Snapshotst, which are read-only clones of the active file system.  WAFL
+    uses a copy-on-write technique to minimize the disk space that Snapshots
+    consume.  This paper also describes how WAFL uses Snapshots to eliminate
+    the need for file system consistency checking after an unclean shutdown.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/file-system-design-nfs-file-server-appliance"
+}
+
+@InProceedings{aadbfal,
+  author       = "Phil Winterbottom",
+  title        = "Acid: {A} Debugger Built From {A} Language",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "211--222",
+  month        = "17--21 " # jan,
+  keywords     = "alef, interpreter, debugging, extension mechanisms, name spaces",
+  abstract     = "Acid is an unusual source­level symbolic debugger for Plan 9.
+    It is implemented as a language interpreter with specialized primitives
+    that provide debugger support.  Programs written in the language manipulate
+    one or more target processes; variables in the language represent the
+    symbols, state, and resources of those processes.  This structure allows
+    complex interaction between the debugger and the target program and
+    provides a convenient method of parameterizing differences between machine
+    architectures.  Although some effort is required to learn the debugging
+    language, the richness and flexibility of the debugging environment
+    encourages new ways of reasoning about the way programs run and the
+    conditions under which they fail.", 
+  location     = "http://doc.cat-v.org/plan_9/4th_edition/papers/acidpaper"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -6689,6 +6761,30 @@
     information for the Internet community.", 
   location     = "https://dx.doi.org/10.17487/RFC1527",
   location     = "https://tools.ietf.org/html/rfc1527"
+}
+
+@TechReport{apapss,
+  author       = "Ramsey~W. Haddad and Donald~E. Knuth",
+  title        = "{A} Programming and Problem-Solving Seminar",
+  institution  = csd # "Stanford University",
+  year         = 1985,
+  number       = "STAN-CS-85-1055",
+  address      = paca,
+  keywords     = "monotonic squares, code breaking, hardware fault detection,
+    distributed stability, art",
+  abstract     = "This report contains edited transcripts of the discussions
+    held in Stanford’s course CS204, Problem Seminar, during winter quarter
+    1985.  Since the topics span a large range of ideas in computer science,
+    and since most of the important research paradigms and programming
+    paradigms were touched on during the discussions, these notes may be of
+    interest to graduate students of computer science at other universities, as
+    well as to their professors and to professional people in the real
+    world. The present report is the sixth in a series of such transcripts,
+    continuing the tradition established in STAN-CS-77-606 (Michael J. Clancy,
+    1977), STAN-CS-79-707 (Chris Van Wyk, 1979), STAN-CS-U-863 (Allan A. Miller,
+    1981), STAN-CS-83-989 (Joseph S. Weening, 1983), STAN-CS-83-990 (John
+    D. Hobby, 1983).", 
+  location     = "https://www-cs-faculty.stanford.edu/~knuth/papers/cs1055.pdf"
 }
 
 @Manual{atajsm,
