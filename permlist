@@ -317,6 +317,7 @@ ace a syntax driven c preprocessor : gosling
 ace building interactive graphical applications : johnson
 achieving efficiency and portability in systems software a case study on posix} compliant multithreaded programs : shinjo
 achieving extensibility through product-lines and domain-specific languages a case study : batory
+acid a debugger built from a language : winterbottom
 acid manual : winterbottom
 acm programming contest problems : anon
 acme a user interface for programmers : pike
@@ -621,6 +622,7 @@ building communication paradigms with the cm 5 active message layer cmam : von e
 building interpreters by transforming stratified monads : espinosa
 building robust systems : sussman
 building the perfect executable : cheif
+burs automata generation : probesting
 bytecode fetch optimization for a java interpreter : ogata
 c a language for high level efficient and machine independent dynamic code generation : engler
 c# introduction : hejlsberg
@@ -1157,6 +1159,7 @@ fields in physics are like curried functions or physics for functional programme
 figures doors and passages : evans
 file verification using crc : nelson
 file servers for network based distrubuted systems : svobodova
+file system design for an nfs file sever application : hitz
 filet o fish practical and dependable domain specific languages for os development : dagland
 filter objects for java : joshi
 final shift for call cc direct implementation of shift and reset : gasbichler
