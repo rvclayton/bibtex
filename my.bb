@@ -5972,6 +5972,32 @@
   location     = "http://doc.cat-v.org/plan_9/4th_edition/papers/acidpaper"
 }
 
+@InProceedings{itwpoans,
+  author       = "Chet Juszczak",
+  title        = "Improving the Write Performance of an {NFS} Server",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "247--259",
+  month        = "17--21 " # jan,
+  keywords     = "io performance, clustered writes, asynchrony, nfs semantics",
+  abstract     = "The Network File System (NFS) utilizes a stateless protocol
+    between clients and servers; the major advantage of this statelessness is
+    that NFS crash recovery is very easy.  However, the protocol requires that
+    data modification operations such as write be fully committed to stable
+    storage before replying to the client.  The cost of this is significant in
+    terms of response latency and server CPU and I/O loading.  This paper
+    describes a write gathering technique that exploits the fact that there are
+    often several write requests for the same file presented to the server at
+    about the same time.  With this technique the data portions of these writes
+    are combined and a single metadata update is done that applies to them all.
+    No replies are sent to the client until after this metadata update has been
+    fully committed, thus the NFS crash recovery design is not violated.  This
+    technique can be used in most NFS server implementations and requires no
+    client modifications.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/improving-write-performance-nfs-server"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
