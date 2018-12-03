@@ -509,6 +509,7 @@
 @Book{svyl,
   author       = "Yasha Levine",
   title        = "Surveillance Valley",
+  subtitle     = "The Secret Military History of the Internet",
   publisher    = "Public Affairs",
   year         = 2018,
   address      = nyny,
@@ -572,6 +573,7 @@
 @Book{ensp,
   author       = "Steven Pinker",
   title        = "Enlightenment Now",
+  subtitle     = "The Case for Reason, Science, Humanism and Progress",
   publisher    = "Viking",
   year         = 2018,
   address      = nyny,
@@ -582,11 +584,22 @@
 @Book{bth2018,
   author       = "Thor Hanson",
   title        = "Buzz",
+  subtitle     = "The Nature and Necessity of Bees",
   publisher    = "Basic Books",
   year         = 2018,
   address      = nyny,
   keywords     = "bees, evolution, ecology, agriculture, social animals",
   location     = "QL 565.H36"
+}
+
+@Book{wboa,
+  author       = "Joe Mungo Reed",
+  title        = "We Begin Our Ascent",
+  publisher    = "Simon \& Schuster",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "professional bicycling, moral quandaries, doping",
+  location     = "PR 611.E2547"
 }
 
 @InBook{aplftcaibottamm,
@@ -633,22 +646,6 @@
     main advantages and drawbacks of this method are discussed; the
     predominance of the advantages is expected to be connrmed by experience
     with testbed implementations." 
-}
-
-@InBook{opsgnr,
-  author       = "",
-  title        = "",
-  chapter      = "Optical Packet Switching",
-  publisher    = "Kulwer",
-  year         = 2004,
-  OPTeditor    = "",
-  OPTpages     = "",
-  OPTvolume    = "",
-  OPTseries    = "",
-  OPTaddress   = "",
-  OPTedition   = "",
-  month        = "",
-  location     = ""
 }
 
 @Article{dcmlamfic,
@@ -5996,6 +5993,28 @@
     technique can be used in most NFS server implementations and requires no
     client modifications.", 
   location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/improving-write-performance-nfs-server"
+}
+
+@InProceedings{nqnsccfn,
+  author       = "Rick Macklem",
+  title        = "Not Quite {NFS}, Soft Cache Consistency for {NFS}",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "261--278",
+  month        = "17--21 " # jan,
+  keywords     = "nfs, stateless protocols, caching, leases",
+  abstract     = "There are some constraints inherent in the NFS protocol that
+    result in performance limitations for high performance workstation
+    environments.  This paper discusses an NFS-like protocol named Not Quite
+    NFS (NQNFS), designed to address some of these limitations.  This protocol
+    provides full cache consistency during normal operation, while permitting
+    more effective client-side caching in an effort to improve performance.
+    There are also a variety of minor protocol changes, in order to resolve
+    various NFS issues.  The emphasis is on observed performance of a
+    preliminary implementation of the protocol, in order to show how well this
+    design works and to suggest possible areas for further improvement.",  
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/macklem.ps"
 }
 
 @TechReport{dacsbssbsalbl,
