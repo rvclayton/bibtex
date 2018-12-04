@@ -602,6 +602,17 @@
   location     = "PR 611.E2547"
 }
 
+@Book{tncoaehm,
+  author       = "John Perkins",
+  title        = "The New Confessions of an Economic Hit Man",
+  publisher    = "Berrett-Koehler",
+  year         = 2016,
+  address      = "Oakland, California",
+  keywords     = "economic development, loans, sovereign debt, world bank, imf,
+    energy consultants, petrodollars, corruption, latin america, oil",
+  location     = "UB271.U52 P47 2016"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
