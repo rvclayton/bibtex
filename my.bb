@@ -6028,6 +6028,91 @@
   location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/macklem.ps"
 }
 
+@InProceedings{ttphd,
+  author       = "Douglis, Fred and Krishnan, P. and Marsh, Brian",
+  title        = "Thwarting the Power-Hungry Disk",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "292--306",
+  month        = "17--21 " # jan,
+  keywords     = "simulation, disk-drive management, spin control algorithms",
+  abstract     = "Minimizing power consumption is important for mobile
+    computers, and disks consume a significant portion of system-wide power.
+    There is a large difference in power consumption between a disk that is
+    spinning and one that is not, so systems try to keep the disk spinning only
+    when it must.  The system must trade off between the power that can be
+    saved by spinning the disk down quickly after each access and the impact on
+    response time from spinning it up again too often.  We use trace-driven
+    simulation to examine these trade-offs, and compare a number of different
+    algorithms for controlling disk spin-down.  We simulate disk accesses from
+    a mobile computer (a Macintosh Powerbook Duo 230) and also from a desktop
+    workstation (a Hewlett-Packard 9000/845 personal workstation running
+    HP-UX), running on two disks used on mobile computers, the Hewlett-Packard
+    Kittyhawk C3014A and the Quantum GoDrive 120.  We show that the perfect
+    off-line algorithm--one that consumes minimum power without increasing
+    response time relative to a disk that never spins down--can reduce disk
+    power consumption by 35--50%, compared to the fixed threshold suggested by
+    manufacturers.  An on-line algorithm with a threshold of 10 seconds,
+    running on the Powerbook trace and GoDrive disk, reduces energy consumption
+    by about 40% compared to the 5-minute threshold recommended by
+    manufacturers of comparable disks; however, over a 4-hour trace period it
+    results in 140 additional delays due to disk spin-ups.",
+  location     = "https://www.usenix.org/publications/library/proceedings/sf94/full_papers/marsh.ps"
+}
+
+@InProceedings{aqaoddpmipc,
+  author       = "Li, Kester and Kumpf, Roger and Horton, Paul and Anderson, Thomas",
+  title        = "{A} Quantitative Analysis of Disk Drive Power Management in Portable Computers",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "279--291",
+  month        = "17--21 " # jan,
+  keywords     = "power management, disk management, caching, trace-driven
+    simulations, spindown, user latency",
+  abstract     = "With the advent and subsequent popularity of portable
+    computers, power management of system components has become an important
+    issue.  Current portable computers implement a number of power reduction
+    techniques to achieve a longer battery life.  Included among these is
+    spinning down a disk during long periods of inactivity.  In this paper, we
+    perform a quantitative analysis of the potential costs and benefits of
+    spinning down the disk drive as a power reduction technique.  Our
+    conclusion is that almost all the energy consumed by a disk drive can be
+    eliminated with little loss in performance.  Although on current hardware,
+    reliability can be impacted by our policies, the next generation of disk
+    drives will use technology (such as dynamic head loading) which is
+    virtually unaffected by repeated spinups.  We found that the optimal
+    spindown delay time, the amount of time the disk idles before it is spun
+    down, is 2 seconds.  This differs significantly from the 3-5 minutes in
+    current practice by industry.  We will show in this paper the effect of
+    varying the spindown delay on power consumption; one conclusion is that a
+    3-5 minute delay results in only half of the potential benefit of spinning
+    down a disk.", 
+  location     = "http://nma.berkeley.edu/ark:/28722/bk0005n3672"
+}
+
+@InProceedings{pieriepos,
+  author       = "Daniel~T. Schuh and Michael~J. Carey and David~J. DeWitt",
+  title        = "Persistence in {E} Revisited --- Implementation Experiences",
+  booktitle    = pot # "1990 International Workshop on Persistent Object Systems",
+  year         = 1990,
+  pages        = "345--359",
+  publisher    = "Morgan Kaufmann",
+  address      = "Martha's Vineyard, Massachusetts",
+  month        = "23--27 " # sep,
+  keywords     = "pointer swizzling, virtual machines, data persistence,
+    programming language, run-time support",
+  abstract     = "This paper discusses the design and implementation of the E
+    Persistent Virtual Machine (EPVM), an interpreter that provides support for
+    persistent data access in the current version of the E programming
+    language.  Included are descriptions of both the EPVM interface and the
+    major implementation tactics employed within EPVM.  A novel pointer
+    swizzling scheme that has been investigated in the context of E and EPVM is
+    also described.  Finally, a performance analysis of the key EPVM primitives
+    is presented." 
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
