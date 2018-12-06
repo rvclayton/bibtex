@@ -6113,6 +6113,28 @@
     is presented." 
 }
 
+@InProceedings{aupaeoawadfs,
+  author       = "Spasojevic, Mirjana and Satyanarayanan, M.",
+  title        = "{A} Usage Profile and Evaluation of a Wide-Area Distributed File System",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "307--323",
+  month        = "17--21 " # jan,
+  keywords     = "distributed file system, andrew file system, collaborative
+    work, evaluation, wide-area scalability",
+  abstract     = "The evolution of the Andrew File System (AFS) into a
+    wide-area distributed file system has encouraged collaboration and
+    information dissemination on a much broader scale than ever before.  In
+    this paper, we examine AFS as a provider of wide-area file services to over
+    80 organizations around the world.  We discuss usage characteristics of AFS
+    derived from empirical measurements of the system, and from user responses
+    to a questionnaire.  Our observations indicate that AFS provides robust and
+    efficient data access in its current configuration, thus confirming its
+    viability as a design point for wide-area distributed file systems.",
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/usage-profile-and-evaluation-wide-area"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
