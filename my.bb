@@ -6177,6 +6177,25 @@
   location     = "https://www.usenix.net/publications/library/proceedings/sf94/full_papers/minshall.pdf"
 }
 
+@InProceedings{wutuw,
+  author       = "Spinellis, Diomidis",
+  title        = "Wux:  " # unix # " Tools under {W}indows",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "325--336",
+  month        = "17--21 " # jan,
+  keywords     = "libraries, emulation, software portability, operating systems",
+  abstract     = "Wux is a port of Unix tools to the Microsoft Windows
+    environment.  It is based on a library providing a Unix-compatible set of
+    system calls on top of Windows.  Unix-derived tools run in parallel,
+    communicating using the Unix pipe abstraction.  All processes are run
+    within an application template that gives them basic Windows compatibility
+    such as input and output windows and an icon.  The performance of the
+    system is comparable to that of Unix ports to the PC architecture.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/wux-unix-tools-under-windows"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
