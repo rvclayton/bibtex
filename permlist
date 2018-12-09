@@ -2528,6 +2528,7 @@ the 711 problem : gries
 the abcs of specification amsl behavior and components : barnett
 the absolute minimum every software developer absolutely positively must know about unicode and character sets no excuses : spolsky
 the accent compiler compiler : accent
+the advent of electronic digital computing : astanasoff
 the affordances of media spaces : gaver
 the alloc stream facility a redsign of application level stream io : krieger
 the alonzo functional programming language : ramsdell
@@ -2537,7 +2538,6 @@ the amdhal 470v 8 and the ibm 3033 a comparison of processor designs : doran
 the analysis and interpretation of small house plans some contemporary examples : brown
 the analysis of political systems : easton
 the anatomy of a loop : shivers
-when formal systems kill computer ethics and formal methods : abramson
 the architecture of complexity : simon
 the argos language graphical representation of automata and description of reactive systems : maraninchi
 the art of problem posing : brown 
@@ -3073,6 +3073,7 @@ what is the bios : schmidt
 what its like to be a popl referee : wegman
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
+when formal systems kill computer ethics and formal methods : abramson
 when is one thing equal to some other thing : mazur
 when one billion does not equal one billion : wiebe
 when telepathy won't do requirements engineering key practices : wiegers
