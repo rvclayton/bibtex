@@ -3818,6 +3818,20 @@
   location     = "https://doi.org/10.1145/224057.224058"
 }
 
+@Article{taoedc,
+  author       = "John Vincent Astanasoff",
+  title        = "The Advent of Electronic Digital Computing",
+  journal      = "Annals of the History of Computing",
+  year         = 1984,
+  volume       = 6,
+  number       = 3,
+  pages        = "229--282",
+  month        = jul # "/" # sep,
+  keywords     = "binary representation, digital computing, regenerating
+    storage, patent cases",
+  location     = "http://findingaids.lib.iastate.edu/spcl/arch/rgrp/13-20-51.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
