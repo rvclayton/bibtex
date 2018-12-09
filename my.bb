@@ -1,6 +1,7 @@
 .so bibtex.header
 		  
 @string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
+@string{sosp95    = osr # " (" # pot # "Fifteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixw94 = pot # "Winter 1994 USENIX Conference"}
 
 @Book{tdoetn,
@@ -3796,6 +3797,27 @@
   location     = "https://doi.org/10.1145/203095.203098"
 }
 
+@Article{hbft,
+  author       = "Bressoud, Thomas~C. and Schneider, Fred~B.",
+  title        = "Hyperviser-based Fault-tolerance",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "1-11",
+  month        = dec,
+  keywords     = "hypervisors, fault tolerance, mirroring, replication protocols",
+  abstract     = "Protocols to implement a fault-tolerant computing system are
+    described. These protocols augment the hypervisor of a virtual-machine
+    manager and coordinate a primary virtual machine with its backup.  No
+    modifications to the hardware, operating system, or application programs
+    are required.  A prototype system was constructed for HP's PA-RISC
+    instruction-set architecture.  Even though the prototype was not carefully
+    tuned, it ran programs about a factor of 2 slower than a bare machine
+    would.", 
+  location     = "https://doi.org/10.1145/224057.224058"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -6133,6 +6155,26 @@
     efficient data access in its current configuration, thus confirming its
     viability as a design point for wide-area distributed file systems.",
   location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/usage-profile-and-evaluation-wide-area"
+}
+
+@InProceedings{aootnos,
+  author       = "Major, Drew and Minshall, Greg and Powell, Kyle",
+  title        = "An Overview of the {NetWare} Operating System",
+  booktitle    = usenixw94,
+  year         = 1994,
+  address      = sfca,
+  pages        = "355--372",
+  month        = "17--21 " # jan,
+  keywords     = "operating systems, inter-process communication, rpc,
+    mirroring protocol, fault tolerance",
+  abstract     = "The NetWare operating system is designed specifically to
+    provide service to clients over a computer network.  This design has
+    resulted in a system that differs in several respects from more
+    general-purpose operating systems.  In addition to highlighting the design
+    decisions that have led to these differences, this paper provides an
+    overview of the NetWare operating system, with a detailed description of
+    its kernel and its software-based approach to fault tolerance.", 
+  location     = "https://www.usenix.net/publications/library/proceedings/sf94/full_papers/minshall.pdf"
 }
 
 @TechReport{dacsbssbsalbl,
