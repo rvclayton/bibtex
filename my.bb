@@ -3832,6 +3832,104 @@
   location     = "http://findingaids.lib.iastate.edu/spcl/arch/rgrp/13-20-51.html"
 }
 
+@Article{hfcfsmm,
+  author       = "Chapin, John and Rosenblum, Mendel and Devine, Scott and Lahiri, Tirthankar and Teodosiu, Dan and Gupta, Anoop",
+  title        = "Hive:  Fault Containment for Shared-Memory Multiprocessors",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "12-25",
+  month        = dec,
+  keywords     = "fault detection, shared storage, rpc, global resource
+    allocation, fail-stop processors, wild writes, hardware-software codesign,
+    hardware simulation",
+  abstract     = "In this paper we describe Hive, an operating system designed
+    for large-scale shared-memory multiprocessors.  Hive is fundamentally
+    different from previous monolithic and microkernel Reliability and
+    scalability are major concerns when designing operating systems for
+    large-scale shared-memory multiprocessors.  SMP OS implementations: it is
+    structured as an internal distributed system of independent kernels
+    calledcells.  This multicellular In this paper we describe Hive, an
+    operating system with a novel kernel architecture has two main advantages:
+    kernel architecture that addresses these issues.  Hive is structured as an
+    internal distributed system of independent kernels called • Reliability: In
+    SMP OS implementations, any significant cells.  This improves reliability
+    because a hardware or software hardware or software fault causes the entire
+    system to crash.  fault damages only one cell rather than the whole system,
+    and For large-scale machines this can result in an unacceptably low
+    improves scalability because few kernel resources are shared by mean time
+    to failure.  In Hive, only the cell where the fault processes running on
+    different cells.  The Hive prototype is a occurred crashes, so only the
+    processes using the resources of complete implementation of UNIX SVR4 and
+    is targeted to run on that cell are affected.  This is especially beneﬁcial
+    for compute the Stanford FLASH multiprocessor.  server workloads where
+    there are multiple independent This paper focuses on Hive’s solution to the
+    following key processes, the predominant situation today.  In addition,
+    challenges: (1) fault containment, i.e.  conﬁning the effects of scheduled
+    hardware maintenance and kernel software upgrades hardware or software
+    faults to the cell where they occur, and (2) can proceed transparently to
+    applications, one cell at a time.  memory sharing among cells, which is
+    required to achieve • Scalability: SMP OS implementations are difﬁcult to
+    scale to application performance competitive with other multiprocessor
+    large machines because all processors directly share all kernel operating
+    systems.  Fault containment in a shared-memory resources.  Improving
+    parallelism in a “shared-everything” multiprocessor requires defending each
+    cell against erroneous architecture is an iterative trial-and-error process
+    of identifying writes caused by faults in other cells.  Hive prevents such
+    damage and ﬁxing bottlenecks.  In contrast, Hive offers a systematic by
+    using the FLASHﬁrewall, a write permission bit-vector approach to
+    scalability.  Few kernel resources are shared by associated with each page
+    of memory, and by discarding potentially corrupt pages when a fault is
+    detected.  Memory sharing processes running on different cells, so
+    parallelism can be improved by increasing the number of cells.  is provided
+    through a uniﬁed ﬁle and virtual memory page cache across the cells, and
+    through a uniﬁed free page frame pool.  However, the multicellular
+    architecture of Hive also creates new implementation challenges.  These
+    include: We report early experience with the system, including the • Fault
+    containment: The effects of faults must be conﬁned to the results of fault
+    injection and performance experiments using cell in which they occur .
+    This is dif ﬁcult since a shared-memory SimOS, an accurate simulator of
+    FLASH.  The effects of faults multiprocessor allows a faulty cell to
+    issuewild writes which were contained to the cell in which they occurred in
+    all 49 tests can corrupt the memory of other cells.  where we injected
+    fail-stop hardware faults, and in all 20 tests where we injected kernel
+    data corruption.  The Hive prototype executes test workloads on a
+    four-processor four-cell system with • Resource sharing: Processors,
+    memory, and other system between 0% and 11% slowdown as compared to SGI
+    IRIX 5.2 (the resources must be shared ﬂexibly across cell boundaries, to
+    version of UNIX on which it is based).  preserve the execution efﬁciency
+    that justiﬁes investing in a shared-memory multiprocessor.", 
+  location     = "https://doi.org/10.1145/224056.224059",
+  location     = "https://doi.org/10.1145/224056.224059"
+}
+
+@Article{asfgloe,
+  author       = "Tenma, Takao and Tsubotani, Hideaki and Tanaka, Minoru and Ichikawa, Tadao",
+  title        = "{A} System for Generating Language-Oriented Editors",
+  journal      = tse,
+  year         = "1988",
+  volume       = 14,
+  number       = 8,
+  pages        = "1098--1109",
+  month        = aug,
+  keywords     = "generation systems, intermediate representation, language
+    description, language-oriented editor, object-oriented systems",
+  abstract     = "The authors seek to establish a simple and flexible framework
+    for internal representation of language-dependent information, and the
+    behavior of language-oriented tools for user's operations.  They present a
+    system for generating language-oriented editors based on object-oriented
+    concepts.  Features of the target language are represented as classes and
+    their relations.  A program is represented as an abstract syntax tree.
+    Each node in the tree belongs to a node class.  For generating more
+    advanced editors, probes, internal-classes, and gates are incorporated into
+    the system.  The system generates a flexible and easily extendable
+    language-oriented editor from a target language description in a highly
+    modularized fashion by using the description language which the system
+    provides.", 
+  location     = "https://doi.org/10.1109/32.7620"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
