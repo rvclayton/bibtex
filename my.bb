@@ -3930,6 +3930,32 @@
   location     = "https://doi.org/10.1109/32.7620"
 }
 
+@Article{lvmdrc,
+  author       = "Cheriton, David~R. and Duda, Kenneth~J.",
+  title        = "Logged Virtual Memory",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "26--38",
+  month        = dec,
+  keywords     = "logging, checkpointing, transaction processing, hardware
+    assists, virtual storage",
+  abstract     = "Logged virtual memory (LVM) provides a log of writes to one
+    or more specified regions of the virtual address space.  Logging is useful
+    for applications that require rollback and/ or persistence such as parallel
+    simulations and memory-mapped object-oriented databases.  It can also be
+    used for output, debuggingand distributed consistency maintenance.  This
+    paper describes logged virtual memory as an extension of the standard
+    virtual memory system software and hardware, our prototype implementation,
+    and some performance measurements from this prototype.  Based on these
+    measurements and the experience with our prototype, we argue that logged
+    virtual memory canbe supported with modest extensions to standard virtual
+    memory systems, provides significant benefit to applications and servers,
+    and is faster than other log-generation techniques.", 
+  location     = "https://doi.org/10.1145/224057.224060"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
