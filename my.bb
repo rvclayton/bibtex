@@ -3998,6 +3998,32 @@
   location     = "https://www.cs.cornell.edu/tve/u-net/papers/sosp.pdf"
 }
 
+@Article{ahasis,
+  author       = "Nelson, Michael~N. and Linton, Mark and Owicki, Susan",
+  title        = "{A} Highly Available, Scalable {ITV} System",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "54--67",
+  month        = dec,
+  keywords     = "distributed objects, replication",
+  abstract     = "As part of Time Warner's interactive TV trial in Orlando,
+    Florida, we have implemented mechanisms for the construction of highly
+    available and scalable system services and applications.  Our mechanisms
+    rely on an underlying distributed objects architecture, similar to
+    Spring[1].  We have extended a standard name service interface to provide
+    selectors for choosing among service replicas and auditing to allow the
+    automatic detection and removal of unresponsive objects from the name
+    space.  In addition, our system supports resource recovery, by letting
+    servers detect client failures, and automated restart of failed services.
+    Our experience has been that these mechanisms greatly simplify the
+    development of services that are both highly available and scalable.  The
+    system was built in less than 15 months, is currently in a small number of
+    homes, and will support the trial's 4,000 users later this year.", 
+  location     = "https://doi.org/10.1145/224056.224062"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
