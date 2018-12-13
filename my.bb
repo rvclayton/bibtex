@@ -614,6 +614,18 @@
   location     = "UB271.U52 P47 2016"
 }
 
+@Book{htcym,
+  author       = "Michael Pollan",
+  title        = "How to Change Your Mind",
+  subtitle     = "What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence",
+  publisher    = "Penguin",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "psychedelics, consciousness, dying, addiction, depression,
+  transcendence, lsd, psilocybin",
+  location     = "RM 324.8 P65"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -3954,6 +3966,36 @@
     memory systems, provides significant benefit to applications and servers,
     and is faster than other log-generation techniques.", 
   location     = "https://doi.org/10.1145/224057.224060"
+}
+
+@Article{unaulnifpadc,
+  author       = "von Eicken, Thorsten and Basu, Anindya and Buch, Vineet and Vogels, Werner",
+  title        = "{U-Net}:  {A} User-Level Network Interface for Parallel and Distributed Computing",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "40--53",
+  month        = dec,
+  keywords     = "user-space protocol implementations, multiplexing network
+    interface, application-level framing, ",
+  abstract     = "The U-Net communication architecture provides processes with
+    a virtual view of a network interface to enable user-level access to
+    high-speed communication devices.  The architecture, implemented on
+    standard workstations using off-the-shelf ATM communication hardware,
+    removes the kernel from the communication path, while still providing full
+    protection.  The model presented by U-Net allows for the construction of
+    protocols at user level whose performance is only limited by the
+    capabilities of network.  The architecture is extremely ﬂexible in the
+    sense that traditional protocols like TCP and UDP, as well as novel
+    abstractions like Active Messages can be implemented efﬁciently.  A U-Net
+    prototype on an 8-node ATM cluster of standard workstations offers 65
+    microseconds round-trip latency and 15 Mbytes/sec bandwidth.  It achieves
+    TCP performance at maximum network bandwidth and demonstrates performance
+    equivalent to Meiko CS-2 and TMC CM-5 supercomputers on a set of Split-C
+    benchmarks.", 
+  location     = "https://doi.org/10.1145/224056.224061",
+  location     = "https://www.cs.cornell.edu/tve/u-net/papers/sosp.pdf"
 }
 
 @InProceedings{amitbpl,
