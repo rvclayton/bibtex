@@ -4024,6 +4024,44 @@
   location     = "https://doi.org/10.1145/224056.224062"
 }
 
+@Article{oanctmahc,
+  author       = "Steensgaard, Bjarne and Jul, Eric",
+  title        = "Object and Native Code Thread Mobility Among Heterogeneous Computers",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "68--77",
+  month        = dec,
+  keywords     = "intermediate data representation, synchronization points, emerald",
+  abstract     = "We present a technique for moving objects and threads among
+    heterogeneous computers at the native code level.  To enable mobility of
+    threads running native code, we convert thread states among
+    machine-dependent and machine-independent formats.  We introduce the
+    concept of bus stops, which are machine-independent representations of
+    program points as represented by program counter Sun3 SPARC values.  The
+    concept of bus stops can be used also for other purposes, workstation
+    workstation e.g., to aid inspecting and debugging optimized code, garbage
+    collection etc.  We also discuss techniques for thread mobility among
+    Ethernet processors executing differently optimized codes.  We demonstrate
+    the viability of our ideas by providing a prototype implementation of
+    object and thread mobility among heterogeneous computers.  The prototype
+    uses the Emerald distributed programming language without modiﬁcation; we
+    have merely extended the Emerald runtime system and the code generator of
+    the Emerald compiler.  Our extensions allow object and thread mobility
+    among VAX, Sun-3, HP9000/300, and Sun SPARC workstations.  The excellent
+    intra-node performance of the original homogeneous Emerald is retained:
+    migrated threads run at native code speed before and after migration; the
+    same speed as on homogeneous Emerald and close to C code performance.  Our
+    implementation of mobility has not been optimized: thread mobility and
+    trans-architecture invocations take about 60% longer than in the
+    homogeneous implementation.  We are able to move both objects and native
+    code threads in our We believe this is the first implementation of full
+    object and prototype implementation.  thread mobility among heterogeneous
+    computers with threads executing native code.",
+  location     = "https://doi.org/10.1145/224056.224063"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
