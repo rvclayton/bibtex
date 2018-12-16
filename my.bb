@@ -4062,6 +4062,40 @@
   location     = "https://doi.org/10.1145/224056.224063"
 }
 
+@Article{ipac,
+  author       = "Patterson, R.~Hugo and Gibson, Garth~A. and Ginting, Eka and Stodolsky, Daniel and Zelenka, Jim",
+  title        = "Informed Prefetching and Caching",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "79--95",
+  month        = dec,
+  keywords     = "hints, behavior-directed management, estimation, cost-benefit
+    analysis, file buffer management",
+  abstract     = "In this paper, we present aggressive, proactive mechanisms
+    that tailor file system resource management to the needs of I/O-intensive
+    applications.  In particular, we show how to use application-disclosed
+    access patterns (hints) to expose and exploit I/O parallelism, and to
+    dynamically allocate file buffers among three competing demands: prefetching
+    hinted blocks, caching hinted blocks for reuse, and caching recently used
+    data for unhinted accesses.  Our approach estimates the impact of
+    alternative buffer allocations on application execution time and applies
+    cost-benefit analysis to allocate buffers where they will have the greatest
+    impact.  We have implemented informed prefetching and caching in Digital’s
+    OSF/1 operating system and measured its performance on a 150 MHz Alpha
+    equipped with 15 disks running a range of applications.  Informed
+    prefetching reduces the execution time of text search, scientific
+    visualization, relational database queries, speech recognition, and object
+    linking by 20-83%.  Informed caching reduces the execution time of
+    computational physics by up to 42% and contributes to the performance
+    improvement of the object linker and the database.  Moreover, applied to
+    multiprogrammed, I/O-intensive workloads, informed prefetching and caching
+    increase overall throughput.", 
+  location     = "https://doi.org/10.1145/224056.224064",
+  location     = "http://www.pdl.cmu.edu/PDL-FTP/TIP/SOSP15.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
