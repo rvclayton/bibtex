@@ -4096,6 +4096,42 @@
   location     = "http://www.pdl.cmu.edu/PDL-FTP/TIP/SOSP15.pdf"
 }
 
+@Article{thahss,
+  author       = "Wilkes, John and Golding, Richard and Staelin, Carl and Sullivan, Tim",
+  title        = "The {HP} {AutoRAID} Hierarchical Storage System",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "96--108",
+  month        = dec,
+  keywords     = "raid, disk performance, adaptive systems, storage management,
+    simulation, logged disk i-o",
+  abstract     = "Configuring redundant disk arrays is a black art.  To
+    configure an array properly, a system administrator must understand the
+    details of both the array and the workload it will support.  Incorrect
+    understanding of either, or changes in the workload over time, can lead to
+    poor performance.  We present a solution to this problem: a two-level
+    storage hierarchy implemented inside a single disk-array controller.  In
+    the upper level of this hierarchy, two copies of active data are stored to
+    provide full redundancy and excellent performance.  In the lower level,
+    RAID 5 parity protection is used to provide excellent storage cost for
+    inactive data, at somewhat lower performance.  The technology we describe
+    in this article, know as HP AutoRAID, automatically and transparently
+    manages migration of data blocks between these two levels as access
+    patterns change.  The result is a fully redundant storage system that is
+    extremely easy to use, is suitable for a wide variety of workloads, is
+    largely insensitive to dynamic workload changes, and performs much better
+    than disk arrays with comparable numbers of spindles and much larger
+    amounts of front-end RAM cache.  Because the implementation of the HP
+    AutoRAID technology is almost entirely in software, the additional hardware
+    cost for these benefits is very small.  We describe the HP AutoRAID
+    technology in detail, provide performance data for an embodiment of it in a
+    storage array, and summarize the results of simulation studies used to
+    choose algorithms implemented in the array.", 
+  location     = "https://doi.org/10.1145/225535.225539"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
