@@ -4132,6 +4132,35 @@
   location     = "https://doi.org/10.1145/225535.225539"
 }
 
+@Article{snfs,
+  author       = "Anderson, Thomas~E. and Dahlin, Michael~D. and Neefe, Jeanna~M. and Patterson, David~A. and Roselli, Drew~S. and Wang, Randolph~Y.",
+  title        = "Serverless Network File Systems",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "109--126",
+  keywords     = "raid, distributed file servers, journaling file systems,
+    zebra, cache consistency, metadata, striping, caching, journal cleaning",
+  abstract     = "In this paper, we propose a new paradigm for network file
+    system design, serverless network file systems.  While traditional network
+    file systems rely on a central server machine, a serverless system utilizes
+    workstations cooperating as peers to provide all file system services.  Any
+    machine in the system can store, cache, or control any block of data.  Our
+    approach uses this location independence, in combination with fast local
+    area networks, to provide better performance and scalability than
+    traditional file systems.  Further, because any machine in the system can
+    assume the responsibilities of a failed component, our serverless design
+    also provides high availability via redundant data storage.  To demonstrate
+    our approach, we have implemented a prototype serverless network file
+    system called xFS.  Preliminary performance measurements suggest that our
+    architecture achieves its goal of scalability.  For instance, in a 32-node
+    xFS system with 32 active clients, each client receives nearly as much read
+    or write throughput as it would see if it were the only active client.", 
+  location     = "https://homes.cs.washington.edu/~tom/pubs/xfs.html",
+  location     = "https://doi.org/10.1145/224056.224066"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
