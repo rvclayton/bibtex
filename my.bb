@@ -4161,6 +4161,34 @@
   location     = "https://doi.org/10.1145/224056.224066"
 }
 
+@Article{poccisf,
+  author       = "John~S. Heidemann and Gerald~J. Popek",
+  title        = "Performance of Cache Coherence in Stackable Filing",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "127--142",
+  keywords     = "stackable file systems, cache coherence, caching, cache management",
+  abstract     = "Stackable design of filing systems constructs sophisticated
+    services from multiple, independently developed layers.  This approach has
+    been advocated to address development problems from code re-use, to
+    extensibility, to version management.  Individual layers of such a system
+    often need to cache data to improve performance orprovide desired
+    functionality.  Whenaccessto different layers isallowed, cache
+    incoherencies can occur.  Without a cache coherence solution, layer
+    designers must either restrict layer access and flexibility or compromise
+    the layered structure to avoid potential data corruption.  Thevalue of
+    modular designs such as stacking can be questioned without a suitable
+    solution to this problem.  This paper presents a general cache coherence
+    architecture for stackable tiling, including a standard approach to data
+    identifications a key component tolayered coherence protocols.  We also
+    present a detailed performance analysis of one implementation of stack
+    cache-coherence, which suggests that very low overheads can be achieved in
+    practice.",
+  location     = "http://www.isi.edu/%7ejohnh/PAPERS/Heidemann95c.html"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
