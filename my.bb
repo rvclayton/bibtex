@@ -626,6 +626,16 @@
   location     = "RM 324.8 P65"
 }
 
+@Book{wtlco,
+  author       = "Chibundu Onuzo",
+  title        = "Welcome to Lagos",
+  publisher    = "Catapult",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "nigeria, corruption, lagos",
+  location     = "https://lccn.loc.gov/2017950942"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
