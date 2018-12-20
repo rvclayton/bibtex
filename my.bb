@@ -4199,6 +4199,30 @@
   location     = "http://www.isi.edu/%7ejohnh/PAPERS/Heidemann95c.html"
 }
 
+@Article{ewcfmfa,
+  author       = "Mummert, Lily~B. and Ebling, Maria~R. and Satyanarayanan, M.",
+  title        = "Exploiting Weak Connectivity for Mobile File Access",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "143--155",
+  keywords     = "caching, adaptive systems, intermittent file systems,
+    disconnected operation",
+  abstract     = "Weak connectivity, in the form of intermittent,
+    low-bandwidth, or expensive networks is a fact of life in mobile computing.
+    In this paper, we describe how the Coda File System has evolved to exploit
+    such networks.  The underlying theme of this evolution has been the
+    systematic introduction of adaptivity to eliminate hidden assumptions about
+    strong connectivity.  Many aspects of the system, including communication,
+    cache validation, update propagation and cache miss handling have been
+    modified.  As a result, Coda is able to provide good performance even when
+    network bandwidth varies over four orders of magnitude -- from modem speeds
+    to LAN speeds.", 
+  location     = "https://doi.org/10.1145/224056.224068",
+  location     = "https://www.cs.cmu.edu/~satya/docdir/mummert-sosp15-coda-1995.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
