@@ -4223,6 +4223,36 @@
   location     = "https://www.cs.cmu.edu/~satya/docdir/mummert-sosp15-coda-1995.pdf"
 }
 
+@Article{ratfmia,
+  author       = "Anthony~D. Joseph and Alan~F. deLespinasse and Joshua~A. Tauber and David~K. Gifford and M.~Frans Kaashoek",
+  title        = "Rover:  {A} Toolkit for Mobile Information Access",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "156--171",
+  keywords     = "client-server architecture, disconnected operation, caching,
+    logging, application consistency management, low bandwidth communication",
+  abstract     = "The Rover toolkit combines relocatable dynamic objects and
+    queued remote procedure calls to provide unique services for roving mobile
+    applications.  A relocatable dynamic object is an object with a
+    well-defined interface that can be dynamically loaded into a client
+    computer from a server computer (or vice versa) to reduce client-server
+    communication requirements.  Queued remote procedure call is a
+    communication system that permits applications to continue to make
+    non-blocking remote procedure call requests even when a host is
+    disconnected, with requests and responses being exchanged upon network
+    reconnection.  The challenges of mobile environments include intermittent
+    connectivity, limited bandwidth, and channel-use optimization.
+    Experimental results from a Rover-based mail reader, calendar program, and
+    two non-blocking versions of World-Wide Web browsers show that Rover's
+    services are a good match to these challenges.  The Rover toolkit also
+    offers advantages for workstation applications by providing a uniform
+    distributed object architecture for code shipping, object caching, and
+    asynchronous object invocation.", 
+  location     = "https://people.cs.umass.edu/~mcorner/courses/691M/papers/joseph.pdf"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -7945,6 +7975,15 @@
   OPTtitle     = "Why a Bazaar may Fizzle or Fail",
   year         = 1990,
   keywords     = "cathedral, bazaar"
+}
+
+@Misc{aatcs,
+  author       = "Charles Staats III",
+  title        = "An Asymptote Tutorial",
+  year         = 2014,
+  month        = "17 " # may,
+  keywords     = "asymptote",
+  location     = "https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/asymptote_tutorial.pdf"
 }
 
 @MastersThesis{cchioawan,
