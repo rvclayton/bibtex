@@ -4253,6 +4253,40 @@
   location     = "https://people.cs.umass.edu/~mcorner/courses/691M/papers/joseph.pdf"
 }
 
+@Article{mucibawcrss,
+  author       = "Terry, Douglas~B. and Theimer, Marvin~M. and Petersen, Karin and Demers, Alan~J. and Spreitzer, Mike~J. and Hauser, Carl~H.",
+  title        = "Managing Update Conflicts in {Bayou}, a Weakly Connected Replicted Storage System",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "172--182",
+  keywords     = "update conflicts, weakly-connected replicated storage system,
+    dependency checks, conflict detection, per-write conflict resolution,
+    application-specific conflict management, client-server architecture,
+    weakly consistent storage system, accessible replicas, tentative writes,
+    eventual consistency, global senalization order, eventual consistency,
+    write logging", 
+  abstract     = "Bayou is a replicated, weakly consistent storage system
+    designed for a mobile computing environment that includes portable machines
+    with less than ideal network connectivity.  To maximize availability, users
+    can read and write any accessible replica.  Bayou's design has focused on
+    supporting apphcation-specific mechanisms to detect and resolve the update
+    conflicts that naturally arise in such a system, ensuring that replicas
+    move towards eventual consistency, and defining a protocol by which the
+    resolution of update conflicts stabilizes.  It includes novel methods for
+    conflict detection, called dependency checks, and per-write conflict
+    resolution based on client-provided merge procedures.  To guarantee
+    eventual consistency, Bayou servers must be able to rollback the effects of
+    previously executed writes and redo them according to a global senalization
+    order.  Furthermore, Bayou permits clients to observe the results of all
+    writes received by a server, Including tentative writes whose conflicts
+    have not been ultimately resolved.  This paper presents the motivation for
+    and design of these mechanisms and describes the experiences gained with an
+    initial implementation of the system.", 
+  location     = "https://doi.org/10.1145/224056.224070"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
@@ -7979,7 +8013,7 @@
 
 @Misc{aatcs,
   author       = "Charles Staats III",
-  title        = "An Asymptote Tutorial",
+  title        = "An {Asymptote} Tutorial",
   year         = 2014,
   month        = "17 " # may,
   keywords     = "asymptote",
