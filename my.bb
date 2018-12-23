@@ -4287,6 +4287,60 @@
   location     = "https://doi.org/10.1145/224056.224070"
 }
 
+@Article{oissacos,
+  author       = "Pu, Calton and Autrey, Tito and Black, Andrew and Consel, Charles and Cowan, Crispin and Inouye, Jon and Kethana, Lakshmi and Walpole, Jonathan and Zhang, Ke",
+  title        = "Optimistic Incremental Specialization:  Streamlining a Commercial Operating System",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "314--321",
+  keywords     = "incremental specialization, optimistic specialization,
+    invariants, guards, code specializations, hot-swapping code, execution
+    optimizations",
+  abstract     = "Conventional operating system code is written to deal with
+    all possible system states, and performs considerable interpretation to
+    determine the current system state before taking action.  A consequence of
+    this approach is that kernel calls which perform little actual work take a
+    long time to execute.  To address this problem, we use specialized
+    operating system code that reduces interpretation for common cases, but
+    still behaves correctly in the fully general case.  We describe how
+    specialized operating system code can be generated and bound incrementally
+    as the information on which it depends becomes available.  We extend our
+    specialization techniques to include the notion of optimistic incremental
+    specialization: a technique for generating specialized kernel code
+    optimistically for system states that ate likely to occur, but not certain.
+    The ideas outlined in this paper allow the conventional kernel design tenet
+    of optimization for the common case to be extended to the domain of
+    adaptive operating systems.  We also show that aggressive use of
+    specialization can produce in-kernel implementations of operating system
+    functionality with performance comparable to user-level implementations.
+    We demonstrate that these ideas are applicable in real-world operating
+    systems by describing a re-implementation of the HP-UX file system.  Our
+    specialized read system call reduces the cost of a single byte read by a
+    factor of 3, and an 8 KB read by 26%, while preserving the semantics of the
+    HP-UX read call.  By relaxing the semantics of HP-UX read we were able to
+    cut the cost of a single byte read system call by more than an order of
+    magnitude.", 
+  location     = "http://doi.org/10.1145/224056.224080"
+}
+
+@Article{ssadopfcc,
+  author       = "Bassiouni, M.~A.",
+  title        = "Single-Site and Distributed Optimistic Protocols for Concurrency Control",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 8,
+  pages        = "1071--1080",
+  month        = aug,
+  keywords     = "centralized database systems, distributed database systems,
+    optimistic concurrency control, performance evaluation of database systems,
+    serializable schedules",
+  abstract     = "The authors consider that, in spite of their advantage in removing the overhead of lock maintenance and deadlock handling, optimistic concurrency control methods have been applied less in practice than locking schemes.  Two complementary approaches are introduced that may help render the optimistic approach practically viable.  For the high-level approach, integration schemes can be utilized so that the database management system is provided with a variety of synchronization methods each of which can be applied to the appropriate class of transactions.  The low-level approach seeks to increase the concurrency of the original optimistic method and improve its performance.  The author examines the low-level approach in depth, and presents algorithms that aim at reducing back-ups and improve throughput.  Both the single-site and distributed networks are considered.  Optimistic schemes using time-stamps for fully duplicated and partially duplicated database networks are presented, with emphasis on performance enhancement and on reducing the overall cost of implementation.",
+  location     = "https://doi.org/10.1109/32.7617"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
