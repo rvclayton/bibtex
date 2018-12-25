@@ -556,6 +556,7 @@ automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
 automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
+automatic isolation of compiler errors : whalley
 automatic mining of source code repositories to improve bug finding techniques : williams
 automatic predicate abstraction of c programs : ball
 automatic synthesis of state machines from trace diagrams : koskimies
