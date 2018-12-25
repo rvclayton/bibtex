@@ -4341,6 +4341,133 @@
   location     = "https://doi.org/10.1109/32.7617"
 }
 
+@Article{tioatoosp,
+  author       = "Rosenblum, Mendel and Bugnion, Edouard and Herrod, Stephen Alan and Witchel, Emmett and Gupta, Anoop",
+  title        = "The Impact of Architectural Trends on Operating System Performance",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "285--298",
+  keywords     = "architectural trends, operating system performance,
+    transaction processing    , execution performance, program development,
+    kernel services, memory stall time, cache behavior, dynamically-scheduled
+    processors, uniprocessors, computer system performance, latency, workload
+    performance, kernel communication, instruction execution time, clock cycle,
+    operating systems, coherence miss, simulation, memory systems,
+    multiprocessors", 
+  abstract     = "Computer systems are rapidly changing.  Over the next few
+    years, we will see wide-scale deployment of dynamically-scheduled
+    processors that can issue multiple instructions every clock cycle, execute
+    instructions out of order, and overlap computation and cache misses.  We
+    also expect clock-rates to increase, caches to grow, and multiprocessors to
+    replace uniprocessors.  Using SimOS, a complete machine simulation
+    environment, this paper explores the impact of the above architectural
+    trends on operating system performance.  We present results based on the
+    execution of large and realistic workloads (program development,
+    transaction processing, and engineering compute-server) running on the IRIX
+    5.3 operating system from Silicon Graphics Inc.  Looking at uniprocessor
+    trends, we find that disk I/O is the first-order bottleneck for workloads
+    such as program development and transaction processing.  Its importance
+    continues to grow over time.  Ignoring I/O, we find that the memory system
+    is the key bottleneck, stalling the CPU for over 50 % of the execution
+    time.  Surprisingly, however, our results show that this stall fraction is
+    unlikely to increase on future machines due to increased cache sizes and
+    new latency hiding techniques in processors.  We also find that the
+    benefits of these architectural trends spread broadly across a majority of
+    the important services provided by the operating system.  We find the
+    situation to be much worse for multiprocessors.  Most operating systems
+    services consume 30-70 % more time than their uniprocessor counterparts.  A
+    large fraction of the stalls are due to coherence misses caused by
+    communication between processors.  Because larger caches do not reduce
+    coherence misses, the performance gap between uniprocessor and
+    multiprocessor performance will increase unless operating system developers
+    focus on kernel restructuring to reduce unnecessary communication.  The
+    paper presents a detailed decomposition of execution time (e.g.,
+    instruction execution time, memory stall time separately for instructions
+    and data, synchronization time) for important kernel services in the three
+    workloads.", 
+  location     = "https://www.cs.utexas.edu/users/witchel/pubs/SOSP95-oschar.pdf"
+}
+
+@Article{tmpopcos,
+  author       = "Chen, J.~Bradley and Endo, Yasuhiro and Chan, Kee and Mazi{\` e}res, David and Dias, Antonio and Seltzer, Margo and Smith, Michael~D.",
+  title        = "The Measured Performance of Personal Computer Operating Systems",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "299--313",
+  keywords     = "windows, windows nt, netbsd, hardware counters, performance
+    benchmarking, device drivers, application workloads, microbenchmarks,
+    memory access, file system access, graphics hardware, network throughput",
+  abstract     = "This article presents a comparative study of the performance
+    of three operating systems that run on the personal computer architecture
+    derived form the IBM-PC.  The operating systems, Windows for Workgroups,
+    Windows NT, and NetBSD (a freely available variant of the UNIX operating
+    system), cover a broad range of system functionality and user requirements,
+    from a single-address-space model to full protection with preemptive
+    multitasking.  Our measurements are enable by hardware counters in Intel's
+    Pentium processor that permit measurement of a broad range of processor
+    events including instruction counts and on-chip cache miss counts.  We use
+    both microbenchmarks, which expose specific difference between the systems,
+    and application workloads, which provide an indication of expected
+    end-to-end performance.  Our microbenchmark results show that accessing
+    system functionality is often more expensive in Windows for Workgroups than
+    in the other two systems due to frequent changes in machine mode and the
+    use of system call hooks.  When running native applications, Windows NT is
+    more efficient than Windows, but it incurs overhead similar to that of a
+    microkernel, since its application interface (the Win32 API) is implemented
+    as a user-level server.  Overall, system functionality can be accessed most
+    efficiently in NetBSD; we attribute this to its monolithic structure and to
+    the absence of the complications created by hardware backward-compatibility
+    requirements in the other systems.  Measurements of application performance
+    show that although the impact of these differences is significant in terms
+    of instruction counts and other hardware events (often a factor of 2 to 7
+    difference between the systems), overall performance is sometimes
+    determined by the functionality provided by specific subsystems, such as
+    the graphics subsystem or the file system buffer cache.", 
+  location     = "http://www.scs.stanford.edu/~dm/home/papers/chen:p5-sosp.pdf",
+  location     = "https://doi.org/10.1145/225535.225536"
+}
+
+@Article{aioce,
+  author       = "Whalley, David~B.",
+  title        = "Automatic Isolation of Compiler Errors",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 5,
+  pages        = "1648--1659",
+  month        = sep,
+  keywords     = "automatic error isolation, diagnostic procedures,
+    optimization errors, software engineering, compiler construction, fault
+    isolation",
+  abstract     = "This paper describes a tool called vpoiso that was developed
+    to isolate errors automatically in the vpo compiler system.  The two
+    general types of compiler errors isolated by this tool are optimization and
+    nonoptimization errors.  When isolating optimization errors, vpoiso relies
+    on the vpo optimizer to identify sequences of changes, referred to as
+    transformations, that result in semantically equivalent code and to provide
+    the ability to stop performing improving (or unnecessary) transformations
+    after a specified number have been performed.  A compilation of a typical
+    program by vpo often results in thousands of improving transformations
+    being performed.  The vpoiso tool can automatically isolate the first
+    improving transformation that causes incorrect output of the execution of
+    the compiled programs by using a binary search that varies the number of
+    improving transformation performed.  Not only is the illegal transformation
+    automatically isolated, but vpoiso also identifies the location and instant
+    the transformation is performed in vpo.  Nonoptimization errors occur from
+    problems in the front end, code generator, and necessary transformations in
+    the optimizer.  If another compiler is available that can produce correct
+    (but perhaps more inefficient) code, then vpoiso can isolate
+    nonoptimization errors to a single function.  Automatic isolation of
+    compiler errors facilitates retargeting a compiler to a new machine,
+    maintenance of the compiler, and supporting experimentation with new
+    optimizations.", 
+  location     = "https://doi.org/10.1145/186025.186103"
+}
+
 @InProceedings{amitbpl,
   author       = "Kristensen, Bent Bruun and Madsen, Ole Lehrmann and M{\o}ller-Pedersen, Birger and Nygaard, Kristen",
    title        = "Abstraction Mechanisms in the {B}eta Programming Language",
