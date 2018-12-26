@@ -636,6 +636,17 @@
   location     = "https://lccn.loc.gov/2017950942"
 }
 
+@Book{tootcr,
+  author       = "Carlo Rovelli",
+  title        = "The Order of Time",
+  publisher    = "Riverhead Books",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "time, physics, cosmology, entropy, newton, enistein,
+    philosophy, relativity",
+  location     = "QC 173.59.S65 R6813"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -4466,6 +4477,58 @@
     maintenance of the compiler, and supporting experimentation with new
     optimizations.", 
   location     = "https://doi.org/10.1145/186025.186103"
+}
+
+@Article{omkc,
+  author       = "Jochen Liedtke",
+  title        = "On $\mu$-Kernel Construction",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "237--250",
+  keywords     = "micro-kernels, performance, os abstractions, address spaces,
+    interrupts, ipc, hardware architecture, cache conflicts",
+  abstract     = "From a software-technology point of view, the micro-kernel
+    concept is superior to large integrated kernels.  On the other hand, it is
+    widely believed that (a) micro-kernel based systems are inherently
+    inefficient and (b) they are not sufficiently flexible.  Contradictory to
+    this belief, we show and support by documentary evidence that inefficiency
+    and inflexibility of current micro-kernels is not inherited from the basic
+    idea but mostly from overloading the kernel and/or from improper
+    implementation.  Based on functional reasons, we describe some concepts
+    which must be implemented by a micro-kernel and illustrate their
+    flexibility.  Then, we analyze the performance critical points.  We show
+    what performance is achievable, that the efficiency is sufficient with
+    respect to macro-kernels and why some published contradictory measurements
+    are not evident.  Furthermore, we describe some implementation techniques
+    and illustrate why micro-kernels are inherently not portable, although they
+    improve portability of the whole system.", 
+  location     = "https://doi.org/10.1145/224056.224075",
+  location     = "http://os.inf.tu-dresden.de/papers_ps/jochen/Mikern.ps"
+}
+
+@Article{caanffpu,
+  author       = "Gregor Snelting",
+  title        = "Concept Analysis --- {A} New Framework for Program Understanding",
+  journal      = sigplan # " (" # pot # "1998 ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering, PASTE '98)",
+  year         = 1998,
+  volume       = 33,
+  number       = 7,
+  pages        = "1--10",
+  month        = jul,
+  keywords     = "lattices, modularity, software understanding, software
+    components, interference analysis",
+  abstract     = "Concept analysis transforms any relation between objects and
+    attributes into a complete lattice.  This concept lattice can be studied by
+    algebraic means and offers remarkable insight into properties and structure
+    of the original relation.  As relations between objects and attributes
+    occur all the time in software technology, concept analysis is an
+    attractive foundation for a new class of program analysis tools.  The
+    article presents a short overview of the underlying theory, as well as
+    applications for software component retrieval, analysis of configuration
+    spaces, and modularization of legacy code.", 
+  location     = "https://doi.org/10.1145/277631.277634"
 }
 
 @InProceedings{amitbpl,
