@@ -4024,22 +4024,6 @@
   location     = "QA 76.5.S653"
 }
 
-@Article{caanffpu,
-  author       = "Gregor Snelting",
-  title        = "Concept Analysis --- A New Framework for Program
-		  Understanding",
-  journal      = sigplan # " (" # pot # "ACM SIGPLAN-SIGSOFT Workshop on
-		  Program Analysis for Software Tools and Engineering - PASTE
-		  '98)",
-  year         = 1998,
-  volume       = 33,
-  number       = 7,
-  pages        = "1--10",
-  month        = jul,
-  keywords     = "lattice",
-  location     = "QA 76.7.A15X"
-}
-
 @Article{ciiaisdp,
   author       = "Kweku Ewusi-Mensah",
   title        = "Critical Issues in Abandoned Information Systems Development
