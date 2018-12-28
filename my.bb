@@ -647,6 +647,17 @@
   location     = "QC 173.59.S65 R6813"
 }
 
+@Book{cpb,
+  author       = "Philip Ball",
+  title        = "Curiosity",
+  subtitle     = "How Science Became Interested in Everything",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "royal society, science history",
+  location     = "Q 125.B297"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -4529,6 +4540,70 @@
     applications for software component retrieval, analysis of configuration
     spaces, and modularization of legacy code.", 
   location     = "https://doi.org/10.1145/277631.277634"
+}
+
+@Article{igmmiawc,
+  author       = "Feeley, Michael~J. and Morgan, William~E. and Pighin, Frederic~H. and Karlin, Anna~R. and Levy, Henry~M. and Thekkath, Chandramohan~A.",
+  title        = "Implementing Global Memory Management in a Workstation Cluster",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "201--212",
+  keywords     = "global page management, coherency, inter-node communication,
+    overheads",
+  abstract     = "Advances in network and processor technology have greatly
+    changed the communication and computational power of local-area workstation
+    clusters.  However, operating systems still treat workstation clusters as a
+    collection of loosely-connected processors, where each workstation acts as
+    an autonomous and independent agent.  This operating system structure makes
+    it difficult to exploit the characteristics of current clusters, such as
+    low-latency communication, huge primary memories, and high-speed
+    processors, in order to improve the performance of cluster applications.
+    This paper describes the design and implementation of global memory
+    management in a workstation cluster.  Our objective is to use a single,
+    unified, but distributed memory management algorithm at the lowest level of
+    the operating system.  By managing memory globally at this level, all
+    system- and higher-level software, including VM, file systems, transaction
+    systems, and user applications, can benefit from available cluster memory.
+    We have implemented our algorithm in the OSF/1 operating system running on
+    an ATM-connected cluster of DEC Alpha workstations.  Our measurements show
+    that on a suite of memory-intensive programs, our system improves
+    performance by a factor of 1.5 to 3.5.  We also show that our algorithm has
+    a performance advantage over others that have been proposed in the past.", 
+  location     = "https://doi.org/10.1145/224056.224072",
+  location     = "http://www.cs.washington.edu/homes/levy/opal/sosp.ps"
+}
+
+@Article{chpasdsm,
+  author       = "Johnson, Kirk~L. and Kaashoek, M.~Frans and Wallach, Debora~A.",
+  title        = "{CRL}:  High-Performance All-Software Distributed Shared Memory",
+  journal      = sosp95,
+  year         = 1995,
+  volume       = 29,
+  number       = 5,
+  pages        = "213--226",
+  keywords     = "distributed shared memory, caching, latency",
+  abstract     = "The C Region Library (CRL) is a new all-software distributed
+    shared memory (DSM) system.  CRL requires no special compiler, hardware, or
+    operating system support beyond the ability to send and receive messages.
+    It provides a simple, portable, region-based shared address space
+    programming model that is capable of delivering good performance on a wide
+    range of multiprocessor and distributed system architectures.  Each region
+    is an arbitrarily sized, contiguous area of memory.  The programmer defines
+    regions and delimits accesses to them using annotations.  We have developed
+    CRL implementations for two platforms: the Thinking Machines CM-5, a
+    commercial multicomputer, and the MIT Alewife machine, an experimental
+    multiprocessor offering efficient support for both message passing and
+    shared memory.  We present results for up to 128 processors on the CM-5 and
+    up to 32 processors on Alewife.  In a set of controlled experiments, we
+    demonstrate that CRL is the first all-software DSM system capable of
+    delivering performance competitive with hardware DSMs.  CRL achieves
+    speedups within 15% of those provided by Alewife's native support for
+    shared memory, even for challenging applications (e.g., Barnes-Hut) and
+    small problem sizes.", 
+  location     = "https://doi.org/10.1145/224056.224073",
+  location     = "ftp://cag.lcs.mit.edu/pub/papers/crl-sosp-15.ps.Z"
 }
 
 @InProceedings{amitbpl,
