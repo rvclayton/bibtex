@@ -3,6 +3,7 @@
 @string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
 @string{sosp95    = osr # " (" # pot # "Fifteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixw94 = pot # "Winter 1994 USENIX Conference"}
+@string{usenixs91 = pot # "Summer 1991 USENIX Conference"}
 
 @Book{tdoetn,
   author       = "Tom Nichols",
@@ -6984,6 +6985,34 @@
   location     = "https://www.usenix.org/conference/usenix-winter-1994-technical-conference/wux-unix-tools-under-windows"
 }
 
+@InProceedings{ltcsfvldfs,
+  author       = "Blaze, Matt and Alonso, Rafael",
+  title        = "Long-Term Caching Strategies for Very Large Distributed File Systems",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "3--15",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "caching, distributed file systems, scalablity, consistency,
+    trace-driven simulation, bounded currency, one-copy serializable, cache
+    hierarchies, file access patterns",
+  abstract     = "This paper examines the feasibility of using long term (disk
+    based) caches in very large distributed file systems (DFSs).  We begin with
+    an analysis of file access patterns in a distributed Unix workstation
+    environment, and identify properties of use to the DFS designer.  We then
+    introduce long-term caching strategies that maintain consistency while
+    dramatically reducing the load on file servers.  We describe a number of
+    algorithms for maintaining client caches, and present the results of a
+    trace-driven simulation that shows how relatively small disk-based caches
+    can be used to reduce server traffic by 60% to 90%.  Finally, we outline
+    possible mechanisms for dynamically organizing these caches into adaptive
+    hierarchies to allow arbitrary scaling of the number of clients and the use
+    of low-bandwidth communication networks.  A small (2 or 3 level) hierarchy,
+    coupled with smart caching techniques, has the potential to reduce traffic
+    by an order of magnitude or more over a flat scheme.", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-321-91"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
@@ -7915,7 +7944,6 @@
   title        = "Gnuplot 4.0 --- {A} Brief Manual and Tutorial",
   organization = "Department of Civil and Environmental Engineering, Edmund T. Pratt School of Engineering, Duke University",
   address      = "Durham, N.C.",
-  edition      = "",
   year         = 2005,
   month        = "13 " # apr,
   keywords     = "gnuplot",
