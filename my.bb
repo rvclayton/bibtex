@@ -7013,6 +7013,27 @@
   location     = "https://www.cs.princeton.edu/research/techreps/TR-321-91"
 }
 
+@InProceedings{morvlditfrfs,
+  author       = "Thomas~W. {Page Jr.} and Richard~G. Guy and John~S. Heidemann and Wai Mak and Gerald~J. Popek and Dieter Rothmeier",
+  title        = "Management of Replicated Volume Location Data in the {Ficus} Replicated File System",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "17--29",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "ficus, distributed file systems, reconciliation algorithms,
+    stackable layers, autografting, update propagation, ",
+  abstract     = "Existing techniques to provide name transparency in
+    distributed file systems have been designed for modest scale systems, and
+    do not readily extend to very large configurations.  This paper details the
+    approach which is now operational in the Ficus replicated Unix ling
+    environment, and shows how it differs from other methods currently in use.
+    The Ficus mechanism permits optimistic management of the volume location
+    data by exploiting the existing directory reconciliation algorithms which
+    merge directory updates made during network partition.", 
+  location     = "https://www.isi.edu/~johnh/PAPERS/Page91b.pdf"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
