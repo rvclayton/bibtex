@@ -7034,6 +7034,48 @@
   location     = "https://www.isi.edu/~johnh/PAPERS/Page91b.pdf"
 }
 
+@InProceedings{emiostphdr,
+  author       = "Cabrera, Luis and Long, Darrell~D.~E.",
+  title        = "Exploiting Multiple {I}/{O} Streams to Provide High Data-Rates",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "31--48",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "swift architecture, high-performance storage systems,
+    distributed file systems, distributed disks striping, high-speed networks,
+    high-data-rate i/o, client-server model, object server, video server,
+    multimedia, data redundancy, resiliency",
+  abstract     = "We present an I/O architecture, called Swift, that addresses
+    the problem of data-rate mismatches between the requirements of an
+    application, the maximum data-rate of the storage devices, and the
+    6ata-rate of the interconnection medium.  The goal of Swift is to support
+    integrated continuous multimedia in general purpose distributed systems.
+    In installations with a high-speed interconnection medium, Swift will
+    provide high data-rate transfers by using multiple slower storage devices
+    in parallel.  The data-rates obtained with this approach scale well when
+    using multiple storage devices and multiple interconnections.  Swift has
+    the flexibility to use any appropriate storage technology, including disk
+    arrays.  The ability to adapt to technological advances will allow Swift to
+    provide for ever increasing I/O demands.  To address the problem of partial
+    failures, Swift stores data redundantly.  Using the UNIX operating system,
+    we have constructed a simplified prototype of the Swift architecture.
+    Using a single Ethernet-based local-area network and three servers, the
+    prototype provides data-rates that are almost three times as fast as access
+    to the local SCSI disk in the case of writes.  When compared to NFS, the
+    Swift prototype provides double the data-rate for reads and eight times the
+    data-rate for writes.  The data-rate of our prototype scales almost
+    linearly in the number of servers and the number of network segments.  Its
+    performance is shown to be limited by the speed of the Ethernet-based
+    local-area network.  We also constructed a simulation model to show how the
+    Swift architecture can exploit storage, communication, and processor
+    advances, and to locate the components that will limit I/O performance.  In
+    a simulated gigabit/second token ring local-area network the data-rates are
+    seen to scale proportionally to the size of the transfer unit and to the
+    number of storage agents.", 
+  location     = "https://www.ssrc.ucsc.edu/pub/UTC-Long-1991.html"
+}
+
 @TechReport{dacsbssbsalbl,
   author       = "P.~Emerald Chung and Yennun Huang and Shalini Yajnik and
     Deron Liang and Joanne~C. Shih and Chung-Yih Wang and Yi-Min Wang",
