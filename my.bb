@@ -659,6 +659,17 @@
   location     = "Q 125.B297"
 }
 
+@Book{sapanw,
+  author       = "Alfred North Whitehead",
+  title        = "Science and Philosophy",
+  publisher    = "Philosophical Library",
+  year         = 1948,
+  address      = nyny,
+  keywords     = "einstein's special relativity, education, mathematics,
+    meaning, geometry",
+  location     = "Q 175.W62"
+}
+
 @InBook{aplftcaibottamm,
   author       = "Dirk Riehle and Heinz Z{\" u}llighoven",
   title        = "Pattern Languages of Programm Design",
@@ -7074,6 +7085,45 @@
     seen to scale proportionally to the size of the transfer unit and to the
     number of storage agents.", 
   location     = "https://www.ssrc.ucsc.edu/pub/UTC-Long-1991.html"
+}
+
+@InProceedings{aoaeebtm,
+  author       = "Edward~C. Cheng and Edward~Y. Chang and Johannes Klein and Dora Lee and Edward Lu and Alberto Lutgardo and Ron Obermarck",
+  title        = "An Open and Extensible Event-Based Transaction Manager",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "49--57",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "distributed transactions, events, transaction management",
+  abstract     = "The concept of a transaction has been used to ensure
+    atomicity, consistency, isolation, and durability of a unit of work in a
+    computing environment.  A number of transaction models have been proposed
+    and defined over the years to relate multiple units of work together.  Two
+    distinguishing properties are observed among he various transaction models:
+    namely, concurrency control and recovery.  Depending upon the type of
+    application, it may be desirable to maintain different concurrent access
+    rules as well as variant recovery coordination schemes over a transaction
+    tree that is composed of a number of transaction models.  In the past,
+    there have been attempts to implement a transaction manager as a system
+    service to provide tranactional coordination on both the system and user
+    level.  However, these traditional approaches can support only a limited
+    number of transaction models due to the complexity of coping with the
+    various and sometimes contradictory transaction properties.  Indeed, many
+    of these transaction managers assume only the flat transaction model which
+    clearly will not be sufficient in today's open computing environment.  In
+    this paper, we present an approach to an open and extensible transaction
+    manager that uses an event triggering and synchronization mechanism.
+    Transaction models are define based on transaction dependency rules to
+    relate transaction instances together.  The transaction manager pre-defines
+    a set of primitive relations between transaction agents; from this pool of
+    dependencies, a user can choose a combination of rules as desired policies
+    to govern the behavior of transactions.  By using primitive dependencies,
+    multiple transaction models can be constructed within the same transaction
+    tree and are able to coexist with one another.  Interoperability between
+    different transaction managers is also made possible with the emulation of
+    different transaction models by using the transaction-related
+    dependencies." 
 }
 
 @TechReport{dacsbssbsalbl,
