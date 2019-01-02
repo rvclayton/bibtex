@@ -149,6 +149,7 @@
 @string{moca    = "Montreal, Canada"}
 @string{moncal  = "Monterey, " # CA}
 @string{nasi    = "NATO Advanced Science Institute"}
+@string{nate    = "Nashville, " # TN}
 @string{nh      = "North-Holland"}
 @string{nhco    = "New Haven, " # CN}
 @string{mk      = "Morgan Kaufmann"}
@@ -244,6 +245,7 @@
 @string{tcs     = "Theoretical Computer Science"}
 @string{tkja    = "Tokyo, Japan"}
 @string{tm	= "Technical Memorandum"}
+@string{TN      = "Tennessee"}
 @string{tnsg    = "Telecommunications\slash Networking Systems Group, "}
 @string{toce	= acmt # "Computing Education"}
 @string{todaes	= acmt # "Design Automation of Electronic Systems"}
@@ -272,6 +274,7 @@
 @string{upp     = upenn # " Press"}
 @string{uril    = " Urbana, " # IL}
 @string{usenixs90 = pot # "Summer 1990 USENIX Conference"}
+@string{usenixs91 = pot # "Summer 1991 USENIX Conference"}
 @string{ustra   = " University of Strathclyde"}
 @string{uta	= " University of Texas"}
 @string{utam	= " University of Tampere"}
