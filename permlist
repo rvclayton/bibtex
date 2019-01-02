@@ -266,6 +266,7 @@ a syntax directed integrated programming environment for developing simd superco
 a synthesis of software science measures and the cyclomatic number : ramamurthy
 a system architecture for fault tolerance in concurrent software : ancona
 a system for generating language oriented editors : tenma
+a system for specification and rapid prototyping of application command languages : stelovsky
 a systematic approach to multiple inheritance implementation : templ
 a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
