@@ -40,3 +40,15 @@
   location     = "https://doi.org/10.1109/32.42742"
 }
 
+@Book{cpec,
+  author       = "Paul~E. Ceruzzi",
+  title        = "Computing",
+  subtitle     = "A Concise History",
+  publisher    = mitp,
+  year         = 2012,
+  address      = cma,
+  keywords     = "analog machines, digital machines, stored program machines, history,
+    microprocessors, the internet, the world wide web",
+  location     = "QA 76.C467"
+}
+
