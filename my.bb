@@ -49,6 +49,25 @@
     constructed based on C++ Language." 
 }
 
+@InProceedings{sefhpp,
+  author       = "Seiki Inoue and Masahiro Shibata",
+  title        = "Spatiotemporal Editing for {HDTV} Program Production",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "95--104",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "video editing, image processing, image synthesis",
+  abstract     = {We have been developing a component image database for scene
+    synthesis.  This report describes a new scene generation method using that
+    image database and a multilayered image synthesizer.  In this method,
+    several components images transferred from the database are arranged on
+    multiple layers in spatiotemporal domain and combined to a scene or a whole
+    program itself.  We call this method spatiotemporal editing.  An
+    experimental HDTV (Hi-Vision) system was also developed and usefulness of
+    this method was confirmed through actual Hi-Vision program productions.} 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
