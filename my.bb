@@ -68,6 +68,27 @@
     this method was confirmed through actual Hi-Vision program productions.} 
 }
 
+@InProceedings{nofcstcs,
+  author       = "Matthew Witten and Robert~E. Wyatt",
+  title        = "Neural Orchestration:  From Cortical Simulation to Cortical Symphony",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "107--124",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "neural simulation, neural orchestration, biosymphonics,
+    visualization, symphonics, realization, representation, actualization,
+    cognitive descriptor, visualization descriptor",
+  abstract     = "The signal flow in a vertical slab of neural tissue in cat
+    area 17 has been computationally modeled.  The modeled slab covers 500x500
+    mu^2 of cortical surface and extends vertically though the full cortex
+    depth.  Data visualization complexity requires both visual and audio
+    representation.  This paper presents the unique issues of and the complex 
+    orchestral visualization of cortical simulation.  This leads to the
+    concepts and formalizations necessary for a general theory of
+    visualization."
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
