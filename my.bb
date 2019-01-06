@@ -89,6 +89,34 @@
     visualization."
 }
 
+@InProceedings{maempsdwaoot,
+  author       = "Richard~L. Phillips",
+  title        = "{MediaView}:  An Editable Multimedia Publishing System Developed with an Object-Oriented Toolkit",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "125--136",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "media editing, wysiwyg editing, nextstep, user-interface
+    toolkits, object-oriented components, objective c",
+  abstract     = "MediaView is an editable multimedia publication system, a
+    feature that sets it apart from any system currently or previously
+    available.  It achieves power, flexibility, and ease of use through the
+    familiar cut, copy , and past exemplar normally applied only to text in
+    WYSIWYG word processors.  In MediaView all components are manipulated this
+    way.  MediaView was developed on a NeXT computer using the object-oriented
+    development system called NeXTstep.  The powerful base classes defined
+    there, coupled with Objective-C features like dynamic binding, enabled
+    MediaView to be developed in a short time but with a rich feature set.  Two
+    key subclasses of NeXTstep objects give MediaView its strengths.  Through
+    them, arbitrarily complex multimedia components can be installed in a
+    document and then copied and pasted, just as if they were words.  MediaView
+    has two document formats --- one for compactness and speed and one for
+    interchange with other applications and other computers.  The latter format
+    s based on a hierarchical file system, which is well suited to UNIX but
+    also to other systems, like that found on a Macintosh." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
