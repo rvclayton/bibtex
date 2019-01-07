@@ -3,7 +3,6 @@
 @string{ir95      = " (ACM SIGPLAN Workshop on Intermediate Representations, IR '95)"}
 @string{sosp95    = osr # " (" # pot # "Fifteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixw94 = pot # "Winter 1994 USENIX Conference"}
-@string{usenixs91 = pot # "Summer 1991 USENIX Conference"}
 
 @Book{tdoetn,
   author       = "Tom Nichols",
