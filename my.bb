@@ -117,6 +117,45 @@
     also to other systems, like that found on a Macintosh." 
 }
 
+@InProceedings{asftdmd,
+  author       = "Dick C.~A. Bulterman and Guido {van Rossum} and Robert {van Liere}",
+  title        = "{A} Structure for Transportable, Dynamic Multimedia Documents",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "137--155",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "dynamic multimedia document, multimedia document structure,
+    portability, event descriptor, attribute descriptor, cwi multimedia
+    interchange format, structural relationships, layered description,
+    synchronization channel, synchronization arc",
+  abstract     = "This paper presents a document structure for describing
+    transportable, dynamic multimedia documents.  Multimedia documents consist
+    of a set of discrete data components that are joined together in time and
+    space to present a user (or reader) with a single coordinated whole.
+    Transportable documents are those in which the document structure can be
+    accessed across system environments independently of individual component
+    input or output dependencies; dynamic documents are those in which the
+    synchronization of document components are not staticly defined as an
+    integral part of the data definition but are dynamicly defined as
+    attributes of the general document structure.  The focus of this paper is
+    the presentation of the basic building blocks of the CWI Multimedia
+    Interchange Format (CMIF).  CMIF is used to describe the temporal and
+    structural relationships that exist in multimedia documents.  In order to
+    put our work in a concrete context, we start our discussion with a brief
+    description of the portability requirements for documents used within the
+    CWI/Multimedia Pipeline.  We then provide a layered description of our
+    document structure format; this format provides a means for expressing a
+    document in terms of synchronization channels, event descriptors, data
+    descriptors, data blocks and synchronization arcs, each element of which
+    contains a set of appropriate descriptive attributes.  The paper describes
+    each of these concepts abstractly as well as in the context of a uniform
+    example.  The paper concludes with a discussion of our intended future
+    direction in using the various attribute descriptors to control a broad
+    range of activities within the CWI/Multimedia Pipeline.", 
+  location     = "http://homepages.cwi.nl/~dcab/PDF/usenix.doc.pdf"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
