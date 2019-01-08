@@ -4,7 +4,6 @@
 cat <<eof! |
 .profile : howard
 14 rules for writing multiple choice questions : brigham
-17 mistakes microsoft made in the xbox security system : steil
 23 things i know about modules for scheme : queinnec
 4.2 bsd and 4.3 bsd as examples of the unix system : quarterman
 64 bit programming in a 32 bit world : nicholson
@@ -36,7 +35,6 @@ a collection of declarative ada example programs : thornley
 a comparative analysis of functional correctness : dunlop
 a comparative evaluation of generic programming in java and c++ : saiedian
 a comparative study of language support for generic programming : garcia
-a comparison of four reverse engineering tools : bellay
 a comparison of microsofts c# programming language to sun microsystems java programming language : obasanjo
 a comparison of object modelling notations alloy uml and z : jackson
 a comparison of os extension technologies : small
@@ -328,7 +326,6 @@ action semantics a tool for developing programming languages : doh
 active messages a mechanism for integrated communication and computation : von eicken
 ada 95 a guide for c and c++ programmers : johnston
 ada and software defelopment support a new concept in language design : leblanc
-ada system dependency analyzer tool : baratta
 adaptable pointer swizzling strategies in object bases design realization and quantitative analysis : kemper
 adapters and binders overcoming problems in the design and implementation of the c++ stl : simonis
 adaptive automata for context dependent languages : neto
@@ -487,7 +484,6 @@ and or programs a new approach to structured programming : harel
 angel resource unification in a 64 bit micro kernel : murray
 animating z specifications in haskell using a monad : goodman
 annotating objects for transport to other worlds : ungar
-anti vamming trust enforcement in peer to peer voip networks : banerjee
 antlr translator generator faq : jguru
 aop and the antinomy of the liar : forster
 apl a glimpse of heaven : legrand
@@ -684,7 +680,6 @@ classification categories and historical development of circuit switching topolo
 cleanroom process model : linger
 clearing memory and partial register stalls in your code : barad
 client server caching revisited : franklin
-clocks in dataflow languages : caspi
 clostrophobia its etiology and treatment : baker
 clustering a dag for cad databases : banerjee
 cml a higher order concurrent language : reppy
@@ -778,7 +773,6 @@ cons should not evaluate its arguments : friedman
 considering recursion : robison
 consistency based diagnosis : palshikar
 consistency in dataflow graphs : lee
-constrained latency storage access : staehli
 constraint logic programming : hentenryck
 constraint logic programming an informal introduction : fruhwirth
 constructing distributed systems in conic : magee
@@ -903,7 +897,6 @@ design early considered harmful graduated exposure to complexity and structure b
 design fragments make using frameworks easier : fairbanks
 design of ada systems yielding reusable components an approach using structured algebraic specification : litvintchouk
 design of cooperative process oriented environments using reactive components : geppert
-design of knowledge based systems with a knowledge based assistant : schoen
 design of reliable software in distributed systems using the conversation scheme : tyrrell
 design of the programming lanauge forsythe : reynolds
 design of the x kernel : hutchins 
@@ -939,7 +932,6 @@ diagnosing java code designing extensible applications : allen
 differentiating parsers : kiselyov
 difftree inferring phylogenies for evolving software : fraser
 digital signatures a tutorial survey : akl
-digital telephony : bellamy
 ddimensions of object oriented modeling : wegner
 directions and issues in architecture and language : flynn
 directory based cache coherence in large scale multiprocessors : chaiken
@@ -1053,7 +1045,6 @@ emperical studies of programming knowledge : soloway
 emulating an operating system on top of another : franz
 enabling autonomic behavior in systems software with hot swapping : appavoo
 enabling computational nanotechnolgy through javagenes in a cycle scavenging environment : globus
-enabling sip based sessions in ad hoc networks : banerjee
 encapsulated postscript files : eps
 encapsulation inheritance and the platypus effect : talin
 endian neutral software part 1 : gillig
@@ -1489,11 +1480,9 @@ introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
 introduction to simulated annealing : tovy
 introduction to stream control transmission protocol : newmarch
-introduction to the configurable highly parallel computer : snyder
 introduction to the formal treatment of testing : gourlay
 introduction to the literature on semantics : leavens
 introduction to tla : lamport
-intrusion detection for the masses : bauer
 inverting the burrows wheeler transform : bird
 investigating java concurrency using abstract state machines : gurevich
 investigating the influence of formal methods : pfleeger
@@ -1542,7 +1531,6 @@ java2d an introduction and tutorial : hall
 javascript essentials : goodman
 jello a retargetable just in time compiler for llvm bytecode : lattner
 jingle bells solving the santa claus problem in polyhponic c# : benton
-jist an efficient approach to simulation using virtual machines : barr
 jit vs offline compilation limits and benefits of bytecode compilation : muller
 joeq a virtual machine and compiler infrastructure : whaley
 journaling file systems : best
@@ -1930,7 +1918,6 @@ paths trees and flowers : edmonds
 pattern languages : gabriel
 pattern matching with regular expression notation in unix : gill
 pattern recognition in software engineering : dupree
-patterns and software development : beck
 patterns and software essential concepts and terminology : appleton
 patterns for piccolo : piccolo
 patterns plop plop fizz fizz : martin
@@ -2244,13 +2231,11 @@ search algorithms for regression test case prioritization : li
 searching with quantum computers : grove
 secheduling in rtl design methodology : shin
 second step algorithms in the burrows wheeler compression algorithm : deorowicz
-securing dns and bind : bauer
 security in plan 9 : cox
 security kernel design and implementation an introduction : ames
 security mechanisms in high level network protocols : voydock
 security models for web based applications : joshi
 security practicum essential home wireless security practices : fisher
-security problems in the tcp ip protocol suite : bellovin
 seeds for random number generators : marsaglia
 selecting a programming language compiler and support environment method and example : anderson
 selective open recursion a solution to the fragile base class problem : aldrich
@@ -2661,7 +2646,6 @@ the growth of interest in microprogramming a literature survey : wilkes
 the hardware software cost ratio is it a myth : boehm
 the hawala alternative remittance system and its role in money laundering : jost
 the hermes language in outline form : alowry
-the hetnos network operating system a tool for writing distributed applications : barcellos
 the history of posix a study in the standards process : issack
 the history of the algol effort : de beer
 the hoca operating system specifications : babaoglu
@@ -2905,7 +2889,6 @@ towards a basis for protocol specification and process decomposition : rath
 towards a derivational style of distributed system design an example : feather
 towards a first course based on object oriented patterns : wallingford
 towards a model of mind as a laissez faire economy of idiots : ebaum
-towards a new security architecture for telephony : bassil
 towards a semantics for object z : duke
 towards action refinement in process algebras : aceto
 towards leakage containment : lawall
@@ -3009,7 +2992,6 @@ using mathematical induction to design computer algorithms : manber
 using memoization to acheive polynomial complexity of purely functional executable specifications of non deterministic top down parsers : frost
 using multicast to solve the midnight madness problem : schooler
 using path expressions as concurrency guards : rees
-using postfix for secure smtp gateways : bauer
 using redundancies to find errors : xie
 using smgn for rapid prototyping of small domain specific languages : kienle
 using standard ml in software maintenance a promising approach : baumann
@@ -3077,7 +3059,6 @@ what is dhtml : gardner
 what is interactive scripting : travers
 what is software design : reeves
 what is the bios : schmidt
-what its like to be a popl referee : wegman
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
 when formal systems kill computer ethics and formal methods : abramson
