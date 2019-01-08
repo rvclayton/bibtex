@@ -156,6 +156,62 @@
   location     = "http://homepages.cwi.nl/~dcab/PDF/usenix.doc.pdf"
 }
 
+@InProceedings{adattdoepp,
+  author       = "Ying Liu and Ambuj~K. Singh and Rajive Bagrodia",
+  title        = "{A} Decompositional Approach to the Design of Efficient Parallel Programs",
+  booktitle    = pot # "4th International PARLE Conference on Parallel Architectures and Languages Europe",
+  year         = 1992,
+  editor       = "Etiemble, D. and Syre, J.~C.",
+  pages        = "21--36",
+  publisher    = sv,
+  series       = lncs,
+  volume       = 605,
+  address      = "Paris, France",
+  month        = "15--18 " # jun,
+  keywords     = "unity",
+  abstract     = "A methodology for the derivation of efficient parallel
+    implementations from program specifications is developed.  The goal of the
+    methodology is to decompose a program specification into a collection of
+    module specifications, such that each module may be implemented by a
+    subprogram.  The correctness of the whole program is then deduced from the
+    correctness of the property refinement procedure and the correctness of the
+    individual subprograms.  The refinement strategy is based on identifying
+    frequently occurring control structures such as sequential composition and
+    iteration.  The methodology is developed in the context of the UNITY logic
+    and the UC programming language, and illustrated through the solution of
+    diffusion aggregation in fluid flow simulations.", 
+  location     = "ISBN:3-540-55599-4", 
+  location     = "https://doi.org/10.1007/3-540-55599-4_78"
+}
+
+@InProceedings{pmic,
+  author       = "Thomas G.~Aguierre Smith and Natalio Pincever",
+  title        = "Parsing Movies in Context",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "157--168",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "media production, segmentation, stratification, video
+    database, annotations, logging, audio cues",
+  abstract     = "Traditional approaches in Multimedia systems force the user
+    to segment video material into simple descriptions, which usually include
+    endpoints and a brief text description in the form of keywords.  We propose
+    to segment contextual information into chunks rather than segmenting
+    contiguous frames.  The computer can help us organize sets of descriptions
+    that are related to the recorded moving image: it can help us remember what
+    we have shot.  Such descriptions can overlap, be contained in, and even
+    encompass a multitude of other descriptions.  Parsing moving image
+    sequences is reduced to simply parsing the contextual information which
+    forms the description.  Our approach, Stratification, also has important
+    ramifications in terms of an elastic representation of moving images.
+    Ambient sound can provide us with important contextual clues as to what is
+    going on within the frames.  Using audio to find patterns of content is an
+    important step towards the eventual automatization of the logging
+    process.", 
+  location     = "http://mf.media.mit.edu/pubs/journal/ParsingContext.pdf"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -194,5 +250,36 @@
   keywords     = "analog machines, digital machines, stored program machines, history,
     microprocessors, the internet, the world wide web",
   location     = "QA 76.C467"
+}
+
+@Book{twswb,
+  author       = "Sara Wachter-Boettcher",
+  title        = "Technically Wrong",
+  publisher    = "W.~W. Norton",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "culture, user experience, tracking, algorithms, meritocracy",
+  location     = "TA 169.5.W33"
+}
+
+@Misc{1mmmitxss,
+  author       = "Michael Steil",
+  title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
+  booktitle    = "22nd Chaos Communication Congress (22C3)",
+  year         = 2005,
+  month        = "27--30 " # dec,
+  address      = "Berlin, Germany",
+  keywords     = "security, xbox, bootloader, encryption, hashing, ",
+  location     = "https://events.ccc.de/congress/2005/fahrplan/attachments/674-slides_xbox.pdf",
+  location     = "https://www.slideshare.net/Flashdomain/17-mistakes-microsoft-made-in-the-xbox-security-system"
+}
+
+@Misc{asjsc,
+  author       = "Stringfellow Barr",
+  title        = "Notes on Dialogue",
+  year         = 1968,
+  month        = jan,
+  keywords     = "listening, dialogue, communication",
+  location     = "https://www.bc.edu/content/dam/files/centers/boisi/pdf/f10/Notes_on_Dialogue.pdf"
 }
 
