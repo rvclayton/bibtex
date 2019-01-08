@@ -212,6 +212,30 @@
   location     = "http://mf.media.mit.edu/pubs/journal/ParsingContext.pdf"
 }
 
+@InProceedings{dmhctndrbs,
+  author       = "Michael Pasieka and Paul~G. Crumley and Ann Marks and Ann Infortuna",
+  title        = "Distributed Multimedia:  How Can the Necessary Data Rates be Supported?",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "169--182",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "token right, protocol development, performance measurement,
+    multimedia transport, direct memory access",
+  abstract     = "At the Information Technology Center at Carnegie Mellon
+    University, we have been developing a system in which it is possible to
+    deliver data to a presentation machine from a remote machine across a
+    public network at a sustained high rate.  We have called this system a
+    Continuous Time Media System (CTMS).  We have found that the UNIX 2 model
+    used for transfer of data between two devices, the network transport
+    protocols, and the ability of adapters to transfer data between themselves
+    are insufficient to do this.  We have made modifications to each of these
+    system in order to create a prototype system that we can measure to help
+    define a CTMS protocol.  We present the results of this work in this
+    paper.", 
+  location     = "http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-107.pdf"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
