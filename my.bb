@@ -236,6 +236,34 @@
   location     = "http://reports-archive.adm.cs.cmu.edu/anon/itc/CMU-ITC-107.pdf"
 }
 
+@InProceedings{msreftmos,
+  author       = "Jun Nakajima and Masatomo Yazaki and Hitoshi Matsumoto",
+  title        = "Multimedia\slash Realtime Extensions for the {Mach} Operating System",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "183--198",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "scheduling, event handling, interrupt handling, realtime
+    threads, asynchrony, multimedia application constraints, memory management,
+    user-mode device drivers",
+  abstract     = "We have extended the Mach operating system to support
+    multimedia applications.  Our extensions for Mach provide the system
+    designers and the developers with a reliable and flexible multimedia
+    processing environment.  This paper focuses on realtime issues while
+    supporting multimedia applications, asynchronous event notification which
+    follows the POSIX P1003.4 proposal, preemptive deadline scheduling, and
+    device drivers which run in user mode.  Preemptive deadline scheduling
+    preempts asynchronous event notification for continuous media that requires
+    each event handler to execute as soon as possible and schedules other event
+    handlers to meet their time constraints as well.  The system designers must
+    develop device divers for a wide variety of multimedia devices.  New
+    devices will appear as multimedia technology progresses.  User-mode device
+    drivers will help develop device drivers efficiently and provide a flexible
+    environment.  The rationale, design, implementation and performance are
+    presented." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -262,6 +290,34 @@
     the commands.  Experience shows that an advanced end user can develop his
     or her own prototype application without a programmer's assistance.", 
   location     = "https://doi.org/10.1109/32.42742"
+}
+
+@Article{plfcmspac,
+  author       = "Loy, Gareth and Abbott, Curtis",
+  title        = "Programming Languages for Computer Music Synthesis, Performance, and Composition",
+  journal      = surveys,
+  year         = 1985,
+  volume       = 17,
+  number       = 2,
+  pages        = "235--265",
+  month        = jun,
+  keywords     = "computer music, digital sound synthesis, music programming
+    language design, music representation, real-time control languages,
+    object-oriented structures, temporal sequencing",
+  abstract     = "The development of formal, descriptive, and procedural
+    notations has become a practical concern within the field of music now that
+    computers are being applied to musical tasks.  Music combines the real-time
+    demands of performance with the intellectual demands of highly developed
+    symbolic systems that are quite different from natural language.  The
+    richness and variety of these demands makes the programming language
+    paradigm a natural one in the musical application of computers.  This
+    paradigm provides musicians with a fresh perspective on their work.  At the
+    same time, music is a very advanced form of human endeavor, making computer
+    music applications a worthy challenge for computer scientists.  In this
+    paper we outline the traditional tasks and forms of representation in
+    music, then proceed with a survey of languages that deal with music
+    programming.", 
+  location     = "https://doi.org/10.1145/4468.4485"
 }
 
 @Book{cpec,
