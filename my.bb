@@ -1,4 +1,4 @@
-.so bibtex.header
+>41;340;0cì.so bibtex.header
 		  
 
 @InProceedings{ehs,
@@ -262,6 +262,28 @@
     drivers will help develop device drivers efficiently and provide a flexible
     environment.  The rationale, design, implementation and performance are
     presented." 
+}
+
+@InProceedings{atfmdvaas,
+  author       = "P.~Venkat Rangan and Walter~A. Burkhard and
+    Robert~W. Bowdidge and Harrick~M. Vin and John~W. Lindwall and Kashun Chan
+    and Ingvar~A. Aaberg and Linda~M. Yamanoto and Ian~G. Harris",
+  title        = "A Testbed for Managing Digital Video and Audio Storage",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "199--208",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "ropes, strands, media storage, media abstractions",
+  abstract     = "We have developed a testbed for studying multimedia storage
+    systems. We are using the testbed to experiment with media storage issues
+    such as synchronization, continuous recording and retrieval, and
+    manipulation of large files.  We define strand and rope abstractions that
+    provide a paradigm for accessing multiple media.  Our system software
+    architecture consists of two layers: the device-independent rope server,
+    and the device-specific storage manager.  We have implemented a prototype
+    within a Sun and PC environment.  We present our experiences and discuss
+    system performance." 
 }
 
 @Article{asfsarpoacl,
