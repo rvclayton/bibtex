@@ -149,7 +149,6 @@
 @string{moca    = "Montreal, Canada"}
 @string{moncal  = "Monterey, " # CA}
 @string{nasi    = "NATO Advanced Science Institute"}
-@string{nate    = "Nashville, " # TN}
 @string{nh      = "North-Holland"}
 @string{nhco    = "New Haven, " # CN}
 @string{mk      = "Morgan Kaufmann"}
@@ -295,3 +294,5 @@
 @string{xk      = "{\it x}-kernel"}
 @string{yup     = "Yale University Press"}
 @string{zusw    = " Zurich, Switzerland"}
+
+@string{nate    = "Nashville, " # TN}
