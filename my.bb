@@ -364,6 +364,16 @@
   location     = "TA 169.5.W33"
 }
 
+@Book{cswsm,
+  author       = "Sayaka Murata",
+  title        = "Convenience Store Woman",
+  publisher    = "Grove Press",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "alienation, conformance, norms, commerce, work, personality",
+  location     = "PL 873.U73 C6613"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
