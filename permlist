@@ -1137,6 +1137,7 @@ fast effective dynamic compilation : auslander
 fast hashing of variable length text strings : pearson
 fast optimized sun rpc using automatic program specialization : muller
 fast string maching using an n gram algorithm : kim
+fast string searching : hume
 faster dynamic linking for sparc v8 and system v4 : keppel
 faster generalized lr parsing : aycock
 fault injection a method for validating computer-system dependability : clark
