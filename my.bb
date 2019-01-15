@@ -1,4 +1,4 @@
->41;340;0cì.so bibtex.header
+.so bibtex.header
 		  
 
 @InProceedings{ehs,
@@ -286,6 +286,91 @@
     system performance." 
 }
 
+@InProceedings{fssah,
+  author       = "Hume, Andrew and Sunday, Daniel",
+  title        = "Fast String Searching",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "221--233",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "string search, boyer moore, metaprogramming, performance",
+  abstract     = "Despite substantial theoretical progress, there has been
+    little improvement in practical string searching since the Boyer-Moore
+    algorithm in 1977.  And even Boyer-Moore took several years to infiltrate
+    the UNIX community.  We describe a new framework for understanding a class
+    of algorithms based on the skip loop variant of Boyer-Moore and describe
+    various components that can be used in this framework.  This leads to new
+    algorithms that are substantially faster than the algorithms in current
+    use.  Furthermore, new algorithms can be synthesised automatically from the
+    names of component pieces.  The code for the algorithms is publicly
+    available.", 
+  location     = "https://doi.org/10.1002/spe.4380211105"
+}
+
+@InProceedings{taotimw,
+  author       = "Eric Lindemann and Miller Puckette and Eric Viara and Maurizio {De Cecco} and Francois Dechelle and Bennett Smith",
+  title        = "The Architecture of the {IRCAM} Musical Workstation",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "209--220",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "signal processing, real-time operating systems, software tools",
+  location     = "https://www.jstor.org/stable/3680764"
+}
+
+@InProceedings{812tp9ws,
+  author       = "Rob Pike",
+  title        = "$8\,1/2$, the {Plan} 9 Window System",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "257--265",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "window systems, file systems, plan 9",
+  abstract     = "The Plan 9 window system, 8½, is a modest-sized program of
+    novel design.  It provides textual I/O and bitmap graphic services to both
+    local and remote client programs by offering a multiplexed file service to
+    those clients.  It serves traditional UNIX files like /dev/tty as well as
+    more unusual ones that provide access to the mouse and the raw screen.
+    Bitmap graphics operations are provided by serving a file called
+    /dev/bitblt that interprets client messages to perform raster operations.
+    The file service that 8½ offers its clients is identical to that it uses
+    for its own implementation, so it is fundamentally no more than a
+    multiplexer.  This architecture has some rewarding symmetries and can be
+    implemented compactly.", 
+  location     = "https://9p.io/sys/doc/8%C2%BD/8%C2%BD.html"
+}
+
+@InProceedings{sssfssfi,
+  author       = "David~G. Korn and Kiem-Phong Vo",
+  title        = "{SFIO}:  Safe\slash Fast String\slash File {IO}",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "257--265",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "i-o, streams, unix, stdio",
+  abstract     = "This paper describes Sfio, a new input/output library, that
+    can be used as a replacement for Stdio, the C language standard I/O
+    library.  Sfio is more complete, consistent, and efficient than Stdio.  New
+    facilities are provided for convenient, safe and efficient manipulation of
+    data streams.  An Sfio stream may be entirely memory resident or it may
+    correspond to some actual file.  Alternative I/O disciplines can be applied
+    to a stream to customize its behavior with respect to data transformation
+    and exception handling.  Stream pools can be maintained to guarantee stream
+    synchronization when switching streams for I/O operations.  Separate
+    streams can be stacked on one another to make new virtual streams.  Both
+    source and binary compatibility packages are provided allowing Stdio-based
+    programs to benefit from the new library without recoding.  Sfio has been
+    used successfully in a number of applications including many rewritten
+    standard system utilities.  Sfio Benchmark timings show that performs very
+    well against Stdio and standard utilities can gain substantial performance
+    improvement when based completely on Sfio.", 
+  location     = "https://www.cs.princeton.edu/courses/archive/fall97/cs595/sfio.ps"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -340,6 +425,36 @@
     music, then proceed with a survey of languages that deal with music
     programming.", 
   location     = "https://doi.org/10.1145/4468.4485"
+}
+
+@Article{spaocbttp,
+  author       = "Gazzillo, Paul and Grimm, Robert",
+  title        = "{SuperC}:  Parsing All of {C} by Taming the Preprocessor",
+  journal      = sigplan # "(" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
+  year         = 2012,
+  volume       = 42,
+  number       = 6,
+  pages        = "323--334",
+  month        = jun,
+  keywords     = "c, preprocessor, parsing, conditional macros",
+  abstract     = "C tools, such as source browsers, bug finders, and automated
+    refactorings, need to process two languages: C itself and the preprocessor.
+    The latter improves expressivity through file includes, macros, and static
+    conditionals.  But it operates only on tokens, making it hard to even parse
+    both languages.  This paper presents a complete, performant solution to
+    this problem.  First, a configuration-preserving preprocessor resolves
+    includes and macros yet leaves static conditionals intact, thus preserving
+    a program's variability.  To ensure completeness, we analyze all
+    interactions between preprocessor features and identify techniques for
+    correctly handling them.  Second, a configuration-preserving parser
+    generates a well-formed AST with static choice nodes for conditionals.  It
+    forks new subparsers when encountering static conditionals and merges them
+    again after the conditionals.  To ensure performance, we present a simple
+    algorithm for table-driven Fork-Merge LR parsing and four novel
+    optimizations.  We demonstrate the effectiveness of our approach on the x86
+    Linux kernel.", 
+  location     = "",
+  location     = "https://cs.nyu.edu/rgrimm/papers/pldi12.pdf"
 }
 
 @Book{cpec,
