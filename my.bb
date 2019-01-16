@@ -371,6 +371,28 @@
   location     = "https://www.cs.princeton.edu/courses/archive/fall97/cs595/sfio.ps"
 }
 
+@InProceedings{amgui,
+  author       = "Rob Pike",
+  title        = "{A} Minimalist Global User Interface",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "267--280",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "windows, user interfaces, minimalism",
+  abstract     = "Help is a combination of editor, window system, shell, and
+    user interface that provides a novel environment for the construction of
+    textual applications such as browsers, debuggers, mailers, and so on.  It
+    combines an extremely lean user interface with some automatic heuristics
+    and defaults to achieve significant effects with minimal mouse and keyboard
+    activity.  The user interface is driven by a file-oriented programming
+    interface that may be controlled from programs or even shell scripts.  By
+    taking care of user interface issues in a central utility, help simplifies
+    the job of programming applications that make use of a bitmap display and
+    mouse.", 
+  location     = "http://doc.cat-v.org/plan_9/1st_edition/help/"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
