@@ -393,6 +393,42 @@
   location     = "http://doc.cat-v.org/plan_9/1st_edition/help/"
 }
 
+@InProceedings{igradm,
+  author       = "Dean Rubine",
+  title        = "Integrating Gesture Recognition and Direct Manipulation",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "281--298",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "gesture-based interfaces, statistical classification, user
+    interfaces",
+  abstract     = "A gesture-based interface is one in which the user specifies
+    commands by simple drawings, typically made with a mouse or stylus.  A
+    single intuitive gesture can simultaneously specify objects, an operation,
+    and additional parameters, making gestures more powerful than the clicks
+    and drags of traditional direct-manipulation interfaces.  However, a
+    problem with most gesture-based systems is that an entire gesture must be
+    entered and the interaction completed before the system responds.  Such a
+    system makes it awkward to use gestures for operations that require
+    continuous feedback.  GRANDMA, a tool for building gesture-based
+    applications, overcomes this shortcoming through two methods of integrating
+    gesturing and direct manipulation.  First, GRANDMA allows views that
+    respond to gesture and views that respond to clicks and drags (e.g.
+    widgets) to coexist in the same interface.  More interestingly, GRANDMA
+    supports a new two-phase interaction technique, in which a gesture
+    collection phase is immediately followed by a manipulation phase.  In its
+    simplest form, the phase transition is indicated by keeping the mouse still
+    while continuing to hold the button down.  Alternatively, the phase
+    transition can occur once enough of the gesture has been seen to recognize
+    it unambiguously.  The latter method, called eager recognition, results in
+    a smooth and natural interaction.  In addition to describing how GRANDMA
+    supports the integration of gesture and direct manipulation, this paper
+    presents an algorithm for creating eager recognizers from example
+    gestures.", 
+  location     = "http://ra.adm.cs.cmu.edu/anon/itc/CMU-ITC-100.pdf"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
