@@ -429,6 +429,35 @@
   location     = "http://ra.adm.cs.cmu.edu/anon/itc/CMU-ITC-100.pdf"
 }
 
+@InProceedings{asycrbycth,
+  author       = "Sanjay Manandhar",
+  title        = "{Activity Server}: You can run but you can't hide",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "299--312",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "location awareness, the panopticon, finger",
+  abstract     = "The activity server is a software utility that provides
+    high-level information on what a user or a number of users are doing by
+    combining data inputs from various sources.  These sources are: 1)
+    thejinger server, 2) the phone server, and 3) the location server.  The
+    finger server provides information on users' activities or lack thereof on
+    hosts within a local network; the phone server abstracts information from
+    call progress of users' digital phones whereas the location server
+    abstracts information from active badge sightings.  Responses from all
+    these unobtrusive data gathering sources are put together to form a
+    composite model of the activities of users.  Information may be collected
+    only from or on behalf of participating users; each user within the user
+    community can determine how much of his own information the activity server
+    may receive.  The main attributes of the activity server are: 1) it
+    maintains history of all the participating users, 2) it synchronizes among
+    the many, possibly conflicting, pieces of information from three sources,
+    3) it distinguishes interdependence of activities among users, and 4) it
+    provides a high-level abstraction about users' activities.", 
+  location     = "https://www.media.mit.edu/publications/activity-server-you-can-run-but-you-cant-hide/"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -515,6 +544,35 @@
   location     = "https://cs.nyu.edu/rgrimm/papers/pldi12.pdf"
 }
 
+@Article{ptcorcpparfei,
+  author       = "Kim, K.~H.",
+  title        = "Programmer-Transparent Coordination of Recovering Concurrent Processes:  Philosophy and Rules for Efficient Implementation",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 6,
+  pages        = "810--821",
+  month        = jun,
+  keywords     = "monitors, rollback and recovery, recovery points, error
+    recovery, process interaction, programmer-transparent coordination, recovery
+    blocks, rollback propagation",
+  abstract     = "An approach to coordination of cooperating concurrent
+    processes, each capable of error direction and recovery, is presented.
+    Error detection, rollback, and retry in a process are specified by a
+    well-structured language construct called recovery block.  Recovery points
+    of processes must be properly coordinated to prevent a disastrous avalanche
+    of process rollbacks.  The approach relies on an intelligent processor
+    system (that runs processes) capable of establishing and discarding the
+    recovery points of interacting processes in a well coordinated manner such
+    that a process never makes two consecutive rollbacks without making a retry
+    between the two, and every process rollback becomes a minimum-distance
+    rollback.  Following a discussion of the underlying philosophy of the
+    author's approach, basic rules of reducing storage and time overhead in
+    such a processor system are discussed.  Examples are drawn from the systems
+    in which processes communicate through monitors", 
+  location     = "https://doi.org/10.1109/32.6160"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -545,6 +603,18 @@
   address      = nyny,
   keywords     = "alienation, conformance, norms, commerce, work, personality",
   location     = "PL 873.U73 C6613"
+}
+
+@Book{inff,
+  author       = "Florian Freistetter",
+  title        = "Isaac Newton",
+  subtitle     = "The Asshole Who Reinvented the Universe",
+  publisher    = "Prometheus Books",
+  year         = 2018,
+  address      = "Amherst, " # NY,
+  keywords     = "isaac newton, royal society, calculus, optics, astronomy,
+    libnetz, hooke, personality, scientific practice",
+  location     = "QC 16.N7 F7413 2018"
 }
 
 @Misc{1mmmitxss,
