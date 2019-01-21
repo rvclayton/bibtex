@@ -458,6 +458,74 @@
   location     = "https://www.media.mit.edu/publications/activity-server-you-can-run-but-you-cant-hide/"
 }
 
+@InProceedings{dcfjvasaiauwe,
+  author       = "Bernard~I. Szabo and Gregory~K. Wallace",
+  title        = "Design Considerations for {JPEG} Video and Synchronized Audio in a " # unix # " Workstation Environment",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "353--368",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "jpeg, mpeg, video coding, video compression, jpeg video,
+    multiplexing, audio encoding, synchronization",
+  abstract     = {This article describes design considerations for use of the
+    draft ISO JPEG standard as a digital video compression technique, to record
+    and play back option images with synchronized compressed audio in a
+    Unix-based workstation.  Background discussion is provided on JPEG and why
+    it is a strong candidate to become a de facto standard for interactive
+    digital video, even though MPEG is the ISO standard primarily intended for
+    this purpose.  Examples are given of the data rates and typical
+    frame-to-frame variations of JPEG data streams which must be supported by
+    real-time software.  A simple audio coding algorithm is described, along
+    with a video/audio multiplexed encoding scheme, which was designed both as
+    a practical starting format for JPEG video, and as a vehicle for initial
+    investigation of the more complex MPEG systems multiplexed encoding format.
+    A description of the hardware testbed designed for our experimental work is
+    given, and this leads to a discussion of how the task of keeping video and
+    audio streams relatively synchronized during playback can be managed with
+    minimum burden on the operating system.  Finally, the real-time software
+    design which runs on the host Unix workstation is summarized, and key
+    issues for system resource management are highlighted.} 
+}
+
+@InProceedings{madmae,
+  author       = "George~D. Drapeau and Howard Greenfield",
+  title        = "{MAEstro} --- {A} Distributed Multimedia Authoring Environment",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "315--328",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "multimedia editing, multimedia documents, system design,
+    courseware, loosely-coupled systems, ",
+  abstract     = "Current multimedia authoring environments are typically
+    designed as self-contained systems; one application is completely
+    responsible for the creation of multimedia documents.  The number of media
+    supported by such systems is usually small, and accommodating new media
+    typically requires rewriting the authoring system.  Meanwhile, workstation
+    vendors are adding multimedia support to distinguish their products from
+    those of their competitors.  As a result, new media are being introduced on
+    the workstation platform so quickly that monolithic authoring systems
+    incorporating today’s state-of-the-art media are often obsolete within a
+    year.  MAEstro was designed for extensibility.  The key to MAEstro is its
+    inter-application messaging system, similar to NeXT’s Speaker-Listener
+    protocol [1].  Through the messaging system, an authoring application
+    controls a number of “mediaeditors” (applications responsible for the
+    manipulation of a particular medium or source of information).  When
+    creating a multimedia document, the authoring application asks the media
+    editors for information about their current selections; during playback,
+    the authoring application sends messages to the media editors telling them
+    to perform media selections.  At present, MAEstro consists of a suite of
+    applications on Sun and NeXT workstations.  Media editors on the Sun
+    support text, CD audio, videodiscs, and a text search engine.  The NeXT
+    runs a MIDI music editor.  The authoring application is a timeline editor
+    running on the Sun that allows authors to create multimedia documents using
+    any combination of media on both workstations.  For example, an author can
+    create a multimedia document that synchronizes NeXT-controlled MIDI
+    synthesizers with video controlled by the Sun.", 
+  location     = "http://www.transcode.com/sites/default/files/ProductInfo/IntroPaper.ps.gz"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
