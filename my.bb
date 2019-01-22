@@ -526,6 +526,63 @@
   location     = "http://www.transcode.com/sites/default/files/ProductInfo/IntroPaper.ps.gz"
 }
 
+@InProceedings{nmmapc,
+  author       = "Walter Bender and H{\aa}kon Wium Lie and Jonathan Orwant and Laura Teodosio and Nathan Abramson",
+  title        = "Newspace:  Mass Media and Personal Computing",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "329--348",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "digital media, news delivery, personalization, news gathering",
+  abstract     = {This study describes the implementation of a display
+    application, Newspace, that offers a broadsheet-sized electronic news
+    presentation to the reader.  The use of paper-quality displays coupled with
+    personal computing gives us a range of new possibilities in content
+    selection, imagery, typography, and human interaction.  A computational
+    intermediary, acting in concert and on behalf of the reader makes possible
+    new publishing styles and forms.  Newspace invites instant updates and
+    spontaneous interaction, while retaining the notion of the edition, with a
+    front page, headlines, simultaneous presentations and juxtapositions.  The
+    application is not limited to traditional news retrieval.  The news is
+    augmented with information from local and remote databases, including
+    electronic mail.  This compilation of data is presented in the style of
+    news media, complementing rather than supplanting it.  The combination and
+    juxtaposition of multiple forms of media is being explored.  Salient
+    features of news stories, such as the non-lexical cues in audio and video
+    news, are abstracted and stored in a database.  The information is used in
+    augmentation and linking to stories in remote databases, to translate
+    information across media types, and to display the news in styles amenable
+    to individual users.  Further personalizing is accomplished by maintaining
+    dynamic user models.  These models include information such as the user's
+    schedule and topics of interest.  The system monitors user actions to
+    bolster both precision and accuracy of the model over time.} 
+}
+
+@InProceedings{svuu,
+  author       = "Paul~G. Milazzo",
+  title        = "Shared Video under " # unix,
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "369--383",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "interactive video, video hardware, video applications,
+    network video servers",
+  abstract     = "The BBN Video Information Server, constructed by the
+    Multimedia System Group, serves several video workstations in nearby
+    offices.  The server and workstations are both based on a combination of
+    Unix workstations and Amiga personal computers, and communicate using a
+    special video-request protocol layered atop SUNRPC.  The server supports a
+    wide variety of video applications, including interactive video browsers
+    and editors, programs that use moving images as user-interface objects, and
+    programs that automatically index video that has closed captions.  Our
+    experience suggests improvements both in Unix and in workstation hardware.
+    Native support for bandwidth-reservation protocols and multicasting, and
+    synchronization primitives for character I/O devices would be invaluable,
+    as would better clocks." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -585,7 +642,7 @@
 @Article{spaocbttp,
   author       = "Gazzillo, Paul and Grimm, Robert",
   title        = "{SuperC}:  Parsing All of {C} by Taming the Preprocessor",
-  journal      = sigplan # "(" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
+  journal      = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
   year         = 2012,
   volume       = 42,
   number       = 6,
@@ -639,6 +696,38 @@
     such a processor system are discussed.  Examples are drawn from the systems
     in which processes communicate through monitors", 
   location     = "https://doi.org/10.1109/32.6160"
+}
+
+@Article{aeduai,
+  author       = "Dillig, Isil and Dillig, Thomas and Aiken, Alex",
+  title        = "Automated Error Diagnosis Using Abductive Inference",
+  journal      = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
+  year         = 2012,
+  volume       = 47,
+  number       = 6,
+  pages        = "181--192",
+  month        = jun,
+  keywords     = "",
+  abstract     = "When program verification tools fail to verify a program,
+    either the program is buggy or the report is a false alarm.  In this
+    situation, the burden is on the user to manually classify the report, but
+    this task is time-consuming, error-prone, and does not utilize facts
+    already proven by the analysis.  We present a new technique for assisting
+    users in classifying error reports.  Our technique computes small, relevant
+    queries presented to a user that capture exactly the information the
+    analysis is missing to either discharge or validate the error.  Our insight
+    is that identifying these missing facts is an instance of the abductive
+    inference problem in logic, and we present a new algorithm for computing
+    the smallest and most general abductions in this setting.  We perform the
+    first user study to rigorously evaluate the accuracy and effort involved in
+    manual classification of error reports.  Our study demonstrates that our
+    new technique is very useful for improving both the speed and accuracy of
+    error report classification.  Specifically, our approach improves
+    classification accuracy from 33% to 90% and reduces the time programmers
+    take to classify error reports from approximately 5 minutes to under 1
+    minute.", 
+  location     = "https://www.cs.utexas.edu/~isil/pldi022-dillig.pdf", 
+  location     = "https://doi.org/10.1145/2254064.2254087"
 }
 
 @Book{cpec,
