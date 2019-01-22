@@ -547,6 +547,7 @@ authentication in distributed systems theory and practice : lampson
 autocollage : rother
 automate your build processing using java and ant : cymerman
 automated analysis of concurrent systems with the constrained expression toolset : avrunin
+automated error diagnosis using abductive inference : dillig
 automated module testing in prolog : hoffman
 automated software test data generation : korel
 automated testing of object oriented software : meyer
