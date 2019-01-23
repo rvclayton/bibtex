@@ -739,6 +739,7 @@ composition a way to make proofs harder : lamport
 compositional refinement of interactive systems : broy
 compositionality in dataflow synchronous languages specification and code generation : benveniste
 comprehending monads : wadler
+compressed executables an exercise in thinking small : taunton
 computational geometry finding the convex hull : gettys
 computational lambda calculus and monads : moggi
 computational thinking : wing
