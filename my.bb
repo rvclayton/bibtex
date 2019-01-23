@@ -583,6 +583,62 @@
     as would better clocks." 
 }
 
+@InProceedings{ewacutxwsuati,
+  author       = "Robert Terek and Joseph Pasquale",
+  title        = "Experiences with Audio Conferencing Using the {X Window System}, " # unix # ", and {TCP/IP}",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "405--418",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "audio conferencing, x window system, delay, performance
+    measurement",
+  abstract     = "We present a voice-quality audio conferencing system built
+    using standard system software, specifically the SunOS 4.0 version of UNIX,
+    X11, and TCP/IP on an Ethernet.  Since this software does not provide real
+    time guarantees, we describe a simple strategy for recovering from missed
+    deadlines by discarding late audio data.  Using this strategy, conferences
+    proceed without delay entering into conversations.  To simplify application
+    programming, a key part of the conferencing system is an X11 server
+    modified to accept audio requests.  This not only provides network
+    transparent access to audio devices, but also has implications for
+    synchronizing audio with graphics or any other media that an enhanced X11
+    server may process.  In this study, we describe the structure of the
+    conferencing application and X11 server and then characterize the
+    performance of this system." 
+}
+
+@InProceedings{ceaeits,
+  author       = "Mark Taunton",
+  title        = "Compressed Executables:  an Exercise in Thinking Small",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "385--403",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "data compression, code compression",
+  abstract     = "In the project described in this paper, a large body of
+    software --- including a port of 4.3 BSD, Sun NFS and the X Window System
+    --- has been made to fit onto small personal computers with comparatively
+    tiny discs and an unusual memory management architecture.  The problem of
+    space is exacerbated by the relatively low code density of the RISC
+    processor used, and an enormous hardware-imposed page size might well be
+    expected to make matter worse.  Part of the solution is an implementation
+    of shared libraries.  In addition, considerable savings, of both disk space
+    and other resources, are obtained by applying a specialized data
+    compression technique to demand-paged executable files.  This is done in
+    such a way that the compressed programs are still runnable.  In the process
+    the huge page size is turned to advantage by utilizing a standard feature
+    of the UNIX file system.  Some additions to the kernel, a few extra
+    utilities, and some minor changes in the standard toolkit support the
+    scheme.  We briefly explain the background to this work, and outline the
+    shared library mechanism.  The remainder of the paper focuses on the
+    concept of compressing executable code, examining its advantages and its
+    limitations.  We suggest possibilities for further improvement of the
+    current implementation, and also some ways in which the technique might be
+    exploited in a broader context." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -772,6 +828,27 @@
   keywords     = "isaac newton, royal society, calculus, optics, astronomy,
     libnetz, hooke, personality, scientific practice",
   location     = "QC 16.N7 F7413 2018"
+}
+
+@Book{tlm2014,
+  author       = "Lauren Myracle",
+  title        = "ttyl",
+  publisher    = "Amulet Books",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "high school, sophomores, texting",
+  location     = "PZ 7.M9955 Tt"
+}
+
+@Book{emjaj,
+  author       = "Jennifer~A. Jordan",
+  title        = "Edible Memory",
+  subtitle     = "The Lure of Heirloom Tomatoes \& Other Forgotten Foods",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "heirloom varieties, vegetables, fruits",
+  location     = "SB 453.5.J67"
 }
 
 @Misc{1mmmitxss,
