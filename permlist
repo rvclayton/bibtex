@@ -95,7 +95,6 @@ a global authentication service without global trust : birrell
 a graph model for software evolution : luqi
 a graph model for unsupervised lexical acquisition : widdows
 a graphical interface for chip : alvisi
-a graphical logic for specifying concurrent systems : dillon
 a graphics typesetting language : van wyck
 a guide to starting a javaspace : pritchard
 a guided tour of mercurial : eide
@@ -493,7 +492,6 @@ application graphics modeling support through object orientation : egbert
 application performance and flexibility on exokernel systems : kaashoek
 applications of combinatorial designs in computer science : colbourn
 applications of continuations : friedman
-applications of the proposed ieee 754 standard for floating point arithmetic : hough
 applicative programming with effects : mcbride
 applying data flow techniques to data base machines : boral
 applying design by contract : meyer
@@ -837,7 +835,6 @@ data compression : lelewer
 data flow analysis in software reliability : fosdick
 data flow languages : ackerman
 data flow program graphs : davis
-data flow supercomputers : dennis
 data flow synchronous languages : benveniste
 data level parallel programming in c++ : breuel
 data mining static code attributes to learn defect predictors : menzies
@@ -962,7 +959,6 @@ distributed scheduling schemes for wireless mesh networks a survey :  vijayalaya
 distributed shared memory a survey of issues and algorithms : nitzberg
 distribution and abstract types in emerald : black
 distribution and persistence in the ik platform : sousa
-dive into greasemonkey : pilgrim
 dive into html 5 : pilgrim
 divide and conquer algorithms : divide
 dmt a demonstration tool : zheng
@@ -976,7 +972,6 @@ does java guarantee thread safety : haggar
 domain models are aspect free : steinmann
 domain names implementation and specification : mockapetris
 domain specific embedded compilers : leijen
-domain specific languages an annotated bibliography : deursen
 donational semantics for occam : roscoe
 dont fidget with widgets draw : bartlett
 dotted and dashed lines in metafont : gibbons
@@ -1107,7 +1102,6 @@ experiments with a fast object swapper : peck
 experiments with a program timing tool based on source level timing schema : park
 experiments with automatic file migration : lawrie
 expierences with the orca programming language : wilson
-exploring security vulnerabilities by exploiting  buffer overflow using the mips isa : phillips
 exploring the deisgn of an intentional naming scheme with an automatic constraint analyzer : khurshid
 exploiting concurrency vulnerabilities in system call wrappers : watson
 exploiting style in architectural design environments : garlan
@@ -1166,7 +1160,6 @@ final shift for call cc direct implementation of shift and reset : gasbichler
 finding components in a hierarchy of modules a step towards architectural understanding : girard
 finding faults in multi threaded programs : artho
 finding response times in a real time system : joseph
-finding significance in noisy data : kimbrel
 finding similar files in a large file system : manber
 finding string distances : vlades
 fine grained object protection in unix : low
@@ -1355,7 +1348,6 @@ how many trivial getter methods does java have : hughes
 how not to write commercial standards : berlack
 how not to write fortran in any language : seeley
 how pgp works : network
-how to be a good graduate student advisor : desjardins
 how to be a programmer a short comprehensive and personal summary : reed
 how to break out of a chroot jail : simes
 how to do things with words : austin
@@ -1431,7 +1423,6 @@ incremantal parser construction with metaobjects : joskimies
 incremental semantic evaluation in language based editors : kiong
 inductive inference theory and methods : angluin
 infant mortality and generational garbage collection : baker
-inference controls for statistical databases : denning
 infinite order logic and the church-turing thesis : vyzovitis
 influence of visual technology on the evolution of language environments : ambler
 information encoding with two dimensional bar codes : pavlidis
@@ -1796,7 +1787,6 @@ object oriented abstractions for distributed programming : guerraoui
 object oriented and conventional analysis and design methodologies : fichman
 object oriented database management systems concepts and issues : bertino
 object oriented patterns : coad
-object oriented programming enhancements in ada 200y : tuft
 object oriented programming for structured procedural programmers : khan
 object oriented programming is oversold : jacobs
 object oriented style : friedman
@@ -1922,7 +1912,6 @@ pathfinder a Pattern based packet classifier : bailey
 paths trees and flowers : edmonds
 pattern languages : gabriel
 pattern matching with regular expression notation in unix : gill
-pattern recognition in software engineering : dupree
 patterns and software essential concepts and terminology : appleton
 patterns for piccolo : piccolo
 patterns plop plop fizz fizz : martin
@@ -2122,7 +2111,6 @@ reactive scripts : boussinot
 reactive shared variables based systems : boussinot
 real time behavior of programs : haase
 real time data fusion in the intensive care unit : factor
-real time further misconceptions or half truths : kurki
 realization of verilog hdl domputation model : hyde
 realizing 3d visualization using crossed beam volumetric displays : ebert
 reasoning about time in higher level language software : shaw
@@ -2383,7 +2371,6 @@ specification and analysis of a data transfer protocol using systems of communic
 specification of basic encoding rules for abstract syntax notation one asn 1 : itu
 specification of iterators : lamb
 specification of the unix filing system : morgan
-specification meta systems : demetrovics
 specification styles in distributed systems design and verification : vissers
 specifying a real time kernel : spivey
 specifying and verifying conditional progress : calvert
@@ -2642,7 +2629,6 @@ the function of function in lisp : moses
 the future of ideas : lessig
 the future of internet addresses : bieringer
 the future of internet worms : nazario
-the future of peer to peer computing : loo
 the future of programming languages evidence to support a midwest university information systems curriculum : wenger
 the future of software engineering : humphrey
 the galaxy distributed operating system : sinha
@@ -3019,7 +3005,6 @@ venti a new approach to archival storage : quinlan
 verification of a class of link level protocols : krogdahl
 verification of a reliable net protocol : yodaiken
 verification of link level protocols : knuth
-version support for engineering database systems : dittrich
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
 views a way for pattern matching to coexist with data abstraction : wadler
@@ -3064,7 +3049,6 @@ what is a thesis defense : riesbeck
 what is ada : brender
 what is all the fuss about neural networks : barth
 what is conservatism : agree
-what is dhtml : gardner
 what is interactive scripting : travers
 what is software design : reeves
 what is the bios : schmidt
