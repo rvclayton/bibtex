@@ -639,6 +639,29 @@
     exploited in a broader context." 
 }
 
+@InProceedings{iaatiadwe,
+  author       = "Susan Angebranndt and Richard~L. Hyde and Daphne Huetu Luong and Nagendra Siravara and Chris Schmandt",
+  title        = "Integrating Audio and Telephony in a Distributed Workstation Environment",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "419--435",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "audio servers, audio device management",
+  abstract     = "More and more vendors are adding audio, and occasionally
+    telephony, to their workstations.  At the same time, with the growing
+    popularity of window systems and mice, workstation applications are
+    becoming more interactive and graphical.  Audio provides a new dimension of
+    interaction for the user, and the possibility of a powerful new data type
+    for multi-media applications.  This paper describes our architecture for
+    the integration of audio and telephony into a graphics workstation
+    environment.  Our framework is a client-server model; at the heart is an
+    audio server that allows shared access to audio hardware, provides
+    synchronization primitives to be used with other media and presents a
+    device-independent abstraction to the application programmer.", 
+  location     = "https://www.media.mit.edu/speech/papers/1991/angebranndt_USENIX91_integrating_audio.pdf"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
