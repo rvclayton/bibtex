@@ -11773,7 +11773,7 @@
 }
 
 @Article{prise,
-  author       = "Robert~W. DuPree",
+  author       = "Robert~W. DePree",
   title        = "Pattern Recognition in Software Engineering",
   journal      = ieeec,
   year         = 1983,
