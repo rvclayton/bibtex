@@ -809,6 +809,55 @@
   location     = "https://doi.org/10.1145/2254064.2254087"
 }
 
+@Article{efdmfecfgr,
+  author       = "Prem Devanbu and Bill Frakes",
+  title        = "Extracting Formal Domain Models from Existing Code for Generative Reuse",
+  journal      = "ACM Applied Computing Review",
+  year         = 1997,
+  volume       = 5,
+  number       = 1,
+  month        = jun,
+  keywords     = "domain models, semantic graphs, reverse engineering, ",
+  abstract     = "The existence of a domain model that formally describes the
+    meaning of a piece of software can be helpful for re-use.  We illustrate an
+    approach, where by reengineering a formal domain model out of an existing
+    system, one can generalize the existing system to an application generator:
+    we map a domain model for program representations into the front end of a
+    compiler, using the Genii system, and use this in Genoa, an application
+    generator for language tools.  This approach shows promise in other
+    domains, as well.", 
+  location     = "http://www.acm.org/sigapp/acr/Issues/V5.1/devanbu.ps"
+}
+
+@Article{widdg,
+  author       = "David Gardner",
+  title        = "What is {DHTML}?",
+  journal      = "irt.org",
+  year         = 2000,
+  month        = jan,
+  keywords     = "dhtml, web browsers",
+  location     = "https://irt.org/articles/js201/"
+}
+
+@Article{oopeia2,
+  author       = "S.~Tucker Taft",
+  title        = "Object-Oriented Programming Enhancements in {Ada} {200Y}",
+  journal      = "Ada User Journal",
+  year         = 2003,
+  volume       = 24,
+  number       = 2,
+  pages        = "119--127",
+  month        = jun,
+  keywords     = "oop languages, cyclic type structures, multiple inheritance,
+    type hierarchies, interface inheritance, task types",
+  abstract     = "This article provides an overview of four proposed amendments
+    to the Ada standard for possible inclusion in the revision planned for late
+    2005 or early 2006.  Together, these four amendments can be seen as
+    finishing the job of integrating object-oriented programming features into
+    Ada.", 
+  location     = "http://ada-auth.org/ai-files/grab_bag/oop_200y.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -874,6 +923,15 @@
   location     = "SB 453.5.J67"
 }
 
+@Book{digmp,
+  author       = "Mark Pilgrim",
+  title        = "Dive into Greasemonkey",
+  publisher    = "Lulu",
+  year         = 2005,
+  keywords     = "web development, web browsers, javascript",
+  location     = "http://www.lulu.com/shop/mark-pilgrim/dive-into-greasemonkey/paperback/product-228158.html"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -894,4 +952,24 @@
   keywords     = "listening, dialogue, communication",
   location     = "https://www.bc.edu/content/dam/files/centers/boisi/pdf/f10/Notes_on_Dialogue.pdf"
 }
+
+@Misc{htbaggssa,
+  author       = "Marie desJardins",
+  title        = "How to be a good graduate student\slash advisor",
+  howpublished = "on the web",
+  year         = 1994,
+  month        = mar,
+  keywords     = "graduate school, scholarship",
+  abstract     = "This paper attempts to raise some issues that are important
+    for graduate students to be successful and to get as much out of the
+    process as possible, and for advisors who wish to help their students be
+    successful.  The intent is not to provide prescriptive advice -- no
+    formulas for finishing a thesis or twelve-step programs for becoming a
+    better advisor are given -- but to raise awareness on both sides of the
+    advisor-student relationship as to what the expectations are and should be
+    for this relationship, what a graduate student should expect to accomplish,
+    common problems, and where to go if the advisor is not forthcoming.",
+  location     = "http://heibeck.freeshell.org/Grad_Advice/how2b/how.2b.html"
+}
+
 
