@@ -1,6 +1,8 @@
 .so bibtex.header
 		  
-
+@string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
+@string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"
+		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
   title        = "Emerging Hypermedia Standards",
@@ -662,6 +664,96 @@
   location     = "https://www.media.mit.edu/speech/papers/1991/angebranndt_USENIX91_integrating_audio.pdf"
 }
 
+@InProceedings{pefmd,
+  author       = "Matthew~E. Hodges and Russell~M. Sasnett",
+  title        = "Plastic Editors for Multimedia Documents",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "463--473",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "multimedia documents, multimedia editors, configurable
+    editors, active documents",
+  abstract     = {This paper describes our research with plastic editors in the
+    Visual Computing Group of MIT's Project Athena.  The idea of plastic
+    editors is to break down the distinction between editor (program) and
+    document (data), to enable the manufacture of editors which can be molded
+    and shaped to meet many different needs.  The Athena Muse authoring system
+    allows us to experiment with the idea of building editing tools out of the
+    components provided in the authoring system itself.  In this paper we
+    describe the importance of mutable editors in an application environment,
+    the basic dimensions of plasticity in editors, and some examples of how we
+    built and modified the Muse editing tools.}
+}
+
+@InProceedings{awbmmefbt,
+  author       = "Keishi Kandori",
+  title        = "{A} Workstation-based Multi-media Environment for Broadcast Television",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "455--461",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "modeling, sports, video processing, visualization, data acquisition",
+  abstract     = "This presentation will describe two applications which
+    illustrate expanding workstation power in the real broadcasting world.  One
+    is a sophisticated application of virtual reality in which we simulated the
+    environment of the green of the 18th whole in a real time during a real
+    professional golf tournament for a broadcast TV program.  The other is
+    professional baseball information management system for TV program
+    production in which we incorporated distributed computing, mixed
+    networking, database managing, and computer graphics." 
+}
+
+@InProceedings{abootddcs,
+  author       = "Newman-Wolfe, R.~E. and Ramirez, C.~L. and Pelimuhandiram, H. and Montes, M. and Webb, M. and Wilson, D.~L.",
+  title        = "{A} Brief Overview of the {DCS} Distributed Conferencing System",
+  booktitle    = usenixs91,
+  year         = 1991,
+  pages        = "437--461",
+  address      = nate,
+  month        = "10--14 " # jun,
+  keywords     = "groupware, conference management, application managers",
+  abstract     = "The Distributed Conferencing System (DCS) at the University
+    of Florida is a distributed package providing real-time support for
+    cooperative work.  In this system, a set of mechanisms for conference
+    management supports a wide range of floor control paradigms.  The small,
+    flexible message-passing interface to the conferencing management processes
+    permits shared applications to be installed easily in DCS.  Currently, DCS
+    has applications that support concurrent development of text and graphic
+    documents; remote demonstration, testing and debugging of programs; and
+    automatic creation of transcripts of meetings including motions made and
+    voting results." 
+}
+
+@InProceedings{awblbsfkma,
+  author       = "T.~Paul Lee and R.~E. Barkley",
+  title        = "{A} Watermark-based Lazy Buddy System for Kernel Memory Allocation",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "1--13",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "storage management, buddy allocation, lazy allocation, streams",
+  abstract     = "In this paper we describe a watermark-based lazy control
+    policy of the buddy system for managing unix kernel memory space.  This
+    policy achieves low operational costs by capitalizing on the steady-state
+    behavior of memory demands.  The lazy control policy maintains watermark
+    indices to track the use of buffers for each size.  Depending on these
+    indices, the policy can be in lazy mode, reclaiming mode, or accelerated
+    mode when dealing with buffer coalescing.  We incorporate a damping
+    mechanism in the coalescing process by anticipating that the buffer will
+    soon be re-used, and an acceleration mechanism that lets the policy detect
+    and react to shifting memory demands.  The controls to these mechanisms are
+    distributed over each class of buffer size; such distributed controls are
+    particularly attractive when the costs of maintaining global information
+    and control are prohibitive.  We present results and comparisons of
+    experiments conducted on a prototype lazy buddy system used to manage unix
+    system streams buffers.  The costs of buffer operations under the lazy
+    control policy are consistently lower than those under the standard buddy
+    system with only a slight increase in blocking probability." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -721,7 +813,7 @@
 @Article{spaocbttp,
   author       = "Gazzillo, Paul and Grimm, Robert",
   title        = "{SuperC}:  Parsing All of {C} by Taming the Preprocessor",
-  journal      = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
+  journal      = pldi12,
   year         = 2012,
   volume       = 42,
   number       = 6,
@@ -744,7 +836,7 @@
     algorithm for table-driven Fork-Merge LR parsing and four novel
     optimizations.  We demonstrate the effectiveness of our approach on the x86
     Linux kernel.", 
-  location     = "",
+  location     = "https://doi.org/10.1145/2254064.2254087",
   location     = "https://cs.nyu.edu/rgrimm/papers/pldi12.pdf"
 }
 
@@ -780,13 +872,14 @@
 @Article{aeduai,
   author       = "Dillig, Isil and Dillig, Thomas and Aiken, Alex",
   title        = "Automated Error Diagnosis Using Abductive Inference",
-  journal      = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)",
+  journal      = pldi12,
   year         = 2012,
   volume       = 47,
   number       = 6,
   pages        = "181--192",
   month        = jun,
-  keywords     = "",
+  keywords     = "abduction, witnesses, question asking, program proving, error
+    classification, proof assistants",
   abstract     = "When program verification tools fail to verify a program,
     either the program is buggy or the report is a false alarm.  In this
     situation, the burden is on the user to manually classify the report, but
@@ -856,6 +949,57 @@
     finishing the job of integrating object-oriented programming features into
     Ada.", 
   location     = "http://ada-auth.org/ai-files/grab_bag/oop_200y.pdf"
+}
+
+@Article{dqp,
+  author       = "Yu, C.~T. and Chang, C.~C.",
+  title        = "Distributed Query Processing",
+  journal      = surveys,
+  year         = 1984,
+  volume       = 16,
+  number       = 4,
+  pages        = "399--433",
+  month        = dec,
+  keywords     = "communication, cyclic queries, distributed query processing,
+    fragment processing, heuristics, join, semijoin, optimization, performance,
+    tree queries",
+  abstract     = "In this paper, various techniques for optimization queries in
+    distributed database are presented.  Although no attempt is made to cover
+    all proposed algorithms on this topic, quite a few ideas extracted from
+    existing algorithms are outlined.  It is hoped that large-scale experiments
+    will be conducted to verify the usefulness of these ideas and that they
+    will be integrated to construct a powerful algorithm for distributed query
+    processing.", 
+  location     = "https://doi.org/10.1145/3872.3874"
+}
+
+@Article{cahllfg,
+  author       = "Dubach, Christophe and Cheng, Perry and Rabbah, Rodric and Bacon, David~F. and Fink, Stephen~J.",
+  title        = "Compiling a High-Level Language for {GPU}s",
+  journal      = pldi12,
+  year         = 2012,
+  volume       = 47,
+  number       = 6,
+  pages        = "181--192",
+  month        = jun,
+  keywords     = "java, map, reduce, opencl, kernels, storage management,
+    optimizations", 
+  abstract     = "Languages such as OpenCL and CUDA offer a standard interface
+    for general-purpose programming of GPUs.  However, with these languages,
+    programmers must explicitly manage numerous low-level details involving
+    communication and synchronization.  This burden makes programming GPUs
+    difficult and error-prone, rendering these powerful devices inaccessible to
+    most programmers.  We desire a higher-level programming model that makes
+    GPUs more accessible while also effectively exploiting their computational
+    power.  This paper presents features of Lime, a new Java-compatible
+    language targeting heterogeneous systems, that allow an optimizing compiler
+    to generate high quality GPU code.  The key insight is that the language
+    type system enforces isolation and immutability invariants that allow the
+    compiler to optimize for a GPU without heroic compiler analysis.  Our
+    compiler attains GPU speedups between 75% and 140% of the performance of
+    native OpenCL code.", 
+  location     = "https://doi.org/10.1145/2254064.2254066",
+  location     = "https://researcher.watson.ibm.com/researcher/files/us-bacon/Dubach12Compiling.pdf"
 }
 
 @Book{cpec,
@@ -930,6 +1074,54 @@
   year         = 2005,
   keywords     = "web development, web browsers, javascript",
   location     = "http://www.lulu.com/shop/mark-pilgrim/dive-into-greasemonkey/paperback/product-228158.html"
+}
+
+@Book{wtay,
+  author       = "Preti Taneja",
+  title        = "We That Are Young",
+  publisher    = "Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "business, family, murder, india",
+  location     = "PR 6120.A465 W47"
+}
+
+@Book{wsnifa,
+  author       = "Ian~F. Akyildiz and Mehmet Can Vuran",
+  title        = "Wireless Sensor Networks",
+  publisher    = "Wiley",
+  year         = 2010,
+  address      = "West Sussex, U.K.",
+  keywords     = "applications, design, physical layer, mac layer, error
+    control, network layer, transport layer, application layer, cross-layer
+    solutions, time synchronization, localization, topology management, actor
+    networks, wireless multimedia sensor networks, wireless underwater sensor
+    networks, wireless underground sensor networks, grand challenges",
+  location     = "TK 7872.D48 A38"
+}
+
+@Book{ccnbr,
+  author       = "Nayan~B. Ruparelia",
+  title        = "Cloud Computing",
+  publisher    = mitp,
+  year         = 2016,
+  address      = cma,
+  keywords     = "cloud computing, value models, use cases, cloud transitions,
+    iaas, paas, saas, inaas, bpaas",
+  location     = "QA 76.585 R87"
+}
+
+@Book{cn5jfk,
+  author       = "James.~F. Kurose and Keith~W. Ross",
+  title        = "Computer Networking",
+  publisher    = aw,
+  year         = 2010,
+  address      = nyny,
+  edition      = "fifth",
+  keywords     = "computer networks, internet, osi network stack. wireless
+    networks, mobile networks, multimedia networking, security, network
+    management", 
+  location     = "TK 5105.875 I57 K88"
 }
 
 @Misc{1mmmitxss,
