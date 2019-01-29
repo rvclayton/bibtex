@@ -1,7 +1,7 @@
 .so bibtex.header
 		  
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
-@string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"
+@string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -754,6 +754,23 @@
     system with only a slight increase in blocking probability." 
 }
 
+@InProceedings{oobcis,
+  author       = "Stephen Rago",
+  title        = "Out-Of-Band Communication in {STREAMS}",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "29--37",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "out-of-band signaling, streams, backward compatibility",
+  abstract     = "The STREAMS mechanism in UNIX System V is a flexible
+    networking software development framework.  However, STREAMS makes little
+    provision for the out-of-band communication facilities found in many
+    contemporary protocols.  This paper describes enhancements to STREAMS that
+    provide the underlying support for out-of-band communication.  The reader
+    is assumed familiar with STREAMS." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1114,6 +1131,7 @@
 @Book{cn5jfk,
   author       = "James.~F. Kurose and Keith~W. Ross",
   title        = "Computer Networking",
+  subtitle     = "A Top-Down Approach",
   publisher    = aw,
   year         = 2010,
   address      = nyny,
