@@ -771,6 +771,30 @@
     is assumed familiar with STREAMS." 
 }
 
+@InProceedings{aewnsl,
+  author       = "Vaidy~S. Sunderam",
+  title        = "An Experiment with Network Shared Libraries",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "39--49",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "shared libraries, x window system, rpc",
+  abstract     = "Library routines, ranging from isolated formatters to
+    complete software packages are used by virtually every program.  Under
+    several circumstances, it is beneficial and even desirable for a 'library
+    server' on a remote machine to provide such functions to multiple clients
+    that share this service.  This paper describes the design, implementation
+    and experience gained in the deployment of such a server on a local network
+    of independent workstations.  While the network shared library is premised
+    on the basic RPC concept, extensions have been needed to support the
+    preservation of state across calls, client and server failures, and server
+    multiplexing.  A network shared library for the X Window System has been
+    implemented and tested; with the server on a fast processor, multiple
+    clients have been observed to run at higher speeds with the added benefits
+    of reduced memory and processing overheads on the client machines." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1017,6 +1041,33 @@
     native OpenCL code.", 
   location     = "https://doi.org/10.1145/2254064.2254066",
   location     = "https://researcher.watson.ibm.com/researcher/files/us-bacon/Dubach12Compiling.pdf"
+}
+
+@Article{tdmoi,
+  author       = "Anson, Ed",
+  title        = "The Device Model of Interaction",
+  journal      = "Computer Graphics (" # pot # "Ninth Annual Conference on Computer Graphics and Interactive Techniques)",
+  year         = 1982,
+  volume       = 16,
+  number       = 3,
+  pages        = "107--114",
+  month        = jul,
+  keywords     = "device models, device configuration, user interactions",
+  abstract     = "Any interactive system can be described in terms of the
+    devices it involves, and their interconnections.  Similarly, each device
+    can be described in terms of simpler devices and their interconnections.
+    Such descriptions are strictly modular, and well structured.  This
+    observation allows any system to be described, at all levels, by the same
+    language.  Such descriptions have intuitive appeal for hardware as well as
+    software components, and for process control applications as well as
+    human-machine interaction.  The Device model of interaction, as described
+    here, can ease the job of designing user- friendly interactive systems, and
+    can be adapted for automatic compilation.  As an example, the design of an
+    actual system component is discussed.  The design is presented, at several
+    levels, in a Pascal-like notation.  It represents a module created to
+    provide a human-machine interface via a graphic tablet, keyboard and video
+    monitor.", 
+  location     = "https://doi.org/10.1145/965145.801269"
 }
 
 @Book{cpec,
