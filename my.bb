@@ -855,6 +855,28 @@
     the keys to the success of the support contracts." 
 }
 
+@InProceedings{oaolcsfu,
+  author       = "Thomas~J. Coppeto and Beth~L. Anderson and Daniel~E. {Geer, Jr} and G.~Winfield Treese",
+  title        = "{OLC}:  An On-Line Consulting System for " # unix,
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "83--94",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "help systems, project athena",
+  abstract     = "Helping users learn the intricacies of UNIX1, particularly in
+    a custom environment, is always a challenge.  Helping thousands of users in
+    an environment that is distributed both geographically and computationally
+    is especially difficult.  Project Athena has developed an “On-Line
+    Consulting” system (OLC) that enables users to ask questions of consultants
+    located “somewhere on the network.” OLC allows a staff on the order of
+    twenty students to handle the questions and problems of over 8000 users on
+    a network of more than 900 workstations.  This paper describes the motives
+    and design goals for OLC, its implementation, and some of the results of
+    its three years of operation.", 
+  location     = "http://dx.doi.org/10.1145/73760.73814"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
