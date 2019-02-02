@@ -795,6 +795,66 @@
     of reduced memory and processing overheads on the client machines." 
 }
 
+@InProceedings{dpilcums,
+  author       = "F. Bonomi and P.~J. Fleming and P.~D. Steinberg",
+  title        = "Distributing Processes in Loosely-Coupled " # unix # " Multiprocessor Systems",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "61--72",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "process scheduling, multiprocessors, load balancing",
+  abstract     = "We describe a method for distributing processes in a
+    loosely-coupled Unix computing environment.  Focusing on the exec() system
+    call in the AT&T 3b4000 Computer System running the UNIX System V Release
+    3.1.5 Operating System, we discuss design and implementation techniques for
+    process migration, the role of stub processes, as well as a novel
+    load-balancing process assignment algorithm.  We explain the stages of the
+    exec() system call and show the method for migrating a process by
+    constructing its new image on a different processor with the cooperation of
+    all other processors comprising the extended process.  Selection of the
+    recipient processor is critical to load-balancing, so we discuss an
+    algorithm that is an adaptive version of the Join-the-Biased-Queue policy.
+    The algorithm utilizes a combination of the available instantaneous
+    information about the number of processes on each processor and
+    periodically collected average CPU run-queue length information as indices
+    of load to make the assignment decision.  A performance comparisons of
+    three different process assignment algorithms is included to demonstrate
+    the efficiency of our approach." 
+}
+
+@InProceedings{aodmbacg,
+  author       = "Denise Ondishko",
+  title        = "Administration  of Department Machines by a Central Group",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "73--82",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "system administration, contractarians, unix",
+  abstract     = "Like most other universities, the University of Rochester has
+    seen a rapid growth in departmentally owned machines running a version of
+    the Unix operating system.  Each department typically has a special task
+    required of its machine.  In addition, each department desires control over
+    its own resources.  By providing a centrally trained group of system
+    programmers a university can avoid duplication of effort and education on
+    the part of many departmental system programmers.  However, tie needs of
+    the central programmer and the departmental programmer conflict: it would
+    be easiest for the departmental programmer to make any changes at any time
+    and it would be easiest for the central programmer if all of the machines
+    looked identical and did not change unpredictably.  The University of
+    Rochester Computing Center has developed a method of resolving these
+    differences through a contract of services and responsibilities which
+    specify areas of the operating system which must only be modified by the
+    central system programmers and areas of the system which are the exclusive
+    responsibility of the department programmer.  The department programmer
+    must conform the system usage somewhat to a central norm in order to get
+    the benefits of central administration.  However, unlike most centrally
+    administered sights, system changes are initiated by the department
+    administrator rather than by the central group.  This paper will describe
+    the keys to the success of the support contracts." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1191,6 +1251,17 @@
     networks, mobile networks, multimedia networking, security, network
     management", 
   location     = "TK 5105.875 I57 K88"
+}
+
+@Book{isewtyt,
+  author       = "David Cay Johnston",
+  title        = "It's Even Worse Than You Think",
+  subtitle     = "What the Trump Administration Is Doing to America",
+  publisher    = "Simon \& Schuster",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "donald trump, corruption, deceit, failure",
+  location     = "E 912.J64 2018"
 }
 
 @Misc{1mmmitxss,
