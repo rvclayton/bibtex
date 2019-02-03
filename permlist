@@ -362,7 +362,6 @@ agentsheets a medium for creating domain oriented visual languages : repenning
 agile parsing in txl : dean
 aglets 2.0.2 users manual : ferrari
 agora message passing as a foundation for exploring oo language concepts : codenie
-ai and search exhaustive search methods : schmidt
 aitpm a strategy for integrating ip with atm : parulkar
 aladin a scanner generator for incremental programming environments : fischer
 alchemy transmuting base alloy specifications into implementations : krishnamurthi
@@ -612,7 +611,6 @@ breaking the spell : dennett
 breakpoints and halting in distributed programs : miller
 bridges tools to extend the vesta configuration management system : brown
 bridging the gap between network and relational databases management systems : larson
-brief postscript tutorial for 15 462 : heckbert
 bringing up scientists in the art of critiquing research : kuyper
 bug analysis of pascal programs : anjaneyulu
 build a tree save a parse : clark
@@ -945,7 +943,6 @@ discovering machine specific code improvements : kessler
 discovering properties about arrays in simple programs : halbwachs
 discriminated unions i : alexandrescu
 disk arrays high performance high reliability storage subsystems : granger
-dispelling java programming language myths : haggar
 display condensation of program text : archer
 display techniques for octree encoded objects : doctor
 distel distributed emacs lisp for erlang : gorrie
@@ -969,7 +966,6 @@ dmt a demonstration tool : zheng
 do parallel languages respond to the needs of scientific programmers : pancake
 doclet overview : doclet
 document comments : gosling
-document object model dom level 1 specification : dom 
 documentation comments : gosling
 documentation for the chip computer system version 1.1 : babaoglu
 does java guarantee thread safety : haggar
