@@ -877,6 +877,69 @@
   location     = "http://dx.doi.org/10.1145/73760.73814"
 }
 
+@InProceedings{adrafus,
+  author       = "Griffith~G. {Smith, Jr.}",
+  title        = "{A} Distributed Resource Allocator for " # unix # " Systems",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "95--108",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "resource allocation, deadlock avoidance, system management",
+  abstract     = "Unix System users have had to tolerate insecure access to
+    nonsharable resources such as cartridge units, tape drives and printers.
+    As commercial applications for Unix System software become common, more
+    security will be a critical requirement.  Software vendors price or
+    restrict the number of concurrent users of their licensed software.  These
+    license terms are often difficult to enforce.  A resource allocate can
+    address both problems.  This paper describes a working prototype of a
+    distributed resource allocate suitable for systems connected by a network.
+    Its design is unusual in that there is no single place where a resource a
+    resource allocation database is maintained.  Instead, servers keep
+    information that is of local interest.  Clients set up a network
+    connections to groups of servers and then negotiate among the servers for
+    the right to allocate resources.  The servers dynamically configure
+    themselves into negotiation groups; allocation requests within a group are
+    queued, requests to unrelated groups can be processed in parallel.  For a
+    single system, a robust resource allocate is simple to implement, but a
+    design of an allocate for a cluster of systems connected by a network is
+    difficult; there are many opportunities for partial failure and incorrect
+    behavior.  The allocate achieves a significant level of fault tolerance by
+    exploiting the redundancy of the information stored on multiple servers ad
+    by avoiding architecture that is vulnerable to faults.  Negotiation
+    protocols combine the distributed information and ensure that a 'correct'
+    decision will be made even when some of the servers fail or have
+    inconsistent status." 
+}
+
+@InProceedings{aupifcbagws,
+  author       = "Marc~J. Rochkind",
+  title        = "{A} Unified Programming Interface for Character-Based and Graphical Window Systems",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "109--117",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "curses, ui, graphics portability, character-based io",
+  abstract     = "Must Unix programmers today sit at character-based terminals,
+    and most of the user interfaces they develop, even for brand-new
+    applications, are character-based.  Yet, almost everyone agrees that future
+    user interfaces will be graphical.  Unfortunately, few character-based
+    applications will migrate easily to graphical window systems (such as X)
+    because the graphical systems use even-driven programming models that are
+    quite different from traditional character-based models, and because
+    graphical systems use an entirely different application program interface.
+    The solution is to use a character-based window system that follows the
+    programming model used by the graphical systems and that has the same
+    programming interface.  The Extensible Virtual Toolkit (XVT) interface is a
+    good choice, because it already permits portability to several popular
+    graphical window systems.  This paper reviews the evolution of Unix user
+    interfaces and explains why most developers can't use graphical interfaces
+    today.  Then it surveys the XVT programming interface and indicates the
+    degree to which it can be mapped into a character-based model.  Finally,
+    the construction of the character-based system is briefly described." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1326,4 +1389,65 @@
   location     = "http://heibeck.freeshell.org/Grad_Advice/how2b/how.2b.html"
 }
 
+@Misc{bptf14,
+  author       = "Paul Heckbert",
+  title        = "Brief {Postscript} tutoral for 15-462",
+  year         = 1997,
+  month        = "18 " # sep,
+  keywords     = "postscript, debugging, operators",
+  location     = "https://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/98/pub/www/assts/ps.html"
+}
+
+@Misc{aascfs,
+  author       = "Charles~F. Schmidt",
+  title        = "{AI} and Search",
+  keywords     = "exhaustive search, backtracking, depth-first search,
+    breadth-first search, hill climbing"
+}
+
+@TechReport{djplm,
+  author       = "Peter Haggar",
+  title        = "Dispelling {Java} Programming Language Myths",
+  institution  = "IBM developerWorks Journal",
+  year         = 2001,
+  month        = oct,
+  keywords     = "garbage collection, reference parameters, atomic operations,
+    synchronization, threads, rtsj"
+}
+
+@TechReport{domdl1s,
+  author       = "Vidur Apparao and Steve Byrne and Mike Champion and Scott Isaacs and Arnaud {Le Hors} and Gavin Nicol and Jonathan Robie and Peter Sharpe and Bill Smith and Jared Sorensen and Robert Sutor and Ray Whitmer and Chris Wilson",
+  title        = "{Document Object Model} ({DOM}) Level 1 Specification",
+  institution  = "W3C",
+  year         = 1998,
+  number       = "REC-DOM-Level-1-19981001",
+  month        = sep,
+  keywords     = "dom, html, idl",
+  abstract     = "This specification defines the Document Object Model Level 1,
+    a platform- and language-neutral interface that allows programs and scripts
+    to dynamically access and update the content, structure and style of
+    documents.  The Document Object Model provides a standard set of objects
+    for representing HTML and XML documents, a standard model of how these
+    objects can be combined, and a standard interface for accessing and
+    manipulating them.  Vendors can support the DOM as an interface to their
+    proprietary data structures and APIs, and content authors can write to the
+    standard DOM interfaces rather than product-specific APIs, thus increasing
+    interoperability on the Web.  The goal of the DOM specification is to
+    define a programmatic interface for XML and HTML.  The DOM Level 1
+    specification is separated into two parts: Core and HTML.  The Core DOM
+    Level 1 section provides a low-level set of fundamental interfaces that can
+    represent any structured document, as well as defining extended interfaces
+    for representing an XML document.  These extended XML interfaces need not
+    be implemented by a DOM implementation that only provides access to HTML
+    documents; all of the fundamental interfaces in the Core section must be
+    implemented.  A compliant DOM implementation that implements the extended
+    XML interfaces is required to also implement the fundamental Core
+    interfaces, but not the HTML interfaces.  The HTML Level 1 section provides
+    additional, higher-level interfaces that are used with the fundamental
+    interfaces defined in the Core Level 1 section to provide a more convenient
+    view of an HTML document.  A compliant implementation of the HTML DOM
+    implements all of the fundamental Core interfaces as well as the HTML
+    interfaces.", 
+  location     = "https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/"
+}
 
