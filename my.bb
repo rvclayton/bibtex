@@ -940,6 +940,30 @@
     the construction of the character-based system is briefly described." 
 }
 
+@InProceedings{ahwxsnw,
+  author       = "Mark Opperman",
+  title        = "At Home With {X11}\slash {NeWS} Windows",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "119--131",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "window systems, serial-line protocols, compression",
+  abstract     = "The X11/NeWS server has been modified to support X11 and NeWS
+    clients across a serial interface providing remote access to window-based
+    applications.  The Unix system services required by the X11/NeWS server
+    have been isolated into a helper process that runs on the host to which the
+    window serve connects.  A reliable, full-duplex, channel-based protocol
+    provides the link between the window server and the helper process.
+    Pre-allocated channels are used tor system services (e.g., open, close,
+    spawn) and dynamically allocated channels are used to multiplex data
+    streams from the different window client applications.  Data transmitted
+    between the window server and the helper process are compressed using the
+    adaptive Limpel-Ziv technique.  Prototype versions of the server run on an
+    ATARI ST and on Sun workstations with surprisingly good performance for
+    both NeWS and X11 clients at baud rates as low as 2400." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
