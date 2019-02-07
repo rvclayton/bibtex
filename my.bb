@@ -993,6 +993,34 @@
   location     = "https://doi.org/10.1145/108844.109008"
 }
 
+@InProceedings{t3dfs,
+  author       = "David~G. Korn and Eduardo Krell",
+  title        = "The 3-{D} File System",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "147--156",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "file systems, file versioning, virtual paths",
+  abstract     = "Traditional version control mechanisms in the Unix System
+    have serious drawbacks.  They work only on ASCII files and are encapsulated
+    systems which do not fit nicely with the rest of the tools in the Unix
+    systems.  Sharing of file is not possible, as programmers have to make
+    their own private copies when they want to work on different versions of a
+    file.  The memorandum describes a powerful versioning mechanism which
+    allows users to view different versions of files in a Unix file system and
+    allows multiple programmers to work on different versions of the software
+    simultaneously, without having to make private copies of the files
+    involved.  This capability, now in prototype form, extends the concept of
+    versioning to systems rather than files and to files with arbitrary format
+    (e.g.  object files and libraries) rather than only line oriented ASCII
+    files (e.g.  source code).  We have extended the concept of viewpathing in
+    a way that is transparent to all programs without requiring any changes.
+    The current implementation is a user-level library which can be used to
+    relink any program or command which is to understand versions and
+    viewpathing.  No changes need to be made to the user programs." 
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1454,6 +1482,16 @@
   address      = nyny,
   keywords     = "java",
   location     = "QA 76.73.J38 W45"
+}
+
+@Book{tpmlw,
+  author       = "Liz Williams",
+  title        = "The Poision Master",
+  publisher    = "Bantam",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "assassination",
+  location     = "https://lccn.loc.gov/2003577136"
 }
 
 @Misc{1mmmitxss,
