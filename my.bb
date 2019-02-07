@@ -964,6 +964,35 @@
     both NeWS and X11 clients at baud rates as low as 2400." 
 }
 
+@InProceedings{iusaidisd,
+  author       = "Ehrlich, Kate and Stanley, Barbara and Shea, Tim",
+  title        = "Incorporating Usability Studies and Interface Design into Software Development",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "133--145",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "prototyping, user-interface studies, design feedback, user experience",
+  abstract     = "The new graphical file manager on the Sn386i, Sun Organizer,
+    was designed to provide easy access to file system and network operations
+    for people unfamiliar with the Unix operating system.  The graphical
+    interface to Organizer supported a direct manipulation style of
+    interaction, a clean graphic design and plenty of user feedback.  In order
+    to verify that Organizer was easy to use by the target audience, we
+    conducted a study in which a representative group of users followed a
+    self-administered tutorial.  This introduced them to basic operations such
+    as changing directories, selecting files, deleting and adding files and
+    moving/copying files between directories.  Although these users were
+    enthusiastic about Organizer and completed the tutorial successfully, there
+    were several instances where the behavior of the application did not match
+    the user's expectations.  Many of these mismatches were corrected in the
+    final product resulting in a smoother, more efficient interface.  Users
+    also appreciated the emphasis on active learning.  For novice users
+    especially, being given an explicit set of procedures to follow can help
+    overcome limits in the rate of assimilating hew information.", 
+  location     = "https://doi.org/10.1145/108844.109008"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1239,6 +1268,50 @@
   location     = "https://doi.org/10.1145/965145.801269"
 }
 
+@Article{cbpe,
+  author       = "Richard~C. Waters",
+  title        = "Clich{\' e}-Based Program Editors",
+  journal      = toplas,
+  year         = 1994,
+  volume       = 16,
+  number       = 1,
+  pages        = "102--150",
+  month        = jan,
+  keywords     = "abstract syntax tree, program schemas, computer-aided software
+    engineering, plan diagram, reuse, syntax-directed editing, program
+      manipulation",
+  abstract     = "A cliche-based program editor supports the construction and
+    modification of programs in terms of standard algorithmic fragments
+    (cliches), as opposed to merely supporting the construction and
+    modification of programs in terms of syntactic or textual units.  These
+    experimental cliche-based program editors have been implemented, exploring
+    the trade-off between power and speed.  The Knowledge-Based Editor in Emacs
+    (KBEmacs) is the most powerful of the three editors.  It supports a wide
+    range of editing operations and can represent a wide range of cliches
+    because it uses an internal representation called plan diagrams, which
+    combines features of flowcharts and data flow schemas.  Unfortunately, the
+    need to convert back and forth between program text and plan diagrams
+    causes KBEmacs to be quite slow.  The Tempest editor uses text as its
+    internal representation and is very fast since it does not have to do any
+    conversions.  It supports a number of cliche-based operations and can
+    represent a variety of cliches.  As a result, Tempest is valuable tool for
+    many kinds of editing.  Unfortunately, most programming cliches are too
+    complex to be supported directly in terms of program text.  Therefore,
+    Tempest has little advantage over standard editors when used for program
+    editing.  The Ace editor retains much of the speed of Tempest while
+    supporting much of the power of KBEmacs.  Ace is relatively efficient,
+    because it uses abstract syntax tree as the internal representation.  It
+    achieves high power by basing these abstract syntax trees on a specially
+    designed grammar that facilitates the representation and easy combination
+    of cliches.  Ace's approach could be used to add powerful and efficient
+    cliche-based editing capabilities to any programming environment.  In
+    particular, Ace demonstrates that a small change in the internal workings
+    of syntax editors is all that is required to open the door to cliche-based
+    editing.", 
+  location     = "https://doi.org/10.1145/174625.174628",
+  location     = "http://www.merl.com/publications/TR91-01"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -1371,6 +1444,16 @@
   address      = nyny,
   keywords     = "donald trump, corruption, deceit, failure",
   location     = "E 912.J64 2018"
+}
+
+@Book{dspsuj,
+  author       = "Mark Allen Weiss",
+  title        = "Data Structures \& Problem Solving Using Java",
+  publisher    = "Addison-Wesley",
+  year         = 2010,
+  address      = nyny,
+  keywords     = "java",
+  location     = "QA 76.73.J38 W45"
 }
 
 @Misc{1mmmitxss,
