@@ -25,7 +25,6 @@ a calculus of durations : chaochen
 a case for direct mapped caches : hill
 a case for runtime code generation : keppel
 a case study in applied algorithm design : bentley
-a case study of a netizens guide to elections : dutton
 a case tool platform using an xml representation of java source code : maruyama
 a catalog of stream processing optimizations : hirzel
 a centaur tutorial : anon
@@ -377,7 +376,6 @@ algorithms for stereoscopic imaging : duvanenko
 algorithms implementing distributed shared memory : stumm
 alien text file compresion : swan
 all i really need to know about pair programming i learned in kindergarten : williams
-all optical packet switching for metropolitan area networks opportunities and challenges : yao
 all the needles in the haystack can exhaustive search overcome combinatorial chaos : nievergelt
 alma0 an imperative language that supports declarative programming : apt
 almost free text aft reverence manual : coram
@@ -710,7 +708,6 @@ communicating sequential processes for centralized and distributed operating sys
 communication complexity : kushilevitz
 communication mechanisms for programming distributed systems : shatz
 communication network class library : junius
-communications satellite softare a tutorial : dusio
 commutativity based concurrency control for abstract data types : weihl
 comparing two garbage collectors for c++ : edelson
 comparing high change modules and modules with the highest measurement values in two large scale open source projects : koru
@@ -1382,7 +1379,6 @@ image retrieval from the world wide web issues techniques and systems : kherfi
 imperative functional programming : peyton jones
 implementation issues in the development of the parsec parser : harper
 implementation of the ficus replicated file system : guy
-implementations and performance of two rpc based lan gateway applications : yasrebi
 implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
 implementing an interpreter : sugalski
 implementing atomic actions on decentralized data : reed
@@ -1505,7 +1501,6 @@ jade a high level machine independent language for parallel programming : rinard
 java 2 distributed object middleware performance analysis and optimization : juric
 java as an intermediate language : hardwick
 java bytecode compression for low end embedded systems : clausen
-java code conventions : anon
 java is not type safe : saraswat 
 java programming style guide : anon
 java puzzlers : bloch
@@ -1550,7 +1545,6 @@ korbit a kernel space corba orb : lattner
 krypton a functional approach to knowledge representation : brachman
 lambda the ultimate imperitive : steele
 lambdamoo programmers manual : curtis
-lan protocol modeling and performance evaluation : yuang
 language processing in program editors : reps
 language support for lightweight transactions : harris
 larch frequently asked questions : leavens
@@ -1671,7 +1665,6 @@ microcontrollers cordic methods : pashea
 microeconomic theory applied to distributed systems : clarke
 middleware an architecture for distributed system services : bernstein
 migrating c code to unicode : nestved
-migrating sockets for networking with quality of service guarantees : yau
 millicode in an ibm zseries processor : heller
 mimic a fast system 370 simulator : may 
 min and max redivivus : alexandrescu
@@ -1747,7 +1740,6 @@ netscape plug ins : netscape
 network news transfer protocol : kantor
 network objects : birrell
 network services in an uncooperative internet : jannotti
-network subsystem design a case for an integrated data path : druschel
 networking the network : agre
 networks and algorithms for very large scale parallel computation : gottleib
 networks for the future to .net or not : netaction
@@ -1969,7 +1961,6 @@ polymorphism and subtyping in interfaces : katiyar
 poor mans watchpoints : copperman
 portprep a portable repeated string finder : jones
 postscript tutorial : bourke
-power aware page allocation : lebeck
 power laws pareto distributions and zipfs law : newman
 powerpc 601 and alpha 21064 a tale of two risks : smith
 ppmexe program compression : drinic
@@ -2666,7 +2657,6 @@ the joyce language report : brinch hansen
 the juno 2 constraint based drawing editor : heydon
 the kaffeos java runtime system : back
 the kiwinet nicola approach response generation in a user friendly interface : efe
-the knockout switch a simple modular architecture for high performance packet switching : yeh
 the labelled bnf grammar formalism : frosberg
 the ladder of abstraction : victor
 the lambda calculus : balheta
@@ -3005,7 +2995,6 @@ valloy virtual functions meet a relational language : marinov
 vcode a retargetable extensible very fast dynamic code generation system : engler
 venti a new approach to archival storage : quinlan
 verification of a class of link level protocols : krogdahl
-verification of a reliable net protocol : yodaiken
 verification of link level protocols : knuth
 very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
@@ -3094,7 +3083,6 @@ xml mapping technology making connections in an xml centric world : roth
 xml programming with sql xml and xquery : funderburk
 xml reflective pattern matching and java : dwelly
 xml rpc specification : xml-rpc
-xml schema languages : walsh
 xml with scheme : martinovsky
 xp an experiment in modular specification : veltink
 xquery an xml query language : chamberlin
