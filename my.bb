@@ -1494,6 +1494,26 @@
   location     = "https://lccn.loc.gov/2003577136"
 }
 
+@Book{ohtwbi,
+  author       = "Anthony Powell",
+  title        = "{O}, How the Wheel Becomes It!",
+  publisher    = ucp,
+  year         = 1983,
+  address      = chil,
+  keywords     = "the past, lit'rary life, publishing, media",
+  location     = "PR 6031.O74 O2"
+}
+
+@Book{gsbhw,
+  author       = "Ben H. Winters",
+  title        = "Golden State",
+  publisher    = "Mulholland Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "the truth, surveillance, who dunnit?",
+  location     = "https://lccn.loc.gov/2018941036"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
