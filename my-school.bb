@@ -2094,22 +2094,6 @@
   location     = "TK 5101.A1 I35"
 }
 
-@Article{asolwtpfhsn,
-  author       = "Willibald A Doeringer and Doug Dykeman and Matthias
-		  Kaiserswerth and Bernd Werner Meister and Harry Rudin and
-		  Robin Wiliamson",
-  title        = "A Survey of Light-Weight Transport Protocols for High-Speed
-		  Networks",
-  journal      = itocmm,
-  year         = 1990,
-  volume       = 38,
-  number       = 11,
-  pages        = "2025--2039",
-  month        = nov,
-  keywords     = "transport protocols, high speed networks",
-  location     = "TK 5101.A1 I2"
-}
-
 @Article{tmpahfhstp,
   author       = "Thomas F. {La Porta} and Mischa Schwartz",
   title        = "The {MultiStream Protocol}:  A Highly Flexible High-Speed
