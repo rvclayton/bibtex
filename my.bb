@@ -1021,6 +1021,142 @@
     viewpathing.  No changes need to be made to the user programs." 
 }
 
+@InProceedings{aefhw,
+  author       = "Glenn~S. Fowler and David~G. Korn and K.-Phong Vo",
+  title        = "An Efficient File Hierarchy Walker",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "173--188",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "system utility, file system, tree walking",
+  abstract     = "This paper presents an interface specification and an
+    efficient implementation of a general purpose library routine, ftwalk, to
+    traverse a UNIX* file system hierarchy.  A number of standard file system
+    utilities, e.g., find, ls, rm, and others have been reimplemented using
+    ftwalk.  The total source code size is 30% smaller and the efficiency of
+    all commands improves.  More importantly, these commands now handle the
+    file system search in a uniform, robust, and secure manner.  New tools have
+    been built with ftwalk.  A file system perusing tool, tw, will be
+    described.  tw subsumes the functionality ofﬁfind and xargs.  Further, it
+    provides a powerful expression language with a syntax similar to C.  For
+    typical applications in which commands are executed on generated file
+    names, tw is 5 to 10 times faster than find.  The combination of a powerful
+    language and performance efficiency in tw should reduce the practice of
+    adding directory recursion to commands.", 
+  location     = "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.119.7085&rep=rep1&type=pdf"
+}
+
+@InProceedings{soti9hcrfsihu,
+  author       = "Ping-Hui Kao and Bill Gates and Bruce Thompson and Dale McCluskey",
+  title        = "Support of the {ISO}-9660/{HSG} {CD}-{ROM} File System in {HP}-{UX}",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "189--202",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "file systems, vnodes, cd-roms",
+  abstract     = "The ISO-9660 standard and High Sierra Group (HSG) working
+    paper describe file system formats for publication and distribution of
+    information on CD-ROM (Compact Disk Read Only Memory) media.  This paper
+    describes Hewlett-Packard's design and implementation of support for the
+    ISO-9660/HSG CD-ROM file system (CDFS) in the HP-UX kernel.  After mounting
+    a CD-ROM which adheres to the standard, files on the CD-ROM are accessible
+    through the normal system calls and commands allowing users and application
+    programs to take advantage of the high capacity and low duplication cost of
+    this medium without the need for any special programmatic interface.  The
+    first sections a brief overview of CD-ROM history and the ISO-9660/HSG file
+    system format.  The design goals, design philosophy, and testing strategy
+    will then be presented followed by some examples of how this new feature
+    will be used in HP-UX systems.  The paper will conclude with a discussion
+    of the results of the project and possible enhancements to the design." 
+}
+
+@InProceedings{safdacfubg,
+  author       = "Jeffrey~C. Mogul",
+  title        = "Simple and Flexible Datagram Access Controls for Unix-based Gateways",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "203--221",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "user-space filtering, application gateways, system calls",
+  abstract     = "Internetworks that connect multiple organizations create
+    potential security problems that cannot be solved simply by internal
+    administrative procedures.  Organizations would like to restrict
+    inter-organization access to specific restricted hosts and applications, in
+    order to limit the potential for damage and to reduce the number of systems
+    that must be secured against attack.  One way to restrict access is to
+    prevent certain packets from entering or leaving an organization through
+    its gateways.  This paper describes simple, flexible, and moderately
+    efficient mechanisms for screening the packets that flow through a
+    Unix-based gateway.", 
+  location     = "http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-89-4.pdf"
+}
+
+@InProceedings{nmbd,
+  author       = "Goldszmidt, German and Yemini, Yechiam and Yemini, Shaula",
+  title        = "Network Management by Delegation",
+  booktitle    = pot # "1991 Conference of the Centre for Advanced Studies on Collaborative Research, CASCON '91",
+  year         = 1991,
+  editor       = "Ann Gawam and Jan~K. Pachl and Jacob Slonim and Anne Stilman",
+  pages        = "347--361",
+  publisher    = "IBM Press",
+  address      = "Toronto, Ontario, Canada",
+  month        = "28--30 " # oct,
+  keywords     = "cmip, protocol expressiveness, remote delegation, scripting,
+    coordination, agent architecture", 
+  abstract     = "Network management systems built on a client/server model
+    centralize responsibilities in client manager processes, with server agents
+    playing restrictive support roles.  As a result, managers must micro-manage
+    agents through primitive steps, resulting in ineffective distribution of
+    management responsibilities, failure-prone management bottlenecks, and
+    limitations for real time responsiveness.  We present a more flexible
+    paradigm, the Manager-Agent Delegation (MAD) framework.  It supports the
+    ability to extend the functionality of servers (agents) at execution time,
+    allowing flexible distribution of management responsibilities in a
+    distributed environment.  MAD can store and instantiate delegated scripts,
+    and provides a concurrent runtime environment, where they can execute
+    asynchronously without requiring the manager's intervention.  A delegation
+    protocol allows a manager to transfer programs, create process instances,
+    and control their execution.  We describe the delegation model, its
+    application to network management, and the design of a prototype
+    implementation." 
+}
+
+@Article{msfnwqosg,
+  author       = "David K.~Y. Yau and Simon~S. Lam",
+  title        = "Migrating Sockets for Network with Quality of Service Guarentees",
+  journal      = ton,
+  year         = 1998,
+  volume       = 6,
+  number       = 6,
+  pages        = "700--716",
+  month        = dec,
+  keywords     = "bandwidth scheduling, cpu scheduling, packet demultiplexing,
+    quality of service guarantees, user level protocol",
+  abstract     = "Migrating Sockets is the protocol processing component of an
+    end-system architecture designed for networking with QoS guarantees.  The
+    architecture provides: (1) adaptive rate-controlled scheduling of protocol
+    threads in Migrating Sockets, (2) rate-based flow control for reserved rate
+    connections in future integrated services networks, and (3) a constant
+    overhead active demultiplexing mechanism.  Migrating Sockets achieves its
+    efficiency by allowing user applications to manage a network endpoint with
+    minimal system intervention, providing user level protocols read-only
+    access to routing information in a “well-known” shared memory region, and
+    integrating efficient kernel level support we previously built.  It is
+    backward compatible with Unix semantics and Berkeley sockets, and has been
+    used to implement Internet protocols such as TCP, UDP and IP (including IP
+    multicast).  We also show that active demultiplexing supported by Migrating
+    Sockets can be transparently enabled in wide-area TCP/IP internetworking
+    (although it is not restricted to TCP/IP).  We have an implementation of
+    Migrating Sockets in Solaris 2.5.  We discuss our implementation
+    experience, and present performance results of our system running on the
+    Ultra-1, SPARC 10 and SPARC 20 architectures", 
+  location     = "https://www.cs.utexas.edu/users/lam/Vita/IEEE/YauLam98.pdf", 
+  location     = "https://doi.org/10.1109/90.748083"
+}
+
 @Article{asfsarpoacl,
   author       = "Jan Stelovsky and Hirotsugo Sugaya",
   title        = "{A} System for Specification and Rapid Prototyping of Application Command Languages",
@@ -1340,6 +1476,63 @@
   location     = "http://www.merl.com/publications/TR91-01"
 }
 
+@Article{pioas,
+  author       = "Lin, Huimin",
+  title        = "Procedural Implementation of Algebraic Specification",
+  journal      = toplas,
+  year         = 1993,
+  volume       = 15,
+  number       = 3,
+  pages        = "876--895",
+  month        = nov,
+  keywords     = "abstract implementation, procedural abstraction, program refinement",
+  abstract     = "An implementation of an algebraic specification in an
+    imperative programming language consists of a representation type, together
+    with an invariant and an equivalence relation over it, and a procedure for
+    each operator in the specification.  A formal technique is developed to
+    check the correctness of an implementation with respect to its
+    specification.  Here &ldquo;correctness&rdquo; means that the
+    implementation satisfies the axioms and preserves the behavior of the
+    specification.  Within legal representing value space, a correct
+    implementation behaves like a desirable model of the specification.  A
+    notion of implementation refinement is also proposed, and it is shown that
+    the correctness relation between implementations and specifications is
+    preserved by implementation refinement.  In the extreme case the procedures
+    in an implementation may be pre-post-condition pairs.  Such abstract
+    implementations can be refined into executable code by refining the
+    abstract procedures in it.  In this way a formal link between the algebraic
+    and the pre- post-condition specification techniques is established.", 
+  location     = "https://doi.org/10.1145/161468.161473"
+}
+
+@Article{asolwtpfhsn,
+  author       = "Willibald~A. Doeringer and Doug Dykeman and Matthias Kaiserswerth  and Bernard Werner Meister and Harry Rudin and Robin Williamson",
+  title        = "{A} Survey of Light-Weight Transport Protocols for High-Speed Networks",
+  journal      = "IEEE Transactions on Communications",
+  year         = 1990,
+  volume       = 38,
+  number       = 11,
+  pages        = "2025--2039",
+  month        = nov,
+  keywords     = "light-weight transport protocols, high-speed networks,
+    comparative survey, APPN, Datakit, Delta-t, NETBLT, OSI/TP4, TCP, VMTP,
+    XTP, end-to-end transmission, connection management, acknowledgements, flow
+    control, error handling",
+  abstract     = "A comparative survey is presented of techniques used at the
+    transport layer in eight representative protocols, most of which were
+    designed to improve the protocol processing rate.  The protocols are the
+    relevant portions of the APPN, Datakit, Delta-t, NETBLT, OSI/TP4, TCP,
+    VMTP, and XTP architectures.  The protocols are described, and the
+    functions under consideration are defined.  No distinction is made as to
+    whether these functions are carried out in a LAN, MAN, or WAN environment.
+    The objective is to provide reliable, end-to-end transmission of data.  The
+    mechanisms required to support connection management, acknowledgements,
+    flow control, and error handling are examined.  Suitable techniques for
+    designing light-weight transport protocols are identified.  A discussion is
+    presented as to which technique seems the most promising.", 
+  location     = "https://doi.org/10.1109/26.61485"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -1614,5 +1807,13 @@
     implements all of the fundamental Core interfaces as well as the HTML
     interfaces.", 
   location     = "https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/"
+}
+
+@Manual{wdud,
+  title        = "Writing Documentation Using DocBook",
+  author       = "David Rugge and Mark Galassi and Eric Bischoff",
+  year         = 2006,
+  keywords     = "docbook",
+  location     = "https://web.fe.up.pt/~jmcruz/etc/web/crash-course.pdf"
 }
 
