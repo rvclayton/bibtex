@@ -1160,6 +1160,25 @@
     programs manually written in the C programming language." 
 }
 
+@InProceedings{faaptabltu,
+  author       = "Jon~F. Spencer and Jackie McAlexander",
+  title        = "Factors Affecting Application Portability to a {B1} Level Trusted " # unix,
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "239--255",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "portability, trusted computing base, performance",
+  abstract     = "With the increasing use of operating systems which have been
+    modified to meet multi-level security requirements comes an increasing need
+    to port standard Unix applications to these platforms.  This paper
+    discusses major changes made to target the B1 level of trustedness.  It
+    shows that vendor implementations may may, and that these variations affect
+    the portability and performance of existing applications.  The paper takes
+    the Unix mail program and discusses several implementation methods on a B1
+    system." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -1843,6 +1862,16 @@
     implements all of the fundamental Core interfaces as well as the HTML
     interfaces.", 
   location     = "https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/"
+}
+
+@TechReport{mlwal,
+  author       = "Keith Smillie",
+  title        = "My Life with Array Languages",
+  institution  = dcs # "University of Alberta",
+  year         = 2005,
+  address      = "Alberta, Canada",
+  keywords     = "apl, nail, j",
+  location     = "https://webdocs.cs.ualberta.ca/~smillie/Jpage/MyLife.pdf"
 }
 
 @Manual{wdud,
