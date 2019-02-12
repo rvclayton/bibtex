@@ -1124,6 +1124,42 @@
     implementation." 
 }
 
+@InProceedings{stoascup,
+  author       = "Janet~A. Cugini and Shau-Ping Lo and Matthew~S. Hecht and Radhakrishna Aditham and T.~John Wei",
+  title        = "Security Testing of {AIX} System Calls Using {Prolog}",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "223--237",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "security testing, orange book, operating systems, unix
+    operating system, unix system calls, operating system security, computing
+    security, prolog, logic programming",
+  abstract     = "We wrote security test plans and, using Prolog, and automated
+    security testing system for C2 security testing of AIX version 2.2.1 system
+    calls.  AIX 2.2.1 is a version of the UNIX operating system that runs on
+    the IBM rt PC hardware and that contains security features (for the base
+    operating system and TCP/IP) designed to satisfy the C2 security
+    requirements and the B3 trusted path requirement.  The notable design
+    features of our work include: (1) it is based on the gray box security
+    testing method; (2) the security test plans contain both converge analysis,
+    which explains why the test conditions are sufficient and why the test data
+    cover the test conditions, and system call test environment dependency
+    analysis; (3) the security testing system is comprehensive in that it
+    automates all aspects of security testing except for writing security test
+    plans and adding, per system call, a set of facts and rules that cover
+    system call syntax, text conditions, and expected outcomes; and (4) this
+    work is also suitable for security testing of UNIX system calls for higher
+    security issues.  We explain what motivated the Prolog security testing
+    system approach, discuss how we write security test plans, sketch the
+    structure of the security testing system, and provide qualitative
+    experience with the approach to security testing.  From this experience and
+    the Secure XENIX project experience, we conclude that comprehensive
+    security testing of UNIX system calls with an automated security testing
+    system in Prolog is preferable to writing and maintaining security test
+    programs manually written in the C programming language." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
