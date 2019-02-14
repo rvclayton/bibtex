@@ -1204,6 +1204,28 @@
     highlighting the trade-offs and decisions made in our final design." 
 }
 
+@InProceedings{nanfspb,
+  author       = "Barry Shein and Mike Callahan and Paul Woodbury",
+  title        = "{NFSStone}:  {A} Network File Server Performance Benchmark",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "269--275",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "network performance, network file systems, nfs, benchmarking",
+  abstract     = "Network file servers are becoming a critical facility in
+    modern computing environments.  With the growth in their popularity and the
+    emergence of multiple vendors providing software products which adhere to
+    the same standards comes a need for relative performance measurement of
+    different configurations.  We have designed a benchmark and report our
+    experiences with it on different configurations of services and clients.
+    The benchmark was designed to be portable between networked file system
+    protocols and tunable to reflect different disk traffic patterns if
+    desired.  The default parameters used were chosen to be similar to the
+    traffic patterns of typical networked file system environments as earlier
+    reported in [SANDBERG85]." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -1611,6 +1633,33 @@
     designing light-weight transport protocols are identified.  A discussion is
     presented as to which technique seems the most promising.", 
   location     = "https://doi.org/10.1109/26.61485"
+}
+
+@Article{aooagmae,
+  author       = "Fisher, Gene",
+  title        = "An Overview of a Graphical Multilanguage Applications Environment",
+  journal      = tse,
+  year         = 1998,
+  volume       = 14,
+  number       = 6,
+  pages        = "774--786",
+  month        = jun,
+  keywords     = "graphical programming, dataflow design, multilanguage
+    programming, programming environments, user interfaces",
+  abstract     = "A programming environment to support the development and use
+    of engineering applications is presented.  The environment provides uniform
+    support for a set of Pascal-class languages in which engineering and
+    scientific applications are commonly written.  The environment includes a
+    dynamically multilanguage interpreter debugger to aid in the interactive
+    development of applications.  For the application and user, the environment
+    provides a graphical program interface based on the concept of a software
+    control panel.  Through a control panel, the user may interactively modify
+    program parameters and exercise fine-grain control over program execution.
+    The environment also includes a graphical design tool for constructing
+    executable block diagrams based on standard application programs.  The
+    control-panel tool is integrated with the design tool, to provide a uniform
+    interface to all levels of program execution.", 
+  location     = "https://doi.org/10.1109/32.6157"
 }
 
 @Book{cpec,
