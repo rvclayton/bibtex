@@ -1179,6 +1179,31 @@
     system." 
 }
 
+@InProceedings{utdsc,
+  author       = "Daniel~S. Conde and Felix~S. Hsu and Ursula Sinkewicz",
+  title        = "{ULTRIX Threads}",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "257--268",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "threads, unix, thread library",
+  abstract     = "Two groups at Digital recently collaborated on a prototype
+    implementation of threads in ULTRIX, Digital's Unix product.  Threads, or
+    lightweight processes, provide a means for applications to control
+    complexity and more efficiently utilize uniprocessors and multiprocessors.
+    Uniprocessor benefits can be realized by using threads to overlap I/O
+    operations with computation, and to cope with complex asynchronous run-time
+    environments in a synchronous way.  Multiprocessors allow the additional
+    benefit of executing an application's threads concurrently.  A wide variety
+    of designs were considered for ULTRIX Threads, beginning with user-level
+    threads, and evolving to kernel threads.  The trade-offs between
+    lower-level threads and kernel threads are discussed and contrasted with
+    other multi-thread systems, both Unix-based and non-Unix based.  Finally,
+    the kernel, library, and dbx changes are described in some detail,
+    highlighting the trade-offs and decisions made in our final design." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
