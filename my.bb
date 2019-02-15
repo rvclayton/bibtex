@@ -1226,6 +1226,24 @@
     reported in [SANDBERG85]." 
 }
 
+@InProceedings{uairtpmfusv,
+  author       = "Charles Ballance and Sean Fleming and Jay Goldberg and Nelly Karasik",
+  title        = "{UFOS}: An Intelligent Real-Time Performance Monitor for " # unix # "{ System V}",
+  booktitle    = usenixs89,
+  year         = 1989,
+  pages        = "277--286",
+  address      = bama,
+  month        = "12--16 " # jun,
+  keywords     = "system management, system analysis, performance, monitoring, ui",
+  abstract     = "The Unix Facility for the Observation of Systems, UFOS, is an
+    intelligent real-time performance monitor for systems running Unix System
+    V.  UFOS monitor system-wide activity and alerts the user to potential
+    performance problems, indicating what may be wrong and where to look for
+    further information.  UFOS is an interactive system designed to assist with
+    the analysis of Unix System V performance.  The system can be customized to
+    monitor the performance of a particular machine.", 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
