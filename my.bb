@@ -2,6 +2,7 @@
 		  
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
+@string{asplos89 = sigplan # " (" # pot # "Third International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '89)"}
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -1680,6 +1681,33 @@
   location     = "https://doi.org/10.1109/32.6157"
 }
 
+@Article{aactfaliwm,
+  author       = "Robert Cohn and Thomas Gross and Monica Lam and P.~S. Tseng",
+  title        = "Architecture and Compiler Tradeoffs for a Long Instruction Word Microprocessor",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "2--14",
+  month        = may,
+  keywords     = "vliw processors, iwarp, compilation, cpu architecture",
+  abstract     = "A very long instruction word (VLIW) processor exploits
+    parallelism by controlling multiple operations in a single instruction
+    word.  This paper describes the architecture and compiler tradeoffs in the
+    design of iWarp, a VLIW single-chip microprocessor developed in a joint
+    project with Intel Corp.  The iWarp processor is capable of spec-ifying up
+    to nine operations in an instruction word and has a peak performance of 20
+    million floating-point op-erations and 20 million integer operations per
+    second.  An optimizing compiler has been constructed and used as a tool to
+    evaluate the different architectural proposals in the development of iWarp.
+    We present here the anal-ysis and compiler optimizations for those
+    architectural features that address two key issues in the design of a VLIW
+    microprocessor: code density and a streamlined execution cycle.  We support
+    the results of our analysis with performance data for the Livermore Loops
+    and a selection of programs from the LINPACK library.", 
+  location     = "http://www.cs.cmu.edu/afs/cs/user/gyl/afslcc/trg/open/papers/asplos3/mat.ps"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -1845,13 +1873,25 @@
 }
 
 @Book{gsbhw,
-  author       = "Ben H. Winters",
+  author       = "Ben~H. Winters",
   title        = "Golden State",
   publisher    = "Mulholland Books",
   year         = 2019,
   address      = nyny,
   keywords     = "the truth, surveillance, who dunnit?",
   location     = "https://lccn.loc.gov/2018941036"
+}
+
+@Book{hotf,
+  author       = "H.~W. Brands",
+  title        = "Heirs of the Founders",
+  publisher    = "Doubleday",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "john calhoun, henry clay, daniel webster, abolition,
+    slavery, the constitution, nullification, the union, american government,
+    congress, american politics",
+  location     = "E 388.B73"
 }
 
 @Misc{1mmmitxss,
