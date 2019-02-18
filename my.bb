@@ -1708,6 +1708,33 @@
   location     = "http://www.cs.cmu.edu/afs/cs/user/gyl/afslcc/trg/open/papers/asplos3/mat.ps"
 }
 
+@Article{tiifdfha,
+  author       = "Sohi, Gurindar~S. and Vajapeyam, Sriram",
+  title        = "Tradeoffs in Instruction Format Designs for Horizontal Architectures",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "15--25",
+  month        = may,
+  keywords     = "vliw architectures, code density, fine-grained parallelism,
+    instruction packing, optimization, instruction set design",
+  abstract     = "With recent improvements in software techniques and the
+    enhanced level of fine grain parallelism made available by such techniques,
+    there has been an increased interest in horizontal architectures and large
+    instruction words that are capable of issuing more that one operation per
+    instruction.  This paper investigates some issues in the design of such
+    instruction formats.  We study how the choice of an instruction format is
+    influenced by factors such as the degree of pipelining and the
+    instruction's view of the register file.  Our results suggest that very
+    large instruction words capable of issuing one operation to each functional
+    unit resource in a horizontal architecture may be overkill.  Restricted
+    instruction formats with limited operation issuing capabilities are capable
+    of providing similar performance (measured by the total number of time
+    steps) with significantly less hardware in many cases.", 
+  location     = "https://doi.org/10.1145/70082.68184"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
