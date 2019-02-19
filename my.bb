@@ -1735,6 +1735,28 @@
   location     = "https://doi.org/10.1145/70082.68184"
 }
 
+@Article{olsitc5,
+  author       = "Dehnert, James~C. and Hsu, Peter Y.-T. and Bratt, Joseph~P.",
+  title        = "Overlapped Loop Support in the {Cydra} 5",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "26--38",
+  month        = may,
+  keywords     = "loop unrolling, vliw architecture, scientific computation,
+    data dependencies, instruction scheduling, compilation, loop analysis", 
+  abstract     = "The CydraTM 5 architecture adds unique support for
+    overlapping successive iterations of a loop to a very long instruction word
+    (VLIW) base.  This architecture allows highly parallel loop execution for a
+    much larger class of loops than can be vectorized, without requiring the
+    unrolling of loops usually used by compilers for VLIW machines.  This paper
+    discusses the Cydra 5 loop scheduling model, the special architectural
+    features which support it, and the loop compilation techniques used to take
+    full advantage of the architecture.", 
+  location     = "https://doi.org/10.1145/70082.68185"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
