@@ -1757,6 +1757,29 @@
   location     = "https://doi.org/10.1145/70082.68185"
 }
 
+@Article{asfstc,
+  author       = "Burkowski, F.~J. and Cormack, G.~V. and Dueck, G.~D.~P.",
+  title        = "Architectural Support for Synchronous Task Communication",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "40--53",
+  month        = may,
+  keywords     = "ipc, synchronous communication, layered architecture,
+    client-server architecture",
+  abstract     = "This paper describes the motivation for a set of intertask 
+    communication primitives, the hardware support of these primitives, the
+    architecture used in the Sylvan project which studies these issues, and the
+    experience gained from various experiments conducted in this area.  We
+    start by describing how these facilities have been implemented in a
+    multiprocessor configuration that utilizes a shared backplane.  This
+    configuration represents a single node in the system.  The latter part of
+    the paper discusses a distributed multiple node system and the extension of
+    the primitives that are used in this expanded environment.", 
+  location     = "https://doi.org/10.1145/70082.68186"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
