@@ -1780,6 +1780,45 @@
   location     = "https://doi.org/10.1145/70082.68186"
 }
 
+@Article{tfbamfhssop,
+  author       = "Gupta, Rajiv",
+  title        = "The Fuzzy Barrier:  {A} Mechanism for High Speed Synchronization of Processors",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "54--63",
+  month        = may,
+  keywords     = "multiprocessor systems, barrier synchronization,
+    parallelizing compilers",
+  abstract     = "Parallel programs are commonly written using barriers to
+    synchronize parallel processes.  Upon reaching a barrier, a processor must
+    stall until all participating processors reach the barrier.  A software
+    implementation of the barrier mechanism using shared variables has two
+    major drawbacks.  Firstly, the execution of the barrier may be slow as it
+    may not only require execution of several instructions and but also result
+    in hot-spot accesses.  Secondly, processors that are stalled waiting for
+    other processors to reach the barrier are essentially idling and cannot do
+    any useful work.  In this paper, the notion of the fuzzy barrier is
+    presented, that avoids the above drawbacks.  The first problem is avoided
+    by implementing the mechanism in hardware.  The second problem is solved by
+    extending the barrier concept to include a region of statements that can be
+    executed by a processor while it awaits synchronization.  The barrier
+    regions are constructed by a compiler and consist of several instructions
+    such that a processor is ready to synchronize upon reaching the first
+    instruction in this region and must synchronize before exiting the region.
+    When synchronization does occur, the processors could be executing at any
+    point in their respective barrier regions.  The larger the barrier region,
+    the more likely it is that none of the processors will have to stall.
+    Preliminary investigations show that barrier regions can be large and the
+    use of program transformations can significantly increase their size.
+    Examples of situations where such a mechanism can result in improved
+    performance are presented.  Results based on a software implementation of
+    the fuzzy barrier on the Encore multiprocessor indicate that the
+    synchronization overhead can be greatly reduced using the mechanism.", 
+  location     = "https://doi.org/10.1145/70082.68187"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -1964,6 +2003,18 @@
     slavery, the constitution, nullification, the union, american government,
     congress, american politics",
   location     = "E 388.B73"
+}
+
+@Book{gtceo,
+  author       = "Elinor Ostrom",
+  title        = "Governing the Commons",
+  subtitle     = "The Evolution of Institutions for Collective Action",
+  publisher    = cup,
+  year         = 1990,
+  address      = cen,
+  keywords     = "the commons, self-organization, self-governance,
+    institutional change, institutional failures, ",
+  location     = "HD 1286 O97"
 }
 
 @Misc{1mmmitxss,
