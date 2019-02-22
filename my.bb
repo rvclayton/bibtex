@@ -1819,6 +1819,63 @@
   location     = "https://doi.org/10.1145/70082.68187"
 }
 
+@Article{asic,
+  author       = "Mellor-Crummey, J.~M. and LeBlanc, T.~J.",
+  title        = "{A} Software Instruction Counter",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "78--86",
+  month        = may,
+  keywords     = "parallel program debugging, cfgs, software instrumentation",
+  abstract     = "Although several recent papers have proposed architectural
+    support for program debugging and profiling, most processors do not yet
+    provide even basic facilities, such as an instruction counter.  As a
+    result, system developers have been forced to invent software solutions.
+    This paper describes our implementation of a software instruction counter
+    for program debugging.  We show that an instruction counter can be
+    reasonably implemented in software, often with less than 10% execution
+    overhead.  Our experience suggests that a hardware instruction counter is
+    not necessary for a practical implementation of watch-points and reverse
+    execution, however it will make program instrumentation much easier for the
+    system developer.", 
+  location     = "https://doi.org/10.1145/68182.68189"
+}
+
+@Article{espflsccm,
+  author       = "Goodman, James~R. and Vernon, Mary~K. and Woest, Philip~J.",
+  title        = "Efficient Synchronization Primitives for Large-Scale Cache-Coherent Multiprocessors",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "64--75",
+  month        = may,
+  keywords     = "synchronization, binary semaphores, scheduling, ",
+  abstract     = "This paper proposes a set of efficient primitives for process  
+    synchronization in multiprocessors.  The only assumptions made in
+    developing the set of primitives are that hardware combining is not
+    implemented in the inter-connect, and (in one case) that the interconnect
+    supports broadcast.  The primitives make use of synchronization bits
+    (syncbits) to provide a simple mechanism for mutual exclusion.  The
+    proposed implementation of the primitives includes efficient (i.e.  local)
+    busy-waiting for syncbits.  In addition, a hardware-supported mechanism for
+    maintaining a first-come first-serve queue of requests for a syncbit is
+    proposed.  This queueing mechanism allows for a very efficient
+    implementation of, as well as fair access to, binary semaphores.  We also
+    propose to implement Fetch and Add with combining in software rather than
+    hardware.  This allows an architecture to scale to a large number of
+    processors while avoiding the cost of hardware combining.  Scenarios for
+    common synchronization events such as work queues and barriers are
+    presented to demonstrate the generality and ease of use of the proposed
+    primitives.  The efficient implementation of the primitives is simpler if
+    the multiprocessor has a hardware cache-consistency protocol.  To
+    illustrate this point, we outline how the primitives would be implemented
+    in the Multicube multiprocessor [GoWo88].", 
+  location     = ""
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -2015,6 +2072,16 @@
   keywords     = "the commons, self-organization, self-governance,
     institutional change, institutional failures, ",
   location     = "HD 1286 O97"
+}
+
+@Book{cnw,
+  author       = "Nico Walker",
+  title        = "Cherry",
+  publisher    = "Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "drug abuse, iraq, bank robbery",
+  location     = "PS 3623.A359552 C54"
 }
 
 @Misc{1mmmitxss,
