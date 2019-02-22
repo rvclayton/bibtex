@@ -221,6 +221,7 @@ a simple separate compilation mechanism for block structured languages : le blan
 a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
 a software engineering perspective on algorithmics : weihe
+a software instruction counter : mellor-crumey
 a specification of modula 2 process coroutine management : nicholl
 a specification of the soar cognitive architecture in z : milnes
 a specifiers introduction to formal methods : wing
