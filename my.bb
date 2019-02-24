@@ -1913,6 +1913,31 @@
   location     = "https://doi.org/10.1145/70082.68190"
 }
 
+@Article{smasfssaraps,
+  author       = "Staknis, Mark~E.",
+  title        = "Sheaved Memory:  Architectural Support for State Saving and Restoration and Paged Systems",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "96--102",
+  month        = may,
+  keywords     = "memory management, virtual memory, recovery blocks,
+    check-pointing, recovery points",
+  abstract     = "The concept of read-one/write-many paged memory is introduced
+    and given the name sheaved memory.  It is shown that sheaved memory is
+    useful for efficiently maintaining checkpoints in main memory and for
+    providing state saving and state restoration for software that includes
+    recovery blocks or similar control structures.  The organization of sheaved
+    memory is described in detail, and a design is presented for a prototype
+    sheaved-memory module that can be built easily from inexpensive,
+    off-the-shelf components.  The module can be incorporated within many
+    available computers without altering the computers' hardware design.  The
+    concept of sheaved memory is simple and appealing, and its potential for
+    use in a number of software contexts is foreseen.", 
+  location     = "https://doi.org/10.1145/70082.68191"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
