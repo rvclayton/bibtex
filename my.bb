@@ -1873,7 +1873,44 @@
     the multiprocessor has a hardware cache-consistency protocol.  To
     illustrate this point, we outline how the primitives would be implemented
     in the Multicube multiprocessor [GoWo88].", 
-  location     = ""
+  location     = "https://doi.org/10.1145/70082.68188"
+}
+
+@Article{edpfm,
+  author       = "Aral, Ziya and Gerther, Ilya and Schaffer, Greg",
+  title        = "Efficient Debugging Primitives for Multiprocessors",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "87--95",
+  month        = may,
+  keywords     = "parallel debugging, multiprocessor debugging, thread-based
+    debugging, dynamic debugging", 
+  abstract     = "Existing kernel-level debugging primitives are inappropriate
+    for instrumenting complex sequential or parallel programs.  These functions
+    incur a heavy overhead in their use of system calls and process switches.
+    Context switches are used to alternately invoke the debugger and the target
+    programs.  System calls are used to communicate data between the target and
+    debugger.  None of this is necessary in shared-memory multiprocessors.
+    Multiple processors concurrently run both the debugger and the target.
+    Shared-memory is used to implement efficient communication.  The target's
+    state is accessed by running both the target and the debugger in the same
+    address space.  Finally, instrumentation points, which have largely been
+    implemented as traps to the system, are reimplemented as simple branches to
+    routines of arbitrary complexity maintained by the debugger.  Not only are
+    primitives such as conditional breakpoints thus generalized, but their
+    efficiency is improved by several orders of magnitude.  In the process,
+    much of the traditional system's kernel support for debugging is
+    reimplemented at user-level.  This paper describes the implementation of
+    debugging primitives in Parasight, a parallel programming environment.
+    Parasight has been used to implement conditional breakpoints, an important
+    primitive for both high-level and parallel debugging.  Preliminary
+    measurements indicate that Parasight breakpoints are 1000 times faster than
+    the breakpoints in parallel &ldquo;cdb&rdquo;, a conventional UNIX
+    debugger.  Light-weight conditional breakpoints open up new opportunities
+    for debugging and profiling both parallel and sequential programs.", 
+  location     = "https://doi.org/10.1145/70082.68190"
 }
 
 @Book{cpec,
