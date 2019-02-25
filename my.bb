@@ -1938,6 +1938,39 @@
   location     = "https://doi.org/10.1145/70082.68191"
 }
 
+@Article{rhpsamdilsra,
+  author       = "Holliday, Mark~A.",
+  title        = "Reference History, Page Size, and Migration Daemons in Local\slash Remote Architectures",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "104--112",
+  month        = may,
+  keywords     = "numa machines, storage management, paging management, data
+    migration, software address translation", 
+  abstract     = "We address the problem of paged main memory management in the
+    local/remote architecture subclass of shared memory multiprocessors.  We
+    consider the case where the operating system has primary responsibility and
+    uses page migration as its main tool.  We identify some of the key issues
+    with respect to architectural support (reference history maintenance, and
+    page size), and operating system mechanism (duration between daemon passes,
+    and number of migration daemons).  The experiments were conducted using
+    software implemented page tables on 32-node BBN Butterfly Plus&trade;.
+    Several numeral programs with both synthetic and real data were used as the
+    workload.  The primary conclusion is that for the cases considered
+    migration was at best marginally effective.  On the other hand, practical
+    migration mechanisms were robust and never significantly degraded
+    performance.  The specific results include: 1) Referenced bits with aging
+    can closely approximate Usage fields, 2) larger page sizes are beneficial
+    except when the page is large enough to include locality sets of two
+    processes, and 3) multiple migration daemons can be useful.  Only small
+    regions of the space of architectural, system, and workload parameters were
+    explored.  Further investigation of other parameter combinations is clearly
+    warranted.", 
+  location     = "https://doi.org/10.1145/70082.68192"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
