@@ -1971,6 +1971,86 @@
   location     = "https://doi.org/10.1145/70082.68192"
 }
 
+@Article{auvssfpa,
+  author       = "Jouppi, Norman~P. and Bertoni, Jonathan and Wall, David~W.",
+  title        = "{A} Unified Vector\slash Scalar Floating-Point Architecture",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "134--143",
+  month        = may,
+  keywords     = "cpu architecture, vectorization, performance, register files,
+    pipelining",
+  abstract     = "In this paper we present a unified approach to vector and
+    scalar computation, using a single register file for both scalar operands
+    and vector elements.  The goal of this architecture is to yield improved
+    scalar performance while broadening the range of vectorizable applications.
+    For example, reduction operations and recurrences can be expressed in
+    vector form in this architecture.  This approach results in greater overall
+    performance for most applications than does the approach of emphasizing
+    peak vector performance.  The hardware required to support the enhanced
+    vector capability is insignificant, but allows the execution of two
+    operations per cycle for vectorized code.  Moreover, the size of the
+    unified vector/scalar register file required for peak performance is an
+    order of magnitude smaller than traditional vector register files, allowing
+    efficient on-chip VLSI implementation.  The results of simulations of the
+    Livermore Loops and Linpack using this architecture are presented.", 
+  location     = "https://doi.org/10.1145/70082.68195", 
+  location     = "http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-89-8.html"
+}
+
+@Article{fctflda,
+  author       = "Gibson, Garth~A. and Hellerstein, Lisa and Karp, Richard~M. and Patterson, David~A.",
+  title        = "Failure Correction Techniques for Large Disk Arrays",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "123--132",
+  month        = may,
+  keywords     = "raid, error coding, parity, linear coding, coding
+    performance, data reconstruction, error correcting coding",
+  abstract     = "The ever increasing need for I/O bandwidth will be met with
+    ever larger arrays of disks.  These arrays require redundancy to protect
+    against data loss.  This paper examines alternative choices for encodings,
+    or codes, that reliably store information in disk arrays.  Codes are
+    selected to maximize mean time to data loss or minimize disks containing
+    redundant data, but are all constrained to minimize performance penalties
+    associated with updating information or recovering from catastrophic disk
+    failures.  We also codes that give highly reliable data storage with low
+    redundant data overhead for arrays of 1000 information disks.",
+  location     = "https://doi.org/10.1145/70082.68194"
+}
+
+@Article{tlbcasa,
+  author       = "Black, David~L. and Rashid, Richard~F. and Golub, David~B. and Hill, Charles~R. and Baron, Robert~V.",
+  title        = "Translation Lookaside Buffer Consistency:  {A} Software Approach",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "113--122",
+  month        = may,
+  keywords     = "mach, virtual memory, tlb consistency, consistency protocols,
+    performance, software-hardware trade-offs",
+  abstract     = "We discuss the translation lookaside buffer (TLB) consistency
+    problem for multiprocessors, and introduce the Mach shootdown algorithm for
+    maintaining TLB consistency in software.  This algorithm has been
+    implemented on several multiprocessors, and is in regular production use.
+    Performance evaluations establish the basic costs of the algorithm and show
+    that it has minimal impact on application performance.  As a result, TLB
+    consistency does not pose an insurmountable obstacle to multiprocessors
+    with several hundred processors.  We also discuss hardware support options
+    for TLB consistency ranging from a minor interrupt structure modification
+    to complete hardware implementations.  Features are identified in current
+    hardware that compound the TLB consistency problem; removal or correction
+    of these features can simplify and/or reduce the overhead of maintaining
+    TLB consistency in software.", 
+  location     = "https://doi.org/10.1145/70082.68193", 
+  location     = "https://www.cs.rice.edu/~alc/comp521/Papers/p113-black.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -2177,6 +2257,16 @@
   address      = nyny,
   keywords     = "drug abuse, iraq, bank robbery",
   location     = "PS 3623.A359552 C54"
+}
+
+@Book{cijjrl,
+  author       = "Joe~R. Lansdale",
+  title        = "Cold in July",
+  publisher    = "Bantam Books",
+  year         = 1989,
+  address      = nyny,
+  keywords     = "murrdaar, witness protection",
+  location     = "https://lccn.loc.gov/00520681"
 }
 
 @Misc{1mmmitxss,
