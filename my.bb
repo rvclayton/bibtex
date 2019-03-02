@@ -2051,6 +2051,41 @@
   location     = "https://www.cs.rice.edu/~alc/comp521/Papers/p113-black.pdf"
 }
 
+@Article{dbrtvcts,
+  author       = "Mulder, Hans",
+  title        = "Data Buffering:  Run-time versus Compile-time Support",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "144--151",
+  month        = may,
+  keywords     = "register allocation, cpu architecture, execution performance,
+    stack buffers, register set windows",
+  abstract     = "Data-dependency, branch, and memory-access penalties are main
+    constraints on the performance of high-speed microprocessors.  The
+    memory-access penalties concern both penalties imposed by external memory
+    (e.g.  cache) or by under utilization of the local processor memory (e.g.
+    registers).  This paper focuses solely on methods of increasing the
+    utilization of data memory, local to the processor (registers or
+    register-oriented buffers).  A utilization increase of local processor
+    memory is possible by means of compile-time software, run-time hardware, or
+    a combination of both.  This paper looks at data buffers which perform
+    solely because of the compile-time software (single register sets); those
+    which operate mainly through hardware but with possible software assistance
+    (multiple register sets); and those intended to operate transparently with
+    main memory implying no software assistance whatsoever (stack buffers).
+    This paper shows that hardware buffering schemes cannot replace
+    compile-time effort, but at most can reduce the complexity of this effort.
+    It shows the utility increase of applying register allocation for multiple
+    register sets.  The paper also shows a potential utility decrease inherent
+    to stack buffers.  The observation that a single register set, allocated by
+    means of interprocedural allocation, performs competitively with both
+    multiple register set and stack buffer emphasizes the significance of the
+    conclusion", 
+  location     = "https://doi.org/10.1145/70082.68196"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
