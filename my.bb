@@ -2304,6 +2304,18 @@
   location     = "https://lccn.loc.gov/00520681"
 }
 
+@Book{tmdbdak,
+  author       = "David~A. Kaplan",
+  title        = "The Most Dangerous Branch",
+  subtitle     = "Inside the Supreme Court's Assault on the Constitution",
+  publisher    = "Crown",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "u.s. supreme court, judicial restraint, judicial philosophy,
+    u.s. government, separation of powers",
+  location     = "KF 8779.K37"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
