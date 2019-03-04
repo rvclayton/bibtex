@@ -2086,6 +2086,69 @@
   location     = "https://doi.org/10.1145/70082.68196"
 }
 
+@Article{artspfat,
+  author       = "Roos, Joachim",
+  title        = "{A} Real-Time Support Procesor for {Ada} Tasking",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "162--171",
+  month        = may,
+  keywords     = "ada, tasking, hardware compilation, coprocessors",
+  abstract     = "Task synchronization in Ada causes excessive run-time
+    overhead due to the complex semantics of the rendezvous.  To demonstrate
+    that the speed can be increased by two orders of magnitude by using special
+    purpose hardware, a single chip VLSI support processor has been designed.
+    By providing predictable and uniformly low overhead for the entire
+    semantics of a rendezvous, the powerful real-time constructs of Ada can be
+    used freely without performance degradation.  The key to high performance
+    is the set of primitive operations implemented in hardware.  Each operation
+    is complex enough to replace a considerable amount of code was designed to
+    execute with a minimum of communication overhead.  Task control blocks are
+    stored on-chip as well as headers for entry, delay and ready queues.  All
+    necessary scheduling is integrated in the operations.  Delays are handled
+    completely on-chip using an internal real-time clock.  A multilevel design
+    strategy, based on silicon compilation, made it possible to run actual Ada
+    programs on a functional emulator of the chip and use the results to verify
+    the detailed design.  A high degree of parallelism and pipelining together
+    with an elaborate internal addressing scheme has reduced the number of
+    clock cycles needed to perform each operation.  Using 2 &mgr;m CMOS, the
+    processor can run at 20 MHz.  A complex rendezvous, including the calling
+    sequence and all necessary scheduling, can be performed in less than 15
+    microsecs.", 
+  location     = "https://doi.org/10.1145/70082.68198"
+}
+
+@Article{aao8isuimdp,
+  author       = "Adams, Thomas~L. and Zimmerman, Richard~E.",
+  title        = "An Analysis of 8086 Instruction Set Usage in {MS} {DOS} Programs",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "152--161",
+  month        = may,
+  keywords     = "instruction frequency counts, dynamic program behavior, intel
+    processors, dynamic architectural evaluation",
+  abstract     = "An architectural evaluation must be based upon real programs
+    in an actual operating environment.  The ubiquitous IBM Personal Computer
+    running MS DOS represents an excellent test bed for architectural
+    evaluation of Intel 8086 systems.  There are many programs and tools
+    available to evaluate the performance of IBM Personal Computers and
+    compatibles; these evaluation tools are intended to relate the performance
+    of one machine to another.  Very little data is available on dynamic
+    instruction traces in systems using an 8086.  This paper reports on dynamic
+    traces of 8086/88 programs obtained using software tracing tools (described
+    below).  The objective of this work is to analyze instruction usage and
+    addressing modes used in actual software.  The system used to obtain the
+    dynamic instruction frequencies was a compatible running MS DOS 3.1 with a
+    Softpatch bios.  To illustrate the RISC argument that only a few
+    instruction types are sufficient, the 8086 results are compared with
+    similar studies on the Motorola 6800 and Digital Equipment VAX-11.", 
+  location     = "https://doi.org/10.1145/70082.68197"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
