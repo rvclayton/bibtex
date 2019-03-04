@@ -2149,6 +2149,29 @@
   location     = "https://doi.org/10.1145/70082.68197"
 }
 
+@Article{trefsasiot8,
+  author       = "Vegdahl, Steven~R. and Pleban, Uwe~F.",
+  title        = "The Runtime Environment for {Screme}, a {Scheme} Implementation on the 88000",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "172--182",
+  month        = may,
+  keywords     = "scheme, runtime environments, tagged data, procedure call and
+    return",
+  abstract     = "We are implementing a Scheme development system for the
+    Motorola 88000. The core of the implementation is an optimizing native code
+    compiler, together with a carefully designed runtime system.  This paper
+    describes our experiences with the 88000 as a target architecture.  We
+    focus on the design decisions concerning the runtime system, particularly
+    with respect to data type representations, tag checking, procedure calling
+    protocol, generic arithmetic, and the handling of continuations.  We also
+    discuss rejected design alternatives, and evaluate the strengths and
+    weaknesses of the instruction set with respect to our constraints.", 
+  location     = "https://doi.org/10.1145/70082.68199"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
