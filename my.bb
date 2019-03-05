@@ -2172,6 +2172,42 @@
   location     = "https://doi.org/10.1145/70082.68199"
 }
 
+@Article{pofic,
+  author       = "McFarling, Scott",
+  title        = "Program Optimization for Instruction Caches",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "183--191",
+  month        = may,
+  keywords     = "instruction caches, cache hit ratios, code rearrangement,
+    performance", 
+  abstract     = "This paper presents an optimization algorithm for reducing
+    instruction cache misses.  The algorithm uses profile information to
+    reposition programs in memory so that a direct-mapped cache behaves much
+    like an optimal cache with full associativity and full knowledge of the
+    future.  For best results, the cache should have a mechanism for excluding
+    certain instructions designated by the compiler.  This paper first presents
+    a reduced form of the algorithm.  This form is shown to produce an optimal
+    miss rate for programs without conditionals and with a tree call graph,
+    assuming basic blocks can be reordered at will.  If conditionals are
+    allowed, but there are no loops within conditionals, the algorithm does as
+    well as an optimal cache for the worst case execution of the program
+    consistent with the profile information.  Next, the algorithm is extended
+    with heuristics for general programs.  The effectiveness of these
+    heuristics are demonstrated with empirical results for a set of 10 programs
+    for various cache sizes.  The improvement depends on cache size.  For a 512
+    word cache, miss rates for a direct-mapped instruction cache are halved.
+    For an 8K word cache, miss rates fall by over 75%.  Over a wide range of
+    cache sizes the algorithm is as effective as increasing the cache size by a
+    factor of 3 times.  For 512 words, the algorithm generates only 32% more
+    misses than an optimal cache.  Optimized programs on a direct-mapped cache
+    have lower miss rates than unoptimized programs on set-associative caches
+    of the same size.", 
+  location     = "https://doi.org/10.1145/70082.68200"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
