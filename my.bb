@@ -2208,6 +2208,30 @@
   location     = "https://doi.org/10.1145/70082.68200"
 }
 
+@Article{urtocdcp,
+  author       = "Karger, Paul~A.",
+  title        = "Using Registers to Optimize Cross-Domain Call Performance",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "194--204",
+  month        = may,
+  keywords     = "capabilities, cross-domain transfers, performance, register
+    set management, compiler optimizations, procedure calls",
+  abstract     = "This paper describes a new technique to improve the
+    performance of cross-domain calls and returns in a capability-based
+    computer system.  Using register optimization information obtained from the
+    compiler, a trusted linker can minimize the number of registers that must
+    be saved, restored, or cleared when changing from one protection domain to
+    another.  The size of the performance gain depends on the level of trust
+    between the calling and called protection domains.  The paper presents
+    alternate implementations for an extended VAX architecture and for a RISC
+    architecture and reports performance measurements done on a
+    re-microprogrammed VAX-11/730 processor.", 
+  location     = "https://doi.org/10.1145/70082.68201"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -2436,6 +2460,28 @@
   keywords     = "u.s. supreme court, judicial restraint, judicial philosophy,
     u.s. government, separation of powers",
   location     = "KF 8779.K37"
+}
+
+@Book{pubs,
+  author       = "Bruce Sterling",
+  title        = "Pirate Utopia",
+  publisher    = "Tachyon Publishing",
+  year         = 2016,
+  address      = sfca,
+  keywords     = "wwi, yugoslavia, engineers, pirates, fascism",
+  location     = "PS 3569.T3876 P57"
+}
+
+@Book{otcrhm,
+  author       = "Martin, Roger H.",
+  title        = "Off to College",
+  subtitle     = "A Guide for Parents",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "first-year students, student orientation, athletics,
+    substance abuse, special needs students",
+  location     = "LB 2343.32.M37"
 }
 
 @Misc{1mmmitxss,
