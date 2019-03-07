@@ -2232,6 +2232,35 @@
   location     = "https://doi.org/10.1145/70082.68201"
 }
 
+@Article{tdonanbfhm,
+  author       = "Arnould, Emmanuel and Kung, H.~T. and Bitz, Fran{\c c}ois and Sansom, Robert~D. and Cooper, Eric~C. and Peter~A. Steenkiste",
+  title        = "The Design of {Nectar}:  {A} Network Backplane for Heterogeneous Multicomputers",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "205--216",
+  month        = may,
+  keywords     = "network infrastructure, large-grained parallelism,
+    communications processors",
+  abstract     = "Nectar is a &ldquo;network backplane&rdquo; for use in
+    heterogeneous multicomputers.  The initial system consists of a star-shaped
+    fiber-optic network with an aggregate bandwidth of 1.6 gigabits/second and
+    a switching latency of 700 nanoseconds.  The system can be scaled up by
+    connecting hundreds of these networks together.  The Nectar architecture
+    provides a flexible way to handle heterogeneity and task-level parallelism.
+    A wide variety of machines can be connected as Nectar nodes and the Nectar
+    system software allows applications to communicate at a high level.
+    Protocol processing is off-loaded to powerful communication processors so
+    that nodes do not have to support a suite of network protocols.  We have
+    designed and built a prototype Nectar system that has been operational
+    since November 1988.  This paper presents the motivation and goals for
+    Nectar and describes its hardware and software.  The presentation
+    emphasizes how the goals influenced the design decisions and led to the
+    novel aspects of Nectar.", 
+  location     = "https://doi.org/10.1145/70082.68202"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
