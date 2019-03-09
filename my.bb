@@ -2261,6 +2261,32 @@
   location     = "https://doi.org/10.1145/70082.68202"
 }
 
+@Article{amdopm,
+  author       = "Delgado-Rannauro, Sergio~A. and Reynolds, T.~J.",
+  title        = "{A} Message Driven {OR}-Parallel Machine",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "217--228",
+  month        = may,
+  keywords     = "logic programming, abstract machines, binding environments,
+    task scheduling, storage management",
+  abstract     = "A message driven architecture for the execution of
+    OR-parallel logic languages is proposed.  The computational model is based
+    on well known compilation techniques for Logic Languages.  We present first
+    the multiple binding mechanism for the OR-parallel Prolog architecture and
+    the corresponding OR-parallel abstract machine is described.  A scheduling
+    algorithm which does not rely upon the availability of global data
+    structures to direct the search for work is discussed.  The message driven
+    processor, the processing node of the parallel machine, is designed to
+    interact with a shared global address space and to efficiently process
+    messages from other processing nodes.  We discuss some of the results
+    obtained from a high level functional simulator of the message driven
+    machine.", 
+  location     = "https://doi.org/10.1145/70082.68203"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
