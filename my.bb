@@ -2287,6 +2287,40 @@
   location     = "https://doi.org/10.1145/70082.68203"
 }
 
+@Article{etposcc,
+  author       = "Owicki, Susan and Agarwal, Anant",
+  title        = "Evaluating the Performance of Software Cache Coherence",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "230--242",
+  month        = may,
+  keywords     = "cache coherence protocols, bus-based architecture,
+    interconnection architecture, performance analysis",
+  abstract     = "In a shared-memory multiprocessor with private caches, cached
+    copies of a data item must be kept consistent.  This is called cache
+    coherence.  Both hardware and software coherence schemes have been
+    proposed.  Software techniques are attractive because they avoid hardware
+    complexity and can be used with any processor-memory interconnection.  This
+    paper presents an analytical model of the performance of two software
+    coherence schemes and, for comparison, snoopy-cache hardware.  The model is
+    validated against address traces from a bus-based multiprocessor.  The
+    behavior of the coherence schemes under various workloads is compared, and
+    their sensitivity to variations in workload parameters is assessed.  The
+    analysis shows that the performance of software schemes is critically
+    determined by certain parameters of the workload: the proportion of data
+    accesses, the fraction of shared references, and the number of times a
+    shared block is accessed before it is purged from the cache.  Snoopy caches
+    are more resilient to variations in these parameters.  Thus when evaluating
+    a software scheme as a design alternative, it is essential to consider the
+    characteristics of the expected workload.  The performance of the two
+    software schemes with a multistage interconnection network is also
+    evaluated, and it is determined that both scale well.", 
+  location     = "https://doi.org/10.1145/70082.68204", 
+  location     = "http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-41.html"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
