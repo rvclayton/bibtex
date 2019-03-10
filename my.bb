@@ -2321,6 +2321,41 @@
   location     = "http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-41.html"
 }
 
+@Article{aocipim,
+  author       = "Weber, Wolf-Dietrich and Gupta, Anoop",
+  title        = "Analysis of Cache Invalidation Patterns in Multiprocessors",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "243--256",
+  month        = may,
+  keywords     = "multiprocessor programs, program traces, trace analysis, data
+    access patterns, cache invalidation, cache directories",
+  abstract     = "To make shared-memory multiprocessors scalable, researchers
+    are now exploring cache coherence protocols that do not rely on broadcast,
+    but instead send invalidation messages to individual caches that contain
+    stale data.  The feasibility of such directory-based protocols is highly
+    sensitive to the cache invalidation patterns that parallel programs
+    exhibit.  In this paper, we analyze the cache invalidation patterns caused
+    by several parallel applications and investigate the effect of these
+    patterns on a directory-based protocol.  Our results are based on
+    multiprocessor traces with 4, 8 and 16 processors.  To gain insight into
+    what the invalidation patterns would look like beyond 16 processors, we
+    propose a classification scheme for data objects found in parallel
+    applications and link the invalidation traffic patterns observed in the
+    traces back to these high-level objects.  Our results show that
+    synchronization objects have very different invalidation patterns from
+    those of other data objects.  A write reference to a synchronization object
+    usually causes invalidations in many more caches.  We point out situations
+    where restructuring the application seems appropriate to reduce the
+    invalidation traffic, and others where hardware support is more
+    appropriate.  Our results also show that it should be possible to scale
+    well-written parallel programs to a large number of processors without an
+    explosion in invalidation traffic.", 
+  location     = "https://doi.org/10.1145/70082.68205"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
