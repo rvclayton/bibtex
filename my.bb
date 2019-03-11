@@ -2356,6 +2356,39 @@
   location     = "https://doi.org/10.1145/70082.68205"
 }
 
+@Article{teosotcabpopp,
+  author       = "Eggers, Susan~J. and Katz, Randy~H.",
+  title        = "The Effect of Sharing on the Cache and Bus Performance of Parallel Programs",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "257--370",
+  month        = may,
+  keywords     = "multiprocessor caches, cache invalidation, cache performance,
+    parallel performance, write invalidation, storage access patterns, cache
+    parameters",
+  abstract     = "Bus bandwidth ultimately limits the performance, and
+    therefore the scale, of bus-based, shared memory multiprocessors.  Previous
+    studies have extrapolated from uniprocessor measurements and simulations to
+    estimate the performance of these machines.  In this study, we use traces
+    of parallel programs to evaluate the cache and bus performance of shared
+    memory multiprocessors, in which coherency is maintained by a
+    write-invalidate protocol.  In particular, we analyze the effect of sharing
+    overhead on cache miss ratio and bus utilization.  Our studies show that
+    parallel programs incur substantially higher miss ratios and bus
+    utilization than comparable uniprocessor programs.  The sharing component
+    of these metrics proportionally increases with both cache and block size,
+    and for some cache configurations determines both their magnitude and
+    trend.  The amount of overhead depends on the memory reference pattern to
+    the shared data.  Programs that exhibit good per-processor-locality perform
+    better than those with fine-grain-sharing.  This suggests that parallel
+    software writers and better compiler technology can improve program
+    performance through better memory organization of shared data.", 
+  location     = "https://doi.org/10.1145/70082.68206", 
+  location     = "http://www2.eecs.berkeley.edu/Pubs/TechRpts/1988/CSD-88-475.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
