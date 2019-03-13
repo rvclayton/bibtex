@@ -2389,6 +2389,56 @@
   location     = "http://www2.eecs.berkeley.edu/Pubs/TechRpts/1988/CSD-88-475.pdf"
 }
 
+@Article{moofpo,
+  author       = "Dally, William~J.",
+  title        = "Micro-Optimization of Floating-Point Operations",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "283--289",
+  month        = may,
+  keywords     = "floating-point operations, microFPUs, compiler optimizations",
+  abstract     = "This paper describes micro-optimization, a technique for
+    reducing the operation count and time required to perform floating-point
+    calculations.  Micro-optimization involves breaking floating-point
+    operations into their constituent micro-operations and optimizing the
+    resulting code.  Exposing micro-operations to the compiler creates many
+    opportunities for optimization.  Redundant normalization operations can be
+    eliminated or combined.  Also, scheduling micro-operations separately
+    allows dependent operations to be partially overlapped.  A prototype
+    expression compiler has been written to evaluate a number of
+    micro-optimizations.  On a set of benchmark expressions operation count is
+    reduced by 33% and execution time is reduced by 40%.", 
+  location     = "https://doi.org/10.1145/70082.68208"
+}
+
+@Article{ailpfsasm,
+  author       = "Jouppi, Norman~P. and Wall, David~W.",
+  title        = "Available Instruction-Level Parallelism for Superscalar and Superpipelined Machines",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "272--282",
+  month        = may,
+  keywords     = "parallelism, pipelining, super-scalar issue",
+  abstract     = "Superscalar machines can issue several instructions per
+    cycle. Superpipelined machines can issue only one instruction per cycle,
+    but they have cycle times shorter than the latency of any functional unit.
+    In this paper these two techniques are shown to be roughly equivalent ways
+    of exploiting instruction-level parallelism.  A parameterizable code
+    reorganization and simulation system was developed and used to measure
+    instruction-level parallelism for a series of benchmarks.  Results of these
+    simulations in the presence of various compiler optimizations are
+    presented.  The average degree of superpipelining metric is introduced.
+    Our simulations suggest that this metric is already high for many machines.
+    These machines already exploit all of the instruction-level parallelism
+    available in many non-numeric applications, even without parallel
+    instruction issue or higher degrees of pipelining.", 
+  location     = "https://doi.org/10.1145/70082.68207"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -2760,4 +2810,3 @@
   keywords     = "docbook",
   location     = "https://web.fe.up.pt/~jmcruz/etc/web/crash-course.pdf"
 }
-
