@@ -2439,6 +2439,30 @@
   location     = "https://doi.org/10.1145/70082.68207"
 }
 
+@Article{lomii,
+  author       = "Smith, Michael~D. and Johnson, Mike and Horowitz, Mark~A.",
+  title        = "Limits on Multiple Instruction Issue",
+  journal      = asplos89,
+  year         = 1989,
+  volume       = 24,
+  number       = 5,
+  pages        = "290--302",
+  month        = may,
+  keywords     = "superscalar issue, architecture simulation, instruction-level
+    concurrency",
+  abstract     = "This paper investigates the limitations on designing a
+    processor which can sustain an execution rate of greater than one
+    instruction per cycle on highly-optimized, non-scientific applications.  We
+    have used trace-driven simulations to determine that these applications
+    contain enough instruction independence to sustain an instruction rate of
+    about two instructions per cycle.  In a straightforward implementation,
+    cost considerations argue strongly against decoding more than two
+    instructions in one cycle.  Given this constraint, the efficiency in
+    instruction fetching rather than the complexity of the execution hardware
+    limits the concurrency attainable at the instruction level.", 
+  location     = "https://doi.org/10.1145/70082.68209"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
