@@ -1,6 +1,7 @@
 .so bibtex.header
 		  
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
+@string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '89)"}
 		  
@@ -1243,6 +1244,30 @@
     further information.  UFOS is an interactive system designed to assist with
     the analysis of Unix System V performance.  The system can be customized to
     monitor the performance of a particular machine.", 
+}
+
+@InProceedings{adfsiaarp,
+  author       = "Ronald~E. Barkley and T.~Paul Lee",
+  title        = "{A} Dynamic File System Inode Allocation and Reclaim Policy",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "1--9",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "dynamic storage management, inodes, vnodes, virtual storage,
+    file systems, caching",
+  abstract     = "In this paper we describe a policy for dynamically allocating
+    and reclaiming inodes and present some experimental results obtained on a
+    System V prototype.  Traditionally, in-core inodes are allocated from a
+    statically reconfigured table, and free slots in this table are reused
+    based on a LRU reallocation policy.  With a dynamic policy, inodes are
+    allocated on demand and cached after use.  We limit the number of inodes by
+    reclaiming them when they no longer have any memory pages associated with
+    them.  This policy improves the efficiency of the memory subsystem and,
+    thus, improves overall system performance.  Dynamically allocating inodes
+    also offers the advantage of automatic tuning; we do not need any special
+    understanding of the workload to determine the best number of inodes to
+    configure." 
 }
 
 @Article{msfnwqosg,
