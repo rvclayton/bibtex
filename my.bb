@@ -2740,6 +2740,16 @@
   location     = "LB 2343.32.M37"
 }
 
+@Book{kchm,
+  author       = "Haruki Murakami",
+  title        = "Killing Commendatore",
+  publisher    = "Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "artists, the mysterious",
+  location     = "PL 856.U673 K5713"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
