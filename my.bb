@@ -1270,6 +1270,19 @@
     configure." 
 }
 
+@InProceedings{iivpsnfp,
+  author       = "Danny Chen, Ronald~E. Barkley, T.~Paul Lee",
+  title        = "Insuring Improved {VM} Performance:  Some No-Fault Policies",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "11--22",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "virtual memory, page management, process creation, performance",
+  abstract     = "",
+  location     = ""
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -2486,6 +2499,34 @@
     instruction fetching rather than the complexity of the execution hardware
     limits the concurrency attainable at the instruction level.", 
   location     = "https://doi.org/10.1145/70082.68209"
+}
+
+@Article{otdooss,
+  author       = "Lauer, Hugh~C. and Needham, Roger~M.",
+  title        = "On the Duality of Operating System Structures",
+  journal      = osr,
+  year         = 1979,
+  volume       = 13,
+  number       = 2,
+  pages        = "3--19",
+  month        = apr,
+  keywords     = "message passing, single-thread procedures, duality, operating
+    system structure",
+  abstract     = "Many operating system designs can be placed into one of two
+    very rough categories, depending upon how they implement and use the
+    notions of process and synchronization.  One category, the Message-oriented
+    System, is characterized by a relatively small, static number of processes
+    with an explicit message system for communicating among them.  The other
+    category, the Procedure-oriented System, is characterized by a large,
+    rapidly changing number of small processes and a process synchronization
+    mechanism based on shared data.  In this paper, it is demonstrated that these
+    two categories are duals of each other and that a system which is
+    constructed according to one model has a direct counterpart in the other.
+    The principal conclusion is that neither model is inherently preferable,
+    and the main consideration for choosing between them is the nature of the
+    machine architecture upon which the system is being built, not the
+    application which the system will ultimately support.", 
+  location     = "https://doi.org/10.1145/850657.850658"
 }
 
 @Book{cpec,
