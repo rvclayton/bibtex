@@ -1324,6 +1324,28 @@
     source language." 
 }
 
+@InProceedings{seast,
+  author       = "Robert Bedichek",
+  title        = "Some Efficient Architecture Simulation Techniques",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "53--63",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "software simulation, lazy allocation",
+  abstract     = "An efficient simulator for the Motorola 88000 at the ISA
+    (Instruction Set Architecture) level is described.  By translating
+    instructions on the fly to a quick-to-execute form we achieve an average
+    ratio of 20 simulator host instructions executed per simulated instruction.
+    Lazy allocation of memory allows large memories to be modeled with low
+    start-up time.  We describe our experience using the simulator to develop
+    workstation software.  The simulator's speed and extensive I/O device
+    modeling made it possible for us to interactively debug and test a unix
+    kernel and diagnostic software well before the hardware was available.
+    Extensions to closely model caches and multiprocessors are sketched.", 
+  location     = "http://www.xsim.com/papers/bedichek90some.pdf"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
