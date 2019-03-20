@@ -1346,6 +1346,45 @@
   location     = "http://www.xsim.com/papers/bedichek90some.pdf"
 }
 
+@InProceedings{touml,
+  author       = "Robert Berkley and Skip Gilbrech and Tim Hunt and Mark Luppi and Richard Plevin",
+  title        = "Tickerplants on Unix",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "65--74",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "Software tickerplants have long existed in financial
+    environments on mainframes and fault-tolerant machines.  Increasingly they
+    are being implemented on Unix local area networks as well.  Briefly
+    defined, a tickerplant is a software system that receives data from capital
+    markets (stock exchanges, commodity exchanges, money market brokers, etc.)
+    and distributes it to a user community in real time.  The community can
+    include portfolio managers, brokers, traders, and financial analysts.  In a
+    sense, one can vie tickerplants as descendants of the old tickertape
+    machines, insofar as they are used to place real-time market data on
+    financial user's desks.  The resemblance stops there, however.  A
+    tickerplant is a composite entity that can be as complex as a commercial
+    RDBMS.  The central component of the tickerplant resides on a network
+    server machine, where it fills several roles, including: A communications
+    handler that interfaces with one or more high-volume data feeds from
+    external capital market sources such as stock exchanges.  A real-time
+    database manager that stores current status for all market instruments, as
+    well as tick-by-tick history for all market transactions.  (Even on
+    high-performance machines, no commercial RDBMS can yet sustain market data
+    rates).  An information bus manager that distributes data to end-user
+    screens and processes that perform real-time analysis of capital markets
+    active.  Tickerplants are central to the operation of many financial
+    institutions, including funds managers, brokerages, stock exchanges, and
+    commercial, clearing, and investment banks.  This paper discusses the
+    tickerplant as a unique product that is appearing in Unix based financial
+    application environments, after a long history on mainframes and
+    fault-tolerant machines.  We focus on the technical constraints and
+    solutions for implementing tickerplants on Unix local area networks, and
+    highlight the problems i performance, reliability, and network distribution
+    based on out experience in implementing our own tickerplant product."
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
