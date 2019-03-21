@@ -1385,6 +1385,24 @@
     based on out experience in implementing our own tickerplant product."
 }
 
+@InProceedings{gxgpnnst,
+  author       = "Matt Wilson and John Uhley and Upinder Bhalla and David Bilitch and Mark Nelson and James Bower",
+  title        = "{GENESIS} \& {XODUS}, General Purpose Neural Network Simulation Tool",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "75--87",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "x system, neural networks, graphical user interface",
+  abstract     = "The GENESIS package was created to provide a platform for the
+    rapid development of new neural network simulations with geographical user
+    interfaces.  Although targeted for the neural network community, the
+    interpretive front-end and object-oriented structures present in the
+    GENESIS platform illustrate a powerful technique which may be useful in the
+    development and implementation of other interactive graphical
+    applications." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
