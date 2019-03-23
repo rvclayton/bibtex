@@ -1403,6 +1403,30 @@
     applications." 
 }
 
+@InProceedings{kalaegefm,
+  author       = "Tim Thompson",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "89--100",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  title        = "Keynote --- {A} Language and Extensible Graphic Editor for Music",
+  keywords     = "dsl, music editing, MIDI, unix, little language",
+  abstract     = {Keynote is a programming language for manipulating and
+    generating music with MIDI-compatible equipment.  It was designed for and
+    in the style of the Unix software system: an application-specific little
+    language and interactive shell.  Most obviously used for algorithmic music
+    composition, Keynote also serves as a more genera utility for real-time and
+    non-real-time MIDI data manipulation.  By adding only a few built-in
+    functions to the language, a graphic interface was recently added to
+    Keynote.  This built-in graphic interface did not, however, build-in any
+    particular user interface.  All of the nested pop-up menus and operations
+    of a graphical music editor have been implemented in the Keynote language
+    itself.  The result is an extensible tool, similar in spirit to the
+    Lisp-based extensiblity of Emacs, and easily modified and enhanced by end
+    users.} 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -2909,6 +2933,17 @@
   address      = nyny,
   keywords     = "artists, the mysterious",
   location     = "PL 856.U673 K5713"
+}
+
+@Book{lott,
+  author       = "Catherine Merridale",
+  title        = "Lenin on the Train",
+  publisher    = "Metropolitan Books",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "russia, revolution, wwi, lenin, socialism, espionage,
+    sabotage",
+  location     = "DK 254.L443 M37"
 }
 
 @Misc{1mmmitxss,
