@@ -1427,6 +1427,75 @@
     users.} 
 }
 
+@InProceedings{iiathds,
+  author       = "Joel~S. Emer and William~E. Weihl",
+  title        = "Integrated Interactive Access to Heterogeneous Distributed Services",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "101--115",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "rpc, client-server architecture, configurable tooling,
+    mercury, elisp",
+  abstract     = "In this paper, we consider how to provide interactive users
+    with uniform and integrated access to heterogeneous distributed services.
+    Access to distributed services through a single interface has many
+    advantages.  One is that it provides the user with an integrated interface
+    environment that allows easy interaction between uses of distinct services.
+    Another is that it simplifies creation of interfaces to new services by
+    obviating the need to create a custom interface for that particular
+    service.  As a particular instance of such an interface, we examine the use
+    of editors as an interface to distributed services.  To date, the means
+    provided within editors for accessing services has been relatively ad-hoc.
+    In this paper, we examine the more general technique of using remote
+    procedure call as the service access paradigm.  This technique is shown to
+    have many advantages including: ease of integration of new services;
+    allowing for more powerful services since thy can be written in languages
+    and on hardware platforms appropriate to the service; and allowing access
+    to remote data and access from multiple cites." 
+}
+
+@InProceedings{tusmlasr,
+  author       = "Joel~D. Silverstein and Steven~E. Sommars and Yio-Chian Tao",
+  title        = "The " # unix # " {System} Math Library, a Status Report",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "117--131",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "floating point operations, accuracy, ulp, math library",
+  abstract     = "Changes have been made to the Unix System math library (libm)
+    to improve accuracy and to conform to standards.  Several improvements were
+    made for C/SVR4, most notably in the trigonometric functions, fmod(x, y),
+    lgamma(x), pow(x, y), and erfc(x).  Significant improvements come from use
+    of some 4.3BSD functions.  While additional algorithmic work is needed to
+    improve accuracy and performance of some functions, a more important task
+    is to standardize interfaces including exception handling." 
+}
+
+@InProceedings{taecl,
+  author       = "John~K. Ousterhout",
+  title        = "Tcl:  An Embeddable Command Language",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "133--146",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "command interpreters, tool development, scripting languages,
+    ipc, extensibility",
+  abstract     = "Tcl is an interpreter for a tool command language.  It
+    consists of a library package that is embedded in tools (such as editors,
+    debuggers, etc.) as the basic command interpreter.  Tcl provides (a) a
+    parser for a simple textual command language, (b) a collection of built-in
+    utility commands, and (c) a C interface that tools use to augment the
+    built-in commands with tool-specific commands.  Tcl is particularly
+    attractive when integrated with the widget library of a window system: it
+    increases the programmability of the widgets by providing mechanisms for
+    variables, procedures, expressions, etc; it allows users to program both
+    the appearance and the actions of widgets; and it offers a simple but
+    powerful communication mechanism between interactive programs." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -2946,6 +3015,20 @@
   location     = "DK 254.L443 M37"
 }
 
+@Book{aatps,
+  author       = "Ernest~G. Manes and Michael~A. Arbib",
+  title        = "Algebraic Approaches to Program Semantics",
+  publisher    = sv,
+  year         = 1986,
+  series       = "Texts and Monographs in Computer Science",
+  address      = nyny,
+  keywords     = "program semantics, denotational semantics, category theory,
+    assertion semantics, specification, recursion, order semantics, fixed
+    points, metric spaces, functors, data types, parametric specifications
+    equational specification",
+  location     = "QA 76.7.M34"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -2953,7 +3036,7 @@
   year         = 2005,
   month        = "27--30 " # dec,
   address      = "Berlin, Germany",
-  keywords     = "security, xbox, bootloader, encryption, hashing, ",
+  keywords     = "security, xbox, bootloader, encryption, hashing",
   location     = "https://events.ccc.de/congress/2005/fahrplan/attachments/674-slides_xbox.pdf",
   location     = "https://www.slideshare.net/Flashdomain/17-mistakes-microsoft-made-in-the-xbox-security-system"
 }
@@ -3065,3 +3148,5 @@
   keywords     = "docbook",
   location     = "https://web.fe.up.pt/~jmcruz/etc/web/crash-course.pdf"
 }
+
+
