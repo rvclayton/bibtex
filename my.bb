@@ -1496,6 +1496,31 @@
     powerful communication mechanism between interactive programs." 
 }
 
+@InProceedings{aebfss,
+  author       = "Raymond~B. Essick",
+  title        = "An Event-based Fair Share Scheduler",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "147--161",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "scheduling, measurement, analysis",
+  abstract     = "The PrismaOS scheduler is an event-driven scheduler with fair
+    share features.  We implemented this scheduler to replace the standard
+    SunOS scheduler for the Prisma P1 system, which is expected to accommodate
+    thousands of processes.  Our goals and reasons for implementing a new
+    scheduler in PrismaOS instead of using the standard SunOS scheduler
+    included: improved interactive responsiveness, scaling to support thousands
+    of processes efficiently, and fair share scheduling.  This paper describes
+    the PrismaOS scheduler, a modification of the ESCHED scheduler.  It briefly
+    covers the changes made to the basic ESCHED algorithms and then details the
+    implementation of a far share scheduler on the ESCHED base.  The fair share
+    discussion describes our early implementation and the tuning steps we went
+    through to produce our final fair share scheduler for PrismaOS.  The new
+    scheduler, in its various forms, has been running in production on
+    approximately one dozen machines at Prisma since November 1988." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
