@@ -1521,6 +1521,27 @@
     approximately one dozen machines at Prisma since November 1988." 
 }
 
+@InProceedings{psampi,
+  author       = "Arun Garg",
+  title        = "Parallel {STREAMS}: a Multi-Processor Implementation",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "163--176",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "streams, i/o subsystems, multiprocessors, parallelism",
+  abstract     = "This paper describes Parallel STREAMS, a multiprocessor
+    implementation of STREAMS that has been developed at Sequent.  Parallel
+    STREAMS is a key architectural component of the character I/O subsystem of
+    the operating system.  Some of the important design issues are discussed.
+    Parallelism in the STREAMS context is explored and the design of a parallel
+    STREAMS scheduler is described.  Some of the utilities and guidelines that
+    were added in Parallel STREAMS because of the multiprocessor environment
+    are also described.  This paper assumes basic knowledge of STREAMS,
+    although relevant aspects have been summarized briefly in an overview
+    section." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
