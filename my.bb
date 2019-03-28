@@ -1542,6 +1542,27 @@
     section." 
 }
 
+@InProceedings{ibsisvr4,
+  author       = "Ian Vessey and Glenn Skinner",
+  title        = "Implementing {Berkeley} {Sockets} in {System} {V} {Release} 4",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "177--193",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "sockets, streams, protocol apis",
+  abstract     = "A major goal of the UNIX System V, Release 4 (SVR4)
+    development effort has been to unify divergent lines of UNIX development
+    into a single system offering the best features of its progenitors.  A
+    closely related goal has been to augment the programming interface to
+    capture applications written for other UNIX variants, by making the
+    facilities they depend on available in the unified system.  The socket
+    interface is a cornerstone of the 4BSD networking facilities, so its
+    presence in SVR4 is an absolute necessity for application capture.  This
+    paper describes the design of the SVR4 socket implementation, the
+    implementation problems we encountered, and their solutions." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
