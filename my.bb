@@ -1563,6 +1563,42 @@
     implementation problems we encountered, and their solutions." 
 }
 
+@InProceedings{tnmt,
+  author       = "Allan Leinwand and Jeff Okamoto",
+  title        = "Two Network Management Tools",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "195--205",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "network management, gui"
+}
+
+@InProceedings{tcotnnb,
+  author       = "Steven~A. Heimlich",
+  title        = "Traffic Characterization of the {NSFNET} National Backbone",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "207--227",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "network traffic, traffic analysis, packet trains, network
+    models, token rings",
+  abstract     = {Traditionally, models of packet arrival in communication
+    networks have assumed either Poisson or compound Poisson arrival patterns.
+    A study of a token ring local area network (LAN) at MIT [5] found that
+    packet arrival followed neither of these models.  Instead, traffic followed
+    a more general model dubbed the "packet train" which describes network
+    traffic as a collection of packet streams traveling between node pairs.  A
+    packet train consists of a number of packets traveling between a particular
+    node pair.  This study examines the existence of packet trains on NSFNET, a
+    high speed national backbone network.  Train characteristics on NSFNET are
+    not as striking as those found on the MIT local network; however, certain
+    protocols exhibit quite strong train behavior given the great number of
+    hosts communicating through the backbone.},
+  location     = "https://doi.org/10.1145/98457.98774"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3094,6 +3130,16 @@
     points, metric spaces, functors, data types, parametric specifications
     equational specification",
   location     = "QA 76.7.M34"
+}
+
+@Book{nodnf,
+  author       = "Nuruddin Farah",
+  title        = "North of Dawn",
+  publisher    = "Riverhead Books",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "immigration, terrorism, islam, samalia, family relations",
+  location     = "PR 9396.9.F3 N6"
 }
 
 @Misc{1mmmitxss,
