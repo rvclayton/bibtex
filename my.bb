@@ -1599,6 +1599,50 @@
   location     = "https://doi.org/10.1145/98457.98774"
 }
 
+@InProceedings{pndavn,
+  author       = "Steven~M. Bellovin",
+  title        = "Pseudo-Network Drivers and Virtual Networks",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "229--244",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "network drivers, tcp/ip, sockets, streams, pseudo-drivers",
+  abstract     = "Many operating systems have long had pseudo-teletypes,
+    inter-process communication channels that provide terminal semantics on one
+    end, and a smart server program on the other.  We describe an analogous
+    concept, pseudo-network drivers.  One end of the driver appears to be a
+    real network device, with the appropriate interface and semantics; data
+    written to it goes to a program, however, rather than to a physical medium.
+    Using this and some auxiliary mechanisms, we present a variety of
+    applications, including system test, network monitoring, dial-up TCP/IP,
+    and ways to both improve and subvert network security.  Most notably, we
+    show how pseudo-network devices can be used to create virtual networks and
+    to provide encrypted communications capability.  We describe two
+    implementations, one using a conventional driver for socket-based systems,
+    and one using stream pipes for System V.", 
+  location     = "https://www.cs.columbia.edu/~smb/papers/pnet.ext.ps"
+}
+
+@InProceedings{sauie,
+  author       = "Len Bass and Brian Clapper and Erik Hardy and Rick Kazman and Robert Seacord",
+  title        = "Serpent:  {A} User Interface Environment",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "245--258",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "user-interface management systems, separation of concerns",
+  abstract     = "Prototyping has been shown to simplify system specification
+    and implementation, especially in the area of user interfaces.  Previous
+    prototyping approaches do not allow for the evolution of the prototype into
+    a production system and do not support maintenance after a system is put
+    into use.  A set of goals for a modern user interface environment is
+    presented.  Serpent, a prototype implementation which achieves these goals,
+    is presented and is shown to have several advantages over other approaches
+    to user interface development." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3140,6 +3184,21 @@
   address      = nyny,
   keywords     = "immigration, terrorism, islam, samalia, family relations",
   location     = "PR 9396.9.F3 N6"
+}
+
+@Book{hsnws,
+  author       = "William Stallings",
+  title        = "High-Speed Networks",
+  subtitle     = "TCP/IP and ATM Design Principles",
+  publisher    = ph,
+  year         = 1998,
+  address      = srnj,
+  keywords     = "tcp/ip, acm, network protocols, data networks, high-speed
+    lans, performance modeling, queuing analysis, self-similar traffic,
+    link-level flow and error control, transport-level traffic control,
+    internetwork traffic management, internet routing, routing protocols,
+    multimedia routing, information theory, compression",
+  location     = "TK 5105.585.S73"
 }
 
 @Misc{1mmmitxss,
