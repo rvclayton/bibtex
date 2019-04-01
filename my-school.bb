@@ -14077,7 +14077,7 @@
 }
 
 @Article{dss,
-  author       = "Rudolf~J. Luaber",
+  author       = "Rudolf~J. Lauber",
   title        = "Development Support Systems",
   journal      = ieeec,
   year         = 1982,
