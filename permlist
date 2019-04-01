@@ -248,7 +248,6 @@ a survey of analysis techniques for discrete algorithms : weide
 a survey of analytical time sharing models : mckinney
 a survey of attack and defense techniques for reputation systems : hoffman
 a survey of cache coherence schemes for multiprocessors : stenstrom
-a survey of high level langague machines in japan : yamamoto
 a survey of light weight transport protocols for high speed networks : doeringer
 a survey of linguistic structures for application level fault tolerance : de florio
 a survey of object oriented concepts : nierstrasz
@@ -539,7 +538,6 @@ attribute based compiler implemented using visitor pattern : neff
 attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
-authentication for distributed systems : woo
 authentication in distributed systems theory and practice : lampson
 autocollage : rother
 automate your build processing using java and ant : cymerman
@@ -878,7 +876,6 @@ demonstrational interfaces a step beyond direct manipulation : myers
 denial of service via algorithmic complexity attacks : crosby
 denotational semantics : solnneger
 denotational semantics for languages with modules : ganzinger
-deplate convert wiki like markup to latex docbook html or html slides : link
 derive a tool that automatically reverse engineers instruction encodings : engler
 deriving an object model from legacy fortran code : subramaniam
 deriving graphical representations of process networks from algebraic expressions : bolognesi
@@ -890,7 +887,6 @@ design and implementation of generics for the net common language runtime : kenn
 design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
 design and architecture of the brazil web application framework : uhler
 design and implementation of an object oriented 64 bit single address space microkernel : murray
-design and implementation of flexible user protocol interface : metzler
 design by contract to improve software vigilance : le traon
 design considerations for a message file server : christodoulakis
 design early considered harmful graduated exposure to complexity and structure based on levels of cognitive development : buck
@@ -926,7 +922,6 @@ determinacy testing for nondeterminate logic programming languages : tick
 developing and using snd editing sound under linux parts 1 and 2 : phillips
 developing your own 32 bit operating system : burgess
 development of communication software by stepwise refinement : freudenmann
-development support systems : lauber
 dfp fast flexible message demultiplexing using dynamic code generation : engler
 diagnosing java code designing extensible applications : allen
 differentiating parsers : kiselyov
@@ -1120,7 +1115,6 @@ extensible records with scoped labels : leijen
 extensible syntax with lexical scoping : cardelli
 extensions to standard ml to support transactions : wing
 external data representation : xdr
-extracting guarantees from chaos : kubiatowicz
 extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
 ez processes : hanson
@@ -1448,7 +1442,6 @@ inter an inexpensive inter procedural register allocator : mulder
 interactive explanation of software systems : johnson
 interactive foundations of object oriented programming : wegner
 interactive steering using the application executive : bliss
-interactive systems bridging the gaps between developers and users : grudin
 interbase an execution environment for heterogeneous software systems : bukhres
 interconnection networks using shuffles : chen
 interest groups and the regulation of pesticides congress coalitions and closure : nownes
@@ -1716,7 +1709,6 @@ multi valued constant propagation for the reengineering of interfaces : merlo
 multiaccess in a nonqueueing mailbox environment : ferguson
 multicomputer programming with modula 3d : leino
 multilevel internetworking gateways architecture and applications : benhamou
-multilevel models in model driven engineering, product lines, and metaprogramming : batory
 multimedia conferencing on local area networks : ziegler
 multi paradigm programming : hanus
 multiple access protocols and time constrained communication : kurose
