@@ -16924,7 +16924,7 @@
 }
 
 @Article{egfc,
-  author       = "John Kubiatoricz",
+  author       = "John Kubiatowicz",
   title        = "Extracting Guarantees from Chaos",
   journal      = cacm,
   year         = 2003,
