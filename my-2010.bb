@@ -3586,20 +3586,6 @@
   location     = "QA 76.6.O6X"
 }
 
-@Article{daiofupi,
-  author       = "B. Metzler and I. Miloucheva",
-  title        = "Design and Implementation of a Flexible User Protocol
-		  Interface",
-  journal      = jhsn,
-  year         = 1996,
-  volume       = 5,
-  number       = 2,
-  pages        = "145--158",
-  keywords     = "user protocol interface, application programming interface,
-		  application layer framing, single copy",
-  location     = ""
-}
-
 @Article{dotaaewipius,
   author       = "Ernst~W. Biersack and Erich R{\"u}tsche",
   title        = "Demultiplexing on the {ATM} Adapter: Experiments with
