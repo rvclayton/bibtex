@@ -3223,6 +3223,17 @@
   location     = "TK 5105.585.S73"
 }
 
+@Book{ohip,
+  author       = "Karyn~L. Freedman",
+  title        = "One Hour in Paris",
+  subtitle     = "A True Story of Rape and Recovery",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "rape, recovery",
+  location     = "B 995.F744 A3"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
