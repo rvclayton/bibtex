@@ -1643,6 +1643,28 @@
     to user interface development." 
 }
 
+@InProceedings{poouwmams,
+  author       = "Masami Hagiya and Kouji Ohtani",
+  title        = "Parallel Object-Oriented {UIMS} with Macro and Micro Stubs",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "259--274",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "uims, parallel object-oriented language",
+  abstract     = "This paper describes a user-interface management system
+    (UIMS) based on a parallel object-oriented model that supports a stub
+    generator for connecting the user-interface part of an application running
+    in side the UIMS and the application body implementing application-specific
+    functions.  The parallel object-oriented model is implemented by a virtual
+    machine in the window server, which lets user-interface code run in the
+    server.  The UIMS supports two kinds of stub: macro and micro.  With a
+    macro stub, an entire Unix process behaves as a parallel object in the UIMS
+    parallel object-oriented model, while with a micro stub, each object
+    implemented inside a Unix process corresponds to a parallel object in the
+    model." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
