@@ -1665,6 +1665,51 @@
     model." 
 }
 
+@InProceedings{mastpdropcaw,
+  author       = "Stephen~A. Uhler",
+  title        = "{\sc Mtx} --- {A} Shell that Permits Dynamic Rearrangement of Process Connections and Windows",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "275--283",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "graphical shell, remote execution, inter-process communication",
+  abstract     = "Mtx is a Unix shell, implemented as a single user process,
+    with an expanded notion of pipes and i/o redirection.  Mtx supports
+    creating and maintaining processes, connecting their inputs and outputs in 
+    an arbitrary directed graph.  Each process can have as many windows or
+    virtual terminals as required for user interaction.  Through a control
+    window Mtx can dynamically manipulate the connections among ongoing
+    processes.  In addition, Mtx can rendezvous and connect to Mtx servers on
+    remote hosts, conveniently providing pipe connections across a network of
+    computer.  This paper describes the use and implementation of Mtx on a
+    network of Unix workstations." 
+}
+
+@InProceedings{uuaocoaldkfmfs,
+  author       = "David Hitz and Guy Harris and James~K. Lau and and Allan~M. Schwartz",
+  title        = "Using " # unix # " as One Component of a Lightweight Distributed Kernel for Multiprocessor File Servers",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "285--296",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "coprocessors, light-weight kernels, nfs",
+  abstract     = "Auspex builds fast NFS file servers designed to satisfy the
+    I/O demands of large networks and high-performance workstations.  The
+    architecture handles NFS operations quickly and efficiently by completely
+    eliminating Unix from the normal path of NFS service.  We designed a
+    message passing kernel that allows a slightly modified Unix kernel to
+    execute as a peer processor with Ethernet processors, filesystem
+    processors, and disk storage processors.  These non-Unix processors respond
+    efficiently to NFS requests and perform IP packet routing.  A separate host
+    processor running SunOS4.0 provides full Unix compatibility by servicing
+    less time critical and less frequent requests such as Yellow Pages.  Our
+    message passing kernel is small (15 kbytes of object) and fast (10,000
+    messages per second into a Motorola 68020) and provides source code
+    debugging for all processors." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
