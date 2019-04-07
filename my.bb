@@ -1710,6 +1710,78 @@
     debugging for all processors." 
 }
 
+@InProceedings{ahpmbvf,
+  author       = "Alan Langerman and Joseph Boykin and Susan LoVerso and Shashi Mangalat",
+  title        = "{A} Highly-Parallelized {Mach}-based Vnode Filesystem",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "297--312",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "mach, parallelism, concurrency control, nfs, file systems,
+    multiprocessor operating systems, encore computers, performance, portability",
+  abstract     = "This paper describes the parallelization of a vnode-based
+    filesystem layered on the Mach operating system.  Encore parallelized
+    portions of the Mach operating system's 4.3BSD compatibility code to
+    increase performance.  Subsequently, Carnegie-Mellon University released a
+    version of Mach with substantial modifications to the filesystem to provide
+    NSF functionality.  Using the framework left in place from our original
+    parallelization effort, we migrated to the new vnode filesystem code by
+    modifying our original locking policies to accommodate the new filesystem
+    organization.  Based upon performance analysis of our original version, the
+    opportunity was also taken to revise the old locking policies to provide
+    substantially increased parallelism.  Details of the new locking policies
+    and performance analyses are provided.", 
+  location     = "ftp://ftp.tuhs.org.ua/Documentation/AUUGN/AUUGN-V10.6.pdf"
+}
+
+@InProceedings{pffap,
+  author       = "Steven~C. Johnson",
+  title        = "Postloading for Fun and Profit",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "325--330",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "system tools, optimization, instrumenting",
+  abstract     = "Postload processing, or postloading, is a technique of
+    optimizing (or otherwise processing) an executable program after it has
+    been linked with ld.  The executable program is read, altered, and
+    rewritten with optimizations or other added features.  Postloading, to be
+    done reliably, needs changes to the a.out format that increases its size by
+    a few percent.  We have found over a dozen significant uses for
+    postloading, including optimization, hardware workarounds, profiling and
+    execution counting, simulation, 'code critics' (programs that examine, and
+    repair, common compiler and assembly code problems), and migration to new
+    hardware releases.", 
+  location     = "https://www.cs.tufts.edu/comp/150FP/archive/stephen-johnson/postloading.pdf"
+}
+
+@InProceedings{dsrms,
+  author       = "Margo Seltzer and Peter Chen and John Ousterhout",
+  title        = "Disk Scheduling Revisited",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "313--324",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "optimization, disk arm scheduling, storage size, performance",
+  abstract     = "Since the invention of the movable head disk, people have
+    improved I/O performance by intelligent scheduling of disk accesses.  We
+    have applied these techniques to systems with large memories and
+    potentially long disk queues.  By viewing the entire buffer cache as a
+    write buffer, we can improve disk bandwidth utilization by applying some
+    traditional disk scheduling techniques.  We have analyzed these techniques,
+    which attempt to optimize head movement and guarantee fairness in response
+    time, in the presence of long disk queues.  We then propose two algorithms
+    which take rotational latency into account, achieving disk bandwidth
+    utilizations of nearly four times a simple first come first serve
+    algorithm.  One of these two algorithms, a weighted shortest total time
+    first, is particularly applicable to a file server environment because it
+    guarantees that all requests get to disk within a specified time window.", 
+  location     = "https://web.eecs.umich.edu/~pmchen/papers/seltzer90.pdf"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3277,6 +3349,19 @@
   address      = chil,
   keywords     = "rape, recovery",
   location     = "B 995.F744 A3"
+}
+
+@Book{lxjw,
+  author       = "Josephine Wilkinson",
+  title        = "Louis {XIV}",
+  subtitle     = "The Power and the Glory",
+  publisher    = "Pegasus Books",
+  year         = 2019,
+  address      = nyny,
+  month        = mar,
+  keywords     = "louie da fourteenth, france history, 17th century history,
+    absolute monarchy",
+  location     = "https://lccn.loc.gov/2018439183"
 }
 
 @Misc{1mmmitxss,
