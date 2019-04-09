@@ -1782,6 +1782,25 @@
   location     = "https://web.eecs.umich.edu/~pmchen/papers/seltzer90.pdf"
 }
 
+@InProceedings{mssr,
+  author       = "Dodi Francisco and Lois~C. Price",
+  title        = "Multiple Site Source Reconciliation",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "331--340",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "rcs, software management",
+  abstract     = "This paper describes the generic methodology developed at TRW
+    Financial Systems to control the integration of source modifications made
+    at multiple sites into a single master source which is the basis for a new
+    release.  The Multiple Site Source Reconciliation methodology has provided
+    confidence that changes made between releases are not lost.  the
+    methodology minimizes the manual effort required by configuration
+    management engineers and development engineers.  Multiple Site Source
+    Reconciliation has successfully supported several large projects." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
