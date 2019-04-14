@@ -4,6 +4,7 @@
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '89)"}
+@string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -1801,6 +1802,61 @@
     Reconciliation has successfully supported several large projects." 
 }
 
+@InProceedings{aabus,
+  author       = "Mitchell Gart",
+  title        = "Ada and Binary " # unix # " Standards",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "353--361",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "portability, standards"
+}
+
+@InProceedings{cipsd,
+  author       = "Brian Berliner",
+  title        = "{CVS} {II}:  Parallelizing Software Development",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "341--352",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "source code control, configuration management",
+  abstract     = "The program described in this paper fills a need in the UNIX
+    community for a freely available tool to manage software revision and
+    release control in a multi-developer,multi-directory,multi-group
+    environment.  This tool also addresses the increasing need for tracking
+    third-party vendor source distributions while trying to maintain local
+    modifications to earlier releases."
+}
+
+@InProceedings{tptaep,
+  author       = "Martha R. Szczur and Karl~R. Wolf",
+  title        = "{TAE Plus: Transportable Applications Environment Plus}",
+  booktitle    = usenixw90,
+  year         = 1990,
+  pages        = "363--374",
+  address      = wdc,
+  month        = "22--26 " # jan,
+  keywords     = "ui development, portability",
+  abstract     = "The Transportable Applications Environment Plus (TAE Plus) is
+    a NASA-developed user interface development environment (UIDE) for the
+    rapid prototyping, evaluation, implementation, and management of user
+    interfaces.  TAE Plus provides an intuitive What You See Is What You Get
+    (WYSIWYG) WorkBench for designing an application's user interface.  The
+    WorkBench supports the creation and sequencing of displays, including
+    real-time, data-driven display objects.  Users can define context-sensitive
+    help for a target application.  They can rehearse the user interface and
+    also generate code automatically.  In addition TAE Plus contains
+    application services for the runtime manipulation and management of the
+    user interface.  Based on Motif and the MIT X Window System, TAE Plus runs
+    on a variety of Unix- or VMS-based workstations.  TAE Plus is an evolving
+    system.  User-defined requirements and new technology guide the development
+    of each new version.  Advances in virtual operating systems, human factors,
+    computer graphics, command language design, standardization, and software
+    portability are monitored and incorporated as they become available." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3047,6 +3103,51 @@
   location     = "https://doi.org/10.1145/850657.850658"
 }
 
+@Article{aoefbpps,
+  author       = "Bershad, Brian~N. and Lazowska, Edward~D. and Levy, Henry~M. and Wagner, David~B.",
+  title        = "An Open Environment for Building Parallel Programming Systems",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "1--9",
+  month        = sep,
+  keywords     = "object-oriented design, parallel programming, open systems,
+    component customization, presto, synapse",
+  abstract     = "PRESTO is a set of tools for building parallel programming
+    systems on shared-memory multiprocessors.  PRESTO's goal is to provide a
+    framework within which one can easily build efficient support for any of a
+    wide variety of &ldquo;models&rdquo; of parallel programming.  PRESTO is
+    designed for easy modification and extension, not only at the level of the
+    primitives and structures made available for the application programmer's
+    use, but also at the level of the run-time kernel that supports parallel
+    applications.  PRESTO is implemented in the object-oriented language C++ on
+    a Sequent Balance 21000 and has been used in a number of applications that
+    are described in this paper.", 
+  location     = "https://homes.cs.washington.edu/~bershad/Papers/p1-bershad.pdf"
+}
+
+@Article{ewpdn,
+  author       = "Notkin, David and Snyder, Lawrence and Socha, David and Bailey, Mary~L. and Forstall, Bruce and Gates, Kevin and Greenlaw, Ray and Griswold, Willian~G. and Holman, Thomas~J. and Korry, Richard and Lasswell, Gemini and Mitchell, Robert and Nelson, Philip~A.",
+  title        = "Experiences with {Poker}",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "10--20",
+  month        = sep,
+  keywords     = "parallel programming, graphical programming environments,
+    graphical programming languages, portability",
+  abstract     = "Experience from over five years of building nonshared memory
+    parallel programs using the Poker Parallel Programming Environment has
+    positioned us to evaluate our approach to defining and developing parallel
+    programs.  This paper presents the more significant results of our
+    evaluation of Poker.  The evaluation is driving our next effort in parallel
+    programming environment; many of the results should be sufficiently general
+    to apply to other related efforts.", 
+  location     = "https://doi.org/10.1145/62115.62118"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -3381,6 +3482,17 @@
   keywords     = "louie da fourteenth, france history, 17th century history,
     absolute monarchy",
   location     = "https://lccn.loc.gov/2018439183"
+}
+
+@Book{fftj,
+  author       = "Margery Allingham",
+  title        = "Flowers for the Judge",
+  publisher    = "Bantam",
+  year         = 1984,
+  address      = nyny,
+  month        = mar,
+  keywords     = "murrdaar, publishing",
+  location     = "PR 6001.L678"
 }
 
 @Misc{1mmmitxss,
