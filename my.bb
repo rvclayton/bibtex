@@ -3148,6 +3148,42 @@
   location     = "https://doi.org/10.1145/62115.62118"
 }
 
+@Article{niaipip,
+  author       = "Aral, Ziya and Gertner, Ilya",
+  title        = "Non-Intrusive and Interactive Profiling in {Parasight}",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "21--30",
+  month        = sep,
+  keywords     = "parallel programming, debugging, profiling, single-address spaces",
+  abstract     = "Debugging the performance of parallel applications is crucial
+    for fully utilizing the potential of multiprocessor hardware.  This paper
+    describes profiling tools in Parasight, a programming environment that is
+    geared towards non-intrusive performance analysis and high-level debugging.
+    In Parasight, profilers execute as observer programs which run concurrently
+    with the target program and monitor its behavior.  This design grew out of
+    our experience in debugging and monitoring the performance of real parallel
+    programs.  Parasight is used to implement an interactive profiler based on
+    gprof, a standard UNIX profiling tool.  The new profiler is an interactive
+    tool that is dynamically controlled by the programmer and can run
+    concurrently with the target program.  It is also less intrusive than the
+    original.  This was achieved in part by off-loading the profile gathering
+    computations to an adjacent processor and in part by allowing selective
+    profiling.  In conjunction with the new profiler, Parasight is used to
+    implement high-level custom profiling routines that may be inserted at
+    arbitrary locations in a target program to measure user-defined
+    abstractions.  One outcome has been to develop the beginnings of a
+    profiling methodology in which high-level performance problems are detected
+    through a function profiler and detailed performance bottlenecks are
+    analyzed with custom profiling routines.  Parasight, the new profiler and
+    their associated tools have been implemented on the Encore Multimax, a
+    shared-memory multiprocessor running UNIX.  They have been used to profile
+    both parallel and sequential programs.", 
+  location     = "https://doi.org/10.1145/62115.62119"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -3493,6 +3529,16 @@
   month        = mar,
   keywords     = "murrdaar, publishing",
   location     = "PR 6001.L678"
+}
+
+@Book{psevh,
+  author       = "Eric van Herwijnen",
+  title        = "Practical {SGML}",
+  publisher    = "Kluwer Academic",
+  year         = 1990,
+  address      = "Dordrecht, The Netherlands",
+  keywords     = "sgml, document structure, iso standard",
+  location     = "QA 76.73.S44 V36"
 }
 
 @Misc{1mmmitxss,
