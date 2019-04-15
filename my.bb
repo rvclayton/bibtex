@@ -3184,6 +3184,34 @@
   location     = "https://doi.org/10.1145/62115.62119"
 }
 
+@Article{pdfasa,
+  author       = "Bernd Bruegge",
+  title        = "Program Development for a Systolic Array",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "31--41",
+  month        = sep,
+  keywords     = "program-development environments, systolic arrays,
+    co-processing, parallel programming, warp",
+  abstract     = "The primary objective of the Warp programming environment
+    (WPE) is to simplify the use of Warp, a high-performance programmable
+    linear systolic array connected to a general-purpose workstation host.  WPE
+    permits the development of distributed applications that access Warp either
+    locally from the host or remotely from a large number of workstations
+    connected to a local area network.  Its audience includes the user who
+    calls routines from a library, the programmer who develops new algorithms
+    for Warp, as well as the implementor who writes support software.  Since
+    the linear arrangement of the cells in the array restricts direct input and
+    output with the host to the boundary cells, a source language debugger is
+    important for program development on Warp.  This paper presents the Warp
+    debugger and its relation to the other components of the Warp programming
+    environment.", 
+  location     = "https://doi.org/10.1145/62115.62120", 
+  location     = "http://reports-archive.adm.cs.cmu.edu/anon/1994/CMU-CS-94-180.ps"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
