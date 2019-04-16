@@ -3212,6 +3212,34 @@
   location     = "http://reports-archive.adm.cs.cmu.edu/anon/1994/CMU-CS-94-180.ps"
 }
 
+@Article{cf8afftcmcs,
+  author       = "Albert, Eugene and Knobe, Kathleen and Lukas, Joan~D. and {Steele Jr.}, Guy~L.",
+  title        = "Compiling {Fortran} 8x Array Features for the {Connection Machine} Computer System",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "42--56",
+  month        = sep,
+  keywords     = "simd computing, parallel compilation, matrix computations,
+    connection machine, hypercube networks, optimizations",
+  abstract     = "The Connection Machine&reg; computer system supports a data
+    parallel programming style, making it a natural target architecture for
+    Fortran 8x array constructs.  The Connection Machine Fortran compiler
+    generates VAX code that performs scalar operations and directs the
+    Connection Machine to perform array operations.  The Connection Machine
+    virtual processor mechanism supports elemental operations on very large
+    arrays.  Most array operators and intrinsic functions map into single
+    instructions or short instruction sequences.  Noncontiguous array sections,
+    array-valued subscripts, and parallel constructs such as WHERE and FORALL
+    are also readily accommodated on the Connection Machine.  In addition to
+    such customary optimizations as common subexpression elimination, the CM
+    Fortran compiler minimizes data motion for aligning array operations,
+    minimizes transfers between the Connection Machine and the VAX and
+    minimizes context switching for masked computations.", 
+  location     = "https://doi.org/10.1145/62115.62121"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
