@@ -3240,6 +3240,42 @@
   location     = "https://doi.org/10.1145/62115.62121"
 }
 
+@Article{ccpfahm,
+  author       = "Quinn, Michael~J. and Hatcher, Philip~J. and Jourdenais, Karen~C.",
+  title        = "Compiling {C}* Programs for a Hypercube Multicomputer",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "57--65",
+  month        = sep,
+  keywords     = "hypercube interconnects, parallel compilation, message passing",
+  abstract     = "A data parallel language such as C* has a number of
+    advantages over conventional hypercube programming languages.  The
+    algorithm design process is simpler, because (1) message passing is
+    invisible, (2) race conditions are nonexistent, and (3) the data can be put
+    into a one-to-one correspondence with the virtual processors.  Since data
+    are mapped to virtual processors, rather than physical processors, it is
+    easier to move algorithms implemented on one size hypercube to a larger or
+    smaller system.  We outline the design of a C* compiler for a hypercube
+    multicomputer.  Our design goals are to minimize the amount of time spent
+    synchronizing, limit the number of interprocessor communications, and make
+    each physical processor's emulation of a set of virtual processors as
+    efficient as possible.  We have hand translated three benchmark programs
+    and compared their performance with that of ordinary C programs.  All three
+    programs -- matrix multiplication, LU decomposition, and hyperquicksort -- 
+    achieve reasonable speedup on a commercial hypercube, even when solving
+    problems of modest size.  On a 64-processor NCUBE/7, the C* matrix
+    multiplication program achieves a speedup of 27 when multiplying two 64
+    &times; 64 matrices, the hyperquicksort program achieves a speedup of 10
+    when sorting 16,384 integers, and LU decomposition attains a speedup of 7
+    when decomposing a 256 &times; 256 system of linear equations.  We believe
+    the degradation in machine performance resulting from the use of a data
+    parallel language will be more than compensated for by the increase in
+    programmer productivity.",
+  location     = "https://doi.org/10.1145/62115.62122"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -3595,6 +3631,16 @@
   address      = "Dordrecht, The Netherlands",
   keywords     = "sgml, document structure, iso standard",
   location     = "QA 76.73.S44 V36"
+}
+
+@Book{twetf,
+  author       = "Tana French",
+  title        = "The Witch Elm",
+  publisher    = "Viking",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "murrdaar, memory, self-hood",
+  location     = "PR 6106.R457 W58"
 }
 
 @Misc{1mmmitxss,
