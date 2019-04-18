@@ -3276,6 +3276,30 @@
   location     = "https://doi.org/10.1145/62115.62122"
 }
 
+@Article{udptiapa,
+  author       = "Howard~P. Katseff",
+  title        = "Using Data Partitioning to Implement a Parallel Assembler",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "66--75",
+  month        = sep,
+  keywords     = "assemblers, parallel assembly, symbol table management,
+    system software",
+  abstract     = "A technique for implementing algorithms on a multiprocessor
+    computer system is data partitioning, in which input data for a problem is
+    partitioned among many processors that cooperate to solve the problem.
+    This paper demonstrates that data partitioning is a good method for
+    implementing an assembler on a message-passing multiprocessor system: it
+    yields a speedup exceeding a factor of 6 with eight processors.  We compare
+    several alternative methods for distributing program text and sharing
+    global information among the processors executing the assembler: operations
+    that are important for a variety of applications implemented with data
+    partitioning.", 
+  location     = "https://doi.org/10.1145/62115.62123"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
