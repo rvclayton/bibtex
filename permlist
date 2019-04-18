@@ -2325,6 +2325,7 @@ sovoip middleware for universal voip connectivity : arif
 ubiquitous computing using sip : berger
 ule a modern scheduler for freebsd : roberson
 using and customizing knoppix : bernier
+using data partitioning to implement a parallel assembler : katseff
 using javascript as a real programming language : mikkonen
 using meta level compilation to check flash protocol code : chou
 using procedural parameters and continuations in combinatorial searches : hwang
