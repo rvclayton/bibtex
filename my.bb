@@ -3276,6 +3276,108 @@
   location     = "https://doi.org/10.1145/62115.62122"
 }
 
+@Article{pdesofsqn,
+  author       = "David~M. Nicol",
+  title        = "Parallel Discrete-Event Simulation Of {FCFS} Stochastic Queueing Networks",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "124--137",
+  month        = sep,
+  keywords     = "discrete event simulation, parallel evaluation, lookahead,
+    performance, network simulation ",
+  abstract     = "Physical systems are inherently parallel; intuition suggests
+    that simulations of these systems may be amenable to parallel execution.
+    The parallel execution of a discrete-event simulation requires careful
+    synchronization of processes in order to ensure the execution's
+    correctness; this synchronization can degrade performance.  Largely
+    negative results were recently reported in a study which used a well-known
+    synchronization method on queueing network simulations.  In this paper we
+    discuss a synchronization method, appointments, which has proven itself to
+    be effective on simulations of FCFS queueing networks.  The key concept
+    behind appointments is the provision of lookahead.  Lookahead is a
+    prediction on a processor's future behavior, based on an analysis of the
+    processor's simulation state.  We show how lookahead can be computed for
+    FCFS queueing network simulations, give performance data that demonstrates
+    the method's effectiveness under moderate to heavy loads, and discuss
+    performance trade-offs between the quality of lookahead, and the cost of
+    computing lookahead.", 
+  location     = "https://doi.org/10.1145/62115.62128"
+}
+
+@Article{qeand,
+  author       = "Goldman, Ron and Gabriel, Richard~P.",
+  title        = "Qlisp:  Experience and New Directions",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "111--123",
+  month        = sep,
+  keywords     = "common lisp, parallel lisp, futures, parallel programming",
+  abstract     = "Qlisp, a dialect of Common Lisp, has been proposed as a 
+    multiprocessing programming language which is suitable for studying the
+    styles of parallel programming at the medium-grain level.  An initial
+    version of Qlisp has been implemented on a multiprocessor and a number of
+    experiments with it conducted.  This paper describes the implementation,
+    reports on some of the experiments, and presents some new constructs that
+    are suggested from programming experience with Qlisp.", 
+  location     = "https://doi.org/10.1145/62116.62127"
+}
+
+@Article{rlpfce,
+  author       = "Larus, James~R. and Hilfinger, Paul~N.",
+  title        = "Restructuring {Lisp} Programs for Concurrent Execution",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "100--110",
+  month        = sep,
+  keywords     = "lisp, program analysis, parallelization, program dependency
+    graph, aliases, program transformations, synchronization",
+  abstract     = "This paper describes the techniques that the program
+    transformation system CURARE uses to restructure Lisp programs for
+    concurrent execution in multiprocessor Lisp systems and discusses the
+    problems inherent in producing concurrent programs in a flexible and
+    dynamic programming language such as Lisp.  CURARE's overall organization
+    is similar to other program restructuring systems: it detects potential
+    conflicts between statements in a program, then transforms the program to
+    improve its concurrent performance, and finally inserts synchronization to
+    ensure the program's concurrent behavior.  However, the language and
+    programs that CURARE transforms are very different from the FORTRAN
+    programs that are the traditional targets of program restructuring and so
+    CURARE requires new algorithms and approaches, which are described in this
+    paper.",
+  location     = "https://doi.org/10.1145/62115.62126"
+}
+
+@Article{eiafpaar,
+  author       = "Li, Zhiyuan and Yew, Pen-Chung",
+  title        = "Efficient Interproedural Analysis for Program AParallelization and Restructuring",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "85--99",
+  month        = sep,
+  keywords     = "loop parallelization, subscript propagation, interprocedural
+    analysis, program transformations",
+  abstract     = "An approach to efficient interprocedural analysis for program
+    parallelization and restructuring is presented.  Such analysis is needed
+    for parallelizing loops which contain procedure calls.  Our approach
+    captures call effect on data dependencies by propagating the precise
+    information of array subscripts from the called procedure.  This allows the
+    optimizing compiler to choose an efficient yet precise data dependence test
+    scheme depending on the complexity of array reference patterns.  The other
+    existing methods do not provide such flexibility, hence may suffer from
+    either imprecision or inefficiency.  The paper also discusses usage of
+    classical summary information in several important transformations for
+    program parallelization.  Experimental results are reported.", 
+  location     = "https://doi.org/10.1145/62115.62125"
+}
+
 @Article{udptiapa,
   author       = "Howard~P. Katseff",
   title        = "Using Data Partitioning to Implement a Parallel Assembler",
@@ -3283,10 +3385,9 @@
   year         = 1988,
   volume       = 23,
   number       = 9,
-  pages        = "66--75",
+  pages        = "66--76",
   month        = sep,
-  keywords     = "assemblers, parallel assembly, symbol table management,
-    system software",
+  keywords     = "parallel assembly, symbol relocation",
   abstract     = "A technique for implementing algorithms on a multiprocessor
     computer system is data partitioning, in which input data for a problem is
     partitioned among many processors that cooperate to solve the problem.
@@ -3298,6 +3399,29 @@
     that are important for a variety of applications implemented with data
     partitioning.", 
   location     = "https://doi.org/10.1145/62115.62123"
+}
+
+@Article{adopataae,
+  author       = "Burke, Michael and Cytron, Ron and Ferrante, Jeanne and Hsieh, Wilson and Sarkar, Vivek and Shields, David",
+  title        = "Automatic Discovery of Parallelism:  {A} Tool and an Experiment",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "77--84",
+  month        = sep,
+  keywords     = "control flow analysis, data flow analysis, control dependency
+    analysis, ",
+  abstract     = "This paper reports preliminary results from applying advanced
+    techniques to the parallelization of sequential programs.  Such techniques
+    include interprocedural analysis and the identification of nested
+    parallelism.  These techniques have been proposed for exploiting the
+    greater concurrency offered by multiprocessors as compared with vector
+    architectures.  The effectiveness of these techniques as applied to some
+    popular numerical Fortran programs is examined.  Although extrapolation is
+    difficult, these preliminary results are encouraging indicators of the
+    success of these techniques.", 
+  location     = "https://doi.org/10.1145/62115.62124"
 }
 
 @Book{cpec,
