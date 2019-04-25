@@ -3424,6 +3424,61 @@
   location     = "https://doi.org/10.1145/62115.62124"
 }
 
+@Article{speimpialps,
+  author       = "Tambe, Milind and Kalp, Dirk and Gupta, Anoop and Forgy, Charles~L. and Milnes, Brian~G. and Newell, Allen",
+  title        = "Soar/{PSM-E}:  Investigating Match Parallelism in a Learning Production System",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "146--160",
+  month        = sep,
+  keywords     = "production systems, parallel execution",
+  abstract     = "Soar is an attempt to realize a set of hypotheses on the
+    nature of general intelligence within a single system.  Soar uses a
+    production system (rule based system) to encode its knowledge base.  Its
+    learning mechanism, chunking, adds productions continuously to the
+    production system.  The process of searching for relevant knowledge,
+    matching, is known to be a performance bottleneck in production systems.
+    PSM-E is a C-based implementation of the OPS5 production system on the
+    Encore Multimax that has achieved significant speedups in matching.  In
+    this paper we describe our implementation, Soar/PSM-E, of Soar on the
+    Encore Multimax that is built on top of PSM-E.  We first describe the
+    extensions and modifications required to PSM-E in order to support Soar,
+    especially the capability of adding productions at run time as required by
+    chunking.  We present the speedups obtained on Soar/PSM-E and discuss some
+    effects of chunking on parallelism.  We also analyze the performance of the
+    system and identify the bottlenecks limiting parallelism.  Finally, we
+    discuss the work in progress to deal with some of them.", 
+  location     = "https://doi.org/10.1145/62115.62130"
+}
+
+@Article{tpdaioaicgr,
+  author       = "Rose, Jonathan",
+  title        = "The Parallel Decomposition and Implementation of an Integrated Circuit Global Router",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "138--145",
+  month        = sep,
+  keywords     = "circuit routing, parallel execution",
+  abstract     = "Better quality automatic layout of integrated circuits can be
+    obtained by combining the placement and routing phases so that routing is
+    used as the cost function for placement optimization.  Conventional routers
+    are too slow to make this feasible, and so this paper presents a parallel
+    decomposition and implementation of an integrated circuit global router.
+    The LocusRoute router is divided into three orthogonal &ldquo;axes&rdquo;
+    of parallelism: routing several wires at once, routing segments of a wire
+    in parallel, and dividing up the potential routes of a segment among
+    different processors to be evaluated.  The implementation of two of these
+    approaches achieve significant speedup - wire-by-wire parallelism attains
+    speedups from 6.9 to 13.6 using sixteen processors, and route-by-route
+    achieves up to 4.6 using eight processors.  When combined, these approaches
+    can potentially provide speedups of as much as 55 times.", 
+  location     = "https://doi.org/10.1145/62115.62129"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -3789,6 +3844,17 @@
   address      = nyny,
   keywords     = "murrdaar, memory, self-hood",
   location     = "PR 6106.R457 W58"
+}
+
+@Book{ddmjb,
+  author       = "Michael~J. Behe",
+  title        = "Darwin Devolves",
+  subtitle     = "The New Science About DNA That Challenges Evolution",
+  publisher    = "HarperOne",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "irreducible complexity, evolution, mutation, natural descent",
+  location     = "QH 3673.B427"
 }
 
 @Misc{1mmmitxss,
