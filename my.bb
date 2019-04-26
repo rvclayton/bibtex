@@ -3479,6 +3479,81 @@
   location     = "https://doi.org/10.1145/62115.62129"
 }
 
+@Article{lsppewtbbpp,
+  author       = "Thomas~J. LeBlanc and Michael~L. Scott and Christopher~M. Brown",
+  title        = "Large-Scale Parallel Programming:  Experience with the {BBN Butterfly Parallel Processor}",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "161--172",
+  month        = sep,
+  keywords     = "multiprocessor, numa processor, butterfly switch, software
+    tools, software libraries, programming abstractions, parallel programming,
+    software development",
+  abstract     = "For three years, members of the Computer Science Department
+    at the University of Rochester have used a collection of BBN
+    Butterfly&trade; Parallel Processors to conduct research in parallel
+    systems and applications.  For most of that time, Rochester's 128-node
+    machine has had the distinction of being the largest shared-memory
+    multiprocessor in the world.  In the course of our work with the Butterfly
+    we have ported three compilers, developed five major and several minor
+    library packages, built two different operating systems, and implemented
+    dozens of applications.  Our experience clearly demonstrates the
+    practicality of large-scale shared-memory multiprocessors, with non-uniform
+    memory access times.  It also demonstrates that the problems inherent in
+    programming such machines are far from adequately solved.  Both locality
+    and Amdahl's law become increasingly important with a very large number of
+    nodes.  The availability of multiple programming models is also a concern;
+    truly general-purpose parallel computing will require the development of
+    environments that allow programs written under different models to coexist
+    and interact.  Most important, there is a continuing need for high-quality
+    programming tools; widespread acceptance of parallel machines will require
+    the development of programming environments comparable to those available
+    on sequential computers.", 
+  location     = "https://doi.org/10.1145/62115.62131",
+  location     = "https://www.cs.rochester.edu/u/scott/papers/1988_BPR22.pdf"
+}
+
+@Article{citlaf,
+  author       = "Lee Anne Fennell",
+  title        = "Common Intrest Tragedies",
+  journal      = "Northwestern University Law Review",
+  year         = 2004,
+  volume       = 98,
+  pages        = "907",
+  keywords     = "commons tragedies, anticommons tragedies, prisoners' dilemma,
+    chicken game",
+  abstract     = "This paper engages one of the fastest-growing topics in
+    property theory, the anticommons.  The anticommons idea originated in Frank
+    Michelman's description of a regulatory regime in which nobody could use a
+    particular resource without the permission of everyone else.  Michael
+    Heller's subsequent construction of a category of anticommons property
+    corresponding to recognizable resource problems sparked a surge of
+    scholarly interest in the notion.  The anticommons template has now been
+    applied in many property contexts, from patents to land use.  However, some
+    of the key criteria scholars have offered for identifying an anticommons
+    and distinguishing it from an ordinary commons collapse upon scrutiny.  The
+    fragility of the existing boundaries between commons and anticommons
+    suggests a larger question that takes center stage here: How might the
+    universe of common and interdependent resource problems be most usefully
+    carved up? In addressing that question, the paper makes three
+    contributions.  First, it develops a functional taxonomy for categorizing
+    common interest tragedies.  This taxonomy breaks tragedies into categories
+    at the macro level based on the pattern of strategic interaction they
+    embody, and further differentiates among tragedies at the micro level based
+    on the shape of the production function for the resulting surplus or
+    deficit.  Second, the paper explores underappreciated connections between
+    types of resource-related dilemmas, and highlights the choices that often
+    must be made between two potential tragedies in complex, interdependent
+    settings.  Third, the paper shows how the taxonomy developed here offers
+    access to analytic tools for making such choices.  The approach taken here
+    is therefore designed to provide greater analytical traction on resource
+    allocation problems, as well as to advance dialogue in this area of
+    property theory.", 
+  location     = "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=8861&context=journal_articles"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
