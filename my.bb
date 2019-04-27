@@ -3554,6 +3554,34 @@
   location     = "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=8861&context=journal_articles"
 }
 
+@Article{aewl,
+  author       = "Carriero, Nicholas and Gelernter, David",
+  title        = "Applications Experience with {Linda}",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "173--187",
+  month        = sep,
+  keywords     = "tuple spaces, distributed programming, dna matching",
+  abstract     = "We describe three experiments using C-Linda to write parallel
+    codes. The first involves assessing the similarity of DNA sequences.  The
+    results demonstrate Linda's flexibility&mdash;Linda solutions are presented
+    that work well at two quite different levels of granularity.  The second
+    uses a prime finder to illustrate a class of algorithms that do not
+    (easily) submit to automatic parallelizers, but can be parallelized in
+    straight-forward fashion using C-Linda.  The final experiment describes the
+    process lattice model, an &ldquo;inherently&rdquo; parallel application
+    that is naturally conceived as multiple interacting processes.  Taken
+    together, the experience described here bolsters our claim that Linda can
+    bridge the gap between the growing collection of parallel hardware and
+    users eager to exploit parallelism.  This work is supported by the NSF
+    under grants DCR-8601920 and DCR-8657615 and by the ONR under grant
+    N00014-86-K-0310.  We are grateful to Argonne National Labs for providing
+    access to a Sequent Symmetry.", 
+  location     = "https://doi.org/10.1145/62115.62132"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
