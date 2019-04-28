@@ -3571,15 +3571,34 @@
     uses a prime finder to illustrate a class of algorithms that do not
     (easily) submit to automatic parallelizers, but can be parallelized in
     straight-forward fashion using C-Linda.  The final experiment describes the
-    process lattice model, an &ldquo;inherently&rdquo; parallel application
-    that is naturally conceived as multiple interacting processes.  Taken
-    together, the experience described here bolsters our claim that Linda can
-    bridge the gap between the growing collection of parallel hardware and
-    users eager to exploit parallelism.  This work is supported by the NSF
-    under grants DCR-8601920 and DCR-8657615 and by the ONR under grant
-    N00014-86-K-0310.  We are grateful to Argonne National Labs for providing
-    access to a Sequent Symmetry.", 
+    process lattice model, an 'inherently' parallel application that is
+    naturally conceived as multiple interacting processes.  Taken together, the
+    experience described here bolsters our claim that Linda can bridge the gap
+    between the growing collection of parallel hardware and users eager to
+    exploit parallelism.",
   location     = "https://doi.org/10.1145/62115.62132"
+}
+
+@Article{otioalosmmm,
+  author       = "Ching-Cheng Lee and Stephen~K. Skedzielewski and John Feo",
+  title        = "On the Implementation of Applicative Languages on Shared-Memory, {MIMD} Multiprocessors",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "188--197",
+  month        = sep,
+  keywords     = "sisal, applicative languages, parallel programming support,
+    performance, ",
+  abstract     = "This paper presents the performance of a set of algorithms
+    written in SISAL [MSA*85] and run on multiprocessor Sequent, DEC, and Cray
+    computers.  We describe our current runtime system and discuss its
+    implementation on each machine.  We indicate where our automatic approach
+    to parallelization works well, as well as sources of inefficient behavior.
+    Overall we find our systems encouraging for the first release of the
+    native-code generating software.  We suggest improvements to the compiler
+    and…runtime systems, many already developed but not yet implemented, to
+    alleviate the inefficiencies." 
 }
 
 @Book{cpec,
