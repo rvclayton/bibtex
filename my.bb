@@ -3601,6 +3601,32 @@
     alleviate the inefficiencies." 
 }
 
+@Article{ctsbopp,
+  author       = "Davis, Helen and Hennessy, John",
+  title        = "Characterizing the Synchronization Behavior of Parallel Programs",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "198--211",
+  month        = sep,
+  keywords     = "performance measurement, parallel programming, synchronization",
+  abstract     = "Contention for synchronization locks and delays waiting for
+    synchronization events can substantially increase the running time of a
+    parallel program.  This makes it important to characterize the
+    synchronization behavior of programs and to provide analysis tools to aid
+    both the hardware and software designer in evaluating design alternatives.
+    This paper describes a tracing facility that is incorporated into a
+    synchronization package.  This facility provides a portable means to
+    accurately and efficiently characterize parallel programs.  The behavior of
+    several applications has been monitored uncovering program characteristics
+    that make it difficult to achieve linear speedup.  Our monitoring facility
+    allows a programmer to determine the performance implications of the
+    synchronization structure he has used, and it allows the architect to
+    evaluate various hardware support mechanisms.", 
+  location     = "https://doi.org/10.1145/62115.62134"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
