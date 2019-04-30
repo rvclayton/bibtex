@@ -3627,6 +3627,34 @@
   location     = "https://doi.org/10.1145/62115.62134"
 }
 
+@Article{evgpar,
+  author       = "Gupta, Anoop and Tucker, Andrew",
+  title        = "Exploiting Variable Grain Parallelism at Runtime",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "212--221",
+  month        = sep,
+  keywords     = "run-time configuration, parallel structural design, parallel
+    granularity",
+  abstract     = "Currently, almost all parallel implementations of programs
+    fix the granularity at which parallelism is exploited at design time.
+    Depending on the application structure and the parallel hardware structure,
+    the programmer decides to exploit parallelism at a fine granularity or
+    coarse granularity or some intermediate granularity, but this granularity
+    is not changed at runtime.  In this paper we argue that for many
+    applications fixing the granularity in advance is not a good strategy.
+    Instead it is advantageous to decide the granularity at which parallelism
+    is exploited at runtime, as a function of the available hardware resources
+    and as a function of the overheads associated with going to a finer
+    granularity.  We present experimental results from a parallel
+    implementation of a geometric constraint satisfaction system to support our
+    thesis.  Our results show a significant advantage in using adaptive
+    parallelism.", 
+  location     = "https://doi.org/10.1145/62115.62135"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
