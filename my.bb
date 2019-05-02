@@ -3655,6 +3655,56 @@
   location     = "https://doi.org/10.1145/62115.62135"
 }
 
+@Article{cshaafmc,
+  author       = "Stramm, Bernd and Berman, Francine",
+  title        = "Communication-Sensitive Heuristics and Algorithms for Mapping Compilers",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "222--234",
+  month        = sep,
+  keywords     = "process-processor mapping, contraction, communication costs,
+    performance, cost-driven heuristics ",
+  abstract     = "The mapping problem arises when parallel algorithms are
+    implemented on parallel machines.  When the number of processes exceeds the
+    number of available processing elements, the mapping problem includes the
+    contraction problem.  In this paper, we identify communication-sensitive
+    heuristics which promote good contractions for graph-based parallel
+    algorithms on non-shared memory multiprocessors.  We present algorithms
+    which utilize these heuristics and discuss their performance on a group of
+    diverse benchmarks.", 
+  location     = "https://doi.org/10.1145/62115.62136"
+}
+
+@Article{adefhm,
+  author       = "Aiken, Alexander and Nicolau, Alexandru",
+  title        = "{A} Development Environment for Horizontal Microcode",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 5,
+  pages        = "584--594",
+  month        = may,
+  keywords     = "development environment, horizontal microcode, percolation
+    scheduling, parallelism extraction, interactive profiling system, microcode
+    compaction process, architecture, correctness preservation,
+    synchronization, graphical interface, semantics-preserving
+    transformations", 
+  abstract     = "This paper describes a development environment for horizontal
+    microcode.  The environment uses Percolation Scheduling, a transformational
+    system for parallelism extraction, and an interactive profiling system to
+    give the user control over the microcode compaction process while reducing
+    the burdensome details of architecture, correctness preservation, and
+    synchronization.  Through a graphical interface the user suggests what
+    should be done in parallel, while the system performs the actual changes
+    using semantics-preserving transformations.  If a request cannot be
+    satisfied, the system reports the problem causing the failure.  The user
+    may then help eliminate the problem by supplying guidance or information
+    not explicit in the code.", 
+  location     = "https://doi.org/10.1109/32.6136"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -4031,6 +4081,39 @@
   address      = nyny,
   keywords     = "irreducible complexity, evolution, mutation, natural descent",
   location     = "QH 3673.B427"
+}
+
+@Book{mwftu,
+  author       = "Margery Allingham",
+  title        = "More Work for the Undertaker",
+  publisher    = "Avon",
+  year         = "1989",
+  price        = "$3.50",
+  address      = nyny,
+  keywords     = "murrdaar, cross purposes",
+  location     = "PR 6001.L678 M57"
+}
+
+@Book{starg2e,
+  author       = "David~R. Musser and Gillmer~J. Derge and Atul Saini",
+  title        = "STL Tutorial and Reference Guide",
+  edition      = "second",		  
+  publisher    = aw,
+  year         = 2001,
+  series       = "Professional Computing",
+  address      = rma,
+  keywords     = "standard template library, generic programming, c++, data structures",
+  location     = "QA 76.73.C153 M87"
+  }
+		      		  
+@Book{libwb,
+  author       = "William Boyd",
+  title        = "Love is Blind",
+  publisher    = "Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "lurv, revenge, plagiarism, pianos, pianists",
+  location     = "PR 6052.O9192 L68"
 }
 
 @Misc{1mmmitxss,
