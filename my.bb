@@ -2,6 +2,7 @@
 		  
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
+@string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '89)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
@@ -1857,6 +1858,29 @@
     portability are monitored and incorporated as they become available." 
 }
 
+@InProceedings{ewpbm,
+  author       = "Bruce Martin and Charles Bergan and Walter Burkhard and Jehan-Fran{\c c}ois P{\^ a}ris",
+  title        = "Experience with {PARPC}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "1--12",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "remote procedure calls, distributed system support, ipc,
+    heterogeneous network systems",
+  abstract     = "PARPC provides an interprocess communication mechanism based
+    on the semantics of a procedure call.  PARPC programs always execute a
+    single logical thread of control but may execute multiple physical threads
+    of control.  PARPC provides users with a well defined, high level network
+    process model of execution and a familiar program development model
+    supporting heterogeneous non-uniform environments.  The administrative
+    overhead of PARPC is minimal because users administer their own distributed
+    programs and existing Unix mechanisms for access control and resource
+    accounting are utilized.  Our experiences indicate that PARPC has been an
+    effective system for the development and administration of distributed
+    programs." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3703,6 +3727,39 @@
     may then help eliminate the problem by supplying guidance or information
     not explicit in the code.", 
   location     = "https://doi.org/10.1109/32.6136"
+}
+
+@Article{cttfeuopm,
+  author       = "Gupta, Rajiv and Soffa, Mary Lou",
+  title        = "Compile-time Techniques for Efficient Utilization of Parallel Memories",
+  journal      = ppeals88,
+  year         = 1988,
+  volume       = 23,
+  number       = 9,
+  pages        = "235--246",
+  month        = sep,
+  keywords     = "memory module assignment, heuristics, value placement",
+  abstract     = "The partitioning of shared memory into a number of memory
+    modules is an approach to achieve high memory bandwidth for parallel
+    processors.  Memory access conflicts can occur when several processors
+    simultaneously request data from the same memory module.  Although work has
+    been done to improve access performance for vectors, no work has been
+    reported to improve the access performance of scalars.  For systems in
+    which the processors operate in a lock-step mode, a large percentage of
+    memory access conflicts can be predicted at compile-time.  These conflicts
+    can be avoided by appropriate distribution of data among the memory modules
+    at compile-time.  A long instruction word machine is an example of a system
+    in which the functional units operate in a lock-step mode performing
+    operations on data fetched in parallel from multiple memory modules.  In
+    this paper, compile-time techniques for distribution of scalars to avoid
+    memory access conflicts are presented.  Furthermore, algorithms to schedule
+    data transfers among memory modules to avoid conflicts that cannot be
+    avoided by the distribution of values alone are developed.  The techniques
+    have been implemented as part of a compiler for a reconfigurable long
+    instruction word architecture.  Results of experiments are presented
+    demonstrating that a very high percentage of memory access conflicts can be
+    avoided by scheduling a very low number of data transfers.", 
+  location     = "https://doi.org/10.1145/62115.62137"
 }
 
 @Book{cpec,
