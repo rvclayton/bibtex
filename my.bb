@@ -1881,6 +1881,34 @@
     programs." 
 }
 
+@InProceedings{dslallpfrliase,
+  author       = "Peter Gloor and Rudolf Marty",
+  title        = "{Dynamically Synchronized Locking} --- A Lightweight Locking Protocol for Resource Locking in a Stateless Environment",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "13--27",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "file locking, network file systems, stateless servers,
+    distributed locking protocol",
+  abstract     = "File and record locking is one of the dominant problems for a
+    stateless file server.  By definition, a stateless server does not maintain
+    any information about its clients.  Therefore, it is not allowed to lock
+    any resources for them by storing lock information on behalf of its
+    clients.  This is the reason why file systems with locking capabilities are
+    frequently implemented following the stateful approach.  We introduce a new
+    locking method for resource locking in a stateless environment.  Our method
+    combines the advantages of the stateless server (easy crash recovery) with
+    the advantages of the stateful server (easy locking) without relinquishing
+    the statelessness of the server.  DSL can be used to implement exclusive
+    (e.g.  read/write) or shared (e.g.  read only) locks.  The algorithm we
+    propose (called Dynamically Synchronized Locking, DSL) can be used e.g.  to
+    implement locking facilities in a network of workstations loosely coupled
+    by a high speed LAN.  It will be exemplified by the implementation of a
+    lock library function for a distributed system which is comparable to the
+    Unix lockf() system call." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
