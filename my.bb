@@ -1909,6 +1909,28 @@
     Unix lockf() system call." 
 }
 
+@InProceedings{iutsiados,
+  author       = "Geoffrey~M. Lee",
+  title        = "Integrating " # unix # " Terminal Services Into a Distributed Operating System",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "29--42",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "distributed operating systems, guest operating systems,
+    capabilities, terminal services, inter-process communication, pseudo-ttys",
+  abstract     = "One solution to the problem of integrating the terminal
+    services of a UNIX host into a distributed operating system is to implement
+    the distributed operating system as a guest layer in UNIX and then to add a
+    software interface that runs on the host and translates between the
+    terminal services of the host and the distributed operating system.  Such
+    an interface was implemented at the Lawrence Livermore National Laboratory.
+    Design issues and decisions that preceded software development are
+    discussed, followed by details of software operation.  Development
+    experiences that would be applicable to a similar effort are described.", 
+  location     = "https://www.osti.gov/biblio/6812283-integrating-unix-terminal-services-distributed-operating-system"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4199,6 +4221,16 @@
   address      = nyny,
   keywords     = "lurv, revenge, plagiarism, pianos, pianists",
   location     = "PR 6052.O9192 L68"
+}
+
+@Book{ltaym,
+  author       = "Ian Stewart",
+  title        = "Letters to a Young Mathematician",
+  publisher    = "Basic Books",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "mathematics, careers",
+  location     = "QA 99.S84"
 }
 
 @Misc{1mmmitxss,
