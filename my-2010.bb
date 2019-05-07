@@ -20404,21 +20404,6 @@
   location     = "http://doi.acm.org/10.1145/792704.792732"
 }
 
-@Article{icpffcsc,
-  author       = "Jean-Marc Andreoli and Remo Pareschi",
-
-  title        = "Integrated computational paradigms for flexible client-server communication",
-  journal      = surveys,
-  year         = 1996,
-  volume       = 28,
-  number       = 2,
-  pages        = "297--299",
-  abstract     = "",
-  month        = jun,
-  keywords     = "",
-  location     = "http://doi.acm.org/10.1145/234528.234731"
-}
-
 @Article{ffcbcsc,
   author       = "Scott M. Lewandowski", 
   title        = "Frameworks for component-based client/server computing",
