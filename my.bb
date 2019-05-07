@@ -1931,6 +1931,28 @@
   location     = "https://www.osti.gov/biblio/6812283-integrating-unix-terminal-services-distributed-operating-system"
 }
 
+@InProceedings{tabctl,
+  author       = "Brent Callaghan and Tom Lyon",
+  title        = "The {Automounter}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "43--51",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "network file system, local filesystems, unix pathname, remote
+    file server, local file, automatic mounting, network software environment,
+    automount map, mount hierarchy, yellow page domain", 
+  abstract     = "This paper describes the automounter -- an automatic
+    filesystem mounting service distributed with Sun Microsystems version of
+    the Unix operating system (SunOs).  The automounter detects access to
+    remote filesystems and mounts them on demand.  This action is transparent
+    to users and programs.  Automounted filesystems are automatically unmounted
+    after a period of inactivity.  The map files that control the automounter
+    can specify multiple locations for filesystems replicated across a network
+    and can describe mount hierarchies.  Automount maps can be administered on
+    a single machine through local files or across a Yellow Pages domain." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -3810,6 +3832,20 @@
     demonstrating that a very high percentage of memory access conflicts can be
     avoided by scheduling a very low number of data transfers.", 
   location     = "https://doi.org/10.1145/62115.62137"
+}
+
+@Article{icpffcsc,
+  author       = "Andreoli, Jean-Marc and Pareschi, Remo",
+  title        = "Integrated Computational Paradigms for Flexible Client-Server Communication",
+  journal      = surveys,
+  year         = 1996,
+  volume       = 28,
+  number       = 2,
+  pages        = "297--299",
+  month        = jun,
+  keywords     = "constraint programming, object-oriented programming,
+    coordination technologies, remote procedure calls",
+  location     = "https://doi.org/10.1145/234528.234731"
 }
 
 @Book{cpec,
