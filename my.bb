@@ -1953,6 +1953,31 @@
     a single machine through local files or across a Yellow Pages domain." 
 }
 
+@InProceedings{itpacoans,
+  author       = "Chet Juszczak",
+  title        = "Improving the Performance and Correctness of an {NFS} Server",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "53--63",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "nfs performance, server-side caching, soft state, stateless
+    protocols, impotency", 
+  abstract     = "The Network File System (NFS) uses a stateless clients-server 
+    protocol.  The major advantage of statelessness is simple crash recovery:
+    an NFS client repeatedly sends a request until it gets a response from the
+    server.  However, the client retry model has disadvantages: a server can
+    receive a request many times.  Processing duplicate requests requires
+    server effort better spent elsewhere.  Worse, duplicate requests can cause
+    incorrect results.  This paper describes a work avoidance technique using a
+    server cache to avoid processing duplicate client requests.  An
+    implementation of this technique has resulted in a significant increase in
+    server bandwidth.  A beneficial side effect is that it can help avoid the
+    destructive re-application of non-idempotent operations.  It can be used in
+    any NFS server implementation, requires no client modifications, and in no
+    way violates the NFS crash recover design." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
