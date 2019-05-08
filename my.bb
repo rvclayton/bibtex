@@ -1978,6 +1978,34 @@
     way violates the NFS crash recover design." 
 }
 
+@InProceedings{miaramubmsswarashfms,
+  author       = "Robert~L. Henderson and Alan Poston",
+  title        = "{MSS}-{II} and {RASH}: {A} Mainframe " # unix # " Based Mass Storage System with a Rapid Access Storage Hierarchy File Management System",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "65--84",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "mass storage systems, disk striping, raid",
+  abstract     = "Unix on a large mainframe can provide hundreds of gigabytes
+    of disk space.  However, in a computer center with several super-computers,
+    even that is not sufficient to support the user community.  To support the
+    users of the Numerical Aerodynamic Simulation facility, a national resource
+    center, work is under way to develop a Unix based Mass Storage System which
+    will support files on disk and multiple levels of removable media.
+    Included in the Mass Storage System are a number of features to improve
+    performance of the file and networking systems and new features for file
+    hierarchy and volume management.  This paper will address the storage
+    hierarchy manager and the striping file systems.  The high performance file
+    system is a striped reliable file system that is optimized for large file
+    sequential access without penalizing random access.  Unlike prior archival
+    or migration systems which block the completion of the open system call
+    until all of the data has been restored to disk; the rapid access archive
+    and restore system provides for fast access to the data.  The open call is
+    not blocked.  Instead, read or write access is blocked only when the data
+    being accessed has not yet been restored to disk." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
