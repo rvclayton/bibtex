@@ -2006,6 +2006,34 @@
     being accessed has not yet been restored to disk." 
 }
 
+@InProceedings{maotduk,
+  author       = "Michael~H. Kelley",
+  title        = "Multiprocessor Aspects of the {DG}/{UX} Kernel",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "85--99",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "multiprocessor operating system, symmetric multiprocessors,
+    process scheduling, virtual processors, synchronization locks, I-O
+    management, interrupt handling, virtual storage",
+  abstract     = "This paper describes the multiprocessor aspects of the DG/UX
+    4.00 kernel, a symmetric multiprocessor Unix kernel that runs on a Data
+    General MV/family computers.  In revision 4.00, the DG/UX kernel has been
+    completely rewritten to support multiprocessor hardware in a fully
+    symmetric fashion and to provide a number of other functional and
+    reliability enhancements.  The paper focuses on process management, device
+    I-O, and virtual memory management because these ares of the kernel have
+    specific multiprocessor components.  A virtual processor model is presented
+    as a method of achieving multiprocessor operation while hiding the actual
+    number of physical processors from the rest of the kernel.  The application
+    of this model to process synchronization and scheduling is discussed in
+    detail.  Multiprocessor device I-O issues are discussed next and a flexible
+    device driver paradigm is sketched.  Finally, multiprocessor issues in
+    virtual memory management are presented with the solutions used in the new
+    DG/UX kernel." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4320,6 +4348,16 @@
   address      = nyny,
   keywords     = "mathematics, careers",
   location     = "QA 99.S84"
+}
+
+@Book{tpde,
+  author       = "David Eggers",
+  title        = "The Parade",
+  publisher    = "Knopf",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "",
+  location     = "PS 3605.G34 P37"
 }
 
 @Misc{1mmmitxss,
