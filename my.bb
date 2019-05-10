@@ -2034,6 +2034,29 @@
     DG/UX kernel." 
 }
 
+@InProceedings{maimu,
+  author       = "Barak, Amnon and Wheeler, Richard",
+  title        = "{MOSIX}:  An Integrated Multiprocessor " # unix,
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "101--112",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "distributed operating system, process migration, process
+    scheduling", 
+  abstract     = "MOSIX is a general-purpose Multicomputer Operating System
+    with Integrates a cluster of loosely connected, independent computers
+    (nodes) into a single-machine UNIX environment.  The main properties of
+    MOSIX are its high degree of integration and the possibility of scaling the
+    configuration to a large number of nodes.  Developed originally for a
+    network of uniprocessor nodes, it has recently been enhanced to support
+    nodes with multiple processors.  In this paper we present the hardware
+    architecture of this multiprocessor workstation and the software
+    architecture of the MOSIX kernel.  We then describe the main enhancements
+    made in the multiple-processor version and give some performance
+    measurements of the internal mechanisms of the system." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4346,7 +4369,7 @@
   publisher    = "Basic Books",
   year         = 2006,
   address      = nyny,
-  keywords     = "mathematics, careers",
+  keywords     = "mathematics, careers, mentorship",
   location     = "QA 99.S84"
 }
 
@@ -4356,7 +4379,7 @@
   publisher    = "Knopf",
   year         = 2019,
   address      = nyny,
-  keywords     = "",
+  keywords     = "the turn of the screw, progress, duty, corporatism",
   location     = "PS 3605.G34 P37"
 }
 
