@@ -2057,6 +2057,68 @@
     measurements of the internal mechanisms of the system." 
 }
 
+@InProceedings{pa3detxw,
+  author       = "Spencer~W. Thomas and Martin Friedmann",
+  title        = "{PEX} --- {A} 3-{D} Extension to {X Windows}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "139--149",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "pex, x windows, extensions, 3-d graphics, color-table
+    management, shading",
+  abstract     = "PEX (PHIGS Extension to X) is a proposed 3-D extension to
+    Version 11 of the X Windowing System.  It is intended to support the PHIGS
+    and PHIGS+ graphics standards.  During the summer of 1988, a demonstration
+    implementation of PEX was produced and shown at the SIGGRAPH '88 vendor
+    exhibition.  The implementation is described, illustrating solutions to
+    some problems induced by interoperability and portability requirements, and
+    by the extreme potential variability in the data presented by the client
+    program.  The demonstration was successful, and the results are available
+    on the X V11R3 release tape." 
+}
+
+@InProceedings{vx11c,
+  author       = "Lemke, David and Rosenthal, David S.~H.",
+  title        = "Visualizing {X11} Clients",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "125--138",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "x windows, visuals, graphics pipeline, portability, displays,
+    color-table management, color models",
+  abstract     = "The X Window System version 11 color model exposes a number
+    of aspects of the underlying display.  The concepts it uses to represent
+    these device-dependencies is the Visual; there may be several Visuals
+    available on a given display.  We present example programs to illustrate the
+    techniques required if an X client is to operate correctly across the entire
+    range of possible combinations of Visuals." 
+}
+
+@InProceedings{salltfasuiamuk,
+  author       = "Joseph~A. Korty",
+  title        = "Sema: {A} Lint-like Tool for Analyzing Semaphore Usage in a Multithreaded " # UNIX # " Kernel",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "113--123",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "semaphores, deadlock prevention, static analysis, concurrency
+    control, call graphs",
+  abstract     = "Sema is a tool that examines the use of semaphores in the
+    source of a tightly coupled, multiprocessing Unix kernel.  It provides a
+    window into the use of semaphores in general, and into cycles (potential
+    deadlocks) between semaphores in particular.  This tool also ranks the
+    semaphores so that new code can be added to a kernel in a deadlock free
+    fashion.  This tools is not guaranteed to find all cycles.  It can also
+    report cycles where none exist.  However, our experience at MODCOMP with
+    the 3DU2 kernel shows that both the kernel source and this tool can be
+    tuned to improve the accuracy of the tool.  The method of tuning is similar
+    in spirit and practice to what is needed to make a program successfully
+    pass lint." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4381,6 +4443,20 @@
   address      = nyny,
   keywords     = "the turn of the screw, progress, duty, corporatism",
   location     = "PS 3605.G34 P37"
+}
+
+@Book{wyskapebdt,
+  author       = "Jessamyn Conrad",
+  title        = "What You Should Know About Politics\ldots\ But Don't",
+  subtitle     = "A Nonpartisan Guide to the Issues that Matter",
+  publisher    = "Arcade Publishing",
+  year         = 2016,
+  address      = nyny,
+  edition      = "third",
+  keywords     = "us politics, elections, us economy, foreign policy, the
+    military, health care, energy, the environment, civil liberties, culture
+    wars, homeland security, education, trade",
+  location     = "JK 275.C66"
 }
 
 @Misc{1mmmitxss,
