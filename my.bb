@@ -2119,6 +2119,110 @@
     pass lint." 
 }
 
+@InProceedings{xavtfpbws,
+  author       = "Marc~J. Rochkind",
+  title        = "{XVT}:  {A} Virtual Toolkit for Portability Between Window Systems",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "151--163",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "window systems, graphical toolkits, portability, x windows,
+    macintosh systems",
+  abstract     = "The Extensible Virtual Toolkit (XVT) is a high-level
+    interface that allows graphical, interactive applications to be easily
+    ported to various window systems, such as X-11, MS-Windows, OS/2
+    Presentation Manager, and the Macintosh.  Behind the common interface there
+    is a separate implementation in the form of a C object library for each
+    host system.  This paper describes the design principles behind XVT and its
+    key programming features.  It then reviews the main problems in creating an
+    implementation for X and explains our short-term solutions.  Also discussed
+    are plans for more thorough long-term solutions using industry-standard
+    toolkits." 
+}
+
+@InProceedings{vaouss,
+  author       = "Tom Duff",
+  title        = "Viral Attacks on " # unix # " System Security",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "165--171",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "virus, shell, unix, networking",
+  abstract     = "Executable files in the Ninth Edition of the Unix system
+    contain small amounts of unused space, allowing small code sequences to be
+    added to them without noticeably affecting their functionality.  A program
+    fragment that looks for binaries and introduces copies of itself into their
+    slack space will transitively spread like a virus.  Such a virus program
+    could, like the Trojan Horse, harbor Greeks set to attack the system when
+    run by sufficiently privileged users or from infected set-userid programs.
+    The author wrote such a program (without the Greeks) and ran several
+    informal experiments to test its characteristics.  In one experiment, the
+    code was planted on one of Center 1127's computers and spread in a few days
+    through the Datakit network to about forty machines.  The virus escaped
+    during this test onto a machine running an experimental secure Unix system,
+    with interesting (and frustrating for the system's developers)
+    consequences.  Viruses of this sort must be tiny to fit in the small amount
+    of space available, and consequently are very timid.  There are ways to
+    construct similar viruses that are not space-constrained and can therefore
+    spread more aggressively and harbor better-armed Greeks.  As an example, we
+    exhibit a frightenly virulent portable virus that inhabits shell scripts.
+    Viruses rely on users and system administrators being insufficiently
+    vigilant to prevent them from infiltrating systems.  I outline a number of
+    steps that people ought to make infiltration less likely.  Numerous recent
+    papers have suggested modifications to the nix system kernel to interdict
+    viral attacks.  Most of these are based on the notion of 'discretionary
+    access controls.' These proposals cannot usually be made to work, either
+    because they make unacceptable changes in the 'look and feel' of the Unix
+    system's environment or they entail placing trust in code that is
+    inherently untrustworthy.  In reply to these proposals, I suggest a small
+    change to the Unix system permission scheme that may be able to effectively
+    interdict viral attacks without serious effect on the Unix system's
+    functioning and habitability.", 
+  location     = "HTTP://plan9.bell-labs.com/who/dmr/tdvirus.pdf"
+}
+
+@InProceedings{afffbu,
+  author       = "Eric Jon Bina and Perry~A Emrath",
+  title        = "{A} Faster {\it fsck\/} for {BSD} " # unix,
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "173--185",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "fsck, disk performance, crash recovery",
+  abstract     = "In the UNIX operating system, the kernel assumes that the
+    file system is always maintained in known correct state.  Should the kernel
+    ever detect a variation from that state, a system panic occurs, and the
+    system 'crashes'.  For this reason it is important that the integrity of
+    the file system be checked before bringing any UNIX system up in multi-user
+    mode.  A file system check program called fsck is supplied with UNIX
+    (unless otherwise specified UNIX refers to the BSD version family), and is
+    designed to find any errors in the state of the file system and fix them,
+    if possible, to prevent system panics.  Unfortunately, on a system with a
+    relatively large amount of mounted disk storage, the time it takes to run
+    fsck can become a very significant percentage of system boot time.  When
+    working in a system development environment where the system will probably
+    have to be booted frequently, the (highly desirable) use of fsck can begin
+    to waste valuable work time.  In an attempt to solve this problem, fsck was
+    studied in detail, and then modified to perform its tasks more efficiently.
+    This paper first describes the function of the original fsck program to
+    convey the basic goals it sets out to accomplish.  The next section points
+    out inefficiencies that were found in the original algorithms, and
+    describes how these inefficiencies were alleviated.  A number of timing
+    measurements were taken to locate the original problems, and then later to
+    show that the modifications did provide significant improvement.  Our new
+    fsck was tested to ensure it retained all the diagnostic and corrective
+    capabilities of the original.  It was also ported to a different machine to
+    demonstrate its general usefulness in any BSD based UNIX environment.
+    Compared to the version of fsck distributed with BSD 4.2 or 4.3, our fsck
+    consistently runs 2 to 3 times faster, and reboot times (with file system
+    checks) have been cut almost in half.  Real time measurements for our fsck
+    on the three machines where it has been installed are given in the
+    concluding section." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
