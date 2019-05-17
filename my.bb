@@ -3,8 +3,7 @@
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
-@string{pldi12 = sigplan # " (" # pot # "33rd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12)"}
-@string{asplos89 = sigplan # " (" # pot # "Third International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '89)"}
+@string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 		  
 @InProceedings{ehs,
@@ -2223,6 +2222,29 @@
     concluding section." 
 }
 
+@InProceedings{lotnoedp,
+  author       = "Tim Bray",
+  title        = "Lessons of the {New Oxford English Dictionary Project}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "187--199",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "text processing, unix, string searching",
+  abstract     = "The Oxford English Dictionary is a cultural monument and one
+    of the great achievements of human scholarship.  The computerization
+    efforts at the University of Waterloo are just another chapter in this
+    130-year continuing effort.  The work at Waterloo has resulted in several
+    important achievements, including a general purpose system for transduction
+    of text based on regular grammars, a flexible system for text search that
+    may be the fastest existing today, an entirely new model for text
+    databases, and an original user interface architecture.  Implementations of
+    these ideas are now in use at several sites, and are playing an important
+    role in the continuing work on the OED.  Also we have learned some valuable
+    lessons about text management, user interfaces, and in particular the
+    application of Unix to these problems." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -2315,7 +2337,7 @@
 @Article{spaocbttp,
   author       = "Gazzillo, Paul and Grimm, Robert",
   title        = "{SuperC}:  Parsing All of {C} by Taming the Preprocessor",
-  journal      = pldi12,
+  journal      = pldai12,
   year         = 2012,
   volume       = 42,
   number       = 6,
@@ -2339,7 +2361,7 @@
     optimizations.  We demonstrate the effectiveness of our approach on the x86
     Linux kernel.", 
   location     = "https://doi.org/10.1145/2254064.2254087",
-  location     = "https://cs.nyu.edu/rgrimm/papers/pldi12.pdf"
+  location     = "https://cs.nyu.edu/rgrimm/papers/pldai12.pdf"
 }
 
 @Article{ptcorcpparfei,
@@ -2374,7 +2396,7 @@
 @Article{aeduai,
   author       = "Dillig, Isil and Dillig, Thomas and Aiken, Alex",
   title        = "Automated Error Diagnosis Using Abductive Inference",
-  journal      = pldi12,
+  journal      = pldai12,
   year         = 2012,
   volume       = 47,
   number       = 6,
@@ -2478,7 +2500,7 @@
 @Article{cahllfg,
   author       = "Dubach, Christophe and Cheng, Perry and Rabbah, Rodric and Bacon, David~F. and Fink, Stephen~J.",
   title        = "Compiling a High-Level Language for {GPU}s",
-  journal      = pldi12,
+  journal      = pldai12,
   year         = 2012,
   volume       = 47,
   number       = 6,
@@ -4118,6 +4140,36 @@
   location     = "https://doi.org/10.1145/234528.234731"
 }
 
+@Article{dnaluawstw,
+  author       = "Andrew Odlyzko",
+  title        = "Data Networks are Lightly Utilized, and Will Stay that Way",
+  journal      = "Review of Network Economics",
+  year         = 2003,
+  volume       = 2,
+  number       = 3,
+  pages        = "210--237",
+  month        = sep,
+  keywords     = "network traffic, network utilization, traffic measurement,
+    network management, network planning, network engineering",
+  abstract     = "The popular press often extolls packet networks as much more
+    efficient than switched voice networks in utilizing transmission lines.
+    This impression is reinforced by the delays experienced on the Internet and
+    the famous graphs for traffic patterns through the major exchange points on
+    the Internet, which suggest that networks are running at full capacity.
+    This paper shows the popular impression is incorrect; data networks are
+    very lightly utilized compared to the telephone network.  Even the
+    backbones of the Internet are run at lower fractions (10% to 15%) of their
+    capacity than the switched voice network (which operates at over 30% of
+    capacity on average).  Private line networks are utilized far less
+    intensively (at 3% to 5%).  Further, this situation is likely to persist.
+    The low utilization of data networks compared to voice phone networks is
+    not a symptom of waste.  It comes from different patterns of use, lumpy
+    capacity of transmission facilities, and the high growth rate of the
+    industry.", 
+  location     = "http://www.dtc.umn.edu/~odlyzko/doc/network.utilization.pdf", 
+  location     = "http://dx.doi.org/10.2139/ssrn.447140"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -4545,7 +4597,8 @@
   publisher    = "Knopf",
   year         = 2019,
   address      = nyny,
-  keywords     = "the turn of the screw, progress, duty, corporatism",
+  keywords     = "the turn of the screw, progress, duty, corporatism, the tiger
+    and its spots",
   location     = "PS 3605.G34 P37"
 }
 
@@ -4561,6 +4614,19 @@
     military, health care, energy, the environment, civil liberties, culture
     wars, homeland security, education, trade",
   location     = "JK 275.C66"
+}
+
+@Book{ssl2019,
+  author       = "Steve Luxenberg",
+  title        = "Separate",
+  subtitle     = "The Story of Plessy v. Ferguson, and America's Journey from Slavery to Segregation",
+  publisher    = "W.~W. Norton",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "segregation, racism, civil rights, jim crow, supreme court,
+    justice, john harlan, albion tourgee, henry brown, homer plessy, 19th
+    century u.s. history",
+  location     = "KF 223.P56 L88"
 }
 
 @Misc{1mmmitxss,
