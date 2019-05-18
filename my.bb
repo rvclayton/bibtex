@@ -2245,6 +2245,21 @@
     application of Unix to these problems." 
 }
 
+@InProceedings{ioduifus,
+  author       = "Leo Lanzillo and Craig Partridge",
+  title        = "Implementation of Dial-Up {IP} for " # unix # " Systems",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "201--207",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "ip, internet, dial-up, modems",
+  abstract     = "CSNET has developed a software package to support the sending
+    of Internet Protocol (IP) datagrams over dial-up phone lines.  This driver
+    can automatically establish and disconnect phone calls as IP traffic
+    dictates.  This code works in binary-only BSD systems." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
