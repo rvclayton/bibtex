@@ -68321,6 +68321,7 @@
 
 @Book{tgol,
   title        = "The Genius of Language",
+  subtitle     = "Fifteen Writers Reflect on Their Mother Tongues",
   publisher    = "Pantheon",
   year         = 2008,
   editor       = "Wendy Lesser",
