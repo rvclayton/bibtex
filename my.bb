@@ -2260,6 +2260,74 @@
     dictates.  This code works in binary-only BSD systems." 
 }
 
+@InProceedings{lfitpotssta,
+  author       = "Allison Mankin and Kevin Thompson",
+  title        = "Limiting Factors in the Performance of the Slow-Start {TCP} Algorithm",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "219--228",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "slow-start, congestion control, router buffers, queueing,
+    network performance, performance measurement, tcp",
+  abstract     = "Jacobson and Karel's Slow-start TCP offers an effective
+    approach to Internet congestion control.  Limiting factors for the
+    Slow-start algorithms were explored y measuring the performance of the
+    Berkeley 4.3+ Slow-start implementation in the presence of increasing
+    gateway load.  Two network performance measurement tools, captures and
+    NETMON/iptrace, were developed for this purpose, and are available in
+    source-code from the authors.  The measurements of Slow-start TCP
+    illustrate both the adaptive range of the algorithms, and also some
+    limitations of the Slow-start technique of estimating gateway congestion." 
+}
+
+@InProceedings{tsms,
+  author       = "Alessandro Forin and Joseph~S. Barrera and Richard Sanzi",
+  title        = "The Shared Memory Server",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "229--243",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "storage management, user-space servers, distributed shared
+    storage, ipc, heterogeneous systems, parallel performance",
+  abstract     = "This paper describes the design and performance evaluation of
+    a virtual shared memory server for the Mach operating system, providing an
+    extension to Unix to support distributed shared memory.  In this respect,
+    it subsumes standard facilities like the Unix system v shared memory
+    facility.  The server runs in user-mode and provides sharing of read/write
+    memory between processes, regardless of their machine location.  A number
+    of memory coherency algorithms have been implemented and evaluated,
+    including a new distributed algorithm that is shown to outperform
+    centralized ones.  Some of the novel features of the server include support
+    for machines with multiple pages sizes and for heterogeneous processors.
+    Performance measurements of the server and some applications are presented,
+    and the intrinsic costs evaluated." 
+}
+
+@InProceedings{auiotsnmp,
+  author       = "Wengyik Yeong and Martin Lee Schoffstall and Mark~S. Fedor",
+  title        = "{A} " # unix # " Implementation of the {Simple Network Management Protocol}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "209--217",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "snmp, asn.1, standards, network management, management
+    information bases",
+  abstract     = "The many choices in network products available today from a
+    diversity of vendors clearly indicates the need for a single,
+    non-proprietary solution to the problem of managing all the entries in the
+    existing TCP/IP Internet.  The Simple Network Management Protocol (SNMP) is
+    a solution to the network management needs of Local Area Networks, as well
+    as the greater Internet.  This paper describes the design and
+    implementation of software conforming to the SNMP for computer systems
+    running Berkeley 4.2/4.3 and related operating systems.  The implementation
+    described herein includes all software necessary for the management of
+    machines running such operating systems: a network management station for
+    Unix, and an SNMP agent (server) intended to run on similar systems." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4642,6 +4710,16 @@
     justice, john harlan, albion tourgee, henry brown, homer plessy, 19th
     century u.s. history",
   location     = "KF 223.P56 L88"
+}
+
+@Book{psta,
+  author       = "Samuel Steward and Jeremy Mulderig and Justin Spring",
+  title        = "Philip Sparrow Tells All",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "essays",
+  location     = "PS 3537.T479 A6 2015"
 }
 
 @Misc{1mmmitxss,
