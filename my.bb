@@ -2328,6 +2328,73 @@
     Unix, and an SNMP agent (server) intended to run on similar systems." 
 }
 
+@InProceedings{scmwaood,
+  author       = "Eric Black",
+  title        = "Software Configuration Management with an Object-Oriented Database",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "257--272",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "configuration management, software development, configuration
+    control, object-oriented databases, software backplane, type hierarchies,
+    inheritance",
+  abstract     = "Popular tools for software configuration management on Unix
+    and VMS such as SCCS, RCS, and CMS do not adequately provide for the
+    management and control of large software configurations, nor for
+    cooperative development among large numbers of programmers.  Problems
+    include awkward maintenance of multiple configurations, difficult
+    enforcement of locally-imposed workflow rules, inability to coordinate and
+    predict the impact of changes, and inconsistent follow-through on bug
+    reports and change requests.  These problems only increase with the
+    introduction of more development tools such as structured
+    analysis/structured design aids, documentation generators, publishing
+    tools, requirements tracking tools, language compilers, analyzers and
+    debuggers, each with its own input and output data which must be managed.
+    An object-oriented database can be used profitably to solve these
+    deficiencies.  This paper describes the configuration management features
+    of Software BackPlane, an Integrated Project Support Environment (IPSE).
+    Examples of the problems which motivated the object-oriented configuration
+    management model of Software BackPlane are given, showing how they are
+    solved by that model, along with representative usage scenarios." 
+}
+
+@InProceedings{mpmciu,
+  author       = "Mark~C. Holderbaugh and Scott~E. Preece",
+  title        = "Minimalist Physical Memory Control in " # unix,
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "245--256",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "storage management, system-call interfaces, storage mapping",
+  abstract     = "Computer systems often include areas of memory with special
+    characteristics.  Memory-mapped devices, memory boards with differing
+    access times, and inter-system shared memory are typical examples.  An
+    operating system needs to provide (1) a mechanism for described to the
+    system the special characteristics of its memory, (2) internal mechanisms
+    for using and managing the user of memory, and (3) external mechanisms
+    allowing applications to use special kinds of memory.  The Unix operating
+    system does not provide such mechanisms; it assumes memory is a vector of
+    homogeneous storage locations.  This paper describes extensions made to a
+    Unix system to provide the facilitates described above through minimal
+    changes to existing mechanisms inside the kernel and at the application
+    interface.  The kernel maintains two new abstractions of memory objects: an
+    extend is an area f physical memory with special properties defined by the
+    hardware configuration; a region is an area within a specified extent,
+    available to applications which need the special properties of the extent.
+    The system configuration mechanism has been extended to provide a
+    vocabulary for describing memory extents and their special characteristics.
+    Regions may be defined either at system configuration time or dynamically
+    and, depending on the definition of the containing extent, will be
+    allocated wither as a contiguous area of memory or as a group of individual
+    pages.  They are made available to applications as System V shared-memory
+    objects which processes may map into their address spaces.  This paper
+    includes a discussion of the needs of specific types of applications that
+    deal with physical memory an description of the user interface, and an
+    overview of the implementation." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4253,6 +4320,29 @@
   location     = "http://dx.doi.org/10.2139/ssrn.447140"
 }
 
+@Article{acaofc,
+  author       = "Dunlop, Douglas~D. and Basili, Victor~R.",
+  title        = "{A} Comparative Analysis of Functional Correctness",
+  journal      = surveys,
+  year         = 1982,
+  volume       = 14,
+  number       = 2,
+  pages        = "229--244",
+  month        = jun,
+  keywords     = "functional correctness, inductive assertions, correctness,
+    subgoal induction, loop invariants",
+  abstract     = "This paper presents and discusses the functional correctness
+    technique. It is also explained that the underlying theory has an
+    implication for deriving loop invariants.  The functional verification
+    condition concerning program loops are shown to be a specialization of the
+    commonly used inductive assertion verification conditions.  The functional
+    technique is compared and contrasted with subgoal induction.  Finally, the
+    difficulty of proving initialized loop programs is examined in light of
+    both the inductive assertion and functional correctness theories.", 
+  location     = "https://doi.org/10.1145/356876.356881",
+  location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.15.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -4720,6 +4810,16 @@
   address      = chil,
   keywords     = "essays",
   location     = "PS 3537.T479 A6 2015"
+}
+
+@Book{tmgjh,
+  author       = "Jessica Handler",
+  title        = "The Magnetic Girl",
+  publisher    = "Hub City Press",
+  year         = 2019,
+  address      = "Spartanburg, South Carolina",
+  keywords     = "show bidness, fraud, fambly",
+  location     = "PS 3608.A69985 M34"
 }
 
 @Misc{1mmmitxss,
