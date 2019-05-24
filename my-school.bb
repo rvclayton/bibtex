@@ -8895,8 +8895,22 @@
   number       = 2,
   pages        = "145--158",
   keywords     = "user protocol interface, application programming interface,
-		  application layer framing, single copy, xtpl",
-  location     = "TK 5105.5.J68"
+    application layer framing, single copy, xtpl",
+  abstract     = "This paper is focused on an efficient protocol implementation
+    based on flexible User Protocol Interface (UPI) configurable for different
+    service options and protocol processing architectures.  The XTPL
+    implementation discussed in this paper is developed based on the BERKOM
+    eXpress Transfer Protocol (XTP) Lite version for HP 9000/ 7x Series using
+    HP-UX 9.0 operating system.  This implementation supports the dynamical
+    configuration of user protocol interfaces intended to provide different
+    objectives: – optimization of the user data copy operations (use of the
+    “single copy architecture”); – selectable QoS options for application layer
+    framing, reliability and checksumming.  Performance analyses are included
+    to show the flexible use of user protocol interfaces, in particular the
+    reliable single and dual copy interface, dependent on the application
+    traffic of the connections.",
+  location     = "TK 5105.5.J68",
+  location     = "10.3233/JHS-1996-5204"
 }
 
 @Article{dacopue,
@@ -20235,20 +20249,6 @@
   month        = may,
   keywords     = "",
   location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.35.pdf"
-}
-
-@Article{acaofc,
-  author       = "Douglas~D. Dunlop and Victor~R. Basili",
-  title        = "A Comparative Analysis of Functional Correctness",
-  journal      = surveys,
-  year         = 1982,
-  volume       = 14,
-  number       = 2,
-  pages        = "229--244",
-  month        = jun,
-  keywords     = "languages, theory, verification, functional correctness,
-		  inductive assertion, correctness, subgoal inductions",
-  location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.15.pdf"
 }
 
 @Article{tulcwtd,
