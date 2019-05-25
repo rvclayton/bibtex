@@ -2395,6 +2395,50 @@
     overview of the implementation." 
 }
 
+@InProceedings{soiacos,
+  author       = "Prasun Dewan",
+  title        = "Supporting Objects in a Conventional Operating System",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "273--285",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "object-oriented support, persistence",
+  abstract     = "A simple approach is presented for introducing objects in a
+    conventional operating system.  Objects are created as combinations of
+    conventional processes and files.  Like processes, they are active agents
+    capable of executing code and communicating with other objects.  Like
+    files, they are persistent, have a protected name in the file system, and
+    can be opened and closed for access.  Motivation for supporting objects in
+    a conventional system is presented.  The basic elements of our approach are
+    described together with the rationale for our decisions.  An implementation
+    on Unix is discussed.  Object-based programming at the system level is
+    contrasted with object-based programming at the language level and
+    comparisons are made between our approach and related work.", 
+  location     = "https://docs.lib.purdue.edu/cstech/654/"
+}
+
+@InProceedings{atotw,
+  author       = "Donn Seeley",
+  title        = "{A} Tour of the Worm",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "287--304",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "morris worm, buffer overflows, networking, security",
+  abstract     = "On the evening of November 2, 1988, a self-replicating
+    program was released upon the Internet (1) This program (a worm) invaded
+    VAX and Sun-3 computers running versions of Berkeley UNIX, and used their
+    resources to attack still more computers (2).  Within the space of hours
+    this program had spread across the U.S., infecting hundreds or thousands of
+    computers and making many of them unusable due to the burden of its
+    activity.  This paper provides a chronology for the outbreak and presents a
+    detailed description of the internals of the worm, based on a C version
+    produced by decompiling." ,
+  location     = "https://collections.lib.utah.edu/details?id=702918"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
