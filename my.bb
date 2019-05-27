@@ -2439,6 +2439,56 @@
   location     = "https://collections.lib.utah.edu/details?id=702918"
 }
 
+@InProceedings{acocuoisa,
+  author       = "Daniel~V. Klein",
+  title        = "{A} Comparison of Compiler Utilization of Instruction Set Architectures",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "313--329",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "risc, cisc, code generation",
+  abstract     = "This paper compares the utilization of a number of different
+    computer instruction sets by a collection of compilers.  Wherever possible,
+    several compilers were used for each architecture.  this paper demonstrates
+    that CISC instruction sets are underutilized by compilers, while RISC
+    instruction sets are nearly completely utilized.  We observe that if an
+    instruction exists on a computer, it should be usable by the compilers for
+    that computer.  Because CISC computers have large numbers of instruction
+    which are not effectively used by compilers, the instructions are
+    superfluous.  By eliminating superfluous and redundant instructions from
+    architectures, future systems can run more efficiently, and algorithms can
+    be executed with greater celerity." 
+}
+
+@InProceedings{smoeacbi,
+  author       = "Eugene~H. Spafford",
+  title        = "Some Musings on Ethics and Computer Break-Ins",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "305--311",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "ethics, kant, security, black-hat hacking",
+  abstract     = "In November and December, the computing community experienced
+    the release of the Internet Worm, computer break-ins at Lawrence Livermore
+    National Labs, and the temporary disconnection of the Milnet because of
+    computer break-ins on a machine belonging to the Mitre Corporation.  These
+    incidents have led to many discussions about responsibility and ethics.
+    Many of these discussions, particularly in forums such as the Usenet, have
+    become heated without leading to any commonly-accepted conclusions.  This
+    paper addresses some of these points.  The intent is to summarize a few of
+    the principal arguments supporting various positions and to argue some
+    points of particular merit.  At the end, references are given to material
+    that may help provide background material for readers seeking further
+    information.  Included in this discussion are the questions of whether
+    individuals breaking into our machines are doing us a favor, and whether
+    those individuals should in any way be encouraged.  The paper concludes
+    with some observations about the importance of the discussion, and the need
+    to reach a consensus in the computer profession, if not in society as a
+    whole." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
