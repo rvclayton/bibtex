@@ -2489,6 +2489,54 @@
     whole." 
 }
 
+@InProceedings{aptttus,
+  author       = "Geoff Collyer",
+  title        = "{A} Partial Tour Through the " # unix # " Shell",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "343--353",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "shell, portability, storage management",
+  abstract     = "We have recently completed protracted surgery on the UNIX
+    command interpreter or shell to make use the standard UNIX memory allocator
+    (malloc(3) and relatives) for its internal memory management instead of the
+    original scheme (catching its own memory faults, using the sbrk(2) system
+    call to grow memory allocation and restarting faulting instructions).  We
+    also fixed some bugs, lint(1) complaints and suboptimal performance.  This
+    paper describes the lessons learned about the internal workings of the
+    shell.  Much of this information is oral folklore or is simply not
+    generally known, and requires a determined effort to learn, yet is
+    essential to correct understanding and maintenance of the shell.", 
+  location     = "https://www.in-ulm.de/~mascheck/bourne/v7/sh.tour.ps"
+}
+
+@InProceedings{daecsfadce,
+  author       = "Ken Raeburn and Jon Rochlis and William Sommerfeld and Stan Zanarotti",
+  title        = "Discuss: An Electronic Conferencing System for a Distributed Computing Environment",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "331--342",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "conferencing systems, project athena, authentication",
+  abstract     = "As computers and computer networks become commonplace,
+    electronic communication is rising in importance and utility.  The
+    challenge is to take a large, distributed computing environment and build a
+    system which allows its users to communicate effectively and efficiently
+    with each other.  This paper compares and contrasts several common types of
+    electronic communication, focusing on electronic conferencing.  We describe
+    the implementation of such a system, Discuss, for the computing environment
+    found at MIT.  Issues covered include the basic model of an electronic
+    meeting, the currently implemented user interfaces, separation of user
+    interface from underlying operations, splitting the workload between client
+    and server, communications issues created by the heterogeneous environment,
+    authentication and authorization, notification, and unification of the
+    numerous subordinate UNIX libraries into a coherent whole.  The paper
+    next summarizes the Discuss system's current usage, then closes with a
+    discussion of its possible future development." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4914,6 +4962,17 @@
   address      = "Spartanburg, South Carolina",
   keywords     = "show bidness, fraud, fambly",
   location     = "PS 3608.A69985 M34"
+}
+
+@Book{tfocpc,
+  author       = "Paul Collier",
+  title        = "The Future of Capitalism",
+  subtitle     = "Facing the New Anxieties",
+  publisher    = "Harpers",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "communitarianism, ",
+  location     = "976-0-06-274865-2"
 }
 
 @Misc{1mmmitxss,
