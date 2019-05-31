@@ -2537,6 +2537,52 @@
     discussion of its possible future development." 
 }
 
+@InProceedings{smisvr4,
+  author       = "Tim Williams",
+  title        = "Session Management in {System V Release} 4",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "365--375",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "process groups, posix, sessions, job control, controlling terminal",
+  abstract     = "This paper describes the new session architecture and
+    controlling terminal architecture in the System V Release 4.0 kernel
+    designed to provide job control support, enhanced login session security
+    and controlling terminal reusability, as well as maintain backwards
+    compatibility with previous releases of System V.  A subset of this work
+    dealing with job control, has been incorporated into the POSIX 1003.1
+    standard and stems from the cooperative and exhaustive efforts of a POSIX
+    working group made up of representatives from Hewlett-Packard, Berkeley,
+    MIT, Usenix and AT&T.  SVR4's session management model builds on that work." 
+}
+
+@InProceedings{japreiaubos,
+  author       = "Brent~A. Kingsbury and John~T. Kline",
+  title        = "Job and Process Recovery in a " # unix # "-Based Operating System",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "355--374",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "crash recovery, checkpointing, interruptable system calls",
+  abstract     = "Many computationally-intense programs require more execution
+    time than the underlying system can deliver in a single continuous time
+    interval; yet preventative maintenance, reconfiguration, and new kernel
+    development requirements sometimes force the need for scheduled downtime.
+    Also, system crashes due to power failures and other causes result in
+    additional downtime.  On generally available Unix systems (such as Berkeley
+    and at&t system v), this downtime results in the loss of work in progress
+    in the time of system shutdown.  To greatly reduce these losses and allow
+    the execution of very long running programs, we have extended the kernel to
+    directly support the checkpointing and restarting of processes and related
+    collections of processes (jobs).  The kernel extensions in combination with
+    a batch job daemon provide automatic and transparent recover of batch jobs
+    after scheduled shutdowns and, in some cases, system crashes.  In addition,
+    commands exist enabling users to interactively checkpoint and restart
+    processes." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
