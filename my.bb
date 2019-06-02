@@ -2583,6 +2583,41 @@
     processes." 
 }
 
+@InProceedings{etusitsmp,
+  author       = "Paul~R. McJones and Garret~F. Swart",
+  title        = "Evolving the " # unix # " System Interface to Support Multithreaded Programs",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "393--404",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "topaz, multithreading, os interfaces, multiplexing, state
+    management, process management, interrupts, signaling",
+  abstract     = "Allowing multiple threads to execute within the same address
+    space makes it easier to write programs that deal with related asynchronous
+    activities and that execute faster on shared-memory multiprocessors.
+    Supporting multiple threads places new constraints on the design of
+    operating system interfaces.  We present several guidelines for designing
+    or redesigning interfaces for multithreaded clients.  We show how 1 these
+    guidelines were used to design an interface to UNIX-compatible file and
+    process management facilities in the Topaz operating system.  Two
+    implementations of this interface are in everyday use: a native one for the
+    Firefly multiprocessor, and a layered one running within a UNIX process.", 
+  location     = "http://www.mcjones.org/paul/evolving.pdf"
+}
+
+@InProceedings{tmk,
+  author       = "Greg Snider and Jim Hays",
+  title        = "The {Modix} Kernel",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "377--392",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "modularity, system structure, object-oriented design",
+  abstract     = "The Unix kernel has evolved into a tightly-coupled, monolithic system that is expensive to maintain and difficult to configure.  The Modix project pulled together a number of software engineering principles into a strategy for developing a modular, portable, highly configurable parts catalog for generating Unix kernels.  A module hierarchy within the catalog was built using a dependency relation called uses.  Modules were constrainted to follow the object model, and cyclic use dependencies were not allowed; although adhering to the object model presented no problems in implementation, eliminating cyclic dependencies turned out to be surprisingly difficult.  These structural goals had the side-effect of making deadlock avoidance in multiprocessor and realtime configurations easier and more localized than in some other approaches, and has made it possible to do rigorous testing.  A prototype built to explore the ideas was partially completed."
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4529,6 +4564,35 @@
     both the inductive assertion and functional correctness theories.", 
   location     = "https://doi.org/10.1145/356876.356881",
   location     = "http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.15.pdf"
+}
+
+@Article{gcolds,
+  author       = "Jacques Cohen",
+  title        = "Garbage Collection of Linked Data Structures",
+  journal      = surveys,
+  year         = 1981,
+  volume       = 13,
+  number       = 3,
+  pages        = "341--367",
+  month        = sep,
+  keywords     = "garbage collection, list processing, marking, compaction,
+    variable-sized cells, reference counts, parallel and real-time collection,
+    algorithm analysis, language implementation, mark and sweep",
+  abstract     = "A concise and unified view of the numerous existing
+    algorithms for performing garbage collection of linked data structures is
+    presented.  The emphasis is on garbage collection proper, rather than on
+    storage allocation.  First, the classical garbage collection algorithms are
+    reviewed, and their marking and collection phases, with and without
+    compacting, are discussed.  Algorithms describing these phases are
+    classified according to the type of cells to be collected: those for
+    collecting single-sized cells are simpler than those for varsized cells.
+    Recently proposed algorithms are presented and compared with the classical
+    ones.  Special topics in garbage collection are also covered: the use of
+    secondary and virtual storage, the use of reference counters, parallel and
+    real-time collection, analysis of garbage-collection algorithms, and
+    language features which influence the design of collectors.  The
+    bibliography, with topical annotations, contains over 100 references.", 
+  location     = "https://doi.org/10.1145/356850.356854"
 }
 
 @Book{cpec,
