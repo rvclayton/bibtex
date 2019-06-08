@@ -5255,6 +5255,16 @@
   location     = "976-0-06-274865-2"
 }
 
+@Book{sspm,
+  author       = "Peter Mendelsund",
+  title        = "Same Same",
+  publisher    = "Vintage",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "institutions, think tanks",
+  location     = "PS 3613.E48223 S26"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
