@@ -2618,6 +2618,104 @@
   abstract     = "The Unix kernel has evolved into a tightly-coupled, monolithic system that is expensive to maintain and difficult to configure.  The Modix project pulled together a number of software engineering principles into a strategy for developing a modular, portable, highly configurable parts catalog for generating Unix kernels.  A module hierarchy within the catalog was built using a dependency relation called uses.  Modules were constrainted to follow the object model, and cyclic use dependencies were not allowed; although adhering to the object model presented no problems in implementation, eliminating cyclic dependencies turned out to be surprisingly difficult.  These structural goals had the side-effect of making deadlock avoidance in multiprocessor and realtime configurations easier and more localized than in some other approaches, and has made it possible to do rigorous testing.  A prototype built to explore the ideas was partially completed."
 }
 
+@InProceedings{swsfu,
+  author       = "Mark~E. Carson and Wen-Der Jiang and Jeremy~G. Liang and Gary~L. Luckenbaugh and Debra~H. Yakov",
+  title        = "Secure Window Systems for " # unix,
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "441--455",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "secure systems, information labels, mac, covert channels",
+  abstract     = "Multilevel window systems are a natural way to look at
+    multilevel data.  This paper describes some of the functional and assurance
+    aspects in the design of one such system, CMW Windows, which runs on the
+    IBM PC at and PS/2.  The security functionality of CMW Windows is
+    ambitious, including two parallel labeling systems, one with 
+    down-to-character-level granularity.  The assurance work is no less
+    ambitious, include some effort at addressing the difficult problems of
+    covert channels inherent in multilevel window systems.  We then discuss our
+    preliminary work on what should be done in window systems of more complex
+    functionality, such as the X Window System."
+}
+
+@InProceedings{smlwiabcsuos,
+  author       = "Barbara Smith-Thomas",
+  title        = "Secure Multi-Level Windowing in a {B1} Certifiable Secure " # unix # " {Operating System}",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "429--439",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "terminal multiplexing, secure login, window labeling",
+  location     = "Until now multi-level secure operating systems have been
+    designed to be connected only to so-called dumb terminals because we have
+    assumed that intelligent terminals are necessarily insecure.  An
+    intelligent terminal does have considerable potential for compromising the
+    security of the system; the more intelligent the terminal, the greater the
+    hazard.  AT&T Federal Systems Division and AT&T Bell Laboratories are
+    developing a B1 certifiable multi-level secure Unix operating system,
+    called System V/MLS.  System V/MLS supports an intelligent terminal: the
+    AT&T 630 Multi-Tasking Graphics terminal.  With the System V/MLS security
+    enhancements, the 630 MTG terminal supports trusted labeling of windows,
+    monitoring the cut and paste to insure compliance with the SV/MLS Mandatory
+    Access Control Policy, a mouse-based, menu-driven user interface,
+    controlled local processing, and terminal sanitization on logout.  By
+    Designing and implementing appropriate controls we have achieved even more
+    security for an intelligent terminal than is possible with a dumb
+    terminal." 
+}
+
+@InProceedings{svmlampa,
+  author       = "Charles~W. Flink II and Jonathan~D. Weiss",
+  title        = "System {V/MLS} Labeling and Mandatory Policy Alternatives",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "413--427",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "label storage, label handling",
+  abstract     = "System V/MLS is a product based on the UNIX® operating
+    system, developed within AT&T Federal Systems Division to address National
+    Computer Security Center (NCSC) requirements at the B level.  This paper
+    describes the alternatives that were analyzed in designing and implementing
+    labeling and mandatory access control features to provide security,
+    flexibility, and ease of use within a UNIX System V‐compatible framework.",
+  location     = "https://doi.org/10.1002/j.1538-7305.1988.tb00631.x"
+}
+
+@InProceedings{vwpwfsr,
+  author       = "Ziya Aral and James Bloom and Thomas Doeppner and Ilya Gertner and Alan Langerman and Greg Schaffer",
+  title        = "Variable Weight Processes with Flexible Shared Resources",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "405--412",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "process resource management, resource sharing, threads,
+    lightweight processes",
+  abstract     = "Traditional UNIX processes are inadequate for representing
+    multiple threads of control in parallel programs.  They are inflexible in
+    their resource allocation, unable to cleanly share system resources, and
+    they carry a heavy overhead.  Some new operating systems, such as MACH,
+    split the process into multiple light-weight threads of execution and a
+    task which defines their resource set.  This paper addresses the same
+    problem within the confines of UNIX process semantics.  It partitions the
+    existing concept of a process into a new variable-weight process and
+    several independent system resource descriptors.  Processes pay creation
+    and maintenance costs only for resources they wish to keep private.
+    Surprisingly few changes to the kernel are needed to achieve this effect.
+    The design can properly be considered as a simple concurrency extension to
+    Unix.  Variable-weight processes also enhance the effectiveness of the
+    cooperating process paradigm and so are broadly applicable to both
+    uniprocessor and multiprocessor Unix implementations.  A prototype kernel
+    has been implemented on Multimax, a shared-memory multiprocessor.
+    Preliminary experience indicates that relatively few changes to the process
+    structure in Unix make this strategy incrementally applicable to a range of
+    Unix variants.", 
+  location     = "http://cs.brown.edu/research/pubs/pdfs/1989/Doeppner-1989-VWP.pdf"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4593,6 +4691,78 @@
     language features which influence the design of collectors.  The
     bibliography, with topical annotations, contains over 100 references.", 
   location     = "https://doi.org/10.1145/356850.356854"
+}
+
+@Article{eecfwtdtaeewz,
+  author       = "Juang, Philo and Oki, Hidekazu and Wang, Yong and Martonosi, Margaret and Peh, Li Shiuan and Rubenstein, Daniel",
+  title        = "Energy-Efficient Computing for Wildlife Tracking:  Design Tradeoffs and Early Experiences with ZebraNet",
+  journal      = sigplan # " (" # pot # "Tenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS X))",
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "96--107",
+  month        = oct,
+  keywords     = "mobile node design, mobile protocol, mobility modeling",
+  abstract     = "Over the past decade, mobile computing and wireless
+    communication have become increasingly important drivers of many new
+    computing applications.  The field of wireless sensor networks particularly
+    focuses on applications involving autonomous use of compute, sensing, and
+    wireless communication devices for both scientific and commercial purposes.
+    This paper examines the research decisions and design tradeoffs that arise
+    when applying wireless peer-to-peer networking techniques in a mobile
+    sensor network designed to support wildlife tracking for biology
+    research.The ZebraNet system includes custom tracking collars (nodes)
+    carried by animals under study across a large, wild area; the collars
+    operate as a peer-to-peer network to deliver logged data back to
+    researchers.  The collars include global positioning system (GPS), Flash
+    memory, wireless transceivers, and a small CPU; essentially each node is a
+    small, wireless computing device.  Since there is no cellular service or
+    broadcast communication covering the region where animals are studied, ad
+    hoc, peer-to-peer routing is needed.  Although numerous ad hoc protocols
+    exist, additional challenges arise because the researchers themselves are
+    mobile and thus there is no fixed base station towards which to aim data.
+    Overall, our goal is to use the least energy, storage, and other resources
+    necessary to maintain a reliable system with a very high `data homing'
+    success rate.  We plan to deploy a 30-node ZebraNet system at the Mpala
+    Research Centre in central Kenya.  More broadly, we believe that the
+    domain-centric protocols and energy tradeoffs presented here for ZebraNet
+    will have general applicability in other wireless and sensor
+    applications.", 
+  location     = "https://doi.org/10.1145/605432.605408"
+}
+
+@Article{hlbdidpiinpe,
+  author       = "Eric von Hippel and Marcie~J. Tyre",
+  title        = "How ``Learning by Doing'' is Done:  Problem Identification in Novel Process Equipment",
+  journal      = "Research Policy",
+  year         = 1995,
+  volume       = 24,
+  number       = 1,
+  pages        = "1--12",
+  month        = jan,
+  keywords     = "failure modes, interference finding, problem discovery,
+    unintended consequences, learning",
+  abstract     = "The unit cost of producing manufactured goods has been shown
+    to decline significantly as more are produced.  It has been argued that
+    ‘learning by doing’ is at the root of this phenomenon, but the modes of
+    learning actually involved have not been studied in detail.  In this paper
+    we attempt to provide a better understanding of the learning behaviors
+    involved in learning by doing via a study of 27 problems that affected two
+    novel process machines in their first years of use in production.  First,
+    ‘interference finding,’ is described, a form of learning by doing that
+    appears to be central to the discovery of the problems studied.  Next, the
+    reasons why the problems identified by templating were not discovered prior
+    to field use - before ‘doing’ - are explored.  Two causes are identified:
+    an inability to identify existing problem-related information in the midst
+    of complexity, and the introduction of new problem-related information by
+    users and other problem solvers who learn by doing after field introduction
+    of the machine.  We find that problems due to information lost in
+    complexity emerge earlier than do problems due to user learning by doing.
+    Tests of reason are used to show why it would be very difficult to
+    eliminate doing from learning by doing.  Finally, other implications of the
+    study findings are discussed.", 
+  location     = "https://doi.org/10.1016/0048-7333%2893%2900747-H",
+  location     = "https://dspace.mit.edu/bitstream/handle/1721.1/2448/SWP-3521-27688183.pdf?sequence=1"
 }
 
 @Book{cpec,
