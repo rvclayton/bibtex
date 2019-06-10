@@ -5,6 +5,7 @@
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -2716,6 +2717,27 @@
   location     = "http://cs.brown.edu/research/pubs/pdfs/1989/Doeppner-1989-VWP.pdf"
 }
 
+@InProceedings{atnafas,
+  author       = "Chii-Ren Tsai and Virgil~D. Gligor and Wilhelm Burger and Mark~E. Carlson and Pau-Chen Cheng and Janet~A. Cugini and Matthew~S. Hecht and Shau-Ping Lo and Sohail Malik and N.~Vasudevan",
+  title        = "{A} Trusted Network Architecture for {AIX} Systems",
+  booktitle    = usenixw89,
+  year         = 1989,
+  pages        = "457--471",
+  address      = sdca,
+  month        = "30 " # jan # "-" # "3 " # feb,
+  keywords     = "trusted computing base, tcp/ip, security audits, secure networking",
+  abstract     = "We built an experimental prototype of a trusted AIX' network
+    based on the DDN (Defense Data Network) protocol suite and homogeneous
+    experimental AIX Operating System designed to satisfy C2 security
+    requirements.  AIX is a version of the Unix operating system on the IBM RT
+    PC.  This network contains security features designed to satisfy both the
+    C2 requirements of the TNI and the TCSEC, and additional security
+    requirements of higher security classes such as a B3 trusted path for
+    Telnet.  We define the Network Trusted Computing Base (NTCB) of the AIX
+    network, present the architecture of network protocols and explain how this
+    architecture satisfies the C2 security requirements." 
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -4763,6 +4785,75 @@
     study findings are discussed.", 
   location     = "https://doi.org/10.1016/0048-7333%2893%2900747-H",
   location     = "https://dspace.mit.edu/bitstream/handle/1721.1/2448/SWP-3521-27688183.pdf?sequence=1"
+}
+
+@Article{atdcoafppac,
+  author       = "Kimbrel, Tracy and Tomkins, Andrew and Patterson, R.~Hugo and Bershad, Brian and Cao, Pei and Felten, Edward~W. and Gibson, Garth~A. and Karlin, Anna~R. and Li, Kai",
+  title        = "{A} Trace-Driven Comparison of Algorithms for Parallel Prefetching and Caching",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "19--34",
+  month        = oct,
+  keywords     = "disk arrays, prefetching, caching, prefetch algorithms,
+    latency hiding, trace-driven simulation",
+  abstract     = "High-performance I/O systems depend on prefetching and
+    caching in order to deliver good performance to applications.  These two
+    techniques have generally been considered in isolation, even though there
+    are significant interactions between them; a block prefetched too early
+    reduces the effectiveness of the cache, while a block cached too long
+    reduces the effectiveness of prefetching.  In this paper we study the
+    effects of several combined prefetching and caching strategies for systems
+    with multiple disks.  Using disk-accurate trace-driven simulation, we
+    explore the performance characteristics of each of the algorithms in cases
+    in which applications provide full advance knowledge of accesses using
+    hints.  Some of the strategies have been published with theoretical
+    performance bounds, and some are components of systems that have been
+    built.  One is a new algorithm that combines the desirable characteristics
+    of the others.  We find that when performance is limited by I/O stalls,
+    aggressive prefetching helps to alleviate the problem; that more
+    conservative prefetching is appropriate when significant I/O stalls are not
+    present; and that a single, simple strategy is capable of doing both.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/osdi96/full_papers/kimbrel/kimbrel.ps",
+  location     = "https://doi.org/10.1145/238721.238737"
+}
+
+@Article{aciiopfooca,
+  author       = "Mowry, Todd~C. and Demke, Angela~K. and Krieger, Orran",
+  title        = "Automatic Compiler-Inserted {I}/{O} Prefetching for Out-of-Core Applications",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "3--17",
+  month        = oct,
+  keywords     = "compiler-directed prefetch, static analysis, run-time support",
+  abstract     = "Current operating systems offer poor performance when a
+    numeric application’s working set does not fit in main memory.  As a
+    result, programmers who wish to solve “out-of-core” problems efficiently
+    are typically faced with the onerous task of rewriting an application to
+    use explicit I/O operations (e.g., read/write).  In this paper, we propose
+    and evaluate a fully-automatic technique which liberates the programmer
+    from this task, provides high performance, and requires only minimal
+    changes to current operating systems.  In our scheme, the compiler provides
+    the crucial information on future access patterns without burdening the
+    programmer, the operating system supports non-binding prefetch and release
+    hints for managing I/O, and the operating system cooperates with a run-time
+    layer to accelerate performance by adapting to dynamic behavior and
+    minimizing prefetch overhead.  This approach maintains the abstraction of
+    unlimited virtual memory for the programmer, gives the compiler the
+    ﬂexibility to aggressively move prefetches back ahead of references, and
+    gives the operating system the flexibility to arbitrate between the
+    competing resource demands of multiple applications.  We have implemented
+    our scheme using the SUIF compiler and the Hurricane operating system.  Our
+    experimental results demonstrate that our fully-automatic scheme
+    effectively hides the I/O latency in out-of-core versions of the entire NAS
+    Parallel benchmark suite, thus resulting in speedups of roughly twofold for
+    five of the eight applications, with one application speeding up by over
+    threefold.", 
+  location     = "http://www.cs.cmu.edu/~demke/papers/osdi96.pdf",
+  location     = "https://doi.org/10.1145/238721.238734"
 }
 
 @Book{cpec,
