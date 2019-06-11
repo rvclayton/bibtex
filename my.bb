@@ -4882,6 +4882,38 @@
   location     = "https://www2.cs.arizona.edu/projects/swarm/papers/ccache/"
 }
 
+@Article{odrdvcg,
+  author       = "Perkovi{\' c}, Dejan and Keleher, Peter~J.",
+  title        = "Online Data-Race Detection via Coherency Guarantees",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "47--57",
+  month        = oct,
+  keywords     = "lazy release consistency, race detection, dynamic analysis,
+    object-code rewriting",
+  abstract     = "We present the design and evaluation of an on-the-fly 
+    data-race-detection technique that handles applications written for the
+    lazy release consistent (LRC) shared memory model.  We require no explicit
+    association between synchronization and shared memory.  Hence, shared
+    accesses have to be tracked and compared at the minimum granularity of data
+    accesses, which is typically a single word.  The novel aspect of this
+    system is that we are able to leverage information used to support the
+    underlying memory abstraction to perform on-the-fly data-race detection,
+    without compiler support.  Our system consists of a minimally modified
+    version of the CVM distributed shared memory system, and instrumentation
+    code inserted by the ATOM code re-writer.  We present an experimental
+    evaluation of our technique by using our system to look for data races in
+    four unaltered programs.  Our system correctly found read-write data races
+    in a program that allows unsynchronized read access to a global tour bound,
+    and a write-write race in a program from a standard benchmark suite.
+    Overall, our mechanism reduced program performance by approximately a
+    factor of two.", 
+  location     = "https://doi.org/10.1145/238721.238760",
+  location     = "https://www.usenix.org/publications/library/proceedings/osdi96/full_papers/perkovic/perkovic.ps"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -5392,6 +5424,16 @@
   keywords     = "character, plot, novelty, authority, grandeur, intimacy,
     books, reading",
   location     = "Z 1003.L543"
+}
+
+@Book{ccksr,
+  author       = "Keith Schengili-Roberts",
+  title        = "Core {CSS}",
+  publisher    = "Prentice Hall",
+  year         = 2000,
+  address      = usrnj,
+  keywords     = "css, www, fonts, colors, boxes, text",
+  location     = "TK 5105.888.S32"
 }
 
 @Misc{1mmmitxss,
