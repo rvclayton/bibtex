@@ -4856,6 +4856,32 @@
   location     = "https://doi.org/10.1145/238721.238734"
 }
 
+@Article{eccuh,
+  author       = "Sarkar, Prasenjit and Hartman, John",
+  title        = "Efficient Cooperative Caching using Hints",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "35--46",
+  month        = oct,
+  keywords     = "caching, distributed shared storage, cooperative caching,
+    cache management",
+  abstract     = "We present a low-overhead decentralized algorithm for
+    cooperative caching that provides performance comparable to that of
+    existing centralized algorithms.  Unlike existing algorithms that rely on
+    centralized control of cache functions, our algorithm uses hints (i.e.
+    inexact information) to allow clients to perform these functions in a
+    decentralized fashion.  This paper shows that a hint-based system performs
+    as well as a more tightly coordinated system while requiring less overhead.
+    Simulations show that the block access times of our system are as good as
+    those of the existing tightly-coordinated algorithms, while reducing
+    manager load by more than a factor of 15, block lookup traffic by nearly a
+    factor of two-thirds, and replacement traffic by more than a factor of 5.", 
+  location     = "https://doi.org/10.1145/238721.238741", 
+  location     = "https://www2.cs.arizona.edu/projects/swarm/papers/ccache/"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -5354,6 +5380,18 @@
   address      = nyny,
   keywords     = "institutions, think tanks",
   location     = "PS 3613.E48223 S26"
+}
+
+@Book{wirwl,
+  author       = "Wendy Lesser",
+  title        = "Why {I} Read",
+  subtitle     = "The Serious Pleasure of Books",
+  publisher    = "Farrar, Straus and Giroux",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "character, plot, novelty, authority, grandeur, intimacy,
+    books, reading",
+  location     = "Z 1003.L543"
 }
 
 @Misc{1mmmitxss,
