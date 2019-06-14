@@ -4914,6 +4914,130 @@
   location     = "https://www.usenix.org/publications/library/proceedings/osdi96/full_papers/perkovic/perkovic.ps"
 }
 
+@Article{cisbf,
+  author       = "Ford, Bryan and Susarla, Sai",
+  title        = "{CPU} Inheritance Scheduling",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "91--105",
+  month        = oct,
+  keywords     = "cpu scheduling, thread scheduling, coroutines, cooperative scheduling",
+  abstract     = "Traditional processor scheduling mechanisms in operating
+    systems are fairly rigid, often supporting only one fixed scheduling
+    policy, or, at most, a few scheduling classes whose implementations are
+    closely tied together in the OS kernel.  This paper presents CPU
+    inheritance scheduling, a novel processor scheduling framework in which
+    arbitrary threads can act as schedulers for other threads.  Widely
+    different scheduling policies can be implemented under the framework, and
+    many different policies can coexist in a single system, providing much
+    greater scheduling flexibility.  Modular, hierarchical control can be
+    provided over the processor utilization of arbitrary administrative
+    domains, such as processes, jobs, users, and groups, and the CPU resources
+    consumed can be accounted for and attributed accurately.  Applications, as
+    well as the OS, can implement customized local scheduling policies; the
+    framework ensures that all the different policies work together logically
+    and predictably.  As a side effect, the framework also cleanly addresses
+    priority inversion by providing a generalized form of priority inheritance
+    that automatically works within and among diverse scheduling policies.  CPU
+    inheritance scheduling extends naturally to multiprocessors, and supports
+    processor management techniques such as processor affinity and scheduler
+    activations.  We show that this flexibility can be provided with acceptable
+    overhead in typical environments, depending on factors such as context
+    switch speed and frequency.", 
+  location     = "http://www.bford.info/pub/os/inherit-sched.pdf",
+  location     = "https://doi.org/10.1145/238721.238765"
+}
+
+@Article{imna,
+  author       = "Ahuja, Narendra and Schachter, B.~J.",
+  title        = "Image Models",
+  journal      = surveys,
+  year         = 1981,
+  volume       = 13,
+  number       = 4,
+  pages        = "373--397",
+  month        = dec,
+  keywords     = "image models, pixel models, area models, statistical models ",
+  abstract     = "A survey of spatial variation models used in the computer
+    processing of pictorial information.  Image models depicting homogeneous
+    textures are reviewed under the categories of pixel-based and region-based
+    models.  Pixel-based models are further divided into one-dimensional tune
+    series models, random field models, and syntactic models.  Random field
+    models incorporate either global or local image properties.  Several
+    high-level models using semantic information are described to put the role
+    of the two low-level models in perspective.", 
+  location     = "http://vision.ai.illinois.edu/publications/image_models_ACMCS_1981.pdf",
+  location     = "https://doi.org/10.1145/356859.356861"
+}
+
+@Article{peothblrcpfsvms,
+  author       = "Zhou, Yuanyuan and Iftode, Liviu and Li, Kai",
+  title        = "Performance Evaluation of Two Home-Based Lazy Release Consistency Protocols for Shared Virtual Memory Systems",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "75--88",
+  month        = oct,
+  keywords     = "multi-processor performance, lazy release consistency,
+    home-based consistency, consistency protocols",
+  abstract     = "This paper investigates the performance of shared virtual
+    memory protocols on large-scale multicomputers.  Using experiments on a
+    64-node Paragon, we show that the traditional Lazy Release Consistency
+    (LRC) protocol does not scale well, because of the large number of messages
+    it requires, the large amount of memory it consumes for protocol overhead
+    data, and because of the difficulty of garbage collecting that data.  To
+    achieve more scalable performance, we introduce and evaluate two new
+    protocols.  The first, Home-based LRC (HLRC), is based on the automatic
+    update release consistency (AURC) protocol.  Like AURC, HLRC maintains a
+    home for each page to which all updates are propagated and from which all
+    copies are derived.  unlike AURC, HLRC requires no specialized hardware
+    support.  We find that the use of homes provides substantial improvements
+    in performance and scalability over LRC.  Our second protocol, called
+    overlapped home-based LRC (OHLRC), takes advantage of the communication
+    processor found on each node of the paragon to offload some of the protocol
+    overhead of HLRC from the critical path followed by the compute processor.
+    We find that OHLRC provides modes improvements of HLRC.  We also apply
+    overlapping to the base LRC protocol, with similar results.  Our
+    experiments were done using five of the Splash-2 benchmarks.  We report
+    overall execution times, as well as detailed breakdowns of elapsed time,
+    message traffic, and memory use for each of the protocols.", 
+  location     = "https://doi.org/10.1145/238721.238763",
+  location     = "https://www.usenix.org/legacy/publications/library/proceedings/osdi96/full_papers/zhou/zhou.ps"
+}
+
+@Article{llflrcdsm,
+  author       = "Costa, Manuel and Guedes, Paulo and Sequeira, Manuel and Neves, Nuno and Castro, Miguel",
+  title        = "Lightweight Logging for Lazy Release Consistent Distributed Shared Memory",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "59--73",
+  month        = oct,
+  keywords     = "treadmarks, logging, consistency protocols, recovery,
+    checkpointing, execution replay",
+  abstract     = "This paper presents a new logging and recovery algorithm for
+    lazy release consistent distributed shared memory (DSM).  The new algorithm
+    tolerates single node failures by maintaining a distributed log of data
+    dependencies in the volatile memory of processes.  The algorithm adds very
+    little overhead to the memory consistency protocol: it sends no additional
+    messages during failure-free periods; it adds only a minimal amount of data
+    to one of the DSM protocol messages; it introduces no forced rollbacks of
+    non-faulty processes; and it performs no communication-induced accesses to
+    stable storage.  Furthermore, the algorithm logs only a very small amount
+    of data, because it uses the log of memory accesses already maintained by
+    the memory consistency protocol.  The algorithm was implemented in
+    TreadMarks, a state-of-the-art DSM system.  Experimental results show that
+    the algorithm has near zero time overhead and very low space overhead
+    during failure-free execution, thus refuting the common belief that logging
+    overhead is necessarily high in recoverable DSM systems.", 
+  location     = "https://doi.org/10.1145/238721.238762",
+  location     = "https://www.microsoft.com/en-us/research/publication/lightweight-logging-for-lazy-release-consistent-distributed-shared-memory/"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
