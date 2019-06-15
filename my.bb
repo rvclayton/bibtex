@@ -5038,6 +5038,33 @@
   location     = "https://www.microsoft.com/en-us/research/publication/lightweight-logging-for-lazy-release-consistent-distributed-shared-memory/"
 }
 
+@Article{ahcsfmos,
+  author       = "Goyal, Pawan and Guo, Xingang and Vin, Harrick~M.",
+  title        = "{A} Hierarchical {CPU} Scheduler for Multimedia Operating Systems",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "107--121",
+  month        = oct,
+  keywords     = "scheduling, multimedia systems",
+  abstract     = "The need for supporting variety of hard and soft real-time as
+    well as best effort applications in a multimedia computing environment
+    requires an operating system framework that: (1) enables different
+    schedulers to be employed for different application classes, and (2)
+    provides protection between the various classes of applications.  We argue
+    that these objectives can be achieved by hierarchical partitioning of CPU
+    bandwidth, in which an operating system partitions the CPU bandwidth among
+    various application classes, and each application class, in turn,
+    partitions its allocation (potentially using a different scheduling
+    algorithm) among its sub-classes or applications.  We present Start-time
+    Fair Queuing (SFQ) algorithm, which enables such hierarchical partitioning.
+    We have implemented a hierarchical scheduler in Solaris 2.4.  We describe
+    our implementation, and demonstrate its suitability for multimedia
+    operating systems.", 
+  location     = "https://www.usenix.org/conference/osdi-96/hierarchical-cpu-scheduler-multimedia-operating-systems"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -5542,7 +5569,7 @@
   author       = "Wendy Lesser",
   title        = "Why {I} Read",
   subtitle     = "The Serious Pleasure of Books",
-  publisher    = "Farrar, Straus and Giroux",
+  publisher    = fsg,
   year         = 2014,
   address      = nyny,
   keywords     = "character, plot, novelty, authority, grandeur, intimacy,
@@ -5558,6 +5585,18 @@
   address      = usrnj,
   keywords     = "css, www, fonts, colors, boxes, text",
   location     = "TK 5105.888.S32"
+}
+
+@Book{hthae,
+  author       = "Daniel Immerwahr",
+  title        = "How to Hide an Empire",
+  subtitle     = "A History of the Greater United States",
+  publisher    = fsg,
+  year         = 2019,
+  address      = nyny,
+  keywords     = "colonization, empire, foreign policy, politics, economics,
+    united states, history",
+  location     = "F 965.I46"
 }
 
 @Misc{1mmmitxss,
