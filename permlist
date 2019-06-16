@@ -2773,6 +2773,7 @@ the styx architecture for distributed systems : pike
 the swift java compiler design and implementation : scales
 the synchronous approach to reactive and real time systems : benveniste
 the synchronous data flow programming language lustre : halbwachs
+the synergy between nonblocking synchronization and operating system structure : greenwald
 the task of the referee : smith
 the tattletale technique : reyelts
 the teaching of arithmetic i the story of an experiment : benezet
