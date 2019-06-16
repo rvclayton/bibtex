@@ -5065,6 +5065,32 @@
   location     = "https://www.usenix.org/conference/osdi-96/hierarchical-cpu-scheduler-multimedia-operating-systems"
 }
 
+@Article{tsbnbsaoss,
+  author       = "Greenwald, Michael and Cheriton, David",
+  title        = "The Synergy Between Non-blocking Synchronization and Operating System Structure",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "123--136",
+  month        = oct,
+  keywords     = "non-blocking synchronization, dcas, operating system
+    structure, concurrent data structures",
+  abstract     = "Non-blocking synchronization has significant advantages over
+    blocking synchronization: however, it has not been used to a significant
+    degree in practice.  We designed and implemented a multiprocessor operating
+    system kernel and run-time library for high-performance, reliability and
+    modularity.  We used nonblocking synchronization, not because it was an
+    objective in itself, but because it became the approach of choice.  It was
+    an attractive approach because of the synergy between other structuring
+    techniques we used to achieve our primary goals and the benefits of
+    non-blocking synchronization.  This paper describes this synergy: the
+    structuring techniques we used which facilitated non-blocking
+    synchronization and our experience with this implementation", 
+  location     = "https://people.eecs.berkeley.edu/~culler/cs262b/papers/synergy-osdi96.pdf",
+  location     = "https://doi.org/10.1145/248155.238767"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
