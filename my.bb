@@ -5091,6 +5091,130 @@
   location     = "https://doi.org/10.1145/248155.238767"
 }
 
+@Article{sownpudet,
+  author       = "Perl, Sharon~E. and Sites, Richard~L.",
+  title        = "Studies of {Windows NT} Performance using Dynamic Execution Traces",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "169--183",
+  month        = oct,
+  keywords     = "trace-driven analysis, pin bandwidth, lock contention,
+    commercial workloads, run-time analysis, measurement",
+  abstract     = "We studied two aspects of the performance of Windows NT :
+    processor bandwidth requirements for memory accesses in a uniprocessor
+    system running commercial and benchmark applications, and locking behavior
+    of a commercial database on a small-scale multiprocessor.  Our studies are
+    based on full dynamic execution traces of the systems, which include all
+    instructions executed by the operating system and applications over periods
+    of a few seconds (enough time to allow for significant computation).  The
+    traces were obtained on Alpha PCs, usinga new software toolcalled PatchWrx
+    that takes advantage of the Alpha architecture’s PAL-code layer to
+    implement efﬁcient, comprehensive system tracing.  Because the Alpha
+    version of Windows NT uses substantially the same code base as other
+    versions, and therefore executes nearly the same sequence of calls, basic
+    blocks, and data structure accesses, we believe our conclusions are
+    relevant for non-Alpha systems as well.  This paper describes our
+    performance studies and interesting aspects of PatchWrx.  We conclude from
+    our studies that processor bandwidth can be a first-order bottleneck to
+    achieving good performance.  This is particularly apparent when studying
+    commercial benchmarks.  Operating system code and data structures
+    contribute disproportionately to the memory access load.  We also found
+    that operating system software lock contention was a factor preventing the
+    database benchmark from scaling up on the small multiprocessor, and that
+    the cache coherence protocol used by the machine introduced more cache
+    interference than necessary.", 
+  location     = "http://doi.org/10.1145/238721.238773",
+  location     = "https://www.usenix.org/publications/library/proceedings/osdi96/full_papers/perl/perl.ps"
+}
+
+@Article{mpeitsos,
+  author       = "Mosberger, David and " # llp,
+  title        = "Making Paths Explicit in the {Scout} Operating System",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "153--167",
+  month        = oct,
+  keywords     = "os abstractions, integrated layer processing, specialization
+    optimization", 
+  abstract     = "This paper makes a case for paths as an explicit abstraction
+    in operating system design.  Paths provide a unifying infrastructure for
+    several OS mechanisms that have been introduced in the last several years,
+    including fbufs, integrated layer processing, packet classifiers, code
+    specialization, and migrating threads.  This paper articulates the
+    potential advantages of a path-based OS structure, describes the specific
+    path architecture implemented in the Scout OS, and demonstrates the
+    advantages in a particular application domain---receiving, decoding, and
+    displaying MPEG-compressed video.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/osdi96/full_papers/mosberger/mosberger.ps",
+  location     = "https://doi.org/10.1145/238721.238771"
+}
+
+@Article{mmrvm,
+  author       = "Ford, Bryan and Hibler, Mike and Lepreau, Jay and Tullmann, Patrick and Back, Godmar and Clawson, Stephen",
+  title        = "Microkernels Meet Recursive Virtual Machines",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "137--151",
+  month        = oct,
+  keywords     = "microkernels, virtual machines, recursive structures, nested
+    structures, state encapsulation, access control, operating system
+    structure",
+  abstract     = "This paper describes a novel approach to providingmodular and
+    extensible operating system functionality and encapsulated environments
+    based on a synthesis of microkernel and virtual machine concepts.  We have
+    developed a software-based virtualizable architecture called Fluke that
+    allows recursive virtual machines (virtual machines running on other
+    virtual machines) to be implemented efficiently by a microkernel running on
+    generic hardware.  A complete virtual machine interface is provided at each
+    level; efficiency derives from needing to implement only new functionality
+    at each level.  This infrastructure allows common OS functionality, such as
+    process management, demand paging, fault tolerance, and debugging support,
+    to be provided by cleanly modularized, independent, stackable virtual
+    machine monitors, implemented as user processes.  It can also provide
+    uncommon or unique OS features, including the above features specialized
+    for particular applications' needs, virtual machines transparently
+    distributed cross-node, or security monitors that allow arbitrary untrusted
+    binaries to be executed safely.  Our prototype implementation of this model
+    indicates that it is practical to modularize operating systems this way.
+    Some types of virtual machine layers impose almost no overhead at all,
+    while others impose some overhead (typically 0--35%), but only on certain
+    classes of applications.", 
+  location     = "https://www.flux.utah.edu/download?uid=106",
+  location     = "https://doi.org/10.1145/238721.238769"
+}
+
+@Article{agauoaso,
+  author       = "Tim Sheard",
+  title        = "Automatic Generation and Use of Abstract Structure Operators",
+  journal      = toplas,
+  year         = 1991,
+  volume       = 13,
+  number       = 4,
+  pages        = "531--557",
+  month        = oct,
+  keywords     = "automatic type-directed operation generation, classes,
+    reflection, recursion, programming languages",
+  abstract     = "Abstract structures are those structures definable by
+    parametric and recursive type equations.  Manipulation of the instances of
+    such structures is often expressed as recursive functions.  These functions
+    can be quite complex and tedious to write, especially for types needed to
+    model complex objects found in many modern applications.  We define a set
+    of operators for computing over abstract structures that provide a clean
+    interface with large functionality.  These operations have many of the good
+    properties found in the relational algebra such as abstraction, algebraic
+    manipulation, and specification, but operate over a much larger class of
+    values.  Concrete definitions of these operators for specific types can be
+    automatically generated as a by-product of type declaration and are thus
+    made available to the user at no programming cost.", 
+  location     = "https://doi.org/10.1145/115372.115369"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
