@@ -549,6 +549,7 @@ automated testing of object oriented software : meyer
 automatic array inlining in java virtual machines : wimmer
 automatic construction of parse trees for lexemes : dube
 automatic derivation of code generators from machine descriptions : cattell
+automatic generation and use of abstract structure operators : sheard
 automatic generation of peephole optimizations : davidson
 automatic generation of visual programming environments : costagliola
 automatic isolation of compiler errors : whalley
