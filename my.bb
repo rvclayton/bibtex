@@ -5215,6 +5215,36 @@
   location     = "https://doi.org/10.1145/115372.115369"
 }
 
+@Article{ulteisp,
+  author       = "Endo, Yasuhiro and Wang, Zheng and Chen, J.~Bradley and Seltzer, Margo",
+  title        = "Using Latency to Evaluate Interactive System Performance",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "185--199",
+  month        = oct,
+  keywords     = "latency, performance measurements, usability",
+  abstract     = "The conventional methodology for system performance
+    measurement, which relies primarily on throughput-sensitive benchmarks and
+    throughput metrics, has major limitations when analyzing the behavior and
+    performance of interactive workloads.  The increasingly inter- active
+    character of personal computing demands new ways of measuring and analyzing
+    system performance.  In this paper, we present a combination of measurement
+    techniques and benchmark methodologies that address these problems.  We
+    introduce several simple methods for making direct and precise measurements
+    of event handling latency in the context of a realistic interactive
+    application.  We analyze how results from such measurements can be used to
+    understand the detailed behavior of latency-critical events.  We
+    demonstrate our techniques in an analysis of the performance of two
+    releases of Windows NT and Windows 95.  Our experience indicates that
+    latency can be measured for a class of interactive workloads, providing a
+    substantial improvement in the accuracy and detail of performance
+    information over measurements based strictly on throughput.", 
+  location     = "https://doi.org/10.1145/238721.238775",
+  location     = "https://www.usenix.org/conference/osdi-96/using-latency-evaluate-interactive-system-performance"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
