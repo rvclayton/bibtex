@@ -5789,6 +5789,18 @@
   location     = ""
 }
 
+@Book{tcotlp,
+  author       = "Margery Allingham",
+  title        = "The Case of the Late Pig",
+  publisher    = "Avon Books",
+  year         = 1989,
+  address      = nyny,
+  month        = jul,
+  price        = "$3.50",
+  keywords     = "dopplegangers, murrdaar",
+  location     = "PR 6001.L678"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
