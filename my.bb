@@ -5779,6 +5779,16 @@
   location     = "F 965.I46"
 }
 
+@Book{olitcb,
+  author       = "T.~C. Boyle",
+  title        = "Outside Looking In",
+  publisher    = "Ecco",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "psychedelics, the 60s, tim leary, drugs, human relations",
+  location     = ""
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
