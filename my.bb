@@ -5305,6 +5305,40 @@
   location     = "https://doi.org/10.1145/248155.238777"
 }
 
+@Article{skewrtc,
+  author       = "Necula, George~C. and Lee, Peter",
+  title        = "Safe Kernel Extensions Without Run-Time Checking",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "229--243",
+  keywords     = "operating systems, automatic program verification, proof
+    systems, system safety, type systems, program reliability, configurable
+    kernels, packet filters, assembly languages.", 
+  abstract     = "This paper describes a mechanism by which an operating system
+    kernel can determine with certainty that it is safe to execute a binary
+    supplied by an untrusted source.  The kernel first defines a safety policy
+    and makes it public.  Then, using this policy, an application can provide
+    binaries in a special form called proof-carrying code, or simply PCC.  Each
+    PCC binary contains, in addition to the native code, a formal proof that
+    the code obeys the safety policy.  The kernel can easily validate the proof
+    without using cryptography and without consulting any external trusted
+    entities.  If the validation succeeds, the code is guaranteed to respect
+    the safety policy without relying on run-time checks.  The main practical
+    difficulty of PCC is in generating the safety proofs.  In order to gain
+    some preliminary experience with this, we have written several network
+    packet filters in hand-tuned DEC Alpha assembly language, and then
+    generated PCC binaries for them using a special prototype assembler.  The
+    PCC binaries can be executed with no run-time over-head, beyond a one-time
+    cost of 1 to 3 milliseconds for validating the enclosed proofs.  The net
+    result is that our packet filters are formally guaranteed to be safe and
+    are faster than packet filters created using Berkeley Packet Filters,
+    Software Fault Isolation, or safe languages such as Modula-3.", 
+  location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a322252.pdf",
+  location     = "https://doi.org/10.1145/238721.238781"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -5859,6 +5893,34 @@
   price        = "$3.50",
   keywords     = "dopplegangers, murrdaar",
   location     = "PR 6001.L678"
+}
+
+@Book{ceba,
+  author       = "Ben Albahari and Peter Drayton and Brad Merrill",
+  title        = "C\# Essentials",
+  publisher    = "O'Reilly",
+  year         = 2001,
+  address      = seca,
+  month        = feb,
+  keywords     = "c#, programming languages, object-oriented languages, .net",
+  location     = "QA 76.73.C154 A418"
+}
+
+@Book{seflb,
+  title        = "Software Engineering",
+  subtitle     = "An Advanced Course",
+  publisher    = sv,
+  year         = 1977,
+  editor       = "Friedrich~L. Bauer",
+  volume       = 30,
+  series       = lncs,
+  address      = bege,
+  keywords     = "software systems, hierarchies, language characteristics,
+    low-level languages, language definition, concurrency, modularity,
+    portability, debugging, testing, reliability, project management,
+    documentation, performance prediction, performance measurement, pricing,
+    evaluation",
+  location     = "QA 76.6.A33"
 }
 
 @Misc{1mmmitxss,
