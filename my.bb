@@ -5245,6 +5245,66 @@
   location     = "https://www.usenix.org/conference/osdi-96/using-latency-evaluate-interactive-system-performance"
 }
 
+@Article{dwdsmke,
+  author       = "Seltzer, Margo~I. and Endo, Yasuhiro and Small, Christopher and Smith, Keith~A.",
+  title        = "Dealing With Disaster:  Surviving Misbehaved Kernel Extensions",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "213--227",
+  month        = oct,
+  keywords     = "configurable kernels, software fault isolation, interface
+    design, vino, fault tolerance, fault avoidance, performance",
+  abstract     = "Today’s extensible operating systems allow applications to
+    modify kernel behavior by providing mechanisms for application code to run
+    in the kernel address space.  The advantage of this approach is that it
+    provides improved application ﬂexibility and performance; the disadvantage
+    is that buggy or malicious code can jeopardize the integrity of the kernel.
+    It has been demonstrated that it is feasible to use safe languages,
+    software fault isolation, or virtual memory protection to safeguard the
+    main kernel.  However, such protection mechanisms do not address the full
+    range of problems, such as resource hoarding, that can arise when
+    application code is introduced into the kernel.  In this paper, we present
+    an analysis of extension mechanisms in the VINO kernel.  VINO uses software
+    fault isolation as its safety mechanism and a lightweight transaction
+    system to cope with resource-hoarding.  We explain how these two mechanisms
+    are sufﬁcient to protect against a large class of errant or malicious
+    extensions, and we quantify the overhead that this protection introduces.
+    We ﬁnd that while the overhead of these techniques is high relative to the
+    cost of the extensions themselves, it is low relative to the beneﬁts that
+    extensibility brings.", 
+  location     = "https://doi.org/10.1145/248155.238779",
+  location     = "https://www.eecs.harvard.edu/~keith/papers/osdi96.pdf"
+}
+
+@Article{dbfaes,
+  author       = "Pardyak, Przemys{\l}aw and Bershad, Brian~N.",
+  title        = "Dynamic Binding for an Extensible System",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "201--213",
+  keywords     = "events, extensible kernels, modula 3, type safety, modules,
+    fault tolerance, fault avoidance",
+  abstract     = "An extensible system requires a means to dynamically bind
+    extensions into executing code.  SPIN extensible operating system uses an
+    event-based invocation mechanism to provide this functionality in a
+    flexible, transparent, safe, and efficient way.  Events offer a uniform
+    model of extensibility, whereby the system's configuration can change
+    without changing any of its components.  Events are defined with the
+    granularity and syntax of procedures but provide extended procedure call
+    semantics such as conditional execution, multicast, and asynchrony.  By
+    installing a handler on an event, an extension's code can execute in
+    response to activities at the granularity of procedure call.  Our system
+    uses runtime code generation to ensure that event delivery has low overhead
+    and scales well with the number of handlers.  This paper describes the
+    design, use and performance of events in the SPIN operating system.", 
+  location     = "https://www.usenix.org/conference/osdi-96/dynamic-binding-extensible-system",
+  location     = "https://doi.org/10.1145/248155.238777"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
