@@ -1,8 +1,9 @@
 .so bibtex.header
 		  
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
-@string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
+@string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
+@string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
@@ -2738,6 +2739,60 @@
     architecture satisfies the C2 security requirements." 
 }
 
+@InProceedings{dagl,
+  author       = "Stephen~C. North and Kiem-Phong Vo",
+  title        = "Dictionary and Graph Libraries",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "1--11",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "libraries, dictionaries, graphs, data structures",
+  abstract     = "Searching and graph algorithms are pervasive in computer
+    programs.  We describe libraries for dictionaries and graphs that offer
+    efficient implementations with more flexibility and generality than
+    hand-crafted algorithms.  libdict maintains ordered and unordered
+    dictionaries, under a common interface.  libgraph supports operations on
+    attributed graphs, including reading and writing graph files as a basis for
+    creating graph processing tools.",
+  location     = "http://web.mit.edu/spin_v4.2.5/man/man3/graph.3"
+}
+
+@Article{eobsoiop,
+  author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
+  title        = "Effects of Buffering Semantics on {I/O} Performance",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "277--291",
+  month        = oct,
+  keywords     = "network processing, network load, lazy receiver processing,
+    sockets, packet demultiplexing, ip, protocol processing",
+  abstract     = "We present a novel taxonomy that characterizes in a
+    structured way the software and hardware trade-offs for I/O data passing
+    between applications and operating system.  This work contributes new
+    techniques, input-disabled page out, transient output copy-on-write, and
+    input aliment, that are used for copy avoidance in an optimized buffering
+    semantics, emulated copy.  Emulated copy offers the same API and integrity
+    guarantees as those of copy semantics and, therefore, can transparently
+    replace it.  We implemented an I/O framework, Genie, that allows
+    applications to select any semantics in the taxonomy.  Using Genie for
+    communication between PCs and AlphaStations of an ATM network at 155 Mbps,
+    we found that all non-copy semantics performed similarly, and that only
+    copy semantics had distinctly inferior performance.  We analyzed end-to-end
+    latency in terms of the costs of primitive data processing operations and
+    modeled how those costs scale with CPU, memory, and network speeds.  The
+    analysis suggests that current trends tend to intensify the observed
+    performance clustering.  The main conclusion is that existing I/O interface
+    with copy semantics such that of Unix, can be transparently converted to
+    emulated copy semantics and thus achieve performance comparable to the best
+    obtainable with any semantics in the taxonomy.",  
+  location     = "https://doi.org/10.1145/238721.238787",
+  location     = "http://www.cs.cmu.edu/afs/cs/user/jcb/papers/osdi96.ps"
+}
+
 @Article{msfnwqosg,
   author       = "David K.~Y. Yau and Simon~S. Lam",
   title        = "Migrating Sockets for Network with Quality of Service Guarentees",
@@ -5339,6 +5394,91 @@
   location     = "https://doi.org/10.1145/238721.238781"
 }
 
+@Article{ddaddca,
+  author       = "Treleaven, Philip~C. and Brownbridge, David~R. and Hopkins, Richard~P.",
+  title        = "Data-Driven and Demand-Driven Computer Architecture",
+  journal      = surveys,
+  year         = 1982,
+  volume       = 14,
+  number       = 1,
+  pages        = "93--143",
+  month        = mar,
+  keywords     = "demand-driven architecture, data-driven architecture,
+    non-von-neumann architectures, functional programming, intermediate
+    representations, graph representations, string replacement, data-flow
+    computing, reduction computers, parallel execution, fork-join parallelism,
+    sub-graph sharing",
+  abstract     = "Novel data-driven and demand-driven computer architectures
+    are under development in a large number of laboratories in the United
+    States, Japan, and Europe.  These computers are not based on the traditional
+    von Neumann organization; instead, they are attempts to identify the next
+    generation of computer.  Basically, in data-driven (e.g., data-flow)
+    computers the availability of operands triggers the execution of the
+    operation to be performed on them, whereas in demand-driven (e.g,
+    reduction) computers the requirement for a result triggers the operation
+    that will generate it.  Although there are these two distinct areas of
+    research, each laboratory has developed its own individual model of
+    computation, stored program representation, and machine organization.
+    Across this spectrum of designs there m, however, a significant sharing of
+    concepts.  The aim of this paper is to identify the concepts and
+    relationships that exist both within and between the two areas of research.
+    It does thin by examlmng data-driven and demand-driven architecture at
+    three levels, computation organizatmn, (stored) program organization, and
+    machine organLzation.  Finally, a survey of various novel computer
+    architectures under development is given.", 
+  location     = "https://doi.org/10.1145/356869.356873"
+}
+
+@Article{aiothsmia,
+  author       = "Buzzard, Greg and Jacobson, David and Mackey, Milon and Marovich, Scott and Wilkes, John",
+  title        = "An Implementation of the {Hamlyn} Sender-Managed Interface Architecture",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "245--259",
+  keywords     = "storage management, network interfaces, network performance",
+  abstract     = "As the latency and bandwidth of multicomputer interconnection
+    fabrics improve, there is a growing need for an interface between them and
+    host processors that does not hide these gains behind software overhead.
+    The Hamlyn interface architecture does this.  It uses sender-based memory
+    management to eliminate receiver buffer overruns, provides applications
+    with direct hardware access to minimize latency, supports adaptive routing
+    networks to allow higher throughput, and offers full protection between
+    applications so that it can be used in a general-purpose computing
+    environment.  To test these claims we built a prototype Hamlyn interface
+    for a Myrinet network connected to a standard HP workstation and report
+    here on its design and performance.  Our interface delivers an
+    application-to-application round trip time of 28us for short messages and a
+    one-way time of 17.4us + 32.6ns/byte (30.7mb/s) for longer ones, while
+    requiring fewer CPU cycles than an aggressive implementation of Active
+    Messages on the CM-5.", 
+  location     = "https://doi.org/10.1145/238721.238784",
+  location     = "https://www.hpl.hp.com/techreports/96/HPL-96-137.pdf"
+}
+
+@Article{lrplansafss,
+  author       = "Druschel, Peter and Banga, Gaurav",
+  title        = "Lazy Receiver Processing ({LRP}):  {A} Network Subsystem Architecture for Server Systems",
+  journal      = osdi96,
+  year         = 1996,
+  volume       = 30,
+  number       = SI,
+  pages        = "261--275",
+  keywords     = "",
+  abstract     = "The explosive growth of the Internet, the widespread use of
+    WWW-related applications, and the increased reliance on client-server
+    architectures places interesting new demands on network servers.  In
+    particular, the operating system running on such systems needs to manage
+    the machine's resources in a manner that maximizes and maintains throughput
+    under conditions of high load.  We propose and evaluate a new network
+    subsystem architecture that provides improved fairness, stability, and
+    increased throughput under high network load.  The architecture is hardware
+    independent and does not degrade network latency or bandwidth under normal
+    load conditions.",
+  location     = "https://doi.org/10.1145/238721.238786"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -5921,6 +6061,16 @@
     documentation, performance prediction, performance measurement, pricing,
     evaluation",
   location     = "QA 76.6.A33"
+}
+
+@Book{tpjmp,
+  author       = "John McPhee",
+  title        = "The Patch",
+  publisher    = fsg,
+  year         = 2018,
+  address      = nyy,
+  keywords     = "golf, tennis, fishing, princeton, sport",
+  location     = "AC 8.M267"
 }
 
 @Misc{1mmmitxss,
