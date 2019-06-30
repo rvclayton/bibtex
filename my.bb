@@ -2759,6 +2759,80 @@
   location     = "http://web.mit.edu/spin_v4.2.5/man/man3/graph.3"
 }
 
+@InProceedings{hwrpkt,
+  author       = "Rob Pike and Ken Thompson",
+  title        = "Hello World",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "43--50",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "character sets, utf, unicode, plan 9",
+  abstract     = "Plan 9 from Bell Labs has recently been converted from ASCII
+    to an ASCII-compatible variant of the Unicode Standard, a 16-bit character
+    set.  In this paper we explain the reasons for the change, describe the
+    character set and representation we chose, and present the programming
+    models and software changes that support the new text format.  Although we
+    stopped short of full internationalization­for example, system error
+    messages are in Unixese, not Japanese­we believe Plan 9 is the first system
+    to treat the representation of all major languages on a uniform, equal
+    footing throughout all its software.", 
+  location     = "http://doc.cat-v.org/plan_9/4th_edition/papers/utf"
+}
+
+@InProceedings{alioptuu,
+  author       = "Frank Mueller",
+  title        = "{A} Library Implementation of {POSIX} Threads under " # unix,
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "29--42",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "libraries, posix threads, performance, context frame, unix
+    environment, open systems, ieee standards, light-weight threads, thread
+    extensions, pthreads standard, signal handlers", 
+  abstract     = "Recently, there has been an effort to specify an IEEE
+    standard for portable operating systems for open systems, called POSIX.
+    One part of it, the POSIX 1003.4a threads extension (Pthreads for short)
+    [12], describes the interface for light-weight threads that rely on shared
+    memory and have a smaller context frame than processes.  This paper
+    describes and evaluates the design and implementation of a library of
+    Pthreads calls that is solely based on UNIX.  It shows that a library
+    implementation is feasible and can result in good performance.  This work
+    can also be used as a comparison of the performance of other
+    implementations, or as a prototyping, testing, and debugging system in the
+    regular UNIX environment.  Finally, some problems with the Pthreads
+    standard are identified.", 
+  location     = "http://ftp.lyx.org/ftp/pub/unix/threads/part/pthreads_usenix93.ps.Z"
+}
+
+@InProceedings{lss,
+  author       = "W.~E. Garrett and Michael~L. Scott and Ricardo Bianchini and Leonidas~I. Kontothanassis and R.~A. McCallum and J.~A. Thomas and Robert~W. Wisniewski and S.~Luk",
+  title        = "Linking Shared Segments",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "13--27",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "dynamic linking, libraries, shared state, searching",
+  abstract     = "As an alternative to communication via messages or files,
+    shared memory has the potential to be simpler, faster, and less wasteful of
+    space.  Unfortunately, the mechanisms available for sharing in Unix are not
+    easy to use.  As a result, shared memory tends to appear primarily in
+    self-contained parallel applications, where library or compiler support can
+    take care of the messy details We have developed a system, called Hemlock,
+    for transparent sharing of variables and/or subroutines across application
+    boundaries.  Our system is backward compatible with existing versions of
+    Unix.  It employs dynamic linking in conjunction with the Unix mmap
+    facility and a kernel-maintained correspondence between virtual addresses
+    and files.  It introduces the notion of scoped linking to avoid naming
+    conflicts in the face of extensive sharing.", 
+  location     = "ftp://ftp.cs.rochester.edu/pub/papers/systems/93.USENIX.Linking_shared_segments.ps.Z"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
