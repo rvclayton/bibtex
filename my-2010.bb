@@ -50920,18 +50920,6 @@
 		   rumbaugh models, state charts, object charts, e/r relations"
 }
 
-@inproceedings{alioptuu,
-  author	= "Frank Mueller",
-  title		= "A Library Implementation of {POSIX} Threads under" # unix,
-  booktitle	= wucp,
-  year		= 1993,
-  pages		= "29--41",
-  address	= sdca,
-  month		= "25--29 January",
-  keywords	= "posix, light-weight threads, shared storage, unix, signals,
-		   schedulers, priorities, implementation"
-}
-
 @inproceedings{sbauoc,
   author	= "Serge~A. Plotkin",
   title		= "Sticky Bits and Universality of Consensus",
