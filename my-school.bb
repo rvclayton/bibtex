@@ -29812,17 +29812,6 @@ b
   location     = "ftp://ftp.ee.lbl.gov/papers/bpf-usenix93.ps.Z"
 }
 
-@InProceedings{easwhof,
-  author       = "Paul Haahr and Byron Rakitzis",
-  title        = "Es:  A shell with higher-order functions",
-  booktitle    = uwc,
-  year         = 1993,
-  pages        = "51--60",
-  address      = sdca,
-  keywords     = "",
-  location     = "/ftp.sys.utoronto.ca:/pub/es/usenix-w93.ps.Z"
-}
-
 @InProceedings{dacefrels,
   author       = "Alex Quilici and David~N. Chin",
   title        = "{DECODE}: A Cooperative Environment for Reverse-Engineering
