@@ -2833,6 +2833,29 @@
   location     = "ftp://ftp.cs.rochester.edu/pub/papers/systems/93.USENIX.Linking_shared_segments.ps.Z"
 }
 
+@InProceedings{easwhof,
+  author       = "Paul Haahr and Byron Rakitzis",
+  title        = "Es:  {A} Shell with Higher-Order Functions",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "51--60",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "shell, unix, functional languages",
+  abstract     = "In the fall of 1990, one of us (Rakitzis) re-implemented the
+    Plan 9 command interpreter, rc, for use as a UNIX shell.  Experience with
+    that shell led us to wonder whether a more general approach to the design
+    of shells was possible, and this paper describes the result of that
+    experimentation.  We applied concepts from modern functional programming
+    languages, such as Scheme and ML, to shells, which typically are more
+    concerned with UNIX features than language design.  Our shell is both
+    simple and highly programmable.  By exposing many of the internals and
+    adopting constructs from functional programming languages, we have created
+    a shell which supports new paradigms for programmers.", 
+  location     = "https://stuff.mit.edu/afs/sipb/user/yandros/doc/es-usenix-winter93.html"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -5551,6 +5574,30 @@
     independent and does not degrade network latency or bandwidth under normal
     load conditions.",
   location     = "https://doi.org/10.1145/238721.238786"
+}
+
+@Article{siopuaecc,
+  author       = "Vuong, Son~T. and Lau, Allen~C. and Chan, R.~Isaac",
+  title        = "Semiautomatic Implementation of Protocols Using an {Estelle-C} Compiler",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "384--393",
+  month        = mar,
+  keywords     = "automatic implementation, compiler, estelle fdt, protocols",
+  abstract     = "The basic ideas underlying an Estelle-C compiler, which
+    accepts an Estelle protocol specification and produces a protocol
+    implementation in C, are presented.  The implementation of the ISO
+    (International Organization for Standardization) class-2 transparent
+    protocol, using the semiautomatic approach, is discussed.  A manual
+    implementation of the protocol is performed and compared to the
+    semiautomatic implementation.  The semiautomatic approach to protocol
+    implementation offers several advantages over the conventional manual one,
+    including correctness and modularity in protocol implementation code,
+    conformance to the specification, and reduction in implementation time.
+    Finally, ongoing development of a new Estelle-C compiler is presented.", 
+  location     = "https://doi.org/10.1109/32.4658"
 }
 
 @Book{cpec,
