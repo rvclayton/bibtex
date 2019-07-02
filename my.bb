@@ -2856,6 +2856,23 @@
   location     = "https://stuff.mit.edu/afs/sipb/user/yandros/doc/es-usenix-winter93.html"
 }
 
+@InProceedings{jaffpgip,
+  author       = "James~S. Plank",
+  title        = "Jgraph --- {A} Filter for Plotting Graphs in {PostScript}",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "61--66",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "graphics, plotting, postscript, tools",
+  abstract     = "Jgraph is a non-interactive ﬁfilter for plotting
+    two-dimensional scatter, line, and bar graphs in PostScript.  It has also
+    been used as a general-purpose drawing utility.  Jgraph’s strengths lie in
+    its portability, ﬂexibility, and integration into the UNIX environment.", 
+  location     = "https://web.eecs.utk.edu/~plank/plank/papers/USENIX-93W.ps.Z"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
