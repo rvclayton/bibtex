@@ -2873,6 +2873,27 @@
   location     = "https://web.eecs.utk.edu/~plank/plank/papers/USENIX-93W.ps.Z"
 }
 
+@InProceedings{famts,
+  author       = "Michael~T. Stolarchuk",
+  title        = "Faster {AFS}",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "67--75",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "afs, fast-path optimization, caching",
+  abstract     = "The AFS Cache Manager fetches files from the AFS file server,
+    and caches them into a local file system.  Given this model, users expect
+    reads of locally cached files to perform at local file system rates.
+    However, read performance of the AFS cached files is half the read
+    performance of the local file system.  This paper discusses the reasons for
+    the large performance difference, and the modifications made to AFS so that
+    reads of locally cached files perform within 10% of the performance of the
+    local file system.", 
+  location     = "https://deepblue.lib.umich.edu/handle/2027.42/107958"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
