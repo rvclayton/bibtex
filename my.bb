@@ -2894,6 +2894,28 @@
   location     = "https://deepblue.lib.umich.edu/handle/2027.42/107958"
 }
 
+@InProceedings{taafcwoatnl,
+  author       = "Ronald~G.  Minnich",
+  title        = "The {AutoCacher}:  {A} File Cache Which Operates at the {NFS} Level",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "77--83",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "file caching, nfs, disk utility",
+  abstract     = "The AutoCacher is a caching file system.  Its most common use
+    is to cache read-only files from remote NFS file systems to a local disk,
+    although it can, in general, cache from any file system to any other.  It
+    is intended to provide the same type of file caching provided by, e.g., the
+    Andrew File System.  The autocacher operates as an NFS server, not as might
+    be expected as a Virtual File System, as do other caching file systems such
+    as TFSS or the system developed at CMU.  In so doing it demonstrates that
+    activities such as file caching, which one might expect to be required to
+    operate at the Virtual File System level, can operate effectively at the
+    NFS level, despite being stateless." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
