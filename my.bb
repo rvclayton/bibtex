@@ -2916,6 +2916,19 @@
     NFS level, despite being stateless." 
 }
 
+@InProceedings{pimssaowp,
+  author       = "Sunil Saxena and J.~Kent Peacock and Fred Yang and Vijaya Verma and Mohan Krishnan",
+  title        = "Pitfalls in Multithreading {SVR4} {STREAMS} and Other Weightless Processes",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "85--96",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "As part of the effort of creating a multiprocessor version of
+    System V Release 4, the Intel Multiprocessor Consortium attempted to multithread the kernel STREAMS subsystem.  STREAMS are a System V facility which provides a message-based communications framework, primarily for use in providing pipe-like configurability for character devices.  Multithreading STREAMS required a significant amount of work and it was quite difficult to achieve a correct solution.  In fact, three different versions of the locking were necessary to solve a number of significant problems which were identified.  As such, this effort represents an interesting case study for the type of difficulties encountered in multithreading a complex subsystem.  In particular, a very find-grained multithreading strategy was tried first and found to have undesirable deadlock, performance and stability characteristics.  Subsequent versions allowed less apparent parallelism, but actually improved all of these properties.  The root cause of many of the problems encountered was the existence of weightless processes, that is, control threads which do not have their own processor stacks.  Examples include interrupts, timeouts and STREAMS processing.  The major drawback to weighless processes is their inability to suspend execution to wait for an event or resource, thus making them susceptible to deadlock.  A number of examples of weightless process deadlocks are explored to illustrate the disadvantages of this approach, particularly in a multiprocessor system."
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -5660,6 +5673,32 @@
   location     = "https://doi.org/10.1109/32.4658"
 }
 
+@Article{aipsauagstg,
+  author       = "Zhang, Yao~Xue and Takahashi, Kaoru and Shiratori, Norio and Noguchi, Shoichi",
+  title        = "An Interactive Protocol Synthesis Algorithm Using a Global State Transition Graph",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "394--404",
+  month        = mar,
+  keywords     = "communication protocols, protocol synthesis, finite state
+    machine, global state translation, protocol validation",
+  abstract     = "An interactive synthesis algorithm, to construct two
+    communicating finite-state machines (protocols), is presented.  The
+    machines exchange messages over two unidirectional FIFO (first-in
+    first-out) channels when the function of the protocol has been given.  The
+    synthesis algorithm first constructs the global state transitiion graph
+    (GSTG) of a protoco to be synthesized and then produces the protocol.  It
+    is based on a set of production rules and a set of deadlock avoidance
+    rules, which guarantee that complete reception and deadlock freeness
+    capabilities are provided in the interacting process.  This synthesis
+    algorithm prevents a designer from creating unspecified reception and
+    nonexecutable transition, avoids the occurrence of deadlocks, and monitors
+    for the presence of buffer overflow.", 
+  location     = "https://doi.org/10.1109/32.4659"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -6252,6 +6291,16 @@
   address      = nyy,
   keywords     = "golf, tennis, fishing, princeton, sport",
   location     = "AC 8.M267"
+}
+
+@Book{idtm,
+  author       = "Tim Maughan",
+  title        = "Infinite Detail",
+  publisher    = fsg,
+  year         = 2019,
+  address      = nyny,
+  keywords     = "dystopias, networking, idealism",
+  location     = "PR 6113.A924 I54"
 }
 
 @Misc{1mmmitxss,
