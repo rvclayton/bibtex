@@ -2929,6 +2929,27 @@
     System V Release 4, the Intel Multiprocessor Consortium attempted to multithread the kernel STREAMS subsystem.  STREAMS are a System V facility which provides a message-based communications framework, primarily for use in providing pipe-like configurability for character devices.  Multithreading STREAMS required a significant amount of work and it was quite difficult to achieve a correct solution.  In fact, three different versions of the locking were necessary to solve a number of significant problems which were identified.  As such, this effort represents an interesting case study for the type of difficulties encountered in multithreading a complex subsystem.  In particular, a very find-grained multithreading strategy was tried first and found to have undesirable deadlock, performance and stability characteristics.  Subsequent versions allowed less apparent parallelism, but actually improved all of these properties.  The root cause of many of the problems encountered was the existence of weightless processes, that is, control threads which do not have their own processor stacks.  Examples include interrupts, timeouts and STREAMS processing.  The major drawback to weighless processes is their inability to suspend execution to wait for an event or resource, thus making them susceptible to deadlock.  A number of examples of weightless process deadlocks are explored to illustrate the disadvantages of this approach, particularly in a multiprocessor system."
 }
 
+@InProceedings{wasdrat,
+  author       = "Nicholas Sterling",
+  title        = "{WARLOCK} --- A Static Data Race Analysis Tool",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "97--106",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "static analysis, data races, concurrency synchronization,
+    locking, annotations", 
+  abstract     = "Concurrent programming is becoming available to the masses,
+    bringing with it the potential for new types of errors such as deadlocks
+    and data races.  this paper describes a static data race analysis tool less
+    ambitious than most, written for use with SunSoft's Solaris operating
+    system.  The basic algorithm is described, and a sample use of the tool is
+    discussed.  Some complicating factors of real code are presented, along
+    with the means chosen to deal with them.  The current status of the tool
+    and some preliminary experiences are discussed." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
