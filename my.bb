@@ -2950,6 +2950,36 @@
     and some preliminary experiences are discussed." 
 }
 
+@InProceedings{davhldl,
+  author       = "Golan, Michael and Hanson, David~R.",
+  title        = "{DUEL} --- {A} Very High-Level Debugging Language",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "107--117",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "high-level languages, debuggers, generators, value sequences,
+    interpreters",
+  abstract     = "Most source-level debuggers accept expressions in the source
+    language, e.g., C, and can print source-language values.  This approach is
+    usually justified on grounds that programmers need to know only one
+    language.  But the evaluation of source-language expressions or even
+    statements is poorly suited for making non-trivial queries about the
+    program state, e.g., ``which elements of array verb|x[100]| are positive?''
+    Duel departs from the conventional wisdom: It is a very high-level language
+    designed specifically for source-level debugging of C programs.  Duel
+    expressions are a superset of C's and include ``generators,'' which are
+    expressions that can produce zero or more values and are inspired by Icon,
+    APL, and LISP.  For example, verb|x[..100] >? 0| displays the positive
+    elements of x and their indices.  Duel is implemented on top of gdb and
+    adds one new command to evaluate Duel expressions and display their
+    results.  This paper describes Duel's semantics and syntax, gives examples
+    of its use, and outlines its implementation.  Duel is freely available and
+    could be interfaced to other debuggers.", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-399-92"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
