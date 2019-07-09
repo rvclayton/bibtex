@@ -2980,6 +2980,56 @@
   location     = "https://www.cs.princeton.edu/research/techreps/TR-399-92"
 }
 
+@InProceedings{pmttotvd,
+  author       = "Stephen~A. Uhler",
+  title        = "{PhoneStation}, Moving the Telephone onto the Virtual Desktop",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "131--140",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "tcl, phone services, event-driven programming",
+  abstract     = "PhoneStation is a system that provides a Sun Microsystems
+    SPARCstation with complete control over an ordinary telephone line.  It
+    consists of a telephone line interface unit with loop control and touch
+    tone detection, a suite of supporting software libraries that include
+    digital signal processing for call progress monitoring, text-to-speech
+    conversion, telephone line control, and PhoneScript, a high level
+    procedural language that uses TCL for building interactive based
+    application.", 
+  location     = "https://www.usenix.org/conference/usenix-winter-1993-conference/phonestation-moving-telephone-virtual-desktop"
+}
+
+@InProceedings{tsdzamsts,
+  author       = "Chris Peak",
+  title        = "The {San Diego ``Zoo''}: A Multicomputer Stress Test Suite",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "119--130",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "stress testing, shell scripting, multicomputers, process
+    migration", 
+  abstract     = "This paper describes a suite of stress tests for the OSF/1 AD
+    TNC operating system running in Intel's Paragon XP/S and iPSC/860 Hypercube
+    multicomputers or on networked AT386 machines.  These tests were written to
+    exercise the distributed process management features of this OS, but to do
+    so using unsophisticated user-level programs as much as possible.  In
+    particular, much use is made of Korn shell scripts supplemented by a
+    minimal number of standard TNC user commands.  The zoomorphic behavior of
+    these tests --- involving spontaneous movement, sleeping, eating (CPU time)
+    --- suggested their animal names.  Coincidentally, the Locus office is
+    located in San Diego, so the test suite became dubbed the San Diego Zoo and
+    soon took on a life of its own.  And what could be more stressful than life
+    itself? Note that despite the whimsical tone of this paper, the subject and
+    approach outlined here are quite real and applicable to any distributed
+    process environment with remote execution and process migration
+    capabilities.", 
+  location     = ""
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
