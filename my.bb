@@ -3026,8 +3026,85 @@
     itself? Note that despite the whimsical tone of this paper, the subject and
     approach outlined here are quite real and applicable to any distributed
     process environment with remote execution and process migration
-    capabilities.", 
-  location     = ""
+    capabilities." 
+}
+
+@InProceedings{asotsfb,
+  author       = "Joel McCormack and Bob McNamara",
+  title        = "{A} Sketch of the Smart Frame Buffer",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "169--179",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "frame buffers, graphics, system design",
+  abstract     = "Using a RISC processor to drive a simple frame buffer yields
+    good 2D color graphics performance.  But processor, memory, and bus
+    architectures can prevent processors from saturating video RAM bandwidth.
+    The smart frame buffer is a small cheap gate array that makes full memory
+    bandwidth available to the CPU by expanding 32 data bits into operations
+    upon 32 pixels; pixels can be 8, 16, or 32 bits deep.  We avoid the cost
+    and complexity of typical graphics accelerators by leaving high-level
+    control to the CPU, yet achieve comparable performance.  This paper
+    describes the architecture of the smart frame buffer chip, sketches several
+    software algorithms for common X11 graphics operations, and compares
+    performance against other popular graphics hardware." 
+}
+
+@InProceedings{usfmsacoasl,
+  author       = "Bruno d'Ausbourg and Christel Calas",
+  title        = unix # " Services for Multilevel STorage and Communications Over a Secure {LAN}",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "157--168",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "multilevel security, secure lan, information flow",
+  abstract     = "In this paper we suggest a way to build very secure Unix
+    systems and applications.  They are based on the architecture of a highly
+    secure machine (M2S) and the design of highly secure communicating
+    mechanisms over a LAN architecture.  The entire security is achieved and
+    managed by a reduced Security SubSystem (SSS) operating in the hardware
+    layer.  This security is formally defined and is directed at the protection
+    of both confidentiality and integrity of data, processes, and
+    communication.  The controls enforced by this SSS are founded on the rules
+    of multilevel security.  The goal is to control casual dependencies inside
+    the entire system by controlling all of the elementary flows of
+    information.  This leads to a machine and to a basic system for
+    communication without any possible disclosure or unauthorized modification
+    of information.  In fact, no covert channel can be used in order to strike
+    a blow at this system.  Upon such a machine, services and functions of a
+    Unix operating system can be built.  And upon such a LAN, services and
+    functions of a network system can also be built.  We demonstrate what kind
+    of services may be offered to the users and how they can be used to develop
+    applications with new security features." 
+}
+
+@InProceedings{gaulsbflcds,
+  author       = "Paxson, Vern and Saltmarsh, Chris",
+  title        = "{\it Glish\/}:  {A} User-Level Software Bus for Loosely-Coupled Distributed Systems",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "141--154",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "software backplane, inter-process communication,
+    event-driven systems, interpreters",
+  abstract     = "We describe Glish, an interpreted language for building
+    distributed systems from modular, event-oriented programs.  These programs
+    are written in conventional languages such as C, C++, or FORTRAN.  Glish
+    scripts can create local and remote processes and control their
+    communication.  Glish also provides a full, array-oriented programming
+    language for manipulating binary data sent between the processes.  In
+    general Glish uses a centralized communication model where interprocess
+    communication passes through the Glish interpreter, allowing dynamic
+    modification and rerouting of data values, but Glish also supports
+    point-to-point links between processes when necessary for high performance.
+    Glish is available via anonymous ftp.", 
+  location     = "https://www.cv.nrao.edu/glish/papers/USENIX-93.ps.gz"
 }
 
 @Article{eobsoiop,
@@ -5800,6 +5877,33 @@
   location     = "https://doi.org/10.1109/32.4659"
 }
 
+@Article{aml,
+  author       = "Damm, Werner",
+  title        = "{A} Microprogramming Logic",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 5,
+  pages        = "559--574",
+  month        = may,
+  keywords     = "design verification, firmware verification, formal
+    microengine models, hardware description languages, high-level microprogramming
+    languages",
+  abstract     = "A universal syntax-directed proof system is presented for the
+    verification of horizontal computer architectures.  The system is based on
+    the axiomatic architecture description language AADL, which is sufficiently
+    rich to allow the specification of target architectures while providing a
+    concise model for clocked microarchitectures.  For each description A
+    epsilon AADL of a host, it is shown how to construct systematically a
+    (Hoare-style) axiomatic definition of an A-dependent high-level
+    microprogramming language based on S*.  The axiomatization of A's
+    microoperations together with a powerful proof-rule dealing with the
+    inherent low-level parallelism of horizontal architectures allow a complete
+    axiomatic treatment of the timing behavior and dynamic conflicts of
+    microprograms written in S*(A).", 
+  location     = "https://doi.org/10.1109/32.6134"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -6404,6 +6508,17 @@
   location     = "PR 6113.A924 I54"
 }
 
+@Book{owh,
+  author       = "Stephen Budiansky",
+  title        = "Oliver Wendell Holmes",
+  publisher    = "W.~W. Norton",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "oliver wendell holmes, supreme court, philosophy of law, free
+    speech",
+  location     = "KF 8745.H6 B83"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -6514,6 +6629,14 @@
   address      = "Alberta, Canada",
   keywords     = "apl, nail, j",
   location     = "https://webdocs.cs.ualberta.ca/~smillie/Jpage/MyLife.pdf"
+}
+
+@TechReport{tplo2014,
+  author       = "Niklaus Wirth",
+  title        = "The Programming Language {Oberon}",
+  year         = 2014,
+  month        = oct,
+  keywords     = "oberon, language definition"
 }
 
 @Manual{wdud,
