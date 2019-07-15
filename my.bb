@@ -3107,6 +3107,78 @@
   location     = "https://www.cv.nrao.edu/glish/papers/USENIX-93.ps.gz"
 }
 
+@InProceedings{waxtbffapivpl,
+  author       = "Gustaf Neumann and Stefan Nusser",
+  title        = "Wafe --- An {X Toolkit} Based Frontend for Application Programs in Various Programming Languages",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "181--192",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "interface generation, widget toolkits, tcl, scripting
+    languages, domain-specific language",
+  abstract     = "Wafe provides a ﬂexible and easy to use interface to the
+    XToolkit (Xt) and the Athena widget set (Xaw) using the embeddable command
+    language Tcl.  It allows access to Xt’s functionality from all compiler and
+    interpreter languages, provided that they can communicate over stdout and
+    stdin via unbuffered I/O.  Atypical Wafe application consists of a frontend
+    process and an application program, which is executed as a child process of
+    the frontend.  Wafe provides a relatively high level interface to the X
+    Toolkit and widget programming, where the user interface can be
+    interactively developed without any need to program in C.  Wafe can be used
+    as a rapid prototyping tool and allows easier migration from existing ASCII
+    based programs to X Window applications." 
+}
+
+@InProceedings{tdaiotifs,
+  author       = "Michael~A. Olson",
+  title        = "The Design and Implementation of the {Inversion} File System",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "205--217",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "file systems, data bases, transactions, device independence",
+  abstract     = "This paper describes the design, implementation, and
+    performance of the Inversion file system.  Inversion provides a rich set of
+    services to file system users, and manages a large tertiary data store.
+    Inversion is built on top of the POSTGRES database system, and takes
+    advantage of low-level DBMS services to provide transaction protection,
+    fine-grained time travel, and fast crash recovery for user files and file
+    system metadata.  Inversion gets between 30% and 80% of the throughput of
+    ULTRIX NFS backed by a non-volatile RAM cache.  In addition, Inversion
+    allows users to provide code for execution directly in the file system
+    manager, yielding performance as much as seven times better than that of
+    ULTRIX NFS.", 
+  location     = "http://xtf.lib.berkeley.edu/reports/TRWebData/accessPages/S2K-93-28.html"
+}
+
+@InProceedings{daioamtx,
+  author       = "Carl Schmidtmann and Michael Tao and Steven Watt",
+  title        = "Design and Implementation of a Multi-Threaded {Xlib}",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "193--203",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "library design, multi-threaded code, x window system",
+  abstract     = "In the MIT X Window System's library Version 11 Release 5
+    (Xlib) there is minimal support for multi-threaded applications.
+    Programmers writing multi-threaded programs using Xlib are required to
+    provide locking or designate a single thread to handle many of the calls to
+    X functions in their programs.  In this paper we will describe the design
+    and implementation of an upgraded version of Xlib that provides more
+    support for multi-threaded applications.  Our goals were to make as few
+    changes to the Application Programming Interface as possible, make the
+    locking invisible to the programmer using the library, and maintain the
+    current portability and performance of the library.  This library was
+    implemented on Digital Equipment Corporation's version of OSF/1 using the
+    Pthreads library and Xerox Corporation's Cedar environment." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -6508,15 +6580,26 @@
   location     = "PR 6113.A924 I54"
 }
 
-@Book{owh,
+@Book{owhsb,
   author       = "Stephen Budiansky",
   title        = "Oliver Wendell Holmes",
+  subtitle     = "A Life in War, Law, and Ideas",
   publisher    = "W.~W. Norton",
   year         = 2019,
   address      = nyny,
   keywords     = "oliver wendell holmes, supreme court, philosophy of law, free
     speech",
   location     = "KF 8745.H6 B83"
+}
+
+@Book{tccab,
+  author       = "Alfred Bester",
+  title        = "The Computer Connection",
+  publisher    = "Berkely",
+  year         = 1975,
+  address      = nyny,
+  keywords     = "immortals, the surveillance state",
+  location     = "PS 3552.E796"
 }
 
 @Misc{1mmmitxss,
