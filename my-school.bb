@@ -29192,18 +29192,6 @@
   location     = ""
 }
 
-@InProceedings{maaioutftd5,
-  author       = "Jonathan Kay and Joseph Pasquale",
-  title        = "Measurement, Analysis, and Improvement of {UDP/IP} Throughput
-		  for the {DECstation} 5000",
-  booktitle    = uwc,
-  year         = 1993,
-  pages        = "249--258",
-  address      = sdca,
-  month        = "25--29 January",
-  keywords     = "performance, udp"
-}
-
 @InProceedings{thjmct,
   author       = "Norman Ramsey and Mary~F. Fernandez",
   title        = "The {New Jersey} Machine-Code Toolkit",
