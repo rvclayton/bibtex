@@ -3179,6 +3179,136 @@
     Pthreads library and Xerox Corporation's Cedar environment." 
 }
 
+@InProceedings{ossfpfe,
+  author       = "Neil Webber",
+  title        = "Operating System Support for Portable Filesystem Extensions",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "219--228",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "file system shims, stackable file system, file system
+    extensions, system call interceptions, portability",
+  abstract     = "No standards, de facto or otherwise, exist for the
+    programming environment found inside Unix kernels.  Yet designers hope that
+    the VFS architecture, especially when combined with vnode stacking, will
+    entice third parties into supplying new filesystem services such as
+    compression or encryption.  Our experience suggests that few third parties
+    are likely to do so because of the expense inherent in supporting
+    non-portable kernel modules in heterogeneous network environments.  We have
+    developed kernel extensions allowing user-space implementations of such
+    services.  The extensions build on our experiences with hierarchical
+    storage, backup, watchdogs, and vnode stacking.  Our model supports common
+    interfaces among different kernels, thus allowing portable implementations
+    of such services.  This paper examines the VFS portability issues that
+    inspired this work.  It then discusses our solution, its relationship to
+    other models, its relationship to vnode stacking, our implementation, and
+    future directions."
+}
+
+@InProceedings{fsius,
+  author       = "Paul~R. Eggert and D.~Scott Parker",
+  title        = "File Systems in User Space",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "229--240",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "naming, intensionality, shell programming, file systems,
+    extensible systems, ",
+  abstract     = "Current methods for interfacing file systems to user programs
+    suffer two major drawbacks: they require kernel modifications or root
+    privileges, and they are too complicated to be given to ordinary users.  In
+    this paper we show alternative methods are possible.  The recent rise of
+    dynamic linking provides a new way for users to develop their own file
+    systems: by interposing a layer of user code between a program and the
+    system call interface, a user can alter or extend a file system's behavior.
+    For greatest power and reliability, such changes to the file system
+    behavior must be managed systematically.  We present two user-extensible
+    file systems that are loosely modeled on intentional logic.  IFS0 is
+    simple, and supports only extended pathname interpretation for files: it
+    permits certain shell-like expressions as pathnames.  To this, IFS1 adds
+    directly lookup and an escape mechanism for interpreting pathnames that can
+    be modified by the user at any point.  These file systems operate by
+    modifying the semantics of Unix system calls that take pathname arguments.
+    With IFS1 a user can develop a wide range of useful file systems without
+    writing a line of C code.  We have developed a variety of sample file
+    systems with IFS1, including tar image navigation and a software
+    development file system resembling 3DFS.  ifs1 can thus be thought of as a
+    simple user-programmable file system toolkit." 
+}
+
+@InProceedings{uksfop,
+  author       = "Hyuck Yoo and Tom Rogers",
+  title        = "Unix Kernel Support for {OLTP} Performance",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "241--247",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "rdbms, oltp, virtual storage, shared page tables,
+    asynchronous io",
+  abstract     = "Unix machines are increasingly being used for online
+    transaction processing (OLTP) in database applications.  There have been
+    several mismatches between OLTP requirements and Unix kernel facilities
+    necessary to implement them that have led to performance bottlenecks.  In
+    this paper we describe two kernel features that improve OLTP performance on
+    Unix.  We describe enhancements to the virtual memory system and i/o system
+    in the Unix kernel, and evaluate the performance of the new kernels with a
+    database benchmark.  The results show that the enhancements achieve
+    significant improvement in OLTP performance." 
+}
+
+@InProceedings{maaiouitftd5,
+  author       = "Jonathan Kay and  Joseph Pasquale",
+  title        = "Measurement, Analysis, and Improvement of {UDP/IP} Throughput for the {DECstation} 5000",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "249--258",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "performance, checksumming, data copying, fddi",
+  abstract     = "Networking software is a growing bottleneck in modern
+    workstations, particularly for high throughput applications such as
+    networked digital video.  We measure various components of the UDP/IP
+    protocol stack in a DECstation 5000/200 running Ultrix 4.2a, and quantify
+    the way in which checksumming and copying dominate the processing time for
+    high throughput applications.  This paper describes network software
+    measurements and substantial performance improvements which derive from a
+    faster checksum implementation.",
+  location     = "http://cseweb.ucsd.edu/~pasquale/Papers/usenix-jk93.pdf",
+}
+
+@InProceedings{tbpfanafulpc,
+  author       = "Steven McCanne and Van Jacobson",
+  title        = "The {BSD} Packet Filter:  {A} New Architecture for User-Level Packet Capture",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "259--269",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "packet filters, network monitoring, stack machines, register
+    machines, performance, kernel-resident code, performance",
+  abstract     = "Many versions of Unix provide facilities for user-level
+    packet capture, making possible the use of general purpose workstations for
+    network monitoring.  Because network monitors run as user-level processes,
+    packets must be copied across the kernel/user-space protection boundary.
+    This copying can be minimized by deploying a kernel agent called a packet
+    filter, which discards unwanted packets as early as possible.  The original
+    Unix packet filter was designed around a stack-based filter evaluator that
+    performs sub-optimally on current RISC CPUs.  The BSD Packet Filter (BPF)
+    uses a new, registerbased filter evaluator that is up to 20 times faster
+    than the original design.  BPF also uses a straightforward buffering
+    strategy that makes its overall performance up to 100 times faster than
+    Sun's NIT running on the same hardware.", 
+  location     = "https://www.tcpdump.org/papers/bpf-usenix93.pdf"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -5976,6 +6106,29 @@
   location     = "https://doi.org/10.1109/32.6134"
 }
 
+@Article{bds,
+  author       = "Fred~J. Maryanski",
+  title        = "Backend Database Systems",
+  journal      = surveys,
+  year         = 1980,
+  volume       = 12,
+  number       = 1,
+  pages        = "3--25",
+  month        = mar,
+  keywords     = "database systems, backend machines, distributed databases,
+    database machines, performance, concurrency, networking, load balancing",
+  abstract     = "Backend database systems have been proposed as a solution to
+    the problem of overloaded data processing installations.  This tutorial
+    examines backend database systems in terms of their basic structure, their
+    potential benefits and drawbacks, and the problems facing developers of
+    such systems.  Several prototype systems are described, and research on
+    extensions of the backend concept is discussed.  The structure of the
+    hardware and software components of the backend database system is
+    presented in detail.  The performance problems encountered in recent
+    prototypes are pointed out and potential solutions indicated",
+  location     = "https://doi.org/10.1145/356802.356804"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -6600,6 +6753,16 @@
   address      = nyny,
   keywords     = "immortals, the surveillance state",
   location     = "PS 3552.E796"
+}
+
+@Book{tottfaf,
+  author       = "Fernando~A. Flores",
+  title        = "Tears of the Trufflepig",
+  publisher    = fsg,
+  year         = 2019,
+  address      = nyny,
+  keywords     = "the future, mexican-american relations, crime syndicates",
+  location     = "PS 3606.L5886 T43"
 }
 
 @Misc{1mmmitxss,
