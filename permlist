@@ -566,6 +566,7 @@ avl trees tutorial and c++ implementation : appleton
 axiomatic bootstrapping a guide for compiler hackers : appel
 axiomatic semantics : solnneger
 axle an axiomatic language for string transformations : cohen
+backend database systems : maryanski
 backtracking in a generalized control setting : lindstrom
 balanced binary search trees : andersson
 bare metal recovery : curley
@@ -1148,6 +1149,7 @@ figures doors and passages : evans
 file verification using crc : nelson
 file servers for network based distrubuted systems : svobodova
 file system design for an nfs file sever application : hitz
+file systems in user space : eggert
 filet o fish practical and dependable domain specific languages for os development : dagland
 filter objects for java : joshi
 final shift for call cc direct implementation of shift and reset : gasbichler
