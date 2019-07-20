@@ -29788,18 +29788,6 @@ b
   month        = "21--23 May"
 }
 
-@InProceedings{tbpfanafulpc,
-  author       = "S. McCanne and Van Jacobson",
-  title        = "The {BSD} Packet Filter: A New Architecture for User-level
-		  Packet Capture",
-  booktitle    = uwc,
-  year         = 1993,
-  pages        = "259--269",
-  address      = sdca,
-  keywords     = "",
-  location     = "ftp://ftp.ee.lbl.gov/papers/bpf-usenix93.ps.Z"
-}
-
 @InProceedings{dacefrels,
   author       = "Alex Quilici and David~N. Chin",
   title        = "{DECODE}: A Cooperative Environment for Reverse-Engineering
