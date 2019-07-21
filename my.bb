@@ -3309,6 +3309,26 @@
   location     = "https://www.tcpdump.org/papers/bpf-usenix93.pdf"
 }
 
+@InProceedings{toonip9,
+  author       = "Dave Presotto and Phil Winterbottom",
+  title        = "The Organization of Networks in {Plan} 9",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "271--280",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "network management, file systems, 9p, il, file system
+    mounting, streams",
+  abstract     = "In a distributed system networks are of paramount importance.
+    This paper describes the implementation, design philosophy, and
+    organization of network support in Plan 9.  Topics include network
+    requirements for distributed systems, our kernel implementation, network
+    naming, user interfaces, and performance.  We also observe that much of
+    this organization is relevant to current systems.",
+  location     = "http://doc.cat-v.org/plan_9/4th_edition/papers/net/"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
