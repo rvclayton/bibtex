@@ -51628,18 +51628,6 @@
   keywords     = "media management, unix, file systems, mounting, labels"
 }
 
-@InProceedings{toonip9,
-  author       = "Dave Presotto and Phil Winterbottom",
-  title        = "The Organization of Networks in {Plan} 9",
-  booktitle    = wucp,
-  year         = 1993,
-  pages        = "271--280",
-  address      = sdca,
-  month        = "25--29 January",
-  keywords     = "distributed systems, network access, file systems, streams,
-		  addressing, servers"
-}
-
 @InProceedings{pti,
   author       = "Douglas~E. Comer and John~C. Lin",
   title        = "Probing {TCP} Implementations",
