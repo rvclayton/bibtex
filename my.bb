@@ -3329,6 +3329,28 @@
   location     = "http://doc.cat-v.org/plan_9/4th_edition/papers/net/"
 }
 
+@InProceedings{rmis,
+  author       = "Howard Alt",
+  title        = "Removable Media in {Solaris}",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "281--287",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "removable media, file systems, nfs servers",
+  abstract     = "Since the dawn of time (or at least Jan 1, 1970) it has been
+    difficult for the common user to take advantage of removable media under
+    UNIX.  The traditional UNIX approach to dealing with removable media has
+    been to let programs name the device containing the media, and to leave it
+    to the operator (or user) to ensure that the right media is in the device
+    named.  We have implemented the opposite approach: having the program
+    specify the media and letting the OS take care of the device.  Media is
+    referenced by a name in the file system and recognized when it is inserted
+    into a device.  Administrators may specify actions to be taken when media
+    is named, recognized, and removed." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
