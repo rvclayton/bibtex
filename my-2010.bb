@@ -51617,17 +51617,6 @@
   location     = "QA 76.6.F657"
 }
 
-@InProceedings{rmis,
-  author       = "Howard Alt",
-  title        = "Removable Media in {Solaris}",
-  booktitle    = wucp,
-  year         = 1993,
-  pages        = "281--287",
-  address      = sdca,
-  month        = "25--29 January",
-  keywords     = "media management, unix, file systems, mounting, labels"
-}
-
 @InProceedings{pti,
   author       = "Douglas~E. Comer and John~C. Lin",
   title        = "Probing {TCP} Implementations",
