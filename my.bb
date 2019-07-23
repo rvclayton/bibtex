@@ -3351,6 +3351,34 @@
     is named, recognized, and removed." 
 }
 
+@InProceedings{aatcsfus,
+  author       = "Christopher~J. Calabrese",
+  title        = "An Advanced Tape Cataloging System for " # unix # " Systems",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "289--293",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "tape management, unix media management, data storage",
+  abstract     = "The problem of tracking large numbers of computer tapes has
+    been largely neglected in the Unix environment.  Commercial Unix tape
+    cataloging systems are neither as powerful as those for proprietary
+    mainframe and minicomputer operating systems, not do they fully embrace the
+    Unix tool-building philosophy.  This paper describes the tape cataloging
+    system now in use at the at&t Bell Laboratories Homer Computer Center,
+    where Unix systems have been used for large-scale data processing since the
+    mid 1980s.  This system provides the flexible tool-building environment and
+    file-naming semantics that Unix is famous for, while also providing all the
+    information needed to track thousands of tapes.  The need for user training
+    has been minimized by making the tape-specific commands similar to standard
+    Unix commands.  In addition to the user level interface, there is an
+    interface for automated tape mounting services.  Major technical features
+    of the system internals are a Unix-like file system inside a relational
+    database, a Unix-like programming interface to this file system, with Unix
+    utilities ported to it, and transparent networking." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
