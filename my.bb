@@ -3379,6 +3379,87 @@
     utilities ported to it, and transparent networking." 
 }
 
+@InProceedings{eikdptiiotaca,
+  author       = "Kevin Fall and Joseph Pasquale",
+  title        = "Exploiting In-Kernel Data Paths to Improve {I}/{O} Throughput and {CPU} Availability",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "327--333",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "system calls, device-device io, os performance, sharing",
+  abstract     = "We present the motivation, design, implementation, and
+    performance evaluation of a UNIX kernel mechanism capable of establishing
+    fast in-kernel data pathways between I/O objects.  A new system call,
+    splice() moves data asynchronously and without user-process intervention to
+    and from I/O objects specified by file descriptors.  Performance
+    measurements indicate improved I/O throughput and increased CPU
+    availability attributable to reduced context switch and data copying
+    overhead.", 
+  location     = "https://cseweb.ucsd.edu/~pasquale/Research/Papers/usenix93.pdf"
+}
+
+@InProceedings{aioalsfsfu,
+  author       = "Seltzer, Margo and Bostic, Keith and McKusick, Marshall Kirk and Staelin, Carl",
+  title        = "An Implementation of a Log-Structured File System for " # unix,
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "307--326",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "file systems, disk layout, recovery, file-system management,
+    cleaning, performance, fast file system, extended file system",
+  abstract     = "Research results suggest that a log-structured file system
+    (LFS) offers the potential for dramatically improved write performance,
+    faster recovery time, and faster file creation and deletion than
+    traditional UNIX file systems.  This paper presents a redesign and
+    implementation of the Sprite log-structured file system that is more robust
+    and integrated into the vnode interface.  Measurements show its performance
+    to be superior to the 4BSD Fast File System (FFS) in a variety of
+    benchmarks and not significantly less than FFS in any test.  Unfortunately,
+    an enhanced version of FFS (with read and write clustering) provides
+    comparable and sometimes superior performance to our LFS.  However, LFS can
+    be extended to provide additional functionality such as embedded
+    transactions and versioning, not easily implemented in traditional file
+    systems.", 
+  location     = "https://www.eecs.harvard.edu/margo/papers/usenix93/paper.ps"
+}
+
+@InProceedings{ekmaosmm,
+  author       = "Paul~E. McKenney and Jack Slingwine",
+  title        = "Efficient Kernel Memory Allocation on Shared-Memory Multiprocessors",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "295--305",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "storage management, multiprocessors",
+  abstract     = "There has been great progress from the traditional allocation
+    algorithms designed for small memories to more modern algorithms
+    exemplified by McKusick's and Karel's allocator.  Nonetheless, none of
+    these algorithms have been designed to meet the needs of Unix kernels
+    supporting commercial data-processing applications in a shared-memory
+    multiprocessor environment.  On a shared-memory multiprocessor, memory is a
+    global resource.  Therefore, allocator performance depends on
+    synchronization primitives and manipulation of shared data as well as on
+    raw CPU speed.  Synchronization primitives and access to shared data depend
+    on a system bus interactions.  The speed of system busses has not kept pace
+    with that of CPUs, as witnessed by the ever-larger caches found on recent
+    systems.  Thus, the performance of synchronization primitives and of memory
+    allocators that use them have not received the full benefit of increased
+    CPU performance.  This situation calls for a new approach to global memory
+    allocation that is not so dependent on synchronization primitives and
+    manipulation of shared data.  This paper presents such an approach, which
+    exhibits near-linear speedup on multiprocessors as well as fifteen times
+    the performance of the traditional algorithm when run on a single CPU.
+    Nonetheless, this allocator presents an interface identical to the standard
+    System V Unix allocator and performs the efficient online coalescing
+    required by many commercial data-processing environments." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -6199,6 +6280,52 @@
   location     = "https://doi.org/10.1145/356802.356804"
 }
 
+@Article{ardphawtfi,
+  author       = "Parnas, David~L. and Clements, Paul~C.",
+  title        = "{A} Rational Design Process:  How and Why to Fake It",
+  journal      = tse,
+  year         = 1986,
+  volume       = 12,
+  number       = 2,
+  pages        = "251-257",
+  month        = feb,
+  keywords     = "software design, requirements analysis, modularity,
+    interfaces, documentation",
+  abstract     = "Many have sought a software design process that allows a
+    program to be derived systematically from a precise statement of
+    requirements.  It is proposed that, although designing a real product in
+    that way will not be successful, it is possible to produce documentation
+    that makes it appear that the software was designed by such a process.  The
+    ideal process and the documentation that it requires are described.  The
+    authors explain why one should attempt to design according to the ideal
+    process and why one should produce the documentation that would have been
+    produced by that process.  The contents of each of the required documents
+    are outlined.", 
+  location     = "https://doi.org/10.1109/TSE.1986.6312940"
+}
+
+@Article{dovaptfda,
+  author       = "Claude Jard and Jean-Fran{\c c}ois Monin and Roland Groz",
+  title        = "Development of {V{\' e}da}, A Prototyping Tool for Distributed Algorithms",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "339--352",
+  month        = mar,
+  keywords     = "distributed algorithms, estelle, prolog, pascal, protocols,
+    simulation, software engineering, verification",
+  abstract     = "The development of a simulator, called Veda, is described.
+    Veda is a software tool to help designers in protocol modeling and
+    validation.  It is oriented towards the rapid prototyping of distributed
+    algorithms.  Algorithms are described using an ISO (International
+    Organisation for Standardization) formal description technique, called
+    Estelle.  The development of Veda and its internal structure is presented,
+    emphasizing the use of Prolog as a software engineering tool.  Typical uses
+    of Veda are discussed.",
+  location     = "https://hal.inria.fr/inria-00071322/document"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -6833,6 +6960,28 @@
   address      = nyny,
   keywords     = "the future, mexican-american relations, crime syndicates",
   location     = "PS 3606.L5886 T43"
+}
+
+@Book{ydimd,
+  author       = "Deborah Eisenberg",
+  title        = "Your Duck is My Duck",
+  publisher    = "Ecco",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "philanthropy, memoirs, family, mental health",
+  location     = "PS 3555.I793 A6"
+}
+
+@Book{tovcs,
+  author       = "Cliff Sims",
+  title        = "Team of Vipers",
+  subtitle     = "My 500 Extraordinary Days in the Trump White House",
+  publisher    = "St. Martin's Press",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "u.s. politics, presidential politics, donald trump, white
+    house politics",
+  location     = "https://lccn.loc.gov/2018439173"
 }
 
 @Misc{1mmmitxss,
