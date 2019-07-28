@@ -3460,6 +3460,55 @@
     required by many commercial data-processing environments." 
 }
 
+@InProceedings{tedwps,
+  author       = "C.~Mic Bowman and Chanda Dharap",
+  title        = "The {Enterprise} Distributed White-Pages Service",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "349--359",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "name servers, aggregation, distributed data bases",
+  abstract     = "This paper describes the Enterprise user directory system.
+    Enterprise is unique among directory services in three ways.  First,
+    clients identify people using an unordered set of attributes called a
+    descriptive name.  Descriptive names are easier to use and remember than,
+    for example, x.t00 distinguished names.  Second, Enterprise supports an
+    efficient distributed search facility.  Rather than query every server in
+    the system, Enterprise maintains several distributed indices that trim the
+    set of potential servers to a fraction of the total.  Finally, Enterprise
+    provides a fa ility for automatically maintaining its database of
+    information using existing repositories of information such as the ruserd
+    daemon and the Sun NIS database.  This removes the burden placed on users
+    and system administrators to maintain the information.  Enterprise is
+    implemented as a collection of translators, resolution functions, and
+    generators within a Univers descriptive name server." 
+}
+
+@InProceedings{fasfdncap,
+  author       = "David C.~M. Wood and Sean~S. Coleman and Michael~F. Schwartz",
+  title        = "Fremont:  A System for Discovering Network Characteristics and Problems",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "335--347",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "network management, network measurement",
+  location     = "In this paper we present an architecture and prototype
+    implementation for discovering key network characteristics, such as hosts,
+    gateways, and topology.  The Fremont system uses an extensible set of
+    modules to discover information, based on a variety of different protocols
+    and information sources, rather than a single network management protocol.
+    This approach allows more complete and timely information to be discovered
+    than, for example, using only one protocol, even one as capable as the
+    Simple Network Management Protocol.  The discovered information is
+    time-stamped and recorded in a database.  The contents of this database are
+    cross-correlated to form an increasingly complete network picture, to
+    direct further discovery, and to highlight inconsistent information." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
