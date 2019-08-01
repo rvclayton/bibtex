@@ -3509,6 +3509,109 @@
     direct further discovery, and to highlight inconsistent information." 
 }
 
+@InProceedings{fifgmopa,
+  author       = "Edelson, Daniel~R.",
+  title        = "Fault Interpretation:  Fine-Grain Monitoring of Page Accesses",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "395--403",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "memory access monitoring, garbage collection",
+  abstract     = "This paper presents a technique for obtaining fine-grain
+    information about page accesses from standard virtual memory hardware and
+    UNIX operating system software.  This can be used to monitor all user-mode
+    accesses to specified regions of the address space of a process.
+    Application code can intervene before and/or after an access occurs,
+    permitting a wide variety of semantics to be associated with memory pages.
+    The technique facilitates implementing complex replication or consistency
+    protocols on transparent distributed shared memory and persistent memory.
+    The technique can also improve the efficiency of certain generational and
+    incremental garbage collection algorithms.  This paper presents our
+    implementation and suggest several others.  Efficiency measurements show
+    faults to be about three orders of magnitude more expensive than normal
+    memory accesses, but two orders of magnitude less expensive than page
+    faults.  Information about how to obtain the code via anonymous ftp appears
+    at the end of the paper." 
+}
+
+@InProceedings{arscfcueacp,
+  author       = "Steven McCanne and Chris Torek",
+  title        = "A Randomized Sampling Clock for {CPU} Utilization Estimation and Code Profiling",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "387--394",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "statistical sampling, performance monitoring, code profiling",
+  abstract     = "The Unix rusage statistics are well known to be highly
+    inaccurate measurements of CPU utilization.  We have observed errors in
+    real applications as large as 80%, and we show how to construct an
+    adversary process that can use an arbitrary amount of the CPU without being
+    charged.  We demonstrate that these inaccuracies result from aliasing
+    effects between the periodic system clock and periodic process behavior.
+    Process behavior cannot be changed but periodic sampling can.  To eliminate
+    aliasing, we have introduced a randomized, aperiodic sampling clock into
+    the 4.4bsd kernel.  Our measurements show that this randomization has
+    completely removed the systematic errors." 
+}
+
+@InProceedings{hpok,
+  author       = "Andrew McRae",
+  title        = "Hardware Profiling of Kernels",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "375--386",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "kernel profiling, profiling hardware, performance
+    optimization, data analysis",
+  abstract     = "This paper describes a method of accurately measuring and
+    profiling kernel code in real time.  Some background is covered, which
+    describes other more common, and easier, methods of profiling, and why
+    these methods were rejected.  Some goals are stated, and a proposed
+    hardware/software solution is described.  As a case study, the profiling
+    method is used to evaluate a kernel incorporating the Berkeley TCP/IP
+    networking code; the results of this exercise are presented, showing how
+    tracing of network software in real time highlights optimal or non-optimal
+    code paths.  Warning to software people: this paper contains some
+    descriptions of hardware.  Warning to non-kernel-hackers: this paper has
+    lots of kernel hacking in it.", 
+  location     = "http://mcrae.homeunix.net/papers/final_usenix.pdf"
+}
+
+@InProceedings{eardsbosfi,
+  author       = "Darren~R. Hardy and Michael~F. Schwartz",
+  title        = "Essence:  A Resource Discovery System Based on Semantic File Indexing",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "361--373",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "semantic indexing, file indexing, distributed databases",
+  abstract     = "Discovering different types of file resources (such as
+    documentation, programs, and images) in the vast amount of data contained
+    within network file systems is useful for both users and system
+    administrators.  In this paper we discuss the Essence resource discovery
+    system, which exploits file semantics to index both textual and binary
+    files.  By exploiting semantics, Essence extracts keywords that summarize a
+    file, and generates a compact yet representative index.  Essence
+    understands nested file structures (such as uuencoded, compressed, tar
+    files), and recursively unravels such files to generate summaries for them.
+    These features allow Essence to be used in a number of useful settings,
+    such as anonymous FTP archives.  We present measurements of our prototype
+    and compare them to related projects, such as the Wide Area Information
+    Servers (WAIS) system and the MIT Semantic File System (SFS).  We
+    demonstrate that Essence can index more data types, generate smaller
+    indexes, and in some case index data faster than these systems.  Our
+    prototype generates WAIS-compatible indexes, allowing WAIS users to take
+    advantage of the Essence indexing methods." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -6375,6 +6478,40 @@
   location     = "https://hal.inria.fr/inria-00071322/document"
 }
 
+@Article{uaioseicfp,
+  author       = "Li, Tao and John, Lizy Kurian and Sivasubramaniam, Anand and Vijaykrishnan, N. and Rubio, Juan",
+  title        = "Understanding and Improving Operating System Effects in Control Flow Prediction",
+  journal      = sigplan,
+  year         = 2002,
+  volume       = 37,
+  number       = 10,
+  pages        = "68--80",
+  month        = oct,
+  keywords     = "branch prediction, branch estimators, execution performance,
+    the kernel-user split",
+  abstract     = "Many modern applications result in a significant operating
+    system (OS) component.  The OS component has several implications including
+    affecting the control flow transfer in the execution environment.  This
+    paper focuses on understanding the operating system effects on control flow
+    transfer and prediction, and designing architectural support to alleviate
+    the bottlenecks.  We characterize the control flow transfer of several
+    emerging applications on a commercial operating system.  We find that the
+    exception-driven, intermittent invocation of OS code and the user/OS branch
+    history interference increase the misprediction in both user and kernel
+    code.We propose two simple OS-aware control flow prediction techniques to
+    alleviate the destructive impact of user/OS branch interference.  The first
+    one consists of capturing separate branch correlation information for user
+    and kernel code.  The second one involves using separate branch prediction
+    tables for user and kernel code.  We study the improvement contributed by
+    the OS-aware prediction to various branch predictors ranging from simple
+    Gshare to more elegant Agree, Multi-Hybrid and Bi-Mode predictors.  On 32K
+    entries predictors, incorporating OS-aware techniques yields up to 34%,
+    23%, 27% and 9% prediction accuracy improvement in Gshare, Multi-Hybrid,
+    Agree and Bi-Mode predictors, resulting in up to 8% execution speedup.", 
+  location     = "http://www.cse.psu.edu/~axs53/csl/papers/asplos02.pdf",
+  location     = "https://doi.org/10.1145/605397.605405"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -7031,6 +7168,17 @@
   keywords     = "u.s. politics, presidential politics, donald trump, white
     house politics",
   location     = "https://lccn.loc.gov/2018439173"
+}
+
+@Book{twam,
+  author       = "Sarah Caudwell",
+  title        = "Thus Was Adonis Murdered",
+  publisher    = "Dell",
+  year         = 1981,
+  price        = "$7.99",
+  address      = nyny,
+  keywords     = "art loving, murrdaar, venice",
+  location     = "PR 6053.A855 T5"
 }
 
 @Misc{1mmmitxss,
