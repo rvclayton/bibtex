@@ -3655,6 +3655,112 @@
   location     = "https://users.soe.ucsc.edu/~sbrandt/290S/udap.ps"
 }
 
+@InProceedings{ao1ufmpm,
+  author       = "Roman Zajcew and Paul Roy and David~L. Black and Chris Peak and Paulo Guedes and Bradford Kemp and John LoVerso and Michael Leibensperger and Michael Barnett and Faramarz Rabii and Durriya Netterwala",
+  title        = "An {OSF}/1 " # Unix # " for Massively Parallel Multicomputers",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "449--468",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "multicomputers, mach, ipc, distributed file systems, process
+    migration, process management, socket io",
+  abstract     = "This paper describes the architecture and implementation of a
+    version of the OSF/1 Unix operating system designed to run on multicomputer
+    hardware platforms.  The multicomputer hardware platforms targeted can
+    consist of hundreds or even thousands of individual nodes, where each node
+    consists of one or more processors.  The multicomputer version of OSF/1
+    Unix (called OSF/1 AD TNC) is built on the Mach 3.0 Microkernel and the
+    OSF/1 MK Single Server.  These have been modified to run in the
+    multicomputer environment and provide a view of the hardware that looks
+    like a conventional but massively scaled up shared memory multiprocessor.
+    The operating system presents this notion of a Single System Image by
+    building Unix functionality on top of base Mach services running on each
+    node in the multicomputer.  The focus of this paper is on the particular
+    enhancements made to standard OSF/1 functionality to operate in a
+    multicomputer environment without incurring system bottlenecks.  These
+    include a new distributed file system, a distributed implementation of
+    sockets, and enhancements to process management functionality to support
+    remote processing and load leveling.  Extensions to the operating system
+    interface to allow users to take advantage of the parallelism of the
+    multicomputer hardware are also discussed.", 
+  location     = "http://ftp.gwdg.de/pub/misc/opengroup/ri/os/papers/osf1ad_usenix.ps"
+}
+
+@InProceedings{aiouoaooos,
+  author       = "Yousef~A. Khalidi and Michael~N. Nelson",
+  title        = "An Implementation of " # unix # " on an Object-Oriented Operating System",
+  title        = "An {OSF}/1 Unix for Massively Parallel Multicomputers",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "469--479",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "spring, hosting, unix, servers, libraries, name binding, emulation",
+  abstract     = "This paper describes an implementation of UNIX on top of an
+    object-oriented operating system.  UNIX is implemented without modifying
+    the underlying mechanisms provided by the base system.  The resulting
+    system runs dynamically-linked UNIX binaries and utilizes the services
+    provided by the object-oriented system." 
+}
+
+@InProceedings{hualsfsftsm,
+  author       = "John~T. Kohl and Carl Staelin and Michael Stonebraker",
+  title        = "{HighLight}:  Using a Log-Structured File System for Tertiary Storage Management",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "435--447",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "log-structured file system, tertiary storage management,
+    storage hierarchy, automatic migration, tertiary storage characteristics,
+    huge storage capacity, robotic tape jukebox, file systems, storage
+    hierarchies, robotic storage devices, sequential write patterns, tertiary
+    storage device, memory cache, secondary storage devices", 
+  abstract     = "Robotic storage devices offer huge storage capacity at a low
+    cost per byte, but with large access times.  Integrating these devices into
+    the storage hierarchy presents a challenge to file system designers.
+    Log-structured file systems (LFSs) were developed to reduce latencies
+    involved in accessing disk devices, but their sequential write patterns
+    match well with tertiary storage characteristics.  Unfortunately, existing
+    versions only manage memory caches and disks, and do not support a broader
+    storage hierarchy.  HighLight extends 4.4BSD LFS to incorporate both
+    secondary storage devices (disks) and tertiary storage devices (such as
+    robotic tape jukeboxes), providing a hierarchy within the file system that
+    does not require any application support.  This paper presents the design
+    of HighLight, proposes various policies for automatic migration of file
+    data between the hierarchy levels, and presents initial migration mechanism
+    performance figures.",
+  location     = "http://db.cs.berkeley.edu/papers/UCB-MS-jtkohl.pdf"
+}
+
+@InProceedings{aaofmiause,
+  author       = "Ethan~L. Miller and Randy~H. Katz",
+  title        = "An Analysis of File Migration in a " # Unix # " Supercomputing Environment",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "421--433",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "mass storage, file management, file access behavior,
+    trace-driven analysis, file migration",
+  abstract     = "The supercomputer center at the National Center for
+    Atmospheric Research (NCAR) migrates large numbers of files to and from its
+    mass storage system (MSS) because there is insufficient space to store them
+    on the Cray supercomputer’s local disks.  This paper presents an analysis
+    of file migration data collected over two years.  The analysis shows that
+    requests to the MSS are periodic, with one day and one week periods.  Read
+    requests to the MSS account for the majority of the periodicity; as write
+    requests are relatively constant over the course of a week.  Additionally,
+    reads show a far greater fluctuation than writes over a day and week since
+    reads are driven by human users while writes are machine-driven.", 
+  location     = "https://users.soe.ucsc.edu/~elm/Papers/usenix93.pdf"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7244,6 +7350,17 @@
   location     = "PS 3619.U346 B36"
 }
 
+@Book{tstwii,
+  author       = "Charles~L. {Ponce de Leon}",
+  title        = "That's the Way It Is",
+  subtitle     = "A History of Television News in America",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "television, journalism, tv news, cable tv, commerce",
+  location     = "HE 8700.8.P66"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -7372,4 +7489,34 @@
   location     = "https://web.fe.up.pt/~jmcruz/etc/web/crash-course.pdf"
 }
 
+
+@MastersThesis{trpc,
+  author       = "Michelle Denise Abram",
+  title        = "Transparent Remote Procedure Calls",
+  school       = "Baskin School of Engineering, " # ucal # " Santa Cruz",
+  year         = 1992,
+  address      = scca,
+  month        = dec,
+  keywords     = "rpc",
+  abstract     = "With the vastly increased need for computing power in modern
+    computing environments, the ability to distribute jobs across machine
+    boundaries has become essential.  The main drawback of distributed
+    computing is the excessive complexity of network programming.  One way to
+    solve this problem is to create an environment that emulates the typical
+    programming environment.  This is the basis of remote procedure calls
+    (RPC).  A remote procedure call is the execution of a procedure that
+    resides on a foreign host.  A program at the remote site receives data from
+    the caller, calls the procedure locally, and returns the result.  To the
+    programmer, remote procedure calls closely resemble local procedure calls.
+    This is a well developed idea, and a number of RPC packages have been
+    implemented.  The problem with most of these packages is that complex
+    initialization routines are required to use them.  It is unnecessary to
+    concern the programmer with the underlying connectivity and packet exchange
+    mechanisms required to implement an RPC package.  Further, these
+    initialization requirements undermine the central goal of RPC programming:
+    transparent distributed computing.  We present a remote procedure call
+    package that has been designed to relieve the programmer of this burden
+    without sacrificing power.", 
+  location     = "https://www.soe.ucsc.edu/research/technical-reports/UCSC-CRL-93-07"
+}
 
