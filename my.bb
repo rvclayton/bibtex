@@ -7546,6 +7546,17 @@
   location     = "PS 3623.A454 S87"
 }
 
+@Book{ctcm,
+  author       = "Z.~A. Melzak",
+  title        = "Companion to Concrete Mathematics",
+  subtitle     = "Mathematical Techniques and Various Applications",
+  publisher    = "John Wiley \& Sons",
+  year         = 1973,
+  address      = nyny,
+  keywords     = "geometry, iteration, series and products, integrals",
+  location     = "QA 37.2.M44"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
