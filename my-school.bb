@@ -31088,18 +31088,6 @@ b
   location     = "http://archive.cs.uu.nl/pub/RUU/CS/techreps/CS-2001/2001-18.pdf"
 }
 
-@inproceedings{tnios,
-  author	= "Wayne~A. Christopher and Steven~J. Proctor and
-		  Thomas~E. Anderson",
-  title		= "The {N}achos Instructional Operating System",
-  booktitle	= wucp,
-  year		= 1993,
-  pages		= "481--489",
-  address	= sdca,
-  month		= "25--29 January",
-  keywords	= "operating systems, hardware simulation, instruction"
-}
-
 @InProceedings{sastll,
   author       = "Noel Welsh and Francisco Solsona and Ian Glover",
   title        = "SchemeUnit and SchemeQL: Two little languages",
