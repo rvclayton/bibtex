@@ -1,12 +1,13 @@
 .so bibtex.header
 		  
+@string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
+@string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
+@string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
-@string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
-@string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
-@string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -3761,6 +3762,116 @@
   location     = "https://users.soe.ucsc.edu/~elm/Papers/usenix93.pdf"
 }
 
+@InProceedings{tdaioamia,
+  author       = "Ioannidis, John and Maguire Jr., Gerald~Q.",
+  title        = "The Design and Implementation of a Mobile Internetworking Architecture",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "491--502",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "mobile internetworking architecture, mobile ip, mobile host, 
+    non-mobile host, ip-based protocol",
+  abstract     = "We present the design, implementation, and evaluation of
+    Mobile*IP, a set of IP-based protocols and mechanisms to support host
+    mobility throughout the Internet.  The design requires changes only in the
+    mobile hosts and their special routers; leaves transport and higher
+    protocols unaffected, and requires no changes in the device drivers for
+    individual interfaces.  No modifications whatsoever are needed in
+    non-mobile hosts and routers, the system scales well, and has no single
+    points of failure.  We have implemented Mobile*IP under Mach 2.6, and the
+    code is readily portable to any version of Unix that uses Berkeley
+    networking code." 
+}
+
+@InProceedings{tnios,
+  author       = "Christopher, Wayne~A. and Procter, Steven~J. and Anderson, Thomas~E.",
+  title        = "The {Nachos} Instructional Operating System",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "481--489",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "instructional operating system, simulation",
+  abstract     = "In teaching operating systems at an undergraduate level, we
+  believe that it is important to provide a project that is realistic enough
+  to show how real operating systems work, yet is simple enough that the
+  students can understand and modify it in significant ways.  A number of these
+  instructional saystems have been created over the last two decades, but
+  recent advances in hardware and software design, along with the increasing
+  power of available computational resources, have changed the basis for many
+  of the tradeoffs made by these systems.  we have implemented an instructional
+  operating system, called Nachos, and designed a series of assignments to go
+  with it.  Our system includes CPU and device simulatiors, and it runs as a
+  regulat UNIX process.  Nachos illustrates and takes advantage of modern
+  operating systems technology, such as threads and remote procedure calls,
+  recent harware advances, such as RISC'S and the prevalence of memory
+  hierarchies, and modern software design techniques, such as protocol layering
+  and object-oriented programming.  Nachos has been used to teach undergraduate
+  operating systems classes at several universities with positive results.",
+  location     = "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1993/CSD-93-739.pdf"
+}
+
+@InProceedings{mceboipf,
+  author       = "Hiromi Wada and Takashi Yozawa and Tatsuya Ohnishi and Yasunori Tanaka",
+  title        = "Mobile Computing Environment Based on {Internet} Packet Forwarding",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "503--517",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "ip mobility, packet forwarding, location information
+    management, mobility protocols",
+  abstract     = "We have explored a mobile computing environment which
+    provides migration transparency of portable hosts.  In this paper, we
+    propose a means of continuous communication with mobile hosts called the
+    Packet Forwarding Method (PFM).  In the environment, each mobile host has a
+    home address, and when it migrates to another network, it is also assigned
+    a temporary address.  An application on the mobile host always uses the
+    home address for communication.  PFM is based on packet forwarding.  A
+    packet destined for a home address of a mobile host is forwarded to its
+    current temporary address.  This forwarding is performed by a Packet
+    Forwarding Server (FPS) or by the sender host itself internally.  This
+    method has adaptability for existing multi-vendor environments since
+    enhancement of stationary hosts is optional and modification of routers is
+    not required.  Stationary hosts which have been enhanced to have forwarding
+    functionality can communicate with mobile hosts more efficiently than those
+    without the enhancement.  The implemented prototype code size is relatively
+    small, and experiments indicate that communication overhead is trivial,
+    especially in the case of stationary hosts with the enhancement." 
+}
+
+@InProceedings{tccuolctepm,
+  author       = "Fred Douglis",
+  title        = "The Compression CAche:  Using On-Line Compression to Extend Physical Memory",
+  booktitle    = usenixw93,
+  year         = 1993,
+  pages        = "519--529",
+  publisher    = "USENIX Association",
+  address      = sdca,
+  month        = "25--29 " # jan,
+  keywords     = "caching, data compression, storage hierarchy, vm paging,
+    performance, cpu-io tradeoffs, adaptive allocation",
+  abstract     = "This paper describes a method for trading off computation for
+    disk or network I/O by using less expensive on-line compression.  By using
+    some memory to store data in compressed format, it may be possible to fit
+    the working set of one or more large applications in relatively small
+    memory.  For working sets that are too large to fit in memory even when
+    compressed, compression still provides a benefit by reducing bandwidth and
+    space requirements.  Overall, the effectiveness of this compression cache
+    depends on application behavior and the relative costs of compression and
+    I/O.  Measurements using Sprite on a DECstation 1 5000/200 workstation with
+    a local disk indicate that some memory-intensive applications running with
+    a compression cache can run two to three times faster than on an unmodified
+    system.  Better speedups would be expected in a system with a greater
+    disparity between the speed of its processor and the bandwidth to its
+    backing store.",  
+    location     = "https://www.usenix.org/legacyurl/adaptive-main-memory-compression"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -6661,6 +6772,58 @@
   location     = "https://doi.org/10.1145/605397.605405"
 }
 
+@Article{efsis,
+  author       = "Khalidi, Yousef~A. and Nelson, Michael~N.",
+  title        = "Extensible File Systems in {Spring}",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "1--14",
+  month        = dec,
+  keywords     = "extensible file systems, spring, object-oriented design,
+    interfaces, caching, coherence, file-system stacking, operating-system design",
+  abstract     = "This paper describes an extensible file system architecture.
+    The architecture extends file system function by composing (or stacking)
+    new file systems on existing file systems.  A file system stacked on an
+    existing file system can access the existing file system's files via a
+    well-defined naming interface and can coherently share the same underlying
+    file data.  We describe extending file systems in the context of the Spring
+    operating system.  Composing file systems in Spring is facilitated by basic
+    Spring features such as its virtual memory architecture, its strongly-typed
+    well-defined interfaces, its location-independent object invocation
+    mechanism, and its flexible naming architecture.  File systems in Spring
+    can reside in the kernel, in user-mode, or on remote machines, and they can
+    be flexibly composed.",
+  location     = "http://www.pdos.lcs.mit.edu/ld/LogicalDisk.ps",
+  location     = "https://doi.org/10.1145/173668.168620"
+}
+
+@Article{tldanatifs,
+  author       = "de Jonge, Wiebren and Kaashoek, M. Frans and Hsieh, Wilson~C.",
+  title        = "The {Logical Disk}:  A New Approach to Improving File Systems",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "15--28",
+  month        = dec,
+  keywords     = "logical disks, disk management, log-structured file systems,
+    minix, file-system performance",
+  abstract     = "The Logical Disk (LD) defines a new interface to disk storage
+    that separates file management and disk management by using logical block
+    numbers and block lists.  The LD interface is designed to support multiple
+    file systems and to allow multiple implementations, both of which are
+    important given the increasing use of kernels that support multiple
+    operating system personalities.A log-structured implementation of LD (LLD)
+    demonstrates that LD can be implemented efficiently.  LLD adds about 5% to
+    10% to the purchase cost of a disk for the main memory it requires.
+    Combining LLD with an existing file system results in a log-structured file
+    system that exhibits the same performance characteristics as the Sprite
+    log-structured file system.",
+  location     = "https://doi.org/10.1145/168619.168621"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -7361,6 +7524,28 @@
   location     = "HE 8700.8.P66"
 }
 
+@Book{tcbs,
+  author       = "Barry Strauss",
+  title        = "Ten Ceasars",
+  subtitle     = "Roman Emperors from Augustus to Constantine",
+  publisher    = "Simon \& Schuster",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "roman emperors, augustus, tiberius, nero, vesparian, trajan,
+    hadrian, marcus aurelius, septimius severus, diocletian, constantine",
+  location     = "DG 274.S77"
+}
+
+@Book{sdw2015,
+  author       = "David Walton",
+  title        = "Superposition",
+  publisher    = "Pyr",
+  year         = 2015,
+  address      = "Jersey City, New Jersey",
+  keywords     = "quantum trickery, calling demons from the vasty deep",
+  location     = "PS 3623.A454 S87"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -7479,6 +7664,14 @@
   year         = 2014,
   month        = oct,
   keywords     = "oberon, language definition"
+}
+
+@TechReport{epofataacsuaaoz,
+  author       = "Heger, Christian and Lothar Schmitz",
+  title        = "Establishing Properties of Frameworks and Their Applications: A Case Study Using {Alloy} and {Object-Z}",
+  institution  = "Fak. f{\" u}r Informatik, Univ. der Bundeswehr",
+  address      = "Munich, Germany",
+  year         = 2009,
 }
 
 @Manual{wdud,
