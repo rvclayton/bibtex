@@ -10527,21 +10527,6 @@
   location     = "http://www.cs.utah.edu/~wilson/papers/dynamo.pdf"
   }
 
-@Article{tldanatifs,
-  author       = "Wiebren de Jonge, M. and Frans Kaashoek and Wilson~C. Hsieh",
-  title        = "The logical disk: a new approach to improving file systems",
-  journal      = osr # " (" # pot # "Fourteenth " # sosp # ")",
-  year         = 1993,
-  volume       = 27,
-  number       = 5,
-  pages        = "15--28",
-  month        = "5--8 " # dec,
-  keywords     = "MINIX, UNIX, disk storage management, file system
-		  organization, file system performance, high write
-		  performance, log-structured file system, logical disk",
-  location     = "http://www.pdos.lcs.mit.edu/ld/LogicalDisk.ps"
-}
-
 @Article{scv,
   author       = "rix",
   title        = "Smashing " # cpp # " {VPTR}s",
