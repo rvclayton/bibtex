@@ -6824,6 +6824,31 @@
   location     = "https://doi.org/10.1145/168619.168621"
 }
 
+@Article{tzsnfs,
+  author       = "Hartman, John~H. and Ousterhout, John~K.",
+  title        = "The {Zebra} Striped Network File System",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "29--43",
+  month        = dec,
+  keywords     = "network file systems, striping, raid, log-structured file
+    systems, file metadata management, strip cleaning",
+  abstract     = "Zebra is a network file system that stripes file data across
+    multiple servers for increased file throughput.  Rather than striping each
+    file separately, Zebra forms all the new data from each client into a
+    single stream, which it then stripes.  This provides high performance for
+    reads and writes of large files and also for writes of small files.  Zebra
+    also writes parity information in each stripe in the style of RAID disk
+    arrays; this increases storage costs slightly but allows the system to
+    continue operation even while a single storage server is unavailable.  A
+    prototype implementation of Zebra, built in the Sprite operating system,
+    provides 5-8 times the throughput of the standard Sprite file system or NFS
+    for large files and a 20%-3x improvement for writing small files.",
+  location     = "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1993/6277.html"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
