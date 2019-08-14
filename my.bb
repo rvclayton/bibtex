@@ -6849,6 +6849,54 @@
   location     = "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1993/6277.html"
 }
 
+@Article{utlocatoc,
+  author       = "Cheriton, David~R. and Skeen, Dale",
+  title        = "Understanding the Limitations of Causally and Totally Ordered Communication",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "44--57",
+  month        = dec,
+  keywords     = "catocs, end-to-end arguments, communication overhead,
+    state-based solutions, hidden causality, time-stamping",
+  abstract     = "Causally and totally ordered communication support (CATOCS)
+    has been proposed as important to provide as part of the basic building
+    blocks for constructing reliable distributed systems.  In this paper, we
+    identify four major limitations to CATOCS, investigate the applicability of
+    CATOCS to several classes of distributed applications in light of these
+    limitations, and the potential impact of these facilities on communication
+    scalability and robustness.  From this investigation, we find limited merit
+    and several potential problems in using CATOCS.  The fundamental difficulty
+    with the CATOCS is that it attempts to solve problems at the communication
+    level in violation of the well-known end-to-end argument.", 
+  location     = "https://doi.org/10.1145/168619.168623"
+}
+
+@Article{oksmoesa,
+  author       = "Hans Leiss",
+  title        = "On {Kilbury's} Modification of {Earley's} Algorithm",
+  journal      = toplas,
+  year         = 1990,
+  volume       = 12,
+  number       = 4,
+  pages        = "610--640",
+  month        = oct,
+  keywords     = "context-free grammars, early's algorithm,
+    graham-harrison-ruzzo's algorithm, inductive definitions, lookahead,
+    parse-tree representation, structure sharing, tomita's packed-forest
+    representation",
+  abstract     = "We improve on J. Kilbury's proposal to interchange predictor
+    and scanner in Earley's parser.  This modification of Earley's parser can
+    trivially be combined with those suggested by S. Graham, M. Harrison, and
+    W. Ruzzo, leading to smaller parse tables and almost the power of lookahead
+    1.  Along these lines we can also obtain Earley-parsers having partial
+    lookahead r > 1, without storing right contexts.  Parse trees with shared
+    structure can be stored in the parse tables directly, rather than
+    constructing the trees from dotted rules.", 
+  location     = "https://doi.org/10.1145/88616.88637"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
