@@ -6897,6 +6897,31 @@
   location     = "https://doi.org/10.1145/88616.88637"
 }
 
+@Article{tibaafeds,
+  author       = "Oki, Brian and Pfluegl, Manfred and Siegel, Alex and Skeen, Dale",
+  title        = "The {Information Bus} --- An Architecture for Extensible Distributed Systems",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "58--68",
+  month        = dec,
+  keyword      = "ipc, bus architectures, publish-subscribe, rpc",
+  abstract     = "Research can rarely be performed on large-scale, distributed
+    systems at the level of thousands of workstations.  In this paper, we
+    describe the motivating constraints, design principles, and architecture
+    for an extensible, distributed system operating in such an environment.
+    The constraints include continuous operation, dynamic system evolution, and
+    integration with extant systems.  The Information Bus, our solution, is a
+    novel synthesis of four design principles: core communication protocols
+    have minimal semantics, objects are self-describing, types can be
+    dynamically defined, and communication is anonymous.  The current
+    implementation provides both flexibility and high performance, and has been
+    proven in several commercial environments, including integrated circuit
+    fabrication plants and brokerage/trading floors.", 
+  location     = "https://doi.org/10.1145/168619.168624"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -7628,6 +7653,16 @@
   address      = nyny,
   keywords     = "geometry, iteration, series and products, integrals",
   location     = "QA 37.2.M44"
+}
+
+@Book{tccpm,
+  author       = "Pablo Medina",
+  title        = "The Cuban Comedy",
+  publisher    = "Unnamed Press",
+  year         = 2019,
+  address      = laca,
+  keywords     = "cuba, revolution, poets",
+  location     = "979 1 944700 87 4"
 }
 
 @Misc{1mmmitxss,
