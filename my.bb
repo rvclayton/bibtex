@@ -6922,6 +6922,30 @@
   location     = "https://doi.org/10.1145/168619.168624"
 }
 
+@Article{safbfdp,
+  author       = "Hamilton, Graham and Mitchell, James~G. and Powell, Michael~L.",
+  title        = "Subcontract:  {A} Flexible Base for Distributed Programming",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "69--79",
+  month        = dec,
+  keywords     = "spring, object-oriented design, distributed computing, remote
+    procedure call, stub generation, indirection, communication semantics",
+  abstract     = "A key problem in operating systems is permitting the orderly
+    introduction of new properties and new implementation techniques.  We
+    describe a mechanism, subcontract, that within the context of an
+    object-oriented distributed system permits application programmers control
+    over fundamental object mechanisms.  This allows programmers to define new
+    object communication mechanisms without modifying the base system.  We
+    describe how new subcontracts can be introduced as alternative
+    communication mechanisms in the place of existing subcontracts.  We also
+    briefly describe some of the uses we have made of the subcontract mechanism
+    to support caching, crash recovery, and replication.", 
+  location     = "https://doi.org/10.1145/168619.168625"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
