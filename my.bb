@@ -7097,6 +7097,35 @@
   location     = "https://doi.org/10.1109/32.4652"
 }
 
+@Article{pacsep,
+  author       = "Perl, Sharon~E. and Weihl, William~E.",
+  title        = "Performance Assertion Checking",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "134--145",
+  month        = dec,
+  keywords     = "performance monitoring, logging, query languages,
+    domain-specific languages, performance assertions",
+  abstract     = "Performance assertion checking is an approach to automating
+    the testing of performance properties of complex systems.  System designers
+    write assertions that capture expectations for performance; these
+    assertions are checked automatically against monitoring data to detect
+    potential performance bugs.  Automatically checking expectations allows a
+    designer to test a wide range of performance properties as a system
+    evolves: data that meets expectations can be discarded automatically,
+    focusing attention on data indicating potential problems.PSpec is a
+    language for writing performance as sertions together with tools for
+    testing assertions and estimating values for constants in assertions.  The
+    language is small and efficiently checkable, yet capable of expressing a
+    wide variety of performance properties.  Initial experience indicates that
+    PSpec is a useful tool for performance testing and debugging; it helped
+    uncover several performance bugs in the runtime system of a parallel
+    programming language.", 
+  location     = "https://doi.org/10.1145/168619.168630"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
