@@ -6945,6 +6945,157 @@
     to support caching, crash recovery, and replication.", 
   location     = "https://doi.org/10.1145/168619.168625"
 }
+27;5;39~
+@Article{tioossomsp,
+  author       = "Chen, J. Bradley and Bershad, Brian~N.",
+  title        = "The Impact of Operating System Structure on Memory System Performance",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "120--133",
+  month        = dec,
+  keywords     = "caching, storage performance, trace-driven analysis, mach,
+    ultrix, locality, context switches, self-interference",
+  abstract     = "In this paper we evaluate the memory system behavior of two
+    distinctly different implementations of the UNIX operating system: DEC's
+    Ultrix, a monolithic system, and Mach 3.0 with CMU's UNIX server, a
+    microkernel-based system.  In our evaluation we use combined system and
+    user memory reference traces of thirteen industry-standard workloads.  We
+    show that the microkernel-based system executes substantially more non-idle
+    system instructions for an equivalent workload than the monolithic system.
+    Furthermore, the average instruction for programs running on Mach has a
+    higher cost, in terms of memory cycles per instruction, than on Ultrix.  In
+    the context of our traces, we explore a number of popular assertions about
+    the memory system behavior of modern operating systems, paying special
+    attention to the effect that Mach's microkernel architecture has on system
+    performance.  Our results indicate that many, but not all of the assertions
+    are true, and that a few, while true, have only negligible impact on real
+    system performance.", 
+  location     = "https://doi.org/10.1145/168619.168629", 
+  location     = "https://www.cs.cmu.edu/afs/cs/project/mach/public/www/doc/abstracts/os-memorysys.html"
+}
+
+@Article{ptaafmmoaool,
+  author       = "Hosking, Antony~L. and Moss, J.~Eliot~B.",
+  title        = "Protection Traps and Alternatives for Memory Management of an Object-Oriented Language",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "106--119",
+  month        = dec,
+  keywords     = "generational garbage collection, dirty bits, persistent
+    store, database checkpointing, performance, hardware-assisted management",
+  abstract     = "Many operating systems allow user programs to specify the
+    protection level (inaccessible, read-only, read-write) of pages in their
+    virtual memory address space, and to handle any protection violations that
+    may occur.  Such page-protection techniques have been exploited by several
+    user-level algorithms for applications including generational garbage
+    collection and persistent stores.  Unfortunately, modern hardware has made
+    efficient handling of page protection faults more difficult.  Moreover,
+    page-sized granularity may not match the natural granularity of a given
+    application.  In light of these problems, we reevaluate the usefulness of
+    page-protection primitives in such applications, by comparing the
+    performance of implementations that make use of the primitives with others
+    that do not.  Our results show that for certain applications software
+    solutions outperform solutions that rely on page-protection or other
+    related virtual memory primitives.", 
+  location     = "https://doi.org/10.1145/168619.168628"
+}
+
+@Article{utiisacs,
+  author       = "Hauser, Carl and Jacobi, Christian and Theimer, Marvin and Welch, Brent and Weiser, Mark",
+  title        = "Using Threads in Interactive Systems:  A Case Study",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "94--105",
+  month        = dec,
+  keywords     = "thread models, software structures, thread behavior, deferring
+  work, pumping data, avoid deadlock, rejuvenating tasks, exploiting concurrency",
+  abstract     = "We describe the results of examining two large research and
+    commercial systems for the ways that they use threads.  We used three
+    methods: analysis of macroscopic thread statistics, analysis the
+    microsecond spacing between thread events, and reading the implementation
+    code.  We identify ten different paradigms of thread usage: defer work,
+    general pumps, slack processes, sleepers, one-shots, deadlock avoidance,
+    rejuvenation, serializers, encapsulated fork and exploiting parallelism.
+    While some, like defer work, are well known, others have not been
+    previously described.  Most of the paradigms cause few problems for
+    programmers and help keep the resulting system implementation
+    understandable.  The slack process paradigm is both particularly effective
+    in improving system performance and particularly difficult to make work
+    well.  We observe that thread priorities are difficult to use and may
+    interfere in unanticipated ways with other thread primitives and paradigms.
+    Finally, we glean from the practices in this code several possible future
+    research topics in the area of thread abstractions.", 
+  location     = "https://doi.org/10.1145/168619.168627"
+}
+
+@Article{iatiucatsi,
+  author       = "Jones, Michael~B.",
+  title        = "Interposition Agents:  Transparently Interposing User Code at the System Interface",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "80--93",
+  month        = dec,
+  keywords     = "operating systems interfaces, system calls, configurable
+    systems, toolkits, object-oriented design",
+  abstract     = "Many contemporary operating systems utilize a system call
+    interface between the operating system and its clients.  Increasing numbers
+    of systems are providing low-level mechanisms for intercepting and handling
+    system calls in user code.  Nonetheless, they typically provide no
+    higher-level tools or abstractions for effectively utilizing these
+    mechanisms.  Using them has typically required reimplementation of a
+    substantial portion of the system interface from scratch, making the use of
+    such facilities unwieldy at best.This paper presents a toolkit that
+    substantially increases the ease of interposing user code between clients
+    and instances of the system interface by allowing such code to be written
+    in terms of the high-level objects provided by this interface, rather than
+    in terms of the intercepted system calls themselves.  This toolkit helps
+    enable new interposition agents to be written, many of which would not
+    otherwise have been attempted.This toolkit has also been used to construct
+    several agents including: system call tracing tools, file reference tracing
+    tools, and customizable filesystem views.  Examples of other agents that
+    could be built include: protected environments for running untrusted
+    binaries, logical devices implemented entirely in user space, transparent
+    data compression and/or encryption agents, transactional software
+    environments, and emulators for other operating system environments.", 
+  location     = "https://dx.doi.org/10.1145/173668.168626"
+}
+
+@Article{timopcape,
+  author       = "E.~Jane Cameron and David~M. Cohen and B.~Gopinath and William~M. Keese and Linda Ness and Prem Uppaluru and John~R. Vollaro",
+  title        = "The {IC}* Model of Parallel Computation and Programming Environment",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "317--326",
+  month        = mar,
+  keywords     = "temporal constraints, parallel computation, programming
+    environment, IC* project, design, specification, communication protocols,
+    parallel machines, distributed systems, structural constraints, explicit
+    modeling, nondeterministic evolution, dynamic activation, parallel
+    computer", 
+  abstract     = "The IC* project is an effort to create an environment for the
+    design, specification, and development of complex systems such as
+    communication protocols, parallel machines, and distributed systems.  The
+    basis of the project is the IC* model of parallel computation, in which a
+    system is specified by a set of invariant expressions which describe its
+    behavior in time.  The features of this model include temporal and
+    structural constraints, inherent parallelism, explicit modeling of time,
+    nondeterministic evolution, and dynamic activation.  The project also
+    includes the construction of a parallel computer specifically designed to
+    support the model of computation.  The authors discuss the IC* model and
+    the current user language, and describe the architecture and hardware of
+    the prototype supercomputer built to execute IC* programs.", 
+  location     = "https://doi.org/10.1109/32.4652"
+}
 
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
@@ -7687,6 +7838,28 @@
   address      = laca,
   keywords     = "cuba, revolution, poets",
   location     = "979 1 944700 87 4"
+}
+
+@Book{strhlg,
+  author       = "Henry Louis {Gates, Jr.}",
+  title        = "Stoney the Road",
+  subtitle     = "Reconstruction, White Supremacy, and the Rise of Jim Crow",
+  publisher    = "Penguin Press",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "reconstruction, jim crow, slavery",
+  location     = "E 185.61 G253"
+}
+
+@Book{teotbl,
+  author       = "Margery Allingham",
+  title        = "The Estate of the Beckoning Lady",
+  publisher    = "Avon Books",
+  year         = 1990,
+  address      = nyny,
+  price        = "$3.50",
+  keywords     = "murrdarr, accidents, real estate",
+  location     = "PR 6001.L678"
 }
 
 @Misc{1mmmitxss,
