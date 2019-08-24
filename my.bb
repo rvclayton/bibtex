@@ -7126,6 +7126,66 @@
   location     = "https://doi.org/10.1145/168619.168630"
 }
 
+@Article{ccgcoaph,
+  author       = "O'Toole, James and Nettles, Scott and Gifford, David",
+  title        = "Concurrent Compacting Garbage Collection of a Persistent Heap",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "161--174",
+  month        = dec,
+  keywords     = "persistence, garbage collection, transaction based storage,
+    dynamic storage management, heaps", 
+  abstract     = "We describe a replicating garbage collector for a persistent
+    heap.  The garbage collector cooperates with a transaction manager to
+    provide safe and efficient transactional storage management.  Clients read
+    and write the heap in primary memory and can commit or abort their write
+    operations.  When write operations are committed they are preserved in
+    stable storage and survive system failures.  Clients can freely access the
+    heap during garbage collection because the collector concurrently builds a
+    compact replica of the heap.  A log captures client write operations and is
+    used to support both the transaction manager and the replicating garbage
+    collector.Our implementation is the first to provide concurrent and
+    compacting garbage collection of a persistent heap.  Measurements show that
+    concurrent replicating collection produces significantly shorter pause
+    times than stop-and-copy collection.  For small transactions, throughput is
+    limited by the logging bandwidth of the underlying log manager.  The
+    results suggest that replicating garbage collection offers a flexible and
+    efficient way to provide automatic storage management in transaction
+    systems, object-oriented databases and persistent programming
+    environments.", 
+  location     = "https://doi.org/10.1145/168619.168632", 
+  location     = "https://www.cs.cmu.edu/afs/cs/project/venari/www/sosp93.html"
+}
+
+@Article{lrvm,
+  author       = "Satyanarayanan, M. and Mashburn, Henry~H. and Kumar, Puneet and Steere, David~C. and Kistler, James~J.",
+  title        = "Lightweight Recoverable Virtual Memory",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "146--160",
+  month        = dec,
+  keywords     = "camelot, virtual storage, transactions, rvm, crash recovery",
+  abstract     = "Recoverable virtual memoryrefers to regions of a virtual
+    address space on which transactional guarantees are offered.  This article
+    describes RVM, an efficient, portable, and easily used implementation of
+    recoverable virtual memory for Unix environments.  A unique characteristic
+    of RVM is that it allows independent control over the transactional
+    properties of atomicity, permanence, and serializability.  This leads to
+    considerable flexibility in the use of RVM, potentially enlarging the range
+    of applications that can benefit from transactions.  It also simplifies the
+    layering of functionality such as nesting and distribution.  The article
+    shows that RVM performs well over its intended range of usage even though
+    it does not benefit from specialized operating system support.  It also
+    demonstrates the importance of intra- and inter-transaction
+    optimizations.", 
+  location     = "https://doi.org/10.1145/174613.174615", 
+  location     = "https://www.cs.cmu.edu/~satya/docdir/satya-sosp14-rvm-1993.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -7849,7 +7909,7 @@
 }
 
 @Book{ctcm,
-  author       = "Z.~A. Melzak",
+  author       = "Zdzislaw Alexander Melzak",
   title        = "Companion to Concrete Mathematics",
   subtitle     = "Mathematical Techniques and Various Applications",
   publisher    = "John Wiley \& Sons",
