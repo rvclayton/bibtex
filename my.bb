@@ -7186,6 +7186,45 @@
   location     = "https://www.cs.cmu.edu/~satya/docdir/satya-sosp14-rvm-1993.pdf"
 }
 
+@Article{iibkd,
+  author       = "Liedtke, Jochen",
+  title        = "Improving {IPC} by Kernel Design",
+  title        = "Lightweight Recoverable Virtual Memory",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "175--188",
+  month        = dec,
+  keywords     = "kernel, ipc, storage management, performance, threads,
+    storage remapping",
+  abstract     = "Inter-process communication (ipc) has to be fast and
+    effective, otherwise programmers will not use remote procedure calls (RPC),
+    multithreading and multitasking adequately.  Thus ipc performance is vital
+    for modern operating systems, especially &amp;mu;-kernel based ones.
+    Surprisingly, most &amp;mu;-kernels exhibit poor ipc performance, typically
+    requiring 100 &amp;mu;s for a short message transfer on a modern processor,
+    running with 50 MHz clock rate.In contrast, we achieve 5 &amp;mu;s; a
+    twentyfold improvement.This paper describes the methods and principles
+    used, starting from the architectural design and going down to the coding
+    level.  There is no single trick to obtaining this high performance;
+    rather, a synergetic approach in design and implementation on all levels is
+    needed.  The methods and their synergy are illustrated by applying them to
+    a concrete example, the L3 &amp;mu;-kernel (an industrial-quality operating
+    system in daily use at several hundred sites).  The main ideas are to guide
+    the complete kernel design by the ipc requirements, and to make heavy use
+    of the concept of virtual address space inside the &amp;mu;-kernel
+    itself.As the L3 experiment shows, significant performance gains are
+    possible: compared with Mach, they range from a factor of 22 (8-byte
+    messages) to 3 (4-Kbyte messages).  Although hardware specific details
+    influence both the design and implementation, these techniques are
+    applicable to the whole class of conventional general purpose von Neumann
+    processors supporting virtual addresses.  Furthermore, the effort required
+    is reasonably small, for example the dedicated parts of the &amp;mu;-kernel
+    can be concentrated in a single medium sized module.", 
+  location     = "https://doi.org/10.1145/168619.168633"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
