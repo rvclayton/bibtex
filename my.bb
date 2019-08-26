@@ -7189,7 +7189,6 @@
 @Article{iibkd,
   author       = "Liedtke, Jochen",
   title        = "Improving {IPC} by Kernel Design",
-  title        = "Lightweight Recoverable Virtual Memory",
   journal      = sosp93,
   year         = 1993,
   volume       = 27,
@@ -7223,6 +7222,35 @@
     is reasonably small, for example the dedicated parts of the &amp;mu;-kernel
     can be concentrated in a single medium sized module.", 
   location     = "https://doi.org/10.1145/168619.168633"
+}
+
+@Article{esbfi,
+  author       = "Wahbe, Robert and Lucco, Steven and Anderson, Thomas~E. and Graham, Susan~L.",
+  title        = "Efficient Software-Based Fault Isolation",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "203--216",
+  month        = dec,
+  keywords     = "rpc, shared storage, address spaces",
+  abstract     = "One way to provide fault isolation among cooperating software
+    modules is to place each in its own address space.  However, for
+    tightly-coupled modules, this solution incurs prohibitive context switch
+    overhead.  In this paper, we present a software approach to implementing
+    fault isolation within a single address space.Our approach has two parts.
+    First, we load the code and data for a distrusted module into its own fault
+    do main, a logically separate portion of the application's address space.
+    Second, we modify the object code of a distrusted module to prevent it from
+    writing or jumping to an address outside its fault domain.  Both these
+    software operations are portable and programming language independent.Our
+    approach poses a tradeoff relative to hardware fault isolation:
+    substantially faster communication between fault domains, at a cost of
+    slightly increased execution time for distrusted modules.  We demonstrate
+    that for frequently communicating modules, implementing fault isolation in
+    software rather than hardware can substantially improve end-to-end
+    application performance.", 
+  location     = "https://doi.org/10.1145/168619.168635"
 }
 
 @Book{cpec,
