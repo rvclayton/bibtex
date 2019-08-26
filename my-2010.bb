@@ -51323,23 +51323,24 @@
   year         = 1993,
   pages        = "189--202",
   publisher    = acmp,
-  address      = "Asheville, N. C.",
+  address      = "Asheville, N.C.",
   month        = "5--8 " # dec,
   keywords     = "buffers, shared memory, page mapping, data transfer, protocol
-		  performance"
-}
+		  performance",
+  abstract     = "We have designed and implemented a new operating system
+    facility for I/O buffer management and data transferacross protection
+    domain boundaries on shared memory machines.  This facility, called fast
+    buffers (fbufs), combines virtual page remapping with shared virtual
+    memory, and exploits locality in I/O traffic to achieve high throughput
+    without compromising protection, security, or modularity.  goal is to help
+    deliver the high bandwidth afforded by emerging high-speed networks to
+    user-level processes, both in monolithic and microkernel-based operating
+    systems.This paper outlines the requirements for a cross-domain transfer
+    facility, describes the design of the fbuf mechanism that meets these
+    requirements, and experimentally quantifies the impact of fbufs on network
+    performance.",
+  location     = "https://doi.org/10.1145/168619.168634"
 
-@InProceedings{esbfi,
-  author       = "Robert Wahbe and Steven Lucco and Thomas~E. Anderson and
-		  Susan~L. Graham",
-  title        = "Efficient Software-Based Fault Isolation",
-  booktitle    = pot # "Fourteenth" # sosp,
-  year         = 1993,
-  pages        = "203--216",
-  publisher    = acmp,
-  address      = "Asheville, N. C.",
-  month        = "5--8 " # dec,
-  keywords     = "protection domains, rpc, fault detection"
 }
 
 @InProceedings{rrfrrppfaiw,
