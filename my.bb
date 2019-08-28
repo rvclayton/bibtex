@@ -7253,6 +7253,83 @@
   location     = "https://doi.org/10.1145/168619.168635"
 }
 
+@Article{haavsiade,
+  author       = "Jones, Alan and Hopper, Andrew",
+  title        = "Handling Audio and Video Streams in a Distributed Environment",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "231--243",
+  month        = dec,
+  keywords     = "transputers, occam, buffering, multi-media streams, media mixing",
+  abstract     = "Handling audio and video in a digital environment requires
+    timely delivery of data.  This paper describes the principles adopted in
+    the design of the Pandora networked multi-media system.  They attempt to
+    give the user the best possible service while dealing with error and
+    overload conditions.Pandora uses a sub-system to handle the multi-media
+    peripherals.  It uses transputers and associated Occam code to implement
+    the time critical functions.  Stream implementation is based on
+    self-contained segments of data containing information for delivery,
+    synchronisation and error recovery.  Decoupling buffers are used to allow
+    concurrent operation of multiple processing elements.  Clawback buffers are
+    used to resynchronise streams at their destinations with minimum
+    latency.The system has proved robust in normal use, under overload, and in
+    the presence of errors.  It has been in use for a number of years.The
+    principles involved in this design are now being used in the development of
+    two complementary systems.  One approach explodes Pandora by having the
+    camera, microphone, speaker and display as independent units linked only by
+    the LAN.  The other approach integrates these devices as peripheral cards
+    in a powerful workstation.", 
+  location     = "https://doi.org/10.1145/168619.168638"
+}
+
+@Article{no1993,
+  author       = "Andrew Birrell and Greg Nelson and Susan Owicki and Edward Wobber",
+  title        = "Network Objects",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "217--230",
+  month        = dec,
+  keywords     = "modula 3, remote objects, argument marshaling, transports",
+  abstract     = "A network object is an object whose methods can be invoked
+    over a network.  this paper describes the design, implementation and early
+    experience with a network objects system for Modula-3.  this system is
+    novel for its overall simplicity.  The paper includes a through description
+    of realistic marshaling algorithms for network objects.", 
+  location     = "https://doi.org/10.1145/168619.168638",
+  location     = "http://birrell.org/andrew/papers/115-NetworkObjects-SOSP.pdf"
+}
+
+@Article{mamfqaos,
+  author       = "Mohanty, Siba~N.",
+  title        = "Models and Measurements for Quality Assessment of Software",
+  journal      = surveys,
+  year         = 1979,
+  volume       = 11,
+  number       = 3,
+  pages        = "251--275",
+  month        = sep,
+  keywords     = "entropy function, software science, zipf's law, software
+    characteristics, software errors, software testing and test planning,
+    software reliability",
+  abstract     = "Several software quality assessment methods which span the
+    software life system are discussed.  the quality of a system design can be
+    estimated by measuring the system entropy function or the system work
+    function.  The quality improvement due to reconfiguration can be determined
+    by calculating system entropy loading measure.  Software science and Zipf's
+    law are shown to be useful for estimating program length and implementation
+    time.  Deterministic and statistical methods are presented for providing
+    the number of errors.  Testing theory is useful in planning the program
+    test process, as discussed in this paper, it includes measurement of
+    program structure characteristics to determine test effectiveness and test
+    planning.  Statistical methods for estimating software reliability are also
+    discussed.", 
+  location     = "https://doi.org/10.1145/356778.356783"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -8016,6 +8093,18 @@
   price        = "$3.50",
   keywords     = "murrdarr, accidents, real estate",
   location     = "PR 6001.L678"
+}
+
+@Book{lbab,
+  author       = "Kirankalyan Kulkarni",
+  title        = "Learn Bitcoin and Blockchain",
+  subtitle     = "Understanding Blockchain and Bitcoin Architecture to Build Decentralized Applications",
+  publisher    = "Packt Publishing",
+  month        = aug,
+  year         = 2018,
+  address      = "Birmingham, U.K.",
+  keywords     = "bitcoin, blockchain, cryptocurrency, hash functions",
+  location     = "978-1-78953-613-3"
 }
 
 @Misc{1mmmitxss,
