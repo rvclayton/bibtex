@@ -7330,6 +7330,39 @@
   location     = "https://doi.org/10.1145/356778.356783"
 }
 
+@Article{psdfhpn,
+  author       = "Maeda, Chris and Bershad, Brian~N.",
+  title        = "Protocol Service Decomposition for High-Performance Networking",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "244--255",
+  month        = dec,
+  keywords     = "user-space libraries, protocol performance, communication
+    architectures", 
+  location     = "https://doi.org/10.1145/168619.168639",
+  abstract     = "In this paper we describe a new approach to implementing
+    network protocols that enables them to have high performance and high
+    flexibility, while retaining complete conformity to existing application
+    programming interfaces.  The key insight behind our work is that an
+    application's interface to the network is distinct and separable from its
+    interface to the operating system.  We have separated these interfaces for
+    two protocol implementations, TCP/IP and UDP/IP, running on the Mach 3.0
+    operating system and UNIX server.  Specifically, library code in the
+    application's address space implements the network protocols and transfers
+    data to and from the network, while an operating system server manages the
+    heavyweight abstractions that applications use when manipulating the
+    network through operations other than send and receive.  On DECstation
+    5000/200 systems connected by 10Mb/sec Ethernet, this approach to protocol
+    decomposition achieves TCP/IP throughput of 1088 KB/second, which is
+    comparable to that of a high-quality in-kernel TCP/IP implementation, and
+    substantially better than a server-based one.  Our approach achieves
+    small-packet UDP/IP round trip latencies of 1.23 ms, again comparable to a
+    kernel-based implementation and more than twice as fast as a server-based
+    one." 
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -8105,6 +8138,16 @@
   address      = "Birmingham, U.K.",
   keywords     = "bitcoin, blockchain, cryptocurrency, hash functions",
   location     = "978-1-78953-613-3"
+}
+
+@Book{sas2019,
+  author       = "Ali Smith",
+  title        = "Spring",
+  publisher    = "Pantheon Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "detention, remembering",
+  location     = "PR 6069.M4213 S67"
 }
 
 @Misc{1mmmitxss,
