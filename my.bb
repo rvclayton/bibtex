@@ -7363,6 +7363,29 @@
     one." 
 }
 
+@Article{aittos,
+  author       = "Wobber, Edward and Abadi, Mart{\' \i}n and Burrows, Michael and Lampson, Butler",
+  title        = "Authentication in the {Taos} Operating System",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "256--269",
+  month        = dec,
+  keywords     = "authentication, principal management, authority manager,
+    credential management, certificates",
+  abstract     = "We describe a design for security in a distributed system and
+    its implementation.  In our design, applications gain access to security
+    services through a narrow interface.  This interface provides a notion of
+    identity that includes simple principals, groups, roles, and delegations.
+    A new operating system component manages principals, credentials, and
+    secure channels.  It checks credentials according to the formal rules of a
+    logic of authentication.  Our implementation is efficient enough to support
+    a substantial user community.", 
+  location     = "https://www.microsoft.com/en-us/research/publication/authentication-in-the-taos-operating-system/", 
+  location     = "https://doi.org/10.1145/174613.174614"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
