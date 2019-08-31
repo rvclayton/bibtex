@@ -7386,6 +7386,34 @@
   location     = "https://doi.org/10.1145/174613.174614"
 }
 
+@Article{pliiauce,
+  author       = "Spreitzer, Mike and Theimer, Marvin",
+  title        = "Providing Location Information in a Ubiquitous Computing Environment",
+  journal      = sosp93,
+  year         = 1993,
+  volume       = 27,
+  number       = 5,
+  pages        = "270--283",
+  month        = dec,
+  keywords     = "system architectures, location management, privacy, sensors",
+  abstract     = "To take full advantage of the promise of ubiquitous computing
+    requires the use of location information, yet people should have control
+    over who may know their whereabouts.  We present an architecture that
+    achieves these goals for an interesting set of applications.  Personal
+    information is managed by User Agents, and a partially decentralized
+    Location Query Service is used to facilitate location-based operations.
+    This architecture gives users primary control over their location
+    information, at the cost of making more expensive certain queries, such as
+    those wherein location and identity closely interact.  We also discuss
+    various extensions to our architecture that offer users additional
+    trade-offs between privacy and efficiency.  Finally, we report some
+    measurements of the unextended system in operation, focusing on how well
+    the system is actually able to track people.  Our system uses two kinds of
+    location information, which turn out to provide partial and complementary
+    coverage.", 
+  location     = "https://doi.org/10.1145/168619.168641"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
