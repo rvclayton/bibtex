@@ -5,9 +5,11 @@
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
+@string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
 @string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
+		  
 		  
 @InProceedings{ehs,
   author       = "Brian~D. Markey",
@@ -3870,6 +3872,33 @@
     disparity between the speed of its processor and the bandwidth to its
     backing store.",  
     location     = "https://www.usenix.org/legacyurl/adaptive-main-memory-compression"
+}
+
+@InProceedings{cppompriu,
+  author       = "Hall, Robert~J. and Goldberg, Aaron~J.",
+  title        = "Call Path Profiling of Monotonic Program Resources in " # unix,
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "1--13",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "program profiling, resource monitoring, call trees, monotonic
+    resources",
+  abstract     = "Practical performance improvement of a complex program must
+    be guided by empirical measurements of its resource usage.  Essentially,
+    the programmer wants to know where in the source code the program is
+    inefficient and why this is so.  The process interface of UNIX System V
+    (proc(4)) provides access to the raw data (e.g.  time, faults, traps, and
+    system calls) necessary to answering the why question, but gives no
+    guidance in answering the where question.  This paper describes a novel
+    approach to the latter, Call Path Profiling, which is both more informative
+    and more closely tied to the process of program optimization than either
+    trace-based or prof/gprof-like approaches.  In addition, by viewing
+    consumption of a resource as the ticking of a clock, we generalize the
+    interval-based sampling approach of time profilers to arbitrary monotonic
+    resources.  The approach is embodied in several prototypes, including
+    CPPROF which operates under System V.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/call-path-profiling-monotonic-program-resources"
 }
 
 @Article{eobsoiop,
@@ -8199,6 +8228,16 @@
   address      = nyny,
   keywords     = "detention, remembering",
   location     = "PR 6069.M4213 S67"
+}
+
+@Book{tsmbs,
+  author       = "Bhaskar Sunkara",
+  title        = "The Socialist Manifesto",
+  publisher    = "Basic Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "government, socialism, marxism, history, political strategy",
+  location     = "HX 73.S86"
 }
 
 @Misc{1mmmitxss,
