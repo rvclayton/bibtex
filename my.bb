@@ -3901,6 +3901,38 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/call-path-profiling-monotonic-program-resources"
 }
 
+@InProceedings{csppdutsm,
+  author       = "Hoogenboom, Peter and Lepreau, Jay",
+  title        = "Computer System Performance Problem Detection Using Time Series Models",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "15--32",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "system monitoring, time series model, expert systems",
+  abstract     = "Computer systems require monitoring to detect performance
+    anomalies such as runaway processes, but problem detection and diagnosis is
+    a complex task requiring skilled attention.  Although human attention was
+    never ideal for this task, as networks of computers grow larger and their
+    interactions more complex, it falls far short.  Existing computer-aided
+    management systems require the administrator manually to specify fixed
+    trouble thresholds.  In this paper we report on an expert system that
+    automatically sets thresholds, and detects and diagnoses performance
+    problems on a network of Unix computers.  Key to the success and
+    scalability of this system are the time series models we developed to model
+    the variations in workload on each host.  Analysis of the load average
+    records of 50 machines yielded models which show, for workstations with
+    simulated problem injection, false positive and negative rates of less than
+    1%.  The server machines most difficult to model still gave average false
+    positive/negative rates of only 6%/32%.  Observed values exceeding the
+    expected range for a particular host cause the expert system to focus on
+    that machine.  There it applies tools with finer resolution and more
+    discrimination, including per-command profiles gleaned from process
+    accounting records.  It makes one of 18 specific diagnoses and notifies the
+    administrator, and optionally the user.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/computer-system-performance-problem-detection"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7441,6 +7473,36 @@
     location information, which turn out to provide partial and complementary
     coverage.", 
   location     = "https://doi.org/10.1145/168619.168641"
+}
+
+@Article{cuiupbevpac,
+  author       = "Myers, Brad~A.",
+  title        = "Creating User Interfaces Using Programming by Example, Visual Programming, and Constraints",
+  journal      = toplas,
+  year         = 1990,
+  volume       = 12,
+  number       = 2,
+  pages        = "143--177",
+  month        = apr,
+  keywords     = "constraints, direct manipulation, plausible inferences,
+    programming by example, user interface design, user interface management
+    systems, visual programming",
+  abstract     = "Peridot is an experimental tool that allows designers to
+    create user interface components without conventional programming.  The
+    designer draws pictures of what the interface should look like and then
+    uses the mouse and other input devices to demonstrate how the interface
+    should operate.  Peridot generalizes from these example pictures and
+    actions to create parameterized procedures, such as those found in
+    conventional user interface libraries such as the Macintosh Toolbox.
+    Peridot uses visual programming, programming by example, constraints, and
+    plausible inferencing to allow nonprogrammers to create menus, buttons,
+    scroll bars, and many other interaction techniques easily and quickly.
+    Peridot created its own interface and can create almost all of the
+    interaction techniques in the Macintosh Toolbox.  Therefore, Peridot
+    demonstrates that it is possible to provide sophisticated programming
+    capabilities to nonprogrammers in an easy-to-use manner and still have
+    sufficient power to generate interesting and useful programs.", 
+  location     = "https://doi.org/10.1145/78942.78943"
 }
 
 @Book{cpec,
