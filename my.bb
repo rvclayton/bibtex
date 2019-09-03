@@ -3933,6 +3933,32 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/computer-system-performance-problem-detection"
 }
 
+@InProceedings{daioaslulp,
+  author       = "Sang, Janche and Chung, Ke-hsiung and Rego, Vernon",
+  title        = "Design and Implementation of a Simulation Library using Lightweight Processes",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "33--44",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "simulation systems, modularity, library design, posix
+    threads, performance optimizations, scheduling",
+  abstract     = "The Si lightweight-process based system for simulating
+    process interactions is an enhancement to the C programming language in the
+    form of library primitives with sets of predefined data structures.  The
+    Si system encapsulates an existing lightweight-process library to provide
+    a discrete-event simulation environment supporting the process view.  It
+    was developed as a research testbed for investigating methods which support
+    simulations efficiently.  Easy extensions and modifications to the Si
+    system are a major design objective, accomplished through modularity and
+    layering.  This paper describes the system, our experiences with its
+    implementation, and its applicability to simulation modeling.  We report on
+    performance measurements of different implementations of the simulation
+    scheduler, and of different algorithms for simulating service
+    disciplines.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/design-and-implementation-simulation-library"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
