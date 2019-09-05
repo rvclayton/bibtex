@@ -3989,6 +3989,27 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/restore-o-mounter-file-motel-revisited"
 }
 
+@InProceedings{taabcss,
+  author       = "Callaghan, Brent and Singh, Satinder",
+  title        = "The {Autofs} Automounter",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "59--68",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "file systems, automounting, nfs",
+  abstract     = "Prior to the introduction of the automounter in 1987, NFS
+    mounts were administered separately on each workstation.  The automounter
+    has provided administrators with a tool to construct a filesystem namespace
+    that can be shared across an organization.  While the automounter is widely
+    used, its success has been tempered by problems inherent in its
+    implementation.  This paper describes a new implementation of the
+    automounter based on a new filesystem.  This new automounter not only fixes
+    the problems, but provides some interesting opportunities for future
+    development.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/presentation/autofs-automounter"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
