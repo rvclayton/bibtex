@@ -3959,6 +3959,36 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/design-and-implementation-simulation-library"
 }
 
+@InProceedings{trom,
+  author       = "Moran, Joe and Lyon, Bob",
+  title        = "The {Restore-o-Mounter}",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "45--58",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "file archiving, file backups, nfs, os extensions, user-space
+    file systems",
+  abstract     = "We present a scheme for referencing and accessing saved (We
+    use 'save' to denote the super set of backup and archive; save is also
+    easier to conjugate than backup.) files in a manner that is transparent to
+    UNIX applications.  The scheme requires no kernel modifications.  Instead,
+    it uses a mounted process that allows users to change directories to the
+    past and browse their saved files with their favorite utilities.  The
+    mounted process acts as a protocol gateway between NFS and a commercially
+    available network backup product.  Time travel is supported; users may
+    change directories to any moment in the past.  Any saved version (not just
+    the most recent version) of any file can be viewed or recovered, even if
+    the file has since been deleted.  Using this transparent method of
+    retrieving saved files by naming their location in the past, a poor man's
+    file migration scheme can be implemented by substituting a symbolic link to
+    a saved location for a file.  Once a file is referenced, the symbolic link
+    can be replaced with its original file.  This migration scheme requires no
+    kernel modifications yet remains transparent to UNIX applications and
+    users.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/restore-o-mounter-file-motel-revisited"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7529,6 +7559,31 @@
     capabilities to nonprogrammers in an easy-to-use manner and still have
     sufficient power to generate interesting and useful programs.", 
   location     = "https://doi.org/10.1145/78942.78943"
+}
+
+@Article{cstjbaps,
+  author       = "Serpette, Bernard Paul and Serrano, Manuel",
+  title        = "Compiling {Scheme} to {JVM} Bytecode:  {A} Performance Study",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "259--270",
+  month        = sep,
+  keywords     = "jvm, bytecode, functional compilation, boxing, performance,
+    tail calls",
+  abstract     = "We have added a Java virtual machine (henceforth JVM)
+    bytecode generator to the optimizing Scheme-to-C compiler Bigloo.  We named
+    this new compiler BiglooJVM.  We have used this new compiler to evaluate
+    how suitable the JVM bytecode is as a target for compiling strict
+    functional languages such as Scheme.  In this paper, we focus on the
+    performance issue.  We have measured the execution time of many Scheme
+    programs when compiled to C and when compiled to JVM.  We found that for
+    each benchmark, at least one of our hardware platforms ran the BiglooJVM
+    version in less than twice the time taken by the Bigloo version.  In order
+    to deliver fast programs the generated JVM bytecode must be carefully
+    crafted in order to benefit from the speedup of just-in-time compilers.", 
+  location     = "https://doi.org/10.1145/583852.581503"
 }
 
 @Book{cpec,
