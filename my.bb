@@ -4010,6 +4010,35 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/presentation/autofs-automounter"
 }
 
+@InProceedings{dahrorrofswatmc,
+  author       = "Erez Zadok and Dan Duchamp",
+  title        = "Discovery and Hot Replacement of Replicated Read-Only File Systems, with Application to Mobile Computing",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "69--85",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "automounting, mobile computing, performance measurement,
+    user-space servers, nfs, rlp",
+  abstract     = "We describe a mechanism for replacing files, including open
+    files, of a read-only file system while the file system remains mounted;
+    the act of replacement is transparent to the user.  Such a hot replacement
+    mechanism can improve fault-tolerance, performance, or both.  Our mechanism
+    monitors, from the client side, the latency of operations directed at each
+    file system.  When latency degrades, the client automatically seeks a
+    replacement file system that is equivalent to but hopefully faster than the
+    current file system.  The files in the replacement file system then take
+    the place of those in the current file system.  This work has particular
+    relevance to mobile computers, which in some cases might move over a wide
+    area.  Wide area movement can be expected to lead to highly variable
+    response time, and give rise to three sorts of problems: increased latency,
+    increased failures, and decreased scalability.  If a mobile client moves
+    through regions having partial replicas of common file systems, then the
+    mobile client can depend on our mechanism to provide increased fault
+    tolerance and more uniform performance.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/discovery-and-hot-replacement-replicated-read"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7605,6 +7634,28 @@
     to deliver fast programs the generated JVM bytecode must be carefully
     crafted in order to benefit from the speedup of just-in-time compilers.", 
   location     = "https://doi.org/10.1145/583852.581503"
+}
+
+@Article{llf3yom,
+  author       = "Andrew~S. Tannenbaum",
+  title        = "Lessons Learned from 30 Years of {MINIX}",
+  journal      = cacm,
+  year         = 2016,
+  volume       = 59,
+  number       = 3,
+  pages        = "70--78",
+  month        = mar,
+  keywords     = "operating systems, minix, linux, software development,
+    software engineering",
+  abstract     = "While Linux is well known, its direct ancestor, MINIX, is now
+    30 and still quite spry for such aged software.  Its story and how it and
+    Linux got started is not well known, and there are perhaps some lessons to
+    be learned from MINIX's development.  Some of these lessons are specific to
+    operating systems, some to software engineering, and some to other areas
+    (such as project management).  Neither MINIX nor Linux was developed in a
+    vacuum.  There was quite a bit of relevant history before either got
+    started, so a brief introduction may put this material in perspective.", 
+  location     = "https://doi.org/10.1145/2795228"
 }
 
 @Book{cpec,
