@@ -4039,6 +4039,56 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/discovery-and-hot-replacement-replicated-read"
 }
 
+@InProceedings{tfdb,
+  author       = "Katseff, Howard~P. and London, Thomas~B.",
+  title        = "The {Ferret} Document Browser",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "101--110",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "document browsing, networking, document storage, image
+    representation",
+  abstract     = "The Ferret Document Browser is a vehicle for exploring the
+    design and use of document storage and retrieval systems.  Its distributed,
+    modular structure allows independent information providers to control their
+    data, yet make use of a common access and billing control facility.
+    Document images are distributed via a nationwide AT&T corporate internet
+    which consists mainly of Ethernet networks interconnected by leased data
+    circuits.  The relatively low bandwidth of this networks is dealt with by
+    compressing the documents for transmission, and by decompressing pages as
+    requested on the workstation.  A page image can be decompressed and
+    displayed in less that a half second.  A broadband version of the system
+    makes use of the BBFS broadband file server, the HPC interconnect, the
+    LuckyNet broadband network and the Liaison network multimedia workstation.
+    This system allows document browsing at rates up to 15 page images per
+    second.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/cinci93/full_papers/katseff.txt"
+}
+
+@InProceedings{xttfaoar,
+  author       = "Treese, G.~Winfield and Wolman, Alec",
+  title        = "X Through the Firewall, and Other Application Relays",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "87--99",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "gateways, relays, security, policies and mechanisms,
+    networking, firewalls",
+  abstract     = "Organizations often impose an administrative security policy
+    when they connect to other organizations on a public network such as the
+    Internet.  Many applications have their own notions of security, or they
+    simply rely on the security of the underlying protocols.  Using the X
+    Window System as a case study, we describe some techniques for building
+    application-specific relays that allow the use of applications across
+    organizational boundaries.  In particular, we focus on analyzing
+    administrative and application-specific security policies to construct
+    solutions that satisfy the security requirements while providing the
+    necessary functions of the applications.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/x-through-firewall-and-other-application-relays"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8448,6 +8498,7 @@
 @Book{tsmbs,
   author       = "Bhaskar Sunkara",
   title        = "The Socialist Manifesto",
+  subtitle     = "The Case for Radical Politics in an Era of Extreme Inequality",
   publisher    = "Basic Books",
   year         = 2019,
   address      = nyny,
