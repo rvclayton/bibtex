@@ -4089,6 +4089,32 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/x-through-firewall-and-other-application-relays"
 }
 
+@InProceedings{ltnginfsb,
+  author       = "Wittle, Mark and Keith, Bruce~E.",
+  title        = "{LADDIS}:  The Next Generation in {NFS} File Server Benchmarking",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "111--128",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "nfs, benchmarking, server performance",
+  abstract     = "The ability to compare the performance of various NFS(1) file
+    server configurations from several vendors is critically important to a
+    computing facility when selecting an NFS file server.  To date,
+    nhfsstone(2) has been a popular means of characterizing NFS file server
+    performance.  However, several deficiencies have been found in nhfsstone.
+    The LADDIS NFS file server benchmark has been developed to resolve
+    nhfsstone's shortcomings and provide new functionality.  The Standard
+    Performance Evaluation Corporation (SPEC(3)) released the System File
+    Server (SFS) Release 1.0 benchmark suite, which contains 097.LADDIS, as an
+    industry-standard NFS file server benchmark in April 1993.  This paper
+    describes the major technical issues involved in developing the benchmark
+    and the rationale used to establish default 097.LADDIS workload parameter
+    values.  Where appropriate, areas for further research are identified and
+    encouraged.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/laddis-next-generation-nfs-file-server"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8504,6 +8530,18 @@
   address      = nyny,
   keywords     = "government, socialism, marxism, history, political strategy",
   location     = "HX 73.S86"
+}
+
+@Book{tftgju,
+  author       = "John Updike",
+  title        = "Too Far to Go",
+  subtitle     = "The Maples Stories",
+  publisher    = "Fawcett Crest",
+  price        = "$2.50",
+  year         = 1979,
+  address      = nyny,
+  keywords     = "love, marriage, separating, divorce, relations",
+  location     = "PS 3571.P4 T66"
 }
 
 @Misc{1mmmitxss,
