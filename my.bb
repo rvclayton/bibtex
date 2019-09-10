@@ -4115,6 +4115,31 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/laddis-next-generation-nfs-file-server"
 }
 
+@InProceedings{daioampsiabuk,
+  author       = "Lakshman, K. and Kuthethoor, Giri and Yavatkar, Raj",
+  title        = "Design and Implementation of a Multimedia Protocol Suite in a {BSD} " # unix # " Kernel",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "129--146",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "multimedia delivery protocols, floor control, stream
+    synchronization", 
+  abstract     = "Development of distributed multimedia applications requires
+    support for coordination and temporal/causal synchronization of traffic
+    over related streams.  Our current research involves investigation of
+    appropriate OS and communication abstractions to support such applications.
+    Towards this goal, we have designed and implemented MCP, a suite of
+    transport and session layer protocols, in the framework of a standard BSD
+    Unix networking platform.  MCP contains two new abstractions.  First, MCP
+    contains a token-based mechanism for coordination of traffic over a
+    multipoint connection.  Second, MCP includes an abstraction called a
+    multi-flow conversation that enforces both temporal and causal
+    synchronization among related data streams.  This paper discusses Unix
+    kernel implementation of MCP and describes our experience in using MCP.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/design-and-implementation-multimedia-protocol"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
