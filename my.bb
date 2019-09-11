@@ -4140,6 +4140,27 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/design-and-implementation-multimedia-protocol"
 }
 
+@InProceedings{tsnamfo,
+  author       = "Hamilton, Graham and Kougiouris, Panos",
+  title        = "The {Spring} Nucleus:  {A} Microkernel for Objects",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "147--159",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "microkernel, ipc, distributed systems, doors, performance",
+  abstract     = "The Spring system is a distributed operating system that
+    supports a distributed, object-oriented application framework.  Each
+    individual Spring system is based around a microkernel known as the
+    nucleus, which is structured to support fast cross-address-space object
+    invocations.  This paper discusses the design rationale for the nucleus's
+    IPC facilities and how they fit into the overall Spring programming model.
+    We then describe how the internal structure of the nucleus is organized to
+    support fast cross-address-space calls, including some specific details and
+    performance information on the current implementation.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/spring-nucleus-microkernel-objects"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8567,6 +8588,15 @@
   address      = nyny,
   keywords     = "love, marriage, separating, divorce, relations",
   location     = "PS 3571.P4 T66"
+}
+
+@Book{taoa,
+  author       = "Jack Campbell",
+  title        = "The Assassins of Altis",
+  publisher    = "Jabberwocky Literary Agency",
+  year         = 2015,
+  keywords     = "mechanics, mages, cliff-hangers",
+  location     = "978-1-62567-134-9"
 }
 
 @Misc{1mmmitxss,
