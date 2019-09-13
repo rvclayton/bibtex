@@ -4161,6 +4161,33 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/spring-nucleus-microkernel-objects"
 }
 
+@InProceedings{svapr,
+  author       = "Skinner, Glenn~C. and Wong, Thomas~K.",
+  title        = "``{Stacking}'' Vnodes:  {A} Progress Report",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "161--174",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "file system development, interposition, object-oriented
+    structuring",
+  abstract     = "People are dissatisfied with the file system services that
+    come with their UNIX systems.  They want to add new and better features.
+    At present they have two choices: express their service as a user-level NFS
+    server, or use the vnode/VFS interface to build at least part of it into
+    the kernel.  Although the vnode/VFS interface has been remarkably
+    successful as a kernel structuring concept, it has failed to provide source
+    portability between UNIX versions or even binary compatibility between
+    releases of the same UNIX version.  It has been obvious for some time that
+    a redesign of the vnode/VFS interface that allowed file systems to be
+    shipped as binary kernel modules that survive from release to release is
+    needed.  We describe a prototype kernel with a vnode/VFS interface that
+    would allow this.  It is based on earlier work on stacking vnodes at Sun
+    and at UCLA, but it replaces the stacking concept by a more strictly
+    object-oriented concept of interposition.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/stacking-vnodes-progress-report"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7780,6 +7807,32 @@
   location     = "https://doi.org/10.1145/2795228"
 }
 
+@Article{pahlpntorsavocp,
+  author       = "Billington, Jonathan and Wheeler, Geoffrey~R. and Wilbur-Ham, Michael~C.",
+  title        = "{PROTEAN}:  {A} High-Level {Petri} Net Tool for the Specification and Verification of Communication Protocols",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "301--316",
+  month        = mar,
+  keywords     = "automated verification, computer graphics, petri nets,
+    protocol analysis, protocol design, software cad, specification animation",
+  abstract     = "The PROTEAN protocol emulation and analysis computer aid is
+    presented.  It is based on a formal specification technique called numerical
+    Petri nets (NPNs), and provides both graphical (color) and textual
+    interfaces to the protocol designer.  NPN specifications may be created,
+    stored, appended to other NPNs, structured, edited, listed, displayed, and
+    analyzed.  Interactive simulation, exhaustive reachability analysis, and
+    several directed graph analysis facilities are described.  Specification
+    languages are compared, with concentration on extended finite state
+    machines and high-level Petri nets.  Boththe NPN and PROTEAN facilities are
+    described and illustrated with a simple example.  The application of
+    PROTEAN to complex examples is mentioned briefly.  Work towards a
+    comprehensive protocol engineering workstation is also discussed.",
+  location     = "https://doi.org/10.1109/32.4651"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -8597,6 +8650,29 @@
   year         = 2015,
   keywords     = "mechanics, mages, cliff-hangers",
   location     = "978-1-62567-134-9"
+}
+
+@Book{ashp,
+  author       = "Harvey Pekar",
+  title        = "American Splendor",
+  subtitle     = "The Life and Times of Harvey Pekar",  
+  publisher    = "Dolphin\slash Doubleday",
+  year         = 1986,
+  illustrators = "Kevin Brown, Gregory Budgett, Robert Crumb, Gary Dumm and Gerry Shamray",
+  address      = "Garden City, "# NY,
+  keywords     = "biography, slices o' life, cleveland, blue-collar life, comix",
+  location     = "PN 6727.P44 A74 2003"
+}
+
+@Book{tdrjp,
+  author       = "Jay Parini",
+  title        = "The Damascus Road",
+  subtitle     = "A Novel of Saint Paul",
+  publisher    = "Doubleday",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "early christianity, the gospels, evangelism",
+  location     = "PS 3566.A65 D36"
 }
 
 @Misc{1mmmitxss,
