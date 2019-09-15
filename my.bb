@@ -4188,6 +4188,90 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/stacking-vnodes-progress-report"
 }
 
+@InProceedings{oursfui,
+  author       = "Evans, Steve and Clarke, Kevin and Singleton, Dave and Smaalders, Bart",
+  title        = "Optimizing " # unix # " Resource Scheduling for User Interactions",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "205--218",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "interaction, adaptive scheduling, behavioral scheduling, ",
+  abstract     = "Techniques for improving system responsiveness for
+    interactive end users of Unix workstations are explored.  After a
+    discussion of the current state of resource scheduling, a model is
+    presented in which dynamic input from the human user is combined with data
+    from user interaction software to supply a centralized manager with the
+    information necessary to determine what processes are involved with
+    interacting with the user at any given moment.  This service then
+    communicates this process set information to the kernel, which uses it to
+    manage memory and CPU resource allocation on the behalf of the user.
+    Experience with a prototype of this environment is reported.  An argument
+    for an interactive scheduling class is made, along with other
+    infrastructure changes needed to take advantage of it.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/optimizing-unix-resource-scheduling-user"
+}
+
+@InProceedings{ihriu,
+  author       = "James Kempf",
+  title        = "Integrating Handwriting Recognition into " # unix,
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "187--204",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "user input, handwriting recognition",
+  abstract     = "Many new portable computers are substituting an electronic
+    stylus, or pen, for the mouse.  While the pen can serve as a simple
+    replacement for the mouse, it also provides an enhanced drawing capability.
+    This capability opens up the potential for new modes of user interaction,
+    one of which is text input through handwriting instead of keyboard entry.
+    In this paper, the integration of handwriting recognition into the Unix
+    operation system is discussed.  We begin with an examination of the current
+    state of the art in recognition algorithms and how handwriting recognition
+    can enhance a user interface.  A standard application program interface for
+    handwriting recognition engines (HRE API) is then presented.  The HRE API
+    is distinguished from existing PC operating system API's in that it is
+    specifically designed for multiple handwriting recognition engines of
+    differing technologies, rather than a single, vendor-specific engine, and
+    it shares a relatively narrow surface area with the window system.  The
+    latter characteristic allows it to be used with existing window systems,
+    such as X, but does not hinder migration to other window systems should
+    they become available.  The API has been implemented with a public domain
+    recognition engine and is currently being circulated among vendors of
+    handwriting recognition engines for comment.  Finally, the paper concludes
+    with a discussion of where handwriting recognition belongs in the current X
+    window system architecture, and what would be needed to make handwriting an
+    equal partner with typed keyboard input for text entry.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/integrating-handwriting-recognition-unix"
+}
+
+@InProceedings{arllpia6bas,
+  author       = "Yarvin, Curtis and Bukowski, Richard and Anderson, Thomas",
+  title        = "Anonymous {RPC}:  Low-Latency Protection in a 64-Bit Address Space",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "175--186",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "ipc, randomization, rpc, anonymization, protection",
+  abstract     = "In this paper, we propose a method of reducing the latency of
+    cross-domain remote procedure call (RPC).  Traditional systems use separate
+    address spaces to provide memory protection between separate processes, but
+    even with a highly optimized RPC system, the cost of switching between
+    address spaces can make cross-domain RPC prohibitively expensive.  Our
+    approach is to use anonymity instead of hardware page tables for
+    protection.  Logically independent memory segments are placed at random
+    locations in the same address space and protection domain.  With 64-bit
+    virtual addresses, it is unlikely that a process will be able to locate any
+    other segment by accidental or malicious memory probes; it is impossible to
+    corrupt a segment without knowing its location.  The benefit is that a
+    cross-domain RPC need not involve a hardware context switch.  Measurements
+    of our prototype implementation show that a round-trip null RPC takes only
+    7.7us on an Intel 486-33.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/anonymous-rpc-low-latency-protection-64-bit"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -7831,6 +7915,41 @@
     PROTEAN to complex examples is mentioned briefly.  Work towards a
     comprehensive protocol engineering workstation is also discussed.",
   location     = "https://doi.org/10.1109/32.4651"
+}
+
+@Article{taba,
+  author       = "Olivier Danvy and Mayer Goldberg",
+  title        = "There and Back Again",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "230--234",
+  month        = sep,
+  keywords     = "list traversal, continuations, catalan numbers, convolutions,
+    palindromes",
+  abstract     = "We present a programming pattern where a recursive function
+    defined over a data structure traverses another data structure at return
+    time.  The idea is that the recursive calls get us ‘there’ by traversing
+    the first data structure and the returns get us ‘back again ’ while
+    traversing the second data structure.  We name this programming pattern of
+    traversing a data structure at call time and another data structure at
+    return time “There And Back Again ” (TABA).  The TABA pattern directly
+    applies to computing symbolic convolutions and to multiplying polynomials.
+    It also blends well with other programming patterns such as dynamic
+    programming and traversing a list at double speed.  We illustrate TABA and
+    dynamic programming with Catalan numbers.  We illustrate TABA and
+    traversing a list at double speed with palindromes and we obtain a novel
+    solution to this traditional exercise.  Finally, through a variety of tree
+    traversals, we show how to apply TABA to other data structures than lists.
+    A TABA-based function written in direct style makes full use of an
+    ALGOL-like control stack and needs no heap allocation.  Conversely, in a
+    TABA-based function written in continuation-passing style and recursively
+    defined over a data structure (traversed at call time), the continuation
+    acts as an iterator over a second data structure (traversed at return
+    time).  In general, the TABA pattern saves one from accumulating
+    intermediate data structures at call time", 
+  location     = ""
 }
 
 @Book{cpec,
