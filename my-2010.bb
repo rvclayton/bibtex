@@ -63350,13 +63350,17 @@
   location     = "E 169.04.Q44"
 }
 
-@Book{sd,
+@Book{sdeylc,
   author       = "Edward Yourdon and Larry~L. Constantine",
   title        = "Structured Design",
+  subtitle     = "Fundamentals of a Discipline of Computer Program and Systems Design",
   publisher    = ph,
   year         = 1979,
   address      = ecnj,
-  keywords     = "",
+  keywords     = "program engineering, structured design, program structure,
+    human factors, coupling, cohesion, design heuristics, transform analysis,
+    transaction analysis, modular systems, packaging, optimization, recursive
+    structures, program quality, software management, structure charts",
   location     = "QA 76.6 Y67"
 }
 
