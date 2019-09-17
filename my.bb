@@ -4272,6 +4272,29 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/anonymous-rpc-low-latency-protection-64-bit"
 }
 
+@InProceedings{aantsfdaa,
+  author       = "Levergood, Thomas~M. and Payne, Andrew~C. and Gettys, James and Treese, G. Winfeld and Stewart, Lawrence~C.",
+  title        = "{AudioFile}:  {A} Network-Transparent System for Distributed Audio Applications",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "219--236",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "audio servers, time, transport protocols",
+  abstract     = "AudioFile is a portable, device-independent,
+    network-transparent system for computer audio systems.  Similar to the X
+    Window System, it provides an abstract audio device interface with a simple
+    network protocol to support a variety of audio hardware and multiple
+    simultaneous clients.  AudioFile emphasizes client handling of audio data
+    and permits exact control of timing.  This paper describes our approach to
+    digital audio, the AudioFile protocol, the client library, the audio
+    server, and some example client applications.  It also discusses the
+    performance of the system and our experience using standard networking
+    protocols for audio.  A source code distribution is available by anonymous
+    FTP.", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/CRL-93-8.pdf"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
