@@ -4295,6 +4295,61 @@
   location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/CRL-93-8.pdf"
 }
 
+@InProceedings{hpdltc,
+  author       = "Nelson, Michael~N. and Hamilton, Graham",
+  title        = "High Performance Dynamic Linking Through Caching",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "253--265",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "caching, dynamic linking, position independent code,
+    indirection tables, libraries",
+  abstract     = "The Spring Operating System provides high performance dynamic
+    linking of program images.  Spring uses caching of both fixed-up program
+    images and partially fixed-up shared libraries to make dynamic linking of
+    program images efficient, to reduce the need for PIC (position-independent
+    code), and to improve page sharing between different program images running
+    the same libraries.  The result is that with program image caching,
+    dynamically-linked programs have a start-up cost similar to
+    statically-linked programs regardless of the number of unresolved symbols
+    in dynamically-linked program images and shared libraries.  In addition,
+    with library and program image caching, we have reduced the need for PIC
+    and have increased page sharing.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/cinci93/full_papers/nelson.txt"
+}
+
+@InProceedings{fafsl,
+  author       = "Douglas Orr and John Bonn and Jay Lepreau and Robert Mecklenburg",
+  title        = "Fast and Flexible Shared Libraries",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "237--251",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "flux, ",
+  abstract     = "Existing implementations of shared libraries sacrifice speed
+    (in loading, linking, and executed code), for essential flexibility (in
+    symbol binding, address space use, and interface evolution).  Modern
+    operating systems provide the primitives needed to make the dynamic linker
+    and loader a persistent server which lives across program invocations.
+    This can provide speed without sacrificing flexibility.  The speed is
+    gained primarily through caching of previous work, i.e., bound and
+    relocated executable images and libraries.  The flexibility comes from the
+    server's being an active entity, capable of adapting to changing
+    conditions, modifying its cached state, and responding to user directives.
+    In this paper we present a shared library implementation based on OMOS, an
+    Object/Meta-Object Server, which provides program linking and loading
+    facilities as a special case of generic object instantiation.  We discuss
+    the architecture of OMOS and its support of module binding primitives,
+    which make it more flexible and powerful than existing shared library
+    schemes.  Since our design does not require any support from the compiler,
+    it is also language-independent and highly portable.  Initial performance
+    results, on two operating systems, show an average speedup of 20% (range 0
+    - 56%), on short running programs.", 
+  location     = "https://www.cs.utah.edu/flux/papers/shlibs.html"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
