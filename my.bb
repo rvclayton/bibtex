@@ -4350,6 +4350,36 @@
   location     = "https://www.cs.utah.edu/flux/papers/shlibs.html"
 }
 
+@InProceedings{tsaas,
+  author       = "Fowler, Glenn",
+  title        = "The Shell as a Service",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "267--277",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "remote execution, make, ksh, libraries",
+  abstract     = "This paper explores the design history of the nmake shell
+    coprocess. Originally a special purpose uniprocessor executor, the coshell
+    has evolved into a general purpose service that automatically executes
+    shell actions on lightly loaded hosts in a local network.  A major thrust
+    of this work has been ease of use.  The only privilege required for
+    installation, administration or use is rsh access to the local hosts.
+    nmake and GNU-make users can take advantage of network execution with no
+    makefile modifications.  Shell level access is similar to but more
+    efficient than rsh and allows host expression matching to replace the
+    explicit host name argument.  Also provided is a C programming library
+    interface with five primitive operations that follow the fork-exec-wait
+    process model.  Beside the speedups attained by parallelizing computations
+    in a homogeneous network, coshell also supports heterogeneous
+    configurations.  This presents novel solutions to traditional
+    cross-compilation problems.  It also allows the user to view a new network
+    host as a compute engine rather than yet another architecture on which to
+    port the home environment and tools.  coshell runs on most S5R4 and BSD
+    UNIX* operating system variants.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/shell-service"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8030,6 +8060,37 @@
   location     = ""
 }
 
+@Article{ptacropp,
+  author       = "Waddle, Vance~E.",
+  title        = "Production Trees:  {A} Compact Representation of Parsed Programs",
+  journal      = toplas,
+  year         = 1990,
+  volume       = 12,
+  number       = 1,
+  pages        = "61--83",
+  month        = jan,
+  keywords     = "parse trees, intermediate representation, space efficiency,
+    parsing", 
+  abstract     = "Abstract syntax trees were devised as a compact alternative
+    to parse trees, because parse trees are known to require excessive amounts
+    of storage to represent parsed programs.  However, the savings that
+    abstract syntax trees actually achieve have never been precisely described
+    because the necessary analysis has been missing.  Without it, one can only
+    measure particular cases that may not adequately represent all the possible
+    behaviors.  We introduce a data structure, production trees, that are more
+    compact than either abstract syntax trees or parse trees.  Further, we
+    develop the necessary analysis to characterize the storage requirements of
+    parse trees, abstract syntax trees, and production trees and relate the
+    size of all three to the size of the program's text.  The analysis yields
+    the parameters needed to characterize these storage behaviors over their
+    entire range.  We flesh out the analysis by measuring these parameters for
+    a sample of &ldquo;C&rdquo; programs.  For these programs, production trees
+    were from 1/15 to 1/23 the size of the corresponding parse tree, l/2.7 the
+    size of a (minimal) abstract syntax tree, and averaged only 2.83 times the
+    size of the program text.", 
+  location     = "https://doi.org/10.1145/77606.77609"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -8870,6 +8931,16 @@
   address      = nyny,
   keywords     = "early christianity, the gospels, evangelism",
   location     = "PS 3566.A65 D36"
+}
+
+@Book{mbje,
+  author       = "Jennifer Egan",
+  title        = "Manhattan Beach",
+  publisher    = "Scribner",
+  year         = 2017,
+  address      = nyny,
+  keywords     = "criminals, nyc, diving",
+  location     = "PS 3555.G292 M36"
 }
 
 @Misc{1mmmitxss,
