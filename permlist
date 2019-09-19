@@ -1997,6 +1997,7 @@ process scheduling and unix semaphores : dunstan
 process semantics global axioms compositional rules and applications : nguyen
 processes are in the eye of the beholder : lamport
 producing an accurate call stack trace in the occasional absence of frame pointers : copperman
+production trees a compact representation of parsed programs : waddle
 productivity incentive clauses and rate adjustment for inflation : baumol
 profile guided automatic inline expansion for c programs : chang
 profiling for performance : newcomer
