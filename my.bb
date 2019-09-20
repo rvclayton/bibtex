@@ -8943,6 +8943,16 @@
   location     = "PS 3555.G292 M36"
 }
 
+@Book{tdcwp,
+  author       = "William Poundstone",
+  title        = "The Doomsday Calculation",
+  publisher    = "Little, Brown Spark",
+  year         = 2019,
+  series       = nyny,
+  keywords     = "bayesian statistics, predictions mathematics",
+  location     = ""
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
