@@ -4380,6 +4380,84 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/shell-service"
 }
 
+@InProceedings{abruu,
+  author       = "Aky{\" u}rek, Sedat and Salem, Kenneth",
+  title        = "Adaptive Block Rearrangement Under Unix",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "307--321",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "disk performance, adaptive block management, organ-pipe configuration",
+  abstract     = "An adaptive UNIX disk device driver is described.  The driver
+    copies frequently-referenced blocks from their original locations to
+    reserved space near the center of the disk to reduce seek times.  Reference
+    frequencies need not be known in advance.  Instead, they are estimated by
+    monitoring the stream of arriving requests.  Measurements show that the
+    adaptive driver reduces seek times by more than half, and improves response
+    times significantly.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/adaptive-block-rearrangement-under-unix"
+}
+
+@InProceedings{sapfsftc5,
+  author       = "LoVerso, Susan~J. and Isman, Marshall and Nanopoulos, Andy and Nesheim, Bill and Milne, Ewan and Wheeler, Rick",
+  title        = "{\it sfs\/}:  A Parallel File System for the {CM}-5",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "291--304",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "parallel i/o, connection machines, file systems, large files,
+    i/o performance",
+  abstract     = "This paper describes the creation of a Unix-compatible file
+    system with highly scalable performance and size.  The file system is on
+    the CM-5 backed by a scalable array of disks.  Using the Unix file system
+    (UFS) from the SunOS 4.1.2 kernel as a base and modifying it to support
+    Connection Machine (CM) operations, we have created a new file system, the
+    scalable file system, or sfs.  We discuss the CM operations we support,
+    such as parallel reads and writes to the processing nodes of the Connection
+    Machine, the use of NFS to support many partitions of processing nodes on
+    the CM, support for very large file sizes (64-bit) and support for odd
+    numbers of disk drives.  The tradeoffs and decisions made during the course
+    of this project as well as performance data for varying numbers of disk
+    drives are provided.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/sfs-parallel-file-system-cm-5"
+}
+
+@InProceedings{aulrfs,
+  author       = "Glenn Fowler and Yennun Huang and David Korn and Herman Rao",
+  title        = "{A} User-Level Replicated File System",
+  booktitle    = usenixs93,
+  year         = 1993,
+  pages        = "279--290",
+  address      = cioh,
+  month        = "21--25 " # jun,
+  keywords     = "file replication, user-level file systems, resilience, recovery",
+  abstract     = "This paper describes a replication mechanism called
+    nDFS/REPL, which is built inside the Multiple Dimension File System (nDFS).
+    Layered on top of physical file systems, nDFS/REPL substantially increases
+    the reliability and availability of physical file systems by replicating
+    files located on one physical file system onto another physical file system
+    at run time.  Implemented at the user level, the system supports Kernel
+    Independence and Application Transparency in that the semantics and syntax
+    of system calls are preserved; thus, no kernel modification and application
+    re-compilation are needed.  To avoid replicating temporary files, nDFS/REPL
+    introduces a new notion---a replicated tree---by which users are able to
+    define one or more subtrees of a file system that need to be replicated
+    Replicated trees are maintained by a user-level, per-process name space.
+    nDFS/REPL accesses underlying physical file systems using Unix system
+    calls, rather than the actual access protocols.  Hence, it is easier to
+    port the system to different platforms.  Finally, in conjunction with a
+    process daemon, the system is resilient to a any single-point of failure,
+    either software or hardware.  Applications are able to continue processing
+    even when the backup physical file system is unreachable.  When the backup
+    file system is available again, a recovery mechanism synchronizes it with
+    the primary file system without terminating running applications.
+    Preliminary testing result show approximately 10% overhead for replication
+    on typical Unix tools.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/user-level-replicated-file-system"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
