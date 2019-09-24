@@ -3,6 +3,7 @@
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{sosp91    = osr # " (" # pot # "Thirteenth ACM Symposium on Operating Systems Principles, SOSP '91)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
@@ -4382,7 +4383,7 @@
 
 @InProceedings{abruu,
   author       = "Aky{\" u}rek, Sedat and Salem, Kenneth",
-  title        = "Adaptive Block Rearrangement Under Unix",
+  title        = "Adaptive Block Rearrangement Under " # unix,
   booktitle    = usenixs93,
   year         = 1993,
   pages        = "307--321",
@@ -8167,6 +8168,32 @@
     size of a (minimal) abstract syntax tree, and averaged only 2.83 times the
     size of the program text.", 
   location     = "https://doi.org/10.1145/77606.77609"
+}
+
+@Article{ewtiq,
+  author       = "Schmuck, Frank and Wyllie, Jim",
+  title        = "Experience with Transactions in {QuickSilver}",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "239--253",
+  month        = oct,
+  keywords     = "transactions, servers, ipc, file systems, os services, quicksilver",
+  abstract     = "All programs in the QuickSilver distributed system behave
+    atomically with respect to their updates to permanent data.  Operating
+    system support for transactions provides the framework required to support
+    this, as well as a mechanism that unifies reclamation of resources after
+    failures or normal process termination.  This paper evaluates the use of
+    transactions for these purposes in a general purpose operating system and
+    presents some of the lessons learned from our experience with a complete
+    running system based on transactions.  Examples of how transactions are
+    used in QuickSilver and measurements of their use demonstrate that the
+    transaction mechanism provides an efficient and powerful means for solving
+    many of the problems introduced by operating system extensibility and
+    distribution.", 
+  location     = "https://doi.org/10.1145/121133.121171", 
+  location     = "https://pdos.csail.mit.edu/archive/6.824-2005/papers/quicksilver91.pdf"
 }
 
 @Book{cpec,
