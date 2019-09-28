@@ -8196,6 +8196,148 @@
   location     = "https://pdos.csail.mit.edu/archive/6.824-2005/papers/quicksilver91.pdf"
 }
 
+@Article{doitcfs,
+  author       = "Kistler, James~J. and Satyanarayanan, M.",
+  title        = "Disconnected Operation in the {Coda} File System",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "213--225",
+  month        = oct,
+  keywords     = "disconnected operation, file systems, client-server
+    architecture, coda file system, eventual consistency",
+  abstract     = "Disconnected operation is a mode of operation that enables a
+    client to continue accessing critical data during temporary failures of a
+    shared data repository.  An important, though not exclusive, application of
+    disconnected operation is in supporting portable computers.  In this paper,
+    we show that disconnected operation is feasible, efficient and usable by
+    describing its design and implementation in the Coda File System.  The
+    central idea behind our work is that caching of data, now widely used for
+    performance, can also be exploited to improve availability.", 
+  location     = "https://doi.org/10.1145/146941.146942",
+  location     = "https://www.cs.cmu.edu/~satya/docdir/kistler-tocs-coda-1992.pdf"
+}
+
+@Article{rithfs,
+  author       = "Liskov, Barbara and Ghemawat, Sanjay and Gruber, Robert and Johnson, Paul and Shrira, Liuba and Williams, Michael",
+  title        = "Replication in the {Harp} File System",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "226--238",
+  month        = oct,
+  keywords     = "replication, virtual file systems, views, logs",
+  abstract     = "This paper describes the design and implementation of the
+    Harp file system.  Harp is a replicated Unix file system accessible via the
+    VFS interface.  It provides highly available and reliable storage for files
+    and guarantees that file operations are executed atomically in spite of
+    concurrency and failures.  It uses a novel variation of the primary copy
+    replication technique that provides good performance because it allows us
+    to trade disk accesses for network communication.  Harp is intended to be
+    used within a file service in a distributed network; in our current
+    implementation, it is accessed via NFS.  Preliminary performance results
+    indicate that Harp provides equal or better response time and system
+    capacity than an unreplicated implementation of NFS that uses Unix files
+    directly.", 
+  location     = "https://doi.org/10.1145/121133.121169",
+  location     = "http://www.pmg.csail.mit.edu/papers/harp.pdf"
+}
+
+@Article{moadfs,
+  author       = "Baker, Mary~G. and Hartman, John~H. and Kupfer, Michael~D. and Shirriff, Ken~W. and Ousterhout, John~K.",
+  title        = "Measurements of a Distributed File System",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "198--212",
+  month        = oct,
+  keywords     = "caching, i-o behavior, trace-driven analysis, sprite, cache
+    consistency",
+  abstract     = "We analyzed the user-level file access patterns and caching
+    behavior of the Sprite distributed file system.  The first part of our
+    analysis repeated a study done in 1985 of the: BSD UNIX file system.  We
+    found that file throughput has increased by a factor of 20 to an average of
+    8 Kbytes per second per active user over 10-minute intervals, and that the
+    use of process migration for load sharing increased burst rates by another
+    factor of six.  Also, many more very large (multi-megabyte) files are in
+    use today than in 1985.  The second part of our analysis measured the
+    behavior of Sprite's main-memory file caches.  Client-level caches average
+    about 7 Mbytes in size (about one-quarter to one-third of main memory) and
+    filter out about 50% of the traffic between clients and servers.  35% of
+    the remaining server traffic is caused by paging, even on workstations with
+    large memories.  We found that client cache consistency is needed to
+    prevent stale data errors, but that it is not invoked often enough to
+    degrade overall system performance.", 
+  location     = "https://doi.org/10.1145/121133.121164"
+}
+
+@Article{aiatlr,
+  author       = "Rodeheffer, Thomas L. and Schroeder",
+  title        = "Autoconfiguration in {Autonet}",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "183--197",
+  month        = oct,
+  keywords     = "skeptics, networking, network configuration, failure
+    detection, topology discovery, distributed algorithms, discovered spanning
+    trees, failure modes, network management, lans, cross-bar switches",
+  abstract     = "Autonet is a self-configuring local area network composed of
+    switches interconnected by 100 Mbit/second, full-duplex, point-to-point
+    links.  The switches contain 12 ports that are internally connected by a
+    full crossbar.  Switches use cut-through to achieve a packet forwarding
+    latency as low as 2 microseconds per switch.  Any switch port can be cabled
+    to any other switch port or to a host network controller.  A processor in
+    each switch monitors the network’s physical configuration.  A distributed
+    algorithm running on the switch processors computes the routes packets are
+    to follow and fills in the packet forwarding table in each switch.  This
+    algorithm automatically recalculates the forwarding tables to incorporate
+    repaired or new links and switches, and to bypass links and switches that
+    have failed or been removed.  Host network controllers have alternate ports
+    to the network and fail over if the active port stops working.  With
+    Autonet, distinct paths through the set of network links can carry packets
+    in parallel.  Thus, in a suitable physical configuration, many pairs of
+    hosts can communicate simultaneously at full link bandwidth.  The aggregate
+    bandwidth of an Autonet can be increased by adding more links and switches.
+    Each switch can handle up to 2 million packets/second.  Coaxial links can
+    span 100 meters and fiber links can span two kilometers.  A 30-switch
+    network with more than 100 hosts is the service network for Digital’s
+    Systems Research Center .", 
+  location     = "https://www.microsoft.com/en-us/research/publication/automatic-reconfiguration-in-autonet/"
+}
+
+@Article{ivfp,
+  author       = "Hanna, Keith",
+  title        = "Interactive Visual Functional Programming",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "145--156",
+  month        = sep,
+  keywords     = "haskell, spreadsheets, style sheets, incremental development",
+  abstract     = "An interactive graphical environment for supporting the
+    development and use of Haskell applications programs is described.  The
+    environment, named Vital, is particularly intended for supporting the
+    open-ended, incremental development style often preferred by non-specialist
+    users in which successive steps of program development are motivated and
+    informed by results so far obtained.Significant features of Vital include:
+    the graphical display of data structures in a format defined by a
+    datatype-indexed stylesheet, the way that evaluation of (possibly infinite)
+    values is demand-driven by the action of the user scrolling around an
+    unbounded workspace, and support for copy-and-paste graphical editing of
+    data structures.  This latter allows, for example, the user to modify a
+    complex data structure by point-and-click operations, or to create (by
+    functional evaluation) a regular data structure and then edit values or
+    expressions into it.  The effect of each editing operation is immediately
+    reflected in the Haskell program source code.", 
+  location     = "https://doi.org/10.1145/581478.581493"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -9056,6 +9198,27 @@
   series       = nyny,
   keywords     = "bayesian statistics, predictions mathematics",
   location     = ""
+}
+
+@Book{ihors,
+  author       = "Roy Scranton",
+  title        = "{I} $\heartsuit$ Oklahoma",
+  publisher    = "Soho",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "america, road trips, art",
+  location     = "PS 3619.C743 I25"
+}
+
+@Book{tswth,
+  author       = "Sarah Caudwell",
+  title        = "The Shortest Way to Hades",
+  publisher    = "Dell",
+  year         = 1985,
+  address      = nyny,
+  price        = "$7.99",
+  keywords     = "murrdaar, lines of succession, da classics",
+  location     = "PR 6053.A855 S5"
 }
 
 @Misc{1mmmitxss,
