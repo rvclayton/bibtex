@@ -8338,6 +8338,147 @@
   location     = "https://doi.org/10.1145/581478.581493"
 }
 
+@Article{aseftsaaopocac,
+  author       = "Aggarwal, Sudhir and Barbar{\' a}, Daniel and Meth, Kalman~Z.",
+  title        = "{A} Software Environment for the Specification and Analysis of Problems of Coordination and Concurrency",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 3,
+  pages        = "280--290",
+  month        = mar,
+  keywords     = "analysis, verification, distributed systems, formal
+    descriptions, parallel languages, simulation, software environments",
+  abstract     = "The SPANNER software environment for the specification and
+    analysis of concurrent process coordination and resource sharing
+    coordination is described.  In the SPANNER environment, one can formally
+    produce a specification of a distributed computing problem, and then verify
+    its validity through reachability analysis and simulation.  SPANNER is
+    based on a finite-state machine model called the selection/resolution
+    model.  The capabilities of SPANNER are illustrated by the analysis of two
+    classical coordination problems: (1) the dining philosophers; and (2)
+    Dijkstra's concurrent programming problem.  In addition, some of the more
+    recently implemented capabilities of the SPANNER system are discussed, such
+    as process types and cluster variables.", 
+  location     = "https://doi.org/10.1109/32.4649"
+}
+
+@Article{uctitmacios,
+  author       = "Draves, Richard~P. and Bershad, Brian~N. and Rashid, Richard~F. and Dean, Randall~W.",
+  title        = "Using Continuations to Implement Thread Management and Communication in Operating Systems",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "122--136",
+  month        = sep,
+  keywords     = "mach, threads, kernel threads, control transfer,
+    continuations, optimizations, storage management, performance improvements,
+    os structure, rpc",
+  abstract  = "We have improved the performance of the Mach 3.0 operating
+    system by redesigning its internal thread and interprocess communication
+    facilities to use continuations as the basis for control transfer.
+    Compared to previous versions of Mach 3.0, our new system consumes 85% less
+    space per thread.  Cross-address space remote procedure calls execute 14%
+    faster.  Exception handling runs over 60% faster.  In addition to improving
+    system performance, we have used continuations to generalize many control
+    transfer optimizations that are common to operating systems, and have
+    recast those optimizations in terms of a single implementation methodology.
+    This paper describes our experiences with using continuations in the Mach
+    operating system.",
+  location     = "https://doi.org/10.1145/121133.121155"
+}
+
+@Article{iapom,
+  author       = "Carter, John~B. and Bennett, John~K. and Zwaenepoel, Willy",
+  title        = "Implementation and Pefrormance of {Munin}",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "152--164",
+  month        = sep,
+  keywords     = "shared storage, parallel programs, release consistency,
+    munin, program annotations, barriers, locking",
+  abstract     = "Munin is a distributed shared memory (DSM) system that allows
+    shared memory parallel programs to be executed efficiently on distributed
+    memory multiprocessors.  Munin is unique among existing DSM systems in its
+    use of multiple consistency protocols and in its use of release
+    consistency.  In Munin, shared program variables are annotated with their
+    expected access pattern, and these annotations are then used by the runtime
+    system to choose a consistency protocol best suited to that access pattern.
+    Release consistency allows Munin to mask network latency and reduce the
+    number of messages required to keep memory consistent.  Munin's
+    multiprotocol release consistency is implemented in software using a
+    delayed update queue that buffers and merges pending outgoing writes.  A
+    sixteen-processor prototype of Munin is currently operational.  We evaluate
+    its implementation and describe the execution of two Munin programs that
+    achieve performance within ten percent of message passing implementations
+    of the same programs.  Munin achieves this level of performance with only
+    minor annotations to the shared memory programs.", 
+  location     = "https://doi.org/10.1145/121132.121159"
+}
+
+@Article{tronmm,
+  author       = "LaRowe Jr., Richard~P. and Ellis, Carla Schlatter and Kaplan, Laurence~S.",
+  title        = "The Robustness of {NUMA} Memory Management",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "137--151",
+  month        = sep,
+  keywords     = "parallel programming, numa architectures, program
+    performance, distributed memory, page management policies, parameters",
+  abstract     = "The study of operating systems level memory management
+    policies for nonuniform memory access time (NUMA) shared memory
+    multiprocessors is an area of active research.  Previous results have
+    suggested that the best policy choice often depends on the application
+    under consideration, while others have reported that the best policy
+    depends on the particular architecture.  Since both observations have
+    merit, we explore the concept of policy tuning on an
+    application/architecture basis.We introduce a highly tunable dynamic page
+    placement policy for NUMA multiprocessors, and address issues related to
+    the tuning of that policy to different architectures and applications.
+    Experimental data acquired from our DUnX operating system running on two
+    different NUMA multiprocessors are used to evaluate the usefulness,
+    importance, and ease of policy tuning.Our results indicate that while
+    varying some of the parameters can have dramatic effects on performance, it
+    is easy to select a set of default parameter settings that result in good
+    performance for each of our test applications on both architectures.  This
+    apparent robustness of our parameterized policy raises the possibility of
+    machine-independent memory management for NUMA-class machines.", 
+  location     = "https://doi.org/10.1145/121132.121158"
+}
+
+@Article{aidstap2002,
+  author       = "Lampson, Butler and Abadi, Mart{\' \i}n and Burrows, Michael and Wobber, Edward",
+  title        = "Authentication in Distributed Systems:  Theory and Practice",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "122--136",
+  month        = sep,
+  keywords     = "authentication, distributed systems, authentication logic,
+    channels, encryption, names, roles, ipc, access control",
+  abstract     = "We describe a theory of authentication and a system that
+    implements it.  Our theory is based on the notion of principal and a
+    'speaks for' relation between principals.  A simple principal either has a
+    name or is a communication channel; a compound principal can express an
+    adopted role or delegated authority.  The theory shows how to reason about
+    a principal's authority by deducing the other principals that it can speak
+    for; authenticating a channel is one important application. We use the
+    theory to explain many existing and proposed security mechanisms.  In
+    particular, we describe the system we have built.  It passes principals
+    efficiently as arguments or results of remote procedure calls, and it
+    handles public and shared key encryption, name lookup in a large name
+    space, groups of principals, program loading, delegation, access control,
+    and revocation.",  
+  location     = "https://doi.org/10.1145/138873.138874", 
+  location     = "https://www.microsoft.com/en-us/research/publication/authentication-in-distributed-systems-theory-and-practice/"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
