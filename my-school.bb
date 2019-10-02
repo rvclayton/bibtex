@@ -6642,6 +6642,7 @@
 @Book{hpcc,
   author       = "Rajkumar Buyya",
   title        = "High Performance Cluster Computing",
+  subtitle     = "Programming and Applications",
   publisher    = ph,
   year         = 1999,
   volume       = 2,
@@ -9174,22 +9175,6 @@
 		  standardisation, telecommunication computing,
 		  telecommunication standards, trees (mathematics)", 
   location     = "TK 5105.5.C647, http://www.tik.ee.ethz.ch/~walter/CN.ps.gz"
-}
-
-@Article{uctitmacios,
-  author       = "Richard~P. Draves and Brian~N. Bershad and Richard~F. Rashid
-		  and Randall~W. Dean",
-  title        = "Using continuations to implement thread management and
-		  communication in operating systems",
-  journal      = "Operating Systems Review (" # pot # "Thirteenth " # sosp #
-		  ")",
-  year         = 1991,
-  volume       = 25,
-  number       = 5,
-  pages        = "122-136",
-  month        = nov,
-  keywords     = "operating systems, optimisation, system recovery",
-  location     = "QA 76.6.O6X"
 }
 
 @Article{sromi,
