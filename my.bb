@@ -8479,6 +8479,72 @@
   location     = "https://www.microsoft.com/en-us/research/publication/authentication-in-distributed-systems-theory-and-practice/"
 }
 
+@Article{saeksftulmop,
+  author       = "Anderson, Thomas~E. and Bershad, Brian~N. and Lazowska, Edward~D. and Levy, Henry~M.",
+  title        = "Scheduler Activations:  Effective Kernel Support for the User-Level Management of Parallelism",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "95--109",
+  month        = sep,
+  keywords     = "user-space threads, kernel threads, parallel programming,
+    protection boundaries, up-calls, scheduler activations, parallel performance",
+  abstract     = "Threads are the vehicle for concurrency in many approaches to
+    parallel programming.  Threads separate the notion of a sequential
+    execution stream from the other aspects of traditional UNIX-like processes,
+    such as address spaces and I/O descriptors.  The objective of this
+    separation is to make the expression and control of parallelism
+    sufficiently cheap that the programmer or compiler can exploit even
+    fine-grained parallelism with acceptable overhead.Threads can be supported
+    either by the operating system kernel or by user-level library code in the
+    application address space, but neither approach has been fully
+    satisfactory.  This paper addresses this dilemma.  First, we argue that the
+    performance of kernel threads is inherently worse than that of user-level
+    threads, rather than this being an artifact of existing implementations; we
+    thus argue that managing parallelism at the user level is essential to
+    high-performance parallel computing.  Next, we argue that the lack of
+    system integration exhibited by user-level threads is a consequence of the
+    lack of kernel support for user-level threads provided by contemporary
+    multiprocessor operating systems; we thus argue that kernel threads or
+    processes, as currently conceived, are the wrong abstraction on which to
+    support user-level management of parallelism.  Finally, we describe the
+    design, implementation, and performance of a new kernel interface and
+    user-level thread package that together provide the same functionality as
+    kernel threads without compromising the performance and flexibility
+    advantages of user-level management of parallelism.", 
+  location     = "https://doi.org/10.1145/121132.121151"
+}
+
+@Article{gdlmhe,
+  author       = "Margaret~H. Eich",
+  title        = "Graph Directed Locking",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "133--140",
+  month        = feb,
+  keywords     = "concurrency control, database systems, deadlock, locking
+    protocols, serializability, transactions, two-phase locking, graph directed
+    lock migration",
+  abstract     = "A non-two-phase database concurrency control technique is
+    introduced. The technique is deadlock-free, places no restrictions on the
+    structure of the data, never requires data to be reread, never forces a
+    transaction to be rolled back in order to achieve serializability, applies
+    a type of lock conversion, and allows items to be released to subsequent
+    transactions as soon as possible.  The method introduced, database flow
+    graph locking (FGL), uses a directed acyclic graph to direct the migration
+    of locks between transactions.  Unlike many previous non-two-phase methods,
+    the database need not be structured in any specific fashion.  The effect of
+    these changes is that, with the same serializable schedule, FGL obtains a
+    higher degree of concurrency than two-phase locking (2PL).  Overhead
+    requirements for database flow graph locking are comparable to those for
+    two-phase locking, with 2PL being better in low conflict situations and FGL
+    better in high conflict.", 
+  location     = "https://doi.org/10.1109/32.4633"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -9360,6 +9426,17 @@
   price        = "$7.99",
   keywords     = "murrdaar, lines of succession, da classics",
   location     = "PR 6053.A855 S5"
+}
+
+@Book{tbjc,
+  author       = "Paul Febribach",
+  title        = "The Big Jones Cookbook",
+  subtitle     = "Recipes for Savoring the Heritage of Regional Southern Cooking",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "southern cooking, whole-hog cooking",
+  location     = "TX 715.2.S68 F44"
 }
 
 @Misc{1mmmitxss,
