@@ -8545,6 +8545,107 @@
   location     = "https://doi.org/10.1109/32.4633"
 }
 
+@Article{ahpmsfsd,
+  author       = "Muller, Keith and Pasquale, Joseph",
+  title        = "{A} High Performance Multi-Structured File System Design",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "56--67",
+  month        = sep,
+  keywords     = "file system, workload characteristics, caching, log storage,
+    performance scaling",
+  abstract     = "File system I/O is increasingly becoming a performance
+    bottleneck in large distributed computer systems.  This is due to the
+    increased file I/O demands of new applications, the inability of any single
+    storage structure to respond to these demands, and the slow decline of,
+    disk access times (latency and seek) relative to the rapid increase in CPU
+    speeds, memory size, and network bandwidth.We present a multi-structured
+    file system designed for high bandwidth I/O and fast response.  Our design
+    is based on combining disk caching with three different file storage
+    structures, each implemented on an independent and isolated disk array.
+    Each storage structure is designed to optimize a different set of file
+    system access characteristics such as cache writes, directory searches,
+    file attribute requests or large sequential reads/writes.As part of our
+    study, we analyze the performance of an existing file system using trace
+    data from UNIX disk I/O-intensive workloads.  Using trace driven
+    simulations, we show how performance is improved by using separate storage
+    structures as implemented by a multi-structured file system.", 
+  location     = "https://cseweb.ucsd.edu/~pasquale/Research/Papers/sosp91.pdf",
+  location     = "https://doi.org/10.1145/121132.286600"
+}
+
+@Article{fcult,
+  author       = "Marsh, Brian~D. and Scott, Michael~L. and LeBlanc, Thomas~J. and Markatos, Evangelos~P.",
+  title        = "First-Class User-Level Threads",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "110--121",
+  month        = sep,
+  keywords     = "numa systems, software interrupts, shared kernel-user data,
+    schedulers, user-space threads", 
+  abstract     = "It is often desirable, for reasons of clarity, portability,
+    and efficiency, to write parallel programs in which the number of processes
+    is independent of the number of available processors.  Several modern
+    operating systems support more than one process in an address space, but
+    the overhead of creating and synchronizing kernel processes can be high.
+    Many runtime environments implement lightweight processes (threads) in user
+    space, but this approach usually results in second-class status for
+    threads, making it difficult or impossible to perform scheduling operations
+    at appropriate times (e.g.  when the current thread blocks in the kernel).
+    In addition, a lack of common assumptions may also make it difficult for
+    parallel programs or library routines that use dissimilar thread packages
+    to communicate with each other, or to synchronize access to shared data.We
+    describe a set of kernel mechanisms and conventions designed to accord
+    first-class status to user-level threads, allowing them to be used in any
+    reasonable way that traditional kernel-provided processes can be used,
+    while leaving the details of their implementation to user-level code.  The
+    key features of our approach are (1) shared memory for asynchronous
+    communication between the kernel and the user, (2) software interrupts for
+    events that might require action on the part of a user-level scheduler, and
+    (3) a scheduler interface convention that facilitates interactions in user
+    space between dissimilar kinds of threads.  We have incorporated these
+    mechanisms in the Psyche parallel operating system, and have used them to
+    implement several different kinds of user-level threads.  We argue for our
+    approach in terms of both flexibility and performance.", 
+  location     = "https://doi.org/10.1145/121132.344329"
+}
+
+@Article{dfsfdvaa,
+  author       = "Rangan, P. Venkat and Vin, Harrick~M.",
+  title        = "Designing File Systems for Digital Video and Audio",
+  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "81--94",
+  month        = sep,
+  keywords     = "ropes, media synchronization, data streams, media operations,
+    scheduling",
+  abstract     = "We address the unique requirements of a multimedia file
+    system such as continuous storage and retrieval of media, maintenance of
+    synchronization between multiple media streams, and efficient manipulation
+    of huge media objects.  We present a model that relates disk and device
+    characteristics to the recording rate, and derive storage granularity and
+    scattering parameters that guarantee continuous access.  In order for the
+    file system to support multiple concurrent requests, we develop admission
+    control algorithms for determining whether a new request can be accepted
+    without violating the realtime constraints of any of the requests.We define
+    a strand as an immutable sequence of continuously recorded media samples,
+    and then present a multimedia rope abstraction which is a collection of
+    individual media strands tied together by synchronization information.  We
+    devise operations for efficient manipulation of multi-stranded ropes, and
+    develop an algorithm for maintaining the scattering parameter during
+    editing so as to guarantee continuous playback of edited ropes.We have
+    implemented a prototype multimedia file system, which serves as a testbed
+    for experimenting with policies and algorithms for multimedia storage.  We
+    present our initial experiences with using the file system.", 
+  location     = "https://doi.org/10.1145/121132.121149"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
