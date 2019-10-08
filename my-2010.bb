@@ -50725,21 +50725,6 @@
 		   abstract relations, language design" 
 }
 
-@inproceedings{fcult,
-  author	= "Brian~D. Marsh and Michael~L. Scott and Thomas~J. LeBlanc
-		   and Evangelos~P. Markatos", 
-  title		= "First-Class User-Level Threads",
-  booktitle	= pot # "Thirteenth" # sosp, 
-  year		= 1991,
-  pages		= "110--121",
-  organization	= "ACM SIGOPS",
-  publisher	= acmp,
-  month		= "13--16 October",
-  keywords	= "parallel programming, kernel-based synchronization,
-		   lightweight processes, first-class threads, thread packages,
-		   software interrupts"
-}
-
 @inproceedings{tdomacitioamos,
   author	= "Michael Young and Avadis Tevanian and Richard Rashid and
 		   David Golub and Jeffrey Eppinger and Jonathan Chew and
