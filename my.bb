@@ -4505,6 +4505,41 @@
     programs." 
 }
 
+@InProceedings{ebapmsfu,
+  author       = "Dan Freedman",
+  title        = "Experience Building a Process Migration Subsystem for " # unix,
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "349--355",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "process migration, state management",
+  abstract     = "Process migration has been explored for a number of years as
+    a means of achieving performance improvement in distributed computer
+    systems through load balancing.  Due to the complexities inherent in the
+    technique, most implementations have relied on the ability of an operating
+    system to provide location-transparent addressing of computing resources
+    (devices, memory, and so forth), so that these resources may be accessed
+    easily by processes after they have been migrated.  This paper describes a
+    process migration subsystem which takes a different approach.  It takes
+    advantage of whatever location-transparent addressing facilities the
+    operating system provides, however where not available it gives processes
+    the opportunity to make their own arrangements.  Under this implementation,
+    process migration is not transparent, but rather relies on active
+    co-operation between processes and the migration subsystem itself.  Using
+    this co-operative strategy, it has been possible to develop an effective
+    process migration scheme for Unix without modifications to the Unix kernel.
+    Although applications wishing to take advantage of the process migration
+    subsystem require some modifications, for many programs these are
+    straightforward.  Under this subsystem, process migration is most
+    transparent to processes which spend a large amount of time processing data
+    in memory, and which use little in the way of operating system services.
+    Some support is provided for processes which have to terminate and then
+    re-establish connections with the operating system during process
+    migration."
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9733,6 +9768,18 @@
   keywords     = "beethoven, german romanticism, napoleon, vienna, music,
     composition, political theory",
   location     = "ML 410.B42 C55"
+}
+
+@Book{dodos,
+  author       = "Paul~J. Fortier",
+  title        = "Design of Distributed Operating Systems",
+  subtitle     = "Concepts and Technology",
+  publisher    = "Intertext Publications",
+  year         = 1986,
+  address      = nyny,
+  keywords     = "operating systems, distributed computing, distributed
+    operating systems, object models, process models",
+  location     = "QA 76.76.O63 F67"
 }
 
 @Misc{1mmmitxss,
