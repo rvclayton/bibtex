@@ -9,6 +9,7 @@
 @string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
+@string{usenixw91 = pot # "Winter 1990 USENIX Conference"}
 @string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
 		  
 		  
@@ -4459,6 +4460,51 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1993-technical-conference/user-level-replicated-file-system"
 }
 
+@InProceedings{amafdtp,
+  author       = "Michael Wayne Young and Dean~S. Thompson and Elliot Jaffe",
+  title        = "{A} Modular Architecture for Distributed Transaction Processing",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "357--363",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "transactions, nested transactions, modularity, distributed systems",
+  abstract     = "The prevalence of Unix system has made parallelism and
+    distribution an attractive solutions for transaction processing.  The
+    affordability of Unix systems makes them attractive both as intelligent
+    front-end processors and as serious computation engines.  Unix systems have
+    encouraged the construction of small tools that can be combined to solve
+    larger problems.  Modular system components with open interfaces simplify
+    the construction of efficient, reliable, distributed systems.  Standard
+    operating systems interface are part of the solution.  Open, modular
+    transaction processing interfaces are another important part.  Existing
+    transaction systems fail to define clean interfaces for transaction
+    management, communication, logging, locking and recovery.  Their
+    communication protocols, recovery algorithms, and transaction management
+    algorithms are deeply inter-related.  This complicates the implementation
+    and makes interoperability with other systems more difficult.  The Transarc
+    TP Toolkit is a highly modular set of transaction processing components
+    that simplifies distributed systems programming.  At the core of the
+    Toolkit is a distributed transaction management service, which coordinates
+    the commitment of transactions that involve multiple applications.  This
+    transaction management service defines strict interfaces to communication
+    and recovery components.  The transaction management component is
+    responsible solely for ensuring a consistent transaction outcome.  The
+    communications component is responsible solely for the interaction with
+    remote applications.  It may use any communication protocol, naming scheme,
+    security model, or programming interface -- in particular, the underlying
+    protocol does not need to contain the details of transaction management.
+    The recovery component is responsible solely for maintaining local
+    persistent resources, and may choose its ow locking or logging techniques.
+    The Transarc TP Toolkit provides efficient implementations of these
+    transaction management, communication, recovery, locking and logging
+    services, many of them in small program libraries, on a variety of
+    operating systems.  The Toolkit also includes C language support that makes
+    it easy to write both transactional applications and recoverable server
+    programs." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8646,6 +8692,143 @@
   location     = "https://doi.org/10.1145/121132.121149"
 }
 
+@Article{saimfcm,
+  author       = "Govindan, Ramesh and Anderson, David~P.",
+  title        = "Scheduling and {IPC} Mechanisms for Continuous Media",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "68--80",
+  month        = oct,
+  keywords     = "media delivery, shared storage, upcalls, scheduling,
+    user-space threads, streams, user-kernel interface, memory mapping",
+  abstract     = "Next-generation workstations will have hardware support for
+    digital continuous media (CM) such as audio and video.  CM applications
+    handle data at high rates, with strict timing requirements, and often in
+    small chunks.  If such applications are to run efficiently and predictably
+    as user-level programs, an operating system must provide scheduling and IPC
+    mechanisms that reflect these needs.  We propose two such mechanisms:
+    split-level CPU scheduling of lightweight processes in multiple address
+    spaces, and memory-mapped streams for data movement between address spaces.
+    These techniques reduce the the number of user/kernel interactions (system
+    calls, signals, and preemptions).  Compared with existing mechanisms, they
+    can reduce scheduling and I/O overhead by a factor of 4 to 6.", 
+  location     = "https://doi.org/10.1145/121132.121147"
+}
+
+@Article{tdaioalsfs,
+  author       = "Rosenblum, Mendel and Ousterhout, John~K.",
+  title        = "The Design and Implementation of a Log-Structured File System",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "1--15",
+  month        = oct,
+  keywords     = "log file systems, segment cleaning, disk utilization, crash
+    recovery", 
+  abstract     = "This paper presents a new technique for disk storage
+    management called a log-structured file system.  A log-structured file
+    system writes all modifications to disk sequentially in a log-like
+    structure, thereby speeding up both file writing and crash recovery.  The
+    log is the only structure on disk; it contains indexing information so that
+    files can be read back from the log efficiently.  In order to maintain
+    large free areas on disk for fast writing, we divide the log
+    intosegmentsand use a segment cleaner to compress the live information from
+    heavily fragmented segments.  We present a series of simulations that
+    demonstrate the efficiency of a simple cleaning policy based on cost and
+    benefit.  We have implemented a prototype log-structured file system called
+    Sprite LFS; it outperforms current Unix file systems by an order of
+    magnitude for small-file writes while matching or exceeding Unix
+    performance for reads and large writes.  Even when the overhead for
+    cleaning is included, Sprite LFS can use 70% of the disk bandwidth for
+    writing, whereas Unix file systems typically can use only 5--10%.", 
+  location     = "https://doi.org/10.1145/146941.146943",
+  location     = "https://people.eecs.berkeley.edu/~brewer/cs262/LFS.pdf"
+}
+
+@Article{sfsdkg,
+  author       = "Gifford, David~K. and Jouvelot, Pierre and Sheldon, Mark~A. and O'Toole Jr., James~W.",
+  title        = "Semantic File Systems",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "16--25",
+  month        = oct,
+  keywords     = "indexing, virtual directories, user-space file systems,
+    content-addressable file systems",
+  abstract     = "A semantic file system is an information storage system that
+    provides flexible associative access to the system's contents by
+    automatically extracting attributes from files with file type specific
+    transducers.  Associative access is provided by a conservative extension to
+    existing tree-structured file system protocols, and by protocols that are
+    designed specifically for content based access.  Compatiblity with existing
+    file system protocols is provided by introducing the concept of a virtual
+    directory.  Virtual directory names are interpreted as queries, and thus
+    provide flexible associative access to files and directories in a manner
+    compatible with existing software.  Rapid attribute-based access to file
+    system contents is implemented by automatic extraction and indexing of key
+    properties of file system objects.  The automatic indexing of files and
+    directories is called semantic because user programmable transducers use
+    information about the semantics of updated file system objects to extract
+    the properties for indexing.  Experimental results from a semantic file
+    system implementation support the thesis that semantic file systems present
+    a more effective storage abstraction than do traditional tree structured
+    file systems for information sharing and command level programming.", 
+  location     = "https://doi.org/10.1145/121133.121138"
+}
+
+@Article{tiocaopsfmsmm,
+  author       = "Vaswani, Raj and Zahorjan, John",
+  title        = "The Implications of Cache Affinity on Processor Scheduling for Multiprogrammed, Shared Memory Multiprocessors",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "26--40",
+  month        = oct,
+  keywords     = "cache affinity, processor reallocation, processor scheduling,
+    caches",
+  abstract     = "In a shared memory multiprocessor with caches, executing
+    tasks develop affinity to processors by filling their caches with data and
+    instructions during execution.  A scheduling policy that ignores this
+    affinity may waste processing power by causing excessive cache
+    refilling.Our work focuses on quantifying the effect of processor
+    reallocation on the performance of various parallel applications
+    multiprogrammed on a shared memory multiprocessor, and on evaluating how
+    the magnitude of this cost affects the choice of scheduling policy.We first
+    identify the components of application response time, including processor
+    reallocation costs.  Next, we measure the impact of reallocation on the
+    cache behavior of several parallel applications executing on a Sequent
+    Symmetry multiprocessor.  We also measure, the performance of these
+    applications under a number of alternative allocation policies.  These
+    experiments lead us to conclude that on current machines processor affinity
+    has only a very weak influence on the choice of scheduling discipline, and
+    that the benefits of frequent processor reallocation (in response to the
+    changing parallelism of jobs) outweigh the penalties imposed by such
+    reallocation.  Finally, we use this experimental data to parameterize a
+    simple analytic model, allowing us to evaluate the effect of processor
+    affinity on future machines, those containing faster processors and larger
+    caches.", 
+  location     = "https://doi.org/10.1145/121132.121140"
+}
+
+@Article{esocsfasmm,
+  author       = "Anna~R. Karlin and Kai Li and Mark~S. Manasse and Susan~S. Owicki",
+  title        = "Empirical Studies of Competitive Spinning for a Shared-Memory Multiprocessor",
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  pages        = "41--55",
+  month        = oct,
+  keywords     = "multiprocessors, synchronization, spin locks, lock waiting",
+  abstract     = "Acquiring a lock to protect access to shared data is a common operation in multiprocessor programs.  Typically, the requesting thread is blocked if the lock it needs is held by another thread.  The cost of blocking one thread and activating another can be a substantial part of program execution time.  Alternatively, the thread could spin until the lock is free, or spin for a while and then block.  This may avoid context-switch overhead, but processor cycles may be wasted in unproductive spinning.  This paper studies seven strategies for determining whether and how long to spin before blocking.  This paper studies seven strategies for determining whether and how long to spin before blocking.  Of particular interest are competitive strategies, for which the performance can be shown to be no worse than some constant factor times an optimal off-line strategy.  The performance of five competitive strategies is compared with that of always blocking, always spinning, or using the optimal off-line algorithm.  Measurements of lock-waiting time distributions for five parallel programs were used to compare the cost of synchronization under all the strategies.  Additional measurements of elapsed time for some of the programs and strategies allowed assessment of the impact of synchronization strategy on overall program performance.  Both types of measurements indicate that the standard blocking strategy performs poorly compared to mixed strategies.  Among the mixed strategies studied, adaptive algorithms perform better than non-adaptive ones.",
+  location     = "https://homes.cs.washington.edu/~karlin/papers/spinlock.ps"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -9538,6 +9721,18 @@
   address      = chil,
   keywords     = "southern cooking, whole-hog cooking",
   location     = "TX 715.2.S68 F44"
+}
+
+@Book{btrrjc,
+  author       = "John Clubbe",
+  title        = "Beethoven",
+  subtitle     = "The Relentless Revolutionary",
+  publisher    = "W.~W. Norton \& Co.",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "beethoven, german romanticism, napoleon, vienna, music,
+    composition, political theory",
+  location     = "ML 410.B42 C55"
 }
 
 @Misc{1mmmitxss,
