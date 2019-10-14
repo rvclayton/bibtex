@@ -4540,6 +4540,39 @@
     migration."
 }
 
+@InProceedings{dadssfs,
+  author       = "Andy Bond and John~H. Hine",
+  title        = "{DRUMS}:  {A} Distributed Statistical Server for {STARS}",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "335--348",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "distributed systems",
+  abstract     = "STARS is a mechanism for providing distributed task
+    allocation based on the demand for and supply of resources in a
+    heterogeneous Unix workstation environment.  Previous work in this area has
+    concentrated on either allocation of idle workstations or allocation
+    strategies based on a single load sharing measure.  Our method of
+    allocation attempts to model more closely the economics of resources in a
+    typical distributed workstation environment.  A three-tiered approach is
+    taken to solving the problem of allocation.  An abstract model provides a
+    representation of both the availability of host's resources and the
+    resource demands of tasks.  Given this common representation , we are able
+    to use various allocation schemes to assign tasks to hosts.  These
+    allocation schemes include static, dynamic, and adaptive methods.  To
+    provide the information to the resource model, and eventually to the
+    allocation mechanisms, a Distributed Resource MeasUrement Service is
+    provided.  DRUMS is a robust and adaptive set of servers which roam the
+    network, providing access to the statistical information about hosts and
+    tasks.  Two sets of servers are used, repositories of replicated data and
+    collectors of statistical measurements.  We examine the effectiveness of
+    using such a dynamic service for maintaining resources measurement
+    information.", 
+  location     = "ftp://ftp.mcs.vuw.ac.nz/_mnt/doc/misc/dist.sys/papers/drums/usenix-drums.ps.Z"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9908,6 +9941,29 @@
   institution  = "Fak. f{\" u}r Informatik, Univ. der Bundeswehr",
   address      = "Munich, Germany",
   year         = 2009,
+}
+
+@TechReport{fmpitlm,
+  author       = "David Weinreb and David Moon",
+  title        = "Flavors: Message Passing in the {Lisp Machine}",
+  institution  = ail # ", " # mit,
+  year         = 1980,
+  type         = "A.I. Memo",
+  number       = 602,
+  address      = cama,
+  month        = nov,
+  keywords     = "flavors, object-oriented programming, inheritance, generics,
+    message passing, actors, lisp",
+  abstract     = "The object oriented programming style used in the Smalltalk
+    and Actor languages is available in Lisp Machine Lisp, and used by the Lisp
+    Machine software system.  It is used to perform generic operations on
+    objects.  Part of its implementation is simply a convention in procedure
+    calling style; part is a powerful language feature, called Flavors, for
+    defining abstract objects.  This chapter attempts to explain what
+    programming with objects and with message passing means, the various means
+    of implementing these in Lisp Machine Lisp, and when you should use them.
+    It assumes no prior knowledge of any other languages.", 
+  location     = "https://dspace.mit.edu/handle/1721.1/5700"
 }
 
 @Manual{wdud,
