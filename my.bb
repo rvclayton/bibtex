@@ -9,7 +9,7 @@
 @string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
-@string{usenixw91 = pot # "Winter 1990 USENIX Conference"}
+@string{usenixw91 = pot # "Winter 1991 USENIX Conference"}
 @string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
 		  
 		  
@@ -4571,6 +4571,27 @@
     using such a dynamic service for maintaining resources measurement
     information.", 
   location     = "ftp://ftp.mcs.vuw.ac.nz/_mnt/doc/misc/dist.sys/papers/drums/usenix-drums.ps.Z"
+}
+
+@InProceedings{anuos,
+  author       = "Peter Norwood",
+  title        = "{A} {NonStop} " # unix # " Operating System",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "325--334",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "fault-tolerant systems, redundancy",
+  abstract     = "Tandem's Integrity S2 is a fault-tolerant computer system
+    providing the benefits of a standard Unix operating system.  The
+    fault-tolerant capabilities of Integrity S2 are realized through a
+    combination of hardware and software.  The hardware supports fault-tolerant
+    operation through a variety of techniques including triple modular
+    redundancy, duplexed hardware, and self-checking circuitry.  The operating
+    system, NonStop-UX, is based on an AT&T Unix V.3 kernel.  It has been
+    enhanced in a number of ways to improve the robustness of the Unix
+    operating system and to support fault-tolerant system operation."
 }
 
 @Article{eobsoiop,
