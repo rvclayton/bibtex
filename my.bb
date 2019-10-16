@@ -4594,6 +4594,34 @@
     operating system and to support fault-tolerant system operation."
 }
 
+@InProceedings{tpousvr40,
+  author       = "Campbell, Mard and Barton, Richard and Browning, Jim and Cervenka, Dennis and Curry, Ben and Davis, Todd and Edmonds, Tracy and Holt, Russ and Slice, John and Smith, Tucker and and Wescott, Rich",
+  title        = "The Parallelization of " # unix # " {System V Release} 4.0",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "307--323",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "portability, multiprocessor operating systems, locking
+    systems, spin locks, blocking locks",
+  abstract     = "This document describes the fine-grained parallelization of
+    the Unix system v release 4.0 kernel for a tightly-coupled symmetric
+    multiprocessing machine.  Unlike most multithreading efforts performed
+    using an existing single-threaded Unix base, this effort focused on
+    altering as little source as possible during the initial port and then
+    making algorithmic modifications only when a measured performance problems
+    manifested itself.  This multiprocessing kernel (SVR4/MP) was designed,
+    implemented, and tuned in a 9 month development cycle and met all of its
+    scalability goals in a dyadic configuration.  Overall design strategy and
+    locking primitives are discussed in this paper from a technical and
+    schedule perspective; in addition, private data, and interprocessor
+    communication are examined.  The multithreading strategy for each of
+    several major subsystems is also examined.  All of this is followed by a
+    performance and scalability analysis of other overall kernel for several
+    different types of benchmarks on a prototype dyadic MC88000-based system" 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
