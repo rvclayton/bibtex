@@ -9836,6 +9836,17 @@
   location     = "QA 76.76.O63 F67"
 }
 
+@Book{loldh,
+  author       = "Doug Hoyte",
+  title        = "Let Over Lambda",
+  subtitle     = "50 Years of Lisp",
+  publisher    = "HCSW\slash Hoytech",
+  year         = 2008,
+  keywords     = "lisp, closures, macros, read macros, generative programming,
+    anaphoric macros",
+  location     = "978-1-4357-1275-1"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
