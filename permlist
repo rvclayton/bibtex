@@ -728,6 +728,7 @@ compiling for shared memory and message passing computer : larus
 compiling little languages in python : aycock
 compiling scheme to jvm bytecode a performance study : serpette
 complexity and expressive power of logic programming : dantsin
+composable and compilable macros : flatt
 composable memory transactions : harris
 composing dataflow analyses and transformations : lerner
 composing first class transactions : haines
