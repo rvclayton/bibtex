@@ -1,6 +1,7 @@
 .so bibtex.header
-		  
+
 @string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
+@string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 @string{sosp91    = osr # " (" # pot # "Thirteenth ACM Symposium on Operating Systems Principles, SOSP '91)"}
@@ -4622,6 +4623,34 @@
     different types of benchmarks on a prototype dyadic MC88000-based system" 
 }
 
+@InProceedings{aeiodpaio,
+  author       = "A.~Lester Buck and Robert~A. {Coyne, Jr.}",
+  title        = "An Experimental Implementation of Draft {POSIX} Asynchronous {I}/{O}",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "289--306",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "asynchronous i-o, unix, standards, high-performance i-o",
+  abstract     = "As Unix moves into large systems environment, the need for an
+    efficient asynchronous input/output (I/O) mechanism becomes more acute.  We
+    review various designers' approaches, absent existing standards, to graft
+    either non-blocking or fully asynchronous I/O capabilities onto Unix.  We
+    then describe an experimental implementation of asynchronous event
+    notification and asynchronous I/O for AIX/370 based on unapproved Draft 9
+    of the POSIX 1003.4 standard.  Our goal is a high-performance I/O system
+    that can efficiently handle hundreds of outstanding I/O operations in a
+    single server process, with dozens of operations transferring data
+    simultaneously.  We describe queuing structures, changes to standard kernel
+    routines, and extensions to the device driver interface to integrate
+    asynchronous functionality.  Our first implementation supports only raw
+    transfers directly between devices and user buffers.  Issues of real memory
+    consumption, page faults in interrupt context, write ordering semantics,
+    security, asynchronous ioctl()s, and compatibility with select() are
+    discussed." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -8197,7 +8226,7 @@
 @Article{cstjbaps,
   author       = "Serpette, Bernard Paul and Serrano, Manuel",
   title        = "Compiling {Scheme} to {JVM} Bytecode:  {A} Performance Study",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)",
+  journal      = icfp02,
   year         = 2002,
   volume       = 37,
   number       = 9,
@@ -8270,7 +8299,7 @@
 @Article{taba,
   author       = "Olivier Danvy and Mayer Goldberg",
   title        = "There and Back Again",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  journal      = icfp,
   year         = 2002,
   volume       = 37,
   number       = 9,
@@ -8476,7 +8505,7 @@
 @Article{ivfp,
   author       = "Hanna, Keith",
   title        = "Interactive Visual Functional Programming",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
+  journal      = icfp,
   year         = 2002,
   volume       = 37,
   number       = 9,
@@ -8529,12 +8558,12 @@
 @Article{uctitmacios,
   author       = "Draves, Richard~P. and Bershad, Brian~N. and Rashid, Richard~F. and Dean, Randall~W.",
   title        = "Using Continuations to Implement Thread Management and Communication in Operating Systems",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
   pages        = "122--136",
-  month        = sep,
+  month        = oct,
   keywords     = "mach, threads, kernel threads, control transfer,
     continuations, optimizations, storage management, performance improvements,
     os structure, rpc",
@@ -8555,12 +8584,12 @@
 @Article{iapom,
   author       = "Carter, John~B. and Bennett, John~K. and Zwaenepoel, Willy",
   title        = "Implementation and Pefrormance of {Munin}",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
   pages        = "152--164",
-  month        = sep,
+  month        = oct,
   keywords     = "shared storage, parallel programs, release consistency,
     munin, program annotations, barriers, locking",
   abstract     = "Munin is a distributed shared memory (DSM) system that allows
@@ -8585,12 +8614,12 @@
 @Article{tronmm,
   author       = "LaRowe Jr., Richard~P. and Ellis, Carla Schlatter and Kaplan, Laurence~S.",
   title        = "The Robustness of {NUMA} Memory Management",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "137--151",
-  month        = sep,
   keywords     = "parallel programming, numa architectures, program
     performance, distributed memory, page management policies, parameters",
   abstract     = "The study of operating systems level memory management
@@ -8617,12 +8646,12 @@
 @Article{aidstap2002,
   author       = "Lampson, Butler and Abadi, Mart{\' \i}n and Burrows, Michael and Wobber, Edward",
   title        = "Authentication in Distributed Systems:  Theory and Practice",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "122--136",
-  month        = sep,
   keywords     = "authentication, distributed systems, authentication logic,
     channels, encryption, names, roles, ipc, access control",
   abstract     = "We describe a theory of authentication and a system that
@@ -8645,12 +8674,12 @@
 @Article{saeksftulmop,
   author       = "Anderson, Thomas~E. and Bershad, Brian~N. and Lazowska, Edward~D. and Levy, Henry~M.",
   title        = "Scheduler Activations:  Effective Kernel Support for the User-Level Management of Parallelism",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "95--109",
-  month        = sep,
   keywords     = "user-space threads, kernel threads, parallel programming,
     protection boundaries, up-calls, scheduler activations, parallel performance",
   abstract     = "Threads are the vehicle for concurrency in many approaches to
@@ -8711,12 +8740,12 @@
 @Article{ahpmsfsd,
   author       = "Muller, Keith and Pasquale, Joseph",
   title        = "{A} High Performance Multi-Structured File System Design",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "56--67",
-  month        = sep,
   keywords     = "file system, workload characteristics, caching, log storage,
     performance scaling",
   abstract     = "File system I/O is increasingly becoming a performance
@@ -8742,12 +8771,12 @@
 @Article{fcult,
   author       = "Marsh, Brian~D. and Scott, Michael~L. and LeBlanc, Thomas~J. and Markatos, Evangelos~P.",
   title        = "First-Class User-Level Threads",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "110--121",
-  month        = sep,
   keywords     = "numa systems, software interrupts, shared kernel-user data,
     schedulers, user-space threads", 
   abstract     = "It is often desirable, for reasons of clarity, portability,
@@ -8780,12 +8809,12 @@
 @Article{dfsfdvaa,
   author       = "Rangan, P. Venkat and Vin, Harrick~M.",
   title        = "Designing File Systems for Digital Video and Audio",
-  journal      = sigplan # " (" # pot # "Seventh ACM SIGPLAN " # icfp # ", ICFP '02)",
-  year         = 2002,
-  volume       = 37,
-  number       = 9,
+  journal      = sosp91,
+  year         = 1991,
+  volume       = 25,
+  number       = 5,
+  month        = oct,
   pages        = "81--94",
-  month        = sep,
   keywords     = "ropes, media synchronization, data streams, media operations,
     scheduling",
   abstract     = "We address the unique requirements of a multimedia file
@@ -8944,6 +8973,36 @@
   keywords     = "multiprocessors, synchronization, spin locks, lock waiting",
   abstract     = "Acquiring a lock to protect access to shared data is a common operation in multiprocessor programs.  Typically, the requesting thread is blocked if the lock it needs is held by another thread.  The cost of blocking one thread and activating another can be a substantial part of program execution time.  Alternatively, the thread could spin until the lock is free, or spin for a while and then block.  This may avoid context-switch overhead, but processor cycles may be wasted in unproductive spinning.  This paper studies seven strategies for determining whether and how long to spin before blocking.  This paper studies seven strategies for determining whether and how long to spin before blocking.  Of particular interest are competitive strategies, for which the performance can be shown to be no worse than some constant factor times an optimal off-line strategy.  The performance of five competitive strategies is compared with that of always blocking, always spinning, or using the optimal off-line algorithm.  Measurements of lock-waiting time distributions for five parallel programs were used to compare the cost of synchronization under all the strategies.  Additional measurements of elapsed time for some of the programs and strategies allowed assessment of the impact of synchronization strategy on overall program performance.  Both types of measurements indicate that the standard blocking strategy performs poorly compared to mixed strategies.  Among the mixed strategies studied, adaptive algorithms perform better than non-adaptive ones.",
   location     = "https://homes.cs.washington.edu/~karlin/papers/spinlock.ps"
+}
+
+@Article{cacm,
+  author       = "Matthew Flatt",
+  title        = "Composable and Compilable Macros",
+  subtitle     = "You Want it When?",
+  journal      = icfp02,
+  year         = 2002,
+  volume       = 37,
+  number       = 9,
+  pages        = "72--83",
+  month        = sep,
+  keywords     = "modules, macros, compilation, run-time, compile-time expansion",
+  abstract     = "Many macro systems, especially for Lisp and Scheme, allow
+    macro transformers to perform general computation.  Moreover, the language
+    for implementing compile-time macro transformers is usually the same as the
+    language for implementing run-time functions.  As a side effect of this
+    sharing, implementations tend to allow the mingling of compile-time values
+    and run-time values, as well as values from separate compilations.  Such
+    mingling breaks programming tools that must parse code without executing
+    it.  Macro implementors avoid harmful mingling by obeying certain
+    macro-definition protocols and by inserting phase-distinguishing
+    annotations into the code.  However, the annotations are fragile, the
+    protocols are not enforced, and programmers can only reason about the
+    result in terms of the compiler's implementation.  MzScheme---the language
+    of the PLT Scheme tool suite---addresses the problem through a macro system
+    that separates compilation without sacrificing the expressiveness of
+    macros.", 
+  location     = "https://doi.org/10.1145/581478.581486",
+  location     = "https://www.cs.utah.edu/plt/publications/macromod.pdf"
 }
 
 @Book{cpec,
