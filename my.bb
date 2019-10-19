@@ -4651,6 +4651,44 @@
     discussed." 
 }
 
+@InProceedings{aamfu,
+  author       = "Matt Bishop",
+  title        = "An Authentication Mechanism for {USENET}",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "281--288",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "usenet, authenticity, integrity, public key encryption,
+    certificates, digital signatures",
+  abstract     = "As Unix based systems become more ubiquitous, so does the
+    international news network and bulletin board system USENET.  Like
+    electronic mail, the USENET has no security whatsoever; forging articles,
+    or altering posted articles in transit, is trivial.  In the past, this has
+    not been a problem, but with the advent of authoritative news groups such
+    as comp.bugs.4bsd-fixes (which contains official bug fixes and enhancements
+    from Berkeley), the integrity and authenticity of some postings becomes
+    paramount.  The Privacy and Security Research Group, working under the
+    auspices of the Internet Research Steering Group, recently released a set
+    of proposals to enhance the security of electronic mail.  One proposal adds
+    to the existing mail handling structure by adding an extra layer of
+    (security) processing between the transport and user agents; the second
+    describes a certificate-based key distribution and management
+    infrastructure for public key cryptosystems that supports the first.  This
+    paper discusses the design of an addition to network news based upon the
+    security enhancements being added to electronic mail.  It uses the same
+    underlying key distribution and management infrastructure, so it does not
+    require new key management protocols or software, but merely the
+    integration of existing protocols.  Further, it is completely compatible
+    with unauthenticated news, so it needs not be adopted wholesale, but can be
+    employed on a site-by-site basis.  We also will discuss expected efficiency
+    of the system.  We also contrast this scheme with some others such as the
+    existing nntp authentication scheme and with the use of Kerberos.
+    Advantages and disadvantages of the schema will be described.", 
+  location     = "http://seclab.cs.ucdavis.edu/papers/mb91d.abs"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9932,6 +9970,16 @@
   keywords     = "lisp, closures, macros, read macros, generative programming,
     anaphoric macros",
   location     = "978-1-4357-1275-1"
+}
+
+@Book{csj19,
+  author       = "Scott Johnston",
+  title        = "Campusland",
+  publisher    = "St. Martin's Press",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "college life, wokedness, modern times",
+  location     = "PS 3610.O3893 C36"
 }
 
 @Misc{1mmmitxss,
