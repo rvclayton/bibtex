@@ -4689,6 +4689,40 @@
   location     = "http://seclab.cs.ucdavis.edu/papers/mb91d.abs"
 }
 
+@InProceedings{upeci,
+  author       = "Philip Heng Wai Leong and Chris Tham",
+  title        = unix # " Password Encryption Considered Insecure",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "269--280",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "unix passwords, des, salting, authentication, cracking",
+  abstract     = "Recently there has been a revival of interest in the security
+    of the password encryption scheme employed in the Unix operating system and
+    its derivatives.  This resurgence was due mainly to the success of an
+    attack on the Internet by a virus program in November 1988.  The current
+    encryption scheme used is a variant of the NBS data encryption standard
+    (DES) modified in such a way that existing DES hardware implementations
+    cannot be used.  There is currently no reported way of reversing the
+    password encryption , i.e., to obtain a password from its encryption
+    string.  In this paper, we show that the current encryption scheme can no
+    longer be considered secure as most Unix passwords can be decrypted using a
+    brute force search within a reasonable period of time.  As an example all
+    passwords containing only lower case alphabetic characters can be decrypted
+    in less than 15 days.  In order to perform a brute force search, we need
+    the ability to encrypt a Unix password in the shortest time possible.
+    Accordingly, we present a hardware design of a password encryption device
+    that can encrypt a unfix password in 6 us.  This device consists of
+    approximately 100 Emitter Coupled Logic (ECL) chips and can be built by any
+    electronic hobbyist for less than $2000.  The board can also be used to
+    encrypt DES at 266 Mbps, more than ten times faster than a recent CMOS VLSI
+    design.  We also present a software only implementation of the encryption
+    algorithm recoded for maximum speed.  This implementation can encrypt a
+    Unix password in 1.2 ms on an IBM rs/6000 Model 530 machine." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9041,6 +9075,28 @@
     macros.", 
   location     = "https://doi.org/10.1145/581478.581486",
   location     = "https://www.cs.utah.edu/plt/publications/macromod.pdf"
+}
+
+@Article{qnmoccn,
+  author       = "Wong, J.~W.",
+  title        = "Queueing Network Modeling of Computer Communication Networks",
+  journal      = surveys,
+  year         = 1978,
+  volume       = 10,
+  number       = 3,
+  pages        = "343--351",
+  month        = sep,
+  keywords     = "message switched networks, packet switched networks, routers,
+    performance, modeling, end-to-end delay, throughput, buffer management,
+    flow control",
+  abstract     = "The application of queueing network models to the performance
+    analysis of message-switched (or packet-switched) communication networks is
+    surveyed.  The main topics covered are the analysis of end-to-end delay and
+    the analysis of buffer management schemes.  A brief discussion on flow
+    control is also included.  A queueing network model is developed for a
+    single user-resource network.  The mean response time of a host computer in
+    this network is illustrated by a numerical example.", 
+  location     = "https://doi.org/10.1145/356733.356740"
 }
 
 @Book{cpec,
