@@ -4723,6 +4723,26 @@
     Unix password in 1.2 ms on an IBM rs/6000 Model 530 machine." 
 }
 
+@InProceedings{lotkas,
+  author       = "Bellovin, S.~M. and Merritt, M.",
+  title        = "Limitations of the {Kerberos} Authentication System",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "253--267",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "kerberos, context, reply attacks, secure times services,
+    password-guessing attacks, ticketing, session keys, encryption hardware",
+  abstract     = "The Kerberos authentication system, a part of MIT's Project
+    Athena, has been adopted by other organizations.  Despite Kerberos's many
+    strengths, it has a number of limitations and some weaknesses.  Some are
+    due to specifics of the MIT environment; others represent deficiencies in
+    the protocol design.  We discuss a number of such problems, and present
+    solutions to some of them.  We also demonstrate how special-purpose
+    cryptographic hardware may be needed in some cases." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
