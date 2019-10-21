@@ -294,7 +294,6 @@ a watermark based lazy buddy system for kernel memory allocation : lee
 a weakness in the 4.2 bsd unix tcp ip software : morris
 a whirlwind tutorial on creating really teensy elf executables for linux : raiter
 aaree a recipe for analyzing object oriented programming : khurshid
-abe an environment for engineering intelligent systems : erman
 ablego a function outlining and partial inlining framework : zhao
 abortion on the air broadcasters and indecent political advertising : reviera
 about charity : cockett
@@ -323,7 +322,6 @@ acm programming contest problems : anon
 acme a user interface for programmers : pike
 action semantics : solnneger
 action semantics a tool for developing programming languages : doh
-active messages a mechanism for integrated communication and computation : von eicken
 ada 95 a guide for c and c++ programmers : johnston
 ada and software defelopment support a new concept in language design : leblanc
 adaptable pointer swizzling strategies in object bases design realization and quantitative analysis : kemper
@@ -449,7 +447,6 @@ an introduction to the bird meertens formalism : gibbons
 an introduction to the wsl program transformer : bull
 an introduction to tkgofer : vullinghs
 an investigation into concurrent semantic analysis : seshadri
-an investigation of requirement specification languages theory and practice : levene
 an ms dos file system for unix : forin
 an n log n adaptive sorting algorithm : gong
 an object based taxonomy for distributed computing systems : martin
@@ -485,7 +482,6 @@ annotating objects for transport to other worlds : ungar
 antlr translator generator faq : jguru
 aop and the antinomy of the liar : forster
 apl a glimpse of heaven : legrand
-application graphics modeling support through object orientation : egbert
 application performance and flexibility on exokernel systems : kaashoek
 applications of combinatorial designs in computer science : colbourn
 applications of continuations : friedman
@@ -668,7 +664,6 @@ christopher alexander an introduction for object oriented designers : lea
 cipherczar a simple substitution deciphering environment : cipherczar
 citrus a language and toolkit for simplifying the creation of structured editors for code and data : ko
 clanger an interpreted systems programming language : roscoe
-clarifying the fundamentals of http : mogul
 clarity mcode a retargetable intermediate representation for compilation : lewis
 class and object extraction from imperative code : ong
 class is type is inadequate for object reuse : yu
@@ -741,7 +736,6 @@ computational geometry finding the convex hull : gettys
 computational lambda calculus and monads : moggi
 computational thinking : wing
 computer communication networks approaches objectives and performance considerations : kimbleton
-computer experiments with fractional gaussian noises part 1 averages and variances : mandelbrot
 computer graphics the need for graphics design part 1 : myers
 computer graphics the need for graphics design part 2 : myers
 computer interconnection structures taxonomy characteristics and examples : anderson
@@ -759,7 +753,6 @@ concepts design choices for template argument checking : stroustrup
 conceptual entropy and its effect on class hierarchies : dvorak
 concert c a language for distributed computing : auerbach
 concert c supporting distributed programming with language extensions and a protable multiprotocol runtime : auerbach
-concurrency control in groupware systems : ellis
 concurrent maintenance of binary search trees : manber
 concurrent object oriented language cool : maruyama
 concurrent reading and writing : lamport
@@ -864,7 +857,6 @@ decision trees and diagrams : moret
 decode a cooperative environment for reverse engineering legacy software : quilici
 decode a cooperative program understanding environment : chin
 decompilation the enumeration of types and grammars : breuer
-decomposition of distributed programs into communication closed layers : elrad
 defensive programming using an annotation toolkit to build dos resistant software : qie
 defining file systems for digital video and audio : rangan
 definite clause grammars for language analysis a survey of the formalism and a comparison with augmented transition networks : pereira
@@ -887,7 +879,6 @@ description languages exploration : graham
 description of a machine architecture for use with block structured languages : tanenbaum
 design and implementation of a distributed parallel programming system : lin
 design and implementation of generics for the net common language runtime : kennedy
-design and implementation of a modular flexible and fast system for dynamic protocol composition : engler
 design and architecture of the brazil web application framework : uhler
 design and implementation of an object oriented 64 bit single address space microkernel : murray
 design by contract to improve software vigilance : le traon
@@ -1053,7 +1044,6 @@ enumerating the rationals : gibbons
 enumerating the strings of regular languages : mcilroy
 equational reasoning about nondeterministic processes : misra
 error control coding in computers : fujiwra
-error correction of a large architectural model the henderson county courthouse : erikson
 error repair in shift reduce parsers : mckenzie
 es extensible shell : es
 escape from zurg an exercise in logic programming : erwig
@@ -1110,7 +1100,6 @@ extending powerepsilon with algebraic rewriting : li-xin
 extending regular expressions with context operators and parse extraction : kearns
 extending standards for cd rom : jolitz
 extending the notion of a window system to audio : ludwig
-extending unix for scalable computing : debenedictis
 extensibility in the oberon system : mossenbock
 extensibility safety and performance in the spin operating system : bershad
 extensible programming for the 21st century : wilson
@@ -1118,7 +1107,6 @@ extensible records with scoped labels : leijen
 extensible syntax with lexical scoping : cardelli
 extensions to standard ml to support transactions : wing
 external data representation : xdr
-extreme programming : english
 eye monitor microcomputer based instrument uses and internal model to track the eye : myers
 ez processes : hanson
 f*dging up a racket : yoo
@@ -1146,7 +1134,6 @@ ferite documentation : ross
 fibonacci numbers : vorob'ev
 fiddling around with files part 1 : mauro
 fields in physics are like curried functions or physics for functional programmers : leavens
-figures doors and passages : evans
 file verification using crc : nelson
 file servers for network based distrubuted systems : svobodova
 file system design for an nfs file sever application : hitz
@@ -1287,7 +1274,6 @@ gray codes for partial match and range queries : faloutsos
 greedy algorithms : greedy
 gridnet an alternative large distributed network : moore
 gridrpc a remote procedure call api for grid computing : nakada
-groupware some issues and experiences : ellis
 growing a language : steele
 growing languages with metamorphic syntax macros : barbrand
 guarded attribute grammars : frost
@@ -1318,7 +1304,6 @@ hermes language experiences : korfhage
 heterogeneous and autonomous transaction processing : pu
 heterogeneous computing  challenges and opportunities : khokhar
 heuristic compression of an english word list : cook
-heuristic models of task assignment scheduling in distributed systems : efe
 hey you got your compiler in my operating system : howell
 hierarchical modularity : blume
 hierarchical representations of collections of small rectangles : samet
@@ -2094,7 +2079,6 @@ ram guide part 1 dram and sram basics : stokes
 random early detection gateways for congestion avoidance : floyd
 randomized shuffling : rolfe
 rapid case dispatch in scheme : clinger
-rate control in standard transport layer protocols : eldridge
 rationale for the design of the ada programming lanaugae : ichbiah
 rationalized three instruction machine : chitnis
 rbac schema verification using lightweight formal model and constraint analysis : zao
@@ -2109,7 +2093,6 @@ reactive shared variables based systems : boussinot
 real time behavior of programs : haase
 real time data fusion in the intensive care unit : factor
 realization of verilog hdl domputation model : hyde
-realizing 3d visualization using crossed beam volumetric displays : ebert
 reasoning about time in higher level language software : shaw
 recognizers for extracting architectural features from source code : harris
 reconciling environment integration and component independence : sullivan
@@ -2662,7 +2645,6 @@ the java virtual machine a passing fad : frantz
 the joyce language report : brinch hansen
 the juno 2 constraint based drawing editor : heydon
 the kaffeos java runtime system : back
-the kiwinet nicola approach response generation in a user friendly interface : efe
 the labelled bnf grammar formalism : frosberg
 the ladder of abstraction : victor
 the lambda calculus : balheta
