@@ -29174,18 +29174,6 @@
   location     = "/flash.bellcore.com:/pub/norman/www/pubs/tk-usenix.ps"
 }
 
-@InProceedings{aepafasn,
-  author       = "Marc E. Fiuczynski and Brian N. Bershad",
-  title        = "An Extensible Protocol Architecture for Application-Specific
-		  Networking",
-  booktitle    = uwc,
-  year         = 1996,
-  pages        = "",
-  address      = sdca,
-  month        = "22--26 " # jan,
-  keywords     = "customized protocols, protocol downloading"
-}
-
 @InProceedings{hldfpfdsp,
   author       = "Wai~H. Ho and Edward~A. Lee and David~G. Messerschmitt",
   title        = "High Level Data Flow Programming For Digital Signal
