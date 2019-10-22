@@ -4743,6 +4743,28 @@
     cryptographic hardware may be needed in some cases." 
 }
 
+@InProceedings{aepafasn,
+  author       = "Marc~E. Fiuczynski and Brian~N. Bershad",
+  title        = "An Extensible Protocol Architecture for Application-Specific Networking",
+  booktitle    = pot # "Winter 1996 USENIX Conference",
+  year         = 1996,
+  pages        = "55--64",
+  address      = sdca,
+  month        = "22--26 " # jan,
+  keywords     = "spin, protocol access, protocol graphs, packet handling,
+    application-specific protocols",
+  abstract     = "Plexus is a networking architecture that allows applications
+    to achieve high performance with customized protocols.
+    Application-specific protocols are written in a typesafe language and
+    installed dynamically into the operating system kernel.  Because these
+    protocols execute within the kernel, they can access the network interface
+    and other operating system services with low overhead.  Protocols
+    implemented with Plexus outperform equivalent protocols implemented on
+    conventional monolithic systems.  Plexus runs in the context of the SPIN
+    extensible operating system.",
+  location     = "http://www-spin.cs.washington.edu/papers/Usenix96/extprotarch.ps"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9119,6 +9141,123 @@
   location     = "https://doi.org/10.1145/356733.356740"
 }
 
+@Article{cewfgnp1,
+  author       = "Benoit~B. Mandelbrot and James~R. Wallis",
+  title        = "Computer Experiments with Fractional Gaussian Noises, Part 1",
+  journal      = "Water Resources Research",
+  year         = 1969,
+  volume       = 5,
+  number       = 1,
+  pages        = "228--241",
+  month        = feb,
+  keywords     = "fractional noise, secular averages, sequential variance,
+    correlation, distributions, student's distribution",
+  abstract     = "Fractional Gaussian noises are a family of random processes
+    such that the interdependence between values of the processes at instants
+    of time very distant from each other is small but non negligible.  It has
+    been shown by mathematical analysis that such interdependence has precisely
+    the intensity required for a good mathematical model of long run
+    hydro-logical and geophysical records.  This analysis will now be
+    illustrated, extended and made practically usable, which the help of
+    computer simulations.  In this Part, we shall stress the shape of the
+    sample functions and the relations between past and future averages.", 
+  location     = "https://users.math.yale.edu/~bbm3/web_pdfs/055computerExperimentsPart1.pdf"
+}
+
+@Article{cewfgnp2,
+  author       = "Benoit~B. Mandelbrot and James~R. Wallis",
+  title        = "Computer Experiments with Fractional Gaussian Noises, Part 2, Rescaled Ranges and Spectra",
+  journal      = "Water Resources Research",
+  year         = 1969,
+  volume       = 5,
+  number       = 1,
+  pages        = "242--259",
+  month        = feb,
+  keywords     = "rescaled ranges, approximate factional noises, spectral analysis",
+  abstract     = "Continuing the preceding paper, we shall report on computer
+    experiments concerning the 'rescaled' range and the spectrum of fractional
+    Gaussian noise.", 
+  location     = "https://users.math.yale.edu/~bbm3/web_pdfs/055computerExperimentsPart1.pdf"
+}
+
+@Article{cewfgnp3,
+  author       = "Benoit~B. Mandelbrot and James~R. Wallis",
+  title        = "Computer Experiments with Fractional Gaussian Noises, Part 3, Mathematical Appendix",
+  journal      = "Water Resources Research",
+  year         = 1969,
+  volume       = 5,
+  number       = 1,
+  pages        = "260--267",
+  month        = feb,
+  keywords     = "brownian motion, self-similarity, fractional brownian motion,
+    grid correction",
+  abstract     = "The present Appendix is devoted to mathematical
+    considerations designed to fill in the innumerable logical gaps left in the
+    preceding paper.  Even though most proofs will be merely sketched or
+    committed, the notation remains heavy, and some readers may which to skip
+    to formulas 1 and 2, which define Type 1 functions.",  
+  location     = "https://users.math.yale.edu/~bbm3/web_pdfs/055computerExperimentsPart1.pdf"
+}
+
+@Article{epae,
+  author       = "Arthur English",
+  title        = "Extreme Programming",
+  journal      = "Network World",
+  year         = 2002,
+  volume       = 19,
+  number       = 4,
+  pages        = 60,
+  month        = jan,
+  keywords     = "extreme programming, software development",
+  abstract     = "Looking for a way to optimize creation of network software in
+    your IT department? The lightweight development process of extreme
+    programming might be the ticket." 
+}
+
+@Article{sfsaa,
+  author       = "Robert~M. Winteringham",
+  title        = "Stolen from Stardust and Air",
+  subtitle     = "Idea Theft in the Entertainment Industry and a Proposal for a Concept Initiator Credit",
+  journal      = "Federal Communications Law Journal",
+  year         = 1994,
+  volume       = 46,
+  number       = 2,
+  pages        = "373--396",
+  keywords     = "copyright, initiator standard, idea theft",
+  location     = "https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=1019&context=fclj"
+}
+
+@Article{apdfc,
+  author       = "Watson, Ian and Gurd, John",
+  title        = "{A} Practical Data Flow Computer",
+  journal      = ieeec,
+  year         = 1982,
+  volume       = 15,
+  number       = 2,
+  pages        = "51--57",
+  month        = feb,
+  keywords     = "system architecture, data-flow computing, token queue, token matching",
+  abstract     = "Based on a tagged dynamic data flow model, this prototype
+    machine has eight unusual matching functions for handling incoming data
+    tokens at its computational nodes.",
+  location     = "https://doi.org/10.1109/MC.1982.1653941"
+}
+
+@Article{fdap,
+  author       = "Robin Evans",
+  title        = "Figures, Doors and Passages",
+  journal      = "Architectural Design",
+  year         = 1978,
+  volume       = 48,
+  number       = 4,
+  pages        = "267--278",
+  keywords     = "This is the first of a series of articles by Robin Evans on
+    the history of the house in relation to human affairs.  It is concerned
+    exclusively with the issue of access and distinguishes between two extreme
+    types, the matrix of connected rooms and the corridor plan, suggesting that
+    each is the format for a distinctive way of life." 
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -10058,6 +10197,18 @@
   location     = "PS 3610.O3893 C36"
 }
 
+@Book{smaa,
+  author       = "Averill Law",
+  title        = "Simulation Modeling and Analysis",
+  publisher    = "McGraw-Hill",
+  year         = 2006,
+  address      = boma,
+  keywords     = "simulation modelling, complex systems, simulation software,
+    probability, statistics, probability distributions, random-number
+    generators, random variates, data analysis, variance reduction",
+  location     = "QA 76.9.C65 L38"
+}
+
 @Misc{1mmmitxss,
   author       = "Michael Steil",
   title        = "17 Mistakes {Microsoft} Made in the {Xbox} Security System",
@@ -10112,6 +10263,14 @@
   title        = "{AI} and Search",
   keywords     = "exhaustive search, backtracking, depth-first search,
     breadth-first search, hill climbing"
+}
+
+@Misc{ftfpr,
+  author       = "Karl E. Wiegers",
+  title        = "First Things First: Prioritizing Requirements",
+  howpublished = "www.modernanalyst.com",
+  keywords     = "requirements, priorities, value, cost, risk",
+  location     = "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/74/First-Things-First-Prioritizing-Requirements.aspx#mp-pusher"
 }
 
 @TechReport{djplm,
@@ -10207,6 +10366,48 @@
     of implementing these in Lisp Machine Lisp, and when you should use them.
     It assumes no prior knowledge of any other languages.", 
   location     = "https://dspace.mit.edu/handle/1721.1/5700"
+}
+
+@TechReport{daioamfafsfdpc,
+  author       = "Dawson~R. Engler and Deborah~A. Wallach and M.~Frans Kaashoek",
+  title        = "Design and Implementation of a Modular, Flexible, and Fast System for Dynamic Protocol Composition",
+  institution  = lcs # mit,
+  year         = 1996,
+  type         = "Memorandum",
+  number       = "TM-552",
+  address      = cma,
+  month        = may,
+  keywords     = "ash, pipes, on-demand generation",
+  abstract     = "Distributed systems must communicate.  To communicate at all
+    requires high-level protocols be built with manageable complexity.  To
+    communicate well requires protocols efficient both in design and
+    implementation.  The ASH system provides mechanisms to address both of
+    these needs.  To manage complexity, it provides a simple interface that
+    allows protocols to be dynamically composed in a modular manner.  As a
+    result, the complexity of building a high-level messaging service is
+    reduced since it can be built from multiple, independent pieces at runtime.
+    To provide efﬁciency, the ASH interface is designed so that the message
+    processing steps of each protocol (such as checksumming, byte-swapping,
+    encryption, etc.) can be dynamically integrated intoa single specialized
+    loop that touches each byte of the message at most once.  The ASH system is
+    the first to dynamically integrate the data processing elements of each
+    protocol.  This ability is crucial since without it dynamic protocol
+    composition cannot be efficient.  This paper presents the design and
+    implementation of the ASH system.  It is interesting because it uses modern
+    compilation techniques to eliminate the runtime overhead of modularity.  To
+    make the system efficient we have had to solve problems ranging from
+    theoretical graph algorithms, to language design, to determining the most
+    efﬁcient way to access unaligned memory, and designing efﬁcient and
+    portable methods of generating executable code at runtime.  As a result of
+    careful design and the the use of dynamic code generation to specialize
+    data processing paths, the ASH system provides performance that is
+    comparable to (and in some situations significantly better than)
+    hand-coded, hard-wired protocol implementations.  The ASH system has been
+    integrated into the Aegis operating system, and runs on both Ethernet and
+    DEC AN2 networks.  A standalone version of the ASH system runs on SPARC,
+    MIPS, and Alpha processors.  The system itself will be publicly released
+    in the near future.", 
+  location     = "https://pdos.csail.mit.edu/~engler/ash-osdi.ps"
 }
 
 @Manual{wdud,
