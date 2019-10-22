@@ -175,7 +175,6 @@ a portable run time system for the hermes distributed programming language : bac
 a pragmatic approach to software synthesis : freitag
 a practical and flexible flow analysis for higher order languages : ashley
 a pratical context sensitive interprocedural analysis framework for c compilers : hendren
-a practical data flow computer : watson
 a practical suffix tree implementation for string searches : dorohonceanu
 a prettier compiler compiler generating higher order parsers in c : breuer
 a primer on python metaclass programming : mertz
@@ -1152,7 +1151,6 @@ finite state code generation : fraser
 finite state machines in forth : noble
 firewalls at home : sinteur
 first class functions : krishnamurthi
-first things first prioritizing requirements : wiegers
 flapjax a programming language for ajax applications : meyerovich
 flavors a finite state verification technique for software systems : cobleigh
 flavors message passing in the lisp machine : weinreb
@@ -2382,7 +2380,6 @@ stepwise refinement and verification in box structured systems : mills
 stepwise refinement of parallel algorithms : back
 sticks : shasha
 stls red black trees : shankel
-stolen from stardust and air idea theft in the entertainment industry and a proposal for a concept initiator credit: winteringham
 storage systems not just a bunch of disks anymore : riedel
 stow : glickstein
 strategies for supporting application portability : mooney
