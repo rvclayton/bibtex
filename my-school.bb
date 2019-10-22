@@ -1742,20 +1742,6 @@
   location     = "http://www.law.indiana.edu:80/fclj/v47/no3/tomlin.html"
 }
 
-@Article{sfsaaititeiaapfacic,
-  author       = "Robert~M. Winteringham",
-  title        = "Stolen from Stardust and Air:  Idea Theft in the
-		  Entertainment Industry and a Proposal for a Concept Initiator
-		  Credit",
-  journal      = fclj,
-  year         = 1994,
-  volume       = 46,
-  number       = 2,
-  month        = "March",
-  keywords     = "copyright",
-  location     = "http:/www.law.indiana.edu/fclj/v46/v46no2.html"
-}
-
 @article{asios,
    author      = "Dennis~M. Ritchie",
    title       = "A Stream Input-Output System",
