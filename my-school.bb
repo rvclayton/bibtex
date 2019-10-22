@@ -16908,19 +16908,6 @@
   location     = "TK 7885.A1 I15"
 }
 
-@Article{apdfc,
-  author       = "Ian Watson and John Gurd",
-  title        = "A Practical Data Flow Computer",
-  journal      = ieeec,
-  year         = 1982,
-  volume       = 15,
-  number       = 2,
-  pages        = "51--57",
-  month        = feb,
-  keywords     = "associative memory, data flow computing",
-  location     = "TK 7885.A1 I15"
-}
-
 @Article{crmofsp,
   author       = "Sriram Sankar and Manas Mandal",
   title        = "Concurrent Runtime Monitoring of Formally Specified
