@@ -1007,6 +1007,7 @@ efficient evaluation of circular attribute grammars : jones
 efficient implementation and optimization of run-time checking in pascal : fischer
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
+efficient implementation of the first fit strategy for dynamic storage allocation : brent
 efficient implementation of the smalltalk 80 system : deutsch
 efficient implementation of trie structures : aoe
 efficient instruction scheduling for delayed load architectures : kurlander
