@@ -9258,6 +9258,32 @@
     each is the format for a distinctive way of life." 
 }
 
+@Article{eiotffsfdsa,
+  author       = "Brent, R.~P.",
+  title        = "Efficient Implementation of the First-Fit Strategy for Dynamic Storage Allocation",
+  journal      = toplas,
+  year         = 1989,
+  volume       = 11,
+  number       = 3,
+  pages        = "388--403",
+  month        = jul,
+  keywords     = "storage management, allocation policies, heaps, trees,
+    first-fit allocation",
+  abstract     = "We describe an algorithm that efficiently implements the
+    first-fit strategy for dynamic storage allocation.  The algorithm imposes a
+    storage overhead of only one word per allocated block (plus a few percent
+    of the total space used for dynamic storage), and the time required to
+    allocate or free a block is O(log W), where W is the maximum number of
+    words allocated dynamically.  The algorithm is faster than many commonly
+    used algorithms, especially when many small blocks are allocated, and has
+    good worst-case behavior.  It is relatively easy to implement and could be
+    used internally by an operating system or to provide run-time support for
+    high-level languages such as Pascal and Ada.  A Pascal implementation is
+    given in the Appendix.", 
+  location     = "https://doi.org/10.1145/65979.65981", 
+  location     = "https://maths-people.anu.edu.au/~brent/pd/rpb089.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -10207,6 +10233,28 @@
     probability, statistics, probability distributions, random-number
     generators, random variates, data analysis, variance reduction",
   location     = "QA 76.9.C65 L38"
+}
+
+@Book{mfet,
+  author       = "Elizabeth Tallent",
+  title        = "Mendocino Fire",
+  publisher    = "Harper",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "short stories",
+  location     = "PS 3570.A5366 A6"
+}
+
+@Book{qs1lk,
+  author       = "Leonard Kleinrock",
+  title        = "Queueing Systems",
+  publisher    = "John Wiley \& Sons",
+  year         = 1975,
+  volume       = "1: Theory",
+  address      = nyny,
+  keywords     = "queueing theory, markovian queues, probability theory,
+    transform theory, birth-death queueing, random processes, queueing systems",
+  location     = "T 57.9.K6"
 }
 
 @Misc{1mmmitxss,
