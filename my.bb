@@ -4765,6 +4765,80 @@
   location     = "http://www-spin.cs.washington.edu/papers/Usenix96/extprotarch.ps"
 }
 
+@InProceedings{tpfsapmiusv,
+  author       = "Roger Faulkner and Ron Gomes",
+  title        = "The Process File System and Process Model in " # unix # " System {V}",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "243--252",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "signals, pseudo-file systems, process models, event
+    management, process control, debugging",
+  abstract     = "We describe the process file system /proc in Unix System V
+    Release 4 and its relationship to the Unix process model abstraction.
+    /proc began as a debugger interface superseding ptrace(2) but has evolved
+    into a general interface to the process model.  It provides detailed
+    process information and control mechanisms that are independent of
+    operating system implementation details and portable to a large class of
+    real architectures.  Control is thorough.  Processes can be stopped and
+    started on demand and can be instructed to stop on events of interest:
+    specific machine faults, specific signals, and entry to or exit from
+    specific system calls.  Complete encapsulation of a process's execution
+    environment is possible, as well as non-intrusive inspection.  Breakpoint
+    debugging is relieved from the ambiguities of signals.  Security provisions
+    are complete and non-destructive.  The addition of multi-threading to the
+    process model motivates a proposal for a substantial change to the /proc
+    interface that would replace the single-level flat structure with a
+    hierarchy of directories containing status and control files.  This
+    restructuring would eliminate all ioctl(2) operations in favor of read(2)
+    and write(2) operations, which generalize more easily to networks." 
+}
+
+@InProceedings{otiauef,
+  author       = "Axel Mahler",
+  title        = "Organizing Tools in a Uniform Environment Framework",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "231--242",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "object-based frameworks, tool-based frameworks, command
+    interfaces, type systems, object shell, object access, attribute store",
+  abstract     = "The Unix tool-collection provides an excellent platform for
+    software development.  The mere existence of literally hundreds of
+    different tools for all sorts of activities makes the Unix toolbox one of
+    the most effective software development environments around.  However, all
+    these tools are independent from each other, solitary in design, and thus
+    are poorly integrated.  It has often been argued that the vast number of
+    tools, all with different sorts of options, and different command sets
+    makes Unix sometimes hard to use - even for experienced programmers.  Well,
+    it's not exactly hard to use the Unix environment, it's more that the
+    potential of the environment is often not well enough developed.  Users ten
+    to use only a fraction of the possible benefits that the tool-system
+    offers.  The concept of an object oriented command-interface provides a
+    rather simple but powerfully solution for this problem.  It allows to
+    integrate about any Unix tool into a coherent software development
+    environment framework.  While training the familiar concept of
+    Unix-commands, the system allows to offer functionality, implemented by
+    tools or tool-combinations, in a uniform and consistent way at the user
+    interface level.  This is achieved by enhancing the notion of files to that
+    of software objects.  Software objects are different from files in that
+    they have type as a basic property.  Type-specific functionality is
+    centered around these software objects in an object oriented fashion The
+    user accesses software objects and related tool functionality, represented
+    as methods, through the object-shell(OShell), a command interpreter that
+    makes consequent use of the underlying type system.  The object-shell
+    together with a powerful type definition language provide the potential to
+    further develop the vast tool capabilities of the Unix system by organizing
+    functionality abound classes of software objects with varying degrees of
+    specialization.  The possibility to build class-based abstractions for a
+    concrete environment allows to integrate characters of the work process
+    with the environment itself." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9284,6 +9358,25 @@
   location     = "https://maths-people.anu.edu.au/~brent/pd/rpb089.pdf"
 }
 
+@Article{spamsv,
+  author       = "Joan~S. Birman",
+  title        = "Scientific Publishing:  {A} Mathematician's Viewpoint",
+  journal      = "Notices of the AMS",
+  year         = 2000,
+  volume       = 47,
+  number       = 7,
+  pages        = "770--774",
+  keywords     = "scientific publishing, market economies",
+  abstract     = "We are in a time of ferment with regard to the ways in which
+    mathematical research is being communicated throughout the world, and in
+    particular with regard to the nature and cost of scientific journals.  This
+    topic has been discussed in articles in the Notices by a commercial
+    publisher [1] and by two research librarians [2] and also in numerous
+    letters to the editor.  This article examines these and related issues from
+    the point of view of a mathematician who has been actively involved in the
+    journal editorial process." 
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -10255,6 +10348,16 @@
   keywords     = "queueing theory, markovian queues, probability theory,
     transform theory, birth-death queueing, random processes, queueing systems",
   location     = "T 57.9.K6"
+}
+
+@Book{ttwg,
+  author       = "Richard Panek",
+  title        = "The Trouble With Gravity",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2019,
+  address      = boma,
+  keywords     = "gravity, myths, matter, motion, fiction, facts, excelsis",
+  location     = "QB 331.P35"
 }
 
 @Misc{1mmmitxss,
