@@ -9377,6 +9377,34 @@
     journal editorial process." 
 }
 
+@Article{tdoaooci,
+  author       = "Timothy A. Budd",
+  title        = "The Design of an Object-Oriented Command Interpreter",
+  journal      = spe,
+  year         = 1988,
+  volume       = 19,
+  number       = 1,
+  pages        = "33--51",
+  month        = jan,
+  keywords     = "interpreters, command languages, c, unix shell,
+    object-oriented systems, productivity",
+  abstract     = "Object-oriented programming languages are noted for their
+    support of quick construction of large software systems.  They achieve this
+    ability by emphasizing the what of system behavior, and de-emphasizing the
+    how.  Such characteristics should make the object-oriented approach
+    attractive to casual or novice computer users.  One of the best known
+    object-oriented programming languages, Smalltalk, was initially designed
+    with such users in mind.  On the other end of the scale, the Unix operating
+    system is widely regarded as a good environment for software development.
+    However, its large number of often terse and cryptic commands make it
+    difficult for novice or casual users to use.  In this paper we argue that
+    one solution is to create an object-oriented command interpreter, or shell,
+    between the user and the underlying system.  This paper describes a
+    prototype object-oriented shell, and the lessons learned from building and
+    using the shell.",
+  location     = "https://ir.library.oregonstate.edu/concern/technical_reports/kh04dq929"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -10353,6 +10381,7 @@
 @Book{ttwg,
   author       = "Richard Panek",
   title        = "The Trouble With Gravity",
+  subtitle     = "Solving the Mystery Beneath Our Feet",
   publisher    = "Houghton Mifflin Harcourt",
   year         = 2019,
   address      = boma,
