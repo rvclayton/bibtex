@@ -4839,6 +4839,93 @@
     with the environment itself." 
 }
 
+@InProceedings{aftaso,
+  author       = "Andreas Lampen",
+  title        = "Advancing Files to Attributed Software Objects",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "219--229",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "software engineering environments, version history, file
+    management, attribute stores, ",
+  abstract     = "The system described in this paper is part of the kernel of a 
+    Unix-based generic software engineering environment (SEE) that is open to
+    extension and integration by new and existing tools.  Tool integration is
+    based on software objects in the sense of identifiable and controllable
+    information units evolving during software development.  AtFS (Attributed
+    File System) extends the Unix file system to be a software-object
+    repository.  AtFS began as part of the shape-toolkit, a collection of
+    programs supporting version control and software configuration management.
+    AtFS key issues were the ability to store multiple file versions, a
+    mechanism for attaching application-defined attributes to each version, and
+    nonunique identification of versions by any attributes.  It provides a
+    consistent view of attributed software objects (ASOs) that can either be
+    immutable saved versions or regular Unix files.  When adapting AtFS to be
+    part of a generic SEE, additional requirements caused conceptual
+    extensions.  The notion of attributed software objects is extended, beside
+    file versions, to histories and directories.  A concept for object
+    identity, coming along with persistent unique identifiers for ASOs is
+    introduced.  The attribution mechanism is extended to typed and structured
+    application defined attributes.  The conceptual extensions lead to a new
+    AtFS implementation, supporting network distributed management of ASOs and
+    featuring a revised interface designed in an object-oriented manner."
+}
+
+@InProceedings{ahanfs,
+  author       = "Anupam Bhide and Elmootazbellah~N. Elnozahy and Stephen~P. Morgan",
+  title        = "A Highly Available Network File Server",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "199--205",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "redundancy, reliability, nfs, logs, fail-over systems, divide
+    and conquer",
+  abstract     = "This paper presents the design and implementation of a Highly
+    Available Network File Server (HA-NFS).  We separate the problem of network
+    file server reliability into three different subproblems: server
+    reliability, disk reliability, and network reliability.  HA-NFS offers a
+    different solution for each: dual-ported disks and impersonation are used
+    to provide server reliability, disk mirroring can be used to provide disk
+    reliability, and optional network replication can be used to provide
+    network reliability.  The implementation shows that HA-NFS provides high
+    availability without the excessive resource overhead or the performance
+    degradation that characterize traditional replication methods.  Ongoing
+    operations are not aborted during fail-over and recovery is completely
+    transparent to applications.  HA-NFS adheres to the NFS protocol standard
+    can be used by existing NFS clients without modification.",
+  location     = "ftp://cs.rice.edu/public/hanfs/usenix-91.ps.gz"
+}
+
+@InProceedings{to1ufu,
+  author       = "Susan~J. LoVerso and Noemi Paciorek and Alan Langerman and George Feinberg",
+  title        = "The {OSF}/1 " # unix # " Filesystem ({UFS})",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "207--218",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "multi-threaded file systems, locking protocols, timestamping,
+    soft state caching, synchronization, virtual file systems, directory
+    operations",
+  abstract     = "The OSF/1 Unix file system (UFS) originated from the Berkeley
+    4.3-Reno distribution local file system code combined with parallelization
+    modifications by Encore Computer Corporation.  The Berkeley project
+    concentrated exclusively on a uniprocessor implementation while previous
+    Encore projects focused only on multiprocessor implementations, OSF/1, on
+    the other hand, must run efficiently in both environments.  This paper
+    presents an overview of the parallelized OSF/1 Unix file system and
+    describes the rationale behind the changes we made.  We discuss the
+    addition of timestamps to optimize the single-stream performance of
+    important, parallelized UFS algorithms.  We also describe several
+    interesting race conditions resulting from our new UFS locking protocols
+    and the introduction of timestamps." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -10387,6 +10474,17 @@
   address      = boma,
   keywords     = "gravity, myths, matter, motion, fiction, facts, excelsis",
   location     = "QB 331.P35"
+}
+
+@Book{tssom,
+  author       = "Sarah Caudwell",
+  title        = "The Sirens Sang of Murder",
+  publisher    = "Dell",
+  year         = 1989,
+  price        = "$7.99",		  
+  address      = nyny,
+  keywords     = "murrdaar, tax shenanigans, the usual suspect",
+  location     = "PR 6053.A855 S54"
 }
 
 @Misc{1mmmitxss,
