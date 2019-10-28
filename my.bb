@@ -4926,6 +4926,42 @@
     and the introduction of timestamps." 
 }
 
+@InProceedings{eptnsm,
+  author       = "Robert~K. Israel and Anthony~W. Foster and Arun Taylor and Tracy~M. Taylor and Neil Webber",
+  title        = "Evolutionary Path to Network Storage Management",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "185--198",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "file migration, storage hierarchy, backup management, network
+    file systems",
+  abstract     = "A major problem facing network administrators and users today
+    is the management of network storage.  Storage demands continue to increase
+    as more powerful workstations become available and more sophisticated
+    applications are developed for those workstations.  Storage management
+    tools have not kept pace with the proliferation of disk storage on
+    workstation networks or with the increased power and number of workstations
+    on the typical network.  Network administrators and workstation users are
+    now faced with the problem of backing up network station disks, archiving
+    old data when these disks fill up, and locating data distributed around a
+    network.  In this paper we describe a storage management architecture,
+    called the InfinteStorage Architecture, that defines an evolutionary
+    approach to automating the storage management of networked Unix
+    environments.  This architecture provides for the management of several
+    types of storage, e.g., magnetic and optical disks, tape, etc., in a
+    storage hierarchy such that data anywhere on the network can be backed up
+    and automatically moved to optimize the trade-off between cost and
+    accessibility.  The implementation of a primary element of this
+    architecture, the Renaissance InfinteStorage Manager, is described in
+    detail.  Based on the IEEE Mass Storage Reference Model, the InfinteStorage
+    Manager uses a mass storage server as a backing store for magnetic disks
+    attached to workstations and workgroup servers on a network.  The contents
+    of the least recently used file and the network are automatically migrated
+    to the storage server while the transparency of access is preserved." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
