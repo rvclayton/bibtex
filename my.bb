@@ -4962,6 +4962,94 @@
     to the storage server while the transparency of access is preserved." 
 }
 
+@InProceedings{plio1,
+  author       = "Larry~W. Allen and Harminder~G. Singh and Kevin~G. Wallace and Melanie~B. Weaver",
+  title        = "Program Loading in {OSF}/1",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "145--160",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "linking, loading, symbol resolution, object-file format,
+    kernel module, dynamic loading",
+  abstract     = "In recent years, program loading facilities in Unix have
+    become more advanced.  Support for position independent relocatable shared
+    libraries can be found in several Unix systems today.  For OSF/1, we have
+    designed and implemented a program loader with several important new
+    abilities.  In addition to supporting shared libraries, it supports
+    callable loading and unloading of object modules, a flexible symbol
+    resolution policy based on packages, and loading and unloading of kernel
+    modules.  Moreover, the loader supports object file formation independence,
+    through use of a loader switch.  Here, we present an overview of an OSF/1
+    program loader, describing its major features and capabilities.  We present
+    design decisions and trade-offs we made in implementing the loader, with
+    special emphasis on key issues such as symbol resolution policy, object
+    file format independence, and the loader support required for loading of
+    kernel modules." 
+}
+
+@InProceedings{cfssficwtuc,
+ author       = "Alastair Fyfe and Ivan Soleimanipour and Vijay Tatkar",
+ title        = "Compiling from Saved State: Fast Incremental Compilation with Traditional " # Unix # " Compilers",
+ booktitle    = usenixw91,
+ year         = 1991,
+ pages        = "161--171",
+ organization = "USENIX Association",
+ address      = date,
+ month        = "21--25 " # jan, 
+ keywords     = "persistent data storage, compilation state, persistent
+   compiler state, pre-compilation, recompilation, compilation server",
+ abstract = "We describe a strategy for extending traditional Unix
+   compilers that enables them to be used in new ways, notably as adjuncts of
+   interactive tools such as a debugger and a function-level recompilation
+   tool. The compilers' translation of source to intermediate representation
+   is reused without significant change and two new capabilities are added to
+   each compiler: saved-state capability and compile-server capability. We
+   use the term saved-state compiler to refer to a compiler capable of storing
+   the context information built up during compilation and later retrieving
+   the stored data, reconstructing the earlier context, and performing further
+   compilation. This capability allows a compiler to quickly reestablish a
+   particular compilation context without needing to reprocess declarations in
+   the program's source. The context information required for compilation is
+   saved in a special-purpose Symbol Information Database (SID) stored in ELF
+   files and retrieved by the compiler on demand. SID information is useful
+   to tools other than the compiler, and thus may also be accessed by
+   debuggers, performance analyzers and other tools. We use the term compile
+   server to describe a compiler which supports interfaces better suited to
+   interprocess communication than traditional Unix command-line invocation.
+   By adapting a compiler to support RPC and shared memory, it is possible to
+   minimize the overhead of using the compiler as an adjunct of another tool,
+   such as the debugger. In this paper we describe the steps involved in
+   adding saved-state and compiler-server capabilities to two
+   production-quality compilers and a preprocessor, discuss three applications
+   of this technology, and gives measurements based on the current
+   implementation." 
+}
+
+@InProceedings{anhpfu,
+  author       = "Margo Seltzer and Ozan Yigit",
+  title        = "{A} New Hashing Package for " # unix,
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "173--184",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "dynamic hashing, library design",
+  abstract     = "UNIX support of disk oriented hashing was originally provided
+    by dbm and subsequently improved upon in ndbm.  In AT&T System V, in-memory
+    hashed storage and access support was added in the hsearch library
+    routines.  The result is a system with two incompatible hashing schemes,
+    each with its own set of shortcomings.  This paper presents the design and
+    performance characteristics of a new hashing package providing a superset
+    of the functionality provided by dbm and hsearch.  The new package uses
+    linear hashing to provide efficient support of both memory based and disk
+    based hash tables with performance superior to both dbm and hsearch under
+    most conditions.", 
+  location     = "https://www.eecs.harvard.edu/margo/papers/usenix91/"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -9528,6 +9616,32 @@
   location     = "https://ir.library.oregonstate.edu/concern/technical_reports/kh04dq929"
 }
 
+@Article{accfj,
+  author       = "Colby, Christopher and Lee, Peter and Necula, George~C. and Blau, Fred and Plesko, Mark and Cline, Kenneth",
+  title        = "{A} Certifying Compiler for {Java}",
+  journal      = sigplan # " (" # pcpldi # ", PLDI '00)",
+  year         = 2000,
+  volume       = 35,
+  number       = 5,
+  pages        = "95--107",
+  month        = may,
+  keywords     = "code annotations, verification generation, type-secure code,
+    certified code, proof-carrying code",
+  abstract     = "This paper presents the initial results of a project to
+    determine if the techniques of proof-carrying code and certifying compilers
+    can be applied to programming languages of realistic size and complexity.
+    The experiment shows that: (1) it is possible to implement a certifying
+    native-code compiler for a large subset of the Java programming language;
+    (2) the compiler is freely able to apply many standard local and global
+    optimizations; and (3) the PCC binaries it produces are of reasonable size
+    and can be rapidly checked for type safety by a small proof-checker.  This
+    paper also presents further evidence that PCC provides several advantages
+    for compiler development.  In particular, generating proofs of the target
+    code helps to identify compiler bugs, many of which would have been
+    difficult to discover by testing.", 
+  location     = "https://doi.org/10.1145/358438.349315"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -10495,6 +10609,18 @@
   publisher    = "John Wiley \& Sons",
   year         = 1975,
   volume       = "1: Theory",
+  address      = nyny,
+  keywords     = "queueing theory, markovian queues, probability theory,
+    transform theory, birth-death queueing, random processes, queueing systems",
+  location     = "T 57.9.K6"
+}
+
+@Book{qs2lk,
+  author       = "Leonard Kleinrock",
+  title        = "Queueing Systems",
+  publisher    = "John Wiley \& Sons",
+  year         = 1976,
+  volume       = "2: Computer Applications",
   address      = nyny,
   keywords     = "queueing theory, markovian queues, probability theory,
     transform theory, birth-death queueing, random processes, queueing systems",
