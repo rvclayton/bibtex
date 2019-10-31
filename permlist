@@ -28,6 +28,7 @@ a case study in applied algorithm design : bentley
 a case tool platform using an xml representation of java source code : maruyama
 a catalog of stream processing optimizations : hirzel
 a centaur tutorial : anon
+a certifying compiler for java : colby
 a checkable interface language for pointer based structures : russell
 a cmos risc processor with integrated system functions : moussouris
 a code generator interface for ansi c : fraser
@@ -152,6 +153,7 @@ a new arq scheme for multicast satellite communication : quernheim
 a new c compiler : thompson
 a new color naming system for graphics languages : berk
 a new design for distributed systems the remote memory model : comer
+a new hashing package for unix : selzer
 a new implementation of the icon language : proebsting
 a new page table for 64 bit address spaces : talluri
 a new parsing method for non lr 1 grammars : harford
@@ -719,6 +721,7 @@ compiling a high level introduction using scheme : haynes
 compiling a high level language for gpus : dubach
 compiling for a 64 bit single address space architecture : wilkinson
 compiling for shared memory and message passing computer : larus
+compiling from saved state fast incremental compilation with traditional unix compilers : fyfe
 compiling little languages in python : aycock
 compiling scheme to jvm bytecode a performance study : serpette
 complexity and expressive power of logic programming : dantsin
