@@ -51510,17 +51510,6 @@
   location     = "https://doi.org/10.1145/185084.185106"
 }
 
-@InProceedings{aaamspl,
-  author       = "Henry Spencer",
-  title        = "Awk as a Major Systems Programming Language",
-  booktitle    = wucp,
-  year         = 1991,
-  pages        = "137--143",
-  address      = "Dallas, Texas",
-  month        = "21--25 January",
-  keywords     = "awk, text processing, parsers, systems programming"
-}
-
 @InProceedings{apitai,
   author       = "Don Cohen and Neil Goldman and K. Narayanaswamy",
   title        = "Adding Performance Information to {ADT} Interfaces",
