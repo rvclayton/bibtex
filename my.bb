@@ -5050,6 +5050,30 @@
   location     = "https://www.eecs.harvard.edu/margo/papers/usenix91/"
 }
 
+@InProceedings{aaamspl,
+  author       = "Henry Spencer",
+  title        = "{\it awk\/} as a Major Systems Programming Language",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "137--143",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "text formatting, parsing, awk",
+  abstract     = "Even experienced Unix programmers often don't know awk, or
+    know it but view it has a counterpart of sed: useful glue for sticking
+    things together in shell programming, but quite unsuited for major
+    programming tasks.  This is a major underestimate of a very powerful tool,
+    and has hampered the development of support software that would make awk
+    much more useful.  There is no fundamental reason why awk programs have o
+    be small glue programs: even the old awk is a powerful programming language
+    in its own right.  Effective use of its data structures and its
+    stream-oriented structure takes some adjustments for C programmers, but the
+    results can be quite striking.  On the other hand, getting there can be a
+    bit painful, and improvements in both the language and its support tools
+    would help." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -10647,6 +10671,29 @@
   address      = nyny,
   keywords     = "murrdaar, tax shenanigans, the usual suspect",
   location     = "PR 6053.A855 S54"
+}
+
+@Book{fsavivd,
+  author       = "Bruce~S. Davie",
+  title        = "Formal Specification and Verification in {VLSI} Design",
+  publisher    = "Edinburgh University Press",
+  year         = 1990,
+  series       = "Edinburgh Information Technology Series",
+  volume       = 8,		  
+  address      = "Edinburgh, Scotland, U.K.",
+  keywords     = "hardware description languages, specifications, design,
+    verification, validation, constraints",
+  location     = "TK 7874.D39"
+}
+
+@Book{fjw19,
+  author       = "Jeanette Winterson",
+  title        = "Frankissstein",
+  publisher    = "Grove Press",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "ai, artificial life, 19th century romantics",
+  location     = "PR 6073.I558 F73"
 }
 
 @Misc{1mmmitxss,
