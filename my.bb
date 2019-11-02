@@ -5074,6 +5074,42 @@
     would help." 
 }
 
+@InProceedings{uicbopases,
+  author       = "Toshiyuki Masui",
+  title        = "User Interface Construction Based on Parallel and Sequential Execution Specifications",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "117--125",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "linda, regular expressions, ui development",
+  abstract     = "The user interface part of an application program can be easily and compactly constructed by combining the parallel execution primitive Linda and the stat transition description language Flex with a general purpose programming language.  With this approach, a wide range of interfaces can be constructed without using I/I-specific languages or systems.  Using these tools, parallel execution, separate/communication between the application and the interface part, and complicated dialogs can easily be specified.  In our implementation, the specification is compiled into C++ and runs efficiently without any run-time system."
+}
+
+@InProceedings{hmtfbdoas,
+  author       = "Stephen~A. Uhler",
+  title        = "{\$\sc Home Movie} --- Tools for Building Demos on a {Sparcstation}",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "127--136",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "screencasts, multimedia editing, demo software",
+  abstract     = "Home Movie is a suite of tools for the capture, editing and
+    playback of window system sessions on a Sun Sparcstation.  It includes ISDN
+    voice quality audio, video, and a VCR-like user interface.  At any time
+    while the demo system is running, a recording may be started, generating a
+    complete log or script that captures the changes to the display.
+    Simultaneously, an audio script is generated, contain any verbal
+    descriptions, or sounds present.  Once these recordings have been made,
+    they can be re-arranged, edited, annotated or set to music, using the Home
+    Movie sound and image editing tools.  The resulting movie can be played
+    back on the display in real time, and thus provides a convenient way to
+    document and demonstrate interactive software systems." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
