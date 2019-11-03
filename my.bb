@@ -5110,6 +5110,38 @@
     document and demonstrate interactive software systems." 
 }
 
+@InProceedings{axtbottl,
+  author       = "John~K. Ousterhout",
+  title        = "An {X11} Toolkit Based on the {Tcl} Language",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "105--115",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "tcl, tk, toolkits, extension languages, user interfaces, x
+    window system",
+  abstract     = "This paper describes a new toolkit for X11 called Tk.  The
+    overall functions provided by Tk are similar to those of the standard
+    toolkit Xt.  However, Tk is implemented using Tcl, a lightweight
+    interpretive command language.  This means that Tk's functions are
+    available not just from C code compiled into the application but also via
+    Tcl commands issued dynamically while the application runs.  Tcl commands
+    are used for binding keystrokes and other events to application-specific
+    actions, for creating and configuring widgets, and for dealing with
+    geometry managers and the selection.  The use of an interpretive language
+    means that any aspect of the user interface may be changed dynamically
+    while an application executes.  It also means that many interesting
+    applications can be created without writing any new C code, simply by
+    writing Tcl scripts for existing applications.  Furthermore, Tk provides a
+    special send command that allows any Tk-based application to invoke Tcl
+    commands in any other Tk-based application.  Send allows applications to
+    communicate in more powerful ways than a selection mechanism and makes it
+    possible to replace monolithic applications with collections of reusable
+    tools.", 
+  location     = "https://wiki.tcl.tk/39305"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
