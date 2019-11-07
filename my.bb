@@ -5142,6 +5142,118 @@
   location     = "https://wiki.tcl.tk/39305"
 }
 
+@InProceedings{smta,
+  author       = "Mike~L. Powell and Steven~R. Kleiman and Steven Barton and Devang Shan and Danial~A. Stein and Mary Weeks",
+  title        = "{SunOS} Multi-thread Architecture",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "65--79",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "threading, system-call interface, address-space protection, 
+    page-fault handlers, signal handling, portability, re-entrant code",
+  abstract     = "We describe a model for multiple threads of control within a
+    single UNIX process.  The main goals are to provide extremely lightweight
+    threads and to rationalize and extend the UNIX Application Programming
+    Interface for a multithreaded environment.  The threads are intended to be
+    sufficiently lightweight so that there can be thousands present and that
+    synchronization and context switching can be accomplished rapidly without
+    entering the kernel.  These goals are achieved by providing lightweight
+    user-level threads that are multiplexed on top of kernel-supported threads
+    of control.  This architecture allows the programmer to separate logical
+    (program) concurrency from the required real concurrency, which is
+    relatively costly, and to control both within a single programming model.", 
+  location     = "https://link.springer.com/chapter/10.1007/978-1-4612-3192-9_24"
+}
+
+@InProceedings{lltt43riotnp,
+  author       = "Rick Macklem",
+  title        = "Lessons Learned Tuning the {4.3BSD} {Reno} Implementation of the {NFS} Protocol",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "53--64",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "nfs, caching, transport protocol, performance, 4.3bsd reno,
+    client-server communication",
+  abstract     = "Since its introduction by Sun Microsystems in 1986, the NFS
+    protocol has become the defacto standard distributed ﬁle system protocol
+    for Unix based workstations.  Most of these Unix implementations are based
+    on the reference port provided by Sun Microsystems.  Research published to
+    date on NFS performance has focused on the problems of NFS server write
+    performance and NFS server performance characterization.  This paper
+    discusses other performance and implementation aspects of NFS observed
+    while tuning a rather different implementation of the Sun NFS protocol for
+    Unix.  Aspects of performance related to differences in caching mechanisms,
+    the use of different RPC transport protocols and techniques that minimize
+    memory to memory copying are explored.  In particular, the notion that TCP
+    transport would provide unacceptable performance for NFS RPCs is shown to
+    be unfounded.", 
+  location     = "http://www.coredumps.de/doc/nfs/Lessons_Learned_Tuning_the_4.3BSD_Reno_Implementation_of_the_NFS_Protocol.ps"
+}
+
+@InProceedings{btclwuiamtf,
+  author       = "Michael~B. Jones",
+  title        = "Bringing the {C} Libraries With Us Into a Multi-Threaded Future",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "81--91",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "portability, locking strategies, cache synchronization,
+    signal handling, re-entrancy, compilation",
+  abstract     = "An enormous amount of UNIX (and UNIX-like) code has been
+    written (by a likewise enormous amount of programmers) that uses the
+    standard C libraries.  Use is made throughout much of this code of the
+    knowledge that traditional UNIX programs have exactly one thread of
+    control.  However, increasing numbers of UNIX-like systems are beginning to
+    provide support for programs with multiple threads of control.  To the
+    extent possible, it is highly desirable to preserve the existing C library
+    interfaces for multi-threaded programs; this will aid both in code and
+    programmer portability between traditional UNIX environments and new
+    multithreaded ones.  A number of issues must be confronted in order to
+    produce versions of the C libraries which can be used in multi-threaded
+    programming environments.  Among these are: functions with non-reentrant
+    interfaces, functions which maintain state between invocations, use of
+    macros in the library interfaces, interactions with signals, compatibility
+    with single-threaded library data structures, performance issues, and of
+    course, errno.  Despite these and other problems, experience has shown that
+    reasonable solutions are available.  This paper presents both a detailed
+    explanation of the problems inherent in producing multi-thread-safe C
+    libraries and the different solutions which are available.  Finally, the
+    solutions to these problems adopted by a number of research and industry
+    groups are presented." 
+}
+
+@InProceedings{atbprtfbu,
+  author       = "Keith Sklower",
+  title        = "{A} Tree-Based Packet Routing Table for {Berkeley} " # unix,
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "93--103",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "routing lookups, dictionary data structures, arp, hierarchy",
+  abstract     = "Packet forwarding for OSI poses strong challenges for routing
+    lookups: the algorithm must be able to efficiently accommodate variable
+    length, and potentially very long addresses.  The 4.3 Reno release of
+    Berkeley UNIX † uses a reduced radix tree to make decisions about
+    forwarding packets.  This data structure is general enough to encompass
+    protocol to link layer address translation such as the Address Resolution
+    Protocol (ARP), and the End System to Intermediate System Protocol (ES−IS),
+    and should apply to any hierarchical routing scheme, such as source and
+    quality-of-service routing, or choosing between multiple Datakits on a
+    single system.  The system uses a message oriented mechanism to communicate
+    between the kernel and user processes to maintain the routing database,
+    inform user processes of spontaneous events such as redirects, routing
+    lookup failures, and suspected timeouts through gateways.", 
+  location     = "http://www1.cs.columbia.edu/~ji/F02/ir04/routing.pdf"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -10762,6 +10874,17 @@
   address      = nyny,
   keywords     = "ai, artificial life, 19th century romantics",
   location     = "PR 6073.I558 F73"
+}
+
+@Book{teoct,
+  author       = "Corey Robin",
+  title        = "The Enigma of Clarence Thomas",
+  publisher    = "Metropolitan Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "clarence thomas, supreme court, black nationalism,
+    constitutional law, racism, economics, social relations",
+  location     = "KF 8745.T48 R63"
 }
 
 @Misc{1mmmitxss,
