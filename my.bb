@@ -5230,7 +5230,7 @@
 
 @InProceedings{atbprtfbu,
   author       = "Keith Sklower",
-  title        = "{A} Tree-Based Packet Routing Table for {Berkeley} " # unix,
+  title        = "A Tree-Based Packet Routing Table for {Berkeley} " # unix,
   booktitle    = usenixw91,
   year         = 1991,
   pages        = "93--103",
@@ -5252,6 +5252,28 @@
     inform user processes of spontaneous events such as redirects, routing
     lookup failures, and suspected timeouts through gateways.", 
   location     = "http://www1.cs.columbia.edu/~ji/F02/ir04/routing.pdf"
+}
+
+@InProceedings{sfcshgm,
+  author       = "Carl Staelin and Hector Garcia-Molina",
+  title        = "Smart Filesystems",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "45--51",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "disk performance, file systems, disk clustering, adaptive
+    file storage",
+  abstract     = "Over the last few years tremendous strides have been made in
+    CPU performance without corresponding strides in i-o performance.
+    Consequently, future operating systems must be redesigned to minimize the
+    impact of the i-o bottleneck.  We present the concept of a smart filesystem
+    as one that can dynamically and automatically tune itself to improve
+    performance based on file access statistics it collects.  We describe the
+    iPcress File System, a prototype smart filesystem, and demonstrate a simple
+    implementation of a disk data clustering technique.  With this approach,
+    active data is placed near the center of the disk, reducing seek times."
 }
 
 @Article{eobsoiop,
