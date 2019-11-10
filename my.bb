@@ -5276,6 +5276,31 @@
     active data is placed near the center of the disk, reducing seek times."
 }
 
+@InProceedings{elpfaufs,
+  author       = "Larry~W. McVoy and Steve~R. Kleiman",
+  title        = "Extent-Like Performance from a " # unix # " File System",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "33--43",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "file systems, performance, extent-based file systems, disk
+    behavior, vm buffering",
+  abstract     = "In an effort to meet the increasing throughput demands on the
+    SunOS file system made both by applications and higher performance
+    hardware, several optimization paths were examined.  The principal
+    constraints were that the on-disk file system format remain the same and
+    that whatever changes were necessary not be user-visible.  The solution
+    arrived at was to approximate the behavior of extent based file systems by
+    grouping I/O operations into clusters instead of dealing in individual
+    blocks.  A single clustered I/O may take the place of 15-30 block I/Os,
+    resulting in a factor of two increased sequential performance increase.
+    The changes described were restricted to a small portion of the file system
+    code; no user-visible changes were necessary and the on-disk format was not
+    altered." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
