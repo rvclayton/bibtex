@@ -5301,6 +5301,40 @@
     altered." 
 }
 
+@InProceedings{pmatcohos,
+  author       = "Nick Vasilatos",
+  title        = "Partitioned Multiprocessors and The Coexistence of Heterogeneous Operating System",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "23--32",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "multi-os systems, multiprocessors, system boot, system
+    multiplexing, inter-system communication",
+  abstract     = "This presents a variety of issues arising from the alpha
+    Research Group at Concurrent's effort to develop a means of partitioning an
+    SMP computer system so as to share it between multiple (widely different)
+    operating systems.  A simple (minimalistic) mechanism for hosting multiple,
+    (largely unmodified) heterogeneous operating systems and providing a
+    unified programming environment inclusive of the facilities of both is
+    presented.  Basic motivation for the undertaking are discussed in the
+    context of our research and development effort -- primarily aimed at
+    developing alpha, a new object-oriented, distributed, real-time operating
+    system, which has generated significant secondary requirements for
+    communicating with the external world, generating and controlling displays,
+    file and device I/O and other facilities all of which are well developed
+    and widely available on traditional (UNIX) operating system platforms.
+    Technical aspects of the mechanism -- dubbed alpha/TMM -- for Trivial
+    Machine Monitor, are presented as are details of the OS level RPC
+    facilities providing process/thread level communication between hosted
+    operating systems over a TMM provided transport channel.  Architectural
+    alternatives to the alpha/TMM approach are discussed including fully robust
+    virtual monitors and contemporary micro-kernel/OS-server designs.  Finally
+    our approach is assessed relative to alternatives and trad-offs dictated by
+    the particulars of alpha and our development requirements." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
