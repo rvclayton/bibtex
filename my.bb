@@ -5335,6 +5335,47 @@
     the particulars of alpha and our development requirements." 
 }
 
+@InProceedings{asgmkboulipac,
+  author       = "Marc Guillemont and Jim Lipkis and Doug Orr and Marc Rozier",
+  title        = "{A} Second-Generation Micro-Kernel Based on " # unix # "; Lessons in Performance and Compatibility",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "13--22",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "microkernels, ipc, message passing, unix servers, chorus,
+    real-time systems, device management",
+  abstract     = "An important trend in operating systems development is the
+    restructuring of the traditional monolithic OS kernel into independent
+    servers running on top of a minimal nucleus or microkernel.  This approach
+    rises but of the need for modularity and flexibility in managing
+    ever-growing complexity caused by new functions and new architectures.  In
+    particular, it provides a solid architectural basis for distribution, fault
+    tolerance, and security.  Microkernel-based operating systems have been a
+    focus of research for a number of years, and are now beginning to play a
+    role in commercial Unix systems.  However, the ultimate feasibility of this
+    attractive approach is not yet widely accepted.  A primary concern is
+    efficiency: can a microkernel-based modular OS provide performance
+    comparable to that of a monolithic kernel -- at least when running on a
+    monolithic architecture? The elegance and flexibility of the client-server
+    model may extract cost in message-handling and context-switching overhead.
+    If this penalty is to great, commercial acceptance will be limited.
+    Another pragmatic concern is compatibility: in an industry relying
+    increasing on portability and standardization, compatible interfaces are
+    needed not only at the level of application programs, but also for device
+    drivers, streams modules, and only at the level of application programs,
+    but also for device drivers, streams modules, and other components.  In
+    many cases binary as well as source compatibility is required.  These
+    concerns affect the structure and organization of the operating system.
+    The Chorus team has spent the past six years studying and experimenting
+    with Unix kernelisation as an aspect of its work in modular distributed and
+    real-time systems.  In this paper we examine aspects of the current Chorus
+    system in terms of its evolution from the previous version.  Our focus is
+    on pragmatic issues such as performance and compatibility, as well as
+    considerations of modularity and software engineering." 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
