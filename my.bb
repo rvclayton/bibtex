@@ -5376,6 +5376,39 @@
     considerations of modularity and software engineering." 
 }
 
+@InProceedings{ppapmsfne,
+  author       = "David~I. Black",
+  title        = "Processors, Priority, and Policy:  Mach Scheduling for New Environments",
+  booktitle    = usenixw91,
+  year         = 1991,
+  pages        = "1--12",
+  organization = "USENIX Association",
+  address      = date,
+  month        = "21--25 " # jan, 
+  keywords     = "multiprocessor scheduling, microkernels, mach, user-level
+    system servers, scalability, heterogeneity, policy and mechanism",
+  abstract     = "Changing hardware and software environments require
+    alternatives to the timesharing scheduling policies supported by Unix,
+    Mach, and similar systems.  Effective use of multiprocessors and
+    multicomputer architectures often requires dedicating processors to some
+    applications.  Complex real-time applications demand the level of services
+    available in a Unix-like environment, but such applications cannot be
+    timeshared.  These and other new environments require alternatives to the
+    traditional timesharing scheduling model.  This paper describes scheduling
+    techniques that enable the Mach operating system to support new application
+    environments.  Mach's processor allocation facility supports dedicating
+    processors to applications.  Removing allocation decisions from the kernel
+    and implementing them in a separate server allows a single kernel to
+    support a wide variety of allocation policies and application environments.
+    The Mach system also supports scheduling policy alternatives to
+    timesharing.  Fixed priority scheduling is currently implemented for use in
+    real-time environments, and the design of the kernel interface permits
+    additional policies to be added.  These facilities are designed to work
+    together, given an application complete control over scheduling of
+    processors dedicated to it.  Appendices to this paper describe the
+    interfaces to both the kernel and a simple gang-scheduling server" 
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
