@@ -4,6 +4,7 @@
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{sosp89    = osr # " (" # pot # "Twelfth ACM Symposium on Operating Systems Principles, SOSP '89)"}
 @string{sosp91    = osr # " (" # pot # "Thirteenth ACM Symposium on Operating Systems Principles, SOSP '91)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
@@ -10001,6 +10002,33 @@
   location     = "https://doi.org/10.1145/358438.349315"
 }
 
+@Article{macdsmd,
+  author       = "Fleisch, Brett~D. and Popek, Gerald~J.",
+  title        = "Mirage:  {A} Coherent Distributed Shared Memory Design",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "211--223",
+  month        = dec,
+  keywords     = "distributed shared storage, coherence protocol, paged segments",
+  abstract     = "Shared memory is an effective and efficient paradigm for
+    interprocess communication.  We are concerned with software that makes use
+    of shared memory in a single site system and its extension to a
+    multimachine environment.  Here we describe the design of a distributed
+    shared memory (DSM) system called Mirage developed at UCLA.  Mirage
+    provides a form of network transparency to make network boundaries
+    invisible for shared memory and is upward compatible with an existing
+    interface to shared memory.  We present the rationale behind our design
+    decisions and important details of the implementation.  Mirage's basic
+    performance is examined by component timings, a worst case application, and
+    a &ldquo;representative&rdquo; application.  In some instances of page
+    contention, the tuning parameter in our design improves application
+    throughput.  In other cases, thrashing is reduced and overall system
+    performance improved using our tuning parameter.", 
+  location     = "https://doi.org/10.1145/74851.74871"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11040,6 +11068,16 @@
   keywords     = "clarence thomas, supreme court, black nationalism,
     constitutional law, racism, economics, social relations",
   location     = "KF 8745.T48 R63"
+}
+
+@Book{fgmg17,
+  author       = "Mira Grant",
+  title        = "Final Girls",
+  publisher    = "Subtrerranean Press",
+  year         = 2017,
+  address      = "Burton, Michigan",
+  keywords     = "mind control, dreams, zombies",
+  location     = "978-1-59606-824-7"
 }
 
 @Misc{1mmmitxss,
