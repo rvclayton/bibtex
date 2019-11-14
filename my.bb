@@ -10029,6 +10029,32 @@
   location     = "https://doi.org/10.1145/74851.74871"
 }
 
+@Article{laeftmfdfcc,
+  author       = "Gray, Cary G. and Cheriton, David R.",
+  title        = "Leases:  An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "202--210",
+  month        = dec,
+  keywords     = "caching, consistency, distributed systems, v kernel, lease
+    management, fault tolerance",
+  abstract     = "Caching introduces the overhead and complexity of ensuring
+    consistency, reducing some of its performance benefits.  In a distributed
+    system, caching must deal with the additional complications of
+    communication and host failures.  Leases are proposed as a time-based
+    mechanism that provides efficient consistent access to cached data in
+    distributed systems.  Non-Byzantine failures affect performance, not
+    correctness, with their effect minimized by short leases.  An analytic
+    model and an evaluation for file access in the V system show that leases of
+    short duration provide good performance.  The impact of leases on
+    performance grows more significant in systems of larger scale and higher
+    processor performance.",
+  location     = "https://doi.org/10.1145/74850.74870",
+  location     = "https://web.stanford.edu/class/cs240/readings/89-leases.pdf"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11078,6 +11104,18 @@
   address      = "Burton, Michigan",
   keywords     = "mind control, dreams, zombies",
   location     = "978-1-59606-824-7"
+}
+
+@Book{tcna,
+  author       = "Natalie Angier",
+  title        = "The Canon",
+  subtitle     = "A Whirligig Tour of the Beautiful Basics of Science",
+  publisher    = "Houghton Mifflin",
+  year         = 2007,
+  address      = boma,
+  keywords     = "probabilities, physics, chemistry, evolutionary biology,
+    molecular biology, geology, astronomy",
+  location     = "Q 162.A59"
 }
 
 @Misc{1mmmitxss,
