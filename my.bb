@@ -10055,6 +10055,58 @@
   location     = "https://web.stanford.edu/class/cs240/readings/89-leases.pdf"
 }
 
+@Article{taisoitsk,
+  author       = "Henry Massalin and Calton Pu",
+  title        = "Threads and Input\slash Output in the {Synthesis} Kernel",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "191--201",
+  month        = dec,
+  keywords     = "dynamic code generation, partial evaluation, active data
+    structures, kernel architecture, threading",
+  abstract     = "The Synthesis operating system kernel combines several
+    techniques to provide high performance, including kernel code synthesis,
+    fine-grain scheduling, and optimistic synchronization.  Kernel code
+    synthesis reduces the execution path for frequently used kernel calls.
+    Optimistic synchronization increases concurrency within the kernel.  Their
+    combination results in significant performance improvement over traditional
+    operating system implementations.  Using hardware and software emulating a
+    SUN 3/160 running SUNOS.  Synthesis achieves several times to several dozen
+    times speedup for Unix kernel calls and context switch times of 21
+    microseconds or faster.", 
+  location     = "http://pages.cs.wisc.edu/~remzi/Classes/736/Fall2007/Papers/massalin.pdf"
+}
+
+@Article{riicsd,
+  author       = "Randell, Brian and Lee, P.~A. and Treleaven, P.~C.",
+  title        = "Reliability Issues in Computing System Design",
+  journal      = surveys,
+  year         = 1978,
+  volume       = 10,
+  number       = 2,
+  pages        = "123--165",
+  month        = jun,
+  keywords     = "fault tolerance, error, failure, fault, fault avoidance,
+    hardware reliability, software reliability, system structure, redundancy,
+    atomic actions",
+  abstract     = "This paper surveys the various problems involved in achieving
+    high reliability from complex computing systems and discusses the
+    relationship between system structuring techniques and fault-tolerance
+    techniques.  Topics covered include: 1) protective redundancy in hardware
+    and software, 2) the use of atomic actions to structure the activity of a
+    system in limit information flow 3) error detection techniques, 4)
+    strategies for locating and dealing with faults and for assessing the
+    damage caused, and 5) forward and backward error recovery techniques, based
+    on the concepts of recovery line, commitment, exception, and compensation.
+    The ideas described relate to technique used to date in systems intended
+    for environments in which high reliability is demanded.  Three specific
+    systems of JPL-STAR, the Bell Laboratories ESS No. 1A processor, and the
+    PLURIBUS are described in some detail and compared.", 
+  location     = "https://doi.org/10.1145/356725.356729"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11116,6 +11168,17 @@
   keywords     = "probabilities, physics, chemistry, evolutionary biology,
     molecular biology, geology, astronomy",
   location     = "Q 162.A59"
+}
+
+@Book{tawrak,
+  author       = "Robert~A. Kaster",
+  title        = "The Apian Way",
+  subtitle     = "Ghost Road, Queen of Roads",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "ancient rome, the apian way, southern italy",
+  location     = "DG 29.A6 K37"
 }
 
 @Misc{1mmmitxss,
