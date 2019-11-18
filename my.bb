@@ -10107,6 +10107,101 @@
   location     = "https://doi.org/10.1145/356725.356729"
 }
 
+@Article{pcasifmsmm,
+  author       = "Tucker, Andrew and Gupta, Anoop",
+  title        = "Process Control and Scheduling Issues for Multiprogrammed Shared-Memory Multiprocessors",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "159--166",
+  month        = dec,
+  keywords     = "multiprocessor scheduling, threads, thread management,
+    performance, parallel programming, multi-programming",
+  abstract     = "Shared-memory multiprocessors are frequently used in a
+    time-sharing style with multiple parallel applications executing at the
+    same time.  In such an environment, where the machine load is continuously
+    varying, the question arises of how an application should maximize its
+    performance while being fair to other users of the system.  In this paper,
+    we address this issue.  We first show that if the number of runnable
+    processes belonging to a parallel application significantly exceeds the
+    effective number of physical processors executing it, its performance can
+    be significantly degraded.  We then propose a way of controlling the number
+    of runnable processes associated with an application dynamically, to ensure
+    good performance.  The optimal number of runnable processes for each
+    application is determined by a centralized server, and applications
+    dynamically suspend or resume processes in order to match that number.  A
+    preliminary implementation of the proposed scheme is now running on the
+    Encore Multimax and we show how it helps improve the performance of several
+    applications.  In some cases the improvement is more than a factor of two.
+    We also discuss implications of the proposed scheme for multiprocessor
+    schedulers, and how the scheme should interface with parallel programming
+    languages.", 
+  location     = "https://doi.org/10.1145/74850.74866"
+}
+
+@Article{albsbbtcdpc,
+  author       = "Barkley, Ronald~E. and Lee, T.~Paul",
+  title        = "A Lazy Buddy System Bounded by Two Coalescing Delays per Class",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "167--176",
+  month        = dec,
+  keywords     = "storage management, buddy allocation, lazy coalescing",
+  abstract     = "The watermark-based lazy buddy system for dynamic memory
+    management uses lazy coalescing rules controlled by watermark parameters to
+    achieve low operational costs.  The correctness of the watermark-based lazy
+    buddy system is shown by defining a space of legal states called the lazy
+    space and proving that the watermark-based lazy coalescing rules always
+    keep the memory state within that space.  In this paper we describe a
+    different lazy coalescing policy, called the DELAY-2 algorithm, that
+    focuses directly on keeping the memory state within the lazy space.  The
+    resulting implementation is simpler, and experimental data shows it to be
+    up to 12% faster than the watermark-based buddy system and about 33% faster
+    than the standard buddy system.  Inexpensive operations make the DELAY-2
+    algorithm attractive as a memory manager for an operating system.  The
+    watermark-based lazy buddy policy offers fine control over the coalescing
+    policy of the buddy system.  However, applications such as the UNIX System
+    kernel memory manager do not need such fine control.  For these
+    applications, the DELAY-2 buddy system provides an efficient memory manager
+    with low operational costs and low request blocking probability.  In the
+    DELAY-2 buddy system, the worst-case time for a free operation is bounded
+    by two coalescing delays per class, and when all blocks are returned to the
+    system, the system memory is coalesced back to its original state.  This
+    ensures that the memory space can be completely shared.", 
+  location     = "https://doi.org/10.1145/74850.74867"
+}
+
+@Article{aotmp,
+  author       = "Duchamp, Dan",
+  title        = "Analysis of Transaction  Management Performance",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "177--190",
+  month        = dec,
+  keywords     = "transactions, transaction management, two phase commit,
+    non-blocking commitment, performance, log batching, multi-threading",
+  abstract     = "There is currently much interest in incorporating
+    transactions into both operating systems and general-purpose programming
+    languages.  This paper provides a detailed examination of the design and
+    performance of the transaction manager of the Camelot system.  Camelot is a
+    transaction facility that provides a rich model of transactions intended to
+    support a wide variety of general-purpose applications.  The transaction
+    manager's principal function is to execute the protocols that ensure
+    atomicity.  The conclusions of this study are: a simple optimization to
+    two-phase commit reduces logging activity of distributed transactions;
+    non-blocking commit is practical for some applications; multithreaded
+    design improves throughput provided that log batching is used;
+    multi-casting reduces the variance of distributed commit protocols in a LAN
+    environment; and the performance of transaction mechanisms such as Camelot
+    depend heavily upon kernel performance.", 
+  location     = "https://doi.org/10.1145/74850.74868"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11172,12 +11267,12 @@
 
 @Book{tawrak,
   author       = "Robert~A. Kaster",
-  title        = "The Apian Way",
+  title        = "The Appian Way",
   subtitle     = "Ghost Road, Queen of Roads",
   publisher    = ucp,
   year         = 2012,
   address      = chil,
-  keywords     = "ancient rome, the apian way, southern italy",
+  keywords     = "ancient rome, the appian way, southern italy, tourism",
   location     = "DG 29.A6 K37"
 }
 
