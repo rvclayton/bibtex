@@ -10202,6 +10202,107 @@
   location     = "https://doi.org/10.1145/74850.74868"
 }
 
+@Article{tasppoanom,
+  author       = "Chase, Jeffrey~S. and Amador, Franz~G. and Lazowska, Edward~D. and Levy, Henry~M. and Littlefield, Richard~J.",
+  title        = "The {Amber} System:  Parallel Programming on a Network of Multiprocessors",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "147--158",
+  month        = dec,
+  keywords     = "distributed programming, multiprocessor networks, migration,
+    threads, global address spaces",
+  abstract     = "This paper describes a programming system called Amber that
+    permits a single application program to use a homogeneous network of
+    computers in a uniform way, making the network appear to the application as
+    an integrated multiprocessor.  Amber is specifically designed for high
+    performance in the case where each node in the network is a shared-memory
+    multiprocessor.  Amber shows that support for loosely-coupled
+    multiprocessing can be efficiently realized using an object-based
+    programming model.  Amber programs execute in a uniform network-wide object
+    space, with memory coherence maintained at the object level.  Careful data
+    placement and consistency control are essential for reducing communication
+    overhead in a loosely-coupled system.  Amber programmers use object
+    migration primitives to control the location of data and processing.", 
+  location     = "https://doi.org/10.1145/74851.74865"
+}
+
+@Article{lstlbcilssmm,
+  author       = "Rosenburg, Bryan~S.",
+  title        = "Low-Synchronization Translation Lookaside Buffer Consistency in Large-Scale Shared-Memory Multiprocessors",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "137--146",
+  month        = dec,
+  keywords     = "tlb consistency, tlb invalidation, multiprocessor
+    architecture, interrupt handling, locking protocols, mach, performance,
+    deadlock avoidance",
+  abstract     = "Operating systems for most current shared-memory
+    multiprocessors must maintain translation lookaside buffer (TLB)
+    consistency across processors.  A processor that changes a shared page
+    table must flush outdated mapping information from its own TLB, and it must
+    force the other processors using the page table to do so as well.
+    Published algorithms for maintaining TLB consistency on some popular
+    commercial multiprocessors incur excessively high synchronization costs.
+    We present an efficient TLB consistency algorithm that can be implemented
+    on multiprocessors that include a small set of reasonable architectural
+    features.  This algorithm has been incorporated in a version of the MACH
+    operating system developed for the IBM Research Parallel Processor
+    Prototype (RP3).", 
+  location     = "https://doi.org/10.1145/74850.74864"
+}
+27;5;13~
+@Article{srrws,
+  author       = "Schwanke, Robert~W. and Kaiser, Gail~E.",
+  title        = "Smarter Recompilation",
+  journal      = toplas,
+  year         = 1988,
+  volume       = 10,
+  number       = 4,
+  pages        = "627--632",
+  month        = oct,
+  keywords     = "intelligent software tools, overloading, separate
+    compilation, type checking, consistency, software configuration management",
+  abstract     = "Tichy's Smart Recompilation method can be made smarter by
+    permitting benign type inconsistencies between separately compiled modules.
+    This enhanced method helps the programmer to make far-reaching changes in
+    small, manageable steps.", 
+  location     = "https://doi.org/10.1145/48022.214505"
+}
+
+@Article{ehliwa,
+  author       = "Cameron, Robert~D.",
+  title        = "Efficient High-Level Iteration with Accumulators",
+  journal      = toplas,
+  year         = 1989,
+  volume       = 11,
+  number       = 2,
+  pages        = "194--211",
+  month        = apr,
+  keywords     = "accumulation, acculators, generators, iteration, iterators,
+    loop constructs, mapping functions, modula, reduce operator, language
+    extension, control structures",
+  abstract     = "Accumulators are proposed as a new type of high-level
+    iteration construct for imperative languages.  Accumulators are
+    user-programmed mechanisms for successively combining a sequence of values
+    into a single result value.  The accumulated result can either be a simple
+    numeric value such as the sum of a series or a data structure such as a
+    list.  Accumulators naturally complement constructs that allow iteration
+    through user-programmed sequences of values such as the iterators of CLU
+    and the generators of Alphard.  A practical design for high-level iteration
+    is illustrated by way of an extension to Modula-2 called Modula Plus.  The
+    extension incorporates both a redesigned mechanism for iterators as well as
+    the accumulator design.  Several applications are illustrated including
+    both numeric and data structure accumulation.  It is shown that the design
+    supports efficient iteration both because it is amenable to implementation
+    via in-line coding and because it allows high-level iteration concepts to
+    be implemented as encapsulations of efficient low-level manipulations.", 
+  location     = "https://doi.org/10.1145/63264.63401"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11274,6 +11375,18 @@
   address      = chil,
   keywords     = "ancient rome, the appian way, southern italy, tourism",
   location     = "DG 29.A6 K37"
+}
+
+@Book{xwspaawx,
+  author       = "Douglas~A. Young",
+  title        = "{X} Window Systems Programming and Applications with Xt",
+  publisher    = "Prentice-Hall",
+  year         = 1989,
+  address      = ecnj,
+  keywords     = "x window system, xt intrinsics, x resource manager, widget
+    programming, event handling, color, raster images, graphics contexts, text,
+    fonts, graphics primitives, interclient communications",
+  location     = "QA 76.76 W56 Y68"
 }
 
 @Misc{1mmmitxss,
