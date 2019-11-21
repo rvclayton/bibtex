@@ -208,7 +208,6 @@ a scheme api for test suites : bothner
 a scheme for little languages in interactive graphics : beckman
 a scheme shell : shivers 
 a second opinion on data flow machines and languages : gajski
-a security kernel for a multiprocessor microcomputer : schell
 a simple and extensible graphical debugger : hanson
 a simple and powerful type system for programming lanauges : ayres
 a simple and unifying approach to subjective objects : smith
@@ -423,7 +422,6 @@ an exercise in dependent types a well typed interpreter : augustsson
 an exercise in program explanation : misra
 an experiment in table driven code generation : graham
 an experiment with inline substitution : cooper
-an experimental evaluation of continuous testing during development : saff
 an experimental user level interface of tcp : braun
 an exploration of novice programming errors in an object oriented environment : barr
 an expressive language of signatures : ramsey
@@ -759,7 +757,6 @@ concert c supporting distributed programming with language extensions and a prot
 concurrent maintenance of binary search trees : manber
 concurrent object oriented language cool : maruyama
 concurrent reading and writing : lamport
-concurrent runtime monitoring of formally specified programs : sankar
 condition handling in the lisp language family : pitman
 conditional attribute grammars : boyland
 conflicts : clark
@@ -1490,7 +1487,6 @@ jade a high level machine independent language for parallel programming : rinard
 java 2 distributed object middleware performance analysis and optimization : juric
 java as an intermediate language : hardwick
 java bytecode compression for low end embedded systems : clausen
-java is not type safe : saraswat 
 java programming style guide : anon
 java puzzlers : bloch
 java references : amsterdam
@@ -1551,7 +1547,6 @@ lclint a tool for using specifications to check code : evans
 learning from examples generation and evaluation of decision trees for software resource analysis : selby
 learning from mistakes a comprehensive study on real world concurrency bug characteristics : lu
 learning in theory and practice : brown
-learning linear grammars from structural information : sempere
 learning operating systems structure and implementation through the mps computer system simulator : morsiani
 learning spam simple techniques for freely available software : massey
 learning to love som : alfke
@@ -2012,7 +2007,6 @@ programming in icon problems and solutions from the icon newsletter : griswold
 programming in oberon : reiser
 programming in oberon : writh
 programming in the pi calculus : pierce
-programming in timed cuncurrent constraint languages : saraswat
 programming language concepts the lambda calculus approach : fokkinga
 programming languages : hunt
 programming languages and direct execution computer architecture : chu
@@ -3033,7 +3027,6 @@ what is all the fuss about neural networks : barth
 what is conservatism : agree
 what is interactive scripting : travers
 what is software design : reeves
-what is the bios : schmidt
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
 when formal systems kill computer ethics and formal methods : abramson
