@@ -1360,7 +1360,6 @@ hypertext transfer protocol http : berners-lee
 ibal a probabilistic rational programming language : pfeffer
 iconic control graph representation : robillard
 ideas or interests privacy in electronic communications : regan
-identifying and qualifying reusable software components : caldiera
 identifying syntactic differences between two programs : yang
 identifying the difficulties of object oriented development : sheetz
 ilu : janssen
@@ -1747,7 +1746,6 @@ newlines and lexer states : clark
 next permutation when c++ gets it right : word aligned
 nix a safe and policy free system for software deployment : dolstra
 nloops from natural language to object oriented requirements using the natural language processing system lolita : mich
-nonblocking connections : cadenhead
 nondeterministic algorithms : cohen
 nondeterministic algorithms : floyd
 notes on algebra of programming : strong
@@ -2373,7 +2371,6 @@ stack inspections theory and variants : fournet
 stacking them up a comparison of virtual machines : gough
 standard for the format of arpa internet text messages : crocker
 star encoding : nelson
-stardust an environment for parallel programming on networks of heterogeneous workstations : cabillic
 stars and starlets : shasha
 state machines and assertions an integrated approach to modeling and verification of distributed systems : joseph
 state patterns and c++ : marci
