@@ -1008,6 +1008,7 @@ efficient compile time garbage collection for arbitrary data structures : mohnen
 efficient concise deterministic patterm matching automata for ambiguous patterns : nedjah
 efficient demultiplexing of network packets by automatic parsing : jayaram
 efficient evaluation of circular attribute grammars : jones
+efficient high level iteration with accumulators : cameron
 efficient implementation and optimization of run-time checking in pascal : fischer
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
@@ -2290,6 +2291,7 @@ slk a capability system based on save language technology : hawblitzel
 small programming exercises : rem
 smart messages an object oriented communication mechanism for parallel systems : arjomandi 
 smart pointers they're smart but they're not pointers : edelson
+smarter recompilation : schwanke
 smashing c++ vptrs : rix
 smgn rapid prototyping of small domain specific languages : kienle
 sml tk functional programming for graphical user interfaces : luth
