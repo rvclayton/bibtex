@@ -10303,6 +10303,211 @@
   location     = "https://doi.org/10.1145/63264.63401"
 }
 
+@Article{iteoufbc,
+  author       = "Braunstein, Andrew and Riley, Mark and Wilkes, John",
+  title        = "Improving the Efficiency of " # unix # " File Buffer Caches",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "71--82",
+  month        = dec,
+  keywords     = "cache management, virtual storage management, memory-mapped
+    files, i-o performance, tlb",
+  abstract     = "This paper reports on the effects of using hardware virtual
+    memory assists in managing file buffer caches in UNIX.  A controlled
+    experimental environment was constructed from two systems whose only
+    difference was that one of them (XMF) used the virtual memory hardware to
+    assist file buffer cache search and retrieval.  An extensive series of
+    performance characterizations was used to study the effects of varying the
+    buffer cache size (from 3 Megabytes to 70 MB); I\O transfer sizes (from 4
+    bytes to 64 KB); cache-resident and non-cache-resident data; READs and
+    WRITEs; and a range of application programs.  The results: small READ/WRITE
+    transfers from the cache (&le;1 KB) were 5O% faster under XMF, while larger
+    transfers (&ge;8 KB) were 20% faster.  Retrieving data from disk, the XMF
+    improvement was 25% and 1O% respectively, although OPEN/CLOSE system calls
+    took slightly longer in XMF.  Some individual programs ran as much as 40%
+    faster on XMF, while an application benchmark suite showed a 7-15%
+    improvement in overall execution time.  Perhaps surprisingly.  XMF had
+    fewer translation lookaside buffer misses.", 
+  location     = "https://doi.org/10.1145/74850.74858"
+}
+
+@Article{araatpv,
+  author       = "Lee, Tony~T. and Lai, Ming-Yee",
+  title        = "{A} Relational Algebraic Approach to Protocol Verification",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "184--193",
+  month        = feb,
+  keywords     = "communications protocol analysis, finite state machine,
+    protocol verification, relational algebra",
+  abstract     = "Communications protocols are usually modeled by a pair of
+    finite-state machines that generate the interaction between processes.
+    Protocol verification is a procedure to validate the logical correctness of
+    these interaction sequences and to detect potential design errors.  A
+    relational approach is proposed to represent a finite-state machine as a
+    transition table.  On this basis, the well-established theory of relational
+    databases can be utilized to derive the global-state transitions of the
+    system.  Furthermore, logical errors of a protocol such as deadlocks,
+    incomplete specifications and nonexecutable interactions can be formulated
+    in terms of relational algebra.  This approach has been implemented on the
+    INGRES database system and applied to the verification of several
+    protocols.", 
+  location     = "https://doi.org/10.1109/32.4637"
+}
+
+@Article{pofr,
+  author       = "Schroeder, Michael~D. and Burrows, Michael",
+  title        = "Performance of Firefly {RPC}",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "83--90",
+  month        = dec,
+  keywords     = "rpc, multiprocessor systems, storage sharing, data
+  marshalling, latency, throughput, parameter passing",
+  abstract     = "In this paper, we report on the performance of the remote
+    procedure call implementation for the Firefly multiprocessor and analyze
+    the implementation to account precisely for all measured latency.  From the
+    analysis and measurements, we estimate how much faster RPC could be if
+    certain improvements were made.  The elapsed time for an inter-machine call
+    to a remote procedure that accepts no arguments and produces no results is
+    2.66 milliseconds.  The elapsed time for an RPC that has a single 1440-byte
+    result (the maximum result that will fit in a single packet) is 6.35
+    milliseconds.  Maximum inter-machine throughput of application program data
+    using RPC is 4.65 megabits/second, achieved with 4 threads making parallel
+    RPCs that return the maximum sized result that fits in a single RPC result
+    packet.  CPU utilization at maximum throughput is about 1.2 CPU seconds per
+    second on the calling machine and a little less on the server.  These
+    measurements are for RPCs from user space on one machine to user space on
+    another, using the installed system and a 10 megabit/second Ethernet.  The
+    RPC packet exchange protocol is built on IP/UDP, and the times include
+    calculating and verifying UDP checksums.  The Fireflies used in the tests
+    had 5 Micro VAX II processors and a DEQNA Ethernet controller.", 
+  location     = "https://doi.org/10.1145/74850.74859"
+}
+
+@Article{lrpc,
+  author       = "Bershad, Brian~N. and Anderson, Thomas~E. and Lazowska, Edward~D. and Levy, Henry~M.",
+  title        = "Lightweight Remote Procedure Call",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "102--113",
+  month        = dec,
+  keywords     = "rpc, common-case optimization, intra-machine communication,
+    parameter size, parameter complexity, stub generation",
+  abstract     = "Lightweight Remote Procedure Call (LRPC) is a communication
+    facility designed and optimized for communication between protection
+    domains on the same machine.  In contemporary small-kernel operating
+    systems, existing RPC systems incur an unnecessarily high cost when used
+    for the type of communication that predominates &mdash; between protection
+    domains on the same machine.  This cost leads system designers to coalesce
+    weakly-related subsystems into the same protection domain, trading safety
+    for performance.  By reducing the overhead of same-machine communication,
+    LRPC encourages both safety and performance.  LRPC combines the control
+    transfer and communication model of capability systems with the programming
+    semantics and large-grained protection model of RPC.  LRPC achieves a
+    factor of three performance improvement over more traditional approaches
+    based on independent threads exchanging messages, reducing the cost of
+    same-machine communication to nearly the lower bound imposed by
+    conventional hardware.  LRPC has been integrated into the Taos operating
+    system of the DEC SRC Firefly multiprocessor workstation.", 
+  location     = "https://doi.org/10.1145/74850.74861"
+}
+
+@Article{eilpfsde,
+  author       = "Degano, Pierpaolo and Mannucci, Stefano and Mojana, Bruno",
+  title        = "Efficient Incremental {LR} Parsing for Syntax-Directed Editors",
+  journal      = toplas,
+  year         = 1988,
+  volume       = 10,
+  number       = 3,
+  pages        = "345--373",
+  month        = jul,
+  keywords     = "context free grammars, incremental lr parsing,
+    syntax-directed editors, generative development, analytic development, jump
+    tables",
+  abstract     = "A technique for generating parsers which is an extension to
+    LR techniques and is based on parsing table splitting, is presented.  Then
+    this technique is slightly extended to support incremental syntax analysis.
+    Given a context-free grammar and a set &ldquo;IC&rdquo; of nonterminals
+    devised to be incremental, a set of subtables is generated to drive the
+    analysis of program fragments derivable from nonterminals in IC.  The
+    proposed technique generates parsing tables which are considerably smaller
+    than the standard ones, even when incrementality is not exploited.  Thus,
+    these tables may be stored as arrays permitting faster access and accurate
+    error handling.  Furthermore, our tables are suitable for generating
+    syntax-directed editors which provide a full analytic mode.  The efficiency
+    of the analytic component of a syntax-directed editor obtained in this way
+    and its easy integration with the generative component stress the
+    advantages of incremental program writing.", 
+  location     = "https://doi.org/10.1145/44501.214503"
+}
+
+@Article{tpcrati,
+  author       = "Weiser, Mark and Demers, Alan and Hauser, Carl",
+  title        = "The {Portable Common Runtime} Aproach to Interoperability",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "114--122",
+  month        = dec,
+  keywords     = "Operating system abstractions do not always reach high enough
+    for direct use by a language or applications designer.  The gap is filled
+    by language-specific runtime environments, which become more complex for
+    richer languages (CommonLisp needs more than C+ +, which needs more than
+    C).  But language-specific environments inhibit integrated multi-lingual
+    programming, and also make porting hard (for instance, because of operating
+    system dependencies).  To help solve these problems, we have built the
+    Portable Common Runtime (PCR), a language-independent and
+    operating-system-independent base for modern languages.  PCR offers four
+    interrelated facilities: storage management (including universal garbage
+    collection), symbol binding (including static and dynamic linking and
+    loading), threads (lightweight processes), and low-level I/O (including
+    network sockets).  PCR is &ldquo;common&rdquo; because these facilities
+    simultaneously support programs in several languages.  PCR supports C.
+    Cedar, Scheme, and CommonLisp intercalling and runs pre-existing C and
+    CommonLisp (Kyoto) binaries.  PCR is &ldquo;portable&rdquo; because it uses
+    only a small set of operating system features.  The PCR source code is
+    available for use by other researchers and developers.", 
+  location     = "https://doi.org/10.1145/74850.74862"
+}
+
+@Article{gvmmfosk,
+  author       = "Abrossimov, Vadim and Rozier, Marc and Shapiro, Marc",
+  title        = "Generic Virtual Memory Management for Operating System Kernels",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "123--136",
+  month        = dec,
+  keywords     = "virtual storage management, demand paging, page fault
+  handling, library interface development, portability",
+  abstract     = "We discuss the rationale and design of a Generic Memory
+    management Interface, for a family of scalable operating systems.  It
+    consists of a general interface for managing virtual memory, independently
+    of the underlying hardware architecture (e.g.  paged versus segmented
+    memory), and independently of the operating system kernel in which it is to
+    be integrated.  In particular, this interface provides abstractions for
+    support of a single, consistent cache for both mapped objects and explicit
+    I/O, and control of data caching in real memory.  Data management policies
+    are delegated to external managers.  A portable implementation of the
+    Generic Memory management Interface for paged architectures, the Paged
+    Virtual Memory manager, is detailed.  The PVM uses the novel history object
+    technique for efficient deferred copying.  The GMI is used by the Chorus
+    Nucleus, in particular to support a distributed version of Unix.
+    Performance measurements compare favorably with other systems.", 
+  location     = "https://doi.org/10.1145/74850.74863"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11387,6 +11592,18 @@
     programming, event handling, color, raster images, graphics contexts, text,
     fonts, graphics primitives, interclient communications",
   location     = "QA 76.76 W56 Y68"
+}
+
+@Book{tlrmspw,
+  author       = "Maj Sj{\" o}wall and Per Wahl{\" o}{\" o}",
+  title        = "The Locked Room",
+  publisher    = "Vintage",
+  year         = 1980,
+  address      = nyny,
+  price        = "$1.95",
+  keywords     = "bank robbery, police bureaucracy, the twisty fingers of fate,
+    murrrdaaar",
+  location     = "PZ 4.S61953Lo"
 }
 
 @Misc{1mmmitxss,
