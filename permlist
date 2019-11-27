@@ -187,8 +187,8 @@ a program transformation technique to support aop within c++ templates : roychou
 a programmable interface language for heterogeneous distributed systems : falcone
 a programmer oriented approach to safe concurrency : greenhouse
 a programmers introduction to predicate logic : cunningham
-a programming and problem-solving seminar : haddad
-a programming and problem-solving seminar : mayr
+a programming and problem solving seminar : haddad
+a programming and problem solving seminar : mayr
 a programming language perspective to compositional software architectures : sabry
 a project for operating systems simulation : shay
 a proof technique for communicating sequential processes : levin
@@ -233,7 +233,6 @@ a stream compiler for communication exposed architectures : gordon
 a streams based communications subsystem in turing plus for protocol development : atwood
 a study of common pitfalls in simple multi threaded programs : choi
 a study of protection in programming language : ambler
-a study of the applicability of complexity measures : davis
 a study of the fragile base class problem : makhajlov
 a suite of unix filters for fragment assembly : myers
 a superimposition control construct for distributed systems : katz
@@ -315,7 +314,7 @@ access control in collaborative systems : tolone
 ace a syntax driven c preprocessor : gosling
 ace building interactive graphical applications : johnson
 achieving efficiency and portability in systems software a case study on posix} compliant multithreaded programs : shinjo
-achieving extensibility through product-lines and domain-specific languages a case study : batory
+achieving extensibility through product lines and domain specific languages a case study : batory
 acid a debugger built from a language : winterbottom
 acid manual : winterbottom
 acm programming contest problems : anon
@@ -416,7 +415,7 @@ an efficient context free parsing algorithm : earley
 an empiricaly driven mathematical modeling analysis for play calling strategy in american football : boronico
 an empirical analysis of c preprocessor use : ernst
 an empirical comparison and characterization of high defect and high complexity modules : koru
-an environment for developing fault-tolerant software : purtilo
+an environment for developing fault tolerant software : purtilo
 an evaluation of self adjusting binary search tree techniques : bell
 an exercise in dependent types a well typed interpreter : augustsson
 an exercise in program explanation : misra
@@ -1005,12 +1004,13 @@ efficient concise deterministic patterm matching automata for ambiguous patterns
 efficient demultiplexing of network packets by automatic parsing : jayaram
 efficient evaluation of circular attribute grammars : jones
 efficient high level iteration with accumulators : cameron
-efficient implementation and optimization of run-time checking in pascal : fischer
+efficient implementation and optimization of run time checking in pascal : fischer
 efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
 efficient implementation of the first fit strategy for dynamic storage allocation : brent
 efficient implementation of the smalltalk 80 system : deutsch
 efficient implementation of trie structures : aoe
+efficient incremental {lr} parsing for syntax directed editors : degano
 efficient instruction scheduling for delayed load architectures : kurlander
 efficient interpretation using quickening : brunthaler
 efficient message dispatch in object oriented systems : naik
@@ -1451,7 +1451,6 @@ introducing undergraduates to object orientation using the turing language : hol
 introducing xns and xnsorg : engst
 introduction to distributive categories : cockett
 introduction to logic programming : apt
-introduction to markov chains : dawson
 introduction to mmix : knuth
 introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
@@ -2290,7 +2289,6 @@ software complexity and its impact on software reliability : lew
 software defect reduction top 10 list : boehm
 software design : enos
 software development based on executable specifications and transformations : fromherz
-software development environments : dart
 software development two approaches to animation of z specifications using prolog : west
 software environment architectures and user interface facilities : young
 software environment reasearch directions for the next five years : osterweil
@@ -2422,7 +2420,6 @@ survey of some theoretical aspects of multiprocessing : baer
 survey on application layer mechanisms for speech quality adaptation in voip : carvalho
 svp a model capturing sets streams and parallelism : parker
 swap space implementation : mauro
-swarm 0.44 documents : dales
 sxml specification : kiselyov
 sxslt manipulation language for xml : kiselyov
 symbolic boolean manipulation with ordered binary decision diagrams : bryant
