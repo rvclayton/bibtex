@@ -10508,6 +10508,118 @@
   location     = "https://doi.org/10.1145/74850.74863"
 }
 
+@Article{sbetfnmm,
+  author       = "Bolosky, William~F. and Fitzgerald, Robert~P. and Scott, Michael~L.",
+  title        = "Simple but Effective Techniques for {NUMA} Memory Management",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "19--31",
+  month        = dec,
+  keywords     = "mach, ibm ace, numa multiprocessors, automatic page
+    placement, parallel programming",
+  abstract     = "Multiprocessors with non-uniform memory access times
+    introduce the problem of placing data near the processes that use them, in
+    order to improve performance.  We have implemented an automatic page
+    placement strategy in the Mach operating system on the IBM ACE
+    multiprocessor workstation.  Our experience indicates that even very simple
+    automatic strategies can produce nearly optimal page placement.  It also
+    suggests that the greatest leverage for further performance improvement
+    lies in reducing false sharing, which occurs when the same page contains
+    objects that would best be placed in different memories.", 
+  location     = "https://doi.org/10.1145/74850.74854",
+  location     = "https://www.cs.rochester.edu/u/scott/papers/1989_SOSP_8CE_NUMA.pdf"
+}
+
+@Article{ermwitffs,
+  author       = "Edwards, David~A. and McKendry, Martin~S.",
+  title        = "Exploiting Read-Mostly Workloads in The {FileNet} File System",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "58--70",
+  month        = dec,
+  keywords     = "network file systems, distributed applications, cache
+    invalidation protocols",
+  abstract     = "Most recent studies of file system workloads have focussed on
+    loads imposed by general computing.  This paper introduces a significantly
+    different workload imposed by a distributed application system.  The
+    FileNet system is a distributed application system that supports document
+    image processing.  The FileNet file system was designed to support the
+    workload imposed by this application.  To characterize the read-mostly
+    workload applied to the file system and how it differs from general
+    computing environments, we present statistics gathered from live production
+    installations.  We contrast these statistics with previously published data
+    for more general computing.  We describe the key algorithms of the file
+    system, focusing on the caching approach.  A bimodal client caching
+    approach is employed, to match the file modification patterns observed.
+    Different cache consistency algorithms are used depending on usage patterns
+    observed for each file.  Under most conditions, files cached at
+    workstations can be accessed without contacting servers.  When a file is
+    subject to frequent modification that causes excessive cache consistency
+    traffic, caching is disabled for that file, and servers participate in all
+    open and close activities.  The data from production sites is examined to
+    evaluate the success of the approach under its applied load.  Contrasts
+    with alternative approaches are made based on this data.", 
+  location     = "https://doi.org/10.1145/74850.74857"
+}
+
+@Article{tioacmaoanmewp,
+  author       = "Cox, Alan~L. and Fowler, Robert~J.",
+  title        = "The Implementation of a Coherent Memory Abstraction on a {NUMA} Multiprocessor:  Experiences with {PLATINUM}",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "32--44",
+  month        = dec,
+  keywords     = "storage management, shared-storage coherency, shootdowns,
+    data coherency protocol, replication, management policy",
+  abstract     = "PLATINUM is an operating system kernel with a novel memory
+    management system for Non-Uniform Memory Access (NUMA) multiprocessor
+    architectures.  This memory management system implements a coherent memory
+    abstraction.  Coherent memory is uniformly accessible from all processors
+    in the system.  When used by applications coded with appropriate
+    programming styles it appears to be nearly as fast as local physical memory
+    and it reduces memory contention.  Coherent memory makes programming NUMA
+    multiprocessors easier for the user while attaining a level of performance
+    comparable with hand-tuned programs.  This paper describes the design and
+    implementation of the PLATINUM memory management system, emphasizing the
+    coherent memory.  We measure the cost of basic operations implementing the
+    coherent memory.  We also measure the performance of a set of application
+    programs running on PLATINUM.  Finally, we comment on the interaction
+    between architecture and the coherent memory system.  PLATINUM currently
+    runs on the BBN Butterfly Plus Multiprocessor.", 
+  location     = "https://doi.org/10.1145/74850.74855"
+}
+
+@Article{snewccp,
+  author       = "Srinivasan, V. and Mogul, Jeffrey~C.",
+  title        = "Spritely {NFS}:  Experiments with Cache-Consistency Protocols",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "45--57",
+  month        = dec,
+  keywords     = "cache consistency protocol, sprite, nfs, performance,
+    call-backs", 
+  abstract     = "File caching is essential to good performance in a
+    distributed system, especially as processor speeds and memory sizes
+    continue to improve rapidly while disk latencies do not.  Stateless-server
+    systems, such as NFS, cannot properly manage client file caches.  Stateful
+    systems, such as Sprite, can use explicit cache consistency protocols to
+    improve both cache consistency and overall performance.  By modifying NFS
+    to use the Sprite cache consistency protocols, we isolate the effects of
+    the consistency mechanism from the other features of Sprite.  We find
+    dramatic improvements on some, although not all, benchmarks, suggesting
+    that an explicit cache consistency protocol is necessary for both
+    correctness and good performance.",
+  location     = "https://doi.org/10.1145/74850.74856"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11604,6 +11716,17 @@
   keywords     = "bank robbery, police bureaucracy, the twisty fingers of fate,
     murrrdaaar",
   location     = "PZ 4.S61953Lo"
+}
+
+@Book{wohrs,
+  author       = "Roel Sterckx",
+  title        = "Ways of Heaven",
+  publisher    = "Basic Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "ancient china, philosophy, legalism, confucianism, rituals,
+    morals, ethics",
+  location     = ""
 }
 
 @Misc{1mmmitxss,
