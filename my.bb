@@ -8,6 +8,7 @@
 @string{sosp91    = osr # " (" # pot # "Thirteenth ACM Symposium on Operating Systems Principles, SOSP '91)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
+@string{usenixs92 = pot # "Summer 1992 USENIX Technical Conference"}
 @string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
 @string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
 @string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
@@ -5410,6 +5411,100 @@
     interfaces to both the kernel and a simple gang-scheduling server" 
 }
 
+@InProceedings{tiaoiwtxws,
+  author       = "Nancy Crowther and Joyce Graham",
+  title        = "{TCP}/{IP} and {OSI} Interoperability with the {X Window System}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "243--253",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "osi protocols, tcp/ip, x windows system, gateways, gosip,
+    portability, interoperability, standards",
+  abstract     = "Network users have to migrate applications from TCP/IP to the
+    emerging Open Systems Interconnection (OSI) protocols.  Application
+    migration can be done by rewriting them to use OSI, or switching to new
+    applications, or using a gateway between TCP/IP- and OSI-based
+    applications.  This paper describes how IBM's Cambridge Scientific Center
+    migrated a distributed application, the X Window System, and how the
+    migration techniques could be used for other applications.  The draft ANSI
+    standard mapping X to OSI is explained.  The changes made to the X Window
+    System to support OSI and an X TCP-OSI gateway are described.  The best
+    migration technique was extending the socket library to support OSI at
+    multiple layers.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/presentation/tcpip-and-osi-interoperability-x-win"
+}
+
+@InProceedings{tddidsp,
+  author       = "Stephen~R. Snapp and Stephen~E. Smaha and Daniel~M. Teal and Tim Grance",
+  title        = "The {DIDS (Distributed Intrusion Detection System)} Prototype",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "227--233",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "intrusion detection systems, distributed intrusion detection
+    systems, expert systems, network monitoring, security, identification",
+  abstract     = "Intrusion detection is the problem of identifying
+    unauthorized use, misuse, and abuse of computer systems by both system
+    insiders and external penetrators.  The growth in numbers and complexity of
+    heterogeneous computer networks provides additional implications for the
+    intrusion detection problem.  In particular, the increased connectivity of
+    computer systems gives greater access to outsiders, and makes it easier for
+    intruders to avoid detection.  We are designing and implementing a
+    prototype Distributed Intrusion Detection System (DIDS) that combines LAN
+    distributed monitoring and data reduction (through individual Host and LAN
+    Monitors) with centralized data analysis (through the DIDS Director) in
+    order to monitor a heterogeneous network of computers.  This approach is
+    unique among current intrusion detection systems.  One of the problems
+    considered in this paper is the Network-user Identification (NID) problem,
+    which is concerned with tracking a user moving across the network, possibly
+    with a new user-id on each computer.  Initial prototypes system have
+    provided quite favorable results problem on both the NID problem and the
+    detection of other attacks on a network.  This paper provides an overview
+    of the motivation behind DIDS, the system architecture and capabilities,
+    and a discussion about the implementation of the system prototype.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/dids-distributed-intrusion-detection-system"
+}
+
+@InProceedings{apmfusvr4os,
+  author       = "Charles Salemi and Suryakanta Shah and Eric Lund",
+  title        = "{A} Privilege Mechanism for " # UNIX # " {System V Release} 4 Operating Systems",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "235--241",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "privilege assignment, privilege assignment",
+  abstract     = "Any multi-user, multi-tasking operating system, such as the
+    UNIX SVR4 Operating System must provide protection mechanisms that prohibit
+    one user from interfering with another user, or limit the execution of
+    certain system operations that affect critical system resources.  These
+    protection mechanisms also must provide the ability to override these,
+    restrictions commonly referred to as privilege.  For years, over twenty
+    UNIX-based operating systems have had one such privilege, called root or
+    super-user which is signified by a process whose effective user ID is 0.
+    The super-user has the ability to override the restrictions imposed by
+    these protection mechanisms.  In the UNIX System V Release 4 Enhanced
+    Security product this single, omnipotent privilege is divided into a set of
+    discrete privileges designed to assure that sensitive system services
+    execute with the minimum amount of privilege required to perform the
+    desired task.  This paper describes the privilege control mechanism
+    implemented as part of the System V Unix Release 4.1 Enhanced Security
+    (SVR4.1ES) product.  The SVR4.1ES privilege control mechanism separates the
+    privilege mechanism from the access control mechanism, it provides for
+    fine-grained control over sensitive operation access by users, and it
+    controls the propagation of privilege from one process to another.  Our
+    goals also include accommodating multiple privilege control mechanisms
+    within the UNIX System V kernel.  These privilege mechanisms can be into
+    plugged the kernel through well defined interfaces much the same way as
+    UNIX file systems are currently added to the kernel.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/privilege-mechanism-unix-system-v-release-4"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -10620,6 +10715,83 @@
   location     = "https://doi.org/10.1145/74850.74856"
 }
 
+@Article{aloa1989,
+  author       = "Burrows, Michael and Abadi, Mart{\' \i}n and Needham, Roger",
+  title        = "{A} Logic of Authentication",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "1--12",
+  month        = dec,
+  keywords     = "logical postulates, kerberos, andrew secure rpc,
+    needham-schroeder public-key protocol, ccitt x.509, formal reasoning
+    systems", 
+  abstract     = "Authentication protocols are the basis of security in many
+    distributed systems, and it is therefore essential to ensure that these
+    protocols function correctly.  Unfortunately, their design has been
+    extremely error prone.  Most of the protocols found in the literature
+    contain redundancies or security flaws.  A simple logic has allowed us to
+    describe the beliefs of trustworthy parties involved in authentication
+    protocols and the evolution of these beliefs as a consequence of
+    communication.  We have been able to explain a variety of authentication
+    protocols formally, to discover subtleties and errors in them, and to
+    suggest improvements.  In this paper, we present the logic and then give
+    the results of our analysis of four published protocols, chosen either
+    because of their practical importance or because they serve to illustrate
+    our method.", 
+  location     = "https://doi.org/10.1145/74850.74852", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-39.pdf"
+}
+
+@Article{aasda,
+  author       = "Karimi, Jahangir and Konsynski, Benn~R.",
+  title        = "An Automated Software Design Assistant",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "194--210",
+  month        = feb,
+  keywords     = "system design, system structure, coupling, cohesion, software
+    metrics, modularization", 
+  abstract     = "An automated software design assistant was implemented as a
+    part of a long-term project with the objectives of applying the
+    computer-aided technique to the tools in a software engineering
+    environment.  A set of quantitative measures are derived based on the
+    degree to which a particular design satisfied the attributes associated
+    with a structured software design.  The measure are then used as decision
+    rules for a computer-aided methodology for structured design.  The
+    feasibility of the approach is also demonstrated by a case study using a
+    small application system design problem.", 
+  location     = "https://doi.org/10.1109/32.4638"
+}
+
+@Article{rrfpck,
+  author       = "Lomas, T.~Mark~A. and Gong, Li and Saltzer, Jerome~H and Needhamn, Roger~M.",
+  title        = "Reducing Risks from Poorly Chosen Keys",
+  journal      = sosp89,
+  year         = 1989,
+  volume       = 23,
+  number       = 5,
+  pages        = "14--18",
+  month        = dec,
+  keywords     = "attack surface, known plaintexts, verifiable plaintext,
+    security protocols",
+  abstract     = "It is well-known that, left to themselves, people will choose
+    passwords that can be rather readily guessed.  If this is done, they are
+    usually vulnerable to an attack based on copying the content of messages
+    forming part of an authentication protocol and experimenting, e.g.  with a
+    dictionary, offline.  The most usual counter to this threat is to require
+    people to use passwords which are obscure, or even to insist on the system
+    choosing their passwords for them.  In this paper we show alternatively how
+    to construct an authentication protocol in which offline experimentation is
+    impracticable; any attack based on experiment must involve the real
+    authentication server and is thus open to detection by the server noticing
+    multiple attempts.", 
+  location     = "https://doi.org/10.1145/74850.74853"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -11721,12 +11893,38 @@
 @Book{wohrs,
   author       = "Roel Sterckx",
   title        = "Ways of Heaven",
+  subtitle     = "An Introduction to Chinese Thought",
   publisher    = "Basic Books",
   year         = 2019,
   address      = nyny,
   keywords     = "ancient china, philosophy, legalism, confucianism, rituals,
     morals, ethics",
   location     = ""
+}
+
+@Book{rrw2011,
+  author       = "Richard White",
+  title        = "Railroaded",
+  subtitle     = "The Transcontinentals and the Making of Modern America",
+  publisher    = "W.~W. Norton \& Co.",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "transcontinental railroads, collis huntington, mark hopkins,
+    leland stanford, charles croker, jay gould, charles adams, central
+    pacific, union pacific, southern pacific, corruption, capitalism, finance",
+  location     = "HE 2751 W55"
+}
+
+@Book{tbscrme,
+  title        = "The Bittersweet Science",
+  subtitle     = "Fifteen Writers in the Gym, in the Corner, and at Ringside",
+  publisher    = ucp,
+  year         = 2017,
+  editor       = "Carlo Rotella and Michael Ezra",
+  address      = chil,
+  keywords     = "boxing, antonio margarito, all-time rankings, bernard
+    hopknis, dempsey-wills, jimmy bivins, ray jones jr",
+  location     = "GV 1133.B58"
 }
 
 @Misc{1mmmitxss,
