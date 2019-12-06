@@ -5505,6 +5505,34 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/privilege-mechanism-unix-system-v-release-4"
 }
 
+@InProceedings{poapnbm,
+  author       = "James {da Silva} and {\' O}lafur Gudmundsson and Daniel Moss{\' e}",
+  title        = "Performance of a Parallel Network Backup Manager",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "217--225",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "file-system backup, scheduling, parallelism",
+  abstract     = "The advent of inexpensive multi-gigabyte tape drives has
+    enabled completely automated backup of many dozens of networked
+    workstations to a single tape.  One problem arising with this scheme is
+    many computers cannot backup their disks over the network at more than a
+    fraction of the tape's rated speed.  Thus, running overnight backups
+    sequentially can take well into the next day.  We have developed a parallel
+    backup manager named Amanda that solves this problem by running many
+    backups in parallel to a holding disk, then using a multi-buffer copy
+    scheme to transfer the backups to tape at full speed.  Amanda uses accurate
+    estimates of current backup sizes well as as historical information about
+    backup rates to schedule backups in parallel without swamping the network
+    or overrunning the holding disk or tape.  We use Amanda to back up 11.5
+    gigabytes of data in over 230 file systems on more than 100 workstations,
+    using a single 2 gigabyte 8mm tape drive, taking two to three hours each
+    night.  This paper discusses Amanda's architecture and performance.",  
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/performance-parallel-network-backup-manager"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
