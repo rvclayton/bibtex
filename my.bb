@@ -5533,6 +5533,72 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/performance-parallel-network-backup-manager"
 }
 
+@InProceedings{iattaif,
+  author       = "Kiem-Phong Vo and Yih-Farn Chen",
+  title        = "Incl:  {A} Tool to Analyze Include Files",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "199--208",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "cia, reverse engineering, include files, smart compilation",
+  abstract     = "Large C and projects C++ software typically share common
+    types, macros, and variables among modules via include files organized into
+    hierarchies.  Many of these hierarchies grow so complex that programmers it
+    is hard for figure to when out a file must be included.  Since including
+    unused symbols is usually harmless, application code tends to include more
+    files than required.  Knowing when files are or are not needed is useful to
+    restructure the code and reduce the time required product.  to build a It
+    also helps in reorganizing the - include hierarchies should this be deemed
+    necessary.  Incl is a tool that analyzes include hierarchies to (1) show
+    the dependencies graphical among include files in or text forms, (2) infer
+    what files are (3) not needed, and provide ways to remove unused include
+    files.  The inference and removal of unused include files must be done with
+    care for that may change the meaning of the programs.  application We shall
+    precise describe conditions under which include files can be safely ignored
+    for give compilation and a linear time algorithm to compute such files.
+    Incl projects has been used on many and experience shows that, in many
+    cases, eliminating unnecessary include files significantly reduces
+    compilation time.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/incl-tool-analyze-include-files"
+}
+
+@InProceedings{lsptp,
+  author       = "David Tilbrook and Russell Crook",
+  title        = "Large Scale Porting Through Parameterization",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "209--216",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "system portability, parameterization, configuration",
+  abstract     = "The advent of open systems and standards, while beneficial,
+    has not eliminated the difficulty of maintaining and transporting large
+    scale software systems across many varying platforms.  In this paper we
+    discuss the need and criteria for porting a effective strategy, one that
+    allows the rapid and inexpensive retargeting of large scale software
+    systems to many widely varying platforms while not compromising the
+    integrity of that software on any previously supported platform.  Getting
+    Tigger down, said Eeyore, and not hurting anybody, Keep those two ideas in
+    your head, Piglet, you'll and be all right.,' A.  A.  Milne, The World of
+    Pooh, 1957, pp216, McCelland & Stewart Ltd.  A key component of any porting
+    strategy is the methodology used to determine, represent, use, and validate
+    specifications of the target system's characteristics and site or system
+    dependent build and run time controls.  The standards efforts (e.g., POSIX,
+    ANSI C) are attempting to eliminate the large number of discrepancies that
+    exist among systems However, problem today.  the will always exist, for
+    ieasons that are discussed.  Hence, the main objective of this paper is to
+    present and justify the methodology that we use.  This methodology is in
+    production use on several products commercial in Sietec.  Its benefits
+    include relieving programmer the from the burden of needing detailed
+    knowledge all the of idiosyncrasies of the various target environments.  It
+    is sufficiently powerful that it accommodates many flavours BSD, of System
+    V, and DOS.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/large-scale-porting-through-parameterization"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
