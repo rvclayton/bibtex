@@ -5599,6 +5599,27 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/large-scale-porting-through-parameterization"
 }
 
+@InProceedings{ichopewcn,
+  author       = "Henry Spencer and Geoff Collyer",
+  title        = "{\tt \#ifdef} Considered Harmful, or Portability Experience With {C News}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "185--197",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "portability, c preprocessor, conditional macros, software
+    complexity", 
+  abstract     = "We believe that a C programmer’s impulse to use #ifdef in an
+    attempt at portability is usually a mistake.  Portability is generally the
+    result of advance planning rather than trench warfare involving #ifdef.  In
+    the course of developing C News on different systems, we evolved various
+    tactics for dealing with differences among systems without producing a
+    welter of #ifdefs at points of difference.  We discuss the alternatives to,
+    and occasional proper use of, #ifdef.", 
+  location     = "https://www.usenix.org/publications/library/proceedings/sa92/spencer.pdf"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
