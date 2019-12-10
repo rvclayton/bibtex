@@ -5620,6 +5620,31 @@
   location     = "https://www.usenix.org/publications/library/proceedings/sa92/spencer.pdf"
 }
 
+@InProceedings{ahalmfhn,
+  author       = "Anupam Bhide and Spencer Shepler",
+  title        = "{A} Highly Available Lock Manager for {HA}-{NFS}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "177--184",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "nfs, file locking, fault tolerance",
+  abstract     = "This paper presents the design and implementation of a highly
+    available lock manager for highly available NSF (HA-NSF).  HA-NSF provides
+    highly available network file service to NSF clients and can be used by any
+    NSF client without modification.  This is provided by having two servers
+    share dual-ported disks so that one server can take over the other's disks
+    and file systems if it fails.  Making the NSF service highly available is
+    not enough since many applications that use NSF also use other services
+    provided with NSF such as the network lock manager.  We describe a scheme
+    whereby each server transfers enough of its lock state to the other so that
+    if it fails, the other server can go through a lock recovery protocol, Our
+    design goal was to make the overhead of transferring the state during
+    failure-free operations as low as possible.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/highly-available-lock-manager-ha-nfs"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
