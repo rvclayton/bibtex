@@ -5645,6 +5645,65 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/highly-available-lock-manager-ha-nfs"
 }
 
+@InProceedings{tcmfs,
+  author       = "David~P. Anderson and Yoshitomo Osawa and Ramesh Govindan",
+  title        = "The {Continuous Media File System}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "157--164",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "file systems, continuous media delivery, rate-based qos,
+    admission control, scheduling",
+  abstract     = "Handling digital audio and video data (continuous media) in a
+    general-purpose file system can lead to performance problems.  File systems
+    typically optimize overall average performance, while many audio/video
+    applications need guaranteed worst-case performance.  These guarantees
+    cannot be provided by fast hardware alone; we need also consider the
+    interrelated software issues of file layout on disk, disk scheduling,
+    buffer space management, and admission control.  The Continuous Media File
+    System (CMFS) is a prototype file system that addresses these issues.", 
+  location     = "https://doi.org/10.1145/138873.138875"
+}
+
+@InProceedings{msfgnw,
+  author       = "Jean-Philippe Baud and Christian Boissat and Fabrizio Cane and Frederic Hemmer and Erik Jagel and Ashok Kumar and Gordon Lee and Bernd Panzer-Steindel and Lee Robertson and Ben Segal and Antoine Trannoy and Igor Zacharov",
+  title        = "Mainframe Services from Gigabit-Networked Workstations",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "165--175",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "workstation mainframes, batch system management, disk pools",
+  abstract     = "Until recently, large mainframes and super-computers were
+    considered essential for powerful scientific batch computing services
+    requiring intensive tape usage, large well-managed disk storage systems,
+    high throughput and maximum reliability.  However, this situation has
+    changed dramatically over recent years with the appearance RISC-based of
+    workstations with performance characteristics, at least for scalar
+    computations, comparable with the fastest mainframes but with an order of
+    magnitude better price/performance.  At the same time competitively priced
+    workstation-class disk and tape systems with adequate performance and
+    reliability have become available.  Combined with newly-developed LANs and
+    Gigabit networking solutions, it is now possible to provide scalable and
+    integrated mainframe-class services on workstation platforms with the UNIX
+    operating system.  Previous papers have summarized CERN's work over the
+    past two years in developing and introducing such services on a large
+    scale.  The latest system is called SHIFT, or Scalable Heterogeneous
+    Integrated FaciliTy.  The SHIFT facility performs a wide range of
+    scientific processing data tasks including many with high I/O requirements
+    and is comparable in CPU capacity to the CERN computer center.  Similar
+    systems are now being built within the budgets of smaller institutes which
+    previously had to depend on remote university or national computing
+    centers.  The present paper gives a short review of the SHIFT project's
+    goals and .  architectural principles, and a detailed account of the
+    networking and software design and implementation problems that were
+    encountered and solved.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/mainframe-services-gigabit-networked-workstations"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -12065,6 +12124,16 @@
   keywords     = "boxing, antonio margarito, all-time rankings, bernard
     hopknis, dempsey-wills, jimmy bivins, ray jones jr",
   location     = "GV 1133.B58"
+}
+
+@Book{mejc,
+  author       = "Jonathan Coe",
+  title        = "Middle England",
+  publisher    = "Knopf",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "brexit, interpersonal relations, the shifting ground",
+  location     = "PR 6053.O26 M56"
 }
 
 @Misc{1mmmitxss,
