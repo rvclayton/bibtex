@@ -857,7 +857,6 @@ decode a cooperative environment for reverse engineering legacy software : quili
 decode a cooperative program understanding environment : chin
 decompilation the enumeration of types and grammars : breuer
 defensive programming using an annotation toolkit to build dos resistant software : qie
-defining file systems for digital video and audio : rangan
 definite clause grammars for language analysis a survey of the formalism and a comparison with augmented transition networks : pereira
 definition and analysis of hardware and software fault tolerant architectures : laprie
 definition groups making sources into first class objects : bobrow
@@ -1822,6 +1821,7 @@ opal a single address space system for 64 bit architectures : chase
 open programming services for virtual machines the design of mozart and seam : brunklaus
 openbsd : openbsd
 openc++ tutorial : chiba
+operating system structures to support security and reliable software : linden
 operating systems : anderson
 operational machine specification in a functional programming language : koopman
 operational semantics directed compilers and machine architectures : hannan
@@ -1913,7 +1913,6 @@ phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
 philosophies for enginerring computer based systems : lawson
 pi a pattern language : kudrjavets
-pi rpc a platform independent remote procedure call architecture : ray
 pic a language for typesetting graphics : kernighan
 pickling state in the java system : riggs
 pictorial information processing of landstat data for geographic analysis : zobrist
@@ -2298,7 +2297,6 @@ software is discrete mathematics : page
 software maintainability a pratical concern for life cycle costs : munson
 software measurement for dod systems recommendations for initial core measures : carleton
 software tools for microanalysis of programs : cohen
-software visualization in the desert environment : reiss
 soot a java bytecode optimization framework : vallee
 sorting : martin
 sorting and searching algorithms : niemann
