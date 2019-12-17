@@ -5704,6 +5704,129 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/mainframe-services-gigabit-networked-workstations"
 }
 
+@InProceedings{asiovmhlfsmmm,
+  author       = "Ramesh Balan and Kurt Gollhardt",
+  title        = "{A} Scalable Implementation of Virtual Memory {HAT} Layer for Shared Memory Multiprocessor Machines",
+  title        = "Mainframe Services from Gigabit-Networked Workstations",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "107--115",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "portability, virtual storage management, shootdown policies,
+    multiprocessors, locking",
+  abstract     = "This paper describes the design and implementation of the
+    UNIX SVR4.2 Virtual Memory (VM) Hardware Address Translation(HAT) layer
+    that can be used as a model for other multiprocessor(MP) platforms in terms
+    of scalability and MP related interfaces between the HAT layer and the
+    machine independent layer.  SVR4.2 is a SVR4.1 ES based kernel that
+    supports shared memory multiprocessors and light weight processes in a
+    shared address space.  By implementing fine-grained locking mechanism, a
+    lazy Translation Lookaside Buffer (TLB) shootdown evaluation policy and
+    other improvements over the SVR4 design_the memory management feature is
+    made scalable in terms of number of processors as well as size of memory
+    supported.  Providing a small set of interfaces between the
+    machine-dependent and independent layers for TLB consistency and a simple
+    set of locking requirements between the€ two layers, SVR4.2 facilitates the
+    portability of the memory management feature to other multiprocessor
+    platforms.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/scalable-implementation-virtual-memory-hat-layer"
+}
+
+@InProceedings{adoeh,
+  author       = "Doug Moen",
+  title        = "{A} Discipline of Error Handling",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "123--133",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "error handling, exceptions, exception handling,
+    documentation, error identification, internationalization",
+  abstract     = "In the UNIX world, exception handling mechanisms for error
+    handling are often discussed, but seldom applied.  This paper describes a
+    disciplined approach to error handling refined over a 3-year period during
+    the development of a medium-large (200K line) toolkit written in C under
+    UNIX.  We describe a portable exception handling system, written in C, and
+    a methodology for using it which encompasses coding style, documentation,
+    and testing issues.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/discipline-error-handling"
+}
+
+@InProceedings{rtactip,
+  author       = "Don Libes",
+  title        = "Regression Testing and Confromance Testing Interactive Programs",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "135--144",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "regression testing, expect, program testing, scripting,
+    automation, tcl",
+  abstract     = "Testing interactive programs, by its nature, requires
+    interaction - usually by real people.  Such testing is an expensive process
+    and hence rarely done.  Some interactive tools can be used
+    non-interactively to a limited extent, and are often tested only this way.
+    Purely interactive programs are rarely tested in any systematic way.  This
+    paper describes testing of interactive line and character-oriented programs
+    via Expect.  An immediate use of this is to build a test suite for
+    automating standards conformance of all of the interactive programs in
+    POSIX 1003.2a (interactive shells and tools), something which has not yet
+    been accomplished by any means.",
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/presentation/regression-testing-and-conformance-t"
+}
+
+@InProceedings{ntned,
+  author       = "Paul Maybee",
+  title        = "{NeD}:  The Network Extensible Debugger",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "145--156",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "debugging, software tools, tcl, software customization",
+  abstract     = "NeD is a debugging server with a programmable network
+    interface.  NeD is designed to be flexible and extensible enough to support
+    a wide range of debugging needs.  Debugging clients communicate with NeD by
+    sending it programs to execute.  The programming language, NeDtcl, is tcl
+    extended with 30 debugging specific-functions.  NeD can be used as a
+    traditional debugger with a textual interface, but the user would find the
+    language cumbersome.  It is designed to be convenient for communication
+    between programs, rather than between program and user.  As a demonstration
+    of NeD's utility as a debugging server, the pdb debugger has been
+    retargeted to use NeD as its server.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/ned-network-extensible-debugger"
+}
+
+@InProceedings{vwsanatschws,
+  author       = "Rita Pascale and Jeremy Epstein",
+  title        = "Virtual Window System:  {A} New Approach to Supporting Concurrent Heterogeneous Windowing Systems",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "117--121",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "virtual system, multiplexing, portability",
+  abstract     = "A virtual window system (VWS) is a simple model of a window
+    system which can be used to host other more sophisticated window systems.
+    The VWS allows the window systems to share the physical display in a
+    controlled fashion.  A VWS is analogous to the virtual machine monitor
+    (VMM) concept in operating systems, where a single physical computer can
+    run multiple operating systems, each in its own protection domain.  Unlike
+    the VMM concept, the window systems supported by the VWS need close
+    cooperation to perform tasks, such as cut and paste between windows of
+    different window systems.  This paper describes the VWS concept, discusses
+    an architecture for a VWS, describes limitations of the VWS concept,
+    discuses some lessons learned from the design and implementation of our
+    prototype, and describes the use of VWSs for various application domains.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/virtual-window-systems-new-approach-supporting"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -10991,6 +11114,41 @@
   location     = "https://doi.org/10.1145/74850.74853"
 }
 
+@Article{osstssars,
+  author       = "Linden, Theodore~A.",
+  title        = "Operating System Structures to Support Security and Reliable Software",
+  journal      = surveys,
+  year         = 1976,
+  volume       = 8,
+  number       = 4,
+  pages        = "409--445",
+  month        = dec,
+  keywords     = "Capability, capability-based addressing, computer security,
+    extended-type objects, operating system structures, protection, reliable
+    software, reliability, security, small protection domains, types.", 
+  abstract     = "Security has become an important and challenging goal in the
+    design of computer systems.  This survey focuses on two system structuring
+    concepts that support security; namely, small protection domains and
+    extended-type objects.  These two concepts are especially promising because
+    they also support reliable software by encouraging and enforcing highly
+    modular software structures--in both systems software and in applications
+    programs.  Small protection domains allow each subunit or module of a
+    program to be executed in a restricted environment that can prevent
+    unanticipated or undesirable actions by that module.  Extended-type objects
+    provide a vehicle for data abstraction by allowing objects of new types to
+    be manipulated in terms of operations that are natural for these objects.
+    This provides a way to extend system protection features so that protection
+    can be enforced in terms of applications-oriented operations on objects.
+    This survey also explains one approach toward implementing these concepts
+    thoroughly and efficiently--an approach based on the concept of
+    capabilities incorporated into the addressing structure of the computer.
+    Capability-based addressing is seen as a practical way to support future
+    requirements for security and reliable software without sacrificing
+    requirements for performance, flexibility, and sharing.", 
+  location     = "https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/lind76.pdf",
+  location     = "https://doi.org/10.1145/356678.356682"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -12134,6 +12292,17 @@
   address      = nyny,
   keywords     = "brexit, interpersonal relations, the shifting ground",
   location     = "PR 6053.O26 M56"
+}
+
+@Book{tsihg,
+  author       = "Sarah Caudwell",
+  title        = "The Sibyl in Her Grave",
+  publisher    = "Dell",
+  year         = 2000,
+  price        = "$7.99",
+  address      = nyny,
+  keywords     = "murrdaar, who dat, shady business",
+  location     = "PR 6053.A855 S53"
 }
 
 @Misc{1mmmitxss,
