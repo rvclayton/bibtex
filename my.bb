@@ -5856,6 +5856,28 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tiled-virtual-memory-unix"
 }
 
+@InProceedings{iutfis,
+  author       = "Rich Salz",
+  title        = "{InterNetNews}:  {Usenet} Transport for {Internet} Sites",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "93--98",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "usenet, servers, nntp, information distribution",
+  abstract     = "NNTP, the Network News Transfer Protocol, has been called the
+    most widely implemented elective protocol in the Internet.  The growth of
+    the Internet has meant more sites exchanging NNTP data.  While the
+    explosive growth in Usenet traffic places demands on all sites, the goal of
+    fast network access puts particular demands on NNTP hosts.  InterNetNews is
+    an implementation of the Usenet transport layer designed to address this
+    situation.  It replaces the standard Unix server architecture with a single
+    long-running server that handles all incoming connections.  It has proven
+    be quite successful, providing quick and efficient news transfer.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/internetnews-usenet-transport-internet-sites"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -12347,6 +12369,15 @@
     queues, sets, maps, multi-way search trees, graphs, uml, object-oriented
     design, graphics, guis, hashing, regular expressions",
   location     = "QA 76.73.J38 L493"
+}
+
+@Book{oepn,
+  author       = "Pekka Nyk{\" a}nen",
+  title        = "Operation Elop",
+  subtitle     = "The Final Years of Nokia's Mobile Phones",
+  year         = 2018,
+  keywords     = "bidness, mobile phones, nokia, management, competition",
+  location     = "https://asokan.org/operation-elop/"
 }
 
 @Misc{1mmmitxss,
