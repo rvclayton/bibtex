@@ -5827,6 +5827,35 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/virtual-window-systems-new-approach-supporting"
 }
 
+@InProceedings{tvmfu,
+  author       = "James Franklin",
+  title        = "Tiled Virtual Memory for " # unix,
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "99--106",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "virtual storage, mmus, tiling storage, hardware accelerators,
+  image processing, matrix processing, storage addressing",
+  abstract     = "Many computer applications require the manipulation of large
+    data arrays.  These applications can behave-badly under a paged virtual
+    memory (VM) system, due to poor memory access patterns.  One solution to
+    this problem is tiling, a technique in which the arrays are partitioned
+    into sub-arrays that map one-to-one with VM pages.  Software
+    implementations of tiling have been described in the literature, but none
+    provide the speed and application transparency of a hardware solution.  We
+    have implemented a hardware based, tiled VM within a version of the UNIX
+    operating system.  Based on a novel memory management unit and supporting
+    kernel software, this tiled VM has proven to be an efficient environment
+    for manipulating2-dimensional arrays of data In this paper we discuss the
+    kernel changes required to implementer tiled VM.  We then compare tiled and
+    paged versions of our VM system, and show that tiling results in a
+    five-fold reduction in working set size for a common class of image
+    processing algorithms.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tiled-virtual-memory-unix"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -12303,6 +12332,21 @@
   address      = nyny,
   keywords     = "murrdaar, who dat, shady business",
   location     = "PR 6053.A855 S53"
+}
+
+@Book{jssjljc,
+  author       = "John Lewis and Joseph Chase",
+  title        = "Java Software Structures",
+  subtitle     = "Designing and Using Data Structures",
+  publisher    = "Pearson",
+  year         = 2014,
+  address      = boma,
+  edition      = "fourth",
+  keywords     = "algorithm analysis, stacks, queues, lists, iterators,
+    recursion, searching, sorting, trees, binary search trees, heaps, priority
+    queues, sets, maps, multi-way search trees, graphs, uml, object-oriented
+    design, graphics, guis, hashing, regular expressions",
+  location     = "QA 76.73.J38 L493"
 }
 
 @Misc{1mmmitxss,
