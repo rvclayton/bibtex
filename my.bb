@@ -1,12 +1,13 @@
 .so bibtex.header
 
-@string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '89)"}
+@string{asplos87 = sigplan # " (" # pot # "Second International Conference on " # asplos # ", ASPLOS II)"}
+@string{asplos89 = sigplan # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS III)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
-@string{sosp89    = osr # " (" # pot # "Twelfth ACM Symposium on Operating Systems Principles, SOSP '89)"}
-@string{sosp91    = osr # " (" # pot # "Thirteenth ACM Symposium on Operating Systems Principles, SOSP '91)"}
-@string{sosp93    = osr # " (" # pot # "Fourteenth ACM Symposium on Operating Systems Principles)"}
+@string{sosp89    = osr # " (" # pot # "Twelfth" # sosp # ", SOSP '89)"}
+@string{sosp91    = osr # " (" # pot # "Thirteenth" # sosp # ", SOSP '91)"}
+@string{sosp93    = osr # " (" # pot # "Fourteenth" # sosp # ", SOSP '932)"}
 @string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
 @string{usenixs92 = pot # "Summer 1992 USENIX Technical Conference"}
 @string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
@@ -5878,6 +5879,230 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/internetnews-usenet-transport-internet-sites"
 }
 
+@InProceedings{trbufrtphaitue,
+  author       = "Mary Baker and Mark Sullivan",
+  title        = "The Recovery Box:  Using Fast Recovery to Provide High Availability in the " # unix # " Environment",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "31--43",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "crash recovery, state management, persistent storage,
+    postgress, sprite",
+  abstract     = "As organizations with high system availability requirements
+    move to UNIX, the elimination of down-time in the UNIX environment becomes
+    a more important issue.  Designing for fast recovery, rather than crash
+    prevention, can provide low-cost highly available systems without
+    sacrificing performance or simplicity.  In Sprite, a UNIX-like distributed
+    operating system, we accomplish this fast recovery in part through the use
+    of a recovery box: a stable area of memory in which the system stores
+    carefully selected pieces of system state, and from which the system can be
+    regenerated quickly.  Error detection using checksums allows the system to
+    revert to its traditional reboot sequence if the recovery box data is
+    corrupted during system failure.  Recent statistics about the types and
+    frequencies of operating system failures indicate that fast recovery using
+    the recovery box will be possible most of the time.  Using our recovery box
+    implementation, a Sprite file server recovery in 26 seconds and a database
+    manager with ten remote client processes recovers in six seconds - fast
+    enough that many users and applications will not care that the system
+    crashed.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/recovery-box-using-fast-recovery-provide-high"
+}
+
+@InProceedings{iltds,
+  author       = "D.~Stein and D.~Shah",
+  title        = "Implementing Lightweight Threads",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "1--9",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "lightweight threads, user-space threads, signals, concurrent
+    access, processes, kernel-supported threads, multiplexing, libraries",
+  abstract     = "We describe an implementation of a threads library that
+    provides extremely lightweight threads within a single UNIX process while
+    allowing fully concurrent access to system resources.  The threads are
+    lightweight enough so that they can be created quickly, there can be
+    thousands present, and synchronization can be accomplished rapidly.  These
+    goals are achieved by providing user threads which multiplex on a pool of
+    kernel-supported threads of control.  This pool is managed by the library
+    and will automatically grow or shrink as required to ensure that the
+    process will make progress while not using an excessive amount of kernel
+    resources.  The programmer can also tune the relationship between threads
+    and kernel supported threads of control.  This paper focuses on scheduling
+    and synchronizing user threads, and their interaction with UNIX signals in
+    a multiplexing threads library.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/implementing-lightweight-threads"
+}
+
+@InProceedings{fsmisvr4m,
+  author       = "J.~Kent Peacock",
+  title        = "File System Multithreading in {System V Release 4 MP}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "19--29",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "file systems, mutual exclusion, locking, performance",
+  abstract     = "An Intel-sponsored Consortium of computer companies has
+    developed a multiprocessor version of System V Release4 (SVR4MP) which has
+    been released by UNIX System Laboratories.  The Consortium's goal was to
+    add fine-grained locking to SVR4 with minimal change to the kernel, and
+    with complete backward compatibility for user programs.  To do this, a
+    locking strategy was developed which complemented, rather than replaced,
+    existing mechanisms.  UNIX synchronization To multithread the file systems,
+    some general locking strategies developed and applied to the generic
+    Virtual File System(VFS) and vnode interfaces.  Of particular interest were
+    the disk-based S5 and UFS file system types, especially with respect to
+    their scalability.  Contention points were found and successively
+    eliminated to the point where the file systems were found to be disk-bound.
+    In particular, several file system caches were restructured using a
+    low-contention, highly-scalable approach called a Software Set-Associative Cache.  
+    This technique reduced the measured locking contention of each of these
+    caches from the 10-15% range to less than 0.1%.  A number of experimental
+    changes to disk queue sorting algorithms were attempted to reduce the disk
+    bottleneck, with limited success.  However, these experiments provided the
+    following insight into the need for balance between I/O and CPU utilization
+    in the system: that attempting to increase CPU utilization to show higher
+    parallelism could actually lower system throughput.  Using the GAEDE
+    benchmark with a sufficient number of disks configured, the kernel was
+    found to obtain throughput scalability of 88% the theoretical maximum on 5
+    processors.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/file-system-multithreading-system-v-release-4-mp"
+}
+
+@InProceedings{omadatamte,
+  author       = "Thuan~Q. Pham and Pankaj~K. Garg",
+  title        = "On Migrating a Distributed Application to a Multi-Threaded Environment",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "45--53",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "portability, thread-level concurrency, software structure,
+    performance, performance, processes",
+  abstract     = "Light-weight computation threads in a multi-threaded
+    operating system promise to provide low-overhead computation and fully
+    sharable addressing space not available in conventional process-oriented
+    operating systems.  Traditional distributed applications based on processes
+    can be re-architectured to use concurrent threads in a multi-threaded
+    platform to take advantage of faster context switches and shared-memory
+    communication.  We investigated this expectation by porting an existing
+    distributed application to a mulrithreaded environment.  As a result, we
+    virtually eliminated the cost of message-based IPC, replacing it with
+    shared-memory communication between threads.  In this paper we address the
+    benefits, the difficulties, and the trade-offs of such a re-architecture.
+    We also comment on some feasible architectures for migrating currently
+    distributed applications to multi-threaded environments.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/migrating-distributed-application-multi-threaded"
+}
+
+@InProceedings{cmewm,
+  author       = "William {Moran, Jr} and Farnam Jahanian",
+  title        = "Cheap Mutual Exclusion",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "55--61",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "synchronization, signals, preemption, signal handlers",
+  abstract     = "A new method of enforcing mutual exclusion among concurrent
+    processes on uniprocessors running UNIX is presented in this paper.  When a
+    process attempts to obtain a lock, no race condition will occur unless the
+    process is preempted.  The central idea is that a process can avoid a race
+    condition if preemption is made visible to the process when it is
+    rescheduled.  Two possible implementations of this idea are discussed in
+    depth.  The proposed solutions do not require special hardware support or
+    disabling of interrupts during a critical section.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/cheap-mutual-exclusion"
+}
+
+@InProceedings{tadlwat,
+  author       = "Barry Brachman and Gerald Neufeld",
+  title        = "{TDBM}:  A {DBM} Library With Atomic Transactions",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "63--80",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "extensible hashing, atomic transactions, crash recovery,
+    transactions, databases, threads, distributed databases, architecture,
+    performance",
+  abstract     = "The dbm database library introduced disk-based extensible
+    hashing to UNIX.  The library consists of functions to use a simple
+    database consisting of key/value pairs.  A number of work-alikes have been
+    developed, offering additional features and free source code.  Recently, a
+    new package was developed that also offers improved performance however,
+    provide fault-tolerant behavior.  None of these implementations.  In many
+    applications, a single high-level operation may cause many database items
+    to 6s updated, created, or deleted.  If the application crashes while
+    processing the operation, the database could be left in an inconsistent
+    state.  Current versions of dbm to not handle this problem.  Existing dbm
+    implementations do not support concurrent access, even though the use of
+    lightweight processes in a UNIX environment is growing.  To address
+    deficiencies, tdbm was developed.  Tdbm is a transaction
+    processing-database with a dbm-like interface.  It provides nested atomic
+    transactions, volatile and persistent databases, and support for very large
+    object sand distributed operation.  - This paper describes the design and
+    implementation of tdbm and examines its performance.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tdbm-dbm-library-atomic-transactions"
+}
+
+@InProceedings{vrqmoti,
+  author       = "Kevin Brook Long and Jerry Fowler and Stan Barber",
+  title        = "{VNS} Retriever:  Querying {MEDLINE} over the {Internet}",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "81--91",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "information retrieval,  system architecture, query
+    management, resource management, interprocess communication, interfaces,
+    query engines, administration, performance, system evaluation",
+  abstract     = "Academic medical centers around the country are developing
+    networking infrastructures and connecting to the Internet.  Baylor College
+    of Medicine is developing VNS Retriever, an architecture for comprehensive
+    handling of our institution's database requests.  The first implemented
+    instance of this architecture is the MEDLINE Retriever, a tool to query the
+    considerable citation database of medical literature at the National
+    Library of Medicine.  Response times that we have experienced with the
+    MEDLINE Retriever have pleased us and impressed our user community.  The
+    system will work for small sites, but is extensible for use on large
+    campuses as well.  The MEDLINE Retriever uses the Corporation for National
+    Research Initiatives' ABIDE gateway.  The principal user interface employs
+    Motif and the X Window System.", 
+  location     = ""
+}
+
+@InProceedings{bmmtsk,
+  author       = "J.~R. Eykholt and S.~R. Kleiman and S. Barton and R.~Faulkner and A.~Shivalingiah and M.~Smith and D.~Stein and J.~Voll and M.~Weeks and D.~Williams",
+  title        = "Beyond Multiprocessing:  Multithreading the {SunOS} Kernel",
+  booktitle    = usenixs92,
+  year         = 1992,
+  pages        = "11--18",
+  organization = "USENIX Association",
+  address      = "San Antonio, " # TX,
+  month        = "8--12 " # jun, 
+  keywords     = "multi-threading, kernel structure, interrupt processing,
+    synchronization, scheduling",
+  abstract     = "Preparing the SunOS/SVR4 kernel for today's challenges:
+    symmetric multiprocessing, multi-threaded applications, real-time, and
+    multimedia, led to the incorporation of several innovative techniques.  In
+    particular, the kernel was re-structured around threads.  Threads are used
+    for most asynchronous processing, including interrupts.  The resulting
+    kernel is fully preemptible and capable of real-time response.  The
+    combination provides a robust base for highly concurrent, responsive
+    operation.",
+  location     = "https://www.researchgate.net/publication/2408472_Beyond_Multiprocessing_Multithreading_the_SunOS_Kernel"
+}
+
 @Article{eobsoiop,
   author       = "Brustoloni, Jos{\' e} Carlos and Steenkiste, Peter",
   title        = "Effects of Buffering Semantics on {I/O} Performance",
@@ -11200,6 +11425,92 @@
   location     = "https://doi.org/10.1145/356678.356682"
 }
 
+@Article{tlpaipoda,
+  author       = "Kriszti{\' a}n Flautner and Rich Uhlig and Steve Reinhardt and Trevor Mudge",
+  title        = "Thread-Level Parallelism and Interactive Performance of Desktop Applications",
+  journal      = osr # " (" # pot # "Third International Conference on " # asplos # ", ASPLOS '20)",
+  year         = 2000,
+  volume       = 34,
+  number       = 5,
+  pages        = "129--138",
+  month        = nov,
+  keywords     = "desktop applications, multi-core architecture, thread
+    parallelism, user interfaces, program structure",
+  abstract     = "Multiprocessing is already prevalent in servers where
+    multiple clients present an obvious source of thread-level parallelism.
+    However, the case for multiprocessing is less clear for desktop
+    applications.  Nevertheless, architects are designing processors that count
+    on the availability of thread-level parallelism.  Unlike server workloads,
+    the primary requirement of interactive applications is to respond to user
+    events under human perception bounds rather than to maximize end-to-end
+    throughput.  In this paper we report on the thread-level parallelism and
+    interactive response time of a variety of desktop applications.  By
+    tracking the communication between tasks, we can focus our measurements on
+    the portions of the benchmark’s execution that have the greatest impact on
+    the user.  We find that running our benchmarks on a dual-processor machine
+    improves response time of mouse-click events by as much as 36%, and 22% on
+    average—out of a maximum possible 50%.  The benefits of multiprocessing are
+    even more apparent when background tasks are considered.  In our
+    experiments, running a simple MP3 playback program in the background
+    increases response time by 14% on a uniprocessor while it only increases
+    the response time on a dual processor by 4%.  When response times are fast
+    enough for further improvements to be imperceptible, the increased idle
+    time after interactive episodes could be exploited to build systems that
+    are more power efficient.", 
+  location     = "https://doi.org/10.1145/384264.379233", 
+  location     = "http://web.eecs.umich.edu/~manowar/publications/tlp-interactive-apps-ASPLOS2000.pdf"
+}
+
+@Article{asacsmfadt,
+  author       = "Jacques Loeckx",
+  title        = "Algorithmic Specifications:  {A} Constructive Specification Method for Abstract Data Types",
+  journal      = toplas,
+  year         = 1987,
+  volume       = 9,
+  number       = 4,
+  pages        = "646--685",
+  month        = oct,
+  keywords     = "algebraic specifications, constructive specification,
+    specification languages, semantics, syntax, extensional semantics,
+    intentional semantics, proof methods",
+  abstract     = "This paper presents a new specification method for abstract
+    data types and a pertaining logic.  The specification method proposed
+    differs from the classical algebraic one by its constructive, yet abstract
+    nature.  Although it leads to a different style in specification, the
+    method avoids some fundamental problems inherent in the algebraic
+    specification method.  The logic proposed is essentially a first-order
+    logic for strict (partial) functions.  It allows in particular the
+    expression of the semantic conditions guaranteeing the consistency of a
+    specification.", 
+  location     = "https://doi.org/10.1145/29873.30399"
+}
+
+@Article{tz1cp,
+  author       = "James~E. Smith and G.~E. Dermer and B.~D. Vanderwarn and S.~D. Klinger and C.~M. Rozewski and D.~L. Fowler and K.~R. Scidmore and J.~P. Laudon",
+  title        = "The {ZS}-1 Central Processor",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "199--204",
+  month        = oct,
+  keywords     = "scientific processor, pipelining, virtual storage",
+  abstract     = "The Astronautics ZS-1 is a high speed, 64-bit computer system
+    designed for scientific and engineering applications.  The ZS-1 central
+    processor uses a decoupled architecture, which splits instructions into two
+    streams---one for fixed point/memory address computation and the other for
+    floating point operations.  The two instruction streams are then processed
+    in parallel.  Pipelining is also used extensively throughout the ZS-1.This
+    paper describes the architecture and implementation of the ZS-1 central
+    processor, beginning with some of the basic design objectives.
+    Descriptions of the instruction set, pipeline structure, and virtual memory
+    implementation demonstrate the methods used to satisfy the objectives.
+    High performance is achieved through a combination of static (compile-time)
+    instruction scheduling and dynamic (run-time) scheduling.  Both types of
+    scheduling are illustrated with examples.", 
+  location     = "https://doi.org/10.1145/36177.36203"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
@@ -12378,6 +12689,30 @@
   year         = 2018,
   keywords     = "bidness, mobile phones, nokia, management, competition",
   location     = "https://asokan.org/operation-elop/"
+}
+
+@Book{epegsmm,
+  title        = "Extreme Programming Examined",
+  publisher    = "Addison-Wesley",
+  year         = 2001,
+  editor       = "Giancarlo Succi and Michele Marchesi",
+  series       = "The XP Series",
+  address      = boma,
+  keywords     = "software design, software management, pair programming,
+    refactoring", 
+  location     = "QA 76.76 D47 S83"
+}
+
+@Book{mjl,
+  author       = "Julia Lovell",
+  title        = "Maoism",
+  subtitle     = "A Global History",
+  publisher    = "Knpof",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "mao, chinese communism, armed revolution, maylasia, cambodia,
+    india, peru, nepal, china",
+  location     = "HX 418 L68"
 }
 
 @Misc{1mmmitxss,
