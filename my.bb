@@ -11511,6 +11511,29 @@
   location     = "https://doi.org/10.1145/36177.36203"
 }
 
+@Article{pcfga,
+  author       = "Adam Levinthal and Pat Hanrahan and Mike Paquette and Jim Lawson",
+  title        = "Parallel Computers for Graphics Applications",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "193--198",
+  month        = oct,
+  keywords     = "parallel processing, simd processors, high-level parallel
+    languages, graphic processors",
+  abstract     = "Specialized computer architectures can provide better
+    price/performance for executing image processing and graphics applications
+    than general purpose designs.  Two processors are presented that use
+    parallel SIMD data paths to support common graphics data structures as
+    primitive operands in arithmetic expressions.  A variant of the C language
+    has been implemented to allow high level language coding of user
+    applications on these processors.  High level programming support is
+    designed into the processor architecture that implements parallel object
+    data typing and parallel conditional evaluation in hardware.", 
+  location     = "https://doi.org/10.1145/36177.36202"
+}
+
 @Book{cpec,
   author       = "Paul~E. Ceruzzi",
   title        = "Computing",
