@@ -27,3 +27,13 @@
   location     = "DS 352.M18"
 }
 
+@Book{taeojl,
+  author       = "Yves Beauchemin",
+  title        = "The Accidental Education of Jerome Lupien",
+  publisher    = "House of Anansi Press",
+  year         = 2018,
+  address      = "Canada",
+  keywords     = "political machinations, lobbyists, con games",
+  location     = "PS 8553.E172 E4813"
+}
+
