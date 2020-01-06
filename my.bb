@@ -91,3 +91,54 @@
   location     = "https://doi.org/10.1145/36177.36200"
 }
 
+@Article{avafatsc,
+  author       = "Robert~P. Colwell and Robert~P. Nix and John~J. O'Donnell and David~B. Papworth and Paul~K. Rodman",
+  title        = "{A} {VLIW} Architecture for a Trace Scheduling Compiler",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "180--192",
+  month        = oct,
+  keywords     = "vliw architecture, pipelining, compilation, trace scheduling,
+    scientific computation, instruction set architecture, branching",
+  abstract     = "Very Long Instruction Word (VLIW) architectures were promised
+    to deliver far more than the factor of two or three that current
+    architectures achieve from overlapped execution.  Using a new type of
+    compiler which compacts ordinary sequential code into long instruction
+    words, a VLIW machine was expected to provide from ten to thirty times the
+    performance of a more conventional machine built of the same implementation
+    technology.Multiflow Computer, Inc., has now built a VLIW called the TRACE
+    along with its companion Trace Scheduling compacting compiler.  This new
+    machine has fulfilled the performance promises that were made. Using many
+    fast functional units in parallel, this machine extends some of the basic
+    Reduced-Instruction-Set precepts: the architecture is load/store, the
+    microarchitecture is exposed to the compiler, there is no microcode, and
+    there is almost no hardware devoted to synchronization, arbitration, or
+    interlocking of any kind (the compiler has sole responsibility for runtime 
+    resource usage).  This paper discusses the design of this machine and
+    presents some initial performance results.", 
+  location     = "https://doi.org/10.1145/36206.36201"
+}
+
+@Article{dttstcplitcm,
+  author       = "David~R. Ditzel and Hubert~R. McLellan and Alan~D. Berenbaum",
+  title        = "Design Tradeoffs to Support the {C} Programming Language in the {CRISP} Microprocessor",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "158--162",
+  month        = oct,
+  keywords     = "system architecture, language support, context switching,
+    code density, stack cache, compiler support, code analysis, path length",
+  abstract     = "The CRISP Microprocessor contains a number of new
+    architectural features to achieve high performance and support the C
+    programming language.  The instruction set was designed to be independent
+    of architectural tradeoffs used in any single implementation.  This paper
+    describes the particular tradeoffs used in the implementation of a 172,163
+    transistor 32-bit single chip microprocessor.  Many tradeoffs were used in
+    the design of CRISP, this paper tries to focus on those particular to C. ", 
+  location     = "https://doi.org/10.1145/36177.36198"
+}
+
