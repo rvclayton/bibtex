@@ -37,6 +37,29 @@
   location     = "PS 8553.E172 E4813"
 }
 
+@Book{himt,
+  author       = "Matt Taibbi",
+  title        = "Hate Inc.",
+  publisher    = "OR Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "media, propaganda, chomsky, maddow, journalism, the profit motive",
+  location     = "9781949017250"
+}
+
+@Book{eolp,
+  author       = "Christopher John Hogger",
+  title        = "Essentials of Logic Programming",
+  publisher    = oup,
+  year         = 1990,
+  series       = "Graduate Texts in Computer Science",
+  address      = nyny,
+  keywords     = "logic programming, first-order logic, causal-form logic,
+    herbrand domain, sld resolution, definite program semantics, finite
+    failure, program verification",
+  location     = "QA 76.63 H64"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -199,5 +222,204 @@
     Thus a tagged RISC architecture can execute Prolog at least half as fast as
     a special-purpose CISC architecture for Prolog.", 
   location     = "https://doi.org/10.1145/36177.36196"
+}
+
+@Article{tmeuailatmd,
+  author       = "David~W. Wall and Michael~L. Powell",
+  title        = "The {Mahler} Experience:  Using an Intermediate Language as the Machine Description",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "100--104",
+  month        = oct,
+  keywords     = "intermediate language, machine independence, compilers,
+    global optimizations, link-time optimizations, instruction scheduling,
+    pipelining, abstract machines",
+  abstract     = "Division of a compiler into a front end and a back end that 
+    communicate via an intermediate language is a well-known technique.  We go
+    farther and use the intermediate language as the official description of a
+    family of machines with simple instruction sets and addressing
+    capabilities, hiding some of the inconvenient details of the real machine
+    from the users and the front end compilers.To do this credibly, we have had
+    to hide not only the existence of the details but also the performance
+    consequences of hiding them.  The back end that compiles and links the
+    intermediate language tries to produce code that does not suffer a
+    performance penalty because of the details that were hidden from the front
+    end compiler.  To accomplish this, we have used a number of link-time
+    optimizations, including instruction scheduling and interprocedural
+    register allocation, to hide the existence of such idiosyncracies as
+    delayed branches and non-infinite register sets.  For the most part we have
+    been successful.", 
+  location     = "https://doi.org/10.1145/36177.36190",
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-87-1.pdf"
+}
+
+@Article{asosctfps,
+  author       = "Shlomo Weiss and James~E. Smith",
+  title        = "{A} Study of Scalar Compilation Techniques for Pipelined Supercomputers",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "105--109",
+  month        = oct,
+  keywords     = "cray computers, loop unrolling, software pipelining,
+    performance, scientific computing, optimization, machine architectures,
+    register files, vectorization",
+  abstract     = "This paper studies two compilation techniques for enhancing
+    scalar performance in high-speed scientific processors: software pipelining
+    and loop unrolling.  We study the impact of the architecture (size of the
+    register file) and of the hardware (size of instruction buffer) on the
+    efficiency of loop unrolling.  We also develop a methodology for
+    classifying software pipelining techniques.  For loop unrolling, a
+    straightforward scheduling algorithm is shown to produce near-optimal
+    results when not inhibited by recurrences or memory hazards.  Our study
+    indicates that the performance produced with a modified CRAY-1S scalar
+    architecture and a code scheduler utilizing loop unrolling is comparable to
+    the performance achieved by the CRAY-1S with a vector unit and the CFT
+    vectorizing compiler.", 
+  location     = "https://doi.org/10.1145/79505.79508"
+}
+
+@Article{cs8tar,
+  author       = "William~R. Bush and A.~Dain Samples and David Ungar and Paul~N. Hilfinger",
+  title        = "Compiling {Smalltalk-80} to a {RISC}",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "105--109",
+  month        = oct,
+  keywords     = "risc architecture, bytecode, compilation, register windows,
+    soar, dynamic languages, caching, performance",
+  abstract     = "The Smalltalk On A RISC project at U.  C.  Berkeley proves
+    that a high-level object-oriented language can attain high performance on a
+    modified reduced instruction set architecture.  The single most important
+    optimization is the removal of a layer of interpretation, compiling the
+    bytecoded virtual machine instructions into low-level, register-based,
+    hardware instructions.  This paper describes the compiler and how it was
+    affected by SOAR architectural features.  The compiler generates code of
+    reasonable density and speed.  Because of Smalltalk-80's semantics,
+    relatively few optimizations are possible, but hardware and software
+    mechanisms at runtime offset these limitations.  Register allocation for an
+    architecture with register windows comprises the major task of the
+    compiler.  Performance analysis suggests that SOAR is not simple enough;
+    several hardware features could be efficiently replaced by instruction
+    sequences constructed by the compiler.", 
+  location     = "https://doi.org/10.1145/36177.36192"
+}
+
+@Article{hmamae,
+  author       = "F.~Chow and S.~Correll and M.~Himelstein and E.~Killian and L.~Weber",
+  title        = "How Many Addressing Modes are Enough?",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "117--121",
+  keywords     = "risc, addressing modes, addressing architecture, offset
+    indexing, optimizations, performance, simplicity",
+  abstract     = "Programs naturally require a variety of memory-addressing
+    modes.  It isn't necessary to provide them in hardware, however, if a
+    compiler can synthesize them from a few primitive modes.  This not only
+    simplifies the hardware, but also permits the compiler to use its
+    understanding of the program to economize on the modes which it uses.  We
+    present some compilation techniques that allow the compiler to deal
+    effectively with a single addressing mode in a target RISC processor.  We
+    also give measurements to show the benefits of such techniques, and to
+    support our assertion that a single addressing mode is adequate for a
+    general purpose processor, provided that mode incorporates both a pointer
+    and an offset.", 
+  location     = "https://doi.org/10.1145/36177.36193"
+}
+
+@Article{salatsp,
+  author       = "Henry Massalin",
+  title        = "Superoptimizer --- {A} Look at the Smallest Program",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "122--126",
+  keywords     = "optimization, exhaustive search, probabilistic testing,
+    assembly code",
+  abstract     = "Given an instruction set, the superoptimizer finds the
+    shortest program to compute a function.  Startling programs have been
+    generated, many of them engaging in convoluted bit-fiddling bearing little
+    resemblance to the source programs which defined the functions.  The key
+    idea in the superoptimizer is a probabilistic test that makes exhaustive
+    searches practical for programs of useful size.  The search space is
+    defined by the processor's instruction set, which may include the whole
+    set, but it is typically restricted to a subset.  By constraining the
+    instructions and observing the effect on the output program, one can gain
+    insight into the design of instruction sets.  In addition, superoptimized
+    programs may be used by peephole optimizers to improve the quality of
+    generated code, or by assembly language programmers to improve manually
+    written code.", 
+  location     = "https://doi.org/10.1145/36177.36194"
+}
+
+@Article{paaeotpm,
+  author       = "Kazuo Taki and Katsuto Nakajima and Hiroshi Nakashima and Morihiro Ikeda",
+  title        = "Performance and Architectural Evaluation of the {PSI Machine}",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "128--135",
+  keywords     = "kl0, prolog, logic programming, caching, branching, psi machine",
+  abstract     = "We evaluated a Prolog machine PSI (Personal Sequential
+    Inference machine) for the purpose of improving and redesigning it.  In
+    this evaluation, we measured the execution speed and the dynamic
+    characteristics of cache memory, register file, and branching hardware
+    introduced for high-speed execution of Prolog programs.Execution speed of
+    the PSI firmware interpreter was found to be comparable to that of the
+    DEC-10 Prolog compiled code on the DEC-2060.  It was also found that PSI
+    was faster than DEC for executing programs containing much unification and
+    backtracking that require runtime processing.With the cache memory, the hit
+    ratio for application programs was found higher than 96%; this demonstrates
+    that the Prolog execution has much memory access locality.  The memory
+    access frequency and the appearance ratio between Read and Write command
+    were also investigated.Concerning the register file, use rate of each
+    dedicated access mode was measured and effect of each mode was discussed.
+    In the branching function we confirmed a high appearance rate of
+    conditional branches and multi-way branches based on tag values.", 
+  location     = "https://doi.org/10.1145/36177.36195"
+}
+
+@Article{cbatccaisohci,
+  author       = "Sam Wineburg and Susan Mosborg and Dan Porat and Ariel Duncan",
+  title        = "Common Belief and the Cultural Curriculum:  An Intergenerational Study of Historical Consciousness",
+  journal      = "American Education Research Journal",
+  year         = 2007,
+  volume       = 44,
+  number       = 1,
+  pages        = "40--76",
+  month        = mar,
+  keywords     = "history instruction, collective memory, vietnam war, united
+    states history, curricula, veterans, soldiers, student protests, political
+    protests, textbooks, forest gump",
+  abstract     = "How is historical knowledge transmitted across generations?
+    What is the role of schooling in that transmission? The authors address
+    these questions by reporting on a thirty-month longitudinal study into how
+    home, school, and larger society served as contexts for the development of
+    historical consciousness among adolescents.  Fifteen families drawn from
+    three different school communities participated.  By adopting an
+    intergenerational approach, the authors sought to understand how the
+    defining moments of one generation-its lived history'-becomes the available
+    history to the next.  In this article, the authors focus on what parents
+    and children shared about one of the most formative historical events in
+    parents' lives: the Vietnam War.  Drawing on notions of collective memory,
+    as articulated by the French sociologist Maurice Halbwachs, the authors
+    sought to understand which stories, archived in historical memory and
+    available to the disciplinary community, are remembered and used by those
+    beyond its borders.  In contrast, which stories are no longer widely
+    shared, eclipsed by time's passage and unable to cross the bridge
+    separating generation from generation? The authors conclude by discussing
+    the forces that act to historicize today's youth and suggest how educators
+    might marshal these forces-rather than spurning or simply ignoring them-to
+    advance young people's historical understanding.",
+  location     = "https://www.jstor.org/stable/30069471?sa=X&ved=2ahUKEwiOxfHPx__mAhVph-AKHfibCVcQFjAAegQICBAB"
 }
 
