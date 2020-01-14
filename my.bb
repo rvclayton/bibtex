@@ -423,3 +423,61 @@
   location     = "https://www.jstor.org/stable/30069471?sa=X&ved=2ahUKEwiOxfHPx__mAhVph-AKHfibCVcQFjAAegQICBAB"
 }
 
+@Article{imadothpa,
+  author       = "Daniel~J. Magenheimer and Liz Peters and Karl Pettis and Dan Zuras",
+  title        = "Integer Multiplication and Division on the {HP Precision Architecture}",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "90--99",
+  keywords     = "multiplication, division, approximations",
+  abstract     = "In recent years, many architectural design efforts have
+    focused on maximizing performance for frequently executed, simple
+    instructions.  Although these efforts have resulted in machines with better
+    average price/performance ratios, certain complex instructions and, thus,
+    certain classes of programs which heavily depend on these instructions may
+    suffer by comparison.  Integer multiplication and division are one such set
+    of complex instructions.  This paper describes how a small set of primitive
+    instructions combined with careful frequency analysis and clever
+    programming allows the Hewlett-Packard Precision Architecture integer
+    multiplication and division implementation to provide adequate performance
+    at little or no hardware cost.", 
+  location     = "https://doi.org/10.1145/36206.36189"
+}
+
+@TechReport{aqmafd30,
+  author       = "Greg White",
+  title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
+  subtitle     = "A Simulation Study of CoDel, SfQ-CoDel and PIE in DOCSIS 3.0 Networks",
+  institution  = "Access Network Technologies, CableLabs",
+  year         = 2013,
+  month        = apr,
+  keywords     = "latency, buffering, buffer bloat, queue drop algorithms, pie,
+    codel, sfq-codel, packet loss, tcp, performance",
+  abstract     = "This paper describes the results of a simulation study of
+    three active queue management algorithms applied to the upstream
+    transmission buffer in a DOCSIS 3.  cable modem.  This paper is a follow-on
+    to an earlier study which examined the Controlled Delay (CoDel) active
+    queue management algorithm in a simulated DOCSIS 3.  cable modem.  This
+    expanded study looks at CoDel in more depth, and compares it to two other
+    promising active queue management algorithms, Stochastic Flow Queue - CoDel
+    (SFQ- CoDel) and Proportional Integral Enhanced (PIE).  These three queue
+    management algorithms are compared to existing (tail drop) buffering
+    implementations that exist in current cable modems across a range of
+    latency-sensitive applications.  It is demonstrated that current cable
+    modem implementations result in severe degradation of user experience for
+    latency-sensitive applications in situations where the user is
+    simultaneously uploading a file via TCP.  The goal of the active queue
+    managers in this study is to prevent the degradation of latency sensitive
+    applications, while not impacting the TCP upload performance.  The
+    Stochastic Flow Queue - Controlled Delay active queue manager displays
+    extremely good performance in most traffic scenarios, enabling up to 2x
+    reduction in latency for gaming traffic, x reduction in web page load time,
+    and pristine VoIP quality, all while minimally impacting TCP upload
+    performance.  The Proportional Integral Enhanced active queue manager
+    similarly provided good performance, and is optimized for efficient
+    implementation in existing cable modems.", 
+  location     = "https://www.cablelabs.com/wp-content/uploads/2014/05/Active_Queue_Management_Algorithms_DOCSIS_3_0.pdf"
+}
+
