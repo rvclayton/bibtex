@@ -446,6 +446,20 @@
   location     = "https://doi.org/10.1145/36206.36189"
 }
 
+@Article{aecfipooai4,
+  author       = "Christos John Georgiou and Stewart~L. Palmer and P.~L. Rosenfeld",
+  title        = "An Experimental Coprocessor for Implementing Persistent Objects on an {IBM} 4381",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "84--87",
+  keywords     = "coprocessors, persistent objects, system architecture",
+  abstract     = "In this paper we describe an experimental coprocessor for an
+    IBM 4381 that is designed to facilitate the exploration of persistent objects.",
+  location     = "https://doi.org/10.1145/36177.36188"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
