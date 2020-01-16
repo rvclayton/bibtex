@@ -60,6 +60,16 @@
   location     = "QA 76.63 H64"
 }
 
+@Book{tmjc,
+  author       = "Jorge Comensal",
+  title        = "The Mutations",
+  publisher    = fsg,
+  year         = 2019,
+  address      = nyny,
+  keywords     = "cancer, survivorship, psychotherapy",
+  location     = "PQ 7298.413.O438 M8813 "
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -458,6 +468,52 @@
   abstract     = "In this paper we describe an experimental coprocessor for an
     IBM 4381 that is designed to facilitate the exploration of persistent objects.",
   location     = "https://doi.org/10.1145/36177.36188"
+}
+
+@Article{chsfsdap,
+  author       = "Thomas~A. Cargill and Burt~N. Locanthi",
+  title        = "Cheap Hardware Support for Software Debugging and Profiling",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "82--83",
+  keywords     = "debugging, watch points, reverse execution",
+  abstract     = "We wish to determine the effectiveness of some simple
+    hardware for debugging and profiling compiled programs on a conventional
+    processor. The hardware cost is small -- a counter decremented on each
+    instruction that raises an exception when its value becomes zero. With the
+    counter a debugger can provide data watchpoints and reverse execution: a
+    profiler can measure the total instruction cost of a code segment and
+    sample the program counter accurately. Such a counter has been included on
+    a single-board MC68020 workstation, for which system software is currently
+    being written. We will report our progress at the symposium.", 
+  location     = "https://doi.org/10.1145/36177.36187"
+}
+
+@Article{cotplictp,
+  author       = "Pei~Jyun Leu and Bharat Bhargava",
+  title        = "Clarification of Two-Phase Locking in Concurrent Transaction Processing",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "122--125",
+  month        = jan,
+  keywords     = "two-phase locking, atomic operations, transactions, read
+    locks, relaxation, serializability, write locks, logs",
+  abstract     = "The authors propose a formal definition of the two-phase
+    locking class derived from the semantic description of the two-phase
+    locking protocol, and prove that this definition is equivalent to that
+    given by C.H.  Papadimitriou (1979).  They present: (1) a precise
+    definition of the two phase locking; (2) a clarification of the occurrence
+    and the order ofall events such as lock points, unlock points, read
+    operations, and write operations of conflicting transactions; and (3) by
+    relaxing some conditions in the given definition, the derivation of a new
+    class called restricted-non-two-phase locking (RN2PL), which is a superset
+    of the class two-phase locking (2PL) but a subset of the class
+    D-serializable (DSR) given by Papadimitriou.",
+  location     = "https://doi.org/10.1109/32.4629"
 }
 
 @TechReport{aqmafd30,
