@@ -516,6 +516,32 @@
   location     = "https://doi.org/10.1109/32.4629"
 }
 
+@Article{cfmvac,
+  author       = "James~R. Goodman",
+  title        = "Coherency for Multiprocessor Virtual Address Caches",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "72--80",
+  keywords     = "caches, coherency, virtual storage, virtual addressing, tlbs,
+    snooping",
+  abstract     = "A multiprocessor cache memory system is described that
+    supplies data to the processor based on virtual addresses, but maintains
+    consistency in the main memory, both across caches and across virtual
+    address spaces.  Pages in the same or different address spaces may be
+    mapped to share a single physical page.  The same hardware is used for
+    maintaining consistency both among caches and among virtual addresses.
+    Three different notions of a cache block are defined: (1) the unit for
+    transferring data to/from main storage, (2) the unit over which tag
+    information is maintained, and (3) the unit over which consistency is
+    maintained.  The relation among these block sizes is explored, and it is
+    shown that they can be optimized independently.  It is shown that the use
+    of large address blocks results in low overhead for the virtual address
+    cache.", 
+  location     = "https://doi.org/10.1145/36177.36186"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
