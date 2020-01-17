@@ -542,6 +542,23 @@
   location     = "https://doi.org/10.1145/36177.36186"
 }
 
+@Article{tdprra,
+  author       = "Russell~R. Atkinson and Edward~M. McCreight",
+  title        = "The {Dragon} Processor",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "65--69",
+  keywords     = "processor design, instruction sets, procedure calls, dorado,
+    instruction density, chip packaging",
+  abstract     = "The Xerox PARC Dragon is a VLSI research computer that uses
+    several techniques to achieve dense code and fast procedure calls in a
+    system that can support multiple processors on a central high bandwidth
+    memory bus.",
+  location     = "https://doi.org/10.1145/36205.36185"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
