@@ -328,6 +328,7 @@
   volume       = 22,
   number       = 10,
   pages        = "117--121",
+  month        = oct,
   keywords     = "risc, addressing modes, addressing architecture, offset
     indexing, optimizations, performance, simplicity",
   abstract     = "Programs naturally require a variety of memory-addressing
@@ -352,6 +353,7 @@
   volume       = 22,
   number       = 10,
   pages        = "122--126",
+  month        = oct,
   keywords     = "optimization, exhaustive search, probabilistic testing,
     assembly code",
   abstract     = "Given an instruction set, the superoptimizer finds the
@@ -378,6 +380,7 @@
   volume       = 22,
   number       = 10,
   pages        = "128--135",
+  month        = oct,
   keywords     = "kl0, prolog, logic programming, caching, branching, psi machine",
   abstract     = "We evaluated a Prolog machine PSI (Personal Sequential
     Inference machine) for the purpose of improving and redesigning it.  In
@@ -441,6 +444,7 @@
   volume       = 22,
   number       = 10,
   pages        = "90--99",
+  month        = oct,
   keywords     = "multiplication, division, approximations",
   abstract     = "In recent years, many architectural design efforts have
     focused on maximizing performance for frequently executed, simple
@@ -464,6 +468,7 @@
   volume       = 22,
   number       = 10,
   pages        = "84--87",
+  month        = oct,
   keywords     = "coprocessors, persistent objects, system architecture",
   abstract     = "In this paper we describe an experimental coprocessor for an
     IBM 4381 that is designed to facilitate the exploration of persistent objects.",
@@ -478,6 +483,7 @@
   volume       = 22,
   number       = 10,
   pages        = "82--83",
+  month        = oct,
   keywords     = "debugging, watch points, reverse execution",
   abstract     = "We wish to determine the effectiveness of some simple
     hardware for debugging and profiling compiled programs on a conventional
@@ -524,6 +530,7 @@
   volume       = 22,
   number       = 10,
   pages        = "72--80",
+  month        = oct,
   keywords     = "caches, coherency, virtual storage, virtual addressing, tlbs,
     snooping",
   abstract     = "A multiprocessor cache memory system is described that
@@ -550,6 +557,7 @@
   volume       = 22,
   number       = 10,
   pages        = "65--69",
+  month        = oct,
   keywords     = "processor design, instruction sets, procedure calls, dorado,
     instruction density, chip packaging",
   abstract     = "The Xerox PARC Dragon is a VLSI research computer that uses
@@ -557,6 +565,69 @@
     system that can support multiple processors on a central high bandwidth
     memory bus.",
   location     = "https://doi.org/10.1145/36205.36185"
+}
+
+@Article{teoiscopsamp,
+  author       = "Jack~W. Davidson and Richard~A. Vaughan",
+  title        = "The Effect of Instruction Set Complexity on Program Size and Memory Performance",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "60--64",
+  month        = oct,
+  keywords     = "instruction set design, risc, cisc, memory pressure, code
+    size, portable compilation",
+  abstract     = "One potential disadvantage a machines with a simple
+    instruction set is object-program size may be substantially larger than
+    those for a machine with a complex instruction set.  Groups of simple
+    instructions are required to implement the same functions performed by a
+    single instruction from a complex instruction set.  In addition, the
+    tendency of simple instructions to be fixed length with a few instruction
+    formats also increases object-program size.  Larger object-program size
+    could adversely affect memory performance and bus traffic.  This paper
+    reports the results of experiments to isolate and determine the effect of
+    instruction set complexity on cache memory performance and bus traffic.
+    Three high-level language compilers were constructed for machines with
+    instruction sets of varying complexity.  Using a set of benchmark programs,
+    we evaluated the effect of instruction set complexity had on program size.
+    Five of the programs were used to perform a set of trace-driven simulations
+    to study each machine's cache and bus performance.  While we found that the
+    miss ratio is affected by object program size, it appears that this can be
+    corrected by increasing the cache size.  Our measurements of bus traffic,
+    however, show that even with large caches, machines with simple instruction
+    sets can expect substantially more main memory reads than machines with
+    complex instruction sets.",  
+  location     = "https://doi.org/10.1145/36205.36184"
+}
+
+@Article{aafdfdpd,
+  author       = "Mike Adler",
+  title        = "An Algebra for Data Flow Diagram Process Decomposition",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "169--183",
+  month        = feb,
+  keywords     = "algebra, automatic process decomposition, data flow diagram,
+    dfd, directed acyclic graph, graph-based grammar, software engineering,
+    structured analysis",
+  abstract     = "Data flow diagram process decomposition, as applied in the
+    analysis phase of software engineering, is a top-down method that takes a
+    process, and its input and output data flows, and logically implements the
+    process as a network of smaller processes.  The decomposition is generally
+    performed in an ad hoc manner by an analyst applying heuristics, expertise,
+    and knowledge to the problem.  An algebra that formalizes process
+    decomposition is presented using the De Marco representation scheme.  In
+    this algebra, the analyst relates the disjoint input and output sets of a
+    single process by specifying the elements of an input/output connectivity
+    matrix.  A directed acyclic graph is constructed from the matrix and is the
+    decomposition of the process.  The graph basis, grammar matrix, and graph
+    interpretations, and the operators of the algebra are discussed.  A
+    decomposition procedure for applying the algebra, prototype, and production
+    tools and outlook are also discussed.", 
+  location     = "https://doi.org/10.1109/32.4636"
 }
 
 @TechReport{aqmafd30,
