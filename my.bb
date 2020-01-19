@@ -630,6 +630,37 @@
   location     = "https://doi.org/10.1109/32.4636"
 }
 
+@Article{tatcilhasa,
+  author       = "Peter Steenkiste and John Hennessy",
+  title        = "Tags and Type Checking in {LISP}:  Hardware and Software Approaches",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "50--59",
+  month        = oct,
+  keywords     = "lisp, type checking, generic operations, tagged
+    architectures, performance",
+  abstract     = "One  major factor distinguishing LISP from other languages
+    (e.g., Pascal, C, Fortran) is the need for run-time type checking.  Run-time
+    type checking is implemented by adding to each data     object a tag that
+    encodes type information.  Tags must be compared for type compatibility,
+    removed when using the data, and inserted when new data items are created.
+    This tag manipulation, together with other work related to dynamic type
+    checking and generic operations, constitutes a significant component of the
+    execution time of LISP programs.  This has led both to the development of
+    LISP machines that support tag checking in hardware and to the avoidance of
+    type checking by users running on stock hardware.  To understand the role
+    and necessity of special-purpose hardware for tag handling, we first
+    measure the cost of type checking operations for a group of LISP programs.
+    We then examine hardware and software implementations of tag operations and
+    estimate the cost of tag handling with the different tag implementation
+    schemes.  The data shows that minimal levels of support provide most of the
+    benefits, and that tag operations can be relatively inexpensive, even when
+    no special hardware support is present.",  
+  location     = "https://doi.org/10.1145/36206.36183"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
