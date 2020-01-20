@@ -661,6 +661,25 @@
   location     = "https://doi.org/10.1145/36206.36183"
 }
 
+@Article{aaftdeotfpl,
+  author       = "John~R. Hayes and Martin~E. Fraeman and Robert~L. Williams and Thomas Zaremba",
+  title        = "An Architecture for the Direct Execution of the {Forth} Programming Language",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "42--49",
+  month        = oct,
+  keywords     = "zero-address languages, stack management, embedded systems,
+    instruction set architecture, data paths",
+  abstract     = "We have developed a simple direct execution architecture for
+    a 32-bit Forth microprocessor.  The processor can directly access a linear
+    address space of over 4 gigawords.  Two instruction types are defined; a
+    subroutine call, and a user defined microcode instruction.  On-chip stack
+    caches allow most Forth primitives to execute in a single cycle.", 
+  location     = "https://doi.org/10.1145/36206.36182"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -694,5 +713,36 @@
     similarly provided good performance, and is optimized for efficient
     implementation in existing cable modems.", 
   location     = "https://www.cablelabs.com/wp-content/uploads/2014/05/Active_Queue_Management_Algorithms_DOCSIS_3_0.pdf"
+}
+
+@TechReport{apfdsifcip,
+  author       = "Joel Moses",
+  title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
+  institution  = "Artificial Intelligence Project, Project MAC, " # mit,
+  year         = 1968,
+  type         = "Memo",
+  number       = 158,
+  address      = cma,
+  month        = mar,
+  keywords     = "integration, problem solving, testing",
+  abstract     = "The SARGE program is a prototype of a program which is
+    intended to be used as an adjacent to regular classroom work in freshman
+    calculus.  Using SARGE, students can type their step-by-step solution to an
+    indefinite integration problem, and can have the correctness of their
+    solution determined by the system.  The syntax for these steps comes quite
+    close to normal mathematical notation, given the limitations of typewriter
+    input.  The methods of solution is pretty much unrestricted as long as no
+    mistakes are made along the way.  If a mistake is made, SARGE will catch it
+    and yield an error message.  The student may modify the incorrect step, or
+    he may ask the program for advice on how the mistake arose by typing
+    'help'.  At present the program is weak in generating explanations for
+    mistakes.  Sometimes the 'help' mechanisms will just yield a response which
+    will indicate the way in which the erroneous step can be corrected.  In
+    order to improve the explanation mechanism one would need a sophisticated
+    analysis of students solutions to homework or quiz problems.  Experience
+    with the behavior of students with SARGE, which is nil at present, should
+    also help in accomplishing this goal.  SARGE is available as SARGE SAVED in
+    T302 2517.", 
+  location     = "https://dspace.mit.edu/bitstream/handle/1721.1/6163/AIM-158.pdf"
 }
 
