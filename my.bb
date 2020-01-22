@@ -70,6 +70,17 @@
   location     = "PQ 7298.413.O438 M8813 "
 }
 
+@Book{ojhhdb,
+  author       = "John~H. Halpern and David Blistein",
+  title        = "Opium",
+  subtitle     = "How an Ancient Flower Shaped and Poisoned Our World",
+  publisher    = "Hachette",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "opium, addiction, poppies, drugs, medicine",
+  location     = "HV 5816.H35"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -678,6 +689,56 @@
     subroutine call, and a user defined microcode instruction.  On-chip stack
     caches allow most Forth primitives to execute in a single cycle.", 
   location     = "https://doi.org/10.1145/36206.36182"
+}
+
+@Article{asfmppohs,
+  author       = "Roberto Bisiani and Alessandro Forin",
+  title        = "Architectural Support for Multilanguage Parallel Programming on Heterogeneous Systems",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "21--30",
+  month        = oct,
+  keywords     = "common runtimes, shared storage, remote operations, mach",
+  abstract     = "We have designed and implemented a software facility, called
+    Agora, that supports the development of parallel applications written in
+    multiple languages.  At the core of Agora there is a mechanism that allows
+    concurrent computations to share data structures independently of the
+    computer architecture they are executed on.  Concurrent computations
+    exchange control information by using a pattern-directed technique.  This
+    paper describes the Agora shared memory and its software implementation on
+    both tightly and loosely-coupled architectures.", 
+  location     = "https://doi.org/10.1145/36177.36180"
+}
+
+@Article{mivmmfpuama,
+  author       = "Richard Rashid and Avadis Tevanian and Michael Young and David Golub and Robert Baron and David Black and William Bolosky and Jonathan Chew",
+  title        = "Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor Architectures",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "31--39",
+  month        = oct,
+  keywords     = "mach, virtual storage, machine independence, portability,
+    shared storage, address mapping, paging",
+  abstract     = "This paper describes the design and implementation of virtual
+    memory management within the CMU Mach Operating System and the experiences
+    gained by the Mach kernel group in porting that system to a variety of
+    architectures.  As of this writing, Mach runs on more than half a dozen
+    uniprocessors and multiprocessors including the VAX family of uniprocessors
+    and multiprocessors, the IBM RT PC, the SUN 3, the Encore MultiMax, the
+    Sequent Balance 21000 and several experimental computers.  Although these
+    systems vary considerably in the kind of hardware support for memory
+    management they provide, the machine-dependent portion of Mach virtual
+    memory consists of a single code module and its related header file.  This
+    separation of software memory management from hardware support has been
+    accomplished without sacrificing system performance.  In addition to
+    improving portability, it makes possible a relatively unbiased examination
+    of the pros and cons of various hardware memory management schemes,
+    especially as they apply to the support of multiprocessors.", 
+  location     = "https://doi.org/10.1145/36177.36181"
 }
 
 @TechReport{aqmafd30,
