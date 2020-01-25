@@ -7,13 +7,7 @@
 @string{sosp89    = osr # " (" # pot # "Twelfth" # sosp # ", SOSP '89)"}
 @string{sosp91    = osr # " (" # pot # "Thirteenth" # sosp # ", SOSP '91)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth" # sosp # ", SOSP '932)"}
-@string{usenixs89 = pot # "Summer 1989 USENIX Conference"}
-@string{usenixs92 = pot # "Summer 1992 USENIX Technical Conference"}
-@string{usenixs93 = pot # "Summer 1993 USENIX Technical Conference"}
-@string{usenixw89 = pot # "Winter 1989 USENIX Conference"}
-@string{usenixw90 = pot # "Winter 1990 USENIX Conference"}
-@string{usenixw91 = pot # "Winter 1991 USENIX Conference"}
-@string{usenixw93 = pot # "Winter 1993 USENIX Conference"}
+@string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
 		  
 		  
 @Book{tcwekm,
@@ -741,6 +735,80 @@
   location     = "https://doi.org/10.1145/36177.36181"
 }
 
+@Article{vafam,
+  author       = "Bob Beck and Bob Kasten and Shreekant Thakkar",
+  title        = "{VLSI} Assist for a Multiprocessor",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "10--20",
+  month        = oct,
+  keywords     = "caching, co-processors, ipc, synchronization, buses,
+    interrupt handling, system configuration",
+  abstract     = "Multiprocessors have long been of interest to computer
+    community.  They provide the potential for accelerating applications through
+    parallelism and increased throughput for large multi-user system.  Three
+    factors have limited the commercial success of multiprocessor systems;
+    entry cost, range of performance, and ease of application.  Advances in
+    very large scale integration (VLSI) and in computer aided design (CAD) have
+    removed these limitations, making possible a new class of multiprocessor
+    systems based on VLSI components.  A set of requirements for building an
+    efficient shared multiprocessor system are discussed, including: low-level
+    mutual exclusion, interrupt distribution, inter-processor signaling,
+    process dispatching, caching, and system configuration.  A system that
+    meets these requirements is described and evaluated.", 
+  location     = "https://doi.org/10.1145/36177.36179"
+}
+
+@Article{clir,
+  author       = "Matthew Flatt",
+  title        = "Creating Languages in {Racket}",
+  journal      = "ACM Queue",
+  year         = 2011,
+  volume       = 9,
+  number       = 11,
+  month        = nov,
+  keywords     = "racket, language design, macros, dsl, modules",
+  abstract     = "Choosing the right tool for a simple job is easy: a
+    screwdriver is usually the best option when you need to change the battery
+    in a toy, and grep is the obvious choice to check for a word in a text
+    document.  For more complex tasks, the choice of tool is rarely so
+    straightforward—all the more so for a programming task, where programmers
+    have an unparalleled ability to construct their own tools.  Programmers
+    frequently solve programming problems by creating new tool programs, such
+    as scripts that generate source code from tables of data.", 
+  location     = "https://doi.org/10.1145/2063166.2068896", 
+  location     = "https://queue.acm.org/detail.cfm?id=2068896"
+}
+
+@Article{hafplaplfha,
+  author       = "Niklaus Wirth",
+  title        = "Hardware Architecture for Programming Languages and Programming Languages for Hardware Architectures",
+  journal      = asplos87,
+  year         = 1987,
+  volume       = 22,
+  number       = 10,
+  pages        = "2--8",
+  month        = oct,
+  keywords     = "abstractions, hardware design, complexity, mathematical
+    formalisms, system state, correctness reasoning, programming languages",
+  abstract     = "Programming Languages and Operating Systems introduce
+    abstractions which allow the programmer to ignore details of an
+    implementation.  Support of an abstraction must not only concentrate on
+    promoting the efficiency of an implementation, but also on providing the
+    necessary guards against violations of the abstractions.  In the frantic
+    drive for efficiency the second goal has been neglected.  There are
+    indications that recent designs which are claimed to be both simple and
+    powerful, achieve efficiency by shifting the complex issues of code
+    generation and of appropriate guards onto compilers.Complexity has become
+    the common hallmark of software as well as hardware designs.  It cannot be
+    mastered by the common practices of testing and simulation.  Hardware
+    design may profit from developments in programming methodology by adopting
+    proof techniques similar to those used in programming.", 
+  location     = "https://doi.org/10.1145/36177.36178"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -805,5 +873,36 @@
     also help in accomplishing this goal.  SARGE is available as SARGE SAVED in
     T302 2517.", 
   location     = "https://dspace.mit.edu/bitstream/handle/1721.1/6163/AIM-158.pdf"
+}
+
+@InProceedings{cmultsygbtr,
+  author       = "Stanley~P. Hanks",
+  title        = "Creating {MAN}s using {LAN} Technology:  Sometimes You Gotta Break the Rules",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "439--451",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "man, lans, bridging, security, encapsulation, fddi, ethernet,
+    vpn, standards",
+  abstract     = "Commercially available, off-the-shelf internetworking
+    products provide good mechanisms for the creation of limited-throughput
+    metropolitan and wide area networks.  However, for many applications either
+    the throughput obtained from T1 or slower communication circuits is
+    inadequate, or the expense of obtaining high throughput using multiple T1
+    or whole DS-3 circuits is prohibitive.  Proposed service offerings such as
+    802.6, SMDS, frame relay, or SONET promise adequate speed metropolitan area
+    network connectivity at a reasonable price.  Today these services arc not
+    available, or where they are available are limited to T1 speeds.
+    Metropolitan Fiber Systems owns over 17,000 miles of fiber optic cable in
+    12 cities.  Most of this capacity is currently devoted to providing leased
+    T1 and DS-3 circuits, and a significant portion of those circuits are for
+    data transmission.  This provided a unique opportunity to address the
+    question of how to provide LAN speed connectivity in and between
+    metropolitan areas using commercially available products.  This paper
+    discusses the development of the very high speed MAN connectivity service
+    offerings based on FDDI provided by MFS.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
