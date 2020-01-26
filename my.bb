@@ -906,3 +906,26 @@
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
+@InProceedings{ahotcosalu1tj1,
+  author       = "Alan~E. Kaplan",
+  title        = "{A} History of the {COSNIX} Operating System: Assembly Language " # unix # " 1971 to {July}, 1991",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "429--437",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "history, fortran, disk performance, database systems",
+  abstract     = "From 1971 until July, 1991 a variant of the assembly language
+    version of the Unix operating system (Unix-A) was used to run a transaction
+    processing system called COSMOS (Computer System for Mainframe Operations)
+    in the Regional Bell Operating Companies.  At one time about seven hundred
+    such systems were running on PDP 11//45 and PDP 11/70 computers.  This talk
+    describes the history and development of that Unix operating system
+    variant, called COSNIX, and explains some of the reasons for its success.
+    I hope, also, that it gives a feeling of the challenges involved in
+    producing a viable system during the days when computing resources were
+    much more severely limited than they are today.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
