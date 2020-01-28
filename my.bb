@@ -929,3 +929,42 @@
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
+@InProceedings{fsfhs,
+  author       = "Henry Spencer",
+  title        = "Faster String Function",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "419--428",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "string functions, optimization, performance, parallel execution",
+  abstract     = "The string functions provided by ANSI C and by traditional
+    Unix C libraries are usually not as well-optimized as they could be.
+    Careful tuning of inner loops is common, and on some processors it is
+    profitable to rewrite them in assembler to exploit special instructions,
+    but on most systems operations are still done a character at a time.  Given
+    fairly lenient assumptions about the architecture, versions that operate a
+    word at a time are possible.  Word-at-a-time processing is superficially
+    difficult for C strings, since they arc terminated by a single null that is
+    awkward to detect within a word.  However, carefully chosen combinations of
+    logical and arithmetic operations can do such detection at a cost of 3-6
+    operations per word, depending on data constraints and architecture,
+    without relying on any architecture-specific specialized instructions or
+    data paths.  This technique has been around as occasionally-heard folklore
+    for some time, but does not appear to have been investigated in detail.
+    The resulting word-at-a-time string functions are conspicuously faster than
+    the usual ones for long strings.  The crossover point is typically 20-30
+    characters, and the asymptotic speed advantage can be as much as a factor
+    of 5, although a factor of 2-3 is more typical on 100-character operands.
+    For specialized requirements where customized interfaces and customized
+    code are permissible, rather higher factors are possible.  Certain problems
+    occur, notably higher startup overhead, difficulties with unaligned
+    strings, and the prevalence of relatively short strings as operands to some
+    string functions.  The case for the fast functions is mixed, and an
+    adaptive algorithm is needed to maximize overall performance.  It would
+    also be useful to package the algorithms for use in custom string code,
+    although this is somewhat challenging.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
