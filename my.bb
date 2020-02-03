@@ -98,6 +98,27 @@
   location     = "QA 76.6.6.Y68"
 }
 
+@Book{natb,
+  author       = "Lars Iyer",
+  title        = "Nietzsche and the Burbs",
+  publisher    = "Melville House",
+  year         = 2019,
+  address      = "Brooklyn, N.Y.",
+  keywords     = "suburban life, wasted youth",
+  location     = ""
+}
+
+@Book{hwsts,
+  author       = "Thomas Hockey",
+  title        = "How We See the Sky",
+  subtitle     = "A Naked-Eye Tour of Day and Night",
+  publisher    = ucp,
+  year         = 2011,
+  address      = chil,
+  keywords     = "the night sky, stars, planets, the moon",
+  location     = "QB 44.3 H635"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1054,6 +1075,68 @@
     Because 3DFS provides on-line access to old versions, users can access
     those versions in-place, without copying them to magnetic disk.  This paper
     describes 3DFS, its implementation, and our experience with it.",
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{ntbpnm,
+  author       = "Matt Blaze",
+  title        = "{NFS} Tracing by Passive Network Monitoring",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "333--343",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "nfs, filesystem performance, network monitoring",
+  abstract     = "Traces of filesystem activity have proven to be useful for a
+    wide variety of purposes, ranging from quantitative analysis of system
+    behavior to trace-driven simulation of filesystem algorithms.  Such traces
+    can be difficult to obtain, however, usually entailing modification of the
+    filesystems to be monitored and runtime overhead for the period of the
+    trace.  Largely because of these difficulties, a surprisingly small number
+    of filesystem traces have been conducted, and few sample workloads are
+    available to filesystem researchers.  This paper describes a portable
+    toolkit for deriving approximate traces of NFS activity by non-intrusively
+    monitoring the Ethernet traffic to and from the file server.  The toolkit
+    uses a promiscuous Ethernet listener interface (such as the Packetfilter)
+    to read and reconstruct NFS-related RPC packets intended for the server.
+    It produces traces of the NFS activity as well as a plausible set of
+    corresponding client system calls.  The tool is currently in use at
+    Princeton and other sites, and is available via anonymous ftp.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{ccfcsius,
+  author       = "Joseph~L. Hellerstein",
+  title        = "Control Considerations for {CPU} Scheduling in " # unix # " Systems",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "359--374",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "scheduling, priority scheduling, compute-bound jobs",
+  abstract     = "Managing UNIX systems often involves setting service rate
+    objectives, such as specifying that application A should receive 50% of the
+    central processing unit (CPU).  In most UNIX systems, the only way to
+    control CPU usage is by adjusting nice values; unfortunately, the
+    relationship between nice values and process service rates has been poorly
+    understood.  This paper develops an analytic model that relates service
+    rate objectives for compute-bound processes to nice values and three
+    scheduler parameters: R (the rate at which priority increases for each
+    quantum of CPU consumed), D (the decay factor), and T (the number of quanta
+    that expire before CPU usages are decayed); the model is evaluated using
+    measurements of a workstation running IBM's Advanced Interactive Executive
+    (AIX) 3.1 Operating System.  Based on the model, we develop an algorithm
+    that calculates nice values that achieve service rate objectives for
+    compute-bound processes.  Experiments conducted on a production AIX 3.1
+    system suggest that our algorithm works well in practice.  In addition, we
+    use the model to obtain insights into the control implications of parameter
+    settings.  For example, we show that the nice mechanism is often less
+    effective on faster processors since T tends to increase with processor
+    speed; this increases the fraction of time during which processes with
+    larger nice values execute, and hence limits the extent to which their
+    service rates can be controlled.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
