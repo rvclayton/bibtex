@@ -853,6 +853,29 @@
   location     = "https://doi.org/10.1145/36177.36178"
 }
 
+@Article{atosigpdcs,
+  author       = "Thomas~L. Casavant and Jon~G. Kuhl",
+  title        = "{A} Taxonomy of Scheduling in General-PUrpose Distributed Computing Systems",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 2,
+  pages        = "141--154",
+  month        = feb,
+  keywords     = "distributed operating systems, distributed resource
+    management, general-purpose distributed computing systems, scheduling, task
+    allocation, taxonomy",
+  abstract     = "One measure of the usefulness of a general-purpose
+    distributed computing system is the system's ability to provide a level of
+    performance commensurate to the degree of multiplicity of resources present
+    in the system.  A taxonomy of approaches to the resource management problem
+    is presented in an attempt to provide a common terminology and
+    classification mechanism necessary in addressing this problem.  The
+    taxonomy, while presented and discussed in terms of distributed scheduling,
+    is also applicable to most types of resource management.", 
+  location     = "https://doi.org/10.1109/32.4634"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -1138,5 +1161,39 @@
     larger nice values execute, and hence limits the extent to which their
     service rates can be controlled.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{atdaonaaciads,
+  author       = "Ken~W. Shirriff and John~K. Ousterhout 
+",
+  title        = "{A} Trace-Driven Analysis of Name and Attribute Caching in a Distributed System",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "315--330",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "caching, network file system, name look-up, performance,
+    server load, cache coherence, process migration, trace-driven simulation,
+    sprite",
+  abstract     = "This paper presents the results of simulating file name and
+    attribute caching on client machines in a distributed file system.  The
+    simulation used trace data gathered on a network of about 40 workstations.
+    Caching was found to be advantageous: a cache on each client containing
+    just 10 directories had a 91% hit rate on name lookups.  Entry-based name
+    caches (holding individual directory entries) had poorer performance for
+    several reasons, resulting in a maximum hit rate of about 83%.  File
+    attribute caching obtained a 90% hit rate with a cache on each machine of
+    the attributes for 30 files.  The simulations show that maintaining cache
+    consistency between machines is not a significant problem; only 1 in 400
+    name component lookups required invalidation of a remotely cached entry.
+    Process migration to remote machines had little effect on caching.  Caching
+    was less successful in heavily shared and modified directories such as
+    /tmp, but there weren’t enough references to /tmp overall to affect the
+    results significantly.  We estimate that adding name and attribute caching
+    to the Sprite operating system could reduce server load by 36% and the
+    number of network packets by 30%.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt", 
+  location     = "ftp://ftp.cs.berkeley.edu/ucb/sprite/papers/nameUsenix92.ps.Z"
 }
 
