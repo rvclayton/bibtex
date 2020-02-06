@@ -1197,3 +1197,66 @@
   location     = "ftp://ftp.cs.berkeley.edu/ucb/sprite/papers/nameUsenix92.ps.Z"
 }
 
+@InProceedings{toatfmaaosj,
+  author       = "Matt~W. Mutka and Philip~K. McKinley ",
+  title        = "The {OPENSIM} Approach:  Tools for Management and Analysis of Simulation Jobs",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "291--304",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "condor, workstation clusters, scheduling, work sharing, guis,
+    simulations",
+  abstract     = "This paper presents the design, implementation, and usage of
+    OpenSim.  OpenSim provides new tools and integrates existing tools into an
+    environment in order to establish a comprehensive facility for performing
+    simulation work.  First, OpenSim provides a graphical user interface to
+    users for creating input files for simulations and managing output files
+    produced from simulations.  Second, tools are provided to help a user
+    easily generate plots from sets of output files assocated with a simulation
+    project.  Third, OpenSim addresses a common problem for many simulation
+    users, namely, lack of computing capacity to serve the jobs.  In order to
+    solve this problem, OpenSim integrates Condor, an existing system that
+    clusters idle workstations into a processor bank, into its environment so
+    that users have access to a large amount of computing capacity without
+    interfering with the local usage of workstations by their owners.  Finally,
+    since users often plan their schedules according to the deadlines required
+    for their jobs, OpenSim enhances Condor so that users can request jobs to
+    be scheduled within a deadline.  Therefore, a user can expect that the
+    amount of computing capacity required for a simulation project will be
+    available before a specified deadline.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{mlcidfs,
+  author       = "D.~Muntz and Peter Honeyman",
+  title        = "Multi-level Caching in Distributed File Systems",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "305--313",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "intermediate caches, distributed file systems, performance,
+    host caches, hit rates, trace-driven simulations",
+  abstract     = "We are investigating the potential for a hierarchy of
+    intermediate file servers to address scaling problems in increasingly large
+    distributed file systems.  To this end, we have run trace-driven
+    simulations based on data from DEC-SRC and our own data collection to
+    determine the potential of caching-only intermediate servers.  The degree
+    of sharing among clients is central to the effectiveness of an intermediate
+    server.  This turns out to be quite low in the traces available to us.  All
+    told, fewer than 10% of block accesses are to files shared by more than one
+    file system client.  Our simulations show that even with an infinite cache
+    at an intermediate server, cache hit rates are disappointingly low.  For
+    client caches as small as 20M, we observe hit rates under 19%.  As client
+    cache sizes increase, the hit rate at an intermediate server approaches the
+    degree of sharing among all clients.  On the other hand, the intermediate
+    server does appear to be effective in boosting the performance and
+    scalability of upstream file servers by substantially reducing the request
+    rate presented to them.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt", 
+  location     = "http://www.citi.umich.edu/techreports/reports/citi-tr-91-3.pdf"
+}
+
