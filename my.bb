@@ -119,6 +119,19 @@
   location     = "QB 44.3 H635"
 }
 
+@Book{htrm,
+  author       = "Randall Munroe",
+  title        = "How To",
+  subtitle     = "Absurd Scientific Advice for Common Real-World Problems",
+  publisher    = "Riverhead Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "jumping, pool parties, digging holes, piano playing,
+    emergency landings, crossing rivers, moving, stability, lava moats,
+    throwing, football, weather prediction, physics, algebra, modeling.",
+  location     = ""
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1258,5 +1271,155 @@
     rate presented to them.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt", 
   location     = "http://www.citi.umich.edu/techreports/reports/citi-tr-91-3.pdf"
+}
+
+@InProceedings{obf,
+  author       = "Mitch Bradley",
+  title        = "{Open Boot} Firmwear",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "223--235",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "forth, firmwear, boot-time configuration",
+  abstract     = "Open Boot is a software architecture for the firmware that
+    controls a computer before the operating system has begun execution.  The
+    Open Boot firmware design is based on a machine-independent interactive
+    programming language (Forth).  Open Boot includes features for
+    self-identifying plug-in devices with device-resident boot drivers, support
+    for disk, tape, and network booting, hardware configuration reporting, and
+    debugging tools for hardware, software, and firmware.  Open Boot is the
+    basis for the device identification and booting capabilities of SBus.  An
+    IEEE standards effort for boot firmware based on Open Boot is underway.
+    The Futurebus+ and VME-D bus standards include support for Open Boot.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{scapmotuk,
+  author       = "Michael Litzkow and Marvin Solomon ",
+  title        = "Supporting Checkpointing and Process Migration Outside the " # Unix # " Kernel",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "281--290",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "condor, checkpointing, process migration, kernel
+    interception, state transfer, coredumps",
+  abstract     = "We have implemented both checkpointing and migration of
+    processes under UNIX as a part of the Condor package.  Checkpointing,
+    remote execution, and process migration are different, but closely related
+    ideas; the relationship between these ideas is explored.  A unique feature
+    of the Condor implementation of these items is that they are accomplished
+    entirely at user level.  Costs and benefits of implementing these features
+    without kernel support are presented.  Portability issues, and the
+    mechanisms we have devised to deal with these issues, are discussed in
+    concrete terms.  The limitations of our implementation, and possible
+    avenues to relieve some of these limitations, are presented.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{pcacidce,
+  author       = "Douglas Rosenthal and Wayne Allen and Kenneth Fiduk",
+  title        = "Process Control and Communication in Distributed {CAD} Environments",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "271--281",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "ipc, load balancing, process control, message passing,
+    distributed computing",
+  abstract     = "The MCC Computer-Aided Design (CAD) Framework Process Control
+    System (PCS) provides distributed process control and communication
+    services in heterogeneous network environments.  The PCS also provides
+    network-wide load balancing via an efficient and flexible process placement
+    mechanism.  The PCS services enable design tools and CAD framework
+    components to leverage the resources of distributed computing networks,
+    while supporting various degrees of interaction through distributed,
+    real-time communication.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{lasodc,
+  author       = "Robert~M. English and Alexander~A. Stepanov",
+  title        = "Loge:  {A} Self-Organizing Disk Controller",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "237--251",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "While the task of organizing data on the disk has
+    traditionally been performed by the file system, the disk controller is in
+    many respects better suited to the task.  In this paper, we describe Loge,
+    a disk controller that uses internal indirection, accurate physical
+    information, and reliable metadata storage to improve I/O performance.  Our
+    simulations show that Loge improves overall disk performance, doubles write
+    performance, and can, in some cases, improve read performance.  The Loge
+    disk controller operates through standard device interfaces, enabling it to
+    be used on standard systems without software modification.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{hawsibtifn,
+  author       = "Bruce Nelson and Yu-Ping Cheng",
+  title        = "How and Why {SCSI} is Better than {IPI} for {NFS}",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "253--270",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "disk controllers, traffic patterns",
+  abstract     = "Disk drives are often dismissed as mundane devices, but they
+    are actually interesting, complicated, and misunderstood.  In traditional
+    Unix servers, disk storage subsystems are usually optimized for
+    sequential-transfer performance.  Perhaps counter-intuitively, however, NFS
+    file servers exhibit marked random-access disk traffic.  This report
+    investigates this apparent contradiction and shows that disk-drive
+    concurrency not disk transfer rate—is the important factor in disk storage
+    performance for most NFS network servers.  The investigation begins with a
+    concrete and detailed comparison of both performance-oriented and
+    nonperformance-oriented technical specifications of both SCSI and IPI drive
+    and interface types.  It offers a thorough empirical evaluation of SCSI
+    disk drive performance, varying parameters such as synchronous or
+    asynchronous bus transfers, random and sequential access patterns, and
+    multiplicity of drives per SCSI channel.  It discusses (nonempirically)
+    similar characteristics for IPI-2 drives.  The report concludes with
+    benchmarked comparisons of NFS file servers using SCSI-based disk arrays
+    and IPI-2 subsystems.  The results show that NFS heavy-load throughput
+    using SCSI disk arrays scales linearly with extra drives, whereas IPI-2
+    throughput scales less than proportionally with extra drives.  This SCSI
+    scalability advantage, combined with SCSI’s appealing price-performance and
+    price-capacity, make SCSI disks a superior choice for NFS servers.  IPI-2
+    drives, with their optional high transfer rates, remain an excellent choice
+    for compute-oriented servers executing large-file applications where high
+    sequential throughput is essential.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{iiiocas,
+  author       = "Murthy Devarakonda and Arup Mukherjee",
+  title        = "Issues in Implementation of Cache-Affinity Scheduling",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "345--357",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "affinity scheduling, cache management, thread scheduling,
+    performance", 
+  abstract     = "In a shared memory multiprocessor, a thread may have an
+    affinity to a processor because of the data remaining in the processor’s
+    cache from a previous dispatch.  We show that two basic problems should be
+    addressed in a Unix-like system to exploit cache affinity for improved
+    performance: First, the limitation of the Unix dispatcher model (“processor
+    seeking a thread”); Second, pseudo-affinity caused by low-cost waiting
+    techniques used in a threads package such as C Threads.  We demonstrate
+    that the affinity scheduling is most effective when used in a threads
+    package that supports multiplexing of user threads on kernel threads.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
