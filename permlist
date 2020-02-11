@@ -1398,6 +1398,7 @@ increasing mom flexibility with portable rule bases : curry
 incremental analysis of real programming languages : wagner
 incremental attribute evaluation a flexible algorithm for lazy update : hudson
 incremental computation of dominator trees : sreedhar 
+incremental data flow algorithm algorithms : ryder
 incremental development of an hdlc protocol in esterel : berry
 incremental generation of parsers : heering
 incremantal parser construction with metaobjects : joskimies
