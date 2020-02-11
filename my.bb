@@ -889,6 +889,35 @@
   location     = "https://doi.org/10.1109/32.4634"
 }
 
+@Article{idfaa,
+  author       = "Barbara~G. Ryder and Marvin~C. Paull",
+  title        = "Incremental Data-Flow Algorithm Algorithms",
+  journal      = toplas,
+  year         = 1988,
+  volume       = 10,
+  number       = 1,
+  pages        = "1--50",
+  month        = jan,
+  keywords     = "incremental algorithms, data-flow equations, interval
+    analysis",
+  abstract     = "An incremental update algorithm modifies the solution of a
+    problem that has been changed, rather than re-solving the entire problem.
+    ACINCF and ACINCB are incremental update algorithms for forward and
+    backward data-flow analysis, respectively, based on our equations model of
+    Allen-Cocke interval analysis.  In addition, we have studied their
+    performance on a “nontoy” structured programming language L.  Given a set
+    of localized program changes in a program written in L, we identify a
+    priori the nodes in its flow graph whose corresponding data-flow equations
+    may be affected by the changes.  We characterize these possibly affected
+    nodes by their corresponding program structures and their relation to the
+    original change sites, and do so without actually performing the
+    incremental updates.  Our results can be refined to characterize the
+    reduced equations possibly affected if structured loop exit mechanisms are
+    used, either singly or together, thereby relating richness of programming
+    language usage to the ease of incremental updating.", 
+  location     = "https://doi.org/10.1145/42192.42193"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -1420,6 +1449,29 @@
     techniques used in a threads package such as C Threads.  We demonstrate
     that the affinity scheduling is most effective when used in a threads
     package that supports multiplexing of user threads on kernel threads.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{at,
+  author       = "Jay Littman",
+  title        = "Applying Threads",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "209--221",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "multithreading, synchronization, deadlock, performance",
+  abstract     = "Multithreading components of a software system can increase
+    performance, but it can also increase complexity.  At Hewlett-Packard, we
+    have developed a workstation based medical product, called the Monitoring
+    Full Disclosure Review Station, or M1251A, that uses multithreading to
+    achieve performance requirements.  The M1251A continuously acquires
+    physiological waveforms and arrhythmia information for presentation to a
+    clinician in an intensive care unit.  This paper describes the benefits the
+    M1251A gains from multithreading, identifies the problems the development
+    team had with multithreading, and explains how those problems were
+    resolved.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
