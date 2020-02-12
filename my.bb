@@ -918,6 +918,29 @@
   location     = "https://doi.org/10.1145/42192.42193"
 }
 
+@Article{mmiaes,
+  author       = "Christopher Rosebrugh and Eng-Kee Kwang",
+  title        = "Multiple Microcontrollers in an Embedded System",
+  journal      = ddj,
+  year         = 1992,
+  volume       = 17,
+  number       = 1,
+  pages        = "48--57",
+  month        = jan,
+  keywords     = "hardware design, ",
+  abstract     = "A case study in system architecture and embedded hardware design"
+}
+
+@Article{j14pjsacp1,
+  author       = "Wm. Paul Rogers",
+  title        = "{J2SE} 1.4 Premieres {Java}'s Assertion Capabilities, Part 1",
+  journal      = "Java World",
+  year         = 2001,
+  month        = November,
+  keywords     = "java, assertions",
+  location     = "https://www.javaworld.com/article/2075803/j2se-1-4-premieres-java-s-assertion-capabilities--part-1.html"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -1473,5 +1496,45 @@
     team had with multithreading, and explains how those problems were
     resolved.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aspmap,
+  author       = "Bernhard Wagner and Bruce~K. Haddon",
+  title        = "Application Software:  Product Management and Privileges",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "197--207",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "system administration, portability, standards",
+  abstract     = "Application programs for UNIX are increasingly making greater
+    demands upon the system structure, are adhering less well to admittedly
+    implicit guidelines, or, are being inexactly transliterated from the
+    paradigms of other systems.  These influences add to the administrative
+    problems and load, and, in some cases, are exacerbating security risks.
+    The administrative problems and corresponding solutions are presented here
+    in a twofold manner: Firstly, by the description of our use of methods that
+    separate administration of the programs and files that make up an
+    application suite both from system administration and from eacli other.  We
+    argue that thus a sort ol modularity takes place in the software
+    administration.  The goal is the lack of need for super user privilege, so
+    that this separation improves the overall security of the system.
+    Secondly, we list a number of features that we support as being essential,
+    a list of requirements to be fulfilled by all application programs written
+    for UNIX systems.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{pcsr,
+  author       = "Spencer Rugaber",
+  title        = "Program Comprehension",
+  booktitle    = "Encyclopedia of Computer Science and Technology",
+  year         = 1995,
+  editor       = "Allen Kent and James~G. Williams",
+  pages        = "341--368",
+  publisher    = "Marcel Dekker",
+  address      = nyny,
+  keywords     = "program comprehension, cognitive models"
 }
 
