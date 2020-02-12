@@ -56,7 +56,6 @@ a correspondence between algol 60 and churchs lambda notation part ii : landin
 a correspondence between continuation passing style and static single assignment form : kelsey
 a critique of c++ : joyner
 a critique of the gnu hurd multi server operating system : walfield
-a declarative approach to visualizaing concurrent components : gruia
 a descent into limbo : kernighan
 a description of the dos file system : erdelsky
 a design rationale for a language based editor : welsh
@@ -533,7 +532,6 @@ attributed linear intermediate representations for retargetable code generators 
 auction allocation of computing resources : gagliano
 auditing throughout the software life cycle a primer : bryan
 authentication in distributed systems theory and practice : lampson
-autocollage : rother
 automate your build processing using java and ant : cymerman
 automated analysis of concurrent systems with the constrained expression toolset : avrunin
 automated error diagnosis using abductive inference : dillig
@@ -1474,7 +1472,6 @@ is turing a better language for teaching programming than pascal : martin
 issues in shared libraries design : sabatella
 iterators a sign of weakness in object oriented languages : baker
 iterators signs of weakness in object oriented languages : baker
-j2ee 1.4 premiers javas assertion capabilities : rogers
 j2ee new io : zukowski
 java 2d graphics : adair
 java anti patterns : java
@@ -1982,7 +1979,6 @@ productivity incentive clauses and rate adjustment for inflation : baumol
 profile guided automatic inline expansion for c programs : chang
 profiling for performance : newcomer
 program abstraction and instantiation : dershowitz
-program comprehension : rugaber
 program comprehension workshop notes : rajlich
 program development under inferno : peppe
 program fragments linking and modularization : cardelli
@@ -2303,7 +2299,6 @@ sorting : martin
 sorting and searching algorithms : niemann
 sovoip middleware for universal voip connectivity : arif
 ubiquitous computing using sip : berger
-ule a modern scheduler for freebsd : roberson
 using and customizing knoppix : bernier
 using data partitioning to implement a parallel assembler : katseff
 using javascript as a real programming language : mikkonen
