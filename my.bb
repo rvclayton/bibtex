@@ -132,6 +132,37 @@
   location     = ""
 }
 
+@Book{tnbcw,
+  author       = "Colson Whitehead",
+  title        = "The Nickel Boys",
+  publisher    = "Doubleday",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "racism, florida, juvenile detention, the past",
+  location     = "PS 3573.H4768 N53"
+}
+
+@Book{ystb,
+  author       = "Wendy Lesser",
+  title        = "You Say to Brick",
+  subtitle     = "The Life of Louis Kahn",
+  publisher    = fsg,
+  year         = 2017,
+  address      = nyny,
+  keywords     = "louis kahn, american architecture",
+  location     = "NA 737.K32 L48"
+}
+
+@Book{cnast,
+  author       = "Andrew~S. Tanenbaum and David~J. Wetherall",
+  title        = "Computer Networks",
+  publisher    = ph,
+  year         = 2011,
+  address      = boma,
+  keywords     = "iso osi stack, network security",
+  location     = "TK 5105.5.T36"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1536,5 +1567,126 @@
   publisher    = "Marcel Dekker",
   address      = nyny,
   keywords     = "program comprehension, cognitive models"
+}
+
+@InProceedings{rwpfm,
+  author       = "Robin Schaufler",
+  title        = "Realtime Workstation Performance for {MIDI}",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "139--",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "real-time systems, midi, system performance, benchmarking",
+  abstract     = "MIDI studio applications require 1 millisecond accuracy in
+    timing transmission and receipt of MIDI messages.  Past MIDI
+    implementations on UNIX™ have either used the Roland MPU-401 coprocessor to
+    do accurate timing, or have not had timing tests published for them.
+    Timing MIDI I/O on the host processor allows for more flexible scheduling
+    policies than the MPU-401, but many people expressed skepticism that it
+    could be done with sufficient accuracy and efficiency because of UNIX™
+    virtual memory and pre-emptive scheduling.  This paper describes studies we
+    did on providing millisecond accuracy on the host processor of a Silicon
+    Graphics Iris Indigo running IRIX, the Silicon Graphics version of UNIX.
+    Our measurements show that millisecond accuracy is feasible on IRIX™
+    without modifying the kernel.  The paper goes on to describe how the
+    studies relate to other time based media.  With a small set of real time
+    features, UNIX can really sing.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aafapmt,
+  author       = "Sun Wu and Udi Manber",
+  title        = "{\tt agrep} --- Fast Approximate Pattern-Matching Tool",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "153--162",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "approximate string matching, boyer-more, knuth-morris-pratt",
+  abstract     = "Searching for a pattern in a text file is a very common
+    operation in many applications ranging from text editors and databases to
+    applications in molecular biology.  In many instances the pattern does not
+    appear in the text exaedy.  Errors in the text or in the query can result
+    from misspelling or from experimental errors (e.g., when the text is a DNA
+    sequence).  The use of such approximate pattern matching has been limited
+    until now to specific applications.  Most text editors and searching
+    programs do not support searching with errors because of the complexity
+    involved in implementing it.  In this paper we describe a new tool, called
+    agrep, for approximate pattern matching.  Agrep is based on a new efficient
+    and flexible algorithm for approximate string matching.  Agrep is also
+    competitive with other tools for exact string matching; it include many
+    options that make searching more powerful and convenient.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aewbiwacileas,
+  author       = "Bill Cheswick",
+  title        = "An Evening with {Berferd} In Which a Cracker is Lured, Endured, and Studied",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "163--173",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "cracking, jails, honeypots, law",
+  abstract     = "On 7 January 1991 a cracker, believing he had discovered the
+    famous sendmail DEBUG hole in our Internet gateway machine, attempted to
+    obtain a copy of our password file.  I sent him one.  For several months we
+    led this cracker on a merry chase in order to trace his location and learn
+    his techniques.  This paper is a chronicle of the cracker’s 'successes' and
+    disappointments, the bait and traps used to lure and detect him, and the
+    chroot 'Jail' we built to watch his activities.  We concluded that our
+    cracker had a lot of time and persistence, and a good list of security
+    holes to use once he obtained a login on a machine.  With these holes he
+    could often subvert the uucp and bin accounts in short order, and then
+    root.  Our cracker was interested in military targets and new machines to
+    help launder his connections.  This is a draft of a paper accepted for the
+    January 1992 San Francisco Usenix.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{haph,
+  author       = "Peter Honeyman and L.~B. Huston and M.~T. Stolarchuk",
+  title        = "Hijacking {AFS}",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "175--181",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "network security, mitm attack, afs, network protocols,
+    challenge/response oracle",
+  abstract     = "We have identified several techniques that allow uncontrolled
+    access to files managed by AFS 3.0.  One method relies on administrative
+    (or root) access to a user’s workstation.  Defending against this sort of
+    attack is difficult.  Another class of attacks comes from promiscuous
+    access to the physical network.  Stronger cryptographic protocols, such as
+    those employed by AFS 3.1, obviate this problem.  These exercises help us
+    understand vulnerabilities in the distributed systems that we employ (and
+    deploy), and offer guidelines for securing them.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aibaflsdse,
+  author       = "Dale Skeen",
+  title        = "An Information Bus Architecture for Large-Scale, Decision-Support Environments",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "183--195",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "information bus, publish-subscribe",
+  abstract     = "Some of the promising industries for commercializing UNIX are
+    those requiring real-time decision support, such as trading rooms, factory
+    automation, process control, and network management.  These large-scale,
+    real-time environments present challenging technical problems of high data
+    volumes, split-second response times, and high availability.  Moreover,
+    these environments demand flexible architectures that can support a rapidly
+    changing set of application requirements.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
