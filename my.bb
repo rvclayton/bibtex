@@ -1690,3 +1690,59 @@
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
+@InProceedings{xwbstfu,
+  author       = "Doug Blewett and Scott Anderson and Meg Kilduff and Susan Udovic and Mike Wish",
+  title        = "{X Widget}-Based Software Tools for " # unix,
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "111--123",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "x resources, xtent, ipc, control flow, guis, user interface
+    development, x windows",
+  abstract     = "This paper describes a small language and IPC protocol that
+    can be used for specifying UNIX style, X Toolkit based, graphics software
+    tools.  The language is unusual in that it integrates the X Toolkit widget
+    world and the UNIX philosophy of creating applications from collections of
+    small reusable filters.  Filters can be constructed from old Xt based
+    graphics processes or specified directly in the small language.  The system
+    is based on an easily reproducible macro interpreter and IPC system that
+    can be used with any collection of widgets.  A multi-process application
+    builder constructed with the system is used as an example of how the
+    software tools philosophy can be effectively used to construct graphics
+    applications.  We present data on the use of the system by both research
+    organizations and development groups.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{pfdomlaae,
+  author       = "Reed Hastings and Bob Joyce",
+  title        = "Purify: Fast Detection of Memory Leaks and Access Errors",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "125--137",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "storage-access errors, storage leaks, detecting storage
+    leaks, object-code rewriting",
+  abstract     = "This paper describes Purify™, a software testing and quality
+    assurance tool that detects memory leaks and access errors.  Purify inserts
+    additional checking instructions directly into the object code produced by
+    existing compilers.  These instructions check every memory read and write
+    performed by the program-under-test and detect several types of access
+    errors, such as reading uninitialized memory or writing to freed memory.
+    Purify inserts checking logic into all of the code in a program, including
+    third-party and vendor object-code libraries, and verifies system call
+    interfaces.  In addition, Purify tracks memory usage and identifies
+    individual memory leaks using a novel adaptation of garbage collection
+    techniques.  Purify produces standard executable files compatible with
+    existing debuggers, and currently runs on Sun Microsystems’ SPARC family of
+    workstations.  Purify’s nearly-comprehensive memory access checking slows
+    the target program down typically by less than a factor of three and has
+    resulted in significantly more reliable software for several development
+    groups.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
