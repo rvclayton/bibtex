@@ -163,6 +163,17 @@
   location     = "TK 5105.5.T36"
 }
 
+@Book{tjs,
+  author       = "John Suchet",
+  title        = "Tchaikovsky",
+  title        = "The Man Revealed",
+  publisher    = "Pegasus Books",
+  year         = 2018,
+  address      = nyny,
+  keywords     = "p.i. tchaikovsky, russian romanticism, music composition",
+  location     = "ML 410.C4 S8"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -972,6 +983,37 @@
   location     = "https://www.javaworld.com/article/2075803/j2se-1-4-premieres-java-s-assertion-capabilities--part-1.html"
 }
 
+@Article{mmocoaiafoed,
+  author       = "Ketabchi, Mohammad~A. and Berzins, Valdis",
+  title        = "Mathematical Model of Composite Objects and Its Application for Organizing Engineering Databases",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "71--84",
+  month        = jan,
+  keywords     = "database partitioning, composite objects, engineering
+    databases, clustering concept, component aggregation, assemblies,
+    equivalent objects, equivalence classes, Boolean algebra, minterms, stored
+    views, relational database, design data, frequent access patterns", 
+  abstract     = "The authors introduce a clustering concept called component
+    aggregation which considers assemblies having the same types of parts as
+    equivalent objects.  The notion of equivalent objects is used to develop a
+    mathematical model of composite objects.  It is shown that the set of
+    equivalence classes of objects form a Boolean algebra whose minterms
+    represent the objects that are not considered composite at the current
+    viewing level.  The algebraic structure of composite objects serves as a
+    basis for developing a technique for organizing composite objects and
+    supporting materialization of explosion views.  The technique provides a
+    clustering mechanism which partitions the database into meaningful and
+    application-oriented clusters, and allows any desired explosion view to be
+    materialized using a minimal set of stored views.  A simplified relational
+    database for design data and a set of frequent access patterns in design
+    applications are outlined and used to demonstrate the benefits of database
+    organizations based on the mathematical model of composite objects.", 
+  location     = "https://doi.org/10.1109/32.4624"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -1743,6 +1785,34 @@
     the target program down typically by less than a factor of three and has
     resulted in significantly more reliable software for several development
     groups.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aaedsfti,
+  author       = "Alan Emtage and Peter Deutsch",
+  title        = "{archie} --- An Electronic Directory Service for the {Internet}",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "93--110",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "information retrieval, internet crawling, ftp, indexing",
+  abstract     = {The huge size and continued rapid growth of the Internet
+    offers a particular challenge to systems designers and service providers in
+    this new environment.  Before a user can effectively exploit any of the
+    services offered by the Internet community or access any information
+    provided by such services, that user must be aware of both the existence of
+    the service and the host or hosts on which it is available.  Adequately
+    addressing this “resource discovery problem” is a central challenge for
+    both service providers and users wishing to capitalize on the possibilities
+    of the Internet.  This paper describes archie, our attempt at an on-line
+    resource directory service for an internetworked environment.  The current
+    implementation of archie automatically indexes and makes available all
+    filenames stored at known anonymous FTP sites.  The filename information is
+    updated automatically ensuring users access to authoritative information.
+    The system also makes available the names and descriptions of several
+    thousand packages found on the Internet.}, 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
