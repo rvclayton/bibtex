@@ -174,6 +174,26 @@
   location     = "ML 410.C4 S8"
 }
 
+@Book{bleh,
+  author       = "Elizabeth Hand",
+  title        = "Blacklight",
+  publisher    = "HarperColins",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "occult, small-town life, into the weird",
+  location     = "PS 3558.A4619 B53"
+}
+
+@Book{qsr,
+  author       = "Salman Rushdie",
+  title        = "Quichotte",
+  publisher    = "Random House",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "quests, the near future, metafiction",
+  location     = "PR 6068,U757 Q53"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1014,6 +1034,61 @@
   location     = "https://doi.org/10.1109/32.4624"
 }
 
+@Article{elsfpsi,
+  author       = "Deepinder~P. Sidhu and Carole~S. Crall",
+  title        = "Executable Logic Specifications for Protocol Service Interfaces",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "98--121",
+  month        = jan,
+  keywords     = "automated development tools, formal description technique,
+    formal modeling, protocol specification, protocol verification, state
+    transitions, prolog, service specification, iso osi model, tcp, tp2, tp4",
+  abstract     = "A general, formal modeling technique for protocol service
+    interfaces is discussed.  An executable description of the model using a
+    logic-programming-based language, Prolog, is presented.  The specification
+    of protocol layers consists of two parts, the specification of the protocol
+    interfaces and the specification of entities within the protocol layer.
+    The specification of protocol interfaces forms the standard against which
+    protocols are verified.  When a protocol has been implemented, the
+    correctness of its implementation can be tested using the sequences of
+    events generated at the service interface.  If the behavior of the protocol
+    implementation is consistent with the behavior at the service interface,
+    the implementation conforms to its standard.  To illustrate how it works,
+    the model is applied to the service interfaces of protocol standards
+    developed for the transport layer of the ISO/OSI architecture.  The results
+    indicate that Prolog is a very useful formal language for specifying
+    protocol interfaces.", 
+  location     = "https://dl.acm.org/doi/10.1109/32.4626"
+}
+
+@Article{fabfpe,
+  author       = "Nazim~H. Madhavji",
+  title        = "Fragtypes:  {A} Basis for Programming Environments",
+  journal      = tse,
+  year         = 1988,
+  volume       = 14,
+  number       = 1,
+  pages        = "85--97",
+  month        = jan,
+  keywords     = "modula-2, mupe-2, program fragments, programming
+    environments, programming in the all, program composition, structured manipulation",
+  abstract     = "The author introduces a novel basis for programming
+    environments that encourages development of software in fragments of
+    various types, called fragtypes.  Fragtypes range from a simple expression
+    type to a complete subsystem type.  As a result, they are suited to the
+    development of software in an enlarged scope that includes both programming
+    in the small and programming in the large.  The author shows how proposed
+    operations on fragtypes can achieve unusual effects on the software
+    development process.  Fragtypes and their associated construction rules
+    form the basis of the programming environment MUPE-2, which is currently
+    under development at McGill University.  The target and the implementation
+    language of this environment is the programming language Modula-2.", 
+  location     = "https://dl.acm.org/doi/10.1109/32.4625"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -1813,6 +1888,117 @@
     updated automatically ensuring users access to authoritative information.
     The system also makes available the names and descriptions of several
     thousand packages found on the Internet.}, 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{tefs,
+  author       = "Sailesh Chutani and Owen~T. Anderson and Michael~L. Kazar and Bruce~W.  Leverett and W.~Anthony Mason and Robert~N. Sidebotham",
+  title        = "The {Episode} File System",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "43--60",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "file systems, filesets, metadata logging, integrity checking,
+    performance",
+  abstract     = "We describe the design of Episode,™ a highly portable
+    POSIX-compliant file system.  Episode is designed to utilize the disk
+    bandwidth efficiently, and to scale well with improvements in disk capacity
+    and speed.  It utilizes logging of meta-data to obtain good performance,
+    and to restart quickly after a crash.  Episode uses a layered architecture
+    and a generalization of files called containers to implement fileseis.  A
+    fileset is a logical file system representing a connected subtree.
+    Filesets are the unit of administration, replication, and backup in
+    Episode.  The system works well, both as a standalone file system and as a
+    distributed file system integrated with the OSF's Distributed Computing
+    Environment (DCE).  Episode will be shipped with the DCE as the Local File
+    System component, and is also exportable by NFS.  As for performance,
+    Episode meta-data operations are significantly faster than typical UNIX
+    Berkeley Fast File System implementations due to Episode's use of logging,
+    while normal I/O operations run near disk capacity.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{aiolffbu,
+  author       = "Dave Shaver and Eric Schnoebelen and George Bier",
+  title        = "An Implementation of Large Files for {BSD} " # unix,
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "61--68",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "file systems, portability, software maintenance, 64-bit
+    address spaces",
+  abstract     = "The design of the ConvexOS 1 filesystem, based on the BSD
+    Fast File System, allows for a theoretical maximum file size of about 4402G
+    2 with a 4K filesystem block size (or about 64T with 8K blocks.)
+    Unfortunately, the actual limit of the CONVEX filesystem has been 2G-1
+    because key kernel values and file offset pointers are 32-bits in size.
+    This is a problem shared by many other UNIX 3 vendors.  This paper
+    describes the path CONVEX has taken to implement files and filesystems
+    larger than 2G.  The implementation is based on a new set of 64-bit system
+    calls and new library interfaces; it requires no changes to the on-disk
+    i-node representation.  The large file programming models and the kernel
+    and utilities changes are described.  Measurements of read and write I/O
+    rates are presented and show that there is little performance penalty for
+    manipulating large files using the chosen implementation.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{serf,
+  author       = "Walter~A. Burkhard and Petar~D. Stojadinovi{\' c}",
+  title        = "Storage-Efficient Reliable Files",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "69--77",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "n-of-m redundancy, reliability, file systems, file dispersal,
+    fault tolerance, performance",
+  abstract     = "The File Dispersal Shell is a storage-efficient reliable data
+    storage prototype facility for local area networks.  Rabin's information
+    dispersal algorithm provides an attractive data organization scheme which
+    potentially uses less physical storage space than replication while
+    obtaining excellent data reliability and access times comparable to those
+    obtained for a single disk.  We have constructed Rabin's information
+    dispersal algorithm within a UNIX system shell that provides almost all the
+    traditional shell facilities augmented with two additional commands to
+    create and delete dispersed files.  We present analytical
+    mean-time-to-data-loss results, storage requirements, together with our
+    prototype implementation and preliminary access-time measurements.  For
+    practical purposes, dispersed files are invisible to the user except for
+    the improved reliability at modest disk space cost.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{mmftbu,
+  author       = "Nathaniel~S. Borenstein",
+  title        = "Multimedia Mail From the Bottom Up",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "79--91",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "multimedia, mail, extensions, outboard processing,
+    configuration files, usability",
+  abstract     = "Multimedia mail systems have exhibited great potential, but
+    the widespread use of multimedia mail has so far been inhibited by the lack
+    of interchange standards and the heterogeneity of mail-reading software.
+    This paper describes a new approach that seeks to break the existing
+    log-jam and make multimedia mail a practical reality.  The paper begins
+    with a brief summary of the state of the art in multimedia mail systems.
+    It then outlines the new, 'bottom-up' approach, and describes the
+    configuration mechanism that is central to its operation.  Next, it
+    describes a prototype implementation and its deployment on top of over a
+    dozen different mailreading programs at Bellcore and elsewhere.  Finally,
+    problems in the prototype installation are discussed, along with future
+    prospects for multimedia mail using this approach.  The paper ends by
+    outlining a vision of a new and better 'lowest common denominator' for
+    electronic mail.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
