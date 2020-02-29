@@ -72,7 +72,6 @@ a fast division technique for constant divisors : artzy
 a fast tmp file system by delay mount option : ohta
 a fast file system for unix : mckusick
 a fifteen puzzle in fran : elliott
-a filesystem for software development : hendricks
 a first course in computer science mathematical principles for software engineering : mills
 a first look at novice compilation behaviorusing bluej : jadud
 a formal description of behavioral verilog based on axiomatic semantics : fiskio
@@ -390,7 +389,6 @@ an action based framework for verifying logical and behavioural properties of co
 an ada interface to diana for intertool communication : howell
 an adaptive transport service suitable for high speed networks : richards
 an agent based approach for building complex software systems : jennings
-an algebraic specification of hdlc procedures and its verification : higashino
 an algorithm for filling regions on graphics display devices : lane
 an alternative to the use of patterns in string processing : griswold
 an alphard specification of a correct and efficient transformation on data structures : bentley
@@ -1134,7 +1132,6 @@ fiddling around with files part 1 : mauro
 fields in physics are like curried functions or physics for functional programmers : leavens
 file verification using crc : nelson
 file servers for network based distrubuted systems : svobodova
-file system design for an nfs file sever application : hitz
 file systems in user space : eggert
 filet o fish practical and dependable domain specific languages for os development : dagland
 filter objects for java : joshi
