@@ -1155,6 +1155,31 @@
   location     = "https://dspace.mit.edu/bitstream/handle/1721.1/6163/AIM-158.pdf"
 }
 
+@TechReport{atsij,
+  author       = "Christian Heinlein",
+  title        = "Advanced Thread Synchronization in {Java}",
+  institution  = "Dept. of Computer Structures, University of Ulm",
+  year         = 2002,
+  address      = "Ulm, Germany",
+  keywords     = "bounded buffers, interaction expressions, readers-writers
+    problem, synchronization, threads, java",
+  abstract     = "Thread synchronization in Java using synchronized methods or
+    statements is simple and straightforward as long as mutual exclusion of
+    threads is sufficient for an application.  Things become less
+    straightforward when wait() andnotify() have to be employed to realize more
+    flexible synchronization schemes.  Using two well-known examples, the
+    bounded buffer and the readers and writers problem, the traps and snares of
+    hand-coded synchronization code and its entanglement with the actual
+    application code are illustrated.  Following that, interaction expressions
+    are introduced as a completely different approach where synchronization
+    problems are solved in a declarative way by simply specifying permissible
+    execution sequences of methods.  Their integration into the Java
+    programming language using a simple precompiler and the basic ideas to
+    enforce at run time the synchronization constraints specified that way are
+    described.", 
+  location     = "https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1007%2F3-540-36557-5_25"
+}
+
 @InProceedings{cmultsygbtr,
   author       = "Stanley~P. Hanks",
   title        = "Creating {MAN}s using {LAN} Technology:  Sometimes You Gotta Break the Rules",
@@ -1999,6 +2024,63 @@
     prospects for multimedia mail using this approach.  The paper ends by
     outlining a vision of a new and better 'lowest common denominator' for
     electronic mail.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{lpmtfu,
+  author       = "Margo Seltzer and Michael Olson",
+  title        = "{LIBTP}: Portable, Modular Transactions for " # unix,
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "9--25",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "transactions, shared storage, user-space libraries, two-phase
+    commit, crash recovery, lock management",
+  abstract     = "Transactions provide a useful programming paradigm for
+    maintaining logical consistency, arbitrating concurrent access, and
+    managing recovery.  In traditional UNIX systems, the only easy way of using
+    transactions is to purchase a database system.  Such systems are often
+    slow, costly, and may not provide the exact functionality desired.  This
+    paper presents the design, implementation, and performance of LIBTP, a
+    simple, non-proprietary transaction library using the 4.4BSD database
+    access routines (db(3)).  On a conventional transaction processing style
+    benchmark, its performance is approximately 85% that of the database access
+    routines without transaction protection, 200% that of using fsync(2) to
+    commit modifications to disk, and 125% that of a commercial relational
+    database system.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt", 
+  location     = "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/1925.html"
+}
+
+@InProceedings{etaomffsio,
+  author       = "Orran Krieger and Michael Stumm and Ron Unrau",
+  title        = "Exploiting the Advantages of Mapped Files for Stream {I}/{O}",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "27--42",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "file-mapped io, std-io, stream io",
+  abstract     = "A new approach for providing user level support for fast
+    stream I/O is motivated by four factors common to most modern systems: 1)
+    the capability of the operating system to support mapped files, 2) the
+    increasing number of applications that use threads, 3) the increasing
+    discrepancy between processor speed and disk latency, and 4) the increasing
+    amount of available main memory.  In this paper, we first describe the
+    advantages and disadvantages of using mapped files to support stream access
+    to files, and then describe a new interface, the Alloc Stream Interface
+    (ASI), that allows for improved performance over existing stream
+    interfaces.  A library that supports ASI has been implemented on several
+    systems (including IRIX and SunOS).  In addition, the Stdio library has
+    been re-implemented to use ASI.  Significant performance advantages are
+    demonstrated for Stdio applications that are linked to this new library and
+    particularly for applications that are modified to use ASI directly.  For
+    example, on typical Unix platforms, some standard I/O intensive utilities
+    are shown to run up to twice as fast when re-linked to use this library and
+    up to three times as fast when converted to use ASI.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
