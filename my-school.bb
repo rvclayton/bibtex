@@ -27982,7 +27982,18 @@
   number       = "TR02-04",
   address      = taz,
   month        = nov,
-  keywords     = "nfs, routing",
+  keywords     = "nfs, routing, distributed file systems",
+  abstract     = "Mirage aggregates multiple NFS servers into a single, virtual
+    NFS file server.  It is interposed between the NFS clients and servers,
+    making the clients believe that they are communicating with a single, large
+    server.  Mirage is an NFS router because it routes an NFS request from a
+    client to the proper NFS server, and routes the reply back to the proper
+    client.  Experiments with a Mirage prototype show that Mirage effectively
+    virtualizes an NFS server using unmodified clients and servers.  Mirage
+    imposes a negligible overhead on a realistic NFS workload.  On real world
+    workloads, such as a collection of clients executing compile jobs over NFS,
+    Mirage imposes an overhead of 3% as compared to a proxy that simply
+    forwards packets.",
   location     = "ftp://ftp.cs.arizona.edu/reports/2002/TR02-04.pdf"
 }
 
@@ -27995,6 +28006,22 @@
   address      = taz,
   month        = jun,
   keywords     = "file systems, agents, logging file systems",
+  abstract     = "Swarm is a scalable, modular storage system that allows
+    high-level services to influence low-level storage functions such as data
+    layout, metadata management, and crash recovery via agents.  An agent is a
+    program that is attached to data in the storage system and invoked when
+    particular events occur during the data's lifetime.  For example, when
+    Swarm needs to write data to disk, agents attached to the data are invoked
+    to determine a layout policy.  Agents can be persistent, so that they
+    remain attached to the data they manage until the data are deleted; this
+    allows agents to continue to affect how the data are handled long after the
+    application or storage service that created the data has terminated.  Swarm
+    and its agent mechanism are implemented as a Linux kernel module.  In this
+    paper, we present Swarm's agent architecture, describe the types of agents
+    that Swarm supports and the infrastructure used to support them, and
+    discuss their performance overhead and security implications.  We describe
+    how several storage services and applications use agents, and the benefits
+    they derive from doing so.", 
   location     = "ftp://ftp.cs.arizona.edu/reports/2002/TR02-01.pdf"
 }
 
@@ -28293,6 +28320,19 @@
   pages        = "91--101",
   organization = "ACM SIGOPS",
   publisher    = acmp,
+  keywords     = "protocol design, software design, interface uniformity, late
+    binding, virtual protocols, layered protocols, software optimization",
+  abstract     = "This paper reports our experiences implementing remote
+    procedure call (RPC) protocols in the x-kernel.  This exercise is
+    interesting because the RPC protocols exploit two novel design techniques:
+    virtual protocols and layered protocols.  These techniques are made
+    possible because the x-kernel provides an object-oriented infrastructure
+    that supports three significant features: a uniform interface to all
+    protocols, a late binding between protocol layers, and a small overhead for
+    invoking any given protocol layer.  For each design technique, the paper
+    motivates the technique with a concrete example, describes how it is
+    applied to the implementation of RPC protocols, and presents the results of
+    experiments designed to evaluate the technique.", 
   keywords     = "protocol interface, layered protocols, virtual protocols"
 }
 
@@ -29288,17 +29328,6 @@
 	pages		= "60--67",
 	month		= sep,
 	year		= 1989}
-
-@inproceedings{magenheimer:87,
-	author		= "D.J. Magenheimer and L. Peters and K. Pettis and
-			D. Zuras",
-	title		= "Integer multiplication and division on the HP
-			precision architecture",
-	booktitle	= asplos2,
-	pages		= "90--99",
-	address		= "Palo Alto, CA",
-	month		= oct,
-	year		= 1987}
 
 @MastersThesis{povl,
   author       = "Nandakumar Sankaran",
