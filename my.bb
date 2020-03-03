@@ -1,6 +1,6 @@
 .so bibtex.header
 
-@string{asplos87 = sigplan # " (" # pot # "Second International Conference on " # asplos # ", ASPLOS II)"}
+@string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
@@ -192,6 +192,17 @@
   address      = nyny,
   keywords     = "quests, the near future, metafiction",
   location     = "PR 6068,U757 Q53"
+}
+
+@Book{gase,
+  author       = "Shimon Even",
+  title        = "Graph Algorithms",
+  publisher    = "Computer Science Press",
+  year         = 1979,
+  address      = "Potomac, Maryland",
+  keywords     = "graph theory, paths, trees, depth-first search, ordered
+    trees, maximum flow, planar graphs, graph planarity tests, np completeness",
+  location     = "QA 166.E93"
 }
 
 @Article{famw,
@@ -1087,6 +1098,82 @@
     under development at McGill University.  The target and the implementation
     language of this environment is the programming language Modula-2.", 
   location     = "https://dl.acm.org/doi/10.1109/32.4625"
+}
+
+@Article{aaomasisuotsb,
+  author       = "Robert~F. Cmelik and Shing~I. Kong and David~R. Ditzel and Edmund~J. Kelly",
+  title        = "An Analysis of {MIPS} and {SPARC} Instruction Set Utiliation on the {SPEC} Benchmarks",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "290--302",
+  month        = apr,
+  keywords     = "instruction sets, sparc, mips, risc, autoincrement,
+    compilers, delay slots",
+  abstract     = "The dynamic instruction counts of MIPS and SPARC are compared
+    using the SPEC benchmarks.  MIPS typically executes more user-level
+    instructions than SPARC.  This difference can be accounted for by
+    architectural differences, compiler differences, and library differences.
+    The most significant differences are that SPARC�S double-precision floating
+    point load/store is an architectural advantage in the SPEC floating point
+    benchmarks while MIPS�s compare-and-branch instruction is an architectural
+    advantage in the SPEC integer benchmarks.  After the differences in the two
+    architectures are isolated, it appears that although MIPS and SPARC each
+    have strengths and weaknesses in their compilers and library routines, the
+    combined effect of compilers and library routines does not give either MIPS
+    or SPARC a clear advantage in these areas.", 
+  location     = "https://doi.org/10.1145/106974.107001"
+}
+
+@Article{pcoafotirs6,
+  author       = "C.~Brian Hall and Kevin O'Brien",
+  title        = "Performance Characteristics of Architectural Features of the {IBM RISC System/6000}",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "303--308",
+  month        = apr,
+  keywords     = "instruction sets, count registers, branching, performance,
+    condition codes",
+  abstract     = "The IBM RISC System/6000 has a number of architectural
+    features that, are not usually found on RISC machines.  Among these are
+    pre-increment and decrement forms of memory referencing instructions, a
+    special purpose count register that can be used as a loop counter, and
+    eight independent sets of condition code bits.  This paper examines the
+    performance gained on a number of industry sta.udard benchmarks through the
+    use of each of these features.", 
+  location     = "https://doi.org/10.1145/106974.107002"
+}
+
+@Article{pfacaraacws,
+  author       = "Dileep Bhandarkar and Douglas~W. Clark",
+  title        = "Performance from Architecture:  Comparing a {RISC} and a {CISC} with Similar Hardware Organization",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "310--319",
+  month        = apr,
+  keywords     = "performance, mips, vax, pipelining, benchmarking, cache
+    behavior, system architecture",
+  abstract     = "Performance comparisons across different computer
+    architectures cannot usually separate the architectural contribution from
+    various implementation and technology contributions to performance.  This
+    paper compares an example implementation from the RISC and CISC
+    architectural schools (a MIPS M/2000 and a Digital VAX 8700) on nine of the
+    ten SPEC benchmarks.  The organizational similarity of these machines
+    provides an opportunity to examine the purely architectural advantages of
+    RISC.  The RISC approach offers, compared with VAX, many fewer cycles per
+    instruction but somewhat more instructions per program.  Using results from
+    a software monitor on the MIPS machine and a hardware monitor on the VAX,
+    this paper shows that the resulting advantage in cycles per program ranges
+    from slightly under a factor of 2 to almost a factor of 4, with a geometric
+    mean of 2.7.  It also demonstrates the correlation between cycles per
+    instruction and relative instruction count.  Various reasons for this
+    correlation, and for the consistent net advantage of RISC, are discussed.", 
+  location     = "https://doi.org/10.1145/106972.107003"
 }
 
 @TechReport{aqmafd30,
@@ -2081,6 +2168,40 @@
     example, on typical Unix platforms, some standard I/O intensive utilities
     are shown to run up to twice as fast when re-linked to use this library and
     up to three times as fast when converted to use ASI.", 
+  location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{cco,
+  author       = "Eduardo Krell and Balachander Krishnamurthy",
+  title        = "{COLA}: Customied Overlaying",
+  booktitle    = usenixw92,
+  year         = 1991,
+  pages        = "3--7",
+  organization = "USENIX Association",
+  address      = sfca,
+  month        = "20--24 " # jan,
+  keywords     = "",
+  abstract     = "System calls are the basic building blocks for writing
+    programs in the UNIX operating system.  From the canonical read, write,
+    open, close, seek, ...  to the more obscure ones, programs have been
+    written to use system calls in a variety of ways.  Often there is a need to
+    intercept a few system calls to perform some special task.  Given that it
+    is hard to go below the level of system calls and still write portable
+    programs, it is easy to see the need for intercepts at the system call
+    level.  A simple example of a useful interception facility is a library
+    that watches for file creation and modifications.  In this paper we
+    describe COLA, an elegant, customizable and dynamic facility to overlay a
+    variety of system call intercepts.  With COLA, users can specify an
+    arbitrary number of system call filters, each of which may intercept
+    different system calls and perform different actions upon interception.
+    The set of overlaying filters can be modified at any time during the
+    session.  A program run under COLA will have any of the filtered system
+    calls processed at each layer before control is passed on to the next
+    layer.  The final layer always is the standard UNIX system call layer.
+    System calls not intercepted by any of the overlaying filters will execute
+    transparently.  No recompilation of programs or static relinking is
+    necessary.  It should be noted that this facility depends on availability
+    of shared libraries.",
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
 
