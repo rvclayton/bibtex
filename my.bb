@@ -205,6 +205,17 @@
   location     = "QA 166.E93"
 }
 
+@Book{ckmspw,
+  author       = "Maj Sj{\" o}wall and Per Wahl{\" o}{\" o}",
+  title        = "Cop Killer",
+  publisher    = "Vintage",
+  year         = 1975,
+  address      = nyny,
+  price        = "$1.75",
+  keywords     = "murrdaar, coincidences",
+  location     = "PT 9876.29.J63"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1174,6 +1185,91 @@
     instruction and relative instruction count.  Various reasons for this
     correlation, and for the consistent net advantage of RISC, are discussed.", 
   location     = "https://doi.org/10.1145/106972.107003"
+}
+
+@Article{pcwfai,
+  author       = "Eric Freudenthal and Allan Gottlieb",
+  title        = "Process Coordination with Fetch-and-Increment",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "260--268",
+  month        = apr,
+  keywords     = "barrier synchronization, bottleneck-free algorithms,
+    fetch-and-add, fetch-and-increment, parallel access queues, process
+    coordination, readers-writers problem",
+  abstract     = "The fetch-and-add (F&A) operation has been used effectively
+    in a number of process coordination algorithms.  In this paper we assess
+    the power of fetch-and-increment (F&I) and fetch-and-decrement (F&D), which
+    we view as restricted forms of F&A in which the only addends permitted are
+    ±1.  F&A-based algorithms that use only unit addends are thus trivially
+    expressed with just F&I and F&D.  Our primary contributions are new F&I/F&D
+    algorithms for readers/writers coordination and barrier synchronization for
+    dynamically-sized groups.  We also restructure an existing F&A-based
+    algorithm for queues-with-multiplicity to obtain an algorithm using just
+    F&I and F&D.  When executed on certain hardware architectures, most of
+    these algorithms are free of serial bottlenecks.  We also discuss a general
+    technique for implementing F&A using F&I/F&D at a cost logarithmic in the
+    number of processors.", 
+  location     = "https://doi.org/10.1145/106974.106998", 
+  location     = "https://nyuscholars.nyu.edu/en/publications/process-coordination-with-fetch-and-increment"
+}
+
+@Article{tcfarb,
+  author       = "Douglas Johnson",
+  title        = "The Case for a Read Barrier",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "279--287",
+  month        = apr,
+  keywords     = "lisp, garbage collection, generational gc, temporal gc,
+    virtual memory, paging",
+  abstract     = "This paper looks at the performance of two different garbage
+    collection algorithms on a very large and long running Lips application.
+    Both algorithms use write barriers for generational collection.  Only one
+    algorithm uses a rad barrier for incremental collection.  The results show
+    little difference in the two algorithm's ability to collect garbage and
+    some difference in memory size.  Any differences in CPU usage were too
+    small to be visible with the measuring techniques used.  However, there
+    were major differences in paging behavior with a read barrier permitted the
+    garbage collector to work with the virtual memory manager instead of
+    independently.", 
+  location     = "https://doi.org/10.1145/106974.107000"
+}
+
+@Article{swcjmmc,
+  author       = "John~M. Mellor-Crummey and Michael~L. Scott",
+  title        = "Synchroniation Without Contention",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "269--278",
+  month        = apr,
+  keywords     = "bbn butterfly multiprocessor and busy-wait synchronization
+    and contention-free mutual exclusion and dance hall machines and exploit
+    local access and fetch_and_X instructions and large shared-memory
+    multiprocessor and local access and memory consistency  and performance and
+    reader-writer control and sequent symmetry and special-purpose hardware
+    support", 
+  abstract     = "Conventional wisdom holds that contention due to busy-wait
+    synchronization is a major obstacle to scalability and acceptable
+    performance in large shared-memory multiprocessors.  We argue the contrary,
+    and present fast, simple algorithms for contention-free mutual exclusion,
+    reader-writer control, and barrier synchronization.  These algorithms,
+    based on widely available fetch_and_phi instructions, exploit local access
+    to shared memory to avoid contention.  We compare our algorithms to
+    previous approaches in both qualitative and quantitative terms, presenting
+    their performance on the Sequent Symmetry and BBN Butterfly
+    multiprocessors.  Our results highlight the importance of local access to
+    shared memory, provide a case against the construction of so-called 'dance
+    hall' machines, and suggest that special-purpose hardware support for
+    synchronization is unlikely to be cost effective on machines with
+    sequentially consistent memory.", 
+  location     = "https://doi.org/10.1145/106975.106999"
 }
 
 @TechReport{aqmafd30,
