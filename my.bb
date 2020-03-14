@@ -216,6 +216,28 @@
   location     = "PT 9876.29.J63"
 }
 
+@Book{teor,
+  author       = "Stephen~P. Kershaw",
+  title        = "The Enemies of Rome",
+  subtitle     = "The Barbarian Rebellion Against the Roman Empire",
+  publisher    = "Pegasus Books",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "ancient rome, warfare, barbarians",
+  location     = ""
+}
+
+@Book{ldods,
+  author       = "Arthur~D. Friedman",
+  title        = "Logical Design of Digital Systems",
+  publisher    = "Computer Science Press",
+  year         = 1975,
+  address      = "Woodland Hills, California",
+  keywords     = "number systems, nondecimal arithmetic, codes, combinational
+    circuits, sequential circuits, circuit design",
+  location     = "TK 7868.S9 F74"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -892,7 +914,7 @@
     parallelism and increased throughput for large multi-user system.  Three
     factors have limited the commercial success of multiprocessor systems;
     entry cost, range of performance, and ease of application.  Advances in
-    very large scale integration (VLSI) and in computer aided design (CAD) have
+    large scale integration (VLSI) and in computer aided design (CAD) have
     removed these limitations, making possible a new class of multiprocessor
     systems based on VLSI components.  A set of requirements for building an
     efficient shared multiprocessor system are discussed, including: low-level
@@ -1081,7 +1103,7 @@
     the implementation conforms to its standard.  To illustrate how it works,
     the model is applied to the service interfaces of protocol standards
     developed for the transport layer of the ISO/OSI architecture.  The results
-    indicate that Prolog is a very useful formal language for specifying
+    indicate that Prolog is a useful formal language for specifying
     protocol interfaces.", 
   location     = "https://dl.acm.org/doi/10.1109/32.4626"
 }
@@ -1228,7 +1250,7 @@
   keywords     = "lisp, garbage collection, generational gc, temporal gc,
     virtual memory, paging",
   abstract     = "This paper looks at the performance of two different garbage
-    collection algorithms on a very large and long running Lips application.
+    collection algorithms on a large and long running Lips application.
     Both algorithms use write barriers for generational collection.  Only one
     algorithm uses a rad barrier for incremental collection.  The results show
     little difference in the two algorithm's ability to collect garbage and
@@ -1270,6 +1292,212 @@
     synchronization is unlikely to be cost effective on machines with
     sequentially consistent memory.", 
   location     = "https://doi.org/10.1145/106975.106999"
+}
+
+@Article{aecbaads,
+  author       = "Sang~L. Min and Jong-Deok Choi",
+  title        = "An Efficient Cache-based Access Anomaly Detection Scheme",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "235--244",
+  month        = apr,
+  keywords     = "cache coherence, access anomalies, processor scheduling,
+    cache-coherence protocols",
+  abstract     = "One of the important issues in parallel program debugging is
+    an efficient detection of access anomalies caused by uncoordinated access
+    to shared variables.  On-the-fly detection of access anomalies has the
+    major advantage that it reports only actual anomalies during execution
+    while static analysis methods report all the potential anomalies, many of
+    which cannot actually materialize during execution.  It also has the
+    advantage that shorter traces are produced for post-mortem analysis
+    purposes if an anomaly is detected.  The reason for this is that after an
+    anomaly occurs, further trace information is of dubious value because the
+    first anomaly may have affected subsequent program behavior.  So, once the
+    first anomaly occurs, no further trace information need be generated.
+    Existing methods for on-the-fly access anomaly detection suffer from
+    performance penalties since the execution of the program being debugged has
+    to be interrupted on every access to shared variables.  In this paper, we
+    propose an efficient cache-based access anomaly detection scheme that
+    piggybacks on the overhead already paid by the underlying cache coherence
+    protocol.", 
+  location     = "https://doi.org/10.1145/106973.106996"
+}
+
+@Article{peomcmfsmm,
+  author       = "Kourosh Gharachorloo and Anoop Gupta and John Hennessy",
+  title        = "Performance Evaluation of Memory Consistency Models for Shared-Memory Multiprocessors",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "245--257",
+  month        = apr,
+  keywords     = "The memory consistency model supported by a multiprocessor
+    architecture determines the amount of buffering and pipelining that may be
+    used to hide or reduce the latency of memory accesses.  Several different
+    consistency models have been proposed.  These range from sequential
+    consistency on one end, allowing limited buffering, to release
+    consistency on the other end, allowing extensive buffering and pipelining.
+    The processor consistency and weak consistency models fall in between.  The
+    advantage of the less strict models is increased performance potential.
+    The disadvantage is increased hardware complexity and a more complex
+    programming model.  To make an informed decision on the above trade-off
+    requires performance data for the various models.  This paper addresses the
+    issue of performance benefits from the above four consistency models.  Our
+    results are based on simulation studies done for three applications.  The
+    results show that in an environment where processor reads are blocking and
+    writes are buffered, a significant performance increase is achieved from
+    allowing reads to bypass previous writes.  Pipelining of writes, which
+    determines the rate at which writes are retired from the write buffer, is
+    of secondary importance.  As a result, we show that the sequential
+    consistency model performs poorly relative to all other models, while the
+    processor consistency model provides most of the benefits of the weak and
+    release consistency models.", 
+  location     = "https://doi.org/10.1145/106973.106997"
+}
+
+@Article{pacup,
+  author       = "Jacques Cohen and Timothy~J. Hickey",
+  title        = "Parsing and Compiling Using Prolog",
+  journal      = toplas,
+  year         = 1987,
+  volume       = 9,
+  number       = 2,
+  pages        = "125--163",
+  month        = apr,
+  keywords     = "code generation, grammar properties, optimization, parsing,
+    prolog, backtracking, definite-clause grammars, difference lists",
+  abstract     = "This paper presents the material needed for exposing the
+    reader to the advantages of using Prolog as a language for describing
+    succinctly most of the algorithms needed in prototyping and implementing
+    compilers or producing tools that facilitate this task.  The available
+    published material on the subject describes one particular approach in
+    implementing compilers using Prolog.  It consists of coupling actions to
+    recursive descent parsers to produce syntax-trees which are subsequently
+    utilized in guiding the generation of assembly language code.  Although
+    this remains a worthwhile approach, there is a host of possibilities for
+    Prolog usage in compiler construction.  The primary aim of this paper is to
+    demonstrate the use of Prolog in parsing and compiling.  A second, but
+    equally important, goal of this paper is to show that Prolog is a
+    labor-saving tool in prototyping and implementing many non-numerical
+    algorithms which arise in compiling, and whose description using Prolog is
+    not available in the literature.  The paper discusses the use of
+    unification and nondeterminism in compiler writing as well as means to
+    bypass these (costly) features when they are deemed unnecessary.  Topics
+    covered include bottom-up and top-down parsers, syntax-directed
+    translation, grammar properties, parser generation, code generation, and
+    optimizations.  Newly proposed features that are useful in compiler
+    construction are also discussed.  A knowledge of Prolog is assumed.", 
+  location     = "https://doi.org/10.1145/22719.22946"
+}
+
+@Article{pcoppida,
+  author       = "Edward~K. Lee and Randy~H. Katz",
+  title        = "Performance Consequences of Parity Placement in Disk Arrays",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "190--199",
+  month        = apr,
+  keywords     = "raid, error detection, parity, data mapping, performance",
+  abstract     = "Due to recent advances in CPU and memory system performance,
+    I/O systems are increasingly limiting the performance of modern computer
+    systems.  Redundant Arrays of Inexpensive Disks (RAID) have been proposed
+    by Patterson et. al. to meet the impending I/O crisis.  RAIDs substitute
+    many small inexpensive disks for a few large expensive disks to provide
+    higher performance (both transfer rate and I/O rate), smaller footprints
+    and lower power consumption at a lower cost than the large expensive disks
+    they replace, Unfortunately, with so many small disks, media availability
+    becomes a serious problem.  RAIDs provide high availability by using parity
+    encoding of data to survive disk failures.  As will be shown by this paper,
+    the way parity is distributed in a RAID has significant consequences for
+    performance.  In particular, we show that for relatively large request
+    sizes of hundreds of kilobytes, the choice of parity placement
+    significantly affects performance (up to 20-30 percent for the typical disk
+    array configurations that are common today) and propose properties that are
+    generally desirable of parity placements.",  
+  location     = "https://doi.org/10.1145/106974.106992"
+}
+
+@Article{ctcocacfatlf,
+  author       = "Vincent Cate and Thomas Gross",
+  title        = "Combining the Concepts of Compression and Caching for a Two-Level Filesystem",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "200--211",
+  month        = apr,
+  keywords     = "compression algorithms, file migration, caching, temporal
+    locality, lru, file migration, storage hierarchies",
+  abstract     = "Caching Storage systems have always attempted to use
+    properties of the files that are stored in the system to optimize access
+    time, capacity, and/or cost.  Compression exploits patterns within files,
+    and file migration and file caching exploit file access patterns, but the
+    combination of these concepts has not been reported on before.  We discuss
+    here the effectiveness of a filesystem that integrates caching and
+    compression to provide two levels of file storage on disks.  This
+    investigation is based on measurements that were collected on nine
+    computers at three different sites.  The data indicate that automatic
+    compression of least recently used files doubles the amount of data that
+    can be stored on a given disk system, while incurring only a slight
+    performance cost.", 
+  location     = "https://doi.org/10.1145/106973.106993"
+}
+
+@Article{npatrtma,
+  author       = "William~J. Bolosky and Michael~L. Scott and Robert~P. Fitzgerald and Robert~J. Fowler and Alan~L. Cox",
+  title        = "{NUMA} Policies and Their Relation to Memory Architecture",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "212--221",
+  month        = apr,
+  keywords     = "trace-based analysis, global storage, programming style, ",
+  abstract     = "Multiprocessor memory reference traces provide a wealth of
+    information on the behavior of parallel programs.  We have used this
+    information to explore the relationship between kernel-based NUMA
+    management policies and multiprocessor memory architecture.  Our trace
+    analysis techniques employ an off-line, optimal cost policy as a baseline
+    against which to compare on-line policies, and as a policy-insensitive tool
+    for evaluating architectural design alternatives.  We compare the
+    performance of our optimal policy with that of three implementable policies
+    (two of which appear in a previous work), on a variety of applications,
+    with varying relative speeds for page moves and local, global, and remote
+    memory references.  Our results indicate that a good NUMA policy must be
+    chosen to match its machine, and confirm that such policies can be both
+    simple and effective.  They also indicate that programs for NUMA machine
+    must be written with care to obtain the best performance.", 
+  location     = "https://doi.org/10.1145/106973.106994"
+}
+
+@Article{ldasccs,
+  author       = "David Chaiken and John Kubiatowicz and Anant Agarwal",
+  title        = "{LimitLESS} Directories:  A Scalable Cache Coherence Scheme",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "224--234",
+  month        = apr,
+  keywords     = "alewife machine, cache coherence, cache coherence protocol,
+    interprocessor interrupt, performance",
+  abstract     = "Caches enhance the performance of multiprocessors by reducing
+    network traffic and average memory access latency.  However, cache-based
+    systems must address the problem of cache coherence.  We propose the
+    LimitLESS directory protocol to solve this problem.  The LimitLESS scheme
+    uses a combination of hardware and software techniques to realize the
+    performance of a full-map directory with the memory overhead of a limited
+    directory.  This protocol is supported by Alewife, a large-scale
+    multiprocessor.  We describe the architectural interfaces needed to
+    implement the LimitLESS directory, and evaluate its performance through
+    simulations of the Alewife machine.", 
+  location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a237629.pdf",
+  location     = "https://doi.org/10.1145/106973.106995"
 }
 
 @TechReport{aqmafd30,
@@ -1389,7 +1617,7 @@
     data transmission.  This provided a unique opportunity to address the
     question of how to provide LAN speed connectivity in and between
     metropolitan areas using commercially available products.  This paper
-    discusses the development of the very high speed MAN connectivity service
+    discusses the development of the high speed MAN connectivity service
     offerings based on FDDI provided by MFS.", 
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
 }
@@ -1931,7 +2159,7 @@
   address      = sfca,
   month        = "20--24 " # jan,
   keywords     = "approximate string matching, boyer-more, knuth-morris-pratt",
-  abstract     = "Searching for a pattern in a text file is a very common
+  abstract     = "Searching for a pattern in a text file is a common
     operation in many applications ranging from text editors and databases to
     applications in molecular biology.  In many instances the pattern does not
     appear in the text exaedy.  Errors in the text or in the query can result
