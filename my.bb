@@ -238,6 +238,28 @@
   location     = "TK 7868.S9 F74"
 }
 
+@Book{tcdtrhpcp,
+  author       = "Peter Buse",
+  title        = "The Camera Does the Rest",
+  subtitle     = "How Polaroid Changed Photography",
+  publisher    = ucp,
+  year         = 2016,
+  address      = chil,
+  keywords     = "photography, polaroid, technology, history, marketing",
+  location     = "TR 269.B87"
+}
+
+@Book{tlabt,
+  author       = "Barbara Taylor",
+  title        = "The Last Asylum",
+  subtitle     = "A Memoir of Madness in Our Times",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "mental health, psychotherapy",
+  location     = "RC 451.4.W6 T38"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1498,6 +1520,177 @@
     simulations of the Alewife machine.", 
   location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a237629.pdf",
   location     = "https://doi.org/10.1145/106973.106995"
+}
+
+@Article{iraaisfr,
+  author       = "David~G. Bradlee and Susan~J. Eggers and Robert~R. Henry",
+  title        = "Integrating Register Allocation and Instruction Scheduling for {RISC}s",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "122--131",
+  month        = apr,
+  keywords     = "instruction scheduling, register allocation, risc, pass
+    phasing, code generation",
+  abstract     = "To achieve high performance in uniprocessor RISC systems,
+    compilers must perform both register allocation to reduce memory references
+    and instruction scheduling to avoid pipeline hazards.  Compilers that
+    separate the two functions should perform poorly on uniprocessor RISCS that
+    support multi-cycle operations, particularly on computation-intensive
+    workloads.  This is because the lack of coordination between register
+    allocation and instruction scheduling results in poor use of the register
+    set.  In this paper we compare three code generation strategies on three
+    RISC processors that support multi-cycle operations.  The first strategy
+    completely separates register allocation and instruction scheduling; the
+    second logically separates the two phases, but uses a heuristic to force
+    the instruction scheduler, which runs first, to adhere to the same
+    restrictions as the register allocator; the third performs pre-scheduling
+    to calculate schedule cost estimates that enable the register allocator to
+    find a balance between using registers to avoid pipeline delays and using
+    them to reduce memory references.  Our results show that separating
+    register allocation and code scheduling produces inefficient code.
+    However, a technique as complex as the third alternative brings little
+    added benefit over the second.", 
+  location     = "https://doi.org/10.1145/106972.106986"
+}
+
+@Article{cgfsaaem,
+  author       = "Manuel~E. Benitez and Jack~W. Davidson",
+  title        = "Code Generation for Streaming:  an Access\slash Execute Mechanism",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "132--141",
+  month        = apr,
+  keywords     = "wm architecture, code generation, recurrence detection, ",
+  abstract     = "Access/execute architectures have several advantages over
+    more traditional architectures.  Because address generation and memory
+    access are decoupled from operand use, memory latencies are tolerated
+    better, there is more potential for concurrent operation, and it permits
+    the use of specialized hardware to facilitate fast address generation.
+    This paper describes the code generation and optimization algorithms that
+    are used in an optimizing compiler for an architecture that contains
+    explicit hardware support for the access/execute model of computation.  Of
+    particular interest is the novel approach that the compiler uses to detect
+    recurrence relations in programs and to generate code for them.  Because
+    these relations are often used in problem domains that require significant
+    computational resources, detecting and handling them can result in
+    significant reductions in execution time.  While the tectilques discussed
+    were originally targeted for one specific architecture, many of the
+    techniques are applicable to commonly available microprocessors.  The paper
+    describes the algorithms as well as our experience with using them on a
+    number of machines.", 
+  location     = "https://doi.org/10.1145/106975.106987"
+}
+
+@Article{eiohlpp,
+  author       = "Rajive Bagrodia and Sharad Mathur",
+  title        = "Efficient Implementation of High-Level Parallel Programs",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "142--151",
+  month        = apr,
+  keywords     = "uc, data mapping, connection machine, copying, reducing,
+    permuting, folding, matrix computations",
+  abstract     = "The efficiency of a parallel program is related to the
+    implementation of its data structures on the distributed (or shared) memory
+    of a specific architecture.  This paper describes a declarative approach
+    that may be used to modify the mapping of the program data on a specific
+    architecture.  The ideas are developed in the context of a new language
+    called UC and its implementation on the Connection Machine.  The paper also
+    contains measurements on sample programs to illustrate the effectiveness of
+    data mappings in improving the execution efficiency of example programs.", 
+  location     = "https://doi.org/10.1145/106972.376053"
+}
+
+@Article{vrdfpvs,
+  author       = "William Mangione-Smith and Santosh~G. Abraham and Edward~S. Davidson",
+  title        = "Vector Register Design for Polycyclic Vector Scheduling",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "154--163",
+  month        = apr,
+  keywords     = "instruction scheduling, register naming, memory latency",
+  abstract     = "Most vector compilers use a scheduling technique known as
+    simple vector scheduling (SVS).  With SVS, all instructions of one loop
+    iteration are issued before any succeeding iteration begins.  Long vector
+    registers is the primary mechanism for increasing pipeline utilization.
+    Some vector compilers use a newer technique, polycyclic vector scheduling
+    (PVS), that executes multiple loop iterations concurrently.  Furthermore,
+    chaining is not required for optimal performance using PVS.  While PVS code
+    schedules typically perform as well as or better than SVS schedules, they
+    also tend to require more vector registers.  This limits the applicability
+    of PVS for current vector machines.  This paper studies how the register
+    requirements of PVS code are related to machine architecture.  An
+    architecture similar to the Cray-2 has been used for a series of scheduling
+    experiments that cover a wide range of vector register lengths and memory
+    latencies.  The results of these experiments indicate that the critical
+    machine parameter for a PVS compiler is the number of available vector
+    registers.  Little advantage has been found for using a vector register
+    length of more than sixteen elements.", 
+  location     = "https://doi.org/10.1145/106972.328664"
+}
+
+@Article{fgpwmhsacctam,
+  author       = "David~E. Culler and Anurag Sah and Klaus~E. Schauser and Thorsten von Eicken and John Wawrzynek",
+  title        = "Fine-grain Parallelism with Minimal Hardware Support:  {A} Compiler-Controlled Threaded Abstract Machine",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "164--175",
+  month        = apr,
+  keywords     = "activations, threads, quanta, id",
+  abstract     = "In this paper, we present a relatively primitive execution
+    model for fine-grain parallelism, in which all synchronization, scheduling,
+    and storage management is explicit and under compiler control.  This is
+    defined by a threaded abstract machine (TAM) with a multilevel scheduling
+    hierarchy.  Considerable temporal locality of logically related threads is
+    demonstrated, providing an avenue for effective register use under
+    quasidynamic scheduling.  A prototype TAM instruction set, TLO, has been
+    developed, along with a translator to a variety of existing sequential and
+    parallel machines.  Compilation of Id, an extended functional language
+    requiring fine-grain synchronization, under this model yields performance
+    approaching that of conventional languages on current uniprocessors.
+    Measurements suggest that the net cost of synchronization on conventional
+    multiprocessors can be reduced to within a small factor of that on machines
+    with elaborate hardware support, such aa proposed dataflow architectures.
+    This brings into question whether tolerance to latency and inexpensive
+    synchronization require specific hardware support or merely an appropriate
+    compilation strategy and program representation.", 
+  location     = "https://doi.org/10.1145/106972.106990"
+}
+
+@Article{loilp,
+  author       = "David~W. Wall",
+  title        = "Limits of Instruction-Level Parallelism",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "176--188",
+  month        = apr,
+  keywords     = "basic blocks, branch and jump prediction, loop unrolling,
+    alias analysis, register renaming, ",
+  abstract     = "Growing interest in ambitious multiple-issue machines and
+    heavily pipelined machines requires a careful examination of how much
+    instruction level parallelism exists in typical programs.  Such an
+    examination is complicated by the wide variety of hardware and software
+    techniques for increasing the parallelism that can be exploited, including
+    branch prediction, register renaming, and alias analysis.  By performing
+    simulations based on instruction traces, we can model techniques at the
+    limits of feasibility and even beyond.  Our study shows a striking
+    difference between assuming that the techniques we use are perfect and
+    merely assuming that they are impossibly good.  Even with impossibly good
+    techniques, average parallelism rarely exceeds 7, with 5 more common.", 
+  location     = "https://doi.org/10.1145/106974.106991",
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-15.pdf"
 }
 
 @TechReport{aqmafd30,
