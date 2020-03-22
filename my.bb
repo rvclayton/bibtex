@@ -260,6 +260,29 @@
   location     = "RC 451.4.W6 T38"
 }
 
+@Book{awg,
+  author       = "William Gibson",
+  title        = "Agency",
+  publisher    = "Berkley",
+  year         = 2020,
+  address      = nyny,
+  keywords     = "travel broadens the mind, temporal meddling",
+  location     = "PS 3557.I2264 A34"
+}
+
+@Book{dswj,
+  author       = "John~R. Hubbard",
+  title        = "Data Structures with {Java}",
+  publisher    = "Schaum's Outline Series",
+  year         = 2007,
+  address      = nyny,
+  keywords     = "java, data structures, oo programming, arrays, linked data
+    structures, java collection framework, stacks, queues, lists, hash tables,
+    recursion, trees, binary trees, search trees, heaps and priority queues,
+    sorting, graphs, mathematics",
+  location     = "QA 76.73.J38 H82"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1691,6 +1714,208 @@
     techniques, average parallelism rarely exceeds 7, with 5 more common.", 
   location     = "https://doi.org/10.1145/106974.106991",
   location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-15.pdf"
+}
+
+@Article{tcpaooba,
+  author       = "Monica~D. Lam and Edward~E. Rothberg and Michael~E. Wolf",
+  title        = "The Cache Performance and Optimizations of Blocked Algorithms",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "63–-74",
+  month        = apr,
+  keywords     = "blocking, cache performance, matrix computations, data
+    locality, analytic models, data access patterns",
+  abstract     = "Blocking is a well-known optimization technique for improving
+    the effectiveness of memory hierarchies.  Instead of operating on entire
+    rows or columns of an array, blocked algorithms operate on submatrices or
+    blocks, so that data loaded into the faster levels of the memory hierarchy
+    are reused.  This paper presents cache performance data for blocked
+    programs and evaluates several optimization to improve this performance.
+    The data is obtained by a theoretical model of data conflicts in the cache,
+    which has been validated by large amounts of simulation.  We show that the
+    degree of cache interference is highly sensitive to the stride of data
+    accesses and the size of the blocks, and can cause wide variations in
+    machine performance for different matrix sizes.  The conventional wisdom of
+    frying to use the entire cache, or even a fixed fraction of the cache, is
+    incorrect.  If a fixed block size is used for a given cache size, the block
+    size that minimizes the expected number of cache misses is very small.
+    Tailoring the block size according to the matrix size and cache parameters
+    can improve the average performance and reduce the variance in performance
+    for different matrix sizes.  Finally, whenever possible, it is beneficial
+    to copy non-contiguous reused data into consecutive locations.", 
+  location     = "https://doi.org/10.1145/106972.106981"
+}
+
+@Article{teocsocp,
+  author       = "Jeffrey~C. Mogul and Anita Borg",
+  title        = "The Effect of Context Switches on Cache Performance",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "75--84",
+  month        = apr,
+  keywords     = "scheduling, context switching, trace analysis, cache
+    simulations, performance",
+  abstract     = "The sustained performance of fast processors is critically
+    dependent on cache performance.  Cache performance in turn depends on
+    locality of reference.  When an operating system switches contexts, the
+    assumption of locality may be violated because the instructions and data of
+    the newly-scheduled process may no longer be in the cache(s).
+    Context-switching thus has a cost above that associated with that of the
+    operations performed by the kernel.  We fed address traces of the processes
+    running on a multi-tasking operating system through a cache simulator, to
+    compute accurate cache-hit rates over short intervals.  By marking the
+    output of such a simulation whenever a context switch occurs, and then
+    aggregating the post-context-switch results of a large number of context
+    switches, it is possible to estimate the cache performance reduction caused
+    by a switch.  Depending on cache parameters the net cost of a context
+    switch appears to be in the thousands of cycles, or tens to hundreds of
+    microseconds.", 
+  location     = "https://dl.acm.org/doi/10.1145/106974.106982"
+}
+
+@Article{apifotfism,
+  author       = "David Keppel",
+  title        = "{A} Portable Interface for On-The-Fly Instruction Space Modification",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "86--95",
+  month        = apr,
+  keywords     = "multiprocessors, protection, coherence, virtual machines,
+    portability, address-space management, ",
+  abstract     = "Applications such as incremental linking must modify
+    instruction space during program execution.  Whenever instruction space is
+    modified, machine-dependent systems issues such as instruction caching must
+    be dealt with properly.  However, there are no standard idioms for
+    signaling a change to the instruction space.  This paper discusses issues
+    for instruction space allocation and coherence, describes a portable
+    interface for modifying instruction space, and examines the details of
+    several implementations of the interface.", 
+  location     = "https://doi.org/10.1145/106973.106983"
+}
+
+@Article{vmpfup,
+  author       = "Andrew~W. Appel and Kai Li",
+  title        = "Virtual Memory Primatives for User Programs",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "96--107",
+  month        = apr,
+  keywords     = "virtual memory, concurrent garbage collection, shared virtual
+    storage, concurrent checkpointing, general garbage collection, persistent
+    stores, extending addressability, data-compression paging, heap overflow
+    detection, performance, tlb consistency, page size, ",
+  abstract     = "Memory Management Units (MMUs) are traditionally used by
+    operating systems to implement disk-paged virtual memory.  Some operating
+    systems allow user programs to specify the protection level (inaccessible,
+    read-only, read-write) of pages, and allow user programs to handle
+    protection violations, but these mechanisms are not always robust,
+    efficient, or well-matched to the needs of applications.  We survey several
+    user-level algorithms that make use of page-protection techniques, and
+    analyze their common characteristics, in an attempt to answer the question,
+    'What virtual-memory primitives should the operating system provide to user
+    processes, and how do today's operating systems provide them?'.", 
+  location     = "https://doi.org/10.1145/106973.106984", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-276-90"
+}
+
+@Article{tioaaosd,
+  author       = "Thomas~E. Anderson and Henry~M. Levy and Brian~N. Bershad and Edward~D. Lazowska",
+  title        = "The Interaction of Architecture and Operating System Design",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "108--120",
+  month        = apr,
+  keywords     = "ipc, cross-machine communication, local communication, system
+    calls, interrupt handling, virtual memory, translation buffers",
+  abstract     = "Today's high-performance RISC microprocessors have been
+    highly tuned for integer and floating point application performance.  These
+    architectures have paid less attention to operating system requirements.
+    At the same time, new operating system designs often have overlooked modern
+    architectural trends which may unavoidably change the relative cost of
+    certain primitive operations.  The result is that operating system
+    performance is well below application code performance on contemporary
+    RISCs.  This paper examines recent directions in computer architecture and
+    operating systems, and the implications of changes in each domain for the
+    other.  The requirements of three components of operating system design are
+    discussed in detail: interprocess communication, virtual memory, and thread
+    management.  For each component, we relate operating system functional and
+    performance needs to the mechanisms available on commercial RISC
+    architectures such as the MIPS R2000 and R3000, SUN SPARC, IBM RS6000,
+    Motorola 88000, and Intel i860.  Our analysis reveals a number of specific
+    reasons why the performance of oeprating system primitives on RISCs has not
+    scaled with integer performance.  In addition, we identify areas in which
+    architectures could better (and cost-effectively) accommodate operating
+    system needs, and areas in which operating system design could accommodate
+    certain necessary characteristics of cost-effective high-performance
+    microprocessors.", 
+  location     = "https://doi.org/10.1145/106973.106985", 
+  location     = "https://homes.cs.washington.edu/~tom/pubs/interaction.html"
+}
+
+@Article{acffca,
+  author       = "S.~S. Reddi and E.~A. Feustel",
+  title        = "{A} Conceptual Framework for Computer Architecture",
+  journal      = surveys,
+  year         = 1976,
+  volume       = 8,
+  number       = 2,
+  pages        = "277--300",
+  month        = jun,
+  keywords     = "computer architecture, framework, architecture composition,
+    information flow, physical organization, diverse architecture conceptual
+    unification",
+  abstract     = "The purpose of this paper is to describe the concepts,
+    definitions, and ideas of computer architecture and to suggest that
+    architecture can be viewed as composed of three components: physical
+    organization; control and flow of information; and representation,
+    interpretation and transformation of information.  This framework can
+    accommodate diverse architectural concepts such as array processing,
+    microprogramming, stack processing and tagged architecture.  Architectures
+    of some existing machines are considered and methods of associating
+    architectural concepts with the components are established.  Architecture
+    design problems and trade-offs are discussed in terms of the proposed
+    framework.", 
+  location     = "https://doi.org/10.1145/356669.356673"
+}
+
+@Article{hbdmsfsp,
+  author       = "Gurindar~S. Sohi and Manoj Franklin",
+  title        = "High-Bandwidth Data Memory Systems for Superscalar Processors",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "53--62",
+  month        = apr,
+  keywords     = "caches, superscalar instruction issue, bus bandwidth, storage
+    hierarchy, cpu performance",
+  abstract     = "This paper considers the design of a data memory hierarchy,
+    with a level 1 (L1) data cache at the top, to support the data bandwidth
+    demands of a future-generation superscalar processor capable of issuing
+    about ten instructions per clock cycle.  It introduces the notion of cache
+    bandwidth — the bandwidth with which a cache can accept requests from the
+    processor — and shows how the bandwidth of a standard, blocking cache, can
+    degrade greatly because of its inability to overlap the service of misses.
+    To improve the data bandwidth to greater than 1 request per cycle,
+    multi-port, interleaved caches are introduced.  Simulation results from a
+    cycle-by-cycle simulator, using the MIPS R2000 instruction set, suggest
+    that memory hierarchies with blocking L1 caches will be unable to support
+    the bandwidth demands of future-generation superscalar processors.
+    Multi-port, non-blocking (MPNB) L1 caches introduced in this paper for the
+    top of the data memory hierarchy appear to be capable of supporting such
+    data bandwidth demands.", 
+  location     = "https://doi.org/10.1145/106973.106980",
+  location     = "https://minds.wisconsin.edu/handle/1793/59366"
 }
 
 @TechReport{aqmafd30,
