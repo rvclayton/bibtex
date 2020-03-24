@@ -2739,7 +2739,6 @@ the structure of systems using upcalls : clark
 the structure of the the multiprogramming system : dikjstra
 the styx architecture for distributed systems : pike
 the swift java compiler design and implementation : scales
-the synchronous approach to reactive and real time systems : benveniste
 the synchronous data flow programming language lustre : halbwachs
 the synergy between nonblocking synchronization and operating system structure : greenwald
 the task of the referee : smith
@@ -2872,7 +2871,6 @@ tree automata techniques and applications : comon
 trees : mehta
 triangle intersection tests : haines
 tries : sahni
-truffles a secure service for widespread file sharing : reiher
 truly random numbers : plumb
 ttp a protocol for fault tolerant real time systems : kopetz
 tutorial compiling concurrent languages for sequential processors : edwards
