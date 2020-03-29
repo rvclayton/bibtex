@@ -32221,7 +32221,9 @@
   number       = 6,
   pages        = "31:1--31:40",
   month        = oct,
-  keywords     = "",
+  keywords     = "syntax extensions, compile-time meta-programming, domain
+    specific languages, domain-specific languages, homogeneous embedding, error
+    reporting, hygienic extensions",
   abstract     = "Domain specific languages (DSLs) are mini-languages that are
     increasingly seen as being a valuable tool for software developers and
     non-developers alike. DSLs must currently be created in an ad-hoc fashion,
@@ -32232,7 +32234,8 @@
     reporting techniques.  By making use of pre-existing facilities, and
     following a simple methodology, DSL implementation costs can be
     significantly reduced whilst leading to higher quality DSL
-    implementations.",
+    implementations.", 
+  location     = "https://doi.org/10.1145/1391956.1391958",
   location     = "http://tratt.net/laurie/research/publications/papers/tratt__domain_specific_language_implementation_via_compile_time_meta_programming.pdf"
 }
 
@@ -50781,19 +50784,6 @@
   keywords	= ""
 }
 
-@inproceedings{lrpc,
-  author	= "B. Bershad and T. Anderson and E. Lazwoska and H. Levy",
-  title		= "Lightweight Remote Procedure Call",
-  booktitle	= pot # "Twelfth" # sosp, 
-  year		= 1989,
-  pages		= "102--113",
-  publisher	= acmp,
-  address	= "Litchfield Park, Arizona",
-  month		= "3--9 December",
-  keywords	= "remote procedure call, performance, context switches,
-		   protection domains" 
-}
-
 @inproceedings{ctcotdc,
   author	= "Jonathan Grudin",
   title		= "{CSCW}:  The Convergence of Two Development Contexts",
@@ -56206,7 +56196,7 @@
 }
 
 @InProceedings{tassfwfs,
-  author       = "Peter {Relher, Jr.} and Thomas Page and Gerald~J. Popek and
+  author       = "Peter Reiher and Thomas {Page, Jr.} and Gerald~J. Popek and
     Jeff Cook and Stephen Crocker",
   title        = "Truffles --- a secure service for widespread file sharing",
   booktitle    = pot # "PSRG Workshop on Network and Distributed System Security",
