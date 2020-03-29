@@ -955,6 +955,7 @@ does java guarantee thread safety : haggar
 domain models are aspect free : steinmann
 domain names implementation and specification : mockapetris
 domain specific embedded compilers : leijen
+domain specific language implementation via compile time metaprogramming : tratt
 donational semantics for occam : roscoe
 dont fidget with widgets draw : bartlett
 dotted and dashed lines in metafont : gibbons
