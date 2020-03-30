@@ -8,6 +8,7 @@
 @string{sosp91    = osr # " (" # pot # "Thirteenth" # sosp # ", SOSP '91)"}
 @string{sosp93    = osr # " (" # pot # "Fourteenth" # sosp # ", SOSP '932)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
+@string{usenix95  = pot # "1995 USENIX Technical Conference"}
 		  
 		  
 @Book{tcwekm,
@@ -283,19 +284,15 @@
   location     = "QA 76.73.J38 H82"
 }
 
-@Book{sp,
-  author       = "",
-  title        = "Software Prefetching",
-  publisher    = "",
-  year         = "",
-  OPTeditor    = "",
-  OPTvolume    = "",
-  OPTseries    = "",
-  OPTaddress   = "",
-  OPTedition   = "",
-  OPTmonth     = "",
-  OPTkeywords  = "",
-  OPTlocation  = ""
+@Book{gjg,
+  author       = "James Gleick",
+  title        = "Genius",
+  subtitle     = "The Life and Science of Richard Feynman",
+  publisher    = "Vintage Books",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "richard feynman, 2nd-half 20th century atomic physics, biography",
+  location     = "QC 16.F49 G55"
 }
 
 @Article{famw,
@@ -1953,6 +1950,87 @@
   location     = "https://doi.org/10.1145/106972.106979"
 }
 
+@Article{tfppoassp,
+  author       = "Roland~L. Lee and Alex~Y. Kwok and Fay{\' e}~A. Briggs",
+  title        = "The Floating-Point Performance of a Superscalar {SPARC} Processor",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "28--37",
+  month        = apr,
+  keywords     = "superscalar architecture, loop unrolling, software
+    pipelining",
+  abstract     = "superscalar SPARC processors' floating-point performance is
+    evaluated based on empirical data from 12 benchmarks.  This evaluation is
+    done in the context of two software instruction scheduling optimization,
+    loop unrolling and software pipelining, and for three machine models we
+    term, 1-scalar, 2-scalar and 4-scalar.  We also consider the effect of the
+    memory system on the performance improvements.  Superscalar hardware alone
+    exhibit little performance improvement without software optimization.  Of
+    the two scheduling methods we study, software pipelining more effectively
+    takes advantage of increased hardware parallelism, and achieves near
+    optimal speedup on the 4-scalar machine model.  Loop-unrolling performance
+    is restricted by the limited number of floating point registers in the
+    SPARC architecture.  Applying both optimization techniques provides best
+    performance.  A superscalar SPARC processor can provide improved
+    floating-point performance, but with signification software and hardware
+    development costs.", 
+  location     = "https://doi.org/10.1145/106974.106978"
+}
+
+@Article{rtbpbriiadwm,
+  author       = "Manolis Katevenis and Nestoras Tzartzanis",
+  title        = "Reducing the Branch Penalty by Rearranging Instructions in a Double-Width Memory",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "15--27",
+  month        = apr,
+  keywords     = "pipelined computer architecture, branch penalty, delayed
+    branch, delay slot, rearranging instructions into delay slots, super-scalar
+    computer architecture, double-width instruction memory",
+  abstract     = "In a pipelined processor with an instruction-fetch throughput
+    of two (consecutive) instructions per cycle, one method to reduce the
+    branch penalty is to rearrange the code by placing (copies of) instructions
+    from both targets of a branch in the double-width fetch stream after that
+    branch.  This scheme is of interest e.g.  when the number of fetch cycles
+    is large, thus making it hard to fill all the delay slots with instructions
+    from before the branch, and when the hardware has super-scalar capabilities
+    but the compiler does not find enough instructions for parallel execution
+    in the basic block where a b ranch is predicted to go.  We study this
+    scheme of rearranging instructions, and we evaluate its performance
+    (execution time and code size) in the case where no parallel instructions
+    are scheduled in the delay slots.", 
+  location     = "https://doi.org/10.1145/106974.106977"
+}
+
+@Article{avisettva,
+  author       = "Andrew Wolfe and John~P. Shen",
+  title        = "{A} Variable Instruction Stream Extension to the {VLIW} Architecture",
+  journal      = asplos91,
+  year         = 1991,
+  volume       = 26,
+  number       = 4,
+  pages        = "2--14",
+  month        = apr,
+  keywords     = "vliw processors, state-machine models, configurable control
+    regimes, sequential programs, barrier synchronization, ",
+  abstract     = "A Variable Instruction Stream processor architecture called
+    XIMD is proposed.  The XIMD structurally resembles a VLIW and shares many
+    of the be@icial characteristics of VLIW; however, the XIMD architecture can
+    dynamically partition its resources to support the concurrent execution of
+    multiple instruction streams.  The number of streams can vary from cycle to
+    cycle to best suit each portion of the application.  The XIMD concept and a
+    comparison with other traditional architectures based on state…machine
+    models of control paths are presented.  Several program examples further
+    illustrate the capabilities of XIMD.  A brief description of an XIMD
+    prototype machine is included; details of this implementation are presented
+    in another paper.", 
+  location     = "https://doi.org/10.1145/106972.106976"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -2980,5 +3058,75 @@
     necessary.  It should be noted that this facility depends on availability
     of shared libraries.",
   location     = "https://archive.org/stream/winter92_usenix_technical_conf/winter92_usenix_technical_conf_djvu.txt"
+}
+
+@InProceedings{abp,
+  author       = "Susan~L. Graham and Steven Lucco and Robert Wahbe",
+  title        = "Adaptable Binary Programs",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "315--325",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "disassembly, control-flow, relocation, register management",
+  abstract     = "To accurately and comprehensively monitor a program's
+    behavior, many performance measurement tools transform the program's
+    executable representation or binary.  By instrumenting binary programs to
+    monitor program events, tools can precisely analyze compiler optimization
+    effectiveness, memory system performance, pipeline interlocking, and other
+    dynamic program characteristics that are fully exposed only at this level.
+    Binary transformation has also been used to support software-enforced fault
+    isolation, debugging, machine re-targeting, and machine-dependent
+    optimization.At present, binary transformation applications face a
+    difficult trade-off.  Previous approaches to implementing robust
+    transformations result in significant disk space and run-time overhead.  To
+    improve efficiency, some current systems sacrifice robustness, relying on
+    heuristic assumptions about the program and recognition of
+    compiler-dependent code generation idioms.  In this paper we begin by
+    investigating the run-time and disk space overhead of transformation
+    strategies that do not require assumptions about the program's control flow
+    or register usage.  We then detail simple information about the binary
+    program that can significantly reduce this overhead.  For each type of
+    information, we show how it enables a corresponding type of binary
+    transformation.  We call binary programs that contain such enabling
+    information adaptable binaries.  Because adaptable binary information is
+    simple, any compiler can generate it.  Despite its simplicity, adaptable
+    binary information has the necessary and sufficient expressive power to
+    support a rich set of binary transformations.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/adaptable-binary-programs"
+}
+
+@InProceedings{aafifbhppat95,
+  author       = "Eustace, Alan and Srivastava, Amitabh",
+  title        = "{ATOM}, {A} Flexible Interface for Building High-Peformance Program Analysis Tools",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "303--314",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "cache simulator, instruction profiling, analysis tools,
+    compiler auditing",
+  abstract     = "ATOM (Analysis Tools with OM) is a single framework for
+    building a wide range of customized program analysis tools.  It provides
+    the common infrastructure present in all code-instrumenting tools; this is
+    the difficult and time-consuming part.  The user simply defines the
+    tool-specific details in instrumentation and analysis routines.  Building a
+    basic block counting tool like Pixie with ATOM requires only a page of
+    code.ATOM, using OM link-time technology, organizes the final executable
+    such that the application program and user's analysis routines run in the
+    same address space.  Information is directly passed from the application
+    program to the analysis routines through simple procedure calls instead of
+    inter-process communication or files on disk.  ATOM takes care that
+    analysis routines do not interfere with the program's execution, and
+    precise information about the program is presented to the analysis routines
+    at all times.  ATOM uses no simulation or interpretation.ATOM has been
+    implemented on the Alpha AXP under OSF/1.  It is efficient and has been
+    used to build a diverse set of tools for basic block counting, profiling,
+    dynamic memory recording, instruction and data cache simulation, pipeline
+    simulation, evaluating branch prediction, and instruction scheduling.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/atom-flexible-interface-building-high-performance",
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-44.html"
 }
 
