@@ -295,6 +295,27 @@
   location     = "QC 16.F49 G55"
 }
 
+@Book{hotd,
+  author       = "Joe Meno",
+  title        = "Hairstyles of the Damned",
+  publisher    = "Punk Planet Books",
+  year         = 2004,
+  address      = chil,
+  keywords     = "teenage wasteland, lurv",
+  location     = "PS 3563.E53 H35"
+}
+
+@Book{afane,
+  author       = "David~C. Korten",
+  title        = "Agenda for a New Economy",
+  subtitle     = "From Phantom Wealth to Real Wealth",
+  publisher    = "Berrett-Koehler Publishers",
+  year         = 2010,
+  address      = sfca,
+  keywords     = "economics, development, society, finance, ",
+  location     = "HC 106.83.K67"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -2031,6 +2052,34 @@
   location     = "https://doi.org/10.1145/106972.106976"
 }
 
+@Article{afatuoipl,
+  author       = "George~B. Leeman",
+  title        = "{A} Formal Approach to Undo Operations in Programming Languages",
+  journal      = toplas,
+  year         = 1986,
+  volume       = 8,
+  number       = 1,
+  pages        = "50--87",
+  month        = jan,
+  keywords     = "checkpoint, language constructs, preprocessors, recovery,
+    reverse execution, undo, human interfaces",
+  abstract     = "A framework is presented for adding a general Undo facility
+    to programming languages.  A discussion of relevant literature is provided
+    to show that the idea of Undoing pervades several areas in computer
+    science, and even other disciplines.  A simple model of computation is
+    introduced, and it is augmented with a minimal amount of additional
+    structure needed for recovery and reversal.  Two different interpretations
+    of Undo are motivated with examples.  Then, four primitives are defined in
+    a language-independent manner; they are sufficient to support a wide range
+    of Undo capability.  Two of these primitives carry out state saving, and
+    the others mirror the two versions of the Undo operation.  Properties of
+    and relationships between these primitives are explored, and there are some
+    preliminary remarks on how one could implement a system based on this
+    formalism.  The main conclusion is that the notions of recovery and
+    reversal of actions can become part of the programming process.", 
+  location     = "https://doi.org/10.1145/5001.5005"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -3121,12 +3170,186 @@
     inter-process communication or files on disk.  ATOM takes care that
     analysis routines do not interfere with the program's execution, and
     precise information about the program is presented to the analysis routines
-    at all times.  ATOM uses no simulation or interpretation.ATOM has been
+    at all times.  ATOM uses no simulation or interpretation.  ATOM has been
     implemented on the Alpha AXP under OSF/1.  It is efficient and has been
     used to build a diverse set of tools for basic block counting, profiling,
     dynamic memory recording, instruction and data cache simulation, pipeline
     simulation, evaluating branch prediction, and instruction scheduling.", 
   location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/atom-flexible-interface-building-high-performance",
   location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-44.html"
+}
+
+@InProceedings{ltcuu,
+  author       = "James~S. Plank and Micah Beck and Gerry Kingsley and Kai Li",
+  title        = "Libckpt:  Transparent Checkpointing under " # unix,
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "213--224",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "checkpointing, optimizations, fault tolerance",
+  abstract     = "Checkpointing is a simple technique for rollback recovery:
+    the state of an executing program is periodically saved to a disk file from
+    which it can be recovered after a failure.  While recent research has
+    developed a collection of powerful techniques for minimizing the overhead
+    of writing checkpoint files, checkpointing remains unavailable to most
+    application developers.  In this paper we describe libckpt, a portable
+    checkpointing tool for Unix that implements all applicable performance
+    optimizations which are reported in the literature.  While libckpt can be
+    used in a mode which is almost totally transparent to the programmer, it
+    also supports the incorporation of user directives into the creation of
+    checkpoints.  This user-directed checkpointing is an innovation which is
+    unique to our work.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/libckpt-transparent-checkpointing-under-unix"
+}
+
+@InProceedings{otpodlp,
+  author       = "W.~Wilson Ho and Wei-Chau Chang and Lilian~H. Leung",
+  title        = "Optimizing the Performance of Dynamically-Linked Programs",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "225--233",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "indirect addressing, data structures, procedure
+    repositioning",
+  abstract     = "Dynamically-linked programs in general do not perform as well
+    as statically-linked programs.  This paper identifies three main areas that
+    account for the performance loss.  First, symbols are referenced indirectly
+    and thus extra instructions are required.  Second, the overhead in run-time
+    symbol resolution is significant.  Third, poor locality of functions in
+    shared libraries and data structures maintained by the run-time linker may
+    result in poor memory utilization.  This paper presents new optimization
+    techniques we developed that address these three areas and significantly
+    improve the performance of dynamically-linked programs.  Also, we provide
+    measurements of the performance improvement achieved.  Most importantly, we
+    show that all desirable features of shared libraries can be achieved
+    without sacrificing performance.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267430"
+}
+
+@InProceedings{dalfbprda,
+  author       = "David~M. Arnow",
+  title        = "{DP}:  {A} Library for Building Portable, Reliable Distributed Applications",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "235--247",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "distributed programming, libraries, process management,
+    communication",
+  abstract     = "DP is a library of process management and communication tools
+    for writing portable, reliable distributed applications.  It provides
+    support for a flexible set of message operations as well as process
+    creation and management.  It has been successfully used in developing
+    distributed Monte Carlo, disjunctive programming and integer goal
+    programming codes.It differs from PVM and similar libraries in its support
+    for lightweight, unreliable messages, as well as asynchronous delivery of
+    interrupt-generating messages.  In addition, DP supports the development of
+    long-running distributed applications tolerant to the failure or loss of a
+    subset of its processors.", 
+  location     = "https://www.usenix.org/legacy/publications/library/proceedings/neworl/arnow.html"
+}
+
+@InProceedings{fslvcapc,
+  author       = "Margo Seltzer and Keith~A. Smith and Hari Balakrishnan and Jacqueline Chang and Sara McMains and Venkata Padmanabhan",
+  title        = "File System Logging Versus Clustering:  {A} Performance Comparison",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "249--264",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "fast file system, log structured file system, i-o
+    performance",
+  abstract     = "The Log-structured File System (LFS), introduced in 1991 [8],
+    has received much attention for its potential order-of-magnitude
+    improvement in file system performance.  Early research results [9] showed
+    that small file performance could scale with processor speed and that
+    cleaning costs could be kept low, allowing LFS to write at an effective
+    bandwidth of 62 to 83% of the maximum.  Later work showed that the presence
+    of synchronous disk operations could degrade performance by as much as 62%
+    and that cleaning overhead could become prohibitive in transaction
+    processing workloads, reducing performance by as much as 40% [10].  The
+    same work showed that the addition of clustered reads and writes in the
+    Berkeley Fast File System [6] (FFS) made it competitive with LFS in
+    large-file handling and software development environments as approximated
+    by the Andrew benchmark [4].These seemingly inconsistent results have
+    caused confusion in the file system research community.  This paper
+    presents a detailed performance comparison of the 4.4BSD Log-structured
+    File System and the 4.4BSD Fast File System.  Ignoring cleaner overhead,
+    our results show that the order-of-magnitude improvement in performance
+    claimed for LFS applies only to meta-data intensive activities,
+    specifically the creation of files one-kilobyte or less and deletion of
+    files 64 kilobytes or less.For small files, both systems provide comparable
+    read performance, but LFS offers superior performance on writes.  For large
+    files (one megabyte and larger), the performance of the two file systems is
+    comparable.  When FFS is tuned for writing, its large-file write
+    performance is approximately 15% better than LFS, but its read performance
+    is 25% worse.  When FFS is optimized for reading, its large-file read and
+    write performance is comparable to LFS.Both LFS and FFS can suffer
+    performance degradation, due to cleaning and disk fragmentation
+    respectively.  We find that active FFS file systems function at
+    approximately 85-95% of their maximum performance after two to three years.
+    We examine LFS cleaner performance in a transaction processing environment
+    and find that cleaner overhead reduces LFS performance by more than 33%
+    when the disk is 50% full.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267432"
+}
+
+@InProceedings{mlians,
+  author       = "Uresh Vahalia and Cary~G. Gray and Dennis Ting",
+  title        = "Metadata Logging in an {NFS} Server",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "265--276",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "log-structured file systems, nfs, file-system metadata, fault
+    tolerance, crash recovery, ",
+  abstract     = "Over the last few years, there have been several efforts to
+    use logging to improve performance, reliability, and recovery times of file
+    systems.  The two major techniques are metadata logging, where the log
+    records metadata changes and is a supplement to the on-disk file system,
+    and log-structured file systems, whose log is their only on-disk
+    representation.  When the file system is mainly or wholly accessed through
+    the Network File System (NFS) protocol, it adds new considerations to the
+    suitability of the logging technique.  NFS requires that all operations be
+    updated to stable storage before returning.  As a result, file system
+    implementations that were effective for local access may perform poorly on
+    an NFS server.  This paper analyzes the issues regarding the use of logging
+    on an NFS server, and describes an implementation of a BSD Fast File System
+    (FFS) with metadata logging that performs effectively for a dedicated NFS
+    server.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267433", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/metadata-logging-nfs-server"
+}
+
+@InProceedings{hcailsfs,
+  author       = "Trevor Blackwell and Jeffrey Harris and Margo Seltzer",
+  title        = "Heuristic Cleaning Algorithms in Log-Structured File Systems",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "277--288",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "garbage collection, log-structured file systems,
+    benchmarking, performance, trace-driven analysis, scheduling",
+  abstract     = "Research results show that while Log-Structured File Systems
+    (LFS) offer the potential for dramatically improved file system
+    performance, the cleaner can seriously degrade performance, by as much as
+    40% in transaction processing workloads [9].  Our goal is to examine trace
+    data from live file systems and use those to derive simple heuristics that
+    will permit the cleaner to run without interfering with normal file access.
+    Our results show that trivial heuristics perform very well, allowing 97% of
+    all cleaning on the most heavily loaded system we studied to be done in the
+    background.", 
+  location     = "https://www.usenix.org/legacy/publications/library/proceedings/neworl/blackwell.html", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267434"
 }
 
