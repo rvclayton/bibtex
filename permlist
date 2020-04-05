@@ -2968,6 +2968,7 @@ vga palette mapping using bsp trees : betz
 views a way for pattern matching to coexist with data abstraction : wadler
 virtual clocks a new traffic control algorithm for packet switching networks : zhang
 virtual gain for audio windows : cohen
+virtual machine showdown stack versus registers : shi
 vitrual memory : denning
 vitrual memory issues of implementation : jacob
 virtual memory management in the vax vms operating system : levy
