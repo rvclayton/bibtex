@@ -87,13 +87,11 @@ a functional correctness model of program verification : zelkowitz
 a functional io system : felleisen
 a general purpose macrogenerator : strachey
 a generalization of exceptions and control in ml like languages : gunter
-a generic iterator for tree traversal : ananiev
 a genetic algorithm for the assembly line balancing problem : anderson
 a gentle introduction to ted nelsons zigzag structure : lukka
 a global authentication service without global trust : birrell
 a graph model for software evolution : luqi
 a graph model for unsupervised lexical acquisition : widdows
-a graphical interface for chip : alvisi
 a graphics typesetting language : van wyck
 a guide to starting a javaspace : pritchard
 a guided tour of mercurial : eide
@@ -260,7 +258,6 @@ a survey of wormhole routing techniques in direct networks : ni
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a synthesis of software science measures and the cyclomatic number : ramamurthy
-a system architecture for fault tolerance in concurrent software : ancona
 a system for generating language oriented editors : tenma
 a system for specification and rapid prototyping of application command languages : stelovsky
 a systematic approach to multiple inheritance implementation : templ
@@ -907,13 +904,11 @@ designing software with modula 3 : klein
 designing the legos multitasking operating system : noga
 designing the mccat compiler based on a family of structured intermediate representations : hendren
 detecting duplicate code with pmds cpd : copland
-detecting mutual consistency of shared objects : ahamad
 determinacy testing for nondeterminate logic programming languages : tick
 developing and using snd editing sound under linux parts 1 and 2 : phillips
 developing your own 32 bit operating system : burgess
 development of communication software by stepwise refinement : freudenmann
 dfp fast flexible message demultiplexing using dynamic code generation : engler
-diagnosing java code designing extensible applications : allen
 differentiating parsers : kiselyov
 difftree inferring phylogenies for evolving software : fraser
 digital signatures a tutorial survey : akl
@@ -1163,7 +1158,6 @@ form formula a visual programming paradigm for user definable user interfaces : 
 form tricks : webb
 formal analysis of the alternating bit protocol by temproal petri nets : suzuki
 formal logic via functional programming : leifer
-formal methods for actor systems a progress report : agha
 formal methods selected historical methods : jones
 formal methods selected historical references : jones
 formal models of communication services a case study : fekete
@@ -1406,7 +1400,6 @@ incremental semantic evaluation in language based editors : kiong
 inductive inference theory and methods : angluin
 infant mortality and generational garbage collection : baker
 infinite order logic and the church-turing thesis : vyzovitis
-influence of visual technology on the evolution of language environments : ambler
 information encoding with two dimensional bar codes : pavlidis
 information systems security design methods implications for information systems development : baskerville
 inheritance : shasha
@@ -1483,9 +1476,7 @@ jade a high level machine independent language for parallel programming : rinard
 java 2 distributed object middleware performance analysis and optimization : juric
 java as an intermediate language : hardwick
 java bytecode compression for low end embedded systems : clausen
-java programming style guide : anon
 java puzzlers : bloch
-java references : amsterdam
 java rmi tutorial : clausen
 java security : vanderburg
 java sucks : zawinski
@@ -1545,7 +1536,6 @@ learning from mistakes a comprehensive study on real world concurrency bug chara
 learning in theory and practice : brown
 learning operating systems structure and implementation through the mps computer system simulator : morsiani
 learning spam simple techniques for freely available software : massey
-learning to love som : alfke
 lessons from open source intellectual property and courseware : newmarch
 letos a lightweight execution tool for operational semantics : hartel
 lexical closures for c++ : breuel
@@ -1781,7 +1771,6 @@ on distributed fault simulation : brooks
 on embedding a microarchitectural design langauge within haskell : launchbury
 on holy wars and a plea for peace : cohen
 on kilburys modification of earleys algorithm : leiss
-on lamports interprocessor communication model : anger
 on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
 on micro kernel construction : liedtke
@@ -2198,7 +2187,6 @@ security mechanisms in high level network protocols : voydock
 security models for web based applications : joshi
 security practicum essential home wireless security practices : fisher
 seeds for random number generators : marsaglia
-selecting a programming language compiler and support environment method and example : anderson
 selective open recursion a solution to the fragile base class problem : aldrich
 selecting the median and two quantiles in a set of numbers : cunto
 selectors high level resource schedulers : leinbaugh
@@ -2721,7 +2709,6 @@ the safe bool idiom : karlsson
 the sawmill multisever approach : gefflaut
 the scala language specification : odersky
 the security problem of nested classes : yu
-the self 4.1 programmers reference manual : agesen
 the semantics of a simple language for parallel programming : kahn
 the semantics of the c++ programming language : wallace
 the semantics of verilog using transition system combinators : pace
