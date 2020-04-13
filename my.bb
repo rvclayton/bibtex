@@ -1,6 +1,7 @@
 .so bibtex.header
 
 @string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
+@string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
@@ -314,6 +315,29 @@
   address      = sfca,
   keywords     = "economics, development, society, finance, ",
   location     = "HC 106.83.K67"
+}
+
+@Book{esaaf,
+  author       = "\AE leen Frisch",
+  title        = "Essential System Administration",
+  publisher    = "O'Reilly \& Associates, Inc.",
+  year         = 1991,
+  address      = seca,
+  keywords     = "unix, system administration, startup, shutdown, user
+    accounts, security, automation, managing system resources, filesystems,
+    disks, backup, restore, terminals, modems, printers, spooling, tcp/ip
+    network management, accounting, bourne shell programming",
+  location     = "QA 76.76.O63 F782"
+}
+
+@Book{ttcjd,
+  author       = "Jared Diamond",
+  title        = "The Third Chimpanzee",
+  publisher    = "Harper Perennial",
+  year         = 1992,
+  address      = nyny,
+  keywords     = "human development, language, warfare, sex, evolution",
+  location     = "GN 281.D53"
 }
 
 @Article{famw,
@@ -2080,6 +2104,43 @@
   location     = "https://doi.org/10.1145/5001.5005"
 }
 
+@Article{ltls,
+  author       = "Jens Peter Alfke",
+  title        = "Learning to Love {SOM}",
+  journal      = "MacTech Journal",
+  year         = 1995,
+  volume       = 11,
+  number       = 1,
+  pages        = "12--16",
+  month        = jan,
+  keywords     = "system object model, fragile base classes, c++, networked
+    objects",
+  abstract     = "The System Object Model (SOM) provides the object-oriented
+    substrate used by OpenDoc and by future versions of the Macintosh Toolbox.
+    SOM is fairly complex, relatively new on the Mac, and competes against
+    other proprietary object models.  It’s not surprising, then, that there is
+    some degree of apprehension and misinformation surrounding it.  This
+    article is an introduction to SOM.",
+  location     = "http://preserve.mactech.com/articles/mactech/Vol.11/11.01/LearningtoLoveSOM/index.html"
+}
+
+@Article{djcdeap4,
+  author       = "Eric~E. Allen",
+  title        = "Diagnosing {Java} Code:  Designing Extensible Applications, Part 4",
+  journal      = "IBM developerWorks",
+  year         = 2001,
+  month        = dec,
+  keywords     = "java, s-expressions, extensibility",
+  abstract     = "In this installment of Diagnosing Java Code, author Eric
+    Allen illustrates how S-expressions -- syntactic representations of lists
+    of elements delimited by parentheses -- can be used to provide a useful and
+    lightweight form of black box extensibility.  The advantages of using
+    S-expressions are discussed in the context of a particular example.  Also,
+    the author details the limitations of S-expressions and notes when they may
+    not be the best fit for an application.", 
+  location     = "https://www.eecis.udel.edu/~decker/courses/280f07/paper/Java%20Ext%204.pdf"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -2169,6 +2230,31 @@
     enforce at run time the synchronization constraints specified that way are
     described.", 
   location     = "https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1007%2F3-540-36557-5_25"
+}
+
+@TechReport{agifc,
+  author       = "Lorenzo Alvisi and Fred~B. Schneider",
+  title        = "{A} Graphical Interface for {CHIP}",
+  institution  = dcs # "Cornell University",
+  year         = 1996,
+  number       = 1591,
+  address      = itny,
+  month        = "6 " # jun,
+  keywords     = "chip, debugging, hypothetical processors",
+  abstract     = "CHIP (Cornell Hypothetical Instructional Processor) [BBDS83]
+    is a computer system designed as an educational tool for teaching
+    undergraduate courses in operating system and machine architecture.  This
+    document describes CHIP's graphical interface and covers in a tutorial how
+    the interface is used to debug and execute CHIP programs.  A Graphical
+    Interface for CHIP Lorenzo Alvisi The University of Texas at Austin
+    Department of Computer Sciences Austin, TX Fred B.  Schneider Cornell
+    University Department of Computer Science Ithaca, NY 6 June 1996 Abstract
+    CHIP (Cornell Hypothetical Instructional Processor) is a computer system
+    designed for use in teaching undergraduate courses in operating system and
+    machine architecture.  This document describes CHIP's graphical interface
+    and contains a tutorial describing how the interface is used to debug and
+    execute CHIP programs.", 
+  location     = "https://www.cs.cornell.edu/fbs/publications/96-1591.pdf"
 }
 
 @InProceedings{cmultsygbtr,
@@ -3351,5 +3437,261 @@
     background.", 
   location     = "https://www.usenix.org/legacy/publications/library/proceedings/neworl/blackwell.html", 
   location     = "https://dl.acm.org/doi/10.5555/1267411.1267434"
+}
+
+@InProceedings{muuogoos,
+  author       = "J.~Mark Stevenson and Daniel~P. Julin",
+  title        = "Mach-{US}: " # unix # " on Generic {OS} Object Servers",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "119--130",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "unix, apis, mach, object-oriented design, ipc",
+  abstract     = "This paper examines the Mach-US operating system, its unique 
+    architecture, and the lessons demonstrated through its implementation.
+    Mach-US is an object-oriented multi-server OS which runs on the Mach3.0
+    kernel.  Mach-US has a set of separate servers supplying orthogonal OS
+    services and a library which is loaded into each user process.  This
+    library uses the services to generate the semantics of the Mach2.5/4.3BSD
+    application programmers interface (API).  This architecture makes Mach-US a
+    flexible research platform and a powerful tool for developing and examining
+    various OS service options.  We will briefly describe Mach-US, the
+    motivations for its design choices, and its demonstrated strengths and
+    weaknesses.  We will then discuss the insights that we've acquired in the
+    areas of multi-server architecture, OS remote method invocation, Object
+    Oriented technology for OS implementation, API independent OS services,
+    UNIX API re-implementation, and smart user-space API emulation libraries.", 
+  location     = "https://www.researchgate.net/publication/2811091_Mach-US_UNIX_on_generic_OS_object_servers"
+}
+
+@InProceedings{eiarbds,
+  author       = "Jim Waldo and Ann Wollrath and Geoff Wyant and Samuel~C. Kendall",
+  title        = "Events in an {RPC} Based Distributed System",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "131--142",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "events, publish-subscribe, ipc, corba, interface
+    polymorphism, third-party servers",
+  abstract     = "We show how to build a distributed system allowing objects to
+    register interest in and receive notifications of events in other objects.
+    The system is built on top of a pair of interfaces that are interesting
+    only in their extreme simplicity.  We then present a simple and efﬁcient
+    implementation of these interfaces.  We then show how more complex
+    functionality can be introduced to the system by adding third-party
+    services.  These services can be added without changing the simple
+    interfaces, and without changing the objects in the system that do not need
+    the functionality of those services.  Finally, we note a number of open
+    issues that remain, and attempt to draw some conclusions based on the
+    work.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/events-rpc-based-distributed-system"
+}
+
+@InProceedings{ttaosiamco,
+  author       = "Jacques Talbot",
+  title        = "Turning the {AIX} Operating System into an {MP}-capable {OS}",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "143--153",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "powerscale, hardware architecture, atomic operations, caches,
+  interrupt handling, locks, deadlocks, debugging, affinity scheduling",
+  abstract     = "This paper describes those MP features that Bull and IBM
+    together introduced into the AIX operating system to support the Symmetric
+    Multiprocessor machine marketed by Bull under the Escala name and by IBM
+    under the RS/6000 Models G30, J30 and R30 names.  The PowerPC architecture
+    and the AIX operating system present some specific challenges.  We present
+    the major problems encountered and how they were solved.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/turning-aix-operating-system-mp-capable-os"
+}
+
+@InProceedings{afmbfs,
+  author       = "Atsuo Kawaguchi and Shingo Nishioka and Hiroshi Motoda",
+  title        = "{A} Flash-Memory Based File System",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "155--164",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "flash memory, file systems, ",
+  abstract     = "A flash memory device driver that supports a conventional
+    UNIX file system transparently was designed.  To avoid the limitations due
+    to flash memory's restricted number of write cycles and its inability to be
+    overwritten, this driver writes data to the flash memory system
+    sequentially as a Log-structured File System (LFS) does and uses a cleaner
+    to collect valid data blocks and reclaim invalid ones by erasing the
+    corresponding flash memory regions.  Measurements showed that the overhead
+    of the cleaner has little effect on the performance of the prototype when
+    utilization is low but that the effect becomes critical as the utilization
+    gets higher, reducing the random write throughput from 222 Kbytes/s at 30%
+    utilization to 40 Kbytes/s at 90% utilization.  The performance of the
+    prototype in the Andrew Benchmark test is roughly equivalent to that of the
+    4.4BSD Pageable Memory based File System (MFS).", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/flash-memory-based-file-system"
+}
+
+@InProceedings{tpsfpftuos,
+  author       = "Andrew Berman and Virgil Bourassa and Erik Selberg",
+  title        = "{TRON}:  Process-Specific File Protection for the " # unix # " Operating System",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "165--175",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "capabilities, protection domains",
+  abstract     = "The file protection mechanism provided in UNIX is
+    insufficient for current computing environments.  While the UNIX file
+    protection system attempts to protect users from attacks by other users, it
+    does not directly address the agents of destruction-executing processes.
+    As computing environments become more interconnected and interdependent,
+    there is increasing pressure and opportunity for users to acquire and test
+    non-secure, and possibly malicious, software.We introduce TRON, a
+    process-level discretionary access control system for UNIX.  TRON allows
+    users to specify capabilities for a process' access to individual files,
+    directories, and directory trees.  These capabilities are enforced by
+    system call wrappers compiled into the operating system kernel.  No
+    privileged system calls, special files, system administrator intervention,
+    or changes to the file system are required.  Existing UNIX programs can be
+    run without recompilation under TRON-enhanced UNIX.  Thus, TRON improves
+    UNIX security while maintaining current standards of flexibility and
+    openness.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/tron-process-specific-file-protection-unix-operating"
+}
+
+@InProceedings{satfwaid,
+  author       = "Tak Yan and Hector Garcia-Molina",
+  title        = "{SIFT} --- {A} Tool for Wide-Area Information Dissemination",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "177--186",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "indexing, user interest, information filtering",
+  abstract     = "The dissemination model is becoming increasingly important in 
+    wide-area information system.  In this model, the user subscribes to an
+    information dissemination service by submitting profiles that describe his
+    interests.  He then passively receives new, filtered information.  The
+    Stanford Information Filtering Tool (SIFT) is a tool to help provide such
+    service.  It supports full-text filtering using well-known information
+    retrieval models.  The SIFT filtering engine implements novel indexing
+    techniques, capable of processing large volumes of information against a
+    large number of profiles.  It runs on several major Unix platforms and is
+    freely available to the public.  In this paper we present SIFT's approach
+    to user interest modeling and user-server communication.  We demonstrate
+    the processing capability of SIFT by describing a running server that
+    disseminates USENET News.  We present an empirical study of SIFT's
+    performance, examining its main memory requirement and ability to scale
+    with information volume and user population.", 
+  location     = "http://ilpubs.stanford.edu/73/1/1994-7.pdf"
+}
+
+@InProceedings{tfsbitk,
+  author       = "Brent Welch",
+  title        = "The File System Belongs in the Kernel",
+  booktitle    = pot # "Second USENIX Mach Symposium",
+  year         = 1991,
+  pages        = "233--250",
+  address      = "Monterey, " # CA,
+  month        = "20--22 " # nov,
+  keywords     = "os architecture, file systems, sprite, mach, naming, name
+  spaces, microkernels",
+  abstract     = "This paper argues that a shared, distributed name space and
+    I/O interface should be implemented inside the operating system kernel.
+    The grounding for the argument is a comparison between the Sprite network
+    operating system and the Mach microkernel.  Sprite optimizes the common
+    case of file and device access, both local and remote, by providing a
+    kernel-level implementation.  Sprite also allows for user-level
+    extensibility by letting a user-level process implement the naming and I/O
+    interfaces of the file system.  Mach, in contrast, provide general
+    interprocess communication and does not define a file system protocol in
+    the kernel.", 
+  location     = "http://ftp.dk.netbsd.org/pub/doc/OS/Sprite/welch.filesys.ps.Z"
+}
+
+@InProceedings{piomps,
+  author       = "Jeffrey~C. Mogul and Joel~F. Bartlett and Robert~N. Mayo and Amitabh Srivastava",
+  title        = "Performance Implications of Multiple Pointer Sizes",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "187--200",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "performance, address spaces, tlb",
+  abstract     = "Many users need 64-bit architectures: 32-bit systems cannot
+    support the largest applications, and 64-bit systems perform better for
+    some applications.  However, performance on some other applications can
+    suffer from the use of large pointers; large pointers can also constrain
+    feasible problem size.  Such applications are best served by a 64-bit
+    machine that supports the use of both 32-bit and 64-bit pointer variables.
+    This paper analyzes several programs and programming techniques to
+    understand the performance implications of different pointer sizes.  Many
+    (but not all) programs show small but definite performance consequences,
+    primarily due to cache and paging effects.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/performance-implications-multiple-pointer-sizes"
+}
+
+@InProceedings{dcswmbs,
+  author       = "Steven~W. Schlosser and John Linwood Griffin and David~F. Nagle and Gregory~R. Ganger",
+  title        = "Designing Computer Systems with {MEMS}-based Storage",
+  booktitle    = asplos00,
+  year         = 2000,
+  pages        = "1--12",
+  address      = boma,
+  month        = "9--13" # oct,
+  keywords     = "mems, non-volatile storage, semi-conductor technology",
+  abstract     = "For decades the RAM-to-disk memory hierarchy gap has plagued
+    computer architects.  An exciting new storage technology based on
+    microelectromechanical systems (MEMS) is poised to fill a large portion of
+    this performance gap, significantly reduce system power consumption, and
+    enable many new applications.  This paper explores the system-level
+    implications of integrating MEMS-based storage into the memory hierarchy.
+    Results show that standalone MEMS-based storage reduces I/O stall times by
+    4-74X over disks and improves overall application runtimes by 1.9-4.4X.
+    When used as on-board caches for disks, MEMS-based storage improves I/O
+    response time by up to 3.5X.  Further, the energy consumption of MEMS-based
+    storage is 10-54X less than that of state-of-the-art low-power disk drives.
+    The combination of the high-level physical characteristics of MEMS-based
+    storage (small footprints, high shock tolerance) and the ability to
+    directly integrate MEMS-based storage with processing leads to such new
+    applications as portable gigabit storage systems and ubiquitous active
+    storage nodes.",  
+  location     = "https://doi.org/10.1145/378993.378996"
+}
+
+@InProceedings{iins95,
+  author       = "Richard Golding and Peter Bosch and Carl Staelin and Tim Sullivan and John Wilkes",
+  title        = "Idleness is not Sloth",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "201--212",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "cycle harvesting, idle-time processing, process dispatch,
+    idle detection",
+  abstract     = "Many people have observed that computer systems spend much of
+    their time idle, and various schemes have been proposed to use this idle
+    time productively.  The commonest approach is to off-load activity from
+    busy periods to less-busy ones in order to improve system responsiveness.
+    In addition, speculative work can be performed in idle periods in the hopes
+    that it will be needed later at times of higher utilization, or
+    non-renewable resource like battery power can be conserved by disabling
+    unused resources.We found opportunities to exploit idle time in our work on
+    storage systems, and after a few attempts to tackle specific instances of
+    it in ad hoc ways, began to investigate general mechanisms that could be
+    applied to this problem.  Our results include a taxonomy of idle-time
+    detection algorithms, metrics for evaluating them, and an evaluation of a
+    number of idleness predictors that we generated from our taxonomy.", 
+  location     = "https://john.e-wilkes.com/papers/idleness.pdf"
 }
 
