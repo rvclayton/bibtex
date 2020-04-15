@@ -333,11 +333,23 @@
 @Book{ttcjd,
   author       = "Jared Diamond",
   title        = "The Third Chimpanzee",
+  subtitle     = "The Evolution and Future of the Human Animal",
   publisher    = "Harper Perennial",
   year         = 1992,
   address      = nyny,
   keywords     = "human development, language, warfare, sex, evolution",
   location     = "GN 281.D53"
+}
+
+@Book{aese,
+  author       = "William~C. Deitz",
+  title        = "At Empire's Edge",
+  publisher    = "Ace Books",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "empath cops, empath killer shape shifters, intergalactic
+    corruption", 
+  location     = "PS 3554.I388 A84"
 }
 
 @Article{famw,
