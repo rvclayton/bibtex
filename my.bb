@@ -352,6 +352,36 @@
   location     = "PS 3554.I388 A84"
 }
 
+@Book{ltzbee,
+  author       = "Bret Easton Ellis",
+  title        = "Less Than Zero",
+  publisher    = "Vintage",
+  year         = 1985,
+  address      = nyny,
+  keywords     = "sex, drugs, rock and roll, ennui",
+  location     = "PS 3555.L5937 L4"
+}
+
+@Book{epekb,
+  author       = "Kent Beck",
+  title        = "Extreme Programming Explained",
+  publisher    = aw,
+  year         = 2000,
+  address      = boma,
+  keywords     = "software development, economics, design, development, ",
+  location     = "QA 76.76.D47 B434"
+}
+
+@Book{ttmspw,
+  author       = "Maj Sj{\" o}wall and Per Wahl{\" o}{\" o}",
+  title        = "The Terrorists",
+  publisher    = "Vintage",
+  year         = 1976,
+  address      = nyny,
+  keywords     = "terrorism",
+  location     = "PT 9876.29.J63"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -1088,7 +1118,7 @@
 
 @Article{atosigpdcs,
   author       = "Thomas~L. Casavant and Jon~G. Kuhl",
-  title        = "{A} Taxonomy of Scheduling in General-PUrpose Distributed Computing Systems",
+  title        = "{A} Taxonomy of Scheduling in General-Purpose Distributed Computing Systems",
   journal      = tse,
   year         = 1988,
   volume       = 14,
@@ -2151,6 +2181,28 @@
     the author details the limitations of S-expressions and notes when they may
     not be the best fit for an application.", 
   location     = "https://www.eecis.udel.edu/~decker/courses/280f07/paper/Java%20Ext%204.pdf"
+}
+
+@Article{matmfcs,
+  author       = "Ira~W. Cotton",
+  title        = "Microeconomics and the Market for Computer Services",
+  journal      = surveys,
+  year         = 1975,
+  volume       = 7,
+  number       = 2,
+  pages        = "95--111",
+  month        = jun,
+  keywords     = "billing, charge-back, computer services, economics,
+    microeconomics, pricing, supply-demand, elasticity, system management",
+  abstract     = "Microeconomics has much to offer the computer services
+    manager.  This article reviews some of the traditional topics in
+    microeconomics and shows how they can be applied to the computer-services
+    market.  The topics covered include supply, demand, costs, and pricing.
+    The most significant application of microeconomics is in setting prices--so
+    much so that microeconomics is frequently called 'price theory.'
+    Accordingly, the thrust of the article is towards providing a sound
+    framework for computer-services pricing.",
+  location     = "https://doi.org/10.1145/356648.356650"
 }
 
 @TechReport{aqmafd30,
@@ -3705,5 +3757,220 @@
     detection algorithms, metrics for evaluating them, and an evaluation of a
     number of idleness predictors that we generated from our taxonomy.", 
   location     = "https://john.e-wilkes.com/papers/idleness.pdf"
+}
+
+@InProceedings{eodafacfs,
+  author       = "Murthy Devarakonda and Ajay Mohindra and Jill Simoneaux and William~H. Tetzlaff",
+  title        = "Evaluation of Design Alternatives for a Cluster File System",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "35--46",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "cluster computing, token-based consistency, disk sharing,
+    file-system sharing, journaling file systems",
+  abstract     = "Based on implementation experience and measurements, this
+    paper presents an evaluation of design alternatives for a cluster file
+    system.  The file system is targeted for IBM cluster systems, Scalable
+    POWERparallel and AIX HACMP/6000.  We considered a shared disk approach
+    where serialized, multiple instances of a single-system file system
+    directly access file data as disk blocks, and a shared system approach
+    which is the conventional method of distributing file system function
+    between client and server.  We conclude the shard disk approach suffers
+    form the difficulties serializing metadata, poor write-sharing performance,
+    and low read throughput.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/evaluation-design-alternatives-cluster-file-system"
+}
+
+@InProceedings{mraaaims,
+  author       = "Jonathan~S. Goldick and Kathy Benninger and Christopher Kirby and Christopher Maher and Bill Zumach",
+  title        = "Multi-Resident {AFS}: An Adventure in Mass Storage",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "47--58",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "distributed file systems, mass storage, afs",
+  abstract     = "The Pittsburgh Supercomputing Center has been working to
+    integrate distributed file system technology with hierarchical mass
+    storage.  We produced a system utilizing the Andrew File System that can be
+    interfaced to many mass storage systems.  We retained the semantics of AFS
+    and compatibility with standard clients and servers.  The architecture has
+    a logical separation between the facility that provides the user interface
+    and access semantics and the management of the storage systems that contain
+    user data.  Support for file level replication is provided for high
+    availability to data in a fashion that is transparent to users.  This
+    system is called Multi-Resident AFS.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/multi-resident-afs-adventure-mass-storage", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267416"
+}
+
+@InProceedings{reatahbmpfs,
+  author       = "Ethan~L. Miller and Randy~H. Katz",
+  title        = "{RAMA}:  Easy Access to a High-Bandwidth Massively Parallel File System",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "59--69",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "",
+  abstract     = "Massively parallel file systems must provide high bandwidth
+    file access to programs running on their machines.  Most accomplish this
+    goal by striping files across arrays of disks attached to a few specialized
+    I/O nodes in the massively parallel processor (MPP).  This arrangement
+    requires programmers to give the file system many hints on how their data
+    is to be laid out on disk if they want to achieve good performance.
+    Additionally, the custom interface makes massively parallel file systems
+    hard for programmers to use and difficult to seamlessly integrate into an
+    environment with workstations and tertiary storage.The RAMA file system
+    addresses these problems by providing a massively parallel file system that
+    does not need user hints to provide good performance.  RAMA takes advantage
+    of the recent decrease in physical disk size by assuming that each
+    processor in an MPP has one or more disks attached to it.  Hashing is then
+    used to pseudo-randomly distribute data to all of these disks, insuring
+    high bandwidth regardless of access pattern.  Since MPP programs often have
+    many nodes accessing a single file in parallel, the file system must allow
+    access to different parts of the file without relying on a particular node.
+    In RAMA, a file request involves only two nodes -- the node making the
+    request and the node on whose disk the data is stored.  Thus, RAMA scales
+    well to hundreds of processors.  Since RAMA needs no layout hints from
+    applications, it fits well into systems where users cannot (or will not)
+    provide such hints.  Fortunately, this flexibility does not cause a large
+    loss of performance.  RAMA's simulated performance is within 10-15% of the
+    optimum performance of a similarly-sized striped file system, and is a
+    factor of 4 or more better than a striped file system with poorly laid out
+    data.",
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/rama-easy-access-high-bandwidth-massively-parallel-file",
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267417"
+}
+
+@InProceedings{irtpfpus,
+  author       = "Ian Wakeman and Atanu Ghosh and Jon Crowcroft and Van Jacobson and Sally Floyd",
+  title        = "Implementing Real-Time Packet Forwarding Policies Using {Streams}",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "71--82",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "link sharing, diff serve, queue scheduling, streams, packet
+    forwarding",
+  abstract     = "This paper describes an implementation of the class based
+    queueing (CBQ) mechanisms proposed by Sally Floyd and Van Jacobson to
+    provide real time policies for packet forwarding.  CBQ allows the traffic
+    flows sharing a data link to be guaranteed a share of the bandwidth when
+    the link is congested, yet allows flexible sharing of the unused bandwidth
+    when the link is unloaded.  In addition, CBQ provides mechanisms which give
+    flows requiring low delay priority over other flows.  In this way, links
+    can be shared by multiple flows yet still meet the policy and Quality of
+    Service (QoS) requirements of the flows.We present a brief description of
+    the implementation and some preliminary preformance measurements.  The
+    problems of packet classification are addressed in a flexible and
+    extensible, yet efficient manner, and whilst the Streams implementation
+    cannot cope with very high speed interfaces, it can cope with the serial
+    link speeds that are likely to be loaded.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/implementing-real-time-packet-forwarding-policies-using", 
+  location     = "https://dl.acm.org/doi/10.5555/1267411.1267418"
+}
+
+@InProceedings{stwotckaptplsa,
+  author       = "Jeffrey I. Schiller and Derek Atkins",
+  title        = "Scaling the {Web of Trust}:  Combining {Kerberos} and {PGP} to Provide Large Scale Authentication",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "83--94",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "e-mail, pgp, public key cryptography, kerberos, web of trust,
+    authentication",
+  abstract     = "Internet Security has become more important recently as the
+    Internet grows exponentially and security breaches become more publicized.
+    An important area of concern for many Internet users is the privacy and
+    integrity of their electronic files and messages.  Phil Zimmermann's Pretty
+    Good Privacy (PGP) provides a general purpose utility for file and message
+    protection.  However PGP requires that communicating users be 'introduced'
+    to each other.  This paper describes a scheme that permits an enterprise
+    using Kerberos to create an automated introducer called the PGP Key Signer
+    Service.  Using this service people in the enterprise who have no common
+    acquaintances to act as introducers can be introduced through the Key
+    Signer.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/scaling-web-trust-combining-kerberos-and-pgp-provide"
+}
+
+@InProceedings{fasrofc,
+  author       = "Puneet Kumar and M.~Satyanarayanan",
+  title        = "Flexible and Safe Resolution of File Conflicts",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "95--106",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "coda file system, conflict resolution, consistency",
+  abstract     = "In this paper we describe the support provided by the Coda
+    File System for transparent resolution of conflicts arising from concurrent
+    updates to a file in different network partitions.  Such partitions often
+    occur in mobile computing environments.  Coda provides a framework for
+    invoking customized pieces of code called application-specific resolvers
+    (asrs) that encapsulate the knowledge needed for file resolution.  If
+    resolution succeeds, the user notices nothing more than a slight
+    performance delay.  Only if resolution fails does the user have to resort
+    to manual repair.  Our design combines a rule-based approach to ASR
+    selection with transactional encapsulation of ASR execution.  This paper
+    shows how such an approach leads to flexible and efficient file resolution
+    without loss of security or robustness.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/flexible-and-safe-resolution-file-conflicts", 
+  location     = "https://dl.acm.org/citation.cfm?id=1267419"
+}
+
+@InProceedings{oacfftodce,
+  author       = "John Dilley",
+  title        = "{OODCE}: {A} {C}++ Framework for the {OSF Distributed Computing Environment}",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "107--118",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "dce, distributed programming",
+  abstract     = "This paper presents a method for developing object-oriented
+    distributed applications using the C++ and DCE technologies.  The core of
+    this package is a DCE IDL-to-C++ compiler and a set of C++ classes
+    providing easy access to DCE functionality.  Using this approach we were
+    able to develop more object-oriented distributed applications, and saw a
+    significant decrease in application code size.  This contributed to an
+    increase in developer productivity and code maintainability.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/oodce-c-framework-osf-distributed-computing-environment"
+}
+
+@InProceedings{umi44l,
+  author       = "Jan-Simon Pendry and Marshall Kirk McKusick",
+  title        = "Union Mounts in 4.{4BSD}-Lite",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "25--33",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "file systems, union file mounts, vnodes",
+  abstract     = "This paper describes the design and rationale behind union
+    mounts, a new filesystem-namespace management tool available in
+    4.4BSD-Lite.  Unlike a traditional mount that hides the contents of the
+    directory on which it is placed, a union mount presents a view of a merger
+    of the two directories.  Although only the filesystem at the top of the
+    union stack can be modified, the union filesystem gives the appearance of
+    allowing any- thing to be deleted or modified.  Files in the lower layer
+    may be deleted with whiteout in the top layer.  Files to be modified are
+    automatically copied to the top layer.  This new functionality makes
+    possible several new applications including the ability to apply patches to
+    a CD-ROM and eliminate symbolic links generated by an automounter.  Also
+    possible is the provision of per- user views of the filesystem, allowing
+    private views of a shared work area, or local builds from a centrally
+    shared read-only source tree.", 
+  location     = "https://www.usenix.org/legacy/publications/library/proceedings/neworl/mckusick.html"
 }
 
