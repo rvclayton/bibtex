@@ -2205,6 +2205,30 @@
   location     = "https://doi.org/10.1145/356648.356650"
 }
 
+@Article{tfdasisoap,
+  author       = "Adrian Cronauer",
+  title        = "The Fairness Doctrine:  {A} Solution in Search of a Problem",
+  journal      = "Federal Communications Law Journal",
+  year         = 1994,
+  volume       = 47,
+  number       = 1,
+  keywords     = "content control, fairness doctrine, narrowcasting",
+  abstract     = "The 'Fairness Doctrine' refers to a former policy of the
+    Federal Communications Commission wherein a broadcast station which
+    presented one viewpoint on a controversial public issue had to afford the
+    opposing viewpoint an opportunity to be heard.  The FCC ceased to enforce
+    the doctrine in 1987, reasoning that the doctrine actually decreased the
+    viewpoints heard by discouraging broadcasters from covering controversial
+    issues out of fear of censure by the FCC.  The Author explores the
+    historical development of the Fairness Doctrine and examines the flaws with
+    the different rationales upon which the doctrine is based.  The Author
+    concludes that today's marketplace acts as an alternative to the Fairness
+    Doctrine by providing numerous media outlets with specialty formats
+    catering to particular viewpoints; therefore, the Fairness Doctrine is
+    unnecessary and should not be revived.", 
+  location     = "https://www.repository.law.indiana.edu/fclj/vol47/iss1/6"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
