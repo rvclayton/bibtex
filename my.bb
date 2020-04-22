@@ -382,6 +382,17 @@
   location     = "PT 9876.29.J63"
 }
 
+@Book{ttatb,
+  author       = "David~P. Billington",
+  title        = "The Tower and the Bridge",
+  subtitle     = "The New Art of Structural Engineering",
+  publisher    = pup,
+  year         = 1983,
+  address      = prnj,
+  keywords     = "structural engineering, structural art",
+  location     = "TA 636.B54"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
