@@ -5,9 +5,7 @@
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
-@string{sosp89    = osr # " (" # pot # "Twelfth" # sosp # ", SOSP '89)"}
-@string{sosp91    = osr # " (" # pot # "Thirteenth" # sosp # ", SOSP '91)"}
-@string{sosp93    = osr # " (" # pot # "Fourteenth" # sosp # ", SOSP '932)"}
+@string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
 @string{usenix95  = pot # "1995 USENIX Technical Conference"}
 		  
@@ -367,8 +365,9 @@
   title        = "Extreme Programming Explained",
   publisher    = aw,
   year         = 2000,
+  series       = "The XP Series",
   address      = boma,
-  keywords     = "software development, economics, design, development, ",
+  keywords     = "software development, economics, design",
   location     = "QA 76.76.D47 B434"
 }
 
@@ -391,6 +390,50 @@
   address      = prnj,
   keywords     = "structural engineering, structural art",
   location     = "TA 636.B54"
+}
+
+@Book{lgew,
+  author       = "Elizabeth Wilson",
+  title        = "Love Game",
+  subtitle     = "A History of Tennis from Victorian Pastime to Global Phenomenon",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "tennis, commerce, amateurism, professionalism",
+  location     = "GV 992.W558"
+}
+
+@Book{waacf,
+  author       = "Daryl Gregory",
+  title        = "We are All Completely Fine",
+  publisher    = "Tachyon",
+  year         = 2014,
+  address      = sfca,
+  keywords     = "monsters, the talking cure",
+  location     = "978-1-61696-173-5"
+}
+
+@Book{epirj,
+  author       = "Ron Jeffries and Ann Anderson and Chet Hendrickson",
+  title        = "Extreme Programming Installed",
+  publisher    = aw,
+  year         = 2001,
+  series       = "The XP Series",
+  address      = boma,
+  keywords     = "software development, extreme programming, experience, practice",
+  location     = "QA 76.76 D47 J44"
+}
+
+@Book{epewcw,
+  author       = "William~C. Wake",
+  title        = "Extreme Programming Explored",
+  publisher    = aw,
+  year         = 2002,
+  series       = "The XP Series",
+  address      = boma,
+  keywords     = "extreme programming, software development, programming,
+    teamwork, process",
+  location     = "QA 76.76 D47 W34"
 }
 
 @Article{famw,
@@ -2240,6 +2283,175 @@
   location     = "https://www.repository.law.indiana.edu/fclj/vol47/iss1/6"
 }
 
+@Article{adusboavcs,
+  author       = "G.~W.R.~Luderer and H.~Che and J.~P. Haggerty and P.~A. Kirslis and W.~T. Marshall",
+  title        = "{A} Distributed " # unix # " System Based on a Virtual Circuit Switch",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "160--168",
+  month        = dec,
+  keywords     = "distributed computing, datakit, file servers",
+  abstract     = "The popular UNIX operating system provides time-sharing
+    service on a single computer.  This paper reports on the design and
+    implementation of a distributed UNIX system.  The new operating system
+    consists of two components: the S-UNIX subsystem provides a complete UNIX
+    process environment enhanced by access to remote files; the F-UNIX
+    subsystem is specialized to offer remote file service.  A system can be
+    configured out of many computers which operate either under the S-UNIX or
+    the F-UNIX operating subsystem.  The file servers together present the view
+    of a single global file system.  A single-service view is presented to any
+    user terminal connected to one of the S-UNIX subsystems.Computers
+    communicate with each other through a high-bandwidth virtual circuit
+    switch.  Small front-end processors handle the data and control protocol
+    for error and flow-controlled virtual circuits.  Terminals may be connected
+    directly to the computers or through the switch.Operational since early
+    1980, the system has served as a vehicle to explore virtual circuit
+    switching as the basis for distributed system design.  The performance of
+    the communication software has been a focus of our work.  Performance
+    measurement results are presented for user process level and operating
+    system driver level data transfer rates, message exchange times, and system
+    capacity benchmarks.  The architecture offers reliability and modularly
+    growable configurations.  The communication service offered can serve as
+    the foundation for different distributed architectures.", 
+  location     = "https://doi.org/10.1145/1067627.806604"
+}
+
+@Article{lanthrds,
+  author       = "G.~Popek and B.~Walker and J.~Chow and D.~Edwards and C.~Kline and G.~Rudisin and G.~Thiel",
+  title        = "{LOCUS}: A Network Transparent, High Reliability Distributed System",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "169--177",
+  month        = dec,
+  keywords     = "LOCUS is a distributed operating system that provides a high
+    degree of network transparency while at the same time supporting high
+    performance and automatic replication of storage.  By network transparency
+    we mean that at the system call interface there is no need to mention
+    anything network related.  Knowledge of the network and code to interact
+    with foreign sites is below this interface and is thus hidden from both
+    users and programs under normal conditions.  LOCUS is application code
+    compatible with Unix2, and performance compares favorably with standard,
+    single system Unix.  LOCUS runs on a high bandwidth, low delay local
+    network.  It is designed to permit both a significant degree of local
+    autonomy for each site in the network while still providing a network-wide,
+    location independent name structure.  Atomic file operations and extensive
+    synchronization are supported.Small, slow sites without local mass store
+    can coexist in the same network with much larger and more powerful machines
+    without larger machines being slowed down through forced interaction with
+    slower ones.  Graceful operation during network topology changes is
+    supported.", 
+  location     = "https://doi.org/10.1145/800216.806605"
+}
+
+@Article{gaeidcs,
+  author       = "Andrew~D. Birrell and Roy Levin and Roger~M. Needham and Michael~D. Schroeder",
+  title        = "Grapevine:  An Exercise in Distributed Computing (Summary)",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "178--179",
+  month        = dec,
+  keywords     = "Grapevine is a distributed, replicated system running on a
+    large internet within the Xerox research and development community.  The
+    internet extends from coast to coast in the USA, to Canada and to Europe,
+    and contains more than 50 Ethernet local networks linked by leased
+    telephone lines.  Over 1500 computers are attached to the internet.  Most
+    computers are used an personal workstations, but some are used as servers
+    providing access to shared facilities such as printers, large-scale
+    secondary storage, or data bases.  Computers on the internet are uniformly
+    addressable using the PUP family of protocols.", 
+  location     = "https://doi.org/10.1145/1067627.806606"
+}
+
+@Article{baadsfwmvts,
+  author       = "Norman Meyrowitz and Margaret Moser",
+  title        = "{BRUWIN}:  An Adaptable Design Strategy for Window Manager\slash Virtual Terminal Systems",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "180--189",
+  month        = dec,
+  keywords     = "window management, device independence",
+  abstract     = "With only one process viewable and operational at any moment,
+    the standard terminal forces the user to continually switch between
+    contexts.  Yet this is unnatural and counter-intuitive to the normal
+    working environment of a desk where the worker is able to view and base
+    subsequent actions on multiple pieces of information.The window manager is
+    an emerging computing paradigm which allows the user to create multiple
+    terminals on the same viewing surface and to display and act upon these
+    simultaneous processes without loss of context.  Though several research
+    efforts in the past decade have introduced window managers, they have been
+    based on the design or major overhaul of a language or operating system;
+    the window manager becomes a focus of—rather than a tool of—the system.
+    While many of the existing implementations provide wide functionality, most
+    implementations and their associated designs are not readily available for
+    common use; extensibility is minimal.This paper describes the design and
+    implementation of BRUWIN, the BRown University WINdow manager, stressing
+    how such a design can be adapted to a variety of computer systems and
+    output devices, ranging from alphanumeric terminals to high-resolution
+    raster graphics displays.  The paper first gives a brief overview of the
+    general window manager paradigm and existing examples.  Next we present an
+    explanation of the user-level functions we have chosen to include in our
+    general design.  We then describe the structure and design of a window
+    manager, outlining the five important parts in detail.  Finally, we
+    describe our current implementation and provide a sample session to
+    highlight important features.", 
+  location     = "https://doi.org/10.1145/1067627.806607"
+}
+
+@Article{aadoag,
+  author       = "Kourosh Gharachorloo and Madhu Sharma and Simon Steely and Stephen Van Doren",
+  title        = "Architecture and Design of {AlphaServer GS320}",
+  journal      = asplos00,
+  year         = 2000,
+  volume       = 35,
+  number       = 11,
+  pages        = "13--24",
+  month        = nov,
+  keywords     = "consistency protocols, directories, snoopy cache, multiprocessors",
+  abstract     = "This paper describes the architecture and implementation of
+    the AlphaServer GS320, a cache-coherent non-uniform memory access
+    multiprocessor developed at Compaq.  The AlphaServer GS320 architecture is
+    specifically targeted at medium-scale multiprocessing with 32 to 64
+    processors.  Each node in the design consists of four Alpha 21264
+    processors, up to 32GB of coherent memory, and an aggressive IO subsystem.
+    The current implementation supports up to 8 such nodes for a total of 32
+    processors.  While snoopy-based designs have been stretched to medium-scale
+    multiprocessors by some vendors, providing sufficient snoop bandwidth
+    remains a major challenge especially in systems with aggressive processors.
+    At the same time, directory protocols targeted at larger scale designs lead
+    to a number of inherent inefficiencies relative to snoopy designs.  A key
+    goal of the AlphaServer GS320 architecture has been to achieve the
+    best-of-both-worlds, partly by exploiting the bounded scale of the target
+    systems.This paper focuses on the unique design features used in the
+    AlphaServer GS320 to efficiently implement coherence and consistency.  The
+    guiding principle for our directory-based protocol is to address
+    correctness issues related to rare protocol races without burdening the
+    common transaction flows.  Our protocol exhibits lower occupancy and lower
+    message counts compared to previous designs, and provides more efficient
+    handling of 3-hop transactions.  Furthermore, our design naturally lends
+    itself to elegant solutions for deadlock, livelock, starvation, and
+    fairness.  The AlphaServer GS320 architecture also incorporates a couple of
+    innovative techniques that extend previous approaches for efficiently
+    implementing memory consistency models.  These techniques allow us to
+    generate commit events (which are used for ordering purposes) well in
+    advance of formulating the reply to a transaction.  Furthermore, the
+    separation of the commit event allows time-critical replies to by-pass
+    inbound requests without violating ordering properties.  Even though our
+    design specifically targets medium-scale servers, many of the same
+    techniques can be applied to larger-scale directory-based and smaller-scale
+    snoopy-based designs.  Finally, we evaluate the performance impact of some
+    of the above optimizations and present a few competitive benchmark
+    results.", 
+  location     = "https://doi.org/10.1145/356989.356991"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -4007,5 +4219,52 @@
     private views of a shared work area, or local builds from a centrally
     shared read-only source tree.", 
   location     = "https://www.usenix.org/legacy/publications/library/proceedings/neworl/mckusick.html"
+}
+
+@InProceedings{pi44,
+  author       = "W.~Richard Stevens and Jan-Simon Pendry",
+  title        = "Portals in {4.4BSD}",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "1--10",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "16--20 " # jan,
+  keywords     = "remote access, portals",
+  abstract     = "Portals were added to 4.4BSD as an experimental feature and
+    are in the publicly available 4.4BSD-Lite distribution.  Portals provide
+    access to alternate file types or devices using names in the normal
+    filesystem that a process just opens.  For example, an open of
+    /p/tcp/foo.com/smtp returns a TCP socket descriptor to the calling process
+    that is connected to the SMTP server on the specified host.  By providing
+    access through the normal filesystem, the calling process need not be aware
+    of the special functions necessary to create a TCP socket and establish a
+    TCP connection.  This makes TCP connections, for example, available to
+    programs such as Awk, Tcl, and shell scripts.  This paper describes the
+    implementation of portals in 4.4BSD as another type of filesystem and
+    provides some examples.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/portals-44bsd"
+}
+
+@InProceedings{dvdai,
+  author       = "Aju John",
+  title        = "Dynamic {Vnodes} --- Design and Implementation",
+  booktitle    = usenix95,
+  year         = 1995,
+  pages        = "11--23",
+  organization = "USENIX Association",
+  address      = nola,
+  month        = "11--23 " # jan,
+  keywords     = "osf, dynamic storage management, coordinated timeouts",
+  abstract     = "Dynamic vnodes make the UNIX kernel responsive to a varying
+    demand for vnodes, without a need to rebuild the kernel.  It also optimizes
+    the usage of memory by deallocating excess vnodes.  This paper describes
+    the design and implementation of dynamic vnodes in DEC OSF/1 V3.0.  The
+    focus is on the vnode deallocation logic in a Symmetric Multi-Processing
+    environment.Deallocation of vnodes differs from the familiar concept of
+    dynamically allocated data structures in the following ways: the legacy
+    name-cache design implicitly assumes that vnodes are never deallocated, and
+    the vnode free-list needs to cache unused vnodes effectively.", 
+  location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/dynamic-vnodes-design-and-implementation"
 }
 
