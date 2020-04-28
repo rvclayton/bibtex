@@ -2452,6 +2452,35 @@
   location     = "https://doi.org/10.1145/356989.356991"
 }
 
+@Article{taotes,
+  author       = "Edward~D. Lazowska and Henry~M. Levy and Guy~T. Almes and Michael~J. Fischer and Robert~J. Fowler and Stephen~C. Vestal",
+  title        = "The Architecture of the {Eden} System",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "148--159",
+  month        = dec,
+  keywords     = "object-based systems, distributed systems, location
+    independent objects",
+  abstract     = "The University of Washington's Eden project is a five-year
+    research effort to design, build and use an “integrated distributed”
+    computing environment.  The underlying philosophy of Eden involves a fresh
+    approach to the tension between these two adjectives.  In briefest form,
+    Eden attempts to support both good personal computing and good multi-user
+    integration by combining a node machine / local network hardware base with
+    a software environment that encourages a high degree of sharing and
+    cooperation among its users.The hardware architecture of Eden involves an
+    Ethernet local area network interconnecting a number of node machines with
+    bit-map displays, based upon the Intel iAPX 432 processor.  The software
+    architecture is object-based, allowing each user access to the information
+    and resources of the entire system through a simple interface.This paper
+    states the philosophy and goals of Eden, describes the programming
+    methodology that we have chosen to support, and discusses the hardware and
+    kernel architecture of the system.", 
+  location     = "https://doi.org/10.1145/800216.806603"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
