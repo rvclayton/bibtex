@@ -2481,6 +2481,17 @@
   location     = "https://doi.org/10.1145/800216.806603"
 }
 
+@Article{witb,
+  author       = "Robert Schmidt",
+  title        = "What is the {BIOS}?",
+  journal      = "Smart Computing",
+  year         = 1994,
+  volume       = 5,
+  number       = 7,
+  month        = jul,
+  keywords     = "bios, operating systems, system initialization, libraries"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -2595,6 +2606,28 @@
     and contains a tutorial describing how the interface is used to debug and
     execute CHIP programs.", 
   location     = "https://www.cs.cornell.edu/fbs/publications/96-1591.pdf"
+}
+
+@TechReport{rovhcm,
+  author       = "Daniel~C. Hyde",
+  title        = "Realization of {Verilog HDL} Computation Model",
+  institution  = dcs # "Bucknell University",
+  year         = 1997,
+  month        = oct,
+  keywords     = "vhdl, computational model, digital logic circuits"
+}
+
+@TechReport{s04d,
+  author       = "Michael Dales",
+  title        = "{SWARM} 0.44 Documentation",
+  institution  = dcs # "University of Glasgow",
+  year         = 2000,
+  address      = "Glasgow, Scotland",
+  month        = nov,
+  keywords     = "architecture, compilation",
+  location     = "This document gives a brief explanation of the design and
+    implementation of SWARM --- the Software ARM.  It explains what SWARM is,
+    and what it isn't, along with the design philosophy."
 }
 
 @InProceedings{cmultsygbtr,
@@ -4295,5 +4328,59 @@
     name-cache design implicitly assumes that vnodes are never deallocated, and
     the vnode free-list needs to cache unused vnodes effectively.", 
   location     = "https://www.usenix.org/conference/usenix-1995-technical-conference/dynamic-vnodes-design-and-implementation"
+}
+
+@InProceedings{pitccl,
+  author       = "Vijay Saraswat and Radha Jagadeesan and Vinheet Gupta",
+  title        = "Programming in Timed Concurrent Constraint Languages",
+  booktitle    = "Constraint Programming",
+  year         = 1994,
+  editor       = "B.~Mayoh and E.~Tyugu and J.~Penjam",
+  series       = "NATO ASI Series (Series F: Computer and Systems Sciences)",
+  volume       = 131,
+  publisher    = sv,
+  address      = begr,
+  keywords     = "synchronous programming, operational semantics, constraint
+    systems, negative information, parallel composition",
+  abstract     = "The areas of Qualitative Reasoning about physical systems
+    (Weld and de Kleer 1989), reasoning about action and state change (Ginsberg
+    1987), reactive, realtime computing (Real-time systems 1991) and concurrent
+    programming languages (Milner 1980; Hoare 1985) are areas of inquiry that
+    are fundamentally about the same subject matter — the representation,
+    design and analysis of continuous and discrete dynamical systems.", 
+  location     = "https://doi.org/10.1007/978-3-642-85983-0_15"
+}
+
+@Manual{ai43ict,
+  title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
+  author       = "Stuart Sechrest",
+  organization = csd # ucb,
+  address      = beca,
+  keywords     = "pipes, socket pairs",
+  location     = "https://docs.freebsd.org/44doc/psd/20.ipctut/paper.pdf"
+}
+
+@Manual{prapirpca,
+  title        = "{PI}-{RPC}:  {A} Platform-Independent Remote Procedure Call Architecture",
+  author       = "Randy~J. Ray",
+  year         = 2000,
+  keywords     = "transport model, message architecture, rpc",
+  abstract     = "This introduction of remote procedure call (RPC) services
+    using XML and the encoding scheme simplified what was once a daunting
+    aspect of distributed computing.  However, the current work stands in a
+    frozen state for the sake of compliance with existing software
+    implementations This proposal outlines a new model that builds on the
+    existing basis of XML-RPC in a modular fashion, maintaining compatibility
+    with the existing specification.", 
+  location     = "http://www.blackperl.com/xml/PI-RPC.html"
+}
+
+@Manual{dcwlmtldhohs,
+  title        = "Deplate --- Convert Wiki-like Markup to Latex, {Docbook, HTML}, or ``{HTML} Slides''",
+  author       = "Thomas Link",
+  year         = 2004,
+  month        = aug,
+  keywords     = "latex, html, docbook",
+  location     = "http://deplate.sourceforge.net/"
 }
 
