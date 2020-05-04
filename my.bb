@@ -4531,6 +4531,59 @@
   location     = "https://doi.org/10.1007/978-3-642-85983-0_15"
 }
 
+@InProceedings{srmc,
+  author       = "Diomidis Spinellis",
+  title        = "Software Reliability: Modern Challenges",
+  booktitle    = "Proceedings ESRL '99 --- The Tenth European Conference on Safety and Reliability",
+  year         = 1999,
+  editor       = "G.~I. Schu{\" e}ller and P.~Kafka",
+  pages        = "589--592",
+  address      = "Munich-Garching, Germany",
+  month        = sep,
+  keywords     = "hardware, operating systems, software system architecture,
+    programming languages, software development",
+  abstract     = "The evolution of computer technology is creating for
+    safety-critical systems new challenges and different types of failure
+    modes.  Modern computer processors are often delivered with errors, while
+    intelligent hardware subsystems may exhibit nondeterministic behaviour.
+    Operating systems and programming languages are becoming increasingly
+    complicated and their implementations less trustworthy.  In addition,
+    component-based multi-tier software system architectures exponentially
+    increase the number of failure modes, while Internet connectivity exposes
+    systems to malicious attacks.  Finally, IT outsourcing and blind reliance
+    on standards can provide developers with a false sense of security.
+    Planning in advance for the new challenges is as important as embracing the
+    new technology.", 
+  location     = "https://www2.dmst.aueb.gr/dds/pubs/conf/1999-ESREL-SoftRel/html/chal.html"
+}
+
+@InProceedings{daomflfc,
+  author       = "Gokul~V. Subramaniam and Eric~J. Byrne",
+  title        = "Deriving an Object Model from Legacy {Fortran} Code",
+  booktitle    = pot # "1996 International Conference on Software Maintenance (ICSM '96)",
+  year         = 1996,
+  pages        = "3--12",
+  publisher    = "IEEE Press",
+  address      = moncal,
+  month        = "4--8 " # nov,
+  keywords     = "re-engineering, object models, object-oriented design",
+  abstract     = "The practice of software development continues to shift
+    towards the use of object-oriented approaches.  The motivation for this
+    trend is the benefits attributed to object-oriented software, including
+    improved maintainability.  As organizations develop new object-oriented
+    software, they face the problem of maintaining their older software.  How
+    can existing non-objected-oriented software benefit from this new software
+    engineering technology? This paper presents a nine step process for
+    deriving an object model from existing unstructured FORTRAN source code.
+    Both top-down and bottom-up approaches are used to derive objects, classes,
+    class attributes and methods, and relationships among classes.  This
+    process can be used within a reengineering project to convert legacy
+    FORTRAN code into a new object-oriented implementation written in a
+    language such as C++.  Experience with using this process is also
+    described.", 
+  location     = "https://dl.acm.org/doi/10.5555/645544.655855"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
