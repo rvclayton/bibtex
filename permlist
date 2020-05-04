@@ -223,7 +223,6 @@ a specification of modula 2 process coroutine management : nicholl
 a specification of the soar cognitive architecture in z : milnes
 a specifiers introduction to formal methods : wing
 a spiral model of software development and enhancement : boehm
-a sruvey of cache coherence schemes for multiprocessors : stenstrom
 a stackable file system interface for linux : zadok
 a statistical approach to the spam problem : robinson
 a straightforward denotational semantics for nondeterministic data flow programs : kosinski
@@ -367,7 +366,6 @@ algorithms and data structures for flash memories : gal
 algorithms and issues in server software design : anon
 algorithms for directed graphs : mangano
 algorithms for stereoscopic imaging : duvanenko
-algorithms implementing distributed shared memory : stumm
 alien text file compresion : swan
 all i really need to know about pair programming i learned in kindergarten : williams
 all the needles in the haystack can exhaustive search overcome combinatorial chaos : nievergelt
@@ -654,7 +652,6 @@ checking for search robot crawling and indexing : rappoport
 checking inside the black box regression testing bo comparing value spectra : xie
 chinese lotto as an exhaustive code breaking machine : quisquater
 chio a string processing library for common lisp : spingarn
-chord a scalable peer to peer lookup service for internet applications : stoica
 christopher alexander an introduction for object oriented designers : lea
 cipherczar a simple substitution deciphering environment : cipherczar
 citrus a language and toolkit for simplifying the creation of structured editors for code and data : ko
@@ -867,7 +864,6 @@ denial of service via algorithmic complexity attacks : crosby
 denotational semantics : solnneger
 denotational semantics for languages with modules : ganzinger
 derive a tool that automatically reverse engineers instruction encodings : engler
-deriving an object model from legacy fortran code : subramaniam
 deriving graphical representations of process networks from algebraic expressions : bolognesi
 deriving tidy drawings of trees : gibbons
 description languages exploration : graham
@@ -1507,7 +1503,6 @@ kaleidoscope a constraint imperative programming language : lopez
 karl wiegers describes 10 requirements traps to avoid : wiegers
 kawa compiling scheme to java : bothner
 keep it clean a unique approach to functional programming  : plasmeijer
-kerberos an authentication service for open network systems : steiner
 kernel synchronization primitives : mauro
 key to the success of asynchronous transfer mode an application programming interface : lin
 keywords scanners and screeners : clark
@@ -1830,13 +1825,11 @@ optimizing stack fram access for processors with restricted addressing modes : b
 optional scope contracts : beck
 organization of object oriented programs using static class hierarchy analysis : dean
 organizations and public policy : 
-organized pruning of file sets : spinellis
 orphan problems and remedies in distributed systems : abawajy
 orthogonal sequences : stallings
 os and compiler considerations in the design of the ia 64 architecture : zahir
 os portal an economic approach for making an embedded kernel extensible : chang
 os6 an experimental operating system for a small computer part 2 input output and filing system : stoy
-overriding the c++ operator == : stevenson
 overview of common benchmarks : weicker
 overview of the ibm java just in time compiler : suganuma
 oxford oberon 2 compiler users manual : spivey
@@ -1895,7 +1888,6 @@ performance visualization of a distributed system a case study : jakiela
 perly unix with buttons : hesketh
 permutation generation methods : sedgewick
 persistence in e revisited implementation experiences : schuh
-persistent objects in cpp : stevens
 perspectives manifesto 1991 : alexander
 pervasive computing with inferno and limbo : stanley
 pete the portable expression template engine : haney
@@ -2055,7 +2047,6 @@ quinault an office modeling system : nutt
 r++ adding path base rules to c++ : crawford
 r++ using rules in object oriented designs : mishra
 rafts for basic blocks a progress report on forth native code compilation : ertl
-ram guide part 1 dram and sram basics : stokes
 random early detection gateways for congestion avoidance : floyd
 randomized shuffling : rolfe
 rapid case dispatch in scheme : clinger
@@ -2303,7 +2294,6 @@ using tournament trees to sort : stepanov
 software design patterns for tinyos : gay
 software profiling for hot path prediction less is more : duesterwald
 software prototyping by relational techniques experiences with program construction systems : ceri
-software reliability modern challenges : spinellis
 software reliability the role of programmed exception handling : melliar
 software requirements a tutorial : faulk
 software vs hardware errors : glass
@@ -2570,7 +2560,6 @@ the fast wavelet transform : cody
 the fastest sorting algorithm : nilsson
 the first 10 prolog programming contests : demoen
 the five levels of raid : wiebel
-the flex software design system designers need languages too : sutton
 the flux oskit a substrate for kernel and langauge research : ford
 the formal execution semantics of specc : mueller
 the formal specification of a small bookshop information system : gray
@@ -2808,7 +2797,6 @@ three dimensional medical imaging algorithms and computer systems : stytz
 three monads for continuations : kieburtz
 thunks and the lambda calculus : hatcliff
 time constrained sorting a comparison of different algorithms : puschner
-timed callbacks in c++ : stapfer
 tkgecko a frill necked lizard : ball
 tla+ : lamport
 tm a code generator for recursive data structures : van reeuwijk
