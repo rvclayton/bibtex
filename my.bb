@@ -457,6 +457,32 @@
   location     = "PZ 7.L5149 Bl"
 }
 
+@Book{okotew,
+  author       = "Bertrand Russell",
+  title        = "Our Knowledge of the External World",
+  publisher    = "The New American Library",
+  year         = 1960,
+  address      = nyny,
+  month        = sep,
+  price        = "$0.60",
+  keywords     = "philosophy, science, logic, infinity, free will,
+    epistemology, continuity, causality",
+  location     = "B 1649.R93 O8"
+}
+
+@Book{cgfjp,
+  author       = "Leen Ammeraal and Kang Zhang",
+  title        = "Computer Graphics for Java Programmers",
+  publisher    = "Springer Science+Business Media",
+  year         = 2017,
+  address      = nyny,
+  edition      = "third",
+  keywords     = "geometry, transformations, 2d algorithms, perspective, 3d
+    algorithms, hidden line removal, hidden face removal, color, texture,
+    shading, fractals",
+  location     = "T 385.A488"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -2670,6 +2696,207 @@
     paper describes the approach, the language, and the implementation and
     recommends areas for further work.", 
   location     = "https://doi.org/10.1145/5397.5918"
+}
+
+@Article{aroodrfadcs,
+  author       = "Liba Svobodova",
+  title        = "{A} Reliable Object-Oriented Data Repository for a Distributed Computer System",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "47--57",
+  month        = dec,
+  keywords     = "distributed data storage system, server, atomic update,
+    stable storage, optical disk, memory management, crash recovery",
+  abstract     = "The repository described in this paper is a component of a
+    distributed data storage system for a network of many autonomous machines
+    that might run diverse applications.  The repository is a server machine
+    that provides very large, very reliable long-term storage for both private
+    and shared data objects.  The repository can handle both very small and
+    very large data objects, and it supports atomic update of groups of objects
+    that might be distributed over several repositories.  Each object is
+    represented as a history of its states; in the actual implementation, an
+    object is a list of immutable versions.The core of the repository is stable
+    append-only storage called Version Storage (VS).  VS contains the histories
+    of all data objects in the repository as well as all information needed for
+    crash recovery.  To maintain the current versions of objects online, a
+    copying scheme was adopted that resembles techniques of real-time garbage
+    collection.  VS can be implemented with optical disks.", 
+  location     = "https://doi.org/10.1145/1067627.806591"
+}
+
+@Article{acotnbfs,
+  author       = "James~G. Mitchell and Jeremy Dion",
+  title        = "{A} Comparison of Two Network-Based File Servers (Summary)",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "45--46",
+  month        = dec,
+  keywords     = "rings, buses, pup, file servers",
+  abstract     = "This paper compares two working network-based file servers,
+    the Xerox Distributed File System (XDFS) implemented at the Xerox Palo Alto
+    Research Center, and the Cambridge File Server (CFS) implemented at the
+    Cambridge University Computer Laboratory.  Both servers support concurrent
+    random access to files using atomic transactions, both are connected to
+    local area networks, and both have been in service long enough to enable us
+    to draw lessons from them for future file servers.We compare the servers in
+    terms of design goals, implementation issues, performance, and their
+    relative successes and failures, and discuss what we would do differently
+    next time.", 
+  location     = "https://doi.org/10.1145/358468.358475"
+}
+
+@Article{otcowsp,
+  author       = "Niklaus Wirth",
+  title        = "On the Composition of Well-Structured Programs",
+  journal      = surveys,
+  year         = 1974,
+  volume       = 6,
+  number       = 4,
+  pages        = "247--259",
+  month        = dec,
+  keywords     = "programming methods, systematic programming, program schemas,
+    goto-free programs, well-structured programs, pascal",
+  abstract     = "A professional programmer's know-how used to consist of the
+    mastery of a set of techniques applicable to specific problems and to some
+    specific problems and to some specific computer.  With the increase of
+    computer power, the programmer's tasks grew more complex, and hence the
+    need for a systematic approach became evident.  Recently, the subject of
+    programming methods, generally applicable rules and patterns of
+    development, received considerable attention.  Structured programming is
+    the formulation of programs as hierarchical, nested structures of
+    statements and objects of computation.  We give brief examples of
+    structured programs, show the essence of this approach, discusses its
+    relationship with program verification, and comment on the role of
+    structured languages.", 
+  location     = "https://doi.org/10.1145/356635.356639"
+}
+
+@Article{scsian,
+  author       = "A.~J. Herbert and R.~M. Needham",
+  title        = "Sequencing Computation Steps in a Network",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "59--63",
+  month        = dec,
+  keywords     = "distributed computations, synchronization, coordination",
+  abstract     = "It is sometimes necessary in the course of a distributed
+    computation to arrange that a certain set of operations is carried out in
+    the correct order and the correct number of times (typically once).  If
+    several sets of operations are performed on different machines on the
+    network there is no obvious mechanism for enforcing such ordering
+    constraints in a fully distributed way.  This lack basically stems from the
+    difficulty of preventing copying and repetition of messages by machines and
+    from the impossibility of constraining externally the actions of machines
+    in response to messages that come into their hands.This paper presents a
+    possible method for ensuring the integrity of sequences of operations on
+    different machines.  The technique may be thought of as a means of enabling
+    machines to ensure that requests made of them are valid and timely, not as
+    means of centralized control of services.", 
+  location     = "https://doi.org/10.1145/800216.806592"
+}
+
+@Article{aaconosk,
+  author       = "Richard~F. Rashid and George~G. Robertson",
+  title        = "Accent:  {A} Communication Oriented Network Operating System Kernel",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "64--75",
+  month        = dec,
+  keywords     = "ipc, virtual storage, distributed systems, modularity,
+    location transparency, message passing",
+  abstract     = "Accent is a communication oriented operating system kernel
+    being built at Carnegie-Mellon University to support the distributed
+    personal computing project, Spice, and the development of a fault-tolerant
+    distributed sensor network (DSN).  Accent is built around a single,
+    powerful abstraction of communication between processes, with all kernel
+    functions, such as device access and virtual memory management accessible
+    through messages and distributable throughout a network.  In this paper,
+    specific attention is given to system supplied facilities which support
+    transparent network access and fault-tolerant behavior.  Many of these
+    facilities are already being provided under a modified version of VAX/UNIX.
+    The Accent system itself is currently being implemented on the Three Rivers
+    Corp.  PERQ.", 
+  location     = "https://doi.org/10.1145/800216.806593"
+}
+
+@Article{casbstdpiaalprb,
+  author       = "{\" O}zalp {\u B}abaoglu and William Joy",
+  title        = "Converting a Swap-Based System to do Paging in an Architecture Lacking Page-Referenced Bits",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "78--86",
+  month        = dec,
+  keywords     = "page replacement, vaxen, clock page replacement,
+    multiprogramming, paging",
+  abstract     = "This paper discusses the modifications made to the UNIX
+    operating system for the VAX-11/780 to convert it from a swap-based
+    segmented system to a paging-based virtual memory system.  Of particular
+    interest is that the host machine architecture does not include
+    page-referenced bits.  We discuss considerations in the design of
+    page-replacement and load-control policies for such an architecture, and
+    outline current work in modeling the policies employed by the system.  We
+    describe our experience with the chosen algorithms based on
+    benchmark-driven studies and production system use.", 
+  location     = "https://doi.org/10.1145/800216.806595"
+}
+
+@Article{tmpe,
+  author       = "Jan Heering and Paul Klint",
+  title        = "Towards Monolingual Programming Environments",
+  journal      = toplas,
+  year         = 1985,
+  volume       = 7,
+  number       = 2,
+  pages        = "183--213",
+  month        = apr,
+  keywords     = "monolingual system, language integration, language design,
+  debugging languages, type checking, event expectation, side-effect recovery",
+  abstract     = "Most programming environments are much too complex.  One way
+    of simplifying them is to reduce the number of mode-dependent languages the
+    user has to be familiar with.  As a first step towards this end, the
+    feasibility of unified command/programming/debugging languages, and the
+    concepts on which such languages have to be based, are investigated.  The
+    unification process is accomplished in two phases.  First, a unified
+    command/programming framework is defined and, second, this framework is
+    extended by adding an integrated debugging capability to it.  Strict rules
+    are laid down by which to judge language concepts presenting themselves as
+    candidates for inclusion in the framework during each phase.  On the basis
+    of these rules many of the language design questions that have hitherto
+    been resolved this way or that, depending on the taste of the designer,
+    lose their vagueness and can be decided in an unambiguous manner.", 
+  location     = "https://doi.org/10.1145/3318.3321"
+}
+
+@Article{wasaeafvmm,
+  author       = "Richard~W. Carr and John~L. Hennessy",
+  title        = "{WSClock} --- {A} Simple and Effective Algorithm for Virtual Memory Management",
+  journal      = sosp81,
+  year         = 1981,
+  volume       = 15,
+  number       = 5,
+  pages        = "87--95",
+  month        = dec,
+  keywords     = "page replacement algorithms, virtual storage, working set,
+    load control, multiprogramming",
+  abstract     = "A new virtual memory management algorithm WSCLOCK has been
+    synthesized from the local working set (WS) algorithm, the global CLOCK
+    algorithm, and a new load control mechanism for auxiliary memory access.
+    The new algorithm combines the most useful feature of WS—a natural and
+    effective load control that prevents thrashing—with the simplicity and
+    efficiency of CLOCK.  Studies are presented to show that the performance of
+    WS and WSCLOCK are equivalent, even if the savings in overhead are
+    ignored.", 
+  location     = "https://doi.org/10.1145/800216.806596"
 }
 
 @TechReport{aqmafd30,
