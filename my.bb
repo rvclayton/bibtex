@@ -518,6 +518,41 @@
   location     = "PS 3563.A3188 M39"
 }
 
+@Book{pldab,
+  author       = "Arnold Businger",
+  title        = "{PORTAL} Language Description",
+  publisher    = sv,
+  year         = 1988,
+  volume       = "198",
+  series       = lncs,
+  address      = bege,
+  edition      = "second",
+  keywords     = "real-time systems, language definition",
+  location     = "QA 76.73.P66 B87 "
+}
+
+@Book{ltdpl,
+  author       = "William~W. Wadage and Edward~A. Ashcroft",
+  title        = "Lucid, the Dataflow Programming Language",
+  publisher    = "Academic Press",
+  year         = 1985,
+  volume       = "22",
+  series       = "APIC Studies in Data Processing",
+  address      = loen,
+  keywords     = "iswim, luswim, iterations, program transformations",
+  location     = "QA 76.7"
+}
+
+@Book{laofcm,
+  author       = "Francisis~G. McCabe",
+  title        = "Logic and Objects",
+  publisher    = phi,
+  year         = 1992,
+  address      = "Hertfordshire, U.K.",
+  keywords     = "logic programming, scheduler, semantics, implementation",
+  location     = "QA 76.63.M42"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
