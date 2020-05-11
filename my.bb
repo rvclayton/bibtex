@@ -483,6 +483,41 @@
   location     = "T 385.A488"
 }
 
+@Book{tpwmdg,
+  author       = "Michael~D. Gordin",
+  title        = "The Pseudoscience Wars",
+  subtitle     = "Immanuel Velikovsky and the Birth of the Modern Fringe",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "psuedoscience, astronomy, history, catastrophism, bible
+    interpretation",
+  location     = "Q 172.5.P77 G674"
+}
+
+@Book{mdsacg,
+  author       = "Kurt Mehlhorn",
+  title        = "Multi-Dimensional Searching and Computational Geometry",
+  publisher    = sv,
+  year         = 1984,
+  volume       = 3,
+  series       = "EACTS Monographs on Theoretical Computer Science",
+  address      = bege,
+  keywords     = "multidimensional data structures, computational geometry,
+    algorithms",
+  location     = "0-387-13642-8"
+}
+
+@Book{msbtm,
+  author       = "Thomas McMahon",
+  title        = "McKay's Bees",
+  publisher    = ucp,
+  year         = 1979,
+  address      = chil,
+  keywords     = "frontier and pioneer life, bee culture, beekeepers, kansas",
+  location     = "PS 3563.A3188 M39"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
