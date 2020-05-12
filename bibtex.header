@@ -35,6 +35,7 @@
 @string{chil    = "Chicago, Illinois"}
 @string{chnc    = "Chappel Hill, North Carolina"}
 @string{cit     = CA # " Institute of Technology"}
+@string{cioh    = "Cincinnati, Ohio"}
 @string{cgaa    = "Computer Graphics and Applications"}
 @string{cma	= "Cambridge, Massachusetts"}
 @string{cmu	= "Carnegie Mellon University"}
@@ -55,6 +56,7 @@
 @string{csri    = "Computer Systems Research Institute"}
 @string{cuca    = "Cupertino, " # CA}
 @string{cup	= "Cambridge University Press"}
+@string{date	= "Dallas, Texas"}
 @string{dcsnc	= "Department of Computer Science"}
 @string{dcs	= dcsnc # ", "}
 @string{ddj     = "Dr.~Dobb's Journal"}
@@ -180,7 +182,8 @@
 @string{pcpldi 	= "Proceedings of the Conference on Programming Language Design and Implementation"} 
 @string{pcs     = "Professional Computing Series"}
 @string{ph	= "Prentice Hall"}
-@string{phisics = "Prentice Hall International Series in Computer Science"}
+@string{phi	= ph # " International"}
+@string{phisics = phi # " Series in Computer Science"}
 @string{phpe    = "Philadelphia, Pennsylvania"}
 @string{pldai   = "Programming Language Design and Implementation"}
 @string{pldai01 = pot # "2001 Conference on " # pldai # ", PLDI '01"}
@@ -257,6 +260,7 @@
 @string{tscse   = "SIGCSE Technical Symposium on Computer Science Education"}
 @string{tse	= "IEEE Transactions on Software Engineering"}
 @string{tsem	= acmt # "Software Engineering and Methodology"}
+@string{TX      = "Texas"}
 @string{uaz	= " University of " # AZ}
 @string{ubol	= " University of Bologna"}
 @string{ucal	= " University of " # CA}
@@ -275,7 +279,7 @@
 @string{usenixs90 = pot # "Summer 1990 USENIX Conference"}
 @string{usenixs91 = pot # "Summer 1991 USENIX Conference"}
 @string{ustra   = " University of Strathclyde"}
-@string{uta	= " University of Texas"}
+@string{uta	= " University of " # TX}
 @string{utam	= " University of Tampere"}
 @string{utaz    = " University of Tazmania"}
 @string{utor    = " University of Toronto"}
