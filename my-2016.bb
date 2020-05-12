@@ -2932,6 +2932,7 @@
 @Book{mmpdrg,
   author       = "Persi Diaconis and Ron Graham",
   title        = "Magical Mathematics",
+  subtitle     = "The Mathematical Ideas that Animate Great Magic Tricks",
   publisher    = pup,
   year         = 2012,
   address      = prnj,
