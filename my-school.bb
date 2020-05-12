@@ -29183,8 +29183,29 @@
   pages        = "289--302",
   address      = nola,
   month        = "16--20 January",
-  keywords     = "",
-  location     = "/flash.bellcore.com:/pub/norman/www/pubs/tk-usenix.ps"
+  keywords     = "assembly, disassembly, domain-specific tool",
+  abstract     = "The New Jersey Machine-Code Toolkit helps programmers write
+    applications that process machine code.  Applications that use the toolkit
+    are written at an assembly-language level of abstraction, but they
+    recognize and emit binary.  Guided by a short instruction-set
+    specification, the toolkit generates all the bit-manipulating code.  The
+    toolkit's specification language uses four concepts: fields and tokens
+    describe parts of instructions, patterns describe binary encodings of
+    instructions or groups of instructions, and constructors map between the
+    assembly-language and binary levels.  These concepts are suitable for
+    describing both CISC and RISC machines; we have written specifications for
+    the MIPS R3000, SPARC, and Intel 486 instruction sets.  Complete
+    specifications for the three architectures appear in
+    [ramsey:tk-architecture].  Excerpts from those specifications appear in
+    this paper.  The reference manual for the toolkit [ramsey:tk-reference]
+    gives a complete description of the specification language.  We have
+    written two applications that use the toolkit: a retargetable debugger and
+    a retargetable, optimizing linker.  The toolkit generates efficient code;
+    for example, the linker emits binary up to 10% faster than it emits
+    assembly language, making it 1.5--2 times faster to produce an a.out
+    directly than by using the assembler.", 
+  location     = "/flash.bellcore.com:/pub/norman/www/pubs/tk-usenix.ps", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-469-94"
 }
 
 @InProceedings{hldfpfdsp,
