@@ -31126,16 +31126,17 @@
   location     = "http://doi.acm.org/10.1145/960114.29671"
 }
 
-@Article{,
+@Article{vmssvr,
   author       = "Yunhe Shi and Kevin Casey and M.~Anton Ertl and David Gregg ",
   title        = "Virtual machine showdown: Stack versus registers",
   journal      = "ACM Transactions on Architecture and Code Optimization",
   year         = 2008,
   volume       = 4,
   number       = 4,
-  pages        = "",
+  pages        = "21:1--21:36",
   month        = jan,
-  keywords     = "",
+  keywords     = "interpreters, virtual machines, register architectures, stack
+    architectures, instruction sets",
   abstract     = "Virtual machines (VMs) enable the distribution of programs
     in an architecture-neutral format, which can easily be interpreted or
     compiled.  A long-running question in the design of VMs is whether a stack
