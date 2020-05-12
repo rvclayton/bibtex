@@ -4914,3 +4914,12 @@
   location     = "http://deplate.sourceforge.net/"
 }
 
+@Misc{tfmcdp,
+  author       = "Gopalan Suresh Raj",
+  OPTtitle     = "The Factory Method (Creational) Design Pattern",
+  howpublished = "Web page",
+  year         = "2000",
+  keywords     = "design patterns, factory, instance creation",
+  location     = "http://gsraj.tripod.com/design/creational/factory/factory.html"
+}
+
