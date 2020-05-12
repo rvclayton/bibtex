@@ -2554,7 +2554,6 @@ the evolution of instruction sequencing : krick
 the evolution of storage systems : morris
 the expected lifetime of single address space operating systems : kotz
 the external consistency of abstract data types : silberschatz
-the factory method creational design pattern : raj
 the failure of pattern languages : gabriel
 the fast wavelet transform : cody
 the fastest sorting algorithm : nilsson
