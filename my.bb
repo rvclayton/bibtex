@@ -553,6 +553,18 @@
   location     = "QA 76.63.M42"
 }
 
+@Book{ncehm,
+  author       = "Edward~H. Miller",
+  title        = "Nut Country",
+  subtitle     = "Right-Wing Dallas and the Birth of the Southern Strategy",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "american political history, dallas texas, republicans,
+    ultraconservatives, the southern strategy, racism",
+  location     = "JK 2359.D35 M55"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
