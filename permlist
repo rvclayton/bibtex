@@ -215,7 +215,6 @@ a simple mechanism for type security across compilation units : scott
 a simple model of distributed programs based on implementation hiding and process autonomy : chandy 
 a simple reflexive interpreter : jefferson
 a simple separate compilation mechanism for block structured languages : le blanc
-a simplified account of polymorphic references : harper
 a small hybrid jit for embedded systems : manjunath
 a software engineering perspective on algorithmics : weihe
 a software instruction counter : mellor-crumey
