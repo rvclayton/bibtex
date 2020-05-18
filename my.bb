@@ -7,6 +7,7 @@
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 @string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
+@string{usenixs94 = pot # " USENIX Summer 1994 Technical Conference"}
 @string{usenix95  = pot # "1995 USENIX Technical Conference"}
 		  
 		  
@@ -563,6 +564,55 @@
   keywords     = "american political history, dallas texas, republicans,
     ultraconservatives, the southern strategy, racism",
   location     = "JK 2359.D35 M55"
+}
+
+@Book{gmmem,
+  author       = "Michael~E. Martenson",
+  title        = "Geometric Modeling",
+  publisher    = "John Wiley \& Sons",
+  year         = 1985,
+  address      = nyny,
+  keywords     = "curves, surfaces, solids, analytic properties, relational
+    properties, intersections, transformations, solid modeling fundamentals,
+    solid model construction, global properties, computer graphics, cad/cam",
+  location     = "QA 447.M62"
+}
+
+@Book{itor,
+  author       = "Frederick~S. Hillier and Gerald~J. Lieberman",
+  title        = "Introduction to Operations Research",
+  publisher    = "McGraw-Hill",
+  year         = 2001,
+  address      = boma,
+  keywords     = "modeling, linear programming, simplex method, duality theory,
+    sensitivity analysis, transportation problems, assignment problems, network
+    optimization, project management, pert/cpm, dynamic programming, integer
+    programming, nonlinear programming, game theory, decision analysis, markov
+    chains, queueing theory, inventory theory, forecasting, markov decision
+    processes, simulation",
+  location     = "T 57.6 M53"
+}
+
+@Book{skr,
+  author       = "Karen Russell",
+  title        = "Swamplandia!",
+  publisher    = "Vintage",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "florida, gator rasslin', ",
+  location     = "PS 3618.U755 S39"
+}
+
+@Book{canpjdc,
+  author       = "Jeffery~D. Clements",
+  title        = "Corporations are not People",
+  publisher    = "Berrett-Koehler",
+  year         = 2014,
+  address      = sfca,
+  edition      = "second",
+  keywords     = "corporate governance, constitutional law, the judicial
+    system, the powell doctrine",
+  location     = "JK 467.C55"
 }
 
 @Article{famw,
@@ -2981,6 +3031,57 @@
   location     = "https://doi.org/10.1145/800216.806596"
 }
 
+@Article{asaflscs,
+  author       = "Bruno Blanchet and Patrick Cousot and Radhia Cousot and Jérome Feret and Laurent Mauborgne and Antoine Miné and David Monniaux and Xavier Rival",
+  title        = "{A} Static Analyzer for Large Safety-Critical Software (Extended Abstract)",
+  journal      = notices ,
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "196--201",
+  month        = may,
+  keywords     = "abstract analysis, abstract domains",
+  abstract     = "We show that abstract interpretation-based static program
+    analysis can be made efficient and precise enough to formally verify a
+    class of properties for a family of large programs with few or no false
+    alarms.  This is achieved by refinement of a general purpose static
+    analyzer and later adaptation to particular programs of the family by the
+    end-user through parametrization.  This is applied to the proof of
+    soundness of data manipulation operations at the machine level for periodic
+    synchronous safety critical embedded software.The main novelties are the
+    design principle of static analyzers by refinement and adaptation through
+    parametrization (Sect.  3 and 7), the symbolic manipulation of expressions
+    to improve the precision of abstract transfer functions (Sect.  6.3), the
+    octagon (Sect.  6.2.2), ellipsoid (Sect.  6.2.3), and decision tree (Sect.
+    6.2.4) abstract domains, all with sound handling of rounding errors in
+    oating point computations, widening strategies (with thresholds: Sect.
+    7.1.2, delayed: Sect.  7.1.3) and the automatic determination of the
+    parameters (parametrized packing: Sect.  7.2).", 
+  location     = "https://doi.org/10.1145/780822.781153"
+}
+
+@Article{papdo,
+  author       = "Malcolm~P. Atkinson and Ronald Morrison",
+  title        = "Procedures as Persistent Data Objects",
+  journal      = toplas,
+  year         = 1985,
+  volume       = 7,
+  number       = 4,
+  pages        = "539--559",
+  month        = oct,
+  keywords     = "persistent storage, first-class functions, scoping,
+    polymorphism, closures, partial evaluation, views, separate compilation,
+    binding, static and dynamic typing", 
+  abstract     = "A persistent programming environment, together with a
+    language supporting first class procedures, may be used to provide the
+    semantic features of other object modeling languages.  In particular, the
+    two concepts may be combined to implement abstract data types, modules,
+    separate compilation, views, and data protection.  Furthermore, the ideas
+    may be used in system construction and version control, as demonstrated
+    here.", 
+  location     = "https://doi.org/10.1145/4472.4477"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -4893,6 +4994,156 @@
   location     = "https://dl.acm.org/doi/10.5555/645544.655855"
 }
 
+@InProceedings{aaotdfpfcimc,
+  author       = "Geoffrey~H. Kuenning and Gerald~J. Popek and Peter~L. Reiher",
+  title        = "An Analysis of Trace Data for Predictive File Caching in Mobile Computing",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "291--303",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "file caching, off-line execution, workloads, trace analysis,
+    user behavior",
+  abstract     = "One way to provide mobile computers with access to the resources of a network, even in the absence of communication, is to predict which information will be used during disconnection and cache the appropriate data while still connected.  To determine the feasibility of this approach, traces of file-access activity for three diverse application domains were collected for periods of over two months.  Analysis of these traces using traditional and new measures reveals that user working sets tend to be small compared to modern disk sizes, that users tend to reference the same files for several days or even weeks at a time, and that different users do not tend to write to the same file except in highly constrained circumstances.  These factors encourage the conclusion that an automated caching system can be built for a wide variety of environments.",
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267277",
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/analysis-trace-data-predictive-file-caching"
+}
+
+@InProceedings{sscrfmi,
+  author       = "Trevor Blackwell and Kee Chan and Koling Chang and Thomas Charuhas and James Gwertzman and Brad Karp and H.~T. Kung and W.~David Li and Dong Lin and Robert Morris and Robert Polansky and Diane Tang and Cliff Young and John Zao",
+  title        = "Secure Short-Cut Routing for Mobile {IP}",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "305--316",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "ip, mobility, routing, security, encapsulation, forwarding,
+    short-cut routing",
+  abstract     = "This paper describes the architecture and implementation of a mobile IP system.  It allows mobile hosts to roam between cells implemented with 2-Mbps radio base stations, while maintaining Internet connectivity.  The system is being developed as part of a course on wireless networks at Harvard and has been operational since March 1994.The architecture scales well, both geographically and in the number of mobile hosts supported.  It supports secure short-cut routing to mobile hosts using the existing Internet routing system without change.  The implementation demonstrates a robust, low complexity realization of the architecture, and provides trade-off opportunities between efficiency and cost.Measured performance of the mobile system is generally excellent.  The system can handle a high rate of location updates, and routes packets almost as efficiently for mobile hosts as the Internet does for stationary hosts.  We observe reasonable TCP behavior during hand-offs.",
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/secure-short-cut-routing-mobile-ip",
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267278"
+}
+
+@InProceedings{prtpopwtl,
+  author       = "Arthur Bernstein and Paul~K. Harter",
+  title        = "Proving Real-Time Properties of Programs with Temporal Logic",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "1--11",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "temporal logic, proof systems, real-time systems",
+  abstract     = "Wirth [Wi77] categorized programs into three classes.  The
+    most difficult type of program to understand and write is a real-time
+    program.  Much work has been done in the formal verification of sequential
+    programs, but much remains to be done for concurrent and real-time
+    programs.  The critical nature of typical real-time applications makes the
+    validity problem for real-time programs particularly important.  Owicki and
+    Lamport [OL80] present a relatively new method for verifying concurrent
+    programs using temporal logic.  This paper presents an extension of their
+    work to the area of real-time programs.  A model and proof system are
+    presented and their use demonstrated using examples from the literature.", 
+  location     = "https://doi.org/10.1145/1067627.806585"
+}
+
+@InProceedings{davoss,
+  author       = "J.~M. Rushby",
+  title        = "Design and Verifiation of Secure Systems",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "12--21",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "distributed systems, isolation, security, mechanism",
+  abstract     = "This paper reviews some difficulties arising when verifying
+    kernelized secure systems and suggests new techniques for their resolution.
+    It proposes that secure systems be conceived as distributed systems in
+    which security is achieved partly through the physical separation of its
+    individual components and partly through the mediation of trusted functions
+    performed within some of those components. The security kernel lets such a
+    'distributed' system run within a single processor; policy enforcement is
+    not the concern of a security kernel. This approach decouples component
+    verification, which perform trusted functions, from security kernel
+    verification.  This latter task may be accomplished by a new verification
+    technique called 'proof of separability' which explicitly addresses the
+    security relevant aspects of interrupt handling and other issues ignored by
+    present methods.", 
+  location     = "https://doi.org/10.1145/1067627.806586"
+}
+
+@InProceedings{ankjfb,
+  author       = "Joel~F. Bartlett",
+  title        = "{A} {NonStop} Kernel",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "22--29",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "redundancy, fault models, processes, message passing, error
+    recovery", 
+  abstract     = "The Tandem NonStop System is a fault-tolerant, expandable,
+    and distributed computer system designed for online transaction processing.
+    This paper describes the operating system kernel's key primitives.  The
+    first section describes the basic hardware building blocks and introduces
+    their software analogs: processes and messages.  Using these primitives, a
+    mechanism allowing fault-tolerant resource access, the process-pair, is
+    described.  The paper concludes with some observations on this type of
+    system structure, and on system use.",
+  location     = "https://doi.org/10.1145/1067627.806587",
+  location     = "https://www.hpl.hp.com/techreports/tandem/TR-81.4.pdf"
+}
+
+@InProceedings{ootdoaos,
+  author       = "Hugh~C. Lauer",
+  title        = "Observations on the Development of an Operating System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "30--36",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "software development, the five-to-seven-year model, os
+    classification, pilot, mesa, software management",
+  abstract     = "The development of Pilot, an operating system for a personal
+    computer, is reviewed, including a brief history and some of the problems
+    and lessons encountered during this development.  As part of understanding
+    how Pilot and other operating systems come about, an hypothesis is
+    presented that systems can be classified into five kinds according to the
+    style and direction of their development, independent of their structure.
+    A further hypothesis is presented that systems such as Pilot, and many
+    others in widespread use, take about five to seven years to reach maturity,
+    independent of the quality and quantity of the talent applied to their
+    development.  The pressures, constraints, and problems of producing Pilot
+    are discussed in the context of these hypotheses.",
+  location     = "https://doi.org/10.1145/800216.806588"
+}
+
+@InProceedings{tffsmf,
+  author       = "Marek Fridrich and William~J. Older",
+  title        = "The {Felix} File Server",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "37--44",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "consistency, file sets, transactions, resiliency",
+  abstract     = "This paper describes Felix - a File Server for an
+    experimental distributed multicomputer system.  Felix is designed to
+    support a variety of file systems, virtual memory, and database
+    applications with access being provided by a local area network.  Its
+    interface combines block oriented data access with a high degree of crash
+    resistance and a comprehensive set of primitives for controlling data
+    sharing and consistency.  An extended set of access modes allows increased
+    concurrency over conventional systems.", 
+  location     = "https://doi.org/10.1145/800216.806589"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -4935,3 +5186,6 @@
   location     = "http://gsraj.tripod.com/design/creational/factory/factory.html"
 }
 
+% Local Variables:
+% eval: (set-register ?b "  booktitle    = usenixs94,\n  year         = 1994,\n  pages        = \"--\",\n  organization = \"USENIX Association\",\n  address      = boma,\n  month        = \"6--10 \" # jun,\n")
+% End:
