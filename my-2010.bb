@@ -66813,6 +66813,7 @@
 @Book{ucac,
   author       = "Terry Winograd and Fernando Flores",
   title        = "Understanding Computers and Cognition",
+  subtitle     = "A New Foundation for Design",
   publisher    = "Ablex",
   year         = 1986,
   address      = "Norwood, N.J.",
