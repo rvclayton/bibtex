@@ -3082,6 +3082,33 @@
   location     = "https://doi.org/10.1145/4472.4477"
 }
 
+@Article{pasecat,
+  author       = "Brad Appleton",
+  title        = "Patterns and Software:  Essential Concepts and Terminology",
+  journal      = "Object Magazine Online",
+  year         = 1997,
+  volume       = 3,
+  number       = 5,
+  month        = may,
+  keywords     = "origins, history, pattern types, pattern components,
+    qualities", 
+  abstract     = "Fundamental to any science or engineering discipline is a
+    common vocabulary for expressing its concepts, and a language for relating
+    them together.  The goal of patterns within the software community is to
+    create a body of literature to help software developers resolve recurring
+    problems encountered throughout all of software development.  Patterns help
+    create a shared language for communicating insight and experience about
+    these problems and their solutions.  Formally codifying these solutions and
+    their relationships lets us successfully capture the body of knowledge
+    which defines our understanding of good architectures that meet the needs
+    of their users.  Forming a common pattern language for conveying the
+    structures and mechanisms of our architectures allows us to intelligibly
+    reason about them.  The primary focus is not so much on technology as it is
+    on creating a culture to document and support sound engineering
+    architecture and design.", 
+  location     = "https://www.bradapp.net/docs/patterns-intro.html"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
