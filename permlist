@@ -284,7 +284,6 @@ a users manual for metapost : hobby
 a vcode tutorial : engler
 a verified connection management protocol for the transport layer : murphy
 a voice over ip service architecture for integrated communications : rizzetto
-a watermark based lazy buddy system for kernel memory allocation : lee
 a weakness in the 4.2 bsd unix tcp ip software : morris
 a whirlwind tutorial on creating really teensy elf executables for linux : raiter
 aaree a recipe for analyzing object oriented programming : khurshid
@@ -446,7 +445,6 @@ an object oriented approach to constructing recursive descent parsers : davis
 an object oriented architecture for text retrieval : cutting
 an object oriented ll1 parser generator : kuhl
 an old fashioned recipe for real time : abadi
-an operating systems vade mecum : finkel
 an operational approach to requirements specification for embedded systems : zave
 an operational semantics for csp : plotkin
 an operational semantics of first class synchronization operations : reppy
@@ -483,7 +481,6 @@ applying design by contract : meyer
 applying pi towards a basis for concurrent imperative programming : odersky
 applying software complexity metrics to program maintenance : harrison
 architectural management for ensuring software compatibility in the vax family of computers : bhandarkar
-architectural styles and the design of network based software architectures : fielding
 architectural support for cooperative multiuser interfaces : bentley
 architectural thinking and modeling with the architects workbench : nelson
 architecture independent parallel computation : skillicorn
@@ -1517,7 +1514,6 @@ larch frequently asked questions : leavens
 larchant rdoss a distributed shared persistent memory and its garbage collector : shapiro
 latency lags bandwidth : patterson
 lattice based access control models : sandhu
-law governed peer to peer auctions : fontoura
 laws of occam programming : roscoe
 lazy and incremental program generation : heering
 lazy depth first search and linear graph algorithms in haskell : king
@@ -1604,7 +1600,6 @@ margination and project gutenberg : fishburne
 masking the overhead of protocol layering : van renesse
 massively parallel model matching : rigoutsos
 mastering recursive programming : bartlett
-mate a tiny virtual machine for sensor networks : levis
 mathematical theory of claude shannon : chiu
 mathematics the loss of certainty : kline
 matrix computations on systolic type meshes : moreno
@@ -1741,7 +1736,6 @@ oberon technical notes : pfister
 object message and performance how they coexist in self : ungar
 object orientation in heterogeneous distributed computing systems : nicol
 object oriented abstractions for distributed programming : guerraoui
-object oriented and conventional analysis and design methodologies : fichman
 object oriented database management systems concepts and issues : bertino
 object oriented patterns : coad
 object oriented programming for structured procedural programmers : khan
@@ -2045,7 +2039,6 @@ quinault an office modeling system : nutt
 r++ adding path base rules to c++ : crawford
 r++ using rules in object oriented designs : mishra
 rafts for basic blocks a progress report on forth native code compilation : ertl
-random early detection gateways for congestion avoidance : floyd
 randomized shuffling : rolfe
 rapid case dispatch in scheme : clinger
 rationale for the design of the ada programming lanaugae : ichbiah
@@ -2262,7 +2255,6 @@ software assurance by bounded exhaustive testing : yang
 software based replication for fault tolerance : guerraoui
 software caching vs prefetching : aggarwal
 software communication mechanisms procedure calls versus messages : stankovic
-software complexity and its impact on software reliability : lew
 software defect reduction top 10 list : boehm
 software design : enos
 software development based on executable specifications and transformations : fromherz
@@ -2786,7 +2778,6 @@ thinking about binary trees in an object oriented world : berman
 thinking recursively : roberts
 thirty years is long enough getting beyond c : brewer
 thirty years later lessons from the multics security evaluation : karger
-this is not a pipe : foucault
 thoughts on larch ml and a new application for lp : wing
 threads and locks : java
 three approaches to type structure : reynolds
