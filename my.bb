@@ -615,6 +615,29 @@
   location     = "JK 467.C55"
 }
 
+@Book{bhobc,
+  author       = "David Crystal",
+  title        = "By Hook or by Crook",
+  subtitle     = "A Journey in Search of English",
+  publisher    = "The Overlook Press",
+  year         = 2007,
+  address      = "Woodstock, " # ny,
+  keywords     = "english as she is spoke",
+  location     = "PE 1711.C79"
+}
+
+@Book{afgaip,
+  author       = "Theo Pavlidis",
+  title        = "Algorithms for Graphics and Image Processing",
+  publisher    = "Computer Science Press",
+  year         = 1982,
+  keywords     = "digitization, gray-scale images, segmentation, data
+    structures, bilevel pictures, projections, contour filling, thinning
+    algorithms, curve fitting, curve displaying, splines, curve approximation,
+    surface fitting, surface displaying, mathematics, polygon clipping, 2d
+    graphics, 3d graphics"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3247,6 +3270,16 @@
     and what it isn't, along with the design philosophy."
 }
 
+@TechReport{soovfs,
+  author       = "Timo Lehtinen",
+  title        = "Store --- Object-Oriented Virtual File System",
+  institution  = "Stream Technologies Inc.",
+  year         = 1993,
+  address      = "Espoo, Finland",
+  month        = "29 " # jul,
+  keywords     = "global name spaces, class store, support class"
+}
+
 @InProceedings{cmultsygbtr,
   author       = "Stanley~P. Hanks",
   title        = "Creating {MAN}s using {LAN} Technology:  Sometimes You Gotta Break the Rules",
@@ -5169,6 +5202,202 @@
     sharing and consistency.  An extended set of access modes allows increased
     concurrency over conventional systems.", 
   location     = "https://doi.org/10.1145/800216.806589"
+}
+
+@InProceedings{ewastfdntps,
+  author       = "James~D. Guyton and Michael~F. Schwartz",
+  title        = "Experiences with a Survey Tool for Discovering {Network Time Protocol} Servers",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "257--265",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "clock synchronization, ntp, remote monitoring, surveys",
+  abstract     = "The Network Time Protocol (NTP) is widely used to synchronize
+    computer clocks throughout the Internet.  Existing NTP clients and servers
+    form a very large distributed system, and yet the tools available to
+    observe and manage this system are fairly primitive.  This paper describes
+    our experiences with a prototype tool that attempts to discover relevant
+    information about every NTP site on the Internet.  The data produced by
+    this tool can be used for a variety of purposes, including locating nearby
+    accurate time servers and computing aggregate and long-term evaluations of
+    the size and health of the NTP system.  Importantly, our tool provides a
+    means by which new NTP server administrators can make informed choices
+    among the possible servers with which to synchronize, balancing the need
+    for accurate time with the need to distribute server load.  This is an
+    important step towards improving global NTP system scalability, since at
+    present our measurements indicate that the high-stratum servers are heavily
+    overloaded.", 
+  location     = "https://www.usenix.org/biblio-4262"
+}
+
+@InProceedings{lgccfic,
+  author       = "Mummert, Lily~B. and Satyanarayanan, M.",
+  title        = "Large Granularity Cache Coherence for Intermittent Connectivity",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "279--289",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "cache coherence, distributed file systems, coda, callbacks,
+    cache management",
+  abstract     = "To function in mobile computing environments, distributed
+    file systems must cope with networks that are slow, intermittent, or both.
+    Intermittence vitiates the effectiveness of callback-based cache coherence
+    schemes in reducing client-server communication, because clients must
+    validate files when connections are reestablished.  In this paper we show
+    how maintaining cache coherence at a large granularity alleviates this
+    problem.  We report on the implementation and performance of large
+    granularity cache coherence for the Coda File System.  Our measurements
+    confirm the value of this technique.  At 9.6 Kbps, this technique takes
+    only 4 -- 20% of the time required by two other strategies to validate the
+    cache for a sample of Coda users.  Even at this speed, the network is
+    effectively eliminated as the bottleneck for cache validation.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/large-granularity-cache-coherence-intermittent",
+  location     = "https://www.cs.cmu.edu/~satya/docdir/mummert-usenix-large-granularity-1994.pdf"
+}
+
+@InProceedings{patdluvi,
+  author       = "Timothy~W. Curry",
+  title        = "Profiling and Tracing Dynamic Library Usage Via Interposition",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "267--278",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "profiling, tracing, dynamic libraries, dynamic linking,
+    interposition",
+  abstract     = "Run-time resolution of library functions provides a rich and
+    powerful opportunity to collect workload profiles and function/parameter
+    trace information without source, special compilation, or special linking.
+    This can be accomplished by having the linker resolve library functions to
+    special wrapper functions that collect statistics before and after calling
+    the real library function, leaving both the application and real library
+    unaltered.  The set of dynamic libraries is quite large including
+    interesting libraries like libc (the C library and Operating System
+    interface), graphics, database, network interface, and many more.  Coupling
+    this with the ability to simultaneously trace multiple processes on
+    multiple processors covering both client and server processes yields
+    tremendous feedback.  We have found the amount of detailed information that
+    can be gathered has been useful in many stages of the project life-cycle
+    including the design, development, tuning, and sustaining of hardware,
+    libraries, and applications.This paper first contrasts our extended view of
+    interposition to other profiling, tracing, and interposing techniques.
+    This is followed by a description and sample output of tools developed
+    around this view; a discussion of obstacles encountered developing the
+    tools; and finally, a discussion of anticipated and unanticipated ways
+    those tools have been applied.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267275"
+}
+
+@InProceedings{ptidec,
+  author       = "Douglas~E. Comer and John~C. Lin",
+  title        = "Probing {TCP} Implementations",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "245--255",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "remote monitoring, tcp, measurements, testing",
+  abstract     = "In this paper, we demonstrate a technique called active
+    probing used to study TCP implementations.  Active probing treats a TCP
+    implementation as a black box, and uses a set of procedures to probe the
+    black box.  By studying the way TCP responds to the probes, one can deduce
+    several characteristics of the implementation.  The technique is
+    particularly useful if TCP source code is unavailable.To demonstrate the
+    technique, the paper shows example probe procedures that examine three
+    aspects of TCP.  The results are informative: they reveal implementation
+    flaws, protocol violations, and the details of design decisions in five
+    vendor-supported TCP implementations.  The results of our experiment
+    suggest that active probing can be used to test TCP implementations.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/probing-tcp-implementations"
+}
+
+@InProceedings{ossfdm,
+  author       = "Ian~M. Leslie and Derek McAuley and Sape~J. Mullender",
+  title        = "Operating-System Support for Distributed Multimedia",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "209--219",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "atm, desk-area network, log-structured file systems",
+  abstract     = "Multimedia applications place new demands upon processors,
+    networks and operating systems.  While some network designers, through ATM
+    for example, have considered revolutionary approaches to supporting
+    multimedia, the same cannot be said for operating systems designers.  Most
+    work is evolutionary in nature, attempting to identify additional features
+    that can be added to existing systems to support multimedia.  Here we
+    describe the Pegasus project¿s attempt to build an integrated hardware and
+    operating system environment from the ground up specifically targeted
+    towards multimedia.", 
+  location     = "https://research.utwente.nl/en/publications/pegasus-operating-system-support-for-distributed-multimedia-syste"
+}
+
+@InProceedings{suiagml,
+  author       = "Lincoln Stein and Andre Marquis and Ert Dredge and Mary Pat Reeve and Mark Daly and Steve Rozen and Nathan Goodman",
+  title        = "Splicing " # unix # " into a Genome Mapping Laboratory",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "221--229",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "database access, user interfaces",
+  abstract     = "The Whitehead Institute/MIT Center for Genome Research is
+    responsible for a number of large genome mapping efforts, the scale of
+    which create problems of data and workflow management that dictate reliance
+    on computer support.  Two years ago, when we started to design the
+    informatics support for the laboratory, we realized that the fluid and
+    ever-changing nature of the experimental protocols precluded any effort to
+    create a single monolithic piece of software.  Instead we designed a system
+    that relied on multiple distributed data analysis and processing tools knit
+    together by a centralized database.  The obvious choice of operating
+    systems was UNIX.  In order to make this choice palatable to the laboratory
+    biologists--who rightly consider it their job to do experiments rather than
+    to interact with computers, and who have come to expect all software to be
+    as intuitive and responsive as the Apple Macintoshes on their desks--we
+    designed a system that runs automatically and essentially invisibly.
+    Whenever it is necessary for the informatics system to interact with a
+    member of the laboratory we have carefully chosen a user interface paradigm
+    that best balances the user's expectations against the system's
+    capabilities.  When possible we have chosen to adapt familiar software to
+    our user interface needs rather than to write user interfaces from scratch.
+    We've managed to hide the power of UNIX behind the innocuous personal
+    computer-based front ends our users know and love, using techniques that
+    should be applicable in other environments as well.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/splicing-unix-genome-mapping-laboratory"
+}
+
+@InProceedings{atrpftuos,
+  author       = "Liam R.~E. Quin",
+  title        = "{A} Text Retrieval Package for the Unix Operating System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "231--243",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "search, text databases",
+  abstract     = "This paper describes lq-text, an inverted index text
+    retrieval package written by the author.  Inverted index text retrieval
+    provides a fast and effective way of searching large amounts of text.  This
+    is implemented by making an index to all of the natural-language words that
+    occur in the text.  The actual text remains unaltered in place, or, if
+    desired, can be compressed or archived; the index allows rapid searching
+    even if the data files have been altogether removed.The design and
+    implementation of lq-text are discussed, and performance measurements are
+    given for comparison with other text searching programs such as grep and
+    agrep.  The functionality provided is compared briefly with other packages
+    such as glimpse and zbrowser.The lq-text package is available in source
+    form, has been successfully integrated into a number of other systems and
+    products, and is in use at over 100 sites.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/text-retrieval-package-unix-operating-system"
 }
 
 @Manual{ai43ict,
