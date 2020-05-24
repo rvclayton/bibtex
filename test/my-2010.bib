@@ -35,6 +35,7 @@
 @string{chil    = "Chicago, Illinois"}
 @string{chnc    = "Chappel Hill, North Carolina"}
 @string{cit     = CA # " Institute of Technology"}
+@string{cioh    = "Cincinnati, Ohio"}
 @string{cgaa    = "Computer Graphics and Applications"}
 @string{cma	= "Cambridge, Massachusetts"}
 @string{cmu	= "Carnegie Mellon University"}
@@ -55,6 +56,7 @@
 @string{csri    = "Computer Systems Research Institute"}
 @string{cuca    = "Cupertino, " # CA}
 @string{cup	= "Cambridge University Press"}
+@string{date	= "Dallas, Texas"}
 @string{dcsnc	= "Department of Computer Science"}
 @string{dcs	= dcsnc # ", "}
 @string{ddj     = "Dr.~Dobb's Journal"}
@@ -180,7 +182,8 @@
 @string{pcpldi 	= "Proceedings of the Conference on Programming Language Design and Implementation"} 
 @string{pcs     = "Professional Computing Series"}
 @string{ph	= "Prentice Hall"}
-@string{phisics = "Prentice Hall International Series in Computer Science"}
+@string{phi	= ph # " International"}
+@string{phisics = phi # " Series in Computer Science"}
 @string{phpe    = "Philadelphia, Pennsylvania"}
 @string{pldai   = "Programming Language Design and Implementation"}
 @string{pldai01 = pot # "2001 Conference on " # pldai # ", PLDI '01"}
@@ -257,6 +260,7 @@
 @string{tscse   = "SIGCSE Technical Symposium on Computer Science Education"}
 @string{tse	= "IEEE Transactions on Software Engineering"}
 @string{tsem	= acmt # "Software Engineering and Methodology"}
+@string{TX      = "Texas"}
 @string{uaz	= " University of " # AZ}
 @string{ubol	= " University of Bologna"}
 @string{ucal	= " University of " # CA}
@@ -275,7 +279,7 @@
 @string{usenixs90 = pot # "Summer 1990 USENIX Conference"}
 @string{usenixs91 = pot # "Summer 1991 USENIX Conference"}
 @string{ustra   = " University of Strathclyde"}
-@string{uta	= " University of Texas"}
+@string{uta	= " University of " # TX}
 @string{utam	= " University of Tampere"}
 @string{utaz    = " University of Tazmania"}
 @string{utor    = " University of Toronto"}
@@ -31423,16 +31427,17 @@
   location     = "http://doi.acm.org/10.1145/960114.29671"
 }
 
-@Article{,
+@Article{vmssvr,
   author       = "Yunhe Shi and Kevin Casey and M.~Anton Ertl and David Gregg ",
   title        = "Virtual machine showdown: Stack versus registers",
   journal      = "ACM Transactions on Architecture and Code Optimization",
   year         = 2008,
   volume       = 4,
   number       = 4,
-  pages        = "",
+  pages        = "21:1--21:36",
   month        = jan,
-  keywords     = "",
+  keywords     = "interpreters, virtual machines, register architectures, stack
+    architectures, instruction sets",
   abstract     = "Virtual machines (VMs) enable the distribution of programs
     in an architecture-neutral format, which can easily be interpreted or
     compiled.  A long-running question in the design of VMs is whether a stack
@@ -32518,7 +32523,9 @@
   number       = 6,
   pages        = "31:1--31:40",
   month        = oct,
-  keywords     = "",
+  keywords     = "syntax extensions, compile-time meta-programming, domain
+    specific languages, domain-specific languages, homogeneous embedding, error
+    reporting, hygienic extensions",
   abstract     = "Domain specific languages (DSLs) are mini-languages that are
     increasingly seen as being a valuable tool for software developers and
     non-developers alike. DSLs must currently be created in an ad-hoc fashion,
@@ -32529,7 +32536,8 @@
     reporting techniques.  By making use of pre-existing facilities, and
     following a simple methodology, DSL implementation costs can be
     significantly reduced whilst leading to higher quality DSL
-    implementations.",
+    implementations.", 
+  location     = "https://doi.org/10.1145/1391956.1391958",
   location     = "http://tratt.net/laurie/research/publications/papers/tratt__domain_specific_language_implementation_via_compile_time_meta_programming.pdf"
 }
 
@@ -51022,21 +51030,6 @@
 		   abstract relations, language design" 
 }
 
-@inproceedings{fcult,
-  author	= "Brian~D. Marsh and Michael~L. Scott and Thomas~J. LeBlanc
-		   and Evangelos~P. Markatos", 
-  title		= "First-Class User-Level Threads",
-  booktitle	= pot # "Thirteenth" # sosp, 
-  year		= 1991,
-  pages		= "110--121",
-  organization	= "ACM SIGOPS",
-  publisher	= acmp,
-  month		= "13--16 October",
-  keywords	= "parallel programming, kernel-based synchronization,
-		   lightweight processes, first-class threads, thread packages,
-		   software interrupts"
-}
-
 @inproceedings{tdomacitioamos,
   author	= "Michael Young and Avadis Tevanian and Richard Rashid and
 		   David Golub and Jeffrey Eppinger and Jonathan Chew and
@@ -51091,19 +51084,6 @@
   address	= phpe,
   month		= "24--27 September",
   keywords	= ""
-}
-
-@inproceedings{lrpc,
-  author	= "B. Bershad and T. Anderson and E. Lazwoska and H. Levy",
-  title		= "Lightweight Remote Procedure Call",
-  booktitle	= pot # "Twelfth" # sosp, 
-  year		= 1989,
-  pages		= "102--113",
-  publisher	= acmp,
-  address	= "Litchfield Park, Arizona",
-  month		= "3--9 December",
-  keywords	= "remote procedure call, performance, context switches,
-		   protection domains" 
 }
 
 @inproceedings{ctcotdc,
@@ -51620,23 +51600,24 @@
   year         = 1993,
   pages        = "189--202",
   publisher    = acmp,
-  address      = "Asheville, N. C.",
+  address      = "Asheville, N.C.",
   month        = "5--8 " # dec,
   keywords     = "buffers, shared memory, page mapping, data transfer, protocol
-		  performance"
-}
+		  performance",
+  abstract     = "We have designed and implemented a new operating system
+    facility for I/O buffer management and data transferacross protection
+    domain boundaries on shared memory machines.  This facility, called fast
+    buffers (fbufs), combines virtual page remapping with shared virtual
+    memory, and exploits locality in I/O traffic to achieve high throughput
+    without compromising protection, security, or modularity.  goal is to help
+    deliver the high bandwidth afforded by emerging high-speed networks to
+    user-level processes, both in monolithic and microkernel-based operating
+    systems.This paper outlines the requirements for a cross-domain transfer
+    facility, describes the design of the fbuf mechanism that meets these
+    requirements, and experimentally quantifies the impact of fbufs on network
+    performance.",
+  location     = "https://doi.org/10.1145/168619.168634"
 
-@InProceedings{esbfi,
-  author       = "Robert Wahbe and Steven Lucco and Thomas~E. Anderson and
-		  Susan~L. Graham",
-  title        = "Efficient Software-Based Fault Isolation",
-  booktitle    = pot # "Fourteenth" # sosp,
-  year         = 1993,
-  pages        = "203--216",
-  publisher    = acmp,
-  address      = "Asheville, N. C.",
-  month        = "5--8 " # dec,
-  keywords     = "protection domains, rpc, fault detection"
 }
 
 @InProceedings{rrfrrppfaiw,
@@ -51735,6 +51716,19 @@
   location     = "TK 5101.A1 I146 1991"
 }
 
+@InProceedings{utiisacs,
+  author       = "Carl Hauser and Christian Jacobi and Marvin Theimer and Brent
+		  Welsh and Mark Weiser",
+  title        = "Using Threads in Interactive Systems:  A Case Study",
+  booktitle    = pot # "Fourteenth" # sosp,
+  year         = 1993,
+  pages        = "94--105",
+  publisher    = acmp,
+  address      = "Asheville, N. C.",
+  month        = "5--8 " # dec,
+  keywords     = "threads, thread behavior, thread paradigms, thread use"
+}
+
 @InProceedings{aiaattscaioadt,
   author       = "J.~A. Goguen and J.~W. Thatcher and E.~G. Wagner",
   title        = "{An Initial Algebra Approach to the Specification,
@@ -51806,17 +51800,6 @@
     program checks for some conformance of C code to its LCL specification.", 
   month        = aug,
   location     = "https://doi.org/10.1145/185084.185106"
-}
-
-@InProceedings{aaamspl,
-  author       = "Henry Spencer",
-  title        = "Awk as a Major Systems Programming Language",
-  booktitle    = wucp,
-  year         = 1991,
-  pages        = "137--143",
-  address      = "Dallas, Texas",
-  month        = "21--25 January",
-  keywords     = "awk, text processing, parsers, systems programming"
 }
 
 @InProceedings{apitai,
@@ -51899,17 +51882,6 @@
   keywords     = "calculus, maximum, predicates, saddleback search, peterson's
                   mutual exclusion, ",
   location     = "QA 76.6.F657"
-}
-
-@InProceedings{pti,
-  author       = "Douglas~E. Comer and John~C. Lin",
-  title        = "Probing {TCP} Implementations",
-  booktitle    = sucp,
-  year         = 1994,
-  pages        = "245--255",
-  address      = boma,
-  month        = "6--10 June",
-  keywords     = "tcp, testing"
 }
 
 @InProceedings{piuilp,
@@ -56515,7 +56487,7 @@
 }
 
 @InProceedings{tassfwfs,
-  author       = "Peter {Relher, Jr.} and Thomas Page and Gerald~J. Popek and
+  author       = "Peter Reiher and Thomas {Page, Jr.} and Gerald~J. Popek and
     Jeff Cook and Stephen Crocker",
   title        = "Truffles --- a secure service for widespread file sharing",
   booktitle    = pot # "PSRG Workshop on Network and Distributed System Security",
@@ -57654,6 +57626,15 @@
   keywords	= "synchronization, concurrency, modularity, data abstractions,
 		   programming methodology, monitors, serializes, path
 		   expressions"  
+}
+
+@mastersthesis{trpc,
+  author	= "Michelle Denise Abram",
+  title		= "Transparent Remote Procedure Call",
+  school	= uca # ", Santa Cruz",
+  year		= 1992,
+  month		= dec,
+  keywords	= "remote procedure call, distributed data base"
 }
 
 @MastersThesis{thotae,
@@ -63624,13 +63605,17 @@
   location     = "E 169.04.Q44"
 }
 
-@Book{sd,
+@Book{sdeylc,
   author       = "Edward Yourdon and Larry~L. Constantine",
   title        = "Structured Design",
+  subtitle     = "Fundamentals of a Discipline of Computer Program and Systems Design",
   publisher    = ph,
   year         = 1979,
   address      = ecnj,
-  keywords     = "",
+  keywords     = "program engineering, structured design, program structure,
+    human factors, coupling, cohesion, design heuristics, transform analysis,
+    transaction analysis, modular systems, packaging, optimization, recursive
+    structures, program quality, software management, structure charts",
   location     = "QA 76.6 Y67"
 }
 
@@ -67118,6 +67103,7 @@
 @Book{ucac,
   author       = "Terry Winograd and Fernando Flores",
   title        = "Understanding Computers and Cognition",
+  subtitle     = "A New Foundation for Design",
   publisher    = "Ablex",
   year         = 1986,
   address      = "Norwood, N.J.",
