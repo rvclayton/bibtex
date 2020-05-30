@@ -361,7 +361,6 @@ algol w reference manual : eve
 algorithm animation with agat : arsac
 algorithmic specifications a constructive specification method for abstract data types : loeckx
 algorithms and data structures for flash memories : gal
-algorithms and issues in server software design : anon
 algorithms for directed graphs : mangano
 algorithms for stereoscopic imaging : duvanenko
 alien text file compresion : swan
@@ -974,7 +973,6 @@ e prime as a revision strategy : zimmerman
 e prime the spirit and the letter : kenyon
 early experience with adsl in lcc : hanson
 early storage reclamation in a tracing garbage collector : harris
-easy to use object oriented parallel processing with mentat : grimshaw
 eclipse a platform for integrating development tools : riveres
 ecological development and policy change : hofferbert
 economical fault tolerant networks : butt
@@ -991,7 +989,6 @@ efficient demultiplexing of network packets by automatic parsing : jayaram
 efficient evaluation of circular attribute grammars : jones
 efficient high level iteration with accumulators : cameron
 efficient implementation and optimization of run time checking in pascal : fischer
-efficient implementation of sequential loops in dataflow computation : ang
 efficient implementation of suffix trees : andersson
 efficient implementation of the first fit strategy for dynamic storage allocation : brent
 efficient implementation of the smalltalk 80 system : deutsch
@@ -1348,7 +1345,6 @@ image models : ahuja
 image retrieval from the world wide web issues techniques and systems : kherfi
 imperative functional programming : peyton jones
 implementation issues in the development of the parsec parser : harper
-implementation of the ficus replicated file system : guy
 implementing a high performance smalltalk interpreter with genbc and genvm : bonzini
 implementing an interpreter : sugalski
 implementing atomic actions on decentralized data : reed
@@ -1491,7 +1487,6 @@ jit vs offline compilation limits and benefits of bytecode compilation : muller
 joeq a virtual machine and compiler infrastructure : whaley
 journaling file systems : best
 jpp a java preprocessor : kiniry
-jthread a deadlock free mutex library : grande
 just what is it that makes martin lofs type theory so different so appealing : leslie
 k tree container data structures : bates
 k user manual : kx 
@@ -1603,7 +1598,6 @@ mastering recursive programming : bartlett
 mathematical theory of claude shannon : chiu
 mathematics the loss of certainty : kline
 matrix computations on systolic type meshes : moreno
-measurement and evaluation of the mips architecture and processor : gross
 measuring software quality a case study : drake
 mechanical verification of concurrent systems with tla : engberg
 median cut color quantization : kruger
@@ -1661,7 +1655,6 @@ monadic parser combinators : hutton
 monadic robotics : peterson
 monads for functional programming : wadler
 monads indexes and transformations : bellegarde
-monitoring for deadlock and blocking in ada tasking : german
 monitoring program execution a survey : plattner
 monitors an operating system structuring concept : hoare
 montage breaking windows into small pieces : haahr
@@ -1701,7 +1694,6 @@ network news transfer protocol : kantor
 network objects : birrell
 network services in an uncooperative internet : jannotti
 networking the network : agre
-networks and algorithms for very large scale parallel computation : gottleib
 networks for the future to .net or not : netaction
 neural adaptive congestion control for broadband atm networks : chen
 neural network design of a banyan network controller : brown
@@ -1747,7 +1739,6 @@ objecting to objects : johnson
 objects have failed : gabriel
 obliq 3d tutorial and reference manual : najork
 obliq a language with distributed scope : cardelli
-observations on the evolution of a software system : allman
 occams razor the cutting edge for parser technology : bowen
 oceanstore an architecture for global scale persistent storage : kubiatowicz
 off and on tokens : clark
@@ -2137,7 +2128,6 @@ salto system for assembly language transformation and optimization : rohou
 satellite link communication protocols : pujolle
 sawfish programmers reference : sawfish
 scala by example : odersky
-scalability three tiered architectures and application servers : greenspun
 scalable extensibility via nested inheritance : nystrom
 scalable feedback control for multicast video distribution in the internet : bolot
 scalable, robust visualization of very large trees : beerman
@@ -2165,7 +2155,6 @@ searching with quantum computers : grove
 secheduling in rtl design methodology : shin
 second step algorithms in the burrows wheeler compression algorithm : deorowicz
 security in plan 9 : cox
-security kernel design and implementation an introduction : ames
 security mechanisms in high level network protocols : voydock
 security models for web based applications : joshi
 security practicum essential home wireless security practices : fisher
@@ -2252,7 +2241,6 @@ soap simple object access protocol : box
 soft typing : carwright
 software abstractions : jackson
 software assurance by bounded exhaustive testing : yang
-software based replication for fault tolerance : guerraoui
 software caching vs prefetching : aggarwal
 software communication mechanisms procedure calls versus messages : stankovic
 software defect reduction top 10 list : boehm
@@ -2364,7 +2352,6 @@ substitution : krishnamurthi
 substitution a formal methods case study using monads and transformations : bellegarde
 subtext uncovering the simplicity of programming : edwards
 subsuming packages and other stories : bracha
-successfully applying software metrics : grady
 sudoku and graph theory : suchard
 sudoku in coq : thery
 suif an infrastructure for research on parallelizing and optimizing compilers : wilson
@@ -2391,7 +2378,6 @@ sxslt manipulation language for xml : kiselyov
 symbolic boolean manipulation with ordered binary decision diagrams : bryant
 symbolic model checking using sat proceudres instead of bdds : biere
 symmertic and asymmetric encryption : simmons
-synchronization algorithms for shared memory multiprocessors : graunke
 synchronization coherence and event ordering in multiprocessors : dubois
 synchronization in distributed programs : schneider
 synchronous automata for reactive real time or embedded systems : maffeis
