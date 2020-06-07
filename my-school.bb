@@ -25140,6 +25140,20 @@
   number       = 2399,
   address      = "Le Chesnay, France",
   month        = nov,
+  abstract     = "Larchant-RDOSS is a distributed shared memory that persists
+    on reliable storage across process lifetimes.  Memory management is
+    automatic: caching of data and of locks, coherence, collecting objects
+    unreachable from the persistent root, writing reachable objects to disk,
+    and reducing store fragmentation.  Memory management is based on a novel
+    garbage collection algorithm, that (i) approximates a global trace by a
+    series of partial traces within dynamically determined subsets of the
+    memory, (ii) causes no extra I/O or locking traffic, and (iii) needs no
+    extra synchronization between the collector and the application processes.
+    This results in a simple programming model, and expected minimal added
+    application latency.  The algorithm is designed for the most unfavorable
+    environment (uncontrolled programming language, reference by pointers,
+    non-coherent shared memory) and should work well also in more favorable
+    settings.", 
   keywords     = "distributed algorithm, distributed shared memory, distributed
 		  system, garbage collection, synchronization",
   location     = "ftp://ftp.inria.fr/INRIA/Projects/SOR/RDOSS:rr2399.ps.gz"
@@ -30767,8 +30781,35 @@ b
   pages        = "289--295",
   address      = "Cincinnati, Ohio",
   month        = "6--7 " # feb,
-  keywords     = "design, performance, operating systems, simulation"
-}
+  keywords     = "design, performance, operating systems, simulation",
+  abstract     = "The purpose of this paper is to describe a project in a
+    course on Operating Systems.  The project is designed to reinforce the
+    concepts of memory management, process management and processor management
+    that are discussed in most Operating Systems texts.  Each student is to
+    design and write a program that will simulate these major components of an
+    operating system.  This project is presented to the student in 3 phases and
+    is written in Pascal although it can be adapted to other languages.  The
+    first phase requires the design of memory management routines for an
+    operating system which schedules jobs through the use of a combined round
+    robin/FIFO philosophy.  The major concerns are the allocation and
+    deallocation of memory pages as programs are submitted to the system and
+    are removed from the system as they finish.  The second phase takes into
+    account various scheduling techniques, I/O requests, and swapping.  Having
+    already worked out the bugs in the memory management routines, the student
+    now must be concerned with the management of the jobs that pass through the
+    system.  The third and last phase is the implementation of job
+    synchronization.  Several events are described, any of which may be the
+    object of a WAIT or SIGNAL directive issued by an executing program.  The
+    project must synchronize jobs that issue a WAIT and SIGNAL directive on the
+    same event.The project is part of a 3 credit course in Operating Systems
+    taught to Juniors and Seniors.  Successful completion of the project
+    includes not only the correct implementation of a well documented and
+    logically designed operating system, but also a comparative study, within
+    each phase, of the efficiency and effectiveness of the operating system as
+    a variety of parameters, which describe the environment, are changed.
+    Observations are submitted in a report that is required with each phase.",
+  location     = "https://doi.org/10.1145/953055.5649"
+  }
 
 @InProceedings{m2pfaoscrsamw,
   author       = "Michael~B. Feldman",
