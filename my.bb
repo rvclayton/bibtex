@@ -638,6 +638,38 @@
     graphics, 3d graphics"
 }
 
+@Book{pfai,
+  author       = "Randall Jarrell",
+  title        = "Pictures from an Institution",
+  publisher    = ucp,
+  year         = 1986,
+  address      = chil,
+  keywords     = "college life, writers, character studies",
+  location     = "PS 3519.A86 P5"
+}
+
+@Book{mttp,
+  author       = "Thierry Poibeau",
+  title        = "Machine Translation",
+  publisher    = mitp,
+  year         = 2017,
+  address      = cma,
+  keywords     = "automatic translation, linguistics, statistics, deep
+    learning, evaluation",
+  location     = "P 308.P65"
+}
+
+@Book{pjb95,
+  author       = "Julia Barrett",
+  title        = "Presumption",
+  subtitle     = "An Entertainment",
+  publisher    = ucp,
+  year         = 1995,
+  address      = chil,
+  keywords     = "the bennets, pride and prejudice",
+  location     = "PS 3552.A73463 P74"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3132,6 +3164,37 @@
   location     = "https://www.bradapp.net/docs/patterns-intro.html"
 }
 
+@Article{cmfiaaitdoftcs,
+  author       = "Aadrew~M. Tyrrell and Geof~F. Carpenter
+",
+  title        = "{CSP} Methods for Identifying Atomic Actions in the Design of Fault Tolerant Concurrent Systems",
+  journal      = tse,
+  year         = 1995,
+  volume       = 21,
+  number       = 7,
+  pages        = "629--639",
+  month        = jul,
+  keywords     = "CSP methods, atomic actions, fault tolerant concurrent
+    systems design, error propagation, error recovery, fault tolerant parallel
+    processing systems, fault tolerance mechanisms, underlying atomic actions,
+    explicit trace evaluation, interprocess communications, CSP descriptions,
+    structural arguments, full trace sets, communicating sequential processes", 
+  abstract     = "Limiting the extent of error propagation when faults occur
+    and localizing the subsequent error recovery are common concerns in the
+    design of fault tolerant parallel processing systems.  Both activities are
+    made easier if the designer associates fault tolerance mechanisms with the
+    underlying atomic actions of the system.  With this in mind, the paper has
+    investigated two methods for the identification of atomic actions in
+    parallel processing systems described using CSP.  Explicit trace evaluation
+    forms the basis of the first algorithm, which enables a designer to analyze
+    interprocess communications and thereby locate atomic action boundaries in
+    a hierarchical fashion.  The second method takes CSP descriptions of the
+    parallel processes and uses structural arguments to infer the atomic action
+    boundaries.  This method avoids the difficulties involved with producing
+    full trace sets, but does incur the penalty of a more complex algorithm.", 
+  location     = "https://doi.org/10.1109/32.392983"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -5440,6 +5503,20 @@
   year         = "2000",
   keywords     = "design patterns, factory, instance creation",
   location     = "http://gsraj.tripod.com/design/creational/factory/factory.html"
+}
+
+@InBook{aaiissd,
+  author       = "Douglas~E. Comer and David~L. Stevens",
+  title        = "Internetworking with {TCP/IP}",
+  chapter      = "Chapter 8: Algorithms and Issues in Server Software Design",
+  publisher    = ph,
+  year         = 2001,
+  pages        = "101--123",
+  volume       = "3",
+  address      = usrnj,
+  keywords     = "concurrency, iterative, connection-oriented, connectionless,
+    transport protocol, statelessness, reliability, sockets, helper processes",
+  location     = "TK 5105.585.C66"
 }
 
 % Local Variables:
