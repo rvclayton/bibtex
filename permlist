@@ -243,7 +243,6 @@ a survey of cache coherence schemes for multiprocessors : stenstrom
 a survey of light weight transport protocols for high speed networks : doeringer
 a survey of linguistic structures for application level fault tolerance : de florio
 a survey of object oriented concepts : nierstrasz
-a survey of parallel computer architectures : duncan
 a survey of peer to peer content distribution technologies : androutsellis
 a survey of structured and object oriented software specification methods and techniques : wieringa
 a survey of techniques for achieving metadata interoperability : haslhofer
@@ -360,7 +359,6 @@ algorithm animation with agat : arsac
 algorithmic specifications a constructive specification method for abstract data types : loeckx
 algorithms and data structures for flash memories : gal
 algorithms for directed graphs : mangano
-algorithms for stereoscopic imaging : duvanenko
 alien text file compresion : swan
 all i really need to know about pair programming i learned in kindergarten : williams
 all the needles in the haystack can exhaustive search overcome combinatorial chaos : nievergelt
@@ -559,7 +557,6 @@ better extensibility through modular syntax" : grimm
 beyond layering modularity considerations for protocol architectures : calvert
 bias on the web : mowshowitz
 bidirectional data flow analysis myths and reality : khedker
-bif a behavioral intermediate format for high level synthesis : dutt
 big ball of mud : foote
 biglook a widget library for the scheme programming language : gallesio
 binary emulation of unix using the v kernel : cheriton
@@ -1053,7 +1050,6 @@ experience compiling fortran to program dependence graphs : ottenstein
 experience in translating z designs to haskell implementation : sherrell
 experience with a software-defined machine architecture : wall
 experience with an extensible language : irons
-experience with fagans inspection method : doolan
 experience with tcltk for scientific and engineering visualization : kernighan
 experience with the setl optimizer : freudenberger
 experiences with ada code generation : zorn
@@ -1589,7 +1585,6 @@ mastering recursive programming : bartlett
 mathematical theory of claude shannon : chiu
 mathematics the loss of certainty : kline
 matrix computations on systolic type meshes : moreno
-measuring software quality a case study : drake
 mechanical verification of concurrent systems with tla : engberg
 median cut color quantization : kruger
 median filtering : blysmo
@@ -1899,7 +1894,6 @@ portprep a portable repeated string finder : jones
 postscript tutorial : bourke
 power laws pareto distributions and zipfs law : newman
 powerpc 601 and alpha 21064 a tale of two risks : smith
-ppmexe program compression : drinic
 practical aspects of multi stage programming : eckhardt
 pratical earley parsing : aycock
 pratical experience with os 2 installable file systems : ogle
@@ -2910,7 +2904,6 @@ virtual memory management in the vax vms operating system : levy
 virtual xml a toolbox and use cases for the xml world view : rose
 visual representations for recursive algorithms : stern
 visualization and debugging in a heterogeneous environment : beguelin
-visualizing design patterns in their applications and compositions : dong
 visualizing packet traces : zinky
 visualizing performance debugging : lehr
 voip steganography and its detection a survey : mazurczky
@@ -2982,7 +2975,6 @@ xil and yil the intermediate languages of tobey : obrien
 xl a language structure : nelson
 xml mapping technology making connections in an xml centric world : roth
 xml programming with sql xml and xquery : funderburk
-xml reflective pattern matching and java : dwelly
 xml rpc specification : xml-rpc
 xml with scheme : martinovsky
 xp an experiment in modular specification : veltink
