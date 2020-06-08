@@ -456,7 +456,6 @@ an oz primer : smolka
 an unclever time sharing system : foster
 analysis and detection of computer viruses and worms an annotated bibliography : singh
 analysis of faults in an n version software experiment : brillant
-analysis of proposals for the floating point standard : cody
 analysis of visual motion by biological computer systems : ullman
 analyzing and compressing assembly code : fraser
 analyzing distributed algorithms with first order logic : shlyakhter
@@ -540,7 +539,6 @@ automatically achieving elasticity in the implementation of programming language
 automatically proving the correctness of compiler optimizations : lerner
 automatically restructuring programs for the web : matthews
 automating first order relational logic : jackson
-automating process discovery through event data analysys : cook
 autonomous decentralized computer control systems : ihara
 avl trees tutorial and c++ implementation : appleton
 awk as a major systems programming language : spencer
@@ -557,7 +555,6 @@ basic xml : anon
 bead sort a natural sorting algorithm : arulanandham
 beanshell simple java scripting : beanshell
 being popular : grahm
-benchmark characterization : conte
 better extensibility through modular syntax" : grimm
 beyond layering modularity considerations for protocol architectures : calvert
 bias on the web : mowshowitz
@@ -2088,7 +2085,6 @@ representing control in the presence of one shot continuations : bruggemann
 requirements validation via automated natural language parsing : nanduri
 residue arithmetic a tutorial with examples : taylor
 resource allocation for broadband networks : hui
-resource integration using a large knowledge base in carnot : collet
 resourceable retargetable modular instruction selection using a machine independent type based tiling of low level intermediate code : ramsey
 resourceful systems for fault tolerance, reliability, and safety : abbott
 responsible web caching : berghel
@@ -2186,7 +2182,6 @@ seven habits of successful pattern writers : vlissides
 sfio safe fast string file io : korn
 sfs 0.5 manual : mazieres
 sha the secure hash algorithm : stallings
-shade a fast instruction set simulator for execution profiling : cmelik
 shadow guarding run time checking you can afford : patil
 shallow binding in lisp 1.5 : baker
 shared memory consistency models a tutorial : adve
@@ -2908,7 +2903,6 @@ very fast yacc compatible parsers for very little effort : bhamidipaty
 vga palette mapping using bsp trees : betz
 views a way for pattern matching to coexist with data abstraction : wadler
 virtual clocks a new traffic control algorithm for packet switching networks : zhang
-virtual gain for audio windows : cohen
 virtual machine showdown stack versus registers : shi
 vitrual memory : denning
 vitrual memory issues of implementation : jacob
