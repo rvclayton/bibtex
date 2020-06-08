@@ -158,7 +158,6 @@ a new parsing method for non lr 1 grammars : harford
 a new solution of dijkstras concurrent programming problem : lamport
 a new stack technique for the management of runtime structures in distribued implementations : hogen
 a node positioning algorithm for general trees : walker
-a noninvasive architecture to monitor real time distrubted systems : tsai
 a note on denial of service in operating systems : gligor
 a note on distributed computing : waldo
 a note on reliable full duplex transmission over half duplex links : bartlett
@@ -792,7 +791,6 @@ croquet a collaboration system architecture : smith
 cross correlation and matched filters : qureshi
 cryptography as an operating system service a case study : keromytis
 csp and timewise refinement : reed
-csp methods for identifying atomic actions in the design of fault tolerant concurrent systems : tyrrell
 cst c state transformers : ramsdell
 cup lalr parser generator for java : hudson
 curious yellow the first coordinated worm design : wiley
@@ -2951,7 +2949,6 @@ what is a thesis defense : riesbeck
 what is ada : brender
 what is all the fuss about neural networks : barth
 what is conservatism : agree
-what is interactive scripting : travers
 what is software design : reeves
 when and how to develop domain specific languages : mernik
 when caches arent enough data prefetching techniques : vander wiel
