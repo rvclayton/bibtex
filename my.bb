@@ -3343,6 +3343,28 @@
   keywords     = "global name spaces, class store, support class"
 }
 
+@TechReport{hvavcveaeispp,
+  author       = "Paul Hudak and Mark~P. Jones",
+  title        = "Haskell vs. {Ada} vs. " # cpp # " vs. \ldots\ An Experiment in Software Prototyping Productivity",
+  institution  = dcs # "Yale University",
+  year         = 1994,
+  number       = 1049,
+  address      = nhco,
+  month        = "4 " # jul,
+  keywords     = "software engineering, software prototyping, software
+    development, programming languages",
+  abstract     = "We describe the results of an experiment in which several
+    conventional programming languages, together with the functional language
+    Haskell, were used to prototype a Naval Surface Warfare Center (NSWC)
+    requirement for a Geometric Region Server.  The resulting programs and
+    development metrics were reviewed by a committee chosen by the Navy.  The
+    results indicate that the Haskell prototype took significantly less time to
+    develop and was considerably more concise and easier to understand than the
+    corresponding prototypes written in several different imperative languages,
+    including Ada and C++.", 
+  location     = "http://www.cvc.yale.edu/publications/techreports/tr1049.pdf"
+}
+
 @InProceedings{cmultsygbtr,
   author       = "Stanley~P. Hanks",
   title        = "Creating {MAN}s using {LAN} Technology:  Sometimes You Gotta Break the Rules",
