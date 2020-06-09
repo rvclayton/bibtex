@@ -9,7 +9,6 @@ cat <<eof! |
 64 bit programming in a 32 bit world : nicholson
 8 ways to report errors in haskell : kidd
 8 the plan 9 window system : pike
-802.11b access point mapping : byers
 a behavioral notion of subtyping : liskov
 a better api for first class continuations : feeley
 a bibliography of garbage collection and related topics : sanaran
@@ -408,7 +407,6 @@ an exercise in dependent types a well typed interpreter : augustsson
 an exercise in program explanation : misra
 an experiment in table driven code generation : graham
 an experiment with inline substitution : cooper
-an experimental user level interface of tcp : braun
 an exploration of novice programming errors in an object oriented environment : barr
 an expressive language of signatures : ramsey
 an extensible program representation for object oriented software : malloy
@@ -514,7 +512,6 @@ attacks on copyright marking systems : petitcolas
 attribute based compiler implemented using visitor pattern : neff
 attributed linear intermediate representations for retargetable code generators : ganapathi
 auction allocation of computing resources : gagliano
-auditing throughout the software life cycle a primer : bryan
 authentication in distributed systems theory and practice : lampson
 automate your build processing using java and ant : cymerman
 automated analysis of concurrent systems with the constrained expression toolset : avrunin
@@ -665,7 +662,6 @@ coding with the dns protocol : jones
 cojoining specifications : abadi
 collaborative information retrieval gropher from moo : masinter
 collaborative networked communication muds as system tools : evard
-color and sound in algorithm animation : brown
 coloured petri nets and the invariant method : jensen
 combining generics precompilation and sharing between software based processes : kennedy
 combining monads : king
@@ -829,7 +825,6 @@ debugging concurrent programs : mcdowell
 debugging memory on linux : sorfa
 debunking the expensive procedure call myth : steele
 decentralized user authentication in a global file system : kaminsky
-decentralizing sip : bryan
 decision making vs policy making towards an antidote for technocracy : lowi
 decision trees and diagrams : moret
 decode a cooperative environment for reverse engineering legacy software : quilici
@@ -965,7 +960,6 @@ early experience with adsl in lcc : hanson
 early storage reclamation in a tracing garbage collector : harris
 eclipse a platform for integrating development tools : riveres
 ecological development and policy change : hofferbert
-economical fault tolerant networks : butt
 effective null pointer check elimination utilizing hardware trap : kawahito
 effective standard c++ library curiously recurring manipulators : kreft
 effects of the change from rate of return to price cap regulation : breautigam
@@ -1036,7 +1030,6 @@ evolving mach 3.0 to a migrating thread model : ford
 evolving rpc for active storage : sivathanu
 evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
-evolution of metropolitan area networks to broadband isdn : byrne
 evolution of test and code via test first design : langr
 evolution of the u code compiler intermediate language at hewlett packard : chan
 exception handling in pli : maclaren
@@ -1265,7 +1258,6 @@ hashing for dynamic and static internal tables : lewis
 hashing revisited : hamer
 haskell and xml generic combinators or type based translation : wallace
 haskell typeclass replacement : kiselyov
-haskell vs ada vs c++ vs awk vs an experiment in software prototyping productivity : hudak
 heap or stack which should you use : paugh
 heap profiling of lazy functional programs : runciman
 here be dragons : griffiths
@@ -1401,7 +1393,6 @@ inter an inexpensive inter procedural register allocator : mulder
 interactive explanation of software systems : johnson
 interactive foundations of object oriented programming : wegner
 interactive steering using the application executive : bliss
-interbase an execution environment for heterogeneous software systems : bukhres
 interconnection networks using shuffles : chen
 interest groups and the regulation of pesticides congress coalitions and closure : nownes
 interface definition language conversions: recursive types : gay
@@ -1488,7 +1479,6 @@ keywords scanners and screeners : clark
 keywords special identifier idioms : clark
 knaves and knights : backhouse
 korbit a kernel space corba orb : lattner
-krypton a functional approach to knowledge representation : brachman
 lambda the ultimate imperitive : steele
 lambdamoo programmers manual : curtis
 language processing in program editors : reps
@@ -2097,7 +2087,6 @@ rex xml shallow parsing with regular expressions : cameron
 rie a comipler generator based on a one pass type attribute grammar : sassa
 right triangulated irregular networks : evans
 rigor and proof in mathematics a historical perspective : kleiner
-robust distributed computing and sensing algorithm : brooks
 role based access control models : sandhu
 rolling your own input iterators : van horn
 rpc under fire : vinoski
@@ -2389,12 +2378,10 @@ tartan language design for the ironman requirement notes and examples : shaw
 tcl and swing as a c c++ development tool : beazley
 tcldot graph manipulations in tcl : tcldot
 tcll1 an ll1 parser generator and parser : christopher
-tcp vegas new techniques for congestion detection and avoidance : brakmo
 teaching bayes to graduate students in political science sociology public health education economics : gelman
 teaching design : coplien
 teaching oo putting the object back into ood : coplien
 teaching programming broadly and deeply the kernel language approach : van roy
-teaching programming in the oop era : burton
 techniques for aligning objects in drawing programs : raisamo
 temporal logic based deadlock analysis for ada : karam
 temporal logic case study : wood
@@ -2461,7 +2448,6 @@ the dcode intermediate program representation reference manual and report : goug
 the deadlock problem an overview : isloor
 the death of computer languages the birth of intentional programming : simonyi
 the decsystem 20 at columbia university 1977 1988 : da cruz
-the delay friendliness of tcp : brosh
 the denotational semantics of booster : dechering
 the denotational semantics of programming languages : tennent
 the derivative of a regular type is its type of one hole contexts : mcbride
@@ -2930,7 +2916,6 @@ what are principal typings and what are they good for : jim
 what are race conditions : netzer
 what i wish i knew when learning haskell : diehl
 what if mass storage were free : copeland
-what is a is and isn't an analysis of taxonomic links in semantic networks : brachman
 what is a monoid : kmett
 what is a thesis defense : riesbeck
 what is ada : brender
@@ -2984,7 +2969,6 @@ xsl : ibm
 y in practical programs : mcadam
 y y works : felleisen
 yacc is dead : might
-yodl 2 : brokken
 you could have invented monads and maybe already have : domus
 your own handprinting recognition engine : avitzur
 your own tiny object oriented language : betz
