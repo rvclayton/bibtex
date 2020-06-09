@@ -251,7 +251,6 @@ a survey of web cache replacement strategies : podlipnig
 a survey of wormhole routing techniques in direct networks : ni
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
-a synthesis of software science measures and the cyclomatic number : ramamurthy
 a system for generating language oriented editors : tenma
 a system for specification and rapid prototyping of application command languages : stelovsky
 a systematic approach to multiple inheritance implementation : templ
@@ -631,7 +630,6 @@ chain reactions in networks : manber
 change distilling tree differencing for fine grained source code change extraction : fluri
 characterizing people as nonlinear first order components in software development : cockburn
 chart parsing of flowgraphs : lutz
-checking for search robot crawling and indexing : rappoport
 checking inside the black box regression testing bo comparing value spectra : xie
 chinese lotto as an exhaustive code breaking machine : quisquater
 chio a string processing library for common lisp : spingarn
@@ -780,7 +778,6 @@ credible compilation : rinard
 croquet a collaboration system architecture : smith
 cross correlation and matched filters : qureshi
 cryptography as an operating system service a case study : keromytis
-csp and timewise refinement : reed
 cst c state transformers : ramsdell
 cup lalr parser generator for java : hudson
 curious yellow the first coordinated worm design : wiley
@@ -1121,7 +1118,6 @@ flavors a finite state verification technique for software systems : cobleigh
 flavors message passing in the lisp machine : weinreb
 fletchers checksum : kodis
 flexible task graphs a unified restricted thread programming model for java : aurbach
-flexible text display with lector : raymond
 flick a flexible optimizing idl compiler : eide
 form based file upload in html : nebel
 form formula a visual programming paradigm for user definable user interfaces : kimura
@@ -2305,7 +2301,6 @@ strengthening passwords : abadi
 stress testing of compilers for modula 2 : pronk
 strong inference : platt
 strongtalk typechecking smalltalk in a production environment : bracha
-structure and chance melding logic and probability for software debugging : burnell
 structure the use notes on a method for designing computing system environments : schorer
 structured interrupts : hills
 structured programming : jensen
@@ -2901,7 +2896,6 @@ wait free synchronization : herlihy
 wap is a trap reject wap : banan
 wavelets an elementary introduction and examples : ueda
 wearing the hair shirt : peyton jones
-weaving aspects in a persistent environment : rashid
 web based animation of data structures using jawaa : pierson
 web based tex visualization : eick
 web page classification features and algorithms : qi
