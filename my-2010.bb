@@ -4034,7 +4034,27 @@
   number       = 3,
   pages        = "31--41",
   month        = mar,
-  keywords     = "",
+  keywords     = "debugging, logical inference, probabilistic inference",
+  abstract     = "Software errors abound in the world of computing.
+    Sophisticated computer programs rank high on the list of the most complex
+    systems ever created by humankind.  The complexity of a program or a set of
+    interacting programs makes it extremely difficult to perform offline
+    verification of run-time behavior.  Thus, the creation and maintenance of
+    program code is often linked to a process of incremental refinement and
+    ongoing detection and correction of errors.  To be sure, the detection and
+    repair of program errors is an inescapable part of the process of software
+    development.  However, run-time software errors may be discovered in
+    fielded applications days, months, or even years after the software was
+    last modified—especially in applications composed of a plethora of separate
+    programs created and updated by different people at different times.  In
+    such complex applications, software errors are revealed through the
+    run-time interaction of hundreds of distinct processes competing for
+    limited memory and CPU resources.  Software developers and support
+    engineers responsible for correcting software problems face difficult
+    challenges in tracking down the source of run-time errors in complex
+    applications.  The information made available to engineers about the nature
+    of a failure often leaves open a wide range of possibilities that must be
+    sifted through carefully in searching for an underlying error.", 
   location     = "QA 76.A772"
 }
 
@@ -5506,11 +5526,22 @@
   title        = "Evolution of Metropolitan Area Networks to Broadband {ISDN}",
   journal      = ieeecom,
   year         = 1991,
-  volume       = "",
-  number       = "",
+  volume       = 29,
+  number       = 11,
   pages        = "69--82",
   month        = nov,
   keywords     = "mans, bisdn, lans, 802.6",
+  abstract     = "A growing market demand for high-performance data, image and
+    video networks, coupled with advances in high-speed technologies heightened
+    interest in broadband networking.  This paper describes possible broadband
+    network architectures for metropolitan areas and wide areas (ie.,
+    country-wide and inter national).  We propose an evolution to broadband
+    which begins with broadband Medium Area Networks designed for voice and
+    data services.  The need for switching and wide area net working is
+    discussed along with the relationship between broad band premises networks,
+    public MANs, and Broadband ISDN.  We discuss the IEEE and CC17T standards
+    on which these networks are based and describe the interworking of the
+    broad band services with existing lower-speed data services", 
   location     = "TK 7885.A1 I15X"
 }
 
@@ -51378,8 +51409,18 @@
   address      = "San Jose, California",
   month        = "25--26 October",
   keywords     = "audio windows, directionalized sound, volume control,
-		  loudness"
-}
+		  loudness",
+  abstract     = "Audio windowing is a front-end, or user interface, to an
+    audio system with a real-time spatial sound back end.  Complementing
+    directionalization by a digital signal processor (DSP), gain adjustment is
+    used to control the volume of the various mixels ([sound] mixing elements).
+    Virtual gain can be synthesized from components derived from collective
+    iconic size, mutual distance, orientation and directivity, and selectively
+    enabled according to room-wise partitioning of sources across sinks.  This
+    paper describes a derivation of virtual gain, and outlines the deployment
+    of these expressions in an audio windowing system.",
+  location     = "https://doi.org/10.1162/105474698565523"
+  }
 
 @InProceedings{nnrcfcpmin,
   author       = "A. Garc{\'\i}a-Lopera and A. D{\'\i}az Estrella and F.
