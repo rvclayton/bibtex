@@ -8620,7 +8620,15 @@
   number       = 4,
   pages        = "24--35",
   month        = oct,
-  keywords     = ""
+  keywords     = "tcp, congestion avoidance, slow start, retransmission",
+  abstract     = "Vegas is a new implementation of TCP that achieves between 40
+    and 70% better throughput, with one-fifth to one-half the losses, as
+    compared to the implementation of TCP in the Reno distribution of BSD Unix.
+    This paper motivates and describes the three key techniques employed by
+    Vegas, and presents the results of a comprehensive experimental performance
+    study—using both simulations and measurements on the Internet—of the Vegas
+    and Reno implementations of TCP.", 
+  location     = "https://doi.org/10.1145/190809.190317"
 }
 
 @Article{sfcfmvditi,
@@ -29396,7 +29404,19 @@
   year         = 1994,
   pages        = "128--137",
   month        = may,
-  keywords     = "",
+  keywords     = "simulation, instruction set architectures, caching",
+  abstract     = "Tracing tools are used widely to help analyze, design, and
+    tune both hardware and software systems.  This paper describes a tool
+    called Shade which combines efficient instruction-set simulation with a
+    flexible, extensible trace generation capability.  Efficiency is achieved
+    by dynamically compiling and caching code to simulate and trace the
+    application program.  The user may control the extent of tracing in a
+    variety of ways; arbitrarily detailed application state information may be
+    collected during the simulation, but tracing less translates directly into
+    greater efficiency.  Current Shade implementations run on SPARC systems and
+    simulate the SPARC (Versions 8 and 9) and MIPS I instruction sets.  This
+    paper describes the capabilities, design, implementation, and performance
+    of Shade, and discusses instruction set emulation in general.",
   location     = "ftp://ftp.cs.washington.edu/homes/pardo/shade.ps.Z"
 }
 
@@ -29933,6 +29953,17 @@ b
   month        = apr,
   keywords     = "k-tails, neural nets, markov chains, process discovery, event
     analysis, software understanding",
+  abstract     = "Many software process methods and tools presuppose the
+    existence of a formal model of a process.  Unfortunately, developing a
+    formal model for an on-going, complex process can be difficult, costly, and
+    error prone.  This presents a practical barrier to the adoption of process
+    technologies.  The barrier would be lowered by automating the creation of
+    formal models.  We are currently exploring techniques that can use basic
+    event data captured from an on-going process to generate a formal model of
+    process behavior.  We term this kind of data analysis process discovery.
+    This paper describes and illustrates three methods with which we have been
+    experimenting: algorithmic grammar inference, Markov models, and neural
+    networks.",
   location     = "http://www.cs.colorado.edu/department/publications/reports/docs/CU-CS-741-94.pdf"
 }
 
@@ -30146,7 +30177,7 @@ b
 }
 
 @InProceedings{catr,
-  author       = "G.~M. Reed and A.~.W. Roscoe and S.~A. Schneider",
+  author       = "G.~M. Reed and A.~W. Roscoe and S.~A. Schneider",
   title        = "{CSP} and Timewise Refinement",
   booktitle    = pot # "Fourth Refinement Workshop",
   year         = 1991,
@@ -30155,7 +30186,22 @@ b
   month        = "9--11 " # jan,
   keywords     = "mathematical model hierarchies, timed and untimes csp, formal
 		  methods for concurrent systems, concurrency notations",
-  location     = "QA 76.76.D47 R44"
+  abstract     = "In recent years, G. M. Reed and A. W. Roscoe have developed a
+    hierarchy of untimed and timed models for CSP.  This mathematical hierarchy
+    allows one to reason about concurrent processes in a uniform fashion by a
+    series of refinements between models, where at each step the specification
+    and verification techniques of the relevant model are appropriate to the
+    complexity of the design decision.  S. A. Schneider has exploited the links
+    between the untimed and timed models to create an elegant, systematic
+    theory of timewise refinement.  In this paper, the authors outline this
+    theory, discuss its mathematical foundations, and utilise it to prove the
+    correctness of timing constraints on well-known protocols such as the
+    alternating bit protocol.  Our goal is to provide a gentle introduction to
+    the complex theory of CSP (both timed and untimed), and to illustrate the
+    theory of timewise refinement.  We shall keep the mathematical content to a
+    minimum.  Technical details are available in the referenced publications.", 
+  location     = "QA 76.76.D47 R44", 
+  location     = "https://link.springer.com/chapter/10.1007/978-1-4471-3756-6_13"
 }
 
 @InProceedings{otdors,
