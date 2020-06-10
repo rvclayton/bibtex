@@ -3195,6 +3195,27 @@
   location     = "https://doi.org/10.1109/32.392983"
 }
 
+@Article{abntir,
+  author       = "Robert Fung and Brendan Del Favero",
+  title        = "Applying Bayesian Networks to Information Retrieval",
+  journal      = cacm,
+  year         = 1995,
+  volume       = 38,
+  number       = 3,
+  pages        = "42--57",
+  month        = mar,
+  keywords     = "",
+  abstract     = "Information retrieval (IR) is the identification of documents
+    or other units of information in a collection that are relevant to a
+    particular information need.  An information need is a set of questions to
+    which someone would like to find an answer.  Here are some examples of IR
+    tasks: finding articles in the New York Times that discuss the Iran-Contra
+    affair; searching the recent postings in a Usenet newsgroup for references
+    to a particular model of personal computer; finding the entries referring
+    to butterflies in an online CD-ROM encyclopedia.", 
+  location     = "https://doi.org/10.1145/203330.203340"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -5525,6 +5546,25 @@
   year         = "2000",
   keywords     = "design patterns, factory, instance creation",
   location     = "http://gsraj.tripod.com/design/creational/factory/factory.html"
+}
+
+@Misc{cfsrcai,
+  author       = "Avi Rappoport",
+  title        = "Checklist for Search Robot Crawling and Indexing",
+  howpublished = "http://www.searchtools.com/robots/robot-checklist.html",
+  year         = "2003",
+  month        = "18 " # jul,
+  keywords     = "web crawling, spiders, indexing",
+  abstract     = "This document provides both technical information and some
+    background and insight into what search engine indexing robots should
+    expect to encounter .  Technically, the problems arise from
+    misunderstandings and exploitation of anomalies by HTML creators (direct
+    tagging, WYSIWYG and automated systems), and the tendency of browser
+    applications to be very forgiving in their interpretation of pages and
+    links.  Therefore, it's impossible to simply read the HTML and HTTP
+    specifications and follow the rules there -- the real world is much messier
+    than that.", 
+  location     = "http://www.searchtools.com/robots/robot-checklist.html"
 }
 
 @InBook{aaiissd,
