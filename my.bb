@@ -670,6 +670,30 @@
   location     = "PS 3552.A73463 P74"
 }
 
+@Book{sptml,
+  author       = "Mike Loukides",
+  title        = "System Performance Tuning",
+  publisher    = "O'Reilly \& Associates",
+  year         = 1991,
+  address      = seca,
+  keywords     = "performance, monitoring, workload, storage, disk, network,
+    terminal, kernel, real-time processes, tuning",
+  location     = "QA 76.76.O63 L66"
+}
+
+@Book{hose,
+  title        = "Handbook of Software Engineering",
+  publisher    = "Van Nostrand Reinhold",
+  year         = 1984,
+  editor       = "C.~R. Vick and C.~V. Ramamoorthy",
+  address      = nyny,
+  keywords     = "software engineering, concurrency control, testing, formal
+    verification, reliability, performance, fault tolerance, costing, life
+    cycle factors, requirements, process design, applicative programming, array
+    machines",
+  location     = "QA 76.6 H3335"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3386,6 +3410,87 @@
   location     = "http://www.cvc.yale.edu/publications/techreports/tr1049.pdf"
 }
 
+@TechReport{tbp,
+  author       = "Claus Brabrand and Anders Møller and Michael~I. Schwartzbach",
+  title        = "The {\tt <bigwig>} Project",
+  institution  = dcs # "University of Aarhus",
+  year         = 2002,
+  number       = "BRICS-RS-00-42",
+  address      = "Aarhus, Denmark",
+  month        = jan,
+  keywords     = "web services, language design, state, session, concurrency
+    control, dynamic html, security",
+  abstract     = "We present the results of the project, which aims to design
+    and implement a high-level domain-specific language for programming
+    interactive Web services.  A fundamental aspect of the development of the
+    World Wide Web during the last decade is the gradual change from static to
+    dynamic generation of Web pages.  Generating Web pages dynamically in
+    dialogue with the client has the advantage of providing up-to-date and
+    tailor-made information.  The development of systems for constructing such
+    dynamic Web services has emerged as a whole new research area.  The
+    language is designed by analyzing its application domain and identifying
+    fundamental aspects of Web services inspired by problems and solutions in
+    existing Web service development languages.  The core of the design
+    consists of a session-centered service model together with a flexible
+    template-based mechanism for dynamic Web page construction.  Using
+    specialized program analyses, certain Web specific properties are verified
+    at compile-time, for instance that only valid HTML 4.01 is ever shown to
+    the clients.  In addition, the design provides high-level solutions to form
+    field validation, caching of dynamic pages, and temporal-logic based
+    concurrency control, and it proposes syntax macros for making highly
+    domain-specific languages.  The language is implemented via widely
+    available Web technologies, such as Apache on the server-side and
+    JavaScript and Java Applets on the client-side.  We conclude with
+    experience and evaluation of the project", 
+  location     = "https://www.brics.dk/RS/02/1/index.html"
+}
+
+@TechReport{tppcin,
+  author       = "K.~V. Nori and U.~Ammann and K.~Jensen and H.~H. N{\" a}geli",
+  title        = "The {PASCAL} `P' Compiler:  Implementation Notes",
+  institution  = "Institut f{\" u}r Informatik, Technische Hochschule Z{\" u}ich",
+  year         = 1974,
+  number       = 10,
+  address      = "Z{\" u}rich, Switzerland",
+  month        = dec,
+  keywords     = "pascal, compilation, p-code, code generation",
+  abstract     = "The PASCAL 'P' compiler is a portable compiler for a subset
+    of 'Standard PASCAL'.  This compiler is written using exactly the subset it
+    processes and it generates object code for a hypothetical stack computer.
+    This report is a documentation of the stack computer and of the compiler.
+    The latter part of the documentation has proved to be very useful to one of
+    the authors (K.  V.  Nori) is informally verifying the compiler.", 
+  location     = "http://www.standardpascaline.org/p4.html"
+}
+
+@TechReport{sttaaas,
+  author       = "Philip Greenspun",
+  title        = "Scalability, Three-Tiered Architectures, and Application Servers",
+  institution  = "ArsDigita Systems Journal",
+  keywords     = "three-tiered architectures, scalability, application servers,
+    software development",
+  abstract     = "Application servers for Web publishing are generally systems
+    that let you write database-backed Web pages in Java.  The first problem
+    with this idea is that Java, because it must be compiled, is usually a bad
+    choice of programming language for Web services.  The second problem is if
+    what you really want to do is write some Java code that talks to data in
+    your database, you can execute Java in your RDBMS (Oracle 8.1, Informix
+    9.x).  Java executing inside the database server's process is always going
+    to have faster access to table data than Java running as a client.  In
+    fact, at least with Oracle on a Unix box, you could bind Port 80 to a
+    program that would call a Java program running in the Oracle RDBMS.  You
+    don't even need a Web server, much less an application server.  It is
+    possible that you'll get higher performance and easier development by
+    adding a thin-layer Web server like AOLserver or Microsoft's IIS/ASP, but
+    certainly you can't get higher reliability by adding a bunch of extra
+    programs and computers to a system that need only rely on one program and
+    one computer.  This document works through some of these issues in greater
+    detail, pointing out the grievous flaws in Netscape Application Server
+    (formerly 'Kiva') and explaining the situations in which Oracle Application
+    Server is useful.", 
+  location     = "http://www.eveandersson.com/arsdigita/asj/application-servers"
+}
+
 @InProceedings{cmultsygbtr,
   author       = "Stanley~P. Hanks",
   title        = "Creating {MAN}s using {LAN} Technology:  Sometimes You Gotta Break the Rules",
@@ -5506,6 +5611,332 @@
   location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/text-retrieval-package-unix-operating-system"
 }
 
+@InProceedings{aekbiopt,
+  author       = "Robert~A. Alfieri",
+  title        = "An Efficient Kernel-Based Implementation of {POSIX} Threads",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "59--72",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "kernel-space threading, kernel function calls, address-space
+  
+		  transitions", 
+  abstract     = "This paper describes the kernel-based implementation of
+    POSIX Threads (Pthreads) in the DG/UXTM operating system.  The
+    implementation achieves time efficiency by using a general-purpose trap
+    mechanism, known as a Kernel Function Call (KFC), that carries an order of
+    magnitude less overhead than a traditional system call.  On a 50 MHz
+    Motorola MC88110, the implementation can create and exit a thread (with the
+    associated context switch) in 8.1 microseconds and yield to another thread
+    in 4.0 microseconds.  The implementation also achieves space efficiency by
+    paging and decoupling bulky data structures.The advantages of a
+    kernel-based implementation include design simplicity, less code
+    redundancy, optimization of global (interprocess) operations, avoidance of
+    inopportune preemption, and global semantic flexibility.  The disadvantage
+    is a monolithic design that lacks user-level flexibility.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267262", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/efficient-kernel-based-implementation-posix"
+}
+
+@InProceedings{uolstiadaer,
+  author       = "Andrea~H. Skarra",
+  title        = "Using {OS} Locking Services to Implement a {DBMS}:  An Experience Report",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "73--86",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "lock managers, file locking, two-pahse commit, lock servers",
+  abstract     = "The paper describes a black-box analysis of the locking
+    facilities in several UNIX-compatible operating systems for their ability
+    to support transaction synchronization.  It assesses the facilities for
+    their adequacy, flexibiilty, and performance.  Most of the operating
+    systems in the study provide adequate support for simple two-phase locking
+    transaction systems that don't require customized or priority-based
+    scheduling of lock requests.  The performance depends on a variety of
+    factors: the average execution time for a lock request varies directly with
+    the number of cuncurrent locks in the system and indrectly with the number
+    of files locked for a given number of lock requests.  The request time is
+    smaller when the locked files are local to the requesting process instead
+    of remote, and when a process locks a file's segments in order of adjacency
+    rather than randomly.  For the areas in which the OS provides inadequate
+    support, the paper proposes several specific remedies.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/using-os-locking-services-implement-dbms"
+}
+
+@InProceedings{tsaaokma,
+  author       = "Jeff Bonwick",
+  title        = "The Slab Allocator:  An Object-Cache Kernel Memory Allocator",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "87--98",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "storage allocation, free lists, constructing, finializing,
+    homogeneity",
+  abstract     = "This paper presents a comprehensive design overview of the
+    SunOS 5.4 kernel memory allocator.  This allocator is based on a set of
+    object-caching primitives that reduce the cost of allocating complex
+    objects by retaining their state between uses.  These same primitives prove
+    equally effective for managing stateless memory (e.g.  data pages and
+    temporary buffers) because they are space-efficient and fast.  The
+    allocator's object caches respond dynamically to global memory pressure,
+    and employ an object-coloring scheme that improves the system's overall
+    cache utilization and bus balance.  The allocator also has several
+    statistical and debugging features that can detect a wide range of problems
+    throughout the system.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267263"
+}
+
+@InProceedings{abup,
+  author       = "Jeffrey~C. Mogul",
+  title        = "{A} Better Update Policy",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "99--111",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "file cache management, write back, cache flush, performance",
+  abstract     = "Some file systems can delay writing modified data to disk, in
+    order to reduce disk traffic and overhead.  Prudence dictates that such
+    delays be bounded, in case the system crashes.  We refer to an algorithm
+    used to decide when to write delayed data back to disk as an update policy.
+    Traditional UNIX® systems use a periodic update policy, writing back all
+    delayed-write data once every 30 seconds.  Periodic update is easy to
+    implement but performs quite badly in some cases.  This paper describes an
+    approximate implementation of an interval periodic update policy, in which
+    each individual delayed-write block is written when its age reaches a
+    threshold.  Interval periodic update adds little code to the kernel and can
+    perform much better than periodic update.  In particular, interval periodic
+    update can avoid the huge variances in read response time caused by using
+    periodic update with a large buffer cache.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267264", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-94-4.html"
+}
+
+@InProceedings{tdfs,
+  author       = "Morgan Clark and Stephen Rago",
+  title        = "The Desktop File System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "113--124",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "file systems, block allocation, b+ trees, shadow paging",
+  abstract     = "This paper describes the structure and performance
+    characteristics of a commercial file system designed for use on desktop,
+    laptop, and notebook computers running the UNIX operating system.  Such
+    systems are characterized by their small disk drives dictated by system
+    size and power requirements.  In addition, these systems are often used by
+    people who have little or no experience administering Unix systems.  The
+    Desktop File System attempts to improve overall system usability by
+    transparently compressing files, increasing file system reliability, and
+    simplifying administrative interfaces.  The Desktop File System has been in
+    production use for over a year, and will be included in future versions of
+    the SCO Open Desktop Unix system.  Although originally intended for a
+    desktop environment, the file system is also being used on many larger,
+    server-style machines.",
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/desktop-file-system"
+}
+
+@InProceedings{sahblfs,
+  author       = "Ken Shirriff and John Ousterhout",
+  title        = "Sawmill:  {A} High-Bandwidth Logging File System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "125--136",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "raid, log-structured file systems, read batching, metadata,
+    cleaning", 
+  abstract     = "This paper describes the implementation of Sawmill, a network
+    file system using the RAID-II storage system.  Sawmill takes advantage of
+    the direct data path in RAID-II between the disks and the network, which
+    bypasses the file server CPU.  The key ideas in the implementation of
+    Sawmill are combining logging (LFS) with RAID to obtain fast small writes,
+    using new log layout techniques to improve bandwidth, and pipelining
+    through the controller memory to reduce latency.  The file system can
+    currently read data at 21 MB/s and write data at 15 MB/s, close to the raw
+    disk array bandwidth, while running on a relatively slow Sun-4.
+    Performance measurements show that LFS improved performance of a stream of
+    small writes by over a order of magnitude compared to writing directly to
+    the RAID, and this improvement would be even larger with a faster CPU.
+    Sawmill demonstrates that by using a storage system with a direct data
+    path, a file system can provide data at bandwidths much higher than the
+    file server itself could handle.  However, processor speed is still an
+    important factor, especially when handling many small requests in
+    parallel.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267265", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/sawmill-high-bandwidth-logging-file-system"
+}
+
+@InProceedings{nv3dai,
+  author       = "Brian Pawlowski and Chet Juszczak and Peter Staubach and Carl Smith and Diane Lebel and Dave Hitz",
+  title        = "{NFS} Version 3 Design and Implementation",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "137--152",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "nfs, large files, asynchronous writes, crash recovery, weak
+    cache consistency, protocol development",
+  abstract     = "This paper describes a new version of the Network File System
+    (NFS) that supports access to files larger than 4GB and increases
+    sequential write throughput sevenfold when compared to unaccelerated NFS
+    Version 2.  NFS Version 3 maintains the stateless server design andsimple
+    crash recovery of NFS version 2, and the philosophy of building a
+    distrubted file service from cooperating protocols.  We describe the
+    protocol and its implementation, and provide initial performance
+    measurements.  We then describe the implementation effort.  Finally, we
+    contrast this work with other distributed file systems and discuss future
+    revisions of NFS.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/nfs-version-3-design-and-implementation"
+}
+
+@InProceedings{ctaddbnm,
+  author       = "Cheng-Zen Yang and Chih-Chung Chen and Yen-Jen Oyang",
+  title        = "Clue Tables:  {A} Distributed, Dynamic-Binding Naming Mechanism",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "153--160",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "distributed naming, remote file systems",
+  abstract     = "This paper presents a distributed, dynamic naming mechanism
+    called clue tables for building highly scalable, highly available
+    distributed file systems.  The clue tables naming mechanism is distinctive
+    in three aspects.  First, it is designed to cope well with the hierarchical
+    structure of the modern large-scale computer networks.  Second, it
+    implicitlycarries out load balancing among servers to improve
+    systemscalability.  Third, it supports file replication and dynamically
+    designates a primary copy to resolve possible data inconsistency.  This
+    paper also reports a performance evaluation of the clue tables mechanism
+    when compared with NFS, a popular distributed file system.", 
+  location     = "https://dl.acm.org/doi/abs/10.5555/1267257.1267266"
+}
+
+@InProceedings{olownpiaso,
+  author       = "Dan Duchamp",
+  title        = "Optimistic Lookup of Whole {NFS} Paths in a Single Operation",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "161--169",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  abstract     = "VFS lookup code examines and translates path names one
+    component at a time, checking for special cases such as mount points and
+    symlinks.  VFS calls the NFS lookup operation as necessary.  NFS employs
+    caching to reduce the number of lookup operations that go to the server.
+    However, when part or all of a path is not cached, NFS lookup operations go
+    back to the server.  Although NFS's caching is effective,
+    component-by-component translation of an uncached path is inefficient,
+    enough so that lookup is typically the operation most commonly processed by
+    servers.  We study the effect of augmenting the VFS lookup algorithm and
+    the NFS protocol so that a client can ask a server to translate an entire
+    path in a single operation.  The preconditions for a successful request are
+    usually but not always satisfied, so the algorithm is optimistic.  This
+    small change can deliver substantial improvements in client latency and
+    server load.", 
+  keywords     = "path lookup, mount points, path cache", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267267", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/optimistic-lookup-whole-nfs-paths-single"
+}
+
+@InProceedings{acfcp,
+  author       = "Pei Cao and Edward~W. Felten and Kai Li",
+  title        = "Application-Controlled File Caching Policies",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "171--182",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "kernel allocation, swapping, file sharing, prefetching",
+  abstract     = "We consider how to improve the performance of file caching by
+    allowing user-level control over file cache replacement decisions.  We use
+    two-level cache management: the kernel allocates physical pages to
+    individual applications (allocation), and each application is responsible
+    for deciding how to use its physical pages (replacement).  Previous work on
+    two-level memory management has focused on replacement, largely ignoring
+    allocation.The main contribution of this paper is our solution to the
+    allocation problem.  Our solution allows processes to manage their own
+    cache blocks, while at the same time maintains the dynamic allocation of
+    cache blocks among processes.  Our solution makes sure that good user-level
+    policies can improve the file cache hit ratios of the entire system over
+    the existing replacement approach.  We evaluate our scheme by trace-based
+    simulation, demonstrating that it leads to significant improvements in hit
+    ratios for a variety of applications.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267268", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-445-94"
+}
+
+@InProceedings{rfcitffs,
+  author       = "Peter Reiher and John Heidemann and David Ratner and Greg Skinner and Gerald Popek",
+  title        = "Resolving File Conflicts in the {Ficus} File System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "183--195",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "distributed file system, conflict resulution",
+  abstract     = "Ficus is a flexible replication facility with optimistic
+    concurrency control designed to span a wide range of scales and network
+    environments.  Optimistic concurrency control provides rapid local access
+    and high availability of files for update in the face of disconnection, at
+    the cost of occasional conflicts that are only discovered when the system
+    is reconnected.  Ficus reliably detects all possible conflicts.  Many
+    conflicts can be automatically resolved by recognizing the file type and
+    understanding the file's semantics.  This paper describes experiences with
+    conflicts and automatic conflict resolution in Ficus.  It presents data on
+    the frequency and character of conflicts in our environment.  This paper
+    also describes how semantically knowledgeable resolvers are designed and
+    implemented, and discusses our experiences with their strengths and
+    limitations.  We conclude from our experience that optimistic concurrency
+    works well in at least one realistic environment, conflicts are rare, and a
+    large proportion of those conflicts that do occur can be automatically
+    solved without human intervention.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267269", 
+  location     = "https://www.isi.edu/~johnh/PAPERS/Reiher94a.pdf"
+}
+
+@InProceedings{rfsluapa,
+  author       = "James Griffioen and Randy Appleton",
+  title        = "Reducing File System Latency using a Predictive Approach",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "197--207",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "file system caching, prefetching, probabilistic prefetching",
+  abstract     = "Despite impressive advances in file system through put
+    resulting from technologies such as high-bandwidth networks and disk
+    arrays, file system latency has not improved and in many cases has become
+    worse.  Consequently, file system I/O remains one of the major bottlenecks
+    to operating system performance [10].This paper investigates an automated
+    predictive approach towards reducing file latency.  Automatic Prefetching
+    uses past file accesses to predict future file systemrequests.  The
+    objective is to provide data in advance of the request for the data,
+    effectively masking access latencies.  We have designed and implement a
+    system to measure the performance benefits of automatic prefetching.  Our
+    current results, obtained from a trace-driven simulation, show that
+    prefetching results in as much as a 280% improvement over LRU especially
+    for smaller caches.  Alternatively, prefetching can reduce cache size by up
+    to 50%.", 
+  location     = "https://dl.acm.org/doi/10.5555/1267257.1267270"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -5584,3 +6015,4 @@
 % Local Variables:
 % eval: (set-register ?b "  booktitle    = usenixs94,\n  year         = 1994,\n  pages        = \"--\",\n  organization = \"USENIX Association\",\n  address      = boma,\n  month        = \"6--10 \" # jun,\n")
 % End:
+
