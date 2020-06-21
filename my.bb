@@ -2,12 +2,13 @@
 
 @string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
+@string{asplos92 = sigplan # " (" # pot # "Fifth International Conference on " # asplos # ", ASPLOS V)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
 @string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
-@string{usenixs94 = pot # " USENIX Summer 1994 Technical Conference"}
+@string{usenixs94 = pot # "USENIX Summer 1994 Technical Conference"}
 @string{usenix95  = pot # "1995 USENIX Technical Conference"}
 		  
 		  
@@ -692,6 +693,29 @@
     cycle factors, requirements, process design, applicative programming, array
     machines",
   location     = "QA 76.6 H3335"
+}
+
+@Book{mfmmms,
+  author       = "Mark McKenney and Markus Schneider",
+  title        = "Map Framework",
+  subtitle     = "A Formal Model of Maps as a Fundamental Data Type in Information Systems",
+  publisher    = sv,
+  year         = 2916,
+  address      = nyny,
+  keywords     = "maps, formal models, points and lines, map operations,
+  discrete map models, 2d maps",
+  location     = "978-3-319-46764-1"
+}
+
+@Book{ttetc,
+  author       = "David Rapp",
+  title        = "Tinkers to Evers to Chance",
+  subtitle     = "The Chicago Cubs and the Dawn of Modern America",
+  publisher    = ucp,
+  year         = 2018,
+  address      = chil,
+  keywords     = "baseball, america, chicago sports, chicago cubs",
+  location     = "GV 875.C6 R36"
 }
 
 @Article{famw,
@@ -3189,8 +3213,7 @@
 }
 
 @Article{cmfiaaitdoftcs,
-  author       = "Aadrew~M. Tyrrell and Geof~F. Carpenter
-",
+  author       = "Aadrew~M. Tyrrell and Geof~F. Carpenter",
   title        = "{CSP} Methods for Identifying Atomic Actions in the Design of Fault Tolerant Concurrent Systems",
   journal      = tse,
   year         = 1995,
@@ -3238,6 +3261,59 @@
     to a particular model of personal computer; finding the entries referring
     to butterflies in an online CD-ROM encyclopedia.", 
   location     = "https://doi.org/10.1145/203330.203340"
+}
+
+@Article{anlrfnc,
+  author       = "Wei Li and Keshav Pingali",
+  title        = "Access Normalization:  Loop Resturcturing for {NUMA} Compilers",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "285--295",
+  month        = sep,
+  keywords     = "numa compilation, data access matrices, loop transformations,
+    data dependencies, numa code generation",
+  abstract     = "In scalable parallel machines, processors can make local
+    memory accesses much faster than they can make remote memory accesses.  In
+    addition, when a number of remote accesses must be made, it is usually more
+    efficient to use block transfers of data rather than to use many small
+    messages.  To run well on such machines, software must exploit these
+    features.  We believe it is too onerous for a programmer to do this by
+    hand, so we have been exploring the use of restructuring compiler technology
+    for this purpose.  In this paper, we start with a language like FORTRAN-D
+    with user-specified data distribution and develop a systematic loop
+    transformation strategy called access normalization that restructures loop
+    nests to exploit locality and block transfers.  We demonstrate the power of
+    our techniques using routines from the BLAS (Basic Linear Algebra
+    Subprograms) library.  An important feature of our approach is that we
+    model loop transformations using invertible matrices and integer lattice
+    theory, thereby generalizing Banerjee's framework of unimodular matrices.", 
+  location     = "https://doi.org/10.1145/143371.143541"
+}
+
+@Article{ctwofimmt,
+  author       = "John Kubiatowicz and David Chaiken and Anant Agarwal",
+  title        = "Closing the Window of Fulnerability in Multiphase Memory Transactions",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "274--284",
+  month        = sep,
+  keywords     = "deadlock, livelock, caching, context switching, cache coherence",
+  abstract     = "Multiprocessor architects have begun to explore several
+    mechanisms such as prefetching, context-switching and software-assisted
+    dynamic cache-coherence, which transform single-phase memory transactions
+    in conventional memory systems into multiphase operations.  Multiphase
+    operations introduce a window of vulnerability in which data can be
+    invalidated before it is used.  Losing data due to invalidations introduces
+    damaging livelock situations.  This paper discusses the origins of the
+    window of vulnerability and proposes an architectural framework that closes
+    it.  The framework is implemented in Alewife, a large-scale multi-processor
+    being built at MIT.", 
+  location     = "https://doi.org/10.1145/143371.143540", 
+  location     = "http://groups.csail.mit.edu/cag/papers/pdf/window-of-vulnerability.pdf"
 }
 
 @TechReport{aqmafd30,
@@ -3447,7 +3523,7 @@
 
 @TechReport{tppcin,
   author       = "K.~V. Nori and U.~Ammann and K.~Jensen and H.~H. N{\" a}geli",
-  title        = "The {PASCAL} `P' Compiler:  Implementation Notes",
+  title        = "The {PASCAL} `{P}' Compiler:  Implementation Notes",
   institution  = "Institut f{\" u}r Informatik, Technische Hochschule Z{\" u}ich",
   year         = 1974,
   number       = 10,
@@ -3458,8 +3534,8 @@
     of 'Standard PASCAL'.  This compiler is written using exactly the subset it
     processes and it generates object code for a hypothetical stack computer.
     This report is a documentation of the stack computer and of the compiler.
-    The latter part of the documentation has proved to be very useful to one of
-    the authors (K.  V.  Nori) is informally verifying the compiler.", 
+    The latter part of the documentation proved to be useful to one of the 
+    authors (K. V. Nori) when informally verifying the compiler.", 
   location     = "http://www.standardpascaline.org/p4.html"
 }
 
@@ -5937,6 +6013,131 @@
   location     = "https://dl.acm.org/doi/10.5555/1267257.1267270"
 }
 
+@InProceedings{saifsnp,
+  author       = "Thomas~Y.~C. Woo and Raghuram Bindignavle and Shaowen Su and Simon~S. Lam",
+  title        = "{SNP}:  An Interface for Secure Network Programming",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "45--58",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "application-layer security, secure data transfer, sockets",
+  abstract     = "SNP provides a high-level abstraction for secure end-to-end
+    network communications.  It supports both stream and datagram semantics
+    with security guarantees (e.g., data origin authenticity, data integrity
+    and data confidentiality).  It is designed to resemble the Berkeley sockets
+    interface so that security can be easily retrofitted into existing socket
+    programs with only minor modifications.  SNP is built on top of GSS-API,
+    thus making it relatively portable across different authentication
+    mechanisms conforming to GSSAPI.  SNP hides the details of GSS-API (e.g.,
+    credentials and contexts management), the communication sublayer as well as
+    the cryptographic sublayer from the application programmers.  It also
+    encapsulates security sensitive information, thus preventing accidental or
+    intentional disclosure by an application program.", 
+  location     = "https://www.usenix.org/conference/usenix-summer-1994-technical-conference/snp-interface-secure-network-programming", 
+  location     = "https://www.cs.utexas.edu/users/lam/Vita/Cpapers/WBSL94.pdf"
+}
+
+@InProceedings{anoopls,
+  author       = "Jeffrey~S. Haemer",
+  title        = "{A} New Object-Oriented Programming Language: {\it sh}",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "1--13",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "shell, object-oriented programming, file systems, process trees",
+  abstract     = "Many have frittered away their time on C++, while overlooking
+    the new POSIX.2-required, object-oriented language: sh.  As will be clear 
+    from the enclosed code, the name may allude to the fact that the author
+    would be embarrassed to have anyone ﬁnd out about it.  This paper
+    introduces a tinybject-oriented programming system written entirely in
+    POSIX-conforming shell scripts.", 
+  location     = "https://www.usenix.org/biblio-4241"
+}
+
+@InProceedings{tomatc,
+  author       = "Evan Adams",
+  title        = "The Old Man and the {C}",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "15--26",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "c++, generics",
+  abstract     = "'You can't teach an old dog new tricks' goes the old proverb.
+    This is a story about a pack of old dogs (C programmers) and their odyssey
+    of trying to lean new tricks (C++ programming).  C++ is a large, complex
+    language which can easily be abused, but also includes may features to help
+    programmers more quickly write higher quality code.  The TeamWare group
+    consciously decided which C++ features to use and, just as importantly,
+    which features not to use.  We also incrementally adopted those features we
+    chose to use.  This resulted in a successful C++ experience." 
+}
+
+@InProceedings{kmiaefs,
+  author       = "Matt Blaze",
+  title        = "Key Management in an Encrypting File System",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "27--35",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "key escrow, smart cards, cryptographic file systems, ",
+  abstract     = "As distributed computing systems grow in size, complexity and
+    variety of application, the problem of protecting sensitive data from
+    unauthorized disclosure and tampering becomes increasingly important.
+    Cryptographic techniques can play an important role in protecting
+    communication links and file data, since access to data can be limited to
+    those who hold the proper key.  In the case of file data, however, the
+    routine use of encryption facilities often places the organizational
+    requirements of information security in opposition to those of information
+    management.  Since strong encryption implies that only the holders of the
+    cryptographic key have access to the cleartext data, an organization may be
+    denied the use of its own critical business records if the key used to
+    encrypt these records becomes unavailable (e.g., through the accidental
+    death of the key holder).  This paper describes a system, based on
+    cryptographic 'smartcards,' for the temporary 'escrow' of file encryption
+    keys for critical files in a cryptographic file system.  Unlike
+    conventional escrow schemes, this system is bilaterally auditable, in that
+    the holder of an escrowed key can verify that, in fact, he or she holds the
+    key to a particular directory and the owner of the key can verify, when the
+    escrow period is ended, that the escrow agent has neither used the key nor
+    can use it in the future.  We describe a new algorithm, based on the DES
+    cipher, for the online encryption of file data in a secure and efficient
+    manner that is suitable for use in a smartcard.", 
+  location     = "https://www.mattblaze.org/papers/cfskey.pdf"
+}
+
+@InProceedings{atamfif,
+  author       = "Marcus~J. Ranum and Frederick~M. Avolio",
+  title        = "{A} Toolkit and Methods for {Internet} Firewalls",
+  booktitle    = usenixs94,
+  year         = 1994,
+  pages        = "37--44",
+  organization = "USENIX Association",
+  address      = boma,
+  month        = "6--10 " # jun,
+  keywords     = "firewalls, application gateways, internet security",
+  abstract     = "As the number of businesses and government agencies
+    connecting to the Internet continues to increase, the demand for Internet
+    firewalls — points of security guarding a private network from intrusion —
+    has created a demand for reliable tools from which to build them.  We
+    present the TIS Internet Firewall Toolkit, which consists of software
+    modules and configuration guidelines developed in the course of a broader
+    ARPA sponsored project.  Components of the toolkit, while designed to work
+    together, can be used in isolation or can be combined with other firewall
+    components.  The Firewall Toolkit software runs on UNIX systems using
+    TCP/IP with the Berkeley socket interface.  We describe the Firewall
+    Toolkit and the reasoning behind some of its design decisions, discuss some
+    of the ways in which it may be configured, and conclude with some
+    observations as to how it has served in practice."
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -6013,6 +6214,5 @@
 }
 
 % Local Variables:
-% eval: (set-register ?b "  booktitle    = usenixs94,\n  year         = 1994,\n  pages        = \"--\",\n  organization = \"USENIX Association\",\n  address      = boma,\n  month        = \"6--10 \" # jun,\n")
+% eval: (set-register ?b "  journal      = asplos92,\n  year         = 1992,\n  volume       = 27,\n  number       = 9,\n  pages        = \"--\",\n  month        = sep,\n")
 % End:
-
