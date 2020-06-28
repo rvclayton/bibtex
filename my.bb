@@ -718,6 +718,47 @@
   location     = "GV 875.C6 R36"
 }
 
+@Book{tboem,
+  author       = "Caroline Chute",
+  title        = "The Beans of Egypt, Maine",
+  publisher    = "Warner Books",
+  year         = 1985,
+  address      = nyny,
+  keywords     = "maine, rural poverty",
+  location     = "PS 3553.H87 B4"
+}
+
+@Book{tpfows,
+  author       = "Aaron Brown",
+  title        = "The Poker Face of Wall Street",
+  publisher    = "John Wiley \& Sons",
+  year         = 2006,
+  address      = honj,
+  keywords     = "poker, finance, risk management",
+  location     = "HG 4661.B766"
+}
+
+@Book{ttllr,
+  author       = "Laurence Ralph",
+  title        = "The Torture Letters",
+  subtitle     = "Reckoning with Police Violence",
+  publisher    = ucp,
+  year         = 2020,
+  address      = chil,
+  keywords     = "police, chicago, law enforcement, torture",
+  location     = "HV 8148.C52 R35"
+}
+
+@Book{viusax,
+  title        = "Visualizing Information Using {SVG} and {X3D}",
+  publisher    = sv,
+  year         = 2005,
+  editor       = "Vladimir Geroimenko and Chaomei Chen",
+  address      = loen,
+  keywords     = "sgv, x3d, semantic web, user interfaces, visualization",
+  location     = "T 385.V597"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3314,6 +3355,243 @@
     being built at MIT.", 
   location     = "https://doi.org/10.1145/143371.143540", 
   location     = "http://groups.csail.mit.edu/cag/papers/pdf/window-of-vulnerability.pdf"
+}
+
+@Article{csmsahfsm,
+  author       = "Mark~D. Hill and James~R. Larus and Steven~K. Reinhardt and David~A. Wood",
+  title        = "Cooperative Shared Memory:  Software and Hardware for Scalable Multiprocessors",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "262--273",
+  month        = sep,
+  keywords     = "annotations, check-in/check-out, synchronization",
+  abstract     = "We believe the paucity of massively parallel, shared-memory
+    machines follows from the lack of a shared-memory programming performance
+    model that can inform programmers of the cost of operations (so they can
+    avoid expensive ones) and can tell hardware designers which cases are
+    common (so they can build simple hardware to optimize them).  Cooperative
+    shared memory, our approach to shared-memory design, addresses this
+    problem.Our initial implementation of cooperative shared memory uses a
+    simple programming model, called Check-In/Check-Out (CICO), in conjunction
+    with even simpler hardware, called Dir1SW.  In CICO, programs bracket uses
+    of shared data with a check_in directive terminating the expected use of
+    the data.  A cooperative prefetch directive helps hide communication
+    latency.  Dir1SW is a minimal directory protocol that adds little
+    complexity to message-passing hardware, but efficiently supports programs
+    written within the CICO model.", 
+  location     = "https://doi.org/10.1145/161541.161544", 
+  location     = "ftp://ftp.cs.wisc.edu/wwt/tocs93_csm.pdf"
+}
+
+@Article{esptb,
+  author       = "Michael~D. Smith and Mark Horowitz and Monica~S. Lam",
+  title        = "Efficient Superscalar Perfformance Through Boosting",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "248--259",
+  month        = sep,
+  keywords     = "speculative execution, instruction reordering, boosting,
+    instruction scheduling, trace scheduling, hardware support, superscalar
+    architectures",
+  abstract     = "The foremost goal of superscalar processor design is to
+    increase performance through the exploitation of instruction-level
+    parallelism (ILP).  Previous studies have shown that speculative execution
+    is required for high instruction per cycle (IPC) rates in non-numerical
+    applications.  The general trend has been toward supporting speculative
+    execution in complicated, dynamically-scheduled processors.  Performance,
+    though, is more than just a high IPC rate; it also depends upon instruction
+    count and cycle time.  Boosting is an architectural technique that supports
+    general speculative execution in simpler, statically-scheduled processors.
+    Boosting labels speculative instructions with their control dependence
+    information.  This labelling eliminates control dependence constraints on
+    instruction scheduling while still providng full dependence information to
+    the hardware.  We have incorporated boosting into a trace-based, global
+    scheduling algorithm that exploits ILP without adversely affecting the
+    instruction count of a program.  We use this algorithm and estimates of the
+    boosting hardware involved to evaluate how much speculative execution
+    support is really necessary to achieve good performance.  We find that a
+    statically-scheduled superscalar processor using a minimal implementation
+    of boosting can easily reach the performance of a much more complex
+    dynamically-scheduled superscalar processor.", 
+  location     = "https://doi.org/10.1145/143371.143534"
+}
+
+@Article{ssfvasp,
+  author       = "Scott~A. Mahlke and William~Y. Chen and Wen-mei~W. Hwu and B.~Ramakrishna Rau and Michael~S. Schlansker",
+  title        = "Sentinel Scheduling for {VLIW} and Superscalar Processors",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "238--247",
+  month        = sep,
+  keywords     = "superblock scheduling, percolation scheduling, instruction
+    boosting, exception handling, sentinel scheduling, speculative stores",
+  abstract     = "Speculative execution is an important source of parallelism
+    for VLIW and superscalar processors.  A serious challenge with
+    compiler-controlled speculative execution is to accurately detect and
+    report all program execution errors at the time of occurrence.  In this
+    paper, a set of architectural features and compile-time scheduling support
+    referred to as sentinel scheduling is introduced.  Sentinel scheduling
+    provides an effective framework for compiler-controlled speculative
+    execution that accurately detects and reports all exceptions.  Sentinel
+    scheduling also supports speculative execution of store instructions by
+    providing a store buffer which allows probationary entries.  Experimental
+    results show that sentinel scheduling is highly effective for a wide range
+    of VLIW and superscalar processors.", 
+  location     = "https://doi.org/10.1145/143371.143529"
+}
+
+@Article{fmefu,
+  author       = "Brian~N. Bershad and David~D. Redell and John~R. Ellis",
+  title        = "Fast Mutual Exclusion for Uniprocessors",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "223--233",
+  month        = sep,
+  keywords     = "mutual exclusion, memory interlocking, restartable
+    instructions",
+  abstract     = "In this paper we describe restartable atomic sequences, an
+    optimistic mechanism for implementing simple atomic operations (such as
+    Test-And-Set) on a uniprocessor.  A thread that is suspended within a
+    restartable atomic sequence is resumed by the operating system at the
+    beginning of the sequence, rather than at the point of suspension.  This
+    guarantees that the thread eventually executes the sequence atomically.  A
+    restartable atomic sequence has significantly less overhead than other
+    software-based synchronization mechanisms, such as kernel emulation or
+    software reservation.  Consequently, it is an attractive alternative for
+    use on uniprocessors that do no support atomic operations.  Even on
+    processors that do support atomic operations in hardware, restartable
+    atomic sequences can have lower overhead.We describe different
+    implementations of restartable atomic sequences for the Mach 3.0 and Taos
+    operating systems.  These systems' thread management packages rely on
+    atomic operations to implement higher-level mutual exclusion facilities.
+    We show that improving the performance of low-level atomic operations, and
+    therefore mutual exclusion mechanisms, improves application performance.", 
+  location     = "https://doi.org/10.1145/143371.143523"
+}
+
+@Article{acoeamdo,
+  author       = "Kamen Yotov and Xiaoming Li and Gang Ren and Michael Cibulskis and Gerald DeJong and Maria Garzaran and David Padua and Keshav Pingali and Paul Stodghill and Peng Wu",
+  title        = "{A} Comparison of Empirical and Model-Deiven Optimization",
+  journal      = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation, PLDAI '03)",
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "63--76",
+  month        = may,
+  keywords     = "compilers, memory hierarchy, tiling, blocking, unrolling,
+    program transformation, code generation, empirical optimization, model-driven
+    optimization, blas",
+  abstract     = "Empirical program optimizers estimate the values of key
+    optimization parameters by generating different program versions and
+    running them on the actual hardware to determine which values give the best
+    performance.  In contrast, conventional compilers use models of programs
+    and machines to choose these parameters.  It is widely believed that
+    model-driven optimization does not compete with empirical optimization, but
+    few quantitative comparisons have been done to date.  To make such a
+    comparison, we replaced the empirical optimization engine in ATLAS (a
+    system for generating a dense numerical linear algebra library called the
+    BLAS) with a model-driven optimization engine that used detailed models to
+    estimate values for optimization parameters, and then measured the relative
+    performance of the two systems on three different hardware platforms.  Our
+    experiments show that model-driven optimization can be surprisingly
+    effective, and can generate code whose performance is comparable to that of
+    code generated by empirical optimizers for the BLAS.", 
+  location     = "https://dl.acm.org/doi/10.1145/781131.781140"
+}
+
+@Article{maccforvoct,
+  author       = "Kristy Andrews and Duane Sand",
+  title        = "Migrating a {CISC} Computer Family onto {RISC} via Object Code Translation",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "213--222",
+  month        = sep,
+  keywords     = "portability, interpretation",
+  abstract     = "A minicomputer/mainframe family (Tandem NonStop Systems) and
+    all of its machine-dependent vendor and user software has been moved from a
+    proprietary CISC instruction set onto a generic RISC instruction set
+    Translation of programs' CISC object code into optimized RISC object code
+    is a migration path that is easy, gives greatly improved performance,and
+    provides all the benefits of traditional object code compatibility.  These
+    benefits include no reprogramming, no retraining, fast time to market, and
+    debugging of optimized programs as if they were still running on the CISC
+    platform.  This paper shares our experience in implementing this migration
+    scheme, with measurements of the resulting performance and code size.", 
+  location     = "https://doi.org/10.1145/143371.143520",
+  location     = "https://www.hpl.hp.com/techreports/tandem/TR-92.1.pdf"
+}
+
+@Article{edb,
+  author       = "Robert Wahbe",
+  title        = "Efficient Data Breakpoints",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "200--212",
+  month        = sep,
+  keywords     = "debugging, data breakpoints, virtual memory protection",
+  abstract     = "Breakpoints are user-specified rules that trigger debugging
+    actions when certain conditions arise in an executing program.  To support
+    source-level debugging, programmers should be able to specify breakpoints
+    conditions in terms of programming language control and data abstractions.
+    Support for breakpoints specified in terms of control conditions, known as
+    control breakpoints, is ubiquitous.  The analogous data breakpoints, a
+    breakpoints specified in terms of a data condition, is difficult to
+    implement efficiently and has only limited support in most current
+    debuggers.  A number of authors have speculated that efficient data
+    breakpoints require hardware support.  In this paper we examine hardware
+    and software strategies for implementing data breakpoints.  We use a
+    simulation experiment to estimate the performance of four representative
+    implementations.  We conclude that while hardware-based solutions are able
+    to deliver the best overall performance, they are expensive and can
+    simultaneously support only a limited number of breakpoints.  In contrast,
+    a software solution based on modifying the code of the program being
+    debugged to monitor all instructions that might affect the data breakpoints
+    condition is simple and portable, and provides for any number of
+    breakpoints.  Further, we show that its expected performance is acceptable
+    for most debugging applications.", 
+  location     = "https://doi.org/10.1145/143371.143518"
+}
+
+@Article{acpmuepcm,
+  author       = "Kieran Harty and David~R. Cheriton",
+  title        = "Application-Controlled Physical Memory using External Page-Cache Management",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "187--197",
+  month        = sep,
+  keywords     = "storage management, v++, external page-cache management, ",
+  abstract     = "Next generation computer systems will have gigabytes of
+    physical memory and processors in the 100 MIPS range or higher.  Contrary
+    to some conjectures, this trend requires more sophisticated memory
+    management support for memory-bound computations such as scientific
+    simulations and systems such as large-scale database systems, even though
+    memory management for most programs will be less of a concern.  We describe
+    the design, implementation and evaluation of a virtual memory system that
+    provides application control of physical memory using external page-cache
+    management.  In this approach, a sophisticated application is able to
+    monitor and control the amount of physical memory it has available for
+    execution, the exact contents of this memory, and the scheduling and nature
+    of page-in and page-out using the abstraction of a physical page cache
+    provided by the kernel.  We claim that this approach can significantly
+    improve performance for many memory-bound applications while reducing
+    kernel complexity, yet does not complicate other applications or reduce
+    their performance.", 
+  location     = "https://doi.org/10.1145/143365.143511",
+  location     = "http://i.stanford.edu/pub/cstr/reports/cs/tr/91/1394/CS-TR-91-1394.pdf"
 }
 
 @TechReport{aqmafd30,
@@ -6213,6 +6491,61 @@
   location     = "TK 5105.585.C66"
 }
 
+@PhDThesis{cqtg,
+  author       = "Grust, Torsten",
+  title        = "Comprehending Queries",
+  school       = "University of Konstanz",
+  year         = 1999,
+  address      = "Konstanz, Germany",
+  month        = sep,
+  keywords     = "category theory, categorical datatypes, query compilation,
+    normalization, combinators, comprehensions, query deforestation, functors,
+    catamorphisms",
+  abstract     = "There are no compelling reasons why database-internal query
+    representations have to be designated by operators.  This text describes a
+    world in which datatypes determine the comprehension of queries.  In this
+    world, a datatype is characterized by its algebra of value constructors.
+    These algebras are principal.  Query operators are secondary in the sense
+    that they simply box (recursive) programs that describe how to form a query
+    result by application of datatype constructors.  Often, operators will be
+    unboxed to inspect and possibly rewrite these programs.  Query optimization
+    then means to deal with the transformation of programs.  The predominant
+    role of the constructor algebras suggests that this model understands
+    queries as mappings between such algebras.  The key observation that makes
+    the whole approach viable is that (a) homomorphic mappings are expressive
+    enough to cover declarative user query languages like OQL or recent SQL
+    dialects, and, at the same time, (b) a single program form suffices to
+    express homomorphisms between constructor algebras.  Reliance on a single
+    combining form, catamorphisms, renders the query programs susceptible to
+    Constructive Algorithmics, an effective and extensive algebraic theory of
+    program transformations.  The text then takes a step from catamorphisms
+    towards a higher-level query representation based on the categorical notion
+    of monads.  In a nutshell, monads are algebras exhibiting exactly the
+    structure that is needed to support the interpretation of a query calculus,
+    the monad comprehension calculus.  Built on top of the abstract monad
+    notion, the calculus maps a variety of query constructs (e.g., bulk
+    operations, aggregates, and quantifiers) to few syntactic forms.  The
+    uniformity of the calculus facilitates the analysis and transformation,
+    especially the normalization, of its expressions.  Few but generic calculus
+    rewriting rules suffice to implement query transformations that would
+    otherwise require extensive rule sets.  The text rediscovers well-known
+    query optimization knowledge on sometimes unusual paths that are more
+    practicable to follow for an optimizer, though.  Solutions previously
+    proposed by others can be simpliﬁed and generalized mainly due to the clear
+    account of the structure of queries that the monad comprehension
+    calculus—thanks to its density—provides.  The calculus effectively supports
+    query optimization in the presence of grouping, various forms of nesting,
+    aggregates, and quantifiers.  Although built on top of abstract concepts
+    like homomorphisms and monads, this query model is specific enough to grasp
+    implementation issues, such as the generation of stream-based (pipelined)
+    query execution plans, whose treatment has traditionally been delayed until
+    query runtime.  It is the main objective of this thesis to show that
+    catamorphisms and monad comprehensions enable a comprehension of queries
+    that is eﬀective and easily exploitable inside a query optimizer.", 
+  location     = "http://kops.uni-konstanz.de/urn/urn:nbn:de:bsz:352-opus-3120"
+}
+
 % Local Variables:
 % eval: (set-register ?b "  journal      = asplos92,\n  year         = 1992,\n  volume       = 27,\n  number       = 9,\n  pages        = \"--\",\n  month        = sep,\n")
 % End:
+		  
