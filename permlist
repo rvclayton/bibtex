@@ -19,7 +19,6 @@ a block sorting lossless data compression algorithm : burrows
 a brief guide to linear logic : scedrov
 a brief history of algebra and computing an eclectic oxonian view : bowen
 a brief history of the internet and related networks : cerf
-a brief survey of systems providing process or object migration : nuttall
 a calculus of durations : chaochen
 a case for direct mapped caches : hill
 a case for runtime code generation : keppel
@@ -248,7 +247,6 @@ a survey of techniques for achieving metadata interoperability : haslhofer
 a survey of techniques for synchronization and recovery in decentralized computer systems : kohler
 a survey on the design applications and enhancements of application layer overlay networks : kurian
 a survey of web cache replacement strategies : podlipnig
-a survey of wormhole routing techniques in direct networks : ni
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a system for generating language oriented editors : tenma
@@ -875,7 +873,6 @@ designing object initialization : venners
 designing reusable classes : johnson
 designing software for ease of extension and contraction : parnas
 designing software with modula 3 : klein
-designing the legos multitasking operating system : noga
 designing the mccat compiler based on a family of structured intermediate representations : hendren
 detecting duplicate code with pmds cpd : copland
 determinacy testing for nondeterminate logic programming languages : tick
@@ -1089,7 +1086,6 @@ faster generalized lr parsing : aycock
 fault injection a method for validating computer-system dependability : clark
 fault tolerance by design diversity concepts and experiments : avizienis
 fault tolerant clock synchronization in distributed systems : ramanathan
-fault tolerant computing fundamental concepts : nelson
 fc++ founctional tools for object oriented tasks : smaragdakis
 feature interactions and formal specifications in telecommunications : zave
 feeding frenzy selectively materalizing users event feeds : silberstein
@@ -1120,7 +1116,6 @@ flavors message passing in the lisp machine : weinreb
 fletchers checksum : kodis
 flexible task graphs a unified restricted thread programming model for java : aurbach
 flick a flexible optimizing idl compiler : eide
-form based file upload in html : nebel
 form formula a visual programming paradigm for user definable user interfaces : kimura
 form tricks : webb
 formal analysis of the alternating bit protocol by temproal petri nets : suzuki
@@ -1233,7 +1228,6 @@ graphical configuration programming : kramer
 gray codes for partial match and range queries : faloutsos
 greedy algorithms : greedy
 gridnet an alternative large distributed network : moore
-gridrpc a remote procedure call api for grid computing : nakada
 growing a language : steele
 growing languages with metamorphic syntax macros : barbrand
 guarded attribute grammars : frost
@@ -1289,7 +1283,6 @@ how many subscribers should share a modem : missaghi
 how many trivial getter methods does java have : hughes
 how not to write commercial standards : berlack
 how not to write fortran in any language : seeley
-how pgp works : network
 how to be a programmer a short comprehensive and personal summary : reed
 how to break out of a chroot jail : simes
 how to do things with words : austin
@@ -1412,7 +1405,6 @@ introduction to mmix : knuth
 introduction to neural networks for intelligent control : bavarian
 introduction to probability : grinstead
 introduction to simulated annealing : tovy
-introduction to stream control transmission protocol : newmarch
 introduction to the formal treatment of testing : gourlay
 introduction to the literature on semantics : leavens
 introduction to tla : lamport
@@ -1421,7 +1413,6 @@ investigating java concurrency using abstract state machines : gurevich
 investigating the influence of formal methods : pfleeger
 io an estelle simulator for performance evaluation : fernandez
 io considered harmful at least for the first few weeks : rosenberg
-ip switching and gigabit routers : newman
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
 is finding security holes a good idea : rescoria
@@ -1495,7 +1486,6 @@ learning from mistakes a comprehensive study on real world concurrency bug chara
 learning in theory and practice : brown
 learning operating systems structure and implementation through the mps computer system simulator : morsiani
 learning spam simple techniques for freely available software : massey
-lessons from open source intellectual property and courseware : newmarch
 letos a lightweight execution tool for operational semantics : hartel
 lexical closures for c++ : breuel
 librep : harper
@@ -1672,7 +1662,6 @@ neural networks for control : cembrano
 neural networks for pattern recognition : kothari
 neural networks for routing communication traffic : rauch
 neural networks for switching : brown
-neuronet a distributed real time system for monitoring neurophysiologic function in the medical environment : krieger
 new advances in filesystem space : miner
 new copyright law for distance education the meaning and importance of the teach act : crews
 new heap data structures : kaplan
@@ -1697,7 +1686,6 @@ number representations and dragon curves ii : davis
 oberon script a lightweight compiler and runtime system for the web : sommerer
 oberon technical notes : pfister
 object message and performance how they coexist in self : ungar
-object orientation in heterogeneous distributed computing systems : nicol
 object oriented abstractions for distributed programming : guerraoui
 object oriented database management systems concepts and issues : bertino
 object oriented patterns : coad
@@ -1713,7 +1701,6 @@ obliq a language with distributed scope : cardelli
 occams razor the cutting edge for parser technology : bowen
 oceanstore an architecture for global scale persistent storage : kubiatowicz
 off and on tokens : clark
-old dogs and new tricks : nelson
 omniscient debugger user manual : lewis
 on a general property of memory mapping tables : reed
 on computable numbers with an application to the entscheidungsproblem : turing
@@ -1726,7 +1713,6 @@ on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
 on micro kernel construction : liedtke
 on programming by iterations : turski
-on required element testing : ntafos
 on research into the individual and computing systems : jarvinen
 on resource management and qos guarantees for long range dependent traffic : adas
 on scalable state based specifications for real time systems : shaw
@@ -1834,7 +1820,6 @@ performance analysis of five interprocess communication mechanisms across unix o
 performance analysis ratholes : jain
 performance and environment monitoring for continuous program optimization : casaval
 performance description and analysis for distributed systems using a variant of lotos : rico
-performance issues in parallelized network protocols : nahum
 performance of a broadcast packet switch : bubenik
 performance of a software mpeg video decoder : patel
 performance of checksums and crcs over real data : partridge
@@ -1996,7 +1981,6 @@ queueing network modeling of computer communication networks : wong
 quick compilation using peephole optimization : davidson
 quickcheck a lightweight tool for random testing of haskell programs : claessen
 quickfit an efficient algorithm for heap storage allocation : weinstock
-quinault an office modeling system : nutt
 r++ adding path base rules to c++ : crawford
 r++ using rules in object oriented designs : mishra
 rafts for basic blocks a progress report on forth native code compilation : ertl
@@ -2058,7 +2042,6 @@ replicated abstract data types building blocks for collaborative applications : 
 report of a workshop on future directions in programming languages and compilers : anonymous
 report on the experimental language x10 : saraswat
 report on the programming language euclid : lampson
-representation of moving rigid objects based on visual observations : nagel
 representations and meta interpreters : krishnamurthi
 representing change by aspect : dolog
 representing control in the presence of one shot continuations : bruggemann
@@ -2347,7 +2330,6 @@ synchronization coherence and event ordering in multiprocessors : dubois
 synchronization in distributed programs : schneider
 synchronous automata for reactive real time or embedded systems : maffeis
 synchronous c++ a language for interactive applications : petitpierre
-synchronous extensions to operation centric hardware description languages : nordin
 synchronous kahn networks : caspi
 synchronous programming with events and relations the signal language and its semantics : benveniste
 syntatic abstractions in scheme : hieb
@@ -2502,7 +2484,6 @@ the formal specification of a small bookshop information system : gray
 the function of function in lisp : moses
 the future of ideas : lessig
 the future of internet addresses : bieringer
-the future of internet worms : nazario
 the future of programming languages evidence to support a midwest university information systems curriculum : wenger
 the future of software engineering : humphrey
 the galaxy distributed operating system : sinha
@@ -2621,7 +2602,6 @@ the real meaning of architecture : fisher
 the refdbms bibliographic database system : golding
 the relevance of education : bruner
 the resuability challenge : meyer
-the rise of pseudo fascism : neiwert
 the risks of key recovery key escrow and trusted third party encryption : abelson
 the rochester checkers player : marsh
 the role of composition in computer programming : mcintyre
@@ -2702,8 +2682,6 @@ the unix system and software reusability : kernighan
 the unix tree rethough an introduction to globo linux : loderunner
 the unreasonable effectiveness of mathematics in the natural sciences : wigner
 the us west advanced technologies prototype multimedia communication system : bulick
-the usability engineering life cycle : nielson
-the usability of open source software : nichols
 the use of multilegged arguments to increase confidence in safety claims for software based systems  a study based on a bbn analysis of an idealized example : littlewood
 the use of self checks and voting in software error detection an emperical study : leveson
 the user interface as document sgml and distributed applications : fuchs
