@@ -759,6 +759,65 @@
   location     = "T 385.V597"
 }
 
+@Book{trosh,
+  author       = "Arthur Conan Doyle",
+  title        = "The Return of Sherlock Holmes",
+  subtitle     = "Including the Hounds of the Baskervilles",
+  publisher    = "Bramhall House",
+  year         = 1976,
+  address      = nyny,
+  keywords     = "sherlock homes",
+  location     = "PR 4622.R48"
+}
+
+@Book{taumg,
+  author       = "Martin Gardner",
+  title        = "The Ambidextrous Universe",
+  subtitle     = "Left, Right, and the Fall of Parity",
+  publisher    = "New American Library",
+  year         = 1969,
+  address      = nyny,
+  price        = "$1.25",
+  keywords     = "symmetry, asymmetry, physics, parity, mirrors",
+  location     = "QC 793.3.S9 G37"
+}
+
+@Book{caccf,
+  author       = "Caxton~C. Foster",
+  title        = "Computer Architecture",
+  publisher    = "Van Nostrand Reinhold",
+  year         = 1976,
+  address      = nyny,
+  edition      = "second",
+  keywords     = "information representation, gates, elementary logic, storage,
+    addressing, input, output",
+  location     = "QA 76.9 A73 F67"
+}
+
+@Book{xdbld,
+  author       = "Don Brutzman and Loenard Daly",
+  title        = "{X3D}",
+  subtitle     = "Extensible 3d Graphics for Web Authors",
+  publisher    = mk,
+  year         = 2007,
+  address      = sfca,
+  keywords     = "geometry, nodes, navigation, textures, polygons, event
+    animation, interpolation, interactivity, scripting, lighting, environment,
+    sensors, sound, quadrilaterals",
+  location     = "TR 897.7.B796"
+}
+
+@Book{itpcmg,
+  author       = "Charles~M. Grinstead and J.~Laurie Snell",
+  title        = "Introduction to Probability",
+  publisher    = "American Mathematical Society",
+  year         = 1997,
+  address      = "Providence, Rhode Island",
+  keywords     = "discrete probability, continuous probability, distributions,
+    random walks",
+  location     = "QA 273.S668"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3594,6 +3653,286 @@
   location     = "http://i.stanford.edu/pub/cstr/reports/cs/tr/91/1394/CS-TR-91-1394.pdf"
 }
 
+@Article{atcpni,
+  author       = "Dana~S. Henry and Christopher~F. Joerg",
+  title        = "{A} Tightly-Coupled Processor-Network Interface",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "111--122",
+  month        = sep,
+  keywords     = "nics, register access, message-passing architectures, memory
+    mapping, performance, optimizations",
+  abstract     = "Careful design of the processor-network interface can
+    dramatically reduce the software overhead of interprocessor communication.
+    Our interface architecture reduces communication overhead five fold in our
+    benchmarks.  Most of our performance gain comes from simple, low cost
+    hardware mechanisms for fast dispatching on, forwarding of, and replying to
+    messages.  The remaining improvement can be gained by implementing the
+    network interface as part of the processor's register file.  For example,
+    using our hardware mechanisms a register-mapped interface can receive,
+    process, and reply to a remote read request in a total of two RISC
+    instructions.  We have implemented an RTL model of an off-chip
+    memory-mapped interface which provides our hardware mechanisms.  Our
+    industrial partner, Motorola, is implementing a similar network interface
+    on-chip in an experimental version of the 88110 processor.", 
+  location     = "https://doi.org/10.1145/143371.143497",
+  location     = "http://csg.csail.mit.edu/pubs/memos/Memo-342/memo-342.pdf"
+}
+
+@Article{cmfvic,
+  author       = "Bob Wheeler and Brian~N. Bershad",
+  title        = "Consistency Management for Virtually Indexed Caches",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "124--136",
+  month        = sep,
+  keywords     = "aliasing, virtual-physical mapping, state machines,
+    consistency models, dma",
+  abstract     = "A virtually indexed cache can improve performance by allowing
+    cache lookup and address translation to occur in parallel, thus reducing
+    processor cycle time.  Unlike physically indexed caches, virtually indexed
+    caches create consistency problems because a physical address may be
+    represented in more than one cache line when it has been accessed through
+    more than one virtual address.  Write-back virtually indexed caches create
+    additional inconsistencies because memory may become stale with respect…to
+    the cache.  In this paper we examine the problem of consistency management
+    for a virtually indexed write-back cache.  We assume that the hardware does
+    not support intracache consistency.  We present model and software
+    implementation strategy for maintaining consistency with virtually indexed
+    caches.  We present measurements from an implementation of this model on
+    the HP 9000 Series 7000 in the context of the Mach operating system.  Our
+    measurements show that a virtually indexed cache can be managed with nearly
+    the same cost as the required to manage a physically indexed one, even when
+    used by a virtual memory system that encourages and exploits sharing.",
+  location     = "https://doi.org/10.1145/143371.143499"
+}
+
+@Article{etatbfpac,
+  author       = "Tzi-cker Chiueh and Randy~H. Katz",
+  title        = "Eliminating the Address Translation Bottleneck for Physical Address Cache",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "137--148",
+  month        = sep,
+  keywords     = "cache architecture, lazy address translation, pipelining",
+  abstract     = "Two architectural techniques are presented and analyzed in
+    this paper that aim at eliminating the Translation Lcookaside Buffer (TLB)
+    access delay from the critical path of physical address cache-based scalar
+    processors.  The first technique, parallel address translation, masks the
+    TLB access delay by using a set-associative virtual memory map to extend
+    the cache size beyond the product of the cache associativity and the
+    virtual memory page size.  The second technique, lazy address translation,
+    bypasses the TLB access completely by using the base register and offset in
+    a memory reference as a caching mechanism for its corresponding physical
+    page.  Consequently the TLB access is needed only when this caching scheme
+    fails.  A trace-driven simulation study is conducted and the experimental
+    results show that under the given workload the parallel address translation
+    scheme works best when the virtual memory is 16-way set associative, and
+    the penalty on the average cycle-per-instruction due to lazy address
+    translation is less than 1.3%.", 
+  location     = "https://doi.org/10.1145/143371.143501"
+}
+
+@Article{acothsa,
+  author       = "Ivan~E. Sutherland and Robert~F. Sproull and Robert~A. Schumacker",
+  title        = "{A} Characterization of Ten Hidden-Surface Algorithms",
+  journal      = surveys,
+  year         = 1974,
+  volume       = 6,
+  number       = 1,
+  pages        = "1--55",
+  month        = mar,
+  keywords     = "sorting, graphics rendering, hidden-line elimination,
+    hidden-surface elimination, coherence, computer graphics, raster graphics,
+    perspective transformation, algorithm analysis",
+  abstract     = "The paper asserts that the hidden-surface problem is mainly
+    one of sorting.  The various surfaces of an object to be shown in
+    hidden-surface or hidden-line form must be sorted to find out which ones
+    are visible at various places on the screen.  Surfaces may be sorted by
+    lateral position in the picture (XY), by depth (Z), or by other criteria.
+    The paper shows that the order of sorting and the types of sorting used
+    form differences among the existing hidden-surface algorithms.  To reduce
+    the work of sorting, each algorithm capitalizes on some coherence property
+    of the objects represented.  'San-line coherence,' the fact that one TV
+    scan line of output is likely to be nearly the same as the previous TV scan
+    line, is one commonly used kind of coherence.  'Frame coherence,' the fact
+    that the entire picture does not change very much between successive frames
+    of a motion picture can be very helpful if it is applicable.  By
+    systematically looking for additional kinds of coherence and untried
+    sorting orders and sorting types, the paper is able to suggest two
+    promising new approaches to the hidden-surface problem.  The first, a
+    combination of three existing algorithms, is promising because it would
+    capitalize on the frame and scan-line coherence.  The second new approach
+    would sort in order Y, Z, X, the only sorting order for which an existing
+    algorithm could not be found.", 
+  location     = "https://dl.acm.org/doi/abs/10.1145/356625.356626"
+}
+
+@Article{apeoohccp,
+  author       = "Jack~E. Veenstra and Robert~J. Fowler",
+  title        = "{A} Performance Evaluation of Optimal Hybrid Cache Coherency Protocols",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "149--160",
+  month        = sep,
+  keywords     = "coherency protocols, cost models, trace-driven simulations",
+  abstract     = "The caches within a multiprocessor typically use either a 
+    write-invalidate protocol or a write-update protocol to maintain
+    consistency.  The recently introduced MIPS R4000 processor allows operating
+    system software to select, on a per-page basis, which multiprocessor cache
+    coherence protocol (write-invalidate versus write-update) the hardware will
+    use.  The availability of the R4000 and the prospect of even more flexible
+    hardware motivated us to examine the potential performance advantages of
+    allowing user-level control over the choice of coherence protocol on a
+    per-page basis and to ask whether more powerful hybrid protocols provide
+    substantially more benefit.  We examine the potential benefits of three
+    classes of hybrid protocols: (1) hybrid protocols that choose statically,
+    at the beginning of the program, between write-invalidate (WI) or
+    write-update (WU) on a per-page basis, (2) hybrid protocols that choose
+    statically between WI or WU for each cache block, and (3) dynamic hybrid
+    protocols that can choose between WI or WU at each write.  In order to
+    determine how much potential benefit could be obtained by each of these
+    protocol classes, we used trace-driven simulations to evaluate the optimal
+    off-line protocol for each class.  We found that the use of a hybrid
+    protocol can substantially reduce the cost of memory references for most of
+    the programs studied.  A few programs can also realize large additional
+    benefits from a per-block static hybrid protocol compared to a per-page
+    static hybrid protocol.  None of the programs, however, receive a
+    significant additional benefit from using a dynamic hybrid protocol
+    compared to the per-block static hybrid protocol, unless cache block sizes
+    are larger than 16 words (64 bytes).", 
+  location     = "https://doi.org/10.1145/143371.143503"
+}
+
+@Article{ctcaspoamos,
+  author       = "Josep Torrellas and Anoop Gupta and John Hennessy",
+  title        = "Charactrizing the Caching and Synchronization Performance of a Multiprocessor Operating System",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "162--174",
+  month        = sep,
+  keywords     = "workloads, cache behavior, os cache activity, cache misses",
+  abstract     = "Good cache memory performance is essential to achieving high
+    CPU utilization in shared memory multiprocessors.  While the performance of
+    caches is determined by both application and operating system (OS)
+    references, most research has focused on the cache performance of the OS is
+    largely unknown.  In this paper we characterize the cache performance of a
+    commercial System V UNIX running on a four-CPU multiprocessor.  The related
+    issue of the performance impact of the OS synchronization activity is also
+    studied.  For our study, we use a hardware monitor that records the cache
+    misses in the machine without perturbing it.  We study three multiprocessor
+    workloads: a parallel compile, a multiprogrammed load, and a commercial
+    database.  Our results show that OS misses occur frequently enough to stall
+    CPUs for 17--21% of their non-idle time.  Further, if we include
+    application misses induced by OS interference in the cache, then the stall
+    time reaches 25%.  A detailed analysis reveals three major sources of OS
+    misses: instruction fetches, process migration and data accesses in block
+    operations.  As for synchronization behavior, we find that OS
+    synchronization has low overhead if supported correctly and that OS locks
+    show good locality and low contention.", 
+  location     = "https://doi.org/10.1145/143371.143506"
+}
+
+@Article{hsssflan,
+  author       = "Thomas~E. Anderson and Susan~S. Owicki and James~B. Saxe and Charles~P. Thacker",
+  title        = "High-Speed Switch Scheduling for Local-Area Networks",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "98--110",
+  month        = sep,
+  keywords     = "scheduling, data forwarding, port buffering, cross-bar
+    switches, optical networks, high-speed networking, bipartite-graph
+    matching, fabric scheduling",
+  abstract     = "Current technology trends make it possible to build
+    communication networks that can support high-performance distributed
+    computing.  This paper describes issues in the design of a prototype switch
+    for an arbitrary topology point-to-point network with link speeds of up to
+    1 Gbit/s.  The switch deals in fixed-length ATM-style cells, which it can
+    process at a rate of 37 million cells per second.  It provides high
+    bandwidth and low latency for datagram traffic.  In addition, it supports
+    real-time traffic by providing bandwidth reservations with guaranteed
+    latency bounds.  The key to the switch's operation is a technique called
+    parallel iterative matching, which can quickly identify a set of
+    conflict-free cells for transmission in a time slot.  Bandwidth
+    reservations are accommodated in the switch by building a fixed schedule
+    for transporting cells from reserved flows across the switch; parallel
+    iterative matching can fill unused slots with datagram traffic.  Finally,
+    we note that parallel iterative matching may not allocate bandwidth fairly
+    among flows of datagram traffic.  We describe a technique called
+    statistical matching, which can be used to ensure fairness at the switch
+    and to support applications with rapidly changing needs for guaranteed
+    bandwidth.", 
+  location     = "https://doi.org/10.1145/161541.161736", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-99.pdf"
+}
+
+@Article{lfosipac,
+  author       = "Jan Newmarch",
+  title        = "Lessons from Open Source:  Intellectual Property and Courseware",
+  journal      = "First Monday",
+  year         = 2001,
+  volume       = 6,
+  number       = 6,
+  month        = apr,
+  keywords     = "intellectual property, secrecy, courseware, the commons,
+    copyright",
+  abstract     = "In this competitive age, universities are seeking ways to
+    protect their intellectual property, for fear that it might be stolen or
+    used by others without financial benefit coming back to the university.
+    Increasingly, universities are using mechanisms of secrecy to secure their
+    property.  This paper argues that this approach is wrong on both moral and
+    business grounds, and that a better model can be found in the Open Source
+    movement of the software industry.", 
+  location     = ""
+}
+
+@Article{asfsasos,
+  author       = "Eric~J. Koldinger and Jeffrey~S. Chase and Susan~J. Eggers",
+  title        = "Architectural Support for Single Address Space Operating System",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "175--186",
+  month        = sep,
+  keywords     = "single address space operating systems, single global virtual
+    address space, memory system architecture, protection, domains, system
+    organization, sharing, wide-address architectures, 32-bit address spaces,
+    virtually indexed caches, protection lookaside buffer", 
+  abstract     = "Recent microprocessor announcements show a trend toward
+    wide-address computers: architectures that support 64 bits of virtual
+    address space.  Such architectures facilitate fundamentally new operating
+    system organizations that promote efficient data sharing and cooperation,
+    both between complex applications and between parts of the operating system
+    itself.  One such organization is the single address space operating
+    system, in which all processes run within a single global virtual address
+    space; protection is provided not through conventional address space
+    boundaries, but through protection domains that dictate which pages of the
+    global address space a process can reference.  This paper focuses on the
+    architectural implications of single address space operating systems,
+    specifically the interaction between the memory system architecture and the
+    operating system's use of addressing and protection.  Our purpose is to
+    explore certain architectural opportunities created by single address space
+    by evaluating two protection models that support them.  The first provides
+    protection on a per-page, per-domain basis; we define the protection
+    lookaside buffer, a hardware structure that implements this model.  The
+    second provides protection on a page-group basis; this model is implemented
+    in the Hewlett-Packard PA-RISC architecture.", 
+  location     = "https://doi.org/10.1145/143371.143508"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -3843,6 +4182,43 @@
     (formerly 'Kiva') and explaining the situations in which Oracle Application
     Server is useful.", 
   location     = "http://www.eveandersson.com/arsdigita/asj/application-servers"
+}
+
+@TechReport{tra,
+  author       = "Dale Green",
+  title        = "The Reflection {API}",
+  institution  = "Oracle",
+  year         = 2019,
+  keywords     = "java, reflection",
+  abstract     = "Reflection is commonly used by programs which require the
+    ability to examine or modify the runtime behavior of applications running
+    in the Java virtual machine.  This is a relatively advanced feature and
+    should be used only by developers who have a strong grasp of the
+    fundamentals of the language.  With that caveat in mind, reflection is a
+    powerful technique and can enable applications to perform operations which
+    would otherwise be impossible.",
+  location     = "https://docs.oracle.com/javase/tutorial/reflect/index.html"
+}
+
+@TechReport{tfoiw,
+  author       = "Jose Nazario and Jeremy Anderson and Rick Wash and Chris Connelly",
+  title        = "The Future of Internet Worms",
+  institution  = "Crimelabs Research",
+  year         = 2001,
+  month        = "20 " # jul,
+  keywords     = "worms, internet security, ",
+  abstract     = "Network worms, simple slang terminology for automated
+    intrusion agents, represent a persistent threat to a growing Internet in an
+    increasingly networked world.  However, their evolution has been somewhat
+    limited, and they still rely on the same basic paradigms, which contain
+    fundamental flaws.  We analyze the basic components of a worm and apply
+    this analysis to three worms found in the wild on the Internet.  We then
+    proceed to analyze the limiting factors of existing worm paradigms and
+    outline new ideas which we expect to become prevalent.  These new worms
+    will prove to be more diffcult to identify and eradicate.  It is our
+    intention in sharing this knowledge to stimulate the development of
+    strategies to detect and counteract the threat of smarter network worms.", 
+  location     = "http://www.blackhat.com/presentations/bh-usa-01/JoseNazario/bh-usa-01-Joes-Nazario.pdf"
 }
 
 @InProceedings{cmultsygbtr,
@@ -6477,6 +6853,38 @@
   location     = "http://www.searchtools.com/robots/robot-checklist.html"
 }
 
+@Misc{ejag,
+  author       = "Alan Griffiths",
+  title        = "Exceptional Java",
+  howpublished = "web page",
+  year         = "2002",
+  keywords     = "java, exceptions, programming style",
+  location     = "https://accu.org/index.php/journals/406"
+}
+
+@Misc{gfmv,
+  author       = "Mateusz Viste",
+  title        = "Gopher {FAQ}",
+  howpublished = "ftp",
+  year         = "2015",
+  month        = sep,
+  keywords     = "gopher, faq",
+  abstract     = "Common Questions and Answers about the Internet Gopher, a
+    client/server protocol for making a world wide information service, with
+    many implementations.",
+  location     = "URL:gopher://gopher.viste.fr/1/gopher-faq"
+}
+
+@Misc{tropf,
+  author       = "Daved Niewert",
+  title        = "The Rise of Pseudo Fascism",
+  howpublished = "web page",
+  year         = 2005,
+  month        = "25 " # feb,
+  keywords     = "conservatism, fascism, pseudo-fascism, one-party states",
+  location     = "https://dneiwert.blogspot.com/The%20Rise%20Of%20Pseudo%20Fascism.pdf"
+}
+
 @InBook{aaiissd,
   author       = "Douglas~E. Comer and David~L. Stevens",
   title        = "Internetworking with {TCP/IP}",
@@ -6489,6 +6897,16 @@
   keywords     = "concurrency, iterative, connection-oriented, connectionless,
     transport protocol, statelessness, reliability, sockets, helper processes",
   location     = "TK 5105.585.C66"
+}
+
+@InBook{hpw,
+  author       = "Network Associates, Inc",
+  title        = "Introduction to Cryptography",
+  chapter      = "How {PGP} Works",
+  year         = 1999,
+  keywords     = "encryption, decryption, public key cryptography, digital
+    signatures, digital certificates, validity, trust",
+  location     = "https://www.itu.int/en/ITU-D/Cybersecurity/Documents/01-Introduction%20to%20Cryptography.pdf"
 }
 
 @PhDThesis{cqtg,
