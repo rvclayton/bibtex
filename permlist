@@ -251,7 +251,6 @@ a survey of web cache replacement strategies : podlipnig
 a survey on smartphone based systems for opportunistic user context recognition : hoseini-tabatabaei
 a syntax directed integrated programming environment for developing simd supercomputer software : perrott
 a system for generating language oriented editors : tenma
-a system for specification and rapid prototyping of application command languages : stelovsky
 a systematic approach to multiple inheritance implementation : templ
 a systematic study of functional language implementations : douence
 a task and data parallel programming language based on shared objects : ben hassen
@@ -1119,7 +1118,6 @@ flexible task graphs a unified restricted thread programming model for java : au
 flick a flexible optimizing idl compiler : eide
 form formula a visual programming paradigm for user definable user interfaces : kimura
 form tricks : webb
-formal analysis of the alternating bit protocol by temproal petri nets : suzuki
 formal logic via functional programming : leifer
 formal methods selected historical methods : jones
 formal methods selected historical references : jones
@@ -1831,7 +1829,6 @@ persistence in e revisited implementation experiences : schuh
 perspectives manifesto 1991 : alexander
 pervasive computing with inferno and limbo : stanley
 pete the portable expression template engine : haney
-petri net based based hypertext document structure with browsing semantics : stotts
 petri nets : peterson
 phantom a language overview : courtney
 phantom an interpreted language for distributed computing : courtney
@@ -1949,7 +1946,6 @@ project oberon : wirth
 prolac language reference manual : kohler
 promela a language for constructing correct and efficient protocols : basu
 proofs and refutations : lakatos
-proofs of correctness of cache coherence protocols : stoy
 properties of concurrent programs : chandi
 prosper tutorial : guha
 protection : lampson
@@ -2144,7 +2140,6 @@ setuid demystified : chen
 seven habits of successful pattern writers : vlissides
 sfio safe fast string file io : korn
 sfs 0.5 manual : mazieres
-sha the secure hash algorithm : stallings
 shadow guarding run time checking you can afford : patil
 shallow binding in lisp 1.5 : baker
 shared memory consistency models a tutorial : adve
@@ -2349,7 +2344,6 @@ tabu search part ii : glover
 taco protyping high level object oriented programming constructs by means of template based programming techniques : nolte
 tail call elimination on the java virtual machine : schinz
 take pity on the user the red customization package : prunet
-tango a framework and system for algorithm animation : stasko
 tangrams : mathew
 tartan language design for the ironman requirement reference manual : shaw
 tartan language design for the ironman requirement notes and examples : shaw
