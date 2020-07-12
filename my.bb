@@ -818,6 +818,79 @@
   location     = "QA 273.S668"
 }
 
+@Book{dafew,
+  author       = "Evelyn Waugh",
+  title        = "Decline and Fall",
+  publisher    = "Knopf",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "wrong place, wrong time, the knock-about life, satire",
+  location     = "PR 6045.A97 D4"
+}
+
+@Book{vbew,
+  author       = "Evelyn Waugh",
+  title        = "Vile Bodies",
+  publisher    = "Chapman \& Hall",
+  year         = 1930,
+  address      = loen,
+  keywords     = "bright young things, gossip, dissolution",
+  location     = "PZ 3.W356"
+}
+
+@Book{ahod,
+  author       = "Evelyn Waugh",
+  title        = "{A} Handful of Dust",
+  publisher    = "Chapman \& Hall",
+  year         = 1934,
+  address      = loen,
+  keywords     = "marriage, divorce, the explorin' life",
+  location     = "PR 6045.A97"
+}
+
+@Book{avqfi,
+  author       = "Simon Goldhill",
+  title        = "{A} Very Queer Family Indeed",
+  subtitle     = "Sex, Religion, and the Bensons in Victorian Britain",
+  publisher    = ucp,
+  year         = 2016,
+  address      = chil,
+  keywords     = "the benson family, victorian england, edwardian england,
+    homosexuality, religion, anglicans, catholics, family life",
+  location     = "DA 562.G65"
+}
+
+@Book{wwp,
+  author       = "Jefferson~D. Bates",
+  title        = "Writing With Precision",
+  subtitle     = "How To Write So That You Cannot Possibly Be Misunderstood",
+  publisher    = "Acropolis Books",
+  year         = 1978,
+  address      = wdc,
+  keywords     = "writing, grammar, rhetoric, english, exposition",
+  location     = "PE 1429.B35"		  
+}
+
+@Book{cowdls,
+  author       = "Dorothy~L. Sayers",
+  title        = "Clouds of Witness",
+  publisher    = "Avon",
+  year         = 1966,
+  address      = nyny,
+  keywords     = "class warfare, eat the rich, the honey trap",
+  location     = "PR 6037.A95 C5"
+}
+
+@Book{hndc,
+  author       = "Douglas Coupland",
+  title        = "Hey Nostradamus!",
+  publisher    = "Bloomsbury",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "school shootings, trauma, religion, religious fundamentalists, sex",
+  location     = "PS 3553.O855 H49"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -3931,6 +4004,270 @@
     second provides protection on a page-group basis; this model is implemented
     in the Hewlett-Packard PA-RISC architecture.", 
   location     = "https://doi.org/10.1145/143371.143508"
+}
+
+@Article{nvmffrfs,
+  author       = "Mary Baker and Satoshi Asami and Etienne Deprit and John Ouseterhout and Margo Seltzer",
+  title        = "Non-Volatile Memory for Fast, Reliable File Systems",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "10--22",
+  month        = sep,
+  keywords     = "nvram, write file-system performance, client-side caching,
+    server-side caching, log-structured file systems",
+  abstract     = "Given the decreasing cost of non-volatile RAM (NVRAM), by the
+    late 1990’s it will be feasible for most workstations to include a megabyte
+    or more of NVRAM, enabling the design of higher-performance, more reliable
+    systems.  We present the trace-driven simulation and analysis of two uses
+    of NVRAM to improve I/O performance in distributed file systems:
+    non-volatile file caches on client workstations to reduce write traffic to
+    file servers, and write buffers for write-optimized file systems to reduce
+    server disk accesses.  Our results show that a megabyte of NVRAM on
+    diskless clients reduces the amount of file data written to the server by
+    40 to 50%.  Increasing the amount of NVRAM shows rapidly diminishing
+    returns, and the particular NVRAM block replacement policy makes little
+    difference to write traffic.  Closely integrating the NVRAM with the
+    volatile cache provides the best total traffic reduction.  At today’s
+    prices, volatile memory provides a better performance improvement per
+    dollar than NVRAM for client caching, but as volatile cache sizes increase
+    and NVRAM becomes cheaper, NVRAM will become cost effective.  On the server
+    side, providing a one-half megabyte write-buffer per file system reduces
+    disk accesses by about 20% on most of the measured logstructured file
+    systems (LFS), and by 90% on one heavilyused file system that includes
+    transaction-processing workloads.", 
+  location     = "https://doi.org/10.1145/143371.143380"
+}
+
+@Article{pdfcoirda,
+  author       = "Mark Holland and Garth~A. Gibson",
+  title        = "Parity Declustering for Continuous Operation in Redundant Disk Arrays",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "23--35",
+  month        = sep,
+  keywords     = "raid disks, error recovery, declustering, data layout, data
+    reconstruction",
+  abstract     = "We describe and evaluate a strategy for declustering the
+    parity encoding in a redundant disk array.  This declustered parity
+    organization balances cost against data reliability and performance during
+    failure recovery.  It is targeted at highly-available parity-based arrays
+    for use in continuousoperation systems.  It improves on standard parity
+    organizations by reducing the additional load on surviving disks during the
+    reconstruction of a failed disk’s contents.  This yields higher user
+    throughput during recovery, and/or shorter recovery time.  We first address
+    the generalized parity layout problem, basing our solution on balanced
+    incomplete and complete block designs.  A software implementation of
+    declustering is then evaluated using a disk array simulator under a highly
+    concurrent workload comprised of small user accesses.  We show that
+    declustered parity penalizes user response time while a disk is being
+    repaired (before and during its recovery) less than comparable
+    non-declustered (RAID5) organizations without any penalty to user response
+    time in the fault-free state.  We then show that previously proposed
+    modifications to a simple, single-sweep reconstruction algorithm further
+    decrease user response times during recovery, but, contrary to previous
+    suggestions, the inclusion of these modifications may, for many
+    configurations, also slow the reconstruction process.  This result arises
+    from the simple model of disk access performance used in previous work,
+    which did not consider throughput variations due to positioning delays.", 
+  location     = "https://doi.org/10.1145/143371.143383",
+  location     = "http://www.pdl.cmu.edu/PDL-FTP/Declustering/ASPLOS.pdf"
+}
+
+@Article{ssfsl,
+  author       = "Anne Rogers and Kai Li",
+  title        = "Software Support for Speculative Loads",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "38--50",
+  month        = sep,
+  keywords     = "speculative loads, instruction lifting, loop unrolling,
+    basic-block lifting",
+  abstract     = "This paper describes a very simple mechanism and related
+    compiler support for software--controlled speculative loads.  The compiler
+    issues speculative load instructions based on anticipated data references
+    and the ability of the memory system to hide memory latency in
+    high--performance processors.  The architectural support for such a
+    mechanism is simple and minimal, yet handles faults gracefully.  We have
+    simulated the speculative load mechanism based on a MIPS processor and a
+    detailed memory system.  The results of scientific kernel loops indicate
+    that the speculative load techniques are effective approaches to hiding
+    memory latency.", 
+  location     = "https://doi.org/10.1145/143365.143484"
+}
+
+@Article{aupocp,
+  author       = "Jeremy Jacob",
+  title        = "{A} Uniform Presentation of Confidentiality Properties",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 11,
+  pages        = "1186--1194",
+  month        = nov,
+  keywords     = "theoretical foundations of security, security models,
+    information flow, formal methods, measures of confidentiality, shared
+    systems, program correctness, program specification",
+  abstract     = "Security (in the sense of confidentiality) properties are
+    properties of shared systems.  A suitable model of shared systems, in which
+    one can formally define the term security property and then proceed to
+    catalog several security properties, is presented.  The purpose is to
+    present various information-flow properties in a manner that exposes their
+    differences and similarities.  Abstraction is the main tool, and everything
+    that is not central to the purpose is discarded.  The presentation is
+    generic in the model of computation.  The abstraction lays bare a regular
+    structure into which many interesting information-flow properties fall.  A
+    shared system is represented by a relation.  How this model lets one reason
+    about information flow is discussed and the term information flow property
+    is formally defined.  Various information-flow properties are described.
+    Composability and probabilistic security properties are addressed.", 
+  location     = "https://doi.org/10.1109/32.106973"
+}
+
+@Article{rmlvnbapc,
+  author       = "Tien-Fu Chen and Jean-Loup Baer",
+  title        = "Reducing Memory Latency via Non-Blocking and Prefetching Caches",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "51--61",
+  month        = sep,
+  keywords     = "non-blocking caches, prefetching caches, memory models,
+    architectural variations, latency, compiler manipulations",
+  abstract     = "Non-blocking caches and prefetching caches are two techniques
+    for hiding memory latency by exploiting the overlap of processor
+    computations with data accesses.  A non-blocking cache allows execution to
+    proceed concurrently with cache misses as long as dependency constraints
+    are observed, thus exploiting post-miss operations.  A prefetching cache
+    generates prefetch requests to bring data in the cache before it is
+    actually needed, thus allowing overlap with pre-miss computations.  In this
+    paper, we evaluate the effectiveness of these two hardware-based schemes.
+    We propose a hybrid design based on the combination of these approaches.
+    We also consider compiler-based optimizations to enhance the effectiveness
+    of non-blocking caches.  Results from instruction level simulations on the
+    SPEC benchmarks show that the hardware prefetching caches generally
+    outperform non-blocking caches.  Also, the relative effectiveness of
+    non-blocking caches is more adversely affected by an increase in memory
+    latency than that of prefetching caches.  However, the performance of
+    non-blocking caches can be improved substantially by compiler optimizations
+    such as instruction scheduling and register renaming.  The hybrid design
+    can be effective in reducing the memory latency penalty for many applications.", 
+  location     = "https://doi.org/10.1145/143371.143486",
+  location     = "https://dada.cs.washington.edu/research/tr/1992/06/UW-CSE-92-06-03.pdf"
+}
+
+@Article{daeoacafp,
+  author       = "Todd~C. Mowry and Monica~S. Lam and Anoop Gupta",
+  title        = "Design and Evaluation of a Compiler Algorithm for Prefetching",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "62--73",
+  month        = sep,
+  keywords     = "memory hierarchy, access optimization, prefetching, locality
+    analysis, loop splitting, prefetch scheduling, software pipelining, cpu
+    stalls",
+  abstract     = "Software-controlled data prefetching is a promising technique
+    for improving the performance of the memory subsystem to match today’s
+    high-performance processors.  While prefetching is useful in hiding the
+    latency, issuing prefetches incurs an instruction overhead and can increase
+    the load on the memory subsystem.  As a result, care must be taken to
+    ensure that such overheads do not exceed the benefits.  This paper proposes
+    a compiler algorithm to insert prefetch instructions into code that
+    operates on dense matrices.  Our algorithm identifies those references that
+    are likely to be cache misses, and issues prefetches only for them.  We
+    have implemented our algorithm in the SUIF (Stanford University
+    Intermediate Form) optimizing compiler.  By generating fully functional
+    code, we have been able to measure not only the improvements in cache miss
+    rates, but also the overall performance of a simulated system.  We show
+    that our algorithm significantly improves the execution speed of our
+    benchmark programs—some of the programs improve by as much as a factor of
+    two.  When compared to an algorithm that indiscriminately prefetches all
+    array accesses, our algorithm can eliminate many of the unnecessary
+    prefetches without any significant decrease in the coverage of the cache
+    misses.", 
+  location     = "https://doi.org/10.1145/143371.143488",
+  location     = "https://suif.stanford.edu/papers/mowry92.pdf"
+}
+
+@Article{itaodbpubc,
+  author       = "Shien-Tai Pan and Kimming So and Joseph~T. Rahmeh",
+  title        = "Improving the Accuracy of Dynamic Branch Prediction Using Branch Correlation",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "76--84",
+  month        = sep,
+  keywords     = "dynamic branch prediction, counter-based prediction,
+    correlation-based prediction",
+  abstract     = "Long branch delay is a well–known problem in today’s high
+    performance superscalar and supetpipeline processor designs.  A common
+    technique used to alleviate this problem is to predict the direction of
+    branches during the instruction fetch.  Counter-based branch prediction, in
+    particular, has been reported as an effective scheme for predicting the
+    direction of branches.  However, its accuracy is generally limited by
+    branches whose future behavior is also dependent upon the history of other
+    branches.  To enhance branch prediction accuracy with a minimum increase in
+    hardware cost, we propose a correlation-based scheme and show how the
+    prediction accuracy can be improved by incorporating information, not only
+    from the history of a specific branch, but also from the history of other
+    branches.  Specifically, we use the information provided by a proper
+    subhistory of a branch to predict the outcome of that branch.  The proper
+    subhistory is selected based on the outcomes of the most recently executed
+    M branches.  The new scheme is evaluated using traces collected from
+    running the spec benchmark suite on an IBM RISC System/60000 workstation.
+    The results show that, as compared with the 2-bit counter-based prediction
+    scheme, the correlation-based branch prediction achieves up to 11%
+    additional accuracy at the extra hardware cost of one shift register.  The
+    results also show that the accuracy of the new scheme surpasses that of the
+    counter-based branch prediction at saturation.", 
+  location     = "https://doi.org/10.1145/143371.143490"
+}
+
+@Article{pcbdfproap,
+  author       = "Joseph~A. Fisher and Stefan~M. Freudenberger",
+  title        = "Prediction Conditional Branch Directions from Previous Runs of a Program",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "85--95",
+  month        = sep,
+  keywords     = "conditional branch predictions, instructions per mispredicted
+    branch, instruction-level parallelism",
+  abstract     = "There are several important reasons for predicting which way
+    the flow of control of a program is going to go: first, in
+    instruction-level parallel architectures, code motions can produce more
+    data-ready candidate instructions at once than there are resources to
+    execute them.  Some of these are speculative (executed ahead of a
+    conditional branch that might otherwise have prevented their execution), so
+    one must sensibly pick among them, and one must avoid issuing low
+    probability speculative instructions when the system overhead associated
+    with canceling them most of the time outweighs the gain of their infrequent
+    success; second, important classes of compiler optimizations depend upon
+    this information; and finally, branch prediction can help optimize
+    pipelined fetch and execute, icache fill, etc.  If substantial code motions
+    are desired, it is probably impractical to expect the hardware to make
+    them, and a compiler must instead.  Thus, the compiler must have access to
+    branch predictions made before the program runs.  In this paper we consider
+    the question of how predictable branches are when previous runs of a
+    program are used to feed back information to the compiler.  We propose new
+    measures which we believe more clearly capture the predictability of
+    branches in programs.  We find that even code with a complex flow of
+    control, including systems utilities and and language processors written in
+    C, are dominated by branches which go in one way, and that this direction
+    usually varies little when one changes the data used as the predictor and
+    target.", 
+  location     = "https://doi.org/10.1145/143371.143493",
+  location     = "https://www.hpl.hp.com/techreports/92/HPL-92-98.html"
 }
 
 @TechReport{aqmafd30,
