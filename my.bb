@@ -6,6 +6,8 @@
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 conference on Programming
+Language Design and Implementation, PLDI '03)"}
 @string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
 @string{usenixs94 = pot # "USENIX Summer 1994 Technical Conference"}
@@ -889,6 +891,27 @@
   address      = nyny,
   keywords     = "school shootings, trauma, religion, religious fundamentalists, sex",
   location     = "PS 3553.O855 H49"
+}
+
+@Book{sew77,
+  author       = "Evelyn Waugh",
+  title        = "Scoop",
+  publisher    = "Little, Brown and Co.",
+  year         = 1977,
+  address      = boma,
+  keywords     = "war correspondents, newspaper media, revolutionaries",
+  location     = "PZ 3.W356 Sc"
+}
+
+@Book{hacpc,
+  author       = "Patrick Carey",
+  title        = "{HTML} and {CSS}",
+  publisher    = "Cengage Course Technology",
+  year         = 2012,
+  address      = boma,
+  keywords     = "html 5, page layouts, css, tables, web forms, multimedia,
+    xhtml, javascript, colors",
+  location     = "978-1-111-52644-3"
 }
 
 @Article{famw,
@@ -3424,7 +3447,7 @@
   number       = 3,
   pages        = "42--57",
   month        = mar,
-  keywords     = "",
+  keywords     = "information retrieval, baysian networks, search",
   abstract     = "Information retrieval (IR) is the identification of documents
     or other units of information in a collection that are relevant to a
     particular information need.  An information need is a set of questions to
@@ -4268,6 +4291,89 @@
     target.", 
   location     = "https://doi.org/10.1145/143371.143493",
   location     = "https://www.hpl.hp.com/techreports/92/HPL-92-98.html"
+}
+
+@Article{ttinp,
+  author       = "Lal George and Matthias Blume",
+  title        = "Taming the {IXP} Network Processor",
+  journal      = pldi03,
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "26--34",
+  month        = may,
+  keywords     = "network processors, intel ixa, integer linear programming,
+    register allocation, bank assignment, programming languages, code generation",
+  abstract     = "We compile Nova, a new language designed for writing network
+    processing applications, using a back end based on integer-linear
+    programming (ILP) for register allocation, optimal bank assignment, and
+    spills.  The compiler's optimizer employs CPS as its intermediate
+    representation; some of the invariants that this IR guarantees are
+    essential for the formulation of a practical ILP model.Appel and George
+    used a similar ILP-based technique for the IA32 to decide which variables
+    reside in registers but deferred the actual assignment of colors to a later
+    phase.  We demonstrate how to carry over their idea to an architecture with
+    many more banks, register aggregates, variables with multiple simultaneous
+    register assignments, and, very importantly, one where bank- and
+    register-assignment cannot be done in isolation from each other.  Our
+    approach performs well in practise---without causing an explosion in size
+    or solve time of the generated integer linear programs.", 
+  location     = "https://doi.org/10.1145/781131.781135"
+}
+
+@Article{cpcpbh,
+  author       = "Per Brinch Henson",
+  title        = "Concurrent Programming Concepts",
+  journal      = surveys,
+  year         = 1973,
+  volume       = 5,
+  number       = 4,
+  pages        = "223--245",
+  month        = dec,
+  keywords     = "structured multiprogramming, programming languages, operating
+    systems, programming errors, resource protection, compile-time checking,
+    correctness proofs, sequential and concurrent processes, synchronizing
+    events, semaphores, shared data, mutual exclusion, critical regions, monitors",
+  abstract     = "This paper describes the evolution of language features for
+    multiprogramming from event queues and semaphores to critical regions and
+    monitors.  It suggests that the choice of language concepts should be
+    guided by two simple principles: First, it should be possible to understand
+    a concurrent program in time-independent terms by an effort proportional to
+    its size; secondly, it should be possible to state assumptions about
+    invarmnt relationships among program components and have these assumptions
+    checked automatically.  The central problems of multiprogramming are
+    illustrated by annotated algorithms written in a weU-structured programming
+    language.", 
+  location     = "https://doi.org/10.1145/356622.356624"
+}
+
+@Article{oldcialsfs,
+  author       = "Michael Burrows and Charles Jerian and Butler Lampson and Timothy Mann",
+  title        = "On-Line Data Compression in an Log-Structured File System",
+  journal      = asplos92,
+  year         = 1992,
+  volume       = 27,
+  number       = 9,
+  pages        = "2--9",
+  month        = sep,
+  keywords     = "sprite, log-structured file systems, data compression,
+    hardware compression, write-log management, i-o performance",
+  abstract     = "We have incorporated on-line data compression into the low
+    levels of a log-structured file system (Rosenblum’s Sprite LFS).  Each
+    block of data or meta-data is compressed as it is written to the disk and
+    decompressed as it is read.  The log-structuring overcomes the problems of
+    allocation and fragmentation for variable-sized blocks.  We observe
+    compression factors ranging from 1.6 to 2.2, using algorithms running from
+    1.7 to 0.4 MBytes per second in software on a DECstation 5000/200.  System
+    performance is degraded by a few percent for normal activities (such as
+    compiling or editing), and as much as a factor of 1.6 for file system
+    intensive operations (such as copying multi-megabyte files).  Hardware
+    compression devices mesh well with this design.  Chips are already
+    available that operate at speeds exceeding disk transfer rates, which
+    indicates that hardware compression would not only remove the performance
+    degradation we observed, but might well increase the effective disk
+    transfer rate beyond that obtainable from a system without compression.",
+  location     = "https://www.hpl.hp.com/techreports/92/HPL-92-85.html"
 }
 
 @TechReport{aqmafd30,
@@ -7127,6 +7233,163 @@
     Toolkit and the reasoning behind some of its design decisions, discuss some
     of the ways in which it may be configured, and conclude with some
     observations as to how it has served in practice."
+}
+
+@InProceedings{reoui,
+  author       = "E. Merlo and J.~F. Girard and K. Kontogiannis and P. Panangaden and R. {De Mori}",
+  title        = "Reverse Engineering of User Interfaces",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "171--179",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "user interfaces, reverse engineering, behavioral
+    representations, interface structure, object oriented approach, process
+    algebra, CCS, specification language, target language, representational
+    method, COBOL/CICS environment",
+  abstract     = "A method for reverse engineering user interfaces based on
+    their structural and behavioral representations is presented.  The
+    interface structure is represented using an object oriented approach while
+    interface behavior is described using Milner's process algebra (CCS).  A
+    specification language for user interfaces is designed for the multiple
+    purposes of serving as a target language for the reverse engineering
+    process, as a working specification language for interface redesign, and as
+    a specification language for generating a new user interface for a specific
+    platform.  The motivations and advantages of such a representational method
+    are discussed together with examples of user interface reverse engineering
+    in a common business-oriented language (COBOL)/CICS environment.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287767"
+}
+
+@InProceedings{affredlis,
+  author       = "Peter Aiken and Alice Muntz and Russ Richards",
+  title        = "A Framework for Reverse Engineering {DoD} Legacy Information Systems",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "180--191",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "design, reverse engineering, software and system requirements
+    and specifications, data architecture, business rules, data modeling",
+  abstract     = "A framework to legacy information systems, which have been
+    selected by reverse engineers, in the US Department of Defense
+    heterogeneous environment, is reported.  This approach was developed to
+    recover business rules, domain information, functional requirements, and
+    data architectures, largely in the form of normalized, logical data models.
+    In a pilot study, the data from diverse systems (ranging from home grown
+    languages and database management systems developed during the late 1960s
+    to those using high order languages and commercial network database
+    management systems) are reverse engineered.  The pilot study is being used
+    to validate and refine the framework with real-life systems to develop a
+    baseline approach for reverse engineering existing systems; to scope and
+    estimate future system re-engineering costs; and to determine the economic
+    viability of re-engineering, reverse, and forward engineering efforts.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287766"
+}
+
+@InProceedings{repvda,
+  author       = "Herbert Ritsch and Harry~M. Sneed",
+  title        = "Reverse Engineering Programs via Dynamic Analysis",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "192--201",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "reverse engineering, dynamic analysis, program behavior,
+    static analysis, esprit docket project, knowledge acquisition,
+    post-documentation, software systems", 
+  abstract     = "A tool-supported approach to extracting information about
+    programs via a dynamic analysis of the program behavior is described.  The
+    information obtained in this fashion is intended to supplement the
+    information gained through the static analysis of the program source.  By
+    joining the two different views of a program, it is hoped that a more
+    complete specification of the program function may be developed.  This
+    research has taken place within the scope of the ESPRIT DOCKET project to
+    study means of knowledge acquisition from and post-documentation of
+    existing software systems.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287765"
+}
+
+@InProceedings{drfstooop,
+  author       = "C.~H. Kung and J.~Gao and P.~Hsia and J.~Lin and Y.~Yoyoshima",
+  title        = "Design Recovery for Software Testing of Object-Oriented Programs",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "202--211",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "software testing, reverse engineering, object-oriented
+    programming, functional testing, test strategy, test tool, object relation
+    diagrams, block branch diagrams, object state diagrams",
+  abstract     = "A reverse engineering approach for software testing of
+    object-oriented programs is described.  The approach is based on a graphic
+    model which consists of three types of diagrams: object relation diagrams;
+    block branch diagrams; and object state diagrams.  These diagrams may be
+    used to provide guidance on the order to test the classes and member
+    functions; prepare member function test cases; prepare test cases for
+    object state dependent behaviors and interaction between such behaviors;
+    and provide graphic display of coverage information to a tester.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287764"
+}
+
+@InProceedings{apptsfre,
+  author       = "M.~P. Ward and K.~H. Bennett",
+  title        = "{A} Practical Program Transformation System for Reverse Engineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "212--221",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "semantic refinement, proof-theoretical refinement,
+  wide-spectrum language",
+  abstract     = "Program transformation systems provide one means of formally
+    deriving a program from its specification.  A tool called ReForm is
+    described.  It is designed to address the inverse problem to support the
+    extraction of a specification from existing program code, using
+    transformations.  This is an important activity during software
+    maintenance.  One of the problems of transformation systems is the scarcity
+    of practical tools which can address industrial scale problems, rather than
+    contrived laboratory problems.  An analysis of the important software
+    engineering factors that contribute to a successful transformation based
+    tool is provided.  Results from using the tool are also presented.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287763"
+}
+
+@InProceedings{atmolcpaoaetfr,
+  author       = "Philip Newcomb and Lawrence Markosian",
+  title        = "Automating the Modularization of Large {COBOL} Programs:  Application of an Enabling Technology for Reengineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "222--230",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "modularization, cobol programs, reverse engineering, user interfaces",
+  abstract     = "The development of a tool for modularizing large common
+    business-oriented language (COBOL) programs is described.  The motivation
+    for modularizing these programs is discussed, together with a manual
+    modularization process.  The business motivation for building a tool to
+    automate the manual process is indicated.  An enabling technology and its
+    use in the development of the tool are discussed.  Experience to date in
+    alpha-testing the tool is reported.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287762"
 }
 
 @Manual{ai43ict,
