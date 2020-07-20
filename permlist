@@ -728,6 +728,7 @@ concert c a language for distributed computing : auerbach
 concert c supporting distributed programming with language extensions and a protable multiprotocol runtime : auerbach
 concurrent maintenance of binary search trees : manber
 concurrent object oriented language cool : maruyama
+concurrent programming concepts : brinch henson
 concurrent reading and writing : lamport
 condition handling in the lisp language family : pitman
 conditional attribute grammars : boyland
