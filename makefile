@@ -19,3 +19,9 @@ index		: $(addprefix $(testdir)/, $(addsuffix .bix, $(srcs)))
 # Generate the bib files without generating the index files.
 
 bibs		: $(addprefix $(testdir)/, $(addsuffix .bib, $(srcs)))
+
+test		: index
+		  make && cd test ; emacs -nw t.tex ; make
+
+see		:
+		  cd test ; make
