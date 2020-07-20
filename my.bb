@@ -914,6 +914,17 @@ Language Design and Implementation, PLDI '03)"}
   location     = "978-1-111-52644-3"
 }
 
+@Book{ccjekpw,
+  author       = "Eli K.~P. William",
+  title        = "Cash Crash Jubilee",
+  subtitle     = "Book One of the Jubilee Cycle",
+  publisher    = "Talos Press",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "distopias, neoliberalism, tokyo, augmented reality",
+  location     = "PR 9199.4.W5433 C37"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
