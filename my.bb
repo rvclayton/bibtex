@@ -925,6 +925,20 @@ Language Design and Implementation, PLDI '03)"}
   location     = "PR 9199.4.W5433 C37"
 }
 
+@Book{tfsd,
+  title        = "\TeX\ for Scientific Documentation",
+  subtitle     = pot # "Second European Conference",
+  publisher    = sv,
+  year         = 1986,
+  editor       = "Jacques D{\' e}sarm{\' e}nien",
+  volume       = 236,
+  series       = lncs,
+  address      = bege,
+  keywords     = "document processing, multi-lingual documents, document
+    preparation systems, font design",
+  location     = "Z 253.4.T47 T49"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
