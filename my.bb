@@ -6,7 +6,7 @@
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
-@string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 conference on Programming
+@string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming
 Language Design and Implementation, PLDI '03)"}
 @string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
@@ -4401,6 +4401,41 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://www.hpl.hp.com/techreports/92/HPL-92-85.html"
 }
 
+@Article{laaoosp,
+  author       = "Andrew~A. Lamb and William Thies and Saman Amarasinghe",
+  title        = "Linear Analysis and Optimization of Stream Programs",
+  journal      = pldi03,
+  year         = 2003,
+  volume       = 38,
+  number       = 5,
+  pages        = "26--34",
+  month        = may,
+  keywords     = "stream programming, streamit, optimization, embedded systems,
+    linear systems, algebraic simplification, dsp, fft",
+  abstract     = "As more complex DSP algorithms are realized in practice,
+    there is an increasing need for high-level stream abstractions that can be
+    compiled without sacrificing efficiency.  Toward this end, we present a set
+    of aggressive optimizations that target linear sections of a stream
+    program.  Our input language is StreamIt, which represents programs as a
+    hierarchical graph of autonomous filters.  A filter is linear if each of
+    its outputs can be represented as an affine combination of its inputs.
+    Linearity is common in DSP components; examples include FIR filters,
+    expanders, compressors, FFTs and DCTs.We demonstrate that several
+    algorithmic transformations, traditionally hand-tuned by DSP experts, can
+    be completely automated by the compiler.  First, we present a linear
+    extraction analysis that automatically detects linear filters from the
+    C-like code in their work function.  Then, we give a procedure for
+    combining adjacent linear filters into a single filter, as well as for
+    translating a linear filter to operate in the frequency domain.  We also
+    present an optimization selection algorithm, which finds the sequence of
+    combination and frequency transformations that will give the maximal
+    benefit.We have completed a fully-automatic implementation of the above
+    techniques as part of the StreamIt compiler, and we demonstrate a 450%
+    performance improvement over our benchmark suite.", 
+  location     = "https://doi.org/10.1145/780822.781134", 
+  location     = "https://dspace.mit.edu/handle/1721.1/29668"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -7417,6 +7452,200 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1109/WCRE.1993.287762"
 }
 
+@InProceedings{spaairet,
+  author       = "Howard~B. Reubenstein, Richard~L. Piazza, Susan~N. Roberts",
+  title        = "Separating Parsing and Analysis in Reverse Engineering Tools",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "117--125",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "tool maintenance, language independence, design recovery",
+  abstract     = "This paper describes the lessons learned in extending the
+    capabilities of a reverse engineering tool to analyze both an additional
+    dialect of the language it was initially built to parse and a new embedded
+    assembly language.  The effort involved in this extension provides data to
+    support the assertion that reverse engineering tools should create a clean
+    separation between parsing the source code and analyzing it.  We discuss a
+    language-independent modeling approach that lets us achieve this
+    separation.  This paper also describes additional advantages to maintaining
+    this separation such as support for multiple languages and design
+    recovery.",
+  location     = "http://doi.ieeecomputersociety.org/10.1109/WCRE.1993.287773"
+}
+
+@InProceedings{recsd,
+  author       = "James~M. {Cross II}",
+  title        = "Reverse Engineering Control Structue Diagrams",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "107--116",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "ada, flow charts, control structure diagrams, guis",
+  abstract     = "The GRASP/Ada project (Graphical Representations of
+    Algorithms, Structures, and Processes for Ada) has successfully created and
+    prototyped a new algorithmic level graphical representation for Ada
+    software, the Control Structure Diagram (CSD).  The primary impetus for
+    creation of the CSD is to improve the comprehension efficiency of Ada
+    software and, as a result, improve reliability and reduce costs.  The
+    emphasis is on the automatic generation of the CSD from Ada PDL or source
+    code to support reverse engineering and maintenance.  The CSD has the
+    potential to replace traditional pretty-printed Ada source code.  The
+    current prototype provides the capability for the user to generate CSDs
+    from Ada PDL or source code with a level of flexibility suitable for
+    practical application.",
+  location     = "https://doi.org/10.1109/WCRE.1993.287774"
+}
+
+@InProceedings{ahatrpp,
+  author       = "Alex Quilici",
+  title        = "{A} Hybrid Approach to Recognizing Programming Plans",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "126--133",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "student programmers, program understanding, plan libraries,
+    plan indexing, plan recognition",
+  abstract     = "Most current models of program understanding are unlikely to
+    scale up successfully.  Top-down approaches require advance knowledge of
+    what the program is supposed to do, which is rarely available with aging
+    software systems.  Bottom-up approaches require complete matching of the
+    program against a library of programming plans, which is impractical with
+    the large plan libraries needed to understand programs that contain many
+    domain-specific plans.  This paper presents a hybrid approach to program
+    understanding that uses an indexed, hierarchical organization of the plan
+    library to limit the number of candidate plans considered during program
+    understanding.  This approach is based on observations made from studying
+    student programmers attempt to perform bottom-up understanding on
+    geometrically-oriented C functions.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287772"
+}
+
+@InProceedings{fcfpr,
+  author       = "Linda~M. Wills",
+  title        = "Flexible Control for Program Recognition",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "134--143",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "graspr, subgraph parsing, chart parsing, advice, indexing,
+    partitioning",
+  abstract     = "Recognizing commonly used data structures and algorithms is a
+    key activity in reverse engineering.  Systems developed to automate this
+    recognition process have been isolated, stand-alone systems, usually
+    targeting a specific task.  We are interested in applying recognition to
+    multiple tasks requiring reverse engineering, such as inspecting,
+    maintaining, and reusing software.  This requires a flexible, adaptable
+    recognition architecture, since the tasks vary in the amount and accuracy
+    of knowledge available about the program, the requirements on recognition
+    power, and the resources available.  We have developed a recognition system
+    based on graph parsing.  It has a flexible, adaptable control structure
+    that can accept advice from external agents.  Its flexibility arises from
+    using a chart parsing algorithm.  We are studying this graph parsing
+    approach to determine what types of advice an enhance its capabilities,
+    performance, and scalability.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287771",
+  location     = "ftp://ftp.cc.gatech.edu/pub/groups/reverse/repository/flexible.ps"
+}
+
+@InProceedings{cttfore,
+  author       = "Peter~G. Selfridge and Richard~C. Waters and Elliot~J. Chikofsky",
+  title        = "Challenges to the Field of Reverse Engineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "144--150",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "reverse engineering, realistic data, economic impact,
+    communication, explicit goals, standard data sets",
+  abstract     = "Driven by the economic importance of maintaining and
+    improving the enormous base of existing software systems, the reverse
+    engineering of software has been of rapidly growing interest over the past
+    decade.  More and more commercial software tools support aspects of reverse
+    engineering, and more and more researchers in academic and industrial
+    organizations are addressing themselves to the fundamental problems of
+    reverse engineering.  In the best of all worlds, we researchers on reverse
+    engineering would be working together toward clear goals of great economic
+    importance.  Unfortunately, it appears that we are mostly just groping
+    around in a swamp, each looking for a bit of dry ground (whether or not it
+    actually leads out of the swamp), and running into each other only
+    occasionally.  If we are to make rapid and effective joint progress, a
+    number of improvements need to be made in the way we are pursuing research.
+    This position paper presents ten challenges for improvement in three areas:
+    avoiding artificial data, focusing on concrete impact, and facilitation
+    researcher communication.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287770"
+}
+
+@InProceedings{aafreord,
+  author       = "William~J. Premerlani and Michael~R. Blaha",
+  title        = "An Approach for Reverse Engineering of Relational Databases",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "151--160",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "omt notation, forward engineering, reverse engineering, data
+    dictionaries, rdbms",
+  abstract     = "The process of software re-engineering consists of a reverse 
+    engineering step followed by a forward engineering step.  During reverse
+    engineering, one takes a past design or an implementation that embodies a
+    design and extracts the essential problem domain content while discarding
+    design optimizations and implementation decisions.  During forward
+    engineering, this model of the essence of an application becomes the basis
+    for reimplementation in a new medium.  Object-oriented models facilitate
+    the re-engineering proceeds because the same modeling paradigm is adept at
+    representing abstract conceptual models and models with implementation
+    decisions.  Based on our experience with several examples, we propose a
+    process for reverse engineering of relational databases.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287769"
+}
+
+@InProceedings{ctatodre,
+  author       = "Jean-Luc Hainaut and M.~Chandelon and C.~Tonneau and M.~Joris",
+  title        = "Contribution to a Theory of Database Reverse Engineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "161--170",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "database design, database reverse engineering, data structure
+  modeling, data structure extraction, data structure conceptualization",
+  abstract     = "This paper proposes both a general framework and specific
+    techniques for file and database reverse engineering, i.e.  recovering its
+    conceptual schema.  The framework relies on a process/product model that
+    matches formal as well as empirical design procedures.  Based on the
+    analysis of database design processes, two major phases are defined, data
+    structure extraction and data structure conceptualization.  For each phase,
+    a set of activities is proposed.  Most of these activities can be described
+    as transformation and integration of specification.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287768"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -7589,6 +7818,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos92,\n  year         = 1992,\n  volume       = 27,\n  number       = 9,\n  pages        = \"--\",\n  month        = sep,\n")
+% eval: (set-register ?b "  booktitle    = pot # \"Working Conference on Reverse Engineering\",\n  year         = 1993,\n  editor       = \"Richard~C. Waters and Elliot~J. Chikofsky\",\n  pages        = \"--\",\n  organization = \"IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering\",\n  publisher    = \"IEEE Computer Society Press\",\n  address      = bama,\n  month        = \"21--23 \" # may,\n")
 % End:
 		  
