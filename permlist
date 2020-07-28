@@ -97,7 +97,6 @@ a guided tour of mercurial : eide
 a guided tour of program design methodologies : bergland
 a heuristic for deriving loop functions : dunlop
 a high level language for specifying pictures : van wyk
-a high performance software implementation of the data encryption standard dea : glawitsch
 a high school program in computer science : gal
 a highly restricted temporal logic with a tractable decision procedure : pratt
 a historical overview of computer architecture : smith
@@ -1076,7 +1075,6 @@ failure resilient transaction management in multidatabases : soparkar
 fast algorithms for sorting and searching strings : bentley
 fast and small resizable arrays : demaine
 fast approximate string matching : owolabi 
-fast cheap and out of control a robot invasion of the solar system : brooks
 fast effective dynamic compilation : auslander
 fast hashing of variable length text strings : pearson
 fast optimized sun rpc using automatic program specialization : muller
@@ -1100,7 +1098,6 @@ file systems in user space : eggert
 filet o fish practical and dependable domain specific languages for os development : dagland
 filter objects for java : joshi
 final shift for call cc direct implementation of shift and reset : gasbichler
-finding components in a hierarchy of modules a step towards architectural understanding : girard
 finding faults in multi threaded programs : artho
 finding response times in a real time system : joseph
 finding similar files in a large file system : manber
@@ -2082,7 +2079,6 @@ scalable feedback control for multicast video distribution in the internet : bol
 scalable, robust visualization of very large trees : beerman
 scalable secure nad highly available distributed file access : satayanarayanan
 scaling parallel programs for multiprocessors methodology and examples : singh
-scaling up visual programming languages : burnnett
 scarcely variabled programming and pascal : runciman
 scheduling support for concurrency and parallelism in the mach operating system : black
 scheme 79 lisp on a chip : sussman
