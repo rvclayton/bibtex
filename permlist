@@ -763,6 +763,7 @@ correct and robust programs : cristian
 correct architecture refinement : moriconi
 correct blame for contracts : dimoulas
 correctness and composition of software architectures : moriconi
+correctness proofs of communicating processes three illustrative examples from the literature : ossefort
 counting paths nondeterminism as linear algebra : benson
 coverage problems in sensor networks a survey : wang
 covert flow trees a visual approach to analyzing covert storage channel : kemmerer
