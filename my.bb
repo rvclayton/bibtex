@@ -939,6 +939,40 @@ Language Design and Implementation, PLDI '03)"}
   location     = "Z 253.4.T47 T49"
 }
 
+@Book{lopym,
+  author       = "Yann Mantel",
+  title        = "Life of Pi",
+  publisher    = "Harcourt",
+  year         = 2001,
+  price        = "$14.00",
+  address      = "Orlando, Flordia",
+  keywords     = "survival, religion, ship wreck",
+  location     = "PR 9199.2.M3855 L54"
+}
+
+@Book{lll86,
+  author       = "Leslie Lamport",
+  title        = "\LaTeX",
+  subtitle     = "A Document Preparation System",
+  publisher    = aw,
+  year         = 1986,
+  address      = rma,
+  keywords     = "document preparation, tex, document formatting",
+  location     = "Z 253.4.L38 L35"
+}
+
+@Book{pampk,
+  author       = "Philip Kraft",
+  title        = "Programmers and Managers",
+  subtitle     = "The Routinization of Computer Programming in the United States",
+  publisher    = sv,
+  year         = 1977,
+  address      = nyny,
+  keywords     = "computer programmers, personnel management, industrial
+    relations, deskilling, fragmentation, professionalism",
+  location     = "HD 8039.D37 K7"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -4436,6 +4470,87 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://dspace.mit.edu/handle/1721.1/29668"
 }
 
+@Article{cpocptieftl,
+  author       = "Marty Ossefort",
+  title        = "Correctness Proofs of Communicating Processes:  Three Illustrative Examples from the Literature",
+  journal      = toplas,
+  year         = 1983,
+  volume       = 5,
+  number       = 4,
+  pages        = "620--640",
+  month        = oct,
+  keywords     = "message-passing system, program proofs, rebound sorting,
+    communicating sequential processes, csp, pre- and post-conditions,
+    hierarchy, local and global reasoning",
+  abstract     = "The proof method for process networks proposed by Misra and
+    Chandy is applied to three examples from the literature.  The proof method
+    is easy to use, preserves process autonomy in the network proof, and
+    conforms naturally to the hierarchical structure of the network.  Two very
+    large-scale integration algorithms and a sorting network are presented in a
+    variant Hoare's communicating sequential processes model, specified
+    completely, and formally proved.",
+  location     = "https://doi.org/10.1145/69575.2083"
+}
+
+@Article{adofssfid,
+  author       = "Kanth Miriyala and Mehdi~T. Harandi",
+  title        = "Automatic Derivation of Formal Software Specifications from Informal Descriptions",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 10,
+  pages        = "1126--1142",
+  month        = oct,
+  keywords     = "approximate analogy, formal specification, informal
+    specification, difference-based reasoning, schemas, specification assistance",
+  abstract     = "SPECIFIER, an interactive system which derives formal
+    specifications of data types and programs from their informal descriptions,
+    is described.  The process of deriving formal specifications is viewed as a
+    problem-solving process.  The system uses common problem-solving techniques
+    such as schemas, analogy, and difference-based reasoning to derive formal
+    specifications.  If an informal description is a commonly occurring
+    operation for which the system has a schema, then the formal specification
+    is derived by instantiating the schema.  If there is a no such schema,
+    SPECIFIER tries to find a previously solved problem which is analogous to
+    the current problem.  If the problem found is directly analogous to the
+    current problem, it applies an analogy mapping to obtain a formal
+    specification.  On the other hand, if the analogy found is only
+    approximate, it solves the directly analogous part of the problem by
+    analogy and performs difference-based reasoning using the remaining
+    (unmatched) parts to transform the formal specification obtained by analogy
+    to a formal specification for the entire original problem.",
+  location     = "https://doi.org/10.1109/32.99198"
+}
+
+@Article{arotvvsm,
+  author       = "Paul~A. Karger and Mary Ellen Zurko and Douglas~W. Bonin and Andrew~H. Mason and Clifford~E. Kahn",
+  title        = "{A} Retrospective on the {VAX} {VMM} Security Model",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 11,
+  pages        = "1147--1165",
+  month        = nov,
+  keywords     = "computer security, virtual machines, covert channels,
+    mandatory security, discretionary security, layered design, security kernels,
+    protection rights",
+  abstract     = "The development of a virtual-machine monitor (VMM) security
+    kernel for the VAX architecture is described.  The focus is on how the
+    system's hardware, microcode, and software are aimed at meeting A1-level
+    security requirements while maintaining the standard interfaces and
+    applications of the VMS and ULTRIX-32 operating systems.  The VAX security
+    kernel supports multiple concurrent virtual machines on a single VAX
+    system, providing isolation and controlled sharing of sensitive data.
+    Rigorous engineering standards were applied during development to comply
+    with the assurance requirements for verification and configuration
+    management.  The VAX security kernel has been developed with a heavy
+    emphasis on performance and system management tools.  The kernel performs
+    sufficiently well that much of its development was carried out in virtual
+    machines running on the kernel itself, rather than in a conventional
+    time-sharing system.", 
+  location     = ""
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -7646,6 +7761,206 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1109/WCRE.1993.287768"
 }
 
+@InProceedings{tcapipu,
+  author       = "Ted~J. Biggerstaff and Bharat~G. Mitbander and Dallas Webster",
+  title        = "The Concept Assignment Problem in Program Understanding",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "27--43",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "reverse engineering, slicing, knowledge base, domain,
+    connectionist, concept recognition, plausible reasoning",
+  abstract     = "A person understands a program because he is able to relate
+    the structures of the program and its environment to his conceptual
+    knowledge about the world.  The problem of discovering individual human
+    oriented concepts and assigning them to their implementation oriented
+    counterparts for a given program is the concept assignment problem.  We
+    argue that the solution to this problem requires methods that have a strong
+    plausible reasoning component based on a priori knowledge.  We illustrate
+    these ideas through example scenarios using an existing design recovery
+    system called DESIRE.  Finally, we will evaluate DESIRE based on its usage
+    on real-world problems over the years.", 
+  location     = "https://dl.acm.org/doi/10.5555/257572.257679"
+}
+
+@InProceedings{rrefctss,
+  author       = "Helen~M. Edwards and Malcolm Munro",
+  title        = "{RECAST}:  Reverse Engineering from {COBOL} to {SSADM} Specification",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "44--53",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "repositories, ssadm, procedural models, software tools",
+  abstract     = "The Reverse Engineering into CASE Technology method (RECAST)
+    takes the source code for an existing COBOL system and derives a no-loss
+    representation of the system documented in an Structured Systems Analysis
+    and Design Method (SSADM) format.  This representation of the system is
+    derived through the use of a series of transformations.  This paper
+    describes the environment within which recast has been developed, outlines
+    the stages and steps of the recast method and discusses the use of software
+    support tools.  An overview is given of a case study that has been carried
+    out for a live system.", 
+  location     = "https://dl.acm.org/doi/abs/10.5555/257572.257681"
+}
+
+@InProceedings{paisfre,
+  author       = "Jon Beck and David Eichmann",
+  title        = "Program and Interface Slicing for Reverse Engineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "54--63",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "program slicing, redoumentation, design recovery, interface
+    slicing, tree shaking, dependence graphs, ",
+  abstract     = "Reverse engineering involves comprehending a software
+    system's implementation and the ways the implementation evolved from the
+    original design.  Automated support tools are an integral part of such
+    effort.  This paper describes how program slicing techniques can be
+    employed to assist in the comprehension of large software systems, through
+    traditional slicing techniques at the statement level, and through a new
+    technique, interface slicing, at the module level.", 
+  location     = "https://dl.acm.org/doi/abs/10.5555/257572.257682"
+}
+
+@InProceedings{rrcflsbps,
+  author       = "Jim~Q. Ning and Andre Engberts and Wojtek Kozaczynski",
+  title        = "Recovering Reusable Components from Legacy Systems by Program Segmentation",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "64--72",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "cobol, data model recovery, program segmentation",
+  abstract     = "There are many reasons to retire a legacy system.  But the
+    system may contain critical business rules and other reusable assets that
+    are not explicitly documented anywhere else.  A software reengineering
+    technique called program segmentation is described.  It supports the
+    recovery of these reusable assets from old code.  This technique consists
+    of a focusing step, which helps the analyst localize, understand, and
+    combine functional pieces in large programs, and a factoring step, which
+    extracts the focused functional pieces and packages them into independent
+    reusable modules.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287778"
+}
+
+@InProceedings{remfiradt,
+  author       = "G.~Canfora and A.~Cimitile and M.~Munro",
+  title        = "Reverse Engineering Method for Identifying Reusable Abstract Data Types",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "73--82",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "abstract data types",
+  abstract     = "This paper presents results from an experiment in reuse
+    within the RE2 project.  It shows how a particular candidature criterion
+    for identifying abstract data types in existing software systems can be
+    applied both at the theoretical and practical level.  The RE2 project is
+    concerned with the exploration of reverse engineering and reengineering
+    techniques to facilitate reuse reengineering by the identification and
+    classification of approximate candidature criteria.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287777"
+}
+
+@InProceedings{iaeodicilp,
+  author       = "Filippo Cutillo and Piernicola Fiore and Giuseppe Visaggio",
+  title        = "Idenfification and Extraction of ``Domain Independent'' Components in Large Programs",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "83--92",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "program slicing",
+  abstract     = "This study addresses the problem of the identification and
+    extraction of domain independent components from a large working program
+    lacking complete documentation.  A modified version of Weiser's slice,
+    which we shall call 'Direct Slice,' is defined which makes it possible to
+    individuate and extract particular kinds of code segments, distributed
+    among many of the modules composing the structure of the working program.
+    This provides the advantage of being able to individuate and reaggregate
+    program components coherently according to the principles of Information
+    Hiding.  The techniques described are also characterized by a certain
+    simplicity and can thus be automized.  In fact, a commercially available
+    tool was used for experimenting the process.  The present study is based on
+    the results of an experimental project performed on applicative programs
+    used in the banking sector, characterized by a high grade of difficulty as
+    regards maintenance.",
+  location     = "https://doi.org/10.1109/WCRE.1993.287776"
+}
+
+@InProceedings{fciahomastau,
+  author       = "Jean-Fran{\c c}ois Girard and Rainer Koschke",
+  title        = "Finding Components in a Hierarchy of Modules:  a Step Towards Architectural Understanding",
+  booktitle    = pot # "International Conference on Software Maintenance, ICSM '97",
+  year         = 1997,
+  pages        = "58--65",
+  address      = "Bari, Italy",
+  month        = "1--3 " # oct,
+  keywords     = "atomic components, dominance analysis",
+  abstract     = "This paper presents a method to view a system as a hierarchy
+    of modules according to information hiding concepts and to identify
+    architectural component candidates in this hierarchy.  The result of the
+    method eases the understanding of a system's underlying software
+    architecture.  A prototype tool implementing this method was applied to
+    three systems written in C (each over 30 Kloc).  For one of these systems,
+    an author of the system created an architectural description.  The
+    components generated by our method correspond to those of this
+    architectural description in almost all cases.  For the other two systems,
+    most of the components resulting from the method correspond to meaningful
+    system abstractions.",
+  location     = "https://dl.acm.org/doi/10.5555/645545.656026"
+}
+
+@InProceedings{psfsadpu,
+  author       = "David~P. Olshefski and Alan Cole",
+  title        = "Prototype System for Static and Dynamic Program Understanding",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "93--106",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "program understanding, pundit, code browsing, semantic
+    analysis, program analysis",
+  abstract     = "A tool called PUNDIT (Program Understanding Investigation
+    Tool) is described.  It is a prototype intended to serve as a vehicle for
+    exploring and testing ideas in the area of program understanding; it
+    combines static analysis information with information collected at runtime.
+    The architecture of PUNDIT is described, together with its two main
+    components (the C source analyzer and a graphical user interface).  Several
+    of the views provided by the tool are explained, including a high-level
+    structure chart, a dynamic call graph, a control flow graph animated during
+    program execution, a type definition window, and others.  By integrating
+    static and dynamic information, the tool provides a more comprehensive
+    understanding of a program as the first step to reengineering or
+    maintaining the application that can be obtained by static analysis
+    alone.", 
+  location     = "https://doi.org/10.1109/WCRE.1993.287775"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -7821,3 +8136,35 @@ Language Design and Implementation, PLDI '03)"}
 % eval: (set-register ?b "  booktitle    = pot # \"Working Conference on Reverse Engineering\",\n  year         = 1993,\n  editor       = \"Richard~C. Waters and Elliot~J. Chikofsky\",\n  pages        = \"--\",\n  organization = \"IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering\",\n  publisher    = \"IEEE Computer Society Press\",\n  address      = bama,\n  month        = \"21--23 \" # may,\n")
 % End:
 		  
+@Proceedings{fecotfsd,
+  title        = pot # "First European Conference on \TeX\ for Scientific Documentation",
+  year         = 1985,
+  editor       = "Dario Lucarella",
+  publisher    = aw,
+  address      = "Como, Italy",
+  month        = "16--17 " # may,
+  keywords     = "tex, document preparation, metafont"
+}
+
+@Proceedings{tugnam88,
+  title        = pot # "\TeX\ Users Group Ninth Annual Meeting",
+  year         = 1988,
+  editor       = "Christina Thiele",
+  organization = "\TeX\ Users Group",
+  address      = "Montreal, Ontario, Canada",
+  month        = "22--24 " # aug,
+  keywords     = "tex, document production, typesetting, textbook production,
+    multilingual documents, sgml, dvi"
+}
+
+@Proceedings{tugnam87,
+  title        = pot # "\TeX\ Users Group Eighth Annual Meeting",
+  year         = 1987,
+  editor       = "Christina Thiele",
+  organization = "\TeX\ Users Group",
+  address      = sewa,
+  month        = "24--26 " # aug,
+  keywords     = "tex, document production, typesetting, textbook production,
+    multilingual documents, sgml, dvi"
+}
+
