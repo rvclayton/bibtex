@@ -115,6 +115,7 @@ a larch specification of copying garbage collection : nettles
 a larch specification of the miro editor : zaremski
 a library implementation of posix threads under unix : mueller
 a lift simulation prototype : galpin
+a linear algorithm for generating random numbers with a given distribution : vose
 a linear logic quicksort : baker
 a linguistic approach to failure handling in distributed systems : schlichting
 a linguistic framework for dynamic composition of dependability protocols : agha
