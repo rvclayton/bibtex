@@ -29795,7 +29795,7 @@ b
 }
 
 @InProceedings{trpire,
-  author       = "R. Clayton and Spencer Rugaber",
+  author       = "Spencer Rugaber and Richard Clayton",
   title        = "The Representation Problem in Reverse Engineering",
   booktitle    = pot # "First Working Conference on Reverse Engineering",
   year         = 1993,
