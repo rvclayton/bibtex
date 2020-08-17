@@ -3,6 +3,7 @@
 @string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{asplos92 = sigplan # " (" # pot # "Fifth International Conference on " # asplos # ", ASPLOS V)"}
+@string{asplos94 = sigplan # " (" # pot # "Sixth International Conference on " # asplos # ", ASPLOS VI)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
@@ -971,6 +972,28 @@ Language Design and Implementation, PLDI '03)"}
   keywords     = "computer programmers, personnel management, industrial
     relations, deskilling, fragmentation, professionalism",
   location     = "HD 8039.D37 K7"
+}
+
+@Book{tmcts,
+  author       = "Terry Southern",
+  title        = "The Magic Christian",
+  publisher    = "Bantam",
+  year         = 1960,
+  address      = nyny,
+  price        = "$0.75",
+  keywords     = "satire",
+  location     = "PS 3569.O8 M3"
+}
+
+@Book{wfss,
+  author       = "Stuart Shea",
+  title        = "Wrigley Field",
+  subtitle     = "The Long Life & Contentious Times of the Friendly Confines",
+  publisher    = ucp,
+  year         = 2014,
+  address      = chil,
+  keywords     = "baseball, chicago cubs, wrigly field, history",
+  location     = "GV 417.W75 S54"
 }
 
 @Article{famw,
@@ -4551,6 +4574,41 @@ Language Design and Implementation, PLDI '03)"}
   location     = ""
 }
 
+@Article{tpwsdmtc,
+  author       = "Mike Olson and Uche Ogbuji",
+  title        = "The {Python Web} Services Developer:  Messaging Technologies Compared",
+  journal      = "IBM Developer Works",
+  year         = 2002,
+  month        = jul,
+  keywords     = "soap, web services, corba, performance",
+  abstract     = "Choosing between technologies always involves trade-offs;
+    often you sacrifice performance to gain ease of programming.  Perhaps the
+    realm of most interest to Web services developers is messaging technology.
+    How can you balance speedy performance with human readability? Mike Olson
+    and Uche Ogbuji don't claim to have the answer to this question, but they
+    do offer some hard data to help you make the decision that best fits your
+    needs.  In this article, they help you compare some of the different
+    messaging protocols available.  You will write a simple application for
+    each protocol and compare various measurements of speed, message overhead,
+    and relative development time." 
+}
+
+@Article{alafgrnwagd,
+  author       = "Michael~D. Vose",
+  title        = "{A} Linear Algorithm For Generating Random Numbers With a Given Distribution",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "972--975",
+  month        = sep,
+  keywords     = "random, random numbers, random variables",
+  abstract     = "Let xi be a random variable over a finite set with an
+    arbitrary probability distribution.  Improvements to a fast method of
+    generating sample values for xi in constant time are suggested.", 
+  location     = "https://doi.org/10.1109/32.92917"
+}
+
 @TechReport{aqmafd30,
   author       = "Greg White",
   title        = "Active Queue Management Algorithms for {DOCSIS} 3.0",
@@ -4584,6 +4642,377 @@ Language Design and Implementation, PLDI '03)"}
     similarly provided good performance, and is optimized for efficient
     implementation in existing cable modems.", 
   location     = "https://www.cablelabs.com/wp-content/uploads/2014/05/Active_Queue_Management_Algorithms_DOCSIS_3_0.pdf"
+}
+
+@Article{fgacfdsm,
+  author       = "Ioannis Schoinas and Babak Falsafi and Alvin~R. Lebeck and Steven~K. Reinhardt and James~R. Larus and David~A. Wood",
+  title        = "Fine-Grain Access Control for Distributed Shared Memory",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "297--306",
+  month        = nov,
+  keywords     = "access control, distributed shared store, hardware-software
+    trade-off, connection machines",
+  abstract     = "This paper discusses implementations of fine-grain memory
+    access control, which selectively restricts reads and writes to
+    cache-block-sized memory regions.  Fine-grain access control forms the
+    basis of efficient cache-coherent shared memory.  This paper focuses on
+    low-cost implementations that require little or no additional hardware.
+    These techniques permit efficient implementation of shared memory on a wide
+    range of parallel systems, thereby providing shared-memory codes with a
+    portability previously limited to message passing.This paper categorizes
+    techniques based on where access control is enforced and where access
+    conflicts are handled.  We incorporated three techniques that require no
+    additional hardware into Blizzard, a system that supports distributed
+    shared memory on the CM-5.  The first adds a software lookup before each
+    shared-memory reference by modifying the program's executable.  The second
+    uses the memory's error correcting code (ECC) as cache-block valid bits.
+    The third is a hybrid.  The software technique ranged from slightly faster
+    to two times slower than the ECC approach.  Blizzard's performance is
+    roughly comparable to a hardware shared-memory machine.  These results
+    argue that clusters of workstations or personal computers with networks
+    comparable to the CM-5's will be able to support the same shared-memory
+    interfaces as supercomputers.", 
+  location     = "https://minds.wisconsin.edu/handle/1793/59904", 
+  location     = "https://doi.org/10.1145/381792.195575"
+}
+
+@Article{iamttmaw,
+  author       = "James Laudon and Anoop Gupta and Mark Horowitz",
+  title        = "Interleaving:  {A} Multithreading Technique Targeting Multiprocessors and Workstations",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "308--318",
+  month        = nov,
+  keywords     = "multiple context processors, fine granularity, blocking,
+    context switching, threaded computations, latency hiding",
+  abstract     = "There is an increasing trend to use commodity microprocessors
+    as the compute engines in large-scale multiprocessors.  However, given that
+    the majority of the microprocessors are sold in the workstation market, not
+    in the multiprocessor market, it is only natural that architectural
+    features that benefit only multiprocessors are less likely to be adopted in
+    commodity microprocessors.  In this paper, we explore multiple-context
+    processors, an architectural technique proposed to hide the large memory
+    latency in multiprocessors.  We show that while current multiple-context
+    designs work reasonably well for multiprocessors, they are ineffective in
+    hiding the much shorter uniprocessor latencies using the limited
+    parallelism found in workstation environments.  We propose an alternative
+    design that combines the best features of two existing approaches, and
+    present simulation results that show it yields better performance for both
+    multiprogrammed workloads on a workstation and parallel applications on a
+    multiprocessor.  By addressing the needs of the workstation environment,
+    our proposal makes multiple contexts more attractive for commodity
+    microprocessors.", 
+  location     = "https://doi.org/10.1145/381792.195576"
+}
+
+@Article{hsffcba,
+  author       = "Nicholas~P. Carter and Stephen~W. Keckler and William~J. Dally",
+  title        = "Hardware Support for Fast Capability-Based Addressing",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "319--327",
+  month        = nov,
+  keywords     = "guarded pointers, capability, single-address space systems",
+  abstract     = "Traditional methods of providing protection in memory systems
+    do so at the cost of increased context switch time and/or increased storage
+    to record access permissions for processes.  With the advent of computers
+    that supported cycle-by-cycle multithreading, protection schemes that
+    increase the time to perform a context switch are unacceptable, but
+    protecting unrelated processes from each other is still necessary if such
+    machines are to be used in non-trusting environments.This paper examines
+    guarded pointers, a hardware technique which uses tagged 64-bit pointer
+    objects to implement capability-based addressing.  Guarded pointers encode
+    a segment descriptor into the upper bits of every pointer, eliminating the
+    indirection and related performance penalties associated with traditional
+    implementations of capabilities.  All processes share a single 54-bit
+    virtual address space, and access is limited to the data that can be
+    referenced through the pointers that a process has been issued.  Only one
+    level of address translation is required to perform a memory reference.
+    Sharing data between processes is efficient, and protection states are
+    defined to allow fast protected subsystem calls and create unforgeable data
+    keys.", 
+  location     = "https://doi.org/10.1145/195470.195579"
+}
+
+@Article{teomhc,
+  author       = "Radhika Thekkath and Susan~J. Eggers",
+  title        = "The Effectiveness of Multiple Hardware Contexts",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "328--337",
+  month        = nov,
+  keywords     = "multi-context processors, threaded computations, caching",
+  abstract     = "Multithreaded processors are used to tolerate long memory
+  latencies.  By executing threads loaded in multiple hardware contexts, an
+  otherwise idle processor can keep busy, thus increasing its utilization.
+  However, the larger size of a multi-thread working set can have a negative
+  effect on cache conflict misses.  In this paper we evaluate the two phenomena
+  together, examining their combined effect on execution time.The usefulness of
+  multiple hardware contexts depends on: program data locality, cache
+  organization and degree of multiprocessing.  Multiple hardware contexts are
+  most effective on programs that have been optimized for data locality.  For
+  these programs, execution time dropped with increasing contexts, over widely
+  varying architectures.  With unoptimized applications, multiple contexts had
+  limited value.  The best performance was seen with only two contexts, and
+  only on uniprocessors and small multiprocessors.  The behavior of the
+  unoptimized applications changed more noticeably with variations in cache
+  associativity and cache hierarchy, unlike the optimized programs.As a
+  mechanism for exploiting program parallelism, an additional processor is
+  clearly better than another context.  However, there were many configurations
+  for which the addition of a few hardware contexts brought as much or greater
+  performance than a larger multiprocessor with fewer than the optimal number
+  of contexts.", 
+  location     = "https://doi.org/10.1145/195470.195583"
+}
+
+@Article{aaotfppc,
+  author       = "Bernard Elspas and Karl~N. Levitt and Richard~J. Waldinger and Abraham Waksman",
+  title        = "An Assessment of Techniques for Proving Program Correctness",
+  journal      = surveys,
+  year         = 1972,
+  volume       = 4,
+  number       = 2,
+  pages        = "97--147",
+  month        = jun,
+  keywords     = "automatic program verification, theorem proving, program
+    schema, first-order predicate calculus",
+  abstract     = "The purpose of this paper is to point out the significant
+    quantity of work is progress on technique that will enable programmers to
+    prove their programs correct.  This work has included: investigation in the
+    theory of program schemas or abstract programs, development of the art of
+    the informal or manual proof of correctness; and development of mechanical
+    or semi-mechanical approaches to proving correctness.  At present, these
+    mechanical approaches rely upon the availability of powerful
+    theorem-provers, envelopment of which is being actively pursued.  All of
+    these technical areas are here surveyed in detail, and recommendations are
+    made concerning the direction of future research toward producing a
+    semi-mechanical program verifier.", 
+  location     = "https://doi.org/10.1145/356599.356602"
+}
+
+@Article{tpaoibdticcm,
+  author       = "Steven Cameron Woo and Jaswinder Pal Singh and John~L. Hennessy",
+  title        = "The Performance Advantages of Integrating Block Data Transfer in Cache-Coherent Multiprocessors",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "219--229",
+  month        = nov,
+  keywords     = "block data transfer, load-store communication, system
+    architecture, scientific programming, shared-store multiprocessor
+    programs",
+  abstract     = "Integrating support for block data transfer has become an
+    important emphasis in recent cache-coherent shared address space
+    multiprocessors.  This paper examines the potential performance benefits of
+    adding this support.  A set of ambitious hardware mechanisms is used to
+    study performance gains in five important scientific computations that
+    appear to be good candidates for using block transfer.  Our conclusion is
+    that the benefits of block transfer are not substantial for hardware
+    cache-coherent multiprocessors.  The main reasons for this are (i) the
+    relatively modest fraction of time applications spend in communication
+    amenable to block transfer, (ii) the difficulty of finding enough
+    independent computation to overlap with the communication latency that
+    remains after block transfer, and (iii) long cache lines often capture many
+    of the benefits of block transfer in efficient cache-coherent machines.  In
+    the cases where block transfer improves performance, prefetching can often
+    provide comparable, if not superior, performance benefits.  We also examine
+    the impact of varying important communication parameters and processor
+    speed on the effectiveness of block transfer, and comment on useful
+    features that a block transfer facility should support for real
+    applications.", 
+  location     = "https://doi.org/10.1145/381792.195547",
+  location     = "https://www.cs.princeton.edu/~jps/papers/bulk-transfer-conf.ps"
+}
+
+@Article{itaosbpubc,
+  author       = "Cliff Young and Michael~D. Smith",
+  title        = "Improving the Accuracy of Static Branch Prediction Using Branch Correlation",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "232--241",
+  month        = nov,
+  keywords     = "branch prediction, branch correlation, code duplication",
+  abstract     = "Recent work in history-based branch prediction uses novel
+    hardware structures to capture branch correlation and increase branch
+    prediction accuracy.  We present a profile-based code transformation that
+    exploits branch correlation to improve the accuracy of static branch
+    prediction schemes.  Our general method encodes branch history information
+    in the program counter through the duplication and placement of program
+    basic blocks.  For correlation histories of eight branches, our
+    experimental results achieve up to a 14.7% improvement in prediction
+    accuracy over conventional profile-based prediction without any increase in
+    the dynamic instruction count of our benchmark applications.  In the
+    majority of these applications, ode duplication increases code size by less
+    than 30%.  For the few applications with code segments that exhibit
+    exponential branching paths and no branch correlation, simple compile-time
+    heuristics can eliminate these branches as code-transformation
+    candidates.", 
+  location     = "https://people.eecs.berkeley.edu/~kubitron/courses/cs252-S09/handouts/papers/msmith_asplos94.ps"
+}
+
+@Article{rbcvba,
+  author       = "Brad Calder and Dirk Grunwald",
+  title        = "Reducing Branch Costs via Branch Alignment",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "242--251",
+  month        = nov,
+  keywords     = "branch prediction, branch alignment",
+  abstract     = "Several researchers have proposed algorithms for basic block 
+    reordering.  We call these branch alignment algorithms.  The primary
+    emphasis of these algorithms has been on improving instruction cache
+    locality, and the few studies concerned with branch prediction reported
+    small or minimal improvements.  As wide-issue architectures become
+    increasingly popular the importance of reducing branch costs will increase,
+    and branch alignment is one mechanism which can effectively reduce these
+    costs.In this paper, we propose an improved branch alignment algorithm that
+    takes into consideration the architectural cost model and the branch
+    prediction architecture when performing the basic block reordering.  We
+    show that branch alignment algorithms can improve a broad range of static
+    and dynamic branch prediction architectures.  We also show that a program
+    performance can be improved by approximately 5% even when using recently
+    proposed, highly accurate branch prediction architectures.  The programs
+    are compiled by any existing compiler and then transformed via binary
+    transformations.  When implementing these algorithms on a Alpha AXP 21604
+    up to a 16% reduction in total execution time is achieved.", 
+  location     = "https://doi.org/10.1145/381792.195553"
+}
+
+@Article{cofidl,
+  author       = "Steve Carr and Kathryn~S. McKinley and Chau-Wen Tseng",
+  title        = "Compiler Optimizations for Improving Data Locality",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "252--262",
+  month        = nov,
+  keywords     = "loop reversals, loop fusion, loop permutations, compiler
+    optimizations, compound transformations, tiling",
+  abstract     = "In the past decade, processor speed has become significantly
+    faster than memory speed.  Small, fast cache memories are designed to
+    overcome this discrepancy, but they are only effective when programs
+    exhibit data locality.  In this paper, we present compiler optimizations to
+    improve data locality based on a simple yet accurate cost model.  The model
+    computes both temporal and spatial reuse of cache lines to find desirable
+    loop organizations.  The cost model drives the application of compound
+    transformations consisting of loop permutation, loop fusion, loop
+    distribution, and loop reversal.  We demonstrate that these program
+    transformations are useful for optimizing many programs.To validate our
+    optimization strategy, we implemented our algorithms and ran experiments on
+    a large collection of scientific programs and kernels.  Experiments with
+    kernels illustrate that our model and algorithm can select and achieve the
+    best performance.  For over thirty complete applications, we executed the
+    original and transformed versions and simulated cache hit rates.  We
+    collected statistics about the inherent characteristics of these programs
+    and our ability to improve their data locality.  To our knowledge, these
+    studies are the first of such breadth and depth.  We found performance
+    improvements were difficult to achieve because benchmark programs typically
+    have high hit rates even for small data caches; however, our optimizations
+    significantly improved several programs.", 
+  location     = "https://doi.org/10.1145/381792.195557"
+}
+
+@Article{daerdcgs,
+  author       = "Dawson~R. Engler and Todd~A. Proebsting",
+  title        = "{DCG}:  An Efficient, Retargetable Dynamic Code Generation System",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "263--272",
+  month        = nov,
+  keywords     = "dynamic code generation, interfaces, intermediate
+    representation, run-time optimization",
+  abstract     = "Dynamic code generation allows aggressive optimization
+    through the use of runtime information.  Previous systems typically relied
+    on ad hoc code generators that were not designed for retargetability, and
+    did not shield the client from machine-specific details.  We present a
+    system, dcg, that allows clients to specify dynamically generated code in a
+    machine-independent manner.  Our one-pass code generator is easily
+    retargeted and extremely efficient (code generation costs approximately 350
+    instructions per generated instruction).  Experiments show that dynamic
+    code generation increases some application speeds by over an order of
+    magnitude.", 
+  location     = "https://doi.org/10.1145/381792.195567"
+}
+
+@Article{tpiofitsfm,
+  author       = "Mark Heinrich and Jeffrey Kuskin and David Ofelt and John Heinlein and Joel Baxter and Jaswinder Pal Singh and Richard Simoni and Kourosh Gharachorloo and David Nakahira and Mark Horowitz and Anoop Gupta and Mendel Rosenblum and John Hennessy",
+  title        = "The Performance Impact of Flexibility in the {Stanford FLASH} Multiprocessor",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "274--285",
+  month        = nov,
+  keywords     = "flash shared-memory multiprocessor, network processor,
+    programmability",
+  abstract     = "A flexible communication mechanism is a desirable feature in
+    multiprocessors because it allows support for multiple communication
+    protocols, expands performance monitoring capabilities, and leads to a
+    simpler design and debug process.  In the Stanford FLASH multiprocessor,
+    flexibility is obtained by requiring all transactions in a node to pass
+    through a programmable node controller, called MAGIC.  In this paper, we
+    evaluate the performance costs of flexibility by comparing the performance
+    of FLASH to that of an idealized hardwired machine on representative
+    parallel applications and a multiprogramming workload.  To measure the
+    performance of FLASH, we use a detailed simulator of the FLASH and MAGIC
+    designs, together with the code sequences that implement the
+    cache-coherence protocol.  We find that for a range of optimized parallel
+    applications the performance differences between the idealized machine and
+    FLASH are small.  For these programs, either the miss rates are small or
+    the latency of the programmable protocol can be hidden behind the memory
+    access time.  For applications that incur a large number of remote misses
+    or exhibit substantial hot-spotting, performance is poor for both machines,
+    though the increased remote access latencies or the occupancy of MAGIC lead
+    to lower performance for the flexible design.  In most cases, however,
+    FLASH is only 2%–12% slower than the idealized machine.",
+  location     = "https://doi.org/10.1145/195470.195569",
+  location     = "http://csl.cs.ucf.edu/~heinrich/papers/FlashPerf.pdf"
+}
+
+@Article{scatrooiacp,
+  author       = "Jonas Skeppstedt and Per Stenstr{\" o}m",
+  title        = "Simple Compiler Algorithms to Reduce Ownership Overhead in Cache Coherence Protocols",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "286--296",
+  month        = nov,
+  keywords     = "compilers, adaptive ache coherence protocols",
+  abstract     = "We study in this paper the design and efficiency of compiler
+    algorithms that remove ownership overhead in shared-memory multiprocessors
+    with write-invalidate protocols.  These algorithms detect loads followed by
+    stores to the same address.  Such loads are marked and constitute a hint to
+    the cache to obtain an exclusive copy of the block.  We consider three
+    algorithms where the first one focuses on load-store sequences within each
+    basic block of code and the other two analyse the existence of load-store
+    sequences across basic blocks at the intra-procedural level.  Since the
+    dataflow analysis we adopt is a trivial variation of live-variable
+    analysis, the algorithms are easily incorporated into a compiler.Through
+    detailed simulations of a cache-coherent NUMA architecture using five
+    scientific parallel benchmark programs, we find that the algorithms are
+    capable of removing over 95% of the separate ownership acquisitions.
+    Moreover, we also find that even the simplest algorithm is comparable in
+    efficiency with previously proposed hardware-based adaptive cache coherence
+    protocols to attack the same problem.", 
+  location     = "https://doi.org/10.1145/195470.195572"
 }
 
 @TechReport{apfdsifcip,
@@ -7961,6 +8390,56 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1109/WCRE.1993.287775"
 }
 
+@InProceedings{ifasmire,
+  author       = "K.~Lano and H.~Haughton",
+  title        = "Integrating Formal and Strutured Methods in Reverse-Engineering",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "17--26",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "ssadm, object representations, structured notations, logical
+    data structures, normal forms, ",
+  abstract     = "This paper discusses the important issue of the interaction
+    between structured and formal notations in reverse-engineering and
+    maintenance, and describes a process which uses both forms of
+    representation to support application understanding, evaluation,
+    assessment, redesign, and re-engineering.  This process is supported by
+    prototype tools implemented on the REDO toolkit and repository for
+    reverse-engineering.  It aims to extend and integrate the processes.", 
+  location     = "http://doi.ieeecomputersociety.org/10.1109/WCRE.1993.287782"
+}
+
+@InProceedings{acatpu,
+  author       = "Koen Bertels and Philip Vanneste and Carlos {De Backer}",
+  title        = "{A} Cognitive Approach to Program Understanding",
+  booktitle    = pot # "Working Conference on Reverse Engineering",
+  year         = 1993,
+  editor       = "Richard~C. Waters and Elliot~J. Chikofsky",
+  pages        = "1--7",
+  organization = "IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering",
+  publisher    = "IEEE Computer Society Press",
+  address      = bama,
+  month        = "21--23 " # may,
+  keywords     = "cognitive model, programming knowledge, abstraction, program
+    analysis, cliches",
+  abstract     = "We present a method of program understanding based on a
+    cognitive model of programming knowledge, incorporating the basic concepts,
+    structures and strategies as used by human expert programmers.  The
+    approach involves the generation of a high-level description of the program
+    with as main advantages the use of abstraction and robustness with respect
+    to conceptual errors.  The use of abstraction allows to transcends any
+    syntactical variation and to focus on the semantics.  This also potentially
+    allows the analysis of larger programs.  The method can cope with erroneous
+    code, and generate a precise description of the bug(s) involved.  It also
+    makes for method useful for integration in a tutoring system for
+    programming.", 
+  location     = "http://dx.doi.org/10.1109/WCRE.1993.287784"
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -8133,7 +8612,7 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  booktitle    = pot # \"Working Conference on Reverse Engineering\",\n  year         = 1993,\n  editor       = \"Richard~C. Waters and Elliot~J. Chikofsky\",\n  pages        = \"--\",\n  organization = \"IEEE Computer Society, Technical Committee on Software Engineering, Subcommittee on Reverse Engineering\",\n  publisher    = \"IEEE Computer Society Press\",\n  address      = bama,\n  month        = \"21--23 \" # may,\n")
+% eval: (set-register ?b "  journal      = asplos94,\n  year         = 1994,\n  volume       = 29,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
 % End:
 		  
 @Proceedings{fecotfsd,
