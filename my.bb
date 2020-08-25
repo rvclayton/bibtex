@@ -996,6 +996,40 @@ Language Design and Implementation, PLDI '03)"}
   location     = "GV 417.W75 S54"
 }
 
+@Book{cnllpbsd,
+  author       = llp # " and Bruce~S. Davie",
+  title        = "Computer Networks",
+  subtitle     = "A Systems Approach",
+  publisher    = "Morgan-Kaufman",
+  year         = 2012,
+  address      = "Burlington, " # MA,
+  edition      = "fifth",
+  keywords     = "internetworking, end-to-end protocols, congestion control,
+    resource allocation, end-to-end data, network security, applications",
+  location     = "TK 5105.5.P479"
+}
+
+@Book{tsoann,
+  author       = "Elena Ferrante",
+  title        = "The Story of a New Name",
+  publisher    = "Europa Editions",
+  year         = 2013,
+  address      = nyny,
+  price        = "$16.20",
+  keywords     = "marriage, education, friendship",
+  location     = "PQ 4866.E6345 S7713"
+}
+
+@Book{jaxbm,
+  author       = "Brett McLaughlin",
+  title        = "Java and {XML}",
+  publisher    = "O'Reilly",
+  year         = 2000,
+  address      = seca,
+  keywords     = "java, xml, jdom, web publishing, xml-rpc, xml schema",
+  location     = "QA 76.73.J38 M39"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -5015,6 +5049,189 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1145/195470.195572"
 }
 
+@Article{ccacpotamuow,
+  author       = "Ann Marie Grizzaffi Maynard and Colette~M. Donnelly and Bret~R. Olszewski",
+  title        = "Contrasting Characteristics and Cache Performance of Technical and Multi-User Commercial Workloads",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "145--156",
+  month        = nov,
+  keywords     = "workloads, cache performance, memory subsystems, operating
+    system activity, technical applications, commercial workloads",
+  abstract     = "Experience has shown that many widely used benchmarks are
+    poor predictors of the performance of systems running commercial
+    applications.  Research into this anomaly has long been hampered by a lack
+    of address traces from representative multi-user commercial workloads.
+    This paper presents research, using traces of industry-standard commercial
+    benchmarks, which examines the characteristic differences between technical
+    and commercial workloads and illustrates how those differences affect cache
+    performance.Commercial and technical environments differ in their
+    respective branch behavior, operating system activity, I/O, and dispatching
+    characteristics.  A wide range of uniprocessor instruction and data cache
+    geometries were studied.  The instruction cache results for commercial
+    workloads demonstrate that instruction cache performance can no longer be
+    neglected because these workloads have much larger code working sets than
+    technical applications.  For database workloads, a breakdown of kernel and
+    user behavior reveals that the application component can exhibit behavior
+    similar to the operating system and therefore, can experience miss rates
+    equally high.  This paper also indicates that “dispatching” or process
+    switching characteristics must be considered when designing level-two
+    caches.  The data presented shows that increasing the associativity of
+    second-level caches can reduce miss rates significantly.  Overall, the
+    results of this research should help system designers choose a cache
+    configuration that will perform well in commercial markets.", 
+  location     = "https://doi.org/10.1145/381792.195524"
+}
+
+@Article{acmdildmc,
+  author       = "Brian~N. Bershad and Dennis Lee and Theodore~H. Romer and J.~Bradley Chen",
+  title        = "Avoiding Conflict Misses Dynamically in Large Direct-Mapped Caches",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "158--170",
+  month        = nov,
+  keywords     = "cache miss look-aside buffer, page remapping, page coloring,
+    adaptive page mapping",
+  abstract     = "This paper describes a method for improving the performance
+    of a large direct-mapped cache by reducing the number of conflict misses.
+    Our solution consists of two components: an inexpensive hardware device
+    called a Cache Miss Lookaside (CML) buffer that detects conflicts by
+    recording and summarizing a history of cache misses, and a software policy
+    within the operating system's virtual memory system that removes conflicts
+    by dynamically remapping pages whenever large numbers of conflict misses
+    are detected.  Using trace-driven simulation of applications and the
+    operating system, we show that a CML buffer enables a large direct-mapped
+    cache to perform nearly as well as a two-way set associative cache of
+    equivalent size and speed, although with lower hardware cost and
+    complexity.", 
+  location     = "https://doi.org/10.1145/381792.195527"
+}
+
+@Article{sttposwloss,
+  author       = "Madhusudhan Talluri and Mark~D. Hill",
+  title        = "Surpassing the {TLB} Performance of Superpages with Less Operating System Support",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "171--182",
+  month        = nov,
+  keywords     = "superpages, subblock tlbs, physical memory allocation, page
+    reservation, tlb replacement, tlb performance",
+  abstract     = "Many commercial microprocessor architectures have added
+    translation lookaside buffer (TLB) support for superpages.  Superpages
+    differ from segments because their size must be a power of two multiple of
+    the base page size and they must be aligned in both virtual and physical
+    address spaces.  Very large superpages (e.g., 1MB) are clearly useful for
+    mapping special structures, such as kernel data or frame buffers.  This
+    paper considers the architectural and operating system support required to
+    exploit medium-sized superpages (e.g., 64KB, i.e., sixteen times a 4KB base
+    page size).  First, we show that superpages improve TLB performance only
+    after invasive operating system modifications that introduce considerable
+    overhead.We then propose two subblock TLB designs as alternate ways to
+    improve TLB performance.  Analogous to a subblock cache, a
+    complete-subblock TLB associates a tag with a superpage-sized region but
+    has valid bits, physical page number, attributes, etc., for each possible
+    base page mapping.  A partial-subblock TLB entry is much smaller than a
+    complete-subblock TLB entry, because it shares physical page number and
+    attribute fields across base page mappings.  A drawback of a
+    partial-subblock TLB is that base page mappings can share a TLB entry only
+    if they map to consecutive physical pages and have the same attributes.  We
+    propose a physical memory allocation algorithm, page reservation, that
+    makes this sharing more likely.  When page reservation is used,
+    experimental results show partial-subblock TLBs perform better than
+    superpage TLBs, while requiring simpler operating system changes.  If
+    operating system changes are inappropriate, however, complete-subblock TLBs
+    perform best.", 
+  location     = "https://doi.org/10.1145/195470.195531",
+  location     = "http://www.cs.wisc.edu/~markhill/papers/asplos6_superpages.pdf"
+}
+
+@Article{dmdutmcb,
+  author       = "David~M. Gallagher and William~Y. Chen and Scott~A. Mahlke and John~C. Gyllenhaal and Wen-mei~W. Hwu",
+  title        = "Dynamic Memory Disambiguation Using the Memory Conflict Buffer",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "183--193",
+  month        = nov,
+  keywords     = "memory conflict buffer, address hashing, speculative
+    execution, context switches, conflict correction code",
+  abstract     = "To exploit instruction level parallelism, compilers for VLIW
+    and superscalar processors often employ static code scheduling.  However,
+    the available code reordering may be severely restricted due to ambiguous
+    dependences between memory instructions.  This paper introduces a simple
+    hardware mechanism, referred to as the memory conflict buffer, which
+    facilitates static code scheduling in the presence of memory store/load
+    dependences.  Correct program execution is ensured by the memory conflict
+    buffer and repair code provided by the compiler.  With this addition,
+    significant speedup over an aggressive code scheduling model can be
+    achieved for both non-numerical and numerical programs.", 
+  location     = "https://doi.org/10.1145/381792.195534",
+  location     = "http://impact.crhc.illinois.edu/shared/papers/asplos-94-buffer.pdf"
+}
+
+@Article{aasopgiopc,
+  author       = "Kenichi Hayashi and Tsunehisa Doi and Takeshi Horie and Yoichi Koyanagi and Osamu Shiraki and Nobutaka Imamura and Toshiyuki Shimizu and Hiroaki Ishihata and Tatsuya Shindo",
+  title        = "{AP1000}+: Architectural Support of {PUT/GET} Interface for Parallelizing Compiler",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "196--207",
+  month        = nov,
+  keywords     = "communication mechanisms, data transfer, vpp fortran,
+    interprocessor communication, flag updates",
+  abstract     = "The scalability of distributed-memory parallel computers
+    makes them attractive candidates for solving large-scale problems.  New
+    languages, such as HPF, FortranD, and VPP Fortran, have been developed to
+    enable existing software to be easily ported to such machines.  Many
+    distributed-memory parallel computers have been built, but none of them
+    support the mechanisms required by such languages.  We studied the
+    mechanisms required by parallelizing compilers and proposed a new
+    architecture to support them.  Based on this proposed architecture, we
+    developed a new distributed-memory parallel computer, the AP1000+, which is
+    an enhanced version of the AP1000.  Using scientific applications in VPP
+    Fortran and C, such as NAS parallel benchmarks, we simulated the
+    performance of the AP1000+.", 
+  location     = "https://doi.org/10.1145/381792.195538"
+}
+
+@Article{lmssfpli,
+  author       = "James~R. Larus and Brad Richards and Guhan Viswanathan",
+  title        = "{LCM}:  Memory System Support for Parallel Language Implementation",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "208--218",
+  month        = nov,
+  keywords     = "recoverable shared memory, c**, parallel function semantics,
+    reductions, data-race detection, false sharing",
+  abstract     = "Higher-level parallel programming languages can be difficult
+    to implement efficiently on parallel machines.  This paper shows how a
+    flexible, compiler-controlled memory system can help achieve good
+    performance for language constructs that previously appeared too costly to
+    be practical.Our compiler-controlled memory system is called Loosely
+    Coherent Memory (LCM).  It is an example of a larger class of Reconcilable
+    Shared Memory (RSM) systems, which generalize the replication and merge
+    policies of cache-coherent shared-memory.  RSM protocols differ in the
+    action taken by a processor in response to a request for a location and the
+    way in which a processor reconciles multiple outstanding copies of a
+    location.  LCM memory becomes temporarily inconsistent to implement the
+    semantics of C** parallel functions efficiently.  RSM provides a compiler
+    with control over memory-system policies, which it can use to implement a
+    language's semantics, improve performance, or detect errors.  We illustrate
+    the first two points with LCM and our compiler for the data-parallel
+    language C**.", 
+  location     = "https://doi.org/10.1145/195473.195545"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -8611,10 +8828,6 @@ Language Design and Implementation, PLDI '03)"}
   location     = "http://kops.uni-konstanz.de/urn/urn:nbn:de:bsz:352-opus-3120"
 }
 
-% Local Variables:
-% eval: (set-register ?b "  journal      = asplos94,\n  year         = 1994,\n  volume       = 29,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
-% End:
-		  
 @Proceedings{fecotfsd,
   title        = pot # "First European Conference on \TeX\ for Scientific Documentation",
   year         = 1985,
@@ -8647,3 +8860,7 @@ Language Design and Implementation, PLDI '03)"}
     multilingual documents, sgml, dvi"
 }
 
+% Local Variables:
+% eval: (set-register ?b "  journal      = asplos94,\n  year         = 1994,\n  volume       = 29,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
+% End:
+		  
