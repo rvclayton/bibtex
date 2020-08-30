@@ -1030,6 +1030,29 @@ Language Design and Implementation, PLDI '03)"}
   location     = "QA 76.73.J38 M39"
 }
 
+@Book{hatt,
+  author       = "Laurie Colwin",
+  title        = "Happy All the Time",
+  publisher    = "Pocket Books",
+  year         = 1978,
+  address      = nyny,
+  price        = "$2.25",
+  keywords     = "romance, marriage",
+  location     = "PS 3553.O4783 H3"
+}
+
+@Book{taor,
+  author       = "Richard Hofstadter",
+  title        = "The Age of Reform",
+  subtitle     = "From Bryan to F.D.R.",
+  publisher    = "Knopf",
+  year         = 1955,
+  address      = nyny,
+  keywords     = "populism, progressivism, the new deal, politics, economics,
+    movements", 
+  location     = "E 743.H63"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -5230,6 +5253,106 @@ Language Design and Implementation, PLDI '03)"}
     the first two points with LCM and our compiler for the data-parallel
     language C**.", 
   location     = "https://doi.org/10.1145/195473.195545"
+}
+
+@Article{raiahcrm,
+  author       = "Michael Upton and Thomas Huff and Trevor Mudge and Richard Brown",
+  title        = "Resource Allocation in a High Clock Rate Microprocessor",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "98--109",
+  month        = nov,
+  keywords     = "pipelining, decoupled architecture, prefetching, non-blocking
+    cache, resource allocation, superscalar, floating point latencies",
+  abstract     = "This paper discusses the design of a high clock rate (300MHz)
+    processor.  The architecture is described, and the goals for the design are
+    explained.  The performance of three processor models is evaluated using
+    trace-driven simulation.  A cost model is used to estimate the resources
+    required to build processors with varying sizes of on-chip memories, in
+    both single and dual issue models.  Recommendations are then made to
+    increase the effectiveness of each of the models.", 
+  location     = "https://doi.org/10.1145/381792.195510"
+}
+
+@Article{hassfeeh,
+  author       = "Chandramohan~A. Thekkath and Henry~M. Levy",
+  title        = "Hardware and Software Support for Efficient Execption Handling",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "110--119",
+  month        = nov,
+  keywords     = "user-level exceptions, fast exception handling",
+  abstract     = "Program-synchronous exceptions, for example, breakpoints,
+    watchpoints, illegal opcodes, and memory access violations, provide
+    information about exceptional conditions, interrupting the program and
+    vectoring to an operating system handler.  Over the last decade, however,
+    programs and run-time systems have increasingly employed these mechanisms
+    as a performance optimization to detect normal and expected conditions.
+    Unfortunately, current architecture and operating system structures are
+    designed for exceptional or erroneous conditions, where performance is of
+    secondary importance, rather than normal conditions.  Consequently, this
+    has limited the practicality of such hardware-based detection mechanisms.We
+    propose both hardware and software structures that permit efficient
+    handling of synchronous exceptions by user-level code.  We demonstrate a
+    software implementation that reduces exception-delivery cost by an
+    order-of-magnitude on current RISC processors, and show the performance
+    benefits of that mechanism for several example applications.", 
+  location     = "https://doi.org/10.1145/381792.195515"
+}
+
+@Article{atfmrtdoaosaameua,
+  author       = "Pramod~V. Argade and David~K. Charles and Craig Taylor",
+  title        = "{A} Technique for Monitoring Run-Time Dynamics of an Operating System and a Microprocessor Executing User Applications",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "122--131",
+  month        = nov,
+  keywords     = "trace-based simulations, operating system tuning, system
+    design, instruction set analysis, run-time analysis",
+  abstract     = "In this paper, we present a non-invasive and efficient
+    technique for simulating applications complete with their operating system
+    interaction.  The technique involves booting and initiating an application
+    on a hardware development system, capturing the entire state of the
+    application and the microprocessor at a well defined point in execution and
+    then simulating the application on microprocessor simulators.  Extensive
+    statistics generated from the simulators on run-time dynamics of the
+    application, the operating system as well as the microprocessor enabled us
+    to tune the operating system and the microprocessor architecture and
+    implementation.  The results also enabled us to optimize system level
+    design choices by anticipating/predicting the performance of the target
+    system.  Lastly, the results were used to adjust and refocus the evolution
+    of the architecture of both the operating system and the microprocessor.", 
+  location     = "https://doi.org/10.1145/381792.195518"
+}
+
+@Article{tdswti,
+  author       = "Richard Uhlig and David Nagle and Trevor Mudge and Stuart Sechrest",
+  title        = "Trap-Driven Simulation with {Tapeworm II}",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "132--144",
+  month        = nov,
+  keywords     = "workloads, measurement variations, measurement bias,
+    portability",
+  abstract     = "Tapeworm II is a software-based simulation tool that
+    evaluates the cache and TLB performance of multiple-task and operating
+    system intensive workloads.  Tapeworm resides in an OS kernel and causes a
+    host machine's hardware to drive simulations with kernel traps instead of
+    with address traces, as is conventionally done.  This allows Tapeworm to
+    quickly and accurately capture complete memory referencing behavior with a
+    limited degradation in overall system performance.  This paper compares
+    trap-driven simulation, as implemented in Tapeworm, with the more common
+    technique of trace-driven memory simulation with respect to speed,
+    accuracy, portability and flexibility.", 
+  location     = "https://dl.acm.org/doi/10.1145/195473.195521"
 }
 
 @TechReport{apfdsifcip,
