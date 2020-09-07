@@ -1053,6 +1053,40 @@ Language Design and Implementation, PLDI '03)"}
   location     = "E 743.H63"
 }
 
+@Book{notdkg,
+  author       = "Doris Kearns Goodwin",
+  title        = "No Ordinary Time",
+  subtitle     = "Franklin and Eleanor Roosevelt: The Home Front in World War II",
+  publisher    = "Simon \& Schuster",
+  year         = 1994,
+  address      = nyny,
+  keywords     = "elenor & franklin roosevelt, ww2, american politics,
+    emotional intelligence",
+  location     = "E 807.G66"
+}
+
+@Book{maaew,
+  author       = "Evelyn Waugh",
+  title        = "Men at Arms",
+  publisher    = "Little, Brown",
+  year         = 1952,
+  address      = boma,
+  keywords     = "ww2, military bureaucracy, sad sacks",
+  location     = "PZ 3.W356 PR6045.A97"
+}
+
+@Book{wwrh,
+  author       = "Rob Hengeveld",
+  title        = "Wasted World",
+  subtitle     = "How Our Consumption Challenges the Planet",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "population growth, pollution, sustainability, ecological
+    systems, population control",
+  location     = "GF 75.H45"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -5353,6 +5387,276 @@ Language Design and Implementation, PLDI '03)"}
     technique of trace-driven memory simulation with respect to speed,
     accuracy, portability and flexibility.", 
   location     = "https://dl.acm.org/doi/10.1145/195473.195521"
+}
+
+@Article{sdactidos,
+  author       = "Chandramohan~A. Thekkath and Henry~M. Levy and Edward~D. Lazowska",
+  title        = "Separating Data and Control Transfer in Distributed Operating Systems",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "2--11",
+  month        = nov,
+  keywords     = "distributed storage, ipc, atm networks, data-control
+    separation, client-server models, communication co-processors",
+  abstract     = "Advances in processor architecture and technology have
+    resulted in workstations in the 100+ MIPS range.  As well, newer local-area
+    networks such as ATM promise a ten- to hundred-fold increase in throughput,
+    much reduced latency, greater scalability, and greatly increased
+    reliability, when compared to current LANs such as Ethernet.We believe that
+    these new network and processor technologies will permit tighter coupling
+    of distributed systems at the hardware level, and that distributed systems
+    software should be designed to benefit from that tighter coupling.  In this
+    paper, we propose an alternative way of structuring distributed systems
+    that takes advantage of a communication model based on remote network
+    access (reads and writes) to protected memory segments.A key feature of the
+    new structure, directly supported by the communication model, is the
+    separation of data transfer and control transfer.  This is in contrast to
+    the structure of traditional distributed systems, which are typically
+    organized using message passing or remote procedure call (RPC).  In
+    RPC-style systems, data and control are inextricably linked—all RPCs must
+    transfer both data and control, even if the control transfer is
+    unnecessary.We have implemented our model on DECstation hardware connected
+    by an ATM network.  We demonstrate how separating data transfer and control
+    transfer can eliminate unnecessary control transfers and facilitate tighter
+    coupling of the client and server.  This has the potential to increase
+    performance and reduce server load, which supports scaling in the face of
+    an increasing number of clients.  For example, for a small set of file
+    server operations, our analysis shows a 50% decrease in server load when we
+    switched from a communications mechanism requiring both control transfer
+    and data transfer, to an alternative structure based on pure data
+    transfer.", 
+  location     = "https://doi.org/10.1145/381792.195481"
+}
+
+@Article{sapmfmcs,
+  author       = "Rohit Chandra and Scott Devine and Ben Verghese and Anoop Gupta and Mendel Rosenblum",
+  title        = "Scheduling and Page Migration for Multiprocessor Compute Servers",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "12--24",
+  month        = nov,
+  keywords     = "cc-numa systems, page migration, scheduling policies,
+    affinity scheduling, gang scheduling, processor sets, activations, dash,
+    sequential workloads, performance, data locality, synchronization",
+  abstract     = "Several cache-coherent shared-memory multiprocessors have
+    been developed that are scalable and offer a very tight coupling between
+    the processing resources.  They are therefore quite attractive for use as
+    compute servers for multiprogramming and parallel application workloads.
+    Process scheduling and memory management, however, remain challenging due
+    to the distributed main memory found on such machines.  This paper examines
+    the effects of OS scheduling and page migration policies on the performance
+    of such compute servers.  Our experiments are done on the Stanford DASH, a
+    distributed-memory cache-coherent multiprocessor.  We show that for our
+    multiprogramming workloads consisting of sequential jobs, the traditional
+    Unix scheduling policy does very poorly.  In contrast, a policy
+    incorporating cluster and cache affinity along with a simple page-migration
+    algorithm offers up to two-fold performance improvement.  For our workloads
+    consisting of multiple parallel applications, we compare space-sharing
+    policies that divide the processors among the applications to time-slicing
+    policies such as standard Unix or gang scheduling.  We show that
+    space-sharing policies can achieve better processor utilization due to the
+    operating point effect, but time-slicing policies benefit strongly from
+    user-level data distribution.  Our initial experience with automatic page
+    migration suggests that policies based only on TLB miss information can be
+    quite effective, and useful for addressing the data distribution problems
+    of space-sharing schedulers.", 
+  location     = "https://doi.org/10.1145/195473.195485"
+}
+
+@Article{rsafm,
+  author       = "Beng-Hong Lim and Anant Agarwal",
+  title        = "Reactive Synchronization Algorithms for Multiprocessors",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "25--35",
+  month        = nov,
+  keywords     = "synchronization, spin locks, test & set, combining trees,
+    adaptive algorithms, consensus objects, multiprocessor systems",
+  abstract     = "Synchronization algorithms that are efficient across a wide
+    range of applications and operating conditions are hard to design because
+    their performance depends on unpredictable run-time factors.  The designer
+    of a synchronization algorithm has a choice of protocols to use for
+    implementing the synchronization operation.  For example, candidate
+    protocols for locks include test-and-set protocols and queueing protocols.
+    Frequently, the best choice of protocols depends on the level of
+    contention: previous research has shown that test-and-set protocols for
+    locks outperform queueing protocols at low contention, while the opposite
+    is true at high contention.This paper investigates reactive synchronization
+    algorithms that dynamically choose protocols in response to the level of
+    contention.  We describe reactive algorithms for spin locks and
+    fetch-and-op that choose among several shared-memory and message-passing
+    protocols.  Dynamically choosing protocols presents a challenge: a reactive
+    algorithm needs to select and change protocols efficiently, and has to
+    allow for the possibility that multiple processes may be executing
+    different protocols at the same time.  We describe the notion of consensus
+    objects that the reactive algorithms use to preserve correctness in the
+    face of dynamic protocol changes.Experimental measurements demonstrate that
+    reactive algorithms perform close to the best static choice of protocols at
+    all levels of contention.  Furthermore, with mixed levels of contention,
+    reactive algorithms outperform passive algorithms with fixed protocols,
+    provided that contention levels do not change too frequently.  Measurements
+    of several parallel applications show that reactive algorithms result in
+    modest performance gains for spin locks and significant gains for
+    fetch-and-op.", 
+  location     = "https://doi.org/10.1145/381792.195490"
+}
+
+@Article{iompasmitsfm,
+  author       = "John Heinlein and Kourosh Gharachorloo and Scott Dresser and Anoop Gupta",
+  title        = "Integration of Message Passing and Shared Memory in the Stanford {FLASH} Multiprocessor",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "38--50",
+  month        = nov,
+  keywords     = "shared-store multiprocessor systems, message passing,
+    programmable communication co-processor, virtual memory, software tlb,
+    cache coherence",
+  abstract     = "The advantages of using message passing over shared memory
+    for certain types of communication and synchronization have provided an
+    incentive to integrate both models within a single architecture.  A key
+    goal of the FLASH (FLexible Architecture for SHared memory) project at
+    Stanford is to achieve this integration while maintaining a simple and
+    efficient design.  This paper presents the hardware and software mechanisms
+    in FLASH to support various message passing protocols.  We achieve low
+    overhead message passing by delegating protocol functionality to the
+    programmable node controllers in FLASH and by providing direct user-level
+    access to this messaging subsystem.  In contrast to most earlier work, we
+    provide an integrated solution that handles the interaction of the
+    messaging protocols with virtual memory, protected multiprogramming, and
+    cache coherence.  Detailed simulation studies indicate that this system can
+    sustain message-transfers rates of several hundred megabytes per second,
+    effectively utilizing projected network bandwidths for next generation
+    multiprocessors.", 
+  location     = "https://doi.org/10.1145/381792.195494"
+}
+
+@Article{soimlwdttg,
+  author       = "Vijay Karamcheti and Andrew~A. Chien",
+  title        = "Software Overhead in Messaging Layers:  Where Does the Time Go?",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "51--60",
+  month        = nov,
+  keywords     = "communication services, protocol layering, reliability,
+    sequencing, who does what, ",
+  abstract     = "Despite improvements in network interfaces and software
+    messaging layers, software communication overhead still dominates the
+    hardware routing cost in most systems.  In this study, we identify the
+    sources of this overhead by analyzing software costs of typical
+    communication protocols built atop the active messages layer on the CM-5.
+    We show that up to 50–70% of the software messaging costs are a direct
+    consequence of the gap between specific network features such as arbitrary
+    delivery order, finite buffering, and limited fault-handling, and the user
+    communication requirements of in-order delivery, end-to-end flow control,
+    and reliable transmission.  However, virtually all of these costs can be
+    eliminated if routing networks provide higher-level services such as
+    in-order delivery, end-to-end flow control, and packet-level
+    fault-tolerance.  We conclude that significant cost reductions require
+    changing the constraints on messaging layers: we propose designing networks
+    and network interfaces which simplify or replace software for implementing
+    user communication requirements.", 
+  location     = "https://doi.org/10.1145/381792.195499"
+}
+
+@Article{witsimpasmp,
+  author       = "Satish Chandra and James~R. Larus and Anne Rogers",
+  title        = "Where is Time Spend in Message-Passing and Shared-Memory Programs?",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "61--73",
+  month        = nov,
+  keywords     = "message passing, shared memory, performance, parallel
+    programming", 
+  abstract     = "Message passing and shared memory are two techniques parallel
+    programs use for coordination and communication.  This paper studies the
+    strengths and weaknesses of these two mechanisms by comparing equivalent,
+    well-written message-passing and shared-memory programs running on similar
+    hardware.  To ensure that our measurements are comparable, we produced two
+    carefully tuned versions of each program and measured them on
+    closely-related simulators of a message-passing and a shared-memory
+    machine, both of which are based on same underlying hardware assumptions.We
+    examined the behavior and performance of each program carefully.  Although
+    the cost of computation in each pair of programs was similar,
+    synchronization and communication differed greatly.  We found that
+    message-passing's advantage over shared-memory is not clear-cut.  Three of
+    the four shared-memory programs ran at roughly the same speed as their
+    message-passing equivalent, even though their communication patterns were
+    different.", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-463-94", 
+  location     = "https://doi.org/10.1145/381792.195501"
+}
+
+@Article{poahar,
+  author       = "William~J. Schmidt and Kelvin~D. Nilsen",
+  title        = "Performance of a Hardware-Assisted Real-Time Garbage Collector",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "76--85",
+  month        = nov,
+  keywords     = "garbage collection, co-processors, baker's collector, heap
+    storage, dynamic storage management",
+  abstract     = "Hardware-assisted real-time garbage collection offers high
+    throughput and small worst-case bounds on the times required to allocate
+    dynamic objects and to access the memory contained within previously
+    allocated objects.  Whether the proposed technology is cost effective
+    depends on various choices between configuration alternatives.  This paper
+    reports the performance of several different configurations of the
+    hardware-assisted real-time garbage collection system subjected to several
+    different workloads.  Reported measurements demonstrate that
+    hardware-assisted real-time garbage collection is a viable alternative to
+    traditional explicit memory management techniques, even for low-level
+    languages like C++.", 
+  location     = "https://doi.org/10.1145/381792.195504"
+}
+
+@Article{eanvmmss,
+  author       = "Michael Wu and Willy Zwaenepoel",
+  title        = "{eNVy}:  {A} Non-Volatile, Main Memory Storage System",
+  journal      = asplos94,
+  year         = 1994,
+  volume       = 29,
+  number       = 11,
+  pages        = "86--97",
+  month        = nov,
+  keywords     = "flash storage, sram, write buffering, write performance, page
+    remapping, cleaning, locality",
+  abstract     = "This paper describes the architecture of eNVy, a large
+    non-volatile main memory storage system built primarily with Flash memory.
+    eNVy presents its storage space as a linear, memory mapped array rather
+    than as an emulated disk in order to provide an efficient and easy to use
+    software interface.Flash memories provide persistent storage with
+    solid-state memory access times at a lower cost than other solid-state
+    technologies.  However, they have a number of drawbacks.  Flash chips are
+    write-once, bulk-erase devices whose contents cannot be updated in-place.
+    They also suffer from slow program times and a limit on the number of
+    program/erase cycles.  eNVy uses a copy-on-write scheme, page remapping, a
+    small amount of battery backed SRAM, and high bandwidth parallel data
+    transfers to provide low latency, in-place update semantics.  A cleaning
+    algorithm optimized for large Flash arrays is used to reclaim space.  The
+    algorithm is designed to evenly wear the array, thereby extending its
+    lifetime.Software simulations of a 2 gigabyte eNVy system show that it can
+    support I/O rates corresponding to approximately 30,000 transactions per
+    second on the TPC-A database benchmark.  Despite the added work done to
+    overcome the deficiencies associated with Flash memories, average latencies
+    to the storage system are as low as 180ns for reads and 200ns for writes.
+    The estimated lifetime of this type of storage system is in the 10 year
+    range when exposed to a workload of 10,000 transactions per second.", 
+  location     = "https://doi.org/10.1145/195470.195506", 
+  location     = "https://scholarship.rice.edu/handle/1911/17039"
 }
 
 @TechReport{apfdsifcip,
