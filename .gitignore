@@ -1,1 +1,9 @@
-test/
+test/*bib
+test/*bix
+*aux
+*log
+*dvi
+*bbl
+*ps
+*blg
+
