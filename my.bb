@@ -1087,6 +1087,48 @@ Language Design and Implementation, PLDI '03)"}
   location     = "GF 75.H45"
 }
 
+@Book{tpmgws,
+  author       = "Gary~W. Sabot",
+  title        = "The Paralation Model",
+  subtitle     = "Architecture-Independent Parallel Programming",
+  publisher    = mitp,
+  year         = 1988,
+  address      = cama,
+  keywords     = "parallel programming, lisp",
+  location     = "QA 76.6.S216"
+}
+
+@Book{fatsk,
+  author       = "S{\o}ren Kierkegaard",
+  title        = "Fear and Trembling",
+  publisher    = "Princeton University Press",
+  year         = 1941,
+  address      = prnj,
+  keywords     = "faith, abraham, isaaic",
+  location     = "BR 100.K52 1941"
+}
+
+@Book{gbeg,
+  author       = "Yiyun Li",
+  title        = "Gold Boy, Emerald Girl",
+  publisher    = "Random House",
+  year         = 2010,
+  address      = nyny,
+  keywords     = "the wonders of marriage, china",
+  location     = "PL 2946 Y59 G65"
+}
+
+@Book{latr,
+  author       = "Evelyn Waugh",
+  title        = "Love Among the Ruins",
+  subtitle     = "A Romance of the Near Future",
+  publisher    = "Chapman \& Hall",
+  year         = 1953,
+  address      = loen,
+  keywords     = "the near future, bitter satire",
+  location     = "PZ 3.W356 PR6045.A97"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -5657,6 +5699,85 @@ Language Design and Implementation, PLDI '03)"}
     range when exposed to a workload of 10,000 transactions per second.", 
   location     = "https://doi.org/10.1145/195470.195506", 
   location     = "https://scholarship.rice.edu/handle/1911/17039"
+}
+
+@Article{patpcanrfsm,
+  author       = "Robert~A. Kahn",
+  title        = "Public Access to Personal Computing: {A} New Role for Science Museums",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 4,
+  pages        = "56--66",
+  month        = apr,
+  keywords     = "public access, science museums, education, taxonomy",
+  location     = "https://doi.org/10.1109/C-M.1977.217714"
+}
+
+@Article{pdm,
+  author       = "Alan Kay and Adele Goldberg",
+  title        = "Personal Dynamic Media",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 3,
+  pages        = "31--44",
+  month        = apr,
+  keywords     = "dynabook, smalltalk",
+  location     = "https://doi.org/10.1109/C-M.1977.217672"
+}
+
+@Article{miaac,
+  author       = "Ware Myers",
+  title        = "Microprocessors in Automation and Communications",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 12,
+  pages        = "",
+  month        = dec,
+  keywords     = "japan, industrial policy, microprocessor development",
+  location     = "https://dl.acm.org/doi/10.5555/1300779.1302407"
+}
+
+@Article{tmitbl,
+  author       = "Robert~L. Schoenfeld and William~A. Kocsis and Norman Milkman and Gordon Silverman",
+  title        = "The Microprocessor in the Biological Laboratory",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 5,
+  pages        = "56--67",
+  month        = may,
+  keywords     = "laboratory systems, biological research, microprocessor
+    systems, data collection",
+  location     = "https://dl.acm.org/doi/10.5555/1300742.1301505"
+}
+
+@Article{fdoms,
+  author       = "Vason~P. Srini",
+  title        = "Fault Diagnosis of Microprocessor Systems",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 1,
+  pages        = "60--65",
+  month        = jan,
+  keywords     = "diagnostic systems, resident diagnostics, diagnostic supervisors",
+  location     = "https://doi.org/10.1109/C-M.1977.217500"
+}
+
+@Article{aimds,
+  author       = "Larry Krummel and Gaymond Schultz",
+  title        = "Advances in Microcomputer Development Systems",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 2,
+  pages        = "13--19",
+  month        = feb,
+  keywords     = "system design, software development, in-circuit emulation",
+  location     = "https://doi.org/10.1109/C-M.1977.217641"
 }
 
 @TechReport{apfdsifcip,
