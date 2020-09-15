@@ -63548,11 +63548,12 @@
 @Book{tbcrj,
   author       = "C.~Richard  {Johnson Jr.} and William~A. Sethares",
   title        = "Telecommunication Breakdown",
+  subtitle     = "Concepts of Communication Transmitted via Software-Defined Radio",
   publisher    = ph,
   year         = 2004,
   address      = srnj,
   keywords     = "digital radio",
-  location     = ""
+  location     = "TK 5103.48.J65"
 }
 
 @Book{tpop,
