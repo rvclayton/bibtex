@@ -5780,6 +5780,101 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1109/C-M.1977.217641"
 }
 
+@Article{auatmsd,
+  author       = "Tomlinson~G. Rauscher",
+  title        = "{A} Unified Approach to Microcomputer Software Development",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 6,
+  pages        = "44-54",
+  month        = jun,
+  keywords     = "software development, requirements, design, development,
+    testing, maintenance",
+  location     = "https://doi.org/10.1109/C-M.1978.218226"
+}
+
+@Article{mpipm,
+  author       = "William Brown",
+  title        = "Modular Programming in {PL/M}",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 3,
+  pages        = "40--46",
+  month        = mar,
+  keywords     = "modularity, pl/m, interfaces, implementation",
+  location     = "https://doi.org/10.1109/C-M.1978.218095"
+}
+
+@Article{msdimp,
+  author       = "Celeste~S. Magers",
+  title        = "Managing Software Development in Microprocessor Projects",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 6,
+  pages        = "34--42",
+  month        = jun,
+  keywords     = "software development, programmers, productivity, projects,
+    development tools, ",
+  location     = "https://dblp.org/rec/journals/computer/Magers78"
+}
+
+@Article{mmafbsm,
+  author       = "V.~Michael Powers and Jos{\' e}~H. Hernandez",
+  title        = "Microsystems Microprogram Assemblers for Bit Slice Microprocessors",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 7,
+  pages        = "108--120",
+  month        = jul,
+  keywords     = "microprogramming, bit-sliced microprocessors, assemblers",
+  location     = "https://doi.org/10.1109/C-M.1978.218277"
+}
+
+@Article{maamblimsd,
+  author       = "Harvey~A. Cohen and Rhys~s. Francis",
+  title        = "Macro-Assemblers and Macro-Based Languages in Microprocessor Software Development",
+  journal      = ieeec,
+  year         = 1979,
+  volume       = 12,
+  number       = 2,
+  pages        = "53--64",
+  month        = feb,
+  keywords     = "assemblers, macros, cross assembly, language design, dsls,
+    modularity, universal cross-assemblers",
+  location     = "https://doi.org/10.1109/MC.1979.1658618"
+}
+
+@Article{pahcao,
+  author       = "Jim Warren",
+  title        = "Personal and Hobby Computing: An Overview",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 3,
+  pages        = "10--22",
+  month        = mar,
+  keywords     = "personal computing, hobbyist computing, social organizations,
+    hardware, software", 
+  location     = "https://doi.org/10.1109/C-M.1977.217667"
+}
+
+@Article{pcpi,
+  author       = "Portia Isaacson and Robert~C. Gammill and Richard~S. Heiser and Adam Osborne and Larry Tesler and Jim~C. Warren",
+  title        = "Personal Computing",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 9,
+  pages        = "86--97",
+  month        = sep,
+  keywords     = "consumer computers, hardware technologies, social impacts",
+  location     = "https://dl.acm.org/doi/abs/10.1145/1041571.1041576"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
