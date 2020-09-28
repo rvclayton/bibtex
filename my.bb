@@ -1129,6 +1129,17 @@ Language Design and Implementation, PLDI '03)"}
   location     = "PZ 3.W356 PR6045.A97"
 }
 
+@Book{aljs,
+  author       = "John Szwed",
+  title        = "Alan Lomax",
+  subtitle     = "The Man Who Recorded the World",
+  publisher    = "Viking",
+  year         = 2010,
+  address      = nyny,
+  keywords     = "folk music, obsession, biography",
+  location     = "ML 423 L63478 S98"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -5873,6 +5884,128 @@ Language Design and Implementation, PLDI '03)"}
   month        = sep,
   keywords     = "consumer computers, hardware technologies, social impacts",
   location     = "https://dl.acm.org/doi/abs/10.1145/1041571.1041576"
+}
+
+@Article{ti8ma1beot8,
+  author       = "Stephen~P. Morse and William~B. Pohlman and Bruce~W. Ravenel",
+  title        = "The {Intel} 8086 Microprocessor:  {A} 16-bit Evolution of the 8080",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 6,
+  pages        = "18--27",
+  month        = jun,
+  keywords     = "instruction sets, storage spaces, segmentation, cpu architecture",
+  abstract     = "",
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1978.218219"
+}
+
+@Article{tim4mfac,
+  author       = "John~F. Wakerly",
+  title        = "The {Intel} {MCS}-48 Microcomputer Family: {A} Critique",
+  journal      = ieeec,
+  year         = 1979,
+  volume       = 12,
+  number       = 2,
+  pages        = "22--31",
+  month        = feb,
+  keywords     = "cpu architecture, program store, program control, instruction
+    sets, system design",
+  abstract     = "",
+  location     = "https://dl.acm.org/doi/10.1109/MC.1979.1658613"
+}
+
+@Article{aoanm,
+  author       = "Bernard~L. Peuto",
+  title        = "Architecture of a New Microprocessor",
+  journal      = ieeec,
+  year         = 1979,
+  volume       = 12,
+  number       = 2,
+  pages        = "10--21",
+  month        = feb,
+  keywords     = "z8000, system architectures, registers, instruction sets,
+    addressing modes",
+  abstract     = "",
+  location     = "https://dl.acm.org/doi/abs/10.1109/MC.1979.1658612"
+}
+
+@Article{cotfm,
+  author       = "Dave Caulkins",
+  title        = "Critique of the {F8} Microprocessor",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 8,
+  pages        = "83--86",
+  month        = aug,
+  keywords     = "cpu architecture, multi-chip architectures, instruction sets",
+  abstract     = "The Fairchild F8 is a control microprocessor whose
+    architecture is considerably different from most machines in the same price
+    and performance class.  Good computer architecture is consistent,
+    symmetrical, and coherent; the programmer is provided with the maximum
+    amount of information possible after each operation and his freedom of
+    action is limited as little as possible.  A machine with these qualities
+    behaves in the way one expects it to behave; it is free of special cases
+    and peculiar quirks.  The F8 falls considerably short of meeting these
+    goals.  It predates most equivalent micros; its designers seem to have had
+    little contact with others doing similar things.  This background has
+    resulted in a machine combining brilliant design concepts with ugly
+    flaws.", 
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217830"
+}
+
+@Article{amafacwtm6,
+  author       = "Edward Stritter and Tom Gunter",
+  title        = "A Microprocessor Architecture for A Changing World: The {Motorola} 68000",
+  journal      = ieeec,
+  year         = 1979,
+  volume       = 12,
+  number       = 2,
+  pages        = "43--52",
+  month        = feb,
+  keywords     = "microprocessor architectures, instruction sets",
+  abstract     = "The first implementation of a new microprocessor architecture
+    promises to narrow the gap between the power of very small and very large
+    computers.", 
+  location     = "https://dl.acm.org/doi/10.1109/MC.1979.1658617"
+}
+
+@Article{mnwls,
+  author       = "William~L. Spetz",
+  title        = "Microprocessor Networks",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 7,
+  pages        = "64--70",
+  month        = jul,
+  keywords     = "multiprocessor systems, hierarchical networks, ring networks,
+    star networks, distributed hardware",
+  abstract     = "The phenomenal growth of the microprocessor business over the
+    last two years has been well covered in the technical literature.
+    Extrapolating from this growth, typical predictions of future trends have
+    suggested that by 1980, microprocessor complexity will increase five to ten
+    times while the speed of the chip will triple.1It seems reasonable to
+    expect this performance at approximately today's microprocessor prices.  If
+    instruction set efficiency is assumed to show a direct correspondence with
+    chip complexity, these chips can be expected to be 15 to 30 times as
+    capable in a given application.",
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217786"
+}
+
+@Article{icfmms,
+  author       = "Paul~M. Russo",
+  title        = "Interprocessor Communication for Multi-Microcomputer System",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 4,
+  pages        = "67--76",
+  month        = apr,
+  keywords     = "multiprocessor systems, multi-microcomputer structures,
+    cosmac microprocessor",
+  location     = "https://doi.org/10.1109/C-M.1977.217786"
 }
 
 @TechReport{apfdsifcip,
