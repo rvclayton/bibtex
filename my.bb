@@ -1140,6 +1140,47 @@ Language Design and Implementation, PLDI '03)"}
   location     = "ML 423 L63478 S98"
 }
 
+@Book{twlatws,
+  author       = "Elena Ferrante",
+  title        = "Those Who Leave and Those Who Stay",
+  publisher    = "Europa",
+  year         = 2013,
+  address      = nyny,
+  keywords     = "management-labor strife, marriage, women's careers",
+  location     = "PQ 4866.E6345 S77813"
+}
+
+@Book{nrzj,
+  author       = "Zachary Jernigan",
+  title        = "No Return",
+  publisher    = "Night Shade Books",
+  year         = 2013,
+  address      = sfca,
+  keywords     = "religion, aggression",
+  location     = "PS 3610.E73 N6"
+}
+
+@Book{tmog,
+  author       = "Yasunari Kawabata",
+  title        = "The Master of Go",
+  publisher    = "Berkeley Books",
+  year         = 1972,
+  address      = nyny,
+  price        = "$1.75",
+  keywords     = "go, mortality, sportsmanship",
+  location     = "PL 832.A9 M413"
+}
+
+@Book{oagew,
+  author       = "Evelyn Waugh",
+  title        = "Officers and Gentlemen",
+  publisher    = "Little, Brown",
+  year         = 1995,
+  address      = boma,
+  keywords     = "war, planning",
+  location     = "PR 6045.A97"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -6006,6 +6047,161 @@ Language Design and Implementation, PLDI '03)"}
   keywords     = "multiprocessor systems, multi-microcomputer structures,
     cosmac microprocessor",
   location     = "https://doi.org/10.1109/C-M.1977.217786"
+}
+
+@Article{bsma,
+  author       = "Nikitas~A. Alexandridis",
+  title        = "Bit-Sliced Microprocessor Architecture",
+  journal      = ieeec,
+  year         = 1978,
+  volume       = 11,
+  number       = 6,
+  pages        = "56--80",
+  month        = jun,
+  keywords     = "bit-sliced architecture, microprogramming, custom design",
+  abstract     = "With the high speed of bipolar technologoy and the
+    flexibility of user-microprogrammability, bit-sliced microprocessors are
+    finding a place in critical applications.",
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1978.218226"
+}
+
+@Article{ssfs1bid,
+  author       = "Kells~A. Elmquist and Howard Fullmer and David~B. Gustavson and George Morrow",
+  title        = "Standard Specification for {S}-100 Bus Interface Devices",
+  journal      = ieeec,
+  year         = 1979,
+  volume       = 12,
+  number       = 7,
+  pages        = "28--52",
+  month        = jul,
+  keywords     = "bus interfaces, standards, addressing, arbitration,
+    interrupts, dma",
+  abstract     = "This proposed standard eliminates many of the problems in the
+    S-100 bus and upgrades it for 16-bit microprocessors.  It is offered here
+    for public comment before submission to the IEEE Standards Board.",
+  location     = "https://dl.acm.org/doi/10.1109/MC.1979.1658813"
+}
+
+@Article{teopdims,
+  author       = "Ken McKenzie",
+  title        = "The Evolution of Peripheral Devices in Microprocessor Systems",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 6,
+  pages        = "12--17",
+  month        = jun,
+  keywords     = "system development, performance, user programming, multi-busses",
+  abstract     = "LSI I/O controllers solve system problems by efficiently
+    interfacing the microcomputer to external units"
+}
+
+@Article{ciitaom,
+  author       = "Bernard~L. Peuto and Leonard~J. Shustek",
+  title        = "Current Issues in the Architecture of Microprocessors",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 2,
+  pages        = "13--19",
+  month        = feb,
+  keywords     = "technological constraints, architectures, instruction metrics",
+  abstract     = "Despite the fact that microcomputers have existed
+    commercially for only five years, microcomputer architecture is not an
+    entirely new field.  It is, rather, the application of the general
+    principles of computer architecture to microcomputers.  In 'Planning a
+    Computer System,' Frederick P. Brooks Jr. defines computer architecture
+    as being, like other architecture, 'the art of determining the needs of the
+    user of the structure and then designing to meet those needs as effectively
+    as possible within economic and technological constraints.", 
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217642"
+}
+
+@Article{misoa,
+  author       = "John~F. Wakerly",
+  title        = "Microprocessor Input\slash Output Architecture",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 2,
+  pages        = "26--33",
+  month        = feb,
+  keywords     = "organization, system bus, addressing, interrupts, dma",
+  abstract     = "There are at least as many different microprocessor
+    input/output organizations, circuit configurations, and device types as
+    there are microprocessor families and manufacturers.  Due to the diversity
+    of competing approaches and devices, their similarities and differences are
+    not always evident.  The fact that each manufacturer describes his
+    approaches and devices differently, and the relative scarcity of formal
+    text material on microprocessors, do not make the situation any better.  In
+    this short space there is no hope of comprehensively surveying all
+    available approaches and devices (nor would I want to, even if space were
+    available!).  On the other hand, I can present an overview of basic
+    microprocessor I/O organization and typical circuit configurations and
+    devices.  Using these concepts as a basis, one may be able to make
+    comparisons between current and future approaches available commercially.", 
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217643"
+}
+
+@Article{dcpaktp,
+  author       = "Mark {Shepherd, Jr.}",
+  title        = "Distributed Computing Power:  {A} Key to Productivity",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 11,
+  pages        = "66--74",
+  month        = nov,
+  keywords     = "application fields, programming bottleneck, hard-wired programs",
+  abstract     = "Productivity is the driving force of the economic growth that
+    leads to improved living standards.  However, if the United States
+    continues the past pattern of 2% productivity growth per year, the gross
+    national product per capita will grow at only 2.5% per year and
+    unemployment will still be at 5.7% in 1990.  On the other hand, a single
+    percentage point increase in productivity–from 2% to 3%–could accelerate
+    economic growth sufficiently to drive unemployment down to 3.4% by 1990;
+    two percentage points could drive it down to 1%, if other factors do not
+    intrude.", 
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217568"
+}
+
+@Article{adpfma,
+  author       = "Dennis~R. Allison",
+  title        = "{A} Design Philosophy for Microcomputer Architectures",
+  journal      = ieeec,
+  year         = 1977,
+  volume       = 10,
+  number       = 2,
+  pages        = "35--41",
+  month        = feb,
+  keywords     = "computer design, abstract machines, programming languages, compilers",
+  abstract     = "Microcomputers, as a class of programmable machines, are
+    uncomfortable and difficult to program, and are even more unpleasant as the
+    target machines for programming languages.  This need not be so.",
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1977.217645"
+}
+
+@Article{frtms,
+  author       = "Robert~N. Noyce",
+  title        = "From Relays to {MPU}'s",
+  journal      = ieeec,
+  year         = 1976,
+  volume       = 9,
+  number       = 12,
+  pages        = "26--29",
+  month        = dec,
+  keywords     = "costs, performance, technological trends, reliability",
+  abstract     = "When the IEEE Computer Society was founded twentyfive years
+    ago, the transistor was a laboratory curiosity, and operating computers
+    were assembled from relays or vacuum tubes.  Today, a single integrated
+    circuit far surpasses the capability of those early computers, and further
+    progress seems inevitable.  The development of semiconductor devices has
+    depended upon a synergism with computers.  This is particularly true for
+    integrated circuits, whose development was motivated by the computer
+    applications.  With each advance in components, the computers resulting
+    from their use reached a wider market, motivating further advances in the
+    semiconductor technology.", 
+  location     = "https://dl.acm.org/doi/10.1109/C-M.1976.218465"
 }
 
 @TechReport{apfdsifcip,
