@@ -4,6 +4,7 @@
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{asplos92 = sigplan # " (" # pot # "Fifth International Conference on " # asplos # ", ASPLOS V)"}
 @string{asplos94 = sigplan # " (" # pot # "Sixth International Conference on " # asplos # ", ASPLOS VI)"}
+@string{asplos96 = sigplan # " (" # pot # "Seventh International Conference on " # asplos # ", ASPLOS VII)"}
 @string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
 @string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
 @string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
@@ -1179,6 +1180,40 @@ Language Design and Implementation, PLDI '03)"}
   address      = boma,
   keywords     = "war, planning",
   location     = "PR 6045.A97"
+}
+
+@Book{chac,
+  author       = "Stephen~E. Ambrose",
+  title        = "Crazy Horse and Custer",
+  subtitle     = "The Parallel Lives of Two American Warriors",
+  publisher    = "Anchor Books",
+  year         = 1996,
+  address      = nyny,
+  keywords     = "19th century u.s. history, great plains wars, u.s. army,
+    north american indians, sioux",
+  location     = "E 99.03 A46"
+}
+
+@Book{tscc,
+  author       = "Christopher Clark",
+  title        = "The Sleepwalkers",
+  subtitle     = "How Europe Went to War in 1914",
+  publisher    = "HarperCollins",
+  year         = 2012,
+  address      = nyny,
+  keywords     = "world war i, diplomacy, early 20th century european history, ",
+  location     = "D 511.C54"
+}
+
+@Book{agirr,
+  author       = "Julia~L. Mickenberg",
+  title        = "American Girls in Red Russia",
+  subtitle     = "Chasing the Soviet Dream",
+  publisher    = ucp,
+  year         = 2017,
+  address      = chil,
+  keywords     = "1930s russian history, socialism, development",
+  location     = "DK 34.A45 M54"
 }
 
 @Article{famw,
@@ -6204,6 +6239,605 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://dl.acm.org/doi/10.1109/C-M.1976.218465"
 }
 
+@Article{tvdl,
+  author       = "Peter Wegner",
+  title        = "The {Vienna Definition Language}",
+  journal      = surveys,
+  year         = 1972,
+  volume       = 4,
+  number       = 1,
+  pages        = "5--63",
+  month        = mar,
+  keywords     = "metalanguages, language definition, interpreters, semantics,
+    program proofs, interpreter equivalence, operational semantics",
+  abstract     = "The Vienna Definition Language (VDL) is a programming
+    language for defining programming languages.  It describes precisely the
+    execution of the set of all programs in a programming language.  However,
+    the Vienna Definition Language is important not only as one definition
+    techniques among many others but as an illustration of a new information
+    structure-oriented approach to programming language study .  The paper may
+    be regarded as a case study in the information structure modeling of
+    programming languages, as well as an introduction to a specific modeling
+    technique.  Part 1 includes a brief review and comparison of techniques of
+    language definition, and then introduces the basic data structures and data
+    structure manipulation operations used to define programming languages.
+    Part 2 considers the definition of sets of data structures.  Part 3
+    introduces the notion for specifying VDL instructions, and illustrates the
+    definition of a simple language for arithmetic expression evaluation by
+    giving the complete sequence of states (snapshots) arising during
+    expression evaluation.  Part 4 defines a single block structured language
+    in VDL and considers certain basic design issues for such languages more
+    generally.  Part 5 introduces an alternative definition of block structure
+    language defined in Part 4, proves the equivalence of the two definitions,
+    and briefly reviews recent work on proving the interpreter equivalence.  An
+    Appendix considers the definition of VDL in VDL.  This paper may be read at
+    a number of different levels.  The reader interested in a quick
+    introduction to VDL's basic definition techniques need only read section
+    1.3 and Part 3.  The reader interested in a deeper understanding of block
+    structure languages should read Part 4, while the reader concerned with
+    proofs of equivalence of interpreters should read Part 5.", 
+  location     = "https://dl.acm.org/doi/10.1145/356596.356598"
+}
+
+@Article{ossfidlocncs,
+  author       = "Ben Verghese and Scott Devine and Anoop Gupta and Mendel Rosenblum",
+  title        = "Operating System Support for Improving Data Locality on {CC}-{NUMA} Compute Servers",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "279--289",
+  month        = sep,
+  keywords     = "kernel migration, kernel replication, network latency",
+  abstract     = "The dominant architecture for the next generation of
+    shared-memory multiprocessors is CC-NUMA (cache-coherent non-uniform memory
+    architecture).  These machines are attractive as compute servers because
+    they provide transparent access to local and remote memory.  However, the
+    access latency to remote memory is 3 to 5 times the latency to local
+    memory.  CC-NOW machines provide the benefits of cache coherence to
+    networks of workstations, at the cost of even higher remote access latency.
+    Given the large remote access latencies of these architectures, data
+    locality is potentially the most important performance issue.  Using
+    realistic workloads, we study the performance improvements provided by OS
+    supported dynamic page migration and replication.  Analyzing our
+    kernel-based implementation, we provide a detailed breakdown of the costs.
+    We show that sampling of cache misses can be used to reduce cost without
+    compromising performance, and that TLB misses may not be a consistent
+    approximation for cache misses.  Finally, our experiments show that dynamic
+    page migration and replication can substantially increase application
+    performance, as much as 30%, and reduce contention for resources in the
+    NUMA memory system.", 
+  location     = ""
+}
+
+@Article{icpwbtadp,
+  author       = "Jih-Kwon Peir and Windsor~W. Hsu and Honesty Young and Shauchi Ong",
+  title        = "Improving Cache Performance with Balanced Tag and Data Paths",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "268--278",
+  month        = sep,
+  keywords     = "caching, path balancing, parallelism",
+  abstract     = "There are two concurrent paths in a typical cache access ---
+    one through the data array and the other through the tag array.  The path
+    through the data array drives the selected set out of the array.  The path
+    through the tag array determines cache hit/miss and, for set-associative
+    caches, selects the appropriate line from within the selected set.  In both
+    direct-mapped and set-associative caches, the path through the tag array is
+    significantly longer than that through the data array.  In this paper, we
+    propose a path balancing technique help match the delays of the tag and
+    data paths.  The basic idea behind this technique is to employ a separate
+    subset of the tag array to decouple the one-to-one relationship between
+    address tags and cache lines so as to achieve a design that provides higher
+    performance.  Performance evaluation using both TPC-C and SPEC92 benchmarks
+    shows that this path balancing technique offers impressive improvements in
+    overall system performance over conventional cache designs.  For TPC-C,
+    improvements in the range of 6% to 28% are possible.", 
+  location     = "https://doi.org/10.1145/237090.237202"
+}
+
+@Article{rnlusiagme,
+  author       = "Hervé~A. Jamrozik and Michael~J. Feeley and Geoffrey~M. Voelker and James Evans and Anna~R. Karlin and Henry~M. Levy and Mary~K. Vernon",
+  title        = "Reducing Network Latency Using Subpages in an Global Memory Environment",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "258--267",
+  month        = sep,
+  keywords     = "subpages, trace-driven simulations, eager fetches, lazy
+    fetches, pipeline fetches",
+  abstract     = "New high-speed networks greatly encourage the use of network
+    memory as a cache for virtual memory and file pages, thereby reducing the
+    need for disk access.  Because pages are the fundamental transfer and
+    access units in remote memory systems, page size is a key performance
+    factor.  Recently, page sizes of modern processors have been increasing in
+    order to provide more TLB coverage and amortize disk access costs.
+    Unfortunately, for high-speed networks, small transfers are needed to
+    provide low latency.  This trend in page size is thus at odds with the use
+    of network memory on high-speed networks.This paper studies the use of
+    subpages as a means of reducing transfer size and latency in a
+    remote-memory environment.  Using trace-driven simulation, we show how and
+    why subpages reduce latency and improve performance of programs using
+    network memory.  Our results show that memory-intensive applications
+    execute up to 1.8 times faster when executing with 1K-byte subpages, when
+    compared to the same applications using full 8K-byte pages in the global
+    memory system.  Those same applications using 1K-byte subpages execute up
+    to 4 times faster than they would using the disk for backing store.  Using
+    a prototype implementation on the DEC Alpha and AN2 network, we demonstrate
+    how subpages can reduce remote-memory fault time; e.g., our prototype is
+    able to satisfy a fault on a 1K subpage stored in remote memory in 0.5
+    milliseconds, one third the time of a full page.", 
+  location     = "https://doi.org/10.1145/237090.237198"
+}
+
+@Article{cdpcfm,
+  author       = "Edouard Bugnion and Jennifer~M. Anderson and Todd~C. Mowry and Mendel Rosenblum and Monica~S. Lam",
+  title        = "Compiler-Directed Page Coloring for Multiprocessors",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "244--255",
+  month        = sep,
+  keywords     = "paging, cache conflicts, adaptive algorithms, access
+    patterns, compile-time analysis, page coloring, prefetching",
+  abstract     = "This paper presents a new technique, compiler-directed page
+    coloring, that eliminates conflict misses in multiprocessor applications.
+    It enables applications to make better use of the increased aggregate cache
+    size available in a multiprocessor.  This technique uses the compiler's
+    knowledge of the access patterns of the parallelized applications to direct
+    the operating system's virtual memory page mapping strategy.  We
+    demonstrate that this technique can lead to significant performance
+    improvements over two commonly used page mapping strategies for machines
+    with either direct-mapped or two-way set-associative caches.  We also show
+    that it is complementary to latency-hiding techniques such as
+    prefetching.We implemented compiler-directed page coloring in the SUIF
+    parallelizing compiler and on two commercial operating systems.  We applied
+    the technique to the SPEC95fp benchmark suite, a representative set of
+    numeric programs.  We used the SimOS machine simulator to analyze the
+    applications and isolate their performance bottlenecks.  We also validated
+    these results on a real machine, an eight-processor 350MHz Digital
+    AlphaServer.  Compiler-directed page coloring leads to significant
+    performance improvements for several applications.  Overall, our technique
+    improves the SPEC95fp rating for eight processors by 8% over Digital UNIX's
+    page mapping policy and by 20% over a page coloring, a standard page
+    mapping policy.  The SUIF compiler achieves a SPEC95fp ratio of 57.4, the
+    highest ratio to date.", 
+  location     = "https://doi.org/10.1145/237090.237195"
+}
+
+@Article{eddmbidsp,
+  author       = "Mazen A.~R. Saghir and Paul Chow and Corinna~G. Lee",
+  title        = "Exploiting Dual Data-Memory Banks in Digital Signal Processors",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "234--243",
+  month        = sep,
+  keywords     = "dsp, data partitioning, data duplication",
+  abstract     = "Over the past decade, digital signal processors (DSPs) have
+    emerged as the processors of choice for implementing embedded applications
+    in high-volume consumer products.  Through their use of specialized
+    hardware features and small chip areas, DSPs provide the high performance
+    necessary for embedded applications at the low costs demanded by the
+    high-volume consumer market.  One feature commonly found in DSPs is the use
+    of dual data-memory banks to double the memory system's bandwidth.  When
+    coupled with high-order data interleaving, dual memory banks provide the
+    same bandwidth as more costly memory organizations such as a dual-ported
+    memory.  However, making effective use of dual memory banks remains
+    difficult, especially for high-level language (HLL) DSP compilers.In this
+    paper, we describe two algorithms --- compaction-based (CB) data
+    partitioning and partial data duplication --- that we developed as part of
+    our research into the effective exploitation of dual data-memory banks in
+    HLL DSP compilers.  We show that CB partitioning is an effective technique
+    for exploiting dual data-memory banks, and that partial data duplication
+    can augment CB partitioning in improving execution performance.  Our
+    results show that CB partitioning improves the performance of our kernel
+    benchmarks by 13%-40% and the performance of our application benchmarks by
+    3%-15%.  For one of the application benchmarks, partial data duplication
+    boosts performance from 3% to 34%.", 
+  location     = "https://dl.acm.org/doi/10.1145/248209.237193", 
+  location     = "https://www.eecg.utoronto.ca/~corinna/publications/saghir.asplos96.ps"
+}
+
+@Article{cbpfrds,
+  author       = "Chi-Keung Luk and Todd~C. Mowry",
+  title        = "Compiler-Based Prefetching for Recursive Data Structures",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "222--233",
+  month        = sep,
+  keywords     = "memory latency, prefetching, pointer chasing, greedy
+    prefetching, history-based prefetching, linearized prefetching, caching",
+  abstract     = "Software-controlled data prefetching offers the potential for
+    bridging the ever-increasing speed gap between the memory subsystem and
+    today's high-performance processors.  While prefetching has enjoyed
+    considerable success in array-based numeric codes, its potential in
+    pointer-based applications has remained largely unexplored.  This paper
+    investigates compiler-based prefetching for pointer-based applications---in
+    particular, those containing recursive data structures.  We identify the
+    fundamental problem in prefetching pointer-based data structures and
+    propose a guideline for devising successful prefetching schemes.  Based on
+    this guideline, we design three prefetching schemes, we automate the most
+    widely applicable scheme (greedy prefetching) in an optimizing research
+    compiler, and we evaluate the performance of all three schemes on a modern
+    superscalar processor similar to the MIPS R10000.  Our results demonstrate
+    that compiler-inserted prefetching can significantly improve the execution
+    speed of pointer-based codes---as much as 45% for the applications we
+    study.  In addition, the more sophisticated algorithms (which we currently
+    perform by hand, but which might be implemented in future compilers) can
+    improve performance by as much as twofold.  Compared with the only other
+    compiler-based pointer prefetching scheme in the literature, our algorithms
+    offer substantially better performance by avoiding unnecessary overhead and
+    hiding more latency.", 
+  location     = "https://doi.org/10.1145/237090.237190"
+}
+
+@Article{amfiemap,
+  author       = "Richard~C. Holt and David~B. Wortman",
+  title        = "{A} Model for Implementing {EUCLID} Modules and Prototypes",
+  journal      = toplas,
+  year         = 1982,
+  volume       = 4,
+  number       = 4,
+  pages        = "552--562",
+  month        = oct,
+  keywords     = "modules, packages, system implementation language, type
+    descriptors, macros, environment displays",
+  abstract     = "The PASCAL-based programming language EUCLID was designed for
+    implementing verifiable system software.  EUCLID's design includes many
+    novel extensions, including a module mechanism and a substantial
+    generalization of the PASCAL type mechanism.  This paper presents an
+    implementation model for two of these extensions: modules and parameterized
+    type definitions (prototypes).", 
+  location     = "https://dl.acm.org/doi/abs/10.1145/69622.357183"
+}
+
+@Article{hclaooisd,
+  author       = "R.~Bianchini and L.~I. Kontothanassis and R.~Pinto and M.~De Maria and M.~Abud and C.~L. Amorim",
+  title        = "Hiding Communication Latency and Coherence Overhead in Software DSMs",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "198--209",
+  month        = sep,
+  keywords     = "protocol controllers, automatic updates",
+  abstract     = "In this paper we propose the use of a PCI-based programmable
+    protocol controller for hiding communication and coherence overheads in
+    software DSMs.  Our protocol controller provides three different types of
+    overhead tolerance: a) moving basic communication and coherence tasks away
+    from computation processors; b) prefetching of diffs; and c) generating and
+    applying diffs with hardware assistance.  We evaluate the isolated and
+    combined impact of these features on the performance of TreadMarks.  We
+    also compare performance against two versions of the Shrimp-based AURC
+    protocol.  Using detailed execution-driven simulations of a 16-node network
+    of workstations, we show that the greatest performance benefits provided by
+    our protocol controller come from our hardware-supported diffs.  Reducing
+    the burden of communication and coherence transactions on the computation
+    processor is also beneficial but to a smaller extent.  Prefetching is not
+    always profitable.  Our results show that our protocol controller can
+    improve running time performance by up to 50% for TreadMarks, which means
+    that it can double the TreadMarks speedups.  The overlapping implementation
+    of TreadMarks performs as well or better than AURC for 5 of our 6
+    applications.  We conclude that the simple hardware support we propose
+    allows for the implementation of high-performance software DSMs at low
+    cost.  Based on this conclusion, we are building the NCP2 parallel system
+    at COPPE/UFRJ.", 
+  location     = "https://doi.org/10.1145/237090.237185", 
+  location     = "https://www.cos.ufrj.br/uploadfile/es35695.pdf"
+}
+
+@Article{aictsrtsdsms,
+  author       = "Sandhya Dwarkadas and Alan~L. Cox and Willy Zwaenepoel",
+  title        = "{A} Integrated Compile-Time\slash Run-Time Software Distribution Shared Memory System",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "186--197",
+  month        = sep,
+  keywords     = "compiler analysis, consistency primitives, access analysis",
+  abstract     = "On a distributed memory machine, hand-coded message passing
+    leads to the most efficient execution, but it is difficult to use.
+    Parallelizing compilers can approach the performance of hand-coded message
+    passing by translating data-parallel programs into message passing
+    programs, but efficient execution is limited to those programs for which
+    precise analysis can be carried out.  Shared memory is easier to program
+    than message passing and its domain is not constrained by the limitations
+    of parallelizing compilers, but it lags in performance.  Our goal is to
+    close that performance gap while retaining the benefits of shared memory.
+    In other words, our goal is (1) to make shared memory as efficient as
+    message passing, whether hand-coded or compiler-generated, (2) to retain
+    its ease of programming, and (3) to retain the broader class of
+    applications it supports.To this end we have designed and implemented an
+    integrated compile-time and run-time software DSM system.  The programming
+    model remains identical to the original pure run-time DSM system.  No user
+    intervention is required to obtain the benefits of our system.  The
+    compiler computes data access patterns for the individual processors.  It
+    then performs a source-to-source transformation, inserting in the program
+    calls to inform the run-time system of the computed data access patterns.
+    The run-time system uses this information to aggregate communication, to
+    aggregate data and synchronization into a single message, to eliminate
+    consistency overhead, and to replace global synchronization with
+    point-to-point synchronization wherever possible.We extended the Parascope
+    programming environment to perform the required analysis, and we augmented
+    the TreadMarks run-time DSM library to take advantage of the analysis.  We
+    used six Fortran programs to assess the performance benefits: Jacobi,
+    3D-FFT, Integer Sort, Shallow, Gauss, and Modified Gramm-Schmidt, each with
+    two different data set sizes.  The experiments were run on an 8-node IBM
+    SP/2 using user-space communication.  Compiler optimization in conjunction
+    with the augmented run-time system achieves substantial execution time
+    improvements in comparison to the base TreadMarks, ranging from 4% to 59%
+    on 8 processors.  Relative to message passing implementations of the same
+    applications, the compile-time run-time system is 0-29% slower than message
+    passing, while the base run-time system is 5-212% slower.  For the five
+    programs that XHPF could parallelize (all except IS), the execution times
+    achieved by the compiler optimized shared memory programs are within 9% of
+    XHPF.", 
+  location     = "https://dl.acm.org/doi/abs/10.1145/237090.237181", 
+  location     = "http://www.cs.rochester.edu/u/sandhya/papers/asplos96.ps"
+}
+
+@Article{atnacvvoddd,
+  author       = "Armando Fox and Steven~D. Gribble and Eric~A. Brewer and Elan Amir",
+  title        = "Adapting to Network and Client Variability via On-Demand Dynamic Distillation",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "160--170",
+  month        = sep,
+  keywords     = "variance, semantic-directed compression, smart networks,
+    transcoding", 
+  abstract     = "The explosive growth of the Internet and the proliferation of
+    smart cellular phones and handheld wireless devices is widening an already
+    large gap between Internet clients.  Clients vary in their hardware
+    resources, software sophistication, and quality of connectivity, yet server
+    support for client variation ranges from relatively poor to none at all.
+    In this paper we introduce some design principles that we believe are
+    fundamental to providing 'meaningful' Internet access for the entire range
+    of clients.  In particular, we show how to perform on-demand
+    datatype-specific lossy compression on semantically typed data, tailoring
+    content to the specific constraints of the client.  We instantiate our
+    design principles in a proxy architecture that further exploits typed data
+    to enable application-level management of scarce network resources.  Our
+    proxy architecture generalizes previous work addressing all three aspects
+    of client variation by applying well-understood techniques in a novel way,
+    resulting in quantitatively better end-to-end performance, higher quality
+    display output, and new capabilities for low-end clients.", 
+  location     = "https://dl.acm.org/doi/10.1145/248209.237177"
+}
+
+@Article{salosoafsfgsm,
+  author       = "Daniel~J. Scales and Kourosh Gharachorloo and Chandramohan~A. Thekkath",
+  title        = "Shasta:  {A} Low Overhead, Software-Only Approach for Supporting Fine-Grain Shared Memory",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "174--185",
+  month        = sep,
+  keywords     = "cache coherence, polling, instruction scheduling, relaxed
+    memory models, batching",
+  abstract     = "This paper describes Shasta, a system that supports a shared
+    address space in software on clusters of computers with physically
+    distributed memory.  A unique aspect of Shasta compared to most other
+    software distributed shared memory systems is that shared data can be kept
+    coherent at a fine granularity.  In addition, the system allows the
+    coherence granularity to vary across different shared data structures in a
+    single application.  Shasta implements the shared address space by
+    transparently rewriting the application executable to intercept loads and
+    stores.  For each shared load or store, the inserted code checks to see if
+    the data is available locally and communicates with other processors if
+    necessary.  The system uses numerous techniques to reduce the run-time
+    overhead of these checks.  Since Shasta is implemented entirely in
+    software, it also provides tremendous flexibility in supporting different
+    types of cache coherence protocols.  We have implemented an efficient cache
+    coherence protocol that incorporates a number of optimizations, including
+    support for multiple communication granularities and use of relaxed memory
+    models.  This system is fully functional and runs on a cluster of Alpha
+    workstations.The primary focus of this paper is to describe the techniques
+    used in Shasta to reduce the checking overhead for supporting fine
+    granularity sharing in software.  These techniques include careful layout
+    of the shared address space, scheduling the checking code for efficient
+    execution on modern processors, using a simple method that checks loads
+    using only the value loaded, reducing the extra cache misses caused by the
+    checking code, and combining the checks for multiple loads and stores.  To
+    characterize the effect of these techniques, we present detailed
+    performance results for the SPLASH-2 applications running on an Alpha
+    processor.  Without our optimizations, the checking overheads are
+    excessively high, exceeding 100% for several applications.  However, our
+    techniques are effective in reducing these overheads to a range of 5% to
+    35% for almost all of the applications.  We also describe our coherence
+    protocol and present some preliminary results on the parallel performance
+    of several applications running on our workstation cluster.  Our experience
+    so far indicates that once the cost of checking memory accesses is reduced
+    using our techniques, the Shasta approach is an attractive software
+    solution for supporting a shared address space with fine-grain access to
+    data.", 
+  location     = "https://dl.acm.org/doi/10.1145/248209.237179", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-96-2.html"
+}
+
+@Article{mbabp,
+  author       = "André Seznec and Stéphan Jourdan and Pascal Sainrat and Pierre Michaud",
+  title        = "Multiple-Block Ahead Branch Predictors",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "116--127",
+  month        = sep,
+  keywords     = "branch prediction, branch prediction tables, instruction paths",
+  abstract     = "A basic rule in computer architecture is that a processor
+    cannot execute an application faster than it fetches its instructions.
+    This paper presents a novel cost-effective mechanism called the two-block
+    ahead branch predictor.  Information from the current instruction block is
+    not used for predicting the address of the next instruction block, but
+    rather for predicting the block following the next instruction block.This
+    approach overcomes the instruction fetch bottle-neck exhibited by
+    wide-dispatch 'brainiac' processors by enabling them to efficiently predict
+    addresses of two instruction blocks in a single cycle.  Furthermore,
+    pipelining the branch prediction process can also be done by means of our
+    predictor for 'speed demon' processors to achieve higher clock rate or to
+    improve the prediction accuracy by means of bigger prediction
+    structures.Moreover, and unlike the previously-proposed multiple predictor
+    schemes, multiple-block ahead branch predictors can use any of the branch
+    prediction schemes to perform the very accurate predictions required to
+    achieve high-performance on superscalar processors.", 
+  location     = "https://doi.org/10.1145/248208.237169", 
+  location     = "https://hal.inria.fr/inria-00073867/document"
+}
+
+@Article{aobpvdc,
+  author       = "I-Cheng~K. Chen and John~T. Coffey and Trevor~N. Mudge",
+  title        = "Analysis of Branch Prediction via Data Compression",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "128--137",
+  month        = sep,
+  keywords     = "branch prediction, data compression, markov predictors",
+  abstract     = "Branch prediction is an important mechanism in modern
+    microprocessor design.  The focus of research in this area has been on
+    designing new branch prediction schemes.  In contrast, very few studies
+    address the theoretical basis behind these prediction schemes.  Knowing
+    this theoretical basis helps us to evaluate how good a prediction scheme is
+    and how much we can expect to improve its accuracy.In this paper, we apply
+    techniques from data compression to establish a theoretical basis for
+    branch prediction, and to illustrate alternatives for further improvement.
+    To establish a theoretical basis, we first introduce a conceptual model to
+    characterize each component in a branch prediction process.  Then we show
+    that current 'two-level' or correlation based predictors are, in fact,
+    simplifications of an optimal predictor in data compression, Prediction by
+    Partial Matching (PPM).If the information provided to the predictor remains
+    the same, it is unlikely that significant improvements can be expected
+    (asymptotically) from two-level predictors, since PPM is optimal.  However,
+    there are a rich set of predictors available from data compression, several
+    of which can still yield some improvement in cases where resources are
+    limited.  To illustrate this, we conduct trace-driven simulation running
+    the Instruction Benchmark Suite and the SPEC CINT95 benchmarks.  The
+    results show that PPM can outperform a two-level predictor for modest sized
+    branch target buffers.", 
+  location     = "https://doi.org/10.1145/248209.237171", 
+  location     = "http://tnm.engin.umich.edu/wp-content/uploads/sites/353/2017/12/1996.10.Analysis-of-Branch-Prediction-via-Data-Compression.pdf"
+}
+
+@Article{vlalvp,
+  author       = "Mikko~H. Lipasti and Christopher~B. Wilkerson and John Paul Shen",
+  title        = "Value Locality and Load Value Prediction",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "138--147",
+  month        = sep,
+  keywords     = "value locality, microarchitecture models",
+  abstract     = "Since the introduction of virtual memory demand-paging and
+    cache memories, computer systems have been exploiting spatial and temporal
+    locality to reduce the average latency of a memory reference.  In this
+    paper, we introduce the notion of value locality, a third facet of locality
+    that is frequently present in real-world programs, and describe how to
+    effectively capture and exploit it in order to perform load value
+    prediction.  Temporal and spatial locality are attributes of storage
+    locations, and describe the future likelihood of references to those
+    locations or their close neighbors.  In a similar vein, value locality
+    describes the likelihood of the recurrence of a previously-seen value
+    within a storage location.  Modern processors already exploit value
+    locality in a very restricted sense through the use of control speculation
+    (i.e.  branch prediction), which seeks to predict the future value of a
+    single condition bit based on previously-seen values.  Our work extends
+    this to predict entire 32- and 64-bit register values based on
+    previously-seen values.  We find that, just as condition bits are fairly
+    predictable on a per-static-branch basis, full register values being loaded
+    from memory are frequently predictable as well.  Furthermore, we show that
+    simple microarchitectural enhancements to two modern microprocessor
+    implementations (based on the PowerPC 620 and Alpha 21164) that enable load
+    value prediction can effectively exploit value locality to collapse true
+    dependencies, reduce average memory latency and bandwidth requirements, and
+    provide measurable performance gains.", 
+  location     = "https://doi.org/10.1145/248209.237173"
+}
+
+@Article{satpocdvsm,
+  author       = "Mikko~H. Lipasti and Christopher~B. Wilkerson and John Paul Shen",
+  title        = "{SoftFLASH}:  Analyzing the Performance of Clustered Distributed Virtual Shared Memory",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "210--220",
+  month        = sep,
+  keywords     = "shared address space, relaxed memory consistency, network
+    requests",
+  abstract     = "One potentially attractive way to build large-scale
+    shared-memory machines is to use small-scale to medium-scale shared-memory
+    machines as clusters that are interconnected with an off-the-shelf network.
+    To create a shared-memory programming environment across the clusters, it
+    is possible to use a virtual shared-memory software layer.  Because of the
+    low latency and high bandwidth of the interconnect available within each
+    cluster, there are clear advantages in making the clusters as large as
+    possible.  The critical question then becomes whether the latency and
+    bandwidth of the top-level network and the software system are sufficient
+    to support the communication demands generated by the clusters.To explore
+    these questions, we have built an aggressive kernel implementation of a
+    virtual shared-memory system using SGI multiprocessors and 100Mbyte/sec
+    HIPPI interconnects.  The system obtains speedups on 32 processors (four
+    nodes, eight processors per node plus additional reserved protocol
+    processors) that range from 6.9 on the communication-intensive FFT program
+    to 21.6 on Ocean (both from the SPLASH 2 suite).  In general, clustering is
+    effective in reducing internode miss rates, but as the cluster size
+    increases, increases in the remote latency, mostly due to increased TLB
+    synchronization cost, offset the advantages.  For communication-intensive
+    applications, such as FFT, the overhead of sending out network requests,
+    the limited network bandwidth, and the long network latency prevent the
+    achievement of good performance.  Overall, this approach still appears
+    promising, but our results indicate that large low latency networks may be
+    needed to make cluster-based virtual shared-memory machines broadly useful
+    as large-scale shared-memory multiprocessors.", 
+  location     = "https://doi.org/10.1145/248209.237187"
+}
+
+@Article{tsapoi,
+  author       = "Theodore~H. Romer and Dennis Lee and Geoffrey~M. Voelker and Alec Wolman and Wayne~A. Wong and Jean-Loup Baer and Brian~N. Bershad and Henry~M. Levy",
+  title        = "The Structure and Peformance of Interpreters",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "150--159",
+  month        = sep,
+  keywords     = "interpreter performance, virtual machines, architectural
+    effects, instruction caches, performance",
+  abstract     = "Interpreted languages have become increasingly popular due to
+    demands for rapid program development, ease of use, portability, and
+    safety.  Beyond the general impression that they are 'slow,' however,
+    little has been documented about the performance of interpreters as a class
+    of applications.This paper examines interpreter performance by measuring
+    and analyzing interpreters from both software and hardware perspectives.
+    As examples, we measure the MIPSI, Java, Perl, and Tcl interpreters running
+    an array of micro and macro benchmarks on a DEC Alpha platform.  Our
+    measurements of these interpreters relate performance to the complexity of
+    the interpreter's virtual machine and demonstrate that native runtime
+    libraries can play a key role in providing good performance.  From an
+    architectural perspective, we show that interpreter performance is
+    primarily a function of the interpreter itself and is relatively
+    independent of the application being interpreted.  We also demonstrate that
+    high-level interpreters' demands on processor resources are comparable to
+    those of other complex compiled programs, such as gcc.  We conclude that
+    interpreters, as a class of applications, do not currently motivate special
+    hardware support for increased performance.", 
+  location     = "https://doi.org/10.1145/237090.237175"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -9833,6 +10467,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos94,\n  year         = 1994,\n  volume       = 29,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
+% eval: (set-register ?b "  journal      = asplos96,\n  year         = 1996,\n  volume       = 31,\n  number       = 9,\n  pages        = \"--\",\n  month        = sep,\n")
 % End:
 		  
