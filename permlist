@@ -1238,7 +1238,6 @@ habits of effective analysists : wiegers
 hackers introduction to partial evaluation : bacon
 handles and exception safety part 4 tracking references without counters : koenig
 handling control : sitaram
-happyjit a tracing jit compiler for php : homescu
 hard coding bottom up code generation tables to save time and space : fraser
 hardware compilation translating programs into circuits : wirth
 hardware software tradeoffs for increased performance : hennessy
