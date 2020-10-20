@@ -59879,24 +59879,23 @@
 }
 
 @TechReport{iusm,
-  author       = "Christopher~J. {Van Wyck}",
-  title        = "{IDEAL} User's Manual",
-  institution  = "AT\&T Bell Laboratories",
+  author       = "Christopher~J. {Van Wyk}",
+  title        = "{\sc IDEAL} User's Manual",
+  institution  = attbl,
   year         = 1981,
   type         = "Computing Science Technical Report No.",
   number       = 103,
   address      = mhnj,
-  abstract     = "IDEAL is a programming language to be used for describing
-		  pictures.  The main use of IDEAL is as a preprocessor to
-		  TROFF, so that pictures and text may reside in the same file
-		  and be typeset together.  This manual contains many examples
-		  of this use of IDEAL.  IDEAL proper produces
-		  device-independent  picture descriptions, so pictures may
-		  also be displayed through the UNIX(R) plot filters. This
-		  document describes how to use the existing implementation of
-		  IDEAL.",
   month        = "17 " # dec,
-  keywords     = "",
+  keywords     = "graphics language, constraint-based language, little
+    language, preprocessor, text processing, picture description language",
+  abstract     = "IDEAL is a programming language for describing pictures.
+    IDEAL is mainly as a preprocessor to TROFF, so pictures and text may reside
+    in the same file and be typeset together.  This manual contains many
+    examples of this use of IDEAL.  IDEAL proper produces device-independent
+    picture descriptions, so pictures may also be displayed through UNIX plot
+    filters. This document describes how to use IDEAL.", 
+  location     = "http://www.usm.lmu.de/~hoffmann/roff/103.pdf",
   location     = "http://www.cs.bell-labs.com/cm/cs/cstr/103.ps.gz"
 }
 
