@@ -2315,6 +2315,7 @@ swap space implementation : mauro
 sxml specification : kiselyov
 sxslt manipulation language for xml : kiselyov
 symbolic boolean manipulation with ordered binary decision diagrams : bryant
+symbolic debugging of optimized code : hennessy
 symbolic model checking using sat proceudres instead of bdds : biere
 symmertic and asymmetric encryption : simmons
 synchronization coherence and event ordering in multiprocessors : dubois
