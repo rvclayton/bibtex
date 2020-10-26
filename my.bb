@@ -1216,6 +1216,17 @@ Language Design and Implementation, PLDI '03)"}
   location     = "DK 34.A45 M54"
 }
 
+@Book{toogp,
+  author       = "Evelyn Waugh",
+  title        = "The Ordeal of Gilbert Pinfold",
+  subtitle     = "A Conversation Piece",
+  publisher    = "Little, Brown",
+  year         = 1957,
+  address      = boma,
+  keywords     = "travel, imagination",
+  location     = "PR 6045.A97 O73 "
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -6838,6 +6849,258 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1145/237090.237175"
 }
 
+@Article{eoasfgabcilspm,
+  author       = "Arvind Krishnamurthy and Klaus~E. Schauser and Chris~J. Scheiman and Randolph~Y. Wang and David~E. Culler and Katherine Yelick",
+  title        = "Evaluation of Architectural Support for Global Address-Based Communication in Large-Scale Parallel Machines",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "37--48",
+  month        = sep,
+  keywords     = "massively parallel machines, global memory architectures,
+    network processors, network interfaces",
+  abstract     = "Large-scale parallel machines are incorporating increasingly
+    sophisticated architectural support for user-level messaging and global
+    memory access.  We provide a systematic evaluation of a broad spectrum of
+    current design alternatives based on our implementations of a global
+    address language on the Thinking Machines CM-5, Intel Paragon, Meiko CS-2,
+    Cray T3D, and Berkeley NOW.  This evaluation includes a range of
+    compilation strategies that make varying use of the network processor; each
+    is optimized for the target architecture and the particular strategy.  We
+    analyze a family of interacting issues that determine the performance
+    trade-offs in each implementation, quantify the resulting latency,
+    overhead, and bandwidth of the global access operations, and demonstrate
+    the effects on application performance.", 
+  location     = "https://doi.org/10.1145/248209.237147", 
+  location     = "https://people.eecs.berkeley.edu/~culler/papers/asplos96-coproc.ps"
+}
+
+@Article{wpoftaset,
+  author       = "Dirk Grunwald and Richard Neves",
+  title        = "Whole-Pogram Optimization for Time and Space Efficient Threads",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "50--59",
+  month        = sep,
+  keywords     = "threaded programs, context switching, register save and
+    restore, whole-program analysis, link-time analysis",
+  abstract     = "Modern languages and operating systems often encourage
+    programmers to use threads, or independent control streams, to mask the
+    overhead of some operations and simplify program structure.  Multitasking
+    operating systems use threads to mask communication latency, either with
+    hardwares devices or users.  Client-server applications typically use
+    threads to simplify the complex control-flow that arises when multiple
+    clients are used.  Recently, the scientific computing community has started
+    using threads to mask network communication latency in massively parallel
+    architectures, allowing computation and communication to be overlapped.
+    Lastly, some architectures implement threads in hardware, using those
+    threads to tolerate memory latency.In general, it would be desirable if
+    threaded programs could be written to expose the largest degree of
+    parallelism possible, or to simplify the program design.  However, threads
+    incur time and space overheads, and programmers often compromise simple
+    designs for performance.  In this paper, we show how to reduce time and
+    space thread overhead using control flow and register liveness information
+    inferred after compilation.  Our techniques work on binaries, are not
+    specific to a particular compiler or thread library and reduce the 
+    overall execution time of fine-grain threaded programs by &amp;asymp;
+    15-30%.  We use execution-driven analysis and an instrumented operating
+    system to show why the execution time is reduced and to indicate areas for
+    future work.", 
+  location     = "https://doi.org/10.1145/248209.237149"
+}
+
+@Article{tsfcl,
+  author       = "James Philbin and Jan Edler and Otto~J. Anshus and Craig~C. Douglas and Kai Li",
+  title        = "Thread Scheduling for Cache Locality",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "60--71",
+  month        = sep,
+  keywords     = "find-grained threading, thread scheduling, cache-conflict
+    management, data partitioning",
+  abstract     = "This paper describes a method to improve the cache locality
+    of sequential programs by scheduling fine-grained threads.  The algorithm
+    relies upon hints provided at the time of thread creation to determine a
+    thread execution order likely to reduce cache misses.  This technique may
+    be particularly valuable when compiler-directed tiling is not feasible.
+    Experiments with several application programs, on two systems with
+    different cache structures, show that our thread scheduling method can
+    improve program performance by reducing second-level cache misses.", 
+  location     = "https://doi.org/10.1145/237090.237151", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-569-96"
+}
+
+@Article{trfcsosc,
+  author       = "Peter~M. Chen and Wee Teck Ng and Subhachandra Chandra and Christopher Aycock and Gurushankar Rajamani and David Lowell",
+  title        = "The {Rio File Cache}:  Surviving Operating System Crashes",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "74--83",
+  month        = sep,
+  keywords     = "non-volatile storage, disk-i/o reliability, file caching, ",
+  abstract     = "One of the fundamental limits to high-performance,
+    high-reliability file systems is memory's vulnerability to system crashes.
+    Because memory is viewed as unsafe, systems periodically write data back to
+    disk.  The extra disk traffic lowers performance, and the delay period
+    before data is safe lowers reliability.  The goal of the Rio (RAM I/O) file
+    cache is to make ordinary main memory safe for persistent storage by
+    enabling memory to survive operating system crashes.  Reliable memory
+    enables a system to achieve the best of both worlds: reliability equivalent
+    to a write-through file cache, where every write is instantly safe, and
+    performance equivalent to a pure write-back cache, with no
+    reliability-induced writes to disk.  To achieve reliability, we protect
+    memory during a crash and restore it during a reboot (a 'warm' reboot).
+    Extensive crash tests show that even without protection, warm reboot
+    enables memory to achieve reliability close to that of a write-through file
+    system.  Adding protection makes memory even safer than a write-through
+    file system while adding essentially no overhead.  By eliminating
+    reliability-induced disk writes, Rio performs 4-22 times as fast as a
+    write-through file system, 2-14 times as fast as a standard Unix file
+    system, and 1-3 times as fast as an optimized system that risks losing 30
+    seconds of data and metadata.", 
+  location     = "https://doi.org/10.1145/237090.237154",
+  location     = "https://web.eecs.umich.edu/~pmchen/papers/chen96.pdf"
+}
+
+@Article{pdvd,
+  author       = "Edward~K. Lee and Chandramohan~A. Thekkath",
+  title        = "Petal:  Distributed Virtual Disks",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "84--92",
+  month        = sep,
+  keywords     = "remote disk systems, recoverable disk systems, incremental
+    reconfiguration, distributed disk systems",
+  abstract     = "The ideal storage system is globally accessible, always
+    available, provides unlimited performance and capacity for a large number
+    of clients, and requires no management.  This paper describes the design,
+    implementation, and performance of Petal, a system that attempts to
+    approximate this ideal in practice through a novel combination of features.
+    Petal consists of a collection of network-connected servers that
+    cooperatively manage a pool of physical disks.  To a Petal client, this
+    collection appears as a highly available block-level storage system that
+    provides large abstract containers called virtual disks.  A virtual disk is
+    globally accessible to all Petal clients on the network.  A client can
+    create a virtual disk on demand to tap the entire capacity and performance
+    of the underlying physical resources.  Furthermore, additional resources,
+    such as servers and disks, can be automatically incorporated into Petal.We
+    have an initial Petal prototype consisting of four 225 MHz DEC 3000/700
+    workstations running Digital Unix and connected by a 155 Mbit/s ATM
+    network.  The prototype provides clients with virtual disks that tolerate
+    and recover from disk, server, and network failures.  Latency is comparable
+    to a locally attached disk, and throughput scales with the number of
+    servers.  The prototype can achieve I/O rates of up to 3150 requests/sec
+    and bandwidth up to 43.1 Mbytes/sec.", 
+  location     = "https://dl.acm.org/doi/10.1145/248209.237157",
+  location     = "https://www.scs.stanford.edu/nyu/01fa/sched/petal.pdf"
+}
+
+@Article{aqaolnl,
+  author       = "Kathryn~S. McKinley and Olivier Temam",
+  title        = "A Quantitative Analysis of Loop Nest Locality",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "94--104",
+  month        = sep,
+  keywords     = "loop nests, data locality, cache pollution, capacity and
+    conflict misses",
+  abstract     = "This paper analyzes and quantifies the locality
+    characteristics of numerical loop nests in order to suggest future
+    directions for architecture and software cache optimizations.  Since most
+    programs spend the majority of their time in nests, the vast majority of
+    cache optimization techniques target loop nests.  In contrast, the locality
+    characteristics that drive these optimizations are usually collected across
+    the entire application rather than the nest level.  Indeed, researchers
+    have studied numerical codes for so long that a number of commonly held
+    assertions have emerged on their locality characteristics.  In light of
+    these assertions, we use the Perfect Benchmarks to take a new look at
+    measuring locality on numerical codes based on references, loop nests, and
+    program locality properties.  Our results show that several popular
+    assertions are at best overstatements.  For example, we find that temporal
+    and spatial reuse have balanced roles within a loop nest and most reuse
+    across nests and the entire program is temporal.  These results are
+    consistent with high hit rates, but go against the commonly held assumption
+    that spatial reuse dominates.  Another result contrary to popular
+    assumption is that misses within a nest are overwhelmingly conflict misses
+    rather than capacity misses.  Capacity misses are a significant source of
+    misses for the entire program, but mostly correspond to potential reuse
+    between different loop nests.  Our locality measurements reveal important
+    differences between loop nests and programs; refute some popular
+    assertions; and provide new insights for the compiler writer and the
+    architect.", 
+  location     = "https://doi.org/10.1145/248208.237161", 
+  location     = "https://www.cs.utexas.edu/users/mckinley/papers/quant-asplos-1996.pdf"
+}
+
+@Article{tibroop,
+  author       = "Andrew~S. Huang and John Paul Shen",
+  title        = "The Intrinsic Bandwidth Requirements of Ordinary Programs",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "105--114",
+  month        = sep,
+  keywords     = "memory efficiency, bandwidth spectrum",
+  abstract     = "While there has been an abundance of recent papers on
+    hardware and software approaches to improving the performance of memory
+    accesses, few papers have addressed the problem from the program's point of
+    view.  There is a general notion that certain programs have larger working
+    sets than others.  However, there is no quantitative method for evaluating
+    and comparing the memory requirements of programs.This paper introduces the
+    bandwidth spectrum for characterizing the memory requirements of a
+    program's instruction and data stream.  The bandwidth spectrum measures the
+    average bandwidth requirement of a program as a function of available local
+    memory.  These measurements are performed under the most idealized
+    conditions of perfect knowledge and perfect memory management.  As such,
+    they represent the lower bounds on the memory requirements of programs.  We
+    present the bandwidth spectrums for a set of 22 benchmarks and show how
+    they can be used in the comparison of memory requirements and I/O
+    requirement.  The bandwidth spectrums also offer a convenient method to
+    weigh the trade-off amongst instruction issue rate, local memory capacity
+    and bandwidth into local memory.Using the bandwidth spectrum, we show that
+    at issue rates of four or less, bandwidth usually scales linearly with the
+    issue rate.  At higher issue rates, bandwidth can often scale superlinearly
+    with respect to issue rate.  Finally, we also investigate the effects of
+    varying the input sets on the bandwidth spectrums.", 
+  location     = "https://doi.org/10.1145/237090.237163"
+}
+
+@Article{sdooc,
+  author       = "John Hennessy",
+  title        = "Symbolic Debugging of Optimized Code",
+  journal      = toplas,
+  year         = 1982,
+  volume       = 4,
+  number       = 3,
+  pages        = "323--344",
+  month        = jul,
+  keywords     = "symbolic debugging, code optimization, directed acyclic
+    graphs, flow graphs", 
+  abstract     = "The long standing conflict between the optimization of code
+    and the ability to symbolically debug the code is examined.  The effects of
+    local and global optimizations on the variables of a program are
+    categorized and models for representing the effect of optimizations are
+    given.  These models are used by algorithms which determine the subset of
+    variables whose values do not correspond to those in the original program.
+    Algorithms for restoring these variables to their correct values are also
+    developed.  Empirical results from the application of these algorithms to
+    local optimization are presented.", 
+  location     = "https://doi.org/10.1145/357172.357173",
+  location     = "http://i.stanford.edu/pub/cstr/reports/csl/tr/79/175/CSL-TR-79-175.pdf"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -10354,6 +10617,28 @@ Language Design and Implementation, PLDI '03)"}
   month        = "25 " # feb,
   keywords     = "conservatism, fascism, pseudo-fascism, one-party states",
   location     = "https://dneiwert.blogspot.com/The%20Rise%20Of%20Pseudo%20Fascism.pdf"
+}
+
+@Misc{wtwtdrekp,
+  author       = "Karl~E. Wiegers",
+  title        = "When Telepathy Won't Do:  Requirements Engineering Key Practices",
+  howpublished = "https://www.processimpact.com",
+  year         = 2000,
+  month        = jul,
+  keywords     = "requirements engineering, planning, elicitation, analysis,
+    specification, verification, management",
+  abstract     = "The software industry exhibits an increasing interest in
+    requirements engineering — that is, understanding what you intend to build
+    before building it.  Time spent understanding the business problem is an
+    excellent investment.  Clients are getting serious about requirements
+    because the pain of building poor products is too great.  Applying
+    established good practices on projects best achieves requirements success.
+    This paper describes a requirements development process framework
+    incorporating key practices.  Some highly exploratory or innovative
+    projects can tolerate the excessive rework resulting from informal
+    requirements engineering.  Most development efforts will benefit from a
+    more deliberate and structured approach.", 
+  location     = "https://www.processimpact.com/articles/telepathy.pdf"
 }
 
 @InBook{aaiissd,
