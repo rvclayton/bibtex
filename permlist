@@ -1995,7 +1995,6 @@ reactive shared variables based systems : boussinot
 real time behavior of programs : haase
 real time data fusion in the intensive care unit : factor
 reasoning about time in higher level language software : shaw
-recognizers for extracting architectural features from source code : harris
 reconciling environment integration and component independence : sullivan
 reconstructing io : fraser
 record structures for advanced information systems : smura
