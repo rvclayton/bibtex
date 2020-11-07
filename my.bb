@@ -572,7 +572,7 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 @Book{gmmem,
-  author       = "Michael~E. Martenson",
+  author       = "Michael~E. Mortenson",
   title        = "Geometric Modeling",
   publisher    = "John Wiley \& Sons",
   year         = 1985,
@@ -1225,6 +1225,27 @@ Language Design and Implementation, PLDI '03)"}
   address      = boma,
   keywords     = "travel, imagination",
   location     = "PR 6045.A97 O73 "
+}
+
+@Book{ocbgh,
+  author       = "Barbara Grizzuti Harrison",
+  title        = "Off Center",
+  subtitle     = "Essays",
+  publisher    = "Dial Press",
+  year         = 1980,
+  address      = nyny,
+  keywords     = "joan didion, jane fonda, est, relationships, dick cavett",
+  location     = "AC 5.O33"
+}
+
+@Book{wawawsimit2c ,
+  author       = "Gary Younge",
+  title        = "Who Are We---And Why Should It Matter in the 21th Century?",
+  publisher    = "Nation Books",
+  year         = 2011,
+  address      = nyny,
+  keywords     = "identity, xenophobia, nationalism",
+  location     = "HM 753.Y68"
 }
 
 @Article{famw,
@@ -7101,6 +7122,103 @@ Language Design and Implementation, PLDI '03)"}
   location     = "http://i.stanford.edu/pub/cstr/reports/csl/tr/79/175/CSL-TR-79-175.pdf"
 }
 
+@Article{sacittm,
+  author       = "Steven~L. Scott",
+  title        = "Syncnronization and Communication in the {T3E} Multiprocessor",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "26--36",
+  month        = sep,
+  keywords     = "vector processors, system architecture, global communication,
+    atomic storage operations, messaging, synchronization, performance",
+  abstract     = "This paper describes the synchronization and communication
+    primitives of the Cray T3E multiprocessor, a shared memory system scalable
+    to 2048 processors.  We discuss what we have learned from the T3D project
+    (the predecessor to the T3E) and the rationale behind changes made for the
+    T3E.  We include performance measurements for various aspects of
+    communication and synchronization.The T3E augments the memory interface of
+    the DEC 21164 microprocessor with a large set of explicitly-managed,
+    external registers (E-registers).  E-registers are used as the source or
+    target for all remote communication.  They provide a highly pipelined
+    interface to global memory that allows dozens of requests per processor to
+    be outstanding.  Through E-registers, the T3E provides a rich set of atomic
+    memory operations and a flexible, user-level messaging facility.  The T3E
+    also provides a set of virtual hardware barrier/eureka networks that can be
+    arbitrarily embedded into the 3D torus interconnect.", 
+  location     = "https://doi.org/10.1145/248209.237144"
+}
+
+@Article{aeomcmfasmswip,
+  author       = "Vijay~S. Pai and Parthasarathy Ranganathan and Sarita~V. Adve and Tracy Harton",
+  title        = "An Evaluation of Memory Consistency Models for Shared-Memory Systems with {ILP} Processors",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "12--23",
+  month        = sep,
+  keywords     = "consistency models, sequential consistency, speculative
+    loads, write-through caches, write-back caches, release consistency, latency
+    toleration, fuzzy acquires, control dependencies",
+  abstract     = "Relaxed consistency models have been shown to significantly
+    outperform sequential consistency for single-issue, statically scheduled
+    processors with blocking reads.  However, current microprocessors
+    aggressively exploit instruction-level parallelism (ILP) using methods such
+    as multiple issue, dynamic scheduling, and non-blocking reads.  Researchers
+    have conjectured that two techniques, hardware-controlled non-binding
+    prefetching and speculative loads, have the potential to equalize the
+    hardware performance of memory consistency models on such processors.This
+    paper performs the first detailed quantitative comparison of several
+    implementations of sequential consistency and release consistency optimized
+    for aggressive ILP processors.  Our results indicate that hardware
+    prefetching and speculative loads dramatically improve the performance of
+    sequential consistency.  However, the gap between sequential consistency
+    and release consistency depends on the cache write policy and the
+    complexity of the cache-coherence protocol implementation.  In most cases,
+    release consistency significantly outperforms sequential consistency, but
+    for two applications, the use of a write-back primary cache and a more
+    complex cache-coherence protocol nearly equalizes the performance of the
+    two models.We also observe that the existing techniques, which require
+    on-chip hardware modifications, enhance the performance of release
+    consistency only to a small extent.  We propose two new software techniques
+    --- fuzzy acquires and selective acquires --- to achieve more overlap than
+    allowed by the previous implementations of release consistency.  To enhance
+    methods for overlapping acquires, we also propose a technique to eliminate
+    control dependences caused by an acquire loop, using a small amount of
+    off-chip hardware called the synchronization buffer.", 
+  location     = "https://doi.org/10.1145/248209.237142"
+}
+
+@Article{tcfascm,
+  author       = "Kunle Olukotun and Basem~A. Nayfeh and Lance Hammond and Ken Wilson and Kunyung Chang",
+  title        = "The Case for a Single-Chop Multiprocessor",
+  journal      = asplos96,
+  year         = 1996,
+  volume       = 31,
+  number       = 9,
+  pages        = "2--11",
+  month        = sep,
+  keywords     = "superscalar architectures, single-chip multiprocessors,
+    microarchitectures, architectural trade-offs",
+  abstract     = "Advances in IC processing allow for more microprocessor
+    design options. The increasing gate density and cost of wires in advanced
+    integrated circuit technologies require that we look for new ways to use
+    their capabilities effectively.  This paper shows that in advanced
+    technologies it is possible to implement a single-chip multiprocessor in
+    the same area as a wide issue superscalar processor.  We find that for
+    applications with little parallelism the performance of the two
+    microarchitectures is comparable.  For applications with large amounts of
+    parallelism at both the fine and coarse grained levels, the multiprocessor
+    microarchitecture outperforms the superscalar architecture by a significant
+    margin.  Single-chip multiprocessor architectures have the advantage in
+    that they offer localized implementation of a high-clock rate processor for
+    inherently sequential applications and low latency interprocessor
+    communication for parallel applications.", 
+  location     = "https://doi.org/10.1145/248209.237140"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -10526,6 +10644,96 @@ Language Design and Implementation, PLDI '03)"}
   location     = "http://dx.doi.org/10.1109/WCRE.1993.287784"
 }
 
+@InProceedings{aacis,
+  author       = "Nicholas Zvegintzov",
+  title        = "Analyzing and Controlling Installed Software",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "65--67",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "system modeling, real-time systems, configuration
+    management", 
+  abstract     = "Conclusion:  You have an engineering problem."
+}
+
+@InProceedings{pc,
+  author       = "Horst Zuse",
+  title        = "Program Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "61--64",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "measurement, program comprehension, mccabe metrics",
+  abstract     = "Measurement theory can advance program comprehension.
+    Empirical relational systems consisting of axioms can support program
+    comprehension."
+}
+
+@InProceedings{ripcsaad,
+  author       = "Norman Wilde",
+  title        = "Research in Program Comprehension:  Some Analogies and Directions",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "58--60",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "medicine, standardization, software engineering, analogies",
+  abstract     = "The exploding size and complexity of computer software
+    undoubtedly create unique problems for its maintainers.  Still, software
+    professionals might gain insight by considering how other professions have
+    managed to progress despite the great complexity of the systems they deal
+    with To develop a research agenda, we might consider some interesting
+    analogies from the practice of medicine."
+}
+
+@InProceedings{rfptpa,
+  author       = "Larry {Van Sickle} and Michael Ballantyne",
+  title        = "Reengineering for Porting Transaction Processing Applications",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "51--53",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "user interfaces, control structures, reconstruction",
+  abstract     = "The Reverse Engineering group at EDS Research has been
+    developing representations and software tools to mechanically assist in
+    understanding and reengineering COBOL transaction processing applications.
+    An EDS division approached us to help them convert a minicomputer
+    application to run under CICS on an IBM mainframe, each platform providing
+    a different environment.  The user interacts with the minicomputer on field
+    at a time, but interacts with CICS a full screen at a time.  This and other
+    differences between the environments demand sophisticated feature
+    extraction and restructuring techniques.  This paper describes the nature
+    of this large commercial problem and the tools and techniques being applied
+    to solve it."  
+}
+
+@InProceedings{fccmttc,
+  author       = "A.~{von Mayrhauser} and A.~M. Vans",
+  title        = "From Code Comprehension Model to Tool Capabilities",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "54--57",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "code comprehension models, knowledge base, situation models,
+    program models",
+  abstract     = "A major part of the maintenance effort is understanding the
+    existing code. If we can define and present the maintenance programmer with
+    information that best helps to understand the code, we can significantly
+    improve quality and efficiency of program understanding and thus
+    maintenance.  Our research goal is to develop a tool capability model based
+    on an integrated code comprehension model.  This will lead tools that
+    support maintenance tasks more effectively."
+}
+
 @Manual{ai43ict,
   title        = "An Introductory 4.{3BSD} Interprocess Communiation Tutorial",
   author       = "Stuart Sechrest",
@@ -10641,6 +10849,15 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://www.processimpact.com/articles/telepathy.pdf"
 }
 
+@Misc{txeadft,
+  author       = "Doug Hayes",
+  title        = "The {XTANGO} Environment and Differences from {TANGO}",
+  howpublished = unpublished,
+  year         = 1990,
+  month        = "3 " # nov,
+  keywords     = "algorithm animation, tango"
+}
+
 @InBook{aaiissd,
   author       = "Douglas~E. Comer and David~L. Stevens",
   title        = "Internetworking with {TCP/IP}",
@@ -10752,6 +10969,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos96,\n  year         = 1996,\n  volume       = 31,\n  number       = 9,\n  pages        = \"--\",\n  month        = sep,\n")
+% eval: (set-register ?b "  booktitle    = \"Workshop Notes on Program Comprehension, CSM-92\",\n  year         = 1992,\n  pages        = \"--\",\n  organization = \"IEEE Computer Society\",\n  address      = orfl,\n  month        = \"9 \" # nov,\n")
 % End:
 		  
