@@ -1248,6 +1248,26 @@ Language Design and Implementation, PLDI '03)"}
   location     = "HM 753.Y68"
 }
 
+@Book{brggob,
+  author       = "Gillian O'Brien",
+  title        = "Blood Runs Green",
+  subtitle     = "The Murder That Transfixed Gilded Age Chicago",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "nationalism, factionalism, journalism, late 19th century chicago",
+  location     = "HV 6534.C4 O27"
+}
+
+@Book{ialg,
+  author       = "Lisa Goldstein",
+  title        = "Ivory Apples",
+  publisher    = "Tachyon Publications",
+  year         = 2019,
+  address      = sfca,
+  keywords     = "muses, obsession"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -10732,6 +10752,354 @@ Language Design and Implementation, PLDI '03)"}
     maintenance.  Our research goal is to develop a tool capability model based
     on an integrated code comprehension model.  This will lead tools that
     support maintenance tasks more effectively."
+}
+
+@InProceedings{ipcooosswood,
+  author       = "Johannes Sametinger",
+  title        = "Improving Program Comprehension of Object-Oriented Software Systems with Object-Oriented Documentation",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "48--50",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "class libraries, application frameworks, documentation
+    inheritance",
+  abstract     = "Good (system) documentation should be complete, current, and
+    consistent in style.  We apply object-oriented technology to documentation
+    in order to improve its quality by better reflecting the logical structure
+    of a system.  This way of organizing software documentation erases program
+    comprehension of object-oriented systems." 
+}
+
+@InProceedings{rebspaads,
+  author       = "Spencer Rugaber",
+  title        = "Reverse Engineering by Simultaneous Program Analysis and Domain Synthesis",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "45--46",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "synchronized refinement, domain analysis",
+  abstract     = "Synchronized refinement consists of the parallel analysis of
+    the source code and synthesis of a functional description.  The process is
+    driven by the detection of design decisions in the source code.  Each
+    decision is annotated in the functional description.  The annotation states
+    how the decision contributes to the function accomplished by the
+    corresponding code.  After each decision is detected and annotated, the
+    corresponding part of the source code is replaced by an abbreviated
+    description.  In this way, the source code continually grows shorter while
+    the functional description grows more complete." 
+}
+
+@InProceedings{rotmisc,
+  author       = "Charles Altizer and Valdis Berzins",
+  title        = "Role of Translation Mechanisms in Software Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "1--3",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "domains, specification, translation",
+  abstract     = "Software reengineering is a reaction to growing software
+    costs.  It is often more cost-effective to keep and maintain existing
+    software as user requirements or operating environments change.  Forward
+    and reverse engineering are significant components of software
+    reengineering.  Due to the lack of available documentation for many legacy
+    software it is necessary to analyze source code to extract design
+    information so software can be modified.  A common point of reference for
+    software reengineering is the original system design.  Software maintenance
+    requires understanding the design, that is, comprehending software is
+    significant to reengineering.  Translation expresses some aspects of
+    reverse engineering.  Forward engineering translates system specifications
+    into implementation source code.  Sophisticated translator generator tools
+    let maintenance programmers develop forward and reverse engineering
+    translators which automate much of reengineering and let legacy systems be
+    effectively updated and maintained quickly at lower costs." 
+}
+
+@InProceedings{dfabfrpu,
+  author       = "Cornelia Boldyreff",
+  title        = "Design Frameworks:  a Basis for Recording Program Understanding",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "4--5",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "design frameworks, system understanding, change",
+  abstract     = "The method of design frameworks developed by the author has
+    been developed to support both the recording of program understanding and
+    its subsequent reuse in both maintenance and development.  Although the
+    initial focus in development has been primarily on describing software
+    concepts at the higher levels of abstraction required to facilitate their
+    reuse during the conceptual phase of design, this message is equally
+    applicable to accommodating other levels of understanding more appropriate
+    for maintenance of existing software." 
+}
+
+@InProceedings{srut,
+  author       = "Frank~H. Calliss",
+  title        = "Specification Recovery Using Transformations",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "6--8",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "specifications, program slicing, derivations, combinations",
+  abstract     = "Existing revere engineering techniques are not well suited to
+    large programs, as they often require that an entire program be analyzed
+    before any meaningful information is returned to a programmer.  A form of
+    incremental reverse engineering is presented, whereby a programmer can
+    derive the specification for sections of the program's code.  These partial
+    specifications can be stored in such a way that they can be reused in later
+    reverse engineering activities, thereby overcoming one of the problems that
+    exist with current reverse engineering techniques, namely that the result
+    of a previous reverse engineering activity is lost or recorded in a form
+    that does not facilitate reuse." 
+}
+
+@InProceedings{uooptd,
+  author       = "Frank~W. Calliss and Suzanne~W. Dietrich",
+  title        = "Understanding Object-Oriented Programs Through Deduction",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "9--12",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "deductive databases, system understanding, horn clauses",
+  abstract     = "Deductive databases allow for the declarative specification
+    and efficient evaluation of (recursive) rules expressed in logic.  By
+    extending the conceptual simplicity of the relational data model with a
+    rule capability, deductive databases offer the flexibility to both retrieve
+    and reason about knowledge in the database, which is in the form of both
+    facts and rules." 
+}
+
+@InProceedings{vvafpsc,
+  author       = "G.~Canfora and A.~Cimitile and U.~{De Carlini}",
+  title        = "{VAPS}:  Visual Aids for {Pascal} Software Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "13--14",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "graph presentations, pascal software, ux",
+  abstract     = "The VAPS environment is being developed in an on-going
+    project jointly by the DIS (Dept.  of 'Informatica e Sistemistica') of the
+    University of Naples and the DIS of the University of Rome.  VAPS consists
+    of a reverse engineering subsystem and a visual environment.  The reverse
+    engineering subsystem produces information and documents by static analysis
+    of Pascal code, while the visual environment interacts with the user.  Both
+    graphical and textual documents are used to provide the user with the
+    information abstracted by reverse engineering.  All the documents produced
+    are linked together in an hyper-text fashion and a multi-window environment
+    is used to show them.  These documents describe a software system according
+    to three different levels of abstractions: high level design, low-level
+    design and code." 
+}
+
+@InProceedings{pspcw,
+  author       = "Bill Curtis",
+  title        = "Position Statement --- Program Comprehension Workshop",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "18--20",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "segmentation, verification, hypothesis generation, synthesis",
+  abstract     = "Program comprehension or its design is a central component of
+    many larger software tasks which as coding, debugging, and modification.
+    Based on observations from previous research and reports such as that by
+    Basili and Mills, we propose a simple model of program comprehension from
+    which to derive our dependent variables and operational hypotheses for this
+    experiment.  The model will be limited to the performance of tasks
+    involving a single module rather than to tasks involving several modules.
+    The structure of a model for multi-module tasks might be similar to the one
+    proposed here, but would be tailored for processes at a higher level of
+    program abstraction." 
+}
+
+@InProceedings{upsfsc,
+  author       = "Filippo Cutillo and Filippo Lanubile and Giuseppe Visaggio",
+  title        = "Using Program Slicing for Software Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "21--22",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "program slicing, functional abstraction",
+  abstract     = "We propose program slicing as a technique of software
+    comprehension which is coherent with the top-down theory.  Program slicing
+    has been applied to debugging, parallel processing, module integration,
+    evaluation of module cohesion, testing and modification.  Our objective is
+    to extract conceptual function from programs using program slicing.  To
+    achieve this goal we use a partial knowledge of the application derived
+    from maintainer expertise and reverse engineering data."
+}
+
+@InProceedings{asmucas,
+  author       = "David~A. Dampier and Luqi",
+  title        = "Automated Software Maintenance Using Comprehension and Specification",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "24--26",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "prototypes, psdl, conflict resolution",
+  abstract     = "More complex software demands more sophisticated software
+    development and maintenance methods.  These methods can also be used when
+    dealing with old software systems.  Program comprehension methods extract a
+    specification from an old software system, and our methods are then used in
+    forward engineering of the new software system.  In the Computer-Aided
+    Prototyping System (CAPS), quickly built and iteratively updated prototypes
+    of the intended system are demonstrated to the user.  As these updates
+    occur, a formal mechanism must be developed to automatically integrate
+    these changes into the existing prototype.  This paper formalizes the
+    update/change integration process and extends the idea to multiple changes
+    to the same base prototype.  Application of this technology include:
+    automatic updating of different versions of existing software with changes
+    made to the base system; integrating changes made by different design teams
+    during development; and performing consistency checking after integration
+    of seemingly disjoint changes to the same software system." 
+}
+
+@InProceedings{airfpc,
+  author       = "Mary Jean Harrold and Brian Malloy",
+  title        = "An Integrated Representation for Program Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "27--28",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "program maintenance, unified procedural graph, program
+    understanding",
+  abstract     = "Our approach is to develop an integrated program
+    representation and use it to provide many different maintenance tools to
+    assist in program understanding.  Previously, we presented our unified
+    interprocedural graph that integrates control- and data-flow along with
+    control- and data-dependency information into a single representation.
+    However, to get this interprocedural information, we require both the
+    control flow graphs and the PDG's of each procedure involved.  We have
+    extended this research to provide a single integrated representation for
+    each procedure that contains the data- and control-flow information
+    provided by the individual graphs.  Our integrated representation is an
+    extension of the PDG that eliminates the need for the control flow graph of
+    a procedure in most cases.  Thus, we use our extended PDG as our only
+    procedure representation from which we abstract information to construct
+    the unified interprocedural graph and for tools assist in program
+    understanding." 
+}
+
+@InProceedings{apcbcr,
+  author       = "Wojtek Kozaczynski and Jim Ning",
+  title        = "Automating Program Comprehension by Concept Recognition",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "29--31",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "concept recognition, program comprehension",
+  abstract     = "Browsing-based tools assist in exploring program properties.
+    It's the user's responsibility to reason about the meaning of the program
+    under analysis.  As the user builds understanding of individual concepts,
+    existing tools don't help generalize the knowledge to automate the
+    understanding of similar concepts in other programs.  Providing this type
+    of assistance to program maintainers requires automating program
+    comprehension." 
+}
+
+@InProceedings{tfsc,
+  author       = "David~P. Olshefski",
+  title        = "Tools Facilitating Software Comprehension",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "32--34",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "architecture, pundit, data presentation",
+  abstract     = "Our recent work developed a prototype program understanding
+    system. It serves as a vehicle for exploring and testing program
+    understanding ideas.  The system, named PUNDIT, combines statically
+    collected semantic information with debugging capabilities to help the
+    programmer understand both the static nature and dynamic behavior of a
+    program.  Our experience has led us to the following conclusions concerning
+    program comprehension systems: Static and dynamic information should be
+    integrated and presented together.  Presenting large amounts of data to the
+    user in a useful manner is a more difficult problem than source code
+    analysis.  Integration into current build processes and library systems is
+    important.  Program comprehension systems should take advantage of existing
+    compiler technology.  Performance is a key to user acceptance and this
+    means, for now at least, that the use of a database to contain analysis
+    information is unacceptable." 
+}
+
+@InProceedings{rakfic,
+  author       = "Stephen~B. Ornburn and Richard~J. LeBlanc",
+  title        = "Recovering Application Knowledge from Imperative Code",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "35--37",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "application knowledge, knowledge structure, application
+  rules, ",
+  abstract     = "A model relating rule-based representations of application
+    knowledge and imperative programs encoding is introduced.  This model,
+    developed over the course of several experiments in reverse engineering,
+    provides insight into the technical problems which must be solved when
+    making explicit the conditions under which operations are performed.  This
+    model is particularly useful in its ability to distinguish between code
+    supporting the program's functional behavior from code responsible for
+    ensuring that various safety and liveness constraints are satisfied." 
+}
+
+@InProceedings{putahiqfoarer,
+  author       = "Gary Ostrolenk",
+  title        = "Program Understanding Through Ad Hoc, Interactive Query Facilities on a Reverse Engineering Repository",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "38--41",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "database queries, attributes, views, identity",
+  abstract     = "In any reverse engineering toolkit, facilities for the
+    maintenance engineer to query its repository directly are essential for
+    program comprehension.  Along with structured source code browsers and
+    static analysis tools, they enable the engineer to gain an initial
+    understanding of the code and they support the engineering in abstracting
+    to higher level descriptions of the application.  This paper outlines some
+    of the requirements such query facilities should satisfy." 
+}
+
+@InProceedings{pcaacp,
+  author       = "Alex Quilici",
+  title        = "Program Comprehension as a Cooperative Process",
+  booktitle    = "Workshop Notes on Program Comprehension, CSM-92",
+  year         = 1992,
+  pages        = "42--44",
+  organization = "IEEE Computer Society",
+  address      = orfl,
+  month        = "9 " # nov,
+  keywords     = "program understanding, data collection",
+  abstract     = "We've been exploring approaches to automated program
+    understanding of realistic C and Fortran programs.  Our experience in this
+    endeavor have led to us to the belief that automated program understanding
+    is doomed unless it's designed as part of a complete environment to assist
+    programmers in understanding software." 
 }
 
 @Manual{ai43ict,
