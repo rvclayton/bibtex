@@ -1,13 +1,11 @@
 .so bibtex.header
 
 @string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
-@string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{asplos92 = sigplan # " (" # pot # "Fifth International Conference on " # asplos # ", ASPLOS V)"}
 @string{asplos94 = sigplan # " (" # pot # "Sixth International Conference on " # asplos # ", ASPLOS VI)"}
 @string{asplos96 = sigplan # " (" # pot # "Seventh International Conference on " # asplos # ", ASPLOS VII)"}
-@string{icfp02 = sigplan # " (" # pot # "Seventh ACM SIGPLAN International Conference on Functional Programming, ICFP '02)" }
-@string{osdi96 = osr # " (" # pot # "Second USENIX Symposium on Operating Systems Design and Implementation, OSDI '96)"}
-@string{ppeals88 = sigplan # " (" # pot # "ACM\slash SIGPLAN Conference on Parallel Programming: Experience with Applications, Languages and Systems, PPEALS '88)"}
+@string{asplos98 = sigplan # " (" # pot # "Eighth International Conference on " # asplos # ", ASPLOS VIII)"}
+@string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming
 Language Design and Implementation, PLDI '03)"}
 @string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
@@ -1266,6 +1264,17 @@ Language Design and Implementation, PLDI '03)"}
   year         = 2019,
   address      = sfca,
   keywords     = "muses, obsession"
+}
+
+@Book{gcm2003,
+  author       = "Caroline Moorehead",
+  title        = "Gellhorn",
+  subtitle     = "A Twentieth-Century Life",
+  publisher    = "Henry Holt",
+  year         = 2008,
+  address      = nyny,
+  keywords     = "war reporting, biography",
+  location     = "PN 4874.G348 M66"
 }
 
 @Article{famw,
@@ -7239,6 +7248,185 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1145/248209.237140"
 }
 
+@Article{vssfhpp,
+  author       = "Chao-Ying Fu and Matthew~D. Jennings and Sergei~Y. Larin and Thomas~M. Conte",
+  title        = "Value Speculation Scheduling for High Performance Processors",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "262--271",
+  month        = oct,
+  keywords     = "value prediction, speculative scheduling, ilp",
+  abstract     = "Recent research in value prediction shows a surprising amount of predictability for the values produced by register-writing instructions.  Several hardware based value predictor designs have been proposed to exploit this predictability by eliminating flow dependencies for highly predictable values.  This paper proposed a hardware and software based scheme for value speculation scheduling (VSS).  Static VLIW scheduling techniques are used to speculate value dependent instructions by scheduling them above the instructions whose results they are dependent on.  Prediction hardware is used to provide value predictions for allowing the execution of speculated instructions to continue.  In the case of miss-predicted values, control flow is redirected to patch-up code so that execution can proceed with the correct results.  In this paper, experiments in VSS for load operations in the SPECint95 benchmarks are performed.  Speedup of up to 17% has been shown for using VSS.  Empirical results on the value predictability of loads, based on value profiling data, are also provided.",
+  location     = "https://doi.org/10.1145/384265.291058",
+  location     = "https://people.engr.ncsu.edu/hzhou/VS.pdf"
+}
+
+@Article{aesodiem,
+  author       = "Narayan Ranganathan and Manoj Franklin",
+  title        = "An Empirical Study of Decentralized {ILP} Execution Models",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "272--281",
+  month        = oct,
+  keywords     = "decentralized ilp, dependencies, partitioning",
+  abstract     = "Recent fascination for dynamic scheduling as a means for
+    exploiting instruction-level parallelism has introduced significant
+    interest in the scalability aspects of dynamic scheduling hardware.  In
+    order to overcome the scalability problems of centralized hardware
+    schedulers, many decentralized execution models are being proposed and
+    investigated recently.  The crux of all these models is to split the
+    instruction window across multiple processing elements (PEs) that do
+    independent, scheduling of instructions.  The decentralized execution
+    models proposed so far can be grouped under 3 categories, based on the
+    criterion used for assigning an instruction to a particular PE.  They are:
+    (i) execution unit dependence based decentralization (EDD), (ii) control
+    dependence based decentralization (CDD), and (iii) data dependence based
+    decentralization (DDD).  This paper investigates the performance aspects of
+    these three decentralization approaches.  Using a suite of important
+    benchmarks and realistic system parameters, we examine performance
+    differences resulting from the type of partitioning as well as from
+    specific implementation issues such as the type of PE interconnect.We found
+    that with a ring-type PE interconnect, the DDD approach performs the best
+    when the number of PEs is moderate, and that the CDD approach performs best
+    when the number of PEs is large.  The currently used approach---EDD---does
+    not perform well for any configuration.  With a realistic crossbar,
+    performance does not increase with the number of PEs for any of the
+    partitioning approaches.  The results give insight into the best way to use
+    the transistor budget available for implementing the instruction window.", 
+  location     = "https://doi.org/10.1145/291006.291061"
+}
+
+@Article{fooopsum,
+  author       = "Eric Schnarr and James~R. Larus",
+  title        = "Fast Out-of-Order Processor Simulation Using Memoization",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "283--294",
+  month        = oct,
+  keywords     = "out-of-order processor simulation, direct execution,
+    memoization, simulating speculative execution, fast fowarding, ",
+  abstract     = "Our new out-of-order processor simulatol; FastSim, uses two
+    innovations to speed up simulation 8--15 times (vs.  Wisconsin
+    SimpleScalar) with no loss in simulation accuracy.  First, FastSim uses
+    speculative direct-execution to accelerate the functional emulation of
+    speculatively executed program code.  Second, it uses a variation on
+    memoization---a well-known technique in programming language
+    implementation---to cache microarchitecture states and the resulting
+    simulator actions, and then 'fast forwards' the simulation the next time a
+    cached state is reached.  Fast-forwarding accelerates simulation by an
+    order of magnitude, while producing exactly the same, cycle-accurate result
+    as conventional simulation.", 
+  location     = "https://doi.org/10.1145/384265.291063",
+  location     = "ftp://ftp.cs.wisc.edu/wwt/asplos98_fastsim.pdf"
+}
+
+@Article{podwosmswooop,
+  author       = "Parthasarathy Ranganathan and Kourosh Gharachorloo and Sarita~V. Adve and Luiz André Barroso",
+  title        = "Performance of Database Workloads on Shared-Memory Systems with Out-of-Order Processors",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "307--318",
+  month        = oct,
+  keywords     = "workload variation, aggressive ilp, multi- vs uni-processors,
+    performance bottlenecks",
+  abstract     = "Database applications such as online transaction processing
+    (OLTP) and decision support systems (DSS) constitute the largest and
+    fastest-growing segment of the market for multiprocessor servers.  However,
+    most current system designs have been optimized to perform well on
+    scientific and engineering workloads.  Given the radically different
+    behavior of database workloads (especially OLTP), it is important to
+    re-evaluate key system design decisions in the context of this important
+    class of applications.This paper examines the behavior of database
+    workloads on shared-memory multiprocessors with aggressive out-of-order
+    processors, and considers simple optimizations that can provide further
+    performance improvements.  Our study is based on detailed simulations of
+    the Oracle commercial database engine.  The results show that the
+    combination of out-of-order execution and multiple instruction issue is
+    indeed effective in improving performance of database workloads, providing
+    gains of 1.5 and 2.6 times over an in-order single-issue processor for OLTP
+    and DSS, respectively.  In addition, speculative techniques enable
+    optimized implementations of memory consistency models that significantly
+    improve the performance of stricter consistency models, bringing the
+    performance to within 10--15% of the performance of more relaxed models.The
+    second part of our study focuses on the more challenging OLTP workload.  We
+    show that an instruction stream buffer is effective in reducing the
+    remaining instruction stalls in OLTP, providing a 17% reduction in
+    execution time (approaching a perfect instruction cache to within 15%).
+    Furthermore, our characterization shows that a large fraction of the data
+    communication misses in OLTP exhibit migratory behavior; our preliminary
+    results show that software prefetch and writeback/flush hints can be used
+    for this data to further reduce execution time by 12%.", 
+  location     = "https://doi.org/10.1145/291069.291067"
+}
+
+@Article{alasmmutrmapto,
+  author       = "Bruce~L. Jacob and Trevor~N. Mudge",
+  title        = "{A} Look at Several Memory Management Units, {TLB}-Refill Mechanisms and Page Table Organizations",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "295--306",
+  month        = oct,
+  keywords     = "ultrix, mach, intel, pa-risc",
+  abstract     = "Virtual memory is a staple in modem systems, though there is
+    little agreement on how its functionality is to be implemented on either
+    the hardware or software side of the interface.  The myriad of design
+    choices and incompatible hardware mechanisms suggests potential performance
+    problems, especially since increasing numbers of systems (even embedded
+    systems) are using memory management.  A comparative study of the
+    implementation choices in virtual memory should therefore aid system-level
+    designers.This paper compares several virtual memory designs, including
+    combinations of hierarchical and inverted page tables on hardware-managed
+    and software-managed translation lookaside buffers (TLBs).  The simulations
+    show that systems are fairly sensitive to TLB size; that interrupts already
+    account for a large portion of memory-management overhead and can become a
+    significant factor as processors execute more concurrent instructions; and
+    that if one includes the cache misses inflicted on applications by the VM
+    system, the total VM overhead is roughly twice what was thought (10--20%
+    rather than 5--10%).", 
+  location     = "https://doi.org/10.1145/291069.291065",
+  location     = "https://user.eng.umd.edu/~blj/papers/asplos98.pdf"
+}
+
+@Article{ammpbimimadu,
+  author       = "Daniel Citron and Dror Feitelson and Larry Rudolph",
+  title        = "Accelerating Multi-Media Processing by Implementing Memoing in Multiplication and Division Units",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "252--259",
+  month        = oct,
+  keywords     = "computational acceleration, caching",
+  abstract     = "This paper proposes a technique that enables performing
+    multi-cycle (multiplication, division, square-root...) computations in a
+    single cycle.  The technique is based on the notion of memoing: saving the
+    input and output of previous calculations and using the output if the input
+    is encountered again.  This technique is especially suitable for
+    Multi-Media (MM) processing.  In MM applications the local entropy of the
+    data tends to be low which results in repeated operations on the same
+    datum.The inputs and outputs of assembly level operations are stored in
+    cache-like lookup tables and accessed in parallel to the conventional
+    computation.  A successful lookup gives the result of a multi-cycle
+    computation in a single cycle, and a failed lookup doesn't necessitate a
+    penalty in computation time.Results of simulations have shown that on the
+    average, for a modestly sized memo-table, about 40% of the floating point
+    multiplications and 50% of the floating point divisions, in Multi-Media
+    applications, can be avoided by using the values within the memo-table,
+    leading to an average computational speedup of more than 20%.",
+  location     = "https://doi.org/10.1145/291069.291056",
+  location     = "http://people.csail.mit.edu/rudolph/Autobiography/papers/MemoingMM98ASPLOS.ps"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -11337,6 +11525,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  booktitle    = \"Workshop Notes on Program Comprehension, CSM-92\",\n  year         = 1992,\n  pages        = \"--\",\n  organization = \"IEEE Computer Society\",\n  address      = orfl,\n  month        = \"9 \" # nov,\n")
+% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 32,\n  number       = 5,\n  pages        = \"262--271\",\n  month        = oct,\n")
 % End:
 		  
