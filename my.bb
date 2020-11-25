@@ -1277,6 +1277,28 @@ Language Design and Implementation, PLDI '03)"}
   location     = "PN 4874.G348 M66"
 }
 
+@Book{jdmeh,
+  author       = "Elsa Hart",
+  title        = "Jade Dragon Mountain",
+  publisher    = "Minotaur Books",
+  year         = 2015,
+  address      = nyny,
+  month        = sep,
+  keywords     = "18th century china, astronomy, white devils",
+  location     = "PS 3608.A78455 J33"
+}
+
+@Book{avftbdf,
+  author       = "Doug Feldmann",
+  title        = "{A} View From Two Benches",
+  subtitle     = "Bob Thomas in Football and the Law",
+  publisher    = "Northern Illinois University Press",
+  year         = 2020,
+  address      = "Ithica, N.Y.",
+  keywords     = "football, law",
+  location     = "GV939.T454.F44"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -7427,6 +7449,235 @@ Language Design and Implementation, PLDI '03)"}
   location     = "http://people.csail.mit.edu/rudolph/Autobiography/papers/MemoingMM98ASPLOS.ps"
 }
 
+@Article{aoooetfrbt,
+  author       = "Bich~C. Le",
+  title        = "An Out-of-Order Execution Technique for Runtime Binary Translators",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "151--158",
+  month        = oct,
+  keywords     = "out-of-order execution, exact exception handling, emulation",
+  abstract     = "A dynamic translator emulates an instruction set architccturc
+    by translating source instructions to native code during execution.  On
+    statically-scheduled hardware, higher performance can potentially be
+    achieved by reordering the translated instructions; however, this is a
+    challenging transformation if the source architecture supports precise
+    exception semantics, and the user-level program is allowed to register
+    exception handlers.  This paper presents a software technique which allows
+    a translator to achieve the out-of-order execution of user-level programs,
+    while preserving all sequential semantics.  The design combines a
+    translator, an interpreter, and a set of operating system services.  Using
+    the proposed techniques, a dynamic translator can optimistically reorder
+    instructions and speculate them across branch boundaries.  If a
+    mispeculated operation causes an exception, the recovery algorithm reverts
+    the application state to a safe point, then retranslates the faulty code
+    without reordering to disable further exceptions.", 
+  location     = "https://doi.org/10.1145/291069.291039"
+}
+
+@Article{oewtunsefmp,
+  author       = "Chandra Krintz and Brad Calder and Han Bok Lee and Benjamin~G. Zorn",
+  title        = "Overlapping Execution with Transfer Using Non-Strict Execution for Mobile Programs",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "159--169",
+  month        = oct,
+  keywords     = "non-strict execution, code re-ordering, low-latency
+    downloading",
+  abstract     = "In order to execute a program on a remote computer, it
+    must first be transferred over a network.  This transmission incurs the
+    over-head of network latency before execution can begin.  This latency can
+    vary greatly depending upon the size of the program., where it is located
+    (e.g., on a local network or across the Internet), and the bandwidth
+    available to retrieve the program.  Existing technologies, like Java,
+    require that a jle be filly transferred before it can start executing.  For
+    large files and low bandwidth lines, this delay can be significant.In this
+    paper we propose and evaluate a non-strict form of mobile program
+    execution.  A mobile program is any program that is transferred to a
+    different machine and executed.  The goal of nonstrict execution is to
+    overlap execution with transfer; allowing the program to start executing as
+    soon as possible.  Non-strict execution allows a procedure in the program
+    to start executing as soon as its code and data have transferred.  To
+    enable this technology, we examine several techniques for rearranging
+    procedures and reorganizing the data inside Java classjles.  Our results
+    show that nonstrict execution decreases the initial transfer delay between
+    31% and 56% on average, with an average reduction in overall execution time
+    between 25% and 40%.", 
+  location     = "https://doi.org/10.1145/291006.291040"
+}
+
+@Article{vlpbp,
+  author       = "Jared Stark and Marius Evers and Yale~N. Patt",
+  title        = "Variable Length Path Branch Prediction",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "170--179",
+  month        = oct,
+  keywords     = "branch prediction, dynamic path length, profiling,
+    pipelining",
+  abstract     = "Accurate branch prediction is required to achieve high
+    performance in deeply pipelined, wide-issue processors.  Recent studies
+    have shown that conditional and indirect (or computed) branch targets can
+    be accuratelypredicted by recording the path, which consists of the target
+    addresses of recent branches, leading up to the branch.  In current path
+    based branch predictors, the N most recent target addresses are hashed
+    together to form an index into a table, where N is some fixed integer.  The
+    indexed table entry isused to make a prediction for the current branch.This
+    paper introduces a new branch predictor in which the value of N is allowed
+    to vary.  By constructing the index into the table using the last N target
+    addresses, and using profiling information to select the proper value of N
+    for each branch, extremely accurate branch prediction is achieved.  For the
+    SPECint95 gee benchmark, this new predictor has a conditional branch
+    misprediction rate of 4.3% given a 4K byte hardware budget.  For
+    comparison, the gshare predictor, a predictor known for its high accuracy,
+    has a conditional branch misprediction rate of 8.8% given the same hardware
+    budget.  For the indirect branches in gee, the new predictor achieves a
+    misprediction rate of 27.7% when given a hardware budget of 512 bytes,
+    whereas the best competingpredictor achieves a misprediction rate of 44.2%
+    when given the same hardware budget.", 
+  location     = "https://doi.org/10.1145/291006.291042"
+}
+
+@Article{pisaiismm,
+  author       = "Ben Verghese and Anoop Gupta and Mendel Rosenblum",
+  title        = "Performance Isolation:  Sharing and Isolation in Shared-Memory Multiprocessors",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "181--192",
+  month        = oct,
+  keywords     = "performance isolation, resource sharing, group resource
+    management", 
+  abstract     = "Shared-memory multiprocessors (SMPs) are being extensively
+    used as general-purpose servers.  The tight coupling of multiple
+    processors, memory, and I/O provides enormous computing power in a single
+    system, and enables the efficient sharing of these resources.The operating
+    systems for these machines (UNIX or Windows NT) provide very few controls
+    for sharing the resources of the system among the active tasks or users.
+    This unconstrained sharing model is a serious limitation for a server
+    because the load placed by one user can adversely affect other users'
+    performance in an unpredictable manner.  We show that this lack of
+    isolation is caused by the resource allocation scheme (or lack thereof)
+    carried over from singleuser workstations.  Multi-user multiprocessor
+    systems require more sophisticated resource management, and we show how the
+    proposed 'performance isolation' scheme can address the current weaknesses
+    of these systems.  We have implemented performance isolation in the Silicon
+    Graphics IRIX operating system for three important system resources: CPU
+    time, memory, and disk bandwidth.  Running a number of workloads we show
+    that our proposed scheme is successful at providing workstation-like
+    isolation under heavy load, SMP-like latency under light load, and SMP-like
+    throughput in all cases.", 
+  location     = "https://doi.org/10.1145/291006.291044"
+}
+
+@Article{uamfatoni,
+  author       = "Yuqun Chen and Angelos Bilas and Stefanos~N. Damianakis and Cezary Dubnicki and Kai Li",
+  title        = "{UTLB}: {A} Mechanism for Address Translation on Network Interfaces",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "193--204",
+  month        = oct,
+  keywords     = "dma, caching",
+  abstract     = "An important aspect of a high-speed network system is the
+    ability to transfer data directly between the network interface and
+    application buffers.  Such a direct data path requires the network
+    interface to 'know' the virtual-to-physical address translation of a user
+    buffer, i.e., the physical memory location of the buffer.  This paper
+    presents an efficient address translation architecture, User-managed TLB
+    (UTLB), which eliminates system calls and device interrupts from the common
+    communication path.  UTLB also supports application-specific policies to
+    pin and unpin application memory.  We report micro-benchmark results for an
+    implementation on Myrinet PC clusters.  A trace-driven analysis is used to
+    compare the UTLB approach with the interrupt-based approach.  It is also
+    used to study the effects of UTLB cache size, associativity, and
+    prefetching.  Our results show that the UTLB approach delivers robust
+    performance with relatively small translation cache sizes.", 
+  location     = "https://doi.org/10.1145/291006.291046", 
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-580-98"
+}
+
+@Article{lardicbns,
+  author       = "Vivek~S. Pai and Mohit Aron and Gaurov Banga and Michael Svendsen and Peter Druschel and Willy Zwaenepoel and Erich Nahum",
+  title        = "Locality-Aware Request Distribution in Cluster-Based Network Servers",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "205--216",
+  month        = oct,
+  keywords     = "load balancing, task assignment, cache locality, tcp
+    connection hand-offs",
+  abstract     = "We consider cluster-based network servers in which a
+    front-end directs incoming requests to one of a number of back-ends.
+    Specifically, we consider content-based request distribution: the front-end
+    uses the content requested, in addition to information about the load on
+    the back-end nodes, to choose which back-end will handle this request.
+    Content-based request distribution can improve locality in the back-ends'
+    main memory caches, increase secondary storage scalability by partitioning
+    the server's database, and provide the ability to employ back-end nodes
+    that are specialized for certain types of requests.As a specific policy for
+    content-based request distribution, we introduce a simple, practical
+    strategy for locality-aware request distribution (LARD).  With LARD, the
+    front-end distributes incoming requests in a manner that achieves high
+    locality in the back-ends' main memory caches as well as load balancing.
+    Locality is increased by dynamically subdividing the server's working set
+    over the back-ends.  Trace-based simulation results and measurements on a
+    prototype implementation demonstrate substantial performance improvements
+    over state-of-the-art approaches that use only load information to
+    distribute requests.  On workloads with working sets that do not fit in a
+    single server node's main memory cache, the achieved throughput exceeds
+    that of the state-of-the-art approach by a factor of two to four.With
+    content-based distribution, incoming requests must be handed off to a
+    back-end in a manner transparent to the client, after the front-end has
+    inspected the content of the request.  To this end, we introduce an
+    efficient TCP handoflprotocol that can hand off an established TCP
+    connection in a client-transparent manner.", 
+  location     = "https://doi.org/10.1145/291006.291048", 
+  location     = "http://www.cs.rice.edu/~alc/comp520/papers/p205-pai.pdf"
+}
+
+@Article{iolmp,
+  author       = "Olivier Temam",
+  title        = "Investigating Optimal Local Memory Performance",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 32,
+  number       = 5,
+  pages        = "218--227",
+  month        = oct,
+  keywords     = "locality, register managementb",
+  abstract     = "Recent work has demonstrated that, cache space is often
+    poorly utilized.  However, no previous work has yet demonstrated upper
+    bounds on what a cache or local memory could achieve when exploiting both
+    spatial and temporal locality.  Belady's MIN algorithm does yield an upper
+    bound, but exploits only temporal locality.  In this article, we present an
+    optimal replacement algorithm for local memory that exploits temporal
+    locality and spatial locality simultaneously.  This algorithm is an
+    extension of Belady's algorithm.  We prove the optimality of this new
+    algorithm with respect to minimizing misses, and we show experimentally
+    that the algorithm produces nearly minimum memory traffic on the SPEC95
+    benchmarks.  Like Belady's algorithm, our algorithm requires the entire
+    program trace.  It selects replacement victims and the number of words it
+    fetches at once based on future accesses.  Many different spatial locality
+    strategies can be implemented with this algorithm.  With an optimal
+    strategy, the algorithm yields an upper bound that enables us to evaluate
+    alternative implementations to today's caches.  We further demonstrate the
+    utility of this algorithm as an analysis tool by evaluating several
+    intermediate strategies between cache and optimal to highlight the
+    limitations of the cache line paradigm using the SPEC95 benchmarks.", 
+  location     = "https://doi.org/10.1145/291069.291050", 
+  location     = "http://pages.saclay.inria.fr/olivier.temam/files/eval/Tem98.pdf"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -11525,6 +11776,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 32,\n  number       = 5,\n  pages        = \"262--271\",\n  month        = oct,\n")
+% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 32,\n  number       = 5,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
 		  
