@@ -1290,13 +1290,36 @@ Language Design and Implementation, PLDI '03)"}
 
 @Book{avftbdf,
   author       = "Doug Feldmann",
-  title        = "{A} View From Two Benches",
+  title        = "A View From Two Benches",
   subtitle     = "Bob Thomas in Football and the Law",
   publisher    = "Northern Illinois University Press",
   year         = 2020,
   address      = "Ithica, N.Y.",
   keywords     = "football, law",
   location     = "GV939.T454.F44"
+}
+
+@Book{wps80,
+  author       = "Pamela Sargent",
+  title        = "Watchstar",
+  subtitle     = "Book One of the Watchstar Trilogy",
+  publisher    = "Pocket Books",
+  year         = 1980,
+  address      = nyny,
+  keywords     = "coming of age, clash of cultures, religion in the world",
+  location     = "PS 3569.A6887 W38"
+}
+
+@Book{daoitne,
+  author       = "Ilana Gershon",
+  title        = "Down and Out In the New Economy",
+  subtitle     = "How People Find (Or Don't Find) Work Today",
+  publisher    = ucp,
+  year         = 2017,
+  address      = chil,
+  keywords     = "linked in, job hunting, brand you, quitting, the gig
+    economy",
+  location     = "HF 5382.75.U6 G465"
 }
 
 @Article{famw,
@@ -7275,12 +7298,27 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Value Speculation Scheduling for High Performance Processors",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "262--271",
   month        = oct,
   keywords     = "value prediction, speculative scheduling, ilp",
-  abstract     = "Recent research in value prediction shows a surprising amount of predictability for the values produced by register-writing instructions.  Several hardware based value predictor designs have been proposed to exploit this predictability by eliminating flow dependencies for highly predictable values.  This paper proposed a hardware and software based scheme for value speculation scheduling (VSS).  Static VLIW scheduling techniques are used to speculate value dependent instructions by scheduling them above the instructions whose results they are dependent on.  Prediction hardware is used to provide value predictions for allowing the execution of speculated instructions to continue.  In the case of miss-predicted values, control flow is redirected to patch-up code so that execution can proceed with the correct results.  In this paper, experiments in VSS for load operations in the SPECint95 benchmarks are performed.  Speedup of up to 17% has been shown for using VSS.  Empirical results on the value predictability of loads, based on value profiling data, are also provided.",
+  abstract     = "Recent research in value prediction shows a surprising amount
+    of predictability for the values produced by register-writing instructions.
+    Several hardware based value predictor designs have been proposed to
+    exploit this predictability by eliminating flow dependencies for highly
+    predictable values.  This paper proposed a hardware and software based
+    scheme for value speculation scheduling (VSS).  Static VLIW scheduling
+    techniques are used to speculate value dependent instructions by scheduling
+    them above the instructions whose results they are dependent on.
+    Prediction hardware is used to provide value predictions for allowing the
+    execution of speculated instructions to continue.  In the case of
+    miss-predicted values, control flow is redirected to patch-up code so that
+    execution can proceed with the correct results.  In this paper, experiments
+    in VSS for load operations in the SPECint95 benchmarks are performed.
+    Speedup of up to 17% has been shown for using VSS.  Empirical results on
+    the value predictability of loads, based on value profiling data, are also
+    provided.", 
   location     = "https://doi.org/10.1145/384265.291058",
   location     = "https://people.engr.ncsu.edu/hzhou/VS.pdf"
 }
@@ -7290,8 +7328,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "An Empirical Study of Decentralized {ILP} Execution Models",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 1,
   pages        = "272--281",
   month        = oct,
   keywords     = "decentralized ilp, dependencies, partitioning",
@@ -7327,8 +7365,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Fast Out-of-Order Processor Simulation Using Memoization",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "283--294",
   month        = oct,
   keywords     = "out-of-order processor simulation, direct execution,
@@ -7353,8 +7391,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Performance of Database Workloads on Shared-Memory Systems with Out-of-Order Processors",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "307--318",
   month        = oct,
   keywords     = "workload variation, aggressive ilp, multi- vs uni-processors,
@@ -7394,8 +7432,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "{A} Look at Several Memory Management Units, {TLB}-Refill Mechanisms and Page Table Organizations",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "295--306",
   month        = oct,
   keywords     = "ultrix, mach, intel, pa-risc",
@@ -7424,8 +7462,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Accelerating Multi-Media Processing by Implementing Memoing in Multiplication and Division Units",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "252--259",
   month        = oct,
   keywords     = "computational acceleration, caching",
@@ -7454,8 +7492,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "An Out-of-Order Execution Technique for Runtime Binary Translators",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "151--158",
   month        = oct,
   keywords     = "out-of-order execution, exact exception handling, emulation",
@@ -7482,8 +7520,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Overlapping Execution with Transfer Using Non-Strict Execution for Mobile Programs",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "159--169",
   month        = oct,
   keywords     = "non-strict execution, code re-ordering, low-latency
@@ -7515,8 +7553,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Variable Length Path Branch Prediction",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "170--179",
   month        = oct,
   keywords     = "branch prediction, dynamic path length, profiling,
@@ -7549,8 +7587,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Performance Isolation:  Sharing and Isolation in Shared-Memory Multiprocessors",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "181--192",
   month        = oct,
   keywords     = "performance isolation, resource sharing, group resource
@@ -7582,8 +7620,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "{UTLB}: {A} Mechanism for Address Translation on Network Interfaces",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "193--204",
   month        = oct,
   keywords     = "dma, caching",
@@ -7610,8 +7648,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Locality-Aware Request Distribution in Cluster-Based Network Servers",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "205--216",
   month        = oct,
   keywords     = "load balancing, task assignment, cache locality, tcp
@@ -7650,8 +7688,8 @@ Language Design and Implementation, PLDI '03)"}
   title        = "Investigating Optimal Local Memory Performance",
   journal      = asplos98,
   year         = 1998,
-  volume       = 32,
-  number       = 5,
+  volume       = 33,
+  number       = 11,
   pages        = "218--227",
   month        = oct,
   keywords     = "locality, register managementb",
@@ -7676,6 +7714,184 @@ Language Design and Implementation, PLDI '03)"}
     limitations of the cache line paradigm using the SPEC95 benchmarks.", 
   location     = "https://doi.org/10.1145/291069.291050", 
   location     = "http://pages.saclay.inria.fr/olivier.temam/files/eval/Tem98.pdf"
+}
+
+@Article{ccdp,
+  author       = "Brad Calder and Chandra Krintz and Simmi John and Todd Austin",
+  title        = "Cache-Conscious Data Placement",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "139--149",
+  month        = oct,
+  keywords     = "data placement, cache conflicts, data caches",
+  abstract     = "As the gap between memory and processor speeds continues to
+    widen, cache eficiency is an increasingly important component of processor
+    performance.  Compiler techniques have been used to improve instruction
+    cache pet$ormance by mapping code with temporal locality to different cache
+    blocks in the virtual address space eliminating cache conflicts.  These
+    code placement techniques can be applied directly to the problem of placing
+    data for improved data cache pedormance.In this paper we present a general
+    framework for Cache Conscious Data Placement.  This is a compiler directed
+    approach that creates an address placement for the stack (local variables),
+    global variables, heap objects, and constants in order to reduce data cache
+    misses.  The placement of data objects is guided by a temporal relationship
+    graph between objects generated via profiling.  Our results show that
+    profile driven data placement significantly reduces the data miss rate by
+    24% on average.", 
+  location     = "https://doi.org/10.1145/384265.291036", 
+  location     = "https://sites.cs.ucsb.edu/~ckrintz/abstracts/ASPLOS-98-CCDP.html"
+}
+
+@Article{cdmrbwact,
+  author       = "Jih-Kwon Peir and Yongjoon Lee and Windsor~W. Hsu",
+  title        = "Capturing Dynamic Memory Reference Behavior with Adaptive Cache Topology",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "240--250",
+  month        = oct,
+  keywords     = "caching, adaptive caching, data prefetch, group-associative
+    caches", 
+  abstract     = "Memory references exhibit locality and are therefore not
+    uniformly distributed across the sets of a cache.  This skew reduces the
+    effectiveness of a cache because it results in the caching of a
+    considerable number of less-recently-used lines which are less likely to be
+    re-referenced before they are replaced.  In this paper, we describe a
+    technique that dynamically identifies these less-recently-used lines and
+    effectively utilizes the cache frames they occupy to more accurately
+    approximate the global least-recently-used replacement policy while
+    maintaining the fast access time of a direct-mapped cache.  We also explore
+    the idea of using these underutilized cache frames to reduce cache misses
+    through data prefetching.  In the proposed design, the possible locations
+    that a line can reside in is not predetermined.  Instead, the cache is
+    dynamically partitioned into groups of cache lines.  Because both the total
+    number of groups and the individual group associativity adapt to the
+    dynamic reference pattern, we call this design the adaptive
+    group-associative cache.  Performance evaluation using trace-driven
+    simulations of the TPC-C benchmark and selected programs from the SPEC95
+    benchmark suite shows that the group-associative cache is able to achieve a
+    hit ratio that is consistently better than that of a 4-way set-associative
+    cache.  For some of the workloads, the hit ratio approaches that of a
+    fully-associative cache.", 
+  location     = "https://doi.org/10.1145/291006.291053"
+}
+
+@Article{pmafptwcoaa,
+  author       = "Somnath Ghosh and Margaret Martonosi and Sharad Malik",
+  title        = "Precise Miss Analysis for Program Transformations with Caches of Arbitrary Associativity",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "228--239",
+  month        = oct,
+  keywords     = "the cache miss equation, cold misses, set-associative caches,
+    parametric solutions",
+  abstract     = "Analyzing and optimizing program memory performance is a
+    pressing problem in high-performance computer architectures.  Currently,
+    software solutions addressing the processor-memory performance gap include
+    compiler-or programmer-applied optimizations like data structure padding,
+    matrix blocking, and other program transformations.  Compiler optimization
+    can be effective, but the lack of precise analysis and optimization
+    frameworks makes it impossible to confidently make optimal, rather than
+    heuristic-based, program transformations.  Imprecision is most problematic
+    in situations where hard-to-predict cache conflicts foil heuristic
+    approaches.  Furthermore, the lack of a general framework for compiler
+    memory performance analysis makes it impossible to understand the combined
+    effects of several program transformations.The Cache Miss Equation (CME)
+    framework discussed in this paper addresses these issues.  We express
+    memory reference and cache conflict behavior in terms of sets of equations.
+    The mathematical precision of CMEs allows us to find true optimal solutions
+    for transformations like blocking or padding.  The generality of CMEs also
+    allows us to reason about interactions between transformations applied in
+    concert.  Unlike our prior work, this framework applies to caches of
+    arbitrary associativity.  This paper also demonstrates the utility of CMEs
+    by presenting precise algorithms for intra-variable padding, inter-variable
+    padding, and selecting tile sizes.  Our experiences with CMEs implemented
+    in the SUIF system show that they are a unifying mathematical framework
+    offering the generality and precision imperative for compiler optimizations
+    on current high-performance architectures.", 
+  location     = "http://www.princeton.edu/~mrm/papers/ghosh_asplos98.ps", 
+  location     = "https://doi.org/10.1145/291006.291051"
+}
+
+@Article{pcassaauattl,
+  author       = "Boris Weissman",
+  title        = "Performance Counters and State Sharing Annotations:  a Unified Approach to Thread Locality",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "127--138",
+  month        = oct,
+  keywords     = "shared state, caching, scheduling policies, cache reload
+    ratio",
+  abstract     = "This paper describes a combined approach for improving thread
+    locality that uses the bardware performance monitors of modem processors
+    and program-centric code annotations to guide thread scheduling on SMPs.
+    The approach relies on a shared state cache model to compute expected
+    thread footprints in the cache on-line.  The accuracy of the model has been
+    analyzed by simmations involving a set of parallel applications.  We
+    demonstrate how the cache model can be used to implement several practical
+    locality-based thread scheduling policies with little overhead.  Active
+    Threads, a portable, high-performance thread system, has been built and
+    used to investigate the performance impact of locality scheduling for
+    several applications.", 
+  location     = "https://doi.org/10.1145/291069.291035"
+}
+
+@Article{dbpflds,
+  author       = "Amir Roth and Andreas Moshovos and Gurindar~S. Sohi",
+  title        = "Dependence Based Prefetching for Linked Data Structures",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "115--126",
+  month        = oct,
+  keywords     = "https://doi.org/10.1145/291069.291034",
+  abstract     = "We introduce a dynamic scheme that captures the
+    accesspat-terns of linked data structures and can be used to predict future
+    accesses with high accuracy.  Our technique exploits the dependence
+    relationships that exist between loads that produce addresses and loads
+    that consume these addresses.  By identzj+ing producer-consumer pairs, we
+    construct a compact internal representation for the associated structure
+    and its traversal.  To achieve a prefetching eflect, a small prefetch
+    engine speculatively traverses this representation ahead of the executing
+    program.  Dependence-based prefetching achieves speedups of up to 25% on a
+    suite of pointer-intensive programs.", 
+  location     = "https://doi.org/10.1145/291069.291034"
+}
+
+@Article{hstoiadriotrmh,
+  author       = "Philip Machanick and Pierre Salverda and Lance Pompe",
+  title        = "Hardware-Software Trade-Offs in a Direct {Rambus} Implementation of the {RAMpage} Memory Hierarchy",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "105--114",
+  month        = oct,
+  keywords     = "sram, dram, system architectures, caching, context switches, ",
+  abstract     = "The RAMpage memory hierarchy is an alternative to the
+    traditional division between cache and main memory: main memory is moved up
+    a level and DRAM is used as a paging device.  The idea behind RAMpage is to
+    reduce hardware complexity, if at the cost of software complexity, with a
+    view to allowing more flexible memory system design.  This paper
+    investigates some issues in choosing between RAMpage and a
+    conventionalcache architecture, with a view to illustrating trade-offs
+    which can be made in choosing whether to place complexity in the memory
+    system in hardware or in software.  Performance results in this paper are
+    based on a simple Rambus implementation of DRAM, with performance
+    characteristics of Direct Rambus, which should be available in 1999.  This
+    paper explores the conditions under which it becomes feasible to perform a
+    context switch on a miss in the RAMpage model, and the conditions under
+    which RAMpage is a win over a conventional cache architecture: as the
+    CPU-DRAM speed gap grows, RAMpage becomes more viable.", 
+  location     = "https://doi.org/10.1145/384265.291032"
 }
 
 @TechReport{apfdsifcip,
@@ -11776,6 +11992,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 32,\n  number       = 5,\n  pages        = \"--\",\n  month        = oct,\n")
+% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 33,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
 		  
