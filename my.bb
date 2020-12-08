@@ -1322,6 +1322,16 @@ Language Design and Implementation, PLDI '03)"}
   location     = "HF 5382.75.U6 G465"
 }
 
+@Book{tsvmjc,
+  author       = "M.~J. Carter",
+  title        = "The Strangler Vine",
+  publisher    = "G. P. Putnam's Sons",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "colonialism, the india company, murrdaar, thugs",
+  location     = "PR 6103.A7735 S77"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -7892,6 +7902,289 @@ Language Design and Implementation, PLDI '03)"}
     which RAMpage is a win over a conventional cache architecture: as the
     CPU-DRAM speed gap grows, RAMpage becomes more viable.", 
   location     = "https://doi.org/10.1145/384265.291032"
+}
+
+@Article{ccmkdc,
+  author       = "Keith~D. Cooper and Timothy~J. Harvey",
+  title        = "Compiler-Controlled Memory",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "2--11",
+  month        = oct,
+  keywords     = "register spilling, dsp architectures, register coloring,
+    scratch storage, ",
+  abstract     = "Optimizations aimed at reducing the impact of memory
+    operations on execution speed have long concentrated on improving cache
+    performance.  These efforts achieve a.  reasonable level of success.  The
+    primary limit on the compiler's ability to improve memory behavior is its
+    imperfect knowledge about the run-time behavior of the program.  The
+    compiler cannot completely predict runtime access patterns.There is an
+    exception to this rule.  During the register allocation phase, the compiler
+    often must insert substantial amounts of spill code; that is, instructions
+    that move values from registers to memory and back again.  Because the
+    compiler itself inserts these memory instructions, it has more knowledge
+    about them than other memory operations in the program.Spill-code
+    operations are disjoint from the memory manipulations required by the
+    semantics of the program being compiled, and, indeed, the two can interfere
+    in the cache.  This paper proposes a hardware solution to the problem of
+    increased spill costs---a small compiler-controlled memory (CCM) to hold
+    spilled values.  This small random-access memory can (and should) be placed
+    in a distinct address space from the main memory hierarchy.  The compiler
+    can target spill instructions to use the CCM, moving most compiler-inserted
+    memory traffic out of the pathway to main memory and eliminating any impact
+    that those spill instructions would have on the state of the main memory
+    hierarchy.  Such memories already exist on some DSP microprocessors.  Our
+    techniques can be applied directly on those chips.This paper presents two
+    compiler-based methods to exploit such a memory, along with experimental
+    results showing that speedups from using CCM may be sizable.  It shows that
+    using the register allocation's coloring paradigm to assign spilled values
+    to memory can greatly reduce the amount of memory required by a program.", 
+  location     = "https://doi.org/10.1145/291069.291010"
+}
+
+@Article{shobrbal,
+  author       = "Matthew~L. Seidl and Benjamin~G. Zorn",
+  title        = "Segregating Heap Objects by Reference Behavior and Lifetime",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "12--23",
+  month        = oct,
+  keywords     = "heap storage, use prediction, virtual storage, access",
+  abstract     = "Dynamic storage allocation has become increasingly important
+    in many applications, in part due to the use of the object-oriented
+    paradigm.  At the same time, processor speeds are increasing faster than
+    memory speeds and programs are increasing in size faster than memories.  In
+    this paper, we investigate efforts to predict heap object reference and
+    lifetime behavior at the time objects are allocated.  Our approach uses
+    profile-based optimization, and considers a variety of different
+    information sources present at the time of object allocation to predict the
+    object's reference frequency and lifetime.  Our results, based on
+    measurements of six allocation intensive programs, show that program
+    references to heap objects are highly predictable and that our prediction
+    methods can successfully predict the behavior of these heap objects.  We
+    show that our methods can decrease the page fault rate of the programs
+    measured, sometimes dramatically, in cases where the physical memory
+    available to the program is constrained.", 
+  location     = "https://doi.org/10.1145/384265.291012", 
+  location     = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/asplos8-seg-objects.pdf"
+}
+
+@Article{sismfl,
+  author       = "Michelle Mills Strout and Larry Carter and Jeanne Ferrante and Beth Simon",
+  title        = "Schedule-Independent Storage Mapping for Loops",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "24--33",
+  month        = oct,
+  keywords     = "storage reuse, universal occupancy vectors, branch and bound
+    search, storage mapping",
+  abstract     = "This paper studies the relationship between storage
+    requirements and performance.  Storage-related dependences inhibit
+    optimizations for locality and parallelism.  Techniques such as renaming
+    and array expansion can eliminate all storage-related dependences, but do
+    so at the expense of increased storage.  This paper introduces the
+    universal occupancy vector (UOV) for loops with a regular stencil of
+    dependences.  The UOV provides a schedule-independent storage reuse pattern
+    that introduces no further dependences (other than those implied by true
+    flow dependences).  OV-mapped code requires less storage than full array
+    expansion and only slightly more storage than schedule-dependent minimal
+    storage.We show that determine if a vector is a UOV is NPcomplete.
+    However, an easily constructed but possibly nonminimal UOV can be used.  We
+    also present a branch and bound algorithm which finds the minimal UOV,
+    while still maintaining a legal UOV at all times.Our experimental results
+    show that the use of OV-mapped storage, coupled with tiling for locality,
+    achieves better performance than tiling after array expansion, and
+    accommodates larger problem sizes than untilable, storage-optimized code.
+    Furthermore, storage mapping based on the UOV introduces negligible
+    runtime overhead.", 
+  location     = "https://doi.org/10.1145/291006.291015",
+  location     = "http://cgi.cs.arizona.edu/~mstrout/Papers/Papers98-03/asplos98pp.pdf"
+}
+
+@Article{aeaoir,
+  author       = "Avinash Sodani and Gurindar~S. Sohi",
+  title        = "An Empirical Analysis of Instruction Repetition",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "35--45",
+  month        = oct,
+  keywords     = "instruction repetition, function level analysis, local
+    analysis",
+  abstract     = "We study the phenomenon of instruction repetition, where the
+    inputs and outputs of multiple dynamic instances of a static instruction
+    are repeated.  We observe that over 80% of the dynamic instructions
+    executed in several programs are repeated and most of the repetition is due
+    to a small number of static instructions.  We attempt understand the source
+    of this repetitive behavior by categorizing dynamic program instructions
+    into dynamic program slices at both a global level and a local (within
+    function) level.  We observe that repeatability is more an artifact of how
+    computation is expressed, and less of program inputs.  Function-level
+    analysis suggests that many functions are called with repeated arguments,
+    though almost all of them have side effects.  We provide commentary on
+    exploiting the observed phenomenon and its sources in both software and
+    hardware.", 
+  location     = "https://doi.org/10.1145/291069.291016", 
+  location     = "ftp://ftp.cs.wisc.edu/sohi/papers/1998/asplos-inst-repeat.pdf"
+}
+
+@Article{stsoilpoarm,
+  author       = "Walter Lee and Rajeev Barua and Matthew Frank and Devabhaktuni Srikrishna and Jonathan Babb and Vivek Sarkar and Saman Amarasinghe",
+  title        = "Space-Time Scheduling of Instruction-Level Parallelism on a Raw Machine",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "46--57",
+  month        = oct,
+  keywords     = "scalability, space-time scheduling, basic blocks, control
+  orchestration",
+  abstract     = "Increasing demand for both greater parallelism and faster
+    clocks dictate that future generation architectures will need to
+    decentralize their resources and eliminate primitives that require single
+    cycle global communication.  A Raw microprocessor distributes all of its
+    resources, including instruction streams, register files, memory ports, and
+    ALUs, over a pipelined two-dimensional mesh interconnect, and exposes them
+    fully to the compiler.  Because communication in Raw machines is
+    distributed, compiling for instruction-level parallelism (ILP) requires
+    both spatial instruction partitioning as well as traditional temporal
+    instruction scheduling.  In addition, the compiler must explicitly manage
+    all communication through the interconnect, including the global
+    synchronization required at branch points.  This paper describes RAWCC, the
+    compiler we have developed for compiling general-purpose sequential
+    programs to the distributed Raw architecture.  We present performance
+    results that demonstrate that although Raw machines provide no mechanisms
+    for global communication the Raw compiler can schedule to achieve speedups
+    that scale with the number of available functional units.", 
+  location     = "https://doi.org/10.1145/291069.291018",
+  location     = "https://groups.csail.mit.edu/cag/raw/documents/Lee-ASPLOS-1998.pdf"
+}
+
+@Article{dssfacm,
+  author       = "Lance Hammond and Mark Willey and Kunle Olukotun",
+  title        = "Data Speculation Support for a Chip Multiprocessor",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "58--69",
+  month        = oct,
+  keywords     = "chip multiprocessors, data speculation, speculative threads,
+    loop iterations, precise exceptions, caching",
+  abstract     = "Thread-level speculation is a technique that enables parallel
+    execution of sequential applications on a multiprocessor.  This paper
+    describes the complete implementation of the support for thread-level
+    speculation on the Hydra chip multiprocessor (CMP).  The support consists
+    of a number of software speculation control handlers and modifications to
+    the shared secondary cache memory system of the CMP This support is
+    evaluated using five representative integer applications.  Our results show
+    that the speculative support is only able to improve performance when there
+    is a substantial amount of medium--grained loop-level parallelism in the
+    application.  When the granularity of parallelism is too small or there is
+    little inherent parallelism in the application, the overhead of the
+    software handlers overwhelms any potential performance benefits from
+    speculative-thread parallelism.  Overall, thread-level speculation still
+    appears to be a promising approach for expanding the class of applications
+    that can be automatically parallelized, but more hardware intensive
+    implementations for managing speculation control are required to achieve
+    performance improvements on a wide class of integer applications.", 
+  location     = "https://doi.org/10.1145/291006.291020", 
+  location     = "http://arsenalfc.stanford.edu/kunle/publications/hydra_ASPLOS98.pdf"
+}
+
+@Article{vnsvisa,
+  author       = "Rodney Van Meter and Gregory~G. Finn and Steve Hotz",
+  title        = "{VISA}: Netstation's Virtual Internet {SCSI} Adapter",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "71--80",
+  month        = oct,
+  keywords     = "network area peripherals, networking protocols",
+  abstract     = "In this paper we describe the implementation of VISA, our
+    Virtual Internet SCSI Adapter.  VISA was built to evaluate the performance
+    impact on the host operating system of using IP to communicate with
+    peripherals, especially storage devices.  We have built and benchmarked
+    file systems on VISA-attached emulated disk drives using UDP/IP.  By using
+    IP, we expect to take advantage of its scaling characteristics and support
+    for heterogeneous media to build large, long-lived systems.  Detailed file
+    system and network CPU utilization and performance data indicate that it is
+    possible for UDP/IP to reach more than 80% of SCSI's maximum throughput
+    without the use of network coprocessors.  We conclude that IP is a viable
+    alternative to special-purpose storage network protocols, and presents
+    numerous advantages.", 
+  location     = "https://doi.org/10.1145/291006.291023", 
+  location     = "http://www.isi.edu/division7/netstation/visa.share.ps"
+}
+
+@Article{adpmaae,
+  author       = "Anurag Acharya and Mustafa Uysal and Joel Saltz",
+  title        = "Active Disks:  Programming Model, Algorithms and Evaluation",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "81--91",
+  month        = oct,
+  keywords     = "distributed disks, active disks, scalability",
+  abstract     = "Several application and technology trends indicate that it
+    might be both profitable and feasible to move computation closer to the
+    data that it processes.  In this paper, we evaluate Active Disk
+    architectures which integrate significant processing power and memory into
+    a disk drive and allow application-specific code to be downloaded and
+    executed on the data that is being read from (written to) disk.  The key
+    idea is to offload bulk of the processing to the diskresident processors
+    and to use the host processor primarily for coordination, scheduling and
+    combination of results from individual disks.  To program Active Disks, we
+    propose a stream-based programming model which allows disklets to be
+    executed efficiently and safely.  Simulation results for a suite of six
+    algorithms from three application domains (commercial data warehouses,
+    image processing and satellite data processing) indicate that for these
+    algorithms, Active Disks outperform conventional-disk architectures.", 
+  location     = "https://doi.org/10.1145/384265.291026", 
+  location     = "http://www.cs.umd.edu/~hollings/cs818z/s99/papers/activeDisks.pdf"
+}
+
+@Article{acehbsa,
+  author       = "Garth~A. Gibson and David~F. Nagle and Khalil Amiri and Jeff Butler and Fay~W. Chang and Howard Gobioff and Charles Hardin and Erik Riedel and David Rochberg and Jim Zelenka",
+  title        = "{A} Cost-Effective, High-Bandwidth Storage Architecture",
+  journal      = asplos98,
+  year         = 1998,
+  volume       = 33,
+  number       = 11,
+  pages        = "92--103",
+  month        = oct,
+  keywords     = "network attached disks, scalability, file systems, parallel
+    file systems",
+  abstract     = "This paper describes the Network-Attached Secure Disk (NASD)
+    storage architecture, prototype implementations oj NASD drives, array
+    management for our architecture, and three, filesystems built on our
+    prototype.  NASD provides scalable storage bandwidth without the cost of
+    servers used primarily, for transferring data from peripheral networks
+    (e.g.  SCSI) to client networks (e.g.  ethernet).  Increasing datuset
+    sizes, new attachment technologies, the convergence of peripheral and
+    interprocessor switched networks, and the increased availability of
+    on-drive transistors motivate and enable this new architecture.  NASD is
+    based on four main principles: direct transfer to clients, secure
+    interfaces via cryptographic support, asynchronous non-critical-path
+    oversight, and variably-sized data objects.  Measurements of our prototype
+    system show that these services can be cost-effectively integrated into a
+    next generation disk drive ASK.  End-to-end measurements of our prototype
+    drive andfilesysterns suggest that NASD cun support conventional
+    distributed filesystems without performance degradation.  More importantly,
+    we show scaluble bandwidth for NASD-specialized filesystems.  Using a
+    parallel data mining application, NASD drives deliver u linear scaling of
+    6.2 MB/s per clientdrive pair, tested with up to eight pairs in our lab.", 
+  location     = "https://doi.org/10.1145/384265.291029",
+  location     = "https://www.pdl.cmu.edu/PDL-FTP/NASD/asplos98.pdf"
 }
 
 @TechReport{apfdsifcip,
