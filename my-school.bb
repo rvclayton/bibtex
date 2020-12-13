@@ -23609,17 +23609,6 @@
   organization ="IEEE"
 }
 
-@inproceedings{isis,
-  author = 	"K. Birman and T. Joseph",
-  title = 	"Exploring Virtual Synchrony in Distributed Systems",
-  booktitle = 	pot # "Eleventh ACM Symposium on Operating System Principles",
-  year = 	1987,
-  pages = 	"123--138",
-  organization ="ACM",
-  publisher = 	acmp,
-  month = 	nov
-}
-
 @inproceedings{rendezvous,
   author = 	"J. F. Patterson and R. D. Hill and S. L. Rohall and
 		 W. S. Meeks",
