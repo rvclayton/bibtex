@@ -8,7 +8,7 @@
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming
 Language Design and Implementation, PLDI '03)"}
-@string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
+@string{sosp87    = osr # " (" # pot # "Eleventh" # sosp # ", SOSP '87)"}
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
 @string{usenixs94 = pot # "USENIX Summer 1994 Technical Conference"}
 @string{usenix95  = pot # "1995 USENIX Technical Conference"}
@@ -1325,11 +1325,42 @@ Language Design and Implementation, PLDI '03)"}
 @Book{tsvmjc,
   author       = "M.~J. Carter",
   title        = "The Strangler Vine",
-  publisher    = "G. P. Putnam's Sons",
+  publisher    = "G.~P. Putnam's Sons",
   year         = 2014,
   address      = nyny,
   keywords     = "colonialism, the india company, murrdaar, thugs",
   location     = "PR 6103.A7735 S77"
+}
+
+@Book{eotc,
+  author       = "Pamela Sargent",
+  title        = "Eye of the Comet",
+  subtitle     = "Book Two of the Watchstar Trilogy",
+  publisher    = "Harper \& Row",
+  year         = 1984,
+  address      = nyny,
+  keywords     = "home, conflict, the machines",
+  location     = "PZ7.S2472 Ey"
+}
+
+@Book{tsoalg,
+  author       = "Elena Ferrante",
+  title        = "The Story of the Lost Girl",
+  publisher    = "Europa",
+  year         = 2015,
+  address      = nyny,
+  keywords     = "the end game, mothers and daughters",
+  location     = "PQ 4866.E6345 S77513"
+}
+
+@Book{thotfs,
+  author       = "Edward~R. Pease",
+  title        = "The History of the Fabian Society",
+  publisher    = "E.~P. Dutton",
+  year         = 1916,
+  address      = nyny,
+  keywords     = "english socialism, g.b. shaw, s. webb, h.g. wells, poverty",
+  location     = "HX11.F5 P4"
 }
 
 @Article{famw,
@@ -8187,6 +8218,159 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://www.pdl.cmu.edu/PDL-FTP/NASD/asplos98.pdf"
 }
 
+@Article{ioa,
+  author       = "Barbara Liskov and Dorothy Curtis and Paul Johnson and Robert Scheifer",
+  title        = "Implementation of {Argus}",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  month        = nov,
+  pages        = "111--122",
+  keywords     = "guardians, actions, nested actions, performance",
+  abstract     = "Argus is a programming language and system developed to
+    support constructing and executing distributed programs.  This paper
+    describes the Argus implementation, emphasizing the way we implement
+    atomic actions, because this is where Argus differs most from other
+    implemented systems.  The paper also discusses Argus performance.  The cost
+    of actions is quite reasonable, indicating that action systems like Argus
+    are practical.",
+  location     = "https://doi.org/10.1145/41457.37514"
+}
+
+@Article{evsids,
+  author       = "Kenneth~P. Birman and Thomas~A. Joseph",
+  title        = "Exploiting Virtual Synchrony in Distributed Systems",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  month        = nov,
+  pages        = "123--138",
+  keywords     = "broadcast, group management, distributed systems, virtual
+    synchrony, atomic multicast, group rpc, failure, recovery, toolkits",
+  abstract     = "We describe applications of a virtually synchronous
+    environment for distributed programming, which underlies a collection of
+    distributed programming tools in the ISIS2 system.  A virtually synchronous
+    environment allows processes to be structured into process groups, and
+    makes events like broadcasts to the group as an entity, group membership
+    changes, and even migration of an activity from one place to another appear
+    to occur instantaneously — in other words, synchronously.  A major
+    advantage to this approach is that many aspects of a distributed
+    application can be treated independently without compromising correctness.
+    Moreover, user code that is designed as if the system were synchronous can
+    often be executed concurrently.  We argue that this approach to building
+    distributed and fault-tolerant software is more straightforward, more
+    flexible, and more likely to yield correct solutions than alternative
+    approaches.", 
+  location     = "https://doi.org/10.1145/37499.37515", 
+  location     = "https://www.cs.cornell.edu/home/rvr/sys/p123-birman.pdf"
+}
+
+@Article{lfaefsewos,
+  author       = "Ross~S. Finlayson and David~R. Cheriton",
+  title        = "Log Files:  An Extended File Service Exploiting Write-Once Storage",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  month        = nov,
+  pages        = "139--148",
+  keywords     = "log file services, write-once storage, fault tolerance,
+    history-based applications",
+  abstract     = "A log service provides efficient storage and retrieval of
+    data that is written sequentially (append-only) and not subsequently
+    modified.  Application programs and subsystems use log services for
+    recovery, to record security audit trails, and for performance monitoring.
+    Ideally, a log service should accommodate very large, long-lived logs, and
+    provide efficient retrieval and low space overhead.In this paper, we
+    describe the design and implementation of the Clio log service.  Clio
+    provides the abstraction of log files: readable, append-only files that are
+    accessed in the same way as conventional files.  The underlying storage
+    medium is required only to be append-only; more general types of write
+    access are not necessary.  We show how log files can be implemented
+    efficiently and robustly on top of such storage media—in particular,
+    write-once optical disk.In addition, we describe a general application
+    software storage architecture that makes use of log files.", 
+  location     = "http://i.stanford.edu/pub/cstr/reports/cs/tr/87/1177/CS-TR-87-1177.pdf", 
+  location     = "https://doi.org/10.1145/37499.37516"
+}
+
+@Article{asaeifsd,
+  author       = "Andrew~D. Birrell and Michael~B. Jones and Edward~P. Wobber",
+  title        = "{A} Simple and Efficient Implementation for Small Databases",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  month        = nov,
+  pages        = "149--154",
+  keywords     = "locking, reliability",
+  abstract     = "This paper describes a technique for implementing the sort of
+    small databases that frequently occur in the design of operating systems
+    and distributed systems.  We take advantage of the existence of very large
+    virtual memories, and quite large real memories, to make the technique
+    feasible.  We maintain the database as a strongly typed data structure in
+    virtual memory, record updates incrementally on disk in a log and
+    occasionally make a checkpoint of the entire database.  We recover from
+    crashes by restoring the database from an old checkpoint then replaying the
+    log.  We use existing packages to convert between strongly typed data
+    objects and their disk representations, and to communicate strongly typed
+    data across the network (using remote procedure calls).  Our memory is
+    managed entirely by a general purpose allocator and garbage collector.This
+    scheme has been used to implement a name server for a distributed system.
+    The resulting implementation has the desirable property of being
+    simultaneously simple, efficient and reliable.", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-24.html"
+}
+
+@Article{uiwiasce,
+  author       = "David~A. Nichols",
+  title        = "Using Idle Workstations in a Shared Computing Environment",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "5--12",
+  month        = nov,
+  keywords     = "process invocation, remote execution, floating servers",
+  abstract     = "The Butler system is a set of programs running on Andrew
+    workstations at CMU that give users access to idle workstations.  Current
+    Andrew users use the system over 300 times per day.  This paper describes
+    the implementation of the Butler system and tells of our experience in
+    using it.  In addition, it describes an application of the system known as
+    gypsy servers, which allow network server programs to be run on idle
+    workstations instead of using dedicated server machines.", 
+  location     = "https://doi.org/10.1145/41457.37502"
+}
+
+@Article{rtcfsulagc,
+  author       = "Robert Hagmann",
+  title        = "Reimplementing the {Cedar} File System Using Logging and Group Commit",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "155--162",
+  month        = nov,
+  keywords     = "file systems, metadata management, page allocation,
+    robustness",
+  abstract     = "The workstation file system for the Cedar programming
+    environment was modified to improve its robustness and performance.
+    Previously, the file system used hardware-provided labels on disk blocks to
+    increase robustness against hardware and software errors.  The new system
+    does not require hardware disk labels, yet is more robust than the old
+    system.  Recovery is rapid after a crash.  The performance of operations on
+    file system metadata, e.g., file creation or open, is greatly improved.The
+    new file system has two features that make it atypical.  The system uses a
+    log, as do most database systems, to recover metadata about the file
+    system.  To gain performance, it uses group commit, a concept derived from
+    high performance database systems.  The design of the system used a simple,
+    yet detailed and accurate, analytical model to choose between several
+    design alternatives in order to provide good disk performance.", 
+  location     = "https://doi.org/10.1145/41457.37518"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -12285,6 +12469,6 @@ Language Design and Implementation, PLDI '03)"}
 }
 
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos98,\n  year         = 1998,\n  volume       = 33,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
+% eval: (set-register ?b "  journal      = sosp87,\n  year         = 1987,\n  volume       = 21,\n  number       = 5,\n  pages        = \"--\",\n  month        = nov,\n")
 % End:
 		  
