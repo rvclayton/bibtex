@@ -11132,6 +11132,7 @@
     timing wheels with different granularities is used to span a greater range
     of intervals.  The performance of these two schemes and various
     implementation trade-offs are discussed.", 
+  location     = "https://doi.org/10.1145/37499.37504", 
   location     = "http://www.cs.columbia.edu/~nahum/w6998/papers/sosp87-timing-wheels.pdf"
 }
 
