@@ -1,3 +1,7 @@
+% Local Variables:
+% eval: (set-register ?b "  journal      = sosp87,\n  year         = 1987,\n  volume       = 21,\n  number       = 5,\n  pages        = \"--\",\n  month        = nov,\n")
+% End:
+		  
 .so bibtex.header
 
 @string{asplos91 = sigplan # " (" # pot # "Fourth International Conference on " # asplos # ", ASPLOS IV)"}
@@ -8,9 +12,11 @@
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
 @string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming
 Language Design and Implementation, PLDI '03)"}
+		  
+@string{sosp81    = osr # " (" # pot # "Eighth" # sosp # ", SOSP '81)"}
 @string{sosp87    = osr # " (" # pot # "Eleventh" # sosp # ", SOSP '87)"}
+		  
 @string{usenixw92 = pot # "Winter 1992 USENIX Conference"}
-@string{usenixs94 = pot # "USENIX Summer 1994 Technical Conference"}
 @string{usenix95  = pot # "1995 USENIX Technical Conference"}
 		  
 		  
@@ -1361,6 +1367,17 @@ Language Design and Implementation, PLDI '03)"}
   address      = nyny,
   keywords     = "english socialism, g.b. shaw, s. webb, h.g. wells, poverty",
   location     = "HX11.F5 P4"
+}
+
+@Book{qtrjh,
+  author       = "Jane Haddam",
+  title        = "Quoth The Raven",
+  publisher    = "Bantam Books",
+  year         = 1991,
+  price        = "$4.99",
+  address      = nyny,
+  keywords     = "murrdaar, academic follies",
+  location     = "0 553 29255 2"
 }
 
 @Article{famw,
@@ -8371,6 +8388,229 @@ Language Design and Implementation, PLDI '03)"}
   location     = "https://doi.org/10.1145/41457.37518"
 }
 
+@Article{tpfaemfulnc,
+  author       = "Jeffrey~C. Mogul and Richard~F. Raschid and Michael~J. Accetta",
+  title        = "The Packet Filter:  An Efficient Mechanism for User-Level Network Code",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "39--51",
+  month        = nov,
+  keywords     = "user-space code, kernel-space code, protocol processing,
+    demultiplexing, stack-based languages", 
+  abstract     = "Code to implement network protocols can be either inside the
+    kernel of an operating system or in user-level processes.  Kernel-resident
+    code is hard to develop, debug, and maintain, but user-level
+    implementations typically incur significant overhead and perform poorly.
+    The performance of user-level network code depends on the mechanism used to
+    demultiplex received packets.  Demultiplexing in a user-level process
+    increases the rate of context switches and system calls, resulting in poor
+    performance.  Demultiplexing in the kernel eliminates unnecessary overhead.
+    This paper describes the packet filter, a kernel-resident,
+    protocolindependent packet demultiplexer.  Individual user processes have
+    great flexibility in selecting which packets they will receive.  Protocol
+    implementations using the packet filter perform quite well, and have been
+    in production use for several years.", 
+  location     = "https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-87-2.pdf"
+}
+
+@Article{ansfehs,
+  author       = "Michael~F. Schwartz and John Zahorjan and David Notkin",
+  title        = "{A} Name Service for Evolving, Heterogeneous Systems",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "52--62",
+  month        = nov,
+  keywords     = "name services, meta-services, heterogeneous systems, rpc,
+    indirection",
+  abstract     = "A prototype implementation has been built as part of the
+    Heterogeneous Computer Systems project at the University of Washington.
+    This service supports RPC binding and other applications in our
+    heterogeneous environment.  Measurements of the performance of this
+    prototype show that it is close to that of the underlying name services,
+    due largely to the use of specialized caching techniques.",
+  location     = "https://doi.org/10.1145/37499.37506"
+}
+
+@Article{tdomacitioamos,
+  author       = "Michael Young and Avadis Tevanian and Richard Rashid and David Golub and Jeffrey Eppinger and Jonathan Chew and William Bolosky and David Black and Robert Baron",
+  title        = "The Duality of Memory and Communication in the Implementation of a Multiprocessor Operating System",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "63--76",
+  month        = nov,
+  keywords     = "mach, inter-process communication, storage management, memory
+    objects",
+  abstract     = "Mach is a multiprocessor operating system being implemented
+    at Carnegie-Mellon University.  An important component of the Mach design
+    is the use of memory objects which can be managed either by the kernel or
+    by user programs through a message interface.  This feature allows
+    applications such as transaction management systems to participate in
+    decisions regarding secondary storage management and page replacement.This
+    paper explores the goals, design and implementation of Mach and its
+    external memory management facility.  The relationship between memory and
+    communication in Mach is examined as it relates to overall performance,
+    applicability of Mach to new multiprocessor architectures, and the
+    structure of application programs.", 
+  location     = "https://doi.org/10.1145/37499.37507"
+}
+
+@Article{dsattwos,
+  author       = "Brian Beckman and Fred Wieland and Leo Blume and Mike and DiLoreto and Phil Hontalas and Pierre Laroche and Kathy Sturdevant and Jack Tupman and Van Warrent and John Wedel and Herb Younger and Steve Bellenot",
+  title        = "Distributed Simulation and the {Time Warp} Operating System",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "77--93",
+  month        = nov,
+  keywords     = "simulation, time warp, virtual time, synchronization, message
+    passing",
+  abstract     = "This paper describes the Time Warp Operating System, under
+    development for three years at the Jet Propulsion Laboratory for the
+    Caltech Mark III Hypercube multi-processor.  Its primary goal is concurrent
+    execution of large, irregular discrete event simulations at maximum speed.
+    It also supports any other distributed applications that are synchronized
+    by virtual time.The Time Warp Operating System includes a complete
+    implementation of the Time Warp mechanism, and is a substantial departure
+    from conventional operating systems in that it performs synchronization by
+    a general distributed process rollback mechanism.  The use of general
+    rollback forces a rethinking of many aspects of operating system design,
+    including programming interface, scheduling, message routing and queueing,
+    storage management, flow control, and commitment.In this paper we review
+    the mechanics of Time Warp, describe the TWOS operating system, show how to
+    construct simulations in object-oriented form to run under TWOS, and offer
+    a qualitative comparison of Time Warp to the Chandy-Misra method of
+    distributed simulation.  We also include details of two benchmark
+    simulations and preliminary measurements of time-to-completion, speedup,
+    rollback rate, and antimessage rate, all as functions of the number of
+    processors used.", 
+  location     = "https://doi.org/10.1145/37499.37508",
+  location     = "http://ftp.cs.ucla.edu/tech-report/198_-reports/870042.pdf"
+}
+
+@Article{spfam,
+  author       = "A.~D. Birrell and J.~V. Guttag and J.~J. Horning and R.~Levin",
+  title        = "Synchronization Primatives for a Multiprocessor",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "94--102",
+  month        = nov,
+  keywords     = "larch, threads, formal specifications, synchronization",
+  abstract     = "Formal specifications of operating system interfaces can be a
+    useful part of their documentation.  We illustrate this by documenting the
+    Threads synchronization primitives of the Taos operating system.  We start
+    with an informal description, present a way to formally specify interfaces
+    in concurrent systems, give a formal specification of the synchronization
+    primitives, briefly discuss the implementation, and conclude with a
+    discussion of what we have learned from using the specification for more
+    than a year.", 
+  location     = "https://doi.org/10.1145/41457.37509"
+}
+
+@Article{msvitesea,
+  author       = "Douglas~B. Terry and Daniel~C. Swinehart",
+  title        = "Managing Stored Voice in the {Etherphone} System (Extended Abstract)",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "103--104",
+  month        = nov,
+  keywords     = "voice storage, sound management",
+  abstract     = "The Etherphone™ system was developed at Xerox PARC to explore
+    methods of integrating voice into existing distributed personal computing
+    environments.  An important component of the Etherphone system, the voice
+    manager, provides operations for recording, playing, editing, and otherwise
+    manipulating digitized voice based on an abstraction that we call voice
+    ropes.", 
+  location     = "https://doi.org/10.1145/37499.37510"
+}
+
+@Article{fgmites,
+  author       = "Eric Jul and Henry Levy and Norman Hutchinson and Andrew Black",
+  title        = "Fine-Grained Mobility in the {Emerald} System (Extended Abstract)",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "105--106",
+  month        = nov,
+  keywords     = "Emerald, mobility, object-oriented systems",
+  abstract     = "Emerald is a distributed object-based language and system
+    designed to simplify the construction of distributed programs.  An explicit
+    goal of Emerald is support for object mobility; objects in Emerald can
+    freely move within the system to take advantage of distribution and
+    dynamically changing environments.  We say that Emerald has fine-grained
+    mobility because Emerald objects can be small data objects (such as arrays,
+    records, and integers) as well as objects with processes.  Thus, the unit
+    of mobility can be much smaller than in process migration systems which
+    typically move entire address spaces.  Object mobility in Emerald subsumes
+    both process migration and data transfer.", 
+  location     = "https://doi.org/10.1145/37499.37511"
+}
+
+@Article{rmiq,
+  author       = "Roger Haskin and Yoni Malachi and Wayne Sawdon and Gregory Chan",
+  title        = "Recovery Management in {QuickSilver} (Extended Abstract)",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "107--108",
+  month        = nov,
+  keywords     = "transactions, logging, deadlock",
+  abstract     = "The last several years has seen the emergence of two trends
+    in operating system design: extensibility: the ability to support new
+    functions and machine configurations without changes to the kernel, and
+    distribution: partitioning computation and data across multiple computers.
+    The QuickSilver distributed system, being developed at the IBM Almaden
+    Research Center, is an example of such an extensible, distributed system.
+    It is intended to provide a computing environment for various people and
+    projects in our lab, and to serve as a vehicle for research in operating
+    systems and distributed processing.", 
+  location     = "https://doi.org/10.1145/35037.35060"
+}
+
+@Article{8saap,
+  author       = "Albert Chang and Mark~F. Mergen",
+  title        = "801 Storage:  Architecture and Programming (Extended Abstract)",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "109--110",
+  month        = nov,
+  keywords     = "working storage, storage management",
+  abstract     = "The IBM RT PC implements the necessary features of 801 storage
+    architecture.  The upper 4 bits of a 32-bit short address select one of 16
+    segment registers.  A 12-bit segment id from the register replaces the 4
+    bits to form a 40-bit long virtual address.  This creates a single large
+    space of 4096 256M-byte segments.  Only the supervisor may load segment
+    registers and may therefore control access to and sharing of segments.  A
+    long virtual address is translated to real by an inverted page table, in
+    which each entry contains the virtual page address currently allocated to a
+    real page.  Hardware searches the table using chained hashing.  If a given
+    virtual address is found in a table entry, the index of that entry is the
+    desired real page address.  Table size is related only to real storage size
+    rather than to virtual size as with conventional segment and page tables.
+    The inverted page table includes a transaction locking mechanism.  Each
+    entry contains bits to represent read and write locks, for 128-byte lines
+    within the page, granted to the transaction id also in the entry.  Lock
+    fault interrupt occurs when storage access by the current transaction (id
+    in a register) is not permitted by locks and id in a table entry.  Page
+    protection bits may instead be used when transaction locking is not
+    required.", 
+  location     = "https://doi.org/10.1145/37499.37513"
+}
+
 @TechReport{apfdsifcip,
   author       = "Joel Moses",
   title        = "{A} Program for Drilling Students in Freshman Calculus Integration Problems",
@@ -12467,8 +12707,3 @@ Language Design and Implementation, PLDI '03)"}
   keywords     = "tex, document production, typesetting, textbook production,
     multilingual documents, sgml, dvi"
 }
-
-% Local Variables:
-% eval: (set-register ?b "  journal      = sosp87,\n  year         = 1987,\n  volume       = 21,\n  number       = 5,\n  pages        = \"--\",\n  month        = nov,\n")
-% End:
-		  
