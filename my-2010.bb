@@ -50760,21 +50760,6 @@
 		   abstract relations, language design" 
 }
 
-@inproceedings{tdomacitioamos,
-  author	= "Michael Young and Avadis Tevanian and Richard Rashid and
-		   David Golub and Jeffrey Eppinger and Jonathan Chew and
-		   William Bolosky and David Black and Robert Baron", 
-  title		= "The Duality of Memory and Communication in the
-		   Implementation of a Multiprocessor Operating System",
-  booktitle	= pot # "Ninth" # sosp, 
-  year		= 1987,
-  pages		= "63--76",
-  organization	= "ACM SIGOPS",
-  publisher	= acmp,
-  keywords	= "mach, operating systems, memory management, kernel, ipc,
-		   memory mapping, virtual memory, rpc"
-}
-
 @inproceedings{atbcosdsms,
   author	= "Ming-Chit Tam and Jonathan~M. Smith and David~J. Farber", 
   title		= "A Taxonomy-Based Comparison of Several Distributed Shared
