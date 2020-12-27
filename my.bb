@@ -1,5 +1,5 @@
 % Local Variables:
-% eval: (set-register ?b "  journal      = sosp87,\n  year         = 1987,\n  volume       = 21,\n  number       = 5,\n  pages        = \"--\",\n  month        = nov,\n")
+% eval: (set-register ?b "  journal      = asplos04,\n  year         = 2004,\n  volume       = 39,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
 % End:
 		  
 .so bibtex.header
@@ -10,6 +10,7 @@
 @string{asplos96 = sigplan # " (" # pot # "Seventh International Conference on " # asplos # ", ASPLOS VII)"}
 @string{asplos98 = sigplan # " (" # pot # "Eighth International Conference on " # asplos # ", ASPLOS VIII)"}
 @string{asplos00 = sigplan # " (" # pot # "Ninth International Conference on " # asplos # ", ASPLOS IX)"}
+@string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{pldi03 = sigplan # " (" # pot # "ACM SIGPLAN 2003 Conference on Programming
 Language Design and Implementation, PLDI '03)"}
 		  
@@ -1378,6 +1379,19 @@ Language Design and Implementation, PLDI '03)"}
   address      = nyny,
   keywords     = "murrdaar, academic follies",
   location     = "0 553 29255 2"
+}
+
+@Book{d1fe,
+  author       = "Chris Strom",
+  title        = "Dart 1 for Everyone",
+  subtitle     = "Fast, Flexible, Structured Code for the Modern Web",
+  publisher    = "The Pragmatic Bookshelf",
+  year         = 2014,
+  address      = "Dallas, Texas",
+  keywords     = "dart, types, functional programming, dom, javascript, mvc,
+    classes, objects, events, streams, libraries, testing, callbacks, futures,
+    isolates, html5",
+  location     = "QA 76.76.D23 S77"
 }
 
 @Article{famw,
@@ -8609,6 +8623,264 @@ Language Design and Implementation, PLDI '03)"}
     protection bits may instead be used when transaction locking is not
     required.", 
   location     = "https://doi.org/10.1145/37499.37513"
+}
+
+@Article{atpmb,
+  author       = "Edward~R. Zayas",
+  title        = "Attacking the Process Migration Bottleneck",
+  journal      = sosp87,
+  year         = 1987,
+  volume       = 21,
+  number       = 5,
+  pages        = "13--24",
+  month        = nov,
+  keywords     = "copy-on-reference, virtual memory, accent, paging, process
+    migration", 
+  abstract     = "Moving the contents of a large virtual address space stands
+    out as the bottleneck in process migration, dominating all other costs and
+    growing with the size of the program.  Copy-on-reference shipment is shown
+    to successfully attack this problem in the Accent distributed computing
+    environment.  Logical memory transfers at migration time with individual
+    on-demand page fetches during remote execution allows relocations to occur
+    up to one thousand times faster than with standard techniques.  While the
+    amount of allocated memory varies by four orders of magnitude across the
+    processes studied, their transfer times are practically constant.  The
+    number of bytes exchanged between machines as a result of migration and
+    remote execution drops by an average of 58% in the representative processes
+    studied, and message-handling costs are cut by over 47% on average.  The
+    assumption that processes touch a relatively small part of their memory
+    while executing is shown to be correct, helping to account for these
+    figures.  Accent's copy-on-reference facility can be used by any
+    application wishing to take advantage of lazy shipment of data.", 
+  location     = "https://doi.org/10.1145/37499.37503"
+}
+
+@Article{dvmegsnom,
+  author       = "David~E. Lowell and Yasushi Saito and Eileen~J. Samberg",
+  title        = "Devirtualizable Virtual Machines Enabling General, Single-Node, Online Maintenance",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "211--223",
+  month        = nov,
+  keywords     = "virtualization, system maintenance, down time, specialization",
+  abstract     = "Maintenance is the dominant source of downtime at high
+    availability sites.  Unfortunately, the dominant mechanism for reducing
+    this downtime, cluster rolling upgrade, has two shortcomings that have
+    prevented its broad acceptance.  First, cluster-style maintenance over many
+    nodes is typically performed a few nodes at a time, mak-ing maintenance
+    slow and often impractical.  Second, cluster-style maintenance does not
+    work on single-node systems, despite the fact that their unavailability
+    during maintenance can be painful for organizations.  In this paper, we
+    propose a novel technique for online maintenance that uses virtual machines
+    to provide maintenance on single nodes, allowing parallel maintenance over
+    multiple nodes, and online maintenance for standalone servers.  We present
+    the Microvisor, our prototype virtual machine system that is custom
+    tailored to the needs of online maintenance.  Unlike general purpose
+    virtual machine environments that induce continual 10-20% over-head, the
+    Microvisor virtualizes the hardware only during periods of active
+    maintenance, letting the guest OS run at full speed most of the time.
+    Unlike past attempts at virtual machine optimization, we do not compromise
+    OS transparency.  We instead give up generality and tailor our virtual
+    machine system to the minimum needs of online maintenance, eschewing
+    features, such as I/O and memory virtualization, that it does not strictly
+    require.  The result is a very thin virtual machine system that induces
+    only 5.6% CPU overhead when virtualizing the hardware, and zero CPU
+    overhead when devirtualized.  Using the Microvisor, we demonstrate an
+    online OS upgrade on a live, single-node web server, reducing downtime from
+    one hour to less than one minute.", 
+  location     = "https://doi.org/10.1145/1037947.1024419",
+  location     = "http://www.cs.cmu.edu/~15849g/readings/lowell04.pdf"
+}
+
+@Article{fbsedlab,
+  author       = "Jared~C. Smolens and Brian~T. Gold and Jangwoo Kim and Babak Falsafi and James~C. Hoe and Andreas~G. Nowatzyk",
+  title        = "Fingerprinting:  Bounding Soft-Error Detection Latency and Bandwidth",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "224--234",
+  month        = nov,
+  keywords     = "performance, design, reliability, soft errors, error
+    detection, dual modular redundancy, backwards error recovery, comparative
+    evaluation",
+  abstract     = "Recent studies have suggested that the soft-error rate in
+    microprocessor logic will become a reliability concern by 2010.  This paper
+    proposes an efficient error detection technique, called fingerprinting,
+    that detects differences in execution across a dual modular redundant (DMR)
+    processor pair.  Fingerprinting summarizes a processor's execution history
+    in a hash-based signature; differences between two mirrored processors are
+    exposed by comparing their fingerprints.  Fingerprinting tightly bounds
+    detection latency and greatly reduces the interprocessor communication
+    bandwidth required for checking.  This paper presents a study that
+    evaluates fingerprinting against a range of current approaches to error
+    detection.  The result of this study shows that fingerprinting is the only
+    error detection mechanism that simultaneously allows high-error coverage,
+    low error detection bandwidth, and high I/O performance.", 
+  location     = "https://doi.org/10.1145/1037949.1024420", 
+  location     = "https://users.ece.cmu.edu/~bgold/papers/ieeemicro_fpnt.pdf"
+}
+
+@Article{alcfsmp,
+  author       = "Greg Bronevetsky and Daniel Marques and Keshav Pingali and Peter Szwed and Martin Schulz",
+  title        = "Application-Level Checkpointing for Shared Memory Programs",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "235--247",
+  month        = nov,
+  keywords     = "reliability, experimentation, fault-tolerance, checkpointing,
+    shared-memory programs, openmp, state saving, barrier synchronization",
+  abstract     = "Trends in high-performance computing are making it necessary
+    for long-running applications to tolerate hardware faults.  The most
+    commonly used approach is checkpoint and restart (CPR) - the state of the
+    computation is saved periodically on disk, and when a failure occurs, the
+    computation is restarted from the last saved state.  At present, it is the
+    responsibility of the programmer to instrument applications for CPR.Our
+    group is investigating the use of compiler technology to instrument codes
+    to make them self-checkpointing and self-restarting, thereby providing an
+    automatic solution to the problem of making long-running scientific
+    applications resilient to hardware faults.  Our previous work focused on
+    message-passing programs.In this paper, we describe such a system for
+    shared-memory programs running on symmetric multiprocessors.  This system
+    has two components: (i) a pre-compiler for source-to-source modification of
+    applications, and (ii) a runtime system that implements a protocol for
+    coordinating CPR among the threads of the parallel application.  For the
+    sake of concreteness, we focus on a non-trivial subset of OpenMP that
+    includes barriers and locks.One of the advantages of this approach is that
+    the ability to tolerate faults becomes embedded within the application
+    itself, so applications become self-checkpointing and self-restarting on
+    any platform.  We demonstrate this by showing that our transformed
+    benchmarks can checkpoint and restart on three different platforms
+    (Windows/x86, Linux/x86, and Tru64/Alpha).  Our experiments show that the
+    overhead introduced by this approach is usually quite small; they also
+    suggest ways in which the current implementation can be tuned to reduced
+    overheads further.", 
+  location     = "https://doi.org/10.1145/1037949.1024421"
+}
+
+@Article{fomfvsfcimcdm,
+  author       = "Qiang Wu and Philo Juang and Margaret Martonosi and Douglas~W. Clark",
+  title        = "Formal Online Methods for Voltage\slash Frequency Control in Multiple Clock Domain Microprocessors",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "248--259",
+  month        = nov,
+  keywords     = "dynamic voltage/frequency scaling, formal methods, mcd
+    processors", 
+  abstract     = "Multiple Clock Domain (MCD) processors are a promising future
+    alternative to today's fully synchronous designs.  Dynamic Voltage and
+    Frequency Scaling (DVFS) in an MCD processor has the extra flexibility to
+    adjust the voltage and frequency in each domain independently.  Most
+    existing DVFS approaches are profile-based offline schemes which are mainly
+    suitable for applications whose execution char-acteristics are constrained
+    and repeatable.  While some work has been published about online DVFS
+    schemes, the prior approaches are typically heuristic-based.  In this
+    paper, we present an effective online DVFS scheme for an MCD processor
+    which takes a formal analytic approach, is driven by dynamic workloads, and
+    is suitable for all applications.  In our approach, we model an MCD
+    processor as a queue-domain network and the online DVFS as a feedback
+    control problem with issue queue occupancies as feedback signals.  A
+    dynamic stochastic queuing model is first proposed and linearized through
+    an accu-rate linearization technique.  A controller is then designed and
+    verified by stability analysis.  Finally we evaluate our DVFS scheme
+    through a cycle-accurate simulation with a broad set of applications
+    selected from MediaBench and SPEC2000 benchmark suites.  Compared to the
+    best-known prior approach, which is heuristic-based, the proposed online
+    DVFS scheme is substantially more effective due to its automatic regulation
+    ability.  For example, we have achieved a 2-3 fold increase in efficiency
+    in terms of energy-delay product improvement.  In addition, our control
+    theoretic technique is more resilient, requires less tuning effort, and has
+    better scalability as compared to prior online DVFS schemes.We believe that
+    the techniques and methodology described in this paper can be generalized
+    for energy control in processors other than MCD, such as tiled stream
+    processors.", 
+  location     = "https://doi.org/10.1145/1037947.1024423"
+}
+
+@Article{harlsactmpdttos,
+  author       = "Mohamed Gomaa and Michael~D. Powell and T.~N. Vijaykumar",
+  title        = "Heat-and-Run:  Leveraging {SMT} and {CMP} to Manage Power Density Through the Operating System",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "260--270",
+  month        = nov,
+  keywords     = "power density, heat, cmp, smt, thread migration, temporal and
+    spatial granularity",
+  abstract     = "Power density in high-performance processors continues to
+    increase with technology generations as scaling of current, clock speed,
+    and device density outpaces the downscaling of supply voltage and thermal
+    ability of packages to dissipate heat.  Power density is characterized by
+    localized chip hot spots that can reach critical temperatures and cause
+    failure.  Previous architectural approaches to power density have used
+    global clock gating, fetch toggling, dynamic frequency scaling, or resource
+    duplication to either prevent heating or relieve overheated resources in a
+    superscalar processor.  Previous approaches also evaluate design
+    technologies where power density is not a major problem and most
+    applications do not overheat the processor.  Future processors, however,
+    are likely to be chip multiprocessors (CMPs) with
+    simultaneously-multithreaded (SMT) cores.  SMT CMPs pose unique challenges
+    and opportunities for power density.  SMT and CMP increase throughput and
+    thus on-chip heat, but also provide natural granularities for managing
+    power-density.  This paper is the first work to leverage SMT and CMP to
+    address power density.  We propose heat-and-run SMT thread assignment to
+    increase processor-resource utilization before cooling becomes necessary by
+    co-scheduling threads that use complimentary resources.  We propose
+    heat-and-run CMP thread migration to migrate threads away from overheated
+    cores and assign them to free SMT contexts on alternate cores, leveraging
+    availability of SMT contexts on alternate CMP cores to maintain throughput
+    while allowing overheated cores to cool.  We show that our proposal has an
+    average of 9% and up to 34% higher throughput than a previous superscalar
+    technique running the same number of threads.", 
+  location     = "https://doi.org/10.1145/1024393.1024424"
+}
+
+@Article{pdemfmmad,
+  author       = "Xiaodong Li and Zhenmin Li and Francis David and Pin Zhou and Yuanyuan Zhou and Sarita Adve and Sanjeev Kumar",
+  title        = "Performance Directed Energy Management for Main Memory and Disks",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "271--283",
+  month        = nov,
+  keywords     = "memory and disk energy management, low power design,
+    adaptation algorithms, control algorithms, multiple power mode device",
+  abstract     = "Much research has been conducted on energy management for
+    memory and disks.  Most studies use control algorithms that dynamically
+    transition devices to low power modes after they are idle for a certain
+    threshold period of time.  The control algorithms used in the past have two
+    major limitations.  First, they require painstaking, application-dependent
+    manual tuning of their thresholds to achieve energy savings without
+    significantly degrading performance.  Second, they do not provide
+    performance guarantees.  In one case, they slowed down an application by
+    835.This paper addresses these two limitations for both memory and disks,
+    making memory/disk energy-saving schemes practical enough to use in real
+    systems.  Specifically, we make three contributions: (1) We propose a
+    technique that provides a performance guarantee for control algorithms.  We
+    show that our method works well for all tested cases, even with previously
+    proposed algorithms that are not performance-aware.  (2) We propose a new
+    control algorithm, Performance-directed Dynamic (PD), that dynamically
+    adjusts its thresholds periodically, based on available slack and recent
+    workload characteristics.  For memory, PD consumes the least energy, when
+    compared to previous hand-tuned algorithms combined with a performance
+    guarantee.  However, for disks, PD is too complex and its self-tuning is
+    unable to beat previous hand-tuned algorithms.  (3) To improve on PD, we
+    propose a simple, optimization-based, threshold-free control algorithm,
+    Performance-directed Static (PS).  PS periodically assigns a static
+    configuration by solving an optimization problem that incorporates
+    information about the available slack and recent traffic variability to
+    different chips/disks.  We find that PS is the best or close to the best
+    across all performanceguaranteed disk algorithms, including hand-tuned
+    versions.", 
+  location     = "https://doi.org/10.1145/1037947.1024425"
 }
 
 @TechReport{apfdsifcip,
