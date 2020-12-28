@@ -8855,31 +8855,30 @@ Language Design and Implementation, PLDI '03)"}
     adaptation algorithms, control algorithms, multiple power mode device",
   abstract     = "Much research has been conducted on energy management for
     memory and disks.  Most studies use control algorithms that dynamically
-    transition devices to low power modes after they are idle for a certain
-    threshold period of time.  The control algorithms used in the past have two
+    transition devices to low power modes after they are idle for a threshold
+    period of time.  The control algorithms used in the past have two 
     major limitations.  First, they require painstaking, application-dependent
     manual tuning of their thresholds to achieve energy savings without
     significantly degrading performance.  Second, they do not provide
     performance guarantees.  In one case, they slowed down an application by
-    835.This paper addresses these two limitations for both memory and disks,
+    835%.  This paper addresses these two limitations for memory and disks,
     making memory/disk energy-saving schemes practical enough to use in real
-    systems.  Specifically, we make three contributions: (1) We propose a
-    technique that provides a performance guarantee for control algorithms.  We
-    show that our method works well for all tested cases, even with previously
-    proposed algorithms that are not performance-aware.  (2) We propose a new
-    control algorithm, Performance-directed Dynamic (PD), that dynamically
-    adjusts its thresholds periodically, based on available slack and recent
-    workload characteristics.  For memory, PD consumes the least energy, when
-    compared to previous hand-tuned algorithms combined with a performance
-    guarantee.  However, for disks, PD is too complex and its self-tuning is
-    unable to beat previous hand-tuned algorithms.  (3) To improve on PD, we
-    propose a simple, optimization-based, threshold-free control algorithm,
-    Performance-directed Static (PS).  PS periodically assigns a static
-    configuration by solving an optimization problem that incorporates
-    information about the available slack and recent traffic variability to
-    different chips/disks.  We find that PS is the best or close to the best
-    across all performanceguaranteed disk algorithms, including hand-tuned
-    versions.", 
+    systems.  We make three contributions: (1) A technique providing a
+    performance guarantee for control algorithms.  We show our method works
+    well for all tested cases, even with previously proposed algorithms that
+    are not performance-aware.  (2) A new control algorithm,
+    Performance-directed Dynamic (PD), that dynamically adjusts its thresholds
+    periodically, based on available slack and recent workload characteristics.
+    For memory, PD consumes the least energy, when compared to previous
+    hand-tuned algorithms combined with a performance guarantee.  However, for
+    disks, PD is too complex and its self-tuning is unable to beat previous
+    hand-tuned algorithms.  (3) A simple, optimization-based, threshold-free
+    control algorithm, performance-directed Static (PS) To improve on PD.  PS
+    periodically assigns a static configuration by solving an optimization
+    problem incorporating information about the available slack and recent
+    traffic variability to different chips/disks.  We find that PS is the best
+    or close to the best across all performance guaranteed disk algorithms,
+    including hand-tuned versions.", 
   location     = "https://doi.org/10.1145/1037947.1024425"
 }
 
