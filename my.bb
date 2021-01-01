@@ -1394,6 +1394,27 @@ Language Design and Implementation, PLDI '03)"}
   location     = "QA 76.76.D23 S77"
 }
 
+@Book{bcrdk,
+  author       = "Richard~D. Kahlenberg",
+  title        = "Broken Contract",
+  subtitle     = "A Memoir of Harvard Law School",
+  publisher    = "Hill \& Wang",
+  year         = 1992,
+  address      = nyny,
+  keywords     = "harvard law, andragogy, selling out",
+  location     = "KF 373.K34 A3"
+}
+
+@Book{olmmsw,
+  author       = "Mark Morris and Stace Wesley",
+  title        = "Out Loud",
+  publisher    = "Penguin Press",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "dance, choreography, music, modern dance, artistic practice",
+  location     = "GV 1785.M635"
+}
+
 @Article{famw,
   author       = "Charles~P. Thacker and Lawrence~C. Stewart",
   title        = "Firefly:  {A} Multiprocessor Workstation",
@@ -8873,13 +8894,44 @@ Language Design and Implementation, PLDI '03)"}
     hand-tuned algorithms combined with a performance guarantee.  However, for
     disks, PD is too complex and its self-tuning is unable to beat previous
     hand-tuned algorithms.  (3) A simple, optimization-based, threshold-free
-    control algorithm, performance-directed Static (PS) To improve on PD.  PS
+    control algorithm, performance-directed Static (PS) to improve on PD.  PS
     periodically assigns a static configuration by solving an optimization
     problem incorporating information about the available slack and recent
     traffic variability to different chips/disks.  We find that PS is the best
     or close to the best across all performance guaranteed disk algorithms,
     including hand-tuned versions.", 
   location     = "https://doi.org/10.1145/1037947.1024425"
+}
+
+@Article{socraais,
+  author       = "Roberto Casta{\~ n}eda Lozano and Christian Schulte",
+  title        = "Survey on Combinatorial Register Allocation and Instruction Scheduling",
+  journal      = surveys,
+  year         = 2019,
+  volume       = 52,
+  number       = 3,
+  pages        = "Article 62",
+  month        = jun,
+  keywords     = "combinatorial optimization, register allocation, instruction
+    scheduling, ", 
+  abstract     = "Register allocation (mapping variables to processor registers
+    or memory) and instruction scheduling (reordering instructions to increase
+    instruction-level parallelism) are essential tasks for generating efficient
+    assembly code in a compiler.  In the past three decades, combinatorial
+    optimization has emerged as an alternative to traditional, heuristic
+    algorithms for these two tasks.  Combinatorial optimization approaches can
+    deliver optimal solutions according to a model, can precisely capture
+    trade-offs between conflicting decisions, and are more flexible at the
+    expense of increased compilation time.This article provides an exhaustive
+    literature review and a classification of combinatorial optimization
+    approaches to register allocation and instruction scheduling, with a focus
+    on the techniques that are most applied in this context: integer
+    programming, constraint programming, partitioned Boolean quadratic
+    programming, and enumeration.  Researchers in compilers and combinatorial
+    optimization can benefit from identifying developments, trends, and
+    challenges in the area; compiler practitioners may discern opportunities
+    and grasp the potential benefit of applying combinatorial optimization.", 
+  location     = "https://doi.org/10.1145/3200920"
 }
 
 @TechReport{apfdsifcip,
