@@ -27,6 +27,16 @@
   location     = "PZ 7.S2472 Ho 1984"
 }
 
+@Book{sewpr,
+  author       = "Matthias Felleisen and Robert Bruce Findler and Matthew Flatt",
+  title        = "Semantics Engineering with {PLT Redex}",
+  publisher    = "The MIT Press",
+  year         = 2009,
+  address      = cama,
+  keywords     = "reduction semantics, language semantics",
+  location     = "QA 76.73.R227 F45"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
