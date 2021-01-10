@@ -37,6 +37,17 @@
   location     = "QA 76.73.R227 F45"
 }
 
+@Book{dhwj,
+  author       = "Joe Bageant",
+  title        = "Deer Hunting with Jesus",
+  subtitle     = "Dispatches from America's Class War",
+  publisher    = "Crown",
+  year         = 2007,
+  address      = nyny,
+  keywords     = "working class, class war, economics, politics, virginia",
+  location     = "HN 90.S6 B32 2007"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -285,5 +296,237 @@
     default prefetching strategy is ineffective on this platform.", 
   location     = "https://doi.org/10.1145/1037947.1024417", 
   location     = "ftp://ftp.cs.purdue.edu/pub/hosking/papers/asplos04.pdf"
+}
+
+@Article{dsa,
+  author       = "Timothy~E. Denehy and John Bent and Florentina~I. Popovici and Andrea~C. Arpaci-Dusseau and Remzi~H. Arpaci-Dusseau",
+  title        = "Deconstructing storage arrays",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "59--71",
+  month        = nov,
+  keywords     = "storage, raid storage, statistical analysis, fingerprinting,
+    reverse engineering, shear",
+  abstract     = "We introduce Shear, a user-level software tool that
+    characterizes RAID storage arrays.  Shear employs a set of controlled
+    algorithms combined with statistical techniques to automatically determine
+    the important properties of a RAID system, including the number of disks,
+    chunk size, level of redundancy, and layout scheme.  We illustrate the
+    correctness of Shear by running it upon numerous simulated configurations,
+    and then verify its real-world applicability by running Shear on both
+    software-based and hardware-based RAID systems.  Finally, we demonstrate
+    the utility of Shear through three case studies.  First, we show how Shear
+    can be used in a storage management environment to verify RAID construction
+    and detect failures.  Second, we demonstrate how Shear can be used to
+    extract detailed characteristics about the individual disks within an
+    array.  Third, we show how an operating system can use Shear to
+    automatically tune its storage subsystems to specific RAID
+    configurations.",
+  location     = "https://doi.org/10.1145/1037947.1024401",
+  location     = "https://research.cs.wisc.edu/wind/Publications/shear-asplos04.ps"
+}
+
+@Article{fbdedafcc,
+  author       = "Yasushi Saito and Svend Frølund and Alistair Veitch and Arif Merchant and Susan Spence",
+  title        = "{FAB}: building distributed enterprise disk arrays from commodity components",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "48--58",
+  month        = nov,
+  keywords     = "disk storage, paxos voting, load balancing, erasure coding,
+    replication, timestamping, dynamic reconfiguration, redundancy",
+  abstract     = "This paper describes the design, implementation, and
+    evaluation of a Federated Array of Bricks (FAB), a distributed disk array
+    that provides the reliability of traditional enterprise arrays with lower
+    cost and better scalability.  FAB is built from a collection of bricks,
+    small storage appliances containing commodity disks, CPU, NVRAM, and
+    network interface cards.  FAB deploys a new majority-voting-based algorithm
+    to replicate or erasure-code logical blocks across bricks and a
+    reconfiguration algorithm to move data in the background when bricks are
+    added or decommissioned.  We argue that voting is practical and necessary
+    for reliable, high-throughput storage systems such as FAB.  We have
+    implemented a FAB prototype on a 22-node Linux cluster.  This prototype
+    sustains 85MB/second of throughput for a database workload, and
+    270MB/second for a bulk-read workload.  In addition, it can outperform
+    traditional master-slave replication through performance decoupling and can
+    handle brick failures and recoveries smoothly without disturbing client
+    requests.",
+  location     = "https://doi.org/10.1145/1037947.1024400"
+}
+
+@Article{haifepilotab,
+  author       = "Xiaotong Zhuang and Tao Zhang and Santosh Pande",
+  title        = "{HIDE}: an infrastructure for efficiently protecting information leakage on the address bus",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "72--84",
+  month        = nov,
+  keywords     = "secure processor, address bus leakage protection, random
+    permutations, basic blocks, control flow graphs",
+  abstract     = "XOM-based secure processor has recently been introduced as a
+    mechanism to provide copy and tamper resistant execution.  XOM provides
+    support for encryption/decryption and integrity checking.  However, neither
+    XOM nor any other current approach adequately addresses the problem of
+    information leakage via the address bus.  This paper shows that without
+    address bus protection, the XOM model is severely crippled.  Two realistic
+    attacks are shown and experiments show that 70% of the code might be
+    cracked and sensitive data might be exposed leading to serious security
+    breaches.Although the problem of address bus leakage has been widely
+    acknowledged both in industry and academia, no practical solution has ever
+    been proposed that can provide an adequate security guarantee.  The main
+    reason is that the problem is very difficult to solve in practice due to
+    severe performance degradation which accompanies most of the solutions.
+    This paper presents an infrastructure called HIDE (Hardware-support for
+    leakage-Immune Dynamic Execution) which provides a solution consisting of
+    chunk-level protection with hardware support and a flexible interface which
+    can be orchestrated through the proposed compiler optimization and user
+    specifications that allow utilizing underlying hardware solution more
+    efficiently to provide better security guarantees.Our results show that
+    protecting both data and code with a high level of security guarantee is
+    possible with negligible performance penalty (1.3% slowdown).", 
+  location     = "https://doi.org/10.1145/1037947.1024403", 
+  location     = "http://www.cs.wisc.edu/~rajwar/papers/asplos04.pdf"
+}
+
+@Article{spevdift,
+  author       = "G.~Edward Suh and Jae~W. Lee and David Zhang and Srinivas Devadas",
+  title        = "Secure program execution via dynamic information flow tracking",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "85--96",
+  month        = nov,
+  keywords     = "buffer overflow, format strings, hardware tagging, stack
+    smashing, information flow analysis",
+  abstract     = "We present a simple architectural mechanism called dynamic
+    information flow tracking that can significantly improve the security of
+    computing systems with negligible performance overhead.  Dynamic
+    information flow tracking protects programs against malicious software
+    attacks by identifying spurious information flows from untrusted I/O and
+    restricting the usage of the spurious information.Every security attack to
+    take control of a program needs to transfer the program's control to
+    malevolent code.  In our approach, the operating system identifies a set of
+    input channels as spurious, and the processor tracks all information flows
+    from those inputs.  A broad range of attacks are effectively defeated by
+    checking the use of the spurious values as instructions and pointers.Our
+    protection is transparent to users or application programmers; the
+    executables can be used without any modification.  Also, our scheme only
+    incurs, on average, a memory overhead of 1.4% and a performance overhead of
+    1.1%.", 
+  location     = "https://doi.org/10.1145/1037947.1024404", 
+  location     = "http://csg.csail.mit.edu/pubs/memos/Memo-467/memo-467.pdf"
+}
+
+@Article{cdmuoi,
+  author       = "Jaehyuk Huh and Jichuan Chang and Doug Burger and Gurindar~S. Sohi",
+  title        = "Coherence decoupling: making use of incoherence",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "97--106",
+  month        = nov,
+  keywords     = "coherence decoupling, speculative cache lookup, coherence
+    misses, false sharing, caching protocols",
+  abstract     = "This paper explores a new technique called coherence
+    decoupling, which breaks a traditional cache coherence protocol into two
+    protocols: a Speculative Cache Lookup (SCL) protocol and a safe, backing
+    coherence protocol.  The SCL protocol produces a speculative load value,
+    typically from an invalid cache line, permitting the processor to compute
+    with incoherent data.  In parallel, the coherence protocol obtains the
+    necessary coherence permissions and the correct value.  Eventually, the
+    speculative use of the incoherent data can be verified against the coherent
+    data.  Thus, coherence decoupling can greatly reduce --- if not eliminate
+    --- the effects of false sharing.  Furthermore, coherence decoupling can
+    also reduce latencies incurred by true sharing.  SCL protocols reduce those
+    latencies by speculatively writing updates into invalid lines, thereby
+    increasing the accuracy of speculation, without complicating the simple,
+    underlying coherence protocol that guarantees correctness.The performance
+    benefits of coherence decoupling are evaluated using a full-system
+    simulator and a mix of commercial and scientific benchmarks.  Our results
+    show that 40% to 90% of all coherence misses can be speculated correctly,
+    and therefore their latencies partially or fully hidden.  This capability
+    results in performance improvements ranging from 3% to over 16%, in most
+    cases where the latencies of coherence misses have an effect on
+    performance.", 
+  location     = "https://doi.org/10.1145/1037947.1024406", 
+  location     = "http://pages.cs.wisc.edu/~mscalar/papers/2004/asplos04-coherence-decoupling.pdf"
+}
+
+@Article{cfp,
+  author       = "Srikanth~T. Srinivasan and Ravi Rajwar and Haitham Akkary and Amit Gandhi and Mike Upton",
+  title        = "Continual flow pipelines",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "107--119",
+  month        = nov,
+  keywords     = "non-blocking, instruction window, latency tolerance, cfp,
+    storage latency, instruction scheduling, register assignment, cache
+    hierarchies", 
+  abstract     = "Increased integration in the form of multiple processor cores
+    on a single die, relatively constant die sizes, shrinking power envelopes,
+    and emerging applications create a new challenge for processor architects.
+    How to build a processor that provides high single-thread performance and
+    enables multiple of these to be placed on the same die for high throughput
+    while dynamically adapting for future applications? Conventional approaches
+    for high single-thread performance rely on large and complex cores to
+    sustain a large instruction window for memory tolerance, making them
+    unsuitable for multi-core chips.  We present Continual Flow Pipelines (CFP)
+    as a new non-blocking processor pipeline architecture that achieves the
+    performance of a large instruction window without requiring cycle-critical
+    structures such as the scheduler and register file to be large.  We show
+    that to achieve benefits of a large instruction window, inefficiencies in
+    management of both the scheduler and register file must be addressed, and
+    we propose a unified solution.  The non-blocking property of CFP keeps key
+    processor structures affecting cycle time and power (scheduler, register
+    file), and die size (second level cache) small.  The memory
+    latency-tolerant CFP core allows multiple cores on a single die while
+    outperforming current processor cores for single-thread applications.", 
+  location     = "https://doi.org/10.1145/1037947.1024407"
+}
+
+@Article{ssrefea,
+  author       = "Rajagopalan Desikan and Simha Sethumadhavan and Doug Burger and Stephen~W. Keckler",
+  title        = "Scalable selective re-execution for {EDGE} architectures",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "120--132",
+  month        = nov,
+  keywords     = "mis-speculation recovery, selective re-execution, dependence
+    prediction, edge architectures, microarchitecture, speculation, speculative
+    dataflow machines",
+  abstract     = "Pipeline flushes are becoming increasingly expensive in
+    modern microprocessors with large instruction windows and deep pipelines.
+    Selective re-execution is a technique that can reduce the penalty of
+    mis-speculations by re-executing only instructions affected by the
+    mis-speculation, instead of all instructions.  In this paper we introduce a
+    new selective re-execution mechanism that exploits the properties of a
+    dataflow-like Explicit Data Graph Execution (EDGE) architecture to support
+    efficient mis-speculation recovery, while scaling to window sizes of
+    thousands of instructions with high performance.  This distributed
+    selective re-execution (DSRE) protocol permits multiple speculative waves
+    of computation to be traversing a dataflow graph simultaneously, with a
+    commit wave propagating behind them to ensure correct execution.  We
+    evaluate one application of this protocol to provide efficient recovery for
+    load-store dependence speculation.  Unlike traditional dataflow
+    architectures which resorted to single-assignment memory semantics, the
+    DSRE protocol combines dataflow execution with speculation to enable high
+    performance and conventional sequential memory semantics.  Our experiments
+    show that the DSRE protocol results in an average 17% speedup over the best
+    dependence predictor proposed to date, and obtains 82% of the performance
+    possible with a perfect oracle directing the issue of loads.", 
+  location     = "https://doi.org/10.1145/1037947.1024408", 
+  location     = "https://www.cs.utexas.edu/~skeckler/pubs/asplos04.pdf"
 }
 
