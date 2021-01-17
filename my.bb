@@ -1,10 +1,11 @@
 % Local Variables:
-% eval: (set-register ?b "  journal      = asplos04,\n  year         = 2004,\n  volume       = 39,\n  number       = 11,\n  pages        = \"--\",\n  month        = nov,\n")
+% eval: (set-register ?b "  journal      = sosp01,\n  year         = 2001,\n  volume       = 35,\n  number       = 5,\n  pages        = \"--\",\n  month        = dec,\n")
 % End:
 		  
 .so bibtex.header
 
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
+@string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 
 @Book{tsbotw,
   author       = "Victor Pelevin",
@@ -528,5 +529,226 @@
     possible with a perfect oracle directing the issue of loads.", 
   location     = "https://doi.org/10.1145/1037947.1024408", 
   location     = "https://www.cs.utexas.edu/~skeckler/pubs/asplos04.pdf"
+}
+
+@Article{dsdrdibbss,
+  author       = "Christopher~R. Lumb and Richard Golding",
+  title        = "{D}-{SPTF}: decentralized request distribution in brick-based storage systems",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "37--47",
+  month        = nov,
+  keywords     = "storage systems, brick-based storage, distributed systems,
+    disk scheduling, decentralized systems, load balancing, global cache
+    management",
+  abstract     = "Distributed Shortest-Positioning Time First (D-SPTF) is a
+    request distribution protocol for decentralized systems of storage servers.
+    D-SPTF exploits high-speed interconnects to dynamically select which
+    server, among those with a replica, should service each read request.  In
+    doing so, it simultaneously balances load, exploits the aggregate cache
+    capacity, and reduces positioning times for cache misses.  For network
+    latencies expected in storage clusters (e.g., 10--200μs), D-SPTF performs
+    as well as would a hypothetical centralized system with the same collection
+    of CPU, cache, and disk resources.  Compared to popular decentralized
+    approaches, D-SPTF achieves up to 65% higher throughput and adapts more
+    cleanly to heterogenous server capabilities.", 
+  location     = "https://doi.org/10.1145/1037947.1024399"
+}
+
+@Article{aulppfsn,
+  author       = "Virantha Ekanayake and Clinton Kelly and Rajit Manohar",
+  title        = "An ultra low-power processor for sensor networks",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "27--36",
+  month        = nov,
+  keywords     = "low-energy hardware, sensor networks, asynchronous circuits,
+    wireless, sensor network processor, even-driven execution, picojoule
+    computing",
+  abstract     = "We present a novel processor architecture designed
+    specifically for use in low-power wireless sensor-network nodes.  Our
+    sensor network asynchronous processor (SNAP/LE) is based on an asynchronous
+    data-driven 16-bit RISC core with an extremely low-power idle state, and a
+    wakeup response latency on the order of tens of nanoseconds.  The processor
+    instruction set is optimized for sensor-network applications, with support
+    for event scheduling, pseudo-random number generation, bitfield operations,
+    and radio/sensor interfaces.  SNAP/LE has a hardware event queue and event
+    coprocessors, which allow the processor to avoid the overhead of operating
+    system software (such as task schedulers and external interrupt servicing),
+    while still providing a straightforward programming interface to the
+    designer.  The processor can meet performance levels required for data
+    monitoring applications while executing instructions with tens of
+    picojoules of energy.We evaluate the energy consumption of SNAP/LE with
+    several applications representative of the workload found in data-gathering
+    wireless sensor networks.  We compare our architecture and software against
+    existing platforms for sensor networks, quantifying both the software and
+    hardware benefits of our approach.", 
+  location     = "https://doi.org/10.1145/1037947.1024397"
+}
+
+@Article{sc2004,
+  author       = "Mihai Budiu and Girish Venkataramani and Tiberiu Chelcea and Seth Copen Goldstein",
+  title        = "Spatial computation",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "14--26",
+  month        = nov,
+  keywords     = "spatial computation, dataflow machine, application-specific
+    hardware, low-power computing, hardware compilation, intermediate
+    representation, superscalar architecture",
+  abstract     = "This paper describes a computer architecture, Spatial
+    Computation (SC), which is based on the translation of high-level language
+    programs directly into hardware structures.  SC program implementations are
+    completely distributed, with no centralized control.  SC circuits are
+    optimized for wires at the expense of computation units.In this paper we
+    investigate a particular implementation of SC: ASH (Application-Specific
+    Hardware).  Under the assumption that computation is cheaper than
+    communication, ASH replicates computation units to simplify interconnect,
+    building a system which uses very simple, completely dedicated
+    communication channels.  As a consequence, communication on the datapath
+    never requires arbitration; the only arbitration required is for accessing
+    memory.  ASH relies on very simple hardware primitives, using no
+    associative structures, no multiported register files, no scheduling logic,
+    no broadcast, and no clocks.  As a consequence, ASH hardware is fast and
+    extremely power efficient.In this work we demonstrate three features of
+    ASH: (1) that such architectures can be built by automatic compilation of C
+    programs; (2) that distributed computation is in some respects
+    fundamentally different from monolithic superscalar processors; and (3)
+    that ASIC implementations of ASH use three orders of magnitude less energy
+    compared to high-end superscalar processors, while being on average only
+    33% slower in performance (3.5x worst-case).", 
+  location     = "https://doi.org/10.1145/1037947.1024396", 
+  location     = "https://acg.media.mit.edu/people/simong/thesis/SpatialComputing.pdf"
+}
+
+@Article{pwtcact,
+  author       = "Lance Hammond and Brian~D. Carlstrom and Vicky Wong and Ben Hertzberg and Mike Chen and Christos Kozyrakis and Kunle Olukotun",
+  title        = "Programming with transactional coherence and consistency ({TCC})",
+  journal      = asplos04,
+  year         = 2004,
+  volume       = 39,
+  number       = 11,
+  pages        = "1--13",
+  month        = nov,
+  keywords     = "transactions, feedback optimization, multiprocessor
+    architecture, parallelization",
+  abstract     = "Transactional Coherence and Consistency (TCC) offers a way to
+    simplify parallel programming by executing all code within transactions.
+    In TCC systems, transactions serve as the fundamental unit of parallel
+    work, communication and coherence.  As each transaction completes, it
+    writes all of its newly produced state to shared memory atomically, while
+    restarting other processors that have speculatively read stale data.  With
+    this mechanism, a TCC-based system automatically handles data
+    synchronization correctly, without programmer intervention.  To gain the
+    benefits of TCC, programs must be decomposed into transactions.  We
+    describe two basic programming language constructs for decomposing programs
+    into transactions, a loop conversion syntax and a general
+    transaction-forking mechanism.  With these constructs, writing correct
+    parallel programs requires only small, incremental changes to correct
+    sequential programs.  The performance of these programs may then easily be
+    optimized, based on feedback from real program execution, using a few
+    simple techniques.", 
+  location     = "https://doi.org/10.1145/1037947.1024395", 
+  location     = "http://csl.stanford.edu/~christos/publications/2004.tcc.asplos.slides.pdf"
+}
+
+@Article{saafwcsis,
+  author       = "Matt Welsh and David Culler and Eric Brewer",
+  title        = "{SEDA}: an architecture for well-conditioned, scalable internet services",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "230--243",
+  month        = dec,
+  keywords     = "string of pearls, event-driven architecture, pipeline
+    architecture, threading, autonomic scalability",
+  abstract     = "We propose a new design for highly concurrent Internet
+    services, which we call the staged event-driven architecture (SEDA).  SEDA
+    is intended to support massive concurrency demands and simplify the
+    construction of well-conditioned services.  In SEDA, applications consist
+    of a network of event-driven stages connected by explicit queues.  This
+    architecture allows services to be well-conditioned to load, preventing
+    resources from being overcommitted when demand exceeds service capacity.
+    SEDA makes use of a set of dynamic resource controllers to keep stages
+    within their operating regime despite large fluctuations in load.  We
+    describe several control mechanisms for automatic tuning and load
+    conditioning, including thread pool sizing, event batching, and adaptive
+    load shedding.  We present the SEDA design and an implementation of an
+    Internet services platform based on this architecture.  We evaluate the use
+    of SEDA through two applications: a high-performance HTTP server and a
+    packet router for the Gnutella peer-to-peer file sharing network.  These
+    results show that SEDA applications exhibit higher performance than
+    traditional service designs, and are robust to huge variations in load.", 
+  location     = "https://doi.org/10.1145/502034.502057", 
+  location     = "http://www.sosp.org/2001/papers/welsh.pdf"
+}
+
+@Article{barsbrunp,
+  author       = "Tammo Spalink and Scott Karlin and Larry Peterson and Yitzchak Gottlieb",
+  title        = "Building a robust software-based router using network processors",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "216--229",
+  month        = dec,
+  keywords     = "layered architecture, packet processing, network coprocessors",
+  abstract     = "Recent efforts to add new services to the Internet have
+    increased interest in software-based routers that are easy to extend and
+    evolve.  This paper describes our experiences using emerging network
+    processors---in particular, the Intel IXP1200---to implement a router.  We
+    show it is possible to combine an IXP1200 development board and a PC to
+    build an inexpensive router that forwards minimum-sized packets at a rate
+    of 3.47Mpps.  This is nearly an order of magnitude faster than existing
+    pure PC-based routers, and sufficient to support 1.77Gbps of aggregate link
+    bandwidth.  At lesser aggregate line speeds, our design also allows the
+    excess resources available on the IXP1200 to be used robustly for extra
+    packet processing.  For example, with 8 × 100Mbps links, 240 register
+    operations and 96 bytes of state storage are available for each 64-byte
+    packet.  Using a hierarchical architecture we can guarantee line-speed
+    forwarding rates for simple packets with the IXP1200, and still have extra
+    capacity to process exceptional packets with the Pentium.  Up to 310Kpps of
+    the traffic can be routed through the Pentium to receive 1510 cycles of
+    extra per-packet processing.", 
+  location     = "https://doi.org/10.1145/502034.502056", 
+  location     = "https://people.eecs.berkeley.edu/~culler/courses/cs252-s05/papers/p216-spalink.pdf"
+}
+
+@Article{wacswc,
+  author       = "Frank Dabek and M.~Frans Kaashoek and David Karger and Robert Morris and Ion Stoica",
+  title        = "Wide-area cooperative storage with {CFS}",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "202--215",
+  month        = dec,
+  keywords     = "peer-to-peer storage, chorus, distributed block storage,
+    scalability, reliability, caching",
+  abstract     = "The Cooperative File System (CFS) is a new peer-to-peer
+    read-only storage system that provides provable guarantees for the
+    efficiency, robustness, and load-balance of file storage and retrieval.
+    CFS does this with a completely decentralized architecture that can scale
+    to large systems.  CFS servers provide a distributed hash table (DHash) for
+    block storage.  CFS clients interpret DHash blocks as a file system.  DHash
+    distributes and caches blocks at a fine granularity to achieve load
+    balance, uses replication for robustness, and decreases latency with server
+    selection.  DHash finds blocks using the Chord location protocol, which
+    operates in time logarithmic in the number of servers.CFS is implemented
+    using the SFS file system toolkit and runs on Linux, OpenBSD, and FreeBSD.
+    Experience on a globally deployed prototype shows that CFS delivers data to
+    clients as fast as FTP.  Controlled tests show that CFS is scalable: with
+    4,096 servers, looking up a block of data involves contacting only seven
+    servers.  The tests also demonstrate nearly perfect robustness and
+    unimpaired performance even when as many as half the servers fail.", 
+  location     = "https://doi.org/10.1145/502034.502054", 
+  location     = "https://pdos.csail.mit.edu/papers/cfs:sosp01/cfs_sosp.pdf"
 }
 
