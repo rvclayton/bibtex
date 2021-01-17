@@ -13506,21 +13506,6 @@
   location     = "http://www.computer.org/intelligent/ex2001/pdf/x6074.pdf"
 }
 
-@Article{saafwcsis,
-  author       = "Matt Welsh and David Culler and Eric Brewer",
-  title        = "{SEDA}: An Architecture for Well-Conditioned, Scalable
-		  Internet Services",
-  journal      = osr # " (" # pot # "Eighteenth " # sosp # ")",
-  year         = 2001,
-  volume       = 35,
-  number       = 5,
-  pages        = "",
-  month        = dec,
-  keywords     = "seda, services, event-driven, threads, scheduling,
-		  concurrency, applications",
-  location     = "http://www.cs.berkeley.edu/~mdw/papers/seda-sosp01.pdf"
-}
-
 @Article{mpmi,
   author       = "Alan Mink and Robert Carpenter and George Nacht and John
 		  Roberts",
