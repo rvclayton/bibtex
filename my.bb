@@ -731,7 +731,8 @@
   pages        = "202--215",
   month        = dec,
   keywords     = "peer-to-peer storage, chorus, distributed block storage,
-    scalability, reliability, caching",
+    scalability, reliability, caching, distributed file systems, read-only file
+    systems",
   abstract     = "The Cooperative File System (CFS) is a new peer-to-peer
     read-only storage system that provides provable guarantees for the
     efficiency, robustness, and load-balance of file storage and retrieval.
