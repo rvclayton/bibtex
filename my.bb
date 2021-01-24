@@ -6,6 +6,7 @@
 
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
+@string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
 
 @Book{tsbotw,
   author       = "Victor Pelevin",
@@ -47,6 +48,42 @@
   address      = nyny,
   keywords     = "working class, class war, economics, politics, virginia",
   location     = "HN 90.S6 B32 2007"
+}
+
+@Book{gsrtp,
+  author       = "Thomas Pynchon",
+  title        = "Gravity's Rainbow",
+  publisher    = "Bantam Books",
+  year         = 1974,
+  address      = nyny,
+  price        = "$2.50",
+  keywords     = "wwii, rocketry",
+  location     = ""
+}
+
+@Book{thhgnr,
+  author       = "Gerald~N. Rosenberg",
+  title        = "The Hollow Hope",
+  subtitle     = "Can the Courts Bring About Social Change?",
+  publisher    = ucp,
+  year         = 2008,
+  address      = chil,
+  edition      = "second",
+  keywords     = "u.s. courts, judicial power, social change, politics, civil
+    rights, women's rights, gay rights, environment, reapportionment, criminal
+    law", 
+  location     = "KF 8700.R66"
+}
+
+@Book{ilitec,
+  author       = "Rajiv Chandrasekaran",
+  title        = "Imperial Life in the Emerald City",
+  subtitle     = "Inside Iraq's Green Zone",
+  publisher    = "Vintage",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "occupation, development, iraq",
+  location     = "DS 79.769.C53"
 }
 
 @Article{hasfadsafes,
@@ -751,5 +788,266 @@
     unimpaired performance even when as many as half the servers fail.", 
   location     = "https://doi.org/10.1145/502034.502054", 
   location     = "https://pdos.csail.mit.edu/papers/cfs:sosp01/cfs_sosp.pdf"
+}
+
+@Article{oopwf,
+  author       = "David~A. Moon",
+  title        = "Object-Oriented Programming with {Flavors}",
+  journal      = oopsla86,
+  year         = 1986,
+  volume       = 21,
+  number       = 11,
+  pages        = "1--8",
+  month        = nov,
+  keywords     = "lisp, symbolics, object-oriented programming, generic
+    functions, data structures, modularity",
+  abstract     = "This paper describes Symbolics' newly redesigned
+    object-oriented programming system, Flavors.  Flavors encourages program
+    modularity, eases the development of large, complex programs, and provides
+    high efficiency at run time.  Flavors is integrated into Lisp and the
+    Symbolics program development environment.  This paper describes the
+    philosophy and some of the major characteristics of Symbolics' Flavors and
+    shows how the above goals are addressed.  Full details of Flavors are left
+    to the programmers' manual, Reference Guide to Symbolics Common Lisp.", 
+  location     = "https://doi.org/10.1145/28697.28698", 
+  location     = "https://www.cs.tufts.edu/comp/150FP/archive/david-moon/flavors.pdf"
+}
+
+@Article{asadsftodiisio,
+  author       = "Sitaram Iyer and Peter Druschel",
+  title        = "Anticipatory scheduling: a disk scheduling framework to overcome deceptive idleness in synchronous {I}/{O}",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "117--130",
+  month        = dec,
+  keywords     = "",
+  abstract     = "Disk schedulers in current operating systems are generally
+    work-conserving, i.e., they schedule a request as soon as the previous
+    request has finished.  Such schedulers often require multiple outstanding
+    requests from each process to meet system-level goals of performance and
+    quality of service.  Unfortunately, many common applications issue disk
+    read requests in a synchronous manner, interspersing successive requests
+    with short periods of computation.  The scheduler chooses the next request
+    too early; this induces deceptive idleness, a condition where the scheduler
+    incorrectly assumes that the last request issuing process has no further
+    requests, and becomes forced to switch to a request from another process.We
+    propose the anticipatory disk scheduling framework to solve this problem in
+    a simple, general and transparent way, based on the non-work-conserving
+    scheduling discipline.  Our FreeBSD implementation is observed to yield
+    large benefits on a range of microbenchmarks and real workloads.  The
+    Apache webserver delivers between 29% and 71% more throughput on a
+    disk-intensive workload.  The Andrew filesystem benchmark runs faster by
+    8%, due to a speedup of 54% in its read-intensive phase.  Variants of the
+    TPC-B database benchmark exhibit improvements between 2% and 60%.
+    Proportional-share schedulers are seen to achieve their contracts
+    accurately and efficiently.", 
+  location     = "https://doi.org/10.1145/502034.502046", 
+  location     = "http://pdos.csail.mit.edu/6.824-2002/papers/iyer-scheduling.pdf"
+}
+
+@Article{ron,
+  author       = "David Andersen and Hari Balakrishnan and Frans Kaashoek and Robert Morris",
+  title        = "Resilient overlay networks",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "131--145",
+  month        = dec,
+  keywords     = "internet performance, failure detection, application-level
+    networking, policy routing",
+  abstract     = "A Resilient Overlay Network (RON) is an architecture that
+    allows distributed Internet applications to detect and recover from path
+    outages and periods of degraded performance within several seconds,
+    improving over today's wide-area routing protocols that take at least
+    several minutes to recover.  A RON is an application-layer overlay on top
+    of the existing Internet routing substrate.  The RON nodes monitor the
+    functioning and quality of the Internet paths among themselves, and use
+    this information to decide whether to route packets directly over the
+    Internet or by way of other RON nodes, optimizing application-specific
+    routing metrics.Results from two sets of measurements of a working RON
+    deployed at sites scattered across the Internet demonstrate the benefits of
+    our architecture.  For instance, over a 64-hour sampling period in March
+    2001 across a twelve-node RON, there were 32 significant outages, each
+    lasting over thirty minutes, over the 132 measured paths.  RON's routing
+    mechanism was able to detect, recover, and route around all of them, in
+    less than twenty seconds on average, showing that its methods for fault
+    detection and recovery work well at discovering alternate paths in the
+    Internet.  Furthermore, RON was able to improve the loss rate, latency, or
+    throughput perceived by data transfers; for example, about 5% of the
+    transfers doubled their TCP throughput and 5% of our transfers saw their
+    loss probability reduced by 0.05.  We found that forwarding packets via at
+    most one intermediate RON node is sufficient to overcome faults and improve
+    performance in most cases.  These improvements, particularly in the area of
+    fault detection and recovery, demonstrate the benefits of moving some of
+    the control over routing into the hands of end-systems.", 
+  location     = "https://doi.org/10.1145/502034.502048", 
+  location     = "http://nms.lcs.mit.edu/papers/ron-sosp2001.html"
+}
+
+@Article{measrihc,
+  author       = "Jeffrey~S. Chase and Darrell~C. Anderson and Prachi~N. Thakar and Amin~M. Vahdat and Ronald~P. Doyle",
+  title        = "Managing energy and server resources in hosting centers",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "103--116",
+  month        = dec,
+  keywords     = "energy management, resource provisioning, economic modeling,
+    pricing",
+  abstract     = "Internet hosting centers serve multiple service sites from a
+    common hardware base.  This paper presents the design and implementation of
+    an architecture for resource management in a hosting center operating
+    system, with an emphasis on energy as a driving resource management issue
+    for large server clusters.  The goals are to provision server resources for
+    co-hosted services in a way that automatically adapts to offered load,
+    improve the energy efficiency of server clusters by dynamically resizing
+    the active server set, and respond to power supply disruptions or thermal
+    events by degrading service in accordance with negotiated Service Level
+    Agreements (SLAs).Our system is based on an economic approach to managing
+    shared server resources, in which services 'bid' for resources as a
+    function of delivered performance.  The system continuously monitors load
+    and plans resource allotments by estimating the value of their effects on
+    service performance.  A greedy resource allocation algorithm adjusts
+    resource prices to balance supply and demand, allocating resources to their
+    most efficient use.  A reconfigurable server switching infrastructure
+    directs request traffic to the servers assigned to each service.
+    Experimental results from a prototype confirm that the system adapts to
+    offered load and resource availability, and can reduce server energy usage
+    by 29% or more for a typical Web workload.", 
+  location     = "https://doi.org/10.1145/502034.502045", 
+  location     = "http://www.sosp.org/2001/papers/chase.pdf"
+}
+
+@Article{bewsnwlln,
+  author       = "John Heidemann and Fabio Silva and Chalermek Intanagonwiwat and Ramesh Govindan and Deborah Estrin and Deepak Ganesan",
+  title        = "Building efficient wireless sensor networks with low-level naming",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "145--159",
+  month        = dec,
+  keywords     = "attribute-based naming, sensor networks, in-network
+    processing, directed diffusion, declarative routing",
+  abstract     = "In most distributed systems, naming of nodes for low-level
+    communication leverages topological location (such as node addresses) and
+    is independent of any application.  In this paper, we investigate an
+    emerging class of distributed systems where low-level communication does
+    not rely on network topological location.  Rather, low-level communication
+    is based on attributes that are external to the network topology and
+    relevant to the application.  When combined with dense deployment of nodes,
+    this kind of named data enables in-network processing for data aggregation,
+    collaborative signal processing, and similar problems.  These approaches
+    are essential for emerging applications such as sensor networks where
+    resources such as bandwidth and energy are limited.  This paper is the
+    first description of the software architecture that supports named data and
+    in-network processing in an operational, multi-application sensor-network.
+    We show that approaches such as in-network aggregation and nested queries
+    can significantly affect network traffic.  In one experiment aggregation
+    reduces traffic by up to 42% and nested queries reduce loss rates by 30%.
+    Although aggregation has been previously studied in simulation, this paper
+    demonstrates nested queries as another form of in-network processing, and
+    it presents the first evaluation of these approaches over an operational
+    testbed.", 
+  location     = "https://doi.org/10.1145/502034.502049"
+}
+
+@Article{mbcrux,
+  author       = "Alex~C. Snoeren and Kenneth Conley and David~K. Gifford",
+  title        = "Mesh-based content routing using {XML}",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "160--173",
+  month        = dec,
+  keywords     = "overlay networks, mesh networks, routing, xml",
+  abstract     = "We have developed a new approach for reliably multicasting
+    time-critical data to heterogeneous clients over mesh-based overlay
+    networks.  To facilitate intelligent content pruning, data streams are
+    comprised of a sequence of XML packets and forwarded by application-level
+    XML routers.  XML routers perform content-based routing of individual XML
+    packets to other routers or clients based upon queries that describe the
+    information needs of downstream nodes.  Our PC-based XML router prototype
+    can route an 18 Mbit per second XML stream.Our routers use a novel
+    Diversity Control Protocol (DCP) for router-to-router and router-to-client
+    communication.  DCP reassembles a received stream of packets from one or
+    more senders using the first copy of a packet to arrive from any sender.
+    When each node is connected to n parents, the resulting network is
+    resilient to (n − 1) router or independent link failures without repair.
+    Associated mesh algorithms permit the system to recover to (n − 1)
+    resilience after node and/or link failure.  We have deployed a distributed
+    network of XML routers that streams real-time air traffic control data.
+    Experimental results show multiple senders improve reliability and latency
+    when compared to tree-based networks.", 
+  location     = "https://doi.org/10.1145/502034.502050", 
+  location     = "http://cseweb.ucsd.edu/~snoeren/papers/xml-sosp01.pdf"
+}
+
+@Article{albnfs,
+  author       = "Athicha Muthitacharoen and Benjie Chen and David Mazi{\` e}res",
+  title        = "{A} low-bandwidth network file system",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "174--187",
+  month        = dec,
+  keywords     = "redundancy, hash coding, file systems, low-bandwidth networks",
+  abstract     = "Users rarely consider running network file systems over slow
+    or wide-area networks, as the performance would be unacceptable and the
+    bandwidth consumption too high.  Nonetheless, efficient remote file access
+    would often be desirable over such networks---particularly when high
+    latency makes remote login sessions unresponsive.  Rather than run
+    interactive programs such as editors remotely, users could run the programs
+    locally and manipulate remote files through the file system.  To do so,
+    however, would require a network file system that consumes less bandwidth
+    than most current file systems.This paper presents LBFS, a network file
+    system designed for low-bandwidth networks.  LBFS exploits similarities
+    between files or versions of the same file to save bandwidth.  It avoids
+    sending data over the network when the same data can already be found in
+    the server's file system or the client's cache.  Using this technique in
+    conjunction with conventional compression and caching, LBFS consumes over
+    an order of magnitude less bandwidth than traditional network file systems
+    on common workloads.", 
+  location     = "https://doi.org/10.1145/502034.502052", 
+  location     = "https://pdos.csail.mit.edu/papers/lbfs:sosp01/lbfs.pdf"
+}
+
+@Article{smacipalspptpsu,
+  author       = "Antony Rowstron and Peter Druschel",
+  title        = "Storage management and caching in {PAST}, a large-scale, persistent peer-to-peer storage utility",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "188--201",
+  month        = dec,
+  keywords     = "pastry, storage management, hash routing, replica management,
+    caching, peer-to-peer systems",
+  abstract     = "This paper presents and evaluates the storage management and
+    caching in PAST, a large-scale peer-to-peer persistent storage utility.
+    PAST is based on a self-organizing, Internet-based overlay network of
+    storage nodes that cooperatively route file queries, store multiple
+    replicas of files, and cache additional copies of popular files.In the PAST
+    system, storage nodes and files are each assigned uniformly distributed
+    identifiers, and replicas of a file are stored at nodes whose identifier
+    matches most closely the file's identifier.  This statistical assignment of
+    files to storage nodes approximately balances the number of files stored on
+    each node.  However, non-uniform storage node capacities and file sizes
+    require more explicit storage load balancing to permit graceful behavior
+    under high global storage utilization; likewise, non-uniform popularity of
+    files requires caching to minimize fetch distance and to balance the query
+    load.We present and evaluate PAST, with an emphasis on its storage
+    management and caching system.  Extensive trace-driven experiments show
+    that the system minimizes fetch distance, that it balances the query load
+    for popular files, and that it displays graceful degradation of performance
+    as the global storage utilization increases beyond 95%.", 
+  location     = "https://doi.org/10.1145/502034.502053", 
+  location     = "http://www.cs.cornell.edu/People/egs/615/past.pdf"
 }
 
