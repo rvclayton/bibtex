@@ -1,7 +1,3 @@
-% Local Variables:
-% eval: (set-register ?b "  journal      = sosp01,\n  year         = 2001,\n  volume       = 35,\n  number       = 5,\n  pages        = \"--\",\n  month        = dec,\n")
-% End:
-		  
 .so bibtex.header
 
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
@@ -84,6 +80,16 @@
   address      = nyny,
   keywords     = "occupation, development, iraq",
   location     = "DS 79.769.C53"
+}
+
+@Book{gleh,
+  author       = "Elizabeth Hand",
+  title        = "Generation Loss",
+  publisher    = "Small Beer Press",
+  year         = 2007,
+  address      = noma,
+  keywords     = "art photographers, maine, ritual sacrifice",
+  location     = "PS 3558.A4619 G46"
 }
 
 @Article{hasfadsafes,
@@ -1051,3 +1057,242 @@
   location     = "http://www.cs.cornell.edu/People/egs/615/past.pdf"
 }
 
+@Article{rtdvsflpeos,
+  author       = "Padmanabhan Pillai and Kang~G. Shin",
+  title        = "Real-time dynamic voltage scaling for low-power embedded operating systems",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "89--102",
+  month        = dec,
+  keywords     = "voltage scaling, power management",
+  abstract     = "In recent years, there has been a rapid and wide spread of
+    non-traditional computing platforms, especially mobile and portable
+    computing devices.  As applications become increasingly sophisticated and
+    processing power increases, the most serious limitation on these devices is
+    the available battery life.  Dynamic Voltage Scaling (DVS) has been a key
+    technique in exploiting the hardware characteristics of processors to
+    reduce energy dissipation by lowering the supply voltage and operating
+    frequency.  The DVS algorithms are shown to be able to make dramatic energy
+    savings while providing the necessary peak computation power in
+    general-purpose systems.  However, for a large class of applications in
+    embedded real-time systems like cellular phones and camcorders, the
+    variable operating frequency interferes with their deadline guarantee
+    mechanisms, and DVS in this context, despite its growing importance, is
+    largely overlooked/under-developed.  To provide real-time guarantees, DVS
+    must consider deadlines and periodicity of real-time tasks, requiring
+    integration with the real-time scheduler.  In this paper, we present a
+    class of novel algorithms called real-time DVS (RT-DVS) that modify the
+    OS's real-time scheduler and task management service to provide significant
+    energy savings while maintaining real-time deadline guarantees.  We show
+    through simulations and a working prototype implementation that these
+    RT-DVS algorithms closely approach the theoretical lower bound on energy
+    consumption, and can easily reduce energy consumption 20% to 40% in an
+    embedded real-time system.", 
+  location     = "https://doi.org/10.1145/502034.502044", 
+  location     = "http://www.sosp.org/2001/papers/pillai.pdf"
+}
+
+@Article{aesoose,
+  author       = "Andy Chou and Junfeng Yang and Benjamin Chelf and Seth Hallem and Dawson Engler",
+  title        = "An empirical study of operating systems errors",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "73--88",
+  month        = dec,
+  keywords     = "error discovery, statistical analysis, error cliches, error
+    metrics", 
+  abstract     = "We present a study of operating system errors found by
+    automatic, static, compiler analysis applied to the Linux and OpenBSD
+    kernels.  Our approach differs from previous studies that consider errors
+    found by manual inspection of logs, testing, and surveys because static
+    analysis is applied uniformly to the entire kernel source, though our
+    approach necessarily considers a less comprehensive variety of errors than
+    previous studies.  In addition, automation allows us to track errors over
+    multiple versions of the kernel source to estimate how long errors remain
+    in the system before they are fixed.We found that device drivers have error
+    rates up to three to seven times higher than the rest of the kernel.  We
+    found that the largest quartile of functions have error rates two to six
+    times higher than the smallest quartile.  We found that the newest quartile
+    of files have error rates up to twice that of the oldest quartile, which
+    provides evidence that code 'hardens' over time.  Finally, we found that
+    bugs remain in the Linux kernel an average of 1.8 years before being
+    fixed.", 
+  location     = "https://doi.org/10.1145/502034.502042", 
+  location     = "https://pdos.csail.mit.edu/archive/6.097/readings/osbugs.pdf"
+}
+
+@Article{badbagatieisc,
+  author       = "Dawson Engler and David Yu Chen and Seth Hallem and Andy Chou and Benjamin Chelf",
+  title        = "Bugs as deviant behavior: a general approach to inferring errors in systems code",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "57--72",
+  month        = dec,
+  keywords     = "static analysis, statistical sorting, error analysis",
+  abstract     = "A major obstacle to finding program errors in a real system
+    is knowing what correctness rules the system must obey.  These rules are
+    often undocumented or specified in an ad hoc manner.  This paper
+    demonstrates techniques that automatically extract such checking
+    information from the source code itself, rather than the programmer,
+    thereby avoiding the need for a priori knowledge of system rules.The
+    cornerstone of our approach is inferring programmer 'beliefs' that we then
+    cross-check for contradictions.  Beliefs are facts implied by code: a
+    dereference of a pointer, p, implies a belief that p is non-null, a call to
+    'unlock(1)' implies that 1 was locked, etc.  For beliefs we know the
+    programmer must hold, such as the pointer dereference above, we immediately
+    flag contradictions as errors.  For beliefs that the programmer may hold,
+    we can assume these beliefs hold and use a statistical analysis to rank the
+    resulting errors from most to least likely.  For example, a call to
+    'spin_lock' followed once by a call to 'spin_unlock' implies that the
+    programmer may have paired these calls by coincidence.  If the pairing
+    happens 999 out of 1000 times, though, then it is probably a valid belief
+    and the sole deviation a probable error.  The key feature of this approach
+    is that it requires no a priori knowledge of truth: if two beliefs
+    contradict, we know that one is an error without knowing what the correct
+    belief is.Conceptually, our checkers extract beliefs by tailoring rule
+    'templates' to a system --- for example, finding all functions that fit the
+    rule template 'a must be paired with b.' We have developed six checkers
+    that follow this conceptual framework.  They find hundreds of bugs in real
+    systems such as Linux and OpenBSD.  From our experience, they give a
+    dramatic reduction in the manual effort needed to check a large system.
+    Compared to our previous work [9], these template checkers find ten to one
+    hundred times more rule instances and derive properties we found
+    impractical to specify manually.", 
+  location     = "https://doi.org/10.1145/502034.502041", 
+  location     = "https://web.stanford.edu/~engler/deviant-sosp-01.pdf"
+}
+
+@Article{iacigbs,
+  author       = "Andrea~C. Arpaci-Dusseau and Remzi~H. Arpaci-Dusseau",
+  title        = "Information and control in gray-box systems",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "43--56",
+  month        = dec,
+  keywords     = "experimentation, file-cache management, disk layouts,
+    admission control",
+  abstract     = "In modern systems, developers are often unable to modify the
+    underlying operating system.  To build services in such an environment, we
+    advocate the use of gray-box techniques.  When treating the operating
+    system as a gray-box, one recognizes that not changing the OS restricts,
+    but does not completely obviate, both the information one can acquire about
+    the internal state of the OS and the control one can impose on the OS.  In
+    this paper, we develop and investigate three gray-box Information and
+    Control Layers (ICLs) for determining the contents of the file-cache,
+    controlling the layout of files across local disk, and limiting process
+    execution based on available memory.  A gray-box ICL sits between a client
+    and the OS and uses a combination of algorithmic knowledge, observations,
+    and inferences to garner information about or control the behavior of a
+    gray-box system.  We summarize a set of techniques that are helpful in
+    building gray-box ICLs and have begun to organize a 'gray toolbox' to ease
+    the construction of ICLs.  Through our case studies, we demonstrate the
+    utility of gray-box techniques, by implementing three useful 'OS-like'
+    services without the modification of a single line of OS source code.", 
+  location     = "https://doi.org/10.1145/502034.502040", 
+  location     = "http://www.sosp.org/2001/papers/arpacidusseau.pdf"
+}
+
+@Article{tcaloafrs,
+  author       = "Haifeng Yu and Amin Vahdat",
+  title        = "The costs and limits of availability for replicated services",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "29--42",
+  month        = dec,
+  keywords     = "replication, performance, availability",
+  abstract     = "As raw system and network performance continues to improve at
+    exponential rates, the utility of many services is increasingly limited by
+    availability rather than performance.  A key approach to improving
+    availability involves replicating the service across multiple, wide-area
+    sites.  However, replication introduces well-known tradeoffs between
+    service consistency and availability.  Thus, this paper explores the
+    benefits of dynamically trading consistency for availability using a
+    continuous consistency model.  In this model, applications specify a
+    maximum deviation from strong consistency on a per-replica basis.  In this
+    paper, we: i) evaluate availability of a prototype replication system
+    running across the Internet as a function of consistency level, consistency
+    protocol, and failure characteristics, ii) demonstrate that simple
+    optimizations to existing consistency protocols result in significant
+    availability improvements (more than an order of magnitude in some
+    scenarios), iii) use our experience with these optimizations to prove tight
+    upper bounds on the availability of services, and iv) show that maximizing
+    availability typically entails remaining as close to strong consistency as
+    possible during times of good connectivity, resulting in a communication
+    versus availability trade-off.", 
+  location     = "https://doi.org/10.1145/502034.502038", 
+  location     = "https://users.cs.duke.edu/~vahdat/ps/tr-cs-2001-03.pdf"
+}
+
+@Article{buatift,
+  author       = "Rodrigo Rodrigues and Miguel Castro and Barbara Liskov",
+  title        = "{BASE}: using abstraction to improve fault tolerance",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "15--28",
+  month        = dec,
+  keywords     = "Byzantine fault tolerance, middleware, abstraction",
+  abstract     = "Software errors are a major cause of outages and they are
+    increasingly exploited in malicious attacks.  Byzantine fault tolerance
+    allows replicated systems to mask some software errors but it is expensive
+    to deploy.  This paper describes a replication technique, BASE, which uses
+    abstraction to reduce the cost of Byzantine fault tolerance and to improve
+    its ability to mask software errors.  BASE reduces cost because it enables
+    reuse of off-the-shelf service implementations.  It improves availability
+    because each replica can be repaired periodically using an abstract view of
+    the state stored by correct replicas, and because each replica can run
+    distinct or non-deterministic service implementations, which reduces the
+    probability of common mode failures.  We built an NFS service where each
+    replica can run a different off-the-shelf file system implementation, and
+    an object-oriented database where the replicas ran the same,
+    non-deterministic implementation.  These examples suggest that our
+    technique can be used in practice --- in both cases, the implementation
+    required only a modest amount of new code, and our performance results
+    indicate that the replicated services perform comparably to the
+    implementations that they reuse.", 
+  location     = "https://doi.org/10.1145/502034.502037", 
+  location     = "http://www.cs.cornell.edu/People/egs/cornellonly/syslunch/fall01/sosp/rodrigues.pdf"
+}
+
+@Article{uhacspp,
+  author       = "Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom and Andrew~C. Myers",
+  title        = "Untrusted hosts and confidentiality: secure program partitioning",
+  journal      = sosp01,
+  year         = 2001,
+  volume       = 35,
+  number       = 5,
+  pages        = "1--14",
+  month        = dec,
+  keywords     = "security annotations, program partitioning, information flow,
+    control transfer",
+  abstract     = "This paper presents secure program partitioning, a
+    language-based technique for protecting confidential data during
+    computation in distributed systems containing mutually untrusted hosts.
+    Confidentiality and integrity policies can be expressed by annotating
+    programs with security types that constrain information flow; these
+    programs can then be partitioned automatically to run securely on
+    heterogeneously trusted hosts.  The resulting communicating subprograms
+    collectively implement the original program, yet the system as a whole
+    satisfies the security requirements of participating principals without
+    requiring a universally trusted host machine.  The experience in applying
+    this methodology and the performance of the resulting distributed code
+    suggest that this is a promising way to obtain secure distributed
+    computation.", 
+  location     = "https://doi.org/10.1145/502034.502036", 
+  location     = "https://www.cs.cornell.edu/andru/papers/sosp01/zznm01.pdf"
+}
+
+% Local Variables:
+% eval: (set-register ?b "  journal      = sosp01,\n  year         = 2001,\n  volume       = 35,\n  number       = 5,\n  pages        = \"--\",\n  month        = dec,\n")
+% End:
