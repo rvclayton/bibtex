@@ -1,6 +1,7 @@
 .so bibtex.header
 
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
+@string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
 
@@ -90,6 +91,17 @@
   address      = noma,
   keywords     = "art photographers, maine, ritual sacrifice",
   location     = "PS 3558.A4619 G46"
+}
+
+@Book{tuws,
+  author       = "Will Storr",
+  title        = "The Unpersuadables",
+  subtitle     = "Adventures with the Enemies of Science",
+  publisher    = "The Overlook Press",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "skepticism, fundamentalism, psi research, holocaust denial",
+  location     = "Q 172.5.H47 S76"
 }
 
 @Article{hasfadsafes,
@@ -1293,6 +1305,242 @@
   location     = "https://www.cs.cornell.edu/andru/papers/sosp01/zznm01.pdf"
 }
 
+@Article{upbtm,
+  author       = "Weihaw Chuang and Satish Narayanasamy and Ganesh Venkatesh and Jack Sampson and Michael Van Biesbrouck and Gilles Pokam and Brad Calder and Osvaldo Colavin",
+  title        = "Unbounded Page-Based Transactional Memory",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "347--358",
+  month        = oct,
+  keywords     = "transactions, transactional memory, parallel programming,
+    concurrency, virtual memory, transactional hardware",
+  abstract     = "Exploiting thread level parallelism is paramount in the
+    multicore era.  Transactions enable programmers to expose such parallelism
+    by greatly simplifying the multi-threaded programming model.  Virtualized
+    transactions (unbounded in space and time) are desirable, as they can
+    increase the scope of transactions' use, and thereby further simplify a
+    programmer's job.  However, hardware support is essential to support
+    efficient execution of unbounded transactions.  In this paper, we introduce
+    Page-based Transactional Memory to support unbounded transactions.  We
+    combine transaction bookkeeping with the virtual memory system to support
+    fast transaction conflict detection, commit, abort, and to maintain
+    transactions' speculative data.", 
+  location     = "https://doi.org/10.1145/1168919.1168901",
+  location     = "https://cseweb.ucsd.edu/~calder/papers/ASPLOS-06-PTM.pdf"
+}
+
+@Article{sntmil,
+  author       = "Michelle~J. Moravan and Jayaram Bobba and Kevin~E. Moore and Luke Yen and Mark~D. Hill and Ben Liblit and Michael~M. Swift and David~A. Wood",
+  title        = "Supporting nested transactional memory in {LogTM}",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "359--370",
+  month        = nov,
+  keywords     = "nested transactions, transactional storage, composition,
+    partial aborts, open nesting, escaping actions, concurrency",
+  abstract     = "Nested transactional memory (TM) facilitates software
+    composition by letting one module invoke another without either knowing
+    whether the other uses transactions.  Closed nested transactions extend
+    isolation of an inner transaction until the toplevel transaction commits.
+    Implementations may flatten nested transactions into the top-level one,
+    resulting in a complete abort on conflict, or allow partial abort of inner
+    transactions.  Open nested transactions allow a committing inner
+    transaction to immediately release isolation, which increases parallelism
+    and expressiveness at the cost of both software and hardware
+    complexity.This paper extends the recently-proposed flat Log-based
+    Transactional Memory (LogTM) with nested transactions.  Flat LogTM saves
+    pre-transaction values in a log, detects conflicts with read (R) and write
+    (W) bits per cache block, and, on abort, invokes a software handler to
+    unroll the log.  Nested LogTM supports nesting by segmenting the log into a
+    stack of activation records and modestly replicating R/W bits.  To
+    facilitate composition with nontransactional code, such as language runtime
+    and operating system services, we propose escape actions that allow trusted
+    code to run outside the confines of the transactional memory system.", 
+  location     = "https://doi.org/10.1145/1168857.1168902", 
+  location     = "https://research.cs.wisc.edu/multifacet/papers/asplos06_nested_logtm.pdf"
+}
+
+@Article{titmv,
+  author       = "JaeWoong Chung and Chi Cao Minh and Austen McDonald and Travis Skare and Hassan Chafi and Brian~D. Carlstrom and Christos Kozyrakis and Kunle Olukotun",
+  title        = "Tradeoffs in transactional memory virtualization",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "371--381",
+  month        = nov,
+  keywords     = "chip multi-processors, os support, transactional memory,
+    virtualization, virtualization",
+  abstract     = "For transactional memory (TM) to achieve widespread
+    acceptance, transactions should not be limited to the physical resources of
+    any specific hardware implementation.  TM systems should guarantee correct
+    execution even when transactions exceed scheduling quanta, overflow the
+    capacity of hardware caches and physical memory, or include more
+    independent nesting levels than what is supported in hardware.  Existing
+    proposals for TM virtualization are either incomplete or rely on complex
+    hardware implementations, which are an overkill if virtualization is
+    invoked infrequently in the common case.We present eXtended Transactional
+    Memory (XTM), the first TM virtualization system that virtualizes all
+    aspects of transactional execution (time, space, and nesting depth).  XTM
+    is implemented in software using virtual memory support.  It operates at
+    page granularity, using private copies of overflowed pages to buffer memory
+    updates until the transaction commits and snapshots of pages to detect
+    interference between transactions.  We also describe two enhancements to
+    XTM that use limited hardware support to address key performance
+    bottlenecks.We compare XTM to hardwarebased virtualization using both real
+    applications and synthetic microbenchmarks.  We show that despite being
+    software-based, XTM and its enhancements are competitive with
+    hardware-based alternatives.  Overall, we demonstrate that XTM provides a
+    complete, flexible, and low-cost mechanism for practical TM
+    virtualization.", 
+  location     = "https://doi.org/10.1145/1168857.1168903", 
+  location     = "http://csl.stanford.edu/~christos/publications/2006.tm_virtualization.asplos.pdf"
+}
+
+@Article{anirffehai,
+  author       = "Motohiro Kawahito and Hideaki Komatsu and Takao Moriyama and Hiroshi Inoue and Toshio Nakatani",
+  title        = "A new idiom recognition framework for exploiting hardware-assist instructions",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "382--393",
+  month        = nov,
+  keywords     = "idiom recognition, hardware-assist instructions, vmx,
+    topological embedding, java, jits, code improvements, graph matching",
+  abstract     = "Modern processors support hardware-assist instructions (such
+    as TRT and TROT instructions on IBM zSeries) to accelerate certain
+    functions such as delimiter search and character conversion.  Such special
+    instructions have often been used in high performance libraries, but they
+    have not been exploited well in optimizing compilers except for some
+    limited cases.  We propose a new idiom recognition technique derived from a
+    topological embedding algorithm [4] to detect idiom patterns in the input
+    program more aggressively than in previous approaches.  Our approach can
+    detect a pattern even if the code segment does not exactly match the idiom.
+    For example, we can detect a code segment that includes additional code
+    within the idiom pattern.  We implemented our new idiom recognition
+    approach based on the Java Just-In-Time (JIT) compiler that is part of the
+    J9 Java Virtual Machine, and we supported several important idioms for
+    special hardware-assist instructions on the IBM zSeries and on some models
+    of the IBM pSeries.  To demonstrate the effectiveness of our technique, we
+    performed two experiments.  The first one is to see how many more patterns
+    we can detect compared to the previous approach.  The second one is to see
+    how much performance improvement we can achieve over the previous approach.
+    For the first experiment, we used the Java Compatibility Kit (JCK) API
+    tests.  For the second one we used IBM XML parser, SPECjvm98, and
+    SPCjbb2000.  In summary, relative to a baseline implementation using exact
+    pattern matching, our algorithm converted 75% more loops in JCK tests.  We
+    also observed significant performance improvement of the XML parser by 64%,
+    of SPECjvm98 by 1%, and of SPECjbb2000 by 2% on average on a z990.
+    Finally, we observed the JIT compilation time increases by only 0.32% to
+    0.44%.", 
+  location     = "https://doi.org/10.1145/1168857.1168905"
+}
+
+@Article{agops,
+  author       = "Sorav Bansal and Alex Aiken",
+  title        = "Automatic generation of peephole superoptimizers",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "394--403",
+  month        = nov,
+  keywords     = "superoptimization, peephole optimization, code selection,
+    searching, satisfiability solvers",
+  abstract     = "Peephole optimizers are typically constructed using
+    human-written pattern matching rules, an approach that requires expertise
+    and time, as well as being less than systematic at exploiting all
+    opportunities for optimization.  We explore fully automatic construction of
+    peephole optimizers using brute force superoptimization.  While the
+    optimizations discovered by our automatic system may be less general than
+    human-written counterparts, our approach has the potential to automatically
+    learn a database of thousands to millions of optimizations, in contrast to
+    the hundreds found in current peephole optimizers.  We show experimentally
+    that our optimizer is able to exploit performance opportunities not found
+    by existing compilers; in particular, we show speedups from 1.7 to a factor
+    of 10 on some compute intensive kernels over a conventional optimizing
+    compiler.", 
+  location     = "https://doi.org/10.1145/1168857.1168906", 
+  location     = "https://theory.stanford.edu/~aiken/publications/papers/asplos06.pdf"
+}
+
+@Article{csffp,
+  author       = "Armando Solar-Lezama and Liviu Tancau and Rastislav Bodik and Sanjit Seshia and Vijay Saraswat",
+  title        = "Combinatorial sketching for finite programs",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "404--415",
+  month        = nov,
+  keywords     = "sketching, sat, program generation, template programming,
+    code synthesis",
+  abstract     = "Sketching is a software synthesis approach where the
+    programmer develops a partial implementation - a sketch - and a separate
+    specification of the desired functionality.  The synthesizer then completes
+    the sketch to behave like the specification.  The correctness of the
+    synthesized implementation is guaranteed by the compiler, which allows,
+    among other benefits, rapid development of highly tuned implementations
+    without the fear of introducing bugs.We develop SKETCH, a language for
+    finite programs with linguistic support for sketching.  Finite programs
+    include many highperformance kernels, including cryptocodes.  In contrast
+    to prior synthesizers, which had to be equipped with domain-specific rules,
+    SKETCH completes sketches by means of a combinatorial search based on
+    generalized boolean satisfiability.  Consequently, our combinatorial
+    synthesizer is complete for the class of finite programs: it is guaranteed
+    to complete any sketch in theory, and in practice has scaled to realistic
+    programming problems.Freed from domain rules, we can now write sketches as
+    simpleto-understand partial programs, which are regular programs in which
+    difficult code fragments are replaced with holes to be filled by the
+    synthesizer.  Holes may stand for index expressions, lookup tables, or
+    bitmasks, but the programmer can easily define new kinds of holes using a
+    single versatile synthesis operator.We have used SKETCH to synthesize an
+    efficient implementation of the AES cipher standard.  The synthesizer
+    produces the most complex part of the implementation and runs in about an
+    hour.", 
+  location     = "https://doi.org/10.1145/1168857.1168907", 
+  location     = "https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/combinatorial_sketching.pdf"
+}
+
+@Article{appafso,
+  author       = "Jeff {Da Silva} and J.~Gregory Steffan",
+  title        = "{A} probabilistic pointer analysis for speculative optimizations",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "416--425",
+  month        = nov,
+  keywords     = "dependence analysis, pointer analysis, speculative
+    optimization",
+  abstract     = "Pointer analysis is a critical compiler analysis used to
+    disambiguate the indirect memory references that result from the use of
+    pointers and pointer-based data structures.  A conventional pointer
+    analysis deduces for every pair of pointers, at any program point, whether
+    a points-to relation between them (i) definitely exists, (ii) definitely
+    does not exist, or (iii) maybe exists.  Many compiler optimizations rely on
+    accurate pointer analysis, and to ensure correctness cannot optimize in the
+    maybe case.  In contrast, recently-proposed speculative optimizations can
+    aggressively exploit the maybe case, especially if the likelihood that two
+    pointers alias can be quantified.  This paper proposes a Probabilistic
+    Pointer Analysis (PPA) algorithm that statically predicts the probability
+    of each points-to relation at every program point.  Building on simple
+    control-flow edge profiling, our analysis is both one-level context and
+    flow sensitive-yet can still scale to large programs including the SPEC
+    2000 integer benchmark suite.  The key to our approach is to compute
+    points-to probabilities through the use of linear transfer functions that
+    are efficiently encoded as sparse matrices.We demonstrate that our analysis
+    can provide accurate probabilities, even without edge-profile information.
+    We also find that-even without considering probability information-our
+    analysis provides an accurate approach to performing pointer analysis.", 
+  location     = "https://doi.org/10.1145/1168857.1168908"
+}
+
 % Local Variables:
-% eval: (set-register ?b "  journal      = sosp01,\n  year         = 2001,\n  volume       = 35,\n  number       = 5,\n  pages        = \"--\",\n  month        = dec,\n")
+% eval: (set-register ?b "  journal      = asplos06,\n  year         = 2006,\n  volume       = 41,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
