@@ -104,6 +104,16 @@
   location     = "Q 172.5.H47 S76"
 }
 
+@Book{ditfp,
+  author       = "Edgar Box",
+  title        = "Death in the Fifth Position",
+  publisher    = "Dutton",
+  year         = 1952,
+  address      = nyny,
+  keywords     = "ballet, fellow travelers",
+  location     = "PS 3543.I26 D4"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
