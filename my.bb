@@ -1551,6 +1551,250 @@
   location     = "https://doi.org/10.1145/1168857.1168908"
 }
 
+@Article{spjfc,
+  author       = "Jason~F. Cantin and Mikko~H. Lipasti and James~E. Smith",
+  title        = "Stealth prefetching",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "274--282",
+  month        = nov,
+  keywords     = "prefetching, prefetch policy, exclusive access, precaching",
+  abstract     = "Prefetching in shared-memory multiprocessor systems is an
+    increasingly difficult problem.  As system designs grow to incorporate
+    larger numbers of faster processors, memory latency and interconnect
+    traffic increase.  While aggressive prefetching techniques can mitigate the
+    increasing memory latency, they can harm performance by wasting precious
+    interconnect bandwidth and prematurely accessing shared data, causing state
+    downgrades at remote nodes that force later upgrades.This paper
+    investigates Stealth Prefetching, a new technique that utilizes information
+    from Coarse-Grain Coherence Tracking (CGCT) for prefetching data
+    aggressively, stealthily, and efficiently in a broadcast-based
+    shared-memory multiprocessor system.  Stealth Prefetching utilizes CGCT to
+    identify regions of memory that are not shared by other processors,
+    aggressively fetches these lines from DRAM in open-page mode, and moves
+    them close to the processor in anticipation of future references.  Our
+    analysis with commercial, scientific, and multiprogrammed workloads show
+    that Stealth Prefetching provides an average speedup of 20% over an
+    aggressive baseline system with conventional prefetching.", 
+  location     = "https://doi.org/10.1145/1168857.1168892", 
+  location     = "https://pharm.ece.wisc.edu/papers/asplos2006_final.pdf"
+}
+
+@Article{csehmtsccotf,
+  author       = "Koushik Chakraborty and Philip~M. Wells and Gurindar~S. Sohi",
+  title        = "Computation spreading: employing hardware migration to specialize {CMP} cores on-the-fly",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "283--292
+    ",
+  month        = nov,
+  keywords     = "dynamic specialization, cache locality, code reuse, thread
+    migration, thread assignment",
+  abstract     = "In canonical parallel processing, the operating system (OS)
+    assigns a processing core to a single thread from a multithreaded server
+    application.  Since different threads from the same application often carry
+    out similar computation, albeit at different times, we observe extensive
+    code reuse among different processors, causing redundancy (e.g., in our
+    server workloads, 45-65% of all instruction blocks are accessed by all
+    processors).  Moreover, largely independent fragments of computation
+    compete for the same private resources causing destructive interference.
+    Together, this redundancy and interference lead to poor utilization of
+    private microarchitecture resources such as caches and branch predictors.We
+    present Computation Spreading (CSP), which employs hardware migration to
+    distribute a thread's dissimilar fragments of computation across the
+    multiple processing cores of a chip multiprocessor (CMP), while grouping
+    similar computation fragments from different threads together.  This paper
+    focuses on a specific example of CSP for OS intensive server applications:
+    separating application level (user) computation from the OS calls it
+    makes.When performing CSP, each core becomes temporally specialized to
+    execute certain computation fragments, and the same core is repeatedly used
+    for such fragments.  We examine two specific thread assignment policies for
+    CSP, and show that these policies, across four server workloads, are able
+    to reduce instruction misses in private L2 caches by 27-58%, private L2
+    load misses by 0-19%, and branch mispredictions by 9-25%.", 
+  location     = "https://doi.org/10.1145/1168857.1168893", 
+  location     = "ftp://ftp.cs.wisc.edu/sohi/papers/2006/asplos2006-comp-spread.pdf"
+}
+
+@Article{sbicfep,
+  author       = "Jason~E. Miller and Anant Agarwal",
+  title        = "Software-based instruction caching for embedded processors",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "293--302",
+  month        = nov,
+  keywords     = "software caching, instruction caching, chaining,
+  software-implemented caches, embedded processors, on-chip store",
+  abstract     = "While hardware instruction caches are present in virtually
+    all general-purpose and high-performance microprocessors today, many
+    embedded processors use SRAM or scratchpad memories instead.  These are
+    simple array memory structures that are directly addressed and explicitly
+    managed by software.  Compared to hardware caches of the same data
+    capacity, they are smaller, have shorter access times and consume less
+    energy per access.  Access times are also easier to predict with simple
+    memories since there is no possibility of a 'miss.' On the other hand, they
+    are more difficult for the programmer to use since they are not
+    automatically managed.In this paper, we present a software system that
+    allows all or part of an SRAM or scratchpad memory to be automatically
+    managed as a cache.  This system provides the programming convenience of a
+    cache for processors that lack dedicated caching hardware.  It has been
+    implemented for an actual processor and runs on real hardware.  Our results
+    show that a software-based instruction cache can be built that provides
+    performance within 10% of a traditional hardware cache on many benchmarks
+    while using a cheaper, simpler, SRAM memory.  On these same benchmarks,
+    energy consumption is up to 3% lower than it would be using a hardware
+    cache.", 
+  location     = "https://doi.org/10.1145/1168857.1168894", 
+  location     = "https://groups.csail.mit.edu/cag/raw/documents/Miller-ASPLOS-2006.ps.Z"
+}
+
+@Article{meoamtep,
+  author       = "Xin Li and Marian Boldt and Reinhard von Hanxleden",
+  title        = "Mapping {Esterel} onto a multi-threaded embedded processor",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "303--314",
+  month        = nov,
+  keywords     = "reactive systems, concurrency, multi-threading, esterel,
+    low-power processing",
+  abstract     = "The synchronous language Esterel is well-suited for
+    programming control-dominated reactive systems at the system level.  It
+    provides non-traditional control structures, in particular concurrency and
+    various forms of preemption, which allow to concisely express reactive
+    behavior.  As these control structures cannot be mapped easily onto
+    traditional, sequential processors, an alternative approach that has
+    emerged recently makes use of special-purpose reactive processors.
+    However, the designs proposed so far have limitations regarding
+    completeness of the language support, and did not really take advantage of
+    compile-time knowledge to optimize resource usage.This paper presents a
+    reactive processor, the Kiel Esterel Processor 3a (KEP3a), and its
+    compiler.  The KEP3a improves on earlier designs in several areas; most
+    notable are the support for exception handling and the provision of
+    context-dependent preemption handling instructions.  The KEP3a compiler
+    presented here is to our knowledge the first for multi-threaded reactive
+    processors.  The translation of Esterel's preemption constructs onto KEP3a
+    assembler is straightforward; however, a challenge is the correct and
+    efficient representation of Esterel's concurrency.  The compiler generates
+    code that respects data and control dependencies using the KEP3a
+    priority-based scheduling mechanism.  We present a priority assignment
+    approach that makes use of a novel concurrent control flow graph and has a
+    complexity that in practice tends to be linear in the size of the program.
+    Unlike earlier Esterel compilation schemes, this approach avoids
+    unnecessary context switches by considering each thread's actual execution
+    state at run time.  Furthermore, it avoids code replication present in
+    other approaches.", 
+  location     = "https://doi.org/10.1145/1168857.1168896"
+}
+
+@Article{inifhbti,
+  author       = "Nathan~L. Binkert and Ali~G. Saidi and Steven~K. Reinhardt",
+  title        = "Integrated network interfaces for high-bandwidth {TCP/IP}",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "315--324",
+  month        = nov,
+  keywords     = "network interfaces, tcp/ip performance, zero-copy transfers,
+    on-chip nics",
+  abstract     = "This paper proposes new network interface controller (NIC)
+    designs that take advantage of integration with the host CPU to provide
+    increased flexibility for operating system kernel-based performance
+    optimization.We believe that this approach is more likely to meet the needs
+    of current and future high-bandwidth TCP/IP networking on end hosts than
+    the current trend of putting more complexity in the NIC, while avoiding the
+    need to modify applications and protocols.  This paper presents two such
+    NICs.  The first, the simple integrated NIC (SINIC), is a minimally complex
+    design that moves the responsibility for managing the network FIFOs from
+    the NIC to the kernel.  Despite this closer interaction between the kernel
+    and the NIC, SINIC provides performance equivalent to a conventional
+    DMA-based NIC without increasing CPU overhead.  The second design, V-SINIC,
+    adds virtual per-packet registers to SINIC, enabling parallel packet
+    processing while maintaining a FIFO model.  V-SINIC allows the kernel to
+    decouple examining a packet's header from copying its payload to memory.
+    We exploit this capability to implement a true zero-copy receive
+    optimization in the Linux 2.6 kernel, providing bandwidth improvements of
+    over 50% on unmodified sockets-based receive-intensive benchmarks.", 
+  location     = "https://doi.org/10.1145/1168857.1168897", 
+  location     = "http://web.eecs.umich.edu/~saidi/pubs/asplos06-nic.pdf"
+}
+
+@Article{audptpgfgpu,
+  author       = "David Tarditi and Sidd Puri and Jose Oglesby",
+  title        = "Accelerator: using data parallelism to program {GPUs} for general-purpose uses",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "325--335",
+  month        = nov,
+  keywords     = "graphics processing units, data parallelism, jit compilation,
+    gpu code generation",
+  abstract     = "GPUs are difficult to program for general-purpose uses.
+    Programmers can either learn graphics APIs and convert their applications
+    to use graphics pipeline operations or they can use stream programming
+    abstractions of GPUs.  We describe Accelerator, a system that uses data
+    parallelism to program GPUs for general-purpose uses instead.  Programmers
+    use a conventional imperative programming language and a library that
+    provides only high-level data-parallel operations.  No aspects of GPUs are
+    exposed to programmers.  The library implementation compiles the
+    data-parallel operations on the fly to optimized GPU pixel shader code and
+    API calls.We describe the compilation techniques used to do this.  We
+    evaluate the effectiveness of using data parallelism to program GPUs by
+    providing results for a set of compute-intensive benchmarks.  We compare
+    the performance of Accelerator versions of the benchmarks against
+    hand-written pixel shaders.  The speeds of the Accelerator versions are
+    typically within 50% of the speeds of hand-written pixel shader code.  Some
+    benchmarks significantly outperform C versions on a CPU: they are up to 18
+    times faster than C code running on a CPU.",
+  location     = "https://doi.org/10.1145/1168857.1168898",
+  location     = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-184.pdf"
+}
+
+@Article{htmpd,
+  author       = "Peter Damron and Alexandra Fedorova and Yossi Lev and Victor Luchangco and Mark Moir and Daniel Nussbaum",
+  title        = "Hybrid transactional memory",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "336--346",
+  month        = nov,
+  keywords     = "software transactional storage, hardware-assisted software,
+    transactions", 
+  abstract     = "Transactional memory (TM) promises to substantially reduce
+    the difficulty of writing correct, efficient, and scalable concurrent
+    programs.  But 'bounded' and 'best-effort' hardware TM proposals impose
+    unreasonable constraints on programmers, while more flexible software TM
+    implementations are considered too slow.  Proposals for supporting
+    'unbounded' transactions in hardware entail significantly higher complexity
+    and risk than best-effort designs.We introduce Hybrid Transactional Memory
+    (HyTM), an approach to implementing TMin software so that it can use best
+    effort hardware TM (HTM) to boost performance but does not depend on HTM.
+    Thus programmers can develop and test transactional programs in existing
+    systems today, and can enjoy the performance benefits of HTM support when
+    it becomes available.We describe our prototype HyTM system, comprising a
+    compiler and a library.  The compiler allows a transaction to be attempted
+    using best-effort HTM, and retried using the software library if it fails.
+    We have used our prototype to 'transactify' part of the Berkeley DB system,
+    as well as several benchmarks.  By disabling the optional use of HTM, we
+    can run all of these tests on existing systems.  Furthermore, by using a
+    simulated multiprocessor with HTM support, we demonstrate the viability of
+    the HyTM approach: it can provide performance and scalability approaching
+    that of an unbounded HTM implementation, without the need to support all
+    transactions with complicated HTM support.", 
+  location     = "https://doi.org/10.1145/1168857.1168900", 
+  location     = "https://www.ece.ubc.ca/~sasha/papers/asplos165-damron.pdf"
+}
+
 % Local Variables:
 % eval: (set-register ?b "  journal      = asplos06,\n  year         = 2006,\n  volume       = 41,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
