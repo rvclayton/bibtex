@@ -114,6 +114,18 @@
   location     = "PS 3543.I26 D4"
 }
 
+@Book{atdah,
+  author       = "Bethany McLean and Joe Nocera",
+  title        = "All the Devils are Here",
+  subtitle     = "The Hidden History of the Financial Crisis",
+  publisher    = "Portfolio\slash Penguin",
+  year         = 2010,
+  address      = nyny,
+  keywords     = "the mortgage crisis, mortgage-backed securities, subprime
+    loans, regulation, the financial crisis",
+  location     = "HB 3717 2008.M35"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
