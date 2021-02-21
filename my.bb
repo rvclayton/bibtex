@@ -1807,6 +1807,245 @@
   location     = "https://www.ece.ubc.ca/~sasha/papers/asplos165-damron.pdf"
 }
 
+@Article{i3csm,
+  author       = "Shashidhar Mysore and Banit Agrawal and Navin Srivastava and Sheng-Chih Lin and Kaustav Banerjee and Tim Sherwood",
+  title        = "Introspective {3D} chips",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "264--273",
+  month        = nov,
+  keywords     = "introspection, hardware supported profiling, 3d
+    architectures, configurable architectures, chip layout",
+  abstract     = "While the number of transistors on a chip increases
+    exponentially over time, the productivity that can be realized from these
+    systems has not kept pace.  To deal with the complexity of modern systems,
+    software developers are increasingly dependent on specialized development
+    tools such as security profilers, memory leak identifiers, data flight
+    recorders, and dynamic type analysis.  Many of these tools require
+    full-system data which covers multiple interacting threads, processes, and
+    processors.  Reducing the performance penalty and complexity of these
+    software tools is critical to those developing next generation
+    applications, and many researchers have proposed adding specialized
+    hardware to assist in profiling and introspection.  Unfortunately, while
+    this additional hardware would be incredibly beneficial to developers, the
+    cost of this hardware must be paid on every single die that is
+    manufactured.In this paper, we argue that a new way to attack this problem
+    is with the addition of specialized analysis hardware built on separate
+    active layers stacked vertically on the processor die using 3D IC
+    technology.  This provides a modular 'snap-on' functionality that could be
+    included with developer systems, and omitted from consumer systems to keep
+    the cost impact to a minimum.  In this paper we describe the advantage of
+    using inter-die vias for introspection and we quantify the impact they can
+    have in terms of the area, power, temperature, and routability of the
+    resulting systems.  We show that hardware stubs could be inserted into
+    commodity processors at design time that would allow analysis layers to be
+    bonded to development chips, and that these stubs would increase area and
+    power by no more than 0.021mm2 and 0.9% respectively.", 
+  location     = "https://doi.org/10.1145/1168857.1168890"
+}
+
+@Article{aptaasfqu,
+  author       = "Ethan Schuchman and T.~N. Vijaykumar",
+  title        = "{A} program transformation and architecture support for quantum uncomputation",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "252--263",
+  month        = nov,
+  keywords     = "quantum computing, uncomputation, qla, fault tolerance,
+    quantum garbage management, entanglement and interference",
+  abstract     = "Quantum computing's power comes from new algorithms that
+    exploit quantum mechanical phenomena for computation.  Quantum algorithms
+    are different from their classical counterparts in that quantum algorithms
+    rely on algorithmic structures that are simply not present in classical
+    computing.  Just as classical program transformations and architectures
+    have been designed for common classical algorithm structures, quantum
+    program transformations and quantum architectures should be designed with
+    quantum algorithms in mind.  Because quantum algorithms come with these new
+    algorithmic structures, resultant quantum program transformations and
+    architectures may look very different from their classical
+    counterparts.This paper focuses on uncomputation, a critical and prevalent
+    structure in quantum algorithms, and considers how program transformations,
+    and architecture support should be designed to accommodate uncomputation.
+    In this paper,we show a simple quantum program transformation that exposes
+    independence between uncomputation and later computation.  We then propose
+    a multicore architecture tailored to this exposed parallelism and propose a
+    scheduling policy that efficiently maps such parallelism to the multicore
+    architecture.  Our policy achieves parallelism between uncomputation and
+    later computation while reducing cumulative communication distance.  Our
+    scheduling and architecture allows significant speedup of quantum programs
+    (between 1.8x and 2.8x speedup in Shor's factoring algorithm), while
+    reducing cumulative communication distance 26%.", 
+  location     = "https://doi.org/10.1145/1168857.1168889", 
+  location     = "https://engineering.purdue.edu/~vijay/papers/2006/uncomputation.pdf"
+}
+
+@Article{adtsonsa,
+  author       = "Jaidev~P. Patwardhan and Vijeta Johri and Chris Dwyer and Alvin~R. Lebeck",
+  title        = "{A} defect tolerant self-organizing nanoscale {SIMD} architecture",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "241--251",
+  month        = nov,
+  keywords     = "self-organizing systems, simd architectures, data parallel
+  computations, bit-serial assembly, defect tolerance, dna, nanocomputing",
+  abstract     = "The continual decrease in transistor size (through either
+    scaled CMOS or emerging nano-technologies) promises to usher in an era of
+    tera to peta-scale integration.  However, this decrease in size is also
+    likely to increase defect densities, contributing to the exponentially
+    increasing cost of top-down lithography.  Bottom-up manufacturing
+    techniques, like self assembly, may provide a viable lower-cost alternative
+    to top-down lithography, but may also be prone to higher defects.
+    Therefore, regardless of fabrication methodology, defect tolerant
+    architectures are necessary to exploit the full potential of future
+    increased device densities.This paper explores a defect tolerant SIMD
+    architecture.  A key feature of our design is the ability of a large number
+    of limited capability nodes with high defect rates (up to 30%) to
+    self-organize into a set of SIMD processing elements.  Despite node
+    simplicity and high defect rates, we show that by supporting the familiar
+    data parallel programming model the architecture can execute a variety of
+    programs.  The architecture efficiently exploits a large number of nodes
+    and higher device densities to keep device switching speeds and power
+    density low.  On a medium sized system (~1cm2 area), the performance of the
+    proposed architecture on our data parallel programs matches or exceeds the
+    performance of an aggressively scaled out-of-order processor (128-wide, 8k
+    reorder buffer, perfect memory system).  For larger systems (&gt;1cm2), the
+    proposed architecture can match the performance of a chip multiprocessor
+    with 16 aggressively scaled out-of-order cores.", 
+  location     = "https://doi.org/10.1145/1168857.1168888", 
+  location     = "https://users.cs.duke.edu/~alvy/papers/sosa.pdf"
+}
+
+@Article{rsmdus,
+  author       = "Satish Narayanasamy and Cristiano Pereira and Brad Calder",
+  title        = "Recording shared memory dependencies using {Strata}",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "229--240",
+  month        = nov,
+  keywords     = "strata recorder, replay, multi-threaded debugging, logging, shared
+    memory dependencies", 
+  abstract     = "Significant time is spent by companies trying to reproduce
+    and fix bugs.  BugNet and FDR are recent architecture proposals that
+    provide architecture support for deterministic replay debugging.  They
+    focus on continuously recording information about the program's execution,
+    which can be communicated back to the developer.  Using that information,
+    the developer can deterministically replay the program's execution to
+    reproduce and fix the bugs.In this paper, we propose using Strata to
+    efficiently capture the shared memory dependencies.  A stratum creates a
+    time layer across all the logs for the running threads, which separates all
+    the memory operations executed before and after the stratum.  A strata log
+    allows us to determine all the shared memory dependencies during replay and
+    thereby supports deterministic replay debugging for multi-threaded
+    programs.", 
+  location     = "https://doi.org/10.1145/1168857.1168886", 
+  location     = "https://cseweb.ucsd.edu/~calder/papers/ASPLOS-06-Strata.pdf"
+}
+
+@Article{hihbbuad,
+  author       = "Trishul~M. Chilimbi and Vinod Ganapathy",
+  title        = "{HeapMD}: identifying heap-based bugs using anomaly detection",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "219--228",
+  month        = nov,
+  keywords     = "anomaly detection, pointer errors , heap storage modeling, graph
+    metrics, debugging", 
+  abstract     = "We present the design, implementation, and evaluation of
+    HeapMD, a dynamic analysis tool that finds heap-based bugs using anomaly
+    detection.  HeapMD is based upon the observation that, in spite of the
+    evolving nature of the heap, several of its properties remain stable.
+    HeapMD uses this observation in a novel way: periodically, during the
+    execution of the program, it computes a suite of metrics which are
+    sensitive to the state of the heap.  These metrics track heap behavior, and
+    the stability of the heap reflects quantitatively in the values of these
+    metrics.  The 'normal' ranges of stable metrics, obtained by running a
+    program on multiple inputs, are then treated as indicators of correct
+    behaviour, and are used in conjunction with an anomaly detector to find
+    heap-based bugs.  Using HeapMD, we were able to find 40 heap-based bugs, 31
+    of them previously unknown, in 5 large, commercial applications.", 
+  location     = "https://doi.org/10.1145/1168857.1168885", 
+  location     = "http://pages.cs.wisc.edu/~vg/papers/asplos2006/asplos2006.ps"
+}
+
+@Article{caepth,
+  author       = "Mazen Kharbutli and Xiaowei Jiang and Yan Solihin and Guru Venkataramani and Milos Prvulovic",
+  title        = "Comprehensively and efficiently protecting the heap",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "207--218",
+  month        = nov,
+  keywords     = "computer security, heap attacks, heap security, heap server",
+  abstract     = "The goal of this paper is to propose a scheme that provides
+    comprehensive security protection for the heap.  Heap vulnerabilities are
+    increasingly being exploited for attacks on computer programs.  In most
+    implementations, the heap management library keeps the heap meta-data (heap
+    structure information) and the application's heap data in an interleaved
+    fashion and does not protect them against each other.  Such implementations
+    are inherently unsafe: vulnerabilities in the application can cause the
+    heap library to perform unintended actions to achieve control-flow and
+    non-control attacks.Unfortunately, current heap protection techniques are
+    limited in that they use too many assumptions on how the attacks will be
+    performed, require new hardware support, or require too many changes to the
+    software developers' toolchain.  We propose Heap Server, a new solution
+    that does not have such drawbacks.  Through existing virtual memory and
+    inter-process protection mechanisms, Heap Server prevents the heap
+    meta-data from being illegally overwritten, and heap data from being
+    meaningfully overwritten.  We show that through aggressive optimizations
+    and parallelism, Heap Server protects the heap with nearly-negligible
+    performance overheads even on heap-intensive applications.  We also verify
+    the protection against several real-world exploits and attack kernels.", 
+  location     = "https://doi.org/10.1145/1168857.1168884", 
+  location     = "https://www.cc.gatech.edu/~milos/kharbutli_asplos06.pdf"
+}
+
+@Article{eeadsvpm,
+  author       = "Engin \.{I}pek and Sally~A. McKee and Rich Caruana and Bronis~R. {de Supinski} and Martin Schulz",
+  title        = "Efficiently exploring architectural design spaces via predictive modeling",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "195--206",
+  month        = nov,
+  keywords     = "design space exploration, sensitivity studies, artificial
+    neural networks, performance prediction, learning",
+  abstract     = "Architects use cycle-by-cycle simulation to evaluate design
+    choices and understand tradeoffs and interactions among design parameters.
+    Efficiently exploring exponential-size design spaces with many interacting
+    parameters remains an open problem: the sheer number of experiments renders
+    detailed simulation intractable.  We attack this problem via an automated
+    approach that builds accurate, confident predictive design-space models.
+    We simulate sampled points, using the results to teach our models the
+    function describing relationships among design parameters.  The models
+    produce highly accurate performance estimates for other points in the
+    space, can be queried to predict performance impacts of architectural
+    changes, and are very fast compared to simulation, enabling efficient
+    discovery of tradeoffs among parameters in different regions.  We validate
+    our approach via sensitivity studies on memory hierarchy and CPU design
+    spaces: our models generally predict IPC with only 1-2% error and reduce
+    required simulation by two orders of magnitude.  We also show the efficacy
+    of our technique for exploring chip multiprocessor (CMP) design spaces:
+    when trained on a 1% sample drawn from a CMP design space with 250K points
+    and up to 55x performance swings among different system configurations, our
+    models predict performance with only 4-5% error on average.  Our approach
+    combines with techniques to reduce time per simulation, achieving net time
+    savings of three-four orders of magnitude.", 
+  location     = "https://doi.org/10.1145/1168857.1168882", 
+  location     = "http://www.cs.rochester.edu/~ipek/asplos06.pdf"
+}
+
 % Local Variables:
 % eval: (set-register ?b "  journal      = asplos06,\n  year         = 2006,\n  volume       = 41,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
