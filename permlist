@@ -742,6 +742,7 @@ cons should not evaluate its arguments : friedman
 considering recursion : robison
 consistency based diagnosis : palshikar
 consistency in dataflow graphs : lee
+constraint based automatic test data generation : demillo
 constraint logic programming : hentenryck
 constraint logic programming an informal introduction : fruhwirth
 constructing distributed systems in conic : magee
