@@ -29,7 +29,7 @@
 @Book{sewpr,
   author       = "Matthias Felleisen and Robert Bruce Findler and Matthew Flatt",
   title        = "Semantics Engineering with {PLT Redex}",
-  publisher    = "The MIT Press",
+  publisher    = mitp,
   year         = 2009,
   address      = cama,
   keywords     = "reduction semantics, language semantics",
@@ -124,6 +124,18 @@
   keywords     = "the mortgage crisis, mortgage-backed securities, subprime
     loans, regulation, the financial crisis",
   location     = "HB 3717 2008.M35"
+}
+
+@Book{iadm,
+  author       = "Donald MacKenzie",
+  title        = "Inventing Accuracy",
+  subtitle     = "A Historical Sociology of Nuclear Missile Guidance",
+  publisher    = mitp,
+  year         = 1990,
+  address      = cama,
+  keywords     = "ballistic missiles, nuclear weapons, military policy, nuclear
+    warfare, politics, guidance systems, charles stark draper",
+  location     = "UG 1312.B34 M33"
 }
 
 @Article{hasfadsafes,
@@ -2044,6 +2056,263 @@
     savings of three-four orders of magnitude.", 
   location     = "https://doi.org/10.1145/1168857.1168882", 
   location     = "http://www.cs.rochester.edu/~ipek/asplos06.pdf"
+}
+
+@Article{pu3stteaceecm,
+  author       = "Taeho Kgil and Shaun D'Souza and Ali Saidi and Nathan Binkert and Ronald Dreslinski and Trevor Mudge and Steven Reinhardt and Krisztian Flautner",
+  title        = "{PicoServer}: using {3D} stacking technology to enable a compact energy efficient chip multiprocessor",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "117--128",
+  month        = nov,
+  keywords     = "low power, tier 1 servers, web/file/streaming servers, 3d
+    stacking technology, chip multiprocessor, full-system simulation, power
+    trade-offs, data transport",
+  abstract     = "In this paper, we show how 3D stacking technology can be used
+    to implement a simple, low-power, high-performance chip multiprocessor
+    suitable for throughput processing.  Our proposed architecture, PicoServer,
+    employs 3D technology to bond one die containing several simple slow
+    processing cores to multiple DRAM dies sufficient for a primary memory.
+    The 3D technology also enables wide low-latency buses between processors
+    and memory.  These remove the need for an L2 cache allowing its area to be
+    re-allocated to additional simple cores.  The additional cores allow the
+    clock frequency to be lowered without impairing throughput.  Lower clock
+    frequency in turn reduces power and means that thermal constraints, a
+    concern with 3D stacking, are easily satisfied.The PicoServer architecture
+    specifically targets Tier 1 server applications, which exhibit a high
+    degree of thread level parallelism.  An architecture targeted to efficient
+    throughput is ideal for this application domain.  We find for a similar
+    logic die area, a 12 CPU system with 3D stacking and no L2 cache
+    outperforms an 8 CPU system with a large on-chip L2 cache by about 14%
+    while consuming 55% less power.  In addition, we show that a PicoServer
+    performs comparably to a Pentium 4-like class machine while consuming only
+    about 1/10 of the power, even when conservative assumptions are made about
+    the power consumption of the PicoServer.", 
+  location     = "https://doi.org/10.1145/1168857.1168873", 
+  location     = "http://web.eecs.umich.edu/~saidi/pres/picoserver.pdf"
+}
+
+@Article{aspsafea,
+  author       = "Katherine~E. Coons and Xia Chen and Doug Burger and Kathryn~S. McKinley and Sundeep~K. Kushwaha",
+  title        = "{A} spatial path scheduling algorithm for {EDGE} architectures",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "129--140",
+  month        = nov,
+  keywords     = "instruction  scheduling, path scheduling, simulated
+    annealing, edge architecture",
+  abstract     = "Growing on-chip wire delays are motivating architectural
+    features that expose on-chip communication to the compiler.  EDGE
+    architectures are one example of communication-exposed microarchitectures
+    in which the compiler forms dataflow graphs that specify how the
+    microarchitecture maps instructions onto a distributed execution substrate.
+    This paper describes a compiler scheduling algorithm called spatial path
+    scheduling that factors in previously fixed locations - called anchor
+    points - for each placement.  This algorithm extends easily to different
+    spatial topologies.  We augment this basic algorithm with three heuristics:
+    (1) local and global ALU and network link contention modeling, (2) global
+    critical path estimates, and (3) dependence chain path reservation.  We use
+    simulated annealing to explore possible performance improvements and to
+    motivate the augmented heuristics and their weighting functions.  We show
+    that the spatial path scheduling algorithm augmented with these three
+    heuristics achieves a 21% average performance improvement over the best
+    prior algorithm and comes within an average of 5% of the annealed
+    performance for our benchmarks.", 
+  location     = "https://doi.org/10.1145/1168857.1168875", 
+  location     = "http://www.cs.utexas.edu/users/mckinley/papers/sps-asplos-2006.pdf"
+}
+
+@Article{isfatda,
+  author       = "Martha Mercaldi and Steven Swanson and Andrew Petersen and Andrew Putnam and Andrew Schwerin and Mark Oskin and Susan~J. Eggers",
+  title        = "Instruction scheduling for a tiled dataflow architecture",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "141--150",
+  month        = nov,
+  keywords     = "dataflow architecture, instruction scheduling, tiled architectures",
+  abstract     = "This paper explores hierarchical instruction scheduling for a
+    tiled processor.  Our results show that at the top level of the hierarchy,
+    a simple profile-driven algorithm effectively minimizes operand latency.
+    After this schedule has been partitioned into large sections, the
+    bottom-level algorithm must more carefully analyze program structure when
+    producing the final schedule.Our analysis reveals that at this bottom
+    level, good scheduling depends upon carefully balancing instruction
+    contention for processing elements and operand latency between producer and
+    consumer instructions.  We develop a parameterizable instruction scheduler
+    that more effectively optimizes this trade-off.  We use this scheduler to
+    determine the contention-latency sweet spot that generates the best
+    instruction schedule for each application.  To avoid this
+    application-specific tuning, we also determine the parameters that produce
+    the best performance across all applications.  The result is a
+    contention-latency setting that generates instruction schedules for all
+    applications in our workload that come within 17% of the best schedule for
+    each.", 
+  location     = "https://doi.org/10.1145/1168857.1168876", 
+  location     = "https://cseweb.ucsd.edu/~swanson/papers/ASPLOS2006WaveScalar.pdf"
+}
+
+@Article{ecgtdappisp,
+  author       = "Michael~I. Gordon and William Thies and Saman Amarasinghe",
+  title        = "Exploiting coarse-grained task, data, and pipeline parallelism in stream programs",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "151--162",
+  month        = nov,
+  keywords     = "coarse-grained dataflow, multicore, raw, software pipelining,
+    streamit, stream processing, exotic compilation",
+  abstract     = "As multicore architectures enter the mainstream, there is a
+    pressing demand for high-level programming models that can effectively map
+    to them.  Stream programming offers an attractive way to expose
+    coarse-grained parallelism, as streaming applications (image, video, DSP,
+    etc.) are naturally represented by independent filters that communicate
+    over explicit data channels.In this paper, we demonstrate an end-to-end
+    stream compiler that attains robust multicore performance in the face of
+    varying application characteristics.  As benchmarks exhibit different
+    amounts of task, data, and pipeline parallelism, we exploit all types of
+    parallelism in a unified manner in order to achieve this generality.  Our
+    compiler, which maps from the StreamIt language to the 16-core Raw
+    architecture, attains a 11.2x mean speedup over a single-core baseline, and
+    a 1.84x speedup over our previous work.", 
+  location     = "https://doi.org/10.1145/1168857.1168877", 
+  location     = "http://groups.csail.mit.edu/commit/papers/06/gordon-asplos06.pdf"
+}
+
+@Article{tescfwpe,
+  author       = "Mahim Mishra and Timothy~J. Callahan and Tiberiu Chelcea and Girish Venkataramani and Seth~C. Goldstein and Mihai Budiu",
+  title        = "Tartan: evaluating spatial computation for whole program execution",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "163--174",
+  month        = nov,
+  keywords     = "spatial computation, dataflow architectures, reconfigurable
+    hardware, asynchronous circuits, low power, defect tolerance",
+  abstract     = "Spatial Computing (SC) has been shown to be an
+    energy-efficient model for implementing program kernels.  In this paper we
+    explore the feasibility of using SC for more than small kernels.  To this
+    end, we evaluate the performance and energy efficiency of entire
+    applications on Tartan, a general-purpose architecture which integrates a
+    reconfigurable fabric (RF) with a superscalar core.  Our compiler
+    automatically partitions and compiles an application into an instruction
+    stream for the core and a configuration for the RF.  We use a detailed
+    simulator to capture both timing and energy numbers for all parts of the
+    system.Our results indicate that a hierarchical RF architecture, designed
+    around a scalable interconnect, is instrumental in harnessing the benefits
+    of spatial computation.  The interconnect uses static configuration and
+    routing at the lower levels and a packet-switched, dynamically-routed
+    network at the top level.  Tartan is most energyefficient when almost all
+    of the application is mapped to the RF, indicating the need for the RF to
+    support most general-purpose programming constructs.  Our initial
+    investigation reveals that such a system can provide, on average, an order
+    of magnitude improvement in energy-delay compared to an aggressive
+    superscalar core on single-threaded workloads.", 
+  location     = "https://doi.org/10.1145/1168857.1168878", 
+  location     = "http://www.cs.cmu.edu/~phoenix/papers/asplos06.pdf"
+}
+
+@Article{apcafcacc,
+  author       = "Stijn Eyerman and Lieven Eeckhout and Tejas Karkhanis and James~E. Smith",
+  title        = "{A} performance counter architecture for computing accurate {CPI} components",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "175--184",
+  month        = nov,
+  keywords     = "hardware performance counter architecture, superscalar
+    processor performance modeling, cpi stacks, miss events",
+  abstract     = "A common way of representing processor performance is to use
+    Cycles per Instruction (CPI) `stacks' which break performance into a
+    baseline CPI plus a number of individual miss event CPI components.  CPI
+    stacks can be very helpful in gaining insight into the behavior of an
+    application on a given microprocessor; consequently, they are widely used
+    by software application developers and computer architects.  However,
+    computing CPI stacks on superscalar out-of-order processors is challenging
+    because of various overlaps among execution and miss events (cache misses,
+    TLB misses, and branch mispredictions).This paper shows that meaningful and
+    accurate CPI stacks can be computed for superscalar out-of-order
+    processors.  Using interval analysis, a novel method for analyzing
+    out-of-order processor performance, we gain understanding into the
+    performance impact of the various miss events.  Based on this
+    understanding, we propose a novel way of architecting hardware performance
+    counters for building accurate CPI stacks.  The additional hardware for
+    implementing these counters is limited and comparable to existing hardware
+    performance counter architectures while being significantly more accurate
+    than previous approaches.", 
+  location     = "https://doi.org/10.1145/1168857.1168880", 
+  location     = "https://www.elis.ugent.be/~leeckhou/papers/asplos06.pdf"
+}
+
+@Article{aaermfmpapp,
+  author       = "Benjamin~C. Lee and David~M. Brooks",
+  title        = "Accurate and efficient regression modeling for microarchitectural performance and power prediction",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "185--194",
+  month        = nov,
+  keywords     = "microarchitecture, simulation, statistics, interference,
+    regression, prediction, modeling, evaluation",
+  abstract     = "We propose regression modeling as an efficient approach for
+    accurately predicting performance and power for various applications
+    executing on any microprocessor configuration in a large microarchitectural
+    design space.  This paper addresses fundamental challenges in
+    microarchitectural simulation cost by reducing the number of required
+    simulations and using simulated results more effectively via statistical
+    modeling and inference.Specifically, we derive and validate regression
+    models for performance and power.  Such models enable computationally
+    efficient statistical inference, requiring the simulation of only 1 in 5
+    million points of a joint microarchitecture-application design space while
+    achieving median error rates as low as 4.1 percent for performance and 4.3
+    percent for power.  Although both models achieve similar accuracy, the
+    sources of accuracy are strikingly different.  We present optimizations for
+    a baseline regression model to obtain (1) application-specific models to
+    maximize accuracy in performance prediction and (2) regional power models
+    leveraging only the most relevant samples from the microarchitectural
+    design space to maximize accuracy in power prediction.  Assessing
+    sensitivity to the number of samples simulated for model formulation, we
+    find fewer than 4,000 samples from a design space of approximately 22
+    billion points are sufficient.  Collectively, our results suggest
+    significant potential in accurate and efficient statistical inference for
+    microarchitectural design space exploration via regression models.", 
+  location     = "https://doi.org/10.1145/1168857.1168881", 
+  location     = "http://people.duke.edu/~bcl15/documents/lee2006-asplos.pdf"
+}
+
+@Article{cbatdg,
+  author       = "DeMillo, Richard~A. and Offutt, A.~Jefferson",
+  title        = "Constraint-Based Automatic Test Data Generation",
+  journal      = tse,
+  year         = 1991,
+  volume       = 17,
+  number       = 9,
+  pages        = "900--910",
+  month        = sep,
+  keywords     = "constraint-based data generation, automatic test data
+    generation, mutation analysis, relative adequacy, fault-based technique,
+    algebraic constraints, Godzilla, module testing, Mothra testing system", 
+  abstract     = "A novel technique for automatically generating test data is
+    presented. The technique is based on mutation analysis and creates test
+    data approximating relative adequacy.  Its  fault-based technique uses
+    algebraic constraints to describe test cases designed to find particular
+    fault types.  A set of tools collectively called Godzilla automatically
+    generates constraints and solves them to create test cases for unit and
+    module testing.  Godzilla has been integrated with the Mothra testing
+    system and has been used as an effective way to generate test data to kill
+    program mutants.  The authors present an initial list of constraints and
+    discuss some of the problems solved to develop the complete implementation
+    of the technique.",
+  location     = "https://doi.org/10.1109/32.92910"
 }
 
 % Local Variables:
