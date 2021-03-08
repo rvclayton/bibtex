@@ -138,6 +138,17 @@
   location     = "UG 1312.B34 M33"
 }
 
+@Book{twohk,
+  author       = "Sharon Ghamari-Tabrizi ",
+  title        = "The Worlds of Herman Kahn",
+  subtitle     = "The Intuitive Science of Thermonuclear War",
+  publisher    = hup,
+  year         = 2005,
+  address      = cma,
+  keywords     = "rand, on thermonuclear war, the ol' razzle-dazzle",
+  location     = "U 263.G49"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -2313,6 +2324,299 @@
     discuss some of the problems solved to develop the complete implementation
     of the technique.",
   location     = "https://doi.org/10.1109/32.92910"
+}
+
+@Article{adavvaii,
+  author       = "Shan Lu and Joseph Tucek and Feng Qin and Yuanyuan Zhou",
+  title        = "{AVIO}: detecting atomicity violations via access interleaving invariants",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "37--48",
+  month        = nov,
+  keywords     = "concurrent programming, atomicity violation, concurrency bugs,
+    bug detection, hardware support, atomicity invariants, invariant discovery,
+    cache consistency protocols",
+  abstract     = "Concurrency bugs are among the most difficult to test and
+    diagnose of all software bugs.  The multicore technology trend worsens this
+    problem.  Most previous concurrency bug detection work focuses on one bug
+    subclass, data races, and neglects many other important ones such as
+    atomicity violations, which will soon become increasingly important due to
+    the emerging trend of transactional memory models.This paper proposes an
+    innovative, comprehensive, invariantbased approach called AVIO to detect
+    atomicity violations.  Our idea is based on a novel observation called
+    access interleaving invariant, which is a good indication of programmers'
+    assumptions about the atomicity of certain code regions.  By automatically
+    extracting such invariants and detecting violations of these invariants at
+    run time, AVIO can detect a variety of atomicity violations.Based on this
+    idea, we have designed and built two implementations of AVIO and evaluated
+    the trade-offs between them.  The first implementation, AVIO-S, is purely
+    in software, while the second, AVIO-H, requires some simple extensions to
+    the cache coherence hardware.  AVIO-S is cheaper and more accurate but
+    incurs much higher overhead and thus more run-time perturbation than AVIOH.
+    Therefore, AVIO-S is more suitable for in-house bug detection and
+    postmortem bug diagnosis, while AVIO-H can be used for bug detection during
+    production runs.We evaluate both implementations of AVIO using large
+    realworld server applications (Apache and MySQL) with six representative
+    real atomicity violation bugs, and SPLASH-2 benchmarks.  Our results show
+    that AVIO detects more tested atomicity violations of various types and has
+    25 times fewer false positives than previous solutions on average.", 
+  location     = "https://doi.org/10.1145/1168857.1168864", 
+  location     = "http://pages.cs.wisc.edu/~shanlu/paper/asplos062-lu.ps"
+}
+
+@Article{artrrflmrr,
+  author       = "Min Xu and Mark~D. Hill and Rastislav Bodik",
+  title        = "{A} regulated transitive reduction ({RTR}) for longer memory race recording",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "49--60",
+  month        = nov,
+  keywords     = "multithreading, determinism, race recording, data
+    compression, approximations, consistency models",
+  abstract     = "Multithreaded deterministic replay has important applications
+    in cyclic debugging, fault tolerance and intrusion analysis.  Memory race
+    recording is a key technology for multithreaded deterministic replay.  In
+    this paper, we considerably improve our previous always-on Flight Data
+    Recorder (FDR) in four ways: •Longer recording by reducing the log size
+    growth rate to approximately one byte per thousand dynamic instructions.
+    •Lower hardware cost by reducing the cost to 24 KB per processor core.
+    •Simpler design by modifying only the cache coherence protocol, but not the
+    cache.  •Broader applicability by supporting both Sequential Consistency
+    (SC) and Total Store Order (TSO) memory consistency models (existing
+    recorders support only SC).These improvements stem from several ideas: (1)
+    a Regulated Transitive Reduction (RTR) recording algorithm that creates
+    stricter and vectorizable dependencies to reduce the log growth rate; (2) a
+    Set/LRU timestamp approximation method that better approximates timestamps
+    of uncached memory locations to reduce the hardware cost; (3) an
+    order-value-hybrid recording methodthat explicitly logs the value of
+    potential SC-violating load instructions to support multiprocessor systems
+    with TSO.", 
+  location     = "https://doi.org/10.1145/1168857.1168865", 
+  location     = "http://www.cs.wisc.edu/multifacet/papers/asplos06_rtr.pdf"
+}
+
+@Article{bbeomld,
+  author       = "Michael~D. Bond and Kathryn~S. McKinley",
+  title        = "Bell: bit-encoding online memory leak detection",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "61--72",
+  month        = nov,
+  keywords     = "memory leaks, low-overhead monitoring, probabilistic
+    approaches, managed systems, one-bit hashes",
+  abstract     = "Memory leaks compromise availability and security by
+    crippling performance and crashing programs.  Leaks are difficult to
+    diagnose because they have no immediate symptoms.  Online leak detection
+    tools benefit from storing and reporting per-object sites (e.g., allocation
+    sites) for potentially leaking objects.  In programs with many small
+    objects, per-object sites add high space overhead, limiting their use in
+    production environments.This paper introduces Bit-Encoding Leak Location
+    (Bell), a statistical approach that encodes per-object sites to a single
+    bit per object.  A bit loses information about a site, but given sufficient
+    objects that use the site and a known, finite set of possible sites, Bell
+    uses brute-force decoding to recover the site with high accuracy.We use
+    this approach to encode object allocation and last-use sites in Sleigh, a
+    new leak detection tool.  Sleigh detects stale objects (objects unused for
+    a long time) and uses Bell decoding to report their allocation and last-use
+    sites.  Our implementation steals four unused bits in the object header and
+    thus incurs no per-object space overhead.  Sleigh's instrumentation adds
+    29% execution time overhead, which adaptive profiling reduces to 11%.
+    Sleigh's output is directly useful for finding and fixing leaks in SPEC
+    JBB2000 and Eclipse, although sufficiently many objects must leak before
+    Bell decoding can report sites with confidence.  Bell is suitable for other
+    leak detection approaches that store per-object sites, and for other
+    problems amenable to statistical per-object metadata.", 
+  location     = "https://doi.org/10.1145/1168857.1168866", 
+  location     = "https://www.cs.utexas.edu/users/mckinley/papers/bell-asplos-2006.pdf"
+}
+
+@Article{ulcdpfmp,
+  author       = "Smitha Shyam and Kypros Constantinides and Sujay Phadke and Valeria Bertacco and Todd Austin",
+  title        = "Ultra low-cost defect protection for microprocessor pipelines",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "73--82",
+  month        = nov,
+  keywords     = "reliability, defect protection, low cost, pipelines, hardware
+    failures, cheap redundancy",
+  abstract     = "The sustained push toward smaller and smaller technology
+    sizes has reached a point where device reliability has moved to the
+    forefront of concerns for next-generation designs.  Silicon failure
+    mechanisms, such as transistor wearout and manufacturing defects, are a
+    growing challenge that threatens the yield and product lifetime of future
+    systems.  In this paper we introduce the BulletProof pipeline, the first
+    ultra low-cost mechanism to protect a microprocessor pipeline and on-chip
+    memory system from silicon defects.  To achieve this goal we combine
+    area-frugal on-line testing techniques and system-level checkpointing to
+    provide the same guarantees of reliability found in traditional solutions,
+    but at much lower cost.  Our approach utilizes a microarchitectural
+    checkpointing mechanism which creates coarse-grained epochs of execution,
+    during which distributed on-line built in self-test (BIST) mechanisms
+    validate the integrity of the underlying hardware.  In case a failure is
+    detected, we rely on the natural redundancy of instructionlevel parallel
+    processors to repair the system so that it can still operate in a degraded
+    performance mode.  Using detailed circuit-level and architectural
+    simulation, we find that our approach provides very high coverage of
+    silicon defects (89%) with little area cost (5.8%).  In addition, when a
+    defect occurs, the subsequent degraded mode of operation was found to have
+    only moderate performance impacts, (from 4% to 18% slowdown).", 
+  location     = "https://doi.org/10.1145/1168857.1168868", 
+  location     = "http://www-personal.umich.edu/~kypros/shyam-asplos06.pdf"
+}
+
+@Article{upbprtflohcft,
+  author       = "Vimal~K. Reddy and Eric Rotenberg and Sailashri Parthasarathy",
+  title        = "Understanding prediction-based partial redundant threading for low-overhead, high-coverage fault tolerance",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "83--94",
+  month        = nov,
+  keywords     = "simultaneous multithreading, smt, chip multiprocessors, cmp,
+    slipstream processor, transient faults, time redundancy, redundant
+    multithreading, branch prediction, value prediction",
+  abstract     = "Redundant threading architectures duplicate all instructions
+    to detect and possibly recover from transient faults.  Several lighter
+    weight Partial Redundant Threading (PRT) architectures have been proposed
+    recently.  (i) Opportunistic Fault Tolerance duplicates instructions only
+    during periods of poor single-thread performance.  (ii) ReStore does not
+    explicitly duplicate instructions and instead exploits mispredictions among
+    highly confident branch predictions as symptoms of faults.  (iii)
+    Slipstream creates a reduced alternate thread by replacing many
+    instructions with highly confident predictions.  We explore PRT as a
+    possible direction for achieving the fault tolerance of full duplication
+    with the performance of single-thread execution.  Opportunistic and ReStore
+    yield partial coverage since they are restricted to using only partial
+    duplication or only confident predictions, respectively.  Previous analysis
+    of Slipstream fault tolerance was cursory and concluded that only
+    duplicated instructions are covered.  In this paper, we attempt to better
+    understand Slipstream's fault tolerance, conjecturing that the mixture of
+    partial duplication and confident predictions actually closely approximates
+    the coverage of full duplication.  A thorough dissection of prediction
+    scenarios confirms that faults in nearly 100% of instructions are
+    detectable.  Fewer than 0.1% of faulty instructions are not detectable due
+    to coincident faults and mispredictions.  Next we show that the current
+    recovery implementation fails to leverage excellent detection capability,
+    since recovery sometimes initiates belatedly, after already retiring a
+    detected faulty instruction.  We propose and evaluate a suite of simple
+    microarchitectural alterations to recovery and checking.  Using the best
+    alterations, Slipstream can recover from faults in 99% of instructions,
+    compared to only 78% of instructions without alterations.  Both results are
+    much higher than predicted by past research, which claims coverage for only
+    duplicated instructions, or 65% of instructions.  On an 8-issue SMT
+    processor, Slipstream performs within 1.3% of single-thread execution
+    whereas full duplication slows performance by 14%.A key byproduct of this
+    paper is a novel analysis framework in which every dynamic instruction is
+    considered to be hypothetically faulty, thus not requiring explicit fault
+    injection.  Fault coverage is measured in terms of the fraction of
+    candidate faulty instructions that are directly or indirectly detectable
+    before.", 
+  location     = "https://doi.org/10.1145/1168857.1168869", 
+  location     = "http://people.engr.ncsu.edu/ericro/publications/conference_ASPLOS-12.pdf"
+}
+
+@Article{ssbleferm,
+  author       = "Angshuman Parashar and Anand Sivasubramaniam and Sudhanva Gurumurthi",
+  title        = "{SlicK}: slice-based locality exploitation for efficient redundant multithreading",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "95--105",
+  month        = nov,
+  keywords     = "transient faults, redundant threading, backward slice
+    extraction, microarchitecture",
+  abstract     = "Transient faults are expected a be a major design
+    consideration in future microprocessors.  Recent proposals for transient
+    fault detection in processor cores have revolved around the idea of
+    redundant threading, which involves redundant execution of a program across
+    multiple execution contexts.  This paper presents a new approach to
+    redundant threading by bringing together the concepts of slice-level
+    execution and value and control-flow locality into a novel partial
+    redundant threading mechanism called SlicK.The purpose of redundant
+    execution is to check the integrity of the outputs propagating out of the
+    core (typically through stores).  SlicK implements redundancy at the
+    granularity of backward-slices of these output instructions and exploits
+    value and control-flow locality to avoid redundantly executing slices that
+    lead to predictable outputs, thereby avoiding redundant execution of a
+    significant fraction of instructions while maintaining extremely low
+    vulnerabilities for critical processor structures.We propose the
+    microarchitecture of a backward-slice extractor called SliceEM that is able
+    to identify backward slices without interrupting the instruction flow, and
+    show how this extractor and a set of predictors can be integrated into a
+    redundant threading mechanism to form SlicK.  Detailed simulations with
+    SPEC CPU2000 benchmarks show that SlicK can provide around 10.2%
+    performance improvement over a well known redundant threading mechanism,
+    buying back over 50% of the loss suffered due to redundant execution.
+    SlicK can keep the Architectural Vulnerability Factors of processor
+    structures to typically 0%-2%.  More importantly, SlicK's slice-based
+    mechanisms provide future opportunities for exploring interesting points in
+    the performance-reliability design space based on market segment needs.", 
+  location     = "https://doi.org/10.1145/1168857.1168870", 
+  location     = "https://www.cs.virginia.edu/~gurumurthi/papers/asplos06.pdf"
+}
+
+@Article{mafteamfss,
+  author       = "Taliver Heath and Ana Paula Centeno and Pradeep George and Luiz Ramos and Yogesh Jaluria and Ricardo Bianchini",
+  title        = "{Mercury} and {Freon}: temperature emulation and management for server systems",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "106--116",
+  month        = nov,
+  keywords     = "temperature modeling, thermal management, energy
+    conservation, server clusters",
+  abstract     = "Power densities have been increasing rapidly at all levels of
+    server systems.  To counter the high temperatures resulting from these
+    densities, systems researchers have recently started work on softwarebased
+    thermal management.  Unfortunately, research in this new area has been
+    hindered by the limitations imposed by simulators and real measurements.
+    In this paper, we introduce Mercury, a software suite that avoids these
+    limitations by accurately emulating temperatures based on simple layout,
+    hardware, and componentutilization data.  Most importantly, Mercury runs
+    the entire software stack natively, enables repeatable experiments, and
+    allows the study of thermal emergencies without harming hardware
+    reliability.  We validate Mercury using real measurements and a widely used
+    commercial simulator.  We use Mercury to develop Freon, a system that
+    manages thermal emergencies in a server cluster without unnecessary
+    performance degradation.  Mercury will soon become available from
+    http://www.darklab.rutgers.edu.", 
+  location     = "https://doi.org/10.1145/1168857.1168872", 
+  location     = "https://people.cs.pitt.edu/~kirk/cs3150spring2010/p106-heath.pdf"
+}
+
+@TechReport{oem2fblis,
+  author       = "Rovner, Paul and Levin, Roy and Wick, John",
+  title        = "On Extending {Modula}-2 for Building Large, Integrated Systems",
+  institution  = "DEC System Research Center",
+  year         = 1985,
+  number       = "SRC-RR-3",
+  address      = paca,
+  month        = "11 " # jan,
+  keywords     = "modula-2, types, exception handling, concurrency management,
+    programming style, system development",
+  abstract     = "Modula-2 has been chosen as SRC's primary programming
+    language for the next few years.  This report addresses some of the
+    problems of using Modula-2 for building large, integrated systems.  The
+    report has three sections: Section 1 outlines a set of extensions to the
+    language.  (The extended language is called Modula-2+.) Section 2 (with
+    Appendix b) provides a complete description of the Modula-2+ type-checking
+    rules.  Section 3 offers some guidelines for programming in Modula-2+.  Our
+    implementation of Modula-2+ is based on the Modula-2 compiler written by
+    Mike Powell at the DEC Western Research Laboratory.  Our extensions include
+    features for exceptions and finalization, garbage collection, and
+    concurrency.", 
+  location     = "http://bitsavers.trailing-edge.com/pdf/dec/tech_reports/SRC-RR-3.pdf"
 }
 
 % Local Variables:
