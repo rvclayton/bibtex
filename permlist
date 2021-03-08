@@ -1706,6 +1706,7 @@ on computable numbers with an application to the entscheidungsproblem : turing
 on criteria for module interfaces : hoffman
 on distributed fault simulation : brooks
 on embedding a microarchitectural design langauge within haskell : launchbury
+on extending modula 2 for building large integrated systems : rovner
 on holy wars and a plea for peace : cohen
 on kilburys modification of earleys algorithm : leiss
 on line monitoring a tutorial : schroeder
