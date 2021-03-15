@@ -3,6 +3,7 @@
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
+@string{osdi02    = osr # " (" # pot # "Fifth" # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
 
 @Book{tsbotw,
@@ -147,6 +148,16 @@
   address      = cma,
   keywords     = "rand, on thermonuclear war, the ol' razzle-dazzle",
   location     = "U 263.G49"
+}
+
+@Book{dlih,
+  author       = "Edgar Box",
+  title        = "Death Likes It Hot",
+  publisher    = "Dutton",
+  year         = 1954,
+  address      = nyny,
+  keywords     = "the long island life, murrdaar",
+  location     = "PS 3543.I26 D44"
 }
 
 @Article{hasfadsafes,
@@ -2593,6 +2604,254 @@
     http://www.darklab.rutgers.edu.", 
   location     = "https://doi.org/10.1145/1168857.1168872", 
   location     = "https://people.cs.pitt.edu/~kirk/cs3150spring2010/p106-heath.pdf"
+}
+
+@Article{tsdhmtwvm,
+  author       = "Jedidiah~R. Crandall and Gary Wassermann and Daniela A.~S. {de Oliveira} and Zhendong Su and S.~Felix Wu and Frederic~T. Chong",
+  title        = "Temporal search: detecting hidden malware timebombs with virtual machines",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "25--36",
+  month        = nov,
+  keywords     = "worms, malware, virtual machines, temporal discovery, time
+    bombs",
+  abstract     = "Worms, viruses, and other malware can be ticking bombs
+    counting down to a specific time, when they might, for example, delete
+    files or download new instructions from a public web server.  We propose a
+    novel virtual-machine-based analysis technique to automatically discover
+    the timetable of a piece of malware, or when events will be triggered, so
+    that other types of analysis can discern what those events are.  This
+    information can be invaluable for responding to rapid malware, and
+    automating its discovery can provide more accurate information with less
+    delay than careful human analysis.Developing an automated system that
+    produces the timetable of a piece of malware is a challenging research
+    problem.  In this paper, we describe our implementation of a key component
+    of such a system: the discovery of timers without making assumptions about
+    the integrity of the infected system's kernel.  Our technique runs a
+    virtual machine at slightly different rates of perceived time (time as seen
+    by the virtual machine), and identifies time counters by correlating memory
+    write frequency to timer interrupt frequency.We also analyze real malware
+    to assess the feasibility of using full-system, machine-level symbolic
+    execution on these timers to discover predicates.  Because of the
+    intricacies of the Gregorian calendar (leap years, different number of days
+    in each month, etc.) these predicates will not be direct expressions on the
+    timer but instead an annotated trace; so we formalize the calculation of a
+    timetable as a weakest precondition calculation.  Our analysis of six real
+    worms sheds light on two challenges for future work: 1) time-dependent
+    malware behavior often does not follow a linear timetable; and 2) that an
+    attacker with knowledge of the analysis technique can evade analysis.  Our
+    current results are promising in that with simple symbolic execution we are
+    able to discover predicates on the day of the month for four real worms.
+    Then through more traditional manual analysis we conclude that a more
+    control-flow-sensitive symbolic execution implementation would discover all
+    predicates for the malware we analyzed.", 
+  location     = "https://doi.org/10.1145/1168857.1168862", 
+  location     = "http://web.cs.ucdavis.edu/~su/publications/asplos06.pdf"
+}
+
+@Article{gmtbciavme,
+  author       = "Stephen~T. Jones and Andrea~C. Arpaci-Dusseau and Remzi~H. Arpaci-Dusseau",
+  title        = "Geiger: monitoring the buffer cache in a virtual machine environment",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "14--24",
+  month        = nov,
+  keywords     = "virtual machines, inferences, grey-box discovery, buffer
+    cache management, virtual page management",
+  abstract     = "Virtualization is increasingly being used to address server
+    management and administration issues like flexible resource allocation,
+    service isolation and workload migration.  In a virtualized environment,
+    the virtual machine monitor (VMM) is the primary resource manager and is an
+    attractive target for implementing system features like scheduling,
+    caching, and monitoring.  However, the lackof runtime information within
+    the VMM about guest operating systems, sometimes called the semantic gap,
+    is a significant obstacle to efficiently implementing some kinds of
+    services.In this paper we explore techniques that can be used by a VMM to
+    passively infer useful information about a guest operating system's unified
+    buffer cache and virtual memory system.  We have created a prototype
+    implementation of these techniques inside the Xen VMM called Geiger and
+    show that it can accurately infer when pages are inserted into and evicted
+    from a system's buffer cache.  We explore several nuances involved in
+    passively implementing eviction detection that have not previously been
+    addressed, such as the importance of tracking disk block liveness, the
+    effect of file system journaling, and the importance of accounting for the
+    unified caches found in modern operating systems.Using case studies we show
+    that the information provided by Geiger enables a VMM to implement useful
+    VMM-level services.  We implement a novel working set size estimator which
+    allows the VMM to make more informed memory allocation decisions.  We also
+    show that a VMM can be used to drastically improve the hit rate in remote
+    storage caches by using eviction-based cache placement without modifying
+    the application or operating system storage interface.  Both case studies
+    hint at a future where inference techniques enable a broad new class of
+    VMM-level functionality.", 
+  location     = "https://doi.org/10.1145/1168857.1168861", 
+  location     = "https://research.cs.wisc.edu/wind/Publications/geiger-asplos06.pdf"
+}
+
+@Article{acosahtfxv,
+  author       = "Keith Adams and Ole Agesen",
+  title        = "{A} comparison of software and hardware techniques for x86 virtualization",
+  journal      = asplos06,
+  year         = 2006,
+  volume       = 41,
+  number       = 11,
+  pages        = "2--13",
+  month        = nov,
+  keywords     = "virtualization, virtual machine monitor, dynamic binary
+    translation, x86, vt, svm, mmu, tlb, nested paging",
+  abstract     = "Until recently, the x86 architecture has not permitted
+    classical trap-and-emulate virtualization.  Virtual Machine Monitors for
+    x86, such as VMware ® Workstation and Virtual PC, have instead used binary
+    translation of the guest kernel code.  However, both Intel and AMD have now
+    introduced architectural extensions to support classical virtualization.We
+    compare an existing software VMM with a new VMM designed for the emerging
+    hardware support.  Surprisingly, the hardware VMM often suffers lower
+    performance than the pure software VMM.  To determine why, we study
+    architecture-level events such as page table updates, context switches and
+    I/O, and find their costs vastly different among native, software VMM and
+    hardware VMM execution.We find that the hardware support fails to provide
+    an unambiguous performance advantage for two primary reasons: first, it
+    offers no support for MMU virtualization; second, it fails to co-exist with
+    existing software techniques for MMU virtualization.  We look ahead to
+    emerging techniques for addressing this MMU virtualization problem in the
+    context of hardware-assisted virtualization.", 
+  location     = "https://doi.org/10.1145/1168857.1168860"
+}
+
+@Article{lafjps,
+  author       = "Chris Hawblitzel and Thorsten {von Eicken}",
+  title        = "Luna: a Flexible {Java} Protection System",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "391--403",
+  month        = "Winter",
+  keywords     = "type systems, distributed shared storage, remote pointers,
+    pointer revocation",
+  abstract     = "Extensible Java systems face a difficult trade-off between
+    sharing and protection.  On one hand, Java's ability to run different
+    protection domains in a single virtual machine enables domains to share
+    data easily and communicate without address space switches.  On the other
+    hand, unrestricted sharing blurs the boundaries between protection domains,
+    making it difficult to terminate domains and enforce restrictions on
+    resource usage.  Existing solutions to these problems restrict sharing in
+    an ad-hoc fashion, ruling out many desirable programming styles.This paper
+    presents an extension to Java's type system that systematically addresses
+    the issues of data sharing, revocation, thread control, and resource
+    control.  Multiple tasks running in a single virtual machines share data
+    using special remote pointers, which have different types from local
+    pointers.  The distinction between local and remote pointers allows the
+    Java runtime system to mediate the communication between tasks without
+    slowing down operations on ordinary pointers.  The extensions to Java are
+    implemented by a system called Luna, based on the Guavac and Marmot
+    compilers, extended with special optimizations to support both fast
+    inter-task communication and dynamic access control.  The paper describes
+    two applications written in Luna: a simple extensible web server, and an
+    extension of the Squid web cache to support dynamic content generation.", 
+  location     = "https://dl.acm.org/doi/abs/10.1145/844128.844164"
+}
+
+@Article{otmovc,
+  author       = "Constantine~P. Sapuntzakis and Ramesh Chandra and Ben Pfaff and Jim Chow and Monica~S. Lam and Mendel Rosenblum",
+  title        = "Optimizing the migration of virtual computers",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = SI,
+  pages        = "377--390",
+  month        = Winter,
+  keywords     = "process migration, state transfer, virtual machines, capsule",
+  abstract     = "This paper shows how to quickly move the state of a running
+    computer across a network, including the state in its disks, memory, CPU
+    registers, and I/O devices.  We call this state a capsule.  Capsule state
+    is hardware state, so it includes the entire operating system as well as
+    applications and running processes.We have chosen to move x86 computer
+    states because x86 computers are common, cheap, run the software we use,
+    and have tools for migration.  Unfortunately, x86 capsules can be large,
+    containing hundreds of megabytes of memory and gigabytes of disk data.  We
+    have developed techniques to reduce the amount of data sent over the
+    network: copy-on-write disks track just the updates to capsule disks,
+    'ballooning' zeros unused memory, demand paging fetches only needed blocks,
+    and hashing avoids sending blocks that already exist at the remote end.  We
+    demonstrate these optimizations in a prototype system that uses VMware GSX
+    Server virtual, machine monitor to create and run x86 capsules.  The system
+    targets networks as slow as 384 kbps.Our experimental results suggest that
+    efficient capsule migration can improve user mobility and system
+    management.  Software updates or installations on a set of machines can be
+    accomplished simply by distributing a capsule with the new changes.
+    Assuming the presence of a prior capsule, the amount of traffic incurred is
+    commensurate with the size of the update or installation package itself.
+    Capsule migration makes it possible for machines to start running an
+    application within 20 minutes on a 384 kbps link, without having to first
+    install the application or even the underlying operating system.
+    Furthermore, users' capsules can be migrated during a commute between home
+    and work in even less time.", 
+  location     = "https://doi.org/10.1145/844128.844163", 
+  location     = "https://benpfaff.org/papers/migration.pdf"
+}
+
+@Article{tdaiozasfmce,
+  author       = "Steven Osman and Dinesh Subhraveti and Gong Su and Jason Nieh",
+  title        = "The design and implementation of {Zap}: a system for migrating computing environments",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = SI,
+  pages        = "361--376",
+  month        = Winter,
+  keywords     = "process migration, portability, system management, pods,
+    virtualization",
+  abstract     = "We have created Zap, a novel system for transparent migration
+    of legacy and networked applications.  Zap provides a thin virtualization
+    layer on top of the operating system that introduces pods, which are groups
+    of processes that are provided a consistent, virtualized view of the
+    system.  This decouples processes in pods from dependencies to the host
+    operating system and other processes on the system.  By integrating Zap
+    virtualization with a checkpoint-restart mechanism, Zap can migrate a pod
+    of processes as a unit among machines running independent operating systems
+    without leaving behind any residual state after migration.  We have
+    implemented a Zap prototype in Linux that supports transparent migration of
+    unmodified applications without any kernel modifications.  We demonstrate
+    that our Linux Zap prototype can provide general-purpose process migration
+    functionality with low overhead.  Our experimental results for migrating
+    pods used for running a standard user's X windows desktop computing
+    environment and for running an Apache web server show that these kinds of
+    pods can be migrated with subsecond checkpoint and restart latencies.", 
+  location     = "https://doi.org/10.1145/844128.844162", 
+  location     = "https://www.cs.cmu.edu/~sosman/publications/osdi2002/osdi2002_zap.pdf"
+}
+
+@Article{teorrocr,
+  author       = "Limin Wang and Vivek Pai and Larry Peterson",
+  title        = "The effectiveness of request redirection on {CDN} robustness",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = SI,
+  pages        = "345--360",
+  month        = Winter,
+  keywords     = "content distribution, load balancing, replication, caching,
+    address hashing, locality, distribution networks",
+  abstract     = "It is becoming increasingly common to construct network
+    services using redundant resources geographically distributed across the
+    Internet.  Content Distribution Networks are a prime example.  Such systems
+    distribute client requests to an appropriate server based on a variety of
+    factors---e.g., server load, network proximity, cache locality--in an
+    effort to reduce response time and increase the system capacity under load.
+    This paper explores the design space of strategies employed to redirect
+    requests, and defines a class of new algorithms that carefully balance
+    load, locality, and proximity.  We use large-scale detailed simulations to
+    evaluate the various strategies.  These simulations clearly demonstrate the
+    effectiveness of our new algorithms, which yield a 60--91% improvement in
+    system capacity when compared with the best published CDN technology, yet
+    user-perceived response latency remains low and the system scales well with
+    the number of servers.", 
+  location     = "https://doi.org/10.1145/844128.844160"
 }
 
 @TechReport{oem2fblis,
