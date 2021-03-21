@@ -3,7 +3,7 @@
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
-@string{osdi02    = osr # " (" # pot # "Fifth" # osdi # ")"}
+@string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
 
 @Book{tsbotw,
@@ -2762,9 +2762,9 @@
   journal      = osdi02,
   year         = 2002,
   volume       = 36,
-  number       = SI,
+  number       = "SI",
   pages        = "377--390",
-  month        = Winter,
+  month        = "Winter",
   keywords     = "process migration, state transfer, virtual machines, capsule",
   abstract     = "This paper shows how to quickly move the state of a running
     computer across a network, including the state in its disks, memory, CPU
@@ -2801,9 +2801,9 @@
   journal      = osdi02,
   year         = 2002,
   volume       = 36,
-  number       = SI,
+  number       = "SI",
   pages        = "361--376",
-  month        = Winter,
+  month        = "Winter",
   keywords     = "process migration, portability, system management, pods,
     virtualization",
   abstract     = "We have created Zap, a novel system for transparent migration
@@ -2832,9 +2832,9 @@
   journal      = osdi02,
   year         = 2002,
   volume       = 36,
-  number       = SI,
+  number       = "SI",
   pages        = "345--360",
-  month        = Winter,
+  month        = "Winter",
   keywords     = "content distribution, load balancing, replication, caching,
     address hashing, locality, distribution networks",
   abstract     = "It is becoming increasingly common to construct network
@@ -2852,6 +2852,220 @@
     user-perceived response latency remains low and the system scales well with
     the number of servers.", 
   location     = "https://doi.org/10.1145/844128.844160"
+}
+
+@Article{tnamfbt,
+  author       = "Arun Venkataramani and Ravi Kokku and Mike Dahlinabs",
+  title        = "{TCP} Nice: a mechanism for background transfers",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "329--343",
+  month        = "Winter",
+  keywords     = "tcp, background transfers",
+  abstract     = "Many distributed applications can make use of large
+    background transfers--transfers of data that humans are not waiting for--to
+    improve availability, reliability, latency or consistency.  However, given
+    the rapid fluctuations of available network bandwidth and changing resource
+    costs due to technology trends, hand tuning the aggressiveness of
+    background transfers risks (1) complicating applications, (2) being too
+    aggressive and interfering with other applications, and (3) being too timid
+    and not gaining the benefits of background transfers.  Our goal is for the
+    operating system to manage network resources in order to provide a simple
+    abstraction of near zero-cost background transfers.  Our system, TCP Nice,
+    can provably bound the interference inflicted by background flows on
+    foreground flows in a restricted network model.  And our microbenchmarks
+    and case study applications suggest that in practice it interferes little
+    with foreground flows, reaps a large fraction of spare network bandwidth,
+    and simplifies application construction and deployment.  For example, in
+    our prefetching case study application, aggressive prefetching improves
+    demand performance by a factor of three when Nice manages resources; but
+    the same prefetching hurts demand performance by a factor of six under
+    standard network congestion control.", 
+  location     = "https://doi.org/10.1145/844128.844159", 
+  location     = "http://www.cs.umass.edu/~arun/papers/tcp-nice-osdi.pdf"
+}
+
+@Article{aaoicds,
+  author       = "Stefan Saroiu and Krishna~P. Gummadi and Richard~J. Dunn and Steven~D. Gribble and Henry~M. Levy",
+  title        = "An analysis of Internet content delivery systems",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "315--327",
+  month        = "Winter",
+  keywords     = "content delivery systems, peer-to-peer systems, traffic
+    analysis, caching, scalability",
+  abstract     = "In the span of only a few years, the Internet has experienced
+    an astronomical increase in the use of specialized content delivery
+    systems, such as content delivery networks and peer-to-peer file sharing
+    systems.  Therefore, an understanding of content delivery on the lnternet
+    now requires a detailed understanding of how these systems are used in
+    practice.This paper examines content delivery from the point of view of
+    four content delivery systems: HTTP web traffic, the Akamai content
+    delivery network, and Kazaa and Gnutella peer-to-peer file sharing traffic.
+    We collected a trace of all incoming and outgoing network traffic at the
+    University of Washington, a large university with over 60,000 students,
+    faculty, and staff.  From this trace, we isolated and characterized traffic
+    belonging to each of these four delivery classes.  Our results (1)
+    quantify, the rapidly increasing importance of new content delivery
+    systems, particularly peer-to-peer networks, (2) characterize the behavior
+    of these systems from the perspectives of clients, objects, and servers,
+    and (3) derive implications for caching in these systems.", 
+  location     = "https://doi.org/10.1145/844128.844158", 
+  location     = "https://www.gribble.org/papers/p2p_osdi.pdf"
+}
+
+@Article{srfsptpon,
+  author       = "Miguel Castro and Peter Druschel and Ayalvadi Ganesh and Antony Rowstron and Dan~S. Wallach",
+  title        = "Secure routing for structured peer-to-peer overlay networks",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "299--314",
+  month        = "Winter",
+  keywords     = "overlay routing, pastry, sybil attacks, neighborhood
+    management, secure routing",
+  abstract     = "Structured peer-to-peer overlay networks provide a substrate
+    for the construction of large-scale, decentralized applications, including
+    distributed storage, group communication, and content distribution.  These
+    overlays are highly resilient; they can route messages correctly even when
+    a large fraction of the nodes crash or the network partitions.  But current
+    overlays are not secure; even a small fraction of malicious nodes can
+    prevent correct message delivery throughout the overlay.  This problem is
+    particularly serious in open peer-to-peer systems, where many diverse,
+    autonomous parties without preexisting trust relationships wish to pool
+    their resources.  This paper studies attacks aimed at preventing correct
+    message delivery in structured peer-to-peer overlays and presents defenses
+    to these attacks.  We describe and evaluate techniques that allow nodes to
+    join the overlay, to maintain routing state, and to forward messages
+    securely in the presence of malicious nodes.", 
+  location     = "https://doi.org/10.1145/844128.844156", 
+  location     = "https://www.cs.rice.edu/~dwallach/pub/osdi2002.pdf"
+}
+
+@Article{pmbcae,
+  author       = "Landon~P. Cox and Christopher~D. Murray and Brian~D. Noble",
+  title        = "Pastiche: making backup cheap and easy",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "285--298",
+  month        = "Winter",
+  keywords     = "backup, peer-to-peer systems, content-based indexing,
+    fingerprinting, compression",
+  abstract     = "Backup is cumbersome and expensive.  Individual users almost
+    never back up their data, and backup is a significant cost in large
+    organizations.  This paper presents Pastiche, a simple and inexpensive
+    backup system.  Pastiche exploits excess disk capacity to perform
+    peer-to-peer backup with no administrative costs.  Each node minimizes
+    storage overhead by selecting peers that share a significant amount of
+    data.  It is easy for common installations to find suitable peers, and
+    peers with high overlap can be identified with only hundreds of bytes.
+    Pastiche provides mechanisms for confidentiality, integrity, and detection
+    of failed or malicious peers.  A Pastiche prototype suffers only 7.4%
+    overhead for a modified Andrew Benchmark, and restore performance is
+    comparable to cross-machine copy.", 
+  location     = "https://doi.org/10.1145/844128.844155", 
+  location     = "http://www.cs.fsu.edu/~awang/courses/cop5611_s2009/pastiche.pdf"
+}
+
+@Article{saaialsne,
+  author       = "Amin Vahdat and Ken Yocum and Kevin Walsh and Priya Mahadevan and Dejan Kostić and Jeff Chase and David Becker",
+  title        = "Scalability and accuracy in a large-scale network emulator",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "271--284",
+  month        = "Winter",
+  keywords     = "network emulation, scalability, virtual networking",
+  abstract     = "This paper presents ModelNet, a scalable Internet emulation
+    environment that enables researchers to deploy unmodified software
+    prototypes in a configurable Internet-like environment and subject them to
+    faults and varying network conditions.  Edge nodes running user-specified
+    OS and application software are configured to route their packets through a
+    set of ModelNet core nodes, which cooperate to subject the traffic to the
+    bandwidth, congestion constraints, latency, and loss profile of a target
+    network topology.This paper describes and evaluates the ModelNet
+    architecture and its implementation, including novel techniques to balance
+    emulation accuracy against scalability.  The current ModelNet prototype is
+    able to accurately subject thousands of instances of a distrbuted
+    application to Internet-like conditions with gigabits of bisection
+    bandwidth.  Experiments with several large-scale distributed services
+    demonstrate the generality and effectiveness of the infrastructure.", 
+  location     = "https://doi.org/10.1145/844128.844154", 
+  location     = "https://mathcs.holycross.edu/~kwalsh/papers/modelnet.pdf"
+}
+
+@Article{aieefdsan,
+  author       = "Brian White and Jay Lepreau and Leigh Stoller and Robert Ricci and Shashi Guruprasad and Mac Newbold and Mike Hibler and Chad Barb and Abhijeet Joglekar",
+  title        = "An integrated experimental environment for distributed systems and networks",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "255--270",
+  month        = "Winter",
+  keywords     = "network emulation, network simulation, network testbeds",
+  abstract     = "Three experimental environments traditionally support network
+    and distributed systems research: network emulators, network simulators,
+    and live networks.  The continued use of multiple approaches highlights
+    both the value and inadequacy of each.  Netbed, a descendant of Emulab,
+    provides an experimentation facility that integrates these approaches,
+    allowing researchers to configure and access networks composed of emulated,
+    simulated, and wide-area nodes and links.  Netbed's primary goals are ease
+    of use, control, and realism, achieved through consistent use of
+    virtualization and abstraction.By providing operating system-like services,
+    such as resource allocation and scheduling, and by virtualizing
+    heterogeneous resources, Netbed acts as a virtual machine for network
+    experimentation.  This paper presents Netbed's overall design and
+    implementation and demonstrates its ability to improve experimental
+    automation and efficiency.  These, in turn, lead to new methods of
+    experimentation, including automated parameter-space studies within
+    emulation and straightforward comparisons of simulated, emulated, and
+    wide-area scenarios.", 
+  location     = "https://doi.org/10.1145/844128.844152", 
+  location     = "https://www.flux.utah.edu/download?uid=122"
+}
+
+@Article{roaapishp,
+  author       = "Bhuvan Urgaonkar and Prashant Shenoy and Timothy Roscoe",
+  title        = "Resource overbooking and application profiling in shared hosting platforms",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "239--254",
+  month        = "Winter",
+  keywords     = "qos management, yield management, cluster management, node
+    assignment, resource demand modeling",
+  abstract     = "In this paper, we present techniques for provisioning CPU and
+    network resources in shared hosting platforms running potentially
+    antagonistic third-party applications.  The primary contribution of our
+    work is to demonstrate the feasibility and benefits of overbooking
+    resources in shared platforms, to maximize the platform yield: the revenue
+    generated by the available resources.  We do this by first deriving an
+    accurate estimate of application resource needs by profiling applications
+    on dedicated nodes, and then using these profiles to guide the placement of
+    application components onto shared nodes.  By overbooking cluster resources
+    in a controlled fashion, our platform can provide performance guarantees to
+    applications even when overbooked, and combine these techniques with
+    commonly used QoS resource allocation mechanisms to provide application
+    isolation and performance guarantees at run-time.  When compared to
+    provisioning based on the worst-case, the efficiency (and consequently
+    revenue) benefits from controlled overbooking of resources can be dramatic.
+    Specifically, experiments on our Linux cluster implementation indicate that
+    overbooking resources by as little as 1% can increase the utilization of
+    the cluster by a factor of two, and a 5% overbooking yields a 300--500%
+    improvement, while still providing useful resource guarantees to
+    applications.", 
+  location     = "https://doi.org/10.1145/844128.844151", 
+  location     = "https://people.inf.ethz.ch/troscoe/pubs/OSDI2002.pdf"
 }
 
 @TechReport{oem2fblis,
