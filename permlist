@@ -65,7 +65,6 @@ a distributed alternative to finite state machine specifications : zave
 a distributed object model for the java system : wollrath
 a distributed single address space operating system supporting persistence : heiser
 a distributed specification model and its prototyping : wang
-a distributed system : rushby
 a domain specific language for video device drivers from design to implementation : thibault
 a dual ui constraint equation solver in c++ : medwin
 a fast division technique for constant divisors : artzy
@@ -186,7 +185,6 @@ a programmer oriented approach to safe concurrency : greenhouse
 a programmers introduction to predicate logic : cunningham
 a programming and problem solving seminar : haddad
 a programming and problem solving seminar : mayr
-a programming language perspective to compositional software architectures : sabry
 a proof technique for communicating sequential processes : levin
 a quantitative comparison of architectures for atm switching systems : witte
 a readable tcp in the prolac protocol language : kohler
@@ -259,7 +257,6 @@ a taste of category theory for computer scientists : pierce
 a taxonomy and survey of sctp research : budzisz
 a taxonomy of computer program security flaws with examples : landwehr
 a taxonomy of datatypes : meek
-a taxonomy of program visualization systems : roman
 a taxonomy of race conditions : helmbold
 a taxonomy of race detection algorithms : hembold
 a theory of programming modifications : ramalingam
@@ -1029,7 +1026,6 @@ event reconstruction in high energy physics : rinaldo
 everything you always wanted to know about synchronization but were afraid to ask : david
 evolving mach 3.0 to a migrating thread model : ford
 evolving rpc for active storage : sivathanu
-evolving the vnode interface : rosenthal
 evolution of data base management systems : fry
 evolution of test and code via test first design : langr
 evolution of the u code compiler intermediate language at hewlett packard : chan
@@ -1208,7 +1204,6 @@ gibis a hypertext tool for exploratory policy discussion : conklin
 gj extending the java programming language with type parameters : bracha
 glimpse a tool to search through entire file systems : manber
 glimpse documentation : glimpse
-gnu mix development kit mdk : ruiz
 gnu smalltalk users guide : gnu
 go to statement considered harmful : dijkstra
 goal directed reasoning for specification based data structure repair : demsky
@@ -1412,7 +1407,6 @@ inverting the burrows wheeler transform : bird
 investigating java concurrency using abstract state machines : gurevich
 investigating the influence of formal methods : pfleeger
 io an estelle simulator for performance evaluation : fernandez
-io considered harmful at least for the first few weeks : rosenberg
 ipp routing architecture : bolla
 irit version 6.0 user's manual : elber
 is finding security holes a good idea : rescoria
@@ -1473,7 +1467,6 @@ language processing in program editors : reps
 language support for lightweight transactions : harris
 larch frequently asked questions : leavens
 latency lags bandwidth : patterson
-lattice based access control models : sandhu
 laws of occam programming : roscoe
 lazy and incremental program generation : heering
 lazy depth first search and linear graph algorithms in haskell : king
@@ -1503,7 +1496,6 @@ linear logic and computation a survey : scedrov
 linear logic and permutation stacks the forth shall be first : baker
 linear scan register allocation : poletto
 linear types can change the world : wadler
-linkage analysis of processes : yaung
 linkage in the nemesis single address space operating system : roscoe
 linux : winer
 linux device driver emulation in mach : goel
@@ -1710,7 +1702,6 @@ on embedding a microarchitectural design langauge within haskell : launchbury
 on extending modula 2 for building large integrated systems : rovner
 on holy wars and a plea for peace : cohen
 on kilburys modification of earleys algorithm : leiss
-on line monitoring a tutorial : schroeder
 on metaphore and the difficulty of computer discorse : johnson
 on micro kernel construction : liedtke
 on programming by iterations : turski
@@ -2064,7 +2055,6 @@ rex xml shallow parsing with regular expressions : cameron
 rie a comipler generator based on a one pass type attribute grammar : sassa
 right triangulated irregular networks : evans
 rigor and proof in mathematics a historical perspective : kleiner
-role based access control models : sandhu
 rolling your own input iterators : van horn
 rss tutorial : nottingham
 rtl modeling in c++ : zhao
@@ -2278,7 +2268,6 @@ strengthening passwords : abadi
 stress testing of compilers for modula 2 : pronk
 strong inference : platt
 strongtalk typechecking smalltalk in a production environment : bracha
-structure the use notes on a method for designing computing system environments : schorer
 structured interrupts : hills
 structured programming : jensen
 structured programming in java : gibbons
@@ -2452,7 +2441,6 @@ the electra approach to object oriented distributed programming an overview : ma
 the elements of single chip microcomputer architecture : cragon
 the elusive software refinery : wood
 the emperors old clothes : hoare
-the ephemeral history register flexible scheduling for rule based designs : rosenband
 the essence of algol : reynolds
 the essence of functional programming : wadler
 the essence of strategic programming : lammel
