@@ -160,6 +160,28 @@
   location     = "PS 3543.I26 D44"
 }
 
+@Book{tdossf,
+  author       = "Shulamith Firestone",
+  title        = "The Dialectic of Sex",
+  subtitle     = "The Case for Feminist Revolution",
+  publisher    = "Morrow",
+  year         = 1970,
+  address      = nyny,
+  keywords     = "feminism, family, children, sex class, the patriarchy, culture",
+  location     = "HQ 1190.F57"
+}
+
+@Book{lmma18,
+  title        = "Lost Mars",
+  subtitle     = "Stories From the Golden Age of the Red Planet",
+  publisher    = ucp,
+  year         = 2018,
+  editor       = "Mike Ashley",
+  address      = chil,
+  keywords     = "the red planet, science fiction, short stories",
+  location     = "PN 3433.6.L68"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -3068,6 +3090,256 @@
   location     = "https://people.inf.ethz.ch/troscoe/pubs/OSDI2002.pdf"
 }
 
+@Article{adotcs,
+  author       = "Edsger Dijkstra",
+  title        = "{A} Debate on Teaching Computer Science (On the Cruelty of Really Teaching Computer Science)",
+  journal      = cacm,
+  year         = 1989,
+  volume       = 32,
+  number       = 12,
+  pages        = "1397--1414",
+  month        = dec,
+  keywords     = "teaching, reasoning, computer science",
+  abstract     = "At the ACM Computer Science Conference last February, Edsger
+    Dijkstra gave an invited talk A called “On the Cruelty of Really Teaching
+    Computing Science.” He challenged some of the basic assumptions on which
+    our curricula are based and provoked a lot of discussion. The editors of
+    Communications received several recommendations to publish his talk in
+    these pages. His comments brought into the foreground some of the
+    background of controversy that surrounds the issue of what belongs in the
+    core of a computer science curriculum. To give full airing to the
+    controversy, we invited Dijkstra to engage in a debate with selected
+    colleagues, each of whom would contribute a short critique of his position,
+    with Dijkstra himself making a closing statement. He graciously accepted
+    this offer. We invited people from a variety of specialties, backgrounds,
+    and interpretations to provide their comments. David Parnas is a noted
+    software engineer who was outspoken in his criticism of the proposed
+    Strategic Defense Initiative. William Scherlis is known for his articulate
+    advocacy of formal methods in computer science. M. H. van Emden is known
+    for his contributions in programming languages and philosophical insights
+    into science. Jacques Cohen is known for his work with programming
+    languages and logic programming and is a member of the Editorial Panel of
+    this magazine. Richard Hamming received the Turing Award in 1968 and is
+    well known for his work in communications and coding theory. Richard
+    M. Karp received the Turing Award in 1985 and is known for his
+    contributions in the design of algorithms. Terry Winograd is well known for
+    his early work in artificial intelligence and recent work in the principles
+    of design. I am grateful to these people for participating in this debate
+    and to Professor Dijkstra for creating the opening." 
+}
+
+@Article{irmfcbis,
+  author       = "Kai Shen and Hong Tang and Tao Yang and Lingkun Chu",
+  title        = "Integrated resource management for cluster-based Internet services",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "225--238",
+  month        = "Winter",
+  keywords     = "resource allocation, quality of service, service
+    differentiation, yield management, service scheduling",
+  abstract     = "Client request rates for Internet services tend to be bursty
+    and thus it is important to maintain efficient resource utilization under a
+    wide range of load conditions. Network service clients typically seek
+    services interactively and maintaining reasonable response time is often
+    imperative for such services. In addition, providing differentiated service
+    qualities and resource allocation to multiple service classes can also be
+    desirable at times. This paper presents an integrated resource management
+    framework (part of Neptune system) that provides flexible service quality
+    specification, efficient resource utilization, and service differentiation
+    for cluster-based services. This framework introduces the metric of
+    quality-aware service yield to combine the overall system efficiency and
+    individual service response time in one flexible model. Resources are
+    managed through a two-level request distribution and scheduling scheme. At
+    the cluster level, a fully decentralized request distribution architecture
+    is employed to achieve high scalability and availability. Inside each
+    service node, an adaptive scheduling policy maintains efficient resource
+    utilization under a wide range of load conditions. Our trace-driven
+    evaluations demonstrate the performance, scalability, and service
+    differentiation achieved by the proposed techniques.", 
+  location     = "https://doi.org/10.1145/844128.844150", 
+  location     = "https://www.cs.rochester.edu/u/kshen/papers/osdi2002_html/osdi02.html"
+}
+
+@Article{reiatvmlar,
+  author       = "George~W. Dunlap and Samuel~T. King and Sukru Cinar and Murtaza~A. Basrai and Peter~M. Chen",
+  title        = "{ReVirt}: enabling intrusion analysis through virtual-machine logging and replay",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "211--224",
+  month        = "Winter",
+  keywords     = "virtual machines, linux, trusted computing base, logging,
+    replay, compression, attack analysis",
+  abstract     = "Current system loggers have two problems: they depend on the
+    integrity of the operating system being logged, and they do not save
+    sufficient information to replay and analyze attacks that include any
+    non-deterministic events. ReVirt removes the dependency on the target
+    operating system by moving it into a virtual machine and logging below the
+    virtual machine. This allows ReVirt to replay the system's execution
+    before, during, and after an intruder compromises the system, even if the
+    intruder replaces the target operating system. ReVirt logs enough
+    information to replay a long-term execution of the virtual machine
+    instruction-by-instruction. This enables it to provide arbitrarily detailed
+    observations about what transpired on the system, even in the presence of
+    non-deterministic attacks and executions. ReVirt adds reasonable time and
+    space overhead. Overheads due to virtualization are imperceptible for
+    interactive use and CPU-bound workloads, and 13--58% for kernel-intensive
+    workloads. Logging adds 0--8% overhead, and logging traffic for our
+    workloads can be stored on a single disk for several months.", 
+  location     = "https://doi.org/10.1145/844128.844148", 
+  location     = "https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf"
+}
+
+@Article{sapitdik,
+  author       = "Andrew Whitaker and Marianne Shaw and Steven~D. Gribble",
+  title        = "Scale and performance in the {Denali} isolation kernel",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "195--209",
+  month        = "Winter",
+  keywords     = "isolation kernels, exokernels, abstraction levels, interrupt
+    architectures",
+  abstract     = "This paper describes the Denali isolation kernel, an
+    operating system architecture that safely multiplexes a large number of
+    untrusted Internet services on shared hardware. Denali's goal is to allow
+    new Internet services to be 'pushed' into third party infrastructure,
+    relieving Internet service authors from the burden of acquiring and
+    maintaining physical infrastructure. Our isolation kernel exposes a virtual
+    machine abstraction, but unlike conventional virtual machine monitors,
+    Denali does not attempt to emulate the underlying physical architecture
+    precisely, and instead modifies the virtual architecture to gain scale,
+    performance, and simplicity of implementation. In this paper, we first
+    discuss design principles of isolation kernels, and then we describe the
+    design and implementation of Denali. Following this, we present a detailed
+    evaluation of Denali, demonstrating that the overhead of virtualization is
+    small, that our architectural choices are warranted, and that we can
+    successfully scale to more than 10,000 virtual machines on commodity
+    hardware.", 
+  location     = "https://doi.org/10.1145/844128.844147", 
+  location     = "https://www.usenix.org/conference/osdi-02/scale-and-performance-denali-isolation-kernel"
+}
+
+@Article{mrmives,
+  author       = "Carl~A. Waldspurger",
+  title        = "Memory resource management in {VMware ESX} server",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "181--194",
+  month        = "Winter",
+  keywords     = "memory virtualization, resource reclamation, page
+    replacement, ballooning, storage sharing, working sets",
+  abstract     = "VMware ESX Server is a thin software layer designed to
+    multiplex hardware resources efficiently among virtual machines running
+    unmodified commodity operating systems. This paper introduces several novel
+    ESX Server mechanisms and policies for managing memory. A ballooning
+    technique reclaims the pages considered least valuable by the operating
+    system running in a virtual machine. An idle memory tax achieves efficient
+    memory utilization while maintaining performance isolation
+    guarantees. Content-based page sharing and hot I/O page remapping exploit
+    transparent page remapping to eliminate redundancy and reduce copying
+    overheads. These techniques are combined to efficiently support virtual
+    machine workloads that overcommit memory.", 
+  location     = "https://doi.org/10.1145/844128.844146", 
+  location     = "https://www.vmware.com/pdf/usenix_resource_mgmt.pdf"
+}
+
+@Article{stsaoaco,
+  author       = "Ashvin Goel and Luca Abeni and Charles Krasic and Jim Snow and Jonathan Walpole",
+  title        = "Supporting time-sensitive applications on a commodity {OS}",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "165--180",
+  month        = "Winter",
+  keywords     = "timer management, kernel interrupt architecture, process
+    scheduling, real-time systems",
+  abstract     = "Commodity operating systems are increasingly being used for
+    serving time-sensitive applications. These applications require low-latency
+    response from the kernel and from other system-level services. In this
+    paper, we explore various operating systems techniques needed to support
+    time-sensitive applications and describe the design of our Time-Sensitive
+    Linux (TSL) system. We show that the combination of a high-precision timing
+    facility, a well-designed preemptible kernel and the use of appropriate
+    scheduling techniques is the basis for a low-latency response system and
+    such a system can have low overhead. We evaluate the behavior of realistic
+    time-sensitive user- and kernel-level applications on our system and show
+    that, in practice, it is possible to satisfy the constraints of
+    time-sensitive applications in a commodity operating system without
+    significantly compromising the performance of throughput-oriented
+    applications.", 
+  location     = "https://doi.org/10.1145/844128.844144", 
+  location     = "https://www.eecg.utoronto.ca/~ashvin/publications/osdi2002.pdf"
+}
+
+@Article{fgntsurb,
+  author       = "Jeremy Elson and Lewis Girod and Deborah Estrin",
+  title        = "Fine-grained network time synchronization using reference broadcasts",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "147--163",
+  month        = "Winter",
+  keywords     = "time synchronization, broadcast synchronization, relative
+    synchronization, clock skew",
+  abstract     = "Recent advances in miniaturization and low-cost, low-power
+    design have led to active research in large-scale networks of small,
+    wireless, low-power sensors and actuators. Time synchronization is critical
+    in sensor networks for diverse purposes including sensor data fusion,
+    coordinated actuation, and power-efficient duty cycling. Though the clock
+    accuracy and precision requirements are often stricter than in traditional
+    distributed systems, strict energy constraints limit the resources
+    available to meet these goals.We present Reference-Broadcast
+    Synchronization, a scheme in which nodes send reference beacons to their
+    neighbors using physical-layer broadcasts. A reference broadcast does not
+    contain an explicit timestamp; instead, receivers use its arrival time as a
+    point of reference for comparing their clocks. In this paper, we use
+    measurements from two wireless implementations to show that removing the
+    sender's nondeterminism from the critical path in this way produces
+    high-precision clock agreement (1.85 ± 1.28μsec, using off-the-shelf 802.11
+    wireless Ethernet), while using minimal energy. We also describe a novel
+    algorithm that uses this same broadcast property to federate clocks across
+    broadcast domains with a slow decay in precision (3.68 ± 2.57μsec after 4
+    hops). RBS can be used without external references, forming a precise
+    relative timescale, or can maintain microsecond-level synchronization to an
+    external timescale such as UTC. We show a significant improvement over the
+    Network Time Protocol (NTP) under similar conditions.", 
+  location     = "https://doi.org/10.1145/844128.844143", 
+  location     = "https://www.cs.ubc.ca/~krasic/cpsc538a/papers/broadcast-osdi.pdf"
+}
+
+@Article{tatasfahsn,
+  author       = "Samuel Madden and Michael~J. Franklin and Joseph~M. Hellerstein and Wei Hong",
+  title        = "{TAG}: a Tiny AGgregation service for ad-hoc sensor networks",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "131--146",
+  month        = "Winter",
+  keywords     = "distributed aggregation, sensor networks, query languages,
+    grouping",
+  abstract     = "We present the Tiny AGgregation (TAG) service for aggregation
+    in low-power, distributed, wireless environments. TAG allows users to
+    express simple, declarative queries and have them distributed and executed
+    efficiently in networks of low-power, wireless sensors. We discuss various
+    generic properties of aggregates, and show how those properties affect the
+    performance of our in network approach. We include a performance study
+    demonstrating the advantages of our approach over traditional centralized,
+    out-of-network methods, and discuss a variety of optimizations for
+    improving the performance and fault tolerance of the basic solution.", 
+  location     = "https://doi.org/10.1145/844128.844142", 
+  location     = "https://web.stanford.edu/class/cs240e/papers/madden_tag.pdf"
+}
+
 @TechReport{oem2fblis,
   author       = "Rovner, Paul and Levin, Roy and Wick, John",
   title        = "On Extending {Modula}-2 for Building Large, Integrated Systems",
@@ -3092,6 +3364,33 @@
   location     = "http://bitsavers.trailing-edge.com/pdf/dec/tech_reports/SRC-RR-3.pdf"
 }
 
+@InProceedings{tehrfsfrbd,
+  author       = "Daniel Rosenband",
+  title        = "The Ephemeral History Register:  Flexible Scheduling for Rule-Based Designs",
+  booktitle    = pot # "Second ACM/IEEE International Conference on Formal Methods and Models for Co-Design (MEMOCODE '04)",
+  year         = 2004,
+  pages        = "189--198",
+  publisher    = "IEEE Computer Society",
+  month        = jan,
+  keywords     = "hardware synthesis, processor pipelines, rule-based synthesis",
+  abstract     = " The quality of high-level synthesis results is strongly
+    dependant on the concurrency that can be found in designs.  In this paper
+    we introduce the ephemeral history register (EHR), a new primitive state
+    element that enables concurrent scheduling of arbitrary rules in a
+    rule-based design framework.  The key properties of the EHR are that it
+    allows multiple operations to write to the same state simultaneously, and
+    that the EHR maintains a history of all writes that occur within a
+    clock-cycle.  Using the EHR, we present an algorithm that takes as input a
+    design and a desired schedule, and produces a functionally equivalent
+    design that satisfies the desired concurrency and ordering of operations.
+    A processor pipeline is used to illustrate the effectiveness of the EHR and
+    scheduling algorithm, and shows how this approach significantly improves on
+    previous synthesis algorithms for rule-based designs.", 
+  location     = "https://doi.org/10.1109/MEMCOD.2004.1459853", 
+  location     = "http://csg.csail.mit.edu/pubs/memos/Memo-479/memo479.pdf"
+}
+		  
 % Local Variables:
 % eval: (set-register ?b "  journal      = asplos06,\n  year         = 2006,\n  volume       = 41,\n  number       = 11,\n  pages        = \"--\",\n  month        = oct,\n")
 % End:
+
