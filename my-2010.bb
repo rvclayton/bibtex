@@ -53706,38 +53706,6 @@
   location     = "http://www.ece.cmu.edu/%7Ejhoe/distribution/2000/iccad00.pdf"
 }
 
-@InProceedings{tehrfsfrbd,
-  author       = "Daniel Rosenbrand",
-  title        = "The {E}phemeral {H}istory {R}egister: Flexible Scheduling for
-		  Rule-Based Designs",
-  booktitle    = pot # "Second " # icfmmc # " (MEMOCODE 2004)",
-  year         = 2004,
-  editor       = "",
-  pages        = "",
-  OPTorganization= "",
-  publisher    = "",
-  address      = sdca,
-  month        = "22--25 " # jun,
-  keywords     = "",
-  abstract     = "The  quality  of  high-level  synthesis  results  is strongly
-		  dependant on the concurrency that can be  found in designs.
-		  In this paper we introduce the Ephemeral History Register
-		  (EHR), a new primitive  state element that enables concurrent
-		  scheduling of arbitrary rules in a rule-based design
-		  framework.  The  key properties of the EHR are that it allows
-		  multiple operations to write to the same state
-		  simultaneously,  and that the EHR maintains a history of all
-		  writes that occur within a clock-cycle.   Using the EHR, we
-		  present  an algorithm that takes as input a design and a
-		  desired schedule, and produces a functionally equivalent
-		  design that satisfies the desired concurrency and ordering of
-		  operations.  A processor pipeline is used to  illustrate the
-		  effectiveness of the EHR and scheduling algorithm, and shows
-		  how th is approach significantly  improves on previous
-		  synthesis algorithms for rule-based designs.",
-  location     = "http://csg.csail.mit.edu/pubs/memos/Memo-479/memo479.pdf"
-}
-
 @InProceedings{setochdl,
   author       = "Grace Nordin and James~C. Hoe",
   title        = "Synchronous Extensions to Operation-Centric Hardware
