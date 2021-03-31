@@ -182,6 +182,16 @@
   location     = "PN 3433.6.L68"
 }
 
+@Book{tdapr,
+  author       = "Philip Roth",
+  title        = "The Dying Animal",
+  publisher    = "Vintage International",
+  year         = 2002,
+  address      = nyny,
+  keywords     = "teaching, student-teacher relations",
+  location     = "PS 3568.O855 D95"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
