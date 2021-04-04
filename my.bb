@@ -192,6 +192,16 @@
   location     = "PS 3568.O855 D95"
 }
 
+@Book{votdjs,
+  author       = "Jeff Salyards",
+  title        = "Veil of the Deserters",
+  publisher    = "Night Shade Books",
+  year         = 2014,
+  address      = nyny,
+  keywords     = "memory witches, betrayal, a questing we will go",
+  location     = "PS 3619.A44266 V45"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -3348,6 +3358,224 @@
     improving the performance and fault tolerance of the basic solution.", 
   location     = "https://doi.org/10.1145/844128.844142", 
   location     = "https://web.stanford.edu/class/cs240e/papers/madden_tag.pdf"
+}
+
+@Article{cioaniosfeaa,
+  author       = "Andreas Weissel and Bj{\" o}rn Beutel and Frank Bellosa",
+  title        = "Cooperative {I/O}: a novel {I/O} semantics for energy-aware applications",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "117--129",
+  month        = "Winter",
+  keywords     = "low-power operations, cooperative scheduling, power scheduling",
+  abstract     = "In this paper we demonstrate the benefits of application
+    involvement in operating system power management.  We present Coop-I/O, an
+    approach to reduce the power consumption of devices while encompassing all
+    levels of the system---from the hardware and OS to a new interface for
+    cooperative I/O that can be used by energy-aware applications.  We assume
+    devices which can be set to low-power operation modes if they are not
+    accessed and where switching between modes consumes additional energy, e.g.
+    devices with rotating components or network devices consuming energy for
+    the establishment and shutdown of network connections.  In these cases
+    frequent mode switches should be avoided.With Coop-I/O, applications can
+    declare open, read and write operations as deferrable and even abortable by
+    specifying a time-out and a cancel flag.  This information enables the
+    operating system to delay and batch requests so that the number of power
+    mode switches is reduced and the device can be kept longer in a low-power
+    mode.  We have deployed our concept to the IDE hard disk driver and Ext2
+    file system of Linux and to typical real-life programs so that they make
+    use of the new cooperative I/O functions.  With energy savings of up to
+    50%, the experimental results demonstrate the benefits of the concept.  We
+    will show that Coop-I/O even outperforms the 'oracle' shutdown policy which
+    defines the lower bound in power consumption if the timing of requests can
+    not be influenced.", 
+  location     = "https://doi.org/10.1145/844128.844140", 
+  location     = "https://www.usenix.org/legacy/event/osdi02/tech/full_papers/weissel/weissel.pdf"
+}
+
+@Article{vapsfl,
+  author       = "Kriszti{\' a}n Flautner and Trevor Mudge",
+  title        = "Vertigo: automatic performance-setting for {Linux}",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "105--116",
+  month        = "Winter",
+  keywords     = "adaptive power management, performance-based scheduling,
+    monitoring",
+  abstract     = "Combining high performance with low power consumption is
+    becoming one of the primary objectives of processor designs.  Instead of
+    relying just on sleep mode for conserving power, an increasing number of
+    processors take advantage of the fact that reducing the clock frequency and
+    corresponding operating voltage of the CPU can yield quadratic decrease in
+    energy use.  However, performance reduction can only be beneficial if it is
+    done transparently, without causing the software to miss its deadlines.  In
+    this paper, we describe the implementation and performance-setting
+    algorithms used in Vertigo, our power management extensions for Linux.
+    Vertigo makes its decisions automatically, without any application-specific
+    involvement.  We describe how a hierarchy of performance-setting
+    algorithms, each specialized for different workload characteristics, can be
+    used for controlling the processor's performance.  The algorithms operate
+    independently from one another and can be dynamically configured.  As a
+    basis for comparison with conventional algorithms, we contrast measurements
+    made on a Transmeta Crusoe-based computer using its built-in LongRun power
+    manager with Vertigo running on the same system.  We show that unlike
+    conventional interval-based algorithms like LongRun, Vertigo is successful
+    at focusing in on a small range of performance levels that are sufficient
+    to meet an application's deadlines.  When playing MPEG movies, this
+    behavior translates into a 11%--35% reduction of mean performance level
+    over LongRun, without any negative impact on the framerate.  The
+    performance reduction can in turn yield significant power savings.", 
+  location     = "https://doi.org/10.1145/844128.844139", 
+  location     = "https://www.usenix.org/conference/osdi-02/vertigo-automatic-performance-setting-linux"
+}
+
+@Article{ptossfs,
+  author       = "Juan Navarro and Sitararn Iyer and Peter Druschel and Alan Cox",
+  title        = "Practical, transparent operating system support for superpages",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "89--104",
+  month        = "Winter",
+  keywords     = "tlb coverage, superpages, fragmentation, storage
+    reservations, contiguous storage",
+  abstract     = "Most general-purpose processors provide support for memory
+    pages of large sizes, called superpages.  Superpages enable each entry in
+    the translation lookaside buffer (TLB) to map a large physical memory
+    region into a virtual address space.  This dramatically increases TLB
+    coverage, reduces TLB misses, and promises performance improvements for
+    many applications.  However, supporting superpages poses several challenges
+    to the operating system, in terms of superpage allocation and promotion
+    tradeoffs, fragmentation control, etc.  We analyze these issues, and
+    propose the design of an effective superpage management system.  We
+    implement it in FreeBSD on the Alpha CPU, and evaluate it on real workloads
+    and benchmarks.  We obtain substantial performance benefits, often
+    exceeding 30%; these benefits are sustained even under stressful workload
+    scenarios.", 
+  location     = "https://doi.org/10.1145/844128.844138", 
+  location     = "https://www.usenix.org/conference/osdi-02/practical-transparent-operating-system-support-superpages"
+}
+
+@Article{capatmcrc,
+  author       = "Madanlal Musuvathi and David Y.~W. Park and Andy Chou and Dawson~R. Engler and David~L. Dill",
+  title        = "{CMC}: a pragmatic approach to model checking real code",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "75--88",
+  month        = "Winter",
+  keywords     = "model checking, abstraction, annotations, model building,
+    derivable models, aodv",
+  abstract     = "Many system errors do not emerge unless some intricate
+    sequence of events occurs.  In practice, this means that most systems have
+    errors that only trigger after days or weeks of execution.  Model checking
+    [4] is an effective way to find such subtle errors.  It takes a simplified
+    description of the code and exhaustively tests it on all inputs, using
+    techniques to explore vast state spaces efficiently.  Unfortunately, while
+    model checking systems code would be wonderful, it is almost never done in
+    practice: building models is just too hard.  It can take significantly more
+    time to write a model than it did to write the code.  Furthermore, by
+    checking an abstraction of the code rather than the code itself, it is easy
+    to miss errors.The paper's first contribution is a new model checker, CMC,
+    which checks C and C++ implementations directly, eliminating the need for a
+    separate abstract description of the system behavior.  This has two major
+    advantages: it reduces the effort to use model checking, and it reduces
+    missed errors as well as time-wasting false error reports resulting from
+    inconsistencies between the abstract description and the actual
+    implementation.  In addition, changes in the implementation can be checked
+    immediately without updating a high-level description.The paper's second
+    contribution is demonstrating that CMC works well on real code by applying
+    it to three implementations of the Ad-hoc On-demand Distance Vector (AODV)
+    networking protocol [7].  We found 34 distinct errors (roughly one bug per
+    328 lines of code), including a bug in the AODV specification itself.
+    Given our experience building systems, it appears that the approach will
+    work well in other contexts, and especially well for other networking
+    protocols.", 
+  location     = "https://doi.org/10.1145/844128.844136",
+  location     = "https://web.stanford.edu/~engler/osdi2002.ps"
+}
+
+@Article{umctddf,
+  author       = "Sanjeev Kumar and Kai Li",
+  title        = "Using model checking to debug device firmware",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "61--74",
+  month        = "Winter",
+  keywords     = "domain specific languages, esp, device drivers, state-machine
+    programming, spin, derived models",
+  abstract     = "Device firmware is a piece of concurrent software that achieves high performance at the cost of software complexity.  They contain subtle race conditions that make them difficult to debug using traditional debugging techniques.  The problem is further compounded by the lack of debugging support on the devices.  This is a serious problem because the device firmware is trusted by the operating system.Model checkers are designed to systematically verify properties of concurrent systems.  Therefore, model checking is a promising approach to debugging device firmware.  However, model checking involves an exponential search.  Consequently, the models have to be small to allow effective model checking.This paper describes the abstraction techniques used by the ESP compiler to extract abstract models from device firmware written in ESP.  The abstract models are small because they discard some of the details in the firmware that is irrelevant to the particular property being verified.  The programmer is required to specify the abstractions to be performed.  The ESP compiler uses the abstraction specification to extract models conservatively.  Therefore, every bug in the original program will be present in the extracted model.This paper also presents our experience with using Spin model checker to develop and debug VMMC firmware for the Myrinet network interfaces.  An earlier version of the ESP compiler yielded models that were too large to check for system-wide properties like absence of deadlocks.  The new version of the compiler generated abstract models that were used to identify several subtle bugs in the firmware.  So far, we have not encountered any bugs that were not caught by Spin.",
+  location     = "https://doi.org/10.1145/844128.844135",
+  location     = "https://www.usenix.org/conference/osdi-02/using-model-checking-debug-device-firmware"
+}
+
+@Article{dpuaattbdrs2002,
+  author       = "Xiaohu Qie and Ruoming Pang and Larry Peterson",
+  title        = "Defensive programming: using an annotation toolkit to build {DoS}-resistant software",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "45--60",
+  month        = "Winter",
+  keywords     = "denial-of-service attacks, resource hogging, tempo attacks,
+    annotations, resource management, sensors and actuators",
+  abstract     = "This paper describes a toolkit to help improve the robustness
+    of code against DoS attacks.  We observe that when developing software,
+    programmers primarily focus on functionality.  Protecting code from attacks
+    is often considered the responsibility of the OS, firewalls and intrusion
+    detection systems.  As a result, many DoS vulnerabilities are not
+    discovered until the system is attacked and the damage is done.  Instead of
+    reacting to attacks after the fact, this paper argues that a better
+    solution is to make software defensive by systematically injecting
+    protection mechanisms into the code itself.  Our toolkit provides an API
+    that programmers use to annotate their code.  At runtime, these annotations
+    serve as both sensors and actuators: watching for resource abuse and taking
+    the appropriate action should abuse be detected.  This paper presents the
+    design and implementation of the toolkit, as well as evaluation of its
+    effectiveness with three widely-deployed network services.", 
+  location     = "https://doi.org/10.1145/844128.844134",
+  location     = "https://www.cs.princeton.edu/research/techreps/TR-658-02"
+}
+
+@Article{iarwptpfs,
+  author       = "Athicha Muthitacharoen and Robert Morris and Thomer~M. Gil and Benjie Chen",
+  title        = "Ivy: a read/write peer-to-peer file system",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "31--44",
+  month        = "Winter",
+  keywords     = "logging, block chain, reconstruction, distributed hash
+    tables, peer-to-peer file systems",
+  abstract     = "Ivy is a multi-user read/write peer-to-peer file system.  Ivy
+    has no centralized or dedicated components, and it provides useful
+    integrity properties without requiring users to fully trust either the
+    underlying peer-to-peer storage system or the other users of the file
+    system.An Ivy file system consists solely of a set of logs, one log per
+    participant.  Ivy stores its logs in the DHash distributed hash table.
+    Each participant finds data by consuiting all logs, but performs
+    modifications by appending only to its own log.  This arrangement allows
+    Ivy to maintain meta-data consistency without locking.  Ivy users can
+    choose which other logs to trust, an appropriate arrangement in a semi-open
+    peer-to-peer system.Ivy presents applications with a conventional file
+    system interface.  When the underlying network is fully connected, Ivy
+    provides NFS-like semantics, such as close-to-open consistency.  Ivy
+    detects conflicting modifications made during a partition, and provides
+    relevant version information to application-specific conflict resolvers.
+    Performance measurements on a wide-area network show that Ivy is two to
+    three times slower than NFS.", 
+  location     = "https://doi.org/10.1145/844128.844132",
+  location     = "https://pdos.csail.mit.edu/archive/ivy/"
 }
 
 @TechReport{oem2fblis,
