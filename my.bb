@@ -2,6 +2,7 @@
 
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
+@string{asplos08 = sigplan # " (" # pot # "Thirteenth International Conference on " # asplos # ", ASPLOS XIII)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
@@ -200,6 +201,18 @@
   address      = nyny,
   keywords     = "memory witches, betrayal, a questing we will go",
   location     = "PS 3619.A44266 V45"
+}
+
+@Book{tpsr2018,
+  author       = "Sam Rosenfeld",
+  title        = "The Polarizers",
+  subtitle     = "Postwar Architects of Our Partisan Era",
+  publisher    = ucp,
+  year         = 2018,
+  address      = chil,
+  keywords     = "american political parties, ideologies, polarization,
+    issues-oriented politics, political organization",
+  location     = "JK 2265.R67"
 }
 
 @Article{hasfadsafes,
@@ -3576,6 +3589,185 @@
     three times slower than NFS.", 
   location     = "https://doi.org/10.1145/844128.844132",
   location     = "https://pdos.csail.mit.edu/archive/ivy/"
+}
+
+@Article{ffaarsfaite,
+  author       = "Atul Adya and William~J. Bolosky and Miguel Castro and Gerald Cermak and Ronnie Chaiken and John~R. Douceur and Jon Howell and Jacob~R. Lorch and Marvin Theimer and Roger~P. Wattenhofer",
+  title        = "Farsite: federated, available, and reliable storage for an incompletely trusted environment",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "1--14",
+  month        = "Winter",
+  keywords     = "peer-to-peer systems, distributed file systems, security,
+    consistency, scalability",
+  abstract     = "Farsite is a secure, scalable file system that logically
+    functions as a centralized file server but is physically distributed among
+    a set of untrusted computers.  Farsite provides file availability and
+    reliability through randomized replicated storage; it ensures the secrecy
+    of file contents with cryptographic techniques; it maintains the integrity
+    of file and directory data with a Byzantine-fault-tolerant protocol; it is
+    designed to be scalable by using a distributed hint mechanism and
+    delegation certificates for pathname translations; and it achieves good
+    performance by locally caching file data, lazily propagating file updates,
+    and varying the duration and granularity of content leases.  We report on
+    the design of Farsite and the lessons we have learned by implementing much
+    of that design.", 
+  location     = "https://doi.org/10.1145/844128.844130",
+  location     = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/farsite-osdi2002.pdf"
+}
+
+@Article{taritpwafs,
+  author       = "Yasushi Saito and Christos Karamanolis and Magnus Karlsson and Mallik Mahalingam",
+  title        = "Taming aggressive replication in the {Pangaea} wide-area file system",
+  journal      = osdi02,
+  year         = 2002,
+  volume       = 36,
+  number       = "SI",
+  pages        = "15--30",
+  month        = "Winter",
+  keywords     = "replication, nfs, update propagation, failure recovery, hinting",
+  abstract     = "Pangaea is a wide-area file system that supports data sharing
+    among a community of widely distributed users.  It is built on a
+    symmetrically decentralized infrastructure that consists of commodity
+    computers provided by the end users.  Computers act autonomously to serve
+    data to their local users.  When possible, they exchange data with nearby
+    peers to improve the system's overall performance, availability, and
+    network economy.  This approach is realized by aggressively creating a
+    replica of a file whenever and wherever it is accessed.This paper presents
+    the design, implementation, and evaluation of the Pangaea file system.
+    Pangaea offers efficient, randomized algorithms to manage highly dynamic
+    and potentially large groups of file replicas.  It applies optimistic
+    consistency semantics to replica contents, but it also offers stronger
+    guarantees when required by the users.  The evaluation demonstrates that
+    Pangaea outperforms existing distributed file systems in large
+    heterogeneous environments, typical of the Internet and of large corporate
+    intranets.", 
+  location     = "https://doi.org/10.1145/844128.844131",
+  location     = "https://www.usenix.org/conference/osdi-02/taming-aggressive-replication-pangaea-wide-area-file-system"
+}
+
+@Article{bbrwbp,
+  author       = "Miguel Castro and Manuel Costa and Jean-Philippe Martin",
+  title        = "Better Bug Reporting With Better Privacy",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "319--328",
+  month        = mar,
+  keywords     = "error reports, privacy, symbolic execution, constraint
+    solving, path conditions, minimal conditions, satisfiability modulo
+    theories", 
+  abstract     = "Software vendors collect bug reports from customers to
+    improve the quality of their software.  These reports should include the
+    inputs that make the software fail, to enable vendors to reproduce the bug.
+    However, vendors rarely include these inputs in reports because they may
+    contain private user data.  We describe a solution to this problem that
+    provides software vendors with new input values that satisfy the conditions
+    required to make the software follow the same execution path until it
+    fails, but are otherwise unrelated with the original inputs.  These new
+    inputs allow vendors to reproduce the bug while revealing less private
+    information than existing approaches.  Additionally, we provide a mechanism
+    to measure the amount of information revealed in an error report.  This
+    mechanism allows users to perform informed decisions on whether or not to
+    submit reports.  We implemented a prototype of our solution and evaluated
+    it with real errors in real programs.  The results show that we can produce
+    error reports that allow software vendors to reproduce bugs while revealing
+    almost no private information.", 
+  location     = "https://doi.org/10.1145/1353535.1346322", 
+  location     = "https://www.microsoft.com/en-us/research/publication/better-bug-reporting-with-better-privacy/"
+}
+
+@Article{pscoch,
+  author       = "Edmund~B. Nightingale and Daniel Peek and Peter~M. Chen and Jason Flinn",
+  title        = "Parallelizing Security Checks on Commodity Hardware",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "308--318",
+  month        = mar,
+  keywords     = "operating systems, security, performance, parallel,
+    speculative execution, speck, replay, dynamic binary rewriting, storage
+    analysis, system-call analysis, taint analysis, logging",
+  abstract     = "Speck (Speculative Parallel Check) is a system that
+    accelerates powerful security checks on commodity hardware by executing
+    them in parallel on multiple cores.  Speck provides an infrastructure that
+    allows sequential invocations of a particular security check to run in
+    parallel without sacrificing the safety of the system.  Speck creates
+    parallelism in two ways.  First, Speck decouples a security check from an
+    application by continuing the application, using speculative execution,
+    while the security check executes in parallel on another core.  Second,
+    Speck creates parallelism between sequential invocations of a security
+    check by running later checks in parallel with earlier ones.  Speck
+    provides a process-level replay system to deterministically and efficiently
+    synchronize state between a security check and the original process.We use
+    Speck to parallelize three security checks: sensitive data analysis,
+    on-access virus scanning, and taint propagation.  Running on a 4-core and
+    an 8-core computer, Speck improves performance 4x and 7.5x for the
+    sensitive data analysis check, 3.3x and 2.8x for theon-access virus
+    scanning check, and 1.6x and 2x for the taint propagation check.", 
+  location     = "https://doi.org/10.1145/1353535.1346321", 
+  location     = "https://www.microsoft.com/en-us/research/publication/parallelizing-security-checks-on-commodity-hardware/"
+}
+
+@Article{spgpmpus,
+  author       = "Jayanth Gummaraju and Joel Coburn and Yoshio Turner and Mendel Rosenblum",
+  title        = "Streamware: programming general-purpose multicore processors using streams",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "297--307",
+  month        = mar,
+  keywords     = "streams, general-purpose multicore processors, stream
+    programming, runtime systems, intermediate representations, hardware
+    mapping, cache aware dynamic scheduling",
+  abstract     = "Recently, the number of cores on general-purpose processors
+    has been increasing rapidly.  Using conventional programming models, it is
+    challenging to effectively exploit these cores for maximal performance.  An
+    interesting alternative candidate for programming multiple cores is the
+    stream programming model, which provides a framework for writing programs
+    in a sequential-style while greatly simplifying the task of automatic
+    parallelization.  It has been shown that not only traditional media/image
+    applications but also more general-purpose data-intensive applications can
+    be expressed in the stream programming style.In this paper, we investigate
+    the potential to use the stream programming model to efficiently utilize
+    commodity multicore general-purpose processors (e.g., Intel/AMD).  Although
+    several stream languages and stream compilers have recently been developed,
+    they typically target special-purpose stream processors.  In contrast, we
+    propose a flexible software system, Streamware, which automatically maps
+    stream programs onto a wide variety of general-purpose multicore processor
+    configurations.  We leverage existing compilation framework for stream
+    processors and design a runtime environment which takes as input the output
+    of these stream compilers in the form of machine-independent stream virtual
+    machine code.  The runtime environment assigns work to processor cores
+    considering processor/cache configurations and adapts to workload
+    variations.  We evaluate this approach for a few general-purpose scientific
+    applications on real hardware and a cycle-level simulator set-up to
+    showcase scaling and contention issues.  The results show that the stream
+    programming model is a good choice for efficiently exploiting modern and
+    future multicore CPUs for an important class of applications.", 
+  location     = "https://doi.org/10.1145/1353535.1346319",
+  location     = "http://mesl.ucsd.edu/joel/papers/streamware_asplos08.pdf"
+}
+
+@Article{mapmfhmcs,
+  author       = "Michael~D. Linderman and Jamison~D. Collins and Hong Wang and Teresa~H. Meng",
+  title        = "Merge: a programming model for heterogeneous multi-core systems",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "287--296",
+  month        = mar,
+  keywords     = "heterogeneous multi-core, gpgpu, predicate dispatch,
+    map-reduce, libraries",
+  abstract     = "In this paper we propose the Merge framework, a general purpose programming model for heterogeneous multi-core systems.  The Merge framework replaces current ad hoc approaches to parallel programming on heterogeneous platforms with a rigorous, library-based methodology that can automatically distribute computation across heterogeneous cores to achieve increased energy and performance efficiency.  The Merge framework provides (1) a predicate dispatch-based library system for managing and invoking function variants for multiple architectures; (2) a high-level, library-oriented parallel language based on map-reduce; and (3) a compiler and runtime which implement the map-reduce language pattern by dynamically selecting the best available function implementations for a given input and machine configuration.  Using a generic sequencer architecture interface for heterogeneous accelerators, the Merge framework can integrate function variants for specialized accelerators, offering the potential for to-the-metal performance for a wide range of heterogeneous architectures, all transparent to the user.  The Merge framework has been prototyped on a heterogeneous platform consisting of an Intel Core 2 Duo CPU and an 8-core 32-thread Intel Graphics and Media Accelerator X3000, and a homogeneous 32-way Unisys SMP system with Intel Xeon processors.  We implemented a set of benchmarks using the Merge framework and enhanced the library with X3000 specific implementations, achieving speedups of 3.6x -- 8.5x using the X3000 and 5.2x -- 22x using the 32-way system relative to the straight C reference implementation on a single IA32 core.",
+  location     = "https://doi.org/10.1145/1353535.1346318",
+  location     = "https://cs.uwaterloo.ca/~brecht/courses/epfl/Possible-Readings/programming-models/merge-programming-model-hetero-multicore-asplos-2008.pdf"
 }
 
 @TechReport{oem2fblis,
