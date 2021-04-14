@@ -215,6 +215,19 @@
   location     = "JK 2265.R67"
 }
 
+@Book{hres1991,
+  author       = "Robert~E. Strom and David~F. Bacon and Arthur~P. Goldberg and
+    Andy Lowery and Daniel~M. Yellin and Shaula Alexander Yemini",
+  title        = "Hermes",
+  subtitle     = "A Language for Distributed Computing",
+  publisher    = ph,
+  year         = 1991,
+  address      = ecnj,
+  keywords     = "typestate, distributed systems, high-level programming
+    languages, distributed computing",
+  location     = QA 76.73.H47 H47""
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
