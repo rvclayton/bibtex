@@ -228,6 +228,17 @@
   location     = QA 76.73.H47 H47""
 }
 
+@Book{tvc1998,
+  author       = "Arthur~M. {Schlesinger, Jr}",
+  title        = "The Vital Center",
+  subtitle     = "The Politics of Freedom",
+  publisher    = "Transaction Publishers",
+  year         = 1998,
+  address      = "New Brunswick, N.J.",
+  keywords     = "totalitarianism, communism, liberalism, unites states",
+  location     = "JC 481.S38"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
