@@ -225,7 +225,7 @@
   address      = ecnj,
   keywords     = "typestate, distributed systems, high-level programming
     languages, distributed computing",
-  location     = QA 76.73.H47 H47""
+  location     = "QA 76.73.H47 H47"
 }
 
 @Book{tvc1998,
@@ -256,7 +256,7 @@
     People developing analyzers for embedded object code face a difficult
     problem: writing an abstract version of each instruction in the target
     architecture(s).  This is currently done by hand, resulting in abstract
-    operations that are both buggy and im-precise.  We have developed Hoist: a
+    operations that are both buggy and imprecise.  We have developed Hoist: a
     novel system that solves these problems by automatically constructing
     abstract operations using a microprocessor (or simulator) as its own
     specification.  With almost no input from a human, Hoist generates a
@@ -3789,9 +3789,300 @@
   month        = mar,
   keywords     = "heterogeneous multi-core, gpgpu, predicate dispatch,
     map-reduce, libraries",
-  abstract     = "In this paper we propose the Merge framework, a general purpose programming model for heterogeneous multi-core systems.  The Merge framework replaces current ad hoc approaches to parallel programming on heterogeneous platforms with a rigorous, library-based methodology that can automatically distribute computation across heterogeneous cores to achieve increased energy and performance efficiency.  The Merge framework provides (1) a predicate dispatch-based library system for managing and invoking function variants for multiple architectures; (2) a high-level, library-oriented parallel language based on map-reduce; and (3) a compiler and runtime which implement the map-reduce language pattern by dynamically selecting the best available function implementations for a given input and machine configuration.  Using a generic sequencer architecture interface for heterogeneous accelerators, the Merge framework can integrate function variants for specialized accelerators, offering the potential for to-the-metal performance for a wide range of heterogeneous architectures, all transparent to the user.  The Merge framework has been prototyped on a heterogeneous platform consisting of an Intel Core 2 Duo CPU and an 8-core 32-thread Intel Graphics and Media Accelerator X3000, and a homogeneous 32-way Unisys SMP system with Intel Xeon processors.  We implemented a set of benchmarks using the Merge framework and enhanced the library with X3000 specific implementations, achieving speedups of 3.6x -- 8.5x using the X3000 and 5.2x -- 22x using the 32-way system relative to the straight C reference implementation on a single IA32 core.",
+  abstract     = "In this paper we propose the Merge framework, a general
+    purpose programming model for heterogeneous multi-core systems.  The Merge
+    framework replaces current ad hoc approaches to parallel programming on
+    heterogeneous platforms with a rigorous, library-based methodology that can
+    automatically distribute computation across heterogeneous cores to achieve
+    increased energy and performance efficiency.  The Merge framework provides
+    (1) a predicate dispatch-based library system for managing and invoking
+    function variants for multiple architectures; (2) a high-level,
+    library-oriented parallel language based on map-reduce; and (3) a compiler
+    and runtime which implement the map-reduce language pattern by dynamically
+    selecting the best available function implementations for a given input and
+    machine configuration.  Using a generic sequencer architecture interface
+    for heterogeneous accelerators, the Merge framework can integrate function
+    variants for specialized accelerators, offering the potential for
+    to-the-metal performance for a wide range of heterogeneous architectures,
+    all transparent to the user.  The Merge framework has been prototyped on a
+    heterogeneous platform consisting of an Intel Core 2 Duo CPU and an 8-core
+    32-thread Intel Graphics and Media Accelerator X3000, and a homogeneous
+    32-way Unisys SMP system with Intel Xeon processors.  We implemented a set
+    of benchmarks using the Merge framework and enhanced the library with X3000
+    specific implementations, achieving speedups of 3.6x -- 8.5x using the
+    X3000 and 5.2x -- 22x using the 32-way system relative to the straight C
+    reference implementation on a single IA32 core.", 
   location     = "https://doi.org/10.1145/1353535.1346318",
   location     = "https://cs.uwaterloo.ca/~brecht/courses/epfl/Possible-Readings/programming-models/merge-programming-model-hetero-multicore-asplos-2008.pdf"
+}
+
+@Article{fdtpeahpeomtwoc,
+  author       = "M.~Aater Suleman and Moinuddin~K. Qureshi and Yale~N. Patt",
+  title        = "Feedback-driven threading: power-efficient and high-performance execution of multi-threaded workloads on {CMP}s",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "277--286",
+  month        = mar,
+  keywords     = "multi-threading, cmp, dataa synchronization overhead,
+    off-chip bus bandwidth, adaptive threading, synchronization-aware
+    threading, bandwidth-aware threading",
+  abstract     = "Extracting high-performance from the emerging Chip
+    Multiprocessors (CMPs) requires that the application be divided into
+    multiple threads.  Each thread executes on a separate core thereby
+    increasing concurrency and improving performance.  As the number of cores
+    on a CMP continues to increase, the performance of some multi-threaded
+    applications will benefit from the increased number of threads, whereas,
+    the performance of other multi-threaded applications will become limited by
+    data-synchronization and off-chip bandwidth.  For applications that get
+    limited by data-synchronization, increasing the number of threads
+    significantly degrades performance and increases on-chip power.  Similarly,
+    for applications that get limited by off-chip bandwidth, increasing the
+    number of threads increases on-chip power without providing any performance
+    improvement.  Furthermore, whether an application gets limited by
+    data-synchronization, or bandwidth, or neither depends not only on the
+    application but also on the input set and the machine configuration.
+    Therefore, controlling the number of threads based on the run-time behavior
+    of the application can significantly improve performance and reduce
+    power.This paper proposes Feedback-Driven Threading (FDT), a framework to
+    dynamically control the number of threads using run-time information.  FDT
+    can be used to implement Synchronization-Aware Threading (SAT), which
+    predicts the optimal number of threads depending on the amount of
+    data-synchronization.  Our evaluation shows that SAT can reduce both
+    execution time and power by up to 66% and 78% respectively.  Similarly, FDT
+    can be used to implement Bandwidth-Aware Threading (BAT), which predicts
+    the minimum number of threads required to saturate the off-chip bus.  Our
+    evaluation shows that BAT reduces on-chip power by up to 78%.  When SAT and
+    BAT are combined, the average execution time reduces by 17% and power
+    reduces by 59%.  The proposed techniques leverage existing performance
+    counters and require minimal support from the threading library.",
+  location     = "https://doi.org/10.1145/1353535.1346317",
+  location     = "https://researcher.watson.ibm.com/files/us-moinqureshi/papers-fdt.pdf"
+}
+
+@Article{utpohetsaifrsd,
+  author       = "Man-Lap Li and Pradeep Ramachandran and Swarup Kumar Sahoo and Sarita~V. Adve and Vikram~S. Adve and Yuanyuan Zhou",
+  title        = "Understanding the propagation of hard errors to software and implications for resilient system design",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "265--276",
+  month        = mar,
+  keywords     = "error detection, architecture, permanent fault, fault
+    injection, fault tolerance",
+  abstract     = "With continued CMOS scaling, future shipped hardware will be
+    increasingly vulnerable to in-the-field faults.  To be broadly deployable,
+    the hardware reliability solution must incur low overheads, precluding use
+    of expensive redundancy.  We explore a cooperative hardware-software
+    solution that watches for anomalous software behavior to indicate the
+    presence of hardware faults.  Fundamental to such a solution is a
+    characterization of how hardware faults indifferent microarchitectural
+    structures of a modern processor propagate through the application and
+    OS.This paper aims to provide such a characterization, resulting in
+    identifying low-cost detection methods and providing guidelines for
+    implementation of the recovery and diagnosis components of such a
+    reliability solution.  We focus on hard faults because they are
+    increasingly important and have different system implications than the much
+    studied transients.  We achieve our goals through fault injection
+    experiments with a microarchitecture-level full system timing simulator.
+    Our main results are: (1) we are able to detect 95% of the unmasked faults
+    in 7 out of 8 studied microarchitectural structures with simple detectors
+    that incur zero to little hardware overhead; (2) over 86% of these
+    detections are within latencies that existing hardware checkpointing
+    schemes can handle, while others require software checkpointing; and (3) a
+    large fraction of the detected faults corrupt OS state, but almost all of
+    these are detected with latencies short enough to use hardware
+    checkpointing, thereby enabling OS recovery in virtually all such cases.",
+  location     = "https://doi.org/10.1145/1353535.1346315",
+  location     = "http://rsim.cs.illinois.edu/Pubs/08ASPLOS.pdf"
+}
+
+@Article{atifims,
+  author       = "Philip~M. Wells and Koushik Chakraborty and Gurindar~S. Sohi",
+  title        = "Adapting to intermittent faults in multicore systems",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "255--264",
+  month        = mar,
+  keywords     = "intermittent faults, over-committing resources, slack",
+  abstract     = "Future multicore processors will be more susceptible to a
+    variety of hardware failures.  In particular, intermittent faults, caused
+    in part by manufacturing, thermal, and voltage variations, can cause bursts
+    of frequent faults that last from several cycles to several seconds or
+    more.  Due to practical limitations of circuit techniques, cost-effective
+    reliability will likely require the ability to temporarily suspend
+    execution on a core during periods of intermittent faults.We investigate
+    three of the most obvious techniques for adapting to the dynamically
+    changing resource availability caused by intermittent faults, and
+    demonstrate their different system-level implications.  We show that system
+    software reconfiguration has very high overhead, that temporarily pausing
+    execution on a faulty core can lead to cascading livelock, and that using
+    spare cores has high fault-free cost.  To remedy these and other drawbacks
+    of the three baseline techniques, we propose using a thin hardware/firmware
+    layer to manage an overcommitted system -- one where the OS is configured
+    to use more virtual processors than the number of currently available
+    physical cores.  We show that this proposed technique can gracefully
+    degrade performance during intermittent faults of various duration with low
+    overhead, without involving system software or requiring spare cores.", 
+  location     = "https://doi.org/10.1145/1353535.1346314", 
+  location     = "https://ftp.cs.wisc.edu/pub/sohi/papers/2008/asplos2008-intermittent.pdf"
+}
+
+@Article{xaeocfsp,
+  author       = "Russ Cox and Tom Bergan and Austin~T. Clements and Frans Kaashoek and Eddie Kohler",
+  title        = "Xoc, an extension-oriented compiler for systems programming",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "244--254",
+  month        = mar,
+  keywords     = "extension-oriented compilers, lazyness, ambiguity, syntax
+    patterns, meta-programming, glr parsers",
+  abstract     = "Today's system programmers go to great lengths to extend the
+    languages in which they program.  For instance, system-specific compilers
+    find errors in Linux and other systems, and add support for specialized
+    control flow to Qt and event-based programs.  These compilers are difficult
+    to build and cannot always understand each other's language changes.
+    However, they can greatly improve code understandability and correctness,
+    advantages that should be accessible to all programmers.We describe an
+    extension-oriented compiler for C called xoc.  An extension-oriented
+    compiler, unlike a conventional extensible compiler, implements new
+    features via many small extensions that are loaded together as needed.  Xoc
+    gives extension writers full control over program syntax and semantics
+    while hiding many compiler internals.  Xoc programmers concisely define
+    powerful compiler extensions that, by construction, can be combined; even
+    some parts of the base compiler, such as GNU C compatibility, are
+    structured as extensions.Xoc is based on two key interfaces.  Syntax
+    patterns allow extension writers to manipulate language fragments using
+    concrete syntax.  Lazy computation of attributes allows extension writers
+    to use the results of analyses by other extensions or the core without
+    needing to worry about pass scheduling.Extensions built using xoc include
+    xsparse, a 345-line extension mimicing Sparse, Linux's C front end, and
+    xlambda, a 170-line extension adding function expressions to C.  An
+    evaluation of xoc using these and 13 other extensions shows xoc extensions
+    are typically more concise than equivalent extensions written for
+    conventional extensible compilers and that extensions can be composed.",
+  location     = "https://doi.org/10.1145/1353535.1346312",
+  location     = "https://pdos.csail.mit.edu/papers/xoc:asplos08.pdf"
+}
+
+@Article{opbfdp,
+  author       = "Milind Kulkarni and Keshav Pingali and Ganesh Ramanarayanan and Bruce Walter and Kavita Bala and L.~Paul Chew",
+  title        = "Optimistic parallelism benefits from data partitioning",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "233--243",
+  month        = mar,
+  keywords     = "optimistic parallelism, irregular programs, data
+    partitioning, locality, lock coarsening, over-decomposition, galois,
+    abstract domains",
+  abstract     = "Recent studies of irregular applications such as
+    finite-element mesh generators and data-clustering codes have shown that
+    these applications have a generalized data parallelism arising from the use
+    of iterative algorithms that perform computations on elements of worklists.
+    In some irregular applications, the computations on different elements are
+    independent.  In other applications, there may be complex patterns of
+    dependences between these computations.The Galois system was designed to
+    exploit this kind of irregular data parallelism on multicore processors.
+    Its main features are (i) two kinds of set iterators for expressing
+    worklist-based data parallelism, and (ii) a runtime system that performs
+    optimistic parallelization of these iterators, detecting conflicts and
+    rolling back computations as needed.  Detection of conflicts and rolling
+    back iterations requires information from class implementors.In this paper,
+    we introduce mechanisms to improve the execution efficiency of Galois
+    programs: data partitioning, data-centric work assignment, lock coarsening,
+    and over-decomposition.  These mechanisms can be used to exploit locality
+    of reference, reduce mis-speculation, and lower synchronization overhead.
+    We also argue that the design of the Galois system permits these mechanisms
+    to be used with relatively little modification to the user code.  Finally,
+    we present experimental results that demonstrate the utility of these
+    mechanisms.", 
+  location     = "https://doi.org/10.1145/1353535.1346311", 
+  location     = "https://www.cs.cornell.edu/~kb/publications/asplos08.pdf"
+}
+
+@Article{cofgmtis,
+  author       = "Guilherme Ottoni and David~I. August",
+  title        = "Communication optimizations for global multi-threaded instruction scheduling",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "222--232",
+  month        = mar,
+  keywords     = "multi-threading, instruction scheduling, communication,
+  synchronization, daa-flow analysis, graph min-cut, communication
+  optimizationc",
+  abstract     = "The recent shift in the industry towards chip multiprocessor
+    (CMP) designs has brought the need for multi-threaded applications to
+    mainstream computing.  As observed in several limit studies, most of the
+    parallelization opportunities require looking for parallelism beyond local
+    regions of code.  To exploit these opportunities, especially for sequential
+    applications, researchers have recently proposed global multi-threaded
+    instruction scheduling techniques, including DSWP and GREMIO.  These
+    techniques simultaneously schedule instructions from large regions of code,
+    such as arbitrary loop nests or whole procedures, and have been shown to be
+    effective at extracting threads for many applications.  A key enabler of
+    these global instruction scheduling techniques is the Multi-Threaded Code
+    Generation (MTCG) algorithm proposed in [16], which generates
+    multi-threaded code for any partition of the instructions into threads.
+    This algorithm inserts communication and synchronization instructions to
+    satisfy all inter-thread dependences.  We present a general compiler
+    framework, COCO, to optimize the communication and synchronization
+    instructions inserted by the MTCG algorithm.  This framework, based on
+    thread-aware data-flow analyses and graph min-cut algorithms, appropriately
+    models andoptimizes all kinds of inter-thread dependences, including
+    register, memory, and control dependences.  Our experiments, using a fully
+    automatic compiler implementation of these techniques, demonstrate
+    significant reductions (about 30% on average) in the number of dynamic
+    communication instructions in code parallelized with DSWP and GREMIO.  This
+    reduction in communication translates to performance gains of up to 40%.", 
+  location     = "https://doi.org/10.1145/1353535.1346310", 
+  location     = "http://liberty.princeton.edu/Publications/asplos08_mtcgco.pdf"
+}
+
+@Article{uavfswdft,
+  author       = "Shashidhar Mysore and Bita Mazloom and Banit Agrawal and Timothy Sherwood",
+  title        = "Understanding and visualizing full systems with data flow tomography",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "211--221",
+  month        = mar,
+  keywords     = "data-flow tracking, tomographic analysis, data tracing,
+    visualization, data tagging", 
+  abstract     = "It is common for modern systems to be composed of many
+    interacting services running across multiple machines in such a way that
+    most developers do not understand the whole system.  By layering
+    abstractions, developers compose systems of extraordinary complexity with
+    relative ease.  However, many software properties, especially those that
+    cut across abstraction layers, become difficult to understand in such
+    compositions.  The communication patterns involved, the privacy of critical
+    data, and the provenance of information, can be difficult to find and
+    understand, even with access to all of the source code.  The goal of Data
+    Flow Tomography is to use the inherent information flow of such systems to
+    help visualize the interactions between complex and interwoven components
+    across multiple layers of abstraction.  In the same way that the injection
+    of short-lived radioactive isotopes help doctors trace problems in the
+    cardiovascular system, the use of 'data tagging' can help developers slice
+    through the extraneous layers of software and pin-point those portions of
+    the system interacting with the data of interest.  To demonstrate the
+    feasibility of this approach we have developed a prototype system in which
+    tags are tracked both through the machine and in between machines over the
+    network, and from which novel visualizations of the whole system can be
+    derived.  We describe the system-level challenges in creating a working
+    system tomography tool and we qualitatively evaluate our system by
+    examining several example real world scenarios.", 
+  location     = "https://doi.org/10.1145/1353535.1346308", 
+  location     = "http://www.cs.ucsb.edu/~sherwood/pubs/ASPLOS-08-systemtomography.pdf"
 }
 
 @TechReport{oem2fblis,
