@@ -239,6 +239,29 @@
   location     = "JC 481.S38"
 }
 
+@Book{rsabl,
+  author       = "Bruce Lenthall",
+  title        = "Radio's America",
+  subtitle     = "The Great Depression and the Rise of Mass Culture",
+  publisher    = ucp,
+  year         = 2007,
+  address      = chil,
+  keywords     = "mass culture, public intellectuals, radio audience, politics,
+    stardom, social research, artistic pursuits",
+  location     = "PN 1991.3.U6 L46"
+}
+
+@Book{tpp1997,
+  author       = "Cynthia Ozick",
+  title        = "The Puttermesser Papers",
+  publisher    = "Knopf",
+  year         = 1997,
+  address      = nyny,
+  keywords     = "mysticism, municipal corruption, love and marriage,
+    immigrants, the old country",
+  location     = "PS 3565.Z5 P8"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -3825,7 +3848,7 @@
   number       = 2,
   pages        = "277--286",
   month        = mar,
-  keywords     = "multi-threading, cmp, dataa synchronization overhead,
+  keywords     = "multi-threading, cmp, data synchronization overhead,
     off-chip bus bandwidth, adaptive threading, synchronization-aware
     threading, bandwidth-aware threading",
   abstract     = "Extracting high-performance from the emerging Chip
