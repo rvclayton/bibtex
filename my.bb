@@ -4108,6 +4108,219 @@
   location     = "http://www.cs.ucsb.edu/~sherwood/pubs/ASPLOS-08-systemtomography.pdf"
 }
 
+@Article{dpaabtcm,
+  author       = "Luk Van Ertvelde and Lieven Eeckhout",
+  title        = "Dispersing proprietary applications as benchmarks through code mutation",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "201--210",
+  month        = mar,
+  keywords     = "benchmark generation, code mutation, black-box analysis,
+    benchmarking, execution profiles, binary rewriting, mutation efficacy",
+  abstract     = "Industry vendors hesitate to disseminate proprietary applications to academia and third party vendors.  By consequence, the benchmarking process is typically driven by standardized, open-source benchmarks which may be very different from and likely not representative of the real-life applications of interest.This paper proposes code mutation, a novel technique that mutates a proprietary application to complicate reverse engineering so that it can be distributed as a benchmark.  The benchmark mutant then serves as a proxy for the proprietary application.  The key idea in the proposed code mutation approach is to preserve the proprietary application's dynamic memory access and/or control flow behavior in the benchmark mutant while mutating the rest of the application code.  To this end, we compute program slices for memory access operations and/or control flow operationstrimmed through constant value and branch profiles; and subsequently mutate the instructions not appearing in these slices through binary rewriting.Our experimental results using SPEC CPU2000 and MiBench benchmarks show that code mutation is a promising technique that mutates up to 90% of the static binary, up to 50% of the dynamically executed instructions, and up to 35% of the at run time exposed inter-operation data dependencies.  The performance characteristics of the mutant are very similar to those of the proprietary application across a wide range of microarchitectures and hardware implementations.",
+  location     = "https://doi.org/10.1145/1353535.1346307"
+}
+
+@Article{hcdotfrs,
+  author       = "Kai Shen and Ming Zhong and Sandhya Dwarkadas and Chuanpeng Li and Christopher Stewart and Xiao Zhang",
+  title        = "Hardware counter driven on-the-fly request signatures",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "189--200",
+  month        = mar,
+  keywords     = "operating system adaptation, hardware counters, server
+    systems, request classification, anomaly detection",
+  abstract     = "Today's processors provide a rich source of statistical
+    information on application execution through hardware counters.  In this
+    paper, we explore the utilization of these statistics as request
+    signaturesin server applications for identifying requests and inferring
+    high-level request properties (e.g., CPU and I/O resource needs).  Our key
+    finding is that effective request signatures may be constructed using a
+    small amount of hardware statistics while the request is still in an early
+    stage of its execution.  Such on-the-fly request identification and
+    property inference allow guided operating system adaptation at request
+    granularity (e.g., resource-aware request scheduling and on-the-fly request
+    classification).  We address the challenges of selecting hardware counter
+    metrics for signature construction and providing necessary operating system
+    support for per-request statistics management.  Our implementation in the
+    Linux 2.6.10 kernel suggests that our approach requires low overhead
+    suitable for runtime deployment.  Our on-the-fly request resource
+    consumption inference (averaging 7%, 3%, 20%, and 41% prediction errors for
+    four server workloads, TPC-C, TPC-H, J2EE-based RUBiS, and a trace-driven
+    index search, respectively) is much more accurate than the online
+    running-average based prediction (73-82% errors).  Its use for
+    resource-aware request scheduling results in a 15-70% response time
+    reduction for three CPU-bound applications.  Its use for on-the-fly request
+    classification and anomaly detection exhibits high accuracy for the TPC-H
+    workload with synthetically generated anomalous requests following a
+    typical SQL-injection attack pattern.", 
+  location     = "https://doi.org/10.1145/1353535.1346306",
+  location     = "https://www.cs.rochester.edu/~kshen/papers/asplos2008.pdf"
+}
+
+@Article{titfocoossfpd,
+  author       = "Yaron Weinsberg and Danny Dolev and Tal Anker and Muli Ben-Yehuda and Pete Wyckoff",
+  title        = "Tapping into the fountain of {CPU}s: on operating system support for programmable devices",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "179--188",
+  month        = mar,
+  keywords     = "offloading, operating systems, programming models, peripheral
+    processors",
+  abstract     = "The constant race for faster and more powerful CPUs is
+    drawing to a close.  No longer is it feasible to significantly increase the
+    speed of the CPU without paying a crushing penalty in power consumption and
+    production costs.  Instead of increasing single thread performance, the
+    industry is turning to multiple CPU threads or cores (such as SMT and CMP)
+    and heterogeneous CPU architectures (such as the Cell Broadband Engine).
+    While this is a step in the right direction, in every modern PC there is a
+    wealth of untapped compute resources.  The NIC has a CPU; the disk
+    controller is programmable; some high-end graphics adaptersare already more
+    powerful than host CPUs.  Some of these CPUs can perform some functions
+    more efficiently than the host CPUs.  Our operating systems and programming
+    abstractions should be expanded to let applications tap into these
+    computational resources and make the best use of them.Therefore, we propose
+    the HYDRA framework, which lets application developers use the combined
+    power of every compute resource in a coherent way.  HYDRA is a programming
+    model and a runtime support layer which enables utilization of host
+    processors as well as various programmable peripheral devices' processors.
+    We present the frameworkand its application for a demonstrative use-case,
+    as well as provide a thorough evaluation of its capabilities.  Using HYDRA
+    we were able to cut down the development cost of a system that uses
+    multiple heterogenous compute resources significantly.", 
+  location     = "https://doi.org/10.1145/1353535.1346304", 
+  location     = "http://noodle.cs.huji.ac.il/~dolev/pubs/aspolos08-yaron--selfcopy.pdf"
+}
+
+@Article{tdaiom,
+  author       = "Vinod Ganapathy and Matthew~J. Renzelmann and Arini Balakrishnan and Michael~M. Swift and Somesh Jha",
+  title        = "The design and implementation of microdrivers",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "168--178",
+  month        = mar,
+  keywords     = "device drivers, reliability, program partitioning,
+    device-driver development, user-kernel split, semantic rpc, driver slicing",
+  abstract     = "Device drivers commonly execute in the kernel to achieve high 
+    performance and easy access to kernel services.  However, this comes at the
+    price of decreased reliability and increased programming difficulty.
+    Driver programmers are unable to use user-mode development tools and must
+    instead use cumbersome kernel tools.  Faults in kernel drivers can cause
+    the entire operating system to crash.  User-mode drivers have long been
+    seen as a solution to this problem, but suffer from either poor performance
+    or new interfaces that require a rewrite of existing drivers.This paper
+    introduces the Microdrivers architecture that achieves high performance and
+    compatibility by leaving critical path code in the kernel and moving the
+    rest of the driver code to a user-mode process.  This allows data-handling
+    operations critical to I/O performance to run at full speed, while
+    management operations such as initialization and configuration run at
+    reduced speed in user-level.  To achieve compatibility, we present
+    DriverSlicer, a tool that splits existing kernel drivers into a
+    kernel-level component and a user-level component using a small number of
+    programmer annotations.  Experiments show that as much as 65% of driver
+    code can be removed from the kernel without affecting common-case
+    performance, and that only 1-6 percent of the code requires annotations.", 
+  location     = "https://doi.org/10.1145/1353535.1346303", 
+  location     = "http://pages.cs.wisc.edu/~swift/papers/microdrivers-asplos08.pdf"
+}
+
+@Article{pv,
+  author       = "Ioana Burcea and Stephen Somogyi and Andreas Moshovos and Babak Falsafi",
+  title        = "Predictor virtualization",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "157--167",
+  month        = mar,
+  keywords     = "predictor virtualization, caches, memory hierarchy, metadata",
+  abstract     = "Many hardware optimizations rely on collecting information
+    about program behavior at runtime.  This information is stored in lookup
+    tables.  To be accurate and effective, these optimizations usually require
+    large dedicated on-chip tables.  Although technology advances offer an
+    increased amount of on-chip resources, these resources are allocated to
+    increase the size of on-chip conventional cache hierarchies.This work
+    proposes Predictor Virtualization, a technique that uses the existing
+    memory hierarchy to emulate large predictor tables.  We demonstrate the
+    benefits of this technique by virtualizing a state-of-the-art data
+    prefetcher.  Full-system, cycle-accurate simulations demonstrate that the
+    virtualized prefetcher preserves the performance benefits of the original
+    design, while reducing the on-chip storage dedicated to the predictor table
+    from 60KB down to less than one kilobyte.", 
+  location     = "https://doi.org/10.1145/1353535.1346301"
+}
+
+@Article{ssehsfcaao,
+  author       = "James Tuck and Wonsun Ahn and Luis Ceze and Josep Torrellas",
+  title        = "{SoftSig}: software-exposed hardware signatures for code analysis and optimization",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "145--156",
+  month        = mar,
+  keywords     = "memory disambiguation, multi-core architectures, runtime
+    optimization, memoization, bloom filters, function signatures, signature caches",
+  abstract     = "Many code analysis techniques for optimization, debugging, or 
+    parallelization need to perform runtime disambiguation of sets of
+    addresses.  Such operations can be supported efficiently and with low
+    complexity with hardware signatures.To enable flexible use of signatures,
+    this paper proposes to expose a Signature Register File to the software
+    through a rich ISA.  The software has great flexibility to decide, for each
+    signature,which addresses to collect and which addresses to disambiguate
+    against.  We call this architecture SoftSig.  In addition, as an example of
+    SoftSig use, we show how to detect redundant function calls efficiently and
+    eliminate them dynamically.  We call this algorithm MemoiSE.  On average
+    for five popular applications, MemoiSE reduces the number of dynamic
+    instructions by 9.3%, thereby reducing the execution time of the
+    applications by 9%.", 
+  location     = "https://doi.org/10.1145/1353535.1346300",
+  location     = "https://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_asplos08.pdf"
+}
+
+@Article{aspmscicm,
+  author       = "Shekhar Srikantaiah and Mahmut Kandemir and Mary Jane Irwin",
+  title        = "Adaptive set pinning: managing shared caches in chip multiprocessors",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "135--144",
+  month        = mar,
+  keywords     = "shared cache, set pinning, cmp, inter-processor conflicts,
+    intra-processor conflicts, taxonomies, cache behavior",
+  abstract     = "As part of the trend towards Chip Multiprocessors (CMPs) for
+    the next leap in computing performance, many architectures have explored
+    sharing the last level of cache among different processors for better
+    performance-cost ratio and improved resource allocation.  Shared cache
+    management is a crucial CMP design aspect for the performance of the
+    system.  This paper first presents a new classification of cache misses -
+    CII: Compulsory, Inter-processor and Intra-processor misses - for CMPs with
+    shared caches to provide a better understanding of the interactions between
+    memory transactions of different processors at the level of shared cache in
+    a CMP.  We then propose a novel approach, called set pinning, for
+    eliminating inter-processor misses and reducing intra-processor misses in a
+    shared cache.  Furthermore, we show that an adaptive set pinning scheme
+    improves over the benefits obtained by the set pinning scheme by
+    significantly reducing the number of off-chip accesses.  Extensive analysis
+    of these approaches with SPEComp 2001 benchmarks is performed using a full
+    system simulator.  Our experiments indicate that the set pinning scheme
+    achieves an average improvement of 22.18% in the L2 miss rate while the
+    adaptive set pinning scheme reduces the miss rates by an average of 47.94%
+    as compared to the traditional shared cache scheme.  They also improve the
+    performance by 7.24% and 17.88% respectively.", 
+  location     = "https://doi.org/10.1145/1353535.1346299", 
+  location     = "https://cs.uwaterloo.ca/~brecht/courses/856-Topics-In-Computer-Systems-2009/Possible-Readings/scheduling/adaptive-set-pinning-asplos-2008-srikantaiah.pdf"
+}
+
 @TechReport{oem2fblis,
   author       = "Rovner, Paul and Levin, Roy and Wick, John",
   title        = "On Extending {Modula}-2 for Building Large, Integrated Systems",
