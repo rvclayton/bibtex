@@ -262,6 +262,28 @@
   location     = "PS 3565.Z5 P8"
 }
 
+@Book{cothjs,
+  author       = "Jeff Salyards",
+  title        = "Chains of the Heretic",
+  publisher    = "Night Shade Books",
+  year         = 2016,
+  address      = nyny,
+  keywords     = "everybody's kung-fu fightin'",
+  location     = "PS 3619.A44266 C33"
+}
+
+@Book{tyjv,
+  author       = "Jason Vuic",
+  title        = "The Yugo",
+  subtitle     = "The Rise and Fall of the Worst Car in History",
+  publisher    = "Hill and Wang",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "automobiles, car manufacturing, global trade, yugoslavia,
+    blickland, import/export, auto safety",
+  location     = "TL 215.Z32 V58"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -4232,7 +4254,7 @@
   location     = "http://pages.cs.wisc.edu/~swift/papers/microdrivers-asplos08.pdf"
 }
 
-@Article{pv,
+@Article{pv2008,
   author       = "Ioana Burcea and Stephen Somogyi and Andreas Moshovos and Babak Falsafi",
   title        = "Predictor virtualization",
   journal      = asplos08,
@@ -4298,11 +4320,11 @@
   keywords     = "shared cache, set pinning, cmp, inter-processor conflicts,
     intra-processor conflicts, taxonomies, cache behavior",
   abstract     = "As part of the trend towards Chip Multiprocessors (CMPs) for
-    the next leap in computing performance, many architectures have explored
-    sharing the last level of cache among different processors for better
-    performance-cost ratio and improved resource allocation.  Shared cache
-    management is a crucial CMP design aspect for the performance of the
-    system.  This paper first presents a new classification of cache misses -
+    greater computing performance, many architectures have explored
+    sharing the last level of cache among different processors for improved
+    performance-cost ratio and resource allocation.  Shared cache
+    management is a crucial CMP design aspect for system 
+    performance.  This paper first presents a new classification of cache misses -
     CII: Compulsory, Inter-processor and Intra-processor misses - for CMPs with
     shared caches to provide a better understanding of the interactions between
     memory transactions of different processors at the level of shared cache in
