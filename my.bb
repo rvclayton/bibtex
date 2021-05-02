@@ -284,6 +284,16 @@
   location     = "TL 215.Z32 V58"
 }
 
+@Book{tshcb,
+  author       = "Christophe Boltanski",
+  title        = "The Safe House",
+  publisher    = ucp,
+  year         = 2017,
+  address      = chil,
+  keywords     = "russian diaspora, paris, ww ii, jewish life, family history",
+  location     = "PQ 2662.O5712 C3313"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -4341,6 +4351,242 @@
     performance by 7.24% and 17.88% respectively.", 
   location     = "https://doi.org/10.1145/1353535.1346299", 
   location     = "https://cs.uwaterloo.ca/~brecht/courses/856-Topics-In-Computer-Systems-2009/Possible-Readings/scheduling/adaptive-set-pinning-asplos-2008-srikantaiah.pdf"
+}
+
+@Article{abpfst,
+  author       = "Bumyong Choi and Leo Porter and Dean~M. Tullsen",
+  title        = "Accurate branch prediction for short threads",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "125--134",
+  month        = mar,
+  keywords     = "chip multiprocessors, branch prediction, speculative
+    multithreading, global history register, continuity, context switching",
+  abstract     = "Multi-core processors, with low communication costs and high
+    availability of execution cores, will increase the use of execution and
+    compilation models that use short threads to expose parallelism.  Current
+    branch predictors seek to incorporate large amounts of control flow history
+    to maximize accuracy.  However, when that history is absent the predictor
+    fails to work as intended.  Thus, modern predictors are almost useless for
+    threads below a certain length.Using a Speculative Multithreaded (SpMT)
+    architecture as an example of a system which generates shorter threads,
+    this work examines techniques to improve branch prediction accuracy when a
+    new thread begins to execute on a different core.  This paper proposes a
+    minor change to the branch predictor that gives virtually the same
+    performance on short threads as an idealized predictor that incorporates
+    unknowable pre-history of a spawned speculative thread.  At the same time,
+    strong performance on long threads is preserved.  The proposed technique
+    sets the global history register of the spawned thread to the initial value
+    of the program counter.  This novel and simple design reduces branch
+    mispredicts by 29% and provides as much as a 13% IPC improvement on
+    selected SPEC2000 benchmarks.", 
+  location     = "https://doi.org/10.1145/1353535.1346298",
+  location     = "http://cseweb.ucsd.edu/~tullsen/asplos08.pdf"
+}
+
+@Article{atasfras,
+  author       = "Vitaliy~B. Lvin and Gene Novark and Emery~D. Berger and Benjamin~G. Zorn",
+  title        = "Archipelago: trading address space for reliability and security",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "115--124",
+  month        = mar,
+  keywords     = "archipelago, buffer overflow, dynamic memory allocation,
+    memory errors, probabilistic memory safety, randomized algorithms, virtual
+    memory, page mapping", 
+  abstract     = "Memory errors are a notorious source of security
+    vulnerabilities that can lead to service interruptions, information leakage
+    and unauthorized access.  Because such errors are also difficult to debug,
+    the absence of timely patches can leave users vulnerable to attack for long
+    periods of time.  A variety of approaches have been introduced to combat
+    these errors, but these often incur large runtime overheads and generally
+    abort on errors, threatening availability.This paper presents Archipelago,
+    a runtime system that takes advantage of available address space to
+    substantially reduce the likelihood that a memory error will affect program
+    execution.  Archipelago randomly allocates heap objects far apart in
+    virtual address space, effectively isolating each object from buffer
+    overflows.  Archipelago also protects against dangling pointer errors by
+    preserving the contents of freed objects after they are freed.  Archipelago
+    thus trades virtual address space---a plentiful resource on 64-bit
+    systems---for significantly improved program reliability and security,
+    while limiting physical memory consumption by tracking the working set of
+    an application and compacting cold objects.  We show that Archipelago
+    allows applications to continue to run correctly in the face of thousands
+    of memory errors.  Across a suite of server applications, Archipelago's
+    performance overhead is 6% on average (between -7% and 22%), making it
+    especially suitable to protect servers that have known security
+    vulnerabilities due to heap memory errors.",
+  location     = "https://doi.org/10.1145/1353535.1346296",
+  location     = "http://www.cs.umass.edu/~emery/pubs/archipelago.pdf"
+}
+
+@Article{hasfssotcpl,
+  author       = "Joe Devietti and Colin Blundell and Milo M.~K. Martin and Steve Zdancewic",
+  title        = "{HardBound}: architectural support for spatial safety of the {C} programming language",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "103--114",
+  month        = mar,
+  keywords     = "spatial memory safety, c programming language, fat pointers,
+    bounded pointers, hardware support, compiler support",
+  abstract     = "The C programming language is at least as well known for its
+    absence of spatial memory safety guarantees (i.e., lack of bounds checking)
+    as it is for its high performance.  C's unchecked pointer arithmetic and
+    array indexing allow simple programming mistakes to lead to erroneous
+    executions, silent data corruption, and security vulnerabilities.  Many
+    prior proposals have tackled enforcing spatial safety in C programs by
+    checking pointer and array accesses.  However, existing software-only
+    proposals have significant drawbacks that may prevent wide adoption,
+    including: unacceptably high run-time overheads, lack of completeness,
+    incompatible pointer representations, or need for non-trivial changes to
+    existing C source code and compiler infrastructure.Inspired by the promise
+    of these software-only approaches, this paper proposes a hardware bounded
+    pointer architectural primitive that supports cooperative hardware/software
+    enforcement of spatial memory safety for C programs.  This bounded pointer
+    is a new hardware primitive datatype for pointers that leaves the standard
+    C pointer representation intact, but augments it with bounds information
+    maintained separately and invisibly by the hardware.  The bounds are
+    initialized by the software, and they are then propagated and enforced
+    transparently by the hardware, which automatically checks a pointer's
+    bounds before it is dereferenced.  One mode of use requires instrumenting
+    only malloc, which enables enforcement of perallocation spatial safety for
+    heap-allocated objects for existing binaries.  When combined with simple
+    intraprocedural compiler instrumentation, hardware bounded pointers enable
+    a low-overhead approach for enforcing complete spatial memory safety in
+    unmodified C programs.", 
+  location     = "https://doi.org/10.1145/1353535.1346295",
+  location     = "http://acg.cis.upenn.edu/papers/asplos08_hardbound.pdf"
+}
+
+@Article{tmcvmsfgpacc,
+  author       = "Michal Wegiel and Chandra Krintz",
+  title        = "The {Mapping Collector}: virtual memory support for generational, parallel, and concurrent compaction",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "91--102",
+  month        = mar,
+  keywords     = "virtual memory, compaction, parallel gc, concurrent gc,
+    page-oriented gc, stop-the-world gc",
+  abstract     = "Parallel and concurrent garbage collectors are increasingly
+    employed by managed runtime environments (MREs) to maintain scalability, as
+    multi-core architectures and multi-threaded applications become pervasive.
+    Moreover, state-of-the-art MREs commonly implement compaction to eliminate
+    heap fragmentation and enable fast linear object allocation.Our empirical
+    analysis of object demographics reveals that unreachable objects in the
+    heap tend to form clusters large enough to be effectively managed at the
+    granularity of virtual memory pages.  Even though processes can manipulate
+    the mapping of the virtual address space through the standard operating
+    system (OS) interface on most platforms, extant parallel/concurrent
+    compactors do not do so to exploit this clustering behavior and instead
+    achieve compaction by performing, relatively expensive, object moving and
+    pointer adjustment.We introduce the Mapping Collector (MC), which leverages
+    virtual memory operations to reclaim and consolidate free space without
+    moving objects and updating pointers.  MC is a nearly-single-phase
+    compactor that is simpler and more efficient than previously reported
+    compactors that comprise two to four phases.  Through effective MRE-OS
+    coordination, MC maintains the simplicity of a non-moving collector while
+    providing efficient parallel and concurrent compaction.We implement both
+    stop-the-world and concurrent MC in a generational garbage collection
+    framework within the open-source HotSpot Java Virtual Machine.  Our
+    experimental evaluation using a multiprocessor indicates that MC
+    significantly increases throughput and scalability as well as reduces pause
+    times, relative to state-of-the-art, parallel and concurrent compactors.", 
+  location     = "https://doi.org/10.1145/1353535.1346294",
+  location     = "https://sites.cs.ucsb.edu/~ckrintz/papers/mappinggc-asplos08.pdf"
+}
+
+@Article{itpooolwdpoij,
+  author       = "Jose~A. Joao and Onur Mutlu and Hyesoon Kim and Rishi Agarwal and Yale~N. Patt",
+  title        = "Improving the performance of object-oriented languages with dynamic predication of indirect jumps",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "80--90",
+  month        = mar,
+  keywords     = "dynamic prediction, indirect jumps, virtual functions,
+    object-oriented languages, predicated execution, adaptive algorithms,
+    speculative execution",
+  abstract     = "Indirect jump instructions are used to implement
+    increasingly-common programming constructs such as virtual function calls,
+    switch-case statements, jump tables, and interface calls.  The performance
+    impact of indirect jumps is likely to increase because indirect jumps with
+    multiple targets are difficult to predict even with specialized
+    hardware.This paper proposes a new way of handling hard-to-predict indirect
+    jumps: dynamically predicating them.  The compiler (static or dynamic)
+    identifies indirect jumps that are suitable for predication along with
+    their control-flow merge (CFM) points.  The hardware predicates
+    theinstructions between different targets of the jump and its CFM point if
+    the jump turns out to be hard-to-predict at run time.  If the jump would
+    actually have been mispredicted, its dynamic predication eliminates a
+    pipeline flush, thereby improving performance.Our evaluations show that
+    Dynamic Indirect jump Predication (DIP) improves the performance of a set
+    of object-oriented applications including the Java DaCapo benchmark suite
+    by 37.8% compared to a commonly-used branch target buffer based predictor,
+    while also reducing energy consumption by 24.8%.  We compare DIP to three
+    previously proposed indirect jump predictors and find that it provides the
+    best performance and energy-efficiency.", 
+  location     = "https://doi.org/10.1145/1353535.1346293",
+  location     = "https://hps.ece.utexas.edu/pub/joao_asplos08.pdf"
+}
+
+@Article{pmupptcdfs,
+  author       = "Arindam Mallik and Jack Cosgrove and Robert~P. Dick and Gokhan Memik and Peter Dinda",
+  title        = "{PICSEL}: measuring user-perceived performance to control dynamic frequency scaling",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "70--79",
+  month        = mar,
+  keywords     = "user-perceived performance, dynamic voltage and frequency
+  scaling, power management, thermal emergency, display analysis, human factors",
+  abstract     = "The ultimate goal of a computer system is to satisfy its
+    users.  The success of architectural or system-level optimizations depends
+    largely on having accurate metrics for user satisfaction.  We propose to
+    derive such metrics from information that is 'close to flesh' and apparent
+    to the user rather than from information that is 'close to metal' and
+    hidden from the user.  We describe and evaluate PICSEL, a dynamic voltage
+    and frequency scaling (DVFS) technique that uses measurements of variations
+    in the rate of change of a computer's video output to estimate
+    user-perceived performance.  Our adaptive algorithms, one conservative and
+    one aggressive, use these estimates to dramatically reduce operating
+    frequencies and voltages for graphically-intensive applications while
+    maintaining performance at a satisfactory level for the user.  We evaluate
+    PICSEL through user studies conducted on a Pentium M laptop running Windows
+    XP.  Experiments performed with 20 users executing three applications
+    indicate that the measured laptop power can be reduced by up to 12.1%,
+    averaged across all of our users and applications, compared to the default
+    Windows XP DVFS policy.  User studies revealed that the difference in
+    overall user satisfaction between the more aggressive version of PICSEL and
+    Windows DVFS were statistically insignificant, whereas the conservative
+    version of PICSEL actually improved user satisfaction when compared to
+    Windows DVFS.", 
+  location     = "https://doi.org/10.1145/1353535.1346291",
+  location     = "http://ziyang.eecs.umich.edu/publications/cosgrove08apr.pdf"
+}
+
+@Article{easapbtrspicm,
+  author       = "Chinnakrishnan~S. Ballapuram and Ahmad Sharif and Hsien-Hsin~S. Lee",
+  title        = "Exploiting access semantics and program behavior to reduce snoop power in chip multiprocessors",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "60--69",
+  month        = mar,
+  keywords     = "cache management, snoopy consistency protocols, snoop
+    suppression, modified code, ",
+  abstract     = "Integrating more processor cores on-die has become the unanimous trend in the microprocessor industry.  Most of the current research thrusts using chip multiprocessors (CMPs) as the baseline to analyze problems in various domains.  One of the main design issues facing CMP systems is the growing number of snoops required to maintain cache coherency and to support self/cross-modifying code that leads to power and performance limitations.  In this paper, we analyze the internal and external snoop behavior in a CMP system and relax the snoopy cache coherence protocol based on the program semantics and properties of the shared variables for saving power.  Based on the observations and analyses, we propose two novel techniques: Selective Snoop Probe (SSP) and Essential Snoop Probe (ESP) to reduce power without compromising performance.  Our simulation results show that using the SSPtechnique, 5% to 65% data cache energy savings per core for different processor configurations can be achieved with 1% to 2% performance improvement.  We also show that 5% to 82% of data cache energy per core is spent on the non-essential snoop probes that can be saved using the ESP technique.",
+  location     = "https://doi.org/10.1145/1353535.1346290"
 }
 
 @TechReport{oem2fblis,
