@@ -6,6 +6,7 @@
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
+@string{sapl80 = sigplan # " (" # pot # "ACM-SIGPLAN Symposium on the Ada Programming Language)"}
 
 @Book{tsbotw,
   author       = "Victor Pelevin",
@@ -280,7 +281,7 @@
   year         = 2009,
   address      = nyny,
   keywords     = "automobiles, car manufacturing, global trade, yugoslavia,
-    blickland, import/export, auto safety",
+    bricklin, import/export, auto safety",
   location     = "TL 215.Z32 V58"
 }
 
@@ -292,6 +293,38 @@
   address      = chil,
   keywords     = "russian diaspora, paris, ww ii, jewish life, family history",
   location     = "PQ 2662.O5712 C3313"
+}
+
+@Book{uel2017,
+  author       = "Eduardo Lalo",
+  translator   = "Suzanne Jill Levine",
+  title        = "Uslessness",
+  publisher    = ucp,
+  year         = 2017,
+  address      = chil,
+  keywords     = "art, ambition, paris, san juan, love",
+  location     = "PQ 7440.L29 I8813"
+}
+
+@Book{tgsl2014,
+  author       = "Sergei Lukyanenko",
+  title        = "The Genome",
+  publisher    = "Open Road Media",
+  year         = 2014,
+  address      = sfca,
+  month        = dec,
+  keywords     = "assassination, detection, genetic modifications",
+  location     = "978-1-4976-4396-3"
+}
+
+@Book{ahac2009,
+  author       = "Andrea Camilleri",
+  title        = "August Heat",
+  publisher    = "Penguin",
+  year         = 2009,
+  address      = nyny,
+  keywords     = "murrdaar, vacation time, getting played like a chump",
+  location     = "PQ 4863.A3894 V3613"
 }
 
 @Article{hasfadsafes,
@@ -4585,8 +4618,238 @@
   month        = mar,
   keywords     = "cache management, snoopy consistency protocols, snoop
     suppression, modified code, ",
-  abstract     = "Integrating more processor cores on-die has become the unanimous trend in the microprocessor industry.  Most of the current research thrusts using chip multiprocessors (CMPs) as the baseline to analyze problems in various domains.  One of the main design issues facing CMP systems is the growing number of snoops required to maintain cache coherency and to support self/cross-modifying code that leads to power and performance limitations.  In this paper, we analyze the internal and external snoop behavior in a CMP system and relax the snoopy cache coherence protocol based on the program semantics and properties of the shared variables for saving power.  Based on the observations and analyses, we propose two novel techniques: Selective Snoop Probe (SSP) and Essential Snoop Probe (ESP) to reduce power without compromising performance.  Our simulation results show that using the SSPtechnique, 5% to 65% data cache energy savings per core for different processor configurations can be achieved with 1% to 2% performance improvement.  We also show that 5% to 82% of data cache energy per core is spent on the non-essential snoop probes that can be saved using the ESP technique.",
+  abstract     = "Integrating more processor cores on-die has become the
+    unanimous trend in the microprocessor industry.  Most of the current
+    research thrusts using chip multiprocessors (CMPs) as the baseline to
+    analyze problems in various domains.  One of the main design issues facing
+    CMP systems is the growing number of snoops required to maintain cache
+    coherency and to support self/cross-modifying code that leads to power and
+    performance limitations.  In this paper, we analyze the internal and
+    external snoop behavior in a CMP system and relax the snoopy cache
+    coherence protocol based on the program semantics and properties of the
+    shared variables for saving power.  Based on the observations and analyses,
+    we propose two novel techniques: Selective Snoop Probe (SSP) and Essential
+    Snoop Probe (ESP) to reduce power without compromising performance.  Our
+    simulation results show that using the SSPtechnique, 5% to 65% data cache
+    energy savings per core for different processor configurations can be
+    achieved with 1% to 2% performance improvement.  We also show that 5% to
+    82% of data cache energy per core is spent on the non-essential snoop
+    probes that can be saved using the ESP technique.", 
   location     = "https://doi.org/10.1145/1353535.1346290"
+}
+
+@Article{npscmlpmftdc,
+  author       = "Ramya Raghavendra and Parthasarathy Ranganathan and Vanish Talwar and Zhikui Wang and Xiaoyun Zhu",
+  title        = "No ``power'' struggles: coordinated multi-level power management for the data center",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "48--59",
+  month        = mar,
+  keywords     = "data center, power management, coordination, efficiency,
+  capping, virtualization, control theory, heterogeneity",
+  abstract     = "Power delivery, electricity consumption, and heat management
+    are becoming key challenges in data center environments.  Several past
+    solutions have individually evaluated different techniques to address
+    separate aspects of this problem, in hardware and software, and at local
+    and global levels.  Unfortunately, there has been no corresponding work on
+    coordinating all these solutions.  In the absence of such coordination,
+    these solutions are likely to interfere with one another, in unpredictable
+    (and potentially dangerous) ways.  This paper seeks to address this
+    problem.  We make two key contributions.  First, we propose and validate a
+    power management solution that coordinates different individual approaches.
+    Using simulations based on 180 server traces from nine different real-world
+    enterprises, we demonstrate the correctness, stability, and efficiency
+    advantages of our solution.  Second, using our unified architecture as the
+    base, we perform a detailed quantitative sensitivity analysis and draw
+    conclusions about the impact of different architectures, implementations,
+    workloads, and system design choices.", 
+  location     = "https://doi.org/10.1145/1353535.1346289", 
+  location     = "https://www.hpl.hp.com/techreports/2007/HPL-2007-194.pdf"
+}
+
+@Article{etalfcma,
+  author       = "Benjamin~C. Lee and David Brooks",
+  title        = "Efficiency trends and limits from comprehensive microarchitectural adaptivity",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "36--47",
+  month        = mar,
+  keywords     = "reconfiguability, adaptivity, microarchitecture, simulation,
+  statistics, inference, regression, performance, power, efficiency, genetic
+  algorithms, temporal sampling, spatial sampling, regression modeling",
+  abstract     = "Increasing demand for power-efficient, high-performance
+    computing requires tuning applications and/or the underlying hardware to
+    improve the mapping between workload heterogeneity and computational
+    resources.  To assess the potential benefits of hardware tuning, we propose
+    a framework that leverages synergistic interactions between recent advances
+    in (a) sampling, (b) predictive modeling, and (c) optimization heuristics.
+    This framework enables qualitatively new capabilities in analyzing the
+    performance and power characteristics of adaptive microarchitectures.  For
+    the first time, we are able to simultaneously consider high temporal and
+    comprehensive spatial adaptivity.  In particular, we optimize efficiency
+    for many, short adaptive intervals and identify the best configuration of
+    15 parameters, which define a space of 240B point.With frequent
+    sub-application reconfiguration and a fully reconfigurable hardware
+    substrate, adaptive microarchitectures achieve bips3/w efficiency gains of
+    up to 5.3x (median 2.4x) relative to their static counterparts already
+    optimized for a given application.  This 5.3x efficiency gain is derived
+    from a 1.6x performance gain and 0.8x power reduction.  Although several
+    applications achieve a significant fraction of their potential efficiency
+    with as few as three adaptive parameters, the three most significant
+    parameters differ across applications.  These differences motivate a
+    hardware substrate capable of comprehensive adaptivity to meet these
+    diverse application requirements.", 
+  location     = "https://doi.org/10.1145/1353535.1346288", 
+  location     = "https://www.eecs.harvard.edu/~dbrooks/lee2008_asplos.pdf"
+}
+
+@Article{atdpwfvs,
+  author       = "Ravi Bhargava and Benjamin Serebrin and Francesco Spadini and Srilatha Manne",
+  title        = "Accelerating two-dimensional page walks for virtualized systems",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "26--35",
+  month        = mar,
+  keywords     = "virtualization, tlb, memory management, nested paging, page
+  walk caching, hypervisor, virtual machine monitor, amd, virtual page size",
+  abstract     = "Nested paging is a hardware solution for alleviating the
+    software memory management overhead imposed by system virtualization.
+    Nested paging complements existing page walk hardware to form a
+    two-dimensional (2D) page walk, which reduces the need for hypervisor
+    intervention in guest page table management.  However, the extra dimension
+    also increases the maximum number of architecturally-required page table
+    references.This paper presents an in-depth examination of the 2D page table
+    walk overhead and options for decreasing it.  These options include using
+    the AMD Opteron processor's page walk cache to exploit the strong reuse of
+    page entry references.  For a mix of server and SPEC benchmarks, the
+    presented results show a 15%-38% improvement in guest performance by
+    extending the existing page walk cache to also store the nested dimension
+    of the 2D page walk.  Caching nested page table translations and skipping
+    multiple page entry references produce an additional 3%-7% improvement.Much
+    of the remaining 2D page walk overhead is due to low-locality nested page
+    entry references, which result in additional memory hierarchy misses.  By
+    using large pages, the hypervisor can eliminate many of these long-latency
+    accesses and further improve the guest performance by 3%-22%.", 
+  location     = "https://doi.org/10.1145/1353535.1346286", 
+  location     = "https://pages.cs.wisc.edu/~remzi/Classes/838/Spring2013/Papers/p26-bhargava.pdf"
+}
+
+@Article{hlcygrfhsmtce,
+  author       = "Jonathan~M. McCune and Bryan Parno and Adrian Perrig and Michael~K. Reiter and Arvind Seshadri",
+  title        = "How low can you go?: recommendations for hardware-supported minimal {TCB} code execution",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "14--25",
+  month        = mar,
+  keywords     = "trusted computing, late launch, secure execution, access control",
+  abstract     = "We explore the extent to which newly available CPU-based
+    security technology can reduce the Trusted Computing Base (TCB) for
+    security-sensitive applications.  We find that although this new technology
+    represents a step in the right direction, significant performance issues
+    remain.  We offer several suggestions that leverage existing processor
+    technology, retain security, and improve performance.  Implementing these
+    recommendations will finally allow application developers to focus
+    exclusively on the security of their own code, enabling it to execute in
+    isolation from the numerous vulnerabilities in the underlying layers of
+    legacy code.", 
+  location     = "https://doi.org/10.1145/1353535.1346285", 
+  location     = "http://www.cs.cmu.edu/~arvinds/pubs/asplos08.pdf"
+}
+
+@Article{oavbatrpicos,
+  author       = "Xiaoxin Chen and Tal Garfinkel and E.~Christopher Lewis and Pratap Subrahmanyam and Carl~A. Waldspurger and Dan Boneh and Jeffrey Dwoskin and Dan R.K.~Ports",
+  title        = "Overshadow: a virtualization-based approach to retrofitting protection in commodity operating systems",
+  journal      = asplos08,
+  year         = 2008,
+  volume       = 42,
+  number       = 2,
+  pages        = "2--13",
+  month        = mar,
+  keywords     = "virtual machine onitors, vmm, hypervisors, operating systems,
+    memory protection, multi-shadowing, cloaking",
+  abstract     = "Commodity operating systems entrusted with securing sensitive
+    data are remarkably large and complex, and consequently, frequently prone
+    to compromise.  To address this limitation, we introduce a
+    virtual-machine-based system called Overshadow that protects the privacy
+    and integrity of application data, even in the event of a total
+    OScompromise.  Overshadow presents an application with a normal view of its
+    resources, but the OS with an encrypted view.  This allows the operating
+    system to carry out the complex task of managing an application's
+    resources, without allowing it to read or modify them.  Thus, Overshadow
+    offers a last line of defense for application data.Overshadow builds on
+    multi-shadowing, a novel mechanism that presents different views of
+    'physical' memory, depending on the context performing the access.  This
+    primitive offers an additional dimension of protection beyond the
+    hierarchical protection domains implemented by traditional operating
+    systems and processor architectures.We present the design and
+    implementation of Overshadow and show how its new protection semantics can
+    be integrated with existing systems.  Our design has been fully implemented
+    and used to protect a wide range of unmodified legacy applications running
+    on an unmodified Linux operating system.  We evaluate the performance of
+    our implementation, demonstrating that this approach is practical.", 
+  location     = "https://doi.org/10.1145/1353535.1346284", 
+  location     = "https://www.cs.utexas.edu/~shmat/courses/cs380s/overshadow.pdf"
+}
+
+@Article{emdfa,
+  author       = "Judy~M. Bishop",
+  title        = "Effective machine descriptors for {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "235--242",
+  month        = nov,
+  keywords     = "data descriptors, indexing, subranges, vectors, dynamic
+    bounds, packing",
+  abstract     = "With the impetus provided by the U.S.  Department of
+    Defense's support for Ada, serious attention must once again be given to
+    the design of computer architecture for the efficient execution of
+    structured high level languages.  Descriptors are one of the more
+    theoretically popular features in a structured machine, yet in practice
+    they do not come up to expectations.  This paper examines the deficiencies
+    of current descriptor implementations, and goes on to propose a new
+    approach to descriptors.  The design takes into account the relative usage
+    of scalar and structured data in structured programs, and pays due
+    attention to the efficient representation of descriptors as well as to
+    packing, the question of uninitialised values and the contribution which
+    the compiler makes to range and index checking.", 
+  location     = "https://doi.org/10.1145/948632.948664", 
+  location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a169589.pdf"
+}
+
+@Article{tdoavmfa,
+  author       = "L.~J. Groves and W.~J. Rogers",
+  title        = "The design of a virtual machine for {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "223--234",
+  month        = nov,
+  keywords     = "virtual machine design, compile-time/run-time trade-offs,
+    storage, data types, control flow, code structure, tasks",
+  abstract     = "An implementation of Ada should be based on a
+    machine-independent translator generating code for a Virtual Machine, which
+    can be realised on a variety of machines.  This approach, which leads to a
+    high degree of compiler portability, has been very successful in a number
+    of recent language implementation projects and is the approach which has
+    been specified by the U.  S.  Army and Air Force in their requirements for
+    Ada implementations.This paper discusses the rationale, requirements and
+    design of such a Virtual Machine for Ada.  The discussion concentrates on a
+    number of fundamental areas in which problems arise: basic Virtual Machine
+    structure, including storage structure and addressing; data storage and
+    manipulation; flow of control; subprograms, blocks and exceptions; and task
+    handling.", 
+  location     = "https://doi.org/10.1145/948632.948663"
 }
 
 @TechReport{oem2fblis,
