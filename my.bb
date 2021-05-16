@@ -327,6 +327,18 @@
   location     = "PQ 4863.A3894 V3613"
 }
 
+@Book{prmg2009,
+  author       = "Gessen, Masha",
+  title        = "Perfect Rigor",
+  subtitle     = "A Genius and the Mathematical Breakthrough of the Century",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2009,
+  address      = boma,
+  keywords     = "grigory perelman, poincare conjecture, millennium problem,
+    russian mathematics education, mathematical society",
+  location     = "QA29.P6727 G47"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -4850,6 +4862,173 @@
     manipulation; flow of control; subprograms, blocks and exceptions; and task
     handling.", 
   location     = "https://doi.org/10.1145/948632.948663"
+}
+
+@Article{oafmottcia,
+  author       = "Hans Henrik Løvengreen and Dines Bjørner",
+  title        = "On a formal model of the tasking concept in {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "213--222",
+  month        = nov,
+  keywords     = "denotational semantics, meta-iv, formal methods, tasking",
+  abstract     = "This paper describes the August 1980 state of the development
+    of a formal model of the Ada tasking concept.  The model is being developed
+    at the Department of Computer Science, Technical University of Denmark in
+    collaboration with the Danish Datamatics Centre as part of a full Ada
+    compiler development project summarized below.  The paper includes a short
+    characterization of the (present) tasking concepts in Ada on which the
+    model is based.  The model description is rather informal to let you have
+    an idea about the modelling principles.  In appendix A a detailed example
+    is given, unfolding the course of a rendezvous.  The paper ends with a
+    sketch of how an implementation can be systematically derived from the
+    formal model.", 
+  location     = "https://doi.org/10.1145/800004.807952", 
+  location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a169589.pdf"
+}
+
+@Article{ampiofdoais,
+  author       = "F.~C. Belz and E.~K. Blum and D.~Heimbigner",
+  title        = "{A} multi-processing implementation-oriented formal definition of {Ada} in {SEMANOL}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "202--212",
+  month        = nov,
+  keywords     = "formal methods, static semantics, concurrency semantics, exceptions",
+  abstract     = "A formal definition of the syntax and semantics of
+    Preliminary Ada has been designed and partially implemented as a
+    metaprogram in the SEMANOL system.  The paper describes the design in
+    detail and also presents excerpts of the actual SEMANOL metaprogram.
+    Special attention is paid to the following aspects, lacking in the formal
+    denotational definition of Ada: (1) formal definition of the connection
+    between the concrete and abstract syntax of Ada, a necessary element of a
+    formal definition if it is to be executable; (2) formal definition of the
+    semantics of concurrency in Ada tasking; (3) formal definition of the
+    semantics of exceptions and interrupts.  The complete SEMANOL metaprogram
+    will be an executable formal definition.  In effect, it defines a
+    multi-processing operating system which accepts an Ada program, as a set of
+    compilation units, together with data, and causes the program to be
+    executed in a concurrent mode in accordance with the semantics of tasks
+    prescribed in the Ada reference manual and rationale.", 
+  location     = "https://doi.org/10.1145/800004.807951"
+}
+
+@Article{tnatai,
+  author       = "Robert B.~K. Dewar and Gerald~A. Fisher and Edmond Schonberg and Robert Froehlich and Stephen Bryant and Clinton~F. Goss and Michael Burke",
+  title        = "The {NYU} {Ada} translator and interpreter",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "194--201",
+  month        = nov,
+  keywords     = "setl, very-high level languages, intermediate code, error
+    recovery, interpreters, generics, tasking",
+  abstract     = "The NYU-Ada project is engaged in the design and
+    implementation of a translator-interpreter for the Ada language.  The
+    objectives of this project are twofold: a) to provide an executable
+    semantic model for the full Ada language, that can be used for teaching,
+    and serve as a starting point for the design of an efficient Ada compiler;
+    b) to serve as a testing ground for the software methodology that has
+    emerged from our experience with the very-high level language SETL.  In
+    accordance with these objectives, the NYU-Ada system is written in a
+    particularly high-level, abstract SETL style that emphasizes clarity of
+    design and user interface over speed and efficiency.  A number of unusual
+    design features of the translator and interpreter follow from this
+    emphasis.  Some of these features are described below.  We also discuss the
+    question of semantic specification of programming languages, and the
+    general methodology of “Software Prototyping” of which the NYU-Ada system
+    is a sizeable example.", 
+  location     = "https://doi.org/10.1145/800004.807950"
+}
+
+@Article{ststatpapta,
+  author       = "Paul~F. Albrecht and Phillip~E. Garrison and Susan~L. Graham and Robert~H. Hyerle and Patricia Ip and Bernd Krieg Brückner",
+  title        = "Source-to-source translation: {Ada} to {Pascal} and {Pascal} to {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "183--193",
+  month        = nov,
+  keywords     = "source-to-source transformations, sublanguages",
+  abstract     = "An implementation of translators between Ada and Pascal is
+    described. The method used is to define subsets of each language between
+    which there is a straightforward translation and to translate each source
+    program to its respective sublanguage by program transformations.  A common
+    internal tree representation is used.  The underlying organization of the
+    translators is described, and some of the difficulties we have confronted
+    and solved are discussed.", 
+  location     = "https://doi.org/10.1145/800004.807949"
+}
+
+@Article{aaastt,
+  author       = "Gary~L. Filipski and Donald~R. Moore and John~E. Newton",
+  title        = "{Ada} as a software transition tool",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "176--182",
+  month        = nov,
+  keywords     = "algol, portability, translation",
+  abstract     = "Our agency plans to use the Ada programming language as a
+    vehicle to transport a locally written inquiry system from Burroughs'
+    equipment to another vendor's hardware.  This is being done in the
+    following manner.  A bootstrap Ada translator has been written in Pascal to
+    generate Burroughs' ALGOL.  The Ada translator will be recoded into Ada.
+    The inquiry system will be rewritten into Ada from ALGOL and executed on
+    the current Burroughs' machine.  When the new hardware is selected, the Ada
+    translator will be retargeted to generate an efficient language on that
+    machine, thereby transporting the inquiry system.  The Ada translator will
+    be discarded for an Ada compiler on the new system.", 
+  location     = "https://doi.org/10.1145/800004.807948", 
+  location     = "https://apps.dtic.mil/dtic/tr/fulltext/u2/a169589.pdf"
+}
+
+@Article{aftam,
+  author       = "D.~R. Stevenson",
+  title        = "Algorithms for translating {Ada} multitasking",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "166--175",
+  month        = nov,
+  keywords     = "ada-m, modeling, tasking",
+  abstract     = "Algorithms are presented for translating the multitasking
+    constructs of Ada into the language Ada-M.  The purpose of the translation
+    is to study various implementations of Ada tasking and their relative
+    problems, merits, and efficiencies.  The multiprocessing constructs of
+    Ada-M are lower level than those of Ada and, hence, flexible enough to
+    permit development of a variety of compilation techniques for Ada tasking.
+    Ada-M is sufficiently high-level, however, to permit the implementations to
+    be developed quickly and understandably.  Requirements for data structures,
+    scheduling, and other pertinant elements of Ada tasking compilation are
+    identified by the translation.", 
+  location     = "https://doi.org/10.1145/800004.807947"
+}
+
+@Article{tramcitaed,
+  author       = "W.~Eventoff and D.~Harvey and R.~J. Price",
+  title        = "The rendezvous and monitor concepts: Is there an efficiency difference?",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "156--165",
+  month        = nov,
+  keywords     = "concurrent pascal, tasking, monitors, rendezvous",
+  abstract     = "The efficiency of Ada's rendezvous concept is compared with
+    Concurrent Pascal's monitor concept.  The differences between the two
+    approaches, as well as a number of issues relating to their implementation,
+    are presented.  The results indicate that a concurrent programming language
+    should provide both types of concepts.",
+  location     = "https://doi.org/10.1145/800004.807946"
 }
 
 @TechReport{oem2fblis,
