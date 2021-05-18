@@ -339,6 +339,27 @@
   location     = "QA29.P6727 G47"
 }
 
+@Book{wfts,
+  author       = "Leonard~L. Richards",
+  title        = "Who Freed the Slaves?",
+  subtitle     = "The Fight Over the Thirteenth Amendment",
+  publisher    = ucp,
+  year         = 2015,
+  address      = chil,
+  keywords     = "slavery, politics, civil war",
+  location     = "KF 4545.S5 R53"
+}
+
+@Book{votv,
+  author       = "Andrea Camilleri",
+  title        = "Voice of the Violin",
+  publisher    = "Viking",
+  year         = 2003,
+  address      = nyny,
+  keywords     = "murrdaar, debt, crooked cops",
+  location     = "PQ 4863.A3894 V613"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
