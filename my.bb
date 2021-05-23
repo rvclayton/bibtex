@@ -5052,6 +5052,188 @@
   location     = "https://doi.org/10.1145/800004.807946"
 }
 
+@Article{aacgfv17wu,
+  author       = "Mark Sherman and Andy Hisgen and David Alex Lamb and Jonathan Rosenberg",
+  title        = "An {Ada} code generator for {VAX} 11/780 with " # unix,
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "91--98",
+  month        = nov,
+  keywords     = "machine models, run-time management, unix, stack machines",
+  abstract     = "This paper describes the final phase of an Ada compiler which
+    produces code for the VAX 11/780 running the Unix operating system.
+    Problems encountered in the implementation of subprogram calls, parameter
+    passing, function return values, and exception handling are discussed and
+    their solutions outlined.  An underlying requirement for the code generator
+    has been speed of implementation consistent with being a test bed for an
+    Ada implementation.  To accomplish this, a common model for the target
+    environment has been assumed.  The assumptions include: the VAXis a stack
+    machine, a single address space is used, only the general case is
+    implemented (no optimization of special cases), the hardware does as much
+    work as possible, run time routines for lengthy code sequences are
+    acceptable, and the conventions given in the VAX architecture, hardware,
+    and software manuals are used.  The code generator has been running on a
+    PDP-10 with Tops-10, producing a VAX assembly language source program as
+    output.  It has been available to local users since the beginning of
+    1980.", 
+  location     = "https://doi.org/10.1145/800004.807939"
+}
+
+@Article{taatmeotpac,
+  author       = "Benjamin~M. Brosgol",
+  title        = "{TCOL}${}_{\hbox{\rm Ada}}$ and the ``Middle End'' of the {PQCC Ada} compiler",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "101--112",
+  month        = nov,
+  keywords     = "intermediate representations, attributed graph
+    representations, abstract representations, middle-end, generative code,
+    generics",
+  abstract     = "A compiler is traditionally partitioned into a (mostly)
+    machine independent Front End which performs lexical, syntactic, and
+    semantic analysis, and a machine dependent Back End which performs
+    optimization and code generation.  In the Ada compiler being implemented at
+    Carnegie-Mellon University in the PQCC project, it is useful to identify a
+    set of phases occurring at the start of the Back End - i.e., “Middle End” -
+    after semantic analysis but before optimization.  These phases, known
+    collectively as “CWVM” (an abbreviation for “Compiler Writer's Virtual
+    Machine”) make basic representational choices and reflect these in an
+    expanded program tree.  This paper describes both TCOLAda - the
+    intermediate language interface produced by the Front End - and the phases
+    comprising CWVM.  TCOLAda is a graph structured high level representation
+    of the source program which includes both the symbol table and the program
+    tree.  The CWVM phases perform transformations of the TCOLAda graph which
+    fall into three categories: language oriented (e.g., expansion of checking
+    for constructs such as array indexing), virtual machine oriented (e.g.,
+    translation of up-level addressing into “display” vector accesses), and
+    actual machine oriented (e.g., expansion of component selection into
+    address arithmetic).", 
+  location     = "https://doi.org/10.1145/800004.807940"
+}
+
+@Article{apmodavapwp,
+  author       = "David~C. Luckham and Wolfgang Polak",
+  title        = "{A} practical method of documenting and verifying {Ada} programs with packages",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "113--122",
+  month        = nov,
+  keywords     = "modules, documentation, formal specifications, proof theory",
+  abstract     = "We present a method of formal specification of Ada programs containing packages.  The method suggests concepts and guidelines useful for giving adequate informal documentation of packages by means of comments.  The method depends on (1) the standard inductive assertion technique for subprograms, (2) the use of history sequences in assertions specifying the declaration and use of packages, and (3) the addition of three categories of specifications to Ada package declarations: (a) visible specifications, (b) boundary specifications, (c) internal specifications.  Axioms and proof rules for the Ada package constructs (declaration, instantiation, and function and procedure call) are given in terms of history sequences and package specifications.  These enable us to construct formal proofs of the correctness of Ada programs with packages.  The axioms and proof rules are easy to implement in automated program checking systems.  The use of history sequences in both informal documentation and formal specifications and proofs is illustrated by examples.",
+  location     = "https://doi.org/10.1145/800004.807941"
+}
+
+@Article{gavia,
+  author       = "William~D. Young and Donald~I. Good",
+  title        = "Generics and verification in {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "123--127",
+  month        = nov,
+  keywords     = "generics, proof modularity, generic verification",
+  abstract     = "This paper explores the restrictions a mechanism in the style
+    of the Ada generics facility would have to satisfy in order to be amenable
+    to existing verification techniques.  “Generic verification” is defined and
+    defended as the appropriate goal for any such facility.  Criteria are
+    developed for generic verification to be possible and then Ada is evaluated
+    with respect to these criteria.  An example of the application of these
+    techniques to an Ada unit is presented to show that generic verification is
+    possible at least on a subclass of Ada generic units.  Finally some
+    potential applications of verified generic units are presented.",
+  location     = "https://doi.org/10.1145/800004.807942"
+}
+
+@Article{atalfaap,
+  author       = "Bernd Krieg Brückner and David~C. Luckham",
+  title        = "{ANNA}: Towards a language for annotating {Ada} programs",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "128--138",
+  month        = nov,
+  keywords     = "formal specification, program development, annotations,
+    state-based specifications",
+  abstract     = "ANNA is a proposal to extend Ada to include facilities for
+    formally specifying the intended behaviour of Ada programs (or portions
+    thereof) at all stages of program development.  ANNA programs are Ada
+    programs with formal comments.  Formal comments in ANNA consist of virtul
+    Ada text and annotations.  The syntax and semantics of different kinds of
+    annotations are defined: declarative annotations (for variables, subtypes,
+    subprograms, and packages), statement annotations, exception annotations,
+    and visibility annotations.  ANNA includes a small number of predefined
+    attributes which may appear only in annotations, e.g., access type
+    collections.  The lexical structure of ANNA is designed so that the
+    extensions of Ada appear as Ada comments.  ANNA programs are therefore
+    acceptable by Ada translators.  The semantics of annotations are defined in
+    terms of Ada concepts, in particular many annotations are generalizations
+    of the constraint concept.  It is therefore a simple step for the Ada
+    programmer to use ANNA to give formal specifications of programs.  ANNA is
+    intended to provide a formal framework within which different theories of
+    formal specification may be applied to Ada.  Our proposal omits tasking for
+    the time being.", 
+  location     = "https://doi.org/10.1145/800004.807943"
+}
+
+@Article{niapiftb,
+  author       = "Lori~A. Clarke and Jack~C. Wileden and Alexander~L. Wolf",
+  title        = "Nesting in {Ada} programs is for the birds",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "139--145",
+  month        = nov,
+  keywords     = "scoping, program structure, packages, name-space control",
+  abstract     = "Given a data abstraction construct like the Ada package and
+    in light of current thoughts on programming methodology, we feel that
+    nesting is an anachronism.  In this paper we propose a nest-free program
+    style for Ada that eschews nested program units and declarations within
+    blocks and instead heavily utilizes packages and context specifications as
+    mechanisms for controlling visibility.  We view this proposal as a first
+    step toward the development of programming methods that exploit the novel
+    language features available in Ada.  Consideration of this proposal's
+    ramifications for data flow, control flow, and overall program structure
+    substantiates our contention that a tree structure is seldom a natural
+    representation of a program and that nesting therefore generally interferes
+    with program development and readability.", 
+  location     = "https://doi.org/10.1145/800004.807944", 
+  location     = "https://www.doc.ic.ac.uk/~alw/doc/papers/ada80.pdf"
+}
+
+@Article{etairts,
+  author       = "Lee MacLaren",
+  title        = "Evolving toward {Ada} in real time systems",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "146--155",
+  month        = nov,
+  keywords     = "real-time systems, scheduling, multitasking, cyclic execution",
+  abstract     = "The Ada view of multitasking represents a radical departure
+    from the traditional “cyclic executive” approach to real time operating
+    systems.  Since system designers must by necessity be conservative, it
+    would be unrealistic to expect an abrupt change of this magnitude in
+    engineering practice.  Instead, this paper outlines a sequence of
+    intermediate steps designed so that the advantages and familiar structures
+    of cyclic systems may be retained, while the capabilities of Ada
+    multitasking are gradually incorporated.  A scale of increasing scheduling
+    complexity provides the justification for this sequence.  The discussion of
+    each step then briefly mentions some of the related benefits and costs.
+    The paper draws some conclusions about the use of Ada in real time
+    systems.", 
+  location     = "https://doi.org/10.1145/800004.807945"
+}
+
 @TechReport{oem2fblis,
   author       = "Rovner, Paul and Levin, Roy and Wick, John",
   title        = "On Extending {Modula}-2 for Building Large, Integrated Systems",
