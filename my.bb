@@ -360,6 +360,39 @@
   location     = "PQ 4863.A3894 V613"
 }
 
+@Book{wrp2017,
+  title        = "Who Reads Poetry?",
+  subtitle     = "Fifty Views from Poetry Magazine",
+  editor       = "Fred Sasaki and Don Share",
+  publisher    = ucp,
+  year         = 2017,
+  address      = chil,
+  keywords     = "poetry",
+  location     = "PN 1055.W53"
+}
+
+@Book{tmotrm,
+  author       = "Jason Fox",
+  title        = "The Myth of the Rational Market",
+  subtitle     = "A History of Risk, Reward, and Delusion on Wall Street",
+  publisher    = "Harper Business",
+  year         = 2019,
+  address      = nyny,
+  keywords     = "finance, mathematics, science, randomness, mass delusions",
+  location     = "HB 3731 .F69"
+}
+
+@Book{tsota,
+  author       = "Herbert~A. Simon",
+  title        = "The Sciences of the Artificial",
+  publisher    = mitp,
+  year         = 1996,
+  edition      = "third",
+  address      = cma,
+  keywords     = "human cognition, design, reasoning, hierarchy, interfaces",
+  location     = "Q 175.S564"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -5232,6 +5265,196 @@
     The paper draws some conclusions about the use of Ada in real time
     systems.", 
   location     = "https://doi.org/10.1145/800004.807945"
+}
+
+@Article{arrfavat,
+  author       = "Andy Hisgen and David Alex Lamb and Jonathan Rosenberg and Mark Sherman",
+  title        = "{A} runtime representation for {Ada} variables and types",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "82--90",
+  month        = nov,
+  keywords     = "subtypes, constraints, dynamic arrays, discriminants, type
+    descriptors, block operations",
+  abstract     = "The type and subtype facilities of the Ada programming
+    language permit some subtype information to be determined dynamically.
+    This subtype information requires a runtime representation, and its dynamic
+    nature influences the representation of variables.  In this paper, we first
+    review Ada's types and subtypes to identify some of those aspects which
+    affect runtime representation.  We then present the particular
+    representation scheme which is used in the CHARRETTE Ada implementation.
+    The scheme is straightforward and consistent in that a variable is
+    represented the same way independently of where it appears, whether it is
+    on the stack, on the heap, or a component of another variable.  The design
+    treats Ada's discriminants and discriminant constraints as a form of
+    parameterized types, where the parameterization permits different instances
+    of a type to have different variants and different sizes for array fields.
+    Composition of such parameterized types is supported.  We explain how
+    several Ada operations are handled by our particular representation.  We
+    briefly discuss some alternative approaches to Ada representation,
+    comparing them to our design.", 
+  location     = "https://doi.org/10.1145/800004.807938"
+}
+
+@Article{tcac,
+  author       = "Jonathan Rosenberg and David Alex Lamb and Andy Hisgen and Mark Sherman",
+  title        = "The Charrette {Ada} compiler",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "72--81",
+  month        = nov,
+  keywords     = "intermediate representations, parsing, run-time organization,
+    declarations, translation",
+  abstract     = "The Charrette Ada compiler is a working compiler for a
+    substantial subset of the preliminary Ada language.  The Ada source program
+    is translated into an equivalent program in an intermediate implementation
+    language.  The result of the compilation process is machine language
+    generated for this intermediate program.  This paper provides a brief
+    overview of the compiler with special attention given to the primary
+    translation phase.  Emphasis is placed on the transformation of Ada type
+    and subtype information and the representation of objects.  The translation
+    of several interesting statement and expression forms is also outlined.", 
+  location     = "https://doi.org/10.1145/800004.807937", 
+  location     = "https://kilthub.cmu.edu/articles/journal_contribution/The_Charrette_Ada_compiler/6610439"
+}
+
+@Article{afsafa,
+  author       = "Mark~S. Sherman and Martha~S. Borkan",
+  title        = "{A} flexible semantic analyzer for {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "62--69",
+  month        = nov,
+  keywords     = "semantic analyzers, simula, overload resolution, scope
+    management, packages",
+  abstract     = "A technique for writing semantic analysis phases of compilers
+    is described.  The technique uses Simula classes and virtual procedures to
+    create a flexible and modular program.  This technique is used to implement
+    a semantic analysis phase of a compiler front end for the preliminary Ada
+    language.  Because the design is extremely flexible and modular, the front
+    end is able to accommodate changes in the Ada language and its semantics as
+    they are published.  Several problems were encountered when implementing
+    Ada's semantics.  These problems are described and their solutions
+    presented.  The front end also produces TCOLAda, the specified intermediate
+    language for various Ada compiler contracts.  This output has been used by
+    an experimental compiler back end.  [9] The front end is written as two
+    programs which perform lexical analysis, syntactic analysis, semantic
+    analysis, and TCOLAda generation.  The front end is coded in Simula, and
+    has been running on DEC Tops-10 and Tops-20 systems since September 1979.", 
+  location     = "https://doi.org/10.1145/800004.807936"
+}
+
+@Article{triaair,
+  author       = "Peter~A. Belmont",
+  title        = "Type resolution in {Ada}: An implementation report",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "57--61",
+  month        = nov,
+  keywords     = "name resolution, type determination",
+  abstract     = "Various features of Ada [Ichbiah 79, Honeywell 80] make type
+    resolution an interesting and difficult as implemented in a semantic
+    analyzer for Ada built in 1979-80.  First, a straightforward algorithm,
+    similar to that of Ganzinger and Ripken [Ganzinger 80], is discussed.  Next
+    an optimized version of this algorithm is presented.  The optimization is
+    based on the idea that, in a tree-walking analysis in which the information
+    developed on one branch can affect the analysis elsewhere, and where the
+    difficulty of analysis is not uniform, analysis should be performed a
+    little at a time wherever it is most likely to be useful rather than
+    according to any data-independent, pre-planned method such as bottom-up or
+    top-down.  This raises the likelihood that the analysis of “simple”
+    branches will occur early and so ease the computational cost of analyzing
+    the more difficult branches.", 
+  location     = "https://doi.org/10.1145/800004.807935"
+}
+
+@Article{oipa,
+  author       = "Guido Persch and Georg Winterstein and Manfred Dausmann and Sophia Drossopoulou",
+  title        = "Overloading in preliminary {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "47--56",
+  month        = nov,
+  keywords     = "overloading, name resolution",
+  abstract     = "Ada permits the overloading of enumeration literals,
+    aggregates, subprograms and operators, i.e.  the declaration of the same
+    designator with different meanings in the same scope.  This leads to
+    difficulties during the semantic analysis of expressions and subprogram
+    calls.  For selecting the meaning not only the designator but also the
+    types of its operands or parameters and the type of its result must be
+    used.  We show that the identification of expressions is possible in two
+    passes, the first bottom-up, the second top-down.", 
+  location     = "https://doi.org/10.1145/800004.807934"
+}
+
+@Article{tacfefa,
+  author       = "Gerhard Goos and Georg Winterstein",
+  title        = "Towards a compiler front-end for {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "36--46",
+  month        = nov,
+  keywords     = "bootstrapping, modularization, semantic analysis, separate
+    compilation, aida, intermediate representations",
+  abstract     = "This paper discusses the current development of a compiler
+    front-end for Ada at the University of Karlsruhe.  The front-end is
+    independent of the target-machine and will compile Ada into an intermediate
+    language AIDA, essentially an attributed structure tree.  The front-end is
+    written in its own language using Ada-0 and LIS as preliminary compilers
+    for the bootstrap.  The compiler in its present form relies heavily on the
+    formal definition of Ada which is under development at CII and IRIA.", 
+  location     = "https://doi.org/10.1145/800004.807933"
+}
+
+@Article{uafiema,
+  author       = "A.~G. Duncan and J.~S. Hutchison",
+  title        = "Using {Ada} for industrial embedded microprocessor applications",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "26--35",
+  month        = nov,
+  keywords     = "microcontrollers, software development",
+  abstract     = "This paper investigates the use of Ada as a high level
+    implementation language for use on microprocessors embedded in industrial
+    applications.  Many of these applications use microprocessors with minimal
+    hardware, that is, no hardware support for a stack and possibly not even a
+    hardware clock.  The use of minimal hardware is dictated by manufacturing
+    economics.  If one can save $.25 per unit over a run of 100,000 units, the
+    total savings will be $25,000.  An Ada implementation for such hardware
+    will differ greatly from an implementation for a large mainframe.  For
+    instance, the storage allocator cannot blithely allocate space for
+    variables in activation records.  While these programs do not use many of
+    Ada's powerful language features, the compiler must be able to generate
+    highly optimized code for those parts of the language that are used.  Our
+    discussion of Ada centers around a typical application, a program to
+    control an automatic oven.  While this example is not one of our intended
+    applications, it embodies most of the problems that we expect to find in
+    practice.  The example was inspired by McCracken's furnace control case
+    study [1], written in PL/M, and provides a good opportunity for comparing
+    Ada with PL/M.  Applications like the oven control program require a number
+    of sophisticated compiler optimizations.  In addition to performing the
+    usual common subexpression analysis, removal of redundant and unreachable
+    code, and sophisticated peephole optimizations, the compiler must be
+    capable of complete static allocation of all data and must be able to
+    perform significant amounts of verification to simplify generated code,
+    especially with respect to error checks and exception handling.  Finally,
+    we discuss some language problems and some pragmas that we feel are
+    necessary for use of Ada in real-time and time-dependent situations.", 
+  location     = "https://doi.org/10.1145/800004.807932"
 }
 
 @TechReport{oem2fblis,
