@@ -3,6 +3,7 @@
 @string{asplos04 = sigplan # " (" # pot # "Eleventh International Conference on " # asplos # ", ASPLOS XI)"}
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{asplos08 = sigplan # " (" # pot # "Thirteenth International Conference on " # asplos # ", ASPLOS XIII)"}
+@string{asplos09 = sigplan # " (" # pot # "Fourteenth International Conference on " # asplos # ", ASPLOS XIV)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
@@ -391,6 +392,37 @@
   address      = cma,
   keywords     = "human cognition, design, reasoning, hierarchy, interfaces",
   location     = "Q 175.S564"
+}
+
+@Book{fof2012,
+  author       = "Levenstein, Harvey~A.",
+  title        = "Fear of Food",
+  subtitle     = "A History of Why We Worry About What We Eat",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "dietary science, nutrition, fads, health, diets, phobias",
+  location     = "TX 360.U6"
+}
+
+@Book{sre2013,
+  author       = "Toh EnJoe",
+  title        = "Self-Reference {ENGINE}",
+  publisher    = "Haikasoru",
+  year         = 2013,
+  address      = sfca,
+  keywords     = "science fiction, experimental fiction",
+  location     = "PL 869.5.N55 S4513"
+}
+
+@Book{ett2005,
+  author       = "Andrea Camilleri",
+  title        = "Excursion to Tindari",
+  publisher    = "Penguin",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "murrdaar, organ trafficking",
+  location     = "PQ4 863.A3894 G3713"
 }
 
 @Article{hasfadsafes,
@@ -5185,7 +5217,7 @@
 }
 
 @Article{atalfaap,
-  author       = "Bernd Krieg Brückner and David~C. Luckham",
+  author       = "Bernd Krieg Br{\" u}ckner and David~C. Luckham",
   title        = "{ANNA}: Towards a language for annotating {Ada} programs",
   journal      = sapl80,
   year         = 1980,
@@ -5455,6 +5487,209 @@
     we discuss some language problems and some pragmas that we feel are
     necessary for use of Ada in real-time and time-dependent situations.", 
   location     = "https://doi.org/10.1145/800004.807932"
+}
+
+@Article{adatse,
+  author       = "Richard~E. Fairley",
+  title        = "{Ada} debugging and testing support environments",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "16--25",
+  month        = nov,
+  keywords     = "testing, documentation, development support environments",
+  abstract     = "This paper presents analysis and design considerations for
+    Ada Programming Support Environments (APSEs) to support interactive
+    debugging and testing of embedded, real time software at the Ada source
+    code level.  The analysis is based on the “Stoneman” requirements
+    specification for APSEs (1).  Important factors in the analysis and design
+    of Ada debugging and testing support systems include the requirement for a
+    source level system, the host machine-target machine configurations, the
+    real time and concurrent nature of target software, and the KAPSE virtual
+    machine interface to the APSE data base.  Although this paper is
+    specifically concerned with debugging and testing issues, the methods
+    utilized and the results obtained are of general applicability.  The
+    following sections of the paper address general analysis considerations,
+    source level support environments, design considerations for an interactive
+    source level debugger, and KAPSE design considerations.", 
+  location     = "https://doi.org/10.1145/800004.807931"
+}
+
+@Article{aewpia,
+  author       = "David~S. Notkin",
+  title        = "An experience with parallelism in {Ada}",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "9--15",
+  month        = nov,
+  keywords     = "gandalf, project management, package management, synchronization",
+  abstract     = "One of the more interesting and controversial features of Ada
+    is the tasking structure.  The Ada tasking facility provides high level
+    mechanisms for communication and synchronization among tasks executing in
+    parallel.  The open question about these mechanisms is whether they provide
+    programmers with both the appropriate level of abstraction and also the
+    necessary level of control.  This paper describes in detail the
+    implementation of a system using parallelism that was written during the
+    Ada test and evaluation process.", 
+  location     = "https://doi.org/10.1145/800004.807930"
+}
+
+@Article{tacvc,
+  author       = "John~B. Goodenough",
+  title        = "The {Ada} Compiler Validation Capability",
+  journal      = sapl80,
+  year         = 1980,
+  volume       = 15,
+  number       = 11,
+  pages        = "1--8",
+  month        = nov,
+  keywords     = "validation, compiler implementation, testing",
+  abstract     = "The Ada Compiler Validation Capability consists of tests,
+    tools, procedures, and documentation designed to enforce (and encourage)
+    development of compilers that conform to the Ada language Standard.  In
+    this paper, we discuss our approach to solving the principal problems faced
+    in developing and using such a capability.", 
+  location     = "https://doi.org/10.1145/800004.807929"
+}
+
+@Article{asfstpwpbstidp,
+  author       = "Robert~D. Cameron and Dan Lin",
+  title        = "Architectural Support for {SWAR} Text Processing with Parallel Bit Streams:  The Inductive Doubling Principle",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "325--335",
+  month        = mar,
+  keywords     = "inductive doubling, parallel bit streams, swar, bit twiddling",
+  abstract     = "Parallel bit stream algorithms exploit the SWAR (SIMD within
+    a register) capabilities of commodity processors in high-performance text
+    processing applications such as UTF-8 to UTF-16 transcoding, XML parsing,
+    string search and regular expression matching.  Direct architectural
+    support for these algorithms in future SWAR instruction sets could further
+    increase performance as well as simplifying the programming task.  A set of
+    simple SWAR instruction set extensions are proposed for this purpose based
+    on the principle of systematic support for inductive doubling as an
+    algorithmic technique.  These extensions are shown to significantly reduce
+    instruction count in core parallel bit stream algorithms, often providing a
+    3X or better improvement.  The extensions are also shown to be useful for
+    SWAR programming in other application areas, including providing a
+    systematic treatment for horizontal operations.  An implementation model
+    for these extensions involves relatively simple circuitry added to the
+    operand fetch components in a pipelined processor.", 
+  location     = "https://doi.org/10.1145/2528521.1508283"
+}
+
+@Article{sasfafcrt,
+  author       = "Karthik Ramani and Christiaan~P. Gribble and Al Davis",
+  title        = "{StreamRay}: a stream filtering architecture for coherent ray tracing",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "325--336",
+  month        = mar,
+  keywords     = "graphics processors, interactive rendering, ray tracing, wide
+    simd architectures, coherence, scatter-gather",
+  abstract     = "The wide availability of commodity graphics processors has
+    made real-time graphics an intrinsic component of the human/computer
+    interface.  These graphics cores accelerate the z-buffer algorithm and
+    provide a highly interactive experience at a relatively low cost.  However,
+    many applications in entertainment, science, and industry require high
+    quality lighting effects such as accurate shadows, reflection, and
+    refraction.  These effects can be difficult to achieve with z-buffer
+    algorithms but are straightforward to implement using ray tracing.
+    Although ray tracing is computationally more complex, the algorithm
+    exhibits excellent scaling and parallelism properties.  Nevertheless, ray
+    tracing memory access patterns are difficult to predict and the parallelism
+    speedup promise is therefore hard to achieve.This paper highlights a novel
+    approach to ray tracing based on stream filtering and presents StreamRay, a
+    multicore wide SIMD microarchitecture that delivers interactive frame rates
+    of 15-32 frames/second for scenes of high geometric complexity and exhibits
+    high utilization for SIMD widths ranging from eight to 16 elements.
+    StreamRay consists of two main components: the ray engine, which is
+    responsible for stream assembly and employs address generation units that
+    generate addresses to form large SIMD vectors, and the filter engine, which
+    implements the ray tracing operations with programmable accelerators.
+    Results demonstrate that separating address and data processing reduces
+    data movement and resource contention.  Performance improves by 56% while
+    simultaneously providing 11.63% power savings per accelerator core compared
+    to a design which does not use separate resources for address and data
+    computations.", 
+  location     = "https://doi.org/10.1145/2528521.1508282"
+}
+
+@Article{pbavbtbd,
+  author       = "Ioana Burcea and Andreas Moshovos",
+  title        = "Phantom-{BTB}: a virtualized branch target buffer design",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "313--324",
+  month        = mar,
+  keywords     = "predictor metadata prefetching, predictor virtualization,
+    branch target buffer, l2 cache storage, temporal coherence",
+  abstract     = "Modern processors use branch target buffers (BTBs) to predict
+    the target address of branches such that they can fetch ahead in the
+    instruction stream increasing concurrency and performance.  Ideally, BTBs
+    would be sufficiently large to capture the entire working set of the
+    application and sufficiently small for fast access and practical on-chip
+    dedicated storage.  Depending on the application, these requirements are at
+    odds.This work introduces a BTB design that accommodates large instruction
+    footprints without dedicating expensive onchip resources.  In the proposed
+    Phantom-BTB (PBTB) design, a conventional BTB is augmented with a virtual
+    table that collects branch target information as the application runs.  The
+    virtual table does not have fixed dedicated storage.  Instead, it is
+    transparently allocated, on demand, in the on-chip caches, at cache line
+    granularity.  The entries in the virtual table are proactively prefetched
+    and installed in the dedicated conventional BTB, thus, increasing its
+    perceived capacity.  Experimental results with commercial workloads under
+    full-system simulation demonstrate that PBTB improves IPC performance over
+    a 1K-entry BTB by 6.9% on average and up to 12.7%, with a storage overhead
+    of only 8%.  Overall, the virtualized design performs within 1% of a
+    conventional 4K-entry, single-cycle access BTB, while the dedicated storage
+    is 3.6 times smaller.", 
+  location     = "https://doi.org/10.1145/2528521.1508281"
+}
+
+@Article{tsadofashndfgod,
+  author       = "Aravind Menon and Simon Schubert and Willy Zwaenepoel",
+  title        = "TwinDrivers: semi-automatic derivation of fast and safe hypervisor network drivers from guest {OS} drivers",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "301--312",
+  month        = mar,
+  keywords     = "performance, measurement, virtual machine managers,
+    hypervisors, device drivers, kernel resident code",
+  abstract     = "In a virtualized environment, device drivers are often run
+    inside a virtual machine (VM) rather than in the hypervisor, for reasons of
+    safety and reduction in software engineering effort.  Unfortunately, this
+    approach results in poor performance for I/O-intensive devices such as
+    network cards.  The alternative approach of running device drivers directly
+    in the hypervisor yields better performance, but results in the loss of
+    safety guarantees for the hypervisor and incurs additional software
+    engineering costs.In this paper we present TwinDrivers, a framework which
+    allows us to semi-automatically create safe and efficient hypervisor
+    drivers from guest OS drivers.  The hypervisor driver runs directly in the
+    hypervisor, but its data resides completely in the driver VM address space.
+    A Software Virtual Memory mechanism allows the driver to access its VM data
+    efficiently from the hypervisor running in any guest context, and also
+    protects the hypervisor from invalid memory accesses from the driver.  An
+    upcall mechanism allows the hypervisor to largely reuse the driver support
+    infrastructure present in the VM.  The TwinDriver system thus combines most
+    of the performance benefits of hypervisor-based driver approaches with the
+    safety and software engineering benefits of VM-based driver
+    approaches.Using the TwinDrivers hypervisor driver, we are able to improve
+    the guest domain networking throughput in Xen by a factor of 2.4 for
+    transmit workloads, and 2.1 for receive workloads, both in CPU-scaled
+    units, and achieve close to 64-67 of native Linux throughput.", 
+  location     = "https://doi.org/10.1145/2528521.1508279"
 }
 
 @TechReport{oem2fblis,
