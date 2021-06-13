@@ -425,6 +425,17 @@
   location     = "PQ4 863.A3894 G3713"
 }
 
+@Book{tpntf,
+  author       = "Thomas Frank",
+  title        = "The People, No",
+  subtitle     = "A Brief History of Anti-Populism",
+  publisher    = "Metropolitan Books",
+  year         = 2020,
+  address      = nyny,
+  keywords     = "populism, political culture, social movements",
+  location     = "E 183"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -5690,6 +5701,233 @@
     transmit workloads, and 2.1 for receive workloads, both in CPU-scaled
     units, and achieve close to 64-67 of native Linux throughput.", 
   location     = "https://doi.org/10.1145/2528521.1508279"
+}
+
+@Article{dpocyfmr,
+  author       = "Michal Wegiel and Chandra Krintz",
+  title        = "Dynamic prediction of collection yield for managed runtimes",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "289--300",
+  month        = mar,
+  keywords     = "garbage collection, predictive algorithms, managed run-times",
+  abstract     = "The growth in complexity of modern systems makes it
+    increasingly difficult to extract high-performance.  The software stacks
+    for such systems typically consist of multiple layers and include managed
+    runtime environments (MREs).  In this paper, we investigate techniques to
+    improve cooperation between these layers and the hardware to increase the
+    efficacy of automatic memory management in MREs.General-purpose MREs
+    commonly implement parallel and/or concurrent garbage collection and employ
+    compaction to eliminate heap fragmentation.  Moreover, most systems trigger
+    collection based on the amount of heap a program uses.  Our analysis shows
+    that in many cases this strategy leads to ineffective collections that are
+    unable to reclaim sufficient space to justify the incurred cost.  To avoid
+    such collections, we exploit the observation that dead objects tend to
+    cluster together and form large, never-referenced, regions in the address
+    space that correlate well with virtual pages that have not recently been
+    referenced by the application.  We leverage this correlation to design a
+    new, simple and light-weight, yield predictor that estimates the amount of
+    reclaimable space in the heap using hardware page reference bits.  Our
+    predictor allows MREs to avoid low-yield collections and thereby improve
+    resource management.We integrate this predictor into three state-of-the-art
+    parallel compactors, implemented in the HotSpot JVM, that represent
+    distinct canonical heap layouts.  Our empirical evaluation, based on
+    standard Java benchmarks and open-source applications, indicates that
+    inexpensive and accurate yield prediction can improve performance
+    significantly.", 
+  location     = "https://doi.org/10.1145/2528521.1508278", 
+  location     = "https://sites.cs.ucsb.edu/~ckrintz/papers/yieldpred-asplos09.pdf"
+}
+
+@Article{pwdwdaow,
+  author       = "Todd Mytkowicz and Amer Diwan and Matthias Hauswirth and Peter~F. Sweeney",
+  title        = "Producing wrong data without doing anything obviously wrong!",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "265--276",
+  month        = mar,
+  keywords     = "statistical analysis, biased measurements, benchmarking,
+    randomization, causal analysis ",
+  abstract     = "This paper presents a surprising result: changing a seemingly 
+    innocuous aspect of an experimental setup can cause a systems researcher to
+    draw wrong conclusions from an experiment.  What appears to be an innocuous
+    aspect in the experimental setup may in fact introduce a significant bias
+    in an evaluation.  This phenomenon is called measurement bias in the
+    natural and social sciences.Our results demonstrate that measurement bias
+    is significant and commonplace in computer system evaluation.  By
+    significant we mean that measurement bias can lead to a performance
+    analysis that either over-states an effect or even yields an incorrect
+    conclusion.  By commonplace we mean that measurement bias occurs in all
+    architectures that we tried (Pentium 4, Core 2, and m5 O3CPU), both
+    compilers that we tried (gcc and Intel's C compiler), and most of the SPEC
+    CPU2006 C programs.  Thus, we cannot ignore measurement bias.
+    Nevertheless, in a literature survey of 133 recent papers from ASPLOS,
+    PACT, PLDI, and CGO, we determined that none of the papers with
+    experimental results adequately consider measurement bias.Inspired by
+    similar problems and their solutions in other sciences, we describe and
+    demonstrate two methods, one for detecting (causal analysis) and one for
+    avoiding (setup randomization) measurement bias.", 
+  location     = "https://doi.org/10.1145/2528521.1508275", 
+  location     = "https://users.cs.northwestern.edu/~robby/courses/322-2013-spring/mytkowicz-wrong-data.pdf"
+}
+
+@Article{lp2009,
+  author       = "Michael~D. Bond and Kathryn~S. McKinley",
+  title        = "Leak pruning",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "277--288",
+  month        = mar,
+  keywords     = "storage leaks, garbage collection, error recovery, error toleration",
+  abstract     = "Managed languages improve programmer productivity with type
+    safety and garbage collection, which eliminate memory errors such as
+    dangling pointers, double frees, and buffer overflows.  However, because
+    garbage collection uses reachability to over-approximate live objects,
+    programs may still leak memory if programmers forget to eliminate the last
+    reference to an object that will not be used again.  Leaks slow programs by
+    increasing collector workload and frequency.  Growing leaks eventually
+    crash programs.This paper introduces leak pruning, which keeps programs
+    running by predicting and reclaiming leaked objects at run time.  It
+    predicts dead objects and reclaims them based on observing data structure
+    usage patterns.  Leak pruning preserves semantics because it waits for heap
+    exhaustion before reclaiming objects and poisons references to objects it
+    reclaims.  If the program later tries to access a poisoned reference, the
+    virtual machine (VM) throws an error.  We show leak pruning has low
+    overhead in a Java VM and evaluate it on 10 leaking programs.  Leak pruning
+    does not help two programs, executes five substantial programs 1.6-81X
+    longer, and executes three programs, including a leak in Eclipse, for at
+    least 24 hours.  In the worst case, leak pruning defers fatal errors.  In
+    the best case, it keeps leaky programs running with preserved semantics and
+    consistent throughput.", 
+  location     = "https://doi.org/10.1145/2528521.1508277"
+}
+
+@Article{acsewamca,
+  author       = "M.~Aater Suleman and Onur Mutlu and Moinuddin~K. Qureshi and Yale~N. Patt",
+  title        = "Accelerating critical section execution with asymmetric multi-core architectures",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "253--264",
+  month        = mar,
+  keywords     = "cmp, critical sections, heterogeneous cores, multi-core,
+    parallel programming, locking, amdahl's law, serialization, client-server
+    architecture", 
+  abstract     = "To improve the performance of a single application on Chip
+    Multiprocessors (CMPs), the application must be split into threads which
+    execute concurrently on multiple cores.  In multi-threaded applications,
+    critical sections are used to ensure that only one thread accesses shared
+    data at any given time.  Critical sections can serialize the execution of
+    threads, which significantly reduces performance and scalability.This paper
+    proposes Accelerated Critical Sections (ACS), a technique that leverages
+    the high-performance core(s) of an Asymmetric Chip Multiprocessor (ACMP) to
+    accelerate the execution of critical sections.  In ACS, selected critical
+    sections are executed by a high-performance core, which can execute the
+    critical section faster than the other, smaller cores.  As a result, ACS
+    reduces serialization: it lowers the likelihood of threads waiting for a
+    critical section to finish.  Our evaluation on a set of 12
+    critical-section-intensive workloads shows that ACS reduces the average
+    execution time by 34% compared to an equal-area 32T-core symmetric CMP and
+    by 23% compared to an equal-area ACMP.  Moreover, for 7 out of the 12
+    workloads, ACS improves scalability by increasing the number of threads at
+    which performance saturates.", 
+  location     = "https://doi.org/10.1145/2528521.1508274", 
+  location     = "https://users.ece.cmu.edu/~omutlu/pub/acs_asplos09.pdf"
+}
+
+@Article{cafsplptstbp,
+  author       = "Farhana Aleen and Nathan Clark",
+  title        = "Commutativity analysis for software parallelization: letting program transformations see the big picture",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "241--252",
+  month        = mar,
+  keywords     = "automatic software parallelization, random interpretation,
+    commutative functions, compiler analysis",
+  abstract     = "Extracting performance from many-core architectures requires software engineers to create multi-threaded applications, which significantly complicates the already daunting task of software development.  One solution to this problem is automatic compile-time parallelization, which can ease the burden on software developers in many situations.  Clearly, automatic parallelization in its present form is not suitable for many application domains and new compiler analyses are needed address its shortcomings.In this paper, we present one such analysis: a new approach for detecting commutative functions.  Commutative functions are sections of code that can be executed in any order without affecting the outcome of the application, e.g., inserting elements into a set.  Previous research on this topic had one significant limitation, in that the results of a commutative functions must produce identical memory layouts.  This prevented previous techniques from detecting functions like malloc, which may return different pointers depending on the order in which it is called, but these differing results do not affect the overall output of the application.  Our new commutativity analysis correctly identify these situations to better facilitate automatic parallelization.  We demonstrate that this analysis can automatically extract significant amounts of parallelism from many applications, and where it is ineffective it can provide software developers a useful list of functions that may be commutative provided semantic program changes that are not automatable.",
+  location     = "https://doi.org/10.1145/2528521.1508273"
+}
+
+@Article{daftledbscoplam,
+  author       = "Aayush Gupta and Youngjae Kim and Bhuvan Urgaonkar",
+  title        = "{DFTL}: a flash translation layer employing demand-based selective caching of page-level address mappings",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "229--240",
+  month        = mar,
+  keywords     = "flash management, flash translation layer, storage systems,
+    dynamic ftl, simulation, enterprise storage systems, disk replacements",
+  abstract     = "Recent technological advances in the development of
+    flash-memory based devices have consolidated their leadership position as
+    the preferred storage media in the embedded systems market and opened new
+    vistas for deployment in enterprise-scale storage systems.  Unlike hard
+    disks, flash devices are free from any mechanical moving parts, have no
+    seek or rotational delays and consume lower power.  However, the internal
+    idiosyncrasies of flash technology make its performance highly dependent on
+    workload characteristics.  The poor performance of random writes has been a
+    cause of major concern, which needs to be addressed to better utilize the
+    potential of flash in enterprise-scale environments.  We examine one of the
+    important causes of this poor performance: the design of the Flash
+    Translation Layer (FTL), which performs the virtual-to-physical address
+    translations and hides the erase-before-write characteristics of flash.  We
+    propose a complete paradigm shift in the design of the core FTL engine from
+    the existing techniques with our Demand-based Flash Translation Layer
+    (DFTL), which selectively caches page-level address mappings.  We develop a
+    flash simulation framework called FlashSim.  Our experimental evaluation
+    with realistic enterprise-scale workloads endorses the utility of DFTL in
+    enterprise-scale storage systems by demonstrating: (i) improved
+    performance, (ii) reduced garbage collection overhead and (iii) better
+    overload behavior compared to state-of-the-art FTL schemes.  For example, a
+    predominantly random-write dominant I/O trace from an OLTP application
+    running at a large financial institution shows a 78% improvement in average
+    response time (due to a 3-fold reduction in operations of the garbage
+    collector), compared to a state-of-the-art FTL scheme.  Even for the
+    well-known read-dominant TPC-H benchmark, for which DFTL introduces
+    additional overheads, we improve system response time by 56%.", 
+  location     = "https://doi.org/10.1145/2528521.1508271", 
+  location     = "http://www.cse.psu.edu/~buu1/papers/ps/dftl-asplos09.pdf"
+}
+
+@Article{gufmtbfpecfdia,
+  author       = "Adrian~M. Caulfield and Laura~M. Grupp and Steven Swanson",
+  title        = "Gordon: using flash memory to build fast, power-efficient clusters for data-intensive applications",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "217--228",
+  month        = mar,
+  keywords     = "cluster architecture, data centric computing, flash memory,
+    solid-state storage, hadoop, design trade-offs",
+  abstract     = "As our society becomes more information-driven, we have begun
+    to amass data at an astounding and accelerating rate.  At the same time,
+    power concerns have made it difficult to bring the necessary processing
+    power to bear on querying, processing, and understanding this data.  We
+    describe Gordon, a system architecture for data-centric applications that
+    combines low-power processors, flash memory, and data-centric programming
+    systems to improve performance for data-centric applications while reducing
+    power consumption.  The paper presents an exhaustive analysis of the design
+    space of Gordon systems, focusing on the trade-offs between power, energy,
+    and performance that Gordon must make.  It analyzes the impact of
+    flash-storage and the Gordon architecture on the performance and power
+    efficiency of data-centric applications.  It also describes a novel flash
+    translation layer tailored to data intensive workloads and large flash
+    storage arrays.  Our data show that, using technologies available in the
+    near future, Gordon systems can out-perform disk-based clusters by 1.5× and
+    deliver up to 2.5× more performance per Watt.", 
+  location     = "https://doi.org/10.1145/2528521.1508270", 
+  location     = "http://cseweb.ucsd.edu/~acaulfie/papers/Asplos2009_Gordon.pdf"
 }
 
 @TechReport{oem2fblis,
