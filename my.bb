@@ -436,6 +436,37 @@
   location     = "E 183"
 }
 
+@Book{tgcs,
+  author       = "Cathleen Schine",
+  title        = "The Grammarians",
+  publisher    = "Picador",
+  year         = 2020,
+  address      = nyny,
+  keywords     = "twins, family, logophilia",
+  location     = "PS 3569.C497 G73"
+}
+
+@Book{mrjp2010,
+  author       = "Rebecca Jo Plant",
+  title        = "Mom",
+  subtitle     = "The Transformation of Motherhood in Modern America",
+  publisher    = ucp,
+  year         = 2010,
+  address      = chil,
+  keywords     = "motherhood, momism, feminism, betty friedan",
+  location     = "HQ 759.P564"
+}
+
+@Book{wbcljh,
+  author       = "Logan~J. Hunder",
+  title        = "Witches Be Crazy",
+  publisher    = "Night Shade Books",
+  year         = 2015,
+  address      = "Jersey City, New Jersey",
+  keywords     = "quests, wizards, pirates", 
+  location     = "PS 3608.U53 W58"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -5928,6 +5959,239 @@
     deliver up to 2.5× more performance per Watt.", 
   location     = "https://doi.org/10.1145/2528521.1508270", 
   location     = "http://cseweb.ucsd.edu/~acaulfie/papers/Asplos2009_Gordon.pdf"
+}
+
+@Article{pesip,
+  author       = "David Meisner and Brian~T. Gold and Thomas~F. Wenisch",
+  title        = "{PowerNap}: eliminating server idle power",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "205--216",
+  month        = mar,
+  keywords     = "power management, servers, binary devices, dvfs, efficiency
+    ranges", 
+  abstract     = "Data center power consumption is growing to unprecedented
+    levels: the EPA estimates U.S.  data centers will consume 100 billion
+    kilowatt hours annually by 2011.  Much of this energy is wasted in idle
+    systems: in typical deployments, server utilization is below 30%, but idle
+    servers still consume 60% of their peak power draw.  Typical idle periods
+    though frequent--last seconds or less, confounding simple
+    energy-conservation approaches.In this paper, we propose PowerNap, an
+    energy-conservation approach where the entire system transitions rapidly
+    between a high-performance active state and a near-zero-power idle state in
+    response to instantaneous load.  Rather than requiring fine-grained
+    power-performance states and complex load-proportional operation from each
+    system component, PowerNap instead calls for minimizing idle power and
+    transition time, which are simpler optimization goals.  Based on the
+    PowerNap concept, we develop requirements and outline mechanisms to
+    eliminate idle power waste in enterprise blade servers.  Because PowerNap
+    operates in low-efficiency regions of current blade center power supplies,
+    we introduce the Redundant Array for Inexpensive Load Sharing (RAILS), a
+    power provisioning approach that provides high conversion efficiency across
+    the entire range of PowerNap's power demands.  Using utilization traces
+    collected from enterprise-scale commercial deployments, we demonstrate
+    that, together, PowerNap and RAILS reduce average server power consumption
+    by 74%.", 
+  location     = "https://doi.org/10.1145/2528521.1508269", 
+  location     = "https://web.eecs.umich.edu/~twenisch/papers/asplos09.pdf"
+}
+
+@Article{eovwde,
+  author       = "Joseph Tucek and Weiwei Xiong and Yuanyuan Zhou",
+  title        = "Efficient online validation with delta execution",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "193--204",
+  month        = mar,
+  keywords     = "delta execution, patch validation, testing, fork-join,
+    redundant execution",
+  abstract     = "Software systems are constantly changing.  Patches to fix
+    bugs and patches to add features are all too common.  Every change risks
+    breaking a previously working system.  Hence administrators loathe change,
+    and are willing to delay even critical security patches until after fully
+    validating their correctness.  Compared to off-line validation, on-line
+    validation has clear advantages since it tests against real life workloads.
+    Yet unfortunately it imposes restrictive overheads as it requires running
+    the old and new versions side-by-side.  Moreover, due to spurious
+    differences (e.g.  event timing, random number generation, and thread
+    interleavings), it is difficult to compare the two for validation.To allow
+    more effective on-line patch validation, we propose a new mechanism, called
+    delta execution, that is based on the observation that most patches are
+    small.  Delta execution merges the two side-by-side executions for most of
+    the time and splits only when necessary, such as when they access different
+    data or execute different code.  This allows us to perform on-line
+    validation not only with lower overhead but also with greatly reduced
+    spurious differences, allowing us to effectively validate changes.We first
+    validate the feasibility of our idea by studying the characteristics of 240
+    patches from 4 server programs; our examination shows that 77% of the
+    changes should not be expected to cause large changes and are thereby
+    feasible for Delta execution.  We then implemented Delta execution using
+    dynamic instrumentation.  Using real world patches from 7 server
+    applications and 3 other programs, we compared our implementation of Delta
+    execution against a traditional side-by-side on-line validation.  Delta
+    execution outperformed traditional validation by up to 128%; further, for 3
+    of the changes, spurious differences caused the traditional validation to
+    fail completely while Delta execution succeeded.  This demonstrates that
+    Delta execution can allow administrators to use on-line validation to
+    confidently ensure the correctness of the changes they apply.", 
+  location     = "https://doi.org/10.1145/2528521.1508267", 
+  location     = "http://opera.ucsd.edu/paper/asplos105-tucek.ps"
+}
+
+@Article{ideiicp,
+  author       = "Sriram Rajamani and G.~Ramalingam and Venkatesh Prasad Ranganath and Kapil Vaswani",
+  title        = "{ISOLATOR}: dynamically ensuring isolation in concurrent programs",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "181--192",
+  month        = mar,
+  keywords     = "concurrency, storage isolation, memory protection, optimistic
+    concurrency control, noninterference",
+  abstract     = "In this paper, we focus on concurrent programs that use locks
+    to achieve isolation of data accessed by critical sections of code.  We
+    present ISOLATOR, an algorithm that guarantees isolation for well-behaved
+    threads of a program that obey a locking discipline even in the presence of
+    ill-behaved threads that disobey the locking discipline.  ISOLATOR uses
+    code instrumentation, data replication, and virtual memory protection to
+    detect isolation violations and delays ill-behaved threads to ensure
+    isolation.  Our instrumentation scheme requires access only to the code of
+    well-behaved threads.  We have evaluated ISOLATOR on several benchmark
+    programs and found that ISOLATOR can ensure isolation with reasonable
+    runtime overheads.  In addition, we present three general desiderata -
+    safety, isolation, and permissiveness - for any scheme that attempts to
+    ensure isolation, and formally prove that ISOLATOR satisfies all of these
+    desiderata.", 
+  location     = "https://doi.org/10.1145/2528521.1508266", 
+  location     = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Isolator20-20Dynamically20Ensuring20Isolation20in20Concurrent20Programs.pdf"
+}
+
+@Article{mmmr,
+  author       = "Philip~M. Wells and Koushik Chakraborty and Gurindar~S. Sohi",
+  title        = "Mixed-mode multicore reliability",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "169--180",
+  month        = mar,
+  keywords     = "multicore, dual-modular redundancy, performance-protection
+    trade-off", 
+  abstract     = "Future processors are expected to observe increasing rates of
+    hardware faults.  Using Dual-Modular Redundancy (DMR), two cores of a
+    multicore can be loosely coupled to redundantly execute a single software
+    thread, providing very high coverage from many difference sources of
+    faults.  This reliability, however, comes at a high price in terms of
+    per-thread IPC and overall system throughput.We make the observation that a
+    user may want to run both applications requiring high reliability, such as
+    financial software, and more fault tolerant applications requiring high
+    performance, such as media or web software, on the same machine at the same
+    time.  Yet a traditional DMR system must fully operate in redundant mode
+    whenever any application requires high reliability.This paper proposes a
+    Mixed-Mode Multicore (MMM), which enables most applications, including the
+    system software, to run with high reliability in DMR mode, while
+    applications that need high performance can avoid the penalty of DMR.
+    Though conceptually simple, two key challenges arise: 1) care must be taken
+    to protect reliable applications from any faults occurring to applications
+    running in high performance mode, and 2) the desire to execute additional
+    independent software threads for a performance application complicates the
+    scheduling of computation to cores.  After solving these issues, an MMM is
+    shown to improve overall system performance, compared to a traditional DMR
+    system, by approximately 2X when one reliable and one performance
+    application are concurrently executing.", 
+  location     = "https://doi.org/10.1145/2528521.1508265", 
+  location     = "ftp://ftp.cs.wisc.edu/sohi/papers/2009/asplos2009-mixed-mode.pdf"
+}
+
+@Article{eewachtmi,
+  author       = "Dave Dice and Yossi Lev and Mark Moir and Daniel Nussbaum",
+  title        = "Early experience with a commercial hardware transactional memory implementation",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "157--168",
+  month        = mar,
+  keywords     = "hardware, transactional storage, synchronization, hardware
+    design, error recovery",
+  abstract     = "We report on our experience with the hardware transactional
+    memory (HTM) feature of two pre-production revisions of a new commercial
+    multicore processor.  Our experience includes a number of promising results
+    using HTM to improve performance in a variety of contexts, and also
+    identifies some ways in which the feature could be improved to make it even
+    better.  We give detailed accounts of our experiences, sharing techniques
+    we used to achieve the results we have, as well as describing challenges we
+    faced in doing so.",
+  location     = "https://doi.org/10.1145/2528521.1508263"
+}
+
+@Article{mbfamh,
+  author       = "Owen~S. Hofmann and Christopher~J. Rossbach and Emmett Witchel",
+  title        = "Maximum benefit from a minimal {HTM}",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "145--156",
+  month        = mar,
+  keywords     = "hardware transactional storage, linux kernels,
+    synchronization, cooperative synchronization",
+  abstract     = "A minimal, bounded hardware transactional memory
+    implementation significantly improves synchronization performance when used
+    in an operating system kernel.  We add HTM to Linux 2.4, a kernel with a
+    simple, coarse-grained synchronization structure.  The transactional Linux
+    2.4 kernel can improve performance of user programs by as much as 40% over
+    the non-transactional 2.4 kernel.  It closes 68% of the performance gap
+    with the Linux 2.6 kernel, which has had significant engineering effort
+    applied to improve scalability.We then extend our minimal HTM to a fast,
+    unbounded transactional memory with a novel technique for coordinating
+    hardware transactions and software synchronization.  Overflowed
+    transactions run in software, with only a minimal coupling between hardware
+    and software systems.  There is no performance penalty for overflow rates
+    of less than 1%.  In one instance, at 16 processors and an overflow rate of
+    4%, performance degrades from an ideal 4.3x to 3.6x.", 
+  location     = "https://doi.org/10.1145/2528521.1508262", 
+  location     = "https://www.cs.utexas.edu/users/witchel/pubs/hofmann09asplos.pdf"
+}
+
+@Article{ptcaisp,
+  author       = "Stijn Eyerman and Lieven Eeckhout",
+  title        = "Per-thread cycle accounting in {SMT} processors",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "133--144",
+  month        = mar,
+  keywords     = "simultaneous multithreading, smt, cycle accounting,
+    thread-progress aware fetch policy, measurement, estimation",
+  abstract     = "This paper proposes a cycle accounting architecture for
+    Simultaneous Multithreading (SMT) processors that estimates the execution
+    times for each of the threads had they been executed alone, while they are
+    running simultaneously on the SMT processor.  This is done by accounting
+    each cycle to either a base, miss event or waiting cycle component during
+    multi-threaded execution.  Single-threaded alone execution time is then
+    estimated as the sum of the base and miss event components; the waiting
+    cycle component represents the lost cycle count due to SMT execution.  The
+    cycle accounting architecture incurs reasonable hardware cost (around 1KB
+    of storage) and estimates single-threaded performance with average
+    prediction errors around 7.2% for two-program workloads and 11.7% for
+    four-program workloads.The cycle accounting architecture has several
+    important applications to system software and its interaction with SMT
+    hardware.  For one, the estimated single-thread alone execution time
+    provides an accurate picture to system software of the actually consumed
+    processor cycles per thread.  The alone execution time instead of the total
+    execution time (timeslice) may make system software scheduling policies
+    more effective.  Second, a new class of thread-progress aware SMT fetch
+    policies based on per-thread progress indicators enable system software
+    level priorities to be enforced at the hardware level.", 
+  location     = "https://doi.org/10.1145/2528521.1508260", 
+  location     = "https://www.elis.ugent.be/~leeckhou/papers/asplos09.pdf"
 }
 
 @TechReport{oem2fblis,
