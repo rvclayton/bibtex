@@ -467,6 +467,29 @@
   location     = "PS 3608.U53 W58"
 }
 
+@Book{cre2021,
+  author       = "Robert Elder",
+  title        = "Calhoun",
+  subtitle     = "American Heretic",
+  publisher    = "Basic Books",
+  year         = 2021,
+  address      = nyny,
+  keywords     = "john c calhoun, constitutionalism, slavery, politics, governance",
+  location     = ""
+}
+
+@Book{ddpjb,
+  author       = "Peter~J. Bowler",
+  title        = "Darwin Deleted",
+  subtitle     = "Imagining a World Without Darwin",
+  publisher    = ucp,
+  year         = 2013,
+  address      = chil,
+  keywords     = "counterfactual speculation, evolutionary biology, history of
+    science, darwinian evolution lamarckian evolution",
+  location     = "QH 361.B675"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -6192,6 +6215,237 @@
     level priorities to be enforced at the hardware level.", 
   location     = "https://doi.org/10.1145/2528521.1508260", 
   location     = "https://www.elis.ugent.be/~leeckhou/papers/asplos09.pdf"
+}
+
+@Article{ralmrcocsfoo,
+  author       = "David~K. Tam and Reza Azimi and Livio~B. Soares and Michael Stumm",
+  title        = "{RapidMRC}: approximating {L2} miss rate curves on commodity systems for online optimizations",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "121--132",
+  month        = mar,
+  keywords     = "approximations, estimations, sampling, cache misses,
+    predictions, cache management, ",
+  abstract     = "Miss rate curves (MRCs) are useful in a number of contexts.
+    In our research, online L2 cache MRCs enable us to dynamically identify
+    optimal cache sizes when cache-partitioning a shared-cache multicore
+    processor.  Obtaining L2 MRCs has generally been assumed to be expensive
+    when done in software and consequently, their usage for online
+    optimizations has been limited.  To address these problems and
+    opportunities, we have developed a low-overhead software technique to
+    obtain L2 MRCs online on current processors, exploiting features available
+    in their performance monitoring units so that no changes to the application
+    source code or binaries are required.  Our technique, called RapidMRC,
+    requires a single probing period of roughly 221 million processor cycles
+    (147 ms), and subsequently 124 million cycles (83 ms) to process the data.
+    We demonstrate its accuracy by comparing the obtained MRCs to the actual L2
+    MRCs of 30 applications taken from SPECcpu2006, SPECcpu2000, and
+    SPECjbb2000.  We show that RapidMRC can be applied to sizing cache
+    partitions, helping to achieve performance improvements of up to 27%.", 
+  location     = "https://doi.org/10.1145/2528521.1508259"
+}
+
+@Article{ciftftgu,
+  author       = "Mohit Tiwari and Hassan M.G.~Wassel and Bita Mazloom and Shashidhar Mysore and Frederic~T. Chong and Timothy Sherwood",
+  title        = "Complete information flow tracking from the gates up",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "109--120",
+  month        = mar,
+  keywords     = "information flow, information tracking, tagged architecture,
+    information leaks, non-turing architectures",
+  abstract     = "For many mission-critical tasks, tight guarantees on the flow
+    of information are desirable, for example, when handling important
+    cryptographic keys or sensitive financial data.  We present a novel
+    architecture capable of tracking all information flow within the machine,
+    including all explicit data transfers and all implicit flows (those subtly
+    devious flows caused by not performing conditional operations).  While the
+    problem is impossible to solve in the general case, we have created a
+    machine that avoids the general-purpose programmability that leads to this
+    impossibility result, yet is still programmable enough to handle a variety
+    of critical operations such as public-key encryption and authentication.
+    Through the application of our novel gate-level information flow tracking
+    method, we show how all flows of information can be precisely tracked.
+    From this foundation, we then describe how a class of architectures can be
+    constructed, from the gates up, to completely capture all information flows
+    and we measure the impact of doing so on the hardware implementation, the
+    ISA, and the programmer.", 
+  location     = "https://doi.org/10.1145/2528521.1508258", 
+  location     = "https://people.cs.uchicago.edu/~ftchong/papers/ASPLOS-09-glift.pdf"
+}
+
+@Article{kedmis,
+  author       = "Marek Olszewski and Jason Ansel and Saman Amarasinghe",
+  title        = "Kendo: efficient deterministic multithreading in software",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "97--108",
+  month        = mar,
+  keywords     = "deterministic multithreading, determinism, parallel
+    programming, debugging, multicore, serialization, logical time, concurrency
+    management",
+  abstract     = "Although chip-multiprocessors have become the industry
+    standard, developing parallel applications that target them remains a
+    daunting task.  Non-determinism, inherent in threaded applications, causes
+    significant challenges for parallel programmers by hindering their ability
+    to create parallel applications with repeatable results.  As a consequence,
+    parallel applications are significantly harder to debug, test, and maintain
+    than sequential programs.This paper introduces Kendo: a new software-only
+    system that provides deterministic multithreading of parallel applications.
+    Kendo enforces a deterministic interleaving of lock acquisitions and
+    specially declared non-protected reads through a novel dynamically
+    load-balanced deterministic scheduling algorithm.  The algorithm tracks the
+    progress of each thread using performance counters to construct a
+    deterministic logical time that is used to compute an interleaving of
+    shared data accesses that is both deterministic and provides good load
+    balancing.  Kendo can run on today's commodity hardware while incurring
+    only a modest performance cost.  Experimental results on the SPLASH-2
+    applications yield a geometric mean overhead of only 16% when running on 4
+    processors.  This low overhead makes it possible to benefit from Kendo even
+    after an application is deployed.  Programmers can start using Kendo today
+    to program parallel applications that are easier to develop, debug, and
+    test.", 
+  location     = "https://doi.org/10.1145/2528521.1508256", 
+  location     = "http://groups.csail.mit.edu/commit/papers/09/asplos073-olszewski.pdf"
+}
+
+@Article{ddsmm,
+  author       = "Joseph Devietti and Brandon Lucia and Luis Ceze and Mark Oskin",
+  title        = "{DMP}: deterministic shared memory multiprocessing",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "85--96",
+  month        = mar,
+  keywords     = "deterministic parallel execution, deterministic smm,
+    serialization",
+  abstract     = "Current shared memory multicore and multiprocessor systems
+    are nondeterministic.  Each time these systems execute a multithreaded
+    application, even if supplied with the same input, they can produce a
+    different output.  This frustrates debugging and limits the ability to
+    properly test multithreaded code, becoming a major stumbling block to the
+    much-needed widespread adoption of parallel programming.In this paper we
+    make the case for fully deterministic shared memory multiprocessing (DMP).
+    The behavior of an arbitrary multithreaded program on a DMP system is only
+    a function of its inputs.  The core idea is to make inter-thread
+    communication fully deterministic.  Previous approaches to coping with
+    nondeterminism in multithreaded programs have focused on replay, a
+    technique useful only for debugging.  In contrast, while DMP systems are
+    directly useful for debugging by offering repeatability by default, we
+    argue that parallel programs should execute deterministically in the field
+    as well.  This has the potential to make testing more assuring and increase
+    the reliability of deployed multithreaded software.  We propose a range of
+    approaches to enforcing determinism and discuss their implementation
+    trade-offs.  We show that determinism can be provided with little
+    performance cost using our architecture proposals on future hardware, and
+    that software-only approaches can be utilized on existing systems.", 
+  location     = "https://doi.org/10.1145/2528521.1508255",
+  location     = "http://www.cis.upenn.edu/~devietti/papers/devietti.dmp.toppicks.2010.pdf"
+}
+
+@Article{cashifpdmr,
+  author       = "Pablo Montesinos and Matthew Hicks and Samuel~T. King and Josep Torrellas",
+  title        = "Capo: a software-hardware interface for practical deterministic multiprocessor replay",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "73--84",
+  month        = mar,
+  keywords     = "capo, capoone, deterministic replay, replay sphere, divide
+    and conquer, ",
+  abstract     = "While deterministic replay of parallel programs is a powerful 
+    technique, current proposals have shortcomings.  Specifically,
+    software-based replay systems have high overheads on multiprocessors, while
+    hardware-based proposals focus only on basic hardware-level mechanisms,
+    ignoring the overall replay system.  To be practical, hardware-based replay
+    systems need to support an environment with multiple parallel jobs running
+    concurrently -- some being recorded, others being replayed and even others
+    running without recording or replay.  Moreover, they need to manage
+    limited-size log buffers.This paper addresses these shortcomings by
+    introducing, for the first time, a set of abstractions and a
+    software-hardware interface for practical hardware-assisted replay of
+    multiprocessor systems.  The approach, called Capo, introduces the novel
+    abstraction of the Replay Sphere to separate the responsibilities of the
+    hardware and software components of the replay system.  In this paper, we
+    also design and build CapoOne, a prototype of a deterministic
+    multiprocessor replay system that implements Capo using Linux and simulated
+    DeLorean hardware.  Our evaluation of 4-processor executions shows that
+    CapoOne largely records with the efficiency of hardware-based schemes and
+    the flexibility of software-based schemes.", 
+  location     = "https://doi.org/10.1145/2528521.1508254", 
+  location     = "https://iacoma.cs.uiuc.edu/iacoma-papers/asplos09.pdf"
+}
+
+@Article{abbpiavaaafsd,
+  author       = "Martin Dimitrov and Huiyang Zhou",
+  title        = "Anomaly-based bug prediction, isolation, and validation: an automated approach for software debugging",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "61--72",
+  month        = mar,
+  keywords     = "automated debugging, architectural support, anomaly
+    detection, fault isolation, ",
+  abstract     = "Software defects, commonly known as bugs, present a serious
+    challenge for system reliability and dependability.  Once a program failure
+    is observed, the debugging activities to locate the defects are typically
+    nontrivial and time consuming.  In this paper, we propose a novel automated
+    approach to pin-point the root-causes of software failures.Our proposed
+    approach consists of three steps.  The first step is bug prediction, which
+    leverages the existing work on anomaly-based bug detection as exceptional
+    behavior during program execution has been shown to frequently point to the
+    root cause of a software failure.  The second step is bug isolation, which
+    eliminates false-positive bug predictions by checking whether the dynamic
+    forward slices of bug predictions lead to the observed program failure.
+    The last step is bug validation, in which the isolated anomalies are
+    validated by dynamically nullifying their effects and observing if the
+    program still fails.  The whole bug prediction, isolation and validation
+    process is fully automated and can be implemented with efficient
+    architectural support.  Our experiments with 6 programs and 7 bugs,
+    including a real bug in the gcc 2.95.2 compiler, show that our approach is
+    highly effective at isolating only the relevant anomalies.  Compared to
+    state-of-art debugging techniques, our proposed approach pinpoints the
+    defect locations more accurately and presents the user with a much smaller
+    code set to analyze.", 
+  location     = "https://doi.org/10.1145/2528521.1508252", 
+  location     = "https://people.engr.ncsu.edu/hzhou/asplos09.pdf"
+}
+
+@Article{rdaopfros,
+  author       = "Andrew Lenharth and Vikram~S. Adve and Samuel~T. King",
+  title        = "Recovery domains: an organizing principle for recoverable operating systems",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "49--60",
+  month        = mar,
+  keywords     = "akeso, recovery domains, automatic fault recovery, rollback,
+    fault isolation, logging",
+  abstract     = "We describe a strategy for enabling existing commodity
+    operating systems to recover from unexpected run-time errors in nearly any
+    part of the kernel, including core kernel components.  Our approach is
+    dynamic and request-oriented; it isolates the effects of a fault to the
+    requests that caused the fault rather than to static kernel components.
+    This approach is based on a notion of 'recovery domains,' an organizing
+    principle to enable rollback of state affected by a request in a
+    multithreaded system with minimal impact on other requests or threads.  We
+    have applied this approach on v2.4.22 and v2.6.27 of the Linux kernel and
+    it required 132 lines of changed or new code: the other changes are all
+    performed by a simple instrumentation pass of a compiler.  Our experiments
+    show that the approach is able to recover from otherwise fatal faults with
+    minimal collateral impact during a recovery event.", 
+  location     = "https://doi.org/10.1145/2528521.1508251", 
+  location     = "https://llvm.org/pubs/2009-03-ASPLOS-Recovery.pdf"
 }
 
 @TechReport{oem2fblis,
