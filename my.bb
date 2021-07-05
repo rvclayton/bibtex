@@ -4,6 +4,7 @@
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{asplos08 = sigplan # " (" # pot # "Thirteenth International Conference on " # asplos # ", ASPLOS XIII)"}
 @string{asplos09 = sigplan # " (" # pot # "Fourteenth International Conference on " # asplos # ", ASPLOS XIV)"}
+@string{lctes08 = sigplan # " (" # pot # "2008 ACM SIGPLAN-SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems, LCTES'08)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
 @string{oopsla86    = sigplan # " (Conference Proceedings on Object-Oriented Programming Systems, Languages And Applications, OOPSLA '86)"}
@@ -488,6 +489,46 @@
   keywords     = "counterfactual speculation, evolutionary biology, history of
     science, darwinian evolution lamarckian evolution",
   location     = "QH 361.B675"
+}
+
+@Book{noitat,
+  author       = "Patricia Lockwood",
+  title        = "No One Is Talking About This",
+  publisher    = "Riverhead Books",
+  year         = 2021,
+  address      = nyny,
+  keywords     = "the internet, twitter, attention",
+  location     = "PS 3612.O27 N6"
+}
+
+@Book{azatcoc,
+  author       = "Tom Schachtman",
+  title        = "Absolute Zero and the Conquest of Cold",
+  publisher    = "Mariner Books",
+  year         = 1999,
+  address      = nyny,
+  keywords     = "cold, cryogenics, science",
+  location     = "QC 278.S48"
+}
+
+@Book{mlif,
+  author       = "Julia Child and Alex Prud'homme",
+  title        = "My Life in France",
+  publisher    = "Anchor Books",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "biography, gastronomy, french cuisine",
+  location     = "TX 649.C47 A3"
+}
+
+@Book{spbs1996,
+  author       = "Bruce Sterling",
+  title        = "Schismatrix Plus",
+  publisher    = "Ace Books",
+  year         = 1996,
+  address      = nyny,
+  keywords     = "neoliberals in space",
+  location     = "PS 3569.T3876 S32"
 }
 
 @Article{hasfadsafes,
@@ -6446,6 +6487,222 @@
     minimal collateral impact during a recovery event.", 
   location     = "https://doi.org/10.1145/2528521.1508251", 
   location     = "https://llvm.org/pubs/2009-03-ASPLOS-Recovery.pdf"
+}
+
+@Article{aasshurp,
+  author       = "Stelios Sidiroglou and Oren Laadan and Carlos Perez and Nicolas Viennot and Jason Nieh and Angelos~D. Keromytis",
+  title        = "{ASSURE}: automatic software self-healing using rescue points",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "37--48",
+  month        = mar,
+  keywords     = "software self-healing, error recovery, reliable software,
+    binary patching, checkpoint restart, rescue points, fault detection, fault
+    replay",
+  abstract     = "Software failures in server applications are a significant
+    problem for preserving system availability.  We present ASSURE, a system
+    that introduces rescue points that recover software from unknown faults
+    while maintaining both system integrity and availability, by mimicking
+    system behavior under known error conditions.  Rescue points are locations
+    in existing application code for handling a given set of
+    programmer-anticipated failures, which are automatically repurposed and
+    tested for safely enabling fault recovery from a larger class of
+    (unanticipated) faults.  When a fault occurs at an arbitrary location in
+    the program, ASSURE restores execution to an appropriate rescue point and
+    induces the program to recover execution by virtualizing the program's
+    existing error-handling facilities.  Rescue points are identified using
+    fuzzing, implemented using a fast coordinated checkpoint-restart mechanism
+    that handles multi-process and multi-threaded applications, and, after
+    testing, are injected into production code using binary patching.  We have
+    implemented an ASSURE Linux prototype that operates without application
+    source code and without base operating system kernel changes.  Our
+    experimental results on a set of real-world server applications and bugs
+    show that ASSURE enabled recovery for all of the bugs tested with fast
+    recovery times, has modest performance overhead, and provides automatic
+    self-healing orders of magnitude faster than current human-driven patch
+    deployment methods.", 
+  location     = "https://doi.org/10.1145/2528521.1508250",
+  location     = "https://www.cs.columbia.edu/~angelos/Papers/2009/assure.pdf"
+}
+
+@Article{ceavbfthp,
+  author       = "Soyeon Park and Shan Lu and Yuanyuan Zhou",
+  title        = "{CTrigger}: exposing atomicity violation bugs from their hiding places",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "25--36",
+  month        = mar,
+  keywords     = "software testing, concurrency errors, unserializability,
+    atomicity violations, stress testing, interference",
+  abstract     = "Multicore hardware is making concurrent programs pervasive.
+    Unfortunately, concurrent programs are prone to bugs.  Among different
+    types of concurrency bugs, atomicity violation bugs are common and
+    important.  Existing techniques to detect atomicity violation bugs suffer
+    from one limitation: requiring bugs to manifest during monitored runs,
+    which is an open problem in concurrent program testing.This paper makes two
+    contributions.  First, it studies the interleaving characteristics of the
+    common practice in concurrent program testing (i.e., running a program over
+    and over) to understand why atomicity violation bugs are hard to expose.
+    Second, it proposes CTrigger to effectively and efficiently expose
+    atomicity violation bugs in large programs.  CTrigger focuses on a special
+    type of interleavings (i.e., unserializable interleavings) that are
+    inherently correlated to atomicity violation bugs, and uses trace analysis
+    to systematically identify (likely) feasible unserializable interleavings
+    with low occurrence-probability.  CTrigger then uses minimum execution
+    perturbation to exercise low-probability interleavings and expose
+    difficult-to-catch atomicity violation.We evaluate CTrigger with real-world
+    atomicity violation bugs from four sever/desktop applications (Apache,
+    MySQL, Mozilla, and PBZIP2) and three SPLASH2 applications on 8-core
+    machines.  CTrigger efficiently exposes the tested bugs within 1--235
+    seconds, two to four orders of magnitude faster than stress testing.
+    Without CTrigger, some of these bugs do not manifest even after 7 full days
+    of stress testing.  In addition, without deterministic replay support, once
+    a bug is exposed, CTrigger can help programmers reliably reproduce it for
+    diagnosis.  Our tested bugs are reproduced by CTrigger mostly within 5
+    seconds, 300 to over 60000 times faster than stress testing.", 
+  location     = "https://doi.org/10.1145/2528521.1508249",
+  location     = "http://opera.ucsd.edu/paper/asplos092-zhou.pdf"
+}
+
+@Article{aionisac,
+  author       = "Constantin Pistol and Wutichai Chongchitmate and Christopher Dwyer and Alvin~R. Lebeck",
+  title        = "Architectural implications of nanoscale integrated sensing and computing",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "13--24",
+  month        = mar,
+  keywords     = "sensor networks, self-assembled systems, dna architectures,
+    molecular isa",
+  abstract     = "This paper explores the architectural implications of
+    integrating computation and molecular probes to form nanoscale sensor
+    processors (nSP).  We show how nSPs may enable new computing domains and
+    automate tasks that currently require expert scientific training and costly
+    equipment.  This new application domain severely constrains nSP size, which
+    significantly impacts the architectural design space.  In this context, we
+    explore nSP architectures and present an nSP design that includes a simple
+    accumulator-based ISA, sensors, limited memory and communication
+    transceivers.  To reduce the application memory footprint, we introduce the
+    concept of instruction-fused sensing.  We use simulation and analytical
+    models to evaluate nSP designs executing a representative set of target
+    applications.  Furthermore, we propose a candidate nSP technology based on
+    optical Resonance Energy Transfer (RET) logic that enables the small size
+    required by the application domain; our smallest design is about the size
+    of the largest known virus.  We also show laboratory results that
+    demonstrate initial steps towards a prototype.",
+  location     = "https://doi.org/10.1145/2528521.1508247",
+  location     = "http://www.cs.duke.edu/~alvy/papers/asplos071-lebeck.pdf"
+}
+
+@Article{aeottcs,
+  author       = "Mark Gebhart and Bertrand~A. Maher and Katherine~E. Coons and Jeff Diamond and Paul Gratz and Mario Marino and Nitya Ranganathan and Behnam Robatmili and Aaron Smith and James Burrill and Stephen~W. Keckler and Doug Burger and Kathryn~S. McKinley",
+  title        = "An evaluation of the {TRIPS} computer system",
+  journal      = asplos09,
+  year         = 2009,
+  volume       = 44,
+  number       = 3,
+  pages        = "1--12",
+  month        = mar,
+  keywords     = "performance, measurement, explicit data graph execution,
+    superblocks, isa",
+  abstract     = "The TRIPS system employs a new instruction set architecture (ISA) called Explicit Data Graph Execution (EDGE) that renegotiates the boundary between hardware and software to expose and exploit concurrency.  EDGE ISAs use a block-atomic execution model in which blocks are composed of dataflow instructions.  The goal of the TRIPS design is to mine concurrency for high performance while tolerating emerging technology scaling challenges, such as increasing wire delays and power consumption.  This paper evaluates how well TRIPS meets this goal through a detailed ISA and performance analysis.  We compare performance, using cycles counts, to commercial processors.  On SPEC CPU2000, the Intel Core 2 outperforms compiled TRIPS code in most cases, although TRIPS matches a Pentium 4.  On simple benchmarks, compiled TRIPS code outperforms the Core 2 by 10% and hand-optimized TRIPS code outperforms it by factor of 3.  Compared to conventional ISAs, the block-atomic model provides a larger instruction window, increases concurrency at a cost of more instructions executed, and replaces register and memory accesses with more efficient direct instruction-to-instruction communication.  Our analysis suggests ISA, microarchitecture, and compiler enhancements for addressing weaknesses in TRIPS and indicates that EDGE architectures have the potential to exploit greater concurrency in future technologies.",
+  location     = "https://doi.org/10.1145/2528521.1508246"
+}
+
+@Article{osalosp,
+  author       = "Li Wang and Xuejun Yang and Jingling Xue and Yu Deng and Xiaobo Yan and Tao Tang and Quan Hoang Nguyen",
+  title        = "Optimizing Scientific Application Loops on Stream Processors",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "161--170",
+  month        = jul,
+  keywords     = "stream processor, streaming, loop optimization, data reuse,
+    prefetching, graph coloring, software-managed cache",
+  abstract     = "This paper describes a graph coloring compiler framework to
+    allocate on-chip SRF (Stream Register File) storage for optimizing
+    scientific applications on stream processors.  Our framework consists of
+    first applying enabling optimizations such as loop unrolling to expose
+    stream reuse and opportunities for maximizing parallelism, i.e.,
+    overlapping kernel execution and memory transfers.Then the three SRF
+    management tasks are solved in a unified manner via graph coloring: (1)
+    placing streams in the SRF, (2) exploiting stream use, and (3) maximizing
+    parallelism.  We evaluate the performance of our compiler framework by
+    actually running nine representative scientific computing kernels on our
+    FT64 stream processor.  Our preliminary results show that compiler
+    management achieves an average speedup of 2.3x compared to First-Fit
+    allocation.  In comparison with the performance results obtained from
+    running these benchmarks on Itanium 2, an average speedup of 2.1x is
+    observed.", 
+  location     = "https://doi.org/10.1145/1379023.1375679"
+}
+
+@Article{parbrafcgra,
+  author       = "Bjorn De Sutter and Paul Coene and Tom Vander Aa and Bingfeng Mei",
+  title        = "Placement-and-routing-based register allocation for coarse-grained reconfigurable arrays",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "151--160",
+  month        = jul,
+  keywords     = "register allocation, placement and routing, coarse-grained
+  parallelism, reconfigurable arrays",
+  abstract     = "DSP architectures often feature multiple register files with
+    sparse connections to a large set of ALUs.  For such DSPs, traditional
+    register allocation algorithms suffer from a lot of problems, including a
+    lack of retargetability and phase-ordering problems.  This paper studies
+    alternative register allocation techniques based on placement and routing.
+    Different register file models are studied and evaluated on a state-of-the
+    art coarse-grained reconfigurable array DSP, together with a new post-pass
+    register allocator for rotating register files.", 
+  location     = "http://users.elis.ugent.be/~brdsutte/research/publications/2008LCTESdesutter.pdf"
+}
+
+@Article{pppratmlud,
+  author       = "Mounira Bachir and Sid-Ahmed-Ali Touati and Albert Cohen",
+  title        = "Post-pass periodic register allocation to minimise loop unrolling degree",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "141--150",
+  month        = jul,
+  keywords     = "periodic register allocation, software pipelining, loop
+    unrolling, embedded code optimization",
+  abstract     = "This paper solves an open problem regarding loop unrolling
+    after periodic register allocation.  Although software pipelining is a
+    powerful technique to extract fine-grain parallelism, it generates reuse
+    circuits spanning multiple loop iterations.  These circuits require
+    periodic register allocation, which in turn yield a code generation
+    challenge, generally addressed through: (1) hardware support --- rotating
+    register files --- deemed too expensive for embedded processors, (2)
+    insertion of register moves with a high risk of reducing the computation
+    throughput --- initiation interval (II) --- of software pipelining, and (3)
+    post-pass loop unrolling that does not compromise throughput but often
+    leads to unpractical code growth.  The latter approach relies on the proof
+    that MAXLIVE registers are sufficient for periodic register allocation (2;
+    3; 5); yet the only heuristic to control the amount of post-pass loop
+    unrolling does not achieve this bound and leads to undesired register
+    spills (4; 7).We propose a periodic register allocation technique allowing
+    a software-only code generation that does not trade the optimality of the
+    II for compactness of the generated code.  Our idea is based on using the
+    remaining registers: calling Rarch the number of architectural registers of
+    the target processor, then the number of remaining registers that can be
+    used for minimising the unrolling degree is equal to Rarch-MAXLIVE.We
+    provide a complete formalisation of the problem and algorithm, followed by
+    extensive experiments.  We achieve practical loop unrolling degrees in most
+    cases --- with no increase of the II --- while state-of-the-art techniques
+    would either induce register spilling, degrade the II or lead to
+    unacceptable code growth.",
+  location     = "https://doi.org/10.1145/1379023.1375677",
+  location     = "https://hal.inria.fr/inria-00637218/document"
 }
 
 @TechReport{oem2fblis,
