@@ -531,6 +531,48 @@
   location     = "PS 3569.T3876 S32"
 }
 
+@Book{glbe,
+  author       = "Edward {de Grazia}",
+  title        = "Girls Lean Back Everywhere",
+  subtitle     = "The Law of Obscenity and the Assault on Genius",
+  publisher    = "Vintage",
+  year         = 1993,
+  address      = nyny,
+  keywords     = "censorship, obscenity prosecution",
+  location     = "KF 4775.D44"
+}
+
+@Book{tdotd,
+  author       = "John~A. Long",
+  title        = "The Dawn of the Deed",
+  subtitle     = "The Prehistoric Origins of Sex",
+  publisher    = ucp,
+  year         = 2012,
+  address      = chil,
+  keywords     = "evolution, sex, animal behavior, animal morphology",
+  location     = "QH 481.L66"
+}
+
+@Book{tsotn,
+  author       = "Andrea Camilleri",
+  title        = "The Smell of the Night",
+  publisher    = "Penguin",
+  year         = 2005,
+  address      = nyny,
+  keywords     = "murrdaar, the bezzle, give and go",
+  location     = "PQ 4863.A3894 O3613"
+}
+
+@Book{asitpitr,
+  author       = "George Saunders",
+  title        = "{A} Swim in a Pond in the Rain",
+  publisher    = "Random House",
+  year         = 2021,
+  address      = nyny,
+  keywords     = "literature, 19th century russian short stories, writing, reading",
+  location     = "PG 3097.S28"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -6703,6 +6745,219 @@
     unacceptable code growth.",
   location     = "https://doi.org/10.1145/1379023.1375677",
   location     = "https://hal.inria.fr/inria-00637218/document"
+}
+
+@Article{daeoacfesp,
+  author       = "Ryan~R. Newton and Lewis~D. Girod and Michael~B. Craig and Samuel~R. Madden and John Gregory Morrisett",
+  title        = "Design and evaluation of a compiler for embedded stream programs",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "131--140",
+  month        = jul,
+  keywords     = "stream processing language, sensor networks, segmentation,
+    scripting, optimizations, rewriting systems", 
+  abstract     = "Applications that combine live data streams with embedded,
+    parallel, and distributed processing are becoming more commonplace.
+    WaveScript is a domain-specific language that brings high-level, type-safe,
+    garbage-collected programming to these domains.  This is made possible by
+    three primary implementation techniques, each of which leverages
+    characteristics of the streaming domain.  First, we employ a novel
+    evaluation strategy that uses a combination of interpretation and
+    reification to partially evaluate programs into stream dataflow graphs.
+    Second, we use profile-driven compilation to enable many optimizations that
+    are normally only available in the synchronous (rather than asynchronous)
+    dataflow domain.  Finally, we incorporate an extensible system for rewrite
+    rules to capture algebraic properties in specific domains (such as signal
+    processing).We have used our language to build and deploy a sensor network
+    for the acoustic localization of wild animals, in particular, the
+    Yellow-Bellied marmot.  We evaluate WaveScript's performance on this
+    application, showing that it yields good performance on both embedded and
+    desktop-class machines, including distributed execution and substantial
+    parallel speedups.  Our language allowed us to implement the application
+    rapidly, while outperforming a previous C implementation by over 35%, using
+    fewer than half the lines of code.  We evaluate the contribution of our
+    optimizations to this success.", 
+  location     = "https://doi.org/10.1145/1379023.1375675", 
+  location     = "http://db.csail.mit.edu/pubs/newton-lctes08.pdf"
+}
+
+@Article{cdmcgfsdfl,
+  author       = "Dariusz Biernacki and Jean-Louis Colaço and Gregoire Hamon and Marc Pouzet",
+  title        = "Clock-directed modular code generation for synchronous data-flow languages",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "121--130",
+  month        = jul,
+  keywords     = "real-time systems, synchronous languages, compilation,
+    semantics, type systems, synchronization",
+  abstract     = "The compilation of synchronous block diagrams into sequential
+    imperative code has been addressed in the early eighties and can now be
+    considered as folklore.  However, separate, or modular, code generation,
+    though largely used in existing compilers and particularly in industrial
+    ones, has never been precisely described or entirely formalized.  Such a
+    formalization is now fundamental in the long-term goal to develop a
+    mathematically certified compiler for a synchronous language as well as in
+    simplifying existing implementations.This article presents in full detail
+    the modular compilation of synchronous block diagrams into sequential code.
+    We consider a first-order functional language reminiscent of LUSTRE, which
+    it extends with a general n-ary merge operator, a reset construct, and a
+    richer notion of clocks.  The clocks are used to express activation of
+    computations in the program and are specifically taken into account during
+    the compilation process to produce efficient imperative code.  We introduce
+    a generic machine-based intermediate language to represent transition
+    functions, and we present a concise clock-directed translation from the
+    source to this intermediate language.  We address the target code
+    generation phase by describing a translation from the intermediate language
+    to JAVA and C.",
+  location     = "https://doi.org/10.1145/1379023.1375674",
+  location     = "https://www.di.ens.fr/~pouzet/bib/lctes08a.pdf"
+}
+
+@Article{eaeplborewa,
+  author       = "Norman~H. Cohen and Karl Trygve Kalleberg",
+  title        = "{EventScript}: an event-processing language based on regular expressions with actions",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "111--120",
+  month        = jul,
+  keywords     = "event processing, regular expressions, reactive programs,
+    sensors, actuators",
+  abstract     = "EventScript is a simple, powerful language for programming
+    reactive processes.  An incoming-event stream is matched against a regular
+    expression.  Actions embedded within the regular expression execute in
+    response to pattern matching on events.  These actions include assigning
+    computed values to variables and emitting output events.  The definition of
+    EventScript presented a number of novel and interesting language-design
+    choices.  EventScript has an efficient implementation, and has been used in
+    a development environment for complex event-based applications.  We have
+    used EventScript to program both small examples and large industrial
+    applications.  Readers of EventScript programs find them easy to
+    understand, and are comfortable with the familiar model of matching regular
+    expressions.", 
+  location     = "https://doi.org/10.1145/1379023.1375673"
+}
+
+@Article{atsftadohosdp,
+  author       = "Gwenaël Delaval and Alain Girault and Marc Pouzet",
+  title        = "{A} type system for the automatic distribution of higher-order synchronous dataflow programs",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "101--110",
+  month        = jul,
+  keywords     = "synchronous programming, distribution, type systems,
+    functional programming, parallelism",
+  abstract     = "We address the design of distributed systems with synchronous
+    dataflow programming languages.  As modular design entails handling both
+    architectural and functional modularity, our first contribution is to
+    extend an existing synchronous dataflow programming language with
+    primitives allowing the description of a distributed architecture and the
+    localization of some expressions onto some processors.  We also present a
+    distributed semantics to formalize the distributed execution of synchronous
+    programs.  Our second contribution is to provide a type system, in order to
+    infer the localization of non-annotated values by means of type inference
+    and to ensure, at compilation time, the consistency of the distribution.
+    Our third contribution is to provide a type-directed projection operation
+    to obtain automatically, from a centralized typed program, the local
+    program to be executed by each computing resource.  The type system as well
+    as the automatic distribution mechanism has been fully implemented in the
+    compiler of an existing synchronous data-flow programming language.", 
+  location     = "https://doi.org/10.1145/1379023.1375672"
+}
+
+@Article{fafacaasfes,
+  author       = "Jaejin Lee and Junghyun Kim and Choonki Jang and Seungkyun Kim and Bernhard Egger and Kwangsub Kim and SangYong Han",
+  title        = "{FaCSim}: a fast and cycle-accurate architecture simulator for embedded systems",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "89--100",
+  month        = jul,
+  keywords     = "architecture simulator, simulator parallelization,
+    cycle-accurate simulation, full-system simulation, virtual prototyping",
+  abstract     = "There have been strong demands for a fast and cycle-accurate
+    virtual platforms in the embedded systems area where developers can do
+    meaningful software development including performance debugging in the
+    context of the entire platform.  In this paper, we describe the design and
+    implementation of a fast and cycle-accurate architecture simulator called
+    FaCSim as a first step towards such a virtual platform.  FacSim accurately
+    models the ARM9E-S processor core and ARM926EJ-S processor's memory
+    subsystem.  It accurately simulates exceptions and interrupts to enable
+    whole-system simulation including the OS.  Since it is implemented in a
+    modular manner in C++, it can be easily extended with other system
+    components by subclassing or adding new classes.  FaCSim is based on an
+    interpretive simulation technique to provide flexibility, yet achieving
+    high speed.  It enables fast cycle-accurate architecture simulation by
+    means of three mechanisms.  First, it computes elapsed cycles in each
+    pipeline stage as a chunk and incrementally adds it up to advance the core
+    clock instead of performing cycle-by-cycle simulation.  Second, it uses a
+    basic-block cache that caches decoded instructions at the basic-block
+    level.  Finally, it is parallelized to exploit multicore systems that are
+    available everywhere these days.  Using 21 applications from the EEMBC
+    benchmark suite, FaCSim's accuracy is validated against the ARM926EJ-S
+    development board from ARM, and is accurate in a ±7% error margin.  Due to
+    basic-block level caching and parallelization, FaCSim is, on average, more
+    than three times faster than ARMulator and more than six times faster than
+    SimpleScalar.", 
+  location     = "https://doi.org/10.1145/1379023.1375670"
+}
+
+@Article{adsifrc,
+  author       = "Sanjay Rajopadhye and Gautam Gupta and Lakshminarayanan Renganarayana",
+  title        = "A domain specific interconnect for reconfigurable computing",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "79--88",
+  month        = jul,
+  keywords     = "fpga, coarse-grain reconfiguration, silicon compilation",
+  abstract     = "Affine Control Loops (ACLs) occur frequently in data- and 
+    compute-intensive applications.  Implementing ACLs directly on dedicated
+    hardware has the potential for spectacular performance improvement in area,
+    time and energy.  An important challenge for such direct hardware
+    compilation of ACLs is the interconnection between the different processing
+    elements, which may be non-local as well as dynamic.  We propose a generic,
+    reconfigurable interconnection fabric which can realize the data-path of
+    any ACL and be dynamically reconfigured in constant time.  We have applied
+    for a patent for this technology.", 
+  location     = "https://doi.org/10.1145/1379023.1375669"
+}
+
+@Article{iparedwarrfoooep,
+  author       = "Houman Homayoun and Sudeep Pasricha and Mohammad Makhzan and Alex Veidenbaum",
+  title        = "Improving performance and reducing energy-delay with adaptive resource resizing for out-of-order embedded processors",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "71--78",
+  month        = jul,
+  keywords     = "adaptive architecture, performance, energy-delay, out-of-order
+  embedded processor, cache latency, dynamic reconfiguration",
+  abstract     = "While Ultra Deep Submicron (UDSM) CMOS scaling gives embedded
+    processor designers ample silicon budget to increase processor resources to
+    improve performance, restrictions with the power budget and practically
+    achievable operating clock frequencies act as limiting factors.  In this
+    paper we show how just increasing processor resource size is not effective
+    in improving performance due to constraints on achievable operating clock
+    frequency.  In response we propose two adaptive resource resizing
+    techniques L2RS and L2ML1RS that adaptively resize resources by exploiting
+    cache misses.  Our results show a significant performance improvement and
+    overall energy-delay reduction of on average 9.2% (upto 34%) and 3.8%
+    respectively across SPEC2K benchmarks for L2ML1RS.  Applying L2RS resulted
+    in 6.8% performance improvement (upto 24%) and 4.6% energy-delay reduction.
+    We also present the required circuit modification to apply these techniques
+    which shown to be minimal.", 
+  location     = "https://doi.org/10.1145/1379023.1375668"
 }
 
 @TechReport{oem2fblis,
