@@ -573,6 +573,27 @@
   location     = "PG 3097.S28"
 }
 
+@Book{pelb,
+  author       = "Edward~L. Bernays",
+  title        = "Propaganda",
+  publisher    = "Horace Liveright",
+  year         = 1928,
+  address      = nyny,
+  keywords     = "public relations, the mass mind, propaganda",
+  location     = "HM 1231.B47"
+}
+
+@Book{rgks,
+  author       = "Sakuraba, Kazuki",
+  title        = "Red Girls",
+  subtitle     = "The Legend of the Akakuchibas",
+  publisher    = "Haikasoru",
+  year         = 2015,
+  address      = sfca,
+  keywords     = "japan, 2nd half 20th century, generational stories",
+  location     = "PL 875.5.A39 A7713"
+}
+
 @Article{hasfadsafes,
   author       = "John Regehr and Alastair Reid",
   title        = "{HOIST}:  {A} System for Automatically Deriving Static Analyzers for Embedded Systems",
@@ -6958,6 +6979,184 @@
     We also present the required circuit modification to apply these techniques
     which shown to be minimal.", 
   location     = "https://doi.org/10.1145/1379023.1375668"
+}
+
+@Article{rassaoes,
+  author       = "Madhukar Anand and Insup Lee",
+  title        = "Robust and sustainable schedulability analysis of embedded software",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "61--70",
+  month        = jul,
+  keywords     = "schedulability analysis, sustainable schedulability analysis,
+    robust schedulability analysis, task management",
+  abstract     = "For real-time systems, most of the analysis involves efficient or exact schedulability checking.  While this is important, analysis is often based on the assumption that the task parameters such as execution requirements and inter-arrival times between jobs are known exactly.  In most cases, however, only a worst-case estimate of these quantities is available at the time of analysis.  It is therefore imperative that schedulability analysis hold for better parameter values (Sustainable Analysis).  On the other hand, if the task or system parameters turn out to be worse off, then the analysis should tolerate some deterioration (Robust Analysis).  Robust analysis is especially important, because the implication of task schedulability is often weakened in the presence of optimizations that are performed on its code, or dynamic system parameters.In this work, we define and address sustainability and robustness questions for analysis of embedded real-time software that is modeled by conditional real-time tasks.  Specifically, we show that, while the analysis is sustainable for changes in the task such as lower job execution times and increased relative deadlines, it is not the case for code changes such as job splitting and reordering.  We discuss the impact of these results in the context of common compiler optimizations, and then develop robust schedulability techniques for operations where the original analysis is not sustainable.",
+  location     = "https://doi.org/10.1145/1379023.1375666"
+}
+
+@Article{rcaocrp,
+  author       = "Jan Reineke and Daniel Grund",
+  title        = "Relative competitive analysis of cache replacement policies",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "51--60",
+  month        = jul,
+  keywords     = "cache performance, replacement policy, worst-case execution
+    time, wcet analysis, predictability",
+  abstract     = "Caches are commonly employed to hide the latency gap between memory and the CPU by exploiting locality in memory accesses.  On today's architectures a cache miss may cost several hundred CPU cycles.In order to fulfill stringent performance requirements, caches are now also used in hard real-time systems.  In such systems, upper and sometimes also lower bounds on the execution times of a task have to be computed.  To obtain tight bounds, timing analyses must take into account the cache architecture.  However, developing cache analyses -- analyses that determine whether a memory access is a hit or a miss -- is a difficult problem for some cache architectures.In this paper, we present a tool to automatically compute relative competitive ratios for a large class of replacement policies, including LRU, FIFO, and PLRU.  Relative competitive ratios bound the performance of one policy relative to the performance of another policy.These performance relations allow us to use cache-performance predictions for one policy to compute predictions for another, including policies that could previously not be dealt with.",
+  location     = "https://doi.org/10.1145/1379023.1375665"
+}
+
+@Article{cddlofriaap,
+  author       = "Doosan Cho and Sudeep Pasricha and Ilya Issenin and Nikil Dutt and Yunheung Paek and SunJun Ko",
+  title        = "Compiler driven data layout optimization for regular/irregular array access patterns",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "41--50",
+  month        = jul,
+  keywords     = "compilers, memory hierarchy, energy consumption, data
+    placement, lifetime analysis, dma preloading",
+  abstract     = "Embedded multimedia applications consist of regular and
+    irregular memory access patterns.  Particularly, irregular pattern are not
+    amenable to static analysis for extraction of access patterns, and thus
+    prevent efficient use of a Scratch Pad Memory (SPM) hierarchy for
+    performance and energy improvements.  To resolve this, we present a
+    compiler strategy to optimize data layout in regular/irregular multimedia
+    applications running on embedded multiprocessor environments.  The goal is
+    to maximize the amount of accesses to the SPM over the entire system which
+    leads to a reduction in the energy consumption of the system.  This is
+    achieved by optimizing data placement of application-wide reused data so
+    that it resides in the SPMs of processing elements.  Specifically, our
+    scheme is based on a profiling that generates a memory access footprint.
+    The memory access footprint is used to identify data elements with fine
+    granularity that can profitably be placed in the SPMs to maximize
+    performance and energy gains.  We present a heuristic approach that
+    efficiently exploits the SPMs using memory access footprint.  Our
+    experimental results show that our approach is able to reduce energy
+    consumption by 30% and improve performance by 18% over cache based memory
+    subsystems for various multimedia applications.", 
+  location     = "https://doi.org/10.1145/1379023.1375664", 
+  location     = "http://www.engr.colostate.edu/~sudeep/wp-content/uploads/c18.pdf"
+}
+
+@Article{gisusg,
+  author       = "Dietmar Ebner and Florian Brandner and Bernhard Scholz and Andreas Krall and Peter Wiedermann and Albrecht Kadlec",
+  title        = "Generalized instruction selection using {SSA}-graphs",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "31--40",
+  month        = jul,
+  keywords     = "compilers, code generation, instruction selection, pbqp",
+  abstract     = "Instruction selection is a well-studied compiler phase that 
+    translates the compiler's intermediate representation of programs to a
+    sequence of target-dependent machine instructions optimizing for various
+    compiler objectives (e.g.  speed and space).  Most existing instruction
+    selection techniques are limited to the scope of a single statement or a
+    basic block and cannot cope with irregular instruction sets that are
+    frequently found in embedded systems.We consider an optimal technique for
+    instruction selection that uses Static Single Assignment (SSA) graphs as an
+    intermediate representation of programs and employs the Partitioned Boolean
+    Quadratic Problem (PBQP) for finding an optimal instruction selection.
+    While existing approaches are limited to instruction patterns that can be
+    expressed in a simple tree structure, we consider complex patterns
+    producing multiple results at the same time including pre/post increment
+    addressing modes, div-mod instructions, and SIMD extensions frequently
+    found in embedded systems.  Although both instruction selection on
+    SSA-graphs and PBQP are known to be NP-complete, the problem can be solved
+    efficiently - even for very large instances.Our approach has been
+    implemented in LLVM for an embedded ARMv5 architecture.  Extensive
+    experiments show speedups of up to 57% on typical DSP kernels and up to 10%
+    on SPECINT 2000 and MiBench benchmarks.  All of the test programs could be
+    compiled within less than half a minute using a heuristic PBQP solver that
+    solves 99.83% of all instances optimally.", 
+  location     = "https://doi.org/10.1145/1379023.1375663", 
+  location     = "https://www.complang.tuwien.ac.at/cd/ebner/lctes08_ebner_slides.pdf"
+}
+
+@Article{iojsoecirces,
+  author       = "Carmen Badea and Alexandru Nicolau and Alexander~V. Veidenbaum",
+  title        = "Impact of {JVM} superoperators on energy consumption in resource-constrained embedded systems",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "23--30",
+  month        = jul,
+  keywords     = "energy estimation, java virtual machine, superoperators,
+    profile-guided optimization, embedded systems",
+  abstract     = "Energy consumption is one of the most important issues in 
+    resource-constrained embedded systems.  Many such systems run Java-based
+    applications due to Java's architecture-independent format (bytecode).
+    Standard techniques for executing bytecode programs, e.g.  interpretation
+    or just-in-time compilation, have performance or memory issues that make
+    them unsuitable for resource-constrained embedded systems.A
+    superoperator-extended, lightweight Java Virtual Machine (JVM) can be used
+    in resource-constrained embedded systems to improve performance and reduce
+    memory consumption.  This paper shows that such a JVM also significantly
+    reduces energy consumption.  This is due primarily to a considerable
+    reduction in the number of memory accesses and thus in energy consumption
+    in the instruction and data TLBs and caches and, in most cases, in DRAM
+    energy consumption.  Since the fraction of processor energy dissipated in
+    these units is approximately 60%, the energy savings achieved are
+    significant.The paper evaluates the number of load, store, and
+    computational instructions eliminated by the use of proposed superoperators
+    as compared to a simple interpreter on a set of embedded benchmarks.  Using
+    cache and DRAM per access energy we estimate the total processor/DRAM
+    energy saved by using our JVM.  Our results show that with 32KB caches the
+    reduction in energy consumption ranges from 40% to 60% of the overall
+    processor, plus DRAM energy.  Even higher savings may be achieved with
+    smaller caches and increased access to DRAM as DRAM access energy is fairly
+    high.", 
+  location     = "https://doi.org/10.1145/1379023.1375661"
+}
+
+@Article{ehsdhfejjitc,
+  author       = "Seong-Won Lee and Soo-Mook Moon and Seong-Moo Kim",
+  title        = "Enhanced hot spot detection heuristics for embedded {Java} just-in-time compilers",
+  journal      = lctes08,
+  year         = 2008,
+  volume       = 43,
+  number       = 7,
+  pages        = "13--22",
+  month        = jul,
+  keywords     = "java, just-in-time compilation, hot-spot detection, sun's
+    hotspot heuristic, java virtual machine, j2me cdc",
+  abstract     = "Most Java just-in-time compilers (JITC) try to compile only
+    hot methods since the compilation overhead is part of the running time.
+    This requires precise and efficient hot spot detection, which includes
+    distinguishing hot methods from cold methods, detecting them as early as
+    possible, and paying a small runtime overhead for detection.  A hot method
+    could be identified by measuring its running time during interpretation
+    since a long-running method is likely to be a hot method.  However, precise
+    measurement of the running time during execution is too expensive,
+    especially in embedded systems, so many counter-based heuristics have been
+    proposed to estimate it.  The Simple heuristic counts only method
+    invocations without any consideration of loops [1], while Sun's HotSpot
+    heuristic counts loop iterations as well, but does not consider loop sizes
+    or method sizes [2,14].  The static analysis heuristic estimates the
+    running time of a method by statically analyzing loops or heavy-cost
+    bytecodes but does not measure their dynamic counts [3].  Although the
+    overhead of these heuristics is low, they do not estimate the running time
+    precisely, which may lead to imprecise hot spot detection.This paper
+    proposes a new hot spot detection heuristic which can estimate the running
+    time more precisely than others with a relatively low overhead.  It
+    dynamically counts only important bytecodes interpreted, but with a simple
+    arithmetic calculation it can obtain the precise count of all interpreted
+    bytecodes.  We also propose employing a static analysis technique to
+    predict those hot methods which spend a huge execution time once invoked.
+    This static prediction can allow compiling these methods at their
+    first-invocation, complementing the proposed dynamic estimation technique.
+    We implemented both, which led to a performance benefit of 10% compared to
+    the HotSpot heuristic.", 
+  location     = "https://doi.org/10.1145/1379023.1375660"
 }
 
 @TechReport{oem2fblis,
