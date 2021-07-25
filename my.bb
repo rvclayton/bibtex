@@ -4,6 +4,7 @@
 @string{asplos06 = sigplan # " (" # pot # "Twelfth International Conference on " # asplos # ", ASPLOS XII)"}
 @string{asplos08 = sigplan # " (" # pot # "Thirteenth International Conference on " # asplos # ", ASPLOS XIII)"}
 @string{asplos09 = sigplan # " (" # pot # "Fourteenth International Conference on " # asplos # ", ASPLOS XIV)"}
+@string{asplos10 = sigplan # " (" # pot # "Fifteenth International Conference on " # asplos # ", ASPLOS XV)"}
 @string{lctes08 = sigplan # " (" # pot # "2008 ACM SIGPLAN-SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems, LCTES'08)"}
 @string{sosp01    = osr # " (" # pot # "Eighteenth" # sosp # ", SOSP '01)"}
 @string{osdi02    = osr # " (" # pot # "Fifth " # osdi # ")"}
@@ -592,6 +593,47 @@
   address      = sfca,
   keywords     = "japan, 2nd half 20th century, generational stories",
   location     = "PL 875.5.A39 A7713"
+}
+
+@Book{tbwpwf,
+  author       = "Tom Clynes",
+  title        = "The Boy Who Played with Fusion",
+  subtitle     = "Extreme Science, Extreme Parenting, and How to Make a Star",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2015,
+  address      = boma,
+  keywords     = "curiosity, scientific development, gifted pedagogy",
+  location     = "QC 774.W55 C59"
+}
+
+@Book{bbma,
+  author       = "Mateo Askaripour",
+  title        = "Black Buck",
+  publisher    = "Houghton Mifflin Harcourt",
+  year         = 2021,
+  address      = boma,
+  keywords     = "the ol' back and forth, sales",
+  location     = "PS 3601.S593 B57"
+}
+
+@Book{rtmac,
+  author       = "Andrea Camilleri",
+  title        = "Rounding the Mark",
+  publisher    = "Penguin",
+  year         = 2006,
+  address      = nyny,
+  keywords     = "murrdaar, thinking of the children",
+  location     = "PQ 4863.A3894 G36813"
+}
+
+@Book{sfan,
+  author       = "P.~D. James",
+  title        = "Shroud for a Nightingale",
+  publisher    = "Scribner",
+  year         = 1971,
+  address      = nyny,
+  keywords     = "murrdaar",
+  location     = "PR 6060.A467"
 }
 
 @Article{hasfadsafes,
@@ -7157,6 +7199,242 @@
     We implemented both, which led to a performance benefit of 10% compared to
     the HotSpot heuristic.", 
   location     = "https://doi.org/10.1145/1379023.1375660"
+}
+
+@Article{vafefmm,
+  author       = "Doe Hyun Yoon and Mattan Erez",
+  title        = "Virtualized and Flexible {ECC} for Main Memory",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "397--408",
+  month        = mar,
+  keywords     = "fault tolerance, error correction, memory systems reliability",
+  abstract     = "We present a general scheme for virtualizing main memory
+    error-correction mechanisms, which map redundant information needed to
+    correct errors into the memory namespace itself.  We rely on this basic
+    idea, which increases flexibility to increase error protection
+    capabilities, improve power efficiency, and reduce system cost; with only
+    small performance overheads.  We augment the virtual memory system
+    architecture to detach the physical mapping of data from the physical
+    mapping of its associated ECC information.  We then use this mechanism to
+    develop two-tiered error protection techniques that separate the process of
+    detecting errors from the rare need to also correct errors, and thus save
+    energy.  We describe how to provide strong chipkill and double-chip kill
+    protection using existing DRAM and packaging technology.  We show how to
+    maintain access granularity and redundancy overheads, even when using ×8
+    DRAM chips.  We also evaluate error correction for systems that do not use
+    ECC DIMMs.  Overall, analysis of demanding SPEC CPU 2006 and PARSEC
+    benchmarks indicates that performance overhead is only 1% with ECC DIMMs
+    and less than 10% using standard Non-ECC DIMM configurations, that DRAM
+    power savings can be as high as 27%, and that the system energy-delay
+    product is improved by 12% on average.", 
+  location     = "https://doi.org/10.1145/1735971.1736064", 
+  location     = "https://lph.ece.utexas.edu/users/dhyoon/pubs/virtualized_ecc_asplos10.pdf"
+}
+
+@Article{spserotc,
+  author       = "Shuguang Feng and Shantanu Gupta and Amin Ansari and Scott Mahlke",
+  title        = "Shoestring: probabilistic soft error reliability on the cheap",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "385--396",
+  month        = mar,
+  keywords     = "compiler analysis, error detection, fault injection",
+  abstract     = "Aggressive technology scaling provides designers with an ever 
+    increasing budget of cheaper and faster transistors.  Unfortunately, this
+    trend is accompanied by a decline in individual device reliability as
+    transistors become increasingly susceptible to soft errors.  We are quickly
+    approaching a new era where resilience to soft errors is no longer a luxury
+    that can be reserved for just processors in high-reliability,
+    mission-critical domains.  Even processors used in mainstream computing
+    will soon require protection.  However, due to tighter profit margins,
+    reliable operation for these devices must come at little or no cost.  This
+    paper presents Shoestring, a minimally invasive software solution that
+    provides high soft error coverage with very little overhead, enabling its
+    deployment even in commodity processors with 'shoestring' reliability
+    budgets.  Leveraging intelligent analysis at compile time, and exploiting
+    low-cost, symptom-based error detection, Shoestring is able to focus its
+    efforts on protecting statistically-vulnerable portions of program code.
+    Shoestring effectively applies instruction duplication to protect only
+    those segments of code that, when subjected to a soft error, are likely to
+    result in user-visible faults without first exhibiting symptomatic
+    behavior.  Shoestring is able to recover from an additional 33.9% of soft
+    errors that are undetected by a symptom-only approach, achieving an overall
+    user-visible failure rate of 1.6%.  This reliability improvement comes at a
+    modest performance overhead of 15.8%.", 
+  location     = "https://doi.org/10.1145/1735971.1736063", 
+  location     = "https://llvm.org/pubs/2010-03-ASPLOS-Shoestring.pdf"
+}
+
+@Article{oesipomc,
+  author       = "Ruirui Huang and Daniel~Y. Deng and G.~Edward Suh",
+  title        = "Orthrus: efficient software integrity protection on multi-cores",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "371--384",
+  month        = mar,
+  keywords     = "memory protection, ulti-core architecture, software diversity
+    and redundancy, replication-aware architecture, software security",
+  abstract     = "This paper proposes an efficient hardware/software system
+    that significantly enhances software security through diversified
+    replication on multi-cores.  Recent studies show that a large class of
+    software attacks can be detected by running multiple versions of a program
+    simultaneously and checking the consistency of their behaviors.  However,
+    execution of multiple replicas incurs significant overheads on today's
+    computing platforms, especially with fine-grained comparisons necessary for
+    high security.  Orthrus exploits similarities in automatically generated
+    replicas to enable simultaneous execution of those replicas with minimal
+    overheads; the architecture reduces memory and bandwidth overheads by
+    compressing multiple memory spaces together, and additional power
+    consumption and silicon area by eliminating redundant computations.
+    Utilizing the hardware architecture, Orthrus implements a fine-grained
+    memory layout diversification with the LLVM compiler and can detect
+    corruptions in both pointers and critical data.  Experiments indicate that
+    the Orthrus architecture incurs minimal overheads and provides a protection
+    against a broad range of attacks.", 
+  location     = "https://doi.org/10.1145/1735971.1736062", 
+  location     = "https://llvm.org/pubs/2010-03-ASPLOS-Orthrus.pdf"
+}
+
+@Article{icctfcm,
+  author       = "Abhishek Bhattacharjee and Margaret Martonosi",
+  title        = "Inter-core cooperative {TLB} for chip multiprocessors",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "359--370",
+  month        = mar,
+  keywords     = "translation lookaside buffer, parallelism, prefetching",
+  abstract     = "Translation Lookaside Buffers (TLBs) are commonly employed in
+    modern processor designs and have considerable impact on overall system
+    performance.  A number of past works have studied TLB designs to lower
+    access times and miss rates, specifically for uniprocessors.  With the
+    growing dominance of chip multiprocessors (CMPs), it is necessary to
+    examine TLB performance in the context of parallel workloads.This work is
+    the first to present TLB prefetchers that exploit commonality in TLB miss
+    patterns across cores in CMPs.  We propose and evaluate two Inter-Core
+    Cooperative (ICC) TLB prefetching mechanisms, assessing their effectiveness
+    at eliminating TLB misses both individually and together.  Our results show
+    these approaches require at most modest hardware and can collectively
+    eliminate 19% to 90% of data TLB (D-TLB) misses across the surveyed
+    parallel workloads.We also compare performance improvements across a range
+    of hardware and software implementation possibilities.  We find that while
+    a fully-hardware implementation results in average performance improvements
+    of 8-46% for a range of TLB sizes, a hardware/software approach yields
+    improvements of 4-32%.  Overall, our work shows that TLB prefetchers
+    exploiting inter-core correlations can effectively eliminate TLB misses.", 
+  location     = "https://doi.org/10.1145/1735971.1736060", 
+  location     = "https://ur.booksc.eu/dl/44912658/2eae71"
+}
+
+@Article{aadsmmfhps,
+  author       = "Isaac Gelado and John~E. Stone and Javier Cabezas and Sanjay Patel and Nacho Navarro and Wen-mei~W. Hwu",
+  title        = "An asymmetric distributed shared memory model for heterogeneous parallel systems",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "347--358",
+  month        = mar,
+  keywords     = "heterogeneous systems, data-centric programming models,
+    asymmetric distributed shared memory",
+  abstract     = "Heterogeneous computing combines general purpose CPUs with
+    accelerators to efficiently execute both sequential control-intensive and
+    data-parallel phases of applications.  Existing programming models for
+    heterogeneous computing rely on programmers to explicitly manage data
+    transfers between the CPU system memory and accelerator memory.This paper
+    presents a new programming model for heterogeneous computing, called
+    Asymmetric Distributed Shared Memory (ADSM), that maintains a shared
+    logical memory space for CPUs to access objects in the accelerator physical
+    memory but not vice versa.  The asymmetry allows light-weight
+    implementations that avoid common pitfalls of symmetrical distributed
+    shared memory systems.  ADSM allows programmers to assign data objects to
+    performance critical methods.  When a method is selected for accelerator
+    execution, its associated data objects are allocated within the shared
+    logical memory space, which is hosted in the accelerator physical memory
+    and transparently accessible by the methods executed on CPUs.We argue that
+    ADSM reduces programming efforts for heterogeneous computing systems and
+    enhances application portability.  We present a software implementation of
+    ADSM, called GMAC, on top of CUDA in a GNU/Linux environment.  We show that
+    applications written in ADSM and running on top of GMAC achieve performance
+    comparable to their counterparts using programmer-managed data transfers.
+    This paper presents the GMAC system and evaluates different design choices.
+    We suggest additional architectural support that will likely allow GMAC to
+    achieve higher application performance than the current CUDA model.", 
+  location     = "https://doi.org/10.1145/1735971.1736059"
+}
+
+@Article{fvstacahpfsfmcms,
+  author       = "Eiman Ebrahimi and Chang Joo Lee and Onur Mutlu and Yale~N. Patt",
+  title        = "Fairness via source throttling: a configurable and high-performance fairness substrate for multi-core memory systems",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "335--346",
+  month        = mar,
+  keywords     = "shared cmp systems, dynamic request throttling, storage
+    traffic, adaptive algorithms",
+  abstract     = "Cores in a chip-multiprocessor (CMP) system share multiple
+    hardware resources in the memory subsystem.  If resource sharing is unfair,
+    some applications can be delayed significantly while others are unfairly
+    prioritized.  Previous research proposed separate fairness mechanisms in
+    each individual resource.  Such resource-based fairness mechanisms
+    implemented independently in each resource can make contradictory
+    decisions, leading to low fairness and loss of performance.  Therefore, a
+    coordinated mechanism that provides fairness in the entire shared memory
+    system is desirable.This paper proposes a new approach that provides
+    fairness in the entire shared memory system, thereby eliminating the need
+    for and complexity of developing fairness mechanisms for each individual
+    resource.  Our technique, Fairness via Source Throttling (FST), estimates
+    the unfairness in the entire shared memory system.  If the estimated
+    unfairness is above a threshold set by system software, FST throttles down
+    cores causing unfairness by limiting the number of requests they can inject
+    into the system and the frequency at which they do.  As such, our
+    source-based fairness control ensures fairness decisions are made in tandem
+    in the entire memory system.  FST also enforces thread priorities/weights,
+    and enables system software to enforce different fairness objectives and
+    fairness-performance tradeoffs in the memory system.Our evaluations show
+    that FST provides the best system fairness and performance compared to four
+    systems with no fairness control and with state-of-the-art fairness
+    mechanisms implemented in both shared caches and memory controllers.", 
+  location     = "https://doi.org/10.1145/1735971.1736058", 
+  location     = "https://users.ece.cmu.edu/~omutlu/pub/fst_asplos10.pdfc"
+}
+
+@Article{sadvatamc,
+  author       = "Bogdan~F. Romanescu and Alvin~R. Lebeck and Daniel~J. Sorin",
+  title        = "Specifying and dynamically verifying address translation-aware memory consistency",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "323--334",
+  month        = mar,
+  keywords     = "memory consistency, virtual memory, address translation,
+    dynamic verification",
+  abstract     = "Computer systems with virtual memory are susceptible to
+    design bugs and runtime faults in their address translation (AT) systems.
+    Detecting bugs and faults requires a clear specification of correct
+    behavior.  To address this need, we develop a framework for AT-aware memory
+    consistency models.  We expand and divide memory consistency into the
+    physical address memory consistency (PAMC) model that defines the behavior
+    of operations on physical addresses and the virtual address memory
+    consistency (VAMC) model that defines the behavior of operations on virtual
+    addresses.  As part of this expansion, we show what AT features are
+    required to bridge the gap between PAMC and VAMC.  Based on our AT-aware
+    memory consistency specifications, we design efficient dynamic verification
+    hardware detecting VAMC violations and thus detect design bugs and runtime
+    faults, including most AT related bugs in published errata.",
+  location     = "https://doi.org/10.1145/1735971.1736057",
+  location     = "http://people.ee.duke.edu/~sorin/papers/asplos10_consistency.pdf"
 }
 
 @TechReport{oem2fblis,
