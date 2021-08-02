@@ -59944,7 +59944,7 @@
 }
 
 @TechReport{lrmpjp,
-  author       = "P.J. Plauger",
+  author       = "P.~J. Plauger",
   title        = "{LIL} Reference Manual",
   institution  = "Bell Labs",
   year         = 1974,
@@ -59968,7 +59968,7 @@
 }
 
 @TechReport{pilat,
-  author       = "P.J. Plauger",
+  author       = "P.~J. Plauger",
   title        = "Programming in {LIL}: {A} Tutorial",
   institution  = "Bell Labs",
   year         = 1974,
@@ -63821,7 +63821,7 @@
 }
 
 @Book{teops,
-  author       = "Brian~W. Kernighan and P.J. Plauger",
+  author       = "Brian~W. Kernighan and P.~J. Plauger",
   title        = "The Elements of Programming Style",
   publisher    = "McGraw-Hill",
   edition      = "second",
@@ -65087,7 +65087,7 @@
 }
 
 @Book{sfanpdj,
-  author       = "P.J. James",
+  author       = "P.~D. James",
   title        = "Shroud for a Nightingale",
   publisher    = "Fawcett",
   address      = nyny,
