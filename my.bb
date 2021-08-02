@@ -626,14 +626,35 @@
   location     = "PQ 4863.A3894 G36813"
 }
 
-@Book{sfan,
-  author       = "P.~D. James",
-  title        = "Shroud for a Nightingale",
-  publisher    = "Scribner",
-  year         = 1971,
+@Book{tddth,
+  author       = "Tim Harford",
+  title        = "The Data Detective",
+  subtitle     = "Ten Easy Rules to Make Sense of Statistics",
+  publisher    = "Riverhead Books",
+  year         = 2021,
   address      = nyny,
-  keywords     = "murrdaar",
-  location     = "PR 6060.A467"
+  keywords     = "statistics, data presentation, informal analysis",
+  location     = "HA 29.H2498"
+}
+
+@Book{obdjm1990,
+  author       = "James Morrow",
+  title        = "Only Begotten Daughter",
+  publisher    = "W.~Morrow",
+  year         = 1990,
+  address      = nyny,
+  keywords     = "fathers and daughters, christianity, secession",
+  location     = "PS 3563.O876 O55"
+}
+
+@Book{taraat,
+  author       = "W.~J. Rorabaugh",
+  title        = "The Alcoholic Republic, An American Tradition",
+  publisher    = oup,
+  year         = 1979,
+  address      = nyny,
+  keywords     = "alcohol production, social problems, drinking",
+  location     = "HV 5291"
 }
 
 @Article{hasfadsafes,
@@ -7435,6 +7456,280 @@
     faults, including most AT related bugs in published errata.",
   location     = "https://doi.org/10.1145/1735971.1736057",
   location     = "http://people.ee.duke.edu/~sorin/papers/asplos10_consistency.pdf"
+}
+
+@Article{fasffgs,
+  author       = "Daniel Sanchez and Richard~M. Yoo and Christos Kozyrakis",
+  title        = "Flexible architectural support for fine-grain scheduling",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "311--322",
+  month        = mar,
+  keywords     = "fine-grain parallelism, thread scheduling, asynchronous
+    messaging, messaging hardware, virtualization",
+  abstract     = "To make efficient use of CMPs with tens to hundreds of cores,
+    it is often necessary to exploit fine-grain parallelism.  However, managing
+    tasks of a few thousand instructions is particularly challenging, as the
+    runtime must ensure load balance without compromising locality and
+    introducing small overheads.  Software-only schedulers can implement
+    various scheduling algorithms that match the characteristics of different
+    applications and programming models, but suffer significant overheads as
+    they synchronize and communicate task information over the deep cache
+    hierarchy of a large-scale CMP.  To reduce these costs, hardware-only
+    schedulers like Carbon, which implement task queuing and scheduling in
+    hardware, have been proposed.  However, a hardware-only solution fixes the
+    scheduling algorithm and leaves no room for other uses of the custom
+    hardware.This paper presents a combined hardware-software approach to build
+    fine-grain schedulers that retain the flexibility of software schedulers
+    while being as fast and scalable as hardware ones.  We propose asynchronous
+    direct messages (ADM), a simple architectural extension that provides
+    direct exchange of asynchronous, short messages between threads in the CMP
+    without going through the memory hierarchy.  ADM is sufficient to implement
+    a family of novel, software-mostly schedulers that rely on low-overhead
+    messaging to efficiently coordinate scheduling and transfer task
+    information.  These schedulers match and often exceed the performance and
+    scalability of Carbon when using the same scheduling algorithm.  When the
+    ADM runtime tailors its scheduling algorithm to application
+    characteristics, it outperforms Carbon by up to 70%.", 
+  location     = "https://doi.org/10.1145/1735971.1736055", 
+  location     = "http://csl.stanford.edu/~christos/publications/2010.adm.asplos.pdf"
+}
+
+@Article{capdpuigs,
+  author       = "Dong Hyuk Woo and Hsien-Hsin~S. Lee",
+  title        = "{COMPASS}: a programmable data prefetcher using idle {GPU} shaders",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "297--310",
+  month        = mar,
+  keywords     = "gpu, compute shaders, prefetching, repurposing",
+  abstract     = "A traditional fixed-function graphics accelerator has evolved
+    into a programmable general-purpose graphics processing unit over the last
+    few years.  These powerful computing cores are mainly used for accelerating
+    graphics applications or enabling low-cost scientific computing.  To
+    further reduce the cost and form factor, an emerging trend is to integrate
+    GPU along with the memory controllers onto the same die with the processor
+    cores.  However, given such a system-on-chip, the GPU, while occupying a
+    substantial part of the silicon, will sit idle and contribute nothing to
+    the overall system performance when running non-graphics workloads or
+    applications lack of data-level parallelism.  In this paper, we propose
+    COMPASS, a compute shader-assisted data prefetching scheme, to leverage the
+    GPU resource for improving single-threaded performance on an integrated
+    system.  By harnessing the GPU shader cores with very lightweight
+    architectural support, COMPASS can emulate the functionality of a
+    hardware-based prefetcher using the idle GPU and successfully improve the
+    memory performance of single-thread applications.  Moreover, thanks to its
+    flexibility and programmability, one can implement the best performing
+    prefetch scheme to improve each specific application as demonstrated in
+    this paper.  With COMPASS, we envision that a future application vendor can
+    provide a custom-designed COMPASS shader bundled with its software to be
+    loaded at runtime to optimize the performance.  Our simulation results show
+    that COMPASS can improve the single-thread performance of memory-intensive
+    applications by 68% on average.", 
+  location     = "https://doi.org/10.1145/1735971.1736054"
+}
+
+@Article{mmsosa,
+  author       = "Amir~H. Hormati and Yoonseo Choi and Mark Woh and Manjunath Kudlur and Rodric Rabbah and Trevor Mudge and Scott Mahlke",
+  title        = "{MacroSS}: macro-{SIMDization} of streaming applications",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "285--296",
+  month        = mar,
+  keywords     = "streaming, compiler, simd architecture, optimization",
+  abstract     = "SIMD (Single Instruction, Multiple Data) engines are an
+    essential part of the processors in various computing markets, from servers
+    to the embedded domain.  Although SIMD-enabled architectures have the
+    capability of boosting the performance of many application domains by
+    exploiting data-level parallelism, it is very challenging for compilers and
+    also programmers to identify and transform parts of a program that will
+    benefit from a particular SIMD engine.  The focus of this paper is on the
+    problem of SIMDization for the growing application domain of streaming.
+    Streaming applications are an ideal solution for targeting multi-core
+    architectures, such as shared/distributed memory systems, tiled
+    architectures, and single-core systems.  Since these architectures, in most
+    cases, provide SIMD acceleration units as well, it is highly beneficial to
+    generate SIMD code from streaming programs.  Specifically, we introduce
+    MacroSS, which is capable of performing macro-SIMDization on high-level
+    streaming graphs.  Macro-SIMDization uses high-level information such as
+    execution rates of actors and communication patterns between them to
+    transform the graph structure, vectorize actors of a streaming program, and
+    generate intermediate code.  We also propose low-overhead architectural
+    modifications that accelerate shuffling of data elements between the scalar
+    and vectorized parts of a streaming program.  Our experiments show that
+    MacroSS is capable of generating code that, on average, outperforms scalar
+    code compiled with the current state-of-art auto-vectorizing compilers by
+    54%.  Using the low-overhead data shuffling hardware, performance is
+    improved by an additional 8% with less than 1% area overhead.",
+  location     = "https://doi.org/10.1145/1735971.1736053",
+  location     = "http://tnm.engin.umich.edu/wp-content/uploads/sites/353/2017/12/2010.03.macross-macro-SIMD.pdf"
+}
+
+@Article{baadatdpm,
+  author       = "Michelle~L. Goodstein and Evangelos Vlachos and Shimin Chen and Phillip~B. Gibbons and Michael~A. Kozuch and Todd~C. Mowry",
+  title        = "Butterfly analysis: adapting dataflow analysis to dynamic parallel monitoring",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "257--270",
+  month        = mar,
+  keywords     = "dataflow analysis, static analysis, parallel programming,
+    dynamic program monitoring, inter-thread data dependencies, epochal analysis",
+  abstract     = "Online program monitoring is an effective technique for
+    detecting bugs and security attacks in running applications.  Extending
+    these tools to monitor parallel programs is challenging because the tools
+    must account for inter-thread dependences and relaxed memory consistency
+    models.  Existing tools assume sequential consistency and often slow down
+    the monitored program by orders of magnitude.  In this paper, we present a
+    novel approach that avoids these pitfalls by not relying on strong
+    consistency models or detailed inter-thread dependence tracking.  Instead,
+    we only assume that events in the distant past on all threads have become
+    visible; we make no assumptions on (and avoid the overheads of tracking)
+    the relative ordering of more recent events on other threads.  To overcome
+    the potential state explosion of considering all the possible orderings
+    among recent events, we adapt two techniques from static dataflow analysis,
+    reaching definitions and reaching expressions, to this new domain of
+    dynamic parallel monitoring.  Significant modifications to these techniques
+    are proposed to ensure the correctness and efficiency of our approach.  We
+    show how our adapted analysis can be used in two popular memory and
+    security tools.  We prove that our approach does not miss errors, and
+    sacrifices precision only due to the lack of a relative ordering among
+    recent events.  Moreover, our simulation study on a collection of Splash-2
+    and Parsec 2.0 benchmarks running a memory-checking tool on a
+    hardware-assisted logging platform demonstrates the potential benefits in
+    trading off a very low false positive rate for (i) reduced overhead and
+    (ii) the ability to run on relaxed consistency models.", 
+  location     = "https://doi.org/10.1145/1735971.1736050", 
+  location     = "https://www.cs.cmu.edu/~mgoodste/research/butterfly_asplos10.pdf"
+}
+
+@Article{peaaopmoma,
+  author       = "Evangelos Vlachos and Michelle~L. Goodstein and Michael~A. Kozuch and Shimin Chen and Babak Falsafi and Phillip~B. Gibbons and Todd~C. Mowry",
+  title        = "{ParaLog}: enabling and accelerating online parallel monitoring of multithreaded applications",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "271--284",
+  month        = mar,
+  keywords     = "online parallel monitoring, hardware debugging support,
+    instruction-grain lifeguards, shadow storage",
+  abstract     = "Instruction-grain lifeguards monitor the events of a running
+    application at the level of individual instructions in order to identify
+    and help mitigate application bugs and security exploits.  Because such
+    lifeguards impose a 10-100X slowdown on existing platforms, previous
+    studies have proposed hardware designs to accelerate lifeguard processing.
+    However, these accelerators are either tailored to a specific class of
+    lifeguards or suitable only for monitoring singlethreaded programs.We
+    present ParaLog, the first design of a system enabling fast online parallel
+    monitoring of multithreaded parallel applications.  ParaLog supports a
+    broad class of software-defined lifeguards.  We show how three existing
+    accelerators can be enhanced to support online multithreaded monitoring,
+    dramatically reducing lifeguard overheads.  We identify and solve several
+    challenges in monitoring parallel applications and/or parallelizing these
+    accelerators, including (i) enforcing inter-thread data dependences, (ii)
+    dealing with inter-thread effects that are not reflected in coherence
+    traffic, (iii) dealing with unmonitored operating system activity, and (iv)
+    ensuring lifeguards can access shared metadata with negligible
+    synchronization overheads.  We present our system design for both
+    Sequentially Consistent and Total Store Ordering processors.  We implement
+    and evaluate our design on a 16 core simulated CMP, using benchmarks from
+    SPLASH-2 and PARSEC and two lifeguards: a data-flow tracking lifeguard and
+    a memory-access checker lifeguard.  Our results show that (i) our parallel
+    accelerators improve performance by 2-9X and 1.13-3.4X for our two
+    lifeguards, respectively, (ii) we are 5-126X faster than the time-slicing
+    approach required by existing techniques, and (iii) our average overheads
+    for applications with eight threads are 51% and 28% for the two lifeguards,
+    respectively.", 
+  location     = "https://doi.org/10.1145/1735971.1736051",
+  location     = "http://www.cs.cmu.edu/~lba/papers/LBA-ParaLog-asplos10.pdf"
+}
+
+@Article{jooiacpidcwmrt,
+  author       = "Faraz Ahmad and T.~N. Vijaykumar",
+  title        = "Joint optimization of idle and cooling power in data centers while maintaining response time",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "243--256",
+  month        = mar,
+  keywords     = "data center, power management, idle power, cooling power,
+    response time",
+  abstract     = "Server power and cooling power amount to a significant
+    fraction of modern data centers' recurring costs.  While data centers
+    provision enough servers to guarantee response times under the maximum
+    loading, data centers operate under much less loading most of the times
+    (e.g., 30-70% of the maximum loading).  Previous server-power proposals
+    exploit this under-utilization to reduce the server idle power by keeping
+    active only as many servers as necessary and putting the rest into
+    low-power standby modes.  However, these proposals incur higher cooling
+    power due to hot spots created by concentrating the data center loading on
+    fewer active servers, or degrade response times due to standby-to-active
+    transition delays, or both.  Other proposals optimize the cooling power but
+    incur considerable idle power.  To address the first issue of power, we
+    propose PowerTrade, which trades-off idle power and cooling power for each
+    other, thereby reducing the total power.  To address the second issue of
+    response time, we propose SurgeGuard to overprovision the number of active
+    servers beyond that needed by the current loading so as to absorb future
+    increases in the loading.  SurgeGuard is a two-tier scheme which uses
+    well-known over-provisioning at coarse time granularities (e.g., one hour)
+    to absorb the common, smooth increases in the loading, and a novel
+    fine-grain replenishment of the over-provisioned reserves at fine time
+    granularities (e.g., five minutes) to handle the uncommon, abrupt loading
+    surges.  Using real-world traces, we show that combining PowerTrade and
+    SurgeGuard reduces total power by 30% compared to previous low-power
+    schemes while maintaining response times within 1.7%.", 
+  location     = "https://doi.org/10.1145/1735971.1736048", 
+  location     = "https://engineering.purdue.edu/~vijay/papers/2010/powertrade.pdf"
+}
+
+@Article{prdppitdc,
+  author       = "Steven Pelley and David Meisner and Pooya Zandevakili and Thomas~F. Wenisch and Jack Underwood",
+  title        = "Power routing: dynamic power provisioning in the data center",
+  journal      = asplos10,
+  year         = 2010,
+  volume       = 45,
+  number       = 3,
+  pages        = "231--242",
+  month        = mar,
+  keywords     = "power infrastructure, data centers, throttling, power distribution",
+  abstract     = "Data center power infrastructure incurs massive capital
+    costs, which typically exceed energy costs over the life of the facility.
+    To squeeze maximum value from the infrastructure, researchers have proposed
+    over-subscribing power circuits, relying on the observation that peak loads
+    are rare.  To ensure availability, these proposals employ power capping,
+    which throttles server performance during utilization spikes to enforce
+    safe power budgets.  However, because budgets must be enforced locally --
+    at each power distribution unit (PDU) -- local utilization spikes may force
+    throttling even when power delivery capacity is available elsewhere.
+    Moreover, the need to maintain reserve capacity for fault tolerance on
+    power delivery paths magnifies the impact of utilization spikes.In this
+    paper, we develop mechanisms to better utilize installed power
+    infrastructure, reducing reserve capacity margins and avoiding performance
+    throttling.  Unlike conventional high-availability data centers, where
+    collocated servers share identical primary and secondary power feeds, we
+    reorganize power feeds to create shuffled power distribution topologies.
+    Shuffled topologies spread secondary power feeds over numerous PDUs,
+    reducing reserve capacity requirements to tolerate a single PDU failure.
+    Second, we propose Power Routing, which schedules IT load dynamically
+    across redundant power feeds to: (1) shift slack to servers with growing
+    power demands, and (2) balance power draw across AC phases to reduce
+    heating and improve electrical stability.  We describe efficient heuristics
+    for scheduling servers to PDUs (an NP-complete problem).  Using data
+    collected from nearly 1000 servers in three production facilities, we
+    demonstrate that these mechanisms can reduce the required power
+    infrastructure capacity relative to conventional high-availability data
+    centers by 32% without performance degradation.", 
+  location     = "https://doi.org/10.1145/1735971.1736047", 
+  location     = "https://web.eecs.umich.edu/~twenisch/papers/asplos10.pdf"
 }
 
 @TechReport{oem2fblis,
